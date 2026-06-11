@@ -46,8 +46,20 @@ class RiskManager:
             return RiskVerdict("resized", qty, "capped by risk limits")
         return RiskVerdict("approved", qty)
 
-    def stop_price(self, entry_px: float) -> float:
-        return entry_px * (1 - self.limits.stop_loss_pct)
+    def stop_price(self, entry_px: float, ticker_vol_annual: float | None = None) -> float:
+        """Volatility-aware disaster stop.
+
+        The configured stop_loss_pct is a FLOOR, not a target: strategies are
+        validated holding through normal drawdowns, so the stop must sit beyond
+        a typical month's noise (2.5x a 21-day vol move) or it converts dips
+        into realized losses. Hard-capped at 35%.
+        """
+        import numpy as np
+        pct = self.limits.stop_loss_pct
+        if ticker_vol_annual and ticker_vol_annual > 0:
+            monthly_move = 2.5 * (ticker_vol_annual / np.sqrt(252)) * np.sqrt(21)
+            pct = min(max(pct, monthly_move), 0.35)
+        return entry_px * (1 - pct)
 
     def drawdown_halted(self, drawdown: float) -> bool:
         return drawdown <= -self.limits.drawdown_halt_pct

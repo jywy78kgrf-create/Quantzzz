@@ -252,11 +252,14 @@ class TraderAgent:
 
         ranked = []
         seen_tickers: set[str] = set()
+        cooled_off = self._stop_out_cooldown_tickers()
         longs.sort(key=lambda c: c["strength"], reverse=True)
         for c in longs:
             t = c["ticker"]
             if t in held or t in seen_tickers or self._quote(t) is None:
                 continue
+            if t in cooled_off:
+                continue  # recently stopped out; don't churn straight back in
             if not self.learning.is_active(c["strategy_id"]):
                 continue
             seen_tickers.add(t)  # one entry per ticker per session, strongest signal wins
@@ -332,12 +335,21 @@ class TraderAgent:
         if fill:
             self.conn.execute(
                 "UPDATE positions SET stop_px=? WHERE fund=? AND ticker=?",
-                (self.risk.stop_price(fill.price), self.fund, ticker))
+                (self.risk.stop_price(fill.price, self._ticker_vol(ticker)),
+                 self.fund, ticker))
             insert(self.conn, "trades", fund=self.fund, strategy_id=c["strategy_id"],
                    ticker=ticker, entry_ts=self._ts(), entry_px=fill.price, qty=qty)
             self.conn.commit()
             return True
         return False
+
+    def _stop_out_cooldown_tickers(self, cooldown_days: int = 14) -> set[str]:
+        """Tickers stopped out within the cooldown window (no immediate re-entry)."""
+        cutoff = (pd.Timestamp(self._ts()) - pd.Timedelta(days=cooldown_days)).isoformat()
+        rows = self.conn.execute(
+            "SELECT DISTINCT ticker FROM trades WHERE fund=? AND exit_reason LIKE 'stop hit%' "
+            "AND exit_ts >= ?", (self.fund, cutoff)).fetchall()
+        return {r["ticker"] for r in rows}
 
     def _catalyst_scenario_mult(self, ticker: str) -> float | None:
         """Empirical catalyst scenario sizing for biotech entries.

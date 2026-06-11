@@ -65,6 +65,11 @@ def refresh_survivorship_pool(cfg: Config, conn, max_names: int = 40) -> dict:
     store = SnapshotStore(cfg.snapshot_dir)
     av = AlphaVantageClient(cfg, conn, store)
     rows = av.listing_status("delisted")
+    if not rows:
+        # offline / no key: never clobber the committed pool with emptiness
+        existing = store.load_json("delisted.json") or []
+        return {"skipped": "no listing data; kept existing pool",
+                "with_history": len(existing)}
     pool = [
         r for r in rows
         if r.get("assetType") == "Stock"
@@ -103,6 +108,9 @@ def refresh_earnings_calendar(cfg: Config, conn) -> dict:
     bpiq_uni = store.load_json("bpiq/universe.json") or []
     universe.update(bpiq_uni)
     rows = av.earnings_calendar()
+    if not rows:
+        existing = store.load_json("av_earnings_calendar.json") or []
+        return {"skipped": "no calendar data; kept existing", "in_universe": len(existing)}
     ours = [
         {"ticker": r["symbol"], "reportDate": r["reportDate"],
          "estimate": r.get("estimate") or None, "time": r.get("timeOfTheDay")}

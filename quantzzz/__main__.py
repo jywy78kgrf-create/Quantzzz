@@ -50,6 +50,11 @@ def main(argv: list[str] | None = None) -> int:
 
     sub.add_parser("dashboard", help="launch the Streamlit dashboards")
 
+    p_cockpit = sub.add_parser("cockpit", help="always-on mission-control dashboard")
+    p_cockpit.add_argument("--port", type=int, default=8600)
+    p_cockpit.add_argument("--auto-sync", type=int, default=600, metavar="SECONDS",
+                           help="pull fund state from GitHub this often (0 = off)")
+
     args = p.parse_args(argv)
     cfg = load_config()
 
@@ -111,6 +116,11 @@ def main(argv: list[str] | None = None) -> int:
         from .orchestrator import run_loop
         run_loop(cfg, cycles=args.cycles, interval_s=args.interval_s,
                  research_iterations=args.research_iterations)
+        return 0
+
+    if args.cmd == "cockpit":
+        from .cockpit import serve
+        serve(cfg, port=args.port, auto_sync_s=args.auto_sync)
         return 0
 
     if args.cmd == "dashboard":

@@ -1,8 +1,8 @@
 # secrets
 .env
 
-# runtime state
-*.db
+# runtime state (data/seed.db IS committed — compact state without cache blobs)
+/quantzzz.db
 *.db-wal
 *.db-shm
 data/cache/

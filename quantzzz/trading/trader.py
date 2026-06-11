@@ -36,8 +36,17 @@ class TraderAgent:
         from ..llm import get_llm
         self.llm = get_llm(cfg)
         self.learning = LearningLoop(cfg, fund, conn, self.journal, self.llm)
-        self._price_cache = self._load_recent_closes()
+        self.as_of = None                       # set during historical replay
+        self._all_prices = self._load_price_frames()
+        self._price_cache = self._closes_as_of(None)
+        self._bundle = self._load_bundle()      # built once, sliced per session
         self.broker = make_broker(cfg, fund, conn, self._quote)
+
+    def _load_bundle(self):
+        from ..research.feature_loader import load_feature_bundle
+        from ..universe import universe_for
+        tickers = universe_for(self.fund, self.cfg.snapshot_dir)
+        return load_feature_bundle(self.cfg, self.fund, tickers, self.store, self.conn)
 
     @classmethod
     def build(cls, cfg: Config, fund: str) -> "TraderAgent":
@@ -45,12 +54,21 @@ class TraderAgent:
         return cls(cfg, fund, conn)
 
     # ---- quotes (snapshot close as the paper price) ----
-    def _load_recent_closes(self) -> dict[str, float]:
-        cache = {}
+    def _load_price_frames(self) -> dict:
+        frames = {}
         for t in self.store.available_tickers():
             df = self.store.load_prices(t)
             if df is not None and len(df):
-                cache[t] = float(df["close"].iloc[-1])
+                frames[t] = df["close"]
+        return frames
+
+    def _closes_as_of(self, as_of) -> dict[str, float]:
+        """Latest close on or before as_of (or the very latest when as_of is None)."""
+        cache = {}
+        for t, series in self._all_prices.items():
+            s = series if as_of is None else series[series.index <= as_of]
+            if len(s):
+                cache[t] = float(s.iloc[-1])
         return cache
 
     def _quote(self, ticker: str) -> float | None:
@@ -64,7 +82,10 @@ class TraderAgent:
         return float(vol) if vol and vol > 0 else 0.4
 
     # ---- session ----
-    def session(self) -> str:
+    def session(self, as_of=None) -> str:
+        self.as_of = as_of
+        if as_of is not None:
+            self._price_cache = self._closes_as_of(as_of)
         quotes = self._price_cache
         self.broker.mark_to_market(quotes)
         drawdown = self._current_drawdown()
@@ -112,7 +133,7 @@ class TraderAgent:
         count = 0
         retired = {r["id"] for r in self.conn.execute(
             "SELECT id FROM strategies WHERE status='retired'").fetchall()}
-        candidates = generate_candidates(self.cfg, self.fund, self.conn, self.store)
+        candidates = generate_candidates(self.cfg, self.fund, self.conn, self.store, self.as_of, self._bundle)
         exit_signals = {(c["strategy_id"], c["ticker"]) for c in candidates
                         if c["direction"] == "exit"}
         long_signals = {(c["strategy_id"], c["ticker"]) for c in candidates
@@ -157,7 +178,7 @@ class TraderAgent:
 
     # ---- entries ----
     def _process_entries(self) -> int:
-        candidates = generate_candidates(self.cfg, self.fund, self.conn, self.store)
+        candidates = generate_candidates(self.cfg, self.fund, self.conn, self.store, self.as_of, self._bundle)
         longs = [c for c in candidates if c["direction"] == "long"]
         held = {p.ticker for p in self.broker.get_positions()}
 

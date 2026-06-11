@@ -14,6 +14,25 @@ from .trading.trader import TraderAgent
 _STOP = False
 
 
+def replay(cfg: Config, fund: str, lookback_days: int = 180, step_days: int = 3) -> str:
+    """Step a trader through historical snapshot dates to build a realistic track
+    record (moving equity curve, closed trades, learning-loop activity)."""
+    import pandas as pd
+    from .trading.trader import TraderAgent
+
+    agent = TraderAgent.build(cfg, fund)
+    # use the benchmark's calendar as the trading-day clock
+    bench = agent.store.load_prices("SPY" if fund == "equity" else "XBI")
+    if bench is None or bench.empty:
+        return f"[{fund}] no benchmark calendar for replay"
+    dates = bench.index[bench.index >= bench.index.max() - pd.Timedelta(days=lookback_days)]
+    dates = dates[::step_days]
+    last = None
+    for d in dates:
+        last = agent.session(as_of=d)
+    return f"[{fund}] replayed {len(dates)} sessions over {lookback_days}d -> {last}"
+
+
 def _handle_sigint(signum, frame):
     global _STOP
     _STOP = True

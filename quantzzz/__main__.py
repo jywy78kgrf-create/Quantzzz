@@ -35,6 +35,11 @@ def main(argv: list[str] | None = None) -> int:
     p_trade = sub.add_parser("trade", help="run one trader session for a fund")
     p_trade.add_argument("--fund", required=True, choices=["equity", "biotech"])
 
+    p_replay = sub.add_parser("replay", help="replay a trader over historical dates")
+    p_replay.add_argument("--fund", required=True, choices=["equity", "biotech"])
+    p_replay.add_argument("--lookback-days", type=int, default=180)
+    p_replay.add_argument("--step-days", type=int, default=3)
+
     p_run = sub.add_parser("run", help="continuous orchestrator loop")
     p_run.add_argument("--cycles", type=int, default=0, help="0 = run forever")
     p_run.add_argument("--interval-s", type=int, default=900)
@@ -68,6 +73,11 @@ def main(argv: list[str] | None = None) -> int:
         agent = TraderAgent.build(cfg, args.fund)
         report = agent.session()
         print(report)
+        return 0
+
+    if args.cmd == "replay":
+        from .orchestrator import replay
+        print(replay(cfg, args.fund, args.lookback_days, args.step_days))
         return 0
 
     if args.cmd == "run":

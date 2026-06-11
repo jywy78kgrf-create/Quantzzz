@@ -23,16 +23,24 @@ def promoted_strategies(conn: sqlite3.Connection, fund: str) -> list[tuple[int, 
 
 
 def generate_candidates(cfg: Config, fund: str, conn: sqlite3.Connection,
-                        store: SnapshotStore) -> list[dict]:
+                        store: SnapshotStore, as_of=None, bundle=None) -> list[dict]:
     """For each promoted strategy, read the latest target weights and emit candidates.
 
     Returns dicts: {strategy_id, ticker, direction, strength, target_weight}.
     Direction 'long' = strategy wants exposure; the trader reconciles vs holdings.
+    When as_of is set, signals are computed as if that date were the present.
+    A prebuilt `bundle` can be passed to avoid reloading snapshots each call.
     """
-    tickers = universe_for(fund, cfg.snapshot_dir)
-    bundle = load_feature_bundle(cfg, fund, tickers, store, conn)
+    if bundle is None:
+        tickers = universe_for(fund, cfg.snapshot_dir)
+        bundle = load_feature_bundle(cfg, fund, tickers, store, conn)
     if bundle.prices.empty:
         return []
+    if as_of is not None:
+        dates = bundle.prices.index[bundle.prices.index <= as_of]
+        if len(dates) < 2:
+            return []
+        bundle = bundle.slice(dates)
 
     out: list[dict] = []
     for strat_id, spec in promoted_strategies(conn, fund):

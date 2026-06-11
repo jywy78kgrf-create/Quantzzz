@@ -244,6 +244,7 @@ class TraderAgent:
         self.as_of = as_of
         if as_of is not None:
             self._price_cache = self._closes_as_of(as_of)
+        self.broker.session_ts = self._ts()
         self.broker.mark_to_market(self._price_cache, ts=self._ts())
         drawdown = self._current_drawdown()
         state = self._fund_mode()

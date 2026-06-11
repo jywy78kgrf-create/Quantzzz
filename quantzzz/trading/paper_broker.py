@@ -16,7 +16,11 @@ class PaperBroker(Broker):
         self.fund = fund
         self.conn = conn
         self.quote_fn = quote_fn          # ticker -> latest price (or None)
+        self.session_ts = None            # set by the trader (as-of in replays)
         self._ensure_account()
+
+    def _now(self) -> str:
+        return self.session_ts or utcnow()
 
     def _ensure_account(self) -> None:
         row = self.conn.execute(
@@ -81,7 +85,7 @@ class PaperBroker(Broker):
             return None
 
         order_id = self._record_order(order, "filled")
-        insert(self.conn, "fills", order_id=order_id, ts=utcnow(), qty=order.qty,
+        insert(self.conn, "fills", order_id=order_id, ts=self._now(), qty=order.qty,
                price=fill_px, slippage_bps=slip)
         self._apply_fill(order, fill_px)
         return Fill(order_id, order.ticker, order.qty, fill_px, slip)
@@ -93,7 +97,7 @@ class PaperBroker(Broker):
             self._set_cash(cash - fill_px * order.qty)
             if pos is None:
                 insert(self.conn, "positions", fund=self.fund, ticker=order.ticker,
-                       qty=order.qty, avg_cost=fill_px, opened_ts=utcnow(),
+                       qty=order.qty, avg_cost=fill_px, opened_ts=self._now(),
                        strategy_id=order.strategy_id)
             else:
                 new_qty = pos.qty + order.qty
@@ -114,7 +118,7 @@ class PaperBroker(Broker):
         self.conn.commit()
 
     def _record_order(self, order: Order, status: str, reason: str | None = None) -> int:
-        return insert(self.conn, "orders", fund=self.fund, ts=utcnow(),
+        return insert(self.conn, "orders", fund=self.fund, ts=self._now(),
                       strategy_id=order.strategy_id, ticker=order.ticker,
                       side=order.side, qty=order.qty, order_type=order.order_type,
                       status=status, reject_reason=reason, journal_id=order.journal_id)

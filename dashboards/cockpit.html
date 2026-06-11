@@ -150,8 +150,8 @@
     <div class="feed" id="feed"></div>
   </div>
 
-  <div class="card col4"><h3>Equity Book</h3><table id="poseq"><tbody></tbody></table></div>
-  <div class="card col4"><h3>Biotech Book</h3><table id="posbio"><tbody></tbody></table></div>
+  <div class="card col4"><h3>Equity Book</h3><table id="poseq"><thead></thead><tbody></tbody></table></div>
+  <div class="card col4"><h3>Biotech Book</h3><table id="posbio"><thead></thead><tbody></tbody></table></div>
   <div class="card col4"><h3>Catalyst Radar</h3><div id="cats"></div></div>
 </div>
 
@@ -206,21 +206,25 @@ function labChart(s){
     lab.setOption({backgroundColor:'transparent',
       tooltip:{backgroundColor:'#0c1120',borderColor:'#1c2742',textStyle:{color:'#dfe7ff'},
         formatter:p=>`${p.name}<br>OOS Sharpe ${(+p.value[2]).toFixed(2)} · dd ${(+p.value[0]).toFixed(0)}% · fitness ${(+p.value[1]).toFixed(2)}`},
-      grid3D:{boxWidth:170,boxDepth:110,boxHeight:80,
-        viewControl:{autoRotate:true,autoRotateSpeed:7,distance:235,alpha:14,beta:35},
-        axisLine:{lineStyle:{color:'#22304f'}},
-        axisPointer:{lineStyle:{color:'#2b3d68'}},
-        splitLine:{lineStyle:{color:'#121b32'}},
-        light:{main:{intensity:1.3,shadow:false},ambient:{intensity:.45}}},
-      xAxis3D:{name:'max dd %',nameTextStyle:{color:'#6b7a9c'},axisLabel:{color:'#56627f'}},
-      yAxis3D:{name:'fitness',nameTextStyle:{color:'#6b7a9c'},axisLabel:{color:'#56627f'}},
-      zAxis3D:{name:'OOS sharpe',nameTextStyle:{color:'#6b7a9c'},axisLabel:{color:'#56627f'}},
+      grid3D:{boxWidth:230,boxDepth:130,boxHeight:95,
+        viewControl:{autoRotate:true,autoRotateSpeed:7,distance:168,alpha:13,beta:35},
+        axisLine:{lineStyle:{color:'#54688f',width:1.6}},
+        axisPointer:{lineStyle:{color:'#7d93c4'}},
+        splitLine:{show:true,lineStyle:{color:'#2c3c61',width:1}},
+        splitArea:{show:true,areaStyle:{color:['rgba(20,29,54,.35)','rgba(13,20,40,.35)']}},
+        light:{main:{intensity:1.3,shadow:false},ambient:{intensity:.5}}},
+      xAxis3D:{name:'max dd %',nameTextStyle:{color:'#9fb0d6',fontSize:13},
+               axisLabel:{color:'#8295bd',fontSize:11}},
+      yAxis3D:{name:'fitness',nameTextStyle:{color:'#9fb0d6',fontSize:13},
+               axisLabel:{color:'#8295bd',fontSize:11}},
+      zAxis3D:{name:'OOS sharpe',nameTextStyle:{color:'#9fb0d6',fontSize:13},
+               axisLabel:{color:'#8295bd',fontSize:11}},
       series:[
-        {type:'scatter3D',data:norm.map(mk),symbolSize:7,
-         itemStyle:{opacity:.8},emphasis:{itemStyle:{color:'#ffc560'}}},
-        {type:'scatter3D',data:prom.map(mk),symbolSize:15,
+        {type:'scatter3D',data:norm.map(mk),symbolSize:4,
+         itemStyle:{opacity:.85},emphasis:{itemStyle:{color:'#ffc560'}}},
+        {type:'scatter3D',data:prom.map(mk),symbolSize:9,
          itemStyle:{color:'#2dd4a7',opacity:1},
-         label:{show:true,formatter:'★',textStyle:{color:'#2dd4a7',fontSize:14}}},
+         label:{show:true,formatter:'★',textStyle:{color:'#2dd4a7',fontSize:12}}},
       ]});
   }else{
     const mk2=r=>({value:[(r.max_dd||0)*100, r.oos_sharpe, Math.max(4,(r.fitness||0)*6+6)],
@@ -332,18 +336,25 @@ function feed(s){
   }
 }
 
+const px$=v=>v>=1000?'$'+Math.round(v).toLocaleString():'$'+(+v).toFixed(2);
 function books(s){
   for(const[fund,el]of[['equity','poseq'],['biotech','posbio']]){
     const tb=$(el).querySelector('tbody'); tb.innerHTML='';
+    const head=$(el).querySelector('thead');
     const rows=s.positions[fund]||[];
-    if(!rows.length){tb.innerHTML='<tr><td style="color:var(--dim)">no open positions</td></tr>';continue;}
-    const maxw=Math.max(...rows.map(r=>r.weight),1);
+    if(!rows.length){head.innerHTML='';
+      tb.innerHTML='<tr><td style="color:var(--dim)">no open positions</td></tr>';continue;}
+    head.innerHTML=`<tr><th>tkr</th><th>entry</th><th style="text-align:right">in</th>
+      <th style="text-align:right">now</th><th style="text-align:right">p&l</th>
+      <th style="text-align:right">wt</th></tr>`;
     for(const r of rows){
       tb.insertAdjacentHTML('beforeend',`<tr>
-        <td style="width:54px"><b>${r.ticker}</b></td>
-        <td style="width:100%"><div class="bar" style="width:${Math.max(3,r.weight/maxw*100)}%"></div></td>
-        <td style="text-align:right">${r.weight.toFixed(1)}%</td>
-        <td class="${cls(r.pnl_pct)}" style="text-align:right">${pct(r.pnl_pct,1)}</td></tr>`);
+        <td><b>${r.ticker}</b></td>
+        <td style="color:var(--dim)">${(r.entry_date||'').slice(2)}</td>
+        <td style="text-align:right;color:var(--dim)">${px$(r.entry_px)}</td>
+        <td style="text-align:right">${px$(r.px)}</td>
+        <td class="${cls(r.pnl_pct)}" style="text-align:right">${pct(r.pnl_pct,1)}</td>
+        <td style="text-align:right;color:var(--dim)">${r.weight.toFixed(1)}%</td></tr>`);
     }
   }
 }

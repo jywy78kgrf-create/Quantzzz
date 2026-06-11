@@ -94,10 +94,11 @@ def build_state(cfg: Config) -> dict:
         GROUP BY s.id
         ORDER BY (s.status='promoted') DESC, sharpe DESC LIMIT 10""")
 
-    # ---- positions with live weights ----
+    # ---- positions with entry context and live P&L ----
     positions = {}
     for fund in ("equity", "biotech"):
-        rows = _rows(conn, "SELECT ticker, qty, avg_cost FROM positions WHERE fund=?", (fund,))
+        rows = _rows(conn, "SELECT ticker, qty, avg_cost, opened_ts FROM positions "
+                           "WHERE fund=?", (fund,))
         eq = funds.get(fund, {}).get("equity") or 1
         out = []
         for r in rows:
@@ -105,8 +106,12 @@ def build_state(cfg: Config) -> dict:
             last_px = float(px["close"].iloc[-1]) if px is not None and len(px) else r["avg_cost"]
             out.append({
                 "ticker": r["ticker"],
+                "entry_date": (r["opened_ts"] or "")[:10],
+                "entry_px": r["avg_cost"],
+                "px": last_px,
                 "value": r["qty"] * last_px,
                 "weight": r["qty"] * last_px / eq * 100,
+                "pnl": (last_px - r["avg_cost"]) * r["qty"],
                 "pnl_pct": (last_px / r["avg_cost"] - 1) * 100 if r["avg_cost"] else 0,
             })
         out.sort(key=lambda x: -x["weight"])

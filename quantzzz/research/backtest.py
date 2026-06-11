@@ -90,3 +90,19 @@ def chronological_split(
     n = len(dates)
     cut = int(n * train_frac)
     return dates[:cut], dates[min(cut + embargo_days, n):]
+
+
+def walk_forward_windows(
+    dates: pd.DatetimeIndex, n_windows: int = 3, test_frac: float = 0.4,
+    embargo_days: int = 21,
+) -> tuple[pd.DatetimeIndex, list[pd.DatetimeIndex]]:
+    """Anchored walk-forward: one in-sample region followed by `n_windows`
+    contiguous, disjoint out-of-sample windows covering the last `test_frac`
+    of history. Returns (is_dates, [oos_window_dates, ...])."""
+    n = len(dates)
+    test_len = max(1, int(n * test_frac) // n_windows)
+    start_test = n - test_len * n_windows
+    is_dates = dates[:max(0, start_test - embargo_days)]
+    windows = [dates[start_test + k * test_len: start_test + (k + 1) * test_len]
+               for k in range(n_windows)]
+    return is_dates, windows

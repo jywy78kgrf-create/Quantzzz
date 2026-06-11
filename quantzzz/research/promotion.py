@@ -1,9 +1,10 @@
-"""Promotion criteria and evaluation result for the research loop."""
+"""Promotion criteria and walk-forward evaluation for the research loop."""
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
+import numpy as np
 import pandas as pd
 
 from ..config import PromotionThresholds
@@ -14,7 +15,7 @@ from .backtest import BacktestResult
 @dataclass
 class Evaluation:
     is_sharpe: float
-    oos_sharpe: float
+    oos_sharpe: float                  # over all OOS windows combined
     oos_alpha: float
     oos_beta: float
     max_dd: float
@@ -22,33 +23,44 @@ class Evaluation:
     hit_rate: float
     fitness: float
     oos_returns: pd.Series
+    window_sharpes: list[float] = field(default_factory=list)
+    dsr_prob: float = 0.0              # deflated-Sharpe probability vs noise floor
 
     def as_row(self) -> dict:
         return {
             "is_sharpe": self.is_sharpe, "oos_sharpe": self.oos_sharpe,
             "oos_alpha": self.oos_alpha, "max_dd": self.max_dd,
             "n_trades": self.n_trades, "hit_rate": self.hit_rate,
-            "fitness": self.fitness,
+            "fitness": self.fitness, "dsr_prob": self.dsr_prob,
         }
 
 
-def evaluate(is_res: BacktestResult, oos_res: BacktestResult,
-             benchmark: pd.Series) -> Evaluation:
+def evaluate_windows(is_res: BacktestResult, window_results: list[BacktestResult],
+                     benchmark: pd.Series, n_effective_trials: int) -> Evaluation:
+    """Combine walk-forward OOS windows into a single evaluation."""
     is_sharpe = M.sharpe(is_res.returns)
-    oos_sharpe = M.sharpe(oos_res.returns)
-    alpha, beta = M.alpha_beta(oos_res.returns, benchmark)
-    max_dd = M.max_drawdown(oos_res.returns)
-    stats = M.trade_stats(oos_res.trade_pnls)
+    window_sharpes = [M.sharpe(w.returns) for w in window_results]
+    oos_returns = pd.concat([w.returns for w in window_results]).sort_index()
+    oos_returns = oos_returns[~oos_returns.index.duplicated(keep="first")]
+    trade_pnls = [p for w in window_results for p in w.trade_pnls]
 
-    # fitness rewards OOS Sharpe, penalizes drawdown and IS/OOS overfit gap
+    oos_sharpe = M.sharpe(oos_returns)
+    alpha, beta = M.alpha_beta(oos_returns, benchmark)
+    max_dd = M.max_drawdown(oos_returns)
+    stats = M.trade_stats(trade_pnls)
+    dsr = M.deflated_sharpe_prob(oos_returns, n_effective_trials)
+
+    # fitness rewards OOS Sharpe and consistency, penalizes drawdown + overfit gap
+    consistency_bonus = 0.2 * sum(1 for s in window_sharpes if s > 0) / max(len(window_sharpes), 1)
     overfit_penalty = max(0.0, is_sharpe - oos_sharpe) * 0.3
     dd_penalty = max_dd * 0.5
-    fitness = oos_sharpe - overfit_penalty - dd_penalty
+    fitness = oos_sharpe + consistency_bonus - overfit_penalty - dd_penalty
 
     return Evaluation(
         is_sharpe=is_sharpe, oos_sharpe=oos_sharpe, oos_alpha=alpha, oos_beta=beta,
         max_dd=max_dd, n_trades=stats.n_trades, hit_rate=stats.hit_rate,
-        fitness=fitness, oos_returns=oos_res.returns,
+        fitness=fitness, oos_returns=oos_returns,
+        window_sharpes=[round(s, 3) for s in window_sharpes], dsr_prob=dsr,
     )
 
 
@@ -66,6 +78,15 @@ def check_promotion(ev: Evaluation, thr: PromotionThresholds,
         reasons.append(f"n_trades {ev.n_trades} < {thr.min_trades}")
     if ev.is_sharpe > 0 and ev.oos_sharpe < ev.is_sharpe * thr.min_oos_is_ratio:
         reasons.append("oos/is consistency too low")
+
+    # walk-forward consistency: most OOS windows must be profitable
+    positive = sum(1 for s in ev.window_sharpes if s > 0)
+    if ev.window_sharpes and positive < thr.min_positive_windows:
+        reasons.append(f"only {positive}/{len(ev.window_sharpes)} OOS windows positive")
+
+    # deflated Sharpe: must beat the multiple-testing noise floor
+    if ev.dsr_prob < thr.min_dsr_prob:
+        reasons.append(f"dsr_prob {ev.dsr_prob:.2f} < {thr.min_dsr_prob} (noise floor)")
 
     # de-correlation vs already-promoted strategies
     for pr in promoted_returns:

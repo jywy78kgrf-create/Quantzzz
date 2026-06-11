@@ -205,8 +205,19 @@ def get_conn(db_path: str | Path) -> sqlite3.Connection:
     return conn
 
 
+MIGRATIONS = [
+    "ALTER TABLE research_iterations ADD COLUMN window_sharpes TEXT",
+    "ALTER TABLE research_iterations ADD COLUMN dsr_prob REAL",
+]
+
+
 def init_schema(conn: sqlite3.Connection) -> None:
     conn.executescript(SCHEMA)
+    for ddl in MIGRATIONS:
+        try:
+            conn.execute(ddl)
+        except sqlite3.OperationalError:
+            pass  # column already exists
     conn.commit()
 
 

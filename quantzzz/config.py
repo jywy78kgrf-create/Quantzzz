@@ -26,6 +26,9 @@ class PromotionThresholds:
     min_oos_is_ratio: float = 0.4       # OOS Sharpe must be >= 40% of IS Sharpe
     max_correlation: float = 0.8        # vs already-promoted strategies
     min_is_sharpe_bar: float = 0.5      # cheap in-sample rejection
+    min_positive_windows: int = 2       # of the walk-forward OOS windows
+    min_dsr_prob: float = 0.60          # deflated-Sharpe prob vs multiple-testing
+                                        # noise floor (raise to 0.95 for strict mode)
 
 
 # Biotech is structurally higher-volatility (binary catalyst events), so it

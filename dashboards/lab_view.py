@@ -47,7 +47,8 @@ def render_lab(desk: str) -> None:
         st.subheader("Strategy leaderboard")
         board = q("""
             SELECT s.id, s.family, s.origin, s.status,
-                   i.oos_sharpe, i.oos_alpha, i.max_dd, i.n_trades, i.hit_rate, i.fitness
+                   i.oos_sharpe, i.oos_alpha, i.max_dd, i.n_trades, i.hit_rate,
+                   i.fitness, i.dsr_prob, i.window_sharpes
             FROM strategies s
             JOIN research_iterations i ON i.strategy_id = s.id
             WHERE s.desk=? AND i.oos_sharpe IS NOT NULL
@@ -55,6 +56,10 @@ def render_lab(desk: str) -> None:
             ORDER BY i.fitness DESC LIMIT 25""", (desk,))
         if not board.empty:
             st.dataframe(board.round(3), width='stretch', hide_index=True)
+            st.caption(
+                "dsr_prob = deflated Sharpe: probability the OOS Sharpe beats the "
+                "noise floor of the multi-candidate search. window_sharpes = Sharpe "
+                "in each walk-forward window (consistency check).")
     with col2:
         st.subheader("Proposal origins")
         origins = iters["origin"].value_counts().reset_index()

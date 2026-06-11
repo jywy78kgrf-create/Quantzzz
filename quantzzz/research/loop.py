@@ -20,9 +20,9 @@ from ..db import dumps, get_conn, insert, utcnow
 from ..data.snapshots import SnapshotStore
 from ..universe import universe_for
 from . import evolution
-from .backtest import Backtester, chronological_split
+from .backtest import Backtester, walk_forward_windows
 from .feature_loader import load_feature_bundle
-from .promotion import check_promotion, evaluate
+from .promotion import check_promotion, evaluate_windows
 from .strategies import signal_fn_for, space_for
 from .strategy_space import StrategySpec
 
@@ -72,16 +72,14 @@ class ResearchDesk:
         store = SnapshotStore(self.cfg.snapshot_dir)
         bench = self._benchmark_returns(store)
         prices = self.bundle.prices
-        train_dates, test_dates = chronological_split(prices.index)
-        train_b = self.bundle.slice(train_dates)
-        test_b = self.bundle.slice(test_dates)
+        is_dates, oos_windows = walk_forward_windows(prices.index)
 
         run_id = insert(self.conn, "research_runs", desk=self.desk,
                         started_ts=utcnow(), config_json=dumps({"iterations": iterations}))
 
         population: list[tuple[StrategySpec, float]] = self._load_population()
         seen: set[str] = set()
-        promoted_returns = self._load_promoted_returns(test_b, bench)
+        promoted_returns = self._load_promoted_returns(oos_windows, bench)
         promotions, best = 0, -99.0
 
         for i in range(1, iterations + 1):
@@ -95,7 +93,7 @@ class ResearchDesk:
                     continue
                 seen.add(h)
                 ev, promoted, reasons = self._evaluate_spec(
-                    spec, train_b, test_b, bench, promoted_returns)
+                    spec, is_dates, oos_windows, bench, promoted_returns)
                 strat_id = self._persist_strategy(spec, origin, promoted)
                 self._persist_iteration(run_id, i, strat_id, ev, promoted, reasons)
 
@@ -139,27 +137,45 @@ class ResearchDesk:
         return out
 
     # ---- evaluation ----
-    def _evaluate_spec(self, spec, train_b, test_b, bench, promoted_returns):
+    def _effective_trials(self) -> int:
+        """Correlation-adjusted trial count for the deflated Sharpe.
+
+        Evolutionary candidates are heavily correlated (mutations of the same
+        parents), so raw iteration count overstates the search breadth. We use
+        sqrt(OOS-evaluated candidates) as the effective number of independent
+        trials — a documented, deliberately rough haircut.
+        """
+        row = self.conn.execute(
+            "SELECT COUNT(*) c FROM research_iterations WHERE desk=? AND n_trades IS NOT NULL",
+            (self.desk,)).fetchone()
+        return max(1, int(round((row["c"] or 0) ** 0.5)))
+
+    def _evaluate_spec(self, spec, is_dates, oos_windows, bench, promoted_returns):
+        """Compute causal weights ONCE on the full panel, then slice per window."""
         signal_fn = signal_fn_for(spec.family)
         try:
-            is_w = signal_fn(train_b, spec.params)
-            is_res = self.bt.run(is_w, train_b.prices)
+            weights = signal_fn(self.bundle, spec.params)
         except Exception as e:
             return None, False, [f"error: {e}"]
 
         from . import metrics as M
+        prices = self.bundle.prices
+        is_res = self.bt.run(weights.loc[weights.index.isin(is_dates)],
+                             prices.loc[prices.index.isin(is_dates)])
         is_sharpe = M.sharpe(is_res.returns)
         if is_sharpe < self.cfg.promotion_for(self.desk).min_is_sharpe_bar:
-            ev = _stub_eval(is_sharpe)
-            return ev, False, ["weak in-sample"]
+            return _stub_eval(is_sharpe), False, ["weak in-sample"]
 
         try:
-            oos_w = signal_fn(test_b, spec.params)
-            oos_res = self.bt.run(oos_w, test_b.prices)
+            window_results = [
+                self.bt.run(weights.loc[weights.index.isin(w)],
+                            prices.loc[prices.index.isin(w)])
+                for w in oos_windows
+            ]
         except Exception as e:
             return None, False, [f"oos error: {e}"]
 
-        ev = evaluate(is_res, oos_res, bench)
+        ev = evaluate_windows(is_res, window_results, bench, self._effective_trials())
         passed, reasons = check_promotion(ev, self.cfg.promotion_for(self.desk), promoted_returns)
         return ev, passed, reasons
 
@@ -193,7 +209,9 @@ class ResearchDesk:
                n_trades=_g(ev, "n_trades"), hit_rate=_g(ev, "hit_rate"),
                fitness=_g(ev, "fitness"), promoted=int(promoted),
                fail_reasons="; ".join(reasons) if reasons else None,
-               equity_curve_json=curve_json)
+               equity_curve_json=curve_json,
+               window_sharpes=dumps(_g(ev, "window_sharpes") or []),
+               dsr_prob=_g(ev, "dsr_prob"))
 
     def _journal_promotion(self, spec, ev):
         insert(self.conn, "journal_entries", fund=self.desk, ts=utcnow(),
@@ -213,15 +231,19 @@ class ResearchDesk:
         return [(StrategySpec.from_row(r["family"], self.desk, r["params_json"]),
                  r["fitness"]) for r in rows]
 
-    def _load_promoted_returns(self, test_b, bench) -> list[pd.Series]:
+    def _load_promoted_returns(self, oos_windows, bench) -> list[pd.Series]:
         rows = self.conn.execute(
             "SELECT family, params_json FROM strategies WHERE desk=? AND status='promoted'",
             (self.desk,)).fetchall()
+        all_oos = oos_windows[0].append(list(oos_windows[1:]))
+        prices = self.bundle.prices
         out = []
         for r in rows:
             try:
                 spec = StrategySpec.from_row(r["family"], self.desk, r["params_json"])
-                res = self.bt.run(signal_fn_for(spec.family)(test_b, spec.params), test_b.prices)
+                weights = signal_fn_for(spec.family)(self.bundle, spec.params)
+                res = self.bt.run(weights.loc[weights.index.isin(all_oos)],
+                                  prices.loc[prices.index.isin(all_oos)])
                 out.append(res.returns)
             except Exception:
                 continue

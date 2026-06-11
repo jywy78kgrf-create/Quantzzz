@@ -30,6 +30,41 @@ metric_row(cards)
 
 st.plotly_chart(equity_curve_fig(funds, "Equity curves"), width='stretch')
 
+# ---- the bar to clear: fund vs plain buy-and-hold of its benchmark ----
+st.subheader("Fund vs buy-and-hold benchmark")
+from quantzzz.config import BENCHMARKS  # noqa: E402
+from quantzzz.data.snapshots import SnapshotStore  # noqa: E402
+
+store = SnapshotStore(CFG.snapshot_dir)
+bench_rows = []
+for fund in ("equity", "biotech"):
+    df = funds[fund]
+    if df.empty or len(df) < 2:
+        continue
+    start_ts = pd.to_datetime(df["ts"].iloc[0]).tz_localize(None)
+    end_ts = pd.to_datetime(df["ts"].iloc[-1]).tz_localize(None)
+    fund_ret = df["equity"].iloc[-1] / df["equity"].iloc[0] - 1
+    bench_t = BENCHMARKS[fund]
+    bench_px = store.load_prices(bench_t)
+    bench_ret = None
+    if bench_px is not None:
+        window = bench_px.loc[(bench_px.index >= start_ts) & (bench_px.index <= end_ts), "close"]
+        if len(window) >= 2:
+            bench_ret = window.iloc[-1] / window.iloc[0] - 1
+    bench_rows.append({
+        "Fund": fund.title(),
+        "Fund return": f"{fund_ret:+.2%}",
+        f"Buy & hold": f"{bench_ret:+.2%} ({bench_t})" if bench_ret is not None else "—",
+        "Excess (the alpha that matters)":
+            f"{fund_ret - bench_ret:+.2%}" if bench_ret is not None else "—",
+    })
+if bench_rows:
+    st.dataframe(pd.DataFrame(bench_rows), width='stretch', hide_index=True)
+    st.caption("A fund only earns its keep if the excess column is positive over time. "
+               "Paper-traded forward results, net of simulated costs.")
+else:
+    st.caption("Needs trading history — run trader sessions or a replay first.")
+
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("Exposure")

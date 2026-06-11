@@ -71,6 +71,51 @@ def alpha_beta(returns: pd.Series, benchmark: pd.Series) -> tuple[float, float]:
     return alpha_daily * TRADING_DAYS, beta
 
 
+def deflated_sharpe_prob(returns: pd.Series, n_trials: int) -> float:
+    """Probability the observed Sharpe beats the multiple-testing noise floor
+    (Bailey & López de Prado's Deflated Sharpe Ratio).
+
+    The benchmark Sharpe is the expected MAXIMUM Sharpe a pure-noise search of
+    `n_trials` candidates would produce on this many observations. Evolutionary
+    candidates are highly correlated, so callers should pass an effective
+    (correlation-adjusted) trial count rather than the raw iteration count.
+    Returns a probability in [0, 1]; ~0.5 means "no better than the best noise".
+    """
+    from statistics import NormalDist
+
+    T = len(returns)
+    if T < 30 or n_trials < 1:
+        return 0.0
+    r = returns.to_numpy()
+    sd = r.std(ddof=1)
+    if sd == 0:
+        return 0.0
+    sr = float(r.mean() / sd)                      # per-period (daily) Sharpe
+    skew = float(pd.Series(r).skew())
+    kurt = float(pd.Series(r).kurt()) + 3.0        # raw kurtosis
+    if not np.isfinite(skew):
+        skew = 0.0
+    if not np.isfinite(kurt):
+        kurt = 3.0
+
+    nd = NormalDist()
+    gamma = 0.5772156649
+    n = max(int(n_trials), 1)
+    if n == 1:
+        sr_null = 0.0
+    else:
+        e = np.e
+        z1 = nd.inv_cdf(max(1e-12, min(1 - 1 / n, 1 - 1e-12)))
+        z2 = nd.inv_cdf(max(1e-12, min(1 - 1 / (n * e), 1 - 1e-12)))
+        sr_null = np.sqrt(1.0 / T) * ((1 - gamma) * z1 + gamma * z2)
+
+    denom = 1 - skew * sr + ((kurt - 1) / 4.0) * sr ** 2
+    if denom <= 0:
+        return 0.0
+    z = (sr - sr_null) * np.sqrt(T - 1) / np.sqrt(denom)
+    return float(nd.cdf(z))
+
+
 @dataclass
 class TradeStats:
     n_trades: int

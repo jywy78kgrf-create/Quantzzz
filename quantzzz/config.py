@@ -97,6 +97,8 @@ class Config:
     max_halt_probability: float = 0.05      # MC sizing: P(drawdown halt in horizon)
     mc_horizon_days: int = 63               # forward horizon for the halt simulation
     min_catalyst_events: int = 8            # min history for catalyst scenario sizing
+    catalyst_gate_days: int = 10            # EV gate applies only this close to events
+    min_rebalance_weight: float = 0.005     # ignore weight deltas below 0.5% of equity
     llm_propose_every: int = 20             # research iterations between LLM proposal rounds
 
     promotion: PromotionThresholds = field(default_factory=PromotionThresholds)

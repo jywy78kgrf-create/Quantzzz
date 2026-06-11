@@ -248,23 +248,17 @@ class TraderAgent:
         drawdown = self._current_drawdown()
         state = self._fund_mode()
 
-        if self.risk.drawdown_halted(drawdown) and state != "liquidate_only":
-            self._set_mode("liquidate_only")
-            self.journal.record("halt", reasoning=(
-                f"Drawdown {drawdown:.1%} breached halt "
-                f"{-self.limits.drawdown_halt_pct:.0%}; entering liquidate-only."))
-            state = "liquidate_only"
-        elif state == "liquidate_only" and drawdown > -self.limits.drawdown_halt_pct * 0.5:
-            self._set_mode("normal")            # recovered halfway back: resume
-            self.journal.record("halt", reasoning=(
-                f"Drawdown recovered to {drawdown:.1%}; resuming normal mode."))
-            state = "normal"
-
+        state = self._update_risk_mode(state, drawdown)
         stops = self._process_stops()
 
         acct = self.broker.get_account()
         current = self._current_weights(acct.equity)
-        targets = {} if state == "liquidate_only" else self._combined_targets()
+        if state == "liquidate_only":
+            targets = {}
+        else:
+            targets = self._combined_targets()
+            if state == "derisk":
+                targets = {t: w * 0.5 for t, w in targets.items()}
         mc_throttle = self._compute_mc_throttle()
         targets = self._apply_overlays(targets, current, mc_throttle)
         n_trades = self._rebalance(targets, current, acct.equity)
@@ -278,6 +272,27 @@ class TraderAgent:
         return (f"[{self.fund}] equity ${acct.equity:,.0f} cash ${acct.cash:,.0f} | "
                 f"stops {stops}, rebalance trades {n_trades}, positions "
                 f"{len(self.broker.get_positions())}, reviewed {reviewed}, mode {state}")
+
+    def _update_risk_mode(self, state: str, drawdown: float) -> str:
+        """Graduated risk response: normal -> derisk (half exposure) ->
+        liquidate_only (catastrophe), with recovery transitions. A fund that
+        de-risks keeps participating, so drawdowns can actually heal — sudden
+        liquidation locks the loss at the bottom."""
+        halt = self.limits.drawdown_halt_pct
+        derisk = self.limits.drawdown_derisk_pct
+        new_state = state
+        if drawdown <= -halt:
+            new_state = "liquidate_only"
+        elif drawdown <= -derisk:
+            new_state = "derisk" if state != "liquidate_only" else "liquidate_only"
+        elif drawdown > -derisk * 0.5:
+            new_state = "normal"
+        if new_state != state:
+            self._set_mode(new_state)
+            self.journal.record("halt", reasoning=(
+                f"Drawdown {drawdown:.1%}: risk mode {state} -> {new_state} "
+                f"(derisk at {-derisk:.0%}, liquidate at {-halt:.0%})."))
+        return new_state
 
     # ---- stops (disaster brake; cooldown prevents instant re-entry) ----
     def _process_stops(self) -> int:

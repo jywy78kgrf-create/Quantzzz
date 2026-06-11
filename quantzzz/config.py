@@ -56,20 +56,27 @@ class RiskLimits:
     max_position_pct: float            # single-name cap as fraction of equity
     max_gross_exposure: float          # gross exposure / equity
     max_positions: int
-    stop_loss_pct: float               # per-position stop from entry
-    drawdown_halt_pct: float           # fund-level halt from high-water mark
+    stop_loss_pct: float               # per-position stop from entry (floor; vol-scaled up)
+    drawdown_halt_pct: float           # catastrophic level: liquidate-only
     target_vol: float                  # annualized portfolio vol target
     kelly_cap: float = 0.25
+    drawdown_derisk_pct: float = 0.20  # halve exposure here; must sit INSIDE the
+                                       # halt level and OUTSIDE normal noise
 
 
+# Halt levels must sit beyond the drawdowns the promotion gates explicitly
+# accept (benchmark-relative, ~35-40% in crash windows) or the fund liquidates
+# strategies at the bottom of moves they were validated to survive.
 RISK_LIMITS = {
     "equity": RiskLimits(
         max_position_pct=0.08, max_gross_exposure=1.0, max_positions=20,
-        stop_loss_pct=0.12, drawdown_halt_pct=0.15, target_vol=0.15,
+        stop_loss_pct=0.12, drawdown_halt_pct=0.35, target_vol=0.15,
+        drawdown_derisk_pct=0.18,
     ),
     "biotech": RiskLimits(
         max_position_pct=0.05, max_gross_exposure=0.8, max_positions=16,
-        stop_loss_pct=0.20, drawdown_halt_pct=0.20, target_vol=0.20,
+        stop_loss_pct=0.20, drawdown_halt_pct=0.45, target_vol=0.20,
+        drawdown_derisk_pct=0.22,
     ),
 }
 

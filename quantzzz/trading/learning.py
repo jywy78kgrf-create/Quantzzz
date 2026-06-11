@@ -55,12 +55,18 @@ class LearningLoop:
             realized_pnl = sum(t["pnl"] or 0 for t in trades)
 
             old_mult = self.current_multiplier(sid)
-            # reward profitable, high-payoff strategies; shrink losers
-            edge = stats.hit_rate * stats.payoff - (1 - stats.hit_rate)
-            new_mult = float(min(2.0, max(0.25, 1.0 + 0.5 * edge)))
+            # Statistical patience: with few closed trades, hit rates are noise
+            # (the same standard we hold research to). Track stats but don't
+            # act until the sample can support a decision.
+            MIN_ADJUST, MIN_RETIRE = 15, 20
+            if stats.n_trades < MIN_ADJUST:
+                new_mult = old_mult
+            else:
+                edge = stats.hit_rate * stats.payoff - (1 - stats.hit_rate)
+                new_mult = float(min(2.0, max(0.25, 1.0 + 0.5 * edge)))
             active = 1
-            if stats.n_trades >= 8 and realized_pnl < 0 and stats.hit_rate < 0.35:
-                active = 0  # kill persistent loser
+            if stats.n_trades >= MIN_RETIRE and realized_pnl < 0 and stats.hit_rate < 0.35:
+                active = 0  # persistent loser with a real sample behind it
                 self.conn.execute(
                     "UPDATE strategies SET status='retired', retired_ts=? WHERE id=?",
                     (utcnow(), sid))

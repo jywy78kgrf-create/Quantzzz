@@ -26,7 +26,7 @@ def _seed_trades(conn, fund, strategy_id, pnls):
 
 def test_learning_winner_increases_multiplier(tmp_db):
     cfg = load_config()
-    _seed_trades(tmp_db, "equity", 1, [0.1, 0.15, 0.2, -0.05, 0.1])
+    _seed_trades(tmp_db, "equity", 1, [0.1, 0.15, 0.2, -0.05, 0.1] * 4)  # 20 trades
     j = DecisionJournal(tmp_db, "equity")
     loop = LearningLoop(cfg, "equity", tmp_db, j)
     loop.review()
@@ -34,9 +34,20 @@ def test_learning_winner_increases_multiplier(tmp_db):
     assert loop.is_active(1)
 
 
+def test_learning_patient_on_small_samples(tmp_db):
+    """Few closed trades must not move the multiplier or retire anything."""
+    cfg = load_config()
+    _seed_trades(tmp_db, "equity", 1, [-0.1, -0.15, -0.2, -0.1, -0.08])
+    loop = LearningLoop(cfg, "equity", tmp_db, DecisionJournal(tmp_db, "equity"))
+    loop.review()
+    assert loop.current_multiplier(1) == 1.0
+    assert loop.is_active(1)
+
+
 def test_learning_retires_persistent_loser(tmp_db):
     cfg = load_config()
-    _seed_trades(tmp_db, "equity", 1, [-0.1, -0.15, -0.2, 0.02, -0.1, -0.08, -0.05, -0.12, -0.09])
+    _seed_trades(tmp_db, "equity", 1,
+                 [-0.1, -0.15, -0.2, 0.02, -0.1, -0.08, -0.05, -0.12, -0.09, -0.07] * 2)
     j = DecisionJournal(tmp_db, "equity")
     loop = LearningLoop(cfg, "equity", tmp_db, j)
     loop.review()
@@ -48,7 +59,7 @@ def test_learning_retires_persistent_loser(tmp_db):
 
 def test_multiplier_clipped(tmp_db):
     cfg = load_config()
-    _seed_trades(tmp_db, "equity", 1, [5.0] * 5)  # absurd wins
+    _seed_trades(tmp_db, "equity", 1, [5.0] * 20)  # absurd wins
     loop = LearningLoop(cfg, "equity", tmp_db, DecisionJournal(tmp_db, "equity"))
     loop.review()
     assert loop.current_multiplier(1) <= 2.0

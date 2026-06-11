@@ -260,7 +260,9 @@ class TraderAgent:
             if state == "derisk":
                 targets = {t: w * 0.5 for t, w in targets.items()}
         mc_throttle = self._compute_mc_throttle()
+        raw_targets = dict(targets)
         targets = self._apply_overlays(targets, current, mc_throttle)
+        self._record_candidates(raw_targets, targets, current)
         n_trades = self._rebalance(targets, current, acct.equity)
 
         reviewed = 0
@@ -403,6 +405,23 @@ class TraderAgent:
                                qty=qty)
                         self.conn.commit()
         return n
+
+    def _record_candidates(self, raw: dict[str, float], final: dict[str, float],
+                           current: dict[str, float]) -> None:
+        """Persist this session's target book so the dashboards show what the
+        strategies wanted vs what the overlays allowed."""
+        for ticker, w in sorted(raw.items(), key=lambda x: -x[1]):
+            if w < self.cfg.min_rebalance_weight and ticker not in current:
+                continue
+            allowed = final.get(ticker, 0.0)
+            status = "taken" if allowed >= self.cfg.min_rebalance_weight else "rejected"
+            sid = (self._contributors.get(ticker) or [0])[0] \
+                if hasattr(self, "_contributors") else 0
+            insert(self.conn, "candidates", fund=self.fund, ts=self._ts(),
+                   strategy_id=sid, ticker=ticker, direction="long",
+                   strength=round(w, 4), target_weight=round(allowed, 4),
+                   status=status)
+        self.conn.commit()
 
     # ---- risk / MC ----
     def _compute_mc_throttle(self) -> float:

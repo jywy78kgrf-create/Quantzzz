@@ -76,21 +76,48 @@ otherwise.
 
 Each iteration proposes a strategy spec (random / fitness-weighted mutation /
 crossover / heuristic, plus periodic LLM proposals), backtests it in-sample, cheaply
-rejects weak ideas, then evaluates survivors out-of-sample on a chronological split
-with an embargo gap. A candidate is **promoted** only when it clears desk-specific
-criteria — OOS Sharpe, positive alpha vs benchmark (SPY for equity, XBI for biotech),
-bounded drawdown, a minimum trade count, IS/OOS consistency — and is de-correlated
-(< 0.8) from already-promoted strategies. Every iteration is persisted so the labs
-show the search progressing.
+rejects weak ideas, then evaluates survivors across **three walk-forward OOS
+windows**. Research runs on a survivorship-aware universe that includes ~34 delisted
+companies (Foot Locker, Marathon Oil, Avon...) so strategies are tested against the
+firms that died, not just the winners. A candidate is **promoted** only when it
+clears the full gauntlet:
+
+- OOS Sharpe and positive alpha vs benchmark (SPY / XBI)
+- **benchmark-relative drawdown** (a long-only strategy can't be expected to draw
+  down less than its own market in a crash; hard-capped at 50/55%)
+- a majority of walk-forward windows independently profitable
+- **deflated Sharpe** (Bailey & López de Prado) above the expected-max-Sharpe noise
+  floor of the whole search — corrects for multiple testing
+- **bootstrap robustness**: 5th-percentile Sharpe across 500 block-bootstrap
+  resamples must stay positive (profitable beyond the single realized path)
+- de-correlation (< 0.8) from already-promoted strategies
+
+Every iteration is persisted so the labs show the search progressing.
 
 ## Trader & recursive learning
 
-Each session: mark-to-market, drawdown-halt check, process exits (stops / retired
-strategies / exit signals), then rank and enter new candidates with vol-target ×
-capped-Kelly sizing and hard risk limits. Every accept/reject/resize/halt is written
-to the decision journal. After enough trades close, the learning loop recomputes
-per-strategy hit-rate/payoff, adjusts each strategy's weight multiplier (clipped
-0.25–2.0), retires persistent losers, and journals the adjustment.
+The trader is a **weight-tracking rebalancer**: each session it computes the
+combined target portfolio of its fund's promoted strategies (equal-capital blend ×
+learned multipliers) and rebalances toward it — so live execution is mathematically
+consistent with how the strategies were validated. Intelligence sits as overlays on
+the targets:
+
+- graduated risk: halve exposure at the de-risk drawdown (−18%/−22%), liquidate
+  only at catastrophic levels (−35%/−45%), auto-recover when healed
+- volatility-aware disaster stops (≥ 2.5× a 21-day vol move) with a 14-day
+  re-entry cooldown
+- pre-earnings blackout on weight increases (3 days before a scheduled report)
+- biotech **catalyst scenario engine**: empirical EV/tail/Kelly from 548 real
+  historical catalyst price reactions; blocks holding into near events with a
+  negative event profile
+- **Monte Carlo halt-risk throttle**: bootstraps the live book 5,000 paths forward
+  and shrinks exposure increases when P(hitting the halt within 63d) exceeds 5%
+
+Every adjustment is journaled with its reasoning. After enough trades close, the
+learning loop recomputes per-strategy hit-rate/payoff (no action under 15 closed
+trades — small samples are noise), adjusts weight multipliers (clipped 0.25–2.0),
+retires persistent losers (20+ closed trades, < 35% hit rate, negative P&L), and
+journals the adjustment.
 
 ## Safety
 

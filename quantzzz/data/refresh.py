@@ -36,6 +36,24 @@ def refresh_prices(cfg: Config, tickers: list[str], conn) -> dict:
             "budget_left": av.budget.remaining()}
 
 
+def refresh_premium_feeds(cfg: Config, tickers: list[str], conn,
+                          options_for: list[str] | None = None) -> dict:
+    """Earnings surprises + news sentiment for the universe; options summaries
+    for a subset (held names / leaders). All budget-aware and cached."""
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    counts = {"earnings": 0, "news": 0, "options": 0}
+    for t in tickers:
+        if av.earnings_surprises(t):
+            counts["earnings"] += 1
+        if av.news_sentiment(t):
+            counts["news"] += 1
+    for t in (options_for or [])[:30]:
+        if av.options_summary(t):
+            counts["options"] += 1
+    return counts
+
+
 def refresh_data(cfg: Config, desk: str = "all") -> None:
     conn = get_conn(cfg.db_path)
     store = SnapshotStore(cfg.snapshot_dir)
@@ -43,6 +61,9 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
     if desk in ("equity", "all"):
         tickers = EQUITY_UNIVERSE + BENCH_TICKERS
         print("equity prices:", refresh_prices(cfg, tickers, conn))
+        print("equity premium feeds:",
+              refresh_premium_feeds(cfg, EQUITY_UNIVERSE, conn,
+                                    options_for=EQUITY_UNIVERSE[:30]))
         if cfg.edgar_user_agent:
             edgar = EdgarClient(cfg, conn)
             done = 0
@@ -64,5 +85,7 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         for t in universe[:20]:
             bpiq.historical_catalysts(t)
         print("biotech prices:", refresh_prices(cfg, universe + ["XBI"], conn))
+        print("biotech premium feeds:",
+              refresh_premium_feeds(cfg, universe, conn, options_for=universe[:20]))
 
     conn.close()

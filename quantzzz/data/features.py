@@ -22,6 +22,8 @@ class FeatureBundle:
     fundamentals: dict = field(default_factory=dict)  # ticker -> edgar series dict
     catalysts: list = field(default_factory=list)     # bpiq catalyst records
     hist_catalysts: dict = field(default_factory=dict)  # ticker -> historical catalysts
+    earnings: dict = field(default_factory=dict)      # ticker -> AV earnings surprises
+    news: dict = field(default_factory=dict)          # ticker -> AV news sentiment
 
     @property
     def tickers(self) -> list[str]:
@@ -39,6 +41,8 @@ class FeatureBundle:
             fundamentals=self.fundamentals,
             catalysts=self.catalysts,
             hist_catalysts=self.hist_catalysts,
+            earnings=self.earnings,
+            news=self.news,
         )
 
 
@@ -147,6 +151,50 @@ def insider_frame(bundle: FeatureBundle) -> pd.DataFrame:
 
 def cash_runway_frame(bundle: FeatureBundle) -> pd.DataFrame:
     return _as_filed_frame(bundle.dates, bundle.fundamentals, cash_runway_scores)
+
+
+# ---- earnings surprise (Alpha Vantage EARNINGS, point-in-time by reportedDate) ----
+def earnings_surprise_frame(bundle: FeatureBundle, hold_days: int = 63) -> pd.DataFrame:
+    """Latest EPS surprise %, available from the report date, expiring after
+    hold_days trading days (the classic PEAD window)."""
+    cols = {}
+    for ticker, events in bundle.earnings.items():
+        if not events:
+            continue
+        pts = {}
+        for e in events:
+            d, s = e.get("reportedDate"), e.get("surprisePct")
+            if d and s is not None:
+                pts[pd.to_datetime(d)] = float(np.clip(s, -100, 100))
+        if not pts:
+            continue
+        s = pd.Series(pts).sort_index()
+        s = s[~s.index.duplicated(keep="last")]
+        cols[ticker] = s.reindex(bundle.dates, method=None).ffill(limit=hold_days)
+    if not cols:
+        return pd.DataFrame(index=bundle.dates)
+    return pd.DataFrame(cols).reindex(index=bundle.dates)
+
+
+# ---- news sentiment (Alpha Vantage NEWS_SENTIMENT) ----
+def news_sentiment_frame(bundle: FeatureBundle, lookback: int = 10) -> pd.DataFrame:
+    """Relevance-weighted mean sentiment per ticker, rolled over `lookback` days."""
+    cols = {}
+    for ticker, articles in bundle.news.items():
+        if not articles:
+            continue
+        df = pd.DataFrame(articles).dropna(subset=["date", "sentiment"])
+        if df.empty:
+            continue
+        df["date"] = pd.to_datetime(df["date"])
+        df["w"] = df["relevance"].fillna(0.5)
+        daily = df.groupby("date").apply(
+            lambda g: float(np.average(g["sentiment"], weights=g["w"].clip(lower=0.01))),
+            include_groups=False)
+        cols[ticker] = daily.reindex(bundle.dates).rolling(lookback, min_periods=1).mean()
+    if not cols:
+        return pd.DataFrame(index=bundle.dates)
+    return pd.DataFrame(cols).reindex(index=bundle.dates)
 
 
 # ---- catalyst features (BPIQ) ----

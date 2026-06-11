@@ -110,9 +110,47 @@ def insider_follow_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
     return _rebalanced(w, int(p["hold_days"]))
 
 
+# ---- post-earnings-announcement drift (AV true surprises) ----
+PEAD = ParamSpace("earnings_surprise", "equity", [
+    ParamDef("min_surprise_pct", "float", 2.0, 20.0, step=2.0),
+    ParamDef("hold_days", "choice", choices=(21, 42, 63)),
+    ParamDef("top_n", "int", 3, 12, step=1),
+])
+
+
+def earnings_surprise_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    surprise = F.earnings_surprise_frame(bundle, hold_days=int(p["hold_days"]))
+    if surprise.empty or surprise.isna().all().all():
+        return pd.DataFrame(0.0, index=bundle.dates, columns=bundle.tickers)
+    surprise = surprise.reindex(columns=bundle.tickers)
+    qualified = surprise.where(surprise >= float(p["min_surprise_pct"]))
+    return _equal_weight_top(qualified, int(p["top_n"]))
+
+
+# ---- news sentiment momentum (AV news feed) ----
+NEWS_MOM = ParamSpace("news_momentum", "equity", [
+    ParamDef("lookback", "int", 3, 21, step=2),
+    ParamDef("min_sentiment", "float", 0.05, 0.35, step=0.05),
+    ParamDef("top_n", "int", 3, 10, step=1),
+    ParamDef("rebalance", "choice", choices=(3, 5, 10)),
+])
+
+
+def news_momentum_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    sent = F.news_sentiment_frame(bundle, lookback=int(p["lookback"]))
+    if sent.empty or sent.isna().all().all():
+        return pd.DataFrame(0.0, index=bundle.dates, columns=bundle.tickers)
+    sent = sent.reindex(columns=bundle.tickers)
+    qualified = sent.where(sent >= float(p["min_sentiment"]))
+    w = _equal_weight_top(qualified, int(p["top_n"]))
+    return _rebalanced(w, int(p["rebalance"]))
+
+
 STRATEGIES = [
     (MOMENTUM, momentum_signal),
     (MEANREV, mean_reversion_signal),
     (BEAT_RAISE, beat_and_raise_signal),
     (INSIDER, insider_follow_signal),
+    (PEAD, earnings_surprise_signal),
+    (NEWS_MOM, news_momentum_signal),
 ]

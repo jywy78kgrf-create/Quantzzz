@@ -24,6 +24,16 @@ def load_feature_bundle(cfg: Config, desk: str, tickers: list[str],
     fundamentals: dict = {}
     catalysts: list = []
     hist: dict = {}
+    earnings: dict = {}
+    news: dict = {}
+
+    for t in close.columns:
+        e = store.load_json(f"av_earnings/{t}.json")
+        if e:
+            earnings[t] = e
+        n = store.load_json(f"av_news/{t}.json")
+        if n:
+            news[t] = n
 
     if desk == "equity":
         for t in close.columns:
@@ -40,4 +50,4 @@ def load_feature_bundle(cfg: Config, desk: str, tickers: list[str],
 
     return FeatureBundle(desk=desk, prices=close, volume=volume,
                          fundamentals=fundamentals, catalysts=catalysts,
-                         hist_catalysts=hist)
+                         hist_catalysts=hist, earnings=earnings, news=news)

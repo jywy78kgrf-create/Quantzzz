@@ -86,8 +86,33 @@ def cash_runway_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
     return w.where(pd.Series(sel, index=w.index), other=np.nan).ffill().fillna(0.0)
 
 
+# ---- biotech news sentiment: catalyst-heavy names react hard to coverage ----
+BIO_NEWS = ParamSpace("bio_news_momentum", "biotech", [
+    ParamDef("lookback", "int", 3, 15, step=2),
+    ParamDef("min_sentiment", "float", 0.05, 0.35, step=0.05),
+    ParamDef("top_n", "int", 3, 10, step=1),
+    ParamDef("rebalance", "choice", choices=(3, 5, 10)),
+])
+
+
+def bio_news_momentum_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    sent = F.news_sentiment_frame(bundle, lookback=int(p["lookback"]))
+    if sent.empty or sent.isna().all().all():
+        return pd.DataFrame(0.0, index=bundle.dates, columns=bundle.tickers)
+    sent = sent.reindex(columns=bundle.tickers)
+    qualified = (sent >= float(p["min_sentiment"]))
+    ranks = sent.rank(axis=1, ascending=False)
+    mask = qualified & ranks.le(int(p["top_n"]))
+    w = mask.div(mask.sum(axis=1).replace(0, np.nan), axis=0).fillna(0.0)
+    rb = int(p["rebalance"])
+    sel = np.zeros(len(w), dtype=bool)
+    sel[::rb] = True
+    return w.where(pd.Series(sel, index=w.index), other=np.nan).ffill().fillna(0.0)
+
+
 STRATEGIES = [
     (PDUFA_RUNUP, pdufa_runup_signal),
     (POST_DRIFT, post_catalyst_drift_signal),
     (CASH_RUNWAY, cash_runway_signal),
+    (BIO_NEWS, bio_news_momentum_signal),
 ]

@@ -113,6 +113,13 @@ def build_state(cfg: Config) -> dict:
         positions[fund] = out[:12]
     state["positions"] = positions
 
+    # ---- research lab: recent iterations for the animated search space ----
+    state["research_feed"] = _rows(conn, """
+        SELECT i.ts, i.desk, s.family, s.params_json, i.oos_sharpe, i.is_sharpe,
+               i.max_dd, i.fitness, i.promoted, substr(i.fail_reasons,1,60) fail
+        FROM research_iterations i LEFT JOIN strategies s ON s.id = i.strategy_id
+        ORDER BY i.id DESC LIMIT 150""")
+
     # ---- decision feed ----
     state["journal"] = _rows(conn, """
         SELECT ts, fund, entry_type, ticker, substr(reasoning, 1, 160) reasoning
@@ -153,9 +160,15 @@ class Handler(BaseHTTPRequestHandler):
             if self.path.startswith("/api/state"):
                 body = json.dumps(build_state(self.cfg), default=str).encode()
                 self._send(body, "application/json")
-            elif self.path.startswith("/vendor/echarts"):
-                vendor = HTML_PATH.parent / "vendor" / "echarts.min.js"
-                self._send(vendor.read_bytes(), "application/javascript")
+            elif self.path.startswith("/vendor/"):
+                name = Path(self.path).name
+                vendor = HTML_PATH.parent / "vendor" / name
+                if vendor.suffix == ".js" and vendor.is_file() \
+                        and vendor.parent == HTML_PATH.parent / "vendor":
+                    self._send(vendor.read_bytes(), "application/javascript")
+                else:
+                    self.send_response(404)
+                    self.end_headers()
             else:
                 self._send(HTML_PATH.read_bytes(), "text/html; charset=utf-8")
         except BrokenPipeError:

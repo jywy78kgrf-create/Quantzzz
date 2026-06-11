@@ -5,6 +5,9 @@
 <title>Quantzzz · Mission Control</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="/vendor/echarts.min.js"></script>
+<script src="/vendor/gsap.min.js"></script>
+<script src="/vendor/countup.min.js"></script>
+<script src="/vendor/tsparticles.min.js"></script>
 <style>
   :root{
     --bg:#06080f; --panel:#0c1120; --panel2:#0f1628; --line:#1c2742;
@@ -15,6 +18,10 @@
   body{background:radial-gradient(1200px 800px at 75% -10%, #101a35 0%, var(--bg) 55%);
        color:var(--txt); font:14px/1.45 -apple-system,'Segoe UI',Inter,sans-serif;
        min-height:100vh; padding:22px 26px;}
+  #space{position:fixed; inset:0; z-index:-1; pointer-events:none}
+  .card{transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease}
+  .card:hover{transform:translateY(-3px); border-color:#2b3d68;
+              box-shadow:0 14px 38px -16px rgba(91,140,255,.35)}
   header{display:flex; align-items:baseline; gap:18px; margin-bottom:18px}
   h1{font-size:22px; letter-spacing:.06em; font-weight:700}
   h1 .z{color:var(--blue)}
@@ -68,10 +75,18 @@
   .modechip{font-size:10px; padding:1px 8px; border-radius:10px; margin-left:8px; vertical-align:middle}
   .m-normal{background:rgba(45,212,167,.13); color:var(--green)} .m-derisk{background:rgba(255,197,96,.15); color:var(--amber)}
   .m-liquidate_only{background:rgba(255,93,115,.2); color:var(--red)}
+  .labhead{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; color:var(--green); margin-bottom:8px}
+  .cursor{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  #labticker{font-family:ui-monospace,Menlo,monospace; font-size:11px; line-height:1.8; color:#8fa1c7;
+             max-height:200px; overflow:hidden}
+  #labticker .row{white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  #labticker .ok{color:var(--green)} #labticker .no{color:var(--red)} #labticker .fam{color:var(--blue)}
   @media(max-width:1100px){.kpi{grid-column:span 6}#chart,.loop,.col6,.col4{grid-column:span 12}}
 </style>
 </head>
 <body>
+<div id="space"></div>
 <header>
   <h1>🏛 QUANT<span class="z">ZZZ</span> CAPITAL</h1>
   <span style="color:var(--dim);font-size:12px">autonomous research · paper execution · recursive learning</span>
@@ -81,9 +96,11 @@
 <div class="grid">
   <div class="card kpi"><div class="lbl">Total AUM</div><div class="val" id="aum">—</div>
     <div class="sub" id="aumsub"></div><div class="glow" style="background:var(--blue)"></div></div>
-  <div class="card kpi"><div class="lbl">Equity Fund <span id="eqmode"></span></div><div class="val" id="eqv">—</div>
+  <div class="card kpi"><div class="lbl">Equity Fund <span id="eqmode"></span></div>
+    <div class="val"><span id="eqv">—</span> <span id="eqp" style="font-size:15px"></span></div>
     <div class="sub" id="eqs"></div><div class="glow" style="background:var(--green)"></div></div>
-  <div class="card kpi"><div class="lbl">Biotech Fund <span id="biomode"></span></div><div class="val" id="biov">—</div>
+  <div class="card kpi"><div class="lbl">Biotech Fund <span id="biomode"></span></div>
+    <div class="val"><span id="biov">—</span> <span id="biop" style="font-size:15px"></span></div>
     <div class="sub" id="bios"></div><div class="glow" style="background:var(--violet)"></div></div>
   <div class="card kpi"><div class="lbl">Research Engine</div><div class="val" id="iters">—</div>
     <div class="sub" id="iterssub">strategy backtests run</div><div class="glow" style="background:var(--amber)"></div></div>
@@ -101,6 +118,17 @@
     <div class="stage"><span class="dot" style="background:var(--amber)"></span>Learning <small>reviews · retired</small><b id="l-learn">—</b></div>
     <div class="flow"><span>▲ feeds back ▲</span></div>
     <div class="stage"><span class="dot" style="background:var(--red)"></span>Journal <small>decisions recorded</small><b id="l-journal">—</b></div>
+  </div>
+
+  <div class="card col12">
+    <h3>Research Lab · the quants searching for edge, live</h3>
+    <div style="display:flex; gap:16px; flex-wrap:wrap">
+      <div id="lab" style="flex:1 1 520px; height:250px"></div>
+      <div style="flex:0 0 400px; max-width:100%">
+        <div class="labhead"><span class="cursor">▮</span> evaluating candidates…</div>
+        <div id="labticker"></div>
+      </div>
+    </div>
   </div>
 
   <div class="card col6">
@@ -125,19 +153,77 @@ const pct=(v,s=2)=>(v>=0?'+':'')+v.toFixed(s)+'%';
 const cls=v=>v>=0?'up':'dn';
 let chart;
 
+const cu={};
+function tick(id,val,opts={}){
+  if(!window.countUp){$(id).textContent=(opts.prefix||'')+Math.round(val).toLocaleString();return;}
+  if(!cu[id]){cu[id]=new countUp.CountUp(id,val,Object.assign({duration:1.3,separator:','},opts));cu[id].start();}
+  else cu[id].update(val);
+}
 function kpis(s){
   const f=s.funds, eq=f.equity, bio=f.biotech;
   let total=0; if(eq)total+=eq.equity; if(bio)total+=bio.equity;
-  $('aum').textContent=fmt$(total);
+  tick('aum',Math.round(total),{prefix:'$'});
   $('aumsub').textContent='paper capital · started $2,000,000';
-  if(eq){$('eqv').innerHTML=`${fmt$(eq.equity)} <span class="${cls(eq.ret_pct)}" style="font-size:15px">${pct(eq.ret_pct,1)}</span>`;
+  if(eq){tick('eqv',Math.round(eq.equity),{prefix:'$'});
+    $('eqp').innerHTML=`<span class="${cls(eq.ret_pct)}">${pct(eq.ret_pct,1)}</span>`;
     $('eqs').textContent=`vs ${eq.bench} ${eq.bench_ret_pct==null?'—':pct(eq.bench_ret_pct,1)} · gross ${eq.gross.toFixed(0)}% · dd ${eq.drawdown.toFixed(1)}%`;
     $('eqmode').innerHTML=`<span class="modechip m-${eq.mode}">${eq.mode.replace('_',' ')}</span>`;}
-  if(bio){$('biov').innerHTML=`${fmt$(bio.equity)} <span class="${cls(bio.ret_pct)}" style="font-size:15px">${pct(bio.ret_pct,1)}</span>`;
+  if(bio){tick('biov',Math.round(bio.equity),{prefix:'$'});
+    $('biop').innerHTML=`<span class="${cls(bio.ret_pct)}">${pct(bio.ret_pct,1)}</span>`;
     $('bios').textContent=`vs ${bio.bench} ${bio.bench_ret_pct==null?'—':pct(bio.bench_ret_pct,1)} · gross ${bio.gross.toFixed(0)}% · dd ${bio.drawdown.toFixed(1)}%`;
     $('biomode').innerHTML=`<span class="modechip m-${bio.mode}">${bio.mode.replace('_',' ')}</span>`;}
-  $('iters').textContent=s.loop.iterations.toLocaleString();
+  tick('iters',s.loop.iterations);
   $('iterssub').textContent=`backtests run · best OOS sharpe ${(+s.loop.best_oos_sharpe||0).toFixed(2)} · ${s.loop.av_calls_today||0} API calls today`;
+}
+
+// ---- the research lab: animated search space + terminal readout ----
+let lab, labCursor=0, labRows=[];
+function labChart(s){
+  if(!window.echarts)return;
+  if(!lab){try{lab=echarts.init($('lab'),null,{renderer:'canvas'});}catch(e){return;}}
+  const pts=s.research_feed.filter(r=>r.oos_sharpe!=null).reverse();
+  const norm=pts.filter(p=>!p.promoted), prom=pts.filter(p=>p.promoted);
+  const C={equity:'#5b8cff',biotech:'#a78bfa'};
+  const mk=r=>({value:[(r.max_dd||0)*100, r.oos_sharpe, Math.max(4,(r.fitness||0)*6+6)],
+                itemStyle:{color:C[r.desk]||'#5b8cff',opacity:.75,
+                           shadowBlur:8,shadowColor:C[r.desk]},
+                name:`${r.desk} · ${(r.family||'?').replaceAll('_',' ')}`});
+  lab.setOption({backgroundColor:'transparent',
+    grid:{left:52,right:16,top:30,bottom:34},
+    tooltip:{backgroundColor:'#0c1120',borderColor:'#1c2742',textStyle:{color:'#dfe7ff'},
+      formatter:p=>`${p.name}<br>OOS Sharpe ${(+p.value[1]).toFixed(2)} · max DD ${(+p.value[0]).toFixed(0)}%`},
+    xAxis:{name:'max drawdown %',nameTextStyle:{color:'#6b7a9c'},nameLocation:'middle',nameGap:24,
+           axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
+    yAxis:{name:'OOS Sharpe',nameTextStyle:{color:'#6b7a9c'},
+           axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
+    series:[
+      {type:'scatter',data:norm.map(mk),symbolSize:d=>d[2],animationDelay:i=>i*12},
+      {type:'effectScatter',data:prom.map(mk),symbolSize:d=>d[2]+6,
+       rippleEffect:{brushType:'stroke',scale:3.4},
+       itemStyle:{color:'#2dd4a7',shadowBlur:16,shadowColor:'#2dd4a7'}},
+    ]});
+}
+function labTicker(s){
+  labRows=s.research_feed.slice(0,40);
+  const el=$('labticker'); el.innerHTML='';
+  for(const r of labRows.slice(0,9)) el.insertAdjacentHTML('beforeend',labLine(r));
+}
+function labLine(r){
+  const ok=r.promoted? '<span class="ok">★ PROMOTED</span>'
+        : (r.oos_sharpe==null? '<span class="no">✗ weak IS</span>'
+        : (r.fail? `<span class="no">✗ ${r.fail}</span>` : '<span class="ok">✓ pass</span>'));
+  let p={}; try{p=JSON.parse(r.params_json||'{}')}catch(e){}
+  const ps=Object.entries(p).slice(0,3).map(([k,v])=>`${k}:${v}`).join(' ');
+  return `<div class="row">▶ <span class="fam">${r.desk}·${(r.family||'?').replaceAll('_',' ')}</span> {${ps}} → ${
+    r.oos_sharpe!=null? 'sharpe '+(+r.oos_sharpe).toFixed(2)+' ' : ''}${ok}</div>`;
+}
+function labRotate(){  // cycle the readout so the lab always feels busy
+  if(!labRows.length)return;
+  labCursor=(labCursor+1)%labRows.length;
+  const el=$('labticker');
+  el.insertAdjacentHTML('afterbegin',labLine(labRows[labCursor]));
+  while(el.children.length>9)el.removeChild(el.lastChild);
+  if(window.gsap)gsap.from(el.firstChild,{x:-10,opacity:0,duration:.4,ease:'power2.out'});
 }
 
 function loop(s){
@@ -155,7 +241,7 @@ function curves(s){
   const series=[]; const C={equity:'#2dd4a7',biotech:'#a78bfa'};
   for(const[name,f]of Object.entries(s.funds)){
     series.push({name:name[0].toUpperCase()+name.slice(1),type:'line',showSymbol:false,smooth:true,
-      lineStyle:{width:2.5,color:C[name]},areaStyle:{opacity:.07,color:C[name]},
+      lineStyle:{width:2.5,color:C[name],shadowBlur:12,shadowColor:C[name]},areaStyle:{opacity:.08,color:C[name]},
       data:f.curve.map(p=>[p[0].slice(0,10),p[1]])});
     if(f.bench_curve.length)series.push({name:f.bench,type:'line',showSymbol:false,smooth:true,
       lineStyle:{width:1,type:'dashed',color:'#56627f'},data:f.bench_curve});
@@ -219,10 +305,13 @@ function cats(s){
   }
 }
 
+let firstLoad=true;
 async function refresh(){
   try{
     const s=await(await fetch('/api/state')).json();
-    kpis(s);loop(s);curves(s);strats(s);feed(s);books(s);cats(s);
+    kpis(s);loop(s);curves(s);strats(s);feed(s);books(s);cats(s);labChart(s);labTicker(s);
+    if(firstLoad){firstLoad=false;
+      if(window.gsap)gsap.from('.card',{y:18,opacity:0,duration:.65,stagger:.05,ease:'power2.out',clearProps:'all'});}
   }catch(e){$('heartbeat').textContent='reconnecting…';}
 }
 
@@ -231,7 +320,12 @@ window.addEventListener('load',()=>{
     chart=echarts.init($('chart'),null,{renderer:'canvas'});
     window.addEventListener('resize',()=>chart.resize());
   }catch(e){/* chart lib unavailable: data panels still work */}
-  refresh(); setInterval(refresh,30000);
+  if(window.tsParticles)tsParticles.load({id:'space',options:{
+    fpsLimit:40,detectRetina:true,
+    particles:{number:{value:50},color:{value:['#5b8cff','#a78bfa','#2dd4a7']},
+      links:{enable:true,color:'#22304f',opacity:.3,distance:150,width:1},
+      move:{enable:true,speed:.35},opacity:{value:.35},size:{value:{min:1,max:2.2}}}}});
+  refresh(); setInterval(refresh,30000); setInterval(labRotate,2200);
 });
 </script>
 </body>

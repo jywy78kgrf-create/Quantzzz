@@ -51,6 +51,9 @@ jobs:
         run: |
           python - <<'EOF'
           import shutil, sqlite3
+          src = sqlite3.connect("quantzzz.db")
+          src.execute("PRAGMA wal_checkpoint(TRUNCATE)")  # flush WAL before copying
+          src.close()
           shutil.copy("quantzzz.db", "data/seed.db")
           conn = sqlite3.connect("data/seed.db")
           conn.execute("DELETE FROM api_cache")

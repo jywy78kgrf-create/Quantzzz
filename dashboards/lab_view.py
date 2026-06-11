@@ -48,7 +48,7 @@ def render_lab(desk: str) -> None:
         board = q("""
             SELECT s.id, s.family, s.origin, s.status,
                    i.oos_sharpe, i.oos_alpha, i.max_dd, i.n_trades, i.hit_rate,
-                   i.fitness, i.dsr_prob, i.window_sharpes
+                   i.fitness, i.dsr_prob, i.bootstrap_q05, i.window_sharpes
             FROM strategies s
             JOIN research_iterations i ON i.strategy_id = s.id
             WHERE s.desk=? AND i.oos_sharpe IS NOT NULL

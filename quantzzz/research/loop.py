@@ -212,7 +212,8 @@ class ResearchDesk:
                fail_reasons="; ".join(reasons) if reasons else None,
                equity_curve_json=curve_json,
                window_sharpes=dumps(_g(ev, "window_sharpes") or []),
-               dsr_prob=_g(ev, "dsr_prob"))
+               dsr_prob=_g(ev, "dsr_prob"),
+               bootstrap_q05=_g(ev, "bootstrap_q05"))
 
     def _journal_promotion(self, spec, ev):
         insert(self.conn, "journal_entries", fund=self.desk, ts=utcnow(),

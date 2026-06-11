@@ -208,6 +208,7 @@ def get_conn(db_path: str | Path) -> sqlite3.Connection:
 MIGRATIONS = [
     "ALTER TABLE research_iterations ADD COLUMN window_sharpes TEXT",
     "ALTER TABLE research_iterations ADD COLUMN dsr_prob REAL",
+    "ALTER TABLE research_iterations ADD COLUMN bootstrap_q05 REAL",
 ]
 
 

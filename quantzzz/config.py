@@ -34,6 +34,11 @@ class PromotionThresholds:
     # min(hard_cap, max(max_drawdown, benchmark_dd * bench_dd_multiple)).
     bench_dd_multiple: float = 1.15
     max_drawdown_hard_cap: float = 0.50
+    # bootstrap robustness: 5th-percentile Sharpe across block-bootstrap
+    # resamples of the OOS returns must stay above this (fights the
+    # "profitable on the one realized path only" failure mode)
+    min_bootstrap_q05: float = 0.0
+    bootstrap_paths: int = 500
 
 
 # Biotech is structurally higher-volatility (binary catalyst events), so it
@@ -89,6 +94,9 @@ class Config:
     av_daily_budget: int = 100_000          # premium tier: effectively unlimited per day
     learning_review_every: int = 10         # closed trades per strategy between reviews
     pre_earnings_blackout_days: int = 3     # no new entries this close to a report
+    max_halt_probability: float = 0.05      # MC sizing: P(drawdown halt in horizon)
+    mc_horizon_days: int = 63               # forward horizon for the halt simulation
+    min_catalyst_events: int = 8            # min history for catalyst scenario sizing
     llm_propose_every: int = 20             # research iterations between LLM proposal rounds
 
     promotion: PromotionThresholds = field(default_factory=PromotionThresholds)

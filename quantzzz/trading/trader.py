@@ -100,6 +100,47 @@ class TraderAgent:
             return pd.Timestamp(self.as_of).isoformat()
         return utcnow()
 
+    def _compute_mc_throttle(self) -> float:
+        """Monte Carlo halt-risk sizing: bootstrap the current book's recent
+        returns forward and shrink new entries if the probability of hitting
+        the drawdown halt within the horizon is too high."""
+        from ..research.montecarlo import drawdown_halt_probability
+
+        positions = self.broker.get_positions()
+        if not positions:
+            return 1.0
+        acct = self.broker.get_account()
+        if acct.equity <= 0:
+            return 1.0
+        # weighted portfolio return series over the trailing year, as-of aware
+        end = pd.Timestamp(self.as_of) if self.as_of is not None else None
+        parts = []
+        for p in positions:
+            series = self._all_prices.get(p.ticker)
+            if series is None:
+                continue
+            s = series if end is None else series[series.index <= end]
+            w = (p.qty * (self._quote(p.ticker) or p.avg_cost)) / acct.equity
+            parts.append(s.pct_change().tail(252) * w)
+        if not parts:
+            return 1.0
+        port_rets = pd.concat(parts, axis=1).sum(axis=1, skipna=True).dropna()
+        halt_p = drawdown_halt_probability(
+            port_rets, halt_pct=self.limits.drawdown_halt_pct,
+            horizon_days=self.cfg.mc_horizon_days)
+        if halt_p is None or halt_p <= self.cfg.max_halt_probability:
+            return 1.0
+        throttle = max(0.25, self.cfg.max_halt_probability / halt_p)
+        self.journal.record(
+            "resize", action="mc_throttle",
+            reasoning=(f"Monte Carlo: P(hit {self.limits.drawdown_halt_pct:.0%} halt "
+                       f"within {self.cfg.mc_horizon_days}d) = {halt_p:.1%} > "
+                       f"{self.cfg.max_halt_probability:.0%} target; new entries "
+                       f"scaled to {throttle:.0%}."),
+            inputs={"halt_probability": halt_p, "throttle": throttle,
+                    "n_positions": len(positions)})
+        return throttle
+
     def _ticker_vol(self, ticker: str) -> float:
         df = self.store.load_prices(ticker)
         if df is None or len(df) < 30:
@@ -125,6 +166,7 @@ class TraderAgent:
             state = "liquidate_only"
 
         exits = self._process_exits()
+        self._mc_throttle = self._compute_mc_throttle()
         entries = 0 if state == "liquidate_only" else self._process_entries()
 
         reviewed = 0
@@ -248,6 +290,14 @@ class TraderAgent:
             hit_rate=perf["hit_rate"], payoff=perf["payoff"],
             weight_multiplier=weight_multiplier, kelly_cap=self.limits.kelly_cap,
             max_position_pct=self.limits.max_position_pct)
+        qty *= getattr(self, "_mc_throttle", 1.0)
+
+        if self.fund == "biotech":
+            scenario_mult = self._catalyst_scenario_mult(ticker)
+            if scenario_mult is None:
+                return False        # negative-EV event profile; skip journaled inside
+            qty *= scenario_mult
+
         qty = float(int(qty))
         if qty < 1:
             return False
@@ -288,6 +338,42 @@ class TraderAgent:
             self.conn.commit()
             return True
         return False
+
+    def _catalyst_scenario_mult(self, ticker: str) -> float | None:
+        """Empirical catalyst scenario sizing for biotech entries.
+
+        Uses the ticker's own historical catalyst price reactions (pooled across
+        the universe when its history is thin). Negative expected value -> skip
+        (returns None). Otherwise scale size by scenario-Kelly confidence.
+        """
+        from ..research.montecarlo import catalyst_scenario_stats
+
+        own = [r.get("open_price_gap_percent")
+               for r in self.bundle_hist().get(ticker, [])]
+        own = [float(v) for v in own if v is not None]
+        if len(own) >= self.cfg.min_catalyst_events:
+            moves, scope = own, "ticker"
+        else:
+            pooled = [float(v) for recs in self.bundle_hist().values()
+                      for r in (recs or [])
+                      if (v := r.get("open_price_gap_percent")) is not None]
+            moves, scope = pooled, "universe-pooled"
+        stats = catalyst_scenario_stats(moves, kelly_cap=self.limits.kelly_cap)
+        if stats is None:
+            return 1.0      # no event history at all -> no adjustment
+        if stats["ev"] <= 0:
+            self.journal.record(
+                "skip", ticker=ticker, action="buy",
+                reasoning=(f"Skipped {ticker}: catalyst scenario EV "
+                           f"{stats['ev']:+.2%} over {stats['n_events']} historical "
+                           f"events ({scope}); 5th-pct outcome {stats['downside_q05']:+.1%}."),
+                inputs={**stats, "scope": scope})
+            return None
+        mult = max(0.25, min(1.0, stats["kelly"] / self.limits.kelly_cap))
+        return mult
+
+    def bundle_hist(self) -> dict:
+        return getattr(self._bundle, "hist_catalysts", {}) or {}
 
     def _strategy_perf(self, strategy_id: int) -> dict:
         row = self.conn.execute(

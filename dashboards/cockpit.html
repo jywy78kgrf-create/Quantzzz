@@ -5,6 +5,8 @@
 <title>Quantzzz · Mission Control</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="/vendor/echarts.min.js"></script>
+<script src="/vendor/echarts-gl.min.js"></script>
+<script src="/vendor/lightweight-charts.min.js"></script>
 <script src="/vendor/gsap.min.js"></script>
 <script src="/vendor/countup.min.js"></script>
 <script src="/vendor/tsparticles.min.js"></script>
@@ -38,7 +40,7 @@
   .kpi .sub{font-size:12px; color:var(--dim); margin-top:2px}
   .up{color:var(--green)} .dn{color:var(--red)}
   .glow{position:absolute; inset:auto -30% -65% -30%; height:120px; filter:blur(46px); opacity:.25}
-  #chart{grid-column:span 8; height:330px; padding:8px}
+  #chartcard{position:relative; grid-column:span 8}
   .loop{grid-column:span 4; display:flex; flex-direction:column; gap:10px}
   .loop h3,.card h3{font-size:12px; color:var(--dim); letter-spacing:.14em; text-transform:uppercase; margin-bottom:10px}
   .stage{display:flex; align-items:center; gap:12px; background:#0a0f1d; border:1px solid var(--line);
@@ -82,7 +84,7 @@
              max-height:200px; overflow:hidden}
   #labticker .row{white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
   #labticker .ok{color:var(--green)} #labticker .no{color:var(--red)} #labticker .fam{color:var(--blue)}
-  @media(max-width:1100px){.kpi{grid-column:span 6}#chart,.loop,.col6,.col4{grid-column:span 12}}
+  @media(max-width:1100px){.kpi{grid-column:span 6}#chartcard,.loop,.col6,.col4{grid-column:span 12}}
 </style>
 </head>
 <body>
@@ -105,7 +107,14 @@
   <div class="card kpi"><div class="lbl">Research Engine</div><div class="val" id="iters">—</div>
     <div class="sub" id="iterssub">strategy backtests run</div><div class="glow" style="background:var(--amber)"></div></div>
 
-  <div class="card" id="chart"></div>
+  <div class="card" id="chartcard" style="padding:14px 16px 8px">
+    <h3 style="margin-bottom:6px">Equity Curves
+      <span style="float:right; font-weight:400; text-transform:none; letter-spacing:0">
+        <span style="color:#2dd4a7">━ Equity</span>&nbsp;
+        <span style="color:#a78bfa">━ Biotech</span>&nbsp;
+        <span style="color:#56627f">╌ benchmarks</span></span></h3>
+    <div id="chart" style="height:288px"></div>
+  </div>
 
   <div class="card loop">
     <h3>The Loop · live</h3>
@@ -123,7 +132,7 @@
   <div class="card col12">
     <h3>Research Lab · the quants searching for edge, live</h3>
     <div style="display:flex; gap:16px; flex-wrap:wrap">
-      <div id="lab" style="flex:1 1 520px; height:250px"></div>
+      <div id="lab" style="flex:1 1 520px; height:300px"></div>
       <div style="flex:0 0 400px; max-width:100%">
         <div class="labhead"><span class="cursor">▮</span> evaluating candidates…</div>
         <div id="labticker"></div>
@@ -178,30 +187,52 @@ function kpis(s){
 
 // ---- the research lab: animated search space + terminal readout ----
 let lab, labCursor=0, labRows=[];
+function labSupports3d(){
+  try{const c=document.createElement('canvas');
+      return !!(c.getContext('webgl')||c.getContext('experimental-webgl'));}
+  catch(e){return false;}
+}
 function labChart(s){
   if(!window.echarts)return;
   if(!lab){try{lab=echarts.init($('lab'),null,{renderer:'canvas'});}catch(e){return;}}
   const pts=s.research_feed.filter(r=>r.oos_sharpe!=null).reverse();
   const norm=pts.filter(p=>!p.promoted), prom=pts.filter(p=>p.promoted);
   const C={equity:'#5b8cff',biotech:'#a78bfa'};
-  const mk=r=>({value:[(r.max_dd||0)*100, r.oos_sharpe, Math.max(4,(r.fitness||0)*6+6)],
-                itemStyle:{color:C[r.desk]||'#5b8cff',opacity:.75,
-                           shadowBlur:8,shadowColor:C[r.desk]},
+  const has3d=!!(echarts.graphic && window.WebGLRenderingContext && labSupports3d());
+  const mk=r=>({value:[(r.max_dd||0)*100, r.fitness||0, r.oos_sharpe],
+                itemStyle:{color:r.promoted? '#2dd4a7' : (C[r.desk]||'#5b8cff'),opacity:.85},
                 name:`${r.desk} · ${(r.family||'?').replaceAll('_',' ')}`});
-  lab.setOption({backgroundColor:'transparent',
-    grid:{left:52,right:16,top:30,bottom:34},
-    tooltip:{backgroundColor:'#0c1120',borderColor:'#1c2742',textStyle:{color:'#dfe7ff'},
-      formatter:p=>`${p.name}<br>OOS Sharpe ${(+p.value[1]).toFixed(2)} · max DD ${(+p.value[0]).toFixed(0)}%`},
-    xAxis:{name:'max drawdown %',nameTextStyle:{color:'#6b7a9c'},nameLocation:'middle',nameGap:24,
-           axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
-    yAxis:{name:'OOS Sharpe',nameTextStyle:{color:'#6b7a9c'},
-           axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
-    series:[
-      {type:'scatter',data:norm.map(mk),symbolSize:d=>d[2],animationDelay:i=>i*12},
-      {type:'effectScatter',data:prom.map(mk),symbolSize:d=>d[2]+6,
-       rippleEffect:{brushType:'stroke',scale:3.4},
-       itemStyle:{color:'#2dd4a7',shadowBlur:16,shadowColor:'#2dd4a7'}},
-    ]});
+  if(has3d){
+    lab.setOption({backgroundColor:'transparent',
+      tooltip:{backgroundColor:'#0c1120',borderColor:'#1c2742',textStyle:{color:'#dfe7ff'},
+        formatter:p=>`${p.name}<br>OOS Sharpe ${(+p.value[2]).toFixed(2)} · dd ${(+p.value[0]).toFixed(0)}% · fitness ${(+p.value[1]).toFixed(2)}`},
+      grid3D:{boxWidth:170,boxDepth:110,boxHeight:80,
+        viewControl:{autoRotate:true,autoRotateSpeed:7,distance:235,alpha:14,beta:35},
+        axisLine:{lineStyle:{color:'#22304f'}},
+        axisPointer:{lineStyle:{color:'#2b3d68'}},
+        splitLine:{lineStyle:{color:'#121b32'}},
+        light:{main:{intensity:1.3,shadow:false},ambient:{intensity:.45}}},
+      xAxis3D:{name:'max dd %',nameTextStyle:{color:'#6b7a9c'},axisLabel:{color:'#56627f'}},
+      yAxis3D:{name:'fitness',nameTextStyle:{color:'#6b7a9c'},axisLabel:{color:'#56627f'}},
+      zAxis3D:{name:'OOS sharpe',nameTextStyle:{color:'#6b7a9c'},axisLabel:{color:'#56627f'}},
+      series:[
+        {type:'scatter3D',data:norm.map(mk),symbolSize:7,
+         itemStyle:{opacity:.8},emphasis:{itemStyle:{color:'#ffc560'}}},
+        {type:'scatter3D',data:prom.map(mk),symbolSize:15,
+         itemStyle:{color:'#2dd4a7',opacity:1},
+         label:{show:true,formatter:'★',textStyle:{color:'#2dd4a7',fontSize:14}}},
+      ]});
+  }else{
+    const mk2=r=>({value:[(r.max_dd||0)*100, r.oos_sharpe, Math.max(4,(r.fitness||0)*6+6)],
+                  itemStyle:{color:C[r.desk]||'#5b8cff',opacity:.75},name:r.desk});
+    lab.setOption({backgroundColor:'transparent',grid:{left:52,right:16,top:30,bottom:34},
+      xAxis:{axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
+      yAxis:{axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
+      series:[{type:'scatter',data:norm.map(mk2),symbolSize:d=>d[2]},
+              {type:'effectScatter',data:prom.map(mk2),symbolSize:d=>d[2]+6,
+               rippleEffect:{brushType:'stroke',scale:3.4},
+               itemStyle:{color:'#2dd4a7'}}]});
+  }
 }
 function labTicker(s){
   labRows=s.research_feed.slice(0,40);
@@ -236,26 +267,48 @@ function loop(s){
   $('heartbeat').textContent=last?`last fund cycle ${Math.max(0,Math.round((Date.now()-last)/60000))} min ago`:'no cycles yet';
 }
 
-function curves(s){
-  if(!chart)return;
-  const series=[]; const C={equity:'#2dd4a7',biotech:'#a78bfa'};
-  for(const[name,f]of Object.entries(s.funds)){
-    series.push({name:name[0].toUpperCase()+name.slice(1),type:'line',showSymbol:false,smooth:true,
-      lineStyle:{width:2.5,color:C[name],shadowBlur:12,shadowColor:C[name]},areaStyle:{opacity:.08,color:C[name]},
-      data:f.curve.map(p=>[p[0].slice(0,10),p[1]])});
-    if(f.bench_curve.length)series.push({name:f.bench,type:'line',showSymbol:false,smooth:true,
-      lineStyle:{width:1,type:'dashed',color:'#56627f'},data:f.bench_curve});
-  }
-  chart.setOption({backgroundColor:'transparent',
-    grid:{left:64,right:18,top:34,bottom:28},
-    legend:{textStyle:{color:'#9fb0d6'},top:2,icon:'roundRect'},
-    tooltip:{trigger:'axis',backgroundColor:'#0c1120',borderColor:'#1c2742',textStyle:{color:'#dfe7ff'},
-             valueFormatter:v=>'$'+Math.round(v).toLocaleString()},
-    xAxis:{type:'time',axisLine:{lineStyle:{color:'#22304f'}},axisLabel:{color:'#6b7a9c'}},
-    yAxis:{type:'value',scale:true,splitLine:{lineStyle:{color:'#121b32'}},
-           axisLabel:{color:'#6b7a9c',formatter:v=>'$'+(v/1e6).toFixed(1)+'M'}},
-    series});
+let lwc, lwcSeries={};
+function ts2unix(t){return Math.floor(new Date(t.length<=10? t+'T21:00:00Z': t).getTime()/1000);}
+function dedupe(points){
+  const m=new Map();
+  for(const[t,v]of points)m.set(ts2unix(t),v);
+  return [...m.entries()].sort((a,b)=>a[0]-b[0]).map(([time,value])=>({time,value}));
 }
+function curves(s){
+  if(!window.LightweightCharts)return;
+  if(!lwc){
+    const el=$('chart');
+    lwc=LightweightCharts.createChart(el,{
+      width:el.clientWidth||900, height:288,
+      layout:{background:{color:'transparent'},textColor:'#6b7a9c',fontSize:11},
+      grid:{vertLines:{color:'#101a31'},horzLines:{color:'#101a31'}},
+      rightPriceScale:{borderColor:'#1c2742'},
+      timeScale:{borderColor:'#1c2742',timeVisible:false},
+      crosshair:{mode:0,vertLine:{color:'#2b3d68',labelBackgroundColor:'#1c2742'},
+                 horzLine:{color:'#2b3d68',labelBackgroundColor:'#1c2742'}},
+      localization:{priceFormatter:v=>'$'+(v/1e6).toFixed(2)+'M'}});
+    const area=(c1,c2)=>lwc.addAreaSeries({lineColor:c1,lineWidth:2,
+      topColor:c2,bottomColor:'rgba(0,0,0,0)',priceLineVisible:false,lastValueVisible:true});
+    lwcSeries.equity=area('#2dd4a7','rgba(45,212,167,.22)');
+    lwcSeries.biotech=area('#a78bfa','rgba(167,139,250,.22)');
+    lwcSeries.eqb=lwc.addLineSeries({color:'#56627f',lineWidth:1,lineStyle:2,
+      priceLineVisible:false,lastValueVisible:false,crosshairMarkerVisible:false});
+    lwcSeries.biob=lwc.addLineSeries({color:'#56627f',lineWidth:1,lineStyle:2,
+      priceLineVisible:false,lastValueVisible:false,crosshairMarkerVisible:false});
+  }
+  const f=s.funds;
+  if(f.equity){lwcSeries.equity.setData(dedupe(f.equity.curve));
+               lwcSeries.eqb.setData(dedupe(f.equity.bench_curve));}
+  if(f.biotech){lwcSeries.biotech.setData(dedupe(f.biotech.curve));
+                lwcSeries.biob.setData(dedupe(f.biotech.bench_curve));}
+  lwc.timeScale().fitContent();
+  const el=$('chart');
+  if(el.clientWidth && Math.abs(el.clientWidth-lwc.options().width)>4)
+    lwc.applyOptions({width:el.clientWidth});
+}
+window.addEventListener('resize',()=>{
+  if(lwc)lwc.applyOptions({width:$('chart').clientWidth});
+});
 
 function strats(s){
   const tb=$('strats').querySelector('tbody'); tb.innerHTML='';
@@ -311,15 +364,11 @@ async function refresh(){
     const s=await(await fetch('/api/state')).json();
     kpis(s);loop(s);curves(s);strats(s);feed(s);books(s);cats(s);labChart(s);labTicker(s);
     if(firstLoad){firstLoad=false;
-      if(window.gsap)gsap.from('.card',{y:18,opacity:0,duration:.65,stagger:.05,ease:'power2.out',clearProps:'all'});}
+      if(window.gsap)gsap.from('.card',{y:18,opacity:0,duration:.65,stagger:.05,ease:'power2.out',clearProps:'transform,opacity'});}
   }catch(e){$('heartbeat').textContent='reconnecting…';}
 }
 
 window.addEventListener('load',()=>{
-  try{
-    chart=echarts.init($('chart'),null,{renderer:'canvas'});
-    window.addEventListener('resize',()=>chart.resize());
-  }catch(e){/* chart lib unavailable: data panels still work */}
   if(window.tsParticles)tsParticles.load({id:'space',options:{
     fpsLimit:40,detectRetina:true,
     particles:{number:{value:50},color:{value:['#5b8cff','#a78bfa','#2dd4a7']},

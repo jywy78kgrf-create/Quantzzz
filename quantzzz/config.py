@@ -28,6 +28,14 @@ class PromotionThresholds:
     min_is_sharpe_bar: float = 0.5      # cheap in-sample rejection
 
 
+# Biotech is structurally higher-volatility (binary catalyst events), so it
+# carries a looser drawdown cap and a higher Sharpe bar to compensate.
+PROMOTION_THRESHOLDS = {
+    "equity": PromotionThresholds(),
+    "biotech": PromotionThresholds(min_oos_sharpe=1.1, max_drawdown=0.50),
+}
+
+
 @dataclass(frozen=True)
 class RiskLimits:
     max_position_pct: float            # single-name cap as fraction of equity
@@ -67,7 +75,8 @@ class Config:
     starting_cash: float = 1_000_000.0
     cost_bps: float = 10.0                  # round-trip transaction cost assumption in backtests
     slippage_bps: float = 5.0               # paper-broker fill slippage
-    av_daily_budget: int = 25               # conservative Alpha Vantage daily call budget
+    av_calls_per_min: int = 500             # premium tier allows ~600/min; stay under
+    av_daily_budget: int = 100_000          # premium tier: effectively unlimited per day
     learning_review_every: int = 10         # closed trades per strategy between reviews
     llm_propose_every: int = 20             # research iterations between LLM proposal rounds
 
@@ -79,6 +88,9 @@ class Config:
 
     def risk_limits(self, fund: str) -> RiskLimits:
         return RISK_LIMITS[fund]
+
+    def promotion_for(self, desk: str) -> PromotionThresholds:
+        return PROMOTION_THRESHOLDS.get(desk, self.promotion)
 
 
 def load_config() -> Config:

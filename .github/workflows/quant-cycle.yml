@@ -37,18 +37,19 @@ jobs:
           EDGAR_USER_AGENT: "Quantzzz research bot (github actions)"
           LIVE_TRADING: "false"
         run: |
-          python -m quantzzz init-db
+          python -m quantzzz init-db   # bootstraps from data/seed.db on fresh checkout
           python -m quantzzz run --cycles 1 --research-iterations 40
 
       - name: Run tests (guard against bad state)
         run: python -m pytest -q
 
-      - name: Prune expired cache (keep the repo lean)
+      - name: Export compact state seed (cache blobs stay local)
         run: |
           python - <<'EOF'
-          import sqlite3
-          conn = sqlite3.connect("quantzzz.db")
-          conn.execute("DELETE FROM api_cache WHERE datetime(fetched_at, '+' || ttl_s || ' seconds') < datetime('now')")
+          import shutil, sqlite3
+          shutil.copy("quantzzz.db", "data/seed.db")
+          conn = sqlite3.connect("data/seed.db")
+          conn.execute("DELETE FROM api_cache")
           conn.commit()
           conn.execute("VACUUM")
           conn.close()
@@ -58,7 +59,7 @@ jobs:
         run: |
           git config user.name "quantzzz-bot"
           git config user.email "quantzzz-bot@users.noreply.github.com"
-          git add -f quantzzz.db data/snapshots
+          git add data/seed.db data/snapshots
           if git diff --cached --quiet; then
             echo "no state changes"
           else

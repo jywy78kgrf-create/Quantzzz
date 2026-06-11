@@ -51,6 +51,11 @@ def main(argv: list[str] | None = None) -> int:
     cfg = load_config()
 
     if args.cmd == "init-db":
+        seed = PROJECT_ROOT / "data" / "seed.db"
+        if not cfg.db_path.exists() and seed.exists():
+            import shutil
+            shutil.copy(seed, cfg.db_path)
+            print(f"bootstrapped from committed seed (strategies + track record)")
         conn = get_conn(cfg.db_path)
         init_schema(conn)
         print(f"schema ready at {cfg.db_path}")

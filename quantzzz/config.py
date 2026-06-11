@@ -81,6 +81,7 @@ class Config:
     av_calls_per_min: int = 500             # premium tier allows ~600/min; stay under
     av_daily_budget: int = 100_000          # premium tier: effectively unlimited per day
     learning_review_every: int = 10         # closed trades per strategy between reviews
+    pre_earnings_blackout_days: int = 3     # no new entries this close to a report
     llm_propose_every: int = 20             # research iterations between LLM proposal rounds
 
     promotion: PromotionThresholds = field(default_factory=PromotionThresholds)

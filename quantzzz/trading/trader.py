@@ -40,7 +40,27 @@ class TraderAgent:
         self._all_prices = self._load_price_frames()
         self._price_cache = self._closes_as_of(None)
         self._bundle = self._load_bundle()      # built once, sliced per session
+        self._earnings_dates = self._load_earnings_calendar()
         self.broker = make_broker(cfg, fund, conn, self._quote)
+
+    def _load_earnings_calendar(self) -> dict[str, list[pd.Timestamp]]:
+        cal = self.store.load_json("av_earnings_calendar.json") or []
+        out: dict[str, list[pd.Timestamp]] = {}
+        for row in cal:
+            try:
+                out.setdefault(row["ticker"], []).append(pd.Timestamp(row["reportDate"]))
+            except (KeyError, ValueError):
+                continue
+        return out
+
+    def _in_earnings_blackout(self, ticker: str) -> pd.Timestamp | None:
+        """Report date if the ticker reports within the blackout window."""
+        now = pd.Timestamp(self.as_of) if self.as_of is not None else pd.Timestamp.today()
+        for d in self._earnings_dates.get(ticker, []):
+            days = (d - now.normalize()).days
+            if 0 <= days <= self.cfg.pre_earnings_blackout_days:
+                return d
+        return None
 
     def _load_bundle(self):
         from ..research.feature_loader import load_feature_bundle
@@ -210,6 +230,15 @@ class TraderAgent:
 
     def _enter(self, c: dict, weight_multiplier: float) -> bool:
         ticker = c["ticker"]
+        report_date = self._in_earnings_blackout(ticker)
+        if report_date is not None:
+            self.journal.record(
+                "skip", ticker=ticker, action="buy",
+                reasoning=(f"Skipped {ticker}: earnings report on "
+                           f"{report_date.date()} is inside the "
+                           f"{self.cfg.pre_earnings_blackout_days}-day blackout."),
+                inputs={"report_date": str(report_date.date())})
+            return False
         price = self._quote(ticker)
         acct = self.broker.get_account()
         perf = self._strategy_perf(c["strategy_id"])

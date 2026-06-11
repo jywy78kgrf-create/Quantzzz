@@ -102,6 +102,49 @@ class AlphaVantageClient:
         df.index = pd.to_datetime(df.index)
         return df.sort_index()
 
+    def _get_csv(self, params: dict) -> list[dict]:
+        """CSV endpoints (LISTING_STATUS, EARNINGS_CALENDAR) -> list of dicts."""
+        import csv
+        import io
+        params = {**params, "apikey": self.cfg.alpha_vantage_key}
+        self.limiter.wait()
+        resp = with_backoff(lambda: requests.get(BASE_URL, params=params, timeout=60))
+        resp.raise_for_status()
+        text = resp.text
+        if text.lstrip().startswith("{"):  # error payloads come back as JSON
+            raise RuntimeError(f"alphavantage csv: {text[:200]}")
+        return list(csv.DictReader(io.StringIO(text)))
+
+    def listing_status(self, state: str = "delisted") -> list[dict]:
+        """All active or delisted securities (symbol, exchange, ipo/delist dates)."""
+        key = f"av:listing:{state}"
+        cached = self.cache.get(key)
+        if cached is not None:
+            return cached
+        if self.cfg.alpha_vantage_key and self.budget.consume():
+            try:
+                rows = self._get_csv({"function": "LISTING_STATUS", "state": state})
+                self.cache.put(key, "alphavantage", rows, ttl_s=DAY_S * 7)
+                return rows
+            except Exception as e:
+                self._health("error", None, f"listing_status: {e}"[:300])
+        return self.cache.get(key, allow_stale=True) or []
+
+    def earnings_calendar(self, horizon: str = "3month") -> list[dict]:
+        """Upcoming earnings report dates with estimates for all symbols."""
+        key = f"av:earnings_calendar:{horizon}"
+        cached = self.cache.get(key)
+        if cached is not None:
+            return cached
+        if self.cfg.alpha_vantage_key and self.budget.consume():
+            try:
+                rows = self._get_csv({"function": "EARNINGS_CALENDAR", "horizon": horizon})
+                self.cache.put(key, "alphavantage", rows, ttl_s=DAY_S)
+                return rows
+            except Exception as e:
+                self._health("error", None, f"earnings_calendar: {e}"[:300])
+        return self.cache.get(key, allow_stale=True) or []
+
     # ---- premium feeds: earnings surprises, news sentiment, options ----
     def earnings_surprises(self, ticker: str) -> list[dict] | None:
         """Quarterly EPS actual-vs-estimate: [{reportedDate, surprisePct, ...}]."""

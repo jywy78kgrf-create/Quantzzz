@@ -54,6 +54,64 @@ def refresh_premium_feeds(cfg: Config, tickers: list[str], conn,
     return counts
 
 
+def refresh_survivorship_pool(cfg: Config, conn, max_names: int = 40) -> dict:
+    """Build a pool of DELISTED stocks with price history so backtests include
+    companies that died — directly attacking survivorship bias.
+
+    Selection: long-lived NYSE/NASDAQ common stocks delisted within the backtest
+    era. Their price series simply end at delisting; strategies holding them ride
+    the decline like a real portfolio would have.
+    """
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    rows = av.listing_status("delisted")
+    pool = [
+        r for r in rows
+        if r.get("assetType") == "Stock"
+        and r.get("exchange") in ("NYSE", "NASDAQ")
+        and (r.get("delistingDate") or "") >= "2019-01-01"
+        and (r.get("ipoDate") or "9999") <= "2016-01-01"
+        and "-" not in r.get("symbol", "-")          # skip warrants/units/when-issued
+        and "." not in r.get("symbol", ".")
+    ]
+    # oldest listings first: long histories, were real index-grade companies
+    pool.sort(key=lambda r: r.get("ipoDate") or "9999")
+    selected = pool[:max_names]
+    fetched = 0
+    for r in selected:
+        t = r["symbol"]
+        if store.load_prices(t) is None:
+            if av.daily_adjusted(t) is not None:
+                fetched += 1
+    meta = []
+    for r in selected:
+        px = store.load_prices(r["symbol"])
+        if px is not None and len(px) >= 250:   # drop reused-ticker stubs
+            meta.append({"ticker": r["symbol"], "name": r["name"],
+                         "delistingDate": r["delistingDate"], "ipoDate": r["ipoDate"]})
+    store.save_json("delisted.json", meta)
+    return {"candidates": len(pool), "selected": len(selected),
+            "with_history": len(meta), "newly_fetched": fetched}
+
+
+def refresh_earnings_calendar(cfg: Config, conn) -> dict:
+    """Upcoming report dates for our universes -> snapshot for the traders."""
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    from .bpiq import BpiqProvider
+    universe = set(EQUITY_UNIVERSE)
+    bpiq_uni = store.load_json("bpiq/universe.json") or []
+    universe.update(bpiq_uni)
+    rows = av.earnings_calendar()
+    ours = [
+        {"ticker": r["symbol"], "reportDate": r["reportDate"],
+         "estimate": r.get("estimate") or None, "time": r.get("timeOfTheDay")}
+        for r in rows if r.get("symbol") in universe and r.get("reportDate")
+    ]
+    store.save_json("av_earnings_calendar.json", ours)
+    return {"total": len(rows), "in_universe": len(ours)}
+
+
 def refresh_data(cfg: Config, desk: str = "all") -> None:
     conn = get_conn(cfg.db_path)
     store = SnapshotStore(cfg.snapshot_dir)
@@ -87,5 +145,9 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         print("biotech prices:", refresh_prices(cfg, universe + ["XBI"], conn))
         print("biotech premium feeds:",
               refresh_premium_feeds(cfg, universe, conn, options_for=universe[:20]))
+
+    if desk == "all":
+        print("survivorship pool:", refresh_survivorship_pool(cfg, conn))
+        print("earnings calendar:", refresh_earnings_calendar(cfg, conn))
 
     conn.close()

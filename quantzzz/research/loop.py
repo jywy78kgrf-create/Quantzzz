@@ -18,7 +18,7 @@ import pandas as pd
 from ..config import BENCHMARKS, Config
 from ..db import dumps, get_conn, insert, utcnow
 from ..data.snapshots import SnapshotStore
-from ..universe import universe_for
+from ..universe import research_universe_for
 from . import evolution
 from .backtest import Backtester, walk_forward_windows
 from .feature_loader import load_feature_bundle
@@ -56,7 +56,8 @@ class ResearchDesk:
     def build(cls, cfg: Config, desk: str) -> "ResearchDesk":
         conn = get_conn(cfg.db_path)
         store = SnapshotStore(cfg.snapshot_dir)
-        tickers = universe_for(desk, cfg.snapshot_dir)
+        # research uses the survivorship-aware universe (live + delisted names)
+        tickers = research_universe_for(desk, cfg.snapshot_dir)
         bundle = load_feature_bundle(cfg, desk, tickers, store, conn)
         from ..llm import get_llm
         return cls(cfg, desk, conn, bundle, llm=get_llm(cfg))

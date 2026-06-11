@@ -1,0 +1,57 @@
+import json
+
+import pandas as pd
+
+from quantzzz.config import load_config
+from quantzzz.universe import EQUITY_UNIVERSE, research_universe_for, universe_for
+
+
+def test_research_universe_includes_delisted(tmp_path):
+    snap = tmp_path
+    (snap / "delisted.json").write_text(json.dumps(
+        [{"ticker": "DEADCO", "name": "Dead Co", "delistingDate": "2022-01-01",
+          "ipoDate": "1990-01-01"}]))
+    research = research_universe_for("equity", snap)
+    live = universe_for("equity", snap)
+    assert "DEADCO" in research
+    assert "DEADCO" not in live
+    assert set(live).issubset(set(research))
+
+
+def test_real_delisted_pool_in_research_universe():
+    cfg = load_config()
+    research = research_universe_for("equity", cfg.snapshot_dir)
+    extra = set(research) - set(EQUITY_UNIVERSE)
+    # the committed snapshot bundle ships a real survivorship pool
+    assert len(extra) >= 20
+
+
+def test_trader_universe_stays_live_only():
+    cfg = load_config()
+    live = universe_for("equity", cfg.snapshot_dir)
+    assert set(live) == set(EQUITY_UNIVERSE)
+
+
+def test_earnings_blackout_logic(tmp_path, tmp_db):
+    import dataclasses
+    import numpy as np
+    from quantzzz.data.snapshots import SnapshotStore
+    from quantzzz.trading.trader import TraderAgent
+
+    snap = tmp_path / "snapshots"
+    store = SnapshotStore(snap)
+    dates = pd.bdate_range("2024-01-01", periods=300)
+    close = 100 * np.cumprod(1 + np.random.default_rng(0).normal(0.001, 0.01, 300))
+    store.save_prices("AAPL", pd.DataFrame(
+        {"close": close, "raw_close": close, "volume": 1e6}, index=dates))
+    store.save_json("av_earnings_calendar.json",
+                    [{"ticker": "AAPL", "reportDate": "2025-03-05", "estimate": "2.0"}])
+
+    cfg = dataclasses.replace(load_config(), snapshot_dir=snap)
+    agent = TraderAgent(cfg, "equity", tmp_db)
+    agent.as_of = pd.Timestamp("2025-03-03")     # 2 days before report
+    assert agent._in_earnings_blackout("AAPL") is not None
+    agent.as_of = pd.Timestamp("2025-02-10")     # well before
+    assert agent._in_earnings_blackout("AAPL") is None
+    agent.as_of = pd.Timestamp("2025-03-06")     # after report
+    assert agent._in_earnings_blackout("AAPL") is None

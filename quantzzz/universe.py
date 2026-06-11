@@ -48,8 +48,28 @@ def biotech_universe(snapshot_dir: Path) -> list[str]:
 
 
 def universe_for(desk: str, snapshot_dir: Path) -> list[str]:
+    """The LIVE/tradeable universe (active names only)."""
     if desk == "equity":
         return list(EQUITY_UNIVERSE)
     if desk == "biotech":
         return biotech_universe(snapshot_dir)
     raise ValueError(f"unknown desk: {desk}")
+
+
+def delisted_pool(snapshot_dir: Path) -> list[str]:
+    meta = []
+    path = snapshot_dir / "delisted.json"
+    if path.exists():
+        meta = json.loads(path.read_text())
+    return [m["ticker"] for m in meta]
+
+
+def research_universe_for(desk: str, snapshot_dir: Path) -> list[str]:
+    """The BACKTEST universe: live names plus delisted companies, so research
+    sees the firms that died (survivorship-bias mitigation). The equity desk
+    gets the delisted pool; biotech delistings lack sector tags, so the pool
+    is equity-only for now."""
+    base = universe_for(desk, snapshot_dir)
+    if desk == "equity":
+        return base + [t for t in delisted_pool(snapshot_dir) if t not in base]
+    return base

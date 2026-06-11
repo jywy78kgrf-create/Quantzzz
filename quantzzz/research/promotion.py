@@ -25,6 +25,7 @@ class Evaluation:
     oos_returns: pd.Series
     window_sharpes: list[float] = field(default_factory=list)
     dsr_prob: float = 0.0              # deflated-Sharpe probability vs noise floor
+    bench_max_dd: float = 0.0          # benchmark's drawdown over the same window
 
     def as_row(self) -> dict:
         return {
@@ -49,6 +50,8 @@ def evaluate_windows(is_res: BacktestResult, window_results: list[BacktestResult
     max_dd = M.max_drawdown(oos_returns)
     stats = M.trade_stats(trade_pnls)
     dsr = M.deflated_sharpe_prob(oos_returns, n_effective_trials)
+    bench_oos = benchmark.reindex(oos_returns.index).dropna()
+    bench_max_dd = M.max_drawdown(bench_oos)
 
     # fitness rewards OOS Sharpe and consistency, penalizes drawdown + overfit gap
     consistency_bonus = 0.2 * sum(1 for s in window_sharpes if s > 0) / max(len(window_sharpes), 1)
@@ -61,6 +64,7 @@ def evaluate_windows(is_res: BacktestResult, window_results: list[BacktestResult
         max_dd=max_dd, n_trades=stats.n_trades, hit_rate=stats.hit_rate,
         fitness=fitness, oos_returns=oos_returns,
         window_sharpes=[round(s, 3) for s in window_sharpes], dsr_prob=dsr,
+        bench_max_dd=bench_max_dd,
     )
 
 
@@ -72,8 +76,11 @@ def check_promotion(ev: Evaluation, thr: PromotionThresholds,
         reasons.append(f"oos_sharpe {ev.oos_sharpe:.2f} < {thr.min_oos_sharpe}")
     if ev.oos_alpha < thr.min_oos_alpha:
         reasons.append(f"oos_alpha {ev.oos_alpha:.3f} < {thr.min_oos_alpha}")
-    if ev.max_dd > thr.max_drawdown:
-        reasons.append(f"max_dd {ev.max_dd:.2f} > {thr.max_drawdown}")
+    allowed_dd = min(thr.max_drawdown_hard_cap,
+                     max(thr.max_drawdown, ev.bench_max_dd * thr.bench_dd_multiple))
+    if ev.max_dd > allowed_dd:
+        reasons.append(f"max_dd {ev.max_dd:.2f} > {allowed_dd:.2f} "
+                       f"(bench dd {ev.bench_max_dd:.2f})")
     if ev.n_trades < thr.min_trades:
         reasons.append(f"n_trades {ev.n_trades} < {thr.min_trades}")
     if ev.is_sharpe > 0 and ev.oos_sharpe < ev.is_sharpe * thr.min_oos_is_ratio:

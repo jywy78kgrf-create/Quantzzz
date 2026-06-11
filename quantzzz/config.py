@@ -29,13 +29,20 @@ class PromotionThresholds:
     min_positive_windows: int = 2       # of the walk-forward OOS windows
     min_dsr_prob: float = 0.60          # deflated-Sharpe prob vs multiple-testing
                                         # noise floor (raise to 0.95 for strict mode)
+    # drawdown gate is benchmark-relative: a long-only strategy cannot be
+    # expected to draw down less than its own market in a crash. Allowed DD =
+    # min(hard_cap, max(max_drawdown, benchmark_dd * bench_dd_multiple)).
+    bench_dd_multiple: float = 1.15
+    max_drawdown_hard_cap: float = 0.50
 
 
 # Biotech is structurally higher-volatility (binary catalyst events), so it
 # carries a looser drawdown cap and a higher Sharpe bar to compensate.
 PROMOTION_THRESHOLDS = {
     "equity": PromotionThresholds(),
-    "biotech": PromotionThresholds(min_oos_sharpe=1.1, max_drawdown=0.50),
+    "biotech": PromotionThresholds(min_oos_sharpe=1.1, max_drawdown=0.50,
+                                   bench_dd_multiple=1.0,
+                                   max_drawdown_hard_cap=0.55),
 }
 
 

@@ -33,6 +33,15 @@ jobs:
       - name: Install
         run: pip install -e ".[dev]"
 
+      - name: Choose research depth (deep when markets are closed)
+        id: depth
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 13-21 * * 1-5" ]; then
+            echo "iters=40" >> "$GITHUB_OUTPUT"     # market hours: fresh data + trading
+          else
+            echo "iters=160" >> "$GITHUB_OUTPUT"    # nights/weekends/manual: deep search
+          fi
+
       - name: Run one fund cycle (refresh -> research -> trade)
         env:
           ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
@@ -42,7 +51,7 @@ jobs:
           LIVE_TRADING: "false"
         run: |
           python -m quantzzz init-db   # bootstraps from data/seed.db on fresh checkout
-          python -m quantzzz run --cycles 1 --research-iterations 40
+          python -m quantzzz run --cycles 1 --research-iterations ${{ steps.depth.outputs.iters }}
 
       - name: Run tests (guard against bad state)
         run: python -m pytest -q

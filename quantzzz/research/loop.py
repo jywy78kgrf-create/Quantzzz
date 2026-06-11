@@ -22,7 +22,7 @@ from ..universe import research_universe_for
 from . import evolution
 from .backtest import Backtester, walk_forward_windows
 from .feature_loader import load_feature_bundle
-from .promotion import check_promotion, evaluate_windows
+from .promotion import check_promotion, evaluate_windows, should_replace
 from .strategies import signal_fn_for, space_for
 from .strategy_space import StrategySpec
 
@@ -93,8 +93,17 @@ class ResearchDesk:
                 if h in seen:
                     continue
                 seen.add(h)
-                ev, promoted, reasons = self._evaluate_spec(
+                ev, promoted, reasons, corr_ids = self._evaluate_spec(
                     spec, is_dates, oos_windows, bench, promoted_returns)
+                only_corr_blocked = (not promoted and ev is not None and corr_ids
+                                     and all("correlated" in r for r in reasons))
+                if only_corr_blocked:
+                    swapped = self._try_refinement(spec, ev, corr_ids)
+                    if swapped is not None:
+                        promoted = True
+                        reasons = []
+                        promoted_returns[:] = [(sid, r) for sid, r in promoted_returns
+                                               if sid != swapped]
                 strat_id = self._persist_strategy(spec, origin, promoted)
                 self._persist_iteration(run_id, i, strat_id, ev, promoted, reasons)
 
@@ -105,7 +114,7 @@ class ResearchDesk:
                     population[:] = population[:15]
                 if promoted:
                     promotions += 1
-                    promoted_returns.append(ev.oos_returns)
+                    promoted_returns.append((strat_id, ev.oos_returns))
                     self._journal_promotion(spec, ev)
 
         self.conn.execute(
@@ -157,7 +166,7 @@ class ResearchDesk:
         try:
             weights = signal_fn(self.bundle, spec.params)
         except Exception as e:
-            return None, False, [f"error: {e}"]
+            return None, False, [f"error: {e}"], []
 
         from . import metrics as M
         prices = self.bundle.prices
@@ -165,7 +174,7 @@ class ResearchDesk:
                              prices.loc[prices.index.isin(is_dates)])
         is_sharpe = M.sharpe(is_res.returns)
         if is_sharpe < self.cfg.promotion_for(self.desk).min_is_sharpe_bar:
-            return _stub_eval(is_sharpe), False, ["weak in-sample"]
+            return _stub_eval(is_sharpe), False, ["weak in-sample"], []
 
         try:
             window_results = [
@@ -174,11 +183,49 @@ class ResearchDesk:
                 for w in oos_windows
             ]
         except Exception as e:
-            return None, False, [f"oos error: {e}"]
+            return None, False, [f"oos error: {e}"], []
 
         ev = evaluate_windows(is_res, window_results, bench, self._effective_trials())
-        passed, reasons = check_promotion(ev, self.cfg.promotion_for(self.desk), promoted_returns)
-        return ev, passed, reasons
+        passed, reasons, corr_ids = check_promotion(
+            ev, self.cfg.promotion_for(self.desk), promoted_returns)
+        return ev, passed, reasons, corr_ids
+
+    # ---- refinement: a materially better cousin may replace its incumbent ----
+    def _incumbent_metrics(self, sid: int) -> dict:
+        row = self.conn.execute("""
+            SELECT MAX(oos_sharpe) oos_sharpe, MAX(fitness) fitness,
+                   MAX(bootstrap_q05) bootstrap_q05
+            FROM research_iterations WHERE strategy_id=?""", (sid,)).fetchone()
+        mult = self.conn.execute(
+            "SELECT weight_multiplier FROM strategy_performance WHERE strategy_id=? "
+            "ORDER BY as_of_ts DESC LIMIT 1", (sid,)).fetchone()
+        return {"oos_sharpe": row["oos_sharpe"], "fitness": row["fitness"],
+                "bootstrap_q05": row["bootstrap_q05"],
+                "live_mult": mult["weight_multiplier"] if mult else 1.0}
+
+    def _try_refinement(self, spec, ev, corr_ids) -> int | None:
+        """Replace the (single) correlated incumbent if the challenger clears
+        the margin. Returns the retired incumbent id, or None."""
+        if len(corr_ids) != 1:
+            return None     # correlated with several edges: genuinely redundant
+        sid = corr_ids[0]
+        ok, why = should_replace(ev, self._incumbent_metrics(sid))
+        from ..db import insert
+        if not ok:
+            insert(self.conn, "journal_entries", fund=self.desk, ts=utcnow(),
+                   entry_type="learning", action="challenger_rejected",
+                   reasoning=f"Challenger {spec.family} kept out: {why}.",
+                   ref_table="strategies", ref_id=sid)
+            return None
+        self.conn.execute(
+            "UPDATE strategies SET status='retired', retired_ts=? WHERE id=?",
+            (utcnow(), sid))
+        self.conn.commit()
+        insert(self.conn, "journal_entries", fund=self.desk, ts=utcnow(),
+               entry_type="promotion", action="refined_replacement",
+               reasoning=f"{spec.family} replaces #{sid}: {why}.",
+               ref_table="strategies", ref_id=sid)
+        return sid
 
     # ---- persistence ----
     def _persist_strategy(self, spec, origin, promoted) -> int:
@@ -235,7 +282,7 @@ class ResearchDesk:
 
     def _load_promoted_returns(self, oos_windows, bench) -> list[pd.Series]:
         rows = self.conn.execute(
-            "SELECT family, params_json FROM strategies WHERE desk=? AND status='promoted'",
+            "SELECT id, family, params_json FROM strategies WHERE desk=? AND status='promoted'",
             (self.desk,)).fetchall()
         all_oos = oos_windows[0].append(list(oos_windows[1:]))
         prices = self.bundle.prices
@@ -246,7 +293,7 @@ class ResearchDesk:
                 weights = signal_fn_for(spec.family)(self.bundle, spec.params)
                 res = self.bt.run(weights.loc[weights.index.isin(all_oos)],
                                   prices.loc[prices.index.isin(all_oos)])
-                out.append(res.returns)
+                out.append((r["id"], res.returns))
             except Exception:
                 continue
         return out

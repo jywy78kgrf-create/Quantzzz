@@ -105,12 +105,41 @@ def check_promotion(ev: Evaluation, thr: PromotionThresholds,
                        f"{thr.min_bootstrap_q05} (not robust to resampling)")
 
     # de-correlation vs already-promoted strategies
-    for pr in promoted_returns:
+    corr_ids: list[int] = []
+    for sid, pr in promoted_returns:
         joined = pd.concat([ev.oos_returns, pr], axis=1, join="inner").dropna()
         if len(joined) > 20:
             corr = joined.iloc[:, 0].corr(joined.iloc[:, 1])
             if corr is not None and corr > thr.max_correlation:
-                reasons.append(f"correlated {corr:.2f} with promoted strategy")
-                break
+                reasons.append(f"correlated {corr:.2f} with promoted #{sid}")
+                corr_ids.append(sid)
 
-    return (len(reasons) == 0), reasons
+    return (len(reasons) == 0), reasons, corr_ids
+
+
+REFINE_MARGIN = 1.15        # challenger must beat incumbent OOS Sharpe by >= 15%
+LIVE_RESPECT_MULT = 1.25    # never swap out a strategy the learning loop rates this highly
+
+
+def should_replace(ev: Evaluation, incumbent: dict) -> tuple[bool, str]:
+    """Decide whether a correlated challenger may replace its incumbent.
+
+    A backtest-better cousin only takes the seat when it clears a material
+    margin (parameter-twin differences are usually noise), is at least as
+    robust under resampling, and the incumbent is not currently being
+    up-weighted by its LIVE trading record — forward evidence outranks
+    backtest evidence.
+    """
+    inc_sharpe = incumbent.get("oos_sharpe") or 0.0
+    if (incumbent.get("live_mult") or 1.0) >= LIVE_RESPECT_MULT:
+        return False, "incumbent is outperforming live (learning multiplier high)"
+    if inc_sharpe > 0 and ev.oos_sharpe < inc_sharpe * REFINE_MARGIN:
+        return False, (f"margin too thin ({ev.oos_sharpe:.2f} vs {inc_sharpe:.2f}; "
+                       f"needs +{(REFINE_MARGIN-1)*100:.0f}%)")
+    if (ev.bootstrap_q05 or 0.0) < (incumbent.get("bootstrap_q05") or 0.0):
+        return False, "less robust under bootstrap resampling"
+    if ev.fitness <= (incumbent.get("fitness") or 0.0):
+        return False, "fitness not higher"
+    gain = (ev.oos_sharpe / inc_sharpe - 1) * 100 if inc_sharpe > 0 else 0.0
+    return True, (f"refined replacement: OOS Sharpe {ev.oos_sharpe:.2f} vs "
+                  f"{inc_sharpe:.2f} (+{gain:.0f}%), bootstrap and fitness superior")

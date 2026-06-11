@@ -44,3 +44,23 @@ def test_walk_forward_windows_disjoint_and_ordered():
     # combined OOS covers ~40%
     total_oos = sum(len(w) for w in windows)
     assert abs(total_oos - 400) <= 3
+
+
+def test_should_replace_decisions():
+    import pandas as pd
+    from quantzzz.research.promotion import Evaluation, should_replace
+
+    def ev(sharpe, fit, boot):
+        return Evaluation(1.5, sharpe, 0.1, 1.0, 0.2, 50, 0.55, fit,
+                          pd.Series(dtype=float), [1, 1, 1], 0.9, 0.3, boot)
+
+    inc = {"oos_sharpe": 1.2, "fitness": 1.0, "bootstrap_q05": 0.5, "live_mult": 1.0}
+    ok, why = should_replace(ev(1.45, 1.3, 0.6), inc)      # +21%, stronger everywhere
+    assert ok
+    ok, _ = should_replace(ev(1.25, 1.3, 0.6), inc)        # +4%: inside noise
+    assert not ok
+    ok, _ = should_replace(ev(1.45, 1.3, 0.4), inc)        # less robust bootstrap
+    assert not ok
+    live = {**inc, "live_mult": 1.4}                        # incumbent winning live
+    ok, why = should_replace(ev(1.45, 1.3, 0.6), live)
+    assert not ok and "live" in why

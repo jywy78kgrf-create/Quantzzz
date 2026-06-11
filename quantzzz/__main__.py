@@ -45,6 +45,9 @@ def main(argv: list[str] | None = None) -> int:
     p_run.add_argument("--interval-s", type=int, default=900)
     p_run.add_argument("--research-iterations", type=int, default=25)
 
+    sub.add_parser("sync", help="overwrite local state from the pulled seed "
+                                "(use after 'git pull' when GitHub Actions is the writer)")
+
     sub.add_parser("dashboard", help="launch the Streamlit dashboards")
 
     args = p.parse_args(argv)
@@ -59,6 +62,25 @@ def main(argv: list[str] | None = None) -> int:
         conn = get_conn(cfg.db_path)
         init_schema(conn)
         print(f"schema ready at {cfg.db_path}")
+        return 0
+
+    if args.cmd == "sync":
+        import shutil
+        seed = PROJECT_ROOT / "data" / "seed.db"
+        if not seed.exists():
+            print("no data/seed.db found — git pull first")
+            return 1
+        if cfg.db_path.exists():
+            backup = cfg.db_path.with_suffix(".db.backup")
+            shutil.copy(cfg.db_path, backup)
+            print(f"local state backed up to {backup.name}")
+        shutil.copy(seed, cfg.db_path)
+        conn = get_conn(cfg.db_path)
+        init_schema(conn)
+        row = conn.execute(
+            "SELECT COUNT(*) FROM strategies WHERE status='promoted'").fetchone()
+        print(f"local state now matches the seed: {row[0]} promoted strategies. "
+              "Local-only history was replaced (see the .backup file).")
         return 0
 
     if args.cmd == "refresh-data":

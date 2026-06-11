@@ -53,7 +53,7 @@ def equity_curve_fig(funds: dict[str, pd.DataFrame], title: str) -> go.Figure:
         if df.empty:
             continue
         fig.add_trace(go.Scatter(
-            x=pd.to_datetime(df["ts"]), y=df["equity"], name=fund.title(),
+            x=pd.to_datetime(df["ts"], format="ISO8601", utc=True), y=df["equity"], name=fund.title(),
             line=dict(color=COLORS.get(fund, "#888"), width=2)))
     fig.update_layout(title=title, height=360, margin=dict(l=10, r=10, t=40, b=10),
                       yaxis_title="Equity ($)", template="plotly_white",

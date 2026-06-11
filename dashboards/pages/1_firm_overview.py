@@ -41,8 +41,8 @@ for fund in ("equity", "biotech"):
     df = funds[fund]
     if df.empty or len(df) < 2:
         continue
-    start_ts = pd.to_datetime(df["ts"].iloc[0]).tz_localize(None)
-    end_ts = pd.to_datetime(df["ts"].iloc[-1]).tz_localize(None)
+    start_ts = pd.to_datetime(df["ts"].iloc[0], format="ISO8601", utc=True).tz_localize(None)
+    end_ts = pd.to_datetime(df["ts"].iloc[-1], format="ISO8601", utc=True).tz_localize(None)
     fund_ret = df["equity"].iloc[-1] / df["equity"].iloc[0] - 1
     bench_t = BENCHMARKS[fund]
     bench_px = store.load_prices(bench_t)

@@ -74,6 +74,12 @@ class TraderAgent:
     def _quote(self, ticker: str) -> float | None:
         return self._price_cache.get(ticker)
 
+    def _ts(self) -> str:
+        """Effective timestamp: the as-of date during replay, else wall clock."""
+        if self.as_of is not None:
+            return pd.Timestamp(self.as_of).isoformat()
+        return utcnow()
+
     def _ticker_vol(self, ticker: str) -> float:
         df = self.store.load_prices(ticker)
         if df is None or len(df) < 30:
@@ -87,7 +93,7 @@ class TraderAgent:
         if as_of is not None:
             self._price_cache = self._closes_as_of(as_of)
         quotes = self._price_cache
-        self.broker.mark_to_market(quotes)
+        self.broker.mark_to_market(quotes, ts=self._ts())
         drawdown = self._current_drawdown()
         state = self._fund_mode()
 
@@ -105,7 +111,7 @@ class TraderAgent:
         if self.learning.unreviewed_count() >= self.cfg.learning_review_every:
             reviewed = self.learning.review()
 
-        self.broker.mark_to_market(self._price_cache)
+        self.broker.mark_to_market(self._price_cache, ts=self._ts())
         acct = self.broker.get_account()
         return (f"[{self.fund}] equity ${acct.equity:,.0f} cash ${acct.cash:,.0f} | "
                 f"exits {exits}, entries {entries}, positions "
@@ -249,7 +255,7 @@ class TraderAgent:
                 "UPDATE positions SET stop_px=? WHERE fund=? AND ticker=?",
                 (self.risk.stop_price(fill.price), self.fund, ticker))
             insert(self.conn, "trades", fund=self.fund, strategy_id=c["strategy_id"],
-                   ticker=ticker, entry_ts=utcnow(), entry_px=fill.price, qty=qty)
+                   ticker=ticker, entry_ts=self._ts(), entry_px=fill.price, qty=qty)
             self.conn.commit()
             return True
         return False
@@ -269,5 +275,5 @@ class TraderAgent:
         if row:
             self.conn.execute(
                 "UPDATE trades SET exit_ts=?, exit_px=?, pnl=?, pnl_pct=?, exit_reason=? "
-                "WHERE id=?", (utcnow(), exit_px, pnl, pnl_pct, reason, row["id"]))
+                "WHERE id=?", (self._ts(), exit_px, pnl, pnl_pct, reason, row["id"]))
             self.conn.commit()

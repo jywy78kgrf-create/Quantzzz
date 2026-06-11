@@ -119,7 +119,8 @@ class PaperBroker(Broker):
                       side=order.side, qty=order.qty, order_type=order.order_type,
                       status=status, reject_reason=reason, journal_id=order.journal_id)
 
-    def mark_to_market(self, quotes: dict[str, float]) -> None:
+    def mark_to_market(self, quotes: dict[str, float], ts: str | None = None) -> None:
+        ts = ts or utcnow()
         acct = self.get_account()
         positions = self.get_positions()
         gross = sum(abs(p.qty) * (quotes.get(p.ticker) or p.avg_cost) for p in positions)
@@ -129,7 +130,7 @@ class PaperBroker(Broker):
         hwm = max(state["hwm"] if state else acct.equity, acct.equity)
         drawdown = 0.0 if hwm == 0 else (acct.equity - hwm) / hwm
         self.conn.execute("UPDATE fund_state SET hwm=? WHERE fund=?", (hwm, self.fund))
-        insert(self.conn, "equity_snapshots", fund=self.fund, ts=utcnow(),
+        insert(self.conn, "equity_snapshots", fund=self.fund, ts=ts,
                equity=acct.equity, cash=acct.cash,
                gross_exposure=gross / acct.equity if acct.equity else 0,
                net_exposure=net / acct.equity if acct.equity else 0,

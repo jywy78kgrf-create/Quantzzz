@@ -79,6 +79,30 @@ def dollar_volume(prices: pd.DataFrame, volume: pd.DataFrame, lookback: int) -> 
     return (prices * volume).rolling(lookback).mean()
 
 
+def trading_cost_bps(prices: pd.DataFrame, volume: pd.DataFrame,
+                     base_bps: float = 5.0, fallback_bps: float = 10.0,
+                     floor_bps: float = 8.0, cap_bps: float = 120.0) -> pd.DataFrame:
+    """Liquidity-aware per-name round-trip cost (bps of traded notional).
+
+    A flat 10bps flatters small-cap names whose spreads alone run 30-100bps —
+    exactly the names the biotech catalyst families trade. Model: half-spread +
+    impact shrinking with the square root of dollar liquidity,
+
+        cost = clip(base + 50 * sqrt($5M / ADV$), floor, cap)
+
+    using a trailing 63-day median dollar volume, shifted one day (causal).
+    Mega-caps land near the floor (~8bps); a $20M-ADV biotech ~30bps; an
+    illiquid name saturates at the cap. Names without volume data fall back to
+    the flat assumption rather than pretending precision.
+    """
+    if volume.empty:
+        return pd.DataFrame(fallback_bps, index=prices.index, columns=prices.columns)
+    adv = (prices * volume).rolling(63, min_periods=10).median().shift(1)
+    cost = base_bps + 50.0 * np.sqrt(5e6 / adv.clip(lower=1e4))
+    cost = cost.clip(lower=floor_bps, upper=cap_bps)
+    return cost.fillna(fallback_bps).reindex(columns=prices.columns)
+
+
 # ---- fundamental features (EDGAR) → as-filed point-in-time DataFrames ----
 def _as_filed_frame(prices_index: pd.DatetimeIndex, fundamentals: dict,
                     score_fn) -> pd.DataFrame:

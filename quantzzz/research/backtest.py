@@ -53,8 +53,13 @@ class Backtester:
     def __init__(self, cost_bps: float = 10.0):
         self.cost_bps = cost_bps
 
-    def run(self, target_weights: pd.DataFrame, prices: pd.DataFrame) -> BacktestResult:
-        """target_weights and prices share tickers; prices is daily close."""
+    def run(self, target_weights: pd.DataFrame, prices: pd.DataFrame,
+            cost_panel: pd.DataFrame | None = None) -> BacktestResult:
+        """target_weights and prices share tickers; prices is daily close.
+
+        ``cost_panel`` optionally prices turnover per name (dates x tickers,
+        bps) — liquidity-aware costs instead of the flat assumption.
+        """
         prices = prices.reindex(columns=target_weights.columns)
         asset_rets = prices.pct_change()
 
@@ -64,8 +69,13 @@ class Backtester:
         held = tw.shift(1).fillna(0.0)
 
         gross = (held * asset_rets).sum(axis=1, skipna=True)
-        turnover = (tw - held).abs().sum(axis=1)
-        costs = turnover * (self.cost_bps / 1e4)
+        per_name_turnover = (tw - held).abs()
+        if cost_panel is not None and not cost_panel.empty:
+            bps = (cost_panel.reindex(index=tw.index, columns=tw.columns)
+                   .ffill().fillna(self.cost_bps))
+            costs = (per_name_turnover * bps / 1e4).sum(axis=1)
+        else:
+            costs = per_name_turnover.sum(axis=1) * (self.cost_bps / 1e4)
         net = (gross - costs).fillna(0.0)
 
         # drop leading days before the first position to avoid diluting stats

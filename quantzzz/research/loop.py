@@ -51,6 +51,10 @@ class ResearchDesk:
         self.bt = Backtester(cost_bps=cfg.cost_bps)
         self.rng = random.Random()
         self.benchmark_ticker = BENCHMARKS[desk]
+        # liquidity-aware per-name costs: small caps pay realistic spreads
+        from ..data import features as F
+        self.cost_panel = F.trading_cost_bps(bundle.prices, bundle.volume,
+                                             fallback_bps=cfg.cost_bps)
 
     @classmethod
     def build(cls, cfg: Config, desk: str) -> "ResearchDesk":
@@ -225,7 +229,8 @@ class ResearchDesk:
         from . import metrics as M
         prices = self.bundle.prices
         is_res = self.bt.run(weights.loc[weights.index.isin(is_dates)],
-                             prices.loc[prices.index.isin(is_dates)])
+                             prices.loc[prices.index.isin(is_dates)],
+                             cost_panel=self.cost_panel)
         thr = self.cfg.promotion_for(self.desk, spec.family)
         is_sharpe = M.sharpe(is_res.returns)
         if is_sharpe < thr.min_is_sharpe_bar:
@@ -234,7 +239,8 @@ class ResearchDesk:
         try:
             window_results = [
                 self.bt.run(weights.loc[weights.index.isin(w)],
-                            prices.loc[prices.index.isin(w)])
+                            prices.loc[prices.index.isin(w)],
+                            cost_panel=self.cost_panel)
                 for w in oos_windows
             ]
         except Exception as e:
@@ -346,7 +352,8 @@ class ResearchDesk:
                 spec = StrategySpec.from_row(r["family"], self.desk, r["params_json"])
                 weights = signal_fn_for(spec.family)(self.bundle, spec.params)
                 res = self.bt.run(weights.loc[weights.index.isin(all_oos)],
-                                  prices.loc[prices.index.isin(all_oos)])
+                                  prices.loc[prices.index.isin(all_oos)],
+                                  cost_panel=self.cost_panel)
                 out.append((r["id"], res.returns))
             except Exception:
                 continue

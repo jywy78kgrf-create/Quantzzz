@@ -50,3 +50,32 @@ def test_chronological_split_no_overlap_with_embargo():
     assert train.max() < test.min()
     assert (test.min() - train.max()).days >= 5
     assert len(train) == 70
+
+
+def test_liquidity_cost_panel_charges_small_caps_more():
+    import numpy as np
+    import pandas as pd
+    from quantzzz.data.features import trading_cost_bps
+    from quantzzz.research.backtest import Backtester
+
+    dates = pd.bdate_range("2024-01-01", periods=120)
+    prices = pd.DataFrame({"BIG": 100.0, "SML": 10.0}, index=dates)
+    volume = pd.DataFrame({"BIG": 20_000_000.0, "SML": 100_000.0}, index=dates)
+    cost = trading_cost_bps(prices, volume)
+    assert cost["SML"].iloc[-1] > cost["BIG"].iloc[-1] * 3   # illiquid pays up
+
+    # identical weights/returns -> the panel-cost run nets less on SML turnover
+    w = pd.DataFrame(0.0, index=dates, columns=["BIG", "SML"])
+    w.iloc[::5, 1] = 0.5                                     # churn the small cap
+    flat = Backtester(cost_bps=10.0).run(w, prices)
+    panel = Backtester(cost_bps=10.0).run(w, prices, cost_panel=cost)
+    assert panel.returns.sum() < flat.returns.sum()
+
+
+def test_cost_panel_falls_back_flat_without_volume():
+    import pandas as pd
+    from quantzzz.data.features import trading_cost_bps
+    dates = pd.bdate_range("2024-01-01", periods=30)
+    prices = pd.DataFrame({"A": 50.0}, index=dates)
+    cost = trading_cost_bps(prices, pd.DataFrame(), fallback_bps=10.0)
+    assert (cost["A"] == 10.0).all()

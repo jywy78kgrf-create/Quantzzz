@@ -11,11 +11,15 @@ class LLMAdvisor(Protocol):
     available: bool
 
     def propose_strategies(self, desk: str, leaderboard: list[dict],
-                           param_spaces: dict | None) -> list[StrategySpec]:
+                           param_spaces: dict | None,
+                           search_context: dict | None = None) -> list[StrategySpec]:
         ...
 
     def review_journal(self, fund: str, entries: list[dict],
                        trade_outcomes: list[dict]) -> str | None:
+        ...
+
+    def synthesize_week(self, stats: dict) -> str | None:
         ...
 
 
@@ -24,8 +28,12 @@ class NullAdvisor:
 
     available = False
 
-    def propose_strategies(self, desk, leaderboard, param_spaces) -> list[StrategySpec]:
+    def propose_strategies(self, desk, leaderboard, param_spaces,
+                           search_context=None) -> list[StrategySpec]:
         return []
 
     def review_journal(self, fund, entries, trade_outcomes) -> str | None:
+        return None
+
+    def synthesize_week(self, stats) -> str | None:
         return None

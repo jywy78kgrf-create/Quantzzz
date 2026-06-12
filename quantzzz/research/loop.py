@@ -171,8 +171,22 @@ class ResearchDesk:
                    for s, f in population[:5]]
         spaces = {fam: [p.__dict__ for p in space_for(fam).params]
                   for fam in {s.family for s, _ in population}} or None
+        fails = self.conn.execute(
+            "SELECT fail_reasons FROM research_iterations WHERE desk=? AND "
+            "promoted=0 AND fail_reasons IS NOT NULL ORDER BY id DESC LIMIT 300",
+            (self.desk,)).fetchall()
+        from collections import Counter
+        counts = Counter()
+        for r in fails:
+            for reason in r["fail_reasons"].split(";"):
+                head = reason.strip().split(" ")[0]
+                if head:
+                    counts[head] += 1
+        context = {"top_fail_reasons": dict(counts.most_common(6)),
+                   "sample": len(fails)}
         try:
-            proposals = self.llm.propose_strategies(self.desk, summary, spaces)
+            proposals = self.llm.propose_strategies(self.desk, summary, spaces,
+                                                    search_context=context)
         except Exception:
             return []
         out = []

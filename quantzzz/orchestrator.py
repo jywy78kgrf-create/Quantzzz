@@ -70,6 +70,54 @@ def _journal_cycle_gap(cfg: Config) -> None:
         conn.close()
 
 
+def _maybe_weekly_synthesis(cfg: Config) -> None:
+    """Once a week, the advisor writes the head-of-research note: search
+    progress, how the external-signal bench's deflated Sharpe moved, and what
+    the live forward record says. Journaled; NullAdvisor makes this a no-op."""
+    from .db import get_conn, insert, utcnow
+    from .llm import get_llm
+    llm = get_llm(cfg)
+    if not getattr(llm, "available", False):
+        return
+    conn = get_conn(cfg.db_path)
+    try:
+        throttled = conn.execute(
+            "SELECT 1 FROM journal_entries WHERE entry_type='llm_review' AND "
+            "action='weekly_synthesis' AND ts > datetime('now','-7 days') "
+            "LIMIT 1").fetchone()
+        if throttled:
+            return
+        g = lambda sql, p=(): conn.execute(sql, p).fetchone()
+        bench = g("""SELECT MAX(i.dsr_prob) d, MAX(i.oos_sharpe) s
+                     FROM research_iterations i JOIN strategies st ON st.id=i.strategy_id
+                     WHERE st.family IN ('event_anchored','options_iv_runup',
+                                         'insider_conviction')
+                       AND i.ts > datetime('now','-7 days')""")
+        stats = {
+            "promotions_7d": g("SELECT COUNT(*) c FROM strategies WHERE "
+                               "promoted_ts > datetime('now','-7 days')")["c"],
+            "iterations_7d": g("SELECT COUNT(*) c FROM research_iterations WHERE "
+                               "ts > datetime('now','-7 days')")["c"],
+            "external_bench_best_dsr_7d": bench["d"],
+            "external_bench_best_oos_sharpe_7d": bench["s"],
+            "forward_record": [dict(r) for r in conn.execute(
+                """SELECT fund, MIN(ts) since, COUNT(*) sessions,
+                          ROUND((MAX(equity)/MIN(equity)-1)*100, 2) ret_range_pct
+                   FROM equity_snapshots WHERE source='live' GROUP BY fund""")],
+            "retired_7d": g("SELECT COUNT(*) c FROM strategies WHERE "
+                            "retired_ts > datetime('now','-7 days')")["c"],
+        }
+        note = llm.synthesize_week(stats)
+        if note:
+            insert(conn, "journal_entries", fund="biotech", ts=utcnow(),
+                   entry_type="llm_review", action="weekly_synthesis",
+                   reasoning=note)
+    except Exception as e:
+        print(f"weekly synthesis error (non-fatal): {e}")
+    finally:
+        conn.close()
+
+
 def run_loop(cfg: Config, cycles: int = 0, interval_s: int = 900,
              research_iterations: int = 25) -> None:
     signal.signal(signal.SIGINT, _handle_sigint)
@@ -92,6 +140,11 @@ def run_loop(cfg: Config, cycles: int = 0, interval_s: int = 900,
                 print(result.summary())
             except Exception as e:
                 print(f"research {desk} error: {e}")
+
+        try:
+            _maybe_weekly_synthesis(cfg)
+        except Exception as e:
+            print(f"weekly synthesis error (non-fatal): {e}")
 
         for fund in FUNDS:
             try:

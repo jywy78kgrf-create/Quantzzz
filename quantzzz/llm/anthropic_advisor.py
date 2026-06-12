@@ -29,18 +29,23 @@ class AnthropicAdvisor:
         )
         return "".join(b.text for b in msg.content if b.type == "text")
 
-    def propose_strategies(self, desk, leaderboard, param_spaces) -> list[StrategySpec]:
+    def propose_strategies(self, desk, leaderboard, param_spaces,
+                           search_context=None) -> list[StrategySpec]:
         if not param_spaces:
             return []
         system = (
             "You are a quant strategist proposing new parameter sets within a fixed "
             "strategy space. Respond ONLY with a JSON array of objects "
-            '{"family": str, "params": {...}}. Stay within documented parameter bounds.'
+            '{"family": str, "params": {...}}. Stay within documented parameter bounds. '
+            "Use the rejection statistics to steer AWAY from failure modes the "
+            "search keeps hitting (e.g. if candidates die on drawdown, propose "
+            "tighter exposure; if on trade count, propose more active variants)."
         )
         user = json.dumps({
             "desk": desk,
             "top_strategies": leaderboard,
             "parameter_spaces": param_spaces,
+            "recent_rejections": search_context or {},
             "instruction": "Propose 3 diverse, promising parameter sets.",
         })
         try:
@@ -65,6 +70,22 @@ class AnthropicAdvisor:
                            "outcomes": trade_outcomes[-30:]}, default=str)
         try:
             return self._complete(system, user, max_tokens=400).strip()
+        except Exception:
+            return None
+
+
+    def synthesize_week(self, stats: dict) -> str | None:
+        system = (
+            "You are the head of research writing the weekly note for an "
+            "autonomous quant fund. Given the week's statistics, write a concise "
+            "(<200 word) synthesis: what the search found, how the strict "
+            "external-signal bench moved (deflated-Sharpe trend), what the live "
+            "forward record says, and the single most decision-relevant fact. "
+            "Plain prose, no headers."
+        )
+        try:
+            return self._complete(system, json.dumps(stats, default=str),
+                                  max_tokens=500).strip()
         except Exception:
             return None
 

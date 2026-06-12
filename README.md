@@ -94,6 +94,35 @@ clears the full gauntlet:
 
 Every iteration is persisted so the labs show the search progressing.
 
+### External biotech signals (contaminated-discovery candidates)
+
+The biotech desk also ingests a committed external signal export under
+`data/snapshots/external/` — `signal_history_export.parquet` (point-in-time
+signal observations), `catalyst_events_export.csv` (the pinned `event_id`
+catalyst calendar), and `signal_spec_extract.csv` (research provenance). The
+loader (`quantzzz/data/external_signals.py`) builds strictly point-in-time
+feature panels, handling the export's **three different `as_of` semantics**:
+pre-catalyst **candle days** (event-pinned price signals), **options market
+days** (IV / skew / risk-reversal / open-interest), and **SEC filing dates**
+(insider net-purchase signals) — each with its own staleness tolerance and an
+as-of (never future) merge.
+
+Three families consume them: `options_iv_runup` (high pre-catalyst ATM IV drifts
+up into events), `insider_conviction` (point-in-time net Form-4 buying), and the
+event-anchored `event_anchored` family (trades the pinned catalyst calendar,
+ranked by one external signal). The **reconciliation flags** from the spec are
+encoded, not re-litigated: no `short_float` (look-ahead), `rc_*` excluded
+(temporal audit pending), risk-reversal in **unsigned `|RR|` form only**
+(bimodal), and only one member of any correlated cluster is rankable (the IV
+tenor ladder collapses to `iv_atm_30d`).
+
+These signals were surfaced by a multi-phase research scan on overlapping data,
+so they are treated as **contaminated-discovery** candidates: a stricter
+promotion gate (`PROMOTION_THRESHOLDS_EXTERNAL` — deflated-Sharpe ≥ 0.90, all
+three walk-forward windows profitable, bootstrap 5th-pct Sharpe ≥ 0.10, 30+
+trades) and the **forward paper record as the referee**. A backtest pass makes a
+family a *candidate for paper trading*, not a validated edge.
+
 ## Trader & recursive learning
 
 The trader is a **weight-tracking rebalancer**: each session it computes the

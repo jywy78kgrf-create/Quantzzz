@@ -24,6 +24,7 @@ class FeatureBundle:
     hist_catalysts: dict = field(default_factory=dict)  # ticker -> historical catalysts
     earnings: dict = field(default_factory=dict)      # ticker -> AV earnings surprises
     news: dict = field(default_factory=dict)          # ticker -> AV news sentiment
+    external: object = None                           # ExternalSignals | None (biotech desk)
 
     @property
     def tickers(self) -> list[str]:
@@ -43,6 +44,7 @@ class FeatureBundle:
             hist_catalysts=self.hist_catalysts,
             earnings=self.earnings,
             news=self.news,
+            external=self.external,
         )
 
 
@@ -222,3 +224,24 @@ def days_to_catalyst_frame(bundle: FeatureBundle) -> pd.DataFrame:
                 vals.append(np.nan)
         cols[tk] = pd.Series(vals, index=bundle.dates)
     return pd.DataFrame(cols).reindex(index=bundle.dates)
+
+
+# ---- external biotech signals (point-in-time panels, three as_of semantics) ----
+def external_signal_frame(bundle: FeatureBundle, signal_name: str) -> pd.DataFrame:
+    """A dates x tickers point-in-time frame for an external signal.
+
+    Returns an all-NaN frame when the external export is not loaded, so callers
+    degrade gracefully (the family then emits no positions).
+    """
+    if bundle.external is None:
+        return pd.DataFrame(index=bundle.dates, columns=bundle.tickers, dtype=float)
+    return bundle.external.signal_panel(signal_name, bundle.dates, bundle.tickers)
+
+
+def external_days_to_catalyst_frame(bundle: FeatureBundle,
+                                    catalyst_types: tuple[str, ...] | None = None
+                                    ) -> pd.DataFrame:
+    """Trading-day distance to the next pinned external catalyst, by ticker."""
+    if bundle.external is None:
+        return pd.DataFrame(index=bundle.dates, columns=bundle.tickers, dtype=float)
+    return bundle.external.days_to_catalyst(bundle.dates, bundle.tickers, catalyst_types)

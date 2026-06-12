@@ -7,6 +7,7 @@ import sqlite3
 import pandas as pd
 
 from ..config import Config
+from ..data.external_signals import load_external_signals
 from ..data.features import FeatureBundle
 from ..data.snapshots import SnapshotStore
 
@@ -26,6 +27,7 @@ def load_feature_bundle(cfg: Config, desk: str, tickers: list[str],
     hist: dict = {}
     earnings: dict = {}
     news: dict = {}
+    external = None
 
     for t in close.columns:
         e = store.load_json(f"av_earnings/{t}.json")
@@ -47,7 +49,9 @@ def load_feature_bundle(cfg: Config, desk: str, tickers: list[str],
             h = store.load_json(f"bpiq/hist_{t}.json")
             if h:
                 hist[t] = h
+        external = load_external_signals(cfg.snapshot_dir)
 
     return FeatureBundle(desk=desk, prices=close, volume=volume,
                          fundamentals=fundamentals, catalysts=catalysts,
-                         hist_catalysts=hist, earnings=earnings, news=news)
+                         hist_catalysts=hist, earnings=earnings, news=news,
+                         external=external)

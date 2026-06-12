@@ -50,6 +50,26 @@ PROMOTION_THRESHOLDS = {
                                    max_drawdown_hard_cap=0.55),
 }
 
+# Contaminated-discovery gate for the external-signal biotech families. The
+# signals were surfaced by a multi-phase research scan on overlapping, partly
+# whole-sample data, so backtest promotions carry extra overfitting risk. We
+# tighten every defence that fights selection bias — deflated Sharpe, bootstrap
+# robustness, OOS/IS consistency, walk-forward breadth — and treat the forward
+# paper record as the real referee (README "forward paper record"). A backtest
+# pass here is a *candidate for paper trading*, not a verdict.
+PROMOTION_THRESHOLDS_EXTERNAL = PromotionThresholds(
+    min_oos_sharpe=1.3,            # above the 1.1 biotech bar
+    min_oos_alpha=0.0,
+    max_drawdown=0.50,
+    bench_dd_multiple=1.0,
+    max_drawdown_hard_cap=0.55,
+    min_trades=30,                 # more evidence before believing the edge
+    min_oos_is_ratio=0.55,         # less OOS-vs-IS decay tolerated
+    min_positive_windows=3,        # ALL three walk-forward windows profitable
+    min_dsr_prob=0.90,             # strict deflated-Sharpe (vs 0.60 default)
+    min_bootstrap_q05=0.10,        # robust, not just the one realized path
+)
+
 
 @dataclass(frozen=True)
 class RiskLimits:
@@ -117,7 +137,12 @@ class Config:
     def risk_limits(self, fund: str) -> RiskLimits:
         return RISK_LIMITS[fund]
 
-    def promotion_for(self, desk: str) -> PromotionThresholds:
+    def promotion_for(self, desk: str, family: str | None = None) -> PromotionThresholds:
+        # External contaminated-discovery families face the stricter gate.
+        if family is not None:
+            from .research.strategies.biotech import EXTERNAL_FAMILIES
+            if family in EXTERNAL_FAMILIES:
+                return PROMOTION_THRESHOLDS_EXTERNAL
         return PROMOTION_THRESHOLDS.get(desk, self.promotion)
 
 

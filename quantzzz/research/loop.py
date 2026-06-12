@@ -207,8 +207,9 @@ class ResearchDesk:
         prices = self.bundle.prices
         is_res = self.bt.run(weights.loc[weights.index.isin(is_dates)],
                              prices.loc[prices.index.isin(is_dates)])
+        thr = self.cfg.promotion_for(self.desk, spec.family)
         is_sharpe = M.sharpe(is_res.returns)
-        if is_sharpe < self.cfg.promotion_for(self.desk).min_is_sharpe_bar:
+        if is_sharpe < thr.min_is_sharpe_bar:
             return _stub_eval(is_sharpe), False, ["weak in-sample"], []
 
         try:
@@ -221,8 +222,7 @@ class ResearchDesk:
             return None, False, [f"oos error: {e}"], []
 
         ev = evaluate_windows(is_res, window_results, bench, self._effective_trials())
-        passed, reasons, corr_ids = check_promotion(
-            ev, self.cfg.promotion_for(self.desk), promoted_returns)
+        passed, reasons, corr_ids = check_promotion(ev, thr, promoted_returns)
         return ev, passed, reasons, corr_ids
 
     # ---- refinement: a materially better cousin may replace its incumbent ----

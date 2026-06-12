@@ -43,6 +43,9 @@
   #chartcard{position:relative; grid-column:span 8}
   .loop{grid-column:span 4; display:flex; flex-direction:column; gap:10px}
   .loop h3,.card h3{font-size:12px; color:var(--dim); letter-spacing:.14em; text-transform:uppercase; margin-bottom:10px}
+  .scrollbox{max-height:420px; overflow-y:auto}
+  .scrollbox thead th{position:sticky; top:0; background:var(--panel); z-index:1}
+  #cats{column-width:300px; column-gap:36px}
   .stage{display:flex; align-items:center; gap:12px; background:#0a0f1d; border:1px solid var(--line);
          border-radius:10px; padding:9px 13px; position:relative}
   .stage .dot{width:8px;height:8px;border-radius:50%;}
@@ -159,7 +162,9 @@
 
   <div class="card col6">
     <h3>Strategy Book</h3>
+    <div class="scrollbox">
     <table id="strats"><thead><tr><th>desk</th><th>family</th><th>status</th><th>oos sharpe</th><th>alpha/yr</th><th>dsr</th></tr></thead><tbody></tbody></table>
+    </div>
   </div>
 
   <div class="card col6">
@@ -167,9 +172,9 @@
     <div class="feed" id="feed"></div>
   </div>
 
-  <div class="card col4"><h3>Equity Book</h3><table id="poseq"><thead></thead><tbody></tbody></table></div>
-  <div class="card col4"><h3>Biotech Book</h3><table id="posbio"><thead></thead><tbody></tbody></table></div>
-  <div class="card col4"><h3>Catalyst Radar</h3><div id="cats"></div></div>
+  <div class="card col6"><h3>Equity Book</h3><table id="poseq"><thead></thead><tbody></tbody></table></div>
+  <div class="card col6"><h3>Biotech Book</h3><table id="posbio"><thead></thead><tbody></tbody></table></div>
+  <div class="card col12"><h3>Catalyst Radar</h3><div id="cats"></div></div>
 </div>
 
 <script>

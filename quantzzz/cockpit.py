@@ -61,6 +61,7 @@ def build_state(cfg: Config) -> dict:
             "fwd_ret_pct": ((live[-1]["equity"] / live[0]["equity"] - 1) * 100
                             if len(live) >= 1 else None),
             "fwd_since": live[0]["ts"][:10] if live else None,
+            "fwd_sessions": len(live),
             "bench": bench_t,
             "bench_ret_pct": ((bench_curve[-1][1] / first["equity"] - 1) * 100) if bench_curve else None,
             "gross": last["gross_exposure"] * 100,

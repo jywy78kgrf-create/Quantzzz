@@ -108,6 +108,22 @@
   <div class="card kpi"><div class="lbl">Research Engine</div><div class="val" id="iters">—</div>
     <div class="sub" id="iterssub">strategy backtests run</div><div class="glow" style="background:var(--amber)"></div></div>
 
+  <div class="card col12" id="fwdcard">
+    <h3>Forward Record · live paper trading only
+      <span style="float:right; font-weight:400; text-transform:none; letter-spacing:0; color:var(--dim)">
+        replayed history excluded — this is the track record being earned in real time</span></h3>
+    <div style="display:flex; gap:48px; flex-wrap:wrap">
+      <div class="kpi" style="grid-column:unset">
+        <div class="lbl">Equity · forward</div>
+        <div class="val" id="fwdeq">—</div>
+        <div class="sub" id="fwdeqsub">awaiting first live cycle</div></div>
+      <div class="kpi" style="grid-column:unset">
+        <div class="lbl">Biotech · forward</div>
+        <div class="val" id="fwdbio">—</div>
+        <div class="sub" id="fwdbiosub">awaiting first live cycle</div></div>
+    </div>
+    <div class="glow" style="background:var(--red)"></div></div>
+
   <div class="card" id="chartcard" style="padding:14px 16px 8px">
     <h3 style="margin-bottom:6px">Equity Curves
       <span style="float:right; font-weight:400; text-transform:none; letter-spacing:0">
@@ -186,6 +202,12 @@ function kpis(s){
     $('biomode').innerHTML=`<span class="modechip m-${bio.mode}">${bio.mode.replace('_',' ')}</span>`;}
   tick('iters',s.loop.iterations);
   $('iterssub').textContent=`backtests run · best OOS sharpe ${(+s.loop.best_oos_sharpe||0).toFixed(2)} · ${s.loop.av_calls_today||0} API calls today`;
+  const fwdset=(vid,sid,f)=>{ if(!f)return;
+    if(f.fwd_ret_pct==null){$(vid).textContent='—';
+      $(sid).textContent='awaiting first live cycle';}
+    else{$(vid).innerHTML=`<span class="${cls(f.fwd_ret_pct)}">${pct(f.fwd_ret_pct,2)}</span>`;
+      $(sid).textContent=`since ${f.fwd_since} · ${f.fwd_sessions||0} live sessions · $${Math.round(f.equity).toLocaleString()}`;}};
+  fwdset('fwdeq','fwdeqsub',eq); fwdset('fwdbio','fwdbiosub',bio);
 }
 
 // ---- the research lab: animated search space + terminal readout ----

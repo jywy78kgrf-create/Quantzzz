@@ -55,3 +55,15 @@ def test_earnings_blackout_logic(tmp_path, tmp_db):
     assert agent._in_earnings_blackout("AAPL") is None
     agent.as_of = pd.Timestamp("2025-03-06")     # after report
     assert agent._in_earnings_blackout("AAPL") is None
+
+
+def test_biotech_research_universe_includes_dead_biotechs(tmp_path):
+    import json
+    from quantzzz.universe import research_universe_for
+
+    (tmp_path / "delisted_biotech.json").write_text(json.dumps(
+        [{"ticker": "CLVS", "name": "Clovis Oncology", "exit": "bankruptcy 2022"}]))
+    uni = research_universe_for("biotech", tmp_path)
+    assert "CLVS" in uni
+    # live universe unaffected when the pool file is absent
+    assert "CLVS" not in research_universe_for("biotech", tmp_path / "nope")

@@ -99,6 +99,34 @@ def refresh_survivorship_pool(cfg: Config, conn, max_names: int = 40) -> dict:
             "with_history": len(meta), "newly_fetched": fetched}
 
 
+def refresh_biotech_survivorship_pool(cfg: Config, conn) -> dict:
+    """Dead biotechs for the biotech research universe.
+
+    Biotech is the sector where survivorship bias bites hardest: failed
+    readouts end in -80% delistings that a survivors-only history simply never
+    shows. Candidates come from the curated seed (known 2020-2024 exits, both
+    bankruptcies and acquisitions); price history is fetched budget-aware and
+    only names with a real series (>=250 days) enter the pool."""
+    from ..universe import BIOTECH_DELISTED_SEED
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    fetched = 0
+    for r in BIOTECH_DELISTED_SEED:
+        t = r["ticker"]
+        if store.load_prices(t) is None and av.budget.remaining() > 0:
+            if av.daily_adjusted(t) is not None:
+                fetched += 1
+    meta = []
+    for r in BIOTECH_DELISTED_SEED:
+        px = store.load_prices(r["ticker"])
+        if px is not None and len(px) >= 250:
+            meta.append(r)
+    if meta or not (cfg.snapshot_dir / "delisted_biotech.json").exists():
+        store.save_json("delisted_biotech.json", meta)
+    return {"candidates": len(BIOTECH_DELISTED_SEED),
+            "with_history": len(meta), "newly_fetched": fetched}
+
+
 def refresh_earnings_calendar(cfg: Config, conn) -> dict:
     """Upcoming report dates for our universes -> snapshot for the traders."""
     store = SnapshotStore(cfg.snapshot_dir)
@@ -169,6 +197,8 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
                 print(f"biotech edgar fundamentals saved: {done}")
         from .external_refresh import refresh_external_signals
         print("external signal extension:", refresh_external_signals(cfg))
+        print("biotech survivorship pool:",
+              refresh_biotech_survivorship_pool(cfg, conn))
 
     if desk == "all":
         print("survivorship pool:", refresh_survivorship_pool(cfg, conn))

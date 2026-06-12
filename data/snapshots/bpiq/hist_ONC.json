@@ -1,5 +1,28 @@
 [
  {
+  "id": 7863,
+  "company": {
+   "id": 682,
+   "ticker": "ONC",
+   "name": "BeOne Medicines"
+  },
+  "created_at": "2026-06-12T13:05:56.735227Z",
+  "updated_at": "2026-06-12T13:05:56.735245Z",
+  "ticker": "ONC",
+  "drug_name": "BRUKINSA",
+  "drug_indication": "Chronic Lymphocytic Leukemia",
+  "airtable_id": 8120,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-06-11",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/06/b53136697/beone-showcases-landmark-phase-3-data-in-cll-patients-aged-80-at-eha-2026-reinforcing-brukinsa-ben",
+  "catalyst_text": "Announced positive Phase 3 results in CLL",
+  "detailed_catalyst_text": "Reported new Phase 3 SEQUOIA updates in treatment-na\u00efve chronic lymphocytic leukemia, including an elderly (\u226580) subgroup analysis showing durable efficacy and manageable safety. The 78\u2011month overall dataset showed progression-free survival of 71.8% versus 31.0% for bendamustine\u2011rituximab, while the \u226580 subgroup achieved 100% overall response with 72\u2011month PFS of 63.8%. These data provide long-term evidence supporting use in first-line CLL, including high-risk and very elderly patients.",
+  "catalyst_text_evidence": "BeOne Medicines Ltd. (NASDAQ:ONC, HKEX: 06160, SSE: 688235)), a global oncology company, today announced the presentation of a large Phase 3 dataset in patients with chronic lymphocytic leukemia or small lymphocytic lymphoma (CLL/SLL) aged 80 and older, showing sustained benefit with BRUKINSA after nearly 6.5 years of follow-up, reinforcing its role as the foundational BTK inhibitor. In this analysis of SEQUOIA, 38 patients aged 80 or older at study entry received BRUKINSA. After a median follow-up of 78.8 months, BRUKINSA-treated patients continued to show durable benefit. Key highlights include: Overall response rate (ORR): 100%, with a complete response rate of 18.4%. 72-month progression-free survival (PFS): 63.8% (95% CI, 44.6\u201377.8). 72-month overall survival (OS): 75.9% (95% CI, 58.7\u201386.7). The subgroup analysis will be presented alongside the 78-month SEQUOIA dataset, the longest reported follow-up for a next-generation BTK inhibitor in first-line CLL, showing a 78-month PFS of 71.8% for BRUKINSA versus 31.0% for bendamustine-rituximab.",
+  "news_published_at": "2026-06-12T00:00:00Z",
+  "open_price_gap_percent": "-0.02819",
+  "intra_day_price_change_percent": "0.01597"
+ },
+ {
   "id": 7631,
   "company": {
    "id": 682,
@@ -7,7 +30,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2026-05-30T13:01:18.492374Z",
-  "updated_at": "2026-06-11T13:01:02.427792Z",
+  "updated_at": "2026-06-12T13:00:58.197910Z",
   "ticker": "ONC",
   "drug_name": "Zanubrutinib",
   "drug_indication": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma",
@@ -30,7 +53,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2026-05-30T13:03:00.754897Z",
-  "updated_at": "2026-06-11T13:02:38.741257Z",
+  "updated_at": "2026-06-12T13:02:41.139602Z",
   "ticker": "ONC",
   "drug_name": "Sonrotoclax",
   "drug_indication": "Mantle Cell Lymphoma",
@@ -53,7 +76,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2026-05-30T13:05:48.046912Z",
-  "updated_at": "2026-06-11T13:05:22.786261Z",
+  "updated_at": "2026-06-12T13:05:35.618014Z",
   "ticker": "ONC",
   "drug_name": "Zanubrutinib + Sonrotoclax",
   "drug_indication": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma",
@@ -76,7 +99,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2026-05-15T13:01:04.283670Z",
-  "updated_at": "2026-06-11T13:00:40.362310Z",
+  "updated_at": "2026-06-12T13:00:36.383660Z",
   "ticker": "ONC",
   "drug_name": "BEQALZI (sonrotoclax)",
   "drug_indication": "Relapsed or Refractory Mantle Cell Lymphoma",
@@ -99,7 +122,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2026-04-30T13:04:24.535096Z",
-  "updated_at": "2026-06-11T13:04:26.650040Z",
+  "updated_at": "2026-06-12T13:04:35.508780Z",
   "ticker": "ONC",
   "drug_name": "Tislelizumab plus zanidatamab",
   "drug_indication": "First-line HER2-positive gastroesophageal adenocarcinoma",
@@ -122,7 +145,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2025-12-19T13:00:42.844967Z",
-  "updated_at": "2026-06-11T13:00:53.778337Z",
+  "updated_at": "2026-06-12T13:00:49.643815Z",
   "ticker": "ONC",
   "drug_name": "BGB-B2033",
   "drug_indication": "Hepatocellular Carcinoma",
@@ -145,7 +168,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2025-08-30T13:02:25.855047Z",
-  "updated_at": "2026-06-11T13:02:38.822166Z",
+  "updated_at": "2026-06-12T13:02:41.225560Z",
   "ticker": "ONC",
   "drug_name": "Sonrotoclax / BGB-11417",
   "drug_indication": "Relapsed or Refractory Mantle Cell Lymphoma (MCL)",
@@ -168,7 +191,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2025-04-04T13:02:01.257799Z",
-  "updated_at": "2026-06-11T13:02:45.051066Z",
+  "updated_at": "2026-06-12T13:02:47.559506Z",
   "ticker": "ONC",
   "drug_name": "Ociperlimab (BGB-A1217)  ",
   "drug_indication": "lung cancer ",
@@ -191,7 +214,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2025-11-07T13:01:53.893094Z",
-  "updated_at": "2026-06-11T13:02:07.695682Z",
+  "updated_at": "2026-06-12T13:02:07.580891Z",
   "ticker": "ONC",
   "drug_name": "TEVIMBRA (tislelizumab)",
   "drug_indication": "Cancer, Esophageal Squamous Cell Carcinoma",
@@ -214,7 +237,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2025-11-07T13:01:24.384318Z",
-  "updated_at": "2026-06-11T13:01:31.906725Z",
+  "updated_at": "2026-06-12T13:01:29.508618Z",
   "ticker": "ONC",
   "drug_name": "TEVIMBRA (tislelizumab) ",
   "drug_indication": "Cancer, Esophageal Squamous Cell Carcinoma",
@@ -237,7 +260,7 @@
    "name": "BeOne Medicines"
   },
   "created_at": "2025-11-07T13:02:14.543015Z",
-  "updated_at": "2026-06-11T13:02:32.654276Z",
+  "updated_at": "2026-06-12T13:02:34.616650Z",
   "ticker": "ONC",
   "drug_name": "Tislelizumab",
   "drug_indication": "Cancer, Non-small cell lung carcinoma",

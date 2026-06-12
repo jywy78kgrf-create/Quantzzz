@@ -89,15 +89,18 @@ def build_state(cfg: Config) -> dict:
         "best_oos_sharpe": g("SELECT MAX(oos_sharpe) FROM research_iterations"),
     }
 
-    # ---- strategies: promoted first, then best candidates ----
-    state["strategies"] = _rows(conn, """
+    # ---- strategies: ALL promoted edges, then best candidates ----
+    strats = _rows(conn, """
         SELECT s.desk, s.family, s.status, s.origin,
                MAX(i.oos_sharpe) sharpe, MAX(i.oos_alpha) alpha,
                MAX(i.dsr_prob) dsr, MAX(i.bootstrap_q05) boot
         FROM strategies s JOIN research_iterations i ON i.strategy_id = s.id
         WHERE i.oos_sharpe IS NOT NULL
         GROUP BY s.id
-        ORDER BY (s.status='promoted') DESC, sharpe DESC LIMIT 10""")
+        ORDER BY (s.status='promoted') DESC, sharpe DESC LIMIT 60""")
+    promoted = [r for r in strats if r["status"] == "promoted"]
+    others = [r for r in strats if r["status"] != "promoted"]
+    state["strategies"] = promoted + others[:4]
 
     # ---- positions with entry context and live P&L ----
     positions = {}
@@ -120,7 +123,7 @@ def build_state(cfg: Config) -> dict:
                 "pnl_pct": (last_px / r["avg_cost"] - 1) * 100 if r["avg_cost"] else 0,
             })
         out.sort(key=lambda x: -x["weight"])
-        positions[fund] = out[:12]
+        positions[fund] = out[:20]
     state["positions"] = positions
 
     # ---- research lab: recent iterations for the animated search space ----

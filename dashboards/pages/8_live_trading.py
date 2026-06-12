@@ -81,12 +81,14 @@ else:
     pos["entry_date"] = pos["opened_ts"].str[:10]
     pos["entry_px"] = pos["avg_cost"].round(2)
     pos["current_px"] = pos["ticker"].map(last_px).round(2)
+    pos["allocated_$"] = (pos["qty"]
+                          * pos["current_px"].fillna(pos["avg_cost"])).round(0)
     pos["unreal_pnl"] = ((pos["current_px"].fillna(pos["avg_cost"])
                           - pos["avg_cost"]) * pos["qty"]).round(0)
     pos["unreal_%"] = ((pos["current_px"].fillna(pos["avg_cost"])
                         / pos["avg_cost"] - 1) * 100).round(2)
     view = pos[["fund", "ticker", "entry_date", "entry_px", "current_px",
-                "qty", "unreal_pnl", "unreal_%", "stop_px"]]
+                "qty", "allocated_$", "unreal_pnl", "unreal_%", "stop_px"]]
     st.dataframe(view, width='stretch', hide_index=True)
     st.caption("The current open book. Entry dates can predate go-live: these "
                "positions were carried in from the replayed era and their P&L "

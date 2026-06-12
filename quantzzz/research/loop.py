@@ -195,6 +195,13 @@ class ResearchDesk:
             (self.desk,)).fetchone()
         return max(1, int(round((row["c"] or 0) ** 0.5)))
 
+    # External-signal families only have data from ~2018 (options) / 2019
+    # (insider). Judged on the full 2004+ panel they hold nothing in-sample and
+    # auto-fail, so their walk-forward windows are computed over their own
+    # active history instead — with a hard floor so thin coverage is rejected
+    # explicitly, not silently passed on a short lucky stretch.
+    MIN_EXTERNAL_HISTORY_DAYS = 756        # ~3 trading years
+
     def _evaluate_spec(self, spec, is_dates, oos_windows, bench, promoted_returns):
         """Compute causal weights ONCE on the full panel, then slice per window."""
         signal_fn = signal_fn_for(spec.family)
@@ -202,6 +209,18 @@ class ResearchDesk:
             weights = signal_fn(self.bundle, spec.params)
         except Exception as e:
             return None, False, [f"error: {e}"], []
+
+        from .strategies.biotech import EXTERNAL_FAMILIES
+        if spec.family in EXTERNAL_FAMILIES:
+            active = weights.abs().sum(axis=1) > 0
+            if not active.any():
+                return None, False, ["no active days (external signals absent)"], []
+            covered = weights.index[weights.index >= active.idxmax()]
+            if len(covered) < self.MIN_EXTERNAL_HISTORY_DAYS:
+                return None, False, [
+                    f"insufficient external history ({len(covered)} days "
+                    f"< {self.MIN_EXTERNAL_HISTORY_DAYS})"], []
+            is_dates, oos_windows = walk_forward_windows(covered)
 
         from . import metrics as M
         prices = self.bundle.prices

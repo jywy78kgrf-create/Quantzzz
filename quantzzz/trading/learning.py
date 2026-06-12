@@ -57,10 +57,21 @@ class LearningLoop:
             old_mult = self.current_multiplier(sid)
             # Statistical patience: with few closed trades, hit rates are noise
             # (the same standard we hold research to). Track stats but don't
-            # act until the sample can support a decision.
-            MIN_ADJUST, MIN_RETIRE = 15, 20
-            if stats.n_trades < MIN_ADJUST:
+            # act until the sample can support a decision. One asymmetric
+            # exception: clear early bleeding earns a partial de-weight long
+            # before the full sample arrives — biotech holding periods make
+            # waiting for 15 closed trades a year-scale exposure to a bad
+            # promotion. De-weighting is cheap to reverse; losses are not.
+            MIN_ADJUST, MIN_RETIRE, MIN_CAUTION = 15, 20, 8
+            early_caution = False
+            if stats.n_trades < MIN_CAUTION:
                 new_mult = old_mult
+            elif stats.n_trades < MIN_ADJUST:
+                if realized_pnl < 0 and stats.hit_rate < 0.30:
+                    new_mult = max(0.5, round(old_mult * 0.7, 2))
+                    early_caution = new_mult < old_mult
+                else:
+                    new_mult = old_mult
             else:
                 edge = stats.hit_rate * stats.payoff - (1 - stats.hit_rate)
                 new_mult = float(min(2.0, max(0.25, 1.0 + 0.5 * edge)))
@@ -80,6 +91,7 @@ class LearningLoop:
                 reasoning=(f"Reviewed {stats.n_trades} trades: hit {stats.hit_rate:.0%}, "
                            f"payoff {stats.payoff:.2f}, realized P&L {realized_pnl:,.0f}. "
                            f"Weight {old_mult:.2f}->{new_mult:.2f}"
+                           f"{' (early caution: bleeding on a small sample)' if early_caution else ''}"
                            f"{', RETIRED' if not active else ''}."),
                 inputs={"hit_rate": stats.hit_rate, "payoff": stats.payoff,
                         "n": stats.n_trades}, ref_table="strategies", ref_id=sid)

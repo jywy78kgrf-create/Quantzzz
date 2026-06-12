@@ -63,3 +63,24 @@ def test_multiplier_clipped(tmp_db):
     loop = LearningLoop(cfg, "equity", tmp_db, DecisionJournal(tmp_db, "equity"))
     loop.review()
     assert loop.current_multiplier(1) <= 2.0
+
+
+def test_learning_early_caution_deweights_clear_bleeders(tmp_db):
+    """8-14 closed trades, negative P&L, <30% hits -> partial de-weight."""
+    cfg = load_config()
+    _seed_trades(tmp_db, "equity", 1, [-0.1, -0.12, -0.08, -0.15, -0.1,
+                                       -0.09, -0.11, 0.05, -0.07])   # 9 trades
+    loop = LearningLoop(cfg, "equity", tmp_db, DecisionJournal(tmp_db, "equity"))
+    loop.review()
+    assert 0.5 <= loop.current_multiplier(1) < 1.0
+    assert loop.is_active(1)            # de-weighted, NOT retired
+
+
+def test_learning_early_caution_spares_mixed_records(tmp_db):
+    """Same small sample but a normal mixed record -> untouched."""
+    cfg = load_config()
+    _seed_trades(tmp_db, "equity", 1, [0.1, -0.05, 0.08, -0.04, 0.12,
+                                       -0.06, 0.05, -0.03, 0.02])
+    loop = LearningLoop(cfg, "equity", tmp_db, DecisionJournal(tmp_db, "equity"))
+    loop.review()
+    assert loop.current_multiplier(1) == 1.0

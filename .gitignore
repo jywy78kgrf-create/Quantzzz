@@ -17,3 +17,6 @@ build/
 dist/
 .venv/
 data/*.backup
+
+# macOS Finder clutter
+.DS_Store

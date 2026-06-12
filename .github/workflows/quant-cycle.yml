@@ -80,5 +80,11 @@ jobs:
             echo "no state changes"
           else
             git commit -m "Automated fund cycle: $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            # the branch may have moved during the cycle (a code push mid-run);
+            # rebase our state commit on top and keep this run's seed/snapshots
+            # (-X theirs = our commit's files win any conflict during rebase)
+            for i in 1 2 3; do
+              git push && break
+              git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" || exit 1
+            done
           fi

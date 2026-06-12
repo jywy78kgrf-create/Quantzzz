@@ -3,10 +3,10 @@ name: Quant fund cycle
 on:
   schedule:
     # market hours: hourly, Mon-Fri 13:00-21:00 UTC (9am-5pm ET)
-    - cron: "30 13-21 * * 1-5"
+    - cron: "47 13-21 * * 1-5"
     # off-hours + weekends: every 6 hours — research keeps grinding 24/7
-    - cron: "0 1,7 * * *"
-    - cron: "0 13,19 * * 0,6"
+    - cron: "13 1,7 * * *"
+    - cron: "13 13,19 * * 0,6"
   workflow_dispatch: {}              # manual "run a cycle now" button
 
 permissions:

@@ -195,8 +195,11 @@ def _auto_sync_loop(cfg: Config, interval_s: int):
     while True:
         time.sleep(interval_s)
         try:
+            # never prompt for credentials: a misconfigured git should fail
+            # quietly and retry next round, not hijack the cockpit's terminal
+            env = dict(os.environ, GIT_TERMINAL_PROMPT="0")
             subprocess.run(["git", "-C", str(PROJECT_ROOT), "pull", "--ff-only", "-q"],
-                           timeout=120, capture_output=True)
+                           timeout=120, capture_output=True, env=env)
             if seed.exists() and (not cfg.db_path.exists()
                                   or seed.stat().st_mtime > cfg.db_path.stat().st_mtime):
                 tmp = cfg.db_path.with_suffix(".db.incoming")

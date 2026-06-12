@@ -21,11 +21,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: ${{ github.ref_name }}
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
@@ -66,6 +66,13 @@ jobs:
           shutil.copy("quantzzz.db", "data/seed.db")
           conn = sqlite3.connect("data/seed.db")
           conn.execute("DELETE FROM api_cache")
+          # equity curves dominate seed size; keep them only for promoted
+          # strategies and the freshest iterations (labs show recent search)
+          conn.execute("""
+            UPDATE research_iterations SET equity_curve_json=NULL
+            WHERE equity_curve_json IS NOT NULL
+              AND strategy_id NOT IN (SELECT id FROM strategies WHERE status='promoted')
+              AND id < (SELECT MAX(id) FROM research_iterations) - 2000""")
           conn.commit()
           conn.execute("VACUUM")
           conn.close()

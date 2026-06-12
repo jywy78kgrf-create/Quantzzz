@@ -48,6 +48,40 @@ with col2:
     bpiq = list((CFG.snapshot_dir / "bpiq").glob("*.json"))
     st.write(", ".join(sorted(f.stem for f in bpiq)) or "none")
 
+# ---- external signal export (contaminated-discovery bundle) ----
+st.subheader("External signal export")
+ext_dir = CFG.snapshot_dir / "external"
+hist_path = ext_dir / "signal_history_export.parquet"
+ev_path = ext_dir / "catalyst_events_export.csv"
+if not hist_path.exists():
+    st.caption("No external export present (data/snapshots/external/).")
+else:
+    @st.cache_data(ttl=600)
+    def _external_coverage():
+        hist = pd.read_parquet(hist_path, columns=["ticker", "as_of_date",
+                                                   "signal_name"])
+        cov = (hist.groupby("signal_name")["as_of_date"]
+               .agg(rows="size", first="min", last="max").reset_index())
+        n_events = len(pd.read_csv(ev_path)) if ev_path.exists() else 0
+        return cov, hist["ticker"].nunique(), len(hist), n_events
+
+    cov, n_tickers, n_rows, n_events = _external_coverage()
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Signal rows", f"{n_rows:,}")
+    c2.metric("Tickers", n_tickers)
+    c3.metric("Pinned catalyst events", f"{n_events:,}")
+    st.dataframe(cov.sort_values("rows", ascending=False),
+                 width='stretch', hide_index=True, height=300)
+
+    from quantzzz.data.external_signals import EXCLUDED_SIGNALS
+    st.caption(
+        "Reconciliation flags enforced by the loader: excluded signals — "
+        f"{', '.join(sorted(EXCLUDED_SIGNALS))} (look-ahead confirmed or "
+        "pending temporal audit); risk reversal exposed only in unsigned "
+        "|RR| form; correlated ATM-IV tenor cluster collapsed to iv_atm_30d. "
+        "Excluded signals above appear in the raw export but never reach "
+        "strategies.")
+
 # ---- recent fetch events / errors ----
 st.subheader("Recent data events")
 health = q("SELECT ts, source, ticker, status, detail FROM data_health "

@@ -121,7 +121,42 @@ class ResearchDesk:
             "UPDATE research_runs SET ended_ts=?, iterations=?, promotions=? WHERE id=?",
             (utcnow(), iterations, promotions, run_id))
         self.conn.commit()
+        self._maybe_advise_expansion(promotions)
         return RunResult(self.desk, run_id, iterations, promotions, best)
+
+    def _maybe_advise_expansion(self, promotions_this_run: int) -> None:
+        """When the search saturates, ask the human to widen the field.
+
+        Saturation = a large recent sample with zero promotions/replacements
+        and no improvement in best OOS Sharpe vs the prior sample. Surfaces as
+        an 'advice' entry in the decision feed (throttled to once per 3 days).
+        """
+        recent = self.conn.execute(
+            "SELECT COUNT(*) c, MAX(oos_sharpe) s, MAX(promoted) p FROM ("
+            " SELECT oos_sharpe, promoted FROM research_iterations"
+            " WHERE desk=? ORDER BY id DESC LIMIT 300)", (self.desk,)).fetchone()
+        prior = self.conn.execute(
+            "SELECT MAX(oos_sharpe) s FROM ("
+            " SELECT oos_sharpe FROM research_iterations WHERE desk=?"
+            " ORDER BY id DESC LIMIT 300 OFFSET 300)", (self.desk,)).fetchone()
+        if (recent["c"] or 0) < 300 or promotions_this_run or (recent["p"] or 0):
+            return
+        if prior["s"] and recent["s"] and recent["s"] > prior["s"] * 1.02:
+            return  # still climbing
+        throttled = self.conn.execute(
+            "SELECT 1 FROM journal_entries WHERE fund=? AND entry_type='advice' "
+            "AND ts > datetime('now','-3 days') LIMIT 1", (self.desk,)).fetchone()
+        if throttled:
+            return
+        insert(self.conn, "journal_entries", fund=self.desk, ts=utcnow(),
+               entry_type="advice", action="expand_research",
+               reasoning=(f"[{self.desk}] search saturating: 300 candidates, no "
+                          "promotions, best OOS Sharpe flat. Options to widen the "
+                          "field: (1) add ANTHROPIC_API_KEY secret for LLM strategy "
+                          "hypotheses; (2) new data: intraday bars, macro regime "
+                          "series, more tickers; (3) options-IV families once "
+                          "accumulated history suffices; (4) new family ideas - "
+                          "tell Claude what to build."))
 
     # ---- proposal ----
     def _propose(self, population: list[StrategySpec]):

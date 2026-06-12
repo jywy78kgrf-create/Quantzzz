@@ -154,3 +154,32 @@ STRATEGIES = [
     (PEAD, earnings_surprise_signal),
     (NEWS_MOM, news_momentum_signal),
 ]
+
+
+# ---- volatility-regime momentum: VIX-style stress gating ----
+# Momentum harvests trends in calm markets and bleeds in storms. This family
+# measures market stress from SPY realized vol (the quantity VIX proxies) and
+# de-risks - fully or partially - when stress exceeds a learned percentile.
+VOL_REGIME = ParamSpace("vol_regime_momentum", "equity", [
+    ParamDef("lookback", "int", 40, 252, step=10),
+    ParamDef("top_n", "int", 3, 12, step=1),
+    ParamDef("vol_window", "int", 10, 42, step=5),
+    ParamDef("calm_pctile", "float", 0.5, 0.9, step=0.05),
+    ParamDef("storm_exposure", "float", 0.0, 0.5, step=0.1),
+    ParamDef("rebalance", "choice", choices=(5, 10, 21)),
+])
+
+
+def vol_regime_momentum_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    mom = F.momentum(bundle.prices, int(p["lookback"]))
+    w = _equal_weight_top(mom, int(p["top_n"]))
+    w = _rebalanced(w, int(p["rebalance"]))
+    # market stress proxy: median cross-sectional realized vol of the universe
+    rv = F.realized_vol(bundle.prices, int(p["vol_window"])).median(axis=1)
+    calm_bar = rv.rolling(252, min_periods=60).quantile(float(p["calm_pctile"]))
+    stressed = (rv > calm_bar).reindex(w.index).fillna(False)
+    scale = pd.Series(1.0, index=w.index).where(~stressed, float(p["storm_exposure"]))
+    return w.mul(scale, axis=0)
+
+
+STRATEGIES.append((VOL_REGIME, vol_regime_momentum_signal))

@@ -160,6 +160,14 @@
     </div>
   </div>
 
+  <div class="card col12">
+    <h3>Biotech Bench · contaminated-discovery gate
+      <span style="float:right; font-weight:400; text-transform:none; letter-spacing:0; color:var(--dim)">
+        external-signal candidates held to the strict deflated-Sharpe bar — promotion happens where the green line crosses the red</span></h3>
+    <div style="display:flex; gap:28px; flex-wrap:wrap; margin-bottom:8px" id="benchstats"></div>
+    <div id="benchchart" style="height:200px"></div>
+  </div>
+
   <div class="card col6">
     <h3>Strategy Book</h3>
     <div class="scrollbox">
@@ -308,6 +316,39 @@ function dedupe(points){
   for(const[t,v]of points)m.set(ts2unix(t),v);
   return [...m.entries()].sort((a,b)=>a[0]-b[0]).map(([time,value])=>({time,value}));
 }
+let benchLwc=null, benchSeries=null;
+function bench(s){
+  const b=s.bench; if(!b||!window.LightweightCharts)return;
+  const stat=(lbl,val)=>`<div><div style="font-size:11px;color:var(--dim);letter-spacing:.1em;text-transform:uppercase">${lbl}</div>
+    <div style="font-size:22px;font-weight:700;font-variant-numeric:tabular-nums">${val}</div></div>`;
+  const latest=b.trend.length?b.trend[b.trend.length-1][1]:null;
+  $('benchstats').innerHTML=
+    stat('candidates tested', (b.candidates||0).toLocaleString())+
+    stat('best OOS sharpe', b.best_oos?(+b.best_oos).toFixed(2):'—')+
+    stat('best DSR (latest)', latest!=null?latest.toFixed(2):'—')+
+    stat('held out by strict gate', b.held_out||0)+
+    stat('promoted', b.promoted||0);
+  if(!benchLwc){
+    const el=$('benchchart');
+    benchLwc=LightweightCharts.createChart(el,{
+      width:el.clientWidth||900, height:200,
+      layout:{background:{color:'transparent'},textColor:'#6b7a9c',fontSize:11},
+      grid:{vertLines:{color:'#101a31'},horzLines:{color:'#101a31'}},
+      rightPriceScale:{borderColor:'#1c2742'},
+      timeScale:{borderColor:'#1c2742',timeVisible:false},
+      crosshair:{mode:0}});
+    benchSeries=benchLwc.addLineSeries({color:'#2dd4a7',lineWidth:2,
+      priceLineVisible:false,lastValueVisible:true});
+    benchSeries.createPriceLine({price:b.strict,color:'#f87171',lineStyle:2,
+      lineWidth:1,title:'strict gate'});
+    benchSeries.createPriceLine({price:b.standard,color:'#56627f',lineStyle:3,
+      lineWidth:1,title:'standard gate'});
+    benchSeries.applyOptions({autoscaleInfoProvider:()=>({priceRange:{minValue:0,maxValue:1}})});
+  }
+  benchSeries.setData(b.trend.map(([d,v])=>({time:d,value:v})));
+  benchLwc.timeScale().fitContent();
+}
+
 function curves(s){
   if(!window.LightweightCharts)return;
   if(!lwc){
@@ -408,7 +449,7 @@ let firstLoad=true;
 async function refresh(){
   try{
     const s=await(await fetch('/api/state')).json();
-    kpis(s);loop(s);curves(s);strats(s);feed(s);books(s);cats(s);labChart(s);labTicker(s);
+    kpis(s);loop(s);curves(s);bench(s);strats(s);feed(s);books(s);cats(s);labChart(s);labTicker(s);
     if(firstLoad){firstLoad=false;
       if(window.gsap)gsap.from('.card',{y:18,opacity:0,duration:.65,stagger:.05,ease:'power2.out',clearProps:'transform,opacity'});}
   }catch(e){$('heartbeat').textContent='reconnecting…';}

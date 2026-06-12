@@ -102,6 +102,32 @@ def build_state(cfg: Config) -> dict:
     others = [r for r in strats if r["status"] != "promoted"]
     state["strategies"] = promoted + others[:4]
 
+    # ---- biotech bench: the contaminated-discovery gate, watchable ----
+    from .config import PROMOTION_THRESHOLDS, PROMOTION_THRESHOLDS_EXTERNAL
+    ext_fams = ("event_anchored", "options_iv_runup", "insider_conviction")
+    ph = ",".join("?" * len(ext_fams))
+    trend = _rows(conn, f"""
+        SELECT date(i.ts) d, ROUND(MAX(i.dsr_prob), 3) dsr
+        FROM research_iterations i JOIN strategies st ON st.id = i.strategy_id
+        WHERE i.desk='biotech' AND st.family IN ({ph}) AND i.dsr_prob IS NOT NULL
+        GROUP BY date(i.ts) ORDER BY d""", ext_fams)
+    agg = conn.execute(f"""
+        SELECT COUNT(*) n, MAX(i.oos_sharpe) best_oos,
+               SUM(CASE WHEN i.fail_reasons LIKE 'dsr_prob%' AND
+                        i.fail_reasons NOT LIKE '%;%' AND i.dsr_prob >= ?
+                   THEN 1 ELSE 0 END) held_out,
+               SUM(i.promoted) promoted
+        FROM research_iterations i JOIN strategies st ON st.id = i.strategy_id
+        WHERE i.desk='biotech' AND st.family IN ({ph})""",
+        (PROMOTION_THRESHOLDS["biotech"].min_dsr_prob, *ext_fams)).fetchone()
+    state["bench"] = {
+        "trend": [[r["d"], r["dsr"]] for r in trend],
+        "strict": PROMOTION_THRESHOLDS_EXTERNAL.min_dsr_prob,
+        "standard": PROMOTION_THRESHOLDS["biotech"].min_dsr_prob,
+        "candidates": agg["n"], "best_oos": agg["best_oos"],
+        "held_out": agg["held_out"], "promoted": agg["promoted"],
+    }
+
     # ---- positions with entry context and live P&L ----
     positions = {}
     for fund in ("equity", "biotech"):

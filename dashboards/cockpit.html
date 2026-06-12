@@ -376,15 +376,18 @@ function books(s){
       tb.innerHTML='<tr><td style="color:var(--dim)">no open positions</td></tr>';continue;}
     head.innerHTML=`<tr><th>tkr</th><th>entry</th><th style="text-align:right">in</th>
       <th style="text-align:right">now</th><th style="text-align:right">alloc $</th>
+      <th style="text-align:right">now $</th>
       <th style="text-align:right">p&l</th>
       <th style="text-align:right">wt</th></tr>`;
+    const $k=v=>'$'+Math.round(v).toLocaleString();
     for(const r of rows){
       tb.insertAdjacentHTML('beforeend',`<tr>
         <td><b>${r.ticker}</b></td>
         <td style="color:var(--dim)">${(r.entry_date||'').slice(2)}</td>
         <td style="text-align:right;color:var(--dim)">${px$(r.entry_px)}</td>
         <td style="text-align:right">${px$(r.px)}</td>
-        <td style="text-align:right">$${Math.round(r.value).toLocaleString()}</td>
+        <td style="text-align:right;color:var(--dim)">${$k(r.cost!=null?r.cost:r.value)}</td>
+        <td style="text-align:right">${$k(r.value)}</td>
         <td class="${cls(r.pnl_pct)}" style="text-align:right">${pct(r.pnl_pct,1)}</td>
         <td style="text-align:right;color:var(--dim)">${r.weight.toFixed(1)}%</td></tr>`);
     }

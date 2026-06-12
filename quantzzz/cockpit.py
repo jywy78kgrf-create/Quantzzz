@@ -117,6 +117,7 @@ def build_state(cfg: Config) -> dict:
                 "entry_date": (r["opened_ts"] or "")[:10],
                 "entry_px": r["avg_cost"],
                 "px": last_px,
+                "cost": r["qty"] * r["avg_cost"],
                 "value": r["qty"] * last_px,
                 "weight": r["qty"] * last_px / eq * 100,
                 "pnl": (last_px - r["avg_cost"]) * r["qty"],

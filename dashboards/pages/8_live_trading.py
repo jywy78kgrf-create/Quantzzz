@@ -35,13 +35,23 @@ for fund in ("equity", "biotech"):
         continue
     start_eq, last_eq = df["equity"].iloc[0], df["equity"].iloc[-1]
     go_live = pd.to_datetime(df["ts"].iloc[0], format="ISO8601", utc=True)
-    metric_row([
+    cards = [
         ("Forward return", f"{last_eq / start_eq - 1:+.2%}"),
         ("Live equity", money(last_eq)),
         ("Go-live baseline", money(start_eq)),
         ("Live since", str(go_live.date())),
         ("Sessions", f"{len(df):,}"),
-    ])
+    ]
+    # risk-adjusted forward stats once the daily sample can carry them
+    daily = (df.set_index(pd.to_datetime(df["ts"], format="ISO8601", utc=True))
+             ["equity"].resample("1D").last().dropna())
+    rets = daily.pct_change().dropna()
+    if len(rets) >= 10 and rets.std() > 0:
+        sharpe = rets.mean() / rets.std() * (252 ** 0.5)
+        dd = (daily / daily.cummax() - 1).min()
+        cards += [("Forward Sharpe", f"{sharpe:.2f}"),
+                  ("Forward max DD", f"{dd:.1%}")]
+    metric_row(cards)
 
 # ---- live equity curves, rebased to 100 at go-live ----
 fig = go.Figure()

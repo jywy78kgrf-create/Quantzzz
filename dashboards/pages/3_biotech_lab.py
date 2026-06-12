@@ -73,6 +73,33 @@ else:
     st.markdown("**Closest to promotion (by fitness)**")
     st.dataframe(near.round(3), width='stretch', hide_index=True)
 
+    # bench watch: the single most decision-relevant trend in the system —
+    # does the bench's deflated Sharpe converge to 0.90 as uncontaminated
+    # post-discovery data accrues, or decay (selection noise)?
+    trend = q(f"""
+        SELECT date(i.ts) d, MAX(i.dsr_prob) best_dsr
+        FROM research_iterations i JOIN strategies s ON s.id = i.strategy_id
+        WHERE i.desk='biotech' AND s.family IN ({ph}) AND i.dsr_prob IS NOT NULL
+        GROUP BY date(i.ts) ORDER BY d""", tuple(ext_list))
+    if len(trend) >= 2:
+        import plotly.graph_objects as go
+        fig = go.Figure(go.Scatter(x=trend["d"], y=trend["best_dsr"],
+                                   mode="lines+markers", name="best DSR",
+                                   line=dict(color="#16a34a", width=2)))
+        fig.add_hline(y=PROMOTION_THRESHOLDS_EXTERNAL.min_dsr_prob, line_dash="dash",
+                      line_color="#dc2626", annotation_text="strict gate (promotes here)")
+        fig.add_hline(y=PROMOTION_THRESHOLDS["biotech"].min_dsr_prob, line_dash="dot",
+                      line_color="#9ca3af", annotation_text="standard gate")
+        fig.update_layout(title="Bench watch: best external-family deflated Sharpe by day",
+                          height=300, template="plotly_white",
+                          margin=dict(l=10, r=10, t=40, b=10),
+                          yaxis_range=[0, 1.0])
+        st.plotly_chart(fig, width='stretch')
+        st.caption("Rising toward the strict line as post-discovery data accrues "
+                   "= the edge is real and will promote itself. Decaying = the "
+                   "discovery was selection noise. Either way, this chart is the "
+                   "verdict arriving.")
+
 st.divider()
 
 

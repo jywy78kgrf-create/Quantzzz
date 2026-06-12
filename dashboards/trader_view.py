@@ -22,8 +22,28 @@ def render_desk(fund: str) -> None:
     cash = acct["cash"].iloc[0]
     ret = equity / acct["starting_cash"].iloc[0] - 1
     metric_row([("Equity", money(equity)), ("Cash", money(cash)),
-                ("Return", f"{ret:+.2%}"),
+                ("Return (incl. replayed history)", f"{ret:+.2%}"),
                 ("Drawdown", f"{snap['drawdown'].iloc[0]:.1%}" if not snap.empty else "—")])
+
+    # forward record: live sessions only — the part of the curve that counts
+    # as evidence (replayed history re-trades strategies on the data that
+    # selected them)
+    live = q("SELECT ts, equity, drawdown FROM equity_snapshots "
+             "WHERE fund=? AND source='live' ORDER BY id", (fund,))
+    if live.empty:
+        st.caption("**Forward record:** none yet — starts with the next live "
+                   "trading cycle. The return above is replayed history (the "
+                   "promoted strategies stepped through past dates), a demo of "
+                   "the machinery rather than forward evidence.")
+    else:
+        fwd_ret = live["equity"].iloc[-1] / live["equity"].iloc[0] - 1
+        go_live = pd.to_datetime(live["ts"].iloc[0], format="ISO8601", utc=True)
+        metric_row([("Forward record (live only)", f"{fwd_ret:+.2%}"),
+                    ("Live since", str(go_live.date())),
+                    ("Live sessions", f"{len(live):,}"),
+                    ("Forward drawdown", f"{live['drawdown'].iloc[-1]:.1%}")])
+        st.caption("The forward record is the referee: it only counts sessions "
+                   "traded in real time after promotion, never replayed history.")
 
     # positions
     st.subheader("Positions")

@@ -11,8 +11,8 @@ header("🏦 Quantzzz Capital", "Two autonomous quant funds · equity & biotech"
 
 funds = {}
 for fund in ("equity", "biotech"):
-    funds[fund] = q("SELECT ts, equity, cash, gross_exposure, net_exposure, drawdown "
-                    "FROM equity_snapshots WHERE fund=? ORDER BY ts", (fund,))
+    funds[fund] = q("SELECT ts, equity, cash, gross_exposure, net_exposure, drawdown, "
+                    "source FROM equity_snapshots WHERE fund=? ORDER BY ts", (fund,))
 
 cards = []
 total_equity = 0.0
@@ -28,7 +28,33 @@ for fund in ("equity", "biotech"):
 cards.insert(0, ("Total AUM", money(total_equity) if total_equity else "—"))
 metric_row(cards)
 
-st.plotly_chart(equity_curve_fig(funds, "Equity curves"), width='stretch')
+# forward (live-only) record per fund — the referee, separated from the
+# replayed history that built most of the curve
+fwd_cards = []
+go_lives = {}
+for fund in ("equity", "biotech"):
+    df = funds[fund]
+    live = df[df["source"] == "live"] if not df.empty else df
+    if live.empty:
+        fwd_cards.append((f"{fund.title()} forward (live)", "starts next cycle"))
+        continue
+    go_lives[fund] = pd.to_datetime(live["ts"].iloc[0], format="ISO8601", utc=True)
+    fwd_ret = live["equity"].iloc[-1] / live["equity"].iloc[0] - 1
+    fwd_cards.append((f"{fund.title()} forward (live)",
+                      f"{fwd_ret:+.2%} since {go_lives[fund].date()}"))
+metric_row(fwd_cards)
+st.caption("Headline returns include replayed history (promoted strategies "
+           "stepped through past dates). The forward (live) numbers count only "
+           "real-time sessions — that's the track record being earned, not "
+           "reconstructed.")
+
+fig = equity_curve_fig(funds, "Equity curves")
+for fund, ts in go_lives.items():
+    fig.add_vline(x=ts, line_dash="dot", line_color="#f59e0b")
+if go_lives:
+    fig.add_annotation(x=min(go_lives.values()), y=1.02, yref="paper",
+                       text="go-live", showarrow=False, font=dict(color="#f59e0b"))
+st.plotly_chart(fig, width='stretch')
 
 # ---- the bar to clear: fund vs plain buy-and-hold of its benchmark ----
 st.subheader("Fund vs buy-and-hold benchmark")

@@ -82,6 +82,10 @@ class TraderAgent:
             return pd.Timestamp(self.as_of).isoformat()
         return utcnow()
 
+    def _source(self) -> str:
+        """Backdated sessions are replayed history, not forward evidence."""
+        return "replay" if self.as_of is not None else "live"
+
     def _ticker_vol(self, ticker: str) -> float:
         series = self._all_prices.get(ticker)
         if series is None or len(series) < 30:
@@ -245,6 +249,7 @@ class TraderAgent:
         if as_of is not None:
             self._price_cache = self._closes_as_of(as_of)
         self.broker.session_ts = self._ts()
+        self.broker.session_source = self._source()
         self.broker.mark_to_market(self._price_cache, ts=self._ts())
         drawdown = self._current_drawdown()
         state = self._fund_mode()
@@ -403,7 +408,7 @@ class TraderAgent:
                              self.fund, ticker))
                         insert(self.conn, "trades", fund=self.fund, strategy_id=sid,
                                ticker=ticker, entry_ts=self._ts(), entry_px=fill.price,
-                               qty=qty)
+                               qty=qty, source=self._source())
                         self.conn.commit()
         return n
 

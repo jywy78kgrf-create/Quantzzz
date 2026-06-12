@@ -121,7 +121,8 @@ CREATE TABLE IF NOT EXISTS equity_snapshots (
     cash REAL NOT NULL,
     gross_exposure REAL NOT NULL,
     net_exposure REAL NOT NULL,
-    drawdown REAL NOT NULL
+    drawdown REAL NOT NULL,
+    source TEXT NOT NULL DEFAULT 'live'  -- live | replay (hindsight-era track record)
 );
 CREATE TABLE IF NOT EXISTS candidates (
     id INTEGER PRIMARY KEY,
@@ -148,7 +149,8 @@ CREATE TABLE IF NOT EXISTS trades (
     pnl REAL,
     pnl_pct REAL,
     exit_reason TEXT,
-    reviewed INTEGER NOT NULL DEFAULT 0
+    reviewed INTEGER NOT NULL DEFAULT 0,
+    source TEXT NOT NULL DEFAULT 'live'  -- live | replay (hindsight-era track record)
 );
 CREATE TABLE IF NOT EXISTS fund_state (
     fund TEXT PRIMARY KEY,
@@ -219,6 +221,16 @@ def init_schema(conn: sqlite3.Connection) -> None:
             conn.execute(ddl)
         except sqlite3.OperationalError:
             pass  # column already exists
+    # source column split: rows written before the column existed are the
+    # replayed/hindsight era; the forward (live) record starts when this
+    # migration lands. Backfill only fires the one time the ALTER succeeds.
+    for table in ("equity_snapshots", "trades"):
+        try:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN source TEXT "
+                         f"NOT NULL DEFAULT 'live'")
+            conn.execute(f"UPDATE {table} SET source='replay'")
+        except sqlite3.OperationalError:
+            pass  # column already exists -> no backfill
     conn.commit()
 
 

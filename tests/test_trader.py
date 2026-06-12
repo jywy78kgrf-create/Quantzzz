@@ -59,3 +59,25 @@ def test_replay_timestamps_use_as_of(seeded):
         "SELECT ts FROM equity_snapshots WHERE fund='equity' ORDER BY id DESC LIMIT 1"
     ).fetchone()
     assert row["ts"].startswith("2024-01-15")
+
+
+def test_source_tags_split_replay_from_live(seeded):
+    """Replayed sessions must never count toward the forward (live) record."""
+    cfg, conn = seeded
+    agent = TraderAgent(cfg, "equity", conn)
+    agent.session(as_of=pd.Timestamp("2024-01-15"))   # replayed history
+    agent.session()                                    # real-time session
+    rows = conn.execute(
+        "SELECT source, COUNT(*) c FROM equity_snapshots WHERE fund='equity' "
+        "GROUP BY source ORDER BY source").fetchall()
+    counts = {r["source"]: r["c"] for r in rows}
+    assert counts.get("replay", 0) >= 1 and counts.get("live", 0) >= 1
+    # every backdated snapshot is replay; every current-time one is live
+    mismatch = conn.execute(
+        "SELECT COUNT(*) c FROM equity_snapshots WHERE fund='equity' AND "
+        "((ts LIKE '2024-01-15%' AND source != 'replay') OR "
+        " (ts NOT LIKE '2024-01-15%' AND source != 'live'))").fetchone()["c"]
+    assert mismatch == 0
+    trade_srcs = {r["source"] for r in conn.execute(
+        "SELECT source FROM trades WHERE fund='equity'")}
+    assert trade_srcs <= {"replay", "live"}

@@ -36,8 +36,8 @@ def build_state(cfg: Config) -> dict:
     # ---- funds: headline + curves vs benchmark ----
     funds = {}
     for fund in ("equity", "biotech"):
-        snaps = _rows(conn, "SELECT ts, equity, gross_exposure, drawdown FROM equity_snapshots "
-                            "WHERE fund=? ORDER BY ts", (fund,))
+        snaps = _rows(conn, "SELECT ts, equity, gross_exposure, drawdown, source "
+                            "FROM equity_snapshots WHERE fund=? ORDER BY ts", (fund,))
         if not snaps:
             continue
         curve = [[s["ts"], round(s["equity"], 2)] for s in snaps][-500:]
@@ -54,9 +54,13 @@ def build_state(cfg: Config) -> dict:
                 bench_curve = [[str(d.date()), round(v * scale, 2)]
                                for d, v in window.items()][-500:]
         mode_row = conn.execute("SELECT mode FROM fund_state WHERE fund=?", (fund,)).fetchone()
+        live = [s for s in snaps if s["source"] == "live"]
         funds[fund] = {
             "equity": last["equity"],
             "ret_pct": (last["equity"] / first["equity"] - 1) * 100,
+            "fwd_ret_pct": ((live[-1]["equity"] / live[0]["equity"] - 1) * 100
+                            if len(live) >= 1 else None),
+            "fwd_since": live[0]["ts"][:10] if live else None,
             "bench": bench_t,
             "bench_ret_pct": ((bench_curve[-1][1] / first["equity"] - 1) * 100) if bench_curve else None,
             "gross": last["gross_exposure"] * 100,

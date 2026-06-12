@@ -174,13 +174,15 @@ function kpis(s){
   let total=0; if(eq)total+=eq.equity; if(bio)total+=bio.equity;
   tick('aum',Math.round(total),{prefix:'$'});
   $('aumsub').textContent='paper capital · started $2,000,000';
+  const fwd=f=>f.fwd_ret_pct==null?'forward record starts next cycle'
+    :`forward ${pct(f.fwd_ret_pct,1)} since ${f.fwd_since} (live only)`;
   if(eq){tick('eqv',Math.round(eq.equity),{prefix:'$'});
     $('eqp').innerHTML=`<span class="${cls(eq.ret_pct)}">${pct(eq.ret_pct,1)}</span>`;
-    $('eqs').textContent=`vs ${eq.bench} ${eq.bench_ret_pct==null?'—':pct(eq.bench_ret_pct,1)} · gross ${eq.gross.toFixed(0)}% · dd ${eq.drawdown.toFixed(1)}%`;
+    $('eqs').textContent=`vs ${eq.bench} ${eq.bench_ret_pct==null?'—':pct(eq.bench_ret_pct,1)} · gross ${eq.gross.toFixed(0)}% · dd ${eq.drawdown.toFixed(1)}% · ${fwd(eq)}`;
     $('eqmode').innerHTML=`<span class="modechip m-${eq.mode}">${eq.mode.replace('_',' ')}</span>`;}
   if(bio){tick('biov',Math.round(bio.equity),{prefix:'$'});
     $('biop').innerHTML=`<span class="${cls(bio.ret_pct)}">${pct(bio.ret_pct,1)}</span>`;
-    $('bios').textContent=`vs ${bio.bench} ${bio.bench_ret_pct==null?'—':pct(bio.bench_ret_pct,1)} · gross ${bio.gross.toFixed(0)}% · dd ${bio.drawdown.toFixed(1)}%`;
+    $('bios').textContent=`vs ${bio.bench} ${bio.bench_ret_pct==null?'—':pct(bio.bench_ret_pct,1)} · gross ${bio.gross.toFixed(0)}% · dd ${bio.drawdown.toFixed(1)}% · ${fwd(bio)}`;
     $('biomode').innerHTML=`<span class="modechip m-${bio.mode}">${bio.mode.replace('_',' ')}</span>`;}
   tick('iters',s.loop.iterations);
   $('iterssub').textContent=`backtests run · best OOS sharpe ${(+s.loop.best_oos_sharpe||0).toFixed(2)} · ${s.loop.av_calls_today||0} API calls today`;

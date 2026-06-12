@@ -17,6 +17,7 @@ class PaperBroker(Broker):
         self.conn = conn
         self.quote_fn = quote_fn          # ticker -> latest price (or None)
         self.session_ts = None            # set by the trader (as-of in replays)
+        self.session_source = "live"      # set by the trader ('replay' in replays)
         self._ensure_account()
 
     def _now(self) -> str:
@@ -138,5 +139,5 @@ class PaperBroker(Broker):
                equity=acct.equity, cash=acct.cash,
                gross_exposure=gross / acct.equity if acct.equity else 0,
                net_exposure=net / acct.equity if acct.equity else 0,
-               drawdown=drawdown)
+               drawdown=drawdown, source=self.session_source)
         self.conn.commit()

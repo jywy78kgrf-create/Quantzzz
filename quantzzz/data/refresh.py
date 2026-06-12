@@ -153,6 +153,22 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         print("biotech prices:", refresh_prices(cfg, universe + ["XBI"], conn))
         print("biotech premium feeds:",
               refresh_premium_feeds(cfg, universe, conn, options_for=universe[:20]))
+        if cfg.edgar_user_agent:
+            # insider (Form 4) coverage feeds the external insider signals;
+            # fill a few missing names per cycle to respect SEC pacing
+            edgar = EdgarClient(cfg, conn)
+            missing = [t for t in universe
+                       if store.load_json(f"edgar/{t}.json") is None][:10]
+            done = 0
+            for t in missing:
+                fund = edgar.fundamental_series(t)
+                if fund is not None:
+                    store.save_json(f"edgar/{t}.json", fund)
+                    done += 1
+            if done:
+                print(f"biotech edgar fundamentals saved: {done}")
+        from .external_refresh import refresh_external_signals
+        print("external signal extension:", refresh_external_signals(cfg))
 
     if desk == "all":
         print("survivorship pool:", refresh_survivorship_pool(cfg, conn))

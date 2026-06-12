@@ -219,7 +219,13 @@ class ExternalSignals:
 
 
 def load_external_signals(snapshot_dir: Path) -> ExternalSignals | None:
-    """Load the committed external export, or ``None`` if it is absent."""
+    """Load the committed external export plus the live extension, if any.
+
+    The frozen discovery export never changes; ``signal_history_live.parquet``
+    and ``catalyst_events_live.csv`` (written by ``external_refresh``) extend it
+    forward with post-discovery observations. On any overlapping
+    (ticker, signal, day) the export wins.
+    """
     base = Path(snapshot_dir) / EXTERNAL_DIR
     hist_path = base / _HISTORY_FILE
     ev_path = base / _EVENTS_FILE
@@ -227,6 +233,12 @@ def load_external_signals(snapshot_dir: Path) -> ExternalSignals | None:
         return None
 
     history = pd.read_parquet(hist_path)
+    live_path = base / "signal_history_live.parquet"
+    if live_path.exists():
+        live = pd.read_parquet(live_path)
+        history = pd.concat([history, live], ignore_index=True)
+        history = history.drop_duplicates(
+            ["ticker", "signal_name", "as_of_date"], keep="first")
     history["as_of_date"] = pd.to_datetime(history["as_of_date"])
     # drop any deny-listed raw signal up front (defence in depth; the rankable
     # set already excludes them, but this keeps panels from ever materializing).
@@ -234,5 +246,9 @@ def load_external_signals(snapshot_dir: Path) -> ExternalSignals | None:
     history = history[~history["signal_name"].isin(drop)]
 
     events = pd.read_csv(ev_path)
+    live_ev_path = base / "catalyst_events_live.csv"
+    if live_ev_path.exists():
+        events = pd.concat([events, pd.read_csv(live_ev_path)], ignore_index=True)
+        events = events.drop_duplicates("event_id", keep="first")
     events["catalyst_date"] = pd.to_datetime(events["catalyst_date"], errors="coerce")
     return ExternalSignals(history=history, events=events)

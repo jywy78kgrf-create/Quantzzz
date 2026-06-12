@@ -60,16 +60,30 @@ else:
     def _external_coverage():
         hist = pd.read_parquet(hist_path, columns=["ticker", "as_of_date",
                                                    "signal_name"])
+        live_path = ext_dir / "signal_history_live.parquet"
+        n_live = 0
+        if live_path.exists():
+            live = pd.read_parquet(live_path,
+                                   columns=["ticker", "as_of_date", "signal_name"])
+            n_live = len(live)
+            hist = pd.concat([hist, live], ignore_index=True)
         cov = (hist.groupby("signal_name")["as_of_date"]
                .agg(rows="size", first="min", last="max").reset_index())
         n_events = len(pd.read_csv(ev_path)) if ev_path.exists() else 0
-        return cov, hist["ticker"].nunique(), len(hist), n_events
+        live_ev = ext_dir / "catalyst_events_live.csv"
+        if live_ev.exists():
+            n_events += len(pd.read_csv(live_ev))
+        return cov, hist["ticker"].nunique(), len(hist), n_events, n_live
 
-    cov, n_tickers, n_rows, n_events = _external_coverage()
-    c1, c2, c3 = st.columns(3)
+    cov, n_tickers, n_rows, n_events, n_live = _external_coverage()
+    c1, c2, c3, c4 = st.columns(4)
     c1.metric("Signal rows", f"{n_rows:,}")
     c2.metric("Tickers", n_tickers)
     c3.metric("Pinned catalyst events", f"{n_events:,}")
+    c4.metric("Live extension rows", f"{n_live:,}",
+              help="Post-discovery observations appended by refresh cycles — "
+                   "the uncontaminated data the bench's deflated Sharpe is "
+                   "waiting on.")
     st.dataframe(cov.sort_values("rows", ascending=False),
                  width='stretch', hide_index=True, height=300)
 

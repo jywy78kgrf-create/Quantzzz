@@ -31,7 +31,7 @@ jobs:
           cache: pip
 
       - name: Install
-        run: pip install -e ".[dev]"
+        run: pip install -e ".[dev,llm]"
 
       - name: Choose research depth (deep when markets are closed)
         id: depth

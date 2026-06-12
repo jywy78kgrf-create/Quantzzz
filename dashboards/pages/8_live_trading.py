@@ -63,6 +63,36 @@ st.caption("This curve starts at go-live and only ever extends in real time. "
            "It is the evidence the learning loop and the contaminated-discovery "
            "policy defer to — strategies keep their place by earning it here.")
 
+# ---- open book: every live position with entry context and current mark ----
+st.subheader("Open positions")
+pos = q("SELECT fund, ticker, qty, avg_cost, opened_ts, stop_px FROM positions "
+        "WHERE qty != 0 ORDER BY fund, ticker")
+if pos.empty:
+    st.caption("No open positions.")
+else:
+    from quantzzz.data.snapshots import SnapshotStore
+    from components import CFG
+    store = SnapshotStore(CFG.snapshot_dir)
+
+    def last_px(t):
+        df = store.load_prices(t)
+        return float(df["close"].iloc[-1]) if df is not None and len(df) else None
+
+    pos["entry_date"] = pos["opened_ts"].str[:10]
+    pos["entry_px"] = pos["avg_cost"].round(2)
+    pos["current_px"] = pos["ticker"].map(last_px).round(2)
+    pos["unreal_pnl"] = ((pos["current_px"].fillna(pos["avg_cost"])
+                          - pos["avg_cost"]) * pos["qty"]).round(0)
+    pos["unreal_%"] = ((pos["current_px"].fillna(pos["avg_cost"])
+                        / pos["avg_cost"] - 1) * 100).round(2)
+    view = pos[["fund", "ticker", "entry_date", "entry_px", "current_px",
+                "qty", "unreal_pnl", "unreal_%", "stop_px"]]
+    st.dataframe(view, width='stretch', hide_index=True)
+    st.caption("The current open book. Entry dates can predate go-live: these "
+               "positions were carried in from the replayed era and their P&L "
+               "accrues to the forward record only from the go-live baseline "
+               "onward.")
+
 # ---- live trades & orders ----
 col1, col2 = st.columns(2)
 with col1:

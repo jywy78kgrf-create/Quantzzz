@@ -28,6 +28,16 @@ def main(argv: list[str] | None = None) -> int:
     p_refresh = sub.add_parser("refresh-data", help="refresh snapshots/caches (budget-aware)")
     p_refresh.add_argument("--desk", default="all", choices=["equity", "biotech", "all"])
 
+    p_backfill = sub.add_parser("backfill",
+        help="pull deep historical options chains from Alpha Vantage (run locally "
+             "to spend AV budget without GitHub Actions minutes)")
+    p_backfill.add_argument("--since", default="2024-01-01",
+        help="earliest date to backfill chains for (YYYY-MM-DD)")
+    p_backfill.add_argument("--max-calls", type=int, default=100000,
+        help="cap on AV calls this run (default 100k = a long local session)")
+    p_backfill.add_argument("--loop", action="store_true",
+        help="keep going until the gap is fully filled, committing as it goes")
+
     p_research = sub.add_parser("research", help="run a research desk loop")
     p_research.add_argument("--desk", required=True, choices=["equity", "biotech"])
     p_research.add_argument("--iterations", type=int, default=50)
@@ -86,6 +96,24 @@ def main(argv: list[str] | None = None) -> int:
             "SELECT COUNT(*) FROM strategies WHERE status='promoted'").fetchone()
         print(f"local state now matches the seed: {row[0]} promoted strategies. "
               "Local-only history was replaced (see the .backup file).")
+        return 0
+
+    if args.cmd == "backfill":
+        from .data.external_refresh import backfill_options_history
+        from .db import get_conn
+        conn = get_conn(cfg.db_path)
+        total = 0
+        while True:
+            res = backfill_options_history(cfg, conn, max_calls=args.max_calls,
+                                           since=args.since)
+            print("backfill:", res)
+            total += res.get("chains_fetched", 0) or 0
+            # stop when a pass fills the gap (or fetches nothing new)
+            if not args.loop or res.get("status") == "gap filled" \
+                    or (res.get("chains_fetched") or 0) == 0:
+                break
+        print(f"done — {total} chains fetched this session. "
+              f"Commit & push data/snapshots to share with the cloud.")
         return 0
 
     if args.cmd == "refresh-data":

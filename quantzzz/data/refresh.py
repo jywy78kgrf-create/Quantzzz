@@ -148,62 +148,69 @@ def refresh_earnings_calendar(cfg: Config, conn) -> dict:
     return {"total": len(rows), "in_universe": len(ours)}
 
 
+def _safe(label: str, fn):
+    """Run one refresh step in isolation: a failure prints and is contained,
+    so a single throwing source (EDGAR rate-limit, a missing ticker) can never
+    abort the steps after it — the options backfill in particular must always
+    get its turn to run."""
+    try:
+        result = fn()
+        if result is not None:
+            print(f"{label}: {result}")
+    except Exception as e:
+        print(f"{label}: SKIPPED ({type(e).__name__}: {str(e)[:200]})")
+
+
+def _edgar_fill(cfg, store, tickers, limit):
+    if not cfg.edgar_user_agent:
+        return "no EDGAR user agent"
+    edgar = EdgarClient(cfg, conn=get_conn(cfg.db_path))
+    missing = [t for t in tickers if store.load_json(f"edgar/{t}.json") is None][:limit]
+    done = 0
+    for t in missing:
+        try:
+            fund = edgar.fundamental_series(t)
+        except Exception:
+            continue                       # one bad ticker never stops the rest
+        if fund is not None:
+            store.save_json(f"edgar/{t}.json", fund)
+            done += 1
+    return f"{done} fundamentals saved"
+
+
 def refresh_data(cfg: Config, desk: str = "all") -> None:
     conn = get_conn(cfg.db_path)
     store = SnapshotStore(cfg.snapshot_dir)
 
     if desk in ("equity", "all"):
         tickers = EQUITY_UNIVERSE + BENCH_TICKERS
-        print("equity prices:", refresh_prices(cfg, tickers, conn))
-        print("equity premium feeds:",
-              refresh_premium_feeds(cfg, EQUITY_UNIVERSE, conn,
-                                    options_for=EQUITY_UNIVERSE[:30]))
-        if cfg.edgar_user_agent:
-            edgar = EdgarClient(cfg, conn)
-            done = 0
-            for t in EQUITY_UNIVERSE:
-                if store.load_json(f"edgar/{t}.json") is not None:
-                    continue
-                fund = edgar.fundamental_series(t)
-                if fund is not None:
-                    store.save_json(f"edgar/{t}.json", fund)
-                    done += 1
-            print(f"edgar fundamentals saved: {done}")
+        _safe("equity prices", lambda: refresh_prices(cfg, tickers, conn))
+        _safe("equity premium feeds",
+              lambda: refresh_premium_feeds(cfg, EQUITY_UNIVERSE, conn,
+                                            options_for=EQUITY_UNIVERSE[:30]))
+        _safe("equity edgar", lambda: _edgar_fill(cfg, store, EQUITY_UNIVERSE, 999))
 
     if desk in ("biotech", "all"):
+        from .external_refresh import backfill_options_history, refresh_external_signals
         bpiq = BpiqProvider(cfg, conn, store)
         universe = bpiq.universe()
         print(f"biotech universe: {len(universe)} tickers")
-        bpiq.catalysts()
-        bpiq.pdufa_catalysts()
-        for t in universe[:60]:
-            bpiq.historical_catalysts(t)          # cached; fills over cycles
-        print("biotech prices:", refresh_prices(cfg, universe + ["XBI"], conn))
-        print("biotech premium feeds:",
-              refresh_premium_feeds(cfg, universe, conn, options_for=universe))
-        if cfg.edgar_user_agent:
-            # insider (Form 4) coverage feeds the external insider signals;
-            # fill a few missing names per cycle to respect SEC pacing
-            edgar = EdgarClient(cfg, conn)
-            missing = [t for t in universe
-                       if store.load_json(f"edgar/{t}.json") is None][:10]
-            done = 0
-            for t in missing:
-                fund = edgar.fundamental_series(t)
-                if fund is not None:
-                    store.save_json(f"edgar/{t}.json", fund)
-                    done += 1
-            if done:
-                print(f"biotech edgar fundamentals saved: {done}")
-        from .external_refresh import backfill_options_history, refresh_external_signals
-        print("options history backfill:",
-              backfill_options_history(cfg, conn, max_calls=4000))
-        print("external signal extension:", refresh_external_signals(cfg))
-        print("biotech survivorship pool:",
-              refresh_biotech_survivorship_pool(cfg, conn))
+        _safe("biotech catalysts", lambda: (bpiq.catalysts(), bpiq.pdufa_catalysts(),
+              [bpiq.historical_catalysts(t) for t in universe[:60]]) and "ok")
+        _safe("biotech prices", lambda: refresh_prices(cfg, universe + ["XBI"], conn))
+        # backfill runs EARLY and isolated — the bench's forward evidence is the
+        # priority; nothing downstream may starve it of its API budget or abort it
+        _safe("options history backfill",
+              lambda: backfill_options_history(cfg, conn, max_calls=4000))
+        _safe("biotech premium feeds",
+              lambda: refresh_premium_feeds(cfg, universe, conn, options_for=universe))
+        _safe("biotech edgar insider", lambda: _edgar_fill(cfg, store, universe, 10))
+        _safe("external signal extension", lambda: refresh_external_signals(cfg))
+        _safe("biotech survivorship pool",
+              lambda: refresh_biotech_survivorship_pool(cfg, conn))
 
     if desk == "all":
-        print("survivorship pool:", refresh_survivorship_pool(cfg, conn))
-        print("earnings calendar:", refresh_earnings_calendar(cfg, conn))
+        _safe("survivorship pool", lambda: refresh_survivorship_pool(cfg, conn))
+        _safe("earnings calendar", lambda: refresh_earnings_calendar(cfg, conn))
 
     conn.close()

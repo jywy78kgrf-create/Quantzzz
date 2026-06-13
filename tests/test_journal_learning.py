@@ -84,3 +84,31 @@ def test_learning_early_caution_spares_mixed_records(tmp_db):
     loop = LearningLoop(cfg, "equity", tmp_db, DecisionJournal(tmp_db, "equity"))
     loop.review()
     assert loop.current_multiplier(1) == 1.0
+
+
+def test_learning_flags_backtest_divergence(tmp_db):
+    """A strategy whose live hit rate is far below its backtest promise gets
+    de-weighted and flagged, even if not an absolute loser."""
+    from quantzzz.db import insert as _insert
+    cfg = load_config()
+    # backtest promised a 70% hit rate
+    _insert(tmp_db, "strategies", desk="equity", family="momentum", params_json="{}",
+            spec_hash="div1", status="promoted", origin="random", created_ts=utcnow())
+    _insert(tmp_db, "research_runs", desk="equity", started_ts=utcnow())
+    _insert(tmp_db, "research_iterations", run_id=1, desk="equity", iter_num=1,
+            strategy_id=1, ts=utcnow(), hit_rate=0.70, oos_sharpe=2.5, n_trades=80)
+    # live delivers ~35% hit over 20 trades (mildly positive P&L, NOT a loser)
+    pnls = ([0.20] * 7) + ([-0.05] * 13)     # 7/20 wins, net positive
+    for pnl in pnls:
+        _insert(tmp_db, "trades", fund="equity", strategy_id=1, ticker="AAA",
+                entry_ts=utcnow(), exit_ts=utcnow(), entry_px=100,
+                exit_px=100 * (1 + pnl), qty=10, pnl=pnl * 1000, pnl_pct=pnl,
+                source="live")
+    loop = LearningLoop(cfg, "equity", tmp_db, DecisionJournal(tmp_db, "equity"))
+    loop.review()
+    # flagged in the journal and de-weighted below 1.0
+    j = tmp_db.execute("SELECT reasoning FROM journal_entries WHERE entry_type='learning' "
+                       "ORDER BY id DESC LIMIT 1").fetchone()["reasoning"]
+    assert "BACKTEST DIVERGENCE" in j
+    assert loop.current_multiplier(1) < 1.0
+    assert loop.is_active(1)             # de-weighted, not retired (still net positive)

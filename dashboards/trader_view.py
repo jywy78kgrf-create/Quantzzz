@@ -79,6 +79,33 @@ def render_desk(fund: str) -> None:
             st.plotly_chart(gauge(n_pos, limits.max_positions, "Positions vs max"),
                             width='stretch')
 
+    # backtest vs live: promised (research) vs delivered (live trades) per strategy
+    st.subheader("Backtest vs live — promised vs delivered")
+    bvl = q("""
+        SELECT s.id, s.family, s.status,
+               (SELECT MAX(hit_rate) FROM research_iterations WHERE strategy_id=s.id) bt_hit,
+               (SELECT MAX(oos_sharpe) FROM research_iterations WHERE strategy_id=s.id) bt_sharpe,
+               COUNT(t.id) live_trades,
+               AVG(CASE WHEN t.pnl_pct > 0 THEN 1.0 ELSE 0.0 END) live_hit,
+               SUM(t.pnl) live_pnl
+        FROM strategies s
+        LEFT JOIN trades t ON t.strategy_id = s.id AND t.exit_ts IS NOT NULL
+                          AND t.source='live'
+        WHERE s.desk=? AND s.status IN ('promoted','retired')
+        GROUP BY s.id ORDER BY s.status, s.id""", (fund,))
+    if bvl.empty:
+        st.caption("No promoted strategies yet.")
+    else:
+        bvl["bt_hit"] = (bvl["bt_hit"] * 100).round(0)
+        bvl["live_hit"] = (bvl["live_hit"] * 100).round(0)
+        bvl = bvl.rename(columns={"bt_hit": "backtest_hit_%", "bt_sharpe": "backtest_sharpe",
+                                  "live_hit": "live_hit_%", "live_pnl": "live_pnl_$"})
+        st.dataframe(bvl.round(2), width='stretch', hide_index=True)
+        st.caption("Once a strategy has ≥15 live trades, the learning loop flags it "
+                   "if its live hit rate falls >2σ below the backtest promise — "
+                   "production overfit detection. Until then this is just the "
+                   "promise accumulating its forward verdict.")
+
     # candidate queue + orders
     col1, col2 = st.columns(2)
     with col1:

@@ -80,6 +80,24 @@ class LearningLoop:
             else:
                 edge = hit_shrunk * stats.payoff - (1 - hit_shrunk)
                 new_mult = float(min(2.0, max(0.25, 1.0 + 0.5 * edge)))
+            # backtest-consistency (production overfit detection): does the live
+            # record honour the backtest's promise? A strategy can be mildly
+            # profitable yet far below what it backtested — overfit the absolute
+            # checks above would miss. Compare the live hit rate to the backtest
+            # hit rate; if live is >2 std-errors below the promise on a real
+            # sample, de-weight further and flag it (forward record is truth).
+            MIN_CONSISTENCY = 15
+            divergent = False
+            bt = self.conn.execute(
+                "SELECT MAX(hit_rate) hr, MAX(oos_sharpe) sh FROM research_iterations "
+                "WHERE strategy_id=?", (sid,)).fetchone()
+            if (bt and bt["hr"] is not None and stats.n_trades >= MIN_CONSISTENCY):
+                p_bt = float(bt["hr"])
+                se = (p_bt * (1 - p_bt) / stats.n_trades) ** 0.5
+                if se > 0 and (p_bt - hit_shrunk) / se > 2.0:
+                    divergent = True
+                    new_mult = float(min(new_mult, max(0.25, round(new_mult * 0.6, 2))))
+
             active = 1
             if stats.n_trades >= MIN_RETIRE and realized_pnl < 0 and hit_shrunk < 0.35:
                 active = 0  # persistent loser with a real sample behind it
@@ -97,6 +115,7 @@ class LearningLoop:
                            f"payoff {stats.payoff:.2f}, realized P&L {realized_pnl:,.0f}. "
                            f"Weight {old_mult:.2f}->{new_mult:.2f}"
                            f"{' (early caution: bleeding on a small sample)' if early_caution else ''}"
+                           f"{' [BACKTEST DIVERGENCE: live hit rate >2σ below the backtest promise — overfit suspected]' if divergent else ''}"
                            f"{', RETIRED' if not active else ''}."),
                 inputs={"hit_rate": stats.hit_rate, "payoff": stats.payoff,
                         "n": stats.n_trades}, ref_table="strategies", ref_id=sid)

@@ -57,6 +57,32 @@ def max_drawdown(returns: pd.Series) -> float:
     return float(-dd.min())
 
 
+def downside_capture(returns: pd.Series, benchmark: pd.Series) -> float | None:
+    """Downside capture ratio: the strategy's average return on benchmark-DOWN
+    days divided by the benchmark's average return on those days.
+
+    < 1.0  -> loses less than the benchmark when the sector sells off (robust)
+    ~ 1.0  -> moves one-for-one with the sector (pure beta)
+    > 1.0  -> loses MORE than the benchmark in stress (fragile / leveraged beta)
+
+    A real edge should not amplify sector drawdowns; this catches strategies
+    that only look good because the sector rose, independent of the time-based
+    walk-forward windows. Returns None when there aren't enough down days to
+    judge.
+    """
+    joined = pd.concat([returns, benchmark], axis=1, join="inner").dropna()
+    if len(joined) < 30:
+        return None
+    r, b = joined.iloc[:, 0], joined.iloc[:, 1]
+    down = b < 0
+    if int(down.sum()) < 10:
+        return None
+    bench_down = float(b[down].mean())
+    if bench_down >= 0:
+        return None
+    return float(r[down].mean() / bench_down)
+
+
 def alpha_beta(returns: pd.Series, benchmark: pd.Series) -> tuple[float, float]:
     """Annualized alpha and beta vs a benchmark return series (aligned on index)."""
     joined = pd.concat([returns, benchmark], axis=1, join="inner").dropna()

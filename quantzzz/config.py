@@ -38,6 +38,9 @@ class PromotionThresholds:
     # resamples of the OOS returns must stay above this (fights the
     # "profitable on the one realized path only" failure mode)
     min_bootstrap_q05: float = 0.0
+    # regime robustness: max tolerated downside-capture ratio vs benchmark
+    # on its down days (>1 = loses more than the sector in stress)
+    max_downside_capture: float = 1.5
     bootstrap_paths: int = 500
 
 
@@ -68,6 +71,7 @@ PROMOTION_THRESHOLDS_EXTERNAL = PromotionThresholds(
     min_positive_windows=5,        # ALL five walk-forward windows profitable
     min_dsr_prob=0.90,             # strict deflated-Sharpe (vs 0.60 default)
     min_bootstrap_q05=0.10,        # robust, not just the one realized path
+    max_downside_capture=1.25,     # must not amplify sector drawdowns
 )
 
 

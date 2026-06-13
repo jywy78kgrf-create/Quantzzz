@@ -100,7 +100,6 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.cmd == "backfill":
         from .data.external_refresh import backfill_options_history
-        from .db import get_conn
         conn = get_conn(cfg.db_path)
         total = 0
         while True:

@@ -27,6 +27,7 @@ class Evaluation:
     dsr_prob: float = 0.0              # deflated-Sharpe probability vs noise floor
     bench_max_dd: float = 0.0          # benchmark's drawdown over the same window
     bootstrap_q05: float | None = None  # 5th-pct Sharpe across bootstrap resamples
+    downside_capture: float | None = None  # loss vs benchmark on its down days
 
     def as_row(self) -> dict:
         return {
@@ -55,6 +56,7 @@ def evaluate_windows(is_res: BacktestResult, window_results: list[BacktestResult
     bench_max_dd = M.max_drawdown(bench_oos)
     from .montecarlo import bootstrap_sharpe_quantile
     bootstrap_q05 = bootstrap_sharpe_quantile(oos_returns)
+    dcap = M.downside_capture(oos_returns, benchmark)
 
     # fitness rewards OOS Sharpe and consistency, penalizes drawdown + overfit gap
     consistency_bonus = 0.2 * sum(1 for s in window_sharpes if s > 0) / max(len(window_sharpes), 1)
@@ -68,6 +70,7 @@ def evaluate_windows(is_res: BacktestResult, window_results: list[BacktestResult
         fitness=fitness, oos_returns=oos_returns,
         window_sharpes=[round(s, 3) for s in window_sharpes], dsr_prob=dsr,
         bench_max_dd=bench_max_dd, bootstrap_q05=bootstrap_q05,
+        downside_capture=dcap,
     )
 
 
@@ -103,6 +106,14 @@ def check_promotion(ev: Evaluation, thr: PromotionThresholds,
     if ev.bootstrap_q05 is not None and ev.bootstrap_q05 < thr.min_bootstrap_q05:
         reasons.append(f"bootstrap q05 Sharpe {ev.bootstrap_q05:.2f} < "
                        f"{thr.min_bootstrap_q05} (not robust to resampling)")
+
+    # regime robustness: don't amplify sector drawdowns. A strategy that
+    # loses materially MORE than its benchmark on the benchmark's down days is
+    # leveraged beta dressed as edge — independent of the time windows above.
+    if (ev.downside_capture is not None
+            and ev.downside_capture > thr.max_downside_capture):
+        reasons.append(f"downside capture {ev.downside_capture:.2f} > "
+                       f"{thr.max_downside_capture} (amplifies sector drawdowns)")
 
     # de-correlation vs already-promoted strategies
     corr_ids: list[int] = []

@@ -57,3 +57,36 @@ def test_trade_stats():
 
 def test_trade_stats_empty():
     assert m.trade_stats([]).n_trades == 0
+
+
+def test_downside_capture_distinguishes_beta_from_robust():
+    import numpy as np, pandas as pd
+    from quantzzz.research.metrics import downside_capture
+    rng = np.random.default_rng(0)
+    idx = pd.bdate_range("2024-01-01", periods=200)
+    bench = pd.Series(rng.normal(0.0, 0.02, 200), index=idx)
+    # leveraged beta: 1.8x the benchmark -> loses MORE on down days
+    lev = bench * 1.8
+    cap_lev = downside_capture(lev, bench)
+    assert cap_lev is not None and cap_lev > 1.5
+    # defensive: half the downside -> loses LESS on down days
+    defensive = bench * 0.4
+    cap_def = downside_capture(defensive, bench)
+    assert cap_def is not None and cap_def < 0.6
+    # too few down days -> None (can't judge)
+    flat = pd.Series(0.01, index=idx)
+    assert downside_capture(flat, pd.Series(0.01, index=idx)) is None
+
+
+def test_downside_capture_gate_rejects_amplifier():
+    import numpy as np, pandas as pd
+    from quantzzz.research.promotion import Evaluation, check_promotion
+    from quantzzz.config import PROMOTION_THRESHOLDS
+    thr = PROMOTION_THRESHOLDS["biotech"]
+    ev = Evaluation(is_sharpe=2, oos_sharpe=2, oos_alpha=0.5, oos_beta=1.8,
+                    max_dd=0.2, n_trades=80, hit_rate=0.6, fitness=2,
+                    oos_returns=pd.Series(dtype=float),
+                    window_sharpes=[1, 1, 1, 1, 1], dsr_prob=0.99,
+                    bootstrap_q05=0.5, downside_capture=2.1)
+    passed, reasons, _ = check_promotion(ev, thr, [])
+    assert not passed and any("downside capture" in r for r in reasons)

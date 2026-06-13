@@ -1,0 +1,38 @@
+name: Cycle watchdog
+
+# GitHub cron silently skips slots; four checks an hour make droughts
+# self-healing. If the last committed fund cycle is older than 90 minutes
+# during market hours, dispatch one.
+on:
+  schedule:
+    - cron: "5,20,35,50 13-21 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: cycle-watchdog
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 50
+      - name: Dispatch a cycle if stale
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(git log --grep='Automated fund cycle' -1 --format=%ct || echo 0)
+          now=$(date +%s)
+          age_min=$(( (now - ${last:-0}) / 60 ))
+          echo "last cycle ${age_min} minutes ago"
+          if [ "$age_min" -gt 90 ]; then
+            echo "stale -> dispatching quant-cycle"
+            gh workflow run quant-cycle.yml --ref "${GITHUB_REF_NAME}"
+          fi

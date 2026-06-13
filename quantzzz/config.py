@@ -26,7 +26,7 @@ class PromotionThresholds:
     min_oos_is_ratio: float = 0.4       # OOS Sharpe must be >= 40% of IS Sharpe
     max_correlation: float = 0.8        # vs already-promoted strategies
     min_is_sharpe_bar: float = 0.5      # cheap in-sample rejection
-    min_positive_windows: int = 2       # of the walk-forward OOS windows
+    min_positive_windows: int = 3       # of the 5 walk-forward OOS windows
     min_dsr_prob: float = 0.60          # deflated-Sharpe prob vs multiple-testing
                                         # noise floor (raise to 0.95 for strict mode)
     # drawdown gate is benchmark-relative: a long-only strategy cannot be
@@ -65,7 +65,7 @@ PROMOTION_THRESHOLDS_EXTERNAL = PromotionThresholds(
     max_drawdown_hard_cap=0.55,
     min_trades=30,                 # more evidence before believing the edge
     min_oos_is_ratio=0.55,         # less OOS-vs-IS decay tolerated
-    min_positive_windows=3,        # ALL three walk-forward windows profitable
+    min_positive_windows=5,        # ALL five walk-forward windows profitable
     min_dsr_prob=0.90,             # strict deflated-Sharpe (vs 0.60 default)
     min_bootstrap_q05=0.10,        # robust, not just the one realized path
 )

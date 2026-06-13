@@ -53,6 +53,11 @@ class LearningLoop:
                 continue
             stats = M.trade_stats(pnls)
             realized_pnl = sum(t["pnl"] or 0 for t in trades)
+            # Beta-binomial shrinkage: small samples get pulled toward a 0.45
+            # prior (10 pseudo-trades) so a 4-for-6 streak doesn't read as a
+            # 67% hit rate. Converges to the raw rate as evidence accumulates.
+            wins = stats.hit_rate * stats.n_trades
+            hit_shrunk = (wins + 4.5) / (stats.n_trades + 10.0)
 
             old_mult = self.current_multiplier(sid)
             # Statistical patience: with few closed trades, hit rates are noise
@@ -67,16 +72,16 @@ class LearningLoop:
             if stats.n_trades < MIN_CAUTION:
                 new_mult = old_mult
             elif stats.n_trades < MIN_ADJUST:
-                if realized_pnl < 0 and stats.hit_rate < 0.30:
+                if realized_pnl < 0 and hit_shrunk < 0.30:
                     new_mult = max(0.5, round(old_mult * 0.7, 2))
                     early_caution = new_mult < old_mult
                 else:
                     new_mult = old_mult
             else:
-                edge = stats.hit_rate * stats.payoff - (1 - stats.hit_rate)
+                edge = hit_shrunk * stats.payoff - (1 - hit_shrunk)
                 new_mult = float(min(2.0, max(0.25, 1.0 + 0.5 * edge)))
             active = 1
-            if stats.n_trades >= MIN_RETIRE and realized_pnl < 0 and stats.hit_rate < 0.35:
+            if stats.n_trades >= MIN_RETIRE and realized_pnl < 0 and hit_shrunk < 0.35:
                 active = 0  # persistent loser with a real sample behind it
                 self.conn.execute(
                     "UPDATE strategies SET status='retired', retired_ts=? WHERE id=?",

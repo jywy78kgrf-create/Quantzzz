@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: quant-cycle
@@ -94,4 +95,17 @@ jobs:
               git push && break
               git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" || exit 1
             done
+          fi
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh issue list --label cycle-failure --state open --json number --jq length)
+          if [ "${open:-0}" = "0" ]; then
+            gh label create cycle-failure --color B60205 --force || true
+            gh issue create --title "Fund cycle failed: $(date -u +%FT%H:%MZ)" \
+              --label cycle-failure \
+              --body "A scheduled fund cycle failed. Check the Actions run logs: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           fi

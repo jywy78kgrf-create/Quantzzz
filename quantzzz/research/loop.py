@@ -77,7 +77,7 @@ class ResearchDesk:
         store = SnapshotStore(self.cfg.snapshot_dir)
         bench = self._benchmark_returns(store)
         prices = self.bundle.prices
-        is_dates, oos_windows = walk_forward_windows(prices.index)
+        is_dates, oos_windows = walk_forward_windows(prices.index, n_windows=5)
 
         run_id = insert(self.conn, "research_runs", desk=self.desk,
                         started_ts=utcnow(), config_json=dumps({"iterations": iterations}))
@@ -126,6 +126,12 @@ class ResearchDesk:
                         "window_sharpes": ev.window_sharpes})
 
                 if ev is not None:
+                    if len(ev.oos_returns) > 60:
+                        sample = getattr(self, "_oos_sample", None)
+                        if sample is None:
+                            sample = self._oos_sample = []
+                        sample.append(ev.oos_returns)
+                        del sample[:-24]              # bounded memory
                     best = max(best, ev.oos_sharpe)
                     population.append((spec, ev.fitness))
                     population.sort(key=lambda x: x[1], reverse=True)
@@ -260,14 +266,32 @@ class ResearchDesk:
         """Correlation-adjusted trial count for the deflated Sharpe.
 
         Evolutionary candidates are heavily correlated (mutations of the same
-        parents), so raw iteration count overstates the search breadth. We use
-        sqrt(OOS-evaluated candidates) as the effective number of independent
-        trials — a documented, deliberately rough haircut.
+        parents), so raw iteration count overstates the search breadth. We
+        MEASURE the average pairwise correlation rho of recent candidates'
+        OOS return streams and interpolate N_eff = N**(1-rho): rho=0 keeps
+        every trial, rho=0.5 reproduces the old sqrt haircut, rho->1 collapses
+        the search to a single effective bet. Falls back to sqrt(N) until
+        enough return streams have been sampled this run.
         """
         row = self.conn.execute(
             "SELECT COUNT(*) c FROM research_iterations WHERE desk=? AND n_trades IS NOT NULL",
             (self.desk,)).fetchone()
-        return max(1, int(round((row["c"] or 0) ** 0.5)))
+        n = max(1, row["c"] or 0)
+        sample = getattr(self, "_oos_sample", [])
+        if len(sample) >= 6:
+            cors = []
+            for i in range(len(sample)):
+                for j in range(i + 1, len(sample)):
+                    joined = pd.concat([sample[i], sample[j]], axis=1,
+                                       join="inner").dropna()
+                    if len(joined) > 60:
+                        c = joined.iloc[:, 0].corr(joined.iloc[:, 1])
+                        if c == c:                      # not NaN
+                            cors.append(abs(c))
+            if len(cors) >= 10:
+                rho = min(0.95, max(0.05, sum(cors) / len(cors)))
+                return max(1, int(round(n ** (1 - rho))))
+        return max(1, int(round(n ** 0.5)))
 
     # External-signal families only have data from ~2018 (options) / 2019
     # (insider). Judged on the full 2004+ panel they hold nothing in-sample and
@@ -294,7 +318,7 @@ class ResearchDesk:
                 return None, False, [
                     f"insufficient external history ({len(covered)} days "
                     f"< {self.MIN_EXTERNAL_HISTORY_DAYS})"], []
-            is_dates, oos_windows = walk_forward_windows(covered)
+            is_dates, oos_windows = walk_forward_windows(covered, n_windows=5)
 
         from . import metrics as M
         prices = self.bundle.prices

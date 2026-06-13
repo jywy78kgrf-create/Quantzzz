@@ -206,9 +206,9 @@ def insider_conviction_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
 # by a single chosen external signal. rank_signal offers exactly one IV-cluster
 # member and only unsigned |RR| — the reconciliation flags made concrete.
 EVENT_ANCHORED = ParamSpace("event_anchored", "biotech", [
-    ParamDef("entry_days_before", "int", 10, 60, step=5),
-    ParamDef("exit_days_before", "int", 2, 10, step=1),
-    ParamDef("max_positions", "int", 3, 10, step=1),
+    ParamDef("entry_days_before", "int", 10, 90, step=5),   # allow earlier entry
+    ParamDef("exit_days_before", "int", 1, 21, step=1),     # full T-21..T-1 exit window
+    ParamDef("max_positions", "int", 3, 25, step=1),        # allow diversifying the vol
     ParamDef("rank_signal", "choice", choices=X.RANKABLE_SIGNALS),
     ParamDef("catalyst_scope", "choice", choices=("all", "pivotal")),
 ])

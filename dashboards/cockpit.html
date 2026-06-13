@@ -293,38 +293,44 @@ function labChart(s){
 function labChart2(s){
   if(!window.echarts)return;
   if(!lab2){try{lab2=echarts.init($('lab2'),null,{renderer:'canvas'});}catch(e){return;}}
-  // only candidates that reached the OOS gauntlet (have a deflated-Sharpe prob)
   const pts=s.research_feed.filter(r=>r.oos_sharpe!=null && r.dsr_prob!=null).reverse();
+  // colour by which deflated-Sharpe band a candidate is in: the gate made visible
+  const band=v=>v>=0.9?'#2dd4a7':(v>=0.6?'#ffc560':'#5b8cff');
   if(!window.WebGLRenderingContext || !(echarts.graphic) || !labSupports3d()){
     lab2.setOption({backgroundColor:'transparent',grid:{left:46,right:14,top:28,bottom:34},
-      xAxis:{name:'OOS sharpe',nameTextStyle:{color:'#9fb0d6'},axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
-      yAxis:{name:'DSR',nameTextStyle:{color:'#9fb0d6'},axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
-      series:[{type:'scatter',symbolSize:6,
+      xAxis:{name:'OOS sharpe',nameTextStyle:{color:'#9fb0d6'},axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#1a1424'}}},
+      yAxis:{name:'DSR',min:0,max:1,nameTextStyle:{color:'#9fb0d6'},axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#1a1424'}}},
+      series:[{type:'scatter',symbolSize:7,
+        markLine:{silent:true,symbol:'none',lineStyle:{color:'#2dd4a7',type:'dashed'},
+          data:[{yAxis:0.9,label:{formatter:'promote ≥ 0.90',color:'#2dd4a7',position:'insideStartTop'}}]},
         data:pts.map(r=>({value:[r.oos_sharpe, r.dsr_prob],
-          itemStyle:{color:r.promoted?'#2dd4a7':(r.dsr_prob>=0.9?'#ffc560':'#5b8cff'),opacity:.8}}))}]});
+          itemStyle:{color:r.promoted?'#2dd4a7':band(r.dsr_prob),opacity:.85}}))}]});
     return;
   }
   const mk=r=>({value:[r.oos_sharpe, r.dsr_prob, (r.bootstrap_q05==null?0:r.bootstrap_q05)],
-    itemStyle:{color:r.promoted?'#2dd4a7':(r.dsr_prob>=0.9?'#ffc560':(C2(r.desk))),
-               opacity:r.dsr_prob>=0.9?1:.8},
     name:`${r.desk} · ${(r.family||'?').replaceAll('_',' ')}`});
-  function C2(d){return d==='biotech'?'#a78bfa':'#5b8cff';}
   lab2.setOption({backgroundColor:'transparent',
     tooltip:{backgroundColor:'#0c1120',borderColor:'#1c2742',textStyle:{color:'#dfe7ff'},
       formatter:p=>`${p.name}<br>OOS ${(+p.value[0]).toFixed(2)} · DSR ${(+p.value[1]).toFixed(2)} · boot ${(+p.value[2]).toFixed(2)}`},
-    grid3D:{boxWidth:230,boxDepth:130,boxHeight:95,
-      viewControl:{autoRotate:true,autoRotateSpeed:7,distance:172,alpha:14,beta:-32},
-      axisLine:{lineStyle:{color:'#54688f',width:1.6}},
-      splitLine:{show:true,lineStyle:{color:'#2c3c61',width:1}},
-      splitArea:{show:true,areaStyle:{color:['rgba(20,29,54,.35)','rgba(13,20,40,.35)']}},
-      light:{main:{intensity:1.3,shadow:false},ambient:{intensity:.5}}},
-    xAxis3D:{name:'OOS sharpe',nameTextStyle:{color:'#9fb0d6',fontSize:13},axisLabel:{color:'#8295bd',fontSize:11}},
-    yAxis3D:{name:'deflated sharpe',min:0,max:1,nameTextStyle:{color:'#9fb0d6',fontSize:13},axisLabel:{color:'#8295bd',fontSize:11}},
-    zAxis3D:{name:'bootstrap floor',nameTextStyle:{color:'#9fb0d6',fontSize:13},axisLabel:{color:'#8295bd',fontSize:11}},
+    visualMap:{type:'piecewise',dimension:1,show:true,left:4,bottom:6,itemWidth:11,itemHeight:11,
+      textStyle:{color:'#8295bd',fontSize:10},
+      pieces:[{min:0.9,max:1,color:'#2dd4a7',label:'≥0.90 promote'},
+              {min:0.6,max:0.9,color:'#ffc560',label:'0.60–0.90'},
+              {min:0,max:0.6,color:'#ff5d73',label:'<0.60 weak'}]},
+    grid3D:{boxWidth:225,boxDepth:130,boxHeight:100,
+      viewControl:{autoRotate:true,autoRotateSpeed:-8,distance:174,alpha:18,beta:-28},
+      axisLine:{lineStyle:{color:'#6a5687',width:1.6}},
+      splitLine:{show:true,lineStyle:{color:'#3a2c50',width:1}},
+      splitArea:{show:true,areaStyle:{color:['rgba(40,24,54,.40)','rgba(24,16,34,.40)']}},
+      light:{main:{intensity:1.25,shadow:false},ambient:{intensity:.55}}},
+    xAxis3D:{name:'OOS sharpe',nameTextStyle:{color:'#c4b3df',fontSize:13},axisLabel:{color:'#9d8bbd',fontSize:11}},
+    yAxis3D:{name:'deflated sharpe',min:0,max:1,nameTextStyle:{color:'#c4b3df',fontSize:13},axisLabel:{color:'#9d8bbd',fontSize:11}},
+    zAxis3D:{name:'bootstrap floor',nameTextStyle:{color:'#c4b3df',fontSize:13},axisLabel:{color:'#9d8bbd',fontSize:11}},
     series:[
-      {type:'scatter3D',data:pts.filter(r=>!r.promoted).map(mk),symbolSize:5,emphasis:{itemStyle:{color:'#fff'}}},
-      {type:'scatter3D',data:pts.filter(r=>r.promoted).map(mk),symbolSize:10,
-       itemStyle:{color:'#2dd4a7',opacity:1},label:{show:true,formatter:'★',textStyle:{color:'#2dd4a7',fontSize:12}}},
+      {type:'scatter3D',data:pts.filter(r=>!r.promoted).map(mk),symbolSize:6,
+       emphasis:{itemStyle:{color:'#fff'}}},
+      {type:'scatter3D',data:pts.filter(r=>r.promoted).map(mk),symbolSize:11,
+       itemStyle:{color:'#2dd4a7',opacity:1},label:{show:true,formatter:'★',textStyle:{color:'#2dd4a7',fontSize:13}}},
     ]});
 }
 function labTicker(s){

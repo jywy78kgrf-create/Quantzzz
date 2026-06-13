@@ -11,6 +11,26 @@ import streamlit as st
 from components import line_fig, q
 
 
+@st.cache_data(ttl=900)
+def _capacities(desk: str) -> dict:
+    from components import CFG
+    from quantzzz.data.snapshots import SnapshotStore
+    from quantzzz.db import get_conn
+    from quantzzz.research.capacity import promoted_capacities
+    from quantzzz.research.feature_loader import load_feature_bundle
+    from quantzzz.universe import universe_for
+    conn = get_conn(CFG.db_path)
+    try:
+        store = SnapshotStore(CFG.snapshot_dir)
+        bundle = load_feature_bundle(CFG, desk, universe_for(desk, CFG.snapshot_dir),
+                                     store, conn)
+        return promoted_capacities(conn, bundle, desk)
+    except Exception:
+        return {}
+    finally:
+        conn.close()
+
+
 def render_lab(desk: str) -> None:
     runs = q("SELECT id, iterations, promotions FROM research_runs WHERE desk=? "
              "ORDER BY id DESC", (desk,))
@@ -55,11 +75,17 @@ def render_lab(desk: str) -> None:
             GROUP BY s.id HAVING i.fitness = MAX(i.fitness)
             ORDER BY i.fitness DESC LIMIT 25""", (desk,))
         if not board.empty:
+            board = board.copy()
+            board["capacity_$M"] = board["id"].map(_capacities(desk)).map(
+                lambda v: round(v / 1e6, 1) if v else None)
             st.dataframe(board.round(3), width='stretch', hide_index=True)
             st.caption(
                 "dsr_prob = deflated Sharpe: probability the OOS Sharpe beats the "
                 "noise floor of the multi-candidate search. window_sharpes = Sharpe "
-                "in each walk-forward window (consistency check).")
+                "in each walk-forward window (consistency check). capacity_$M = "
+                "deployable dollars at 2.5% of daily liquidity in the largest "
+                "position (promoted strategies only) — an edge without capacity "
+                "is a finding, not a fund.")
     with col2:
         st.subheader("Proposal origins")
         origins = iters["origin"].value_counts().reset_index()

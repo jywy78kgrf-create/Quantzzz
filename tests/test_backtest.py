@@ -79,3 +79,23 @@ def test_cost_panel_falls_back_flat_without_volume():
     prices = pd.DataFrame({"A": 50.0}, index=dates)
     cost = trading_cost_bps(prices, pd.DataFrame(), fallback_bps=10.0)
     assert (cost["A"] == 10.0).all()
+
+
+def test_strategy_capacity_bounded_by_illiquid_names():
+    import pandas as pd
+    from quantzzz.data.features import FeatureBundle
+    from quantzzz.research.capacity import strategy_capacity
+
+    dates = pd.bdate_range("2024-01-01", periods=200)
+    prices = pd.DataFrame({"BIG": 100.0, "SML": 10.0}, index=dates)
+    volume = pd.DataFrame({"BIG": 5_000_000.0, "SML": 50_000.0}, index=dates)
+    bundle = FeatureBundle(desk="equity", prices=prices, volume=volume)
+    cap_mixed = strategy_capacity(bundle, "momentum",
+                                  {"lookback": 60, "rebalance": 5, "skip": 0,
+                                   "top_n": 2, "vol_filter": 0.0})
+    assert cap_mixed is not None and cap_mixed > 0
+    # without volume data, capacity is honestly unknown
+    bundle2 = FeatureBundle(desk="equity", prices=prices)
+    assert strategy_capacity(bundle2, "momentum",
+                             {"lookback": 60, "rebalance": 5, "skip": 0,
+                              "top_n": 2, "vol_filter": 0.0}) is None

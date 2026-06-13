@@ -233,6 +233,46 @@ def event_anchored_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
     return _ranked_top(score, eligible, int(p["max_positions"]))
 
 
+# ---- catalyst momentum (the external "E1 gate" reproduced honestly) ----
+# The external research's core finding: biotechs in the top quintile of trailing
+# momentum heading into a catalyst drift up into the event. Reproduced here with
+# POINT-IN-TIME thresholds (cross-sectional rank each day — no full-sample
+# look-ahead) on the survivorship-honest research universe, plus an optional
+# volume confirmation (their "E2" gate). Long the top momentum names in the
+# catalyst run-up window, exit before the binary. Faces the strict
+# contaminated-discovery + forward-evidence gates like the other external
+# families — the forward record is the referee, not the backtest.
+CATALYST_MOMENTUM = ParamSpace("catalyst_momentum", "biotech", [
+    ParamDef("momentum_lookback", "int", 120, 200, step=20),
+    ParamDef("momentum_pct", "float", 0.70, 0.90, step=0.05),
+    ParamDef("entry_days_before", "int", 40, 70, step=5),
+    ParamDef("exit_days_before", "int", 1, 10, step=1),
+    ParamDef("require_volume", "choice", choices=(0, 1)),
+    ParamDef("max_positions", "int", 5, 20, step=1),
+])
+
+
+def catalyst_momentum_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    dtc = F.external_days_to_catalyst_frame(bundle, None).reindex(columns=bundle.tickers)
+    if dtc.isna().all().all():
+        return pd.DataFrame(0.0, index=bundle.dates, columns=bundle.tickers)
+    px = bundle.prices
+    mom = px / px.shift(int(p["momentum_lookback"])) - 1
+    pct = float(p["momentum_pct"])
+    # E1: top-pct trailing momentum, ranked cross-sectionally EACH DAY (the rank
+    # threshold is contemporaneous, so there is no full-sample look-ahead)
+    e1 = mom.rank(axis=1, pct=True) >= pct
+    eligible = (_in_catalyst_window(dtc, int(p["entry_days_before"]),
+                                    int(p["exit_days_before"])).fillna(False)
+                & e1.fillna(False))
+    if int(p["require_volume"]) and not bundle.volume.empty:
+        volr = bundle.volume.rolling(63).mean() / bundle.volume.rolling(252).mean()
+        e2 = volr.rank(axis=1, pct=True) >= pct      # their "E2" volume confirmation
+        eligible = eligible & e2.fillna(False)
+    eligible = eligible & mom.notna()
+    return _ranked_top(mom.where(eligible), eligible, int(p["max_positions"]))
+
+
 STRATEGIES = [
     (PDUFA_RUNUP, pdufa_runup_signal),
     (POST_DRIFT, post_catalyst_drift_signal),
@@ -241,10 +281,11 @@ STRATEGIES = [
     (OPTIONS_IV_RUNUP, options_iv_runup_signal),
     (INSIDER_CONVICTION, insider_conviction_signal),
     (EVENT_ANCHORED, event_anchored_signal),
+    (CATALYST_MOMENTUM, catalyst_momentum_signal),
 ]
 
 # Families sourced from the external contaminated-discovery export. The research
 # loop holds these to a stricter promotion bar than the price-native families.
 EXTERNAL_FAMILIES = frozenset({
-    "options_iv_runup", "insider_conviction", "event_anchored",
+    "options_iv_runup", "insider_conviction", "event_anchored", "catalyst_momentum",
 })

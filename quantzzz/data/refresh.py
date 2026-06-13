@@ -48,7 +48,7 @@ def refresh_premium_feeds(cfg: Config, tickers: list[str], conn,
             counts["earnings"] += 1
         if av.news_sentiment(t):
             counts["news"] += 1
-    for t in (options_for or [])[:30]:
+    for t in (options_for or [])[:120]:
         if av.options_summary(t):
             counts["options"] += 1
     return counts
@@ -176,11 +176,11 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         print(f"biotech universe: {len(universe)} tickers")
         bpiq.catalysts()
         bpiq.pdufa_catalysts()
-        for t in universe[:20]:
-            bpiq.historical_catalysts(t)
+        for t in universe[:60]:
+            bpiq.historical_catalysts(t)          # cached; fills over cycles
         print("biotech prices:", refresh_prices(cfg, universe + ["XBI"], conn))
         print("biotech premium feeds:",
-              refresh_premium_feeds(cfg, universe, conn, options_for=universe[:20]))
+              refresh_premium_feeds(cfg, universe, conn, options_for=universe))
         if cfg.edgar_user_agent:
             # insider (Form 4) coverage feeds the external insider signals;
             # fill a few missing names per cycle to respect SEC pacing
@@ -195,7 +195,9 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
                     done += 1
             if done:
                 print(f"biotech edgar fundamentals saved: {done}")
-        from .external_refresh import refresh_external_signals
+        from .external_refresh import backfill_options_history, refresh_external_signals
+        print("options history backfill:",
+              backfill_options_history(cfg, conn, max_calls=4000))
         print("external signal extension:", refresh_external_signals(cfg))
         print("biotech survivorship pool:",
               refresh_biotech_survivorship_pool(cfg, conn))

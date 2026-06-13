@@ -90,14 +90,19 @@ class AlphaVantageClient:
         series = data.get("Time Series (Daily)")
         if not series:
             return None
-        rows = {
-            date: {
-                "close": float(v["5. adjusted close"]),
-                "raw_close": float(v["4. close"]),
+        rows = {}
+        for date, v in series.items():
+            raw_close = float(v["4. close"])
+            adj_close = float(v["5. adjusted close"])
+            f = adj_close / raw_close if raw_close else 1.0
+            rows[date] = {
+                "close": adj_close,
+                "raw_close": raw_close,
+                "open": float(v["1. open"]) * f,
+                "high": float(v["2. high"]) * f,
+                "low": float(v["3. low"]) * f,
                 "volume": float(v["6. volume"]),
             }
-            for date, v in series.items()
-        }
         df = pd.DataFrame.from_dict(rows, orient="index")
         df.index = pd.to_datetime(df.index)
         return df.sort_index()
@@ -220,34 +225,58 @@ class AlphaVantageClient:
         rows = data.get("data", [])
         if not rows:
             return None
-        call_vol = put_vol = 0.0
-        ivs_c, ivs_p = [], []
-        for r in rows:
-            vol = _f(r.get("volume")) or 0
-            iv = _f(r.get("implied_volatility"))
-            if r.get("type") == "call":
-                call_vol += vol
-                if iv:
-                    ivs_c.append(iv)
-            else:
-                put_vol += vol
-                if iv:
-                    ivs_p.append(iv)
-        summary = {
-            "date": rows[0].get("date"),
-            "put_call_volume_ratio": round(put_vol / call_vol, 4) if call_vol else None,
-            "mean_call_iv": round(sum(ivs_c) / len(ivs_c), 4) if ivs_c else None,
-            "mean_put_iv": round(sum(ivs_p) / len(ivs_p), 4) if ivs_p else None,
-            "total_volume": call_vol + put_vol,
-            "n_contracts": len(rows),
-        }
+        spot = None
+        px = self.store.load_prices(ticker)
+        if px is not None and len(px):
+            spot = float(px["raw_close"].iloc[-1] if "raw_close" in px.columns
+                         else px["close"].iloc[-1])
+        summary = summarize_chain(rows, spot)
         # accumulate a history of daily summaries for future options strategies
         hist = self.store.load_json(f"av_options/{ticker}.json") or []
         if isinstance(hist, dict):
             hist = [hist]
         if not any(h.get("date") == summary["date"] for h in hist):
             hist.append(summary)
-        self.store.save_json(f"av_options/{ticker}.json", hist[-500:])
+        hist.sort(key=lambda h: h.get("date") or "")
+        self.store.save_json(f"av_options/{ticker}.json", hist[-4000:])
+        return summary
+
+    def options_summary_on(self, ticker: str, date: str) -> dict | None:
+        """Vendor-grade chain summary for a specific historical date (premium
+        HISTORICAL_OPTIONS supports per-date queries). Cached permanently —
+        a historical chain never changes."""
+        key = f"av:options:{ticker}:{date}"
+        data = self.cache.get(key)
+        if data is None and self.cfg.alpha_vantage_key and self.budget.consume():
+            try:
+                data = self._get({"function": "HISTORICAL_OPTIONS",
+                                  "symbol": ticker, "date": date})
+                self.cache.put(key, "alphavantage", data, ttl_s=365 * DAY_S)
+            except Exception as e:
+                self._health("error", ticker, f"options@{date}: {e}"[:300])
+                return None
+        if not data:
+            return None
+        rows = data.get("data", [])
+        if not rows:
+            return None
+        spot = None
+        px = self.store.load_prices(ticker)
+        if px is not None and len(px):
+            asof = px.loc[px.index <= date]
+            if len(asof):
+                spot = float(asof["raw_close"].iloc[-1]
+                             if "raw_close" in asof.columns else asof["close"].iloc[-1])
+        summary = summarize_chain(rows, spot)
+        if summary is None:
+            return None
+        hist = self.store.load_json(f"av_options/{ticker}.json") or []
+        if isinstance(hist, dict):
+            hist = [hist]
+        if not any(h.get("date") == summary["date"] for h in hist):
+            hist.append(summary)
+            hist.sort(key=lambda h: h.get("date") or "")
+            self.store.save_json(f"av_options/{ticker}.json", hist[-4000:])
         return summary
 
     def latest_quote(self, ticker: str) -> float | None:
@@ -270,3 +299,115 @@ class AlphaVantageClient:
         if snap is not None and len(snap):
             return float(snap["close"].iloc[-1])
         return None
+
+
+def summarize_chain(rows: list[dict], spot: float | None) -> dict | None:
+    """Vendor-grade daily options summary from a full chain.
+
+    Computes a true ATM 30-day-tenor IV (per-expiry ATM strike, linear
+    interpolation across the two expiries bracketing 30 calendar days), a true
+    25-delta risk reversal (call IV at delta closest to +0.25 minus put IV at
+    delta closest to -0.25, on the expiry nearest 30d), open-interest totals
+    and ratios — replacing the earlier chain-mean approximations. Falls back
+    gracefully when the chain is too thin or spot is unknown.
+    """
+    if not rows:
+        return None
+    obs_date = rows[0].get("date")
+    call_vol = put_vol = call_oi = put_oi = 0.0
+    by_exp: dict[str, list[dict]] = {}
+    for r in rows:
+        vol = _f(r.get("volume")) or 0.0
+        oi = _f(r.get("open_interest")) or 0.0
+        if r.get("type") == "call":
+            call_vol += vol
+            call_oi += oi
+        else:
+            put_vol += vol
+            put_oi += oi
+        if r.get("expiration"):
+            by_exp.setdefault(r["expiration"], []).append(r)
+
+    def _dte(exp: str) -> float:
+        import datetime as _dt
+        try:
+            return ((_dt.date.fromisoformat(exp)
+                     - _dt.date.fromisoformat(obs_date)).days)
+        except (ValueError, TypeError):
+            return -1.0
+
+    def _atm_iv(contracts: list[dict]) -> float | None:
+        if spot is None:
+            return None
+        best, best_d = [], None
+        for r in contracts:
+            k, iv = _f(r.get("strike")), _f(r.get("implied_volatility"))
+            if k is None or not iv:
+                continue
+            d = abs(k - spot)
+            if best_d is None or d < best_d - 1e-9:
+                best, best_d = [iv], d
+            elif abs(d - best_d) <= 1e-9:
+                best.append(iv)
+        return sum(best) / len(best) if best else None
+
+    def _tenor_iv(target_days: float) -> float | None:
+        pts = []
+        for exp, contracts in by_exp.items():
+            dte = _dte(exp)
+            if dte < 3:
+                continue
+            iv = _atm_iv(contracts)
+            if iv:
+                pts.append((dte, iv))
+        if not pts:
+            return None
+        pts.sort()
+        lo = [p for p in pts if p[0] <= target_days]
+        hi = [p for p in pts if p[0] >= target_days]
+        if lo and hi and lo[-1][0] != hi[0][0]:
+            (d0, v0), (d1, v1) = lo[-1], hi[0]
+            w = (target_days - d0) / (d1 - d0)
+            return v0 + w * (v1 - v0)
+        return (hi[0][1] if hi else lo[-1][1])
+
+    def _rr_25d() -> float | None:
+        # the expiry nearest 30d with usable deltas
+        cand = sorted(((abs(_dte(e) - 30), e) for e in by_exp if _dte(e) >= 3))
+        for _, exp in cand[:3]:
+            c_best = p_best = None
+            c_gap = p_gap = None
+            for r in by_exp[exp]:
+                iv, dl = _f(r.get("implied_volatility")), _f(r.get("delta"))
+                if not iv or dl is None:
+                    continue
+                if r.get("type") == "call":
+                    g = abs(dl - 0.25)
+                    if c_gap is None or g < c_gap:
+                        c_best, c_gap = iv, g
+                else:
+                    g = abs(dl + 0.25)
+                    if p_gap is None or g < p_gap:
+                        p_best, p_gap = iv, g
+            if (c_best is not None and p_best is not None
+                    and c_gap is not None and c_gap < 0.15
+                    and p_gap is not None and p_gap < 0.15):
+                return c_best - p_best
+        return None
+
+    iv30 = _tenor_iv(30)
+    iv180 = _tenor_iv(180)
+    rr = _rr_25d()
+    return {
+        "date": obs_date,
+        "put_call_volume_ratio": round(put_vol / call_vol, 4) if call_vol else None,
+        "put_call_oi_ratio": round(put_oi / call_oi, 4) if call_oi else None,
+        "total_open_interest": call_oi + put_oi,
+        "atm_iv_30d": round(iv30, 4) if iv30 else None,
+        "atm_iv_180d": round(iv180, 4) if iv180 else None,
+        "iv_term_structure_30_180": (round(iv30 / iv180, 4)
+                                     if iv30 and iv180 else None),
+        "rr_25d": round(rr, 4) if rr is not None else None,
+        "total_volume": call_vol + put_vol,
+        "n_contracts": len(rows),
+    }

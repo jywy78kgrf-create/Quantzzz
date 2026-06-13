@@ -11,24 +11,16 @@ Each refresh appends new observations to ``signal_history_live.parquet`` /
 same long schema. The loader concatenates both, with the export taking
 precedence on any overlapping (ticker, signal, day).
 
-Methodology honesty — the live values are *approximations* of the export's
-definitions, derived from the daily Alpha Vantage options summaries:
-
-* ``iv_atm_30d``      ≈ mean of chain-wide call/put mean IV (the export used a
-  true ATM 30d tenor). Level differences are absorbed by the cross-sectional
-  ranking the strategies apply; a level jump at the export/live boundary is
-  possible and tolerated.
-* ``risk_reversal_25d`` ≈ mean call IV − mean put IV (export: 25-delta RR).
-  Only consumed downstream in unsigned |RR| form.
-* ``put_call_volume_ratio`` / ``total_volume`` — same definition as export.
-* insider signals — recomputed from EDGAR Form-4 extracts with the same
-  trailing-90-day window, stamped on filing dates (point-in-time by
-  construction).
-
-Signals that cannot be honestly extended from current sources (per-strike OI,
-term structure, skew) are simply not extended; their panels go stale past the
-export horizon and strategies ranking on them see NaN — which is the truthful
-representation of not having the data.
+Methodology: daily summaries computed by ``alphavantage.summarize_chain`` from
+the full per-contract chain — true ATM 30d-tenor IV (expiry interpolation),
+true 25-delta risk reversal (delta-nearest contracts), OI totals/ratios and
+term structure — matching the export's definitions. Rows written by the older
+chain-mean approximation remain as legacy fallback and are clearly inferior;
+they wash out as vendor-grade observations replace them going forward.
+Insider signals are recomputed from EDGAR Form-4 extracts with the same
+trailing-90-day window, stamped on filing dates (point-in-time by
+construction). Anything still not honestly computable goes stale to NaN
+rather than pretending.
 """
 
 from __future__ import annotations
@@ -63,15 +55,32 @@ def _options_rows(snapshot_dir: Path) -> list[dict]:
             d = r.get("date")
             if not d:
                 continue
-            ci, pi = r.get("mean_call_iv"), r.get("mean_put_iv")
-            if ci is not None and pi is not None:
+            # vendor-grade fields when the chain math produced them; the
+            # chain-mean approximations only as legacy fallback
+            if r.get("atm_iv_30d") is not None:
                 rows.append({"ticker": f.stem, "as_of_date": d,
                              "signal_name": "iv_atm_30d",
-                             "value": (float(ci) + float(pi)) / 2, "event_id": None})
+                             "value": float(r["atm_iv_30d"]), "event_id": None})
+            elif r.get("mean_call_iv") is not None and r.get("mean_put_iv") is not None:
+                rows.append({"ticker": f.stem, "as_of_date": d,
+                             "signal_name": "iv_atm_30d",
+                             "value": (float(r["mean_call_iv"])
+                                       + float(r["mean_put_iv"])) / 2,
+                             "event_id": None})
+            if r.get("rr_25d") is not None:
                 rows.append({"ticker": f.stem, "as_of_date": d,
                              "signal_name": "risk_reversal_25d",
-                             "value": float(ci) - float(pi), "event_id": None})
+                             "value": float(r["rr_25d"]), "event_id": None})
+            elif r.get("mean_call_iv") is not None and r.get("mean_put_iv") is not None:
+                rows.append({"ticker": f.stem, "as_of_date": d,
+                             "signal_name": "risk_reversal_25d",
+                             "value": (float(r["mean_call_iv"])
+                                       - float(r["mean_put_iv"])),
+                             "event_id": None})
             for src, name in (("put_call_volume_ratio", "put_call_volume_ratio"),
+                              ("put_call_oi_ratio", "put_call_oi_ratio"),
+                              ("total_open_interest", "total_open_interest"),
+                              ("iv_term_structure_30_180", "iv_term_structure_30_180"),
                               ("total_volume", "total_volume")):
                 if r.get(src) is not None:
                     rows.append({"ticker": f.stem, "as_of_date": d,
@@ -139,6 +148,41 @@ def _event_rows(store: SnapshotStore) -> list[dict]:
     return out
 
 
+def backfill_options_history(cfg: Config, conn, max_calls: int = 4000) -> dict:
+    """Fill the post-export gap with real historical chains.
+
+    The uncontaminated runway starts the day after the frozen export ends;
+    every missing (ticker, day) chain in that window is a hole in the bench's
+    evidence. Premium HISTORICAL_OPTIONS serves per-date chains, so this
+    walks the biotech universe x missing trading days, newest first, up to
+    ``max_calls`` per cycle (600/min tier: thousands per cycle is fine).
+    Progress is implicit — fetched days land in av_options/*.json, so reruns
+    only chase what is still missing."""
+    from .alphavantage import AlphaVantageClient
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    if not cfg.alpha_vantage_key:
+        return {"skipped": "no AV key"}
+    xbi = store.load_prices("XBI")
+    if xbi is None or xbi.empty:
+        return {"skipped": "no calendar"}
+    cal = [str(d.date()) for d in xbi.index if str(d.date()) > "2026-05-11"]
+    universe = (store.load_json("bpiq/universe.json") or [])
+    calls = fetched = 0
+    for day in reversed(cal):                       # newest gaps first
+        for t in universe:
+            if calls >= max_calls or av.budget.remaining() <= 0:
+                return {"calls": calls, "chains_fetched": fetched,
+                        "status": "budget pause; resumes next cycle"}
+            hist = store.load_json(f"av_options/{t}.json") or []
+            if any(h.get("date") == day for h in hist):
+                continue
+            calls += 1
+            if av.options_summary_on(t, day):
+                fetched += 1
+    return {"calls": calls, "chains_fetched": fetched, "status": "gap filled"}
+
+
 # ---- the refresh ----
 def refresh_external_signals(cfg: Config) -> dict:
     """Append post-export observations to the live extension files."""
@@ -158,19 +202,24 @@ def refresh_external_signals(cfg: Config) -> dict:
     appended = 0
     if not cand.empty:
         cand["as_of_date"] = pd.to_datetime(cand["as_of_date"]).dt.strftime("%Y-%m-%d")
-        # frontier: last as_of per (ticker, signal) across export + live. Only
-        # strictly newer observations are appended — the frozen export always
-        # wins on overlap, and re-runs are idempotent.
+        # frontier: the EXPORT's last as_of per (ticker, signal) — live rows may
+        # be backfilled out of order, so dedupe against existing live keys
+        # instead of a moving max. The frozen export always wins on overlap and
+        # re-runs stay idempotent.
         export_max = (pd.read_parquet(export_path,
                                       columns=["ticker", "as_of_date", "signal_name"])
                       .groupby(["ticker", "signal_name"])["as_of_date"].max())
-        live_max = (existing_live.groupby(["ticker", "signal_name"])["as_of_date"].max()
-                    if not existing_live.empty else pd.Series(dtype=object))
-        frontier = pd.concat([export_max, live_max]).groupby(level=[0, 1]).max()
         keyed = cand.set_index(["ticker", "signal_name"])
-        cutoff = frontier.reindex(keyed.index).fillna("")
+        cutoff = export_max.reindex(keyed.index).fillna("")
         new = keyed[keyed["as_of_date"] > cutoff.to_numpy()].reset_index()
         new = new.drop_duplicates(["ticker", "signal_name", "as_of_date"], keep="last")
+        if not existing_live.empty:
+            have = set(map(tuple, existing_live[
+                ["ticker", "signal_name", "as_of_date"]].astype(str).to_numpy()))
+            mask = [(str(t), str(n), str(d)) not in have
+                    for t, n, d in zip(new["ticker"], new["signal_name"],
+                                       new["as_of_date"])]
+            new = new[mask]
         if not new.empty:
             merged = pd.concat([existing_live, new[_HISTORY_COLS]], ignore_index=True)
             merged = merged.drop_duplicates(["ticker", "signal_name", "as_of_date"],

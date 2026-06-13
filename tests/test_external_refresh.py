@@ -88,3 +88,29 @@ def test_loader_merges_live_with_export_precedence(ext_env):
         ["2026-01-02", "2026-01-05", "2026-01-06"]
     assert iv["value"].iloc[1] == 0.9                    # export value wins on 01-05
     assert 1_000_000 in set(ext_sig.events["event_id"])  # live event pinned
+
+
+def test_backfilled_older_days_still_append(ext_env):
+    """Out-of-order (backfilled) observations land as long as they postdate
+    the export frontier and aren't already in the live file."""
+    cfg, ext = ext_env
+    refresh_external_signals(cfg)                      # live now has 2026-01-06
+    snap = cfg.snapshot_dir
+    import json as _json
+    f = snap / "av_options" / "AAA.json"
+    recs = _json.loads(f.read_text())
+    # a backfilled chain for a day BETWEEN export end and the existing live row,
+    # written by the vendor-grade path
+    recs.insert(1, {"date": "2026-01-05", "atm_iv_30d": 9.9})   # pre-frontier: ignored
+    recs.insert(1, {"date": "2026-01-05T2"})                     # malformed: ignored
+    recs.append({"date": "2026-01-07", "atm_iv_30d": 1.23,
+                 "rr_25d": 0.05, "total_open_interest": 500})
+    f.write_text(_json.dumps(recs))
+    out = refresh_external_signals(cfg)
+    assert out["signal_rows_appended"] >= 3
+    import pandas as pd
+    live = pd.read_parquet(ext / "signal_history_live.parquet")
+    iv = live[live["signal_name"] == "iv_atm_30d"].sort_values("as_of_date")
+    assert "2026-01-07" in set(iv["as_of_date"])
+    assert "2026-01-05" not in set(iv["as_of_date"])   # export frontier respected
+    assert "total_open_interest" in set(live["signal_name"])

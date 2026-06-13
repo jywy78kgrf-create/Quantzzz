@@ -370,6 +370,17 @@ class TraderAgent:
         return new_state
 
     # ---- stops (disaster brake; cooldown prevents instant re-entry) ----
+    def _session_low(self, ticker: str) -> float | None:
+        """Latest session's intraday low, when OHLC snapshots carry it."""
+        df = self.store.load_prices(ticker)
+        if df is None or "low" not in df.columns or not len(df):
+            return None
+        s = df["low"] if self.as_of is None else df.loc[df.index <= self.as_of, "low"]
+        if not len(s):
+            return None
+        v = s.iloc[-1]
+        return float(v) if pd.notna(v) else None
+
     def _process_stops(self) -> int:
         count = 0
         for pos in self.broker.get_positions():
@@ -377,9 +388,18 @@ class TraderAgent:
                 "SELECT stop_px, avg_cost, strategy_id FROM positions WHERE fund=? AND ticker=?",
                 (self.fund, pos.ticker)).fetchone()
             px = self._quote(pos.ticker) or pos.avg_cost
-            if row["stop_px"] and px <= row["stop_px"]:
+            if not row["stop_px"]:
+                continue
+            # close-only triggering misses intraday stop-outs (a name that
+            # crashed through the stop and recovered by the close) — an
+            # optimistic bias. Trigger on the session low when available.
+            low = self._session_low(pos.ticker)
+            breached = px <= row["stop_px"] or (low is not None and low <= row["stop_px"])
+            if breached:
                 self._close_position(pos.ticker, row["strategy_id"],
-                                     f"stop hit ({px:.2f} <= {row['stop_px']:.2f})")
+                                     f"stop hit (px {px:.2f}, low "
+                                     f"{low if low is not None else px:.2f} <= "
+                                     f"{row['stop_px']:.2f})")
                 count += 1
         return count
 

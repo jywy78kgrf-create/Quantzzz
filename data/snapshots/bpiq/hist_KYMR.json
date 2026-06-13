@@ -1,5 +1,28 @@
 [
  {
+  "id": 7873,
+  "company": {
+   "id": 428,
+   "ticker": "KYMR",
+   "name": "Kymera Therapeutics"
+  },
+  "created_at": "2026-06-13T13:04:54.778073Z",
+  "updated_at": "2026-06-13T13:04:54.778101Z",
+  "ticker": "KYMR",
+  "drug_name": "KT-621",
+  "drug_indication": "Healthy Volunteers",
+  "airtable_id": 8155,
+  "stage": "Phase 1",
+  "catalyst_date": "2026-06-12",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/12/3310977/0/en/kymera-therapeutics-presents-phase-1-data-in-healthy-japanese-adults-for-kt-621-a-first-in-class-oral-stat6-degrader-at-the-japanese-dermatological-association-annual-meeting.html",
+  "catalyst_text": "Presented positive Phase 1 results in healthy volunteers",
+  "detailed_catalyst_text": "Results from a Phase 1 study in healthy Japanese adults were presented at a major dermatology meeting. The study showed rapid, sustained STAT6 degradation with dose-proportional PK and a favorable safety profile. These findings were consistent with prior studies and support broader clinical development in Type 2 inflammation.",
+  "catalyst_text_evidence": "Kymera Therapeutics, Inc. ... announced that the results from the Phase 1 study of KT-621, its first-in-class, oral STAT6 degrader, in healthy Japanese adults were shared in an oral presentation at the Japanese Dermatological Association (JDA) Annual Meeting being held 2026-06-11 to 2026-06-14, in Kyoto, Japan. KT-621 demonstrated a favorable PK profile, including rapid absorption and dose-proportional increases in plasma exposure, and rapid, sustained STAT6 degradation in blood, with median degradation \u226598% at both dose levels at Day 7. KT-621 was well tolerated with a favorable safety profile across both doses.",
+  "news_published_at": "2026-06-13T00:00:00Z",
+  "open_price_gap_percent": "-0.00518",
+  "intra_day_price_change_percent": "0.04453"
+ },
+ {
   "id": 7814,
   "company": {
    "id": 428,
@@ -7,7 +30,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2026-06-10T13:00:40.528482Z",
-  "updated_at": "2026-06-12T13:00:41.142814Z",
+  "updated_at": "2026-06-13T13:00:58.351104Z",
   "ticker": "KYMR",
   "drug_name": "KT-485 (SAR447971)",
   "drug_indication": "Hidradenitis Suppurativa",
@@ -30,7 +53,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2026-04-14T13:02:47.600615Z",
-  "updated_at": "2026-06-12T13:02:38.180500Z",
+  "updated_at": "2026-06-13T13:02:57.696791Z",
   "ticker": "KYMR",
   "drug_name": "KT-621",
   "drug_indication": "Eosinophilic Asthma",
@@ -53,7 +76,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2026-04-14T13:03:23.856858Z",
-  "updated_at": "2026-06-12T13:03:20.441218Z",
+  "updated_at": "2026-06-13T13:03:38.932852Z",
   "ticker": "KYMR",
   "drug_name": "KT-621",
   "drug_indication": "Atopic Dermatitis",
@@ -76,7 +99,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2026-03-31T13:01:26.726865Z",
-  "updated_at": "2026-06-12T13:01:30.385564Z",
+  "updated_at": "2026-06-13T13:01:49.471788Z",
   "ticker": "KYMR",
   "drug_name": "KT-621",
   "drug_indication": "Atopic Dermatitis",
@@ -99,7 +122,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2026-01-30T13:03:19.141192Z",
-  "updated_at": "2026-06-12T13:03:37.820068Z",
+  "updated_at": "2026-06-13T13:03:55.862044Z",
   "ticker": "KYMR",
   "drug_name": "KT-621",
   "drug_indication": "Eosinophilic Asthma",
@@ -122,7 +145,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-12-12T13:04:24.465288Z",
-  "updated_at": "2026-06-12T13:05:07.051614Z",
+  "updated_at": "2026-06-13T13:05:22.802593Z",
   "ticker": "KYMR",
   "drug_name": "KT-621",
   "drug_indication": "Atopic Dermatitis",
@@ -145,7 +168,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-12-12T13:04:33.049846Z",
-  "updated_at": "2026-06-12T13:05:18.228381Z",
+  "updated_at": "2026-06-13T13:05:33.538395Z",
   "ticker": "KYMR",
   "drug_name": "KT-621",
   "drug_indication": "Atopic Dermatitis",
@@ -168,7 +191,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-11-28T13:04:55.047406Z",
-  "updated_at": "2026-06-12T13:06:05.923698Z",
+  "updated_at": "2026-06-13T13:06:20.516533Z",
   "ticker": "KYMR",
   "drug_name": "KT-621",
   "drug_indication": "Atopic Dermatitis",
@@ -191,7 +214,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-05-10T13:00:52.653670Z",
-  "updated_at": "2026-06-12T13:01:09.139942Z",
+  "updated_at": "2026-06-13T13:01:27.861846Z",
   "ticker": "KYMR",
   "drug_name": "KT-579",
   "drug_indication": "Inflammatory disorders",
@@ -214,7 +237,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-02-21T20:49:05.392950Z",
-  "updated_at": "2026-06-12T13:05:50.604887Z",
+  "updated_at": "2026-06-13T13:06:05.496139Z",
   "ticker": "KYMR",
   "drug_name": "KT-621 (STAT6)",
   "drug_indication": "Type 2 inflammation in allergic diseases",
@@ -237,7 +260,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-02-21T20:08:54.070576Z",
-  "updated_at": "2026-06-12T13:04:23.306529Z",
+  "updated_at": "2026-06-13T13:04:40.332005Z",
   "ticker": "KYMR",
   "drug_name": "KT-474 (SAR444656) - (ADVANTA)",
   "drug_indication": "Hidradenitis suppurativa / atopic dermatitis",
@@ -260,7 +283,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-02-21T20:08:02.257986Z",
-  "updated_at": "2026-06-12T13:03:21.602241Z",
+  "updated_at": "2026-06-13T13:03:40.131939Z",
   "ticker": "KYMR",
   "drug_name": "KT-333 - (STAT3)",
   "drug_indication": "Peripheral T-cell Lymphoma (PTCL)",
@@ -283,7 +306,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-02-21T20:06:33.655032Z",
-  "updated_at": "2026-06-12T13:01:34.913785Z",
+  "updated_at": "2026-06-13T13:01:54.320618Z",
   "ticker": "KYMR",
   "drug_name": "KT-253",
   "drug_indication": "AML, Lymphomas, and Uveal melanoma",
@@ -306,7 +329,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-02-21T20:05:49.580368Z",
-  "updated_at": "2026-06-12T13:00:42.380788Z",
+  "updated_at": "2026-06-13T13:00:59.630860Z",
   "ticker": "KYMR",
   "drug_name": "KT-333",
   "drug_indication": "Cutaneous T-cell lymphoma (CTCL)",
@@ -329,7 +352,7 @@
    "name": "Kymera Therapeutics"
   },
   "created_at": "2025-02-21T20:14:05.186304Z",
-  "updated_at": "2026-06-12T13:05:26.014831Z",
+  "updated_at": "2026-06-13T13:05:41.146557Z",
   "ticker": "KYMR",
   "drug_name": "KT-413 - (IRAKIMiD)",
   "drug_indication": "Diffuse large B-cell lymphoma (DLBCL)",

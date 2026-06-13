@@ -187,7 +187,8 @@ def build_state(cfg: Config) -> dict:
     # ---- research lab: recent iterations for the animated search space ----
     state["research_feed"] = _rows(conn, """
         SELECT i.ts, i.desk, s.family, s.params_json, i.oos_sharpe, i.is_sharpe,
-               i.max_dd, i.fitness, i.promoted, substr(i.fail_reasons,1,60) fail
+               i.max_dd, i.fitness, i.promoted, i.dsr_prob, i.bootstrap_q05,
+               substr(i.fail_reasons,1,60) fail
         FROM research_iterations i LEFT JOIN strategies s ON s.id = i.strategy_id
         ORDER BY i.id DESC LIMIT 150""")
 

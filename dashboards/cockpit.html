@@ -82,6 +82,7 @@
   .m-normal{background:rgba(45,212,167,.13); color:var(--green)} .m-derisk{background:rgba(255,197,96,.15); color:var(--amber)}
   .m-liquidate_only{background:rgba(255,93,115,.2); color:var(--red)}
   .labhead{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; color:var(--green); margin-bottom:8px}
+  .labsub{font-size:11px; color:var(--dim); letter-spacing:.06em; margin-bottom:4px; text-transform:uppercase}
   .cursor{animation:blink 1s steps(1) infinite}
   @keyframes blink{50%{opacity:0}}
   #labticker{font-family:ui-monospace,Menlo,monospace; font-size:11px; line-height:1.8; color:#8fa1c7;
@@ -152,8 +153,15 @@
   <div class="card col12">
     <h3>Research Lab · the quants searching for edge, live</h3>
     <div style="display:flex; gap:16px; flex-wrap:wrap">
-      <div id="lab" style="flex:1 1 520px; height:300px"></div>
-      <div style="flex:0 0 400px; max-width:100%">
+      <div style="flex:1 1 440px; min-width:340px">
+        <div class="labsub">fitness landscape · drawdown × fitness × OOS Sharpe</div>
+        <div id="lab" style="height:300px"></div>
+      </div>
+      <div style="flex:1 1 440px; min-width:340px">
+        <div class="labsub">promotion gauntlet · OOS Sharpe × deflated Sharpe × bootstrap floor</div>
+        <div id="lab2" style="height:300px"></div>
+      </div>
+      <div style="flex:1 1 100%">
         <div class="labhead"><span class="cursor">▮</span> evaluating candidates…</div>
         <div id="labticker"></div>
       </div>
@@ -230,7 +238,7 @@ function kpis(s){
 }
 
 // ---- the research lab: animated search space + terminal readout ----
-let lab, labCursor=0, labRows=[];
+let lab, lab2, labCursor=0, labRows=[];
 function labSupports3d(){
   try{const c=document.createElement('canvas');
       return !!(c.getContext('webgl')||c.getContext('experimental-webgl'));}
@@ -281,6 +289,43 @@ function labChart(s){
                rippleEffect:{brushType:'stroke',scale:3.4},
                itemStyle:{color:'#2dd4a7'}}]});
   }
+}
+function labChart2(s){
+  if(!window.echarts)return;
+  if(!lab2){try{lab2=echarts.init($('lab2'),null,{renderer:'canvas'});}catch(e){return;}}
+  // only candidates that reached the OOS gauntlet (have a deflated-Sharpe prob)
+  const pts=s.research_feed.filter(r=>r.oos_sharpe!=null && r.dsr_prob!=null).reverse();
+  if(!window.WebGLRenderingContext || !(echarts.graphic) || !labSupports3d()){
+    lab2.setOption({backgroundColor:'transparent',grid:{left:46,right:14,top:28,bottom:34},
+      xAxis:{name:'OOS sharpe',nameTextStyle:{color:'#9fb0d6'},axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
+      yAxis:{name:'DSR',nameTextStyle:{color:'#9fb0d6'},axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
+      series:[{type:'scatter',symbolSize:6,
+        data:pts.map(r=>({value:[r.oos_sharpe, r.dsr_prob],
+          itemStyle:{color:r.promoted?'#2dd4a7':(r.dsr_prob>=0.9?'#ffc560':'#5b8cff'),opacity:.8}}))}]});
+    return;
+  }
+  const mk=r=>({value:[r.oos_sharpe, r.dsr_prob, (r.bootstrap_q05==null?0:r.bootstrap_q05)],
+    itemStyle:{color:r.promoted?'#2dd4a7':(r.dsr_prob>=0.9?'#ffc560':(C2(r.desk))),
+               opacity:r.dsr_prob>=0.9?1:.8},
+    name:`${r.desk} · ${(r.family||'?').replaceAll('_',' ')}`});
+  function C2(d){return d==='biotech'?'#a78bfa':'#5b8cff';}
+  lab2.setOption({backgroundColor:'transparent',
+    tooltip:{backgroundColor:'#0c1120',borderColor:'#1c2742',textStyle:{color:'#dfe7ff'},
+      formatter:p=>`${p.name}<br>OOS ${(+p.value[0]).toFixed(2)} · DSR ${(+p.value[1]).toFixed(2)} · boot ${(+p.value[2]).toFixed(2)}`},
+    grid3D:{boxWidth:230,boxDepth:130,boxHeight:95,
+      viewControl:{autoRotate:true,autoRotateSpeed:7,distance:172,alpha:14,beta:-32},
+      axisLine:{lineStyle:{color:'#54688f',width:1.6}},
+      splitLine:{show:true,lineStyle:{color:'#2c3c61',width:1}},
+      splitArea:{show:true,areaStyle:{color:['rgba(20,29,54,.35)','rgba(13,20,40,.35)']}},
+      light:{main:{intensity:1.3,shadow:false},ambient:{intensity:.5}}},
+    xAxis3D:{name:'OOS sharpe',nameTextStyle:{color:'#9fb0d6',fontSize:13},axisLabel:{color:'#8295bd',fontSize:11}},
+    yAxis3D:{name:'deflated sharpe',min:0,max:1,nameTextStyle:{color:'#9fb0d6',fontSize:13},axisLabel:{color:'#8295bd',fontSize:11}},
+    zAxis3D:{name:'bootstrap floor',nameTextStyle:{color:'#9fb0d6',fontSize:13},axisLabel:{color:'#8295bd',fontSize:11}},
+    series:[
+      {type:'scatter3D',data:pts.filter(r=>!r.promoted).map(mk),symbolSize:5,emphasis:{itemStyle:{color:'#fff'}}},
+      {type:'scatter3D',data:pts.filter(r=>r.promoted).map(mk),symbolSize:10,
+       itemStyle:{color:'#2dd4a7',opacity:1},label:{show:true,formatter:'★',textStyle:{color:'#2dd4a7',fontSize:12}}},
+    ]});
 }
 function labTicker(s){
   labRows=s.research_feed.slice(0,40);
@@ -473,7 +518,7 @@ let firstLoad=true;
 async function refresh(){
   try{
     const s=await(await fetch('/api/state')).json();
-    kpis(s);loop(s);curves(s);bench(s);strats(s);feed(s);books(s);cats(s);labChart(s);labTicker(s);
+    kpis(s);loop(s);curves(s);bench(s);strats(s);feed(s);books(s);cats(s);labChart(s);labChart2(s);labTicker(s);
     if(firstLoad){firstLoad=false;
       if(window.gsap)gsap.from('.card',{y:18,opacity:0,duration:.65,stagger:.05,ease:'power2.out',clearProps:'transform,opacity'});}
   }catch(e){$('heartbeat').textContent='reconnecting…';}

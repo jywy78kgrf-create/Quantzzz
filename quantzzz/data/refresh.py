@@ -54,7 +54,7 @@ def refresh_premium_feeds(cfg: Config, tickers: list[str], conn,
     return counts
 
 
-def refresh_survivorship_pool(cfg: Config, conn, max_names: int = 40) -> dict:
+def refresh_survivorship_pool(cfg: Config, conn, max_names: int = 150) -> dict:
     """Build a pool of DELISTED stocks with price history so backtests include
     companies that died — directly attacking survivorship bias.
 

@@ -199,9 +199,18 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
               [bpiq.historical_catalysts(t) for t in universe[:60]]) and "ok")
         _safe("biotech prices", lambda: refresh_prices(cfg, universe + ["XBI"], conn))
         # backfill runs EARLY and isolated — the bench's forward evidence is the
-        # priority; nothing downstream may starve it of its API budget or abort it
-        _safe("options history backfill",
-              lambda: backfill_options_history(cfg, conn, max_calls=4000))
+        # priority; nothing downstream may starve it of its API budget or abort it.
+        # Off-hours (weekends / outside US market hours) there's no live-trading
+        # latency to protect, so spend the idle Alpha Vantage budget hard and
+        # reach DEEPER into the discovery window for vendor-grade chains; during
+        # market hours stay lean and forward-only.
+        from datetime import datetime, timezone
+        _now = datetime.now(timezone.utc)
+        _off_hours = _now.weekday() >= 5 or not (13 <= _now.hour <= 21)
+        _bf = dict(max_calls=20000, since="2024-01-01") if _off_hours \
+            else dict(max_calls=3000, since="2026-05-11")
+        _safe(f"options history backfill ({'deep/off-hours' if _off_hours else 'forward'})",
+              lambda: backfill_options_history(cfg, conn, **_bf))
         _safe("biotech premium feeds",
               lambda: refresh_premium_feeds(cfg, universe, conn, options_for=universe))
         _safe("biotech edgar insider", lambda: _edgar_fill(cfg, store, universe, 10))

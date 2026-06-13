@@ -148,7 +148,8 @@ def _event_rows(store: SnapshotStore) -> list[dict]:
     return out
 
 
-def backfill_options_history(cfg: Config, conn, max_calls: int = 4000) -> dict:
+def backfill_options_history(cfg: Config, conn, max_calls: int = 4000,
+                             since: str = "2026-05-11") -> dict:
     """Fill the post-export gap with real historical chains.
 
     The uncontaminated runway starts the day after the frozen export ends;
@@ -166,7 +167,7 @@ def backfill_options_history(cfg: Config, conn, max_calls: int = 4000) -> dict:
     xbi = store.load_prices("XBI")
     if xbi is None or xbi.empty:
         return {"skipped": "no calendar"}
-    cal = [str(d.date()) for d in xbi.index if str(d.date()) > "2026-05-11"]
+    cal = [str(d.date()) for d in xbi.index if str(d.date()) > since]
     universe = (store.load_json("bpiq/universe.json") or [])
     calls = fetched = 0
     for day in reversed(cal):                       # newest gaps first

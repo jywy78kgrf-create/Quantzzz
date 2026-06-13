@@ -96,14 +96,59 @@ def delisted_biotech_pool(snapshot_dir: Path) -> list[str]:
     return []
 
 
+def catalyst_event_tickers(snapshot_dir: Path) -> list[str]:
+    """Every ticker carrying a pinned catalyst event (export + live extension).
+
+    The catalyst calendar spans ~776 tickers / 8k+ events, but research only
+    backtests the names it has price history for. Widening the research
+    universe to these names is the single biggest lever on statistical power:
+    the event-anchored / PDUFA / drift families are only as well-estimated as
+    the number of independent events behind them.
+    """
+    import csv
+    tickers: set[str] = set()
+    for fn in ("catalyst_events_export.csv", "catalyst_events_live.csv"):
+        path = snapshot_dir / "external" / fn
+        if not path.exists():
+            continue
+        try:
+            with path.open(newline="") as fh:
+                for row in csv.DictReader(fh):
+                    t = (row.get("ticker") or "").strip()
+                    if t and (row.get("catalyst_date") or "").strip():
+                        tickers.add(t)
+        except (OSError, csv.Error):
+            continue
+    return sorted(tickers)
+
+
+def _has_price(snapshot_dir: Path, ticker: str) -> bool:
+    return (snapshot_dir / "prices" / f"{ticker}.parquet").exists()
+
+
 def research_universe_for(desk: str, snapshot_dir: Path) -> list[str]:
     """The BACKTEST universe: live names plus delisted companies, so research
     sees the firms that died (survivorship-bias mitigation). Equity draws on
-    the generic delisted pool; biotech on the curated dead-biotech pool —
-    the sector where ignoring the dead flatters backtests the most."""
+    the generic delisted pool; biotech on the curated dead-biotech pool PLUS
+    every catalyst-event ticker we have price history for — research broad
+    (statistical power), trade focused (the liquid live universe)."""
     base = universe_for(desk, snapshot_dir)
     if desk == "equity":
         return base + [t for t in delisted_pool(snapshot_dir) if t not in base]
     if desk == "biotech":
-        return base + [t for t in delisted_biotech_pool(snapshot_dir) if t not in base]
+        out = list(base)
+        seen = set(base)
+        # curated dead biotechs: unconditional (carried as candidates until the
+        # data provider serves their history)
+        for t in delisted_biotech_pool(snapshot_dir):
+            if t not in seen:
+                out.append(t)
+                seen.add(t)
+        # catalyst-event tickers: price-gated so the universe only grows with
+        # names that actually contribute backtestable events
+        for t in catalyst_event_tickers(snapshot_dir):
+            if t not in seen and _has_price(snapshot_dir, t):
+                out.append(t)
+                seen.add(t)
+        return out
     return base

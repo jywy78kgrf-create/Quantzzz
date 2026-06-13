@@ -67,3 +67,18 @@ def test_biotech_research_universe_includes_dead_biotechs(tmp_path):
     assert "CLVS" in uni
     # live universe unaffected when the pool file is absent
     assert "CLVS" not in research_universe_for("biotech", tmp_path / "nope")
+
+
+def test_biotech_universe_widens_to_catalyst_tickers_with_prices(tmp_path):
+    import csv
+    from quantzzz.universe import research_universe_for
+    (tmp_path / "external").mkdir(parents=True)
+    (tmp_path / "prices").mkdir()
+    # two catalyst tickers; only AAA has a price file
+    with (tmp_path / "external" / "catalyst_events_export.csv").open("w", newline="") as fh:
+        w = csv.writer(fh); w.writerow(["event_id", "ticker", "catalyst_date"])
+        w.writerow([1, "AAA", "2026-03-01"]); w.writerow([2, "ZZZ", "2026-04-01"])
+    (tmp_path / "prices" / "AAA.parquet").write_bytes(b"x")
+    uni = research_universe_for("biotech", tmp_path)
+    assert "AAA" in uni                 # catalyst ticker with price -> included
+    assert "ZZZ" not in uni             # catalyst ticker without price -> excluded

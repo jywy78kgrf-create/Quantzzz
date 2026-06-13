@@ -198,6 +198,12 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         _safe("biotech catalysts", lambda: (bpiq.catalysts(), bpiq.pdufa_catalysts(),
               [bpiq.historical_catalysts(t) for t in universe[:60]]) and "ok")
         _safe("biotech prices", lambda: refresh_prices(cfg, universe + ["XBI"], conn))
+        # widen statistical power: pull prices for every catalyst-event ticker
+        # (~776 names / 8k+ events vs the 60-name trading universe). One AV call
+        # per name, budget-aware/cached, so it fills the gap fast then idles.
+        from ..universe import catalyst_event_tickers
+        _safe("catalyst-universe prices (statistical breadth)",
+              lambda: refresh_prices(cfg, catalyst_event_tickers(cfg.snapshot_dir), conn))
         # backfill runs EARLY and isolated — the bench's forward evidence is the
         # priority; nothing downstream may starve it of its API budget or abort it.
         # Off-hours (weekends / outside US market hours) there's no live-trading

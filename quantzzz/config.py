@@ -117,7 +117,7 @@ class Config:
     starting_cash: float = 1_000_000.0
     cost_bps: float = 10.0                  # round-trip transaction cost assumption in backtests
     slippage_bps: float = 5.0               # paper-broker fill slippage
-    av_calls_per_min: int = 500             # premium tier allows ~600/min; stay under
+    av_calls_per_min: int = 590             # premium tier allows 600/min; thin margin under it
     av_daily_budget: int = 100_000          # premium tier: effectively unlimited per day
     learning_review_every: int = 10         # closed trades per strategy between reviews
     pre_earnings_blackout_days: int = 3     # no new entries this close to a report

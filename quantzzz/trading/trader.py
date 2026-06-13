@@ -276,10 +276,77 @@ class TraderAgent:
             reviewed = self.learning.review()
 
         self.broker.mark_to_market(self._price_cache, ts=self._ts())
+        self._mark_shadows()
         acct = self.broker.get_account()
         return (f"[{self.fund}] equity ${acct.equity:,.0f} cash ${acct.cash:,.0f} | "
                 f"stops {stops}, rebalance trades {n_trades}, positions "
                 f"{len(self.broker.get_positions())}, reviewed {reviewed}, mode {state}")
+
+    def _mark_shadows(self) -> None:
+        """Mark the shadow book: virtual NAV per pre-registered forward trial.
+
+        Forward-only (replayed sessions never touch shadow records — that
+        would defeat the whole point), one NAV point per market day, same
+        conventions as the backtester: yesterday's target earns today's
+        return, turnover pays the flat cost assumption. Long bleeders are
+        auto-deregistered with a journaled post-mortem — "the gate was
+        right" gets recorded with the same care as a win.
+        """
+        if self.as_of is not None:
+            return
+        rows = self.conn.execute(
+            "SELECT sb.id, sb.registered_ts, sb.last_weights_json, "
+            "       s.family, s.params_json "
+            "FROM shadow_book sb JOIN strategies s ON s.id = sb.strategy_id "
+            "WHERE sb.fund=? AND sb.status='active'", (self.fund,)).fetchall()
+        if not rows:
+            return
+        prices = self._bundle.prices
+        if len(prices) < 2:
+            return
+        day = str(prices.index[-1].date())
+        rets = (prices.iloc[-1] / prices.iloc[-2] - 1).fillna(0.0)
+        from ..research import shadow as SH
+        for r in rows:
+            try:
+                spec = StrategySpec.from_row(r["family"], self.fund, r["params_json"])
+                w = signal_fn_for(spec.family)(self._bundle, spec.params)
+                w_new = w.iloc[-1].fillna(0.0) if not w.empty else pd.Series(dtype=float)
+            except Exception:
+                continue
+            prev = pd.Series(json.loads(r["last_weights_json"] or "{}"), dtype=float)
+            nav_row = self.conn.execute(
+                "SELECT nav FROM shadow_nav WHERE shadow_id=? ORDER BY ts DESC LIMIT 1",
+                (r["id"],)).fetchone()
+            nav = nav_row["nav"] if nav_row else 1.0
+            day_ret = float((prev * rets.reindex(prev.index).fillna(0.0)).sum())
+            union = prev.index.union(w_new.index)
+            turnover = float((w_new.reindex(union).fillna(0.0)
+                              - prev.reindex(union).fillna(0.0)).abs().sum())
+            nav_new = nav * (1 + day_ret - turnover * self.cfg.cost_bps / 1e4)
+            cur = self.conn.execute(
+                "INSERT OR IGNORE INTO shadow_nav (shadow_id, ts, nav) VALUES (?,?,?)",
+                (r["id"], day, nav_new))
+            if not cur.rowcount:
+                continue        # this market day already marked
+            self.conn.execute(
+                "UPDATE shadow_book SET last_weights_json=? WHERE id=?",
+                (json.dumps({k: round(float(v), 6) for k, v in
+                             w_new[w_new != 0].items()}), r["id"]))
+            age_days = (pd.Timestamp(day)
+                        - pd.Timestamp(r["registered_ts"][:10])).days
+            if age_days >= SH.DEREGISTER_AFTER_DAYS and nav_new < SH.DEREGISTER_BELOW_NAV:
+                self.conn.execute(
+                    "UPDATE shadow_book SET status='deregistered' WHERE id=?",
+                    (r["id"],))
+                self.journal.record(
+                    "learning", action="shadow_deregistered",
+                    reasoning=(f"Shadow trial #{r['id']} ({r['family']}) "
+                               f"deregistered: forward NAV {nav_new:.3f} after "
+                               f"{age_days}d — the strict gate's exclusion is "
+                               f"confirmed by forward data."),
+                    ref_table="shadow_book", ref_id=r["id"])
+        self.conn.commit()
 
     def _update_risk_mode(self, state: str, drawdown: float) -> str:
         """Graduated risk response: normal -> derisk (half exposure) ->

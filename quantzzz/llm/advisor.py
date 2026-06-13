@@ -22,6 +22,9 @@ class LLMAdvisor(Protocol):
     def synthesize_week(self, stats: dict) -> str | None:
         ...
 
+    def select_shadows(self, candidates: list[dict], slots: int) -> list[dict] | None:
+        ...
+
 
 class NullAdvisor:
     """Used whenever the LLM layer is unavailable; all methods are no-ops."""
@@ -36,4 +39,7 @@ class NullAdvisor:
         return None
 
     def synthesize_week(self, stats) -> str | None:
+        return None
+
+    def select_shadows(self, candidates, slots) -> list[dict] | None:
         return None

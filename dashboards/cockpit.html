@@ -166,6 +166,12 @@
         external-signal candidates held to the strict deflated-Sharpe bar — promotion happens where the green line crosses the red</span></h3>
     <div style="display:flex; gap:28px; flex-wrap:wrap; margin-bottom:8px" id="benchstats"></div>
     <div id="benchchart" style="height:200px"></div>
+    <h3 style="margin-top:14px">Shadow Book · pre-registered forward trials (no capital, parameters pinned)</h3>
+    <table id="shadowtable"><thead><tr><th>trial</th><th>basis</th><th>registered</th>
+      <th style="text-align:right">claimed sharpe</th><th style="text-align:right">claimed dsr</th>
+      <th style="text-align:right">forward</th><th style="text-align:right">fwd sharpe</th>
+      <th style="text-align:right">marks</th><th>status</th><th>committee rationale</th></tr></thead>
+      <tbody></tbody></table>
   </div>
 
   <div class="card col6">
@@ -347,6 +353,24 @@ function bench(s){
   }
   benchSeries.setData(b.trend.map(([d,v])=>({time:d,value:v})));
   benchLwc.timeScale().fitContent();
+  const tb=$('shadowtable').querySelector('tbody'); tb.innerHTML='';
+  const sh=s.shadows||[];
+  if(!sh.length){
+    tb.innerHTML='<tr><td colspan="10" style="color:var(--dim)">no shadow trials yet — the next research run with eligible near-misses convenes the committee</td></tr>';
+    return;}
+  for(const r of sh){
+    const fwd=r.fwd_ret_pct==null?'—':`<span class="${cls(r.fwd_ret_pct)}">${pct(r.fwd_ret_pct,2)}</span>`;
+    tb.insertAdjacentHTML('beforeend',`<tr>
+      <td>#${r.id}</td><td><b>${r.family}</b>${r.signal?' · '+r.signal:''}</td>
+      <td style="color:var(--dim)">${r.registered}</td>
+      <td style="text-align:right">${(+r.claim_sharpe).toFixed(2)}</td>
+      <td style="text-align:right;color:var(--dim)">${(+r.claim_dsr).toFixed(2)}</td>
+      <td style="text-align:right">${fwd}</td>
+      <td style="text-align:right">${r.fwd_sharpe==null?'—':(+r.fwd_sharpe).toFixed(2)}</td>
+      <td style="text-align:right;color:var(--dim)">${r.marks}</td>
+      <td><span class="tag t-${r.status==='active'?'candidate':(r.status==='graduated'?'promoted':'retired')}">${r.status}</span></td>
+      <td style="color:var(--dim);white-space:normal;max-width:340px">${r.note||''}</td></tr>`);
+  }
 }
 
 function curves(s){

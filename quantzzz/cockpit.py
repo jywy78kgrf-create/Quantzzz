@@ -128,6 +128,37 @@ def build_state(cfg: Config) -> dict:
         "held_out": agg["held_out"], "promoted": agg["promoted"],
     }
 
+    # ---- shadow book: pre-registered forward trials ----
+    shadow_rows = _rows(conn, """
+        SELECT sb.id, sb.fund, sb.registered_ts, sb.expected_oos_sharpe,
+               sb.expected_dsr, sb.status, sb.note, s.family, s.params_json
+        FROM shadow_book sb JOIN strategies s ON s.id = sb.strategy_id
+        ORDER BY sb.status='active' DESC, sb.id""")
+    shadows = []
+    for r in shadow_rows:
+        navs = _rows(conn, "SELECT ts, nav FROM shadow_nav WHERE shadow_id=? "
+                           "ORDER BY ts", (r["id"],))
+        fwd = (navs[-1]["nav"] - 1) * 100 if navs else None
+        sharpe = None
+        if len(navs) >= 10:
+            import numpy as np
+            nv = np.array([n["nav"] for n in navs])
+            rets = nv[1:] / nv[:-1] - 1
+            if rets.std() > 0:
+                sharpe = float(rets.mean() / rets.std() * 252 ** 0.5)
+        try:
+            sig = json.loads(r["params_json"]).get("rank_signal", "")
+        except Exception:
+            sig = ""
+        shadows.append({
+            "id": r["id"], "family": r["family"], "signal": sig,
+            "registered": r["registered_ts"][:10], "status": r["status"],
+            "claim_sharpe": r["expected_oos_sharpe"], "claim_dsr": r["expected_dsr"],
+            "fwd_ret_pct": fwd, "fwd_sharpe": sharpe, "marks": len(navs),
+            "note": (r["note"] or "")[:120],
+        })
+    state["shadows"] = shadows[:12]
+
     # ---- positions with entry context and live P&L ----
     positions = {}
     for fund in ("equity", "biotech"):

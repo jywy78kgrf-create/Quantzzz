@@ -81,3 +81,24 @@ def test_source_tags_split_replay_from_live(seeded):
     trade_srcs = {r["source"] for r in conn.execute(
         "SELECT source FROM trades WHERE fund='equity'")}
     assert trade_srcs <= {"replay", "live"}
+
+
+def test_shadow_marking_forward_only(seeded):
+    """Live sessions mark shadow NAV once per market day; replays never do."""
+    from quantzzz.db import insert as _insert
+    cfg, conn = seeded
+    _insert(conn, "shadow_book", strategy_id=1, fund="equity",
+            registered_ts=utcnow(), expected_oos_sharpe=2.0, expected_dsr=0.7,
+            status="active", note="test trial")
+    agent = TraderAgent(cfg, "equity", conn)
+
+    agent.session(as_of=pd.Timestamp("2024-01-15"))     # replay: must not mark
+    assert conn.execute("SELECT COUNT(*) c FROM shadow_nav").fetchone()["c"] == 0
+
+    agent.session()                                     # live: marks
+    agent.session()                                     # same market day: no dup
+    rows = conn.execute("SELECT nav FROM shadow_nav WHERE shadow_id=1").fetchall()
+    assert len(rows) == 1 and rows[0]["nav"] > 0
+    w = conn.execute("SELECT last_weights_json FROM shadow_book WHERE id=1"
+                     ).fetchone()["last_weights_json"]
+    assert w is not None                                # pinned spec produced targets

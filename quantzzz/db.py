@@ -152,6 +152,27 @@ CREATE TABLE IF NOT EXISTS trades (
     reviewed INTEGER NOT NULL DEFAULT 0,
     source TEXT NOT NULL DEFAULT 'live'  -- live | replay (hindsight-era track record)
 );
+-- shadow book: pre-registered forward trials. A near-miss that fails ONLY the
+-- strict contaminated-discovery gate can be pinned here on a date, with its
+-- backtest claim frozen; everything after registration is selection-free
+-- forward evidence ("promised vs delivered").
+CREATE TABLE IF NOT EXISTS shadow_book (
+    id INTEGER PRIMARY KEY,
+    strategy_id INTEGER NOT NULL,
+    fund TEXT NOT NULL,
+    registered_ts TEXT NOT NULL,
+    expected_oos_sharpe REAL,
+    expected_dsr REAL,
+    status TEXT NOT NULL DEFAULT 'active',  -- active | graduated | deregistered
+    note TEXT,
+    last_weights_json TEXT
+);
+CREATE TABLE IF NOT EXISTS shadow_nav (
+    shadow_id INTEGER NOT NULL,
+    ts TEXT NOT NULL,
+    nav REAL NOT NULL,
+    PRIMARY KEY (shadow_id, ts)
+);
 CREATE TABLE IF NOT EXISTS fund_state (
     fund TEXT PRIMARY KEY,
     mode TEXT NOT NULL DEFAULT 'normal',     -- normal | liquidate_only

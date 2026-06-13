@@ -84,6 +84,7 @@ class ResearchDesk:
 
         population: list[tuple[StrategySpec, float]] = self._load_population()
         seen: set[str] = set()
+        shadow_cands: list[dict] = []
         promoted_returns = self._load_promoted_returns(oos_windows, bench)
         promotions, best = 0, -99.0
 
@@ -111,6 +112,19 @@ class ResearchDesk:
                 strat_id = self._persist_strategy(spec, origin, promoted)
                 self._persist_iteration(run_id, i, strat_id, ev, promoted, reasons)
 
+                from . import shadow as SH
+                from .strategies.biotech import EXTERNAL_FAMILIES
+                if (not promoted and ev is not None
+                        and SH.eligible(ev, reasons, spec.family, EXTERNAL_FAMILIES)):
+                    shadow_cands.append({
+                        "strategy_id": strat_id, "family": spec.family,
+                        "params": spec.params,
+                        "basis": SH.basis_key(spec.family, spec.params),
+                        "oos_sharpe": ev.oos_sharpe, "dsr_prob": ev.dsr_prob,
+                        "bootstrap_q05": ev.bootstrap_q05,
+                        "n_trades": ev.n_trades,
+                        "window_sharpes": ev.window_sharpes})
+
                 if ev is not None:
                     best = max(best, ev.oos_sharpe)
                     population.append((spec, ev.fitness))
@@ -126,7 +140,49 @@ class ResearchDesk:
             (utcnow(), iterations, promotions, run_id))
         self.conn.commit()
         self._maybe_advise_expansion(promotions)
+        self._curate_shadows(shadow_cands)
         return RunResult(self.desk, run_id, iterations, promotions, best)
+
+    def _curate_shadows(self, candidates: list[dict]) -> None:
+        """Fill open shadow slots from this run's eligible near-misses.
+
+        The advisor picks (rationale journaled); deterministic fallback picks
+        by deflated Sharpe per unoccupied signal basis. Registered shadows are
+        pinned: never replaced by backtest-better cousins."""
+        from . import shadow as SH
+        if not candidates:
+            return
+        active = self.conn.execute(
+            "SELECT sb.id, s.family, s.params_json FROM shadow_book sb "
+            "JOIN strategies s ON s.id = sb.strategy_id "
+            "WHERE sb.fund=? AND sb.status='active'", (self.desk,)).fetchall()
+        slots = SH.MAX_ACTIVE - len(active)
+        if slots <= 0:
+            return
+        active_keys = set()
+        for r in active:
+            spec = StrategySpec.from_row(r["family"], self.desk, r["params_json"])
+            active_keys.add(SH.basis_key(r["family"], spec.params))
+        # already-registered strategies never re-register
+        registered_ids = {r["strategy_id"] for r in self.conn.execute(
+            "SELECT strategy_id FROM shadow_book WHERE fund=?", (self.desk,))}
+        candidates = [c for c in candidates
+                      if c["strategy_id"] not in registered_ids]
+        for pick in SH.choose_registrations(candidates, active_keys, slots,
+                                            llm=self.llm):
+            insert(self.conn, "shadow_book", strategy_id=pick["strategy_id"],
+                   fund=self.desk, registered_ts=utcnow(),
+                   expected_oos_sharpe=pick["oos_sharpe"],
+                   expected_dsr=pick["dsr_prob"], status="active",
+                   note=pick["rationale"])
+            insert(self.conn, "journal_entries", fund=self.desk, ts=utcnow(),
+                   entry_type="promotion", action="shadow_registered",
+                   reasoning=(f"Shadow trial registered: {pick['family']} "
+                              f"({pick['basis']}) — backtest claim OOS Sharpe "
+                              f"{pick['oos_sharpe']:.2f}, DSR {pick['dsr_prob']:.2f}. "
+                              f"Forward record starts now, parameters pinned. "
+                              f"Committee: {pick['rationale']}"),
+                   ref_table="strategies", ref_id=pick["strategy_id"])
 
     def _maybe_advise_expansion(self, promotions_this_run: int) -> None:
         """When the search saturates, ask the human to widen the field.
@@ -315,6 +371,9 @@ class ResearchDesk:
             self.conn.execute(
                 "UPDATE strategies SET status='promoted', promoted_ts=? WHERE id=?",
                 (utcnow(), sid))
+            self.conn.execute(
+                "UPDATE shadow_book SET status='graduated' "
+                "WHERE strategy_id=? AND status='active'", (sid,))
             self.conn.commit()
         return sid
 

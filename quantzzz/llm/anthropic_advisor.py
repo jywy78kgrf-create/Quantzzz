@@ -74,6 +74,27 @@ class AnthropicAdvisor:
             return None
 
 
+    def select_shadows(self, candidates: list[dict], slots: int) -> list[dict] | None:
+        """Research-committee call: which benched near-misses earn the
+        pre-registered forward-trial slots. Returns picks with rationales."""
+        system = (
+            "You are a quant research committee selecting which benched "
+            "strategies earn scarce pre-registered forward-trial (shadow "
+            "paper-trading) slots. Prefer decorrelated signal bases, high "
+            "deflated-Sharpe probability, bootstrap robustness, adequate trade "
+            "counts, and consistency across walk-forward windows. Respond ONLY "
+            "with a JSON array of {\"strategy_id\": int, \"rationale\": str} "
+            "(rationale under 40 words), at most the requested number of slots."
+        )
+        user = json.dumps({"open_slots": slots, "candidates": candidates},
+                          default=str)
+        try:
+            text = self._complete(system, user, max_tokens=600)
+            payload = json.loads(_extract_json(text))
+            return payload if isinstance(payload, list) else None
+        except Exception:
+            return None
+
     def synthesize_week(self, stats: dict) -> str | None:
         system = (
             "You are the head of research writing the weekly note for an "

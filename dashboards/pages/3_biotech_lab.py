@@ -100,6 +100,28 @@ else:
                    "discovery was selection noise. Either way, this chart is the "
                    "verdict arriving.")
 
+
+# ---- shadow book: pre-registered forward trials ----
+st.subheader("Shadow book — pre-registered forward trials")
+st.caption("Benched near-misses the committee pinned on a date: no capital, "
+           "parameters frozen, forward NAV tracked daily. Forward data has "
+           "neither discovery contamination nor survivorship bias, so this "
+           "column is the cleanest evidence the system produces.")
+sh = q("""
+    SELECT sb.id, s.family, sb.registered_ts, sb.expected_oos_sharpe claim_sharpe,
+           sb.expected_dsr claim_dsr, sb.status, sb.note,
+           (SELECT COUNT(*) FROM shadow_nav n WHERE n.shadow_id = sb.id) marks,
+           (SELECT (nav - 1) * 100 FROM shadow_nav n WHERE n.shadow_id = sb.id
+            ORDER BY ts DESC LIMIT 1) fwd_ret_pct
+    FROM shadow_book sb JOIN strategies s ON s.id = sb.strategy_id
+    WHERE sb.fund='biotech' ORDER BY sb.status='active' DESC, sb.id""")
+if sh.empty:
+    st.caption("No trials registered yet — the next research run with eligible "
+               "near-misses convenes the selection committee (LLM advisor when "
+               "available, best-DSR-per-basis otherwise).")
+else:
+    st.dataframe(sh.round(3), width='stretch', hide_index=True)
+
 st.divider()
 
 

@@ -173,3 +173,49 @@ def test_families_degrade_gracefully_without_external():
         space = next(s for s, _ in B.STRATEGIES if s.family == fam)
         w = fn(b, space.random_params(__import__("random").Random(0)))
         assert (w.abs().sum(axis=1) == 0).all(), fam
+
+
+def test_external_families_blocked_without_forward_evidence(tmp_path, monkeypatch):
+    """The regression guard: an external family with a perfect deflated Sharpe
+    on the discovery window must still be blocked until post-discovery trading
+    days accrue — the forward record is the referee, not the DSR."""
+    import pandas as pd
+    from quantzzz.research.loop import ResearchDesk
+    from quantzzz.research.promotion import Evaluation
+    import quantzzz.data.external_signals as ES
+
+    # a bundle whose calendar ends only days after the discovery cutoff
+    cal = pd.bdate_range(ES.EXTERNAL_DISCOVERY_CUTOFF - pd.Timedelta(days=400),
+                         ES.EXTERNAL_DISCOVERY_CUTOFF + pd.Timedelta(days=20))
+    prices = pd.DataFrame({"AAA": 100.0}, index=cal)
+    desk = ResearchDesk.__new__(ResearchDesk)
+    from types import SimpleNamespace
+    desk.bundle = SimpleNamespace(prices=prices)
+
+    # a flawless evaluation on the (contaminated) discovery window
+    rets = pd.Series(0.01, index=cal)
+    ev = Evaluation(is_sharpe=3, oos_sharpe=3.5, oos_alpha=1.6, oos_beta=0.2,
+                    max_dd=0.1, n_trades=90, hit_rate=0.6, fitness=3.5,
+                    oos_returns=rets, dsr_prob=1.0, bootstrap_q05=1.3)
+    ok, why = desk._forward_evidence_gate(ev)
+    assert not ok and "forward days" in why    # blocked despite DSR 1.0
+
+
+def test_effective_trials_never_loosens_below_sqrt():
+    """Measured correlation can tighten but never relax the noise floor."""
+    import pandas as pd
+    from quantzzz.research.loop import ResearchDesk
+    desk = ResearchDesk.__new__(ResearchDesk)
+    desk.desk = "biotech"
+
+    class _Conn:
+        def execute(self, *a):
+            class R:
+                def fetchone(self_):
+                    return {"c": 10000}
+            return R()
+    desk.conn = _Conn()
+    # heavily correlated sample (rho high) must NOT drop N_eff below sqrt(N)=100
+    base = pd.Series(range(200), dtype=float)
+    desk._oos_sample = [base + i * 1e-6 for i in range(8)]   # near-identical
+    assert desk._effective_trials() >= 100

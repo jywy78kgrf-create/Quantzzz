@@ -116,6 +116,15 @@ RECONCILIATION_NOTES = {
 PIVOTAL_TYPES = ("PDUFA", "Phase3", "Phase2/3")
 TRADEABLE_STATUS = ("occurred", "upcoming")
 
+# The frozen discovery export ends here; anything after is uncontaminated by
+# the external scan. External families may not promote on the discovery window
+# alone (a high deflated Sharpe there only proves OUR re-search didn't overfit,
+# never that the original discovery wasn't overfit) — they must clear a minimum
+# of genuinely forward trading days AND be profitable on that slice. The
+# forward record is the referee; this encodes it into the gate.
+EXTERNAL_DISCOVERY_CUTOFF = pd.Timestamp("2026-05-11")
+MIN_FORWARD_TRADING_DAYS = 63       # ~3 months of post-discovery data
+
 
 @dataclass
 class ExternalSignals:

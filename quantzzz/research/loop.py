@@ -290,7 +290,13 @@ class ResearchDesk:
                             cors.append(abs(c))
             if len(cors) >= 10:
                 rho = min(0.95, max(0.05, sum(cors) / len(cors)))
-                return max(1, int(round(n ** (1 - rho))))
+                # correlation may only TIGHTEN the noise floor, never loosen it
+                # below the conservative sqrt(N) baseline. Loosening on measured
+                # in-sample correlation is gameable: near-identical candidates
+                # collapse N_eff and silently relax the gate (this exact bug let
+                # a contaminated external family promote). Take the larger count.
+                return max(max(1, int(round(n ** 0.5))),
+                           max(1, int(round(n ** (1 - rho)))))
         return max(1, int(round(n ** 0.5)))
 
     # External-signal families only have data from ~2018 (options) / 2019
@@ -342,7 +348,35 @@ class ResearchDesk:
 
         ev = evaluate_windows(is_res, window_results, bench, self._effective_trials())
         passed, reasons, corr_ids = check_promotion(ev, thr, promoted_returns)
+        from .strategies.biotech import EXTERNAL_FAMILIES
+        if spec.family in EXTERNAL_FAMILIES:
+            ok, why = self._forward_evidence_gate(ev)
+            if not ok:
+                passed = False
+                if why not in reasons:
+                    reasons = reasons + [why]
         return ev, passed, reasons, corr_ids
+
+    def _forward_evidence_gate(self, ev) -> tuple[bool, str]:
+        """External families promote only on uncontaminated forward evidence.
+
+        A high deflated Sharpe on the discovery window proves our re-search
+        didn't overfit — not that the external scan that found the signal
+        didn't. So require a minimum of post-discovery trading days to exist,
+        and profitability on that forward slice once it is measurable.
+        """
+        from ..data.external_signals import (EXTERNAL_DISCOVERY_CUTOFF,
+                                             MIN_FORWARD_TRADING_DAYS)
+        from . import metrics as M
+        cal = self.bundle.prices.index
+        fwd_days = int((cal > EXTERNAL_DISCOVERY_CUTOFF).sum())
+        if fwd_days < MIN_FORWARD_TRADING_DAYS:
+            return False, (f"insufficient post-discovery evidence "
+                           f"({fwd_days}/{MIN_FORWARD_TRADING_DAYS} forward days)")
+        post = ev.oos_returns[ev.oos_returns.index > EXTERNAL_DISCOVERY_CUTOFF]
+        if len(post) >= 10 and M.sharpe(post) <= 0:
+            return False, "negative Sharpe on post-discovery forward data"
+        return True, ""
 
     # ---- refinement: a materially better cousin may replace its incumbent ----
     def _incumbent_metrics(self, sid: int) -> dict:

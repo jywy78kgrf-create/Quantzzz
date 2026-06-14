@@ -375,18 +375,27 @@ class TraderAgent:
                     ref_table="shadow_book", ref_id=r["id"])
         self.conn.commit()
 
+    LIQUIDATE_COOLDOWN_DAYS = 3   # circuit breaker: halt persists this long, then resumes
+
     def _update_risk_mode(self, state: str, drawdown: float) -> str:
         """Graduated risk response: normal -> derisk (half exposure) ->
-        liquidate_only (catastrophe), with recovery transitions. A fund that
-        de-risks keeps participating, so drawdowns can actually heal — sudden
-        liquidation locks the loss at the bottom."""
+        liquidate_only (catastrophe). A de-risked fund keeps participating so a
+        drawdown can heal. A LIQUIDATED fund is all-cash, so its drawdown is
+        frozen and cannot heal via equity — it recovers on a COOLDOWN instead:
+        the halt persists (a real circuit breaker, not an instant self-clear),
+        then books the loss (resets the high-water mark to current equity) and
+        resumes, so it is never a permanent trap."""
         halt = self.limits.drawdown_halt_pct
         derisk = self.limits.drawdown_derisk_pct
         new_state = state
-        if drawdown <= -halt:
+        if state == "liquidate_only":
+            if self._halt_cooldown_elapsed():
+                self._reset_hwm_to_equity()      # book the loss, restart tracking
+                new_state = "normal"
+        elif drawdown <= -halt:
             new_state = "liquidate_only"
         elif drawdown <= -derisk:
-            new_state = "derisk" if state != "liquidate_only" else "liquidate_only"
+            new_state = "derisk"
         elif drawdown > -derisk * 0.5:
             new_state = "normal"
         if new_state != state:
@@ -395,6 +404,22 @@ class TraderAgent:
                 f"Drawdown {drawdown:.1%}: risk mode {state} -> {new_state} "
                 f"(derisk at {-derisk:.0%}, liquidate at {-halt:.0%})."))
         return new_state
+
+    def _halt_cooldown_elapsed(self) -> bool:
+        row = self.conn.execute(
+            "SELECT halted_since FROM fund_state WHERE fund=?", (self.fund,)).fetchone()
+        if not row or not row["halted_since"]:
+            return True
+        try:
+            since = pd.Timestamp(row["halted_since"])
+            return (pd.Timestamp(self._ts()) - since) >= pd.Timedelta(days=self.LIQUIDATE_COOLDOWN_DAYS)
+        except (ValueError, TypeError):
+            return True
+
+    def _reset_hwm_to_equity(self) -> None:
+        eq = self.broker.get_account().equity
+        self.conn.execute("UPDATE fund_state SET hwm=? WHERE fund=?", (eq, self.fund))
+        self.conn.commit()
 
     # ---- stops (disaster brake; cooldown prevents instant re-entry) ----
     def _session_low(self, ticker: str) -> float | None:
@@ -585,8 +610,10 @@ class TraderAgent:
         return row["mode"] if row else "normal"
 
     def _set_mode(self, mode: str) -> None:
+        # halted_since on the SESSION clock (utcnow live / as_of replay) so the
+        # liquidation cooldown measures correctly in both
         self.conn.execute("UPDATE fund_state SET mode=?, halted_since=? WHERE fund=?",
-                          (mode, utcnow(), self.fund))
+                          (mode, self._ts(), self.fund))
         self.conn.commit()
 
     def _open_trade_row(self, ticker):

@@ -240,14 +240,24 @@ def days_to_catalyst_frame(bundle: FeatureBundle) -> pd.DataFrame:
     by_ticker: dict[str, list[pd.Timestamp]] = {}
     for c in bundle.catalysts:
         tk, cd = c.get("ticker"), c.get("catalyst_date")
-        if tk in bundle.prices.columns and cd:
-            try:
-                by_ticker.setdefault(tk, []).append(pd.to_datetime(cd))
-            except (ValueError, TypeError):
-                continue
+        if tk not in bundle.prices.columns or not cd:
+            continue
+        try:
+            cd_parsed = pd.to_datetime(cd)
+        except (ValueError, TypeError):
+            continue
+        if pd.isna(cd_parsed):                          # NaT would break searchsorted ordering
+            continue
+        by_ticker.setdefault(tk, []).append(cd_parsed)
     cols = {}
     for tk, dates_list in by_ticker.items():
         cat_dates = pd.DatetimeIndex(sorted(dates_list))
+        # drop catalysts before the panel starts — a past catalyst clamps to
+        # position 0 and would otherwise read as "catalyst today" on day 0 and
+        # mask the real upcoming one
+        cat_dates = cat_dates[cat_dates >= dates[0]]
+        if len(cat_dates) == 0:
+            continue
         cat_pos = dates.searchsorted(cat_dates)        # trading-day index of each catalyst
         j = np.searchsorted(cat_pos, pos, side="left")  # next catalyst at/after each date
         vals = np.full(n, np.nan, dtype=float)

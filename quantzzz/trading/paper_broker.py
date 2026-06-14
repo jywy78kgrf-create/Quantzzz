@@ -139,14 +139,12 @@ class PaperBroker(Broker):
             "SELECT hwm FROM fund_state WHERE fund=?", (self.fund,)).fetchone()
         prev = state["hwm"] if state else acct.equity
         # The high-water mark only moves on LIVE sessions — replay peaks are
-        # hindsight and must never pollute the live drawdown. And a fully
-        # liquidated/flat book resets its peak to current cash, so a halt can
-        # actually HEAL instead of pinning the fund below a stale pre-crash peak
-        # forever (which made liquidate_only an unrecoverable absorbing state).
-        if self.session_source == "live":
-            hwm = acct.equity if not positions else max(prev, acct.equity)
-        else:
-            hwm = prev
+        # hindsight and must never pollute the live drawdown. It is NOT reset on
+        # a flat book: a benign all-cash session must keep its drawdown memory,
+        # and a just-liquidated fund must not zero its own drawdown (that would
+        # make the halt self-clear in one session). Recovery from a liquidation
+        # halt is a deliberate, cooldown-gated reset done by the trader.
+        hwm = max(prev, acct.equity) if self.session_source == "live" else prev
         drawdown = 0.0 if hwm == 0 else (acct.equity - hwm) / hwm
         self.conn.execute("UPDATE fund_state SET hwm=? WHERE fund=?", (hwm, self.fund))
         insert(self.conn, "equity_snapshots", fund=self.fund, ts=ts,

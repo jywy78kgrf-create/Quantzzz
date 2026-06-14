@@ -173,6 +173,22 @@ CREATE TABLE IF NOT EXISTS shadow_nav (
     nav REAL NOT NULL,
     PRIMARY KEY (shadow_id, ts)
 );
+-- catalyst sleeve: open discrete per-event positions, each tied to the event
+-- whose readout it must exit before. The event-driven engine (fund=
+-- 'biotech_catalyst') uses this to know when to close. One row per open trade.
+CREATE TABLE IF NOT EXISTS catalyst_sleeve (
+    id INTEGER PRIMARY KEY,
+    fund TEXT NOT NULL,
+    ticker TEXT NOT NULL,
+    event_id TEXT,
+    catalyst_type TEXT,
+    catalyst_date TEXT NOT NULL,        -- the readout we must exit before
+    entry_ts TEXT NOT NULL,
+    entry_px REAL NOT NULL,
+    qty REAL NOT NULL,
+    runup_180d REAL,
+    UNIQUE (fund, ticker)
+);
 CREATE TABLE IF NOT EXISTS fund_state (
     fund TEXT PRIMARY KEY,
     mode TEXT NOT NULL DEFAULT 'normal',     -- normal | liquidate_only

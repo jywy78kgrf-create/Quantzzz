@@ -45,6 +45,9 @@ def main(argv: list[str] | None = None) -> int:
     p_trade = sub.add_parser("trade", help="run one trader session for a fund")
     p_trade.add_argument("--fund", required=True, choices=["equity", "biotech"])
 
+    sub.add_parser("trade-catalyst", help="run one event-driven catalyst-sleeve "
+                                          "session (discrete per-event trades)")
+
     p_replay = sub.add_parser("replay", help="replay a trader over historical dates")
     p_replay.add_argument("--fund", required=True, choices=["equity", "biotech"])
     p_replay.add_argument("--lookback-days", type=int, default=180)
@@ -144,6 +147,13 @@ def main(argv: list[str] | None = None) -> int:
         agent = TraderAgent.build(cfg, args.fund)
         report = agent.session()
         print(report)
+        return 0
+
+    if args.cmd == "trade-catalyst":
+        from .trading.catalyst_sleeve import CatalystSleeve
+        conn = get_conn(cfg.db_path)
+        print(CatalystSleeve(cfg, conn).session())
+        conn.close()
         return 0
 
     if args.cmd == "replay":

@@ -166,6 +166,18 @@ def run_loop(cfg: Config, cycles: int = 0, interval_s: int = 900,
             except Exception as e:
                 print(f"trader {fund} error: {e}")
 
+        # event-driven catalyst sleeve runs in tandem with the portfolio traders
+        # (its own isolated book; the per-event edge the rebalance framework
+        # can't express)
+        try:
+            from .db import get_conn
+            from .trading.catalyst_sleeve import CatalystSleeve
+            _cs_conn = get_conn(cfg.db_path)
+            print(CatalystSleeve(cfg, _cs_conn).session())
+            _cs_conn.close()
+        except Exception as e:
+            print(f"catalyst sleeve error (non-fatal): {e}")
+
         if _STOP or (cycles and cycle >= cycles):
             break
         print(f"sleeping {interval_s}s...")

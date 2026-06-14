@@ -16,7 +16,15 @@ def annualized_return(returns: pd.Series) -> float:
     total = float((1 + returns).prod())
     if total <= 0:
         return -1.0
-    return total ** (TRADING_DAYS / len(returns)) - 1
+    # Annualizing a very short sample extrapolates explosively: the 252/n
+    # exponent turns a handful of active days into a meaningless 5-digit
+    # "annual" return (the degenerate candidate artifact in the strategy book).
+    # Floor the horizon at a quarter and clamp to a sane band — real strategies
+    # live far inside [-99%, +1000%], so legitimate metrics are untouched and
+    # only degenerate extrapolations are tamed.
+    horizon = max(len(returns), TRADING_DAYS // 4)
+    ann = total ** (TRADING_DAYS / horizon) - 1
+    return float(min(max(ann, -0.99), 10.0))
 
 
 def annualized_vol(returns: pd.Series) -> float:

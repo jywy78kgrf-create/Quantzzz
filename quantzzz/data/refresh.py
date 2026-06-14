@@ -182,12 +182,17 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
     store = SnapshotStore(cfg.snapshot_dir)
 
     if desk in ("equity", "all"):
-        tickers = EQUITY_UNIVERSE + BENCH_TICKERS
-        _safe("equity prices", lambda: refresh_prices(cfg, tickers, conn))
+        from ..universe import EQUITY_RESEARCH_SEED
+        # widen equity breadth: pull the broad liquid pool (~S&P 500), not just
+        # the 63-name core. Budget-aware/cached, so it fills the gap over cycles
+        # then idles — same pattern as the biotech catalyst-universe pull.
+        eq_all = EQUITY_UNIVERSE + EQUITY_RESEARCH_SEED
+        _safe("equity prices (expanded universe)",
+              lambda: refresh_prices(cfg, eq_all + BENCH_TICKERS, conn))
         _safe("equity premium feeds",
-              lambda: refresh_premium_feeds(cfg, EQUITY_UNIVERSE, conn,
+              lambda: refresh_premium_feeds(cfg, eq_all, conn,
                                             options_for=EQUITY_UNIVERSE[:30]))
-        _safe("equity edgar", lambda: _edgar_fill(cfg, store, EQUITY_UNIVERSE, 999))
+        _safe("equity edgar", lambda: _edgar_fill(cfg, store, eq_all, 999))
 
     if desk in ("biotech", "all"):
         from .external_refresh import backfill_options_history, refresh_external_signals

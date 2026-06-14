@@ -58,6 +58,10 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("sync", help="overwrite local state from the pulled seed "
                                 "(use after 'git pull' when GitHub Actions is the writer)")
 
+    sub.add_parser("rebaseline", help="re-anchor the live paper book to each fund's "
+                                      "starting budget (strip replay-inflated NAV; "
+                                      "idempotent, safe to re-run)")
+
     sub.add_parser("dashboard", help="launch the Streamlit dashboards")
 
     p_cockpit = sub.add_parser("cockpit", help="always-on mission-control dashboard")
@@ -113,6 +117,14 @@ def main(argv: list[str] | None = None) -> int:
                 break
         print(f"done — {total} chains fetched this session. "
               f"Commit & push data/snapshots to share with the cloud.")
+        return 0
+
+    if args.cmd == "rebaseline":
+        from .rebaseline import rebaseline
+        conn = get_conn(cfg.db_path)
+        for fund, msg in rebaseline(conn, cfg.snapshot_dir).items():
+            print(f"{fund}: {msg}")
+        conn.close()
         return 0
 
     if args.cmd == "refresh-data":

@@ -86,6 +86,21 @@ BIOTECH_DELISTED_SEED = [
     {"ticker": "CINC", "name": "CinCor Pharma", "exit": "acquired (AstraZeneca) 2023"},
     {"ticker": "PRVB", "name": "Provention Bio", "exit": "acquired (Sanofi) 2023"},
     {"ticker": "AMAG", "name": "AMAG Pharmaceuticals", "exit": "acquired 2020"},
+    # 2023 biotech bankruptcy wave (a 10-year record) plus recent failures —
+    # clinical-stage names that went to zero, the exact survivorship tail a
+    # survivors-only history hides. Sourced from public bankruptcy/delisting
+    # records; carried as candidates and price-gated like the rest.
+    {"ticker": "SRNE", "name": "Sorrento Therapeutics", "exit": "bankruptcy 2023"},
+    {"ticker": "HGEN", "name": "Humanigen", "exit": "bankruptcy 2024"},
+    {"ticker": "ACOR", "name": "Acorda Therapeutics", "exit": "bankruptcy 2024"},
+    {"ticker": "RUBY", "name": "Rubius Therapeutics", "exit": "wind-down 2023"},
+    {"ticker": "NMTR", "name": "9 Meters Biopharma", "exit": "wind-down 2023"},
+    {"ticker": "INFI", "name": "Infinity Pharmaceuticals", "exit": "wind-down 2023"},
+    {"ticker": "KLDO", "name": "Kaleido Biosciences", "exit": "shutdown 2023"},
+    {"ticker": "NOVN", "name": "Novan", "exit": "bankruptcy 2023"},
+    {"ticker": "STAB", "name": "Statera Biopharma", "exit": "bankruptcy 2023"},
+    {"ticker": "BIOC", "name": "Biocept", "exit": "Chapter 7 2023"},
+    {"ticker": "IOBT", "name": "IO Biotech", "exit": "Chapter 7 2026 (Phase 3 miss)"},
 ]
 
 

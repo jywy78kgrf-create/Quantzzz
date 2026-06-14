@@ -27,6 +27,20 @@ from .journal import DecisionJournal
 from .learning import LearningLoop
 from .risk import RiskManager
 
+# Forward-unverified external promotions trade paper at (at most) this fraction
+# of their learned weight until the live record graduates them. The learning
+# loop flips strategies.forward_verified once forward evidence accrues.
+FORWARD_UNVERIFIED_CAP = 0.5
+
+
+def _forward_verified(row) -> bool:
+    """Default True for rows predating the migration / non-external strategies."""
+    try:
+        v = row["forward_verified"]
+    except (IndexError, KeyError):
+        return True
+    return v is None or bool(v)
+
 
 class TraderAgent:
     def __init__(self, cfg: Config, fund: str, conn: sqlite3.Connection):
@@ -159,7 +173,7 @@ class TraderAgent:
         """Equal-capital blend of promoted strategies' latest target weights,
         scaled by learned per-strategy multipliers."""
         rows = self.conn.execute(
-            "SELECT id, family, params_json FROM strategies "
+            "SELECT id, family, params_json, forward_verified FROM strategies "
             "WHERE desk=? AND status='promoted'", (self.fund,)).fetchall()
         bundle = self._bundle
         if self.as_of is not None:
@@ -180,6 +194,12 @@ class TraderAgent:
             if w.empty:
                 continue
             mult = self.learning.current_multiplier(r["id"])
+            # forward-unverified external promotions trade paper at half weight
+            # until the live record confirms them (the learning loop flips the
+            # flag). Position-sizes down the contaminated-discovery tail risk
+            # without keeping the strategy out of the forward record entirely.
+            if not _forward_verified(r):
+                mult = min(mult, FORWARD_UNVERIFIED_CAP)
             strat_weights.append((r["id"], w.iloc[-1], mult))
         if not strat_weights:
             return {}

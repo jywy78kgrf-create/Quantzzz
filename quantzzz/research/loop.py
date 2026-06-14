@@ -98,7 +98,7 @@ class ResearchDesk:
                 if h in seen:
                     continue
                 seen.add(h)
-                ev, promoted, reasons, corr_ids = self._evaluate_spec(
+                ev, promoted, reasons, corr_ids, forward_verified = self._evaluate_spec(
                     spec, is_dates, oos_windows, bench, promoted_returns)
                 only_corr_blocked = (not promoted and ev is not None and corr_ids
                                      and all("correlated" in r for r in reasons))
@@ -109,7 +109,7 @@ class ResearchDesk:
                         reasons = []
                         promoted_returns[:] = [(sid, r) for sid, r in promoted_returns
                                                if sid != swapped]
-                strat_id = self._persist_strategy(spec, origin, promoted)
+                strat_id = self._persist_strategy(spec, origin, promoted, forward_verified)
                 self._persist_iteration(run_id, i, strat_id, ev, promoted, reasons)
 
                 from . import shadow as SH
@@ -139,7 +139,7 @@ class ResearchDesk:
                 if promoted:
                     promotions += 1
                     promoted_returns.append((strat_id, ev.oos_returns))
-                    self._journal_promotion(spec, ev)
+                    self._journal_promotion(spec, ev, forward_verified)
 
         self.conn.execute(
             "UPDATE research_runs SET ended_ts=?, iterations=?, promotions=? WHERE id=?",
@@ -312,18 +312,18 @@ class ResearchDesk:
         try:
             weights = signal_fn(self.bundle, spec.params)
         except Exception as e:
-            return None, False, [f"error: {e}"], []
+            return None, False, [f"error: {e}"], [], True
 
         from .strategies.biotech import EXTERNAL_FAMILIES
         if spec.family in EXTERNAL_FAMILIES:
             active = weights.abs().sum(axis=1) > 0
             if not active.any():
-                return None, False, ["no active days (external signals absent)"], []
+                return None, False, ["no active days (external signals absent)"], [], True
             covered = weights.index[weights.index >= active.idxmax()]
             if len(covered) < self.MIN_EXTERNAL_HISTORY_DAYS:
                 return None, False, [
                     f"insufficient external history ({len(covered)} days "
-                    f"< {self.MIN_EXTERNAL_HISTORY_DAYS})"], []
+                    f"< {self.MIN_EXTERNAL_HISTORY_DAYS})"], [], True
             is_dates, oos_windows = walk_forward_windows(covered, n_windows=5)
 
         from . import metrics as M
@@ -334,7 +334,7 @@ class ResearchDesk:
         thr = self.cfg.promotion_for(self.desk, spec.family)
         is_sharpe = M.sharpe(is_res.returns)
         if is_sharpe < thr.min_is_sharpe_bar:
-            return _stub_eval(is_sharpe), False, ["weak in-sample"], []
+            return _stub_eval(is_sharpe), False, ["weak in-sample"], [], True
 
         try:
             window_results = [
@@ -344,18 +344,22 @@ class ResearchDesk:
                 for w in oos_windows
             ]
         except Exception as e:
-            return None, False, [f"oos error: {e}"], []
+            return None, False, [f"oos error: {e}"], [], True
 
         ev = evaluate_windows(is_res, window_results, bench, self._effective_trials())
         passed, reasons, corr_ids = check_promotion(ev, thr, promoted_returns)
+        # External families promote on backtest merit (the strict EXTERNAL gate
+        # already applied above), but the discovery-window backtest cannot prove
+        # the ORIGINAL external scan didn't overfit — only the live forward
+        # record can. So the forward-evidence check no longer BLOCKS promotion;
+        # it tags the strategy. forward_verified=0 ships at half weight and is
+        # promoted to 1 by the learning loop once the live record confirms it.
+        forward_verified = True
         from .strategies.biotech import EXTERNAL_FAMILIES
         if spec.family in EXTERNAL_FAMILIES:
-            ok, why = self._forward_evidence_gate(ev)
-            if not ok:
-                passed = False
-                if why not in reasons:
-                    reasons = reasons + [why]
-        return ev, passed, reasons, corr_ids
+            ok, _why = self._forward_evidence_gate(ev)
+            forward_verified = ok
+        return ev, passed, reasons, corr_ids, forward_verified
 
     def _forward_evidence_gate(self, ev) -> tuple[bool, str]:
         """External families promote only on uncontaminated forward evidence.
@@ -416,7 +420,7 @@ class ResearchDesk:
         return sid
 
     # ---- persistence ----
-    def _persist_strategy(self, spec, origin, promoted) -> int:
+    def _persist_strategy(self, spec, origin, promoted, forward_verified=True) -> int:
         h = spec.spec_hash()
         row = self.conn.execute("SELECT id FROM strategies WHERE spec_hash=?", (h,)).fetchone()
         if row:
@@ -427,8 +431,9 @@ class ResearchDesk:
                          status="candidate", origin=origin, created_ts=utcnow())
         if promoted:
             self.conn.execute(
-                "UPDATE strategies SET status='promoted', promoted_ts=? WHERE id=?",
-                (utcnow(), sid))
+                "UPDATE strategies SET status='promoted', promoted_ts=?, "
+                "forward_verified=? WHERE id=?",
+                (utcnow(), int(forward_verified), sid))
             self.conn.execute(
                 "UPDATE shadow_book SET status='graduated' "
                 "WHERE strategy_id=? AND status='active'", (sid,))
@@ -453,13 +458,17 @@ class ResearchDesk:
                dsr_prob=_g(ev, "dsr_prob"),
                bootstrap_q05=_g(ev, "bootstrap_q05"))
 
-    def _journal_promotion(self, spec, ev):
+    def _journal_promotion(self, spec, ev, forward_verified=True):
+        tag = "" if forward_verified else (
+            " FORWARD-UNVERIFIED: trades paper at half weight until the live "
+            "record confirms it (external scan's overfit can't be ruled out by "
+            "backtest — the forward record is the referee).")
         insert(self.conn, "journal_entries", fund=self.desk, ts=utcnow(),
                entry_type="promotion", ticker=None, action=spec.family,
                inputs_json=dumps(spec.params),
                reasoning=(f"Promoted {spec.family}: OOS Sharpe {ev.oos_sharpe:.2f}, "
                           f"alpha {ev.oos_alpha:.3f}, maxDD {ev.max_dd:.2f}, "
-                          f"{ev.n_trades} trades."),
+                          f"{ev.n_trades} trades.{tag}"),
                ref_table="strategies", ref_id=None)
 
     def _load_population(self):

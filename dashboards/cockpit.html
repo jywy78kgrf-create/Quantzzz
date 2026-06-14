@@ -129,7 +129,7 @@
     <div class="glow" style="background:var(--red)"></div></div>
 
   <div class="card" id="chartcard" style="padding:14px 16px 8px">
-    <h3 style="margin-bottom:6px">Equity Curves
+    <h3 style="margin-bottom:6px">Live Paper Equity · from $1M starting budget
       <span style="float:right; font-weight:400; text-transform:none; letter-spacing:0">
         <span style="color:#2dd4a7">━ Equity</span>&nbsp;
         <span style="color:#a78bfa">━ Biotech</span>&nbsp;
@@ -214,18 +214,24 @@ function tick(id,val,opts={}){
 }
 function kpis(s){
   const f=s.funds, eq=f.equity, bio=f.biotech;
-  let total=0; if(eq)total+=eq.equity; if(bio)total+=bio.equity;
+  // Headline dollars are the LIVE paper trade from each fund's fixed starting
+  // budget — the replay-inflated NAV is hindsight, never shown as capital.
+  const fv=f=> f? (f.fwd_value!=null? f.fwd_value : f.start_budget) : 0;
+  let total=0, started=0;
+  if(eq){total+=fv(eq); started+=eq.start_budget||0;}
+  if(bio){total+=fv(bio); started+=bio.start_budget||0;}
   tick('aum',Math.round(total),{prefix:'$'});
-  $('aumsub').textContent='paper capital · started $2,000,000';
-  const fwd=f=>f.fwd_ret_pct==null?'forward record starts next cycle'
-    :`forward ${pct(f.fwd_ret_pct,1)} since ${f.fwd_since} (live only)`;
-  if(eq){tick('eqv',Math.round(eq.equity),{prefix:'$'});
-    $('eqp').innerHTML=`<span class="${cls(eq.ret_pct)}">${pct(eq.ret_pct,1)}</span>`;
-    $('eqs').textContent=`vs ${eq.bench} ${eq.bench_ret_pct==null?'—':pct(eq.bench_ret_pct,1)} · gross ${eq.gross.toFixed(0)}% · dd ${eq.drawdown.toFixed(1)}% · ${fwd(eq)}`;
+  $('aumsub').textContent=`live paper capital · started $${started.toLocaleString()} · forward only (replay excluded)`;
+  const sess=f=>f.fwd_ret_pct==null?'forward record starts next cycle'
+    :`${f.fwd_sessions||0} live sessions since ${f.fwd_since}`;
+  const vsb=f=>f.fwd_bench_ret_pct==null?'—':pct(f.fwd_bench_ret_pct,1);
+  if(eq){tick('eqv',Math.round(fv(eq)),{prefix:'$'});
+    $('eqp').innerHTML=`<span class="${cls(eq.fwd_ret_pct||0)}">${eq.fwd_ret_pct==null?'—':pct(eq.fwd_ret_pct,2)}</span>`;
+    $('eqs').textContent=`vs ${eq.bench} ${vsb(eq)} · gross ${eq.gross.toFixed(0)}% · dd ${eq.drawdown.toFixed(1)}% · ${sess(eq)}`;
     $('eqmode').innerHTML=`<span class="modechip m-${eq.mode}">${eq.mode.replace('_',' ')}</span>`;}
-  if(bio){tick('biov',Math.round(bio.equity),{prefix:'$'});
-    $('biop').innerHTML=`<span class="${cls(bio.ret_pct)}">${pct(bio.ret_pct,1)}</span>`;
-    $('bios').textContent=`vs ${bio.bench} ${bio.bench_ret_pct==null?'—':pct(bio.bench_ret_pct,1)} · gross ${bio.gross.toFixed(0)}% · dd ${bio.drawdown.toFixed(1)}% · ${fwd(bio)}`;
+  if(bio){tick('biov',Math.round(fv(bio)),{prefix:'$'});
+    $('biop').innerHTML=`<span class="${cls(bio.fwd_ret_pct||0)}">${bio.fwd_ret_pct==null?'—':pct(bio.fwd_ret_pct,2)}</span>`;
+    $('bios').textContent=`vs ${bio.bench} ${vsb(bio)} · gross ${bio.gross.toFixed(0)}% · dd ${bio.drawdown.toFixed(1)}% · ${sess(bio)}`;
     $('biomode').innerHTML=`<span class="modechip m-${bio.mode}">${bio.mode.replace('_',' ')}</span>`;}
   tick('iters',s.loop.iterations);
   $('iterssub').textContent=`backtests run · best OOS sharpe ${(+s.loop.best_oos_sharpe||0).toFixed(2)} · ${s.loop.av_calls_today||0} API calls today`;
@@ -233,7 +239,7 @@ function kpis(s){
     if(f.fwd_ret_pct==null){$(vid).textContent='—';
       $(sid).textContent='awaiting first live cycle';}
     else{$(vid).innerHTML=`<span class="${cls(f.fwd_ret_pct)}">${pct(f.fwd_ret_pct,2)}</span>`;
-      $(sid).textContent=`since ${f.fwd_since} · ${f.fwd_sessions||0} live sessions · $${Math.round(f.equity).toLocaleString()}`;}};
+      $(sid).textContent=`since ${f.fwd_since} · ${f.fwd_sessions||0} live sessions · $${Math.round(fv(f)).toLocaleString()}`;}};
   fwdset('fwdeq','fwdeqsub',eq); fwdset('fwdbio','fwdbiosub',bio);
 }
 
@@ -447,10 +453,15 @@ function curves(s){
       priceLineVisible:false,lastValueVisible:false,crosshairMarkerVisible:false});
   }
   const f=s.funds;
-  if(f.equity){lwcSeries.equity.setData(dedupe(f.equity.curve));
-               lwcSeries.eqb.setData(dedupe(f.equity.bench_curve));}
-  if(f.biotech){lwcSeries.biotech.setData(dedupe(f.biotech.curve));
-                lwcSeries.biob.setData(dedupe(f.biotech.bench_curve));}
+  // Plot the LIVE paper trade from the fixed starting budget (forward, honest
+  // dollars). Fall back to the replay curve only before go-live, when no
+  // forward record exists yet.
+  const fc=f=>(f.fwd_curve&&f.fwd_curve.length)?f.fwd_curve:f.curve;
+  const fb=f=>(f.fwd_bench_curve&&f.fwd_bench_curve.length)?f.fwd_bench_curve:f.bench_curve;
+  if(f.equity){lwcSeries.equity.setData(dedupe(fc(f.equity)));
+               lwcSeries.eqb.setData(dedupe(fb(f.equity)));}
+  if(f.biotech){lwcSeries.biotech.setData(dedupe(fc(f.biotech)));
+                lwcSeries.biob.setData(dedupe(fb(f.biotech)));}
   lwc.timeScale().fitContent();
   const el=$('chart');
   if(el.clientWidth && Math.abs(el.clientWidth-lwc.options().width)>4)

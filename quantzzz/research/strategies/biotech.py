@@ -288,4 +288,10 @@ STRATEGIES = [
 # loop holds these to a stricter promotion bar than the price-native families.
 EXTERNAL_FAMILIES = frozenset({
     "options_iv_runup", "insider_conviction", "event_anchored", "catalyst_momentum",
+    # pdufa_runup / post_catalyst_drift read the catalyst calendar with no
+    # point-in-time "announced" date, so a backtest can see events before they
+    # were public (look-ahead). Until an announce-date exists, hold them to the
+    # same strict, forward-unverified, half-weight treatment so a look-ahead-
+    # inflated backtest can't put them on full capital.
+    "pdufa_runup", "post_catalyst_drift",
 })

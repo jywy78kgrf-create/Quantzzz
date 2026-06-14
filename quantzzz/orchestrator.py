@@ -129,6 +129,20 @@ def run_loop(cfg: Config, cycles: int = 0, interval_s: int = 900,
             _journal_cycle_gap(cfg)
         except Exception as e:
             print(f"cycle-gap check error (non-fatal): {e}")
+        # self-healing guard: keep the live book anchored to each fund's
+        # starting budget every cycle. Idempotent (a no-op once anchored), so
+        # it costs nothing in steady state but prevents any future replay /
+        # re-seed from silently re-inflating the NAV.
+        try:
+            from .db import get_conn
+            from .rebaseline import rebaseline
+            _conn = get_conn(cfg.db_path)
+            for _fund, _msg in rebaseline(_conn, cfg.snapshot_dir).items():
+                if "rescaled" in _msg or "marked" in _msg:
+                    print(f"rebaseline {_fund}: {_msg}")
+            _conn.close()
+        except Exception as e:
+            print(f"rebaseline guard error (non-fatal): {e}")
         try:
             refresh_data(cfg, desk="all")
         except Exception as e:

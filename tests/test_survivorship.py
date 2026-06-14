@@ -26,10 +26,17 @@ def test_real_delisted_pool_in_research_universe():
     assert len(extra) >= 20
 
 
-def test_trader_universe_stays_live_only():
+def test_trader_universe_excludes_delisted():
+    """The live tradeable universe may include the broad liquid pool, but never
+    the delisted/dead survivorship names (those are research-only); research is
+    a superset of live."""
+    from quantzzz.universe import delisted_pool
     cfg = load_config()
     live = universe_for("equity", cfg.snapshot_dir)
-    assert set(live) == set(EQUITY_UNIVERSE)
+    research = research_universe_for("equity", cfg.snapshot_dir)
+    assert set(EQUITY_UNIVERSE).issubset(set(live))      # core is always live
+    assert not (set(live) & set(delisted_pool(cfg.snapshot_dir)))  # no dead names live
+    assert set(live).issubset(set(research))             # research >= live
 
 
 def test_earnings_blackout_logic(tmp_path, tmp_db):

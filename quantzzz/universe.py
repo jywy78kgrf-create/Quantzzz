@@ -36,6 +36,66 @@ BIOTECH_SEED = [
 
 BENCH_TICKERS = ["SPY", "XBI"]
 
+# Broad liquid US large/mid-cap pool (~S&P 500) so the equity desk has real
+# breadth to find edges in, not just the 63-name core. Names are price-gated
+# into the universe — they only enter once their history has been pulled (same
+# pattern as the biotech catalyst universe), so this can be added before the
+# data backfill catches up.
+EQUITY_RESEARCH_SEED = [
+    # semis / hardware
+    "ADI", "AMAT", "LRCX", "KLAC", "MRVL", "NXPI", "MCHP", "ON", "MPWR", "SWKS",
+    "QRVO", "TER", "KEYS", "GLW", "STX", "WDC", "NTAP", "HPQ", "DELL", "HPE",
+    "ANET", "CSCO", "JNPR", "FFIV", "ZBRA", "MSI", "SMCI", "GFS", "ENPH", "FSLR",
+    # software / internet / fintech
+    "INTU", "ADSK", "ANSS", "CDNS", "SNPS", "ROP", "PTC", "TYL", "FICO", "WDAY",
+    "TEAM", "PANW", "FTNT", "CRWD", "ZS", "DDOG", "SNOW", "NET", "MDB", "PLTR",
+    "GDDY", "AKAM", "VRSN", "CTSH", "ACN", "IBM", "IT", "EPAM", "PAYX", "ADP",
+    "FI", "FIS", "GPN", "PYPL", "MSCI", "SPGI", "MCO", "ICE", "CME", "NDAQ", "CBOE",
+    # comms / media
+    "GOOG", "TMUS", "CHTR", "WBD", "PARA", "FOXA", "OMC", "IPG", "EA", "TTWO",
+    "MTCH", "PINS", "SNAP", "RBLX", "SPOT", "TTD", "LYV",
+    # consumer discretionary
+    "TSLA", "LOW", "BKNG", "ABNB", "MAR", "HLT", "RCL", "CCL", "NCLH", "YUM",
+    "CMG", "DRI", "ORLY", "AZO", "ROST", "TJX", "LULU", "DECK", "DG", "DLTR",
+    "BBY", "EBAY", "ETSY", "F", "GM", "APTV", "GPC", "LEN", "DHI", "PHM", "NVR",
+    "MGM", "LVS", "WYNN", "EXPE", "DPZ", "GRMN", "POOL", "TSCO", "ULTA", "BBWI",
+    # consumer staples
+    "CL", "KMB", "GIS", "K", "HSY", "MDLZ", "MNST", "KDP", "STZ", "TAP", "KHC",
+    "SYY", "ADM", "KR", "WBA", "EL", "CLX", "CHD", "MKC", "CAG", "CPB", "HRL",
+    "TSN", "KVUE",
+    # healthcare
+    "ISRG", "SYK", "BSX", "MDT", "EW", "ZBH", "BDX", "BAX", "RMD", "IDXX", "IQV",
+    "A", "MTD", "WAT", "DGX", "LH", "HCA", "CI", "CVS", "HUM", "CNC", "ELV",
+    "MCK", "COR", "CAH", "DXCM", "ALGN", "HOLX", "STE", "COO", "PODD", "GEHC",
+    "VRTX", "REGN", "GILD", "BIIB", "MRNA",
+    # financials
+    "C", "USB", "PNC", "TFC", "COF", "BK", "STT", "TROW", "AMP", "DFS", "SYF",
+    "AIG", "MET", "PRU", "AFL", "TRV", "ALL", "PGR", "CB", "HIG", "CINF", "WRB",
+    "MMC", "AON", "AJG", "BRO", "FITB", "HBAN", "RF", "KEY", "CFG", "MTB", "NTRS",
+    # industrials
+    "MMM", "GD", "LMT", "RTX", "NOC", "EMR", "ETN", "PH", "ITW", "ROK", "AME",
+    "DOV", "IR", "XYL", "FTV", "OTIS", "CARR", "JCI", "TT", "CMI", "PCAR", "FAST",
+    "GWW", "URI", "UPS", "FDX", "CSX", "NSC", "LUV", "DAL", "UAL", "WM", "RSG",
+    "GNRC", "PWR", "HUBB", "PNR", "AOS", "DAY",
+    # energy
+    "EOG", "OXY", "PSX", "VLO", "MPC", "KMI", "WMB", "OKE", "HES", "DVN", "FANG",
+    "HAL", "BKR", "CTRA", "APA", "TRGP", "LNG",
+    # materials
+    "LIN", "APD", "SHW", "ECL", "FCX", "NEM", "NUE", "STLD", "DOW", "DD", "PPG",
+    "VMC", "MLM", "IP", "BALL", "ALB", "CF", "MOS", "CTVA", "IFF",
+    # utilities
+    "NEE", "DUK", "SO", "D", "AEP", "EXC", "SRE", "XEL", "PEG", "ED", "WEC", "ES",
+    "EIX", "PCG", "AEE", "DTE", "FE", "ETR", "CMS", "CNP", "PPL", "ATO",
+    # real estate
+    "AMT", "PLD", "CCI", "EQIX", "PSA", "O", "SPG", "WELL", "DLR", "VICI", "AVB",
+    "EQR", "EXR", "MAA", "INVH", "ARE", "VTR", "SBAC", "CBRE", "WY",
+]
+
+
+def equity_research_tickers(snapshot_dir: Path) -> list[str]:
+    """The broad equity pool, price-gated to names we have history for."""
+    return [t for t in EQUITY_RESEARCH_SEED if _has_price(snapshot_dir, t)]
+
 
 def biotech_universe(snapshot_dir: Path) -> list[str]:
     """Universe from the BPIQ companies snapshot, else the curated seed."""
@@ -50,7 +110,13 @@ def biotech_universe(snapshot_dir: Path) -> list[str]:
 def universe_for(desk: str, snapshot_dir: Path) -> list[str]:
     """The LIVE/tradeable universe (active names only)."""
     if desk == "equity":
-        return list(EQUITY_UNIVERSE)
+        dead = set(delisted_pool(snapshot_dir))           # never trade a dead name live
+        out, seen = list(EQUITY_UNIVERSE), set(EQUITY_UNIVERSE)
+        for t in equity_research_tickers(snapshot_dir):   # broad pool, price-gated
+            if t not in seen and t not in dead:
+                out.append(t)
+                seen.add(t)
+        return out
     if desk == "biotech":
         return biotech_universe(snapshot_dir)
     raise ValueError(f"unknown desk: {desk}")

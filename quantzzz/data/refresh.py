@@ -177,6 +177,40 @@ def _edgar_fill(cfg, store, tickers, limit):
     return f"{done} fundamentals saved"
 
 
+def _edgar_insider_fill(cfg, store, tickers, limit):
+    """Merge Form-4 open-market insider transactions into the EDGAR files under
+    the ``insider`` key — the field ``insider_frame`` reads and the
+    insider_follow / insider_conviction families depend on (fundamental_series
+    never populated it, so those families ran on empty data).
+
+    Incremental and EDGAR-fair-use bounded: each filing is ~one document fetch
+    (cached a year), so a full first pass is heavy and is spread ``limit`` names
+    per cycle. Only files that exist AND still lack the key are touched, so it
+    fills the gap over cycles then idles. The merge is non-destructive — the
+    fundamentals already in the file are preserved — and the write is atomic."""
+    if not cfg.edgar_user_agent:
+        return "no EDGAR user agent"
+    edgar = EdgarClient(cfg, conn=get_conn(cfg.db_path))
+    todo = []
+    for t in tickers:
+        data = store.load_json(f"edgar/{t}.json")
+        if data is not None and "insider" not in data:
+            todo.append((t, data))
+        if len(todo) >= limit:
+            break
+    done = txns = 0
+    for t, data in todo:
+        try:
+            ins = edgar.insider_transactions(t)
+        except Exception:
+            continue                       # transient EDGAR failure -> retry next cycle
+        data["insider"] = ins              # [] is a valid "looked, none" result
+        store.save_json(f"edgar/{t}.json", data)
+        done += 1
+        txns += len(ins)
+    return f"{done} names, {txns} insider txns merged"
+
+
 def refresh_data(cfg: Config, desk: str = "all") -> None:
     conn = get_conn(cfg.db_path)
     store = SnapshotStore(cfg.snapshot_dir)
@@ -193,6 +227,8 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
               lambda: refresh_premium_feeds(cfg, eq_all, conn,
                                             options_for=EQUITY_UNIVERSE[:30]))
         _safe("equity edgar", lambda: _edgar_fill(cfg, store, eq_all, 999))
+        _safe("equity insider (Form 4)",
+              lambda: _edgar_insider_fill(cfg, store, eq_all, 12))
 
     if desk in ("biotech", "all"):
         from .external_refresh import backfill_options_history, refresh_external_signals
@@ -227,7 +263,9 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
               lambda: backfill_options_history(cfg, conn, **_bf))
         _safe("biotech premium feeds",
               lambda: refresh_premium_feeds(cfg, universe, conn, options_for=universe))
-        _safe("biotech edgar insider", lambda: _edgar_fill(cfg, store, universe, 10))
+        _safe("biotech edgar fundamentals", lambda: _edgar_fill(cfg, store, universe, 10))
+        _safe("biotech insider (Form 4)",
+              lambda: _edgar_insider_fill(cfg, store, universe, 10))
         _safe("external signal extension", lambda: refresh_external_signals(cfg))
         _safe("biotech survivorship pool",
               lambda: refresh_biotech_survivorship_pool(cfg, conn))

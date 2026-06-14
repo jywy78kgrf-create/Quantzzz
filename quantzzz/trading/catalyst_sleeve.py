@@ -34,6 +34,7 @@ class CatalystSleeve:
                  momentum_min: float = 0.40,     # E1: top-quintile 180d run-up bar
                  vol_ratio_min: float = 1.39,    # E2: 63d/252d volume confirmation
                  require_volume: bool = True,
+                 price_floor: float = 10.0,      # validated rule: price >= $10 at entry
                  max_positions: int = 12,
                  store=None, events: pd.DataFrame | None = None):
         self.cfg = cfg
@@ -44,6 +45,7 @@ class CatalystSleeve:
         self.mom_min = momentum_min
         self.vol_min = vol_ratio_min
         self.require_volume = require_volume
+        self.price_floor = price_floor
         self.max_positions = max_positions
         if store is None:
             from ..data.snapshots import SnapshotStore
@@ -152,6 +154,9 @@ class CatalystSleeve:
         ev = ev.sort_values("catalyst_date").drop_duplicates("ticker", keep="first")
         cands = []
         for _, e in ev.iterrows():
+            px = self._quote(e["ticker"])
+            if px is None or px < self.price_floor:   # validated $10 floor at entry
+                continue
             mom = self._momentum(e["ticker"], today)
             if mom is None or mom < self.mom_min:
                 continue

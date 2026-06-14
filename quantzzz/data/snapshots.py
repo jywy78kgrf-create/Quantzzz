@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -55,7 +56,13 @@ class SnapshotStore:
     def save_json(self, relpath: str, obj) -> None:
         path = self.dir / relpath
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(obj, indent=1, default=str))
+        # atomic write: a process killed mid-write (e.g. a CI run cancelled at
+        # the timeout) must never leave a truncated, unparseable file behind.
+        # Write a temp sibling on the same filesystem, then os.replace — which
+        # is atomic — so a reader sees the old file or the new one, never half.
+        tmp = path.with_name(f"{path.name}.{os.getpid()}.tmp")
+        tmp.write_text(json.dumps(obj, indent=1, default=str))
+        os.replace(tmp, path)
 
     def load_json(self, relpath: str):
         path = self.dir / relpath

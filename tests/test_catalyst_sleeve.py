@@ -95,3 +95,23 @@ def test_sleeve_filters_catalyst_type(tmp_db):
                         "catalyst_type": "Phase3", "catalyst_date": cat}])
     s2 = CatalystSleeve(cfg, tmp_db, require_volume=False, store=store, events=p3)
     assert "1 entered" in s2.session(as_of=day)        # Phase3 qualifies
+
+
+def test_sleeve_exit_books_no_phantom_trade_when_not_held(tmp_db):
+    from quantzzz.db import insert
+    cfg = load_config()
+    s = CatalystSleeve(cfg, tmp_db, require_volume=False,
+                       store=_FakeStore({"AAA": _rising_panel(pd.Timestamp("2024-10-01"))}),
+                       events=pd.DataFrame())
+    # a tracking row whose position is NOT in the book (orphaned / closed elsewhere)
+    insert(tmp_db, "catalyst_sleeve", fund=FUND, ticker="AAA", event_id="X",
+           catalyst_type="Phase3", catalyst_date="2024-10-01",
+           entry_ts="2024-08-01T00:00:00Z", entry_px=100.0, qty=50, runup_180d=0.5)
+    s._asof = pd.Timestamp("2024-10-01")
+    s.broker.session_ts = "2024-10-01T00:00:00Z"
+    s.broker.session_source = "live"
+    row = tmp_db.execute("SELECT * FROM catalyst_sleeve WHERE ticker='AAA'").fetchone()
+    s._exit(row, "test")
+    # no real position -> no phantom closed trade, and the stale row is untracked
+    assert tmp_db.execute("SELECT COUNT(*) FROM trades WHERE fund=?", (FUND,)).fetchone()[0] == 0
+    assert tmp_db.execute("SELECT COUNT(*) FROM catalyst_sleeve WHERE ticker='AAA'").fetchone()[0] == 0

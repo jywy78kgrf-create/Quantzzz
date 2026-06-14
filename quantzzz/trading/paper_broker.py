@@ -54,12 +54,17 @@ class PaperBroker(Broker):
             (self.fund, ticker)).fetchone()
         return Position(r["ticker"], r["qty"], r["avg_cost"]) if r else None
 
+    @staticmethod
+    def _mark(quote, avg_cost: float) -> float:
+        # honour a genuine 0.0 (a name wiped out to zero) — `quote or avg_cost`
+        # would mark a -100% position back at cost and hide the loss
+        return quote if quote is not None else avg_cost
+
     def get_account(self) -> Account:
         cash = self._cash()
         mkt = 0.0
         for pos in self.get_positions():
-            px = self.quote_fn(pos.ticker) or pos.avg_cost
-            mkt += pos.qty * px
+            mkt += pos.qty * self._mark(self.quote_fn(pos.ticker), pos.avg_cost)
         return Account(self.fund, cash, cash + mkt)
 
     # ---- execution ----
@@ -128,11 +133,20 @@ class PaperBroker(Broker):
         ts = ts or utcnow()
         acct = self.get_account()
         positions = self.get_positions()
-        gross = sum(abs(p.qty) * (quotes.get(p.ticker) or p.avg_cost) for p in positions)
-        net = sum(p.qty * (quotes.get(p.ticker) or p.avg_cost) for p in positions)
+        gross = sum(abs(p.qty) * self._mark(quotes.get(p.ticker), p.avg_cost) for p in positions)
+        net = sum(p.qty * self._mark(quotes.get(p.ticker), p.avg_cost) for p in positions)
         state = self.conn.execute(
             "SELECT hwm FROM fund_state WHERE fund=?", (self.fund,)).fetchone()
-        hwm = max(state["hwm"] if state else acct.equity, acct.equity)
+        prev = state["hwm"] if state else acct.equity
+        # The high-water mark only moves on LIVE sessions — replay peaks are
+        # hindsight and must never pollute the live drawdown. And a fully
+        # liquidated/flat book resets its peak to current cash, so a halt can
+        # actually HEAL instead of pinning the fund below a stale pre-crash peak
+        # forever (which made liquidate_only an unrecoverable absorbing state).
+        if self.session_source == "live":
+            hwm = acct.equity if not positions else max(prev, acct.equity)
+        else:
+            hwm = prev
         drawdown = 0.0 if hwm == 0 else (acct.equity - hwm) / hwm
         self.conn.execute("UPDATE fund_state SET hwm=? WHERE fund=?", (hwm, self.fund))
         insert(self.conn, "equity_snapshots", fund=self.fund, ts=ts,

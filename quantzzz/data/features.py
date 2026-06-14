@@ -225,9 +225,18 @@ def news_sentiment_frame(bundle: FeatureBundle, lookback: int = 10) -> pd.DataFr
 
 # ---- catalyst features (BPIQ) ----
 def days_to_catalyst_frame(bundle: FeatureBundle) -> pd.DataFrame:
-    """Trading-day distance to each ticker's next catalyst (NaN if none ahead)."""
+    """TRADING-day distance to each ticker's next catalyst (NaN if none ahead).
+
+    Measured in trading days (positions in the price calendar), not calendar
+    days — the entry/exit window params the catalyst families learn are trading
+    days, so a calendar-day delta (``(timestamp - timestamp).days``) mis-times
+    every window by ~1.4x.
+    """
     if not bundle.catalysts:
         return pd.DataFrame(index=bundle.dates)
+    dates = pd.DatetimeIndex(bundle.dates)
+    n = len(dates)
+    pos = np.arange(n)
     by_ticker: dict[str, list[pd.Timestamp]] = {}
     for c in bundle.catalysts:
         tk, cd = c.get("ticker"), c.get("catalyst_date")
@@ -239,14 +248,12 @@ def days_to_catalyst_frame(bundle: FeatureBundle) -> pd.DataFrame:
     cols = {}
     for tk, dates_list in by_ticker.items():
         cat_dates = pd.DatetimeIndex(sorted(dates_list))
-        idx = cat_dates.searchsorted(bundle.dates)
-        vals = []
-        for i, d in zip(idx, bundle.dates):
-            if i < len(cat_dates):
-                vals.append((cat_dates[i] - d).days)
-            else:
-                vals.append(np.nan)
-        cols[tk] = pd.Series(vals, index=bundle.dates)
+        cat_pos = dates.searchsorted(cat_dates)        # trading-day index of each catalyst
+        j = np.searchsorted(cat_pos, pos, side="left")  # next catalyst at/after each date
+        vals = np.full(n, np.nan, dtype=float)
+        ahead = j < len(cat_pos)
+        vals[ahead] = cat_pos[j[ahead]] - pos[ahead]    # distance in trading days
+        cols[tk] = pd.Series(vals, index=dates)
     return pd.DataFrame(cols).reindex(index=bundle.dates)
 
 

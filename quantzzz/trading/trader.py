@@ -91,6 +91,13 @@ class TraderAgent:
     def _quote(self, ticker: str) -> float | None:
         return self._price_cache.get(ticker)
 
+    def _mark(self, ticker: str, avg_cost: float) -> float:
+        # honour a genuine 0.0 mark (a wiped-out name); `quote or avg_cost`
+        # would mark a -100% position back at cost and hide the loss from
+        # equity, drawdown, exposure and the stop check
+        q = self._quote(ticker)
+        return q if q is not None else avg_cost
+
     def _ts(self) -> str:
         if self.as_of is not None:
             return pd.Timestamp(self.as_of).isoformat()
@@ -407,7 +414,7 @@ class TraderAgent:
             row = self.conn.execute(
                 "SELECT stop_px, avg_cost, strategy_id FROM positions WHERE fund=? AND ticker=?",
                 (self.fund, pos.ticker)).fetchone()
-            px = self._quote(pos.ticker) or pos.avg_cost
+            px = self._mark(pos.ticker, pos.avg_cost)
             if not row["stop_px"]:
                 continue
             # close-only triggering misses intraday stop-outs (a name that
@@ -445,7 +452,7 @@ class TraderAgent:
             return {}
         out = {}
         for p in self.broker.get_positions():
-            px = self._quote(p.ticker) or p.avg_cost
+            px = self._mark(p.ticker, p.avg_cost)
             out[p.ticker] = p.qty * px / equity
         return out
 
@@ -552,7 +559,7 @@ class TraderAgent:
             if series is None:
                 continue
             s = series if end is None else series[series.index <= end]
-            w = (p.qty * (self._quote(p.ticker) or p.avg_cost)) / acct.equity
+            w = (p.qty * self._mark(p.ticker, p.avg_cost)) / acct.equity
             parts.append(s.pct_change().tail(252) * w)
         if not parts:
             return 1.0
@@ -574,7 +581,8 @@ class TraderAgent:
     # ---- state helpers ----
     def _current_drawdown(self) -> float:
         row = self.conn.execute(
-            "SELECT drawdown FROM equity_snapshots WHERE fund=? ORDER BY id DESC LIMIT 1",
+            "SELECT drawdown FROM equity_snapshots WHERE fund=? AND source='live' "
+            "ORDER BY id DESC LIMIT 1",
             (self.fund,)).fetchone()
         return row["drawdown"] if row else 0.0
 

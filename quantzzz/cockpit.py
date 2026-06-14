@@ -55,13 +55,47 @@ def build_state(cfg: Config) -> dict:
                                for d, v in window.items()][-500:]
         mode_row = conn.execute("SELECT mode FROM fund_state WHERE fund=?", (fund,)).fetchone()
         live = [s for s in snaps if s["source"] == "live"]
+        # Fixed-budget forward book: the live paper trade expressed from the
+        # fund's STARTING budget, not the replay-inflated NAV. Positions size as
+        # a % of equity, so the live returns are identical whether the book sits
+        # at $1M or replay's $2.2M — rebasing to the starting budget shows honest
+        # dollars and drops the deceptive hindsight NAV from the headline.
+        acct = conn.execute("SELECT starting_cash FROM accounts WHERE fund=?",
+                             (fund,)).fetchone()
+        start_budget = (acct["starting_cash"] if acct and acct["starting_cash"]
+                        else cfg.starting_cash)
+        fwd_value = start_budget
+        fwd_curve, fwd_bench_curve, fwd_bench_ret = [], [], None
+        if live:
+            import pandas as pd
+            base = live[0]["equity"]
+            fwd_value = start_budget * (live[-1]["equity"] / base)
+            fwd_curve = [[s["ts"], round(start_budget * s["equity"] / base, 2)]
+                         for s in live]
+            if px is not None:
+                gl = pd.to_datetime(live[0]["ts"], format="ISO8601", utc=True).tz_localize(None)
+                w = px.loc[px.index >= gl, "close"]
+                if len(w):
+                    bscale = start_budget / w.iloc[0]
+                    fwd_bench_curve = [[str(d.date()), round(v * bscale, 2)]
+                                       for d, v in w.items()]
+                    fwd_bench_ret = (w.iloc[-1] / w.iloc[0] - 1) * 100
         funds[fund] = {
             "equity": last["equity"],
             "ret_pct": (last["equity"] / first["equity"] - 1) * 100,
+            "start_budget": start_budget,
+            "fwd_value": fwd_value,
+            # constant factor to express any current dollar (NAV, positions) on
+            # the fixed starting budget: start_budget / equity-at-go-live
+            "fwd_scale": (start_budget / live[0]["equity"]) if live
+                         else (start_budget / last["equity"]),
             "fwd_ret_pct": ((live[-1]["equity"] / live[0]["equity"] - 1) * 100
                             if len(live) >= 1 else None),
             "fwd_since": live[0]["ts"][:10] if live else None,
             "fwd_sessions": len(live),
+            "fwd_curve": fwd_curve,
+            "fwd_bench_curve": fwd_bench_curve,
+            "fwd_bench_ret_pct": fwd_bench_ret,
             "bench": bench_t,
             "bench_ret_pct": ((bench_curve[-1][1] / first["equity"] - 1) * 100) if bench_curve else None,
             "gross": last["gross_exposure"] * 100,
@@ -164,7 +198,9 @@ def build_state(cfg: Config) -> dict:
     for fund in ("equity", "biotech"):
         rows = _rows(conn, "SELECT ticker, qty, avg_cost, opened_ts FROM positions "
                            "WHERE fund=?", (fund,))
-        eq = funds.get(fund, {}).get("equity") or 1
+        fd = funds.get(fund, {})
+        eq = fd.get("equity") or 1
+        scale = fd.get("fwd_scale", 1.0)   # rebase $ onto the fixed budget
         out = []
         for r in rows:
             px = store.load_prices(r["ticker"])
@@ -174,10 +210,10 @@ def build_state(cfg: Config) -> dict:
                 "entry_date": (r["opened_ts"] or "")[:10],
                 "entry_px": r["avg_cost"],
                 "px": last_px,
-                "cost": r["qty"] * r["avg_cost"],
-                "value": r["qty"] * last_px,
+                "cost": r["qty"] * r["avg_cost"] * scale,
+                "value": r["qty"] * last_px * scale,
                 "weight": r["qty"] * last_px / eq * 100,
-                "pnl": (last_px - r["avg_cost"]) * r["qty"],
+                "pnl": (last_px - r["avg_cost"]) * r["qty"] * scale,
                 "pnl_pct": (last_px / r["avg_cost"] - 1) * 100 if r["avg_cost"] else 0,
             })
         out.sort(key=lambda x: -x["weight"])

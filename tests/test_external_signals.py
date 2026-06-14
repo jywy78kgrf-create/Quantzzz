@@ -158,7 +158,7 @@ def test_external_families_face_stricter_promotion_gate():
         assert thr.min_dsr_prob >= 0.90
         assert thr.min_positive_windows == 5   # ALL walk-forward windows
     # a price-native biotech family keeps the standard biotech gate
-    standard = cfg.promotion_for("biotech", "pdufa_runup")
+    standard = cfg.promotion_for("biotech", "cash_runway_screen")
     assert standard is not PROMOTION_THRESHOLDS_EXTERNAL
 
 

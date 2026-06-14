@@ -442,9 +442,7 @@ class TraderAgent:
         fill = self.broker.submit_order(Order(self.fund, ticker, "sell", pos["qty"],
                                               strategy_id=strategy_id, journal_id=jid))
         if fill:
-            pnl = (fill.price - pos["avg_cost"]) * pos["qty"]
-            pnl_pct = (fill.price / pos["avg_cost"] - 1) if pos["avg_cost"] else 0.0
-            self._record_trade_exit(ticker, fill.price, pnl, pnl_pct, reason)
+            self._realize_sell(ticker, fill.qty, fill.price, reason)
 
     # ---- rebalancing ----
     def _current_weights(self, equity: float) -> dict[str, float]:
@@ -496,11 +494,9 @@ class TraderAgent:
                                                       journal_id=jid))
                 if fill:
                     n += 1
-                    if full_close:
-                        pnl = (fill.price - held["avg_cost"]) * qty
-                        pnl_pct = (fill.price / held["avg_cost"] - 1) if held["avg_cost"] else 0.0
-                        self._record_trade_exit(ticker, fill.price, pnl, pnl_pct,
-                                                "rebalance: target weight zero")
+                    self._realize_sell(ticker, fill.qty, fill.price,
+                                       "rebalance: target weight zero" if full_close
+                                       else "rebalance: trim")
             else:
                 opening = ticker not in current or current.get(ticker, 0.0) == 0.0
                 jid = self.journal.record(
@@ -520,10 +516,7 @@ class TraderAgent:
                             "UPDATE positions SET stop_px=? WHERE fund=? AND ticker=?",
                             (self.risk.stop_price(fill.price, self._ticker_vol(ticker)),
                              self.fund, ticker))
-                        insert(self.conn, "trades", fund=self.fund, strategy_id=sid,
-                               ticker=ticker, entry_ts=self._ts(), entry_px=fill.price,
-                               qty=qty, source=self._source())
-                        self.conn.commit()
+                    self._record_buy(ticker, sid)
         return n
 
     def _record_candidates(self, raw: dict[str, float], final: dict[str, float],
@@ -596,12 +589,57 @@ class TraderAgent:
                           (mode, utcnow(), self.fund))
         self.conn.commit()
 
-    def _record_trade_exit(self, ticker, exit_px, pnl, pnl_pct, reason):
-        row = self.conn.execute(
-            "SELECT id FROM trades WHERE fund=? AND ticker=? AND exit_ts IS NULL "
-            "ORDER BY id DESC LIMIT 1", (self.fund, ticker)).fetchone()
-        if row:
+    def _open_trade_row(self, ticker):
+        return self.conn.execute(
+            "SELECT id, qty, entry_px, entry_ts, strategy_id FROM trades "
+            "WHERE fund=? AND ticker=? AND exit_ts IS NULL ORDER BY id DESC LIMIT 1",
+            (self.fund, ticker)).fetchone()
+
+    def _record_buy(self, ticker: str, strategy_id) -> None:
+        """Keep ONE open lot-row per position, mirroring its qty + average cost,
+        so a scale-in doesn't leave the trade row's quantity stale."""
+        pos = self.conn.execute(
+            "SELECT qty, avg_cost FROM positions WHERE fund=? AND ticker=?",
+            (self.fund, ticker)).fetchone()
+        if pos is None:
+            return
+        row = self._open_trade_row(ticker)
+        if row is None:
+            insert(self.conn, "trades", fund=self.fund, strategy_id=strategy_id,
+                   ticker=ticker, entry_ts=self._ts(), entry_px=pos["avg_cost"],
+                   qty=pos["qty"], source=self._source())
+        else:
+            self.conn.execute("UPDATE trades SET qty=?, entry_px=? WHERE id=?",
+                              (pos["qty"], pos["avg_cost"], row["id"]))
+        self.conn.commit()
+
+    def _realize_sell(self, ticker: str, sold_qty: float, exit_px: float, reason: str) -> None:
+        """Book realized P&L on EVERY sell — partial trims included — against the
+        position's average cost, attributed to the lot-row's strategy. Unrecorded
+        partial exits previously biased the learning loop's hit-rate/payoff (the
+        stats that promote, retire and graduate strategies)."""
+        row = self._open_trade_row(ticker)
+        if row is not None:
+            entry_px, entry_ts, sid, open_qty = (row["entry_px"], row["entry_ts"],
+                                                 row["strategy_id"], row["qty"])
+        else:
+            p = self.conn.execute("SELECT avg_cost FROM positions WHERE fund=? AND ticker=?",
+                                  (self.fund, ticker)).fetchone()
+            entry_px = (p["avg_cost"] if p else exit_px) or exit_px
+            entry_ts, sid, open_qty = self._ts(), None, sold_qty
+        pnl = (exit_px - entry_px) * sold_qty
+        pnl_pct = (exit_px / entry_px - 1) if entry_px else 0.0
+        if row is not None and open_qty <= sold_qty + 1e-6:
             self.conn.execute(
-                "UPDATE trades SET exit_ts=?, exit_px=?, pnl=?, pnl_pct=?, exit_reason=? "
-                "WHERE id=?", (self._ts(), exit_px, pnl, pnl_pct, reason, row["id"]))
-            self.conn.commit()
+                "UPDATE trades SET exit_ts=?, exit_px=?, qty=?, pnl=?, pnl_pct=?, "
+                "exit_reason=? WHERE id=?",
+                (self._ts(), exit_px, sold_qty, pnl, pnl_pct, reason, row["id"]))
+        else:
+            insert(self.conn, "trades", fund=self.fund, strategy_id=sid, ticker=ticker,
+                   entry_ts=entry_ts, entry_px=entry_px, qty=sold_qty, exit_ts=self._ts(),
+                   exit_px=exit_px, pnl=pnl, pnl_pct=pnl_pct, exit_reason=reason,
+                   source=self._source())
+            if row is not None:
+                self.conn.execute("UPDATE trades SET qty=qty-? WHERE id=?",
+                                  (sold_qty, row["id"]))
+        self.conn.commit()

@@ -196,6 +196,9 @@
 
   <div class="card col6"><h3>Equity Book</h3><table id="poseq"><thead></thead><tbody></tbody></table></div>
   <div class="card col6"><h3>Biotech Book</h3><table id="posbio"><thead></thead><tbody></tbody></table></div>
+  <div class="card col12"><h3>Catalyst Sleeve · event-driven, exits before the readout
+    <span style="float:right;font-weight:400;text-transform:none;letter-spacing:0" id="cssub"></span></h3>
+    <table id="csbook"><thead></thead><tbody></tbody></table></div>
   <div class="card col12"><h3>Catalyst Radar</h3><div id="cats"></div></div>
 </div>
 
@@ -521,6 +524,31 @@ function books(s){
   }
 }
 
+function catalyst(s){
+  const c=s.catalyst, sub=$('cssub'),
+    tb=$('csbook').querySelector('tbody'), head=$('csbook').querySelector('thead');
+  if(!c||!c.value){ if(sub)sub.textContent='no sleeve book yet — starts on the next cycle';
+    tb.innerHTML=''; head.innerHTML=''; return; }
+  const fwd=c.fwd_ret==null?'—':`<span class="${cls(c.fwd_ret)}">${pct(c.fwd_ret,2)}</span>`;
+  const win=c.closed_n?` · ${Math.round((c.hit||0)*100)}% win on ${c.closed_n} closed`:'';
+  sub.innerHTML=`$${Math.round(c.value).toLocaleString()} forward ${fwd} · ${c.n_open} open${win}`;
+  head.innerHTML=`<tr><th>tkr</th><th>catalyst</th><th>type</th>
+    <th style="text-align:right">runup</th><th style="text-align:right">now</th>
+    <th style="text-align:right">now $</th><th style="text-align:right">p&l</th></tr>`;
+  tb.innerHTML='';
+  if(!c.open.length){tb.innerHTML='<tr><td style="color:var(--dim)">no open catalyst positions</td></tr>';return;}
+  for(const o of c.open){
+    tb.insertAdjacentHTML('beforeend',`<tr>
+      <td><b>${o.ticker}</b></td>
+      <td style="color:var(--dim)">${o.catalyst_date||''}</td>
+      <td style="color:var(--dim)">${o.ctype||''}</td>
+      <td style="text-align:right;color:#2dd4a7">+${Math.round(o.runup)}%</td>
+      <td style="text-align:right">${px$(o.now_px)}</td>
+      <td style="text-align:right">$${Math.round(o.value).toLocaleString()}</td>
+      <td class="${cls(o.pnl_pct)}" style="text-align:right">${pct(o.pnl_pct,1)}</td></tr>`);
+  }
+}
+
 function cats(s){
   const el=$('cats'); el.innerHTML='';
   if(!s.catalysts.length){el.innerHTML='<div style="color:var(--dim)">no upcoming catalysts loaded</div>';return;}
@@ -535,7 +563,7 @@ let firstLoad=true;
 async function refresh(){
   try{
     const s=await(await fetch('/api/state')).json();
-    kpis(s);loop(s);curves(s);bench(s);strats(s);feed(s);books(s);cats(s);labChart(s);labChart2(s);labTicker(s);
+    kpis(s);loop(s);curves(s);bench(s);strats(s);feed(s);books(s);catalyst(s);cats(s);labChart(s);labChart2(s);labTicker(s);
     if(firstLoad){firstLoad=false;
       if(window.gsap)gsap.from('.card',{y:18,opacity:0,duration:.65,stagger:.05,ease:'power2.out',clearProps:'transform,opacity'});}
   }catch(e){$('heartbeat').textContent='reconnecting…';}

@@ -149,7 +149,8 @@ def _event_rows(store: SnapshotStore) -> list[dict]:
 
 
 def backfill_options_history(cfg: Config, conn, max_calls: int = 4000,
-                             since: str = "2026-05-11") -> dict:
+                             since: str = "2026-05-11",
+                             max_seconds: float | None = None) -> dict:
     """Fill the post-export gap with real historical chains.
 
     The uncontaminated runway starts the day after the frozen export ends;
@@ -158,7 +159,16 @@ def backfill_options_history(cfg: Config, conn, max_calls: int = 4000,
     walks the biotech universe x missing trading days, newest first, up to
     ``max_calls`` per cycle (600/min tier: thousands per cycle is fine).
     Progress is implicit — fetched days land in av_options/*.json, so reruns
-    only chase what is still missing."""
+    only chase what is still missing.
+
+    Two governors keep it inside the cycle's wall clock: ``max_calls`` caps API
+    spend, and ``max_seconds`` caps elapsed time so the backfill always yields
+    control back to the rest of the cycle (research/trading) instead of running
+    into the CI timeout and being cancelled mid-write. Existing chains are
+    indexed ONCE per ticker up front — re-reading av_options/{t}.json inside the
+    (day, ticker) loop was hundreds of thousands of redundant parses on a deep
+    ``since`` and is what drove off-hours runs to the 90-min wall."""
+    import time
     from .alphavantage import AlphaVantageClient
     store = SnapshotStore(cfg.snapshot_dir)
     av = AlphaVantageClient(cfg, conn, store)
@@ -169,18 +179,26 @@ def backfill_options_history(cfg: Config, conn, max_calls: int = 4000,
         return {"skipped": "no calendar"}
     cal = [str(d.date()) for d in xbi.index if str(d.date()) > since]
     universe = (store.load_json("bpiq/universe.json") or [])
+    # One read per ticker: the set of dates already on disk. O(1) membership in
+    # the loop, kept current in memory as fresh chains land.
+    have = {t: {h.get("date") for h in (store.load_json(f"av_options/{t}.json") or [])}
+            for t in universe}
+    deadline = (time.monotonic() + max_seconds) if max_seconds is not None else None
     calls = fetched = 0
     for day in reversed(cal):                       # newest gaps first
         for t in universe:
             if calls >= max_calls or av.budget.remaining() <= 0:
                 return {"calls": calls, "chains_fetched": fetched,
                         "status": "budget pause; resumes next cycle"}
-            hist = store.load_json(f"av_options/{t}.json") or []
-            if any(h.get("date") == day for h in hist):
+            if deadline is not None and time.monotonic() >= deadline:
+                return {"calls": calls, "chains_fetched": fetched,
+                        "status": "time budget reached; resumes next cycle"}
+            if day in have[t]:
                 continue
             calls += 1
             if av.options_summary_on(t, day):
                 fetched += 1
+                have[t].add(day)
     return {"calls": calls, "chains_fetched": fetched, "status": "gap filled"}
 
 

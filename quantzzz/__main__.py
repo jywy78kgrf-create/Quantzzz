@@ -80,7 +80,7 @@ def main(argv: list[str] | None = None) -> int:
         if not cfg.db_path.exists() and seed.exists():
             import shutil
             shutil.copy(seed, cfg.db_path)
-            print(f"bootstrapped from committed seed (strategies + track record)")
+            print("bootstrapped from committed seed (strategies + track record)")
         conn = get_conn(cfg.db_path)
         init_schema(conn)
         print(f"schema ready at {cfg.db_path}")

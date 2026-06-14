@@ -53,7 +53,6 @@ def test_chronological_split_no_overlap_with_embargo():
 
 
 def test_liquidity_cost_panel_charges_small_caps_more():
-    import numpy as np
     import pandas as pd
     from quantzzz.data.features import trading_cost_bps
     from quantzzz.research.backtest import Backtester

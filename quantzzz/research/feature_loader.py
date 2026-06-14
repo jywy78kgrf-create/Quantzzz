@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import sqlite3
 
-import pandas as pd
 
 from ..config import Config
 from ..data.external_signals import load_external_signals

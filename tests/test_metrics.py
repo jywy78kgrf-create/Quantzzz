@@ -79,7 +79,7 @@ def test_downside_capture_distinguishes_beta_from_robust():
 
 
 def test_downside_capture_gate_rejects_amplifier():
-    import numpy as np, pandas as pd
+    import pandas as pd
     from quantzzz.research.promotion import Evaluation, check_promotion
     from quantzzz.config import PROMOTION_THRESHOLDS
     thr = PROMOTION_THRESHOLDS["biotech"]

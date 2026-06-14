@@ -12,9 +12,7 @@ number is the difference between a finding and a fantasy.
 
 from __future__ import annotations
 
-import pandas as pd
 
-from ..data import features as F
 from .strategies import signal_fn_for
 from .strategy_space import StrategySpec
 

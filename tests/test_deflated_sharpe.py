@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import pytest
 
 from quantzzz.research.backtest import walk_forward_windows
 from quantzzz.research.metrics import deflated_sharpe_prob

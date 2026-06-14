@@ -80,7 +80,7 @@ for fund in ("equity", "biotech"):
     bench_rows.append({
         "Fund": fund.title(),
         "Fund return": f"{fund_ret:+.2%}",
-        f"Buy & hold": f"{bench_ret:+.2%} ({bench_t})" if bench_ret is not None else "—",
+        "Buy & hold": f"{bench_ret:+.2%} ({bench_t})" if bench_ret is not None else "—",
         "Excess (the alpha that matters)":
             f"{fund_ret - bench_ret:+.2%}" if bench_ret is not None else "—",
     })

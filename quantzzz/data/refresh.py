@@ -217,8 +217,12 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         from datetime import datetime, timezone
         _now = datetime.now(timezone.utc)
         _off_hours = _now.weekday() >= 5 or not (13 <= _now.hour <= 21)
-        _bf = dict(max_calls=20000, since="2024-01-01") if _off_hours \
-            else dict(max_calls=3000, since="2026-05-11")
+        # max_seconds bounds the backfill well inside the 90-min cycle cap so the
+        # research + trading steps that follow always get to run, and the CI run
+        # finishes "success" instead of being cancelled at the timeout. Progress
+        # is durable (fetched days persist), so the deep pull resumes next cycle.
+        _bf = dict(max_calls=20000, since="2024-01-01", max_seconds=2400) if _off_hours \
+            else dict(max_calls=3000, since="2026-05-11", max_seconds=600)
         _safe(f"options history backfill ({'deep/off-hours' if _off_hours else 'forward'})",
               lambda: backfill_options_history(cfg, conn, **_bf))
         _safe("biotech premium feeds",

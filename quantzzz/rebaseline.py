@@ -83,6 +83,10 @@ def rebaseline(conn: sqlite3.Connection, snapshot_dir: Path | None = None) -> di
                          "WHERE fund=? AND source='live'", (f, f, fund))
             conn.execute("UPDATE trades SET pnl=pnl*?, qty=qty*? "
                          "WHERE fund=? AND source='live'", (f, f, fund))
+            # the high-water mark must move with the rescale, or the drawdown
+            # (equity - hwm)/hwm compares two scales and reads a phantom crash
+            # that false-triggers the risk halts
+            conn.execute("UPDATE fund_state SET hwm=hwm*? WHERE fund=?", (f, fund))
             notes.append(f"NAV rescaled x{f:.4f} (go-live ${golive:,.0f} -> ${start:,.0f})")
         else:
             notes.append(f"NAV already anchored (${golive:,.0f})")

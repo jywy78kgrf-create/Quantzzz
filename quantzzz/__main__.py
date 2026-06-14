@@ -122,7 +122,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.cmd == "rebaseline":
         from .rebaseline import rebaseline
         conn = get_conn(cfg.db_path)
-        for fund, msg in rebaseline(conn).items():
+        for fund, msg in rebaseline(conn, cfg.snapshot_dir).items():
             print(f"{fund}: {msg}")
         conn.close()
         return 0

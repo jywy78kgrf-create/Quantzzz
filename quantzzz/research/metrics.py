@@ -97,10 +97,10 @@ def alpha_beta(returns: pd.Series, benchmark: pd.Series) -> tuple[float, float]:
     if len(joined) < 20:
         return 0.0, 0.0
     r, b = joined.iloc[:, 0].to_numpy(), joined.iloc[:, 1].to_numpy()
-    var_b = b.var()
-    if var_b == 0:
+    var_b = float(b.var(ddof=1))
+    if var_b < 1e-12:                     # constant / near-constant benchmark slice
         return 0.0, 0.0
-    beta = float(np.cov(r, b, ddof=1)[0, 1] / b.var(ddof=1))
+    beta = float(np.cov(r, b, ddof=1)[0, 1] / var_b)
     alpha_daily = float(r.mean() - beta * b.mean())
     return alpha_daily * TRADING_DAYS, beta
 

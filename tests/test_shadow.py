@@ -4,8 +4,6 @@ from __future__ import annotations
 
 from types import SimpleNamespace
 
-import pandas as pd
-import pytest
 
 from quantzzz.research import shadow as SH
 

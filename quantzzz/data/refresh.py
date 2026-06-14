@@ -131,7 +131,6 @@ def refresh_earnings_calendar(cfg: Config, conn) -> dict:
     """Upcoming report dates for our universes -> snapshot for the traders."""
     store = SnapshotStore(cfg.snapshot_dir)
     av = AlphaVantageClient(cfg, conn, store)
-    from .bpiq import BpiqProvider
     universe = set(EQUITY_UNIVERSE)
     bpiq_uni = store.load_json("bpiq/universe.json") or []
     universe.update(bpiq_uni)

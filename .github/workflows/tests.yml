@@ -20,4 +20,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install -e ".[dev]"
+      - name: Lint (ruff — advisory, never blocks)
+        continue-on-error: true
+        run: ruff check quantzzz/ tests/
       - run: python -m pytest -q

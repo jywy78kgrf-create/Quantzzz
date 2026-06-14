@@ -151,7 +151,7 @@ class PaperBroker(Broker):
         self.conn.execute("UPDATE fund_state SET hwm=? WHERE fund=?", (hwm, self.fund))
         insert(self.conn, "equity_snapshots", fund=self.fund, ts=ts,
                equity=acct.equity, cash=acct.cash,
-               gross_exposure=gross / acct.equity if acct.equity else 0,
-               net_exposure=net / acct.equity if acct.equity else 0,
+               gross_exposure=gross / acct.equity if acct.equity > 0 else 0,
+               net_exposure=net / acct.equity if acct.equity > 0 else 0,
                drawdown=drawdown, source=self.session_source)
         self.conn.commit()

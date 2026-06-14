@@ -13,10 +13,19 @@ from ...data import features as F
 from ..strategy_space import ParamDef, ParamSpace
 
 
-def _equal_weight(mask: pd.DataFrame, max_positions: int) -> pd.DataFrame:
-    """Equal-weight up to max_positions names per row from a boolean mask."""
-    # cap positions by keeping the first max_positions True entries per row
-    capped = mask & (mask.cumsum(axis=1).le(max_positions))
+def _equal_weight(mask: pd.DataFrame, max_positions: int,
+                  score: pd.DataFrame | None = None) -> pd.DataFrame:
+    """Equal-weight up to max_positions names per row from a boolean mask.
+
+    With a ``score`` frame, keep the HIGHEST-scoring eligible names per row so
+    the basket isn't a function of universe column order (a reproducibility /
+    selection-bias hole). Callers with no natural priority keep column order.
+    """
+    if score is not None:
+        ranked = score.where(mask).rank(axis=1, ascending=False, method="first")
+        capped = mask & (ranked <= max_positions)
+    else:
+        capped = mask & (mask.cumsum(axis=1).le(max_positions))
     return capped.div(capped.sum(axis=1).replace(0, np.nan), axis=0).fillna(0.0)
 
 
@@ -34,7 +43,9 @@ def pdufa_runup_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
         return pd.DataFrame(0.0, index=bundle.dates, columns=bundle.tickers)
     entry, exit_ = int(p["entry_days_before"]), int(p["exit_days_before"])
     in_window = (dtc <= entry) & (dtc > exit_)
-    return _equal_weight(in_window.fillna(False), int(p["max_positions"]))
+    # prefer the most imminent catalysts (smallest days-to-catalyst), not the
+    # first columns
+    return _equal_weight(in_window.fillna(False), int(p["max_positions"]), score=-dtc)
 
 
 # ---- post-catalyst drift: ride momentum after a recent catalyst ----
@@ -56,7 +67,8 @@ def post_catalyst_drift_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame
     window = recent.rolling(int(p["drift_days"]), min_periods=1).max().fillna(0) > 0
     mom = F.momentum(bundle.prices, int(p["mom_lookback"])).reindex(columns=bundle.tickers)
     qualifying = window & (mom > 0)
-    return _equal_weight(qualifying.fillna(False), int(p["max_positions"]))
+    # keep the strongest-momentum names, not the first columns
+    return _equal_weight(qualifying.fillna(False), int(p["max_positions"]), score=mom)
 
 
 # ---- cash-runway screen: own well-capitalized names, momentum-tilted ----

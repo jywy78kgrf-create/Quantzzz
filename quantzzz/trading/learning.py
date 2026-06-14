@@ -26,13 +26,13 @@ class LearningLoop:
     def current_multiplier(self, strategy_id: int) -> float:
         row = self.conn.execute(
             "SELECT weight_multiplier FROM strategy_performance WHERE strategy_id=? "
-            "ORDER BY as_of_ts DESC LIMIT 1", (strategy_id,)).fetchone()
+            "ORDER BY as_of_ts DESC, rowid DESC LIMIT 1", (strategy_id,)).fetchone()
         return row["weight_multiplier"] if row else 1.0
 
     def is_active(self, strategy_id: int) -> bool:
         row = self.conn.execute(
             "SELECT active FROM strategy_performance WHERE strategy_id=? "
-            "ORDER BY as_of_ts DESC LIMIT 1", (strategy_id,)).fetchone()
+            "ORDER BY as_of_ts DESC, rowid DESC LIMIT 1", (strategy_id,)).fetchone()
         return bool(row["active"]) if row else True
 
     def review(self) -> int:

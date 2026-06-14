@@ -58,3 +58,25 @@ def test_sleeve_skips_weak_momentum(tmp_db):
                                                   "catalyst_type": "Phase3", "catalyst_date": cat}]))
     msg = sleeve.session(as_of=(cat - pd.Timedelta(days=60)).strftime("%Y-%m-%d"))
     assert "0 entered" in msg           # flat price fails the top-quintile run-up gate
+
+
+def test_sleeve_respects_10_dollar_floor(tmp_db):
+    cfg = load_config()
+    cat = pd.Timestamp("2024-10-01")
+    dates = pd.bdate_range(cat - pd.Timedelta(days=400), cat + pd.Timedelta(days=10))
+    # huge run-up (+300%) but priced under $10 at entry -> excluded by the
+    # validated price floor, even though it clears the momentum gate
+    cheap = pd.DataFrame({"close": np.linspace(2.0, 8.0, len(dates)),
+                          "volume": np.full(len(dates), 2e6)}, index=dates)
+    sleeve = CatalystSleeve(cfg, tmp_db, require_volume=False, store=_FakeStore({"PNY": cheap}),
+                            events=pd.DataFrame([{"event_id": "E3", "ticker": "PNY",
+                                                  "catalyst_type": "Phase3", "catalyst_date": cat}]))
+    msg = sleeve.session(as_of=(cat - pd.Timedelta(days=60)).strftime("%Y-%m-%d"))
+    assert "0 entered" in msg
+    # with the floor lowered, the same name now qualifies
+    sleeve2 = CatalystSleeve(cfg, tmp_db, require_volume=False, price_floor=1.0,
+                             store=_FakeStore({"PNY": cheap}),
+                             events=pd.DataFrame([{"event_id": "E3", "ticker": "PNY",
+                                                   "catalyst_type": "Phase3", "catalyst_date": cat}]))
+    msg2 = sleeve2.session(as_of=(cat - pd.Timedelta(days=60)).strftime("%Y-%m-%d"))
+    assert "1 entered" in msg2

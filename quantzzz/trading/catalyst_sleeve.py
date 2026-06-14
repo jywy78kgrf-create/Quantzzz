@@ -35,6 +35,10 @@ class CatalystSleeve:
                  vol_ratio_min: float = 1.39,    # E2: 63d/252d volume confirmation
                  require_volume: bool = True,
                  price_floor: float = 10.0,      # validated rule: price >= $10 at entry
+                 # validated catalyst-type filter (Replit disclosure: "PDUFA /
+                 # Phase 2 / Phase 3 only"); excludes the vague "Other" bucket
+                 # and early-stage Phase 1. None = trade every type.
+                 catalyst_types=("PDUFA", "Phase3", "Phase2", "Phase2/3"),
                  max_positions: int = 12,
                  store=None, events: pd.DataFrame | None = None):
         self.cfg = cfg
@@ -46,6 +50,7 @@ class CatalystSleeve:
         self.vol_min = vol_ratio_min
         self.require_volume = require_volume
         self.price_floor = price_floor
+        self.catalyst_types = frozenset(catalyst_types) if catalyst_types else None
         self.max_positions = max_positions
         if store is None:
             from ..data.snapshots import SnapshotStore
@@ -147,6 +152,8 @@ class CatalystSleeve:
         if slots <= 0:
             return 0
         ev = self.events.dropna(subset=["catalyst_date"]).copy()
+        if self.catalyst_types is not None and "catalyst_type" in ev:
+            ev = ev[ev["catalyst_type"].isin(self.catalyst_types)]
         ev["catalyst_date"] = pd.to_datetime(ev["catalyst_date"], errors="coerce")
         ev = ev[(ev["catalyst_date"] - pd.Timedelta(days=self.entry_days) <= today)
                 & (today <= ev["catalyst_date"] - pd.Timedelta(days=self.exit_days))]

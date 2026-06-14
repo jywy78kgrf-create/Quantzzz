@@ -80,3 +80,18 @@ def test_sleeve_respects_10_dollar_floor(tmp_db):
                                                    "catalyst_type": "Phase3", "catalyst_date": cat}]))
     msg2 = sleeve2.session(as_of=(cat - pd.Timedelta(days=60)).strftime("%Y-%m-%d"))
     assert "1 entered" in msg2
+
+
+def test_sleeve_filters_catalyst_type(tmp_db):
+    cfg = load_config()
+    cat = pd.Timestamp("2024-10-01")
+    store = _FakeStore({"AAA": _rising_panel(cat)})   # >$10, strong run-up
+    day = (cat - pd.Timedelta(days=60)).strftime("%Y-%m-%d")
+    other = pd.DataFrame([{"event_id": "E4", "ticker": "AAA",
+                           "catalyst_type": "Other", "catalyst_date": cat}])
+    s1 = CatalystSleeve(cfg, tmp_db, require_volume=False, store=store, events=other)
+    assert "0 entered" in s1.session(as_of=day)        # "Other" excluded by type filter
+    p3 = pd.DataFrame([{"event_id": "E4", "ticker": "AAA",
+                        "catalyst_type": "Phase3", "catalyst_date": cat}])
+    s2 = CatalystSleeve(cfg, tmp_db, require_volume=False, store=store, events=p3)
+    assert "1 entered" in s2.session(as_of=day)        # Phase3 qualifies

@@ -220,6 +220,41 @@ def build_state(cfg: Config) -> dict:
         positions[fund] = out[:20]
     state["positions"] = positions
 
+    # ---- catalyst sleeve: event-driven per-event book (runs in tandem) ----
+    cat: dict = {}
+    acct = conn.execute("SELECT cash, starting_cash FROM accounts "
+                        "WHERE fund='biotech_catalyst'").fetchone()
+    if acct:
+        start = acct["starting_cash"] or cfg.starting_cash
+        live = _rows(conn, "SELECT equity FROM equity_snapshots "
+                           "WHERE fund='biotech_catalyst' AND source='live' ORDER BY id")
+        value, fwd_ret, scale = start, None, 1.0
+        if live:
+            base = live[0]["equity"] or start
+            value = start * live[-1]["equity"] / base
+            fwd_ret = (live[-1]["equity"] / base - 1) * 100
+            scale = start / base
+        def _q(t):
+            df = store.load_prices(t)
+            return float(df["close"].iloc[-1]) if df is not None and len(df) else None
+        opens = []
+        for r in _rows(conn, "SELECT ticker, catalyst_type, catalyst_date, entry_px, "
+                             "qty, runup_180d FROM catalyst_sleeve "
+                             "WHERE fund='biotech_catalyst' ORDER BY catalyst_date"):
+            px = _q(r["ticker"]) or r["entry_px"]
+            opens.append({"ticker": r["ticker"], "ctype": r["catalyst_type"] or "",
+                          "catalyst_date": r["catalyst_date"], "now_px": px,
+                          "pnl_pct": (px / r["entry_px"] - 1) * 100 if r["entry_px"] else 0,
+                          "value": r["qty"] * px * scale,
+                          "runup": (r["runup_180d"] or 0) * 100})
+        cl = conn.execute("SELECT COUNT(*) n, AVG(CASE WHEN pnl_pct>0 THEN 1.0 ELSE 0 END) "
+                          "hit, SUM(pnl) pnl FROM trades WHERE fund='biotech_catalyst' "
+                          "AND exit_ts IS NOT NULL AND source='live'").fetchone()
+        cat = {"value": value, "fwd_ret": fwd_ret, "start": start, "open": opens,
+               "n_open": len(opens), "closed_n": cl["n"] or 0, "hit": cl["hit"],
+               "pnl": (cl["pnl"] or 0) * scale}
+    state["catalyst"] = cat
+
     # ---- research lab: recent iterations for the animated search space ----
     state["research_feed"] = _rows(conn, """
         SELECT i.ts, i.desk, s.family, s.params_json, i.oos_sharpe, i.is_sharpe,

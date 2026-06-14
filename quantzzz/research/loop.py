@@ -372,14 +372,17 @@ class ResearchDesk:
         from ..data.external_signals import (EXTERNAL_DISCOVERY_CUTOFF,
                                              MIN_FORWARD_TRADING_DAYS)
         from . import metrics as M
-        cal = self.bundle.prices.index
-        fwd_days = int((cal > EXTERNAL_DISCOVERY_CUTOFF).sum())
-        if fwd_days < MIN_FORWARD_TRADING_DAYS:
-            return False, (f"insufficient post-discovery evidence "
-                           f"({fwd_days}/{MIN_FORWARD_TRADING_DAYS} forward days)")
         post = ev.oos_returns[ev.oos_returns.index > EXTERNAL_DISCOVERY_CUTOFF]
-        if len(post) >= 10 and M.sharpe(post) <= 0:
-            return False, "negative Sharpe on post-discovery forward data"
+        # count days the STRATEGY was actually ACTIVE post-discovery (a non-zero
+        # return), not bare calendar days. The price clock advancing is not
+        # forward EVIDENCE for a strategy that took no forward positions — that
+        # was the loophole: graduate to full weight purely on time elapsed.
+        active = int((post != 0).sum())
+        if active < MIN_FORWARD_TRADING_DAYS:
+            return False, (f"insufficient post-discovery evidence "
+                           f"({active}/{MIN_FORWARD_TRADING_DAYS} active forward days)")
+        if M.sharpe(post) <= 0:
+            return False, "non-positive Sharpe on post-discovery forward data"
         return True, ""
 
     # ---- refinement: a materially better cousin may replace its incumbent ----

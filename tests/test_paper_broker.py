@@ -81,10 +81,11 @@ def test_replay_does_not_ratchet_hwm(tmp_db):
     assert hwm == pytest.approx(1_000_000)   # replay never moves the live high-water mark
 
 
-def test_flat_live_book_resets_hwm_so_it_can_recover(tmp_db):
+def test_flat_live_book_keeps_hwm_preserving_drawdown_memory(tmp_db):
+    """A benign all-cash session must NOT erase its drawdown memory — only a
+    deliberate, cooldown-gated recovery (in the trader) resets the peak."""
     from quantzzz.config import load_config
     b = PaperBroker(load_config(), "equity", tmp_db, lambda t: None)
-    # a crashed-then-liquidated fund: stale high peak, now flat with less cash
     tmp_db.execute("UPDATE accounts SET cash=600000 WHERE fund='equity'")
     tmp_db.execute("UPDATE fund_state SET hwm=1000000 WHERE fund='equity'")
     tmp_db.commit()
@@ -93,5 +94,5 @@ def test_flat_live_book_resets_hwm_so_it_can_recover(tmp_db):
     fs = tmp_db.execute("SELECT hwm FROM fund_state WHERE fund='equity'").fetchone()
     snap = tmp_db.execute("SELECT drawdown FROM equity_snapshots WHERE fund='equity' "
                           "ORDER BY id DESC LIMIT 1").fetchone()
-    assert fs["hwm"] == pytest.approx(600000)   # reset to cash, not pinned at the old peak
-    assert abs(snap["drawdown"]) < 1e-9         # drawdown heals -> liquidate_only can recover
+    assert fs["hwm"] == pytest.approx(1_000_000)                 # peak kept, not ratcheted down
+    assert snap["drawdown"] == pytest.approx((600000 - 1000000) / 1000000)  # -40% remembered

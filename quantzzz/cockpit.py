@@ -238,13 +238,16 @@ def build_state(cfg: Config) -> dict:
             df = store.load_prices(t)
             return float(df["close"].iloc[-1]) if df is not None and len(df) else None
         opens = []
-        for r in _rows(conn, "SELECT ticker, catalyst_type, catalyst_date, entry_px, "
-                             "qty, runup_180d FROM catalyst_sleeve "
+        for r in _rows(conn, "SELECT ticker, catalyst_type, catalyst_date, entry_ts, "
+                             "entry_px, qty, runup_180d FROM catalyst_sleeve "
                              "WHERE fund='biotech_catalyst' ORDER BY catalyst_date"):
             px = _q(r["ticker"]) or r["entry_px"]
             opens.append({"ticker": r["ticker"], "ctype": r["catalyst_type"] or "",
-                          "catalyst_date": r["catalyst_date"], "now_px": px,
+                          "catalyst_date": r["catalyst_date"],
+                          "entry_date": (r["entry_ts"] or "")[:10],
+                          "entry_px": r["entry_px"], "now_px": px,
                           "pnl_pct": (px / r["entry_px"] - 1) * 100 if r["entry_px"] else 0,
+                          "alloc": r["qty"] * r["entry_px"] * scale,
                           "value": r["qty"] * px * scale,
                           "runup": (r["runup_180d"] or 0) * 100})
         cl = conn.execute("SELECT COUNT(*) n, AVG(CASE WHEN pnl_pct>0 THEN 1.0 ELSE 0 END) "

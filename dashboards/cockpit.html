@@ -532,18 +532,22 @@ function catalyst(s){
   const fwd=c.fwd_ret==null?'—':`<span class="${cls(c.fwd_ret)}">${pct(c.fwd_ret,2)}</span>`;
   const win=c.closed_n?` · ${Math.round((c.hit||0)*100)}% win on ${c.closed_n} closed`:'';
   sub.innerHTML=`$${Math.round(c.value).toLocaleString()} forward ${fwd} · ${c.n_open} open${win}`;
-  head.innerHTML=`<tr><th>tkr</th><th>catalyst</th><th>type</th>
-    <th style="text-align:right">runup</th><th style="text-align:right">now</th>
+  head.innerHTML=`<tr><th>tkr</th><th>entry</th><th style="text-align:right">in</th>
+    <th>catalyst</th><th>type</th><th style="text-align:right">runup</th>
+    <th style="text-align:right">now</th><th style="text-align:right">alloc $</th>
     <th style="text-align:right">now $</th><th style="text-align:right">p&l</th></tr>`;
   tb.innerHTML='';
   if(!c.open.length){tb.innerHTML='<tr><td style="color:var(--dim)">no open catalyst positions</td></tr>';return;}
   for(const o of c.open){
     tb.insertAdjacentHTML('beforeend',`<tr>
       <td><b>${o.ticker}</b></td>
+      <td style="color:var(--dim)">${o.entry_date||''}</td>
+      <td style="text-align:right;color:var(--dim)">${px$(o.entry_px)}</td>
       <td style="color:var(--dim)">${o.catalyst_date||''}</td>
       <td style="color:var(--dim)">${o.ctype||''}</td>
       <td style="text-align:right;color:#2dd4a7">+${Math.round(o.runup)}%</td>
       <td style="text-align:right">${px$(o.now_px)}</td>
+      <td style="text-align:right;color:var(--dim)">$${Math.round(o.alloc).toLocaleString()}</td>
       <td style="text-align:right">$${Math.round(o.value).toLocaleString()}</td>
       <td class="${cls(o.pnl_pct)}" style="text-align:right">${pct(o.pnl_pct,1)}</td></tr>`);
   }

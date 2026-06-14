@@ -55,6 +55,7 @@ class TraderAgent:
         self.llm = get_llm(cfg)
         self.learning = LearningLoop(cfg, fund, conn, self.journal, self.llm)
         self.as_of = None                       # set during historical replay
+        self._stale: set = set()                # delisted/stale tickers this session
         self._all_prices = self._load_price_frames()
         self._price_cache = self._closes_as_of(None)
         self._bundle = self._load_bundle()      # built once, sliced per session
@@ -271,13 +272,55 @@ class TraderAgent:
         return out
 
     # ---- session ----
+    DELIST_STALE_DAYS = 15
+
+    def _latest_price_date(self):
+        dates = [s.index[-1] for s in self._all_prices.values() if len(s)]
+        return max(dates).date().isoformat() if dates else None
+
+    def _last_session_price_date(self):
+        row = self.conn.execute(
+            "SELECT last_session_price_date FROM fund_state WHERE fund=?", (self.fund,)).fetchone()
+        return row["last_session_price_date"] if row else None
+
+    def _stale_tickers(self) -> set:
+        dates = [s.index[-1] for s in self._all_prices.values() if len(s)]
+        if not dates:
+            return set()
+        cutoff = max(dates) - pd.Timedelta(days=self.DELIST_STALE_DAYS)
+        return {t for t, s in self._all_prices.items() if len(s) and s.index[-1] < cutoff}
+
+    def _close_delisted(self) -> int:
+        """Close positions whose price feed has gone stale (delisted/halted) at
+        their last known price — don't carry a dead name marked at a frozen
+        price forever."""
+        n = 0
+        for pos in self.broker.get_positions():
+            if pos.ticker in self._stale:
+                row = self.conn.execute(
+                    "SELECT strategy_id FROM positions WHERE fund=? AND ticker=?",
+                    (self.fund, pos.ticker)).fetchone()
+                self._close_position(pos.ticker, row["strategy_id"] if row else None,
+                                     "delisted (stale price feed)")
+                n += 1
+        return n
+
     def session(self, as_of=None) -> str:
         self.as_of = as_of
         if as_of is not None:
             self._price_cache = self._closes_as_of(as_of)
+        else:
+            # live: skip a forward session on days with no new market data
+            # (weekend/holiday) so the live-session count == real trading days
+            latest = self._latest_price_date()
+            if latest is not None and latest == self._last_session_price_date():
+                return (f"[{self.fund}] no new market data since {latest} "
+                        f"(market closed) — forward session skipped")
         self.broker.session_ts = self._ts()
         self.broker.session_source = self._source()
         self.broker.mark_to_market(self._price_cache, ts=self._ts())
+        self._stale = self._stale_tickers()
+        delisted = self._close_delisted()
         drawdown = self._current_drawdown()
         state = self._fund_mode()
 
@@ -304,10 +347,15 @@ class TraderAgent:
 
         self.broker.mark_to_market(self._price_cache, ts=self._ts())
         self._mark_shadows()
+        if as_of is None:
+            self.conn.execute("UPDATE fund_state SET last_session_price_date=? WHERE fund=?",
+                              (self._latest_price_date(), self.fund))
+            self.conn.commit()
         acct = self.broker.get_account()
         return (f"[{self.fund}] equity ${acct.equity:,.0f} cash ${acct.cash:,.0f} | "
-                f"stops {stops}, rebalance trades {n_trades}, positions "
-                f"{len(self.broker.get_positions())}, reviewed {reviewed}, mode {state}")
+                f"stops {stops}, delisted {delisted}, rebalance trades {n_trades}, "
+                f"positions {len(self.broker.get_positions())}, reviewed {reviewed}, "
+                f"mode {state}")
 
     def _mark_shadows(self) -> None:
         """Mark the shadow book: virtual NAV per pre-registered forward trial.
@@ -493,6 +541,8 @@ class TraderAgent:
             px = self._quote(ticker)
             if px is None or px <= 0:
                 continue
+            if d > 0 and ticker in getattr(self, "_stale", set()):
+                continue                       # never re-enter a delisted/stale name
             qty = float(int(abs(d) * equity / px))
             if qty < 1:
                 continue

@@ -254,6 +254,10 @@ MIGRATIONS = [
     # flag once forward evidence accrues. Default 1 leaves internal strategies
     # (whose trial count we can audit) unaffected.
     "ALTER TABLE strategies ADD COLUMN forward_verified INTEGER NOT NULL DEFAULT 1",
+    # the price date the last LIVE trader session marked against — used to skip
+    # forward sessions on days with no new market data (weekends/holidays), so
+    # the live-session count reflects real trading days, not stale re-marks.
+    "ALTER TABLE fund_state ADD COLUMN last_session_price_date TEXT",
 ]
 
 

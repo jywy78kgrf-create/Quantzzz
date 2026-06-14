@@ -110,6 +110,10 @@ class CatalystSleeve:
                       promoted_ts=utcnow(), forward_verified=0)
 
     # ---- session ----
+    def _market_date(self):
+        df = self.store.load_prices("XBI")    # benchmark = market-day reference
+        return df.index[-1].date().isoformat() if df is not None and len(df) else None
+
     def session(self, as_of=None) -> str:
         if as_of is not None:
             today = pd.Timestamp(as_of).normalize()
@@ -117,6 +121,12 @@ class CatalystSleeve:
             self.broker.session_source = "replay"
         else:
             today = pd.Timestamp.now("UTC").tz_localize(None).normalize()
+            # skip a forward session on days with no new market data (weekend/holiday)
+            md = self._market_date()
+            last = self.conn.execute(
+                "SELECT last_session_price_date FROM fund_state WHERE fund=?", (FUND,)).fetchone()
+            if md is not None and last and last["last_session_price_date"] == md:
+                return f"catalyst sleeve: no new market data since {md} (market closed) — skipped"
             self.broker.session_ts = utcnow()
             self.broker.session_source = "live"
         self._asof = today              # quotes/marks are as-of the session date
@@ -127,6 +137,11 @@ class CatalystSleeve:
         quotes = {p.ticker: self._quote(p.ticker) for p in self.broker.get_positions()}
         self.broker.mark_to_market({k: v for k, v in quotes.items() if v is not None},
                                    ts=self.broker.session_ts)
+        if as_of is None:
+            md = self._market_date()
+            if md:
+                self.conn.execute("UPDATE fund_state SET last_session_price_date=? WHERE fund=?",
+                                  (md, FUND))
         self.conn.commit()
         return (f"catalyst sleeve: {n_enter} entered, {n_exit} exited, "
                 f"{len(self.broker.get_positions())} open")

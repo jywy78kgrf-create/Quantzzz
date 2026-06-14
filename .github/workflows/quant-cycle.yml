@@ -37,7 +37,7 @@ jobs:
       - name: Choose research depth (deep when markets are closed)
         id: depth
         run: |
-          if [ "${{ github.event.schedule }}" = "30 13-21 * * 1-5" ]; then
+          if [ "${{ github.event.schedule }}" = "47 13-21 * * 1-5" ]; then
             echo "iters=40" >> "$GITHUB_OUTPUT"     # market hours: fresh data + trading
           else
             echo "iters=160" >> "$GITHUB_OUTPUT"    # nights/weekends/manual: deep search

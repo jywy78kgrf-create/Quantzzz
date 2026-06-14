@@ -57,3 +57,41 @@ def test_mark_to_market_writes_snapshot(broker, tmp_db):
     broker.mark_to_market({"AAA": 110.0})
     row = tmp_db.execute("SELECT equity, drawdown FROM equity_snapshots ORDER BY id DESC LIMIT 1").fetchone()
     assert row["equity"] > 0
+
+
+def test_zero_quote_honored_not_masked_at_cost(tmp_db):
+    from quantzzz.config import load_config
+    px = {"AAA": 100.0}
+    b = PaperBroker(load_config(), "equity", tmp_db, lambda t: px.get(t))
+    b.submit_order(Order("equity", "AAA", "buy", 100))
+    cash = b.get_account().cash
+    px["AAA"] = 0.0                       # the name wipes out to a real zero
+    # position now worth 0, NOT marked back at cost
+    assert b.get_account().equity == pytest.approx(cash)
+
+
+def test_replay_does_not_ratchet_hwm(tmp_db):
+    from quantzzz.config import load_config
+    px = {"AAA": 100.0}
+    b = PaperBroker(load_config(), "equity", tmp_db, lambda t: px.get(t))
+    b.submit_order(Order("equity", "AAA", "buy", 100))
+    b.session_source = "replay"
+    b.mark_to_market({"AAA": 300.0})     # a hindsight replay peak
+    hwm = tmp_db.execute("SELECT hwm FROM fund_state WHERE fund='equity'").fetchone()["hwm"]
+    assert hwm == pytest.approx(1_000_000)   # replay never moves the live high-water mark
+
+
+def test_flat_live_book_resets_hwm_so_it_can_recover(tmp_db):
+    from quantzzz.config import load_config
+    b = PaperBroker(load_config(), "equity", tmp_db, lambda t: None)
+    # a crashed-then-liquidated fund: stale high peak, now flat with less cash
+    tmp_db.execute("UPDATE accounts SET cash=600000 WHERE fund='equity'")
+    tmp_db.execute("UPDATE fund_state SET hwm=1000000 WHERE fund='equity'")
+    tmp_db.commit()
+    b.session_source = "live"
+    b.mark_to_market({})                  # flat: no positions
+    fs = tmp_db.execute("SELECT hwm FROM fund_state WHERE fund='equity'").fetchone()
+    snap = tmp_db.execute("SELECT drawdown FROM equity_snapshots WHERE fund='equity' "
+                          "ORDER BY id DESC LIMIT 1").fetchone()
+    assert fs["hwm"] == pytest.approx(600000)   # reset to cash, not pinned at the old peak
+    assert abs(snap["drawdown"]) < 1e-9         # drawdown heals -> liquidate_only can recover

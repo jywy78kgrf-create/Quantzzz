@@ -79,6 +79,10 @@ def rebaseline(conn: sqlite3.Connection, snapshot_dir: Path | None = None) -> di
             conn.execute("UPDATE accounts SET cash=cash*?, updated_ts=? WHERE fund=?",
                          (f, utcnow(), fund))
             conn.execute("UPDATE positions SET qty=qty*? WHERE fund=?", (f, fund))
+            # the catalyst sleeve keeps its OWN share ledger; rescale it too or
+            # _exit later sells a stale (unscaled) qty, gets rejected, and still
+            # books a phantom closed trade into the live record
+            conn.execute("UPDATE catalyst_sleeve SET qty=qty*? WHERE fund=?", (f, fund))
             conn.execute("UPDATE equity_snapshots SET equity=equity*?, cash=cash*? "
                          "WHERE fund=? AND source='live'", (f, f, fund))
             conn.execute("UPDATE trades SET pnl=pnl*?, qty=qty*? "

@@ -121,6 +121,11 @@ def _maybe_weekly_synthesis(cfg: Config) -> None:
 def run_loop(cfg: Config, cycles: int = 0, interval_s: int = 900,
              research_iterations: int = 25) -> None:
     signal.signal(signal.SIGINT, _handle_sigint)
+    # ensure migrations + the source='live'/'replay' backfill have run, even if
+    # the cloud goes straight to `run` after a git-pulled seed without `init-db`
+    # (otherwise new columns are missing and replay history defaults to 'live')
+    from .db import get_conn, init_schema
+    _c = get_conn(cfg.db_path); init_schema(_c); _c.close()
     cycle = 0
     while not _STOP and (cycles == 0 or cycle < cycles):
         cycle += 1

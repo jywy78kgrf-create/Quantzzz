@@ -104,7 +104,7 @@ class CatalystSleeve:
             "SELECT id FROM strategies WHERE spec_hash='catalyst_event_sleeve'").fetchone()
         if row:
             return row["id"]
-        return insert(self.conn, "strategies", desk="biotech", family="catalyst_event",
+        return insert(self.conn, "strategies", desk="biotech_catalyst", family="catalyst_event",
                       params_json="{}", spec_hash="catalyst_event_sleeve",
                       status="promoted", origin="external", created_ts=utcnow(),
                       promoted_ts=utcnow(), forward_verified=0)
@@ -116,7 +116,7 @@ class CatalystSleeve:
             self.broker.session_ts = today.strftime("%Y-%m-%dT00:00:00Z")
             self.broker.session_source = "replay"
         else:
-            today = pd.Timestamp.utcnow().tz_localize(None).normalize()
+            today = pd.Timestamp.now("UTC").tz_localize(None).normalize()
             self.broker.session_ts = utcnow()
             self.broker.session_source = "live"
         self._asof = today              # quotes/marks are as-of the session date
@@ -125,7 +125,7 @@ class CatalystSleeve:
         n_enter = self._do_entries(today)
 
         quotes = {p.ticker: self._quote(p.ticker) for p in self.broker.get_positions()}
-        self.broker.mark_to_market({k: v for k, v in quotes.items() if v},
+        self.broker.mark_to_market({k: v for k, v in quotes.items() if v is not None},
                                    ts=self.broker.session_ts)
         self.conn.commit()
         return (f"catalyst sleeve: {n_enter} entered, {n_exit} exited, "
@@ -200,13 +200,20 @@ class CatalystSleeve:
         return True
 
     def _exit(self, r, reason: str) -> None:
+        held = self.broker._position(r["ticker"])
+        sell_qty = min(r["qty"], held.qty) if held else 0.0
+        if sell_qty <= 0:
+            # position already gone (closed elsewhere / orphaned) — just untrack
+            self.conn.execute("DELETE FROM catalyst_sleeve WHERE id=?", (r["id"],))
+            return
         fill = self.broker.submit_order(
-            Order(FUND, r["ticker"], "sell", r["qty"], strategy_id=self._strategy_id))
-        exit_px = fill.price if fill else (self._quote(r["ticker"]) or r["entry_px"])
-        pnl = (exit_px - r["entry_px"]) * r["qty"]
-        pnl_pct = (exit_px / r["entry_px"] - 1) if r["entry_px"] else 0.0
+            Order(FUND, r["ticker"], "sell", sell_qty, strategy_id=self._strategy_id))
+        if fill is None:
+            return    # couldn't sell (no quote / halt) — keep tracking, retry next session
+        pnl = (fill.price - r["entry_px"]) * fill.qty
+        pnl_pct = (fill.price / r["entry_px"] - 1) if r["entry_px"] else 0.0
         insert(self.conn, "trades", fund=FUND, strategy_id=self._strategy_id,
                ticker=r["ticker"], entry_ts=r["entry_ts"], exit_ts=self.broker.session_ts,
-               entry_px=r["entry_px"], exit_px=exit_px, qty=r["qty"], pnl=pnl,
+               entry_px=r["entry_px"], exit_px=fill.price, qty=fill.qty, pnl=pnl,
                pnl_pct=pnl_pct, exit_reason=reason, source=self.broker.session_source)
         self.conn.execute("DELETE FROM catalyst_sleeve WHERE id=?", (r["id"],))

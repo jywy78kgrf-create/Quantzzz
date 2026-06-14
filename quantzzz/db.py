@@ -232,6 +232,12 @@ MIGRATIONS = [
     "ALTER TABLE research_iterations ADD COLUMN window_sharpes TEXT",
     "ALTER TABLE research_iterations ADD COLUMN dsr_prob REAL",
     "ALTER TABLE research_iterations ADD COLUMN bootstrap_q05 REAL",
+    # External (contaminated-discovery) families promote on backtest merit into
+    # the paper book but carry forward_verified=0 until the LIVE record confirms
+    # them; the trader half-weights the unverified, the learning loop flips the
+    # flag once forward evidence accrues. Default 1 leaves internal strategies
+    # (whose trial count we can audit) unaffected.
+    "ALTER TABLE strategies ADD COLUMN forward_verified INTEGER NOT NULL DEFAULT 1",
 ]
 
 

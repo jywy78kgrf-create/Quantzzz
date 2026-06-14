@@ -105,6 +105,28 @@ class LearningLoop:
                     "UPDATE strategies SET status='retired', retired_ts=? WHERE id=?",
                     (utcnow(), sid))
 
+            # Graduate forward-unverified external promotions once the LIVE
+            # record confirms them: a real sample, profitable, and not diverging
+            # from the backtest promise. This lifts the trader's half-weight cap.
+            # If the live record instead diverges (caught above) the strategy is
+            # de-weighted, never graduated — the forward record decides both ways.
+            if (active and not divergent and stats.n_trades >= MIN_CONSISTENCY
+                    and realized_pnl > 0):
+                fv = self.conn.execute(
+                    "SELECT forward_verified FROM strategies WHERE id=?", (sid,)).fetchone()
+                if fv is not None and not fv["forward_verified"]:
+                    self.conn.execute(
+                        "UPDATE strategies SET forward_verified=1 WHERE id=?", (sid,))
+                    self.journal.record(
+                        "learning", action=f"strategy {sid}",
+                        reasoning=(f"FORWARD-VERIFIED: {stats.n_trades} live trades, "
+                                   f"hit {stats.hit_rate:.0%}, realized P&L "
+                                   f"{realized_pnl:,.0f}, no divergence from the "
+                                   f"backtest promise. Half-weight cap lifted — the "
+                                   f"live record confirms the edge."),
+                        inputs={"n": stats.n_trades, "hit_rate": stats.hit_rate},
+                        ref_table="strategies", ref_id=sid)
+
             insert(self.conn, "strategy_performance", strategy_id=sid, fund=self.fund,
                    as_of_ts=utcnow(), n_closed=stats.n_trades, hit_rate=stats.hit_rate,
                    payoff=stats.payoff, realized_pnl=realized_pnl, avg_slippage_bps=0.0,

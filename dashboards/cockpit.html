@@ -372,7 +372,9 @@ function loop(s){
   $('l-learn').textContent=`${s.loop.learning_reviews} · ${s.loop.retired}`;
   $('l-journal').textContent=s.loop.journal_entries.toLocaleString();
   const last=s.loop.last_cycle?new Date(s.loop.last_cycle):null;
-  $('heartbeat').textContent=last?`last fund cycle ${Math.max(0,Math.round((Date.now()-last)/60000))} min ago`:'no cycles yet';
+  const ran=last?`last cycle ${Math.max(0,Math.round((Date.now()-last)/60000))} min ago`:'no cycles yet';
+  const marked=s.loop.last_close_marked?` · marks as of ${s.loop.last_close_marked} close`:'';
+  $('heartbeat').textContent=ran+marked;
 }
 
 let lwc, lwcSeries={};

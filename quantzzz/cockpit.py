@@ -117,7 +117,12 @@ def build_state(cfg: Config) -> dict:
         "closed_trades": g("SELECT COUNT(*) FROM trades WHERE exit_ts IS NOT NULL"),
         "journal_entries": g("SELECT COUNT(*) FROM journal_entries"),
         "learning_reviews": g("SELECT COUNT(*) FROM journal_entries WHERE entry_type='learning'"),
-        "last_cycle": g("SELECT MAX(ts) FROM equity_snapshots"),
+        # "last cycle" = when the loop last DID something (advances every cycle,
+        # ~30 min), distinct from the last EOD mark. equity snapshots only move
+        # when a new daily close arrives, so they lag intraday — reporting them
+        # as "last cycle" made a live system look stalled between closes.
+        "last_cycle": g("SELECT MAX(ts) FROM journal_entries"),
+        "last_close_marked": g("SELECT MAX(last_session_price_date) FROM fund_state"),
         "av_calls_today": g("SELECT calls_used FROM api_budget WHERE source='alphavantage' "
                             "ORDER BY date DESC LIMIT 1"),
         "best_oos_sharpe": g("SELECT MAX(oos_sharpe) FROM research_iterations"),

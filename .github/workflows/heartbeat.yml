@@ -1,0 +1,63 @@
+name: Heartbeat (cron-independent pacer)
+
+# GitHub delivers `schedule:` crons on a best-effort basis and drops them under
+# load — sometimes for many hours (observed: a 14h gap that skipped a whole
+# market-open). A cron-based watchdog can't fix that, because it relies on the
+# same dropped crons. This workflow is the fix: once running it paces fund
+# cycles on ITS OWN clock for ~5h, then re-launches itself, so the cadence no
+# longer depends on GitHub delivering each tick. The only thing it needs from
+# GitHub's scheduler is an occasional reseed if the self-chain ever breaks.
+#
+# Requires a repo secret DISPATCH_PAT — a fine-grained PAT with Actions: write
+# (the built-in GITHUB_TOKEN cannot trigger another workflow, by design). See
+# the chat instructions for the one-time setup.
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "5 */3 * * *"   # sparse backup reseed: only matters if the chain dies
+
+permissions:
+  actions: write
+
+concurrency:
+  group: heartbeat          # exactly one pacer ever; a new trigger waits/supersedes
+  cancel-in-progress: false
+
+jobs:
+  pace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340     # under the 6h hard cap; loop runs ~5h then re-arms
+    steps:
+      - name: Pace fund cycles, then re-arm self
+        env:
+          GH_PAT: ${{ secrets.DISPATCH_PAT }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_PAT:-}" ]; then
+            echo "::error::DISPATCH_PAT secret is not set — add it (see setup) then re-run."
+            exit 1
+          fi
+          REPO="${GITHUB_REPOSITORY}"
+          REF="${GITHUB_REF_NAME}"
+          dispatch() {   # $1 = workflow file name
+            curl -fsS -X POST \
+              -H "Authorization: Bearer ${GH_PAT}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${REPO}/actions/workflows/$1/dispatches" \
+              -d "{\"ref\":\"${REF}\"}"
+          }
+          INTERVAL=1800                 # 30 min between cycle dispatches
+          END=$(( $(date +%s) + 5*3600 ))   # pace for ~5 hours
+
+          dispatch quant-cycle.yml && echo "kicked quant-cycle @ $(date -u +%H:%MZ)"
+          while [ "$(date +%s)" -lt "$END" ]; do
+            sleep "$INTERVAL"
+            if [ "$(date +%s)" -lt "$END" ]; then
+              dispatch quant-cycle.yml && echo "kicked quant-cycle @ $(date -u +%H:%MZ)"
+            fi
+          done
+
+          # hand off: launch the next heartbeat before this one exits. The
+          # concurrency group queues it behind us, so it starts as we finish.
+          dispatch heartbeat.yml && echo "re-armed heartbeat @ $(date -u +%H:%MZ)"

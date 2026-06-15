@@ -37,10 +37,14 @@ jobs:
       - name: Choose research depth (deep when markets are closed)
         id: depth
         run: |
-          if [ "${{ github.event.schedule }}" = "47 13-21 * * 1-5" ]; then
+          # Decide by wall-clock, not by which cron string fired — so a cycle
+          # launched by the heartbeat (workflow_dispatch, empty event.schedule)
+          # still runs lean+trading during market hours and deep when closed.
+          H=$(date -u +%H); H=$((10#$H)); DOW=$(date -u +%u)   # hour 0-23, DOW 1-7
+          if [ "$DOW" -le 5 ] && [ "$H" -ge 13 ] && [ "$H" -le 21 ]; then
             echo "iters=40" >> "$GITHUB_OUTPUT"     # market hours: fresh data + trading
           else
-            echo "iters=160" >> "$GITHUB_OUTPUT"    # nights/weekends/manual: deep search
+            echo "iters=160" >> "$GITHUB_OUTPUT"    # nights/weekends: deep search
           fi
 
       - name: Run one fund cycle (refresh -> research -> trade)

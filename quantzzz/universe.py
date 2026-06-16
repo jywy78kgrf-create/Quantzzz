@@ -114,6 +114,54 @@ def biotech_universe(snapshot_dir: Path) -> list[str]:
     return list(BIOTECH_SEED)
 
 
+# ---- small-cap (<$10) biotech sub-desk ------------------------------------
+SMALLCAP_MAX_PRICE = 10.0           # the "under $10" band
+SMALLCAP_MIN_DOLLAR_VOL = 250_000   # liquidity floor: keep the daily-bar backtest
+                                    # from promoting names too thin to actually fill
+                                    # in size (the #1 trap in sub-$10 biotech)
+
+
+def _price_liquidity(snapshot_dir: Path, ticker: str):
+    """(latest close, median daily dollar-volume over last ~60 sessions, last
+    price date), or None when there's no usable price history."""
+    path = snapshot_dir / "prices" / f"{ticker}.parquet"
+    if not path.exists():
+        return None
+    try:
+        import pandas as pd
+        df = pd.read_parquet(path).tail(60)
+    except Exception:
+        return None
+    if df.empty or "close" not in df:
+        return None
+    last = float(df["close"].iloc[-1])
+    dollar_vol = float((df["close"] * df["volume"]).median()) if "volume" in df else 0.0
+    return last, dollar_vol, df.index.max()
+
+
+def smallcap_biotech_filter(snapshot_dir: Path, names: list[str],
+                            require_fresh_days: int | None = None) -> list[str]:
+    """Keep only the sub-$10, liquid-enough small-cap biotech names.
+
+    require_fresh_days gates on recency (the live book must not hold names that
+    stopped trading); left None for research, which deliberately keeps the dead
+    sub-$10 tail for survivorship honesty."""
+    import pandas as pd
+    today = pd.Timestamp(pd.Timestamp.now("UTC").date())
+    out = []
+    for t in names:
+        pl = _price_liquidity(snapshot_dir, t)
+        if pl is None:
+            continue
+        price, dvol, last_date = pl
+        if not (0 < price < SMALLCAP_MAX_PRICE and dvol >= SMALLCAP_MIN_DOLLAR_VOL):
+            continue
+        if require_fresh_days is not None and (today - last_date).days > require_fresh_days:
+            continue                          # stale price -> not currently tradeable
+        out.append(t)
+    return out
+
+
 def universe_for(desk: str, snapshot_dir: Path) -> list[str]:
     """The LIVE/tradeable universe (active names only)."""
     if desk == "equity":
@@ -126,6 +174,15 @@ def universe_for(desk: str, snapshot_dir: Path) -> list[str]:
         return out
     if desk == "biotech":
         return biotech_universe(snapshot_dir)
+    if desk == "biotech_smallcap":
+        # widen beyond the BPIQ-tracked (mostly >$10) names to the active
+        # catalyst-event small-caps; exclude known-dead names and require a
+        # fresh price so the live book only trades names actually trading now.
+        dead = set(delisted_biotech_pool(snapshot_dir))
+        cands = list(dict.fromkeys(
+            biotech_universe(snapshot_dir) + catalyst_event_tickers(snapshot_dir)))
+        cands = [t for t in cands if t not in dead]
+        return smallcap_biotech_filter(snapshot_dir, cands, require_fresh_days=15)
     raise ValueError(f"unknown desk: {desk}")
 
 
@@ -220,6 +277,12 @@ def research_universe_for(desk: str, snapshot_dir: Path) -> list[str]:
     the generic delisted pool; biotech on the curated dead-biotech pool PLUS
     every catalyst-event ticker we have price history for — research broad
     (statistical power), trade focused (the liquid live universe)."""
+    if desk == "biotech_smallcap":
+        # the full biotech research universe (live + dead + catalyst names),
+        # filtered to the sub-$10 small-cap band — survivorship-honest, so the
+        # dead sub-$10 biotechs (the failure tail this space is full of) stay in.
+        return smallcap_biotech_filter(
+            snapshot_dir, research_universe_for("biotech", snapshot_dir))
     base = universe_for(desk, snapshot_dir)
     if desk == "equity":
         return base + [t for t in delisted_pool(snapshot_dir) if t not in base]

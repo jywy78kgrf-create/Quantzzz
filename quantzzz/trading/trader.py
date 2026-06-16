@@ -160,7 +160,7 @@ class TraderAgent:
     def _catalyst_ev_blocked(self, ticker: str) -> dict | None:
         """Block only when about to hold INTO a near catalyst with a negative
         empirical EV profile. Strategies that exit before events are untouched."""
-        if self.fund != "biotech":
+        if self.fund not in ("biotech", "biotech_smallcap"):
             return None
         days = self._days_to_next_catalyst(ticker)
         if days is None or days > self.cfg.catalyst_gate_days:

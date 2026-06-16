@@ -22,8 +22,14 @@ _register(equity)
 _register(biotech)
 
 
+# sub-desks that reuse another desk's family registry (their own universe / risk
+# / book, but the same signal families to search).
+_FAMILY_ALIAS = {"biotech_smallcap": "biotech"}
+
+
 def families_for(desk: str) -> list[str]:
-    return [name for name, (space, _) in REGISTRY.items() if space.desk == desk]
+    d = _FAMILY_ALIAS.get(desk, desk)
+    return [name for name, (space, _) in REGISTRY.items() if space.desk == d]
 
 
 def space_for(family: str) -> ParamSpace:

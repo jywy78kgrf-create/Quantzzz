@@ -13,8 +13,8 @@ SNAPSHOT_DIR = PROJECT_ROOT / "data" / "snapshots"
 CACHE_DIR = PROJECT_ROOT / "data" / "cache"
 DB_PATH = PROJECT_ROOT / "quantzzz.db"
 
-FUNDS = ("equity", "biotech")
-BENCHMARKS = {"equity": "SPY", "biotech": "XBI"}
+FUNDS = ("equity", "biotech", "biotech_smallcap")
+BENCHMARKS = {"equity": "SPY", "biotech": "XBI", "biotech_smallcap": "XBI"}
 
 
 @dataclass(frozen=True)
@@ -57,6 +57,12 @@ PROMOTION_THRESHOLDS = {
     "biotech": PromotionThresholds(min_oos_sharpe=1.1, max_drawdown=0.50,
                                    bench_dd_multiple=1.0,
                                    max_drawdown_hard_cap=0.55),
+    # small-cap biotech: same volatility allowances as biotech, but demand more
+    # evidence (min_trades) — micro-cap backtests are noisier and easier to overfit.
+    "biotech_smallcap": PromotionThresholds(min_oos_sharpe=1.1, max_drawdown=0.55,
+                                            bench_dd_multiple=1.0,
+                                            max_drawdown_hard_cap=0.60,
+                                            min_trades=25),
 }
 
 # Contaminated-discovery gate for the external-signal biotech families. The
@@ -106,6 +112,14 @@ RISK_LIMITS = {
     "biotech": RiskLimits(
         max_position_pct=0.05, max_gross_exposure=0.8, max_positions=16,
         stop_loss_pct=0.20, drawdown_halt_pct=0.45, target_vol=0.20,
+        drawdown_derisk_pct=0.22,
+    ),
+    # sub-$10 small-cap biotech: thinner liquidity and bigger binary-event gaps,
+    # so tighter single-name caps, lower gross, more names (spread the idiosyncratic
+    # blow-up risk), wider stops (it's a high-vol space), and a higher vol target.
+    "biotech_smallcap": RiskLimits(
+        max_position_pct=0.04, max_gross_exposure=0.7, max_positions=20,
+        stop_loss_pct=0.25, drawdown_halt_pct=0.45, target_vol=0.28,
         drawdown_derisk_pct=0.22,
     ),
 }

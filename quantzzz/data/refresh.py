@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from ..config import Config
 from ..db import get_conn
-from ..universe import BENCH_TICKERS, EQUITY_UNIVERSE, VOL_PROXY_TICKERS
+from ..universe import BENCH_TICKERS, EQUITY_UNIVERSE, VOL_INDEX_SYMBOLS
 from .alphavantage import AlphaVantageClient
 from .bpiq import BpiqProvider
 from .edgar import EdgarClient
@@ -34,6 +34,21 @@ def refresh_prices(cfg: Config, tickers: list[str], conn) -> dict:
             skipped += 1
     return {"fetched": fetched, "cached": cached, "skipped": skipped,
             "budget_left": av.budget.remaining()}
+
+
+def refresh_vol_indices(cfg: Config, conn) -> dict:
+    """Pull the CBOE volatility-regime indices (VIX, VIX3M, VIX9D, VVIX, SKEW)
+    via INDEX_DATA and store them as price series. Budget-aware/cached; feeds the
+    market-level regime feature. If the key tier doesn't serve INDEX_DATA the
+    failure lands in data_health and the regime feature simply stays dark."""
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    got = []
+    for sym in VOL_INDEX_SYMBOLS:
+        df = av.index_data(sym)
+        if df is not None and not df.empty:
+            got.append(f"{sym}:{len(df)}")
+    return {"fetched": got or "none (INDEX_DATA unavailable?)"}
 
 
 def refresh_premium_feeds(cfg: Config, tickers: list[str], conn,
@@ -222,7 +237,8 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         # then idles — same pattern as the biotech catalyst-universe pull.
         eq_all = EQUITY_UNIVERSE + EQUITY_RESEARCH_SEED
         _safe("equity prices (expanded universe)",
-              lambda: refresh_prices(cfg, eq_all + BENCH_TICKERS + VOL_PROXY_TICKERS, conn))
+              lambda: refresh_prices(cfg, eq_all + BENCH_TICKERS, conn))
+        _safe("volatility-regime indices", lambda: refresh_vol_indices(cfg, conn))
         _safe("equity premium feeds",
               lambda: refresh_premium_feeds(cfg, eq_all, conn,
                                             options_for=EQUITY_UNIVERSE[:30]))

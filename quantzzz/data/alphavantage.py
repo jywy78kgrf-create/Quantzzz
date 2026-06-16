@@ -107,6 +107,67 @@ class AlphaVantageClient:
         df.index = pd.to_datetime(df.index)
         return df.sort_index()
 
+    def index_data(self, symbol: str) -> pd.DataFrame | None:
+        """Daily OHLC for a market index (VIX, VIX3M, SKEW, ...) via INDEX_DATA.
+
+        Indices aren't equities, so TIME_SERIES doesn't serve them — this is the
+        volatility-regime data path. Stored as a price series (close only; no
+        splits/dividends/volume) so it rides the existing snapshot infra and the
+        regime feature can read it with load_prices. Same cache -> network ->
+        snapshot fallback as daily_adjusted; a failure (e.g. the key tier not
+        serving INDEX_DATA) is logged to data_health and degrades to None, which
+        the observe-only regime feature treats as 'no signal' — never an error."""
+        key = f"av:index:{symbol}"
+        cached = self.cache.get(key)
+        if cached is not None:
+            return self._parse_index(cached)
+        if self.cfg.alpha_vantage_key and self.budget.consume():
+            try:
+                data = self._get({
+                    "function": "INDEX_DATA",
+                    "symbol": symbol,
+                    "interval": "daily",
+                })
+                self.cache.put(key, "alphavantage", data, ttl_s=DAY_S)
+                df = self._parse_index(data)
+                if df is not None:
+                    self.store.save_prices(symbol, df)
+                    self._health("ok", symbol, f"index history {len(df)} rows")
+                return df
+            except Exception as e:
+                self._health("error", symbol, str(e)[:300])
+        else:
+            self._health("budget_exhausted", symbol, "using snapshot")
+        snap = self.store.load_prices(symbol)
+        if snap is not None:
+            return snap
+        stale = self.cache.get(key, allow_stale=True)
+        return self._parse_index(stale) if stale is not None else None
+
+    @staticmethod
+    def _parse_index(data: dict) -> pd.DataFrame | None:
+        rows_in = data.get("data")
+        if not rows_in:
+            return None
+        rows = {}
+        for r in rows_in:
+            d, c = r.get("date"), r.get("close")
+            if not d or c in (None, ""):
+                continue
+            close = float(c)
+            rows[d] = {
+                "close": close, "raw_close": close,   # indices: no splits/divs
+                "open": float(r.get("open") or close),
+                "high": float(r.get("high") or close),
+                "low": float(r.get("low") or close),
+                "volume": 0.0,
+            }
+        if not rows:
+            return None
+        df = pd.DataFrame.from_dict(rows, orient="index")
+        df.index = pd.to_datetime(df.index)
+        return df.sort_index()
+
     def _get_csv(self, params: dict) -> list[dict]:
         """CSV endpoints (LISTING_STATUS, EARNINGS_CALENDAR) -> list of dicts."""
         import csv

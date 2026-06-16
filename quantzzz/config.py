@@ -24,7 +24,13 @@ class PromotionThresholds:
     max_drawdown: float = 0.25
     min_trades: int = 20
     min_oos_is_ratio: float = 0.4       # OOS Sharpe must be >= 40% of IS Sharpe
-    max_correlation: float = 0.8        # vs already-promoted strategies
+    max_correlation: float = 0.8        # vs any single already-promoted strategy
+    # portfolio-aware: also cap correlation to the BLEND of the whole promoted
+    # book. A bloc of edges each under max_correlation pairwise can still be one
+    # factor in disguise (e.g. 11 momentum variants at ~0.57 avg); this rejects a
+    # candidate that's redundant with the book as a whole, rewarding genuine
+    # diversification rather than just non-duplication.
+    max_portfolio_correlation: float = 0.7
     min_is_sharpe_bar: float = 0.5      # cheap in-sample rejection
     min_positive_windows: int = 3       # of the 5 walk-forward OOS windows
     min_dsr_prob: float = 0.60          # deflated-Sharpe prob vs multiple-testing

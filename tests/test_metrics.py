@@ -90,3 +90,33 @@ def test_downside_capture_gate_rejects_amplifier():
                     bootstrap_q05=0.5, downside_capture=2.1)
     passed, reasons, _ = check_promotion(ev, thr, [])
     assert not passed and any("downside capture" in r for r in reasons)
+
+
+def test_portfolio_correlation_gate_rejects_redundant_bloc():
+    """A candidate that's only moderately correlated to each promoted peer
+    (under the pairwise cap) but tracks the BLEND of the book is rejected as
+    adding no diversification — the concentration the pairwise cap misses."""
+    import numpy as np, pandas as pd
+    from quantzzz.research.promotion import Evaluation, check_promotion
+    from quantzzz.config import PROMOTION_THRESHOLDS
+    thr = PROMOTION_THRESHOLDS["equity"]
+    idx = pd.bdate_range("2024-01-01", periods=400)
+    rng = np.random.default_rng(7)
+    factor = rng.normal(0, 0.01, 400)                  # the shared "trend" factor
+    promoted = [(i, pd.Series(factor + np.random.default_rng(i).normal(0, 0.012, 400),
+                              index=idx)) for i in range(1, 7)]
+    cand = pd.Series(factor + rng.normal(0, 0.004, 400), index=idx)  # clean factor read
+    # construction sanity: every pairwise under the cap, but the blend is not
+    pair = [float(cand.corr(pr)) for _, pr in promoted]
+    blend = pd.concat([pr for _, pr in promoted], axis=1).mean(axis=1)
+    assert max(pair) < thr.max_correlation, pair
+    assert float(cand.corr(blend)) > thr.max_portfolio_correlation
+
+    ev = Evaluation(is_sharpe=2, oos_sharpe=2, oos_alpha=0.5, oos_beta=1.0,
+                    max_dd=0.2, n_trades=80, hit_rate=0.6, fitness=2,
+                    oos_returns=cand, window_sharpes=[1, 1, 1, 1, 1], dsr_prob=0.99,
+                    bootstrap_q05=0.5, downside_capture=0.5)
+    passed, reasons, _ = check_promotion(ev, thr, promoted)
+    assert not passed
+    assert any("promoted book" in r for r in reasons)          # the portfolio gate fired
+    assert not any("with promoted #" in r for r in reasons)    # NOT the pairwise gate

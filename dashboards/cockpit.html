@@ -374,7 +374,9 @@ function loop(s){
   const last=s.loop.last_cycle?new Date(s.loop.last_cycle):null;
   const ran=last?`last cycle ${Math.max(0,Math.round((Date.now()-last)/60000))} min ago`:'no cycles yet';
   const marked=s.loop.last_close_marked?` · marks as of ${s.loop.last_close_marked} close`:'';
-  $('heartbeat').textContent=ran+marked;
+  const r=s.regime;
+  const reg=r?` · vol ${r.label} (VIX ${r.vix}/3M ${r.vix3m}, ${Math.round(r.score*100)}%)`:'';
+  $('heartbeat').textContent=ran+marked+reg;
 }
 
 let lwc, lwcSeries={};

@@ -128,6 +128,10 @@ def build_state(cfg: Config) -> dict:
         "best_oos_sharpe": g("SELECT MAX(oos_sharpe) FROM research_iterations"),
     }
 
+    # ---- volatility regime (observe-only): VIX term-structure read ----
+    from .data.regime import vol_regime
+    state["regime"] = vol_regime(store)
+
     # ---- strategies: ALL promoted edges, then best candidates ----
     strats = _rows(conn, """
         SELECT s.desk, s.family, s.status, s.origin,

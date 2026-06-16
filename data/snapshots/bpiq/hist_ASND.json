@@ -1,5 +1,28 @@
 [
  {
+  "id": 7901,
+  "company": {
+   "id": 614,
+   "ticker": "ASND",
+   "name": "Ascendis Pharma "
+  },
+  "created_at": "2026-06-16T13:06:37.148191Z",
+  "updated_at": "2026-06-16T13:06:37.148220Z",
+  "ticker": "ASND",
+  "drug_name": "TransCon PTH (palopegteriparatide)",
+  "drug_indication": "Hypoparathyroidism",
+  "airtable_id": 8167,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-06-13",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/13/3311416/0/en/phase-3-data-show-transcon-pth-replicated-systemic-actions-of-endogenous-pth-through-week-182-in-adults-with-hypoparathyroidism.html",
+  "catalyst_text": "Announced positive Phase 3 results from completed trial",
+  "detailed_catalyst_text": "Week 182 results from the completed Phase 3 PaTHway Trial in adults with hypoparathyroidism were reported, demonstrating sustained efficacy and safety over 3.5 years. Outcomes included an 86% responder rate on a multi-component endpoint, normalized key serum and urine chemistries, improved kidney function and quality of life, and independence from active vitamin D and therapeutic calcium.",
+  "catalyst_text_evidence": "COPENHAGEN, Denmark, 2026-06-13 (GLOBE NEWSWIRE) -- Ascendis Pharma A/S (NASDAQ:ASND) today announced Week 182 data from its completed Phase 3 PaTHway Trial showing that long-term treatment with TransCon PTH (palopegteriparatide) demonstrated sustained efficacy and safety in adults with hypoparathyroidism. Over the three-and-a-half-year duration of the trial, TransCon PTH replicated the systemic actions of endogenous PTH, with a balanced, beneficial impact on the main target organ systems \u2013 CNS, kidney, small intestine, and bone \u2013 as demonstrated by improved quality of life and normalized and stable urine calcium, serum calcium, serum phosphate, and bone mineral density. 86% of patients were responders for the multi-component endpoint of (1) serum calcium in the normal range, (2) taking no active vitamin D, and (3) taking \u2264600 mg/day of calcium. Significant improvements in kidney function were maintained, with mean (SE) eGFR of 80.2 (1.8) mL/min/1.73 m2 at Week 182, reflecting a mean (SE) increase of 11.0 (1.4) mL/min/1.73 m2 from baseline. Mean 24-hour urine calcium decreased substantially, normalized within 26 weeks, and remained normal through Week 182. In the trial, TransCon PTH treatment was generally well-tolerated, with no new safety signals identified.",
+  "news_published_at": "2026-06-16T00:00:00Z",
+  "open_price_gap_percent": "0.01348",
+  "intra_day_price_change_percent": "0.01036"
+ },
+ {
   "id": 7864,
   "company": {
    "id": 614,
@@ -7,7 +30,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2026-06-13T13:00:43.854918Z",
-  "updated_at": "2026-06-15T13:00:45.935221Z",
+  "updated_at": "2026-06-16T13:01:04.804672Z",
   "ticker": "ASND",
   "drug_name": "TransCon PTH (palopegteriparatide)",
   "drug_indication": "Hypoparathyroidism",
@@ -30,7 +53,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2026-05-08T13:05:03.590719Z",
-  "updated_at": "2026-06-15T13:05:05.200833Z",
+  "updated_at": "2026-06-16T13:05:57.915043Z",
   "ticker": "ASND",
   "drug_name": "TransCon CNP",
   "drug_indication": "Achondroplasia",
@@ -53,7 +76,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2026-04-09T13:02:15.785211Z",
-  "updated_at": "2026-06-15T13:02:26.693614Z",
+  "updated_at": "2026-06-16T13:03:01.431362Z",
   "ticker": "ASND",
   "drug_name": "TransCon CNP + TransCon hGH",
   "drug_indication": "Achondroplasia",
@@ -76,7 +99,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2026-03-18T13:02:56.524042Z",
-  "updated_at": "2026-06-15T13:02:46.906808Z",
+  "updated_at": "2026-06-16T13:03:24.601183Z",
   "ticker": "ASND",
   "drug_name": "TransCon hGH",
   "drug_indication": "Turner Syndrome",
@@ -99,7 +122,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2026-03-17T13:02:20.394524Z",
-  "updated_at": "2026-06-15T13:02:38.051191Z",
+  "updated_at": "2026-06-16T13:03:14.499365Z",
   "ticker": "ASND",
   "drug_name": "TransCon CNP (navepegritide)",
   "drug_indication": "Achondroplasia",
@@ -122,7 +145,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2026-03-03T13:03:27.562114Z",
-  "updated_at": "2026-06-15T13:04:13.429008Z",
+  "updated_at": "2026-06-16T13:04:59.522366Z",
   "ticker": "ASND",
   "drug_name": "YUVIWEL (navepegritide)",
   "drug_indication": "Achondroplasia",
@@ -145,7 +168,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2026-01-10T13:03:00.120516Z",
-  "updated_at": "2026-06-15T13:03:42.343482Z",
+  "updated_at": "2026-06-16T13:04:26.305870Z",
   "ticker": "ASND",
   "drug_name": "TransCon CNP + TransCon hGH",
   "drug_indication": "Achondroplasia",
@@ -168,7 +191,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-12-02T13:02:44.286361Z",
-  "updated_at": "2026-06-15T13:03:36.935958Z",
+  "updated_at": "2026-06-16T13:04:20.439174Z",
   "ticker": "ASND",
   "drug_name": "TransCon CNP (navepegritide)",
   "drug_indication": "Achondroplasia",
@@ -191,7 +214,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-07-29T13:02:21.749646Z",
-  "updated_at": "2026-06-15T13:03:12.931642Z",
+  "updated_at": "2026-06-16T13:03:53.723176Z",
   "ticker": "ASND",
   "drug_name": "SKYTROFA\u00ae (Lonapegsomatropin-tcgd)",
   "drug_indication": "Adults with Growth Hormone Deficiency",
@@ -214,7 +237,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:49:06.526820Z",
-  "updated_at": "2026-06-15T13:05:46.267062Z",
+  "updated_at": "2026-06-16T13:06:46.274219Z",
   "ticker": "ASND",
   "drug_name": "Breyanzi (lisocabtagene maraleucel) - (TRANSCEND FL)",
   "drug_indication": "Follicular lymphoma",
@@ -237,7 +260,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:06:32.322420Z",
-  "updated_at": "2026-06-15T13:01:47.202810Z",
+  "updated_at": "2026-06-16T13:02:17.014312Z",
   "ticker": "ASND",
   "drug_name": "TransCon hGH - (InsiGHTS)",
   "drug_indication": "Turner Syndrome",
@@ -260,7 +283,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:07:16.081469Z",
-  "updated_at": "2026-06-15T13:02:36.280191Z",
+  "updated_at": "2026-06-16T13:03:12.551066Z",
   "ticker": "ASND",
   "drug_name": "TransCon IL-2 \u03b2/\u03b3 - (IL-\u03b2elie\u03b3e)",
   "drug_indication": "Solid tumors",
@@ -283,7 +306,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:14:10.299761Z",
-  "updated_at": "2026-06-15T13:05:28.338722Z",
+  "updated_at": "2026-06-16T13:06:25.355125Z",
   "ticker": "ASND",
   "drug_name": "TransCon CNP - (ApproaCH)",
   "drug_indication": "Achondroplasia",
@@ -306,7 +329,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:05:38.664188Z",
-  "updated_at": "2026-06-15T13:00:47.765124Z",
+  "updated_at": "2026-06-16T13:01:07.132138Z",
   "ticker": "ASND",
   "drug_name": "YORVIPATH (Palopegteriparatide)",
   "drug_indication": "Hypoparathyroidism",
@@ -329,7 +352,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:06:06.605032Z",
-  "updated_at": "2026-06-15T13:01:19.085232Z",
+  "updated_at": "2026-06-16T13:01:43.618468Z",
   "ticker": "ASND",
   "drug_name": "TransCon CNP - (ACcomplisH)",
   "drug_indication": "Achondroplasia",
@@ -352,7 +375,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:14:44.564420Z",
-  "updated_at": "2026-06-15T13:06:07.524773Z",
+  "updated_at": "2026-06-16T13:07:10.590344Z",
   "ticker": "ASND",
   "drug_name": "TLR7/8 with pembrolizumab - (transcendIT-101)",
   "drug_indication": "Solid tumors",
@@ -375,7 +398,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:47:06.350856Z",
-  "updated_at": "2026-06-15T13:02:49.486893Z",
+  "updated_at": "2026-06-16T13:03:27.569535Z",
   "ticker": "ASND",
   "drug_name": "Breyanzi (lisocabtagene maraleucel) - (TRANSCEND NHL 001)",
   "drug_indication": "Mantle cell lymphoma (MCL)",
@@ -398,7 +421,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:14:34.501779Z",
-  "updated_at": "2026-06-15T13:05:55.268005Z",
+  "updated_at": "2026-06-16T13:06:56.660087Z",
   "ticker": "ASND",
   "drug_name": "TransCon hGH -  (foresiGHt)",
   "drug_indication": "Growth Hormone Deficiency - adults",
@@ -421,7 +444,7 @@
    "name": "Ascendis Pharma "
   },
   "created_at": "2025-02-21T20:06:27.521492Z",
-  "updated_at": "2026-06-15T13:01:41.998582Z",
+  "updated_at": "2026-06-16T13:02:10.896986Z",
   "ticker": "ASND",
   "drug_name": "SKYTROFA",
   "drug_indication": "Growth hormone deficiency in children",

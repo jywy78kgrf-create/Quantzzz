@@ -124,6 +124,19 @@ def check_promotion(ev: Evaluation, thr: PromotionThresholds,
                 reasons.append(f"correlated {corr:.2f} with promoted #{sid}")
                 corr_ids.append(sid)
 
+    # portfolio-aware: also reject a candidate redundant with the BLEND of the
+    # whole promoted book, not just any single peer. A correlated bloc (each pair
+    # under max_correlation) is still one factor; correlation to the equal-weight
+    # book return catches the concentration the pairwise cap misses.
+    if promoted_returns:
+        blend = pd.concat([pr for _, pr in promoted_returns], axis=1).mean(axis=1)
+        joined = pd.concat([ev.oos_returns, blend], axis=1, join="inner").dropna()
+        if len(joined) > 20:
+            bcorr = joined.iloc[:, 0].corr(joined.iloc[:, 1])
+            if bcorr is not None and bcorr > thr.max_portfolio_correlation:
+                reasons.append(f"correlated {bcorr:.2f} with the promoted book "
+                               f"(adds no diversification)")
+
     return (len(reasons) == 0), reasons, corr_ids
 
 

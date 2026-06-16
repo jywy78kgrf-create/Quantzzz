@@ -133,10 +133,21 @@ def build_state(cfg: Config) -> dict:
     state["regime"] = vol_regime(store)
 
     # ---- strategies: ALL promoted edges, then best candidates ----
+    # backtest claim (oos/dsr/alpha) PLUS the live forward record per edge — the
+    # closed live-trade count (maturity), realized live P&L (delivered), and live
+    # hit rate. source='live' excludes the replay/hindsight era, so this is the
+    # honest "promised vs delivered" the backtest ranking can't settle.
     strats = _rows(conn, """
-        SELECT s.desk, s.family, s.status, s.origin,
+        SELECT s.id, s.desk, s.family, s.status, s.origin,
                MAX(i.oos_sharpe) sharpe, MAX(i.oos_alpha) alpha,
-               MAX(i.dsr_prob) dsr, MAX(i.bootstrap_q05) boot
+               MAX(i.dsr_prob) dsr, MAX(i.bootstrap_q05) boot,
+               (SELECT COUNT(*) FROM trades t WHERE t.strategy_id=s.id
+                  AND t.source='live' AND t.exit_ts IS NOT NULL) live_closed,
+               (SELECT ROUND(SUM(t.pnl),0) FROM trades t WHERE t.strategy_id=s.id
+                  AND t.source='live' AND t.exit_ts IS NOT NULL) live_pnl,
+               (SELECT ROUND(AVG(CASE WHEN t.pnl>0 THEN 1.0 ELSE 0.0 END),2)
+                  FROM trades t WHERE t.strategy_id=s.id
+                  AND t.source='live' AND t.exit_ts IS NOT NULL) live_hit
         FROM strategies s JOIN research_iterations i ON i.strategy_id = s.id
         WHERE i.oos_sharpe IS NOT NULL
         GROUP BY s.id

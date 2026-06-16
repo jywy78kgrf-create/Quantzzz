@@ -185,7 +185,11 @@
   <div class="card col6">
     <h3>Strategy Book</h3>
     <div class="scrollbox">
-    <table id="strats"><thead><tr><th>desk</th><th>family</th><th>status</th><th>oos sharpe</th><th>alpha/yr</th><th>dsr</th></tr></thead><tbody></tbody></table>
+    <table id="strats"><thead><tr><th>desk</th><th>family</th><th>status</th>
+      <th title="backtest claim">oos sharpe</th><th title="backtest claim">alpha/yr</th><th title="backtest claim">dsr</th>
+      <th title="closed live (forward) trades — sample size">fwd&nbsp;trades</th>
+      <th title="realized P&amp;L on closed live trades">fwd&nbsp;P&amp;L</th>
+      <th title="live hit rate">fwd&nbsp;hit</th></tr></thead><tbody></tbody></table>
     </div>
   </div>
 
@@ -486,7 +490,10 @@ function strats(s){
       <td><span class="tag t-${r.status}">${r.status}</span></td>
       <td>${(+r.sharpe).toFixed(2)}</td>
       <td class="${cls(+r.alpha)}">${pct(+r.alpha*100,1)}</td>
-      <td>${r.dsr==null?'—':(+r.dsr).toFixed(2)}</td></tr>`);
+      <td>${r.dsr==null?'—':(+r.dsr).toFixed(2)}</td>
+      <td title="${(r.live_closed||0)<10?'too few to judge yet':''}">${r.live_closed||0}${(r.live_closed||0)>0&&(r.live_closed||0)<10?'<span class="no">*</span>':''}</td>
+      <td class="${r.live_pnl==null?'':cls(+r.live_pnl)}">${r.live_pnl==null?'—':'$'+(+r.live_pnl).toLocaleString()}</td>
+      <td>${r.live_hit==null?'—':(+r.live_hit*100).toFixed(0)+'%'}</td></tr>`);
   }
 }
 

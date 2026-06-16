@@ -84,3 +84,36 @@ def test_combination_safe_without_fundamentals(bundle, monkeypatch):
     w = E.quality_momentum_signal(bundle, {"mom_lookback": 100, "mom_pctile": 0.5,
                                            "top_n": 5, "hold_days": 21, "volume_confirm": 0})
     assert (w == 0).all().all() and list(w.columns) == bundle.tickers
+
+
+def test_llm_proposer_sees_full_family_menu(tmp_db):
+    """The LLM must be handed every family for the desk (so it can reach for
+    combination / unpromoted ones), not just the incumbents in the population —
+    and told which families have already promoted."""
+    from quantzzz.config import load_config
+    from quantzzz.data.features import FeatureBundle
+    from quantzzz.research.loop import ResearchDesk
+    from quantzzz.research.strategy_space import StrategySpec
+
+    captured = {}
+
+    class FakeLLM:
+        available = True
+
+        def propose_strategies(self, desk, leaderboard, param_spaces, search_context=None):
+            captured["spaces"] = param_spaces
+            captured["context"] = search_context
+            return []
+
+    dates = pd.bdate_range("2022-01-03", periods=40)
+    prices = pd.DataFrame(100.0, index=dates, columns=["T0", "T1"])
+    desk = ResearchDesk(load_config(), "equity", tmp_db,
+                        FeatureBundle("equity", prices), llm=FakeLLM())
+    desk._llm_proposals([(StrategySpec("momentum", "equity", {}), 1.0)])
+
+    # the combination families must be in the menu the LLM receives
+    assert {"quality_momentum", "oversold_quality"} <= set(captured["spaces"])
+    # and the structure context distinguishes promoted from unexplored
+    assert "promoted_families" in captured["context"]
+    assert "unpromoted_families" in captured["context"]
+    assert "quality_momentum" in captured["context"]["unpromoted_families"]

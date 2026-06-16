@@ -23,7 +23,7 @@ from . import evolution
 from .backtest import Backtester, walk_forward_windows
 from .feature_loader import load_feature_bundle
 from .promotion import check_promotion, evaluate_windows, should_replace
-from .strategies import signal_fn_for, space_for
+from .strategies import families_for, signal_fn_for, space_for
 from .strategy_space import StrategySpec
 
 
@@ -231,8 +231,16 @@ class ResearchDesk:
     def _llm_proposals(self, population):
         summary = [{"family": s.family, "params": s.params, "fitness": round(f, 2)}
                    for s, f in population[:5]]
+        # show the LLM the WHOLE family menu, not just the incumbents in the
+        # population — otherwise it can only re-tune what's already winning
+        # (evolution's job, and its weakness). The full registry lets it reach
+        # for underexplored and combination families (its strength).
+        all_fams = families_for(self.desk)
         spaces = {fam: [p.__dict__ for p in space_for(fam).params]
-                  for fam in {s.family for s, _ in population}} or None
+                  for fam in all_fams} or None
+        promoted_fams = {r["family"] for r in self.conn.execute(
+            "SELECT DISTINCT family FROM strategies WHERE desk=? AND status='promoted'",
+            (self.desk,)).fetchall()}
         fails = self.conn.execute(
             "SELECT fail_reasons FROM research_iterations WHERE desk=? AND "
             "promoted=0 AND fail_reasons IS NOT NULL ORDER BY id DESC LIMIT 300",
@@ -245,7 +253,10 @@ class ResearchDesk:
                 if head:
                     counts[head] += 1
         context = {"top_fail_reasons": dict(counts.most_common(6)),
-                   "sample": len(fails)}
+                   "sample": len(fails),
+                   # evolution already owns these; point the LLM at the rest
+                   "promoted_families": sorted(promoted_fams),
+                   "unpromoted_families": sorted(set(all_fams) - promoted_fams)}
         try:
             proposals = self.llm.propose_strategies(self.desk, summary, spaces,
                                                     search_context=context)

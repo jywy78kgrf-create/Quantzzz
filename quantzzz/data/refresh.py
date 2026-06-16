@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from ..config import Config
 from ..db import get_conn
-from ..universe import BENCH_TICKERS, EQUITY_UNIVERSE
+from ..universe import BENCH_TICKERS, EQUITY_UNIVERSE, VOL_PROXY_TICKERS
 from .alphavantage import AlphaVantageClient
 from .bpiq import BpiqProvider
 from .edgar import EdgarClient
@@ -222,7 +222,7 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         # then idles — same pattern as the biotech catalyst-universe pull.
         eq_all = EQUITY_UNIVERSE + EQUITY_RESEARCH_SEED
         _safe("equity prices (expanded universe)",
-              lambda: refresh_prices(cfg, eq_all + BENCH_TICKERS, conn))
+              lambda: refresh_prices(cfg, eq_all + BENCH_TICKERS + VOL_PROXY_TICKERS, conn))
         _safe("equity premium feeds",
               lambda: refresh_premium_feeds(cfg, eq_all, conn,
                                             options_for=EQUITY_UNIVERSE[:30]))

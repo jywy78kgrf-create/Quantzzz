@@ -36,6 +36,15 @@ BIOTECH_SEED = [
 
 BENCH_TICKERS = ["SPY", "XBI"]
 
+# Volatility-regime proxies. AlphaVantage serves ETFs/ETNs but NOT the CBOE
+# spot indices (^VIX/^VIX3M), so the implied-vol term structure is proxied by
+# VIX-futures ETFs: VIXY (short-term, ~1mo) vs VIXM (mid-term, ~5mo). The
+# short/mid relationship tracks contango vs backwardation — the stress-regime
+# signal for a market-level exposure overlay. VXX/VXZ are issuer-alternate
+# fallbacks in case a primary symbol isn't served. Pulled with the bench;
+# nothing trades them — they feed a regime feature only.
+VOL_PROXY_TICKERS = ["VIXY", "VIXM", "VXX", "VXZ"]
+
 # Broad liquid US large/mid-cap pool (~S&P 500) so the equity desk has real
 # breadth to find edges in, not just the 63-name core. Names are price-gated
 # into the universe — they only enter once their history has been pulled (same

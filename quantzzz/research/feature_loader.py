@@ -42,7 +42,7 @@ def load_feature_bundle(cfg: Config, desk: str, tickers: list[str],
             if data:
                 fundamentals[t] = data
 
-    if desk == "biotech":
+    if desk in ("biotech", "biotech_smallcap"):
         catalysts = store.load_json("bpiq/catalysts.json") or []
         for t in close.columns:
             h = store.load_json(f"bpiq/hist_{t}.json")

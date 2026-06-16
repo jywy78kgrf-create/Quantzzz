@@ -4,7 +4,7 @@
   "company": {
    "ticker": "SPRO",
    "name": " Spero Therapeutics",
-   "last_price": "2.81",
+   "last_price": "2.82",
    "market_cap": 168493344
   },
   "ticker": "SPRO",
@@ -141,6 +141,40 @@
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/19/3297888/0/en/achieve-life-sciences-presents-safety-data-from-52-weeks-of-continuous-cytisinicline-treatment.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 18098,
+  "company": {
+   "ticker": "VSTM",
+   "name": "Verastem Oncology",
+   "last_price": "3.98",
+   "market_cap": 351494560
+  },
+  "ticker": "VSTM",
+  "drug_name": "GFH375 (VS-7375)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "KRAS G12D Advanced Solid Tumors",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "VS-7375-101 trial. Collab w/ GenFleet Therapeutics (China). 7/12/24- First patient dosed in China. 4/23/25- US IND cleared. 6/24/25- First patient dosed in US trial. 10/23/25\u2013 Reported preliminary data w/ tumor reduction. Interim update planned H1\u20172026. 11/04/25:- 400/600mg doses cleared without DLTs; 4/5 patients showed tumor reductions. Interim update and RP2D expansions planned H1 2026. 12/29/25:- Program prioritized; Ph1/2 VS-7375 showed 69% ORR in KRAS G12D NSCLC; interim update planned H1 2026. 03/04/26:- VS-7375-101 cleared 900 mg; early data and CRC combo RP2D/expansion expected 1H 2026; further enrollments mid-2026. 03/18/26:- VS-7375 has FDA Fast Track for KRAS G12D PDAC; AACR 2026 preclinical data Apr 20-22. 05/07/26:- TARGET-D 101 early data expected H1 2026; mature data update planned H2 2026; multiple Phase 2 trials initiating mid-2026. 06/03/26:- TARGET-D 101 now testing 1200 mg and cetuximab combo. Early data H1 2026; mature data H2 2026. 06/16/26:- Investor call June 23, 2026 to present updated preliminary TARGET-D 101 data.",
+  "catalyst_date": "2026-06-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260615846661/en/Verastem-Oncology-to-Host-Investor-Conference-Call-and-Report-Updated-Data-and-Progress-Across-VS-7375-Oral-KRAS-G12D-ONOFF-Inhibitor-TARGET-D-Clinical-Program",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -1545,45 +1579,11 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 18098,
-  "company": {
-   "ticker": "VSTM",
-   "name": "Verastem Oncology",
-   "last_price": "3.98",
-   "market_cap": 351494560
-  },
-  "ticker": "VSTM",
-  "drug_name": "GFH375 (VS-7375)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "KRAS G12D Advanced Solid Tumors",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "VS-7375-101 trial. Collab w/ GenFleet Therapeutics (China). 7/12/24- First patient dosed in China. 4/23/25- US IND cleared. 6/24/25- First patient dosed in US trial. 10/23/25\u2013 Reported preliminary data w/ tumor reduction. Interim update planned H1\u20172026. 11/04/25:- 400/600mg doses cleared without DLTs; 4/5 patients showed tumor reductions. Interim update and RP2D expansions planned H1 2026. 12/29/25:- Program prioritized; Ph1/2 VS-7375 showed 69% ORR in KRAS G12D NSCLC; interim update planned H1 2026. 03/04/26:- VS-7375-101 cleared 900 mg; early data and CRC combo RP2D/expansion expected 1H 2026; further enrollments mid-2026. 03/18/26:- VS-7375 has FDA Fast Track for KRAS G12D PDAC; AACR 2026 preclinical data Apr 20-22. 05/07/26:- TARGET-D 101 early data expected H1 2026; mature data update planned H2 2026; multiple Phase 2 trials initiating mid-2026. 06/03/26:- TARGET-D 101 now testing 1200 mg and cetuximab combo. Early data H1 2026; mature data H2 2026.",
-  "catalyst_date": "2026-06-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260603521165/en/Verastem-Oncology-Announces-U.S.-FDA-Fast-Track-Designation-for-VS-7375-an-Oral-and-Potential-Best-in-Class-Investigational-KRAS-G12D-ONOFF-Inhibitor-for-the-Treatment-of-KRAS-G12D-Mutated-Locally-Advanced-or-Metastatic-Non-Small-Cell-Lung-Cancer",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 18207,
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.35",
+   "last_price": "1.36",
    "market_cap": 209779872
   },
   "ticker": "CHRS",
@@ -1738,40 +1738,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 18347,
-  "company": {
-   "ticker": "HCWB",
-   "name": "HCW Biologics",
-   "last_price": "1.07",
-   "market_cap": 8736603
-  },
-  "ticker": "HCWB",
-  "drug_name": "HCW9302",
-  "indications": [
-   {
-    "id": 902,
-    "title": "Alopecia areata",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Alopecia areata",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "05/14/26:- Ph1 preliminary data remains due H1 2026; full readout expected Q4 2026.",
-  "catalyst_date": "2026-06-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3295416/0/en/hcw-biologics-reports-first-quarter-2026-business-highlights-and-financial-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 18369,
@@ -2856,6 +2822,45 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 13445,
+  "company": {
+   "ticker": "OTLK",
+   "name": "Outlook Therapeutics",
+   "last_price": "1.16",
+   "market_cap": 172361056
+  },
+  "ticker": "OTLK",
+  "drug_name": "ONS-5010 / LYTENAVA\u2122 (bevacizumab-vikg)",
+  "indications": [
+   {
+    "id": 993,
+    "title": "Eye disease ",
+    "nickname": ""
+   },
+   {
+    "id": 1322,
+    "title": "Wet age-related macular degeneration ",
+    "nickname": "wAMD"
+   }
+  ],
+  "indications_text": "Wet age-related macular degeneration (AMD) ",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "05/15/26:- Dispute meeting completed; FDA decision expected May 2026; Europe Q2 unit sales down 10%. 05/26/26:- FDA granted appeal; expects BLA resubmission June 2026. Class 1; decision expected within 60 days. 06/01/26:- BLA resubmitted; Class 1 review. PDUFA decision expected within 60 days (Late July 2026 est.). 06/16/26:- FDA set PDUFA action date July 29, 2026 for Class 1 resubmitted BLA.",
+  "catalyst_date": "2026-07-29",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/16/3312535/0/en/outlook-therapeutics-announces-fda-acceptance-of-resubmitted-biologics-license-application-for-ons-5010-lytenava-bevacizumab-vikg-as-a-treatment-for-wet-amd.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19590,
   "company": {
    "ticker": "VTRS",
@@ -2888,45 +2893,6 @@
   "catalyst_date": "2026-07-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/viatris-reports-first-quarter-2026-financial-results-302765461.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 13445,
-  "company": {
-   "ticker": "OTLK",
-   "name": "Outlook Therapeutics",
-   "last_price": "1.16",
-   "market_cap": 172361056
-  },
-  "ticker": "OTLK",
-  "drug_name": "ONS-5010 / LYTENAVA\u2122 (bevacizumab-vikg)",
-  "indications": [
-   {
-    "id": 993,
-    "title": "Eye disease ",
-    "nickname": ""
-   },
-   {
-    "id": 1322,
-    "title": "Wet age-related macular degeneration ",
-    "nickname": "wAMD"
-   }
-  ],
-  "indications_text": "Wet age-related macular degeneration (AMD) ",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "05/15/26:- Dispute meeting completed; FDA decision expected May 2026; Europe Q2 unit sales down 10%. 05/26/26:- FDA granted appeal; expects BLA resubmission June 2026. Class 1; decision expected within 60 days. 06/01/26:- BLA resubmitted; Class 1 review. PDUFA decision expected within 60 days (Late July 2026 est.).",
-  "catalyst_date": "2026-07-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/01/3304397/0/en/outlook-therapeutics-announces-resubmission-of-biologics-license-application-to-u-s-fda-for-ons-5010-lytenava-bevacizumab-vikg.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -3649,7 +3615,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.35",
+   "last_price": "1.36",
    "market_cap": 209779872
   },
   "ticker": "CHRS",
@@ -4194,7 +4160,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "30.20",
+   "last_price": "28.85",
    "market_cap": 500427264
   },
   "ticker": "STRO",
@@ -4442,7 +4408,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.35",
+   "last_price": "1.36",
    "market_cap": 209779872
   },
   "ticker": "CHRS",
@@ -5610,7 +5576,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.22",
+   "last_price": "1.19",
    "market_cap": 412996672
   },
   "ticker": "OCGN",
@@ -6043,10 +6009,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- DECLARATION data shifted to Q3 2026. LIBERTY starts shortly. DRUMMER pediatric plan agreed. 06/01/26:- DECLARATION enrollment completed; topline results still expected in Late Q3 2026. 06/09/26:- First participants dosed in LIBERTY Ph3. LIBERTY topline data expected in Q3 2026.",
+  "note": "05/14/26:- DECLARATION data shifted to Q3 2026. LIBERTY starts shortly. DRUMMER pediatric plan agreed. 06/01/26:- DECLARATION enrollment completed; topline results still expected in Late Q3 2026. 06/09/26:- First participants dosed in LIBERTY Ph3. LIBERTY topline data expected in Q3 2026. 06/16/26:- LIBERTY Ph3 enrollment completed; initial results expected in Q3 2026.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/09/3308710/0/en/invivyd-announces-first-participants-dosed-in-liberty-a-phase-3-clinical-trial-to-evaluate-the-safety-and-tolerability-of-vyd2311-antibody-versus-mrna-covid-vaccine-and-to-characte.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/16/3312427/0/en/invivyd-announces-completion-of-enrollment-in-phase-3-liberty-trial-evaluating-vyd2311-antibody-versus-mrna-covid-19-vaccine.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -7426,7 +7392,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "13.83",
+   "last_price": "13.88",
    "market_cap": 10967178240
   },
   "ticker": "SMMT",
@@ -8763,7 +8729,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "28.63",
+   "last_price": "28.06",
    "market_cap": 1456281344
   },
   "ticker": "IMCR",
@@ -9192,7 +9158,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "83.12",
+   "last_price": "83.37",
    "market_cap": 8923064320
   },
   "ticker": "CORT",
@@ -9705,7 +9671,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "11.14",
+   "last_price": "10.79",
    "market_cap": 695770752
   },
   "ticker": "DSGN",
@@ -10095,7 +10061,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "28.63",
+   "last_price": "28.06",
    "market_cap": 1456281344
   },
   "ticker": "IMCR",
@@ -11373,7 +11339,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "28.63",
+   "last_price": "28.06",
    "market_cap": 1456281344
   },
   "ticker": "IMCR",
@@ -11539,7 +11505,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "3.02",
+   "last_price": "3.06",
    "market_cap": 135418048
   },
   "ticker": "GNLX",
@@ -11953,7 +11919,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "3.02",
+   "last_price": "3.06",
    "market_cap": 135418048
   },
   "ticker": "GNLX",
@@ -13045,7 +13011,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "11.14",
+   "last_price": "10.79",
    "market_cap": 695770752
   },
   "ticker": "DSGN",
@@ -13231,60 +13197,11 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 18147,
-  "company": {
-   "ticker": "CNTX",
-   "name": "Context Therapeutics",
-   "last_price": "0.68",
-   "market_cap": 62395148
-  },
-  "ticker": "CNTX",
-  "drug_name": "CTIM-76",
-  "indications": [
-   {
-    "id": 1168,
-    "title": "Cervical cancer",
-    "nickname": ""
-   },
-   {
-    "id": 704,
-    "title": "Ovarian cancer",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   },
-   {
-    "id": 2049,
-    "title": "Testicular cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Testicular cancer, Endometrial cancer, Ovarian cancer",
-  "stage_event": {
-   "id": 107,
-   "label": "Phase 1a Update",
-   "stage_label": "Phase 1a",
-   "event_label": "Update"
-  },
-  "note": "5/2/24- IND cleared. 1/14/25- First patient dosed. 6/2/25- Trial in progress at ASCO '25. Initial data in H1 2026. 11/05/25:- Ph1 dose escalation has enrolled 12 patients with early RECIST responses and no DLTs or high-grade CRS; dose escalation is ongoing. Updated interim Ph1a data and Ph1b dose selection are planned for Q2 2026. 03/23/26:- Phase 1a interim data webinar planned June 2026; weekly dosing escalation completes H1 2026. 04/02/26:- FDA Fast Track for PROC. Interim Ph1a data expected June 2026 (NCT06515613). 05/06/26:- On track for Ph1a interim CTIM-76 data in June 2026, including preliminary safety and efficacy. 06/15/26:- Interim Ph1 data showed 29% ORR in PROC. Q3W dosing exploration planned H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/15/3311621/0/en/context-therapeutics-announces-positive-interim-efficacy-and-safety-results-from-ongoing-phase-1-clinical-trial-for-ctim-76.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 18162,
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "3.02",
+   "last_price": "3.06",
    "market_cap": 135418048
   },
   "ticker": "GNLX",
@@ -13362,7 +13279,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "13.83",
+   "last_price": "13.88",
    "market_cap": 10967178240
   },
   "ticker": "SMMT",
@@ -13897,6 +13814,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18347,
+  "company": {
+   "ticker": "HCWB",
+   "name": "HCW Biologics",
+   "last_price": "1.07",
+   "market_cap": 8736603
+  },
+  "ticker": "HCWB",
+  "drug_name": "HCW9302",
+  "indications": [
+   {
+    "id": 902,
+    "title": "Alopecia areata",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alopecia areata",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "05/14/26:- Ph1 preliminary data remains due H1 2026; full readout expected Q4 2026. 06/16/26:- Positive; RP2D by Q4 2026; NCT07049328.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/16/3312406/0/en/hcw-biologics-announces-positive-results-for-preliminary-human-data-readout-for-phase-1-clinical-trial-evaluating-il-2-based-fusion-immunotherapeutic-hcw9302-monotherapy-in-alopeci.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18359,
@@ -14614,7 +14565,7 @@
   "company": {
    "ticker": "OKUR",
    "name": "OnKure Therapeutics, Inc.",
-   "last_price": "4.14",
+   "last_price": "4.26",
    "market_cap": 169661008
   },
   "ticker": "OKUR",
@@ -14653,7 +14604,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "11.19",
+   "last_price": "10.92",
    "market_cap": 657952128
   },
   "ticker": "CLYM",
@@ -15092,7 +15043,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "28.63",
+   "last_price": "28.06",
    "market_cap": 1456281344
   },
   "ticker": "IMCR",
@@ -15592,7 +15543,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "4.36",
+   "last_price": "4.33",
    "market_cap": 608933632
   },
   "ticker": "ACRS",
@@ -15626,7 +15577,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "4.36",
+   "last_price": "4.33",
    "market_cap": 608933632
   },
   "ticker": "ACRS",
@@ -15913,7 +15864,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "83.12",
+   "last_price": "83.37",
    "market_cap": 8923064320
   },
   "ticker": "CORT",
@@ -16461,10 +16412,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "6/2/25- Presented data at ASCO'25. Initiate pivotal trial in 2L SCLC with selected optimal dose later this 2025. 10/24/25\u2013 Presented updated data at AACR-NCI-EORTC\u201925. 02/26/26:- 1L ES-SCLC Ph1 combo data in H2 2026; plan registrational study 2026. 03/17/26:- AACR Apr 21, 2026 poster shows intracranial activity in ES-SCLC brain mets. H2 2026 combo data expected. 04/17/26:- Ph1 intracranial iORR 53.7% in ES-SCLC brain mets; safety manageable. AACR 2026 presentation planned. 05/07/26:- AACR2026 ES-SCLC brain mets: iORR 53.7%, 62.5% at 1.6 mg/kg; manageable safety; H2 2026 combo Ph1 data. 05/11/26:- Fast Track designation in ES-SCLC reiterated; registrational studies across 1L, 2L, epNEC planned by end 2026.",
+  "note": "6/2/25- Presented data at ASCO'25. Initiate pivotal trial in 2L SCLC with selected optimal dose later this 2025. 10/24/25\u2013 Presented updated data at AACR-NCI-EORTC\u201925. 02/26/26:- 1L ES-SCLC Ph1 combo data in H2 2026; plan registrational study 2026. 03/17/26:- AACR Apr 21, 2026 poster shows intracranial activity in ES-SCLC brain mets. H2 2026 combo data expected. 04/17/26:- Ph1 intracranial iORR 53.7% in ES-SCLC brain mets; safety manageable. AACR 2026 presentation planned. 05/07/26:- AACR2026 ES-SCLC brain mets: iORR 53.7%, 62.5% at 1.6 mg/kg; manageable safety; H2 2026 combo Ph1 data. 05/11/26:- Fast Track designation in ES-SCLC reiterated; registrational studies across 1L, 2L, epNEC planned by end 2026. 06/16/26:- EMA Orphan Drug Designation for pulmonary NECs; COMP cited durable responses in relapsed/refractory ES-SCLC.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260511041273/en/Zai-Lab-Receives-U.S.-FDA-Fast-Track-Designation-for-Zocilurtatug-Pelitecan-Zoci-a-DLL3-Targeting-ADC-for-Treatment-of-Extrapulmonary-Neuroendocrine-Carcinomas-epNECs",
+  "catalyst_source": "https://www.businesswire.com/news/home/20260616338405/en/Zai-Lab-Receives-EMA-Orphan-Drug-Designation-for-Zocilurtatug-Pelitecan-Zoci-in-Pulmonary-Neuroendocrine-Carcinomas",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18112,10 +18063,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "11/14/25:- Minipig PK data for OPK-88006 reported; IND submission for oral OXM planned for H1 2026. 03/27/26:- ENDO 2025 PK/PD showed human-comparable exposure; injectable Ph1 data expected Q4 2026 to trigger oral tablet Ph1. 05/08/26:- EB618 oral OXM tablet NHP pharmacokinetic data submitted to ENDO2026; OPKO collaboration funding earmarked through early 2027. 05/28/26:- ENDO 2026 session presents EB618 non-human primate PK-PD results on June 13, 2026.",
+  "note": "11/14/25:- Minipig PK data for OPK-88006 reported; IND submission for oral OXM planned for H1 2026. 03/27/26:- ENDO 2025 PK/PD showed human-comparable exposure; injectable Ph1 data expected Q4 2026 to trigger oral tablet Ph1. 05/08/26:- EB618 oral OXM tablet NHP pharmacokinetic data submitted to ENDO2026; OPKO collaboration funding earmarked through early 2027. 05/28/26:- ENDO 2026 session presents EB618 non-human primate PK-PD results on June 13, 2026. 06/16/26:- ENDO 2026 EB618 NHP PK/PD showed robust bioavailability and glucose lowering. Injectable Ph1 data expected Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/28/3302886/0/en/entera-s-eb613-first-in-class-oral-pth-1-34-anabolic-for-osteoporosis-single-tablet-data-selected-for-late-breaking-oral-presentation-at-endo-2026-annual-meeting-additional-oral-pe.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/16/3312598/0/en/entera-reports-robust-preclinical-data-for-eb612-oral-la-pth-1-34-for-hypoparathyroidism-and-eb618-oral-glp-1-glucagon-for-obesity-at-endo-2026.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -19874,7 +19825,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "11.19",
+   "last_price": "10.92",
    "market_cap": 657952128
   },
   "ticker": "CLYM",
@@ -20140,7 +20091,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "9.33",
+   "last_price": "8.96",
    "market_cap": 505113408
   },
   "ticker": "EIKN",
@@ -20179,7 +20130,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "9.33",
+   "last_price": "8.96",
    "market_cap": 505113408
   },
   "ticker": "EIKN",
@@ -20354,7 +20305,7 @@
   "company": {
    "ticker": "PBLS",
    "name": "Parbaillis Medicines",
-   "last_price": "25.01",
+   "last_price": "25.11",
    "market_cap": 3059034368
   },
   "ticker": "PBLS",
@@ -21370,6 +21321,50 @@
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/06/b53103493/u-s-fda-accepts-takedas-application-for-intravenous-entyvio-vedolizumab-in-pediatric-ulcerative-co",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 13910,
+  "company": {
+   "ticker": "INBX",
+   "name": "Inhibrx Inc.",
+   "last_price": "93.86",
+   "market_cap": 1371902592
+  },
+  "ticker": "INBX",
+  "drug_name": "Ozekibart (INBRX-109) (DR5 agonist)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 2139,
+    "title": "Chondrosarcoma",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Advanced or metastatic, unresectable Chondrosarcoma",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "05/14/26:- BLA submission in April 2026 was reiterated. Acceptance timing remains TBA. 06/15/26:- BLA accepted; PDUFA goal date set for April 14, 2027.",
+  "catalyst_date": "2027-04-14",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/inhibrx-announces-us-fda-acceptance-of-bla-for-ozekibart-in-patients-with-conventional-chondrosarcoma-302800101.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -23503,7 +23498,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "28.63",
+   "last_price": "28.06",
    "market_cap": 1456281344
   },
   "ticker": "IMCR",
@@ -24335,7 +24330,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "83.12",
+   "last_price": "83.37",
    "market_cap": 8923064320
   },
   "ticker": "CORT",
@@ -24369,7 +24364,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "83.12",
+   "last_price": "83.37",
    "market_cap": 8923064320
   },
   "ticker": "CORT",
@@ -24403,7 +24398,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "83.12",
+   "last_price": "83.37",
    "market_cap": 8923064320
   },
   "ticker": "CORT",
@@ -24437,7 +24432,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "83.12",
+   "last_price": "83.37",
    "market_cap": 8923064320
   },
   "ticker": "CORT",
@@ -24471,7 +24466,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "83.12",
+   "last_price": "83.37",
    "market_cap": 8923064320
   },
   "ticker": "CORT",
@@ -24573,7 +24568,7 @@
   "company": {
    "ticker": "ARDX",
    "name": "Ardelyx Inc.",
-   "last_price": "5.67",
+   "last_price": "5.76",
    "market_cap": 1404362112
   },
   "ticker": "ARDX",
@@ -25789,7 +25784,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "83.12",
+   "last_price": "83.37",
    "market_cap": 8923064320
   },
   "ticker": "CORT",

@@ -54,11 +54,13 @@ class AlphaVantageClient:
                 raise RuntimeError(f"alphavantage: {data[bad_key][:200]}")
         return data
 
-    def daily_adjusted(self, ticker: str) -> pd.DataFrame | None:
-        """Full adjusted daily history. Cache (1 day TTL) -> network -> snapshot."""
+    def daily_adjusted(self, ticker: str, force: bool = False) -> pd.DataFrame | None:
+        """Full adjusted daily history. Cache (1 day TTL) -> network -> snapshot.
+        force=True skips the cache read to pull a just-finalized bar (post-close
+        EOD refresh), then overwrites the cache with the fresh series."""
         key = f"av:daily:{ticker}"
         cached = self.cache.get(key)
-        if cached is not None:
+        if cached is not None and not force:
             return self._parse_daily(cached)
 
         if self.cfg.alpha_vantage_key and self.budget.consume():

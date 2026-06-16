@@ -7,6 +7,8 @@ exceeding the unknown rate tier.
 
 from __future__ import annotations
 
+import pandas as pd
+
 from ..config import Config
 from ..db import get_conn
 from ..universe import BENCH_TICKERS, EQUITY_UNIVERSE, VOL_INDEX_SYMBOLS
@@ -16,18 +18,26 @@ from .edgar import EdgarClient
 from .snapshots import SnapshotStore
 
 
-def refresh_prices(cfg: Config, tickers: list[str], conn) -> dict:
+def refresh_prices(cfg: Config, tickers: list[str], conn, force: bool = False) -> dict:
+    """force=True bypasses the 24h daily cache to pull a just-finalized bar (the
+    post-close EOD refresh). It stays idempotent: a ticker whose snapshot already
+    holds today's date is skipped, so repeated post-close cycles don't re-fetch."""
     store = SnapshotStore(cfg.snapshot_dir)
     av = AlphaVantageClient(cfg, conn, store)
+    today = pd.Timestamp(pd.Timestamp.now("UTC").date())
     fetched, cached, skipped = 0, 0, 0
     for t in tickers:
-        if store.load_prices(t) is not None and av.cache.get(f"av:daily:{t}") is not None:
+        snap = store.load_prices(t)
+        if force and snap is not None and snap.index.max() >= today:
+            cached += 1                       # already have today's bar
+            continue
+        if not force and snap is not None and av.cache.get(f"av:daily:{t}") is not None:
             cached += 1
             continue
-        if av.budget.remaining() <= 0 and store.load_prices(t) is None:
+        if av.budget.remaining() <= 0 and snap is None:
             skipped += 1
             continue
-        df = av.daily_adjusted(t)
+        df = av.daily_adjusted(t, force=force)
         if df is not None:
             fetched += 1
         else:
@@ -230,6 +240,14 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
     conn = get_conn(cfg.db_path)
     store = SnapshotStore(cfg.snapshot_dir)
 
+    # post-close window (weekday, >=20:00 UTC ~ after the US cash close): bust the
+    # 24h price cache for the live universes so the day's finalized close gets
+    # marked within an hour of the bell instead of whenever the cache rolls.
+    from datetime import datetime, timezone
+    from ..universe import universe_for
+    _nowc = datetime.now(timezone.utc)
+    _post_close = _nowc.weekday() < 5 and 20 <= _nowc.hour <= 23
+
     if desk in ("equity", "all"):
         from ..universe import EQUITY_RESEARCH_SEED
         # widen equity breadth: pull the broad liquid pool (~S&P 500), not just
@@ -238,6 +256,10 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         eq_all = EQUITY_UNIVERSE + EQUITY_RESEARCH_SEED
         _safe("equity prices (expanded universe)",
               lambda: refresh_prices(cfg, eq_all + BENCH_TICKERS, conn))
+        if _post_close:   # force the day's close for the live book + bench
+            _safe("equity EOD close refresh", lambda: refresh_prices(
+                cfg, list(universe_for("equity", cfg.snapshot_dir)) + BENCH_TICKERS,
+                conn, force=True))
         _safe("volatility-regime indices", lambda: refresh_vol_indices(cfg, conn))
         _safe("equity premium feeds",
               lambda: refresh_premium_feeds(cfg, eq_all, conn,
@@ -254,6 +276,10 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
         _safe("biotech catalysts", lambda: (bpiq.catalysts(), bpiq.pdufa_catalysts(),
               [bpiq.historical_catalysts(t) for t in universe[:60]]) and "ok")
         _safe("biotech prices", lambda: refresh_prices(cfg, universe + ["XBI"], conn))
+        if _post_close:   # force the day's close for the live biotech book + bench
+            _safe("biotech EOD close refresh", lambda: refresh_prices(
+                cfg, list(universe_for("biotech", cfg.snapshot_dir)) + ["XBI"],
+                conn, force=True))
         # widen statistical power: pull prices for every catalyst-event ticker
         # (~776 names / 8k+ events vs the 60-name trading universe). One AV call
         # per name, budget-aware/cached, so it fills the gap fast then idles.

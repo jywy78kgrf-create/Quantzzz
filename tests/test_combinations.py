@@ -117,3 +117,23 @@ def test_llm_proposer_sees_full_family_menu(tmp_db):
     assert "promoted_families" in captured["context"]
     assert "unpromoted_families" in captured["context"]
     assert "quality_momentum" in captured["context"]["unpromoted_families"]
+
+
+def test_short_term_reversal_longs_losers_and_filters_trend(bundle, monkeypatch):
+    # short-horizon return: T0,T1 are the losers; everyone else is up
+    short_ret = _const(bundle, {"T0": -0.10, "T1": -0.08, **{t: 0.05 for t in
+                       ["T2", "T3", "T4", "T5", "T6", "T7"]}})
+    long_trend = _const(bundle, {"T1": -1.0, **{t: 1.0 for t in
+                        ["T0", "T2", "T3", "T4", "T5", "T6", "T7"]}})
+    monkeypatch.setattr(F, "momentum", lambda px, n, *a, **k: short_ret if n <= 15 else long_trend)
+
+    # no trend filter: the two biggest losers are the longs
+    w = E.short_term_reversal_signal(bundle, {"lookback": 5, "top_n": 2,
+                                              "rebalance": 2, "trend_filter": 0})
+    assert set(w.columns[(w != 0).any()]) == {"T0", "T1"}
+
+    # trend filter on: T1 is downtrending -> a falling knife, dropped; T0 kept
+    w2 = E.short_term_reversal_signal(bundle, {"lookback": 5, "top_n": 2,
+                                               "rebalance": 2, "trend_filter": 1})
+    held = set(w2.columns[(w2 != 0).any()])
+    assert "T0" in held and "T1" not in held

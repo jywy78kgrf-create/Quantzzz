@@ -251,3 +251,32 @@ def oversold_quality_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
 
 STRATEGIES.append((QUALITY_MOM, quality_momentum_signal))
 STRATEGIES.append((OVERSOLD_QUALITY, oversold_quality_signal))
+
+
+# ---- short-term reversal: a daily-native swing trade ----
+# The classic ~1-week reversal effect (Lehmann 1990 / Lo-MacKinlay): the biggest
+# short-horizon losers tend to bounce. Close-only and entered at the close, so —
+# unlike a breakout — it needs no intraday timing the EOD engine can't execute.
+# Fast turnover (the swing horizon); optional trend filter to fade dips inside an
+# uptrend rather than catch structural decliners. The portfolio-correlation gate
+# will reject it if it's merely a re-expression of mean_reversion.
+SHORT_REVERSAL = ParamSpace("short_term_reversal", "equity", [
+    ParamDef("lookback", "int", 3, 15, step=1),          # short horizon (days)
+    ParamDef("top_n", "int", 3, 12, step=1),
+    ParamDef("rebalance", "choice", choices=(2, 3, 5)),  # fast turnover = swing
+    ParamDef("trend_filter", "choice", choices=(0, 1)),  # optional: dip-in-uptrend only
+])
+
+
+def short_term_reversal_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    ret = F.momentum(bundle.prices, int(p["lookback"]))   # trailing short-horizon return
+    score = -ret                                          # most negative return -> top long
+    eligible = score.notna()
+    if int(p["trend_filter"]):
+        lt = F.momentum(bundle.prices, 120)               # longer-term trend still up
+        eligible = eligible & (lt > 0).fillna(False)      # fade dips, not falling knives
+    w = _equal_weight_top(score.where(eligible), int(p["top_n"]))
+    return _rebalanced(w, int(p["rebalance"]))
+
+
+STRATEGIES.append((SHORT_REVERSAL, short_term_reversal_signal))

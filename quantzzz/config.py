@@ -128,7 +128,13 @@ class Config:
     cost_bps: float = 10.0                  # round-trip transaction cost assumption in backtests
     slippage_bps: float = 5.0               # paper-broker fill slippage
     av_calls_per_min: int = 590             # premium tier allows 600/min; thin margin under it
-    av_daily_budget: int = 100_000          # premium tier: effectively unlimited per day
+    av_daily_budget: int = 1_000_000        # the 600/min premium tier has NO daily cap;
+                                            # the 590/min rate limiter is the only real
+                                            # governor (~850k/day ceiling). Set above that
+                                            # so this self-imposed counter never binds.
+                                            # (The old 100k was a relic from when the tier
+                                            # was unknown — it exhausted mid-day and
+                                            # starved the post-close EOD price refresh.)
     learning_review_every: int = 10         # closed trades per strategy between reviews
     pre_earnings_blackout_days: int = 3     # no new entries this close to a report
     max_halt_probability: float = 0.05      # MC sizing: P(drawdown halt in horizon)

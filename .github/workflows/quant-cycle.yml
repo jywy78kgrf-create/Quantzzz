@@ -52,7 +52,10 @@ jobs:
           ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
           BPIQ_API_KEY: ${{ secrets.BPIQ_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          EDGAR_USER_AGENT: "Quantzzz research bot (github actions)"
+          # SEC EDGAR rejects User-Agents without a contact email (HTTP 403),
+          # which silently froze all EDGAR fetches (fundamentals + insider). Read
+          # it from a secret so the contact email stays out of the public repo.
+          EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
           LIVE_TRADING: "false"
         run: |
           python -m quantzzz init-db   # bootstraps from data/seed.db on fresh checkout

@@ -34,19 +34,27 @@ class AnthropicAdvisor:
         if not param_spaces:
             return []
         system = (
-            "You are a quant strategist proposing new parameter sets within a fixed "
-            "strategy space. Respond ONLY with a JSON array of objects "
-            '{"family": str, "params": {...}}. Stay within documented parameter bounds. '
-            "Use the rejection statistics to steer AWAY from failure modes the "
-            "search keeps hitting (e.g. if candidates die on drawdown, propose "
-            "tighter exposure; if on trade count, propose more active variants)."
+            "You are a quant strategist EXPANDING a research search. Evolutionary "
+            "search (mutation/crossover) already tunes the parameters of "
+            "known-good strategies well — do NOT compete with it on fine-tuning. "
+            "Your edge is STRUCTURE: reach for families that have not yet promoted "
+            "and especially COMBINATION families (which condition one signal on "
+            "another, e.g. momentum gated by a regime, a dip bought only on "
+            "quality names). Propose parameter sets that genuinely exercise those, "
+            "not near-twins of the dominant family. Respond ONLY with a JSON array "
+            'of {"family": str, "params": {...}} within documented bounds. Use the '
+            "rejection stats to avoid known failure modes (dying on drawdown -> "
+            "less exposure; on trade count -> more active variants)."
         )
         user = json.dumps({
             "desk": desk,
             "top_strategies": leaderboard,
             "parameter_spaces": param_spaces,
-            "recent_rejections": search_context or {},
-            "instruction": "Propose 3 diverse, promising parameter sets.",
+            "search_context": search_context or {},
+            "instruction": ("Propose 3 specs that EXPAND coverage: prefer the "
+                            "unpromoted_families and any combination families over "
+                            "the already-promoted ones; avoid re-proposing the "
+                            "dominant family unless materially different."),
         })
         try:
             text = self._complete(system, user)

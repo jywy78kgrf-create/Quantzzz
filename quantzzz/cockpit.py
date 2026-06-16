@@ -35,7 +35,7 @@ def build_state(cfg: Config) -> dict:
 
     # ---- funds: headline + curves vs benchmark ----
     funds = {}
-    for fund in ("equity", "biotech"):
+    for fund in ("equity", "biotech", "biotech_smallcap"):
         snaps = _rows(conn, "SELECT ts, equity, gross_exposure, drawdown, source "
                             "FROM equity_snapshots WHERE fund=? ORDER BY ts", (fund,))
         if not snaps:
@@ -215,7 +215,7 @@ def build_state(cfg: Config) -> dict:
 
     # ---- positions with entry context and live P&L ----
     positions = {}
-    for fund in ("equity", "biotech"):
+    for fund in ("equity", "biotech", "biotech_smallcap"):
         rows = _rows(conn, "SELECT ticker, qty, avg_cost, opened_ts FROM positions "
                            "WHERE fund=?", (fund,))
         fd = funds.get(fund, {})

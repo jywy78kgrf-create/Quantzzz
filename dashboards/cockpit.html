@@ -133,6 +133,7 @@
       <span style="float:right; font-weight:400; text-transform:none; letter-spacing:0">
         <span style="color:#2dd4a7">━ Equity</span>&nbsp;
         <span style="color:#a78bfa">━ Biotech</span>&nbsp;
+        <span style="color:#f59e0b">━ Small-Cap Bio</span>&nbsp;
         <span style="color:#56627f">╌ benchmarks</span></span></h3>
     <div id="chart" style="height:288px"></div>
   </div>
@@ -200,6 +201,7 @@
 
   <div class="card col6"><h3>Equity Book</h3><table id="poseq"><thead></thead><tbody></tbody></table></div>
   <div class="card col6"><h3>Biotech Book</h3><table id="posbio"><thead></thead><tbody></tbody></table></div>
+  <div class="card col6"><h3>Small-Cap Biotech Book · sub-$10 swing</h3><table id="possmall"><thead></thead><tbody></tbody></table></div>
   <div class="card col12"><h3>Catalyst Sleeve · event-driven, exits before the readout
     <span style="float:right;font-weight:400;text-transform:none;letter-spacing:0" id="cssub"></span></h3>
     <table id="csbook"><thead></thead><tbody></tbody></table></div>
@@ -220,13 +222,14 @@ function tick(id,val,opts={}){
   else cu[id].update(val);
 }
 function kpis(s){
-  const f=s.funds, eq=f.equity, bio=f.biotech;
+  const f=s.funds, eq=f.equity, bio=f.biotech, sc=f.biotech_smallcap;
   // Headline dollars are the LIVE paper trade from each fund's fixed starting
   // budget — the replay-inflated NAV is hindsight, never shown as capital.
   const fv=f=> f? (f.fwd_value!=null? f.fwd_value : f.start_budget) : 0;
   let total=0, started=0;
   if(eq){total+=fv(eq); started+=eq.start_budget||0;}
   if(bio){total+=fv(bio); started+=bio.start_budget||0;}
+  if(sc){total+=fv(sc); started+=sc.start_budget||0;}
   tick('aum',Math.round(total),{prefix:'$'});
   $('aumsub').textContent=`live paper capital · started $${started.toLocaleString()} · forward only (replay excluded)`;
   const sess=f=>f.fwd_ret_pct==null?'forward record starts next cycle'
@@ -458,9 +461,12 @@ function curves(s){
       topColor:c2,bottomColor:'rgba(0,0,0,0)',priceLineVisible:false,lastValueVisible:true});
     lwcSeries.equity=area('#2dd4a7','rgba(45,212,167,.22)');
     lwcSeries.biotech=area('#a78bfa','rgba(167,139,250,.22)');
+    lwcSeries.smallcap=area('#f59e0b','rgba(245,158,11,.18)');
     lwcSeries.eqb=lwc.addLineSeries({color:'#56627f',lineWidth:1,lineStyle:2,
       priceLineVisible:false,lastValueVisible:false,crosshairMarkerVisible:false});
     lwcSeries.biob=lwc.addLineSeries({color:'#56627f',lineWidth:1,lineStyle:2,
+      priceLineVisible:false,lastValueVisible:false,crosshairMarkerVisible:false});
+    lwcSeries.scb=lwc.addLineSeries({color:'#56627f',lineWidth:1,lineStyle:2,
       priceLineVisible:false,lastValueVisible:false,crosshairMarkerVisible:false});
   }
   const f=s.funds;
@@ -473,6 +479,8 @@ function curves(s){
                lwcSeries.eqb.setData(dedupe(fb(f.equity)));}
   if(f.biotech){lwcSeries.biotech.setData(dedupe(fc(f.biotech)));
                 lwcSeries.biob.setData(dedupe(fb(f.biotech)));}
+  if(f.biotech_smallcap){lwcSeries.smallcap.setData(dedupe(fc(f.biotech_smallcap)));
+                lwcSeries.scb.setData(dedupe(fb(f.biotech_smallcap)));}
   lwc.timeScale().fitContent();
   const el=$('chart');
   if(el.clientWidth && Math.abs(el.clientWidth-lwc.options().width)>4)
@@ -509,7 +517,7 @@ function feed(s){
 
 const px$=v=>v>=1000?'$'+Math.round(v).toLocaleString():'$'+(+v).toFixed(2);
 function books(s){
-  for(const[fund,el]of[['equity','poseq'],['biotech','posbio']]){
+  for(const[fund,el]of[['equity','poseq'],['biotech','posbio'],['biotech_smallcap','possmall']]){
     const tb=$(el).querySelector('tbody'); tb.innerHTML='';
     const head=$(el).querySelector('thead');
     const rows=s.positions[fund]||[];

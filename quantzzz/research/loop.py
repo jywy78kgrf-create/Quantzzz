@@ -51,6 +51,7 @@ class ResearchDesk:
         self.bt = Backtester(cost_bps=cfg.cost_bps)
         self.rng = random.Random()
         self.benchmark_ticker = BENCHMARKS[desk]
+        self._family_scores: dict[str, float] = {}   # meta-learning: family fwd survival
         # liquidity-aware per-name costs: small caps pay realistic spreads
         from ..data import features as F
         self.cost_panel = F.trading_cost_bps(bundle.prices, bundle.volume,
@@ -86,6 +87,13 @@ class ResearchDesk:
         seen: set[str] = set()
         shadow_cands: list[dict] = []
         promoted_returns = self._load_promoted_returns(oos_windows, bench)
+        # meta-learning: aggregate each family's FORWARD survival and feed it back
+        # into this run's gate (tighten chronic forward-underdeliverers) and search
+        # (favor families whose edges actually hold up live). Neutral until the
+        # live sample matures, so it can't overfit a thin record.
+        from . import meta
+        self._family_scores = meta.family_forward_scores(self.conn, self.desk)
+        self._log_meta_adjustments(run_id)
         promotions, best = 0, -99.0
 
         for i in range(1, iterations + 1):
@@ -226,7 +234,25 @@ class ResearchDesk:
 
     # ---- proposal ----
     def _propose(self, population: list[StrategySpec]):
-        return evolution.propose(self.desk, population, self.rng)
+        from . import meta
+        weights = {f: meta.search_weight(self._family_scores.get(f))
+                   for f in families_for(self.desk)}
+        return evolution.propose(self.desk, population, self.rng, family_weights=weights)
+
+    def _log_meta_adjustments(self, run_id: int) -> None:
+        """Journal which families the forward record is tightening this run, so
+        the meta-loop is observable (and dormant-but-present until data accrues)."""
+        from . import meta
+        tightened = {f: round(meta.gate_factor(sc), 2)
+                     for f, sc in self._family_scores.items()
+                     if meta.gate_factor(sc) > 1.0}
+        if tightened:
+            insert(self.conn, "journal_entries", fund=self.desk, ts=utcnow(),
+                   entry_type="learning", action="meta_gate",
+                   reasoning=("Forward record recalibrated the gate — families "
+                              "whose live edges underdeliver now face a higher "
+                              f"OOS-Sharpe bar: {tightened}"),
+                   inputs_json=dumps(self._family_scores))
 
     def _llm_proposals(self, population):
         summary = [{"family": s.family, "params": s.params, "fitness": round(f, 2)}
@@ -343,6 +369,13 @@ class ResearchDesk:
                              prices.loc[prices.index.isin(is_dates)],
                              cost_panel=self.cost_panel)
         thr = self.cfg.promotion_for(self.desk, spec.family)
+        # meta-learning gate recalibration: a family whose promotions keep failing
+        # forward must clear a higher OOS-Sharpe bar (only ever tightens).
+        from . import meta
+        factor = meta.gate_factor(self._family_scores.get(spec.family))
+        if factor > 1.0:
+            import dataclasses
+            thr = dataclasses.replace(thr, min_oos_sharpe=round(thr.min_oos_sharpe * factor, 3))
         is_sharpe = M.sharpe(is_res.returns)
         if is_sharpe < thr.min_is_sharpe_bar:
             return _stub_eval(is_sharpe), False, ["weak in-sample"], [], True

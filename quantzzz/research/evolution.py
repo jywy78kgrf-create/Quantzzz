@@ -8,8 +8,14 @@ from .strategies import families_for, space_for
 from .strategy_space import StrategySpec
 
 
-def random_spec(desk: str, rng: random.Random) -> StrategySpec:
-    family = rng.choice(families_for(desk))
+def random_spec(desk: str, rng: random.Random,
+                family_weights: dict | None = None) -> StrategySpec:
+    fams = families_for(desk)
+    if family_weights:   # meta-learning prior: favor families that survive forward
+        w = [max(0.01, family_weights.get(f, 1.0)) for f in fams]
+        family = rng.choices(fams, weights=w, k=1)[0]
+    else:
+        family = rng.choice(fams)
     space = space_for(family)
     return StrategySpec(family=family, desk=desk, params=space.random_params(rng))
 
@@ -35,26 +41,29 @@ def crossover(a: StrategySpec, b: StrategySpec, rng: random.Random) -> StrategyS
 
 
 def heuristic_proposal(leaderboard: list[StrategySpec], desk: str,
-                       rng: random.Random) -> StrategySpec:
+                       rng: random.Random, family_weights: dict | None = None) -> StrategySpec:
     """Jitter around the current best, or random when the board is empty."""
     if not leaderboard:
-        return random_spec(desk, rng)
+        return random_spec(desk, rng, family_weights)
     parent = leaderboard[0]
     return mutate(parent, rng, temperature=0.4)
 
 
-def propose(desk: str, population: list[StrategySpec], rng: random.Random) -> tuple[StrategySpec, str]:
-    """Pick an operator by weighted draw; returns (spec, origin)."""
+def propose(desk: str, population: list[StrategySpec], rng: random.Random,
+            family_weights: dict | None = None) -> tuple[StrategySpec, str]:
+    """Pick an operator by weighted draw; returns (spec, origin). family_weights
+    (meta-learning forward-survival prior) biases which family a fresh proposal
+    explores; mutation/crossover stay anchored to the existing population."""
     r = rng.random()
     if r < 0.25 or len(population) < 2:
-        return random_spec(desk, rng), "random"
+        return random_spec(desk, rng, family_weights), "random"
     if r < 0.70:
         parent = _weighted_choice(population, rng)
         return mutate(parent, rng), "mutation"
     if r < 0.85:
         a, b = rng.sample(population[:8], 2) if len(population) >= 2 else (population[0], population[0])
         return crossover(a, b, rng), "crossover"
-    return heuristic_proposal(population, desk, rng), "heuristic"
+    return heuristic_proposal(population, desk, rng, family_weights), "heuristic"
 
 
 def _weighted_choice(population: list[StrategySpec], rng: random.Random) -> StrategySpec:

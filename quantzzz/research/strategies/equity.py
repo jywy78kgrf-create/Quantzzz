@@ -183,3 +183,71 @@ def vol_regime_momentum_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame
 
 
 STRATEGIES.append((VOL_REGIME, vol_regime_momentum_signal))
+
+
+# ============================================================================
+# Combination families: condition one signal on another. Equity has historically
+# been single-signal (unlike the biotech catalyst desk, which is combination-
+# rich); these are hand-authored 2-factor interactions on PROVEN features, each
+# with an OPTIONAL 3rd-factor toggle the search can flip on. Factor depth is
+# therefore data-driven: the loop tries 2 vs 3 factors and the trade-count /
+# deflated-Sharpe gates cull anything conditioned down to too few trades. Only
+# proven inputs are combined here — regime/insider-conditioned combinations wait
+# until those signals earn a forward record, then slot into this same pattern.
+# ============================================================================
+
+# ---- quality momentum: improving fundamentals AND price trend ----
+QUALITY_MOM = ParamSpace("quality_momentum", "equity", [
+    ParamDef("mom_lookback", "int", 60, 200, step=20),
+    ParamDef("mom_pctile", "float", 0.4, 0.8, step=0.1),    # how strong a trend to require
+    ParamDef("top_n", "int", 3, 12, step=1),
+    ParamDef("hold_days", "choice", choices=(21, 42, 63)),
+    ParamDef("volume_confirm", "choice", choices=(0, 1)),   # optional 3rd factor
+])
+
+
+def quality_momentum_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    fund = F.beat_and_raise_frame(bundle)
+    if fund.empty or fund.isna().all().all():
+        return pd.DataFrame(0.0, index=bundle.dates, columns=bundle.tickers)
+    fund = fund.reindex(columns=bundle.tickers)
+    mom = F.momentum(bundle.prices, int(p["mom_lookback"])).reindex(columns=bundle.tickers)
+    # 2-factor AND gate: improving fundamentals AND top-pctile momentum
+    eligible = (fund > 0) & (mom.rank(axis=1, pct=True) >= float(p["mom_pctile"])).fillna(False)
+    if int(p["volume_confirm"]) and not bundle.volume.empty:    # optional 3rd factor
+        volr = (bundle.volume.rolling(21).mean()
+                / bundle.volume.rolling(63).mean()).reindex(columns=bundle.tickers)
+        eligible = eligible & (volr > 1.0).fillna(False)
+    score = fund.rank(axis=1) + mom.rank(axis=1)               # blended rank among eligible
+    w = _equal_weight_top(score.where(eligible), int(p["top_n"]))
+    return _rebalanced(w, int(p["hold_days"]))
+
+
+# ---- oversold quality: buy the dip, but only on fundamentally sound names ----
+OVERSOLD_QUALITY = ParamSpace("oversold_quality", "equity", [
+    ParamDef("zlookback", "int", 5, 40, step=5),
+    ParamDef("entry_z", "float", 0.5, 2.0, step=0.25),
+    ParamDef("top_n", "int", 3, 10, step=1),
+    ParamDef("rebalance", "choice", choices=(3, 5, 10)),
+    ParamDef("uptrend_filter", "choice", choices=(0, 1)),   # optional 3rd factor
+])
+
+
+def oversold_quality_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    fund = F.beat_and_raise_frame(bundle)
+    if fund.empty or fund.isna().all().all():
+        return pd.DataFrame(0.0, index=bundle.dates, columns=bundle.tickers)
+    fund = fund.reindex(columns=bundle.tickers)
+    z = F.zscore(bundle.prices, int(p["zlookback"])).reindex(columns=bundle.tickers)
+    # 2-factor AND gate: oversold (price) AND quality (fundamentals) — not a
+    # falling knife, a quality name on a dip
+    eligible = (z < -float(p["entry_z"])).fillna(False) & (fund > 0).fillna(False)
+    if int(p["uptrend_filter"]):                              # optional 3rd factor
+        lt = F.momentum(bundle.prices, 200).reindex(columns=bundle.tickers)
+        eligible = eligible & (lt > 0).fillna(False)          # dip within a longer uptrend
+    w = _equal_weight_top((-z).where(eligible), int(p["top_n"]))   # most oversold first
+    return _rebalanced(w, int(p["rebalance"]))
+
+
+STRATEGIES.append((QUALITY_MOM, quality_momentum_signal))
+STRATEGIES.append((OVERSOLD_QUALITY, oversold_quality_signal))

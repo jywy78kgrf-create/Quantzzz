@@ -1,0 +1,19 @@
+# external tooling (cloned at setup time)
+pace26stride/
+pace26checker/
+
+# datasets (downloaded at setup time)
+instances/
+*.tar.gz
+*.lst
+
+# build artifacts
+solver/maf_solver
+solver/*.o
+solver/maf_dbg
+solver/maf_cnt
+solver/maf_probe
+
+# run outputs
+stride-logs/
+solver/stride-logs/

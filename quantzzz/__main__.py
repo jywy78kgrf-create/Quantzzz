@@ -69,8 +69,9 @@ def main(argv: list[str] | None = None) -> int:
 
     p_cockpit = sub.add_parser("cockpit", help="always-on mission-control dashboard")
     p_cockpit.add_argument("--port", type=int, default=8600)
-    p_cockpit.add_argument("--auto-sync", type=int, default=600, metavar="SECONDS",
-                           help="pull fund state from GitHub this often (0 = off)")
+    p_cockpit.add_argument("--auto-sync", type=int, default=120, metavar="SECONDS",
+                           help="pull fund state from GitHub this often (0 = off). "
+                                "git-only, so it costs no Actions minutes or API calls")
 
     args = p.parse_args(argv)
     cfg = load_config()

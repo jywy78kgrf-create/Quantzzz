@@ -346,21 +346,40 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def _auto_sync_loop(cfg: Config, interval_s: int):
-    """Pull the repo and adopt a newer committed seed, forever."""
+    """Pull the repo and adopt a newer committed seed, forever.
+
+    Freshness is keyed to the git HEAD moving (new cycle commits), NOT to seed
+    vs read-DB mtimes: the cockpit OPENS the read-DB (WAL touches it), which used
+    to bump its mtime newer than the seed and silently wedge the sync on a stale
+    copy. Adopt once on startup, then re-adopt whenever HEAD advances."""
     seed = PROJECT_ROOT / "data" / "seed.db"
+
+    def _head() -> str:
+        r = subprocess.run(["git", "-C", str(PROJECT_ROOT), "rev-parse", "HEAD"],
+                           capture_output=True, text=True)
+        return r.stdout.strip()
+
+    def _adopt() -> None:
+        if seed.exists():
+            tmp = cfg.db_path.with_suffix(".db.incoming")
+            shutil.copy(seed, tmp)
+            os.replace(tmp, cfg.db_path)
+
+    try:
+        _adopt()                       # a freshly-started cockpit is current at once
+    except Exception:
+        pass
+    last_head = _head()
     while True:
         time.sleep(interval_s)
         try:
-            # never prompt for credentials: a misconfigured git should fail
-            # quietly and retry next round, not hijack the cockpit's terminal
             env = dict(os.environ, GIT_TERMINAL_PROMPT="0")
             subprocess.run(["git", "-C", str(PROJECT_ROOT), "pull", "--ff-only", "-q"],
                            timeout=120, capture_output=True, env=env)
-            if seed.exists() and (not cfg.db_path.exists()
-                                  or seed.stat().st_mtime > cfg.db_path.stat().st_mtime):
-                tmp = cfg.db_path.with_suffix(".db.incoming")
-                shutil.copy(seed, tmp)
-                os.replace(tmp, cfg.db_path)
+            head = _head()
+            if head != last_head:      # new commits pulled -> adopt the fresh seed
+                _adopt()
+                last_head = head
         except Exception:
             continue  # transient network/git issues: try again next round
 

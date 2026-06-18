@@ -195,26 +195,30 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
                                        if (y >= 0 && T2.is_leaf(y)) push_grp(T2.grp[y]); } } }
         --active;
     };
-    // Estimate the immediate benefit of cutting leaf `gx` (keeping its cherry
-    // sibling `gy`): count the common cherries the cut would unlock. On the T1
-    // side, gy moves up and may become a common cherry with v's old sibling; on
-    // the T2 side, gx's removal lets its T2-sibling pair up, which is a new
-    // common cherry if that pair is also a T1-cherry. Range [0,2]; higher=better.
-    auto cut_gain = [&](int gx, int gy, int v) -> int {
-        int gain = 0;
-        // T1 side: gy's new sibling is v's sibling under gp1
-        int gp1 = T1.par[v];
-        if (gp1 >= 0) {
-            int Y1 = (T1.c0[gp1] == v) ? T1.c1[gp1] : T1.c0[gp1];
-            if (Y1 >= 0 && T1.is_leaf(Y1) && alive[T1.grp[Y1]] &&
-                common_in_T2(gy, T1.grp[Y1]))
-                ++gain;
+    // Estimate the immediate benefit of cutting leaf group `gx`: the number of
+    // common cherries its removal would unlock. Removing gx suppresses its
+    // parent in each tree, letting its sibling pair up with a new neighbour; if
+    // that new pair is a cherry in BOTH trees it is a freshly-unlocked merge.
+    // Works for any leaf, so it scores the T2-side "intruder" cut too. Range 0-2.
+    auto gain = [&](int gx) -> int {
+        int g = 0;
+        // T1 side
+        int l1 = leaf1[gx], p1 = T1.par[l1];
+        if (p1 >= 0) {
+            int s1 = (T1.c0[p1] == l1) ? T1.c1[p1] : T1.c0[p1];
+            int gp1 = T1.par[p1];
+            if (gp1 >= 0 && s1 >= 0 && T1.is_leaf(s1)) {
+                int y1 = (T1.c0[gp1] == p1) ? T1.c1[gp1] : T1.c0[gp1];
+                if (y1 >= 0 && T1.is_leaf(y1)) {
+                    int a = T1.grp[s1], b = T1.grp[y1];
+                    if (alive[a] && alive[b] && common_in_T2(a, b)) ++g;
+                }
+            }
         }
-        // T2 side: removing gx suppresses its T2 parent; the freed sibling s2 and
-        // its new neighbour y2 become T2-siblings -> common cherry iff T1-cherry
-        int lx = leaf2[gx], p2 = T2.par[lx];
+        // T2 side
+        int l2 = leaf2[gx], p2 = T2.par[l2];
         if (p2 >= 0) {
-            int s2 = (T2.c0[p2] == lx) ? T2.c1[p2] : T2.c0[p2];
+            int s2 = (T2.c0[p2] == l2) ? T2.c1[p2] : T2.c0[p2];
             int gp2 = T2.par[p2];
             if (gp2 >= 0 && s2 >= 0 && T2.is_leaf(s2)) {
                 int y2 = (T2.c0[gp2] == p2) ? T2.c1[gp2] : T2.c0[gp2];
@@ -222,26 +226,34 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
                     int a = T2.grp[s2], b = T2.grp[y2];
                     if (alive[a] && alive[b]) {
                         int la = leaf1[a], lb = leaf1[b];
-                        if (T1.par[la] >= 0 && T1.par[la] == T1.par[lb]) ++gain;
+                        if (T1.par[la] >= 0 && T1.par[la] == T1.par[lb]) ++g;
                     }
                 }
             }
         }
-        return gain;
+        return g;
+    };
+    // The cut candidates for conflict cherry v are the three of the rooted-MAF
+    // 3-approximation: the two T1-cherry leaves and, if present, the T2 leaves
+    // siblinged with them (the "intruders" whose removal can let the cherry
+    // merge). Returns the best candidate and writes its gain to out_gain.
+    auto best_cut = [&](int v, int& out_gain) -> int {
+        int gu = T1.grp[T1.c0[v]], gv = T1.grp[T1.c1[v]];
+        int cand[4]; int nc = 0;
+        cand[nc++] = gu; cand[nc++] = gv;
+        int su = T2.sibling(leaf2[gu]);
+        if (su >= 0 && T2.is_leaf(su) && alive[T2.grp[su]]) cand[nc++] = T2.grp[su];
+        int sv = T2.sibling(leaf2[gv]);
+        if (sv >= 0 && T2.is_leaf(sv) && alive[T2.grp[sv]]) cand[nc++] = T2.grp[sv];
+        int best = cand[0], bg = gain(cand[0]);
+        for (int i = 1; i < nc; ++i) { int g = gain(cand[i]); if (g > bg) { bg = g; best = cand[i]; } }
+        out_gain = bg;
+        return best;
     };
     auto choose_cut = [&](int v) -> int {
         int gu = T1.grp[T1.c0[v]], gv = T1.grp[T1.c1[v]];
         if (randomize && (rng() & 3) == 0) return (rng() & 1) ? gu : gv;  // explore
-        int gain_u = cut_gain(gu, gv, v);   // cut gu, keep gv
-        int gain_v = cut_gain(gv, gu, v);   // cut gv, keep gu
-        if (gain_u != gain_v) return (gain_u > gain_v) ? gu : gv;
-        // tie-break: prefer cutting the leaf NOT in a T2-cherry (keep merge structure)
-        int su = T2.sibling(leaf2[gu]), sv = T2.sibling(leaf2[gv]);
-        bool u_in_cherry = (su >= 0 && T2.is_leaf(su));
-        bool v_in_cherry = (sv >= 0 && T2.is_leaf(sv));
-        if (u_in_cherry && !v_in_cherry) return gv;
-        if (v_in_cherry && !u_in_cherry) return gu;
-        return gu;
+        int g; return best_cut(v, g);
     };
 
     // Greedy with a guaranteed global "merge-first" invariant: the worklist is
@@ -282,10 +294,8 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
         } else {
             int best_gain = -1; cut_leaf = -1;
             for (int v : conflictStack) {
-                int gu = T1.grp[T1.c0[v]], gv = T1.grp[T1.c1[v]];
-                int gnu = cut_gain(gu, gv, v), gnv = cut_gain(gv, gu, v);
-                int g = (gnu > gnv) ? gnu : gnv;
-                if (g > best_gain) { best_gain = g; cut_leaf = (gnu >= gnv) ? gu : gv; }
+                int g, leaf = best_cut(v, g);
+                if (g > best_gain) { best_gain = g; cut_leaf = leaf; }
             }
         }
         do_cut(cut_leaf);

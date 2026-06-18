@@ -245,8 +245,17 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
         if (su >= 0 && T2.is_leaf(su) && alive[T2.grp[su]]) cand[nc++] = T2.grp[su];
         int sv = T2.sibling(leaf2[gv]);
         if (sv >= 0 && T2.is_leaf(sv) && alive[T2.grp[sv]]) cand[nc++] = T2.grp[sv];
-        int best = cand[0], bg = gain(cand[0]);
-        for (int i = 1; i < nc; ++i) { int g = gain(cand[i]); if (g > bg) { bg = g; best = cand[i]; } }
+        // harm = cutting this leaf breaks an existing T2-cherry (1) or not (0);
+        // among equal-gain candidates, prefer the least-harmful cut.
+        auto harm = [&](int gx) {
+            int s = T2.sibling(leaf2[gx]);
+            return (s >= 0 && T2.is_leaf(s)) ? 1 : 0;
+        };
+        int best = cand[0], bg = gain(cand[0]), bh = harm(cand[0]);
+        for (int i = 1; i < nc; ++i) {
+            int g = gain(cand[i]), h = harm(cand[i]);
+            if (g > bg || (g == bg && h < bh)) { bg = g; bh = h; best = cand[i]; }
+        }
         out_gain = bg;
         return best;
     };

@@ -251,18 +251,17 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
             int s = T2.sibling(leaf2[gx]);
             return (s >= 0 && T2.is_leaf(s)) ? 1 : 0;
         };
-        int best = cand[0], bg = gain(cand[0]), bh = harm(cand[0]);
+        int best = cand[0], bg = gain(cand[0]), bh = harm(cand[0]), ties = 1;
         for (int i = 1; i < nc; ++i) {
             int g = gain(cand[i]), h = harm(cand[i]);
-            if (g > bg || (g == bg && h < bh)) { bg = g; bh = h; best = cand[i]; }
+            if (g > bg || (g == bg && h < bh)) { bg = g; bh = h; best = cand[i]; ties = 1; }
+            else if (g == bg && h == bh) {       // equal best: reservoir tie-break
+                ++ties;
+                if (randomize && (rng() % ties) == 0) best = cand[i];
+            }
         }
         out_gain = bg;
         return best;
-    };
-    auto choose_cut = [&](int v) -> int {
-        int gu = T1.grp[T1.c0[v]], gv = T1.grp[T1.c1[v]];
-        if (randomize && (rng() & 3) == 0) return (rng() & 1) ? gu : gv;  // explore
-        int g; return best_cut(v, g);
     };
 
     // Greedy with a guaranteed global "merge-first" invariant: the worklist is
@@ -293,18 +292,18 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
         if (!work.empty()) continue;          // merges available -> do them first
         if (conflictStack.empty()) break;     // fully reduced
 
-        // choose which conflict cherry to cut. Deterministic restarts pick the
-        // conflict whose best leaf-cut unlocks the most merges (max gain);
-        // randomized restarts pick a random conflict for diversity. In both
-        // cases the leaf within the chosen cherry is the lookahead choice.
-        int cut_leaf;
-        if (randomize) {
-            cut_leaf = choose_cut(conflictStack[rng() % conflictStack.size()]);
-        } else {
-            int best_gain = -1; cut_leaf = -1;
-            for (int v : conflictStack) {
-                int g, leaf = best_cut(v, g);
-                if (g > best_gain) { best_gain = g; cut_leaf = leaf; }
+        // choose which conflict cherry to cut: the one whose best leaf-cut
+        // unlocks the most merges. Deterministic restarts take the first such
+        // (max gain); randomized restarts reservoir-sample uniformly among all
+        // conflicts achieving the max gain, so they diversify *around* the
+        // strong greedy rather than degrading to random cuts.
+        int cut_leaf = -1, best_gain = -1, ties = 0;
+        for (int v : conflictStack) {
+            int g, leaf = best_cut(v, g);
+            if (g > best_gain) { best_gain = g; cut_leaf = leaf; ties = 1; }
+            else if (g == best_gain) {
+                ++ties;
+                if (randomize && (rng() % ties) == 0) cut_leaf = leaf;
             }
         }
         do_cut(cut_leaf);

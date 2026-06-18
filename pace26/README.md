@@ -13,8 +13,12 @@ output an agreement forest of **minimum size `k`**.
 - **Baseline strengthening: done.** Anytime randomized-restart greedy with a
   lookahead / 3-approximation cut rule. Full-150 mean official score lifted from
   0.19 (single-shot) to **0.539**, 150/150 feasible. See results below.
-- Phases 3–5 (evolutionary loop, portfolio, packaging): not started — the
-  evolutionary loop is gated on an LLM/API budget decision.
+- **Submission package: ready.** See [`SUBMISSION.md`](SUBMISSION.md), `LICENSE`,
+  `solver/build.sh`, and `results_full150_20s.tsv`.
+- **Explored and rejected (with evidence):** a treewidth-DP (the instances'
+  `#x treedecomp` have width 88–4007 — infeasible) and a destroy-repair LNS
+  (`solver/maf_solver_lns_experiment.cpp` — correct but ~0 % move acceptance).
+  See "Known ceiling" below.
 
 ## Language
 
@@ -114,9 +118,21 @@ greedy reaches a robust local optimum).
 The remaining ~13 % deficit is algorithmic, not a search-budget issue. These
 instances have *large* agreement forests (k ≈ 0.5–0.8·n), so FPT/exact methods
 are out, and the greedy's local optimum resists restarts and single-step
-perturbation. Closing it toward the leaders (who sit near-optimal, ~99/100)
-needs a different class: a strong large-neighbourhood/destroy-repair
-metaheuristic, cluster/treewidth decomposition (the instances ship `#x
-treedecomp` hints), or the LLM-driven evolutionary loop (Phase 3).
+perturbation. Two higher-ceiling approaches were implemented/measured and ruled
+out for this instance set:
+
+- **Treewidth/cluster DP** (the leaders' presumed approach): infeasible. The
+  shipped `#x treedecomp` decompositions have treewidth **88–4007** (median 331,
+  0 instances ≤ 30) — a DP is exponential in that. Highly-incompatible trees
+  have high display-graph treewidth, which is exactly why this is the heuristic
+  track.
+- **Destroy-repair LNS** (`solver/maf_solver_lns_experiment.cpp`): correct (the
+  reassembled forest is validated in-process via LCA + Steiner-tree
+  disjointness) but **~0 % acceptance** — re-merged sub-components pervasively
+  overlap the kept components, so almost no improving move is valid.
+
+What likely remains: a metaheuristic that maintains the *dual* cut-structure
+(consistent edge cuts in both trees) so moves are correct by construction, or
+the LLM-driven evolutionary loop to discover a stronger cut heuristic.
 
 Reproduce: `stride run -s solver/maf_solver -i <list>.lst -t 300 -g 5 -p <cores>`.

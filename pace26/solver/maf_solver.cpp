@@ -272,9 +272,23 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
         if (!work.empty()) continue;          // merges available -> do them first
         if (conflictStack.empty()) break;     // fully reduced
 
-        int found = randomize ? conflictStack[rng() % conflictStack.size()]
-                              : conflictStack.front();
-        do_cut(choose_cut(found));
+        // choose which conflict cherry to cut. Deterministic restarts pick the
+        // conflict whose best leaf-cut unlocks the most merges (max gain);
+        // randomized restarts pick a random conflict for diversity. In both
+        // cases the leaf within the chosen cherry is the lookahead choice.
+        int cut_leaf;
+        if (randomize) {
+            cut_leaf = choose_cut(conflictStack[rng() % conflictStack.size()]);
+        } else {
+            int best_gain = -1; cut_leaf = -1;
+            for (int v : conflictStack) {
+                int gu = T1.grp[T1.c0[v]], gv = T1.grp[T1.c1[v]];
+                int gnu = cut_gain(gu, gv, v), gnv = cut_gain(gv, gu, v);
+                int g = (gnu > gnv) ? gnu : gnv;
+                if (g > best_gain) { best_gain = g; cut_leaf = (gnu >= gnv) ? gu : gv; }
+            }
+        }
+        do_cut(cut_leaf);
     }
     for (int g = 1; g < (int)alive.size(); ++g) if (alive[g]) components.push_back(g);
 

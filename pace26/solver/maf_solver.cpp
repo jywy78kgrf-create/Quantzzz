@@ -195,9 +195,47 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
                                        if (y >= 0 && T2.is_leaf(y)) push_grp(T2.grp[y]); } } }
         --active;
     };
+    // Estimate the immediate benefit of cutting leaf `gx` (keeping its cherry
+    // sibling `gy`): count the common cherries the cut would unlock. On the T1
+    // side, gy moves up and may become a common cherry with v's old sibling; on
+    // the T2 side, gx's removal lets its T2-sibling pair up, which is a new
+    // common cherry if that pair is also a T1-cherry. Range [0,2]; higher=better.
+    auto cut_gain = [&](int gx, int gy, int v) -> int {
+        int gain = 0;
+        // T1 side: gy's new sibling is v's sibling under gp1
+        int gp1 = T1.par[v];
+        if (gp1 >= 0) {
+            int Y1 = (T1.c0[gp1] == v) ? T1.c1[gp1] : T1.c0[gp1];
+            if (Y1 >= 0 && T1.is_leaf(Y1) && alive[T1.grp[Y1]] &&
+                common_in_T2(gy, T1.grp[Y1]))
+                ++gain;
+        }
+        // T2 side: removing gx suppresses its T2 parent; the freed sibling s2 and
+        // its new neighbour y2 become T2-siblings -> common cherry iff T1-cherry
+        int lx = leaf2[gx], p2 = T2.par[lx];
+        if (p2 >= 0) {
+            int s2 = (T2.c0[p2] == lx) ? T2.c1[p2] : T2.c0[p2];
+            int gp2 = T2.par[p2];
+            if (gp2 >= 0 && s2 >= 0 && T2.is_leaf(s2)) {
+                int y2 = (T2.c0[gp2] == p2) ? T2.c1[gp2] : T2.c0[gp2];
+                if (y2 >= 0 && T2.is_leaf(y2)) {
+                    int a = T2.grp[s2], b = T2.grp[y2];
+                    if (alive[a] && alive[b]) {
+                        int la = leaf1[a], lb = leaf1[b];
+                        if (T1.par[la] >= 0 && T1.par[la] == T1.par[lb]) ++gain;
+                    }
+                }
+            }
+        }
+        return gain;
+    };
     auto choose_cut = [&](int v) -> int {
         int gu = T1.grp[T1.c0[v]], gv = T1.grp[T1.c1[v]];
         if (randomize && (rng() & 3) == 0) return (rng() & 1) ? gu : gv;  // explore
+        int gain_u = cut_gain(gu, gv, v);   // cut gu, keep gv
+        int gain_v = cut_gain(gv, gu, v);   // cut gv, keep gu
+        if (gain_u != gain_v) return (gain_u > gain_v) ? gu : gv;
+        // tie-break: prefer cutting the leaf NOT in a T2-cherry (keep merge structure)
         int su = T2.sibling(leaf2[gu]), sv = T2.sibling(leaf2[gv]);
         bool u_in_cherry = (su >= 0 && T2.is_leaf(su));
         bool v_in_cherry = (sv >= 0 && T2.is_leaf(sv));

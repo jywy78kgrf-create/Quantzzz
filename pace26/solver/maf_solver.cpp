@@ -152,6 +152,15 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
     for (int v = 0; v < T1.nodes; ++v) if (!T1.is_leaf(v)) work.push_back(v);
     if (randomize) std::shuffle(work.begin(), work.end(), rng);
 
+    // push the (potential) T1 cherry node above group g's leaf, for re-checking
+    auto push_grp = [&](int g) {
+        if (g < 0 || g >= (int)leaf1.size() || !alive[g]) return;
+        int lf = leaf1[g];
+        if (lf < 0) return;
+        int p = T1.par[lf];
+        if (p >= 0) work.push_back(p);
+    };
+
     auto do_merge = [&](int p1, int gu, int gv) {
         int gm = new_merge_group(gu, gv);
         int p2 = T2.par[leaf2[gu]];
@@ -163,20 +172,27 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
         leaf1[gm] = p1; leaf2[gm] = p2; alive[gm] = 1;
         alive[gu] = 0; alive[gv] = 0;
         --active;
+        // only gm's neighbourhood changed; its T1 parent may be a new cherry
         if (T1.par[p1] >= 0) work.push_back(T1.par[p1]);
     };
     auto do_cut = [&](int g) {
         components.push_back(g);
         alive[g] = 0;
+        // T1: suppress parent; the moved sibling may form a new cherry at gp
         { int v = leaf1[g], p = T1.par[v];
           if (p >= 0) { int s = (T1.c0[p] == v) ? T1.c1[p] : T1.c0[p];
                         int gp = T1.par[p]; T1.par[s] = gp;
                         if (gp < 0) T1.root = s; else T1.replace_child(gp, p, s);
                         if (gp >= 0) work.push_back(gp); } }
+        // T2: suppress parent; the moved sibling s (and its new sibling y) gain a
+        // new T2-adjacency that may turn a distant T1-cherry into a common one
         { int v = leaf2[g], p = T2.par[v];
           if (p >= 0) { int s = (T2.c0[p] == v) ? T2.c1[p] : T2.c0[p];
                         int gp = T2.par[p]; T2.par[s] = gp;
-                        if (gp < 0) T2.root = s; else T2.replace_child(gp, p, s); } }
+                        if (gp < 0) T2.root = s; else T2.replace_child(gp, p, s);
+                        if (T2.is_leaf(s)) push_grp(T2.grp[s]);
+                        if (gp >= 0) { int y = (T2.c0[gp] == s) ? T2.c1[gp] : T2.c0[gp];
+                                       if (y >= 0 && T2.is_leaf(y)) push_grp(T2.grp[y]); } } }
         --active;
     };
     auto choose_cut = [&](int v) -> int {
@@ -190,7 +206,14 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
         return gu;
     };
 
-    vector<int> conflicts;
+    // Greedy with a guaranteed global "merge-first" invariant: the worklist is
+    // drained of every common cherry (each merge cheaply propagates to its new
+    // neighbour); only when no common cherry can be reached incrementally do we
+    // rescan the live tree to (a) merge any common cherry missed by the
+    // incremental push heuristic and (b) collect the conflict cherries. We cut
+    // exactly one leaf of a conflict cherry only once no merge remains, which
+    // keeps the forest as small as a merge-first greedy can.
+    vector<int> conflictStack;
     while (active > 1) {
         while (!work.empty()) {
             int v = work.back(); work.pop_back();
@@ -200,19 +223,20 @@ static int solve_once(const Tree& O1, const Tree& O2, int n,
         }
         if (active <= 1) break;
 
-        // collect valid conflict cherries; pick one (random or first)
-        conflicts.clear();
-        for (int v = 0; v < T1.nodes; ++v)
-            if (valid_cherry(v)) {
-                int gu = T1.grp[T1.c0[v]], gv = T1.grp[T1.c1[v]];
-                if (!common_in_T2(gu, gv)) conflicts.push_back(v);
-            }
-        if (conflicts.empty()) break;
-        int found = randomize ? conflicts[rng() % conflicts.size()] : conflicts.front();
+        // rescan: merge any remaining common cherry first, else collect conflicts
+        conflictStack.clear();
+        for (int v = 0; v < T1.nodes; ++v) {
+            if (!valid_cherry(v)) continue;
+            int gu = T1.grp[T1.c0[v]], gv = T1.grp[T1.c1[v]];
+            if (common_in_T2(gu, gv)) work.push_back(v);
+            else conflictStack.push_back(v);
+        }
+        if (!work.empty()) continue;          // merges available -> do them first
+        if (conflictStack.empty()) break;     // fully reduced
 
+        int found = randomize ? conflictStack[rng() % conflictStack.size()]
+                              : conflictStack.front();
         do_cut(choose_cut(found));
-        for (int v = 0; v < T1.nodes; ++v) if (valid_cherry(v)) work.push_back(v);
-        if (randomize) std::shuffle(work.begin(), work.end(), rng);
     }
     for (int g = 1; g < (int)alive.size(); ++g) if (alive[g]) components.push_back(g);
 
@@ -294,12 +318,17 @@ int main(int /*argc*/, char** /*argv*/) {
     std::mt19937 rng(12345);
     int best_k = INT32_MAX;
 
-    // restart 0: deterministic construction (baseline quality guarantee)
-    // restarts 1..: randomized, keep the strictly-better forest
+    // restart 0/1: deterministic constructions driven from each tree (quality
+    // floor). restarts 2..: randomized, alternating direction; keep the
+    // strictly-better forest. Driving from either tree explores different cuts.
     for (long iter = 0; ; ++iter) {
+        bool randomize = iter > 1;
+        bool flip = (iter & 1);                 // alternate which tree drives
         string out;
         out.reserve((size_t)n * 4);
-        int k = solve_once(O1, O2, n, pos1, pos2, /*randomize=*/iter > 0, rng, out);
+        int k = flip
+            ? solve_once(O2, O1, n, pos2, pos1, randomize, rng, out)
+            : solve_once(O1, O2, n, pos1, pos2, randomize, rng, out);
         if (k < best_k) {
             best_k = k;
             g_cur.store(make_sol(out), std::memory_order_release);

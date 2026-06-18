@@ -1,5 +1,28 @@
 [
  {
+  "id": 7947,
+  "company": {
+   "id": 506,
+   "ticker": "JAZZ",
+   "name": "Jazz Pharmaceuticals "
+  },
+  "created_at": "2026-06-18T13:02:53.646281Z",
+  "updated_at": "2026-06-18T13:02:53.646311Z",
+  "ticker": "JAZZ",
+  "drug_name": "Xywav",
+  "drug_indication": "Idiopathic Hypersomnia",
+  "airtable_id": 8231,
+  "stage": "Approved",
+  "catalyst_date": "2026-06-16",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-delivers-extensive-late-breaking-data-at-sleep-2026-demonstrating-real-world-impact-of-xywav-calcium-magnesium-potassium-and-sodium-oxybates-on-patient-outcomes-across-narcolepsy-and-idiopathic-hypersom-302801930.html",
+  "catalyst_text": "Presented positive late breaking data at SLEEP 2026",
+  "detailed_catalyst_text": "Reported late-breaking Phase 4 DUET post-hoc analyses demonstrating individualized once- or twice-nightly regimens and time to stable dose in idiopathic hypersomnia. REMS program data across more than 13,000 patients supported the feasibility of personalized, patient-centered dosing enabled by the oral solution. These findings inform optimization of therapy to patient needs in idiopathic hypersomnia.",
+  "catalyst_text_evidence": "DUBLIN, 2026-06-16 /PRNewswire/ -- Jazz Pharmaceuticals plc today announced 11 late-breaking presentations at SLEEP 2026, including notable new research showcasing the comprehensive treatment outcomes of Xywav (calcium, magnesium, potassium, and sodium oxybates) oral solution in patients with narcolepsy and idiopathic hypersomnia (IH). New analyses demonstrate that the individualized dosing regimens Xywav allows can be uniquely tailored for patients with narcolepsy or IH. A post-hoc analysis from the Phase 4, prospective, single-arm, open-label DUET (Develop hypersomnia Understanding by Evaluating low-sodium oxybate Treatment) study shows how incremental dose adjustments can yield a variety of once- or twice-nightly regimens based on efficacy and tolerability of the individual patient. Within the study cohorts, the mean (range) time to reach a stable dose was 42.1 (14-62) days for idiopathic hypersomnia and 41.8 (12-67) days for narcolepsy. Reinforcing the real-world applicability of this approach, data from the Xywav REMS program, which analyzed over 13,000 patients, demonstrated the feasibility of individualized, patient-centered care enabled by Xywav's oral solution formulation when clinically warranted.",
+  "news_published_at": "2026-06-18T00:00:00Z",
+  "open_price_gap_percent": "0.00121",
+  "intra_day_price_change_percent": "-0.01728"
+ },
+ {
   "id": 7868,
   "company": {
    "id": 506,
@@ -7,7 +30,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2026-06-13T13:03:11.013704Z",
-  "updated_at": "2026-06-17T13:03:27.576582Z",
+  "updated_at": "2026-06-18T13:03:35.812973Z",
   "ticker": "JAZZ",
   "drug_name": "Zepzelca (lurbinectedin)",
   "drug_indication": "Relapsed Small Cell Lung Cancer",
@@ -30,7 +53,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2026-04-28T13:01:34.588321Z",
-  "updated_at": "2026-06-17T13:01:57.111793Z",
+  "updated_at": "2026-06-18T13:02:07.919080Z",
   "ticker": "JAZZ",
   "drug_name": "Ziihera (zanidatamab-hrii)",
   "drug_indication": "First-Line HER2-Positive Locally Advanced or Metastatic Gastroesophageal Adenocarcinoma",
@@ -53,7 +76,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2026-04-10T13:00:46.992445Z",
-  "updated_at": "2026-06-17T13:00:50.878492Z",
+  "updated_at": "2026-06-18T13:01:05.276299Z",
   "ticker": "JAZZ",
   "drug_name": "Xywav",
   "drug_indication": "Narcolepsy",
@@ -122,7 +145,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-11-05T13:01:03.865718Z",
-  "updated_at": "2026-06-17T13:00:57.041610Z",
+  "updated_at": "2026-06-18T13:01:11.172826Z",
   "ticker": "JAZZ",
   "drug_name": "Zepzelca + atezolizumab (Tecentriq\u00ae) ",
   "drug_indication": "1L extensive-stage small cell lung cancer (ES-SCLC)",
@@ -214,7 +237,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-03-21T13:01:40.343701Z",
-  "updated_at": "2026-06-17T13:02:06.458998Z",
+  "updated_at": "2026-06-18T13:02:16.430340Z",
   "ticker": "JAZZ",
   "drug_name": "Xywav\u00ae & Epidiolex\u00ae",
   "drug_indication": "Sleep disorders, Seizure disorders",
@@ -260,7 +283,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:06:53.141293Z",
-  "updated_at": "2026-06-17T13:02:26.421340Z",
+  "updated_at": "2026-06-18T13:02:35.168315Z",
   "ticker": "JAZZ",
   "drug_name": "Ziihera (zanidatamab-hrii)",
   "drug_indication": "HER2-amplified biliary tract cancers",
@@ -536,7 +559,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:47:10.312406Z",
-  "updated_at": "2026-06-17T13:03:22.475299Z",
+  "updated_at": "2026-06-18T13:03:30.429237Z",
   "ticker": "JAZZ",
   "drug_name": "RYLAZE (JZP458)",
   "drug_indication": "Acute lymphoblastic leukemia (ALL)",
@@ -559,7 +582,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:47:12.632082Z",
-  "updated_at": "2026-06-17T13:03:26.028643Z",
+  "updated_at": "2026-06-18T13:03:34.265243Z",
   "ticker": "JAZZ",
   "drug_name": "VYXEOS (daunorubicin and cytarabine)",
   "drug_indication": "Acute myeloid leukemia",
@@ -605,7 +628,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:06:07.246236Z",
-  "updated_at": "2026-06-17T13:01:19.128306Z",
+  "updated_at": "2026-06-18T13:01:31.596868Z",
   "ticker": "JAZZ",
   "drug_name": "EPIDIOLEX (cannabidiol)",
   "drug_indication": "Rett syndrome",
@@ -628,7 +651,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:06:04.752922Z",
-  "updated_at": "2026-06-17T13:01:14.976235Z",
+  "updated_at": "2026-06-18T13:01:27.503299Z",
   "ticker": "JAZZ",
   "drug_name": "EPIDIOLEX (cannabidiol)",
   "drug_indication": "Tuberous Sclerosis Complex",
@@ -651,7 +674,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:07:27.411177Z",
-  "updated_at": "2026-06-17T13:03:15.648756Z",
+  "updated_at": "2026-06-18T13:03:23.453469Z",
   "ticker": "JAZZ",
   "drug_name": "XYWAV",
   "drug_indication": "Cataplexy and Excessive Daytime Sleepiness in Narcolepsy",
@@ -674,7 +697,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:06:04.108856Z",
-  "updated_at": "2026-06-17T13:01:14.184784Z",
+  "updated_at": "2026-06-18T13:01:26.729035Z",
   "ticker": "JAZZ",
   "drug_name": "ZEPZELCA (lurbinectedin)",
   "drug_indication": "Small cell lung cancer (SCLC)",
@@ -720,7 +743,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:06:33.882408Z",
-  "updated_at": "2026-06-17T13:01:57.214414Z",
+  "updated_at": "2026-06-18T13:02:08.034829Z",
   "ticker": "JAZZ",
   "drug_name": "XYREM (sodium oxybate)",
   "drug_indication": "Pediatric narcolepsy patients with cataplexy",
@@ -743,7 +766,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:07:08.207650Z",
-  "updated_at": "2026-06-17T13:02:47.695599Z",
+  "updated_at": "2026-06-18T13:02:55.955259Z",
   "ticker": "JAZZ",
   "drug_name": "JZP-110",
   "drug_indication": "Excessive sleepiness associated with obstructive sleep apnea",
@@ -766,7 +789,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:06:05.764502Z",
-  "updated_at": "2026-06-17T13:01:16.519952Z",
+  "updated_at": "2026-06-18T13:01:28.984777Z",
   "ticker": "JAZZ",
   "drug_name": "SATIVEX (nabiximols)",
   "drug_indication": "Spasticity due multiple sclerosis",
@@ -789,7 +812,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:07:31.597025Z",
-  "updated_at": "2026-06-17T13:03:20.719822Z",
+  "updated_at": "2026-06-18T13:03:28.645088Z",
   "ticker": "JAZZ",
   "drug_name": "EPIDIOLEX (cannabidiol)",
   "drug_indication": "Dravet Syndrome and Lennox-Gastaut syndrome",
@@ -812,7 +835,7 @@
    "name": "Jazz Pharmaceuticals "
   },
   "created_at": "2025-02-21T20:05:59.853687Z",
-  "updated_at": "2026-06-17T13:01:07.815127Z",
+  "updated_at": "2026-06-18T13:01:21.179589Z",
   "ticker": "JAZZ",
   "drug_name": "JZP-6 (sodium oxybate)",
   "drug_indication": "Fibromyalgia",

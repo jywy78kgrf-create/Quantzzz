@@ -1,18 +1,14 @@
-/** Geometric mark: a lowered barrier/gate — a checkpoint, not a blob. */
+/** Geometric mark: a lowered, striped checkpoint barrier — a control gate. */
 export function Mark({ className = "h-5 w-5" }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <rect x="2" y="3" width="3" height="18" rx="0.5" fill="currentColor" />
-      <rect
-        x="5"
-        y="8"
-        width="17"
-        height="3.2"
-        rx="0.5"
-        fill="currentColor"
-        transform="rotate(-9 5 8)"
-      />
-      <circle cx="20.4" cy="6.3" r="1.5" fill="currentColor" />
+      {/* upright post + base */}
+      <rect x="3" y="4" width="3" height="14" rx="0.6" fill="currentColor" />
+      <rect x="1.5" y="18" width="6" height="2.4" rx="0.6" fill="currentColor" />
+      {/* horizontal barrier arm, drawn as hazard segments (clearly a barrier) */}
+      <rect x="7.4" y="8.2" width="3.6" height="3" rx="0.5" fill="currentColor" />
+      <rect x="12" y="8.2" width="3.6" height="3" rx="0.5" fill="currentColor" />
+      <rect x="16.6" y="8.2" width="3.6" height="3" rx="0.5" fill="currentColor" />
     </svg>
   );
 }

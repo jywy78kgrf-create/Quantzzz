@@ -24,22 +24,23 @@ npm run preview    # serve the production build
 
 ## Design system (committed tokens)
 
-Direction: a **fraud/controls operations console** — near-black, dense,
-technical. Tokens live in `tailwind.config.js` + `src/index.css`:
+Direction: **"void / constellation"** — a pure-black canvas with a single
+saturated violet (Plum Voltage `#8052ff`) as the only filled chromatic surface,
+white type that glows on the void, and a particle constellation as the brand
+mark. Tokens in `tailwind.config.js` + `src/index.css`:
 
-- **Type:** Fraunces (editorial serif display) · Geist (grotesque body) ·
-  Geist Mono (all data/labels/console), self-hosted via Fontsource.
-- **Palette:** near-black base with raised panels and hairlines, a single cool
-  *live* teal accent, and three verdict colors (allow/escalate/deny) that glow
-  on dark — used only in the decision stream and status chips.
-- **Signature element:** `LiveFeed` — a real-time decision stream that ticks new
-  transactions and resolves each to ALLOW / DENY / ESCALATE (synthetic,
-  illustrative; hover to pause). Plus animated mono counters and a film-grain
-  overlay (`Grain`) for texture.
-- **Motion:** Lenis smooth-scroll + Framer Motion reveals; the feed ticks and a
-  scanline sweeps. All motion disabled under `prefers-reduced-motion`.
-- **Layout:** grid discipline, hairline-divided panels, mono numerals, status
-  bar — built to read like a monitoring console, not a generic SaaS page.
+- **Type:** one family (Geist variable, self-hosted) doing all the work through
+  weight + tracking — ultra-thin (200) huge display with negative tracking,
+  opener positive tracking at body sizes. No serifs, no second family.
+- **Palette:** void black, bone/ash/smoke greys, Plum Voltage (the only fill),
+  amber for outlined accents/links, lichen as a constellation node color.
+- **Signature element:** `Constellation` — a canvas particle field (thousands of
+  2–6px triangles/circles/diamonds/squares) sampling a slowly-rotating sphere
+  with ambient drift, subtle pointer parallax; depth from z-based size/alpha, no
+  shadows. Renders a single still frame under `prefers-reduced-motion`.
+- **Surfaces:** flat. "Cards" are just hairline borders on the void — no fills,
+  shadows, gradients, or noise. Pill (24px) geometry on every interactive element.
+- **Motion:** Lenis smooth-scroll + Framer Motion reveals, kept subtle.
 
 ## Lead capture
 

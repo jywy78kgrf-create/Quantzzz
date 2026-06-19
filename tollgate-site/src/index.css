@@ -13,24 +13,12 @@
   }
 
   body {
-    @apply bg-base text-fg font-sans antialiased;
-    font-optical-sizing: auto;
-    background-image:
-      radial-gradient(120% 80% at 80% -10%, #11201f 0%, transparent 55%),
-      radial-gradient(90% 70% at 0% 0%, #14110d 0%, transparent 50%);
-    background-attachment: fixed;
-  }
-
-  .font-display {
-    font-variation-settings: "opsz" 140, "SOFT" 0, "WONK" 0;
-  }
-  .font-mono {
-    font-variant-numeric: tabular-nums;
+    @apply bg-void text-bone font-sans antialiased;
   }
 
   ::selection {
-    background: #3fd2c7;
-    color: #06100f;
+    background: #8052ff;
+    color: #ffffff;
   }
 
   .lenis.lenis-smooth {
@@ -50,70 +38,68 @@
 
 @layer components {
   .shell {
-    @apply mx-auto w-full max-w-shell px-5 sm:px-8 lg:px-12;
+    @apply mx-auto w-full max-w-shell px-6 sm:px-8 lg:px-10;
   }
 
+  /* eyebrow / kicker — system flag above headlines */
   .eyebrow {
-    @apply inline-flex items-center gap-2 font-mono text-eyebrow uppercase text-live;
+    @apply inline-flex items-center gap-2.5 font-acronym text-eyebrow font-semibold uppercase
+      tracking-[0.16em] text-bone;
   }
 
-  .panel {
-    @apply rounded-sharp border border-line bg-base-raised;
+  /* display headline — the signature: ultra-thin, huge, tight */
+  .headline {
+    @apply font-acronym font-extralight text-bone;
   }
 
-  .hairline {
-    @apply h-px w-full bg-line;
+  /* hairline outline "card" — no fill, no shadow, just a border on the void */
+  .outline-card {
+    @apply rounded-card border border-hair;
   }
 
-  /* Reveal-on-scroll fallback (Framer Motion handles most). */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill bg-plum px-5 py-3
+      font-acronym text-caption font-semibold uppercase tracking-[0.05em] text-bone
+      transition-[filter,transform] duration-200 hover:brightness-110 focus:outline-none
+      focus-visible:ring-2 focus-visible:ring-plum focus-visible:ring-offset-2
+      focus-visible:ring-offset-void;
+  }
+
+  /* secondary = outlined amber (never a filled chromatic CTA) */
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill border border-hair px-5 py-3
+      font-acronym text-caption font-semibold uppercase tracking-[0.05em] text-bone
+      transition-colors duration-200 hover:border-amber hover:text-amber;
+  }
+
+  .nav-link {
+    @apply font-acronym text-body-sm tracking-[0.02em] text-smoke transition-colors duration-200
+      hover:text-bone;
+  }
+
+  .field-label {
+    @apply mb-2 block font-acronym text-caption uppercase tracking-[0.12em] text-smoke;
+  }
+
+  .field-input {
+    @apply w-full rounded-pill border border-hair bg-void px-4 py-3 font-acronym text-body
+      tracking-[0.01em] text-bone placeholder:text-smoke/60 focus:border-plum focus:outline-none;
+  }
+
   .reveal {
     opacity: 0;
-    transform: translateY(16px);
+    transform: translateY(14px);
     transition:
-      opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
-      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+      opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
   }
   .reveal.is-in {
     opacity: 1;
     transform: none;
   }
-
-  .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-sharp bg-live px-6 py-3.5
-      font-sans text-sm font-medium tracking-tight text-base-sunk transition-all duration-200
-      hover:shadow-glow hover:brightness-110 focus:outline-none focus-visible:ring-2
-      focus-visible:ring-live focus-visible:ring-offset-2 focus-visible:ring-offset-base;
-  }
-
-  .btn-ghost {
-    @apply inline-flex items-center gap-1.5 font-mono text-[0.78rem] uppercase tracking-wider
-      text-fg-muted transition-colors hover:text-live;
-  }
-
-  .field-label {
-    @apply mb-1.5 block font-mono text-[0.66rem] uppercase tracking-[0.16em] text-fg-faint;
-  }
-
-  .field-input {
-    @apply w-full rounded-sharp border border-line bg-base px-3.5 py-3 font-sans text-[0.95rem]
-      text-fg placeholder:text-fg-dim focus:border-live focus:outline-none focus:ring-1
-      focus:ring-live;
-  }
-
-  /* status dot */
-  .dot {
-    @apply inline-block h-1.5 w-1.5 rounded-full;
-  }
 }
 
 @layer utilities {
-  /* fine technical grid background for panels/sections */
-  .bg-grid {
-    background-image:
-      linear-gradient(to right, #ffffff06 1px, transparent 1px),
-      linear-gradient(to bottom, #ffffff06 1px, transparent 1px);
-    background-size: 40px 40px;
-  }
   .text-balance {
     text-wrap: balance;
   }

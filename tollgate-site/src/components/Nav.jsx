@@ -18,31 +18,23 @@ export function Nav() {
 
   return (
     <header
-      className={`sticky top-0 z-50 border-b transition-colors duration-300 ${
-        scrolled ? "border-line bg-base/80 backdrop-blur-md" : "border-transparent"
+      className={`sticky top-0 z-50 transition-colors duration-300 ${
+        scrolled ? "border-b border-hair bg-void/80 backdrop-blur-md" : ""
       }`}
     >
       <div className="shell flex h-16 items-center justify-between">
         <a href="#top" aria-label="Tollgate home">
           <Wordmark />
         </a>
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-9 md:flex">
           {LINKS.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="font-mono text-[0.78rem] uppercase tracking-wider text-fg-muted transition-colors hover:text-fg"
-            >
+            <a key={l.href} href={l.href} className="nav-link">
               {l.label}
             </a>
           ))}
-          <a href="#audit" className="btn-primary px-4 py-2 text-[0.8rem]">
-            Get an audit
-          </a>
+          <a href="#audit" className="btn-primary">Get an audit</a>
         </nav>
-        <a href="#audit" className="btn-primary px-4 py-2 text-[0.8rem] md:hidden">
-          Get an audit
-        </a>
+        <a href="#audit" className="btn-primary md:hidden">Get an audit</a>
       </div>
     </header>
   );

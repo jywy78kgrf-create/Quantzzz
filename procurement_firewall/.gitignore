@@ -1,0 +1,11 @@
+# runtime audit output from the CLI (regenerated per run)
+audit_log.jsonl
+*.audit.jsonl
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# NOTE: eval/runs/*.json and eval/runs/history.jsonl ARE committed on purpose —
+# the persisted eval numbers are part of the deliverable.

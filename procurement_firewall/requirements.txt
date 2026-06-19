@@ -1,0 +1,4 @@
+# Core gate + harness use only the Python standard library (>=3.11).
+# The LLM-backed judge needs the Anthropic SDK; tests need pytest.
+anthropic==0.69.0
+pytest==8.3.4

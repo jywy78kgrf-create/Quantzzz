@@ -1,0 +1,37 @@
+{
+  "mandate_id": "MND-2026-PLATFORM-INFRA",
+  "owner": "VP Engineering (platform org)",
+  "effective_date": "2026-01-01",
+  "currency": "USD",
+  "objective": "Fund the run-rate operation of the existing production data platform for fiscal year 2026: renew and pay for already-contracted cloud infrastructure, observability, and data-tooling subscriptions that keep the live platform running. This mandate covers RENEWALS and consumption of services already in production. It does NOT authorize: net-new tools or vendors not already in production, hardware/laptops/office equipment, professional-services or consulting engagements, marketing or events/travel, employee perks, prepayment of more than one billing period in advance, or any purchase whose real purpose is something other than keeping the current data platform running.",
+  "rules": {
+    "amount_cap_per_po": 50000,
+    "vendor_allowlist": [
+      "AWS",
+      "Datadog",
+      "Snowflake",
+      "PagerDuty",
+      "Fivetran",
+      "dbt Labs",
+      "Confluent",
+      "GitHub"
+    ],
+    "category_allowlist": [
+      "cloud_infrastructure",
+      "observability",
+      "data_warehouse",
+      "data_pipeline",
+      "developer_tooling"
+    ],
+    "approval_tiers": [
+      { "threshold": 10000, "required_approvers": 1 },
+      { "threshold": 25000, "required_approvers": 2 }
+    ],
+    "rate_limit": { "max_pos": 12, "period_days": 7 },
+    "duplicate_window_days": 45,
+    "duplicate_amount_tolerance": 0.01,
+    "structuring": { "window_days": 7, "aggregate_cap": 50000 },
+    "require_three_way_match": true,
+    "three_way_match_tolerance": 0.02
+  }
+}

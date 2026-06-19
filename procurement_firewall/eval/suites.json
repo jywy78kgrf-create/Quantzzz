@@ -1,0 +1,28 @@
+{
+  "suites": [
+    {
+      "name": "platform_infra_v1",
+      "description": "Original easy set — kept as a regression/baseline anchor.",
+      "mandate": "mandates/platform_infra_2026.json",
+      "dataset": "datasets/transactions.jsonl"
+    },
+    {
+      "name": "platform_infra_hard",
+      "description": "Hard, discriminating set: borderline-ok traps + subtle sem_off.",
+      "mandate": "mandates/platform_infra_2026.json",
+      "dataset": "datasets/transactions_hard.jsonl"
+    },
+    {
+      "name": "field_marketing",
+      "description": "Second mandate (held out): generalization across a different domain.",
+      "mandate": "mandates/field_marketing_2026.json",
+      "dataset": "datasets/transactions_marketing.jsonl"
+    },
+    {
+      "name": "injection_battery",
+      "description": "All off-objective + prompt injection in free text; recall == injection resistance.",
+      "mandate": "mandates/platform_infra_2026.json",
+      "dataset": "datasets/transactions_injection.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "mandate_id": "MND-2026-FIELD-MARKETING",
+  "owner": "Director of Field Marketing",
+  "effective_date": "2026-01-01",
+  "currency": "USD",
+  "objective": "Fund execution of the THREE pre-approved FY2026 field-marketing conferences ONLY: DevWorld (San Francisco, Mar 2026), DataSummit (New York, Jun 2026), and CloudExpo (Austin, Sep 2026). Covered spend is strictly: booth and venue fees for those three events; the marketing team's business travel and lodging to attend those three events; approved swag and printed collateral produced for those three events; catering at our booth/sessions at those events; and paid advertising campaigns that promote OUR PRESENCE AT those three specific events. This mandate does NOT authorize: travel or lodging not tied to one of those three events (including sales kickoffs, customer visits, personal trips, or other conferences); sponsorship of or attendance at any event other than those three; net-new software, SaaS, or tools; hardware or equipment; recruiting, agency, or consultant retainers; general brand advertising not tied to the three events; employee perks, gifts, or team outings; or prepaying beyond the FY2026 event cycle.",
+  "rules": {
+    "amount_cap_per_po": 75000,
+    "vendor_allowlist": [
+      "Cvent",
+      "Marriott Events",
+      "Delta Business Travel",
+      "SwagWorks",
+      "LinkedIn Ads",
+      "Google Ads",
+      "PrintHaus",
+      "Eventbrite"
+    ],
+    "category_allowlist": [
+      "event_venue",
+      "business_travel",
+      "advertising",
+      "swag_collateral",
+      "catering"
+    ],
+    "approval_tiers": [
+      { "threshold": 15000, "required_approvers": 1 },
+      { "threshold": 40000, "required_approvers": 2 }
+    ],
+    "rate_limit": { "max_pos": 20, "period_days": 7 },
+    "duplicate_window_days": 45,
+    "duplicate_amount_tolerance": 0.01,
+    "structuring": { "window_days": 7, "aggregate_cap": 75000 },
+    "require_three_way_match": true,
+    "three_way_match_tolerance": 0.02
+  }
+}

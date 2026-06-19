@@ -148,6 +148,8 @@ class Transaction:
     # ---- dataset-only metadata (NEVER read by the firewall decision) ----
     label: Optional[str] = None  # "ok" | "det_off" | "sem_off"
     note: Optional[str] = None  # author's rationale, for humans only
+    difficulty: Optional[str] = None  # "easy" | "hard" | "borderline"
+    tags: list[str] = field(default_factory=list)  # e.g. ["injection","net_new"]
 
     @staticmethod
     def from_dict(data: dict[str, Any]) -> "Transaction":
@@ -167,6 +169,8 @@ class Transaction:
             history=list(data.get("history", []) or []),
             label=data.get("label"),
             note=data.get("note"),
+            difficulty=data.get("difficulty"),
+            tags=list(data.get("tags", []) or []),
         )
 
     @property

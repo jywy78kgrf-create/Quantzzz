@@ -21,7 +21,6 @@ from .models import (
     ALLOWED,
     DENIED,
     ESCALATED,
-    GATE_ALLOW,
     GATE_DENY,
     GATE_ESCALATE,
     LAYER_BOTH,

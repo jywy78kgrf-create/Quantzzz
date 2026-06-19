@@ -1,0 +1,31 @@
+name: procurement-firewall
+
+on:
+  push:
+    paths:
+      - "procurement_firewall/**"
+      - ".github/workflows/procurement-firewall.yml"
+  pull_request:
+    paths:
+      - "procurement_firewall/**"
+      - ".github/workflows/procurement-firewall.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: procurement_firewall
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dev deps
+        run: pip install pytest ruff
+      # The deterministic gate, CLI, and eval harness need no third-party deps;
+      # the LLM judge is exercised by mock tests, so CI needs no API key.
+      - name: Lint
+        run: ruff check firewall eval *.py
+      - name: Smoke test (tests + config + dataset integrity + CLI + heuristic eval)
+        run: bash smoke_test.sh

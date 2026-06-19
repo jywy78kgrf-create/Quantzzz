@@ -81,6 +81,13 @@ class Mandate:
     require_three_way_match: bool = False
     three_way_match_tolerance: float = 0.0
 
+    # Opt-in primitives (active only when configured; absent => no behaviour
+    # change, which keeps existing mandates/datasets stable).
+    blocked_vendors: Optional[list[str]] = None  # hard denylist (sanctions/blacklist)
+    vendor_period_spend_cap: Optional[dict[str, Any]] = None  # {cap, period_days}
+    required_fields: Optional[list[str]] = None  # must be present & non-empty, else escalate
+    enforce_currency: bool = True  # txn currency must match mandate currency
+
     @staticmethod
     def from_dict(data: dict[str, Any]) -> "Mandate":
         rules = data.get("rules", {})
@@ -111,6 +118,18 @@ class Mandate:
             structuring=rules.get("structuring"),
             require_three_way_match=bool(rules.get("require_three_way_match", False)),
             three_way_match_tolerance=float(rules.get("three_way_match_tolerance", 0.0)),
+            blocked_vendors=(
+                [str(v) for v in rules["blocked_vendors"]]
+                if rules.get("blocked_vendors") is not None
+                else None
+            ),
+            vendor_period_spend_cap=rules.get("vendor_period_spend_cap"),
+            required_fields=(
+                [str(f) for f in rules["required_fields"]]
+                if rules.get("required_fields") is not None
+                else None
+            ),
+            enforce_currency=bool(rules.get("enforce_currency", True)),
         )
 
     def required_approvers_for(self, amount: float) -> int:

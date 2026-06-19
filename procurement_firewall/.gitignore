@@ -7,5 +7,9 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
+# LLM judge response cache (reproducible from the API; not a deliverable)
+eval/.judge_cache.json
+eval/.judge_cache.json.tmp
+
 # NOTE: eval/runs/*.json and eval/runs/history.jsonl ARE committed on purpose —
 # the persisted eval numbers are part of the deliverable.

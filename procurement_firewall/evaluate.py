@@ -48,15 +48,18 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description="Procurement firewall eval harness")
     ap.add_argument("--only", choices=["heuristic", "llm"], help="run only one judge")
     ap.add_argument("--suite", help="run only the named suite")
+    ap.add_argument("--no-persist", action="store_true",
+                    help="do not write run files or REPORT.md (for smoke runs)")
     args = ap.parse_args(argv)
 
     suites_cfg = _load_suites(args.suite)
     if not suites_cfg:
         raise SystemExit("no suites with datasets present to evaluate")
 
+    cache_path = HERE / "eval" / ".judge_cache.json"
     judges_for = lambda: (  # noqa: E731 - fresh judges per suite
         ([HeuristicJudge()] if args.only in (None, "heuristic") else [])
-        + ([AnthropicJudge()] if args.only in (None, "llm") else [])
+        + ([AnthropicJudge(cache_path=cache_path)] if args.only in (None, "llm") else [])
     )
 
     run = RunReport(when=datetime.now(timezone.utc).isoformat(), suites=[])
@@ -91,6 +94,10 @@ def main(argv: list[str] | None = None) -> int:
                 f"sem-delta {j['semantic_delta']}{inj}"
             )
 
+    if args.no_persist:
+        print("\n" + "-" * 72)
+        print("(--no-persist: run files and REPORT.md not written)")
+        return 0
     out = persist_run(run, RUNS_DIR)
     REPORT_FILE.write_text(generate_markdown(asdict(run)), encoding="utf-8")
     print("\n" + "-" * 72)

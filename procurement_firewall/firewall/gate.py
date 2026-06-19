@@ -93,7 +93,27 @@ class DeterministicGate:
         if m.amount_cap_per_po is None:
             escalate_reasons.append("mandate defines no per-PO amount cap; cannot affirm amount")
 
+        # --- currency discipline: no FX in Phase 1, so a foreign-currency
+        # transaction cannot be compared against the mandate's caps -> escalate.
+        if m.enforce_currency and m.currency and txn.currency != m.currency:
+            escalate_reasons.append(
+                f"transaction currency '{txn.currency}' differs from mandate "
+                f"currency '{m.currency}'; cannot evaluate caps without FX"
+            )
+
+        # --- required-field completeness (deny-by-default for missing data) ---
+        if m.required_fields:
+            for fname in m.required_fields:
+                val = getattr(txn, fname, None)
+                missing = val is None or (isinstance(val, (str, list)) and len(val) == 0)
+                if missing:
+                    escalate_reasons.append(f"required field '{fname}' is missing or empty")
+
         # --- hard primitives (each independent; collect ALL violations) ---
+        if m.blocked_vendors is not None and txn.vendor in m.blocked_vendors:
+            denies.append(f"vendor '{txn.vendor}' is on the blocked/denylist")
+            fired.append("blocked_vendor")
+
         if m.amount_cap_per_po is not None and txn.amount > m.amount_cap_per_po:
             denies.append(
                 f"amount {txn.amount:.2f} exceeds per-PO cap {m.amount_cap_per_po:.2f}"
@@ -132,6 +152,11 @@ class DeterministicGate:
         if struct:
             denies.append(struct)
             fired.append("structuring")
+
+        vcap = self._check_vendor_period_cap(txn)
+        if vcap:
+            denies.append(vcap)
+            fired.append("vendor_period_spend_cap")
 
         twm = self._check_three_way_match(txn)
         if twm:
@@ -225,6 +250,32 @@ class DeterministicGate:
             return (
                 f"structuring suspected: {n} POs to '{txn.vendor}' sum to {total:.2f} "
                 f"(> aggregate cap {agg_cap:.2f}) within {window}d, each individually sub-cap"
+            )
+        return None
+
+    def _check_vendor_period_cap(self, txn: Transaction) -> str | None:
+        """Cumulative spend to one vendor within a window (budget control)."""
+        m = self.mandate
+        if not m.vendor_period_spend_cap:
+            return None
+        cap = float(m.vendor_period_spend_cap.get("cap", 0.0))
+        period = int(m.vendor_period_spend_cap.get("period_days", 0))
+        if cap <= 0 or period <= 0:
+            return None
+        ts = txn.parsed_timestamp
+        total = txn.amount
+        for prior in txn.history:
+            if str(prior.get("vendor")) != txn.vendor:
+                continue
+            if ts is not None:
+                pts = _parse_ts(prior.get("timestamp"))
+                if pts is not None and abs((ts - pts).days) > period:
+                    continue
+            total += float(prior.get("amount", 0.0))
+        if total > cap:
+            return (
+                f"vendor '{txn.vendor}' cumulative spend {total:.2f} exceeds "
+                f"period cap {cap:.2f} over {period}d"
             )
         return None
 

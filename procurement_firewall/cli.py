@@ -16,6 +16,7 @@ import json
 import sys
 from pathlib import Path
 
+from firewall.config_validation import validate_mandate_file
 from firewall.firewall import ProcurementFirewall
 from firewall.judge import AnthropicJudge, HeuristicJudge
 from firewall.loaders import load_mandate, load_transactions
@@ -48,6 +49,14 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--json", action="store_true", help="emit verdicts as JSON")
     ap.add_argument("--no-color", action="store_true", help="disable ANSI colour")
     args = ap.parse_args(argv)
+
+    errors, warnings = validate_mandate_file(args.mandate)
+    for w in warnings:
+        print(f"warning (mandate): {w}", file=sys.stderr)
+    if errors:
+        for e in errors:
+            print(f"error (mandate): {e}", file=sys.stderr)
+        return 2
 
     mandate = load_mandate(args.mandate)
     txns = load_transactions(args.transactions)

@@ -47,9 +47,9 @@
       tracking-[0.16em] text-bone;
   }
 
-  /* display headline — the signature: ultra-thin, huge, tight */
+  /* display headline — Space Grotesk, light, tight tracking */
   .headline {
-    @apply font-acronym font-extralight text-bone;
+    @apply font-display font-normal text-bone;
   }
 
   /* hairline outline "card" — no fill, no shadow, just a border on the void */

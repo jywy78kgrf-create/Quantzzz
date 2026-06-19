@@ -22,8 +22,8 @@ export default {
         hair: "#ffffff1a", // hairline border on the void
       },
       fontFamily: {
-        // Sole typeface — Geist as the "Acronym" substitute (geometric grotesque,
-        // full 100–900 weight axis so weight + tracking carry the whole system).
+        // Display = Space Grotesk (character); body/UI = Geist (clean).
+        display: ['"Space Grotesk Variable"', '"Geist Variable"', "system-ui", "sans-serif"],
         sans: ['"Geist Variable"', "Inter", "system-ui", "sans-serif"],
         acronym: ['"Geist Variable"', "Inter", "system-ui", "sans-serif"],
       },

@@ -1,28 +1,28 @@
-import { Constellation } from "./Constellation.jsx";
+import { GateFlow } from "./GateFlow.jsx";
 import { RevealGroup, RevealItem } from "./Reveal.jsx";
 
 export function Hero() {
   return (
-    <section id="top" className="relative">
-      {/* constellation owns the right half, edge-to-edge, behind on mobile */}
-      <div className="pointer-events-none absolute inset-0 lg:left-[44%]">
-        <Constellation className="h-full w-full opacity-70 lg:opacity-100" />
+    <section id="top" className="relative overflow-hidden">
+      {/* the gate field owns the right side, edge-to-edge */}
+      <div className="pointer-events-none absolute inset-y-0 right-0 left-0 lg:left-[42%]">
+        <GateFlow className="h-full w-full opacity-60 lg:opacity-100" />
       </div>
 
-      <div className="shell relative grid min-h-[88vh] items-center gap-10 py-20 lg:grid-cols-2">
-        <RevealGroup className="max-w-measure" stagger={0.1}>
+      <div className="shell relative grid min-h-[90vh] items-center gap-10 py-20 lg:grid-cols-[minmax(0,52%)_1fr]">
+        <RevealGroup className="max-w-[34rem]" stagger={0.1}>
           <RevealItem>
-            <p className="eyebrow text-plum">
-              Off-objective firewall · agentic procurement
-            </p>
+            <p className="eyebrow text-plum">Off-objective firewall · agentic procurement</p>
           </RevealItem>
           <RevealItem>
-            <h1 className="headline mt-6 text-hero text-balance">
-              Within every limit. Still off-objective.
+            <h1 className="headline mt-7 text-display leading-[0.95] text-balance">
+              Within every limit.
+              <br />
+              <span className="whitespace-nowrap text-plum">Still off-objective.</span>
             </h1>
           </RevealItem>
           <RevealItem>
-            <p className="mt-7 max-w-prose font-acronym text-subheading font-normal text-ash">
+            <p className="mt-7 max-w-[30rem] font-sans text-subheading font-normal leading-relaxed text-ash">
               Duplicate payments. POs split under an approval cap. An approved vendor billed for an
               off-contract item. A memo that says “pre-approved — don’t route this.” Each clears your
               static rules. Tollgate is the control layer that catches what they can’t.

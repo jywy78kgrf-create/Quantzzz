@@ -24,17 +24,22 @@ npm run preview    # serve the production build
 
 ## Design system (committed tokens)
 
-The visual identity is deliberate and lives in `tailwind.config.js` + `src/index.css`:
+Direction: a **fraud/controls operations console** — near-black, dense,
+technical. Tokens live in `tailwind.config.js` + `src/index.css`:
 
-- **Type:** Newsreader (editorial serif, display) · IBM Plex Sans (body/UI) ·
-  IBM Plex Mono (data, labels, codes). No system-ui defaults.
-- **Palette:** warm near-black ink on warm paper, one confident *signal*
-  vermillion accent, plus three semantic verdict colors (allow/escalate/deny)
-  used only in product chips. No purple, no blob gradients.
-- **Layout:** real grid discipline, hairline rules, whitespace as structure,
-  high-contrast typographic hierarchy.
-- **Motion:** subtle reveal-on-scroll and one hero rise only; fully disabled
-  under `prefers-reduced-motion`.
+- **Type:** Fraunces (editorial serif display) · Geist (grotesque body) ·
+  Geist Mono (all data/labels/console), self-hosted via Fontsource.
+- **Palette:** near-black base with raised panels and hairlines, a single cool
+  *live* teal accent, and three verdict colors (allow/escalate/deny) that glow
+  on dark — used only in the decision stream and status chips.
+- **Signature element:** `LiveFeed` — a real-time decision stream that ticks new
+  transactions and resolves each to ALLOW / DENY / ESCALATE (synthetic,
+  illustrative; hover to pause). Plus animated mono counters and a film-grain
+  overlay (`Grain`) for texture.
+- **Motion:** Lenis smooth-scroll + Framer Motion reveals; the feed ticks and a
+  scanline sweeps. All motion disabled under `prefers-reduced-motion`.
+- **Layout:** grid discipline, hairline-divided panels, mono numerals, status
+  bar — built to read like a monitoring console, not a generic SaaS page.
 
 ## Lead capture
 

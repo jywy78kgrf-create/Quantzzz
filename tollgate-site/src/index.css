@@ -4,45 +4,39 @@
 
 @layer base {
   :root {
-    color-scheme: light;
+    color-scheme: dark;
   }
 
   html {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-paper text-ink font-sans antialiased;
+    @apply bg-base text-fg font-sans antialiased;
     font-optical-sizing: auto;
+    background-image:
+      radial-gradient(120% 80% at 80% -10%, #11201f 0%, transparent 55%),
+      radial-gradient(90% 70% at 0% 0%, #14110d 0%, transparent 50%);
+    background-attachment: fixed;
   }
 
-  /* Editorial display: let Fraunces use its display optical size + soft axis. */
   .font-display {
-    font-variation-settings: "opsz" 120, "SOFT" 0, "WONK" 0;
+    font-variation-settings: "opsz" 140, "SOFT" 0, "WONK" 0;
   }
-
-  /* Data/figures read as a ledger: tabular, lined. */
   .font-mono {
     font-variant-numeric: tabular-nums;
   }
 
-  /* Lenis smooth-scroll baseline. */
-  html.lenis,
-  html.lenis body {
-    height: auto;
+  ::selection {
+    background: #3fd2c7;
+    color: #06100f;
   }
+
   .lenis.lenis-smooth {
     scroll-behavior: auto !important;
   }
 
-  ::selection {
-    background: #15120b;
-    color: #f4f0e6;
-  }
-
-  /* Respect users who prefer reduced motion. */
   @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -50,25 +44,28 @@
       animation-duration: 0.001ms !important;
       animation-iteration-count: 1 !important;
       transition-duration: 0.001ms !important;
-      scroll-behavior: auto !important;
     }
   }
 }
 
 @layer components {
   .shell {
-    @apply mx-auto w-full max-w-shell px-6 sm:px-8 lg:px-12;
+    @apply mx-auto w-full max-w-shell px-5 sm:px-8 lg:px-12;
   }
 
   .eyebrow {
-    @apply font-mono text-eyebrow uppercase text-signal;
+    @apply inline-flex items-center gap-2 font-mono text-eyebrow uppercase text-live;
   }
 
-  .rule {
+  .panel {
+    @apply rounded-sharp border border-line bg-base-raised;
+  }
+
+  .hairline {
     @apply h-px w-full bg-line;
   }
 
-  /* Reveal-on-scroll: hidden until .is-in is toggled by the IntersectionObserver. */
+  /* Reveal-on-scroll fallback (Framer Motion handles most). */
   .reveal {
     opacity: 0;
     transform: translateY(16px);
@@ -82,25 +79,42 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-sharp bg-ink px-6 py-3.5
-      font-sans text-sm font-medium tracking-tight text-paper transition-colors
-      duration-200 hover:bg-signal focus:outline-none focus-visible:ring-2
-      focus-visible:ring-signal focus-visible:ring-offset-2 focus-visible:ring-offset-paper;
+    @apply inline-flex items-center justify-center gap-2 rounded-sharp bg-live px-6 py-3.5
+      font-sans text-sm font-medium tracking-tight text-base-sunk transition-all duration-200
+      hover:shadow-glow hover:brightness-110 focus:outline-none focus-visible:ring-2
+      focus-visible:ring-live focus-visible:ring-offset-2 focus-visible:ring-offset-base;
   }
 
   .btn-ghost {
-    @apply inline-flex items-center gap-1.5 font-sans text-sm font-medium tracking-tight
-      text-ink underline decoration-line-strong decoration-1 underline-offset-4
-      transition-colors hover:decoration-signal hover:text-signal;
+    @apply inline-flex items-center gap-1.5 font-mono text-[0.78rem] uppercase tracking-wider
+      text-fg-muted transition-colors hover:text-live;
   }
 
   .field-label {
-    @apply mb-1.5 block font-mono text-[0.7rem] uppercase tracking-[0.12em] text-ink-muted;
+    @apply mb-1.5 block font-mono text-[0.66rem] uppercase tracking-[0.16em] text-fg-faint;
   }
 
   .field-input {
-    @apply w-full rounded-sharp border border-line bg-paper-raised px-3.5 py-3 font-sans
-      text-[0.95rem] text-ink placeholder:text-ink-faint focus:border-ink focus:outline-none
-      focus:ring-1 focus:ring-ink;
+    @apply w-full rounded-sharp border border-line bg-base px-3.5 py-3 font-sans text-[0.95rem]
+      text-fg placeholder:text-fg-dim focus:border-live focus:outline-none focus:ring-1
+      focus:ring-live;
+  }
+
+  /* status dot */
+  .dot {
+    @apply inline-block h-1.5 w-1.5 rounded-full;
+  }
+}
+
+@layer utilities {
+  /* fine technical grid background for panels/sections */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, #ffffff06 1px, transparent 1px),
+      linear-gradient(to bottom, #ffffff06 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  .text-balance {
+    text-wrap: balance;
   }
 }

@@ -16,8 +16,8 @@ export function Mark({ className = "h-5 w-5" }) {
 export function Wordmark({ className = "" }) {
   return (
     <span className={`inline-flex items-center gap-2 ${className}`}>
-      <Mark className="h-5 w-5 text-signal" />
-      <span className="font-display text-[1.35rem] font-medium tracking-tight text-ink">
+      <Mark className="h-5 w-5 text-live" />
+      <span className="font-sans text-[1.2rem] font-semibold tracking-tight text-fg">
         Tollgate
       </span>
     </span>

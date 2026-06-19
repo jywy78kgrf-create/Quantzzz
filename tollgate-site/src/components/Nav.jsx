@@ -4,7 +4,7 @@ import { Wordmark } from "./Wordmark.jsx";
 const LINKS = [
   { href: "#failures", label: "Failure modes" },
   { href: "#how", label: "How it works" },
-  { href: "#controls", label: "The controls" },
+  { href: "#controls", label: "Controls" },
 ];
 
 export function Nav() {
@@ -19,11 +19,11 @@ export function Nav() {
   return (
     <header
       className={`sticky top-0 z-50 border-b transition-colors duration-300 ${
-        scrolled ? "border-line bg-paper/85 backdrop-blur-md" : "border-transparent"
+        scrolled ? "border-line bg-base/80 backdrop-blur-md" : "border-transparent"
       }`}
     >
       <div className="shell flex h-16 items-center justify-between">
-        <a href="#top" className="shrink-0" aria-label="Tollgate home">
+        <a href="#top" aria-label="Tollgate home">
           <Wordmark />
         </a>
         <nav className="hidden items-center gap-8 md:flex">
@@ -31,7 +31,7 @@ export function Nav() {
             <a
               key={l.href}
               href={l.href}
-              className="font-sans text-sm tracking-tight text-ink-muted transition-colors hover:text-ink"
+              className="font-mono text-[0.78rem] uppercase tracking-wider text-fg-muted transition-colors hover:text-fg"
             >
               {l.label}
             </a>

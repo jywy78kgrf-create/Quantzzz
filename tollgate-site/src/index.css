@@ -15,7 +15,26 @@
 
   body {
     @apply bg-paper text-ink font-sans antialiased;
-    font-feature-settings: "ss01", "cv05";
+    font-optical-sizing: auto;
+  }
+
+  /* Editorial display: let Fraunces use its display optical size + soft axis. */
+  .font-display {
+    font-variation-settings: "opsz" 120, "SOFT" 0, "WONK" 0;
+  }
+
+  /* Data/figures read as a ledger: tabular, lined. */
+  .font-mono {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Lenis smooth-scroll baseline. */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
   }
 
   ::selection {

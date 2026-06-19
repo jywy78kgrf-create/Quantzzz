@@ -1,17 +1,23 @@
+import { ShieldHalf, FileSignature, UserCheck, Landmark } from "lucide-react";
+
 const CONTROLS = [
   {
+    Icon: ShieldHalf,
     k: "Deny-by-default",
     d: "An action that matches no policy rule is never improvised into an approval. Unrecognized spend stops and waits for a person. The safe failure is the default failure.",
   },
   {
+    Icon: FileSignature,
     k: "Attestable audit trail",
     d: "Every denial and escalation emits a structured, signed record — who, what, why, when — with a content hash. After the fact, each decision is reconstructable and tamper-evident.",
   },
   {
+    Icon: UserCheck,
     k: "Human-in-the-loop",
     d: "The system can stop money and can ask for review. It cannot release a held payment on its own. Escalations route to a named approver, preserving segregation of duties.",
   },
   {
+    Icon: Landmark,
     k: "Controls you can map to SOX",
     d: "Caps, allowlists, three-way match, and approval tiers express as testable controls. The mandate is your written assertion; the log is your evidence.",
   },
@@ -54,7 +60,8 @@ export function Trust() {
             <div className="grid gap-px overflow-hidden rounded-sharp border border-line-dark bg-line-dark sm:grid-cols-2">
               {CONTROLS.map((c) => (
                 <div key={c.k} className="reveal bg-ink p-6">
-                  <h3 className="font-display text-[1.3rem] font-normal text-paper">{c.k}</h3>
+                  <c.Icon className="h-5 w-5 text-signal" strokeWidth={1.5} aria-hidden />
+                  <h3 className="mt-4 font-display text-[1.3rem] font-normal text-paper">{c.k}</h3>
                   <p className="mt-2.5 font-sans text-[0.9rem] leading-relaxed text-paper/65">
                     {c.d}
                   </p>

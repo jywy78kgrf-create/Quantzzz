@@ -42,9 +42,9 @@ export default {
         },
       },
       fontFamily: {
-        display: ['"Newsreader"', "Georgia", "serif"],
-        sans: ['"IBM Plex Sans"', "system-ui", "sans-serif"],
-        mono: ['"IBM Plex Mono"', "ui-monospace", "monospace"],
+        display: ['"Fraunces Variable"', "Georgia", "serif"],
+        sans: ['"Geist Variable"', "system-ui", "sans-serif"],
+        mono: ['"Geist Mono Variable"', "ui-monospace", "monospace"],
       },
       fontSize: {
         // A deliberate modular scale.

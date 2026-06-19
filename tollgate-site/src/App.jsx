@@ -6,9 +6,11 @@ import { Trust } from "./components/Trust.jsx";
 import { AuditForm } from "./components/AuditForm.jsx";
 import { Footer } from "./components/Footer.jsx";
 import { useReveal } from "./lib/useReveal.js";
+import { useLenis } from "./lib/useLenis.js";
 
 export default function App() {
   useReveal();
+  useLenis();
   return (
     <>
       <a

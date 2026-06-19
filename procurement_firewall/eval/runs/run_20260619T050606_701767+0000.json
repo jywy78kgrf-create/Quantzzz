@@ -1,0 +1,71 @@
+{
+  "when": "2026-06-19T05:06:06.701767+00:00",
+  "dataset_path": "/home/user/Quantzzz/procurement_firewall/datasets/transactions.jsonl",
+  "dataset_sha256": "32bf47d38cfa4a972c3a952c49fbbb18e25eb5f0d67d12a672330c7b381aba5b",
+  "n_rows": 180,
+  "mandate_id": "MND-2026-PLATFORM-INFRA",
+  "label_counts": {
+    "ok": 69,
+    "det_off": 55,
+    "sem_off": 56
+  },
+  "gate_only": {
+    "confusion": {
+      "tp": 55,
+      "fp": 0,
+      "tn": 69,
+      "fn": 56
+    },
+    "precision": 1.0,
+    "recall": 0.4955,
+    "f1": 0.6627
+  },
+  "judges": [
+    {
+      "judge_name": "heuristic_v1",
+      "available": true,
+      "unavailable_reason": null,
+      "confusion": {
+        "tp": 98,
+        "fp": 2,
+        "tn": 67,
+        "fn": 13
+      },
+      "precision": 0.98,
+      "recall": 0.8829,
+      "f1": 0.9289,
+      "semantic_delta": 43,
+      "sem_off_total": 56,
+      "sem_off_caught": 43,
+      "det_off_total": 55,
+      "det_off_caught": 55,
+      "ok_total": 69,
+      "ok_false_positives": 2,
+      "errors": 0,
+      "prompt_sha256": null
+    },
+    {
+      "judge_name": "anthropic_claude-sonnet-4-6",
+      "available": true,
+      "unavailable_reason": null,
+      "confusion": {
+        "tp": 111,
+        "fp": 0,
+        "tn": 69,
+        "fn": 0
+      },
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "semantic_delta": 56,
+      "sem_off_total": 56,
+      "sem_off_caught": 56,
+      "det_off_total": 55,
+      "det_off_caught": 55,
+      "ok_total": 69,
+      "ok_false_positives": 0,
+      "errors": 0,
+      "prompt_sha256": "b6017d201318943ba78421e8fd14d9c353e9707048c3c50e4a3704dd44f36398"
+    }
+  ]
+}

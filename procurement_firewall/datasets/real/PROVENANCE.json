@@ -1,0 +1,21 @@
+{
+  "fetched_at": "2026-06-20T19:24:35.994634+00:00",
+  "source": "USAspending.gov API v2 /api/v2/search/spending_by_award/",
+  "filters": {
+    "award_type_codes": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "naics": "541512",
+    "naics_description": "Computer Systems Design Services",
+    "time_period": {
+      "start": "2023-10-01",
+      "end": "2024-09-30"
+    },
+    "sort": "Start Date desc"
+  },
+  "rows": 10000,
+  "note": "Award-level rows; 'Award Amount' is the award's current total value. time_period matches awards with action in the window; Start Date may predate it. All rows are real, legitimate federal awards (label=real)."
+}

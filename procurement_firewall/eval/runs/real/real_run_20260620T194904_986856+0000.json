@@ -1,0 +1,409 @@
+{
+  "when": "2026-06-20T19:49:04.986856+00:00",
+  "mandate_id": "MND-USASPENDING-541512-FY2024",
+  "judge_mode": "both",
+  "test_a": {
+    "n_real": 10000,
+    "gate": {
+      "stopped": 2280,
+      "fp_rate": 0.228,
+      "denied": 2280,
+      "escalated_deny_by_default": 0,
+      "by_rule": {
+        "vendor_allowlist": 2051,
+        "amount_cap": 49,
+        "duplicate": 196
+      },
+      "by_rule_fp_rate": {
+        "vendor_allowlist": 0.2051,
+        "amount_cap": 0.0049,
+        "duplicate": 0.0196
+      },
+      "examples": {
+        "vendor_allowlist": [
+          {
+            "id": "USA-291495460",
+            "vendor": "ACQUISITION SOLUTIONS EAGLES, LLC",
+            "amount": 638746.23,
+            "reason": [
+              "vendor 'ACQUISITION SOLUTIONS EAGLES, LLC' is not on the allowlist"
+            ]
+          },
+          {
+            "id": "USA-291848002",
+            "vendor": "HUMANETICS DIGITAL NORTH AMERICA, INC.",
+            "amount": 30000.0,
+            "reason": [
+              "vendor 'HUMANETICS DIGITAL NORTH AMERICA, INC.' is not on the allowlist"
+            ]
+          },
+          {
+            "id": "USA-298536505",
+            "vendor": "OHIO VALLEY AUDIO VISUAL, LLC",
+            "amount": 111023.0,
+            "reason": [
+              "vendor 'OHIO VALLEY AUDIO VISUAL, LLC' is not on the allowlist"
+            ]
+          }
+        ],
+        "amount_cap": [
+          {
+            "id": "USA-277595550",
+            "vendor": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+            "amount": 99350257.88,
+            "reason": [
+              "amount 99350257.88 exceeds per-PO cap 76000000.00"
+            ]
+          },
+          {
+            "id": "USA-277595592",
+            "vendor": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+            "amount": 111626905.24,
+            "reason": [
+              "amount 111626905.24 exceeds per-PO cap 76000000.00"
+            ]
+          },
+          {
+            "id": "USA-291184878",
+            "vendor": "CACI, INC. - FEDERAL",
+            "amount": 468969758.57,
+            "reason": [
+              "amount 468969758.57 exceeds per-PO cap 76000000.00"
+            ]
+          }
+        ],
+        "duplicate": [
+          {
+            "id": "USA-311185128",
+            "vendor": "LEIDOS, INC.",
+            "amount": 47.4,
+            "reason": [
+              "duplicate of prior USA-311185183: same vendor 'LEIDOS, INC.', amount 47.40, invoice ~'N6883624F8LSZ' within 365d window"
+            ]
+          },
+          {
+            "id": "USA-311185102",
+            "vendor": "LEIDOS, INC.",
+            "amount": 47.4,
+            "reason": [
+              "duplicate of prior USA-311185128: same vendor 'LEIDOS, INC.', amount 47.40, invoice ~'N6883624F8LRA' within 365d window"
+            ]
+          },
+          {
+            "id": "USA-311185090",
+            "vendor": "LEIDOS, INC.",
+            "amount": 115.56,
+            "reason": [
+              "duplicate of prior USA-311185094: same vendor 'LEIDOS, INC.', amount 115.56, invoice ~'N6883624F8LQ9' within 365d window"
+            ]
+          }
+        ]
+      }
+    },
+    "judges": {
+      "heuristic_v1": {
+        "available": true,
+        "sampled": false,
+        "judged_n": 7720,
+        "flagged": 1413,
+        "fp_rate_on_allowed": 0.183,
+        "fp_rate_on_all": 0.1413,
+        "errors": 0,
+        "top_reasons": [
+          [
+            "memo/description suggests spend that may run against the mandate's run",
+            1412
+          ],
+          [
+            "free-text field contains instruction-injection / reviewer-steering lan",
+            1
+          ]
+        ],
+        "examples": [
+          {
+            "id": "USA-311183923",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 36965.4,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "memo/description suggests spend that may run against the mandate's run-rate purpose (matched 1 cue(s), e.g. '\\\\b(laptop|laptops|hardware|monitor|furniture|equipment)\\\\b')"
+          },
+          {
+            "id": "USA-311183629",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 4603.32,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "memo/description suggests spend that may run against the mandate's run-rate purpose (matched 1 cue(s), e.g. '\\\\b(laptop|laptops|hardware|monitor|furniture|equipment)\\\\b')"
+          },
+          {
+            "id": "USA-311183628",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 4897.2,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "memo/description suggests spend that may run against the mandate's run-rate purpose (matched 1 cue(s), e.g. '\\\\b(laptop|laptops|hardware|monitor|furniture|equipment)\\\\b')"
+          },
+          {
+            "id": "USA-311183627",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 14160.6,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "memo/description suggests spend that may run against the mandate's run-rate purpose (matched 1 cue(s), e.g. '\\\\b(laptop|laptops|hardware|monitor|furniture|equipment)\\\\b')"
+          },
+          {
+            "id": "USA-311183626",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 1043.04,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "memo/description suggests spend that may run against the mandate's run-rate purpose (matched 1 cue(s), e.g. '\\\\b(laptop|laptops|hardware|monitor|furniture|equipment)\\\\b')"
+          },
+          {
+            "id": "USA-311183625",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 71285.28,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "memo/description suggests spend that may run against the mandate's run-rate purpose (matched 1 cue(s), e.g. '\\\\b(laptop|laptops|hardware|monitor|furniture|equipment)\\\\b')"
+          },
+          {
+            "id": "USA-311181389",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 6973.59,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "memo/description suggests spend that may run against the mandate's run-rate purpose (matched 1 cue(s), e.g. '\\\\b(laptop|laptops|hardware|monitor|furniture|equipment)\\\\b')"
+          },
+          {
+            "id": "USA-311181388",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 43186.8,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "memo/description suggests spend that may run against the mandate's run-rate purpose (matched 1 cue(s), e.g. '\\\\b(laptop|laptops|hardware|monitor|furniture|equipment)\\\\b')"
+          }
+        ]
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "available": true,
+        "sampled": true,
+        "sample_n": 250,
+        "flagged": 75,
+        "fp_rate_on_sample": 0.3,
+        "errors": 0,
+        "top_reasons": [
+          [
+            "The transaction's described purpose is 'End User Hardware (EUHW) Devic",
+            21
+          ],
+          [
+            "The transaction describes 'End User Hardware (EUHW) Devices as a Servi",
+            12
+          ],
+          [
+            "The transaction's described purpose is 'End User Hardware (EUHW Device",
+            9
+          ],
+          [
+            "The memo and description are too vague to confirm the purpose is clear",
+            4
+          ],
+          [
+            "The memo and description provide no specific information about the act",
+            2
+          ],
+          [
+            "The memo and description provide insufficient detail to confirm the pu",
+            2
+          ]
+        ],
+        "examples": [
+          {
+            "id": "USA-311180728",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 10193.48,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "The transaction's described purpose is 'End User Hardware (EUHW) Devices as a Service,' which is hardware procurement, not IT systems design, engineering, integration, or operations of a federal IT sy"
+          },
+          {
+            "id": "USA-291250876",
+            "vendor": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+            "amount": 1342318.82,
+            "memo": "CARD PERSONALIZATION TECHNOLOGY REFRESH (CPSTR II) FOR THE USCIS OFFICE OF INTAKE AND DOCUMENT PRODUCTION (OIDP), DOCUME",
+            "reason": "The described purpose — 'Card Personalization Technology Refresh' for USCIS's document production division — centers on physical card personalization hardware/equipment refresh and document production"
+          },
+          {
+            "id": "USA-311180380",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 61270.92,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "The transaction's described purpose is 'End User Hardware (EUHW) Devices as a Service,' which is hardware procurement, not IT systems design, engineering, integration, or operations of a federal IT sy"
+          },
+          {
+            "id": "USA-291095256",
+            "vendor": "CDW GOVERNMENT LLC",
+            "amount": 427035.0,
+            "memo": "THE ANNUAL RENEWAL OF SERVICE NOW SOFTWARE",
+            "reason": "ServiceNow is a software product/license, not an IT professional services engagement (software engineering, systems design, integration, cybersecurity, or O&M services). The mandate covers IT services"
+          },
+          {
+            "id": "USA-309532410",
+            "vendor": "LEIDOS, INC.",
+            "amount": 4399.04,
+            "memo": "FOR THE PROVISION OF NON-PERSONAL SERVICES IAW SMIT CONTRACT AND THIS ORDER'S REQUIREMENT",
+            "reason": "The memo and description are too vague to confirm the purpose is within the mandate's narrow authorization for IT systems design, engineering, or operations of a federal IT system. 'Non-personal servi"
+          },
+          {
+            "id": "USA-311181013",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 14863.32,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "The transaction's described purpose is 'End User Hardware (EUHW Devices) as a Service,' which is hardware procurement, not IT systems design, engineering, integration, or operations of a federal IT sy"
+          },
+          {
+            "id": "USA-291237755",
+            "vendor": "KONIAG DATA SOLUTIONS LLC",
+            "amount": 653560.22,
+            "memo": "MOUNT WEATHER EMERGENCY OPERATIONS CENTER (MWEOC) AUDIO-VISUAL (AV) FULL SERVICES.",
+            "reason": "The described purpose is Audio-Visual (AV) full services for an emergency operations center, which is not clearly within the mandate's coverage of software/systems engineering, cybersecurity, or IT sy"
+          },
+          {
+            "id": "USA-311180853",
+            "vendor": "HPI FEDERAL LLC",
+            "amount": 106877.23,
+            "memo": "END USER HARDWARE (EUHW DEVICES) AS A SERVICE",
+            "reason": "The transaction's described purpose is 'End User Hardware (EUHW) Devices as a Service,' which is hardware procurement, not IT systems design, engineering, integration, or operations of a federal IT sy"
+          }
+        ]
+      }
+    }
+  },
+  "test_b": {
+    "available": true,
+    "n_seed": 54,
+    "gate_only": {
+      "by_error_type": {
+        "E1": {
+          "total": 9,
+          "gate_caught": 9
+        },
+        "E2": {
+          "total": 9,
+          "gate_caught": 9
+        },
+        "E3": {
+          "total": 9,
+          "gate_caught": 9
+        },
+        "E4": {
+          "total": 9,
+          "gate_caught": 2
+        },
+        "E5": {
+          "total": 9,
+          "gate_caught": 0
+        },
+        "E6": {
+          "total": 9,
+          "gate_caught": 9
+        }
+      },
+      "recall_overall": 0.7037
+    },
+    "judges": {
+      "heuristic_v1": {
+        "available": true,
+        "recall_overall": 0.7778,
+        "semantic_delta": 4,
+        "by_error_type": {
+          "E1": {
+            "total": 9,
+            "caught": 9,
+            "gate_caught": 9,
+            "recall": 1.0
+          },
+          "E2": {
+            "total": 9,
+            "caught": 9,
+            "gate_caught": 9,
+            "recall": 1.0
+          },
+          "E3": {
+            "total": 9,
+            "caught": 9,
+            "gate_caught": 9,
+            "recall": 1.0
+          },
+          "E4": {
+            "total": 9,
+            "caught": 2,
+            "gate_caught": 2,
+            "recall": 0.222
+          },
+          "E5": {
+            "total": 9,
+            "caught": 4,
+            "gate_caught": 0,
+            "recall": 0.444
+          },
+          "E6": {
+            "total": 9,
+            "caught": 9,
+            "gate_caught": 9,
+            "recall": 1.0
+          }
+        },
+        "confusion": {
+          "tp": 42,
+          "fn": 12,
+          "fp": 2280,
+          "tn": 7720
+        }
+      },
+      "anthropic_claude-sonnet-4-6": {
+        "available": true,
+        "recall_overall": 0.8889,
+        "semantic_delta": 10,
+        "by_error_type": {
+          "E1": {
+            "total": 9,
+            "caught": 9,
+            "gate_caught": 9,
+            "recall": 1.0
+          },
+          "E2": {
+            "total": 9,
+            "caught": 9,
+            "gate_caught": 9,
+            "recall": 1.0
+          },
+          "E3": {
+            "total": 9,
+            "caught": 9,
+            "gate_caught": 9,
+            "recall": 1.0
+          },
+          "E4": {
+            "total": 9,
+            "caught": 3,
+            "gate_caught": 2,
+            "recall": 0.333
+          },
+          "E5": {
+            "total": 9,
+            "caught": 9,
+            "gate_caught": 0,
+            "recall": 1.0
+          },
+          "E6": {
+            "total": 9,
+            "caught": 9,
+            "gate_caught": 9,
+            "recall": 1.0
+          }
+        },
+        "confusion": {
+          "tp": 48,
+          "fn": 6,
+          "fp": 2280,
+          "tn": 7720
+        }
+      }
+    },
+    "fp_tn_note": "fp/tn are the gate's flags on real spend (Test A); judge real-spend FP is in Test A"
+  }
+}

@@ -80,6 +80,12 @@ def build_state(cfg: Config) -> dict:
                     fwd_bench_curve = [[str(d.date()), round(v * bscale, 2)]
                                        for d, v in w.items()]
                     fwd_bench_ret = (w.iloc[-1] / w.iloc[0] - 1) * 100
+        _scale = (start_budget / live[0]["equity"]) if live else (start_budget / last["equity"])
+        # realized = banked P&L from CLOSED live round-trips (can't reverse);
+        # unrealized (filled in the positions pass) = paper mark on OPEN positions.
+        realized_live = conn.execute(
+            "SELECT COALESCE(SUM(pnl),0) FROM trades WHERE fund=? AND source='live' "
+            "AND exit_ts IS NOT NULL", (fund,)).fetchone()[0]
         funds[fund] = {
             "equity": last["equity"],
             "ret_pct": (last["equity"] / first["equity"] - 1) * 100,
@@ -87,8 +93,9 @@ def build_state(cfg: Config) -> dict:
             "fwd_value": fwd_value,
             # constant factor to express any current dollar (NAV, positions) on
             # the fixed starting budget: start_budget / equity-at-go-live
-            "fwd_scale": (start_budget / live[0]["equity"]) if live
-                         else (start_budget / last["equity"]),
+            "fwd_scale": _scale,
+            "realized_fwd": realized_live * _scale,   # banked, on the fixed budget
+            "unrealized_fwd": 0.0,                     # set in the positions pass
             "fwd_ret_pct": ((live[-1]["equity"] / live[0]["equity"] - 1) * 100
                             if len(live) >= 1 else None),
             "fwd_since": live[0]["ts"][:10] if live else None,
@@ -236,6 +243,8 @@ def build_state(cfg: Config) -> dict:
                 "pnl": (last_px - r["avg_cost"]) * r["qty"] * scale,
                 "pnl_pct": (last_px / r["avg_cost"] - 1) * 100 if r["avg_cost"] else 0,
             })
+        if fund in funds:   # total unrealized = mark-over-cost across ALL open names
+            funds[fund]["unrealized_fwd"] = sum(o["pnl"] for o in out)
         out.sort(key=lambda x: -x["weight"])
         positions[fund] = out[:20]
     state["positions"] = positions

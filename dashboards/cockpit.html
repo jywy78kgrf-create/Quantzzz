@@ -249,7 +249,10 @@ function kpis(s){
     if(f.fwd_ret_pct==null){$(vid).textContent='—';
       $(sid).textContent='awaiting first live cycle';}
     else{$(vid).innerHTML=`<span class="${cls(f.fwd_ret_pct)}">${pct(f.fwd_ret_pct,2)}</span>`;
-      $(sid).textContent=`since ${f.fwd_since} · ${f.fwd_sessions||0} live sessions · $${Math.round(fv(f)).toLocaleString()}`;}};
+      const m=v=>{const n=Math.round(v); return (n>=0?'+$':'−$')+Math.abs(n).toLocaleString();};
+      $(sid).innerHTML=`since ${f.fwd_since} · ${f.fwd_sessions||0} live sessions · $${Math.round(fv(f)).toLocaleString()}`
+        +` · <span class="${cls(f.realized_fwd||0)}">realized ${m(f.realized_fwd||0)}</span>`
+        +` · <span class="${cls(f.unrealized_fwd||0)}">unrealized ${m(f.unrealized_fwd||0)}</span>`;}};
   fwdset('fwdeq','fwdeqsub',eq); fwdset('fwdbio','fwdbiosub',bio);
 }
 

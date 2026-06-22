@@ -236,6 +236,33 @@ def _edgar_insider_fill(cfg, store, tickers, limit):
     return f"{done} names, {txns} insider txns merged"
 
 
+def refresh_held_marks(cfg: Config, conn, store, funds: list[str], bench: str) -> dict:
+    """Force every currently-held name up to the benchmark's latest close.
+
+    The book marks positions from each ticker's snapshot; if a held name's
+    snapshot lags (it left the live universe, or the cached daily refresh skipped
+    it), the book shows a STALE mark while the bench/regime look current. This
+    runs every cycle and force-refreshes only the held names that are behind the
+    bench's latest date — so positions are never marked on stale prices, cheaply."""
+    ph = ",".join("?" * len(funds))
+    held = [r[0] for r in conn.execute(
+        f"SELECT DISTINCT ticker FROM positions WHERE fund IN ({ph}) AND qty != 0",
+        funds).fetchall()]
+    if not held:
+        return {"held": 0}
+    bdf = store.load_prices(bench)
+    target = bdf.index.max() if bdf is not None and not bdf.empty else None
+    stale = []
+    for t in held:
+        df = store.load_prices(t)
+        if df is None or df.empty or (target is not None and df.index.max() < target):
+            stale.append(t)
+    if not stale:
+        return {"held": len(held), "stale": 0}
+    res = refresh_prices(cfg, stale, conn, force=True)
+    return {"held": len(held), "stale": len(stale), **res}
+
+
 def refresh_data(cfg: Config, desk: str = "all") -> None:
     conn = get_conn(cfg.db_path)
     store = SnapshotStore(cfg.snapshot_dir)
@@ -260,6 +287,9 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
             _safe("equity EOD close refresh", lambda: refresh_prices(
                 cfg, list(universe_for("equity", cfg.snapshot_dir)) + BENCH_TICKERS,
                 conn, force=True))
+        # every cycle: never let a held position show a stale mark
+        _safe("equity held-position marks",
+              lambda: refresh_held_marks(cfg, conn, store, ["equity"], "SPY"))
         _safe("volatility-regime indices", lambda: refresh_vol_indices(cfg, conn))
         _safe("equity premium feeds",
               lambda: refresh_premium_feeds(cfg, eq_all, conn,
@@ -280,6 +310,9 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
             _safe("biotech EOD close refresh", lambda: refresh_prices(
                 cfg, list(universe_for("biotech", cfg.snapshot_dir)) + ["XBI"],
                 conn, force=True))
+        # every cycle: keep all biotech books' held positions marked current
+        _safe("biotech held-position marks", lambda: refresh_held_marks(
+            cfg, conn, store, ["biotech", "biotech_smallcap", "biotech_catalyst"], "XBI"))
         # widen statistical power: pull prices for every catalyst-event ticker
         # (~776 names / 8k+ events vs the 60-name trading universe). One AV call
         # per name, budget-aware/cached, so it fills the gap fast then idles.

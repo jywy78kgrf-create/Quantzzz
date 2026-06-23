@@ -28,6 +28,39 @@ def _rows(conn, sql, params=()):
     return [dict(r) for r in conn.execute(sql, params).fetchall()]
 
 
+def _forward_realized(conn, store, fund: str, golive_ts: str) -> float:
+    """Realized P&L earned strictly inside the forward window.
+
+    A position carried into go-live (opened during the backtest/replay and still
+    held when live trading started) keeps its cheap historical cost basis, so
+    booking its full exit-minus-entry gain credits pre-track appreciation to the
+    live record. Re-base any such trade to its go-live close — only the
+    go-live -> exit move belongs to the forward track. Trades opened on or after
+    go-live keep their real entry price."""
+    import pandas as pd
+
+    gl_day = golive_ts[:10]
+    gl_ts = pd.Timestamp(gl_day)
+    rows = conn.execute(
+        "SELECT ticker, qty, entry_px, exit_px, entry_ts FROM trades "
+        "WHERE fund=? AND source='live' AND exit_ts IS NOT NULL", (fund,)).fetchall()
+    marks: dict[str, float] = {}   # ticker -> go-live close (cached)
+    total = 0.0
+    for ticker, qty, entry_px, exit_px, entry_ts in rows:
+        if entry_ts and entry_ts[:10] < gl_day:        # carried from the backtest
+            if ticker not in marks:
+                df = store.load_prices(ticker)
+                if df is not None and not df.empty:
+                    sub = df.loc[df.index <= gl_ts, "close"]
+                    if len(sub):
+                        marks[ticker] = float(sub.iloc[-1])
+            basis = marks.get(ticker, entry_px)         # fall back to raw if no mark
+        else:
+            basis = entry_px
+        total += (exit_px - basis) * qty
+    return total
+
+
 def build_state(cfg: Config) -> dict:
     conn = get_conn(cfg.db_path)
     store = SnapshotStore(cfg.snapshot_dir)
@@ -83,9 +116,11 @@ def build_state(cfg: Config) -> dict:
         _scale = (start_budget / live[0]["equity"]) if live else (start_budget / last["equity"])
         # realized = banked P&L from CLOSED live round-trips (can't reverse);
         # unrealized (filled in the positions pass) = paper mark on OPEN positions.
-        realized_live = conn.execute(
-            "SELECT COALESCE(SUM(pnl),0) FROM trades WHERE fund=? AND source='live' "
-            "AND exit_ts IS NOT NULL", (fund,)).fetchone()[0]
+        # Carried-in positions are re-based to their go-live close so the realized
+        # line counts only what was earned after the forward clock started, not
+        # backtest appreciation that merely got booked during the live window.
+        realized_live = (_forward_realized(conn, store, fund, live[0]["ts"])
+                         if live else 0.0)
         funds[fund] = {
             "equity": last["equity"],
             "ret_pct": (last["equity"] / first["equity"] - 1) * 100,

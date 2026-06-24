@@ -67,23 +67,42 @@ jobs:
       - name: Export compact state seed (cache blobs stay local)
         run: |
           python - <<'EOF'
-          import shutil, sqlite3
+          import shutil, sqlite3, os
           src = sqlite3.connect("quantzzz.db")
           src.execute("PRAGMA wal_checkpoint(TRUNCATE)")  # flush WAL before copying
           src.close()
           shutil.copy("quantzzz.db", "data/seed.db")
           conn = sqlite3.connect("data/seed.db")
           conn.execute("DELETE FROM api_cache")
-          # equity curves dominate seed size; keep them only for promoted
-          # strategies and the freshest iterations (labs show recent search)
+          # research_iterations dominates seed growth. Keep promoted-strategy
+          # provenance plus the most recent 5000 rows (percentile baselines +
+          # labs view); drop the rest. Then null the heavy equity_curve_json for
+          # everything but promoted + the last 500 (labs only plots the freshest
+          # search) — these curves are ~8 KB each and were the bulk of the bloat.
+          conn.execute("""
+            DELETE FROM research_iterations
+            WHERE strategy_id NOT IN (SELECT id FROM strategies WHERE status='promoted')
+              AND id < (SELECT MAX(id) FROM research_iterations) - 5000""")
           conn.execute("""
             UPDATE research_iterations SET equity_curve_json=NULL
             WHERE equity_curve_json IS NOT NULL
               AND strategy_id NOT IN (SELECT id FROM strategies WHERE status='promoted')
-              AND id < (SELECT MAX(id) FROM research_iterations) - 2000""")
+              AND id < (SELECT MAX(id) FROM research_iterations) - 500""")
+          # data_health logs every ticker check every cycle (tens of thousands a
+          # day); keep only the last 40k rows for the regime feature + dashboards.
+          conn.execute("""
+            DELETE FROM data_health
+            WHERE id < (SELECT MAX(id) FROM data_health) - 40000""")
           conn.commit()
           conn.execute("VACUUM")
           conn.close()
+          sz = os.path.getsize("data/seed.db")
+          print("compact seed.db: %.1f MB" % (sz / 1e6))
+          # GitHub hard-rejects any file > 100 MB; fail loudly well before that so
+          # the alert fires instead of silently wedging the branch (which is what
+          # happened at 100.87 MB — every cycle pushed green but never landed).
+          if sz > 90_000_000:
+              raise SystemExit("seed.db %.1f MB too close to GitHub's 100 MB cap" % (sz / 1e6))
           EOF
 
       - name: Commit updated state
@@ -98,10 +117,16 @@ jobs:
             # the branch may have moved during the cycle (a code push mid-run);
             # rebase our state commit on top and keep this run's seed/snapshots
             # (-X theirs = our commit's files win any conflict during rebase)
+            pushed=0
             for i in 1 2 3; do
-              git push && break
-              git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" || exit 1
+              if git push; then pushed=1; break; fi
+              git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" || true
             done
+            # a persistent rejection (e.g. file-size limit) must fail the job so
+            # the alert fires — do NOT exit green on an unpushed commit.
+            if [ "$pushed" != "1" ]; then
+              echo "push rejected after retries — state NOT persisted"; exit 1
+            fi
           fi
 
       - name: Alert on failure

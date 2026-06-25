@@ -85,10 +85,32 @@
   .labsub{font-size:11px; color:var(--dim); letter-spacing:.06em; margin-bottom:4px; text-transform:uppercase}
   .cursor{animation:blink 1s steps(1) infinite}
   @keyframes blink{50%{opacity:0}}
-  #labticker{font-family:ui-monospace,Menlo,monospace; font-size:11px; line-height:1.8; color:#8fa1c7;
-             max-height:200px; overflow:hidden}
-  #labticker .row{white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
-  #labticker .ok{color:var(--green)} #labticker .no{color:var(--red)} #labticker .fam{color:var(--blue)}
+  /* live activity + evolution — TradingView-flavored data tables */
+  .lae .lae-grid{display:flex; gap:30px; flex-wrap:wrap}
+  .lae .lae-col{flex:1 1 420px; min-width:330px}
+  .lae .subttl{font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:#6b7a9c; margin:0 0 12px}
+  .lae table{width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums}
+  .lae th{font-size:10px; letter-spacing:.07em; text-transform:uppercase; color:#6b7a9c; font-weight:600;
+          padding:0 11px 9px; border-bottom:1px solid #1c2742; text-align:right; white-space:nowrap}
+  .lae th:first-child{text-align:left}
+  .lae td{padding:8px 11px; font-size:13px; border-bottom:1px solid #131c30; text-align:right;
+          font-family:ui-monospace,Menlo,monospace; color:#cdd9f5}
+  .lae td:first-child{text-align:left; color:#aebbd8; font-family:inherit}
+  .lae tbody tr:last-child td{border-bottom:none}
+  .lae tbody tr:hover td{background:rgba(91,140,255,.06)}
+  .lae .pos{color:#2dd4a7} .lae .neg{color:#ff5d73} .lae .mut{color:#5e6a86}
+  .lae .opdot{display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:9px; vertical-align:middle}
+  .lae .bar{position:relative; overflow:hidden}
+  .lae .bar>span{position:relative; z-index:1}
+  .lae .bar::before{content:''; position:absolute; right:0; top:50%; transform:translateY(-50%);
+                    width:var(--w,0); height:62%; border-radius:2px; opacity:.18; z-index:0}
+  .lae .barpos::before{background:#2dd4a7} .lae .barneg::before{background:#ff5d73} .lae .barlive::before{background:#5b8cff}
+  .lae h4{font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:#6b7a9c; font-weight:600; margin:20px 0 11px}
+  .lae .fills{display:flex; flex-wrap:wrap; gap:7px}
+  .lae .pill{display:flex; align-items:center; gap:9px; background:#0d1424; border:1px solid #1b2540;
+             border-radius:7px; padding:5px 11px; font-family:ui-monospace,Menlo,monospace; font-size:12px; color:#cdd9f5}
+  .lae .pill .side{font-weight:700; font-size:9px; letter-spacing:.06em}
+  .lae .pill .tk{color:#eaf0ff; font-weight:600} .lae .pill .px{color:#6b7a9c}
   @media(max-width:1100px){.kpi{grid-column:span 6}#chartcard,.loop,.col6,.col4{grid-column:span 12}}
 </style>
 </head>
@@ -151,27 +173,6 @@
     <div class="stage"><span class="dot" style="background:var(--red)"></span>Journal <small>decisions recorded</small><b id="l-journal">—</b></div>
   </div>
 
-  <div class="card col12">
-    <h3>Live Activity &amp; Evolution · what the system is actually doing</h3>
-    <div style="display:flex; gap:24px; flex-wrap:wrap">
-      <div style="flex:1 1 440px; min-width:340px">
-        <div class="labsub">daily trade activity · opened / closed / realized P&amp;L (live book)</div>
-        <table id="activitytbl"><thead><tr><th>day</th>
-          <th style="text-align:right">opened</th><th style="text-align:right">closed</th>
-          <th style="text-align:right">realized</th></tr></thead><tbody></tbody></table>
-        <div class="labhead" style="margin-top:10px"><span class="cursor">▮</span> recent fills</div>
-        <div id="recentfills"></div>
-      </div>
-      <div style="flex:1 1 440px; min-width:340px">
-        <div class="labsub">evolution scoreboard · which search operator earns promotions</div>
-        <table id="evotbl"><thead><tr><th>operator</th>
-          <th style="text-align:right">created</th><th style="text-align:right">promoted</th>
-          <th style="text-align:right">live</th><th style="text-align:right">hit&nbsp;rate</th></tr></thead>
-          <tbody></tbody></table>
-        <div class="labsub" id="evonote" style="margin-top:10px"></div>
-      </div>
-    </div>
-  </div>
 
   <div class="card col12">
     <h3>Biotech Bench · contaminated-discovery gate
@@ -206,6 +207,23 @@
   <div class="card col6"><h3>Equity Book</h3><table id="poseq"><thead></thead><tbody></tbody></table></div>
   <div class="card col6"><h3>Biotech Book</h3><table id="posbio"><thead></thead><tbody></tbody></table></div>
   <div class="card col6"><h3>Small-Cap Biotech Book · sub-$10 swing</h3><table id="possmall"><thead></thead><tbody></tbody></table></div>
+
+  <div class="card col12 lae">
+    <h3>Live Activity &amp; Evolution · what the system is actually doing</h3>
+    <div class="lae-grid">
+      <div class="lae-col">
+        <div class="subttl">daily trade activity — opened · closed · realized P&amp;L</div>
+        <table id="activitytbl"><thead><tr><th>day</th><th>opened</th><th>closed</th><th>realized</th></tr></thead><tbody></tbody></table>
+      </div>
+      <div class="lae-col">
+        <div class="subttl">evolution scoreboard — which operator earns promotions</div>
+        <table id="evotbl"><thead><tr><th>operator</th><th>created</th><th>promoted</th><th>live</th><th>hit&nbsp;rate</th></tr></thead><tbody></tbody></table>
+        <div class="subttl" id="evonote" style="margin-top:13px; text-transform:none; letter-spacing:0; font-size:11.5px; color:#7d8db0"></div>
+      </div>
+    </div>
+    <h4><span class="cursor">▮</span> recent fills</h4>
+    <div id="recentfills" class="fills"></div>
+  </div>
   <div class="card col12"><h3>Catalyst Sleeve · event-driven, exits before the readout
     <span style="float:right;font-weight:400;text-transform:none;letter-spacing:0" id="cssub"></span></h3>
     <table id="csbook"><thead></thead><tbody></tbody></table></div>
@@ -262,46 +280,54 @@ function kpis(s){
 
 // ---- live activity + evolution scoreboard (real signal, not search eye-candy) ----
 const fmtD=v=>{const n=Math.round(v); return (n>=0?'+$':'−$')+Math.abs(n).toLocaleString();};
+const OPC={random:'#5b8cff',mutation:'#a78bfa',crossover:'#2dd4a7',heuristic:'#ffc560',llm:'#f472b6',external:'#7d8db0'};
 function activity(s){
+  const rows=(s.activity||[]).slice(0,9);
+  const mx=Math.max(1,...rows.map(d=>Math.abs(d.realized)));
   const tb=document.querySelector('#activitytbl tbody'); tb.innerHTML='';
-  for(const d of (s.activity||[])){
+  for(const d of rows){
+    const w=Math.round(100*Math.abs(d.realized)/mx);
+    const rc=d.realized>0?'pos':(d.realized<0?'neg':'mut');
+    const bar=(d.closed&&d.realized)?` bar bar${d.realized>0?'pos':'neg'}`:'';
     tb.insertAdjacentHTML('beforeend',
       `<tr><td>${d.date}</td>`+
-      `<td style="text-align:right">${d.opened}</td>`+
-      `<td style="text-align:right">${d.closed}</td>`+
-      `<td style="text-align:right" class="${cls(d.realized)}">${d.closed?fmtD(d.realized):'—'}</td></tr>`);
+      `<td>${d.opened||'<span class="mut">·</span>'}</td>`+
+      `<td>${d.closed||'<span class="mut">·</span>'}</td>`+
+      `<td class="${rc}${bar}" style="--w:${w}%"><span>${d.closed?fmtD(d.realized):'—'}</span></td></tr>`);
   }
-  if(!(s.activity||[]).length)
-    tb.innerHTML='<tr><td colspan="4" style="color:#6b7a9c">no live trades yet</td></tr>';
+  if(!rows.length) tb.innerHTML='<tr><td colspan="4" class="mut">no live trades yet</td></tr>';
   const fe=$('recentfills'); fe.innerHTML='';
-  for(const t of (s.recent_trades||[]).slice(0,9)){
-    const done=t.exit_ts!=null;
-    const px=done?t.exit_px:t.entry_px;
+  for(const t of (s.recent_trades||[]).slice(0,12)){
+    const done=t.exit_ts!=null, px=done?t.exit_px:t.entry_px;
     const when=((done?t.exit_ts:t.entry_ts)||'').slice(5,16).replace('T',' ');
-    const pnl=done?` <span class="${cls(t.pnl)}">${fmtD(t.pnl)}</span>`:'';
-    const verb=done?'SELL':'BUY';
+    const side=done?'SELL':'BUY', sc=done?'neg':'pos';
+    const pnl=done?`<span class="${t.pnl>0?'pos':(t.pnl<0?'neg':'mut')}">${fmtD(t.pnl)}</span>`:'<span class="mut">open</span>';
     fe.insertAdjacentHTML('beforeend',
-      `<div style="font-size:12px;padding:2px 0;color:#9fb0d6">${when} · `+
-      `<span style="color:#5b8cff">${verb}</span> `+
-      `<span style="color:#dfe7ff;font-weight:600">${t.ticker}</span> @ ${(+px).toFixed(2)}${pnl}</div>`);
+      `<div class="pill"><span class="side ${sc}">${side}</span>`+
+      `<span class="tk">${t.ticker}</span><span class="px">${(+px).toFixed(2)}</span>${pnl}`+
+      `<span class="px" style="opacity:.7">${when}</span></div>`);
   }
 }
 function evolution(s){
+  const rows=s.evolution||[];
+  const mxLive=Math.max(1,...rows.map(e=>e.live||0));
   const tb=document.querySelector('#evotbl tbody'); tb.innerHTML='';
   let lineage=0;
-  for(const e of (s.evolution||[])){
-    const rate=e.created? (100*e.promoted/e.created):0;
+  for(const e of rows){
+    const rate=e.created?(100*e.promoted/e.created):0;
     lineage+=e.lineage||0;
-    const rstr=e.promoted? ((rate>=1?rate.toFixed(2):rate.toFixed(3))+'%') : '—';
+    const rstr=e.promoted?((rate>=1?rate.toFixed(2):rate.toFixed(3))+'%'):'—';
+    const w=Math.round(100*(e.live||0)/mxLive);
+    const dot=`<span class="opdot" style="background:${OPC[e.origin]||'#7d8db0'}"></span>`;
     tb.insertAdjacentHTML('beforeend',
-      `<tr><td>${e.origin}</td>`+
-      `<td style="text-align:right">${(e.created||0).toLocaleString()}</td>`+
-      `<td style="text-align:right">${e.promoted||0}</td>`+
-      `<td style="text-align:right">${e.live||0}</td>`+
-      `<td style="text-align:right">${rstr}</td></tr>`);
+      `<tr><td>${dot}${e.origin}</td>`+
+      `<td>${(e.created||0).toLocaleString()}</td>`+
+      `<td>${e.promoted||0}</td>`+
+      `<td class="bar barlive" style="--w:${w}%"><span>${e.live||0}</span></td>`+
+      `<td class="${e.promoted?'':'mut'}">${rstr}</td></tr>`);
   }
   $('evonote').innerHTML = lineage>0
-    ? `lineage recorded on <b>${lineage.toLocaleString()}</b> strategies — mutation/crossover now traceable to their parent`
+    ? `lineage recorded on <b style="color:#aebbd8">${lineage.toLocaleString()}</b> strategies — mutation/crossover now traceable to their parent`
     : `lineage tracking just enabled — parent links accrue from the next cycles on`;
 }
 

@@ -1,5 +1,28 @@
 [
  {
+  "id": 8006,
+  "company": {
+   "id": 335,
+   "ticker": "VKTX",
+   "name": "Viking Therapeutics"
+  },
+  "created_at": "2026-06-25T13:07:45.881035Z",
+  "updated_at": "2026-06-25T13:07:45.881064Z",
+  "ticker": "VKTX",
+  "drug_name": "VK3019",
+  "drug_indication": "Obesity",
+  "airtable_id": 8288,
+  "stage": "Phase 1",
+  "catalyst_date": "2026-06-24",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/viking-therapeutics-announces-initiation-of-phase-1-study-to-evaluate-novel-amylin-receptor-agonist-vk3019-in-healthy-adults-302808417.html",
+  "catalyst_text": "Initiated Phase 1 single ascending dose obesity study",
+  "detailed_catalyst_text": "A Phase 1 single-ascending-dose, randomized, double-blind, placebo-controlled trial in healthy adults with BMI \u226530 was initiated to assess safety, tolerability, and pharmacokinetics. The start followed FDA clearance of an IND, marking a key regulatory and clinical step for a DACRA being developed for weight loss.",
+  "catalyst_text_evidence": "SAN DIEGO, 2026-06-24 /PRNewswire/ -- Viking Therapeutics, Inc. (\"Viking\") (NASDAQ:VKTX), a clinical-stage biopharmaceutical company focused on the development of novel therapies for metabolic and endocrine disorders, announced today the initiation of a Phase 1 single ascending dose (SAD) clinical trial of VK3019, an investigational dual amylin and calcitonin receptor agonist (DACRA). The study initiation follows the filing and clearance of VK3019's investigational new drug (IND) application with the U.S. Food and Drug Administration (FDA). The Phase 1 trial is a randomized, double-blind, placebo-controlled SAD study in healthy adults with BMI \u226530.",
+  "news_published_at": "2026-06-25T00:00:00Z",
+  "open_price_gap_percent": "0.02356",
+  "intra_day_price_change_percent": "0.06287"
+ },
+ {
   "id": 7414,
   "company": {
    "id": 335,
@@ -7,7 +30,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2026-05-13T13:04:58.899573Z",
-  "updated_at": "2026-06-24T13:07:51.478517Z",
+  "updated_at": "2026-06-25T13:08:43.506967Z",
   "ticker": "VKTX",
   "drug_name": "VK2735",
   "drug_indication": "Obesity",
@@ -30,7 +53,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2026-03-27T13:01:59.065940Z",
-  "updated_at": "2026-06-24T13:03:29.884567Z",
+  "updated_at": "2026-06-25T13:04:04.598665Z",
   "ticker": "VKTX",
   "drug_name": "VK2735",
   "drug_indication": "Obesity",
@@ -53,7 +76,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2026-03-27T13:02:35.534910Z",
-  "updated_at": "2026-06-24T13:04:40.241692Z",
+  "updated_at": "2026-06-25T13:05:32.345463Z",
   "ticker": "VKTX",
   "drug_name": "VK2735",
   "drug_indication": "Obesity, Type 2 Diabetes",
@@ -76,7 +99,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2026-01-09T13:01:41.578332Z",
-  "updated_at": "2026-06-24T13:02:55.726341Z",
+  "updated_at": "2026-06-25T13:03:16.384446Z",
   "ticker": "VKTX",
   "drug_name": "VK2735",
   "drug_indication": "Obesity, Overweight",
@@ -99,7 +122,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2026-01-09T13:02:42.223979Z",
-  "updated_at": "2026-06-24T13:04:52.271575Z",
+  "updated_at": "2026-06-25T13:05:46.396645Z",
   "ticker": "VKTX",
   "drug_name": "VK2735",
   "drug_indication": "Obesity",
@@ -122,7 +145,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2025-11-21T13:00:35.645527Z",
-  "updated_at": "2026-06-24T13:01:19.028553Z",
+  "updated_at": "2026-06-25T13:00:52.440669Z",
   "ticker": "VKTX",
   "drug_name": "VK2735",
   "drug_indication": "Obesity",
@@ -145,7 +168,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2025-11-15T13:01:35.525298Z",
-  "updated_at": "2026-06-24T13:03:17.449045Z",
+  "updated_at": "2026-06-25T13:03:47.530048Z",
   "ticker": "VKTX",
   "drug_name": "VK2735",
   "drug_indication": "Obesity / cardiometabolic parameters (prediabetes, metabolic syndrome)",
@@ -168,7 +191,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2025-08-20T13:01:10.747200Z",
-  "updated_at": "2026-06-24T13:01:54.051954Z",
+  "updated_at": "2026-06-25T13:01:45.266094Z",
   "ticker": "VKTX",
   "drug_name": "VK2735 Tablet ",
   "drug_indication": "Obesity",
@@ -191,7 +214,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2025-03-27T13:02:46.888311Z",
-  "updated_at": "2026-06-24T13:06:25.698381Z",
+  "updated_at": "2026-06-25T13:07:31.344920Z",
   "ticker": "VKTX",
   "drug_name": "VK2735 (oral)",
   "drug_indication": "obesity",
@@ -214,7 +237,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2025-02-21T20:06:22.248411Z",
-  "updated_at": "2026-06-24T13:02:24.034638Z",
+  "updated_at": "2026-06-25T13:02:31.118629Z",
   "ticker": "VKTX",
   "drug_name": "VK2809 - (VOYAGE)",
   "drug_indication": "Non-alcoholic steatohepatitis (NASH) and fibrosis",
@@ -237,7 +260,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2025-02-21T20:07:26.627837Z",
-  "updated_at": "2026-06-24T13:04:10.102805Z",
+  "updated_at": "2026-06-25T13:04:56.943821Z",
   "ticker": "VKTX",
   "drug_name": "VK2735 - (VENTURE)",
   "drug_indication": "Obesity",
@@ -260,7 +283,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2025-02-21T20:06:59.036886Z",
-  "updated_at": "2026-06-24T13:03:19.110335Z",
+  "updated_at": "2026-06-25T13:03:49.920706Z",
   "ticker": "VKTX",
   "drug_name": "VK0214",
   "drug_indication": "X-linked adrenoleukodystrophy (X-ALD)",
@@ -283,7 +306,7 @@
    "name": "Viking Therapeutics"
   },
   "created_at": "2025-02-21T20:08:34.453908Z",
-  "updated_at": "2026-06-24T13:06:20.431324Z",
+  "updated_at": "2026-06-25T13:07:26.063996Z",
   "ticker": "VKTX",
   "drug_name": "VK2735",
   "drug_indication": "Metabolic and endocrine disorders (GLP-1)",

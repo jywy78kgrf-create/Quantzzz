@@ -1,0 +1,352 @@
+"""Data refresh: populate price snapshots, EDGAR extracts, and BPIQ data.
+
+Budget-aware — Alpha Vantage calls are capped by the persisted daily budget, so
+this can be run repeatedly across days to fill the snapshot bundle without
+exceeding the unknown rate tier.
+"""
+
+from __future__ import annotations
+
+import pandas as pd
+
+from ..config import Config
+from ..db import get_conn
+from ..universe import BENCH_TICKERS, EQUITY_UNIVERSE, VOL_INDEX_SYMBOLS
+from .alphavantage import AlphaVantageClient
+from .bpiq import BpiqProvider
+from .edgar import EdgarClient
+from .snapshots import SnapshotStore
+
+
+def refresh_prices(cfg: Config, tickers: list[str], conn, force: bool = False) -> dict:
+    """force=True bypasses the 24h daily cache to pull a just-finalized bar (the
+    post-close EOD refresh). It stays idempotent: a ticker whose snapshot already
+    holds today's date is skipped, so repeated post-close cycles don't re-fetch."""
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    today = pd.Timestamp(pd.Timestamp.now("UTC").date())
+    fetched, cached, skipped = 0, 0, 0
+    for t in tickers:
+        snap = store.load_prices(t)
+        if force and snap is not None and snap.index.max() >= today:
+            cached += 1                       # already have today's bar
+            continue
+        if not force and snap is not None and av.cache.get(f"av:daily:{t}") is not None:
+            cached += 1
+            continue
+        if av.budget.remaining() <= 0 and snap is None:
+            skipped += 1
+            continue
+        df = av.daily_adjusted(t, force=force)
+        if df is not None:
+            fetched += 1
+        else:
+            skipped += 1
+    return {"fetched": fetched, "cached": cached, "skipped": skipped,
+            "budget_left": av.budget.remaining()}
+
+
+def refresh_vol_indices(cfg: Config, conn) -> dict:
+    """Pull the CBOE volatility-regime indices (VIX, VIX3M, VIX9D, VVIX, SKEW)
+    via INDEX_DATA and store them as price series. Budget-aware/cached; feeds the
+    market-level regime feature. If the key tier doesn't serve INDEX_DATA the
+    failure lands in data_health and the regime feature simply stays dark."""
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    got = []
+    for sym in VOL_INDEX_SYMBOLS:
+        df = av.index_data(sym)
+        if df is not None and not df.empty:
+            got.append(f"{sym}:{len(df)}")
+    return {"fetched": got or "none (INDEX_DATA unavailable?)"}
+
+
+def refresh_premium_feeds(cfg: Config, tickers: list[str], conn,
+                          options_for: list[str] | None = None) -> dict:
+    """Earnings surprises + news sentiment for the universe; options summaries
+    for a subset (held names / leaders). All budget-aware and cached."""
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    counts = {"earnings": 0, "news": 0, "options": 0}
+    for t in tickers:
+        if av.earnings_surprises(t):
+            counts["earnings"] += 1
+        if av.news_sentiment(t):
+            counts["news"] += 1
+    for t in (options_for or [])[:120]:
+        if av.options_summary(t):
+            counts["options"] += 1
+    return counts
+
+
+def refresh_survivorship_pool(cfg: Config, conn, max_names: int = 150) -> dict:
+    """Build a pool of DELISTED stocks with price history so backtests include
+    companies that died — directly attacking survivorship bias.
+
+    Selection: long-lived NYSE/NASDAQ common stocks delisted within the backtest
+    era. Their price series simply end at delisting; strategies holding them ride
+    the decline like a real portfolio would have.
+    """
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    rows = av.listing_status("delisted")
+    if not rows:
+        # offline / no key: never clobber the committed pool with emptiness
+        existing = store.load_json("delisted.json") or []
+        return {"skipped": "no listing data; kept existing pool",
+                "with_history": len(existing)}
+    pool = [
+        r for r in rows
+        if r.get("assetType") == "Stock"
+        and r.get("exchange") in ("NYSE", "NASDAQ")
+        and (r.get("delistingDate") or "") >= "2019-01-01"
+        and (r.get("ipoDate") or "9999") <= "2016-01-01"
+        and "-" not in r.get("symbol", "-")          # skip warrants/units/when-issued
+        and "." not in r.get("symbol", ".")
+    ]
+    # oldest listings first: long histories, were real index-grade companies
+    pool.sort(key=lambda r: r.get("ipoDate") or "9999")
+    selected = pool[:max_names]
+    fetched = 0
+    for r in selected:
+        t = r["symbol"]
+        if store.load_prices(t) is None:
+            if av.daily_adjusted(t) is not None:
+                fetched += 1
+    meta = []
+    for r in selected:
+        px = store.load_prices(r["symbol"])
+        if px is not None and len(px) >= 250:   # drop reused-ticker stubs
+            meta.append({"ticker": r["symbol"], "name": r["name"],
+                         "delistingDate": r["delistingDate"], "ipoDate": r["ipoDate"]})
+    store.save_json("delisted.json", meta)
+    return {"candidates": len(pool), "selected": len(selected),
+            "with_history": len(meta), "newly_fetched": fetched}
+
+
+def refresh_biotech_survivorship_pool(cfg: Config, conn) -> dict:
+    """Dead biotechs for the biotech research universe.
+
+    Biotech is the sector where survivorship bias bites hardest: failed
+    readouts end in -80% delistings that a survivors-only history simply never
+    shows. Candidates come from the curated seed (known 2020-2024 exits, both
+    bankruptcies and acquisitions); price history is fetched budget-aware and
+    only names with a real series (>=250 days) enter the pool."""
+    from ..universe import BIOTECH_DELISTED_SEED
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    fetched = 0
+    for r in BIOTECH_DELISTED_SEED:
+        t = r["ticker"]
+        if store.load_prices(t) is None and av.budget.remaining() > 0:
+            if av.daily_adjusted(t) is not None:
+                fetched += 1
+    meta = []
+    for r in BIOTECH_DELISTED_SEED:
+        px = store.load_prices(r["ticker"])
+        if px is not None and len(px) >= 250:
+            meta.append(r)
+    if meta or not (cfg.snapshot_dir / "delisted_biotech.json").exists():
+        store.save_json("delisted_biotech.json", meta)
+    return {"candidates": len(BIOTECH_DELISTED_SEED),
+            "with_history": len(meta), "newly_fetched": fetched}
+
+
+def refresh_earnings_calendar(cfg: Config, conn) -> dict:
+    """Upcoming report dates for our universes -> snapshot for the traders."""
+    store = SnapshotStore(cfg.snapshot_dir)
+    av = AlphaVantageClient(cfg, conn, store)
+    universe = set(EQUITY_UNIVERSE)
+    bpiq_uni = store.load_json("bpiq/universe.json") or []
+    universe.update(bpiq_uni)
+    rows = av.earnings_calendar()
+    if not rows:
+        existing = store.load_json("av_earnings_calendar.json") or []
+        return {"skipped": "no calendar data; kept existing", "in_universe": len(existing)}
+    ours = [
+        {"ticker": r["symbol"], "reportDate": r["reportDate"],
+         "estimate": r.get("estimate") or None, "time": r.get("timeOfTheDay")}
+        for r in rows if r.get("symbol") in universe and r.get("reportDate")
+    ]
+    store.save_json("av_earnings_calendar.json", ours)
+    return {"total": len(rows), "in_universe": len(ours)}
+
+
+def _safe(label: str, fn):
+    """Run one refresh step in isolation: a failure prints and is contained,
+    so a single throwing source (EDGAR rate-limit, a missing ticker) can never
+    abort the steps after it — the options backfill in particular must always
+    get its turn to run."""
+    try:
+        result = fn()
+        if result is not None:
+            print(f"{label}: {result}")
+    except Exception as e:
+        print(f"{label}: SKIPPED ({type(e).__name__}: {str(e)[:200]})")
+
+
+def _edgar_fill(cfg, store, tickers, limit):
+    if not cfg.edgar_user_agent:
+        return "no EDGAR user agent"
+    edgar = EdgarClient(cfg, conn=get_conn(cfg.db_path))
+    missing = [t for t in tickers if store.load_json(f"edgar/{t}.json") is None][:limit]
+    done = 0
+    for t in missing:
+        try:
+            fund = edgar.fundamental_series(t)
+        except Exception:
+            continue                       # one bad ticker never stops the rest
+        if fund is not None:
+            store.save_json(f"edgar/{t}.json", fund)
+            done += 1
+    return f"{done} fundamentals saved"
+
+
+def _edgar_insider_fill(cfg, store, tickers, limit):
+    """Merge Form-4 open-market insider transactions into the EDGAR files under
+    the ``insider`` key — the field ``insider_frame`` reads and the
+    insider_follow / insider_conviction families depend on (fundamental_series
+    never populated it, so those families ran on empty data).
+
+    Incremental and EDGAR-fair-use bounded: each filing is ~one document fetch
+    (cached a year), so a full first pass is heavy and is spread ``limit`` names
+    per cycle. Only files that exist AND still lack the key are touched, so it
+    fills the gap over cycles then idles. The merge is non-destructive — the
+    fundamentals already in the file are preserved — and the write is atomic."""
+    if not cfg.edgar_user_agent:
+        return "no EDGAR user agent"
+    edgar = EdgarClient(cfg, conn=get_conn(cfg.db_path))
+    todo = []
+    for t in tickers:
+        data = store.load_json(f"edgar/{t}.json")
+        if data is not None and "insider" not in data:
+            todo.append((t, data))
+        if len(todo) >= limit:
+            break
+    done = txns = 0
+    for t, data in todo:
+        try:
+            ins = edgar.insider_transactions(t)
+        except Exception:
+            continue                       # transient EDGAR failure -> retry next cycle
+        data["insider"] = ins              # [] is a valid "looked, none" result
+        store.save_json(f"edgar/{t}.json", data)
+        done += 1
+        txns += len(ins)
+    return f"{done} names, {txns} insider txns merged"
+
+
+def refresh_held_marks(cfg: Config, conn, store, funds: list[str], bench: str) -> dict:
+    """Force every currently-held name up to the benchmark's latest close.
+
+    The book marks positions from each ticker's snapshot; if a held name's
+    snapshot lags (it left the live universe, or the cached daily refresh skipped
+    it), the book shows a STALE mark while the bench/regime look current. This
+    runs every cycle and force-refreshes only the held names that are behind the
+    bench's latest date — so positions are never marked on stale prices, cheaply."""
+    ph = ",".join("?" * len(funds))
+    held = [r[0] for r in conn.execute(
+        f"SELECT DISTINCT ticker FROM positions WHERE fund IN ({ph}) AND qty != 0",
+        funds).fetchall()]
+    if not held:
+        return {"held": 0}
+    bdf = store.load_prices(bench)
+    target = bdf.index.max() if bdf is not None and not bdf.empty else None
+    stale = []
+    for t in held:
+        df = store.load_prices(t)
+        if df is None or df.empty or (target is not None and df.index.max() < target):
+            stale.append(t)
+    if not stale:
+        return {"held": len(held), "stale": 0}
+    res = refresh_prices(cfg, stale, conn, force=True)
+    return {"held": len(held), "stale": len(stale), **res}
+
+
+def refresh_data(cfg: Config, desk: str = "all") -> None:
+    conn = get_conn(cfg.db_path)
+    store = SnapshotStore(cfg.snapshot_dir)
+
+    # post-close window (weekday, >=20:00 UTC ~ after the US cash close): bust the
+    # 24h price cache for the live universes so the day's finalized close gets
+    # marked within an hour of the bell instead of whenever the cache rolls.
+    from datetime import datetime, timezone
+    from ..universe import universe_for
+    _nowc = datetime.now(timezone.utc)
+    _post_close = _nowc.weekday() < 5 and 20 <= _nowc.hour <= 23
+
+    if desk in ("equity", "all"):
+        from ..universe import EQUITY_RESEARCH_SEED
+        # widen equity breadth: pull the broad liquid pool (~S&P 500), not just
+        # the 63-name core. Budget-aware/cached, so it fills the gap over cycles
+        # then idles — same pattern as the biotech catalyst-universe pull.
+        eq_all = EQUITY_UNIVERSE + EQUITY_RESEARCH_SEED
+        _safe("equity prices (expanded universe)",
+              lambda: refresh_prices(cfg, eq_all + BENCH_TICKERS, conn))
+        if _post_close:   # force the day's close for the live book + bench
+            _safe("equity EOD close refresh", lambda: refresh_prices(
+                cfg, list(universe_for("equity", cfg.snapshot_dir)) + BENCH_TICKERS,
+                conn, force=True))
+        # every cycle: never let a held position show a stale mark
+        _safe("equity held-position marks",
+              lambda: refresh_held_marks(cfg, conn, store, ["equity"], "SPY"))
+        _safe("volatility-regime indices", lambda: refresh_vol_indices(cfg, conn))
+        _safe("equity premium feeds",
+              lambda: refresh_premium_feeds(cfg, eq_all, conn,
+                                            options_for=EQUITY_UNIVERSE[:30]))
+        _safe("equity edgar", lambda: _edgar_fill(cfg, store, eq_all, 999))
+        _safe("equity insider (Form 4)",
+              lambda: _edgar_insider_fill(cfg, store, eq_all, 12))
+
+    if desk in ("biotech", "all"):
+        from .external_refresh import backfill_options_history, refresh_external_signals
+        bpiq = BpiqProvider(cfg, conn, store)
+        universe = bpiq.universe()
+        print(f"biotech universe: {len(universe)} tickers")
+        _safe("biotech catalysts", lambda: (bpiq.catalysts(), bpiq.pdufa_catalysts(),
+              [bpiq.historical_catalysts(t) for t in universe[:60]]) and "ok")
+        _safe("biotech prices", lambda: refresh_prices(cfg, universe + ["XBI"], conn))
+        if _post_close:   # force the day's close for the live biotech book + bench
+            _safe("biotech EOD close refresh", lambda: refresh_prices(
+                cfg, list(universe_for("biotech", cfg.snapshot_dir)) + ["XBI"],
+                conn, force=True))
+        # every cycle: keep all biotech books' held positions marked current
+        _safe("biotech held-position marks", lambda: refresh_held_marks(
+            cfg, conn, store, ["biotech", "biotech_smallcap", "biotech_catalyst"], "XBI"))
+        # widen statistical power: pull prices for every catalyst-event ticker
+        # (~776 names / 8k+ events vs the 60-name trading universe). One AV call
+        # per name, budget-aware/cached, so it fills the gap fast then idles.
+        from ..universe import catalyst_event_tickers
+        _safe("catalyst-universe prices (statistical breadth)",
+              lambda: refresh_prices(cfg, catalyst_event_tickers(cfg.snapshot_dir), conn))
+        # backfill runs EARLY and isolated — the bench's forward evidence is the
+        # priority; nothing downstream may starve it of its API budget or abort it.
+        # Off-hours (weekends / outside US market hours) there's no live-trading
+        # latency to protect, so spend the idle Alpha Vantage budget hard and
+        # reach DEEPER into the discovery window for vendor-grade chains; during
+        # market hours stay lean and forward-only.
+        from datetime import datetime, timezone
+        _now = datetime.now(timezone.utc)
+        _off_hours = _now.weekday() >= 5 or not (13 <= _now.hour <= 21)
+        # max_seconds bounds the backfill well inside the 90-min cycle cap so the
+        # research + trading steps that follow always get to run, and the CI run
+        # finishes "success" instead of being cancelled at the timeout. Progress
+        # is durable (fetched days persist), so the deep pull resumes next cycle.
+        _bf = dict(max_calls=20000, since="2024-01-01", max_seconds=2400) if _off_hours \
+            else dict(max_calls=3000, since="2026-05-11", max_seconds=600)
+        _safe(f"options history backfill ({'deep/off-hours' if _off_hours else 'forward'})",
+              lambda: backfill_options_history(cfg, conn, **_bf))
+        _safe("biotech premium feeds",
+              lambda: refresh_premium_feeds(cfg, universe, conn, options_for=universe))
+        _safe("biotech edgar fundamentals", lambda: _edgar_fill(cfg, store, universe, 10))
+        _safe("biotech insider (Form 4)",
+              lambda: _edgar_insider_fill(cfg, store, universe, 10))
+        _safe("external signal extension", lambda: refresh_external_signals(cfg))
+        _safe("biotech survivorship pool",
+              lambda: refresh_biotech_survivorship_pool(cfg, conn))
+
+    if desk == "all":
+        _safe("survivorship pool", lambda: refresh_survivorship_pool(cfg, conn))
+        _safe("earnings calendar", lambda: refresh_earnings_calendar(cfg, conn))
+
+    conn.close()

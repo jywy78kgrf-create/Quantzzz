@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# runtime state (data/seed.db IS committed — compact state without cache blobs)
+/quantzzz.db
+quantzzz.db.backup
+*.db-wal
+*.db-shm
+data/cache/
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+data/*.backup
+
+# macOS Finder clutter
+.DS_Store

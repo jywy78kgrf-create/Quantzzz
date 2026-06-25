@@ -1,0 +1,47 @@
+name: Cycle watchdog
+
+# GitHub cron silently skips slots — including on weekends. This runs every
+# 30 minutes, 7 days a week, and dispatches a fund cycle when the last one is
+# older than the cadence we expect for the current window (market hours are
+# hourly; nights/weekends are 6-hourly). Droughts self-heal regardless of day.
+on:
+  schedule:
+    - cron: "10,40 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: cycle-watchdog
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 50
+      - name: Dispatch a cycle if stale
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(git log --grep='Automated fund cycle' -1 --format=%ct || echo 0)
+          now=$(date +%s)
+          age_min=$(( (now - ${last:-0}) / 60 ))
+          dow=$(date -u +%u)        # 1=Mon .. 7=Sun
+          hour=$(date -u +%H)
+          # market hours (Mon-Fri 13-21 UTC) expect hourly; else 6-hourly
+          if [ "$dow" -le 5 ] && [ "$hour" -ge 13 ] && [ "$hour" -le 21 ]; then
+            threshold=90
+          else
+            threshold=400          # ~6h40m: just beyond the off-hours cadence
+          fi
+          echo "last cycle ${age_min}m ago; threshold ${threshold}m (dow=$dow hour=$hour)"
+          if [ "$age_min" -gt "$threshold" ]; then
+            echo "stale -> dispatching quant-cycle"
+            gh workflow run quant-cycle.yml --ref "${GITHUB_REF_NAME}"
+          fi

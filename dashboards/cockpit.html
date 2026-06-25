@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quantzzz · Mission Control</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/vendor/echarts.min.js"></script>
+<script src="/vendor/echarts-gl.min.js"></script>
+<script src="/vendor/lightweight-charts.min.js"></script>
+<script src="/vendor/gsap.min.js"></script>
+<script src="/vendor/countup.min.js"></script>
+<script src="/vendor/tsparticles.min.js"></script>
+<style>
+  :root{
+    --bg:#06080f; --panel:#0c1120; --panel2:#0f1628; --line:#1c2742;
+    --txt:#dfe7ff; --dim:#6b7a9c; --green:#2dd4a7; --red:#ff5d73;
+    --blue:#5b8cff; --amber:#ffc560; --violet:#a78bfa;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:radial-gradient(1200px 800px at 75% -10%, #101a35 0%, var(--bg) 55%);
+       color:var(--txt); font:14px/1.45 -apple-system,'Segoe UI',Inter,sans-serif;
+       min-height:100vh; padding:22px 26px;}
+  #space{position:fixed; inset:0; z-index:-1; pointer-events:none}
+  .card{transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease}
+  .card:hover{transform:translateY(-3px); border-color:#2b3d68;
+              box-shadow:0 14px 38px -16px rgba(91,140,255,.35)}
+  header{display:flex; align-items:baseline; gap:18px; margin-bottom:18px}
+  h1{font-size:22px; letter-spacing:.06em; font-weight:700}
+  h1 .z{color:var(--blue)}
+  .pulse{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--green);
+         box-shadow:0 0 0 0 rgba(45,212,167,.6); animation:pulse 2s infinite; margin-right:7px}
+  @keyframes pulse{70%{box-shadow:0 0 0 11px rgba(45,212,167,0)}100%{box-shadow:0 0 0 0 rgba(45,212,167,0)}}
+  .hb{color:var(--dim); font-size:12px; margin-left:auto}
+  .grid{display:grid; grid-template-columns:repeat(12,1fr); gap:14px}
+  .card{background:linear-gradient(180deg,var(--panel) 0%,var(--panel2) 100%);
+        border:1px solid var(--line); border-radius:14px; padding:16px 18px; overflow:hidden; position:relative}
+  .kpi{grid-column:span 3; position:relative}
+  .kpi .lbl{color:var(--dim); font-size:11px; letter-spacing:.14em; text-transform:uppercase}
+  .kpi .val{font-size:30px; font-weight:700; margin-top:4px; font-variant-numeric:tabular-nums}
+  .kpi .sub{font-size:12px; color:var(--dim); margin-top:2px}
+  .up{color:var(--green)} .dn{color:var(--red)}
+  .glow{position:absolute; inset:auto -30% -65% -30%; height:120px; filter:blur(46px); opacity:.25}
+  #chartcard{position:relative; grid-column:span 8}
+  .loop{grid-column:span 4; display:flex; flex-direction:column; gap:10px}
+  .loop h3,.card h3{font-size:12px; color:var(--dim); letter-spacing:.14em; text-transform:uppercase; margin-bottom:10px}
+  .scrollbox{max-height:420px; overflow-y:auto}
+  .scrollbox thead th{position:sticky; top:0; background:var(--panel); z-index:1}
+  #cats{column-width:300px; column-gap:36px}
+  .stage{display:flex; align-items:center; gap:12px; background:#0a0f1d; border:1px solid var(--line);
+         border-radius:10px; padding:9px 13px; position:relative}
+  .stage .dot{width:8px;height:8px;border-radius:50%;}
+  .stage b{font-size:15px; font-variant-numeric:tabular-nums; margin-left:auto}
+  .stage small{color:var(--dim)}
+  .flow{height:14px; display:flex; justify-content:center}
+  .flow span{color:var(--line); animation:drip 1.6s infinite linear; font-size:12px}
+  @keyframes drip{0%{transform:translateY(-4px);opacity:0}40%{opacity:1}100%{transform:translateY(5px);opacity:0}}
+  .col6{grid-column:span 6} .col4{grid-column:span 4} .col12{grid-column:span 12}
+  table{width:100%; border-collapse:collapse; font-size:12.5px}
+  td,th{padding:5px 6px; text-align:left; white-space:nowrap}
+  th{color:var(--dim); font-weight:500; font-size:11px; text-transform:uppercase; letter-spacing:.1em}
+  tr{border-top:1px solid #131c33}
+  .bar{height:7px; border-radius:4px; background:linear-gradient(90deg,var(--blue),var(--violet));
+       box-shadow:0 0 8px rgba(91,140,255,.45)}
+  .tag{display:inline-block; padding:1px 8px; border-radius:20px; font-size:10.5px; letter-spacing:.04em}
+  .t-promoted{background:rgba(45,212,167,.13); color:var(--green)}
+  .t-candidate{background:rgba(91,140,255,.13); color:var(--blue)}
+  .t-retired{background:rgba(255,93,115,.13); color:var(--red)}
+  .feed{max-height:420px; overflow-y:auto; scrollbar-width:thin}
+  .evt{display:flex; gap:10px; padding:7px 2px; border-top:1px solid #121b32; font-size:12.5px}
+  .evt .when{color:var(--dim); min-width:84px; font-variant-numeric:tabular-nums}
+  .evt .badge{min-width:64px; text-align:center; border-radius:6px; font-size:10px; padding:2px 6px; height:fit-content; text-transform:uppercase; letter-spacing:.06em}
+  .b-entry{background:rgba(45,212,167,.14); color:var(--green)} .b-exit{background:rgba(255,93,115,.14); color:var(--red)}
+  .b-skip,.b-reject{background:rgba(255,197,96,.13); color:var(--amber)}
+  .b-learning,.b-promotion{background:rgba(167,139,250,.15); color:var(--violet)}
+  .b-advice{background:rgba(255,197,96,.25); color:var(--amber); box-shadow:0 0 8px rgba(255,197,96,.4)}
+  .b-halt{background:rgba(255,93,115,.25); color:#ffb3bd} .b-resize{background:rgba(91,140,255,.13); color:var(--blue)}
+  .evt .what{color:#b9c5e6}
+  .cat{display:flex; gap:10px; align-items:center; padding:6px 2px; border-top:1px solid #121b32; font-size:12.5px}
+  .cat .d{min-width:78px; color:var(--amber); font-variant-numeric:tabular-nums}
+  .cat .big{color:var(--red); font-size:10px; border:1px solid var(--red); border-radius:4px; padding:0 5px; margin-left:auto}
+  .modechip{font-size:10px; padding:1px 8px; border-radius:10px; margin-left:8px; vertical-align:middle}
+  .m-normal{background:rgba(45,212,167,.13); color:var(--green)} .m-derisk{background:rgba(255,197,96,.15); color:var(--amber)}
+  .m-liquidate_only{background:rgba(255,93,115,.2); color:var(--red)}
+  .labhead{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; color:var(--green); margin-bottom:8px}
+  .labsub{font-size:11px; color:var(--dim); letter-spacing:.06em; margin-bottom:4px; text-transform:uppercase}
+  .cursor{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  /* live activity + evolution — TradingView-flavored data tables */
+  .lae .lae-grid{display:flex; gap:30px; flex-wrap:wrap}
+  .lae .lae-col{flex:1 1 420px; min-width:330px}
+  .lae .subttl{font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:#6b7a9c; margin:0 0 12px}
+  .lae table{width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums}
+  .lae th{font-size:10px; letter-spacing:.07em; text-transform:uppercase; color:#6b7a9c; font-weight:600;
+          padding:0 11px 9px; border-bottom:1px solid #1c2742; text-align:right; white-space:nowrap}
+  .lae th:first-child{text-align:left}
+  .lae td{padding:8px 11px; font-size:13px; border-bottom:1px solid #131c30; text-align:right;
+          font-family:ui-monospace,Menlo,monospace; color:#cdd9f5}
+  .lae td:first-child{text-align:left; color:#aebbd8; font-family:inherit}
+  .lae tbody tr:last-child td{border-bottom:none}
+  .lae tbody tr:hover td{background:rgba(91,140,255,.06)}
+  .lae .pos{color:#2dd4a7} .lae .neg{color:#ff5d73} .lae .mut{color:#5e6a86}
+  .lae .opdot{display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:9px; vertical-align:middle}
+  .lae .dbar{position:relative; overflow:hidden}
+  .lae .dbar>span{position:relative; z-index:1}
+  .lae .dbar::before{content:''; position:absolute; right:0; top:50%; transform:translateY(-50%);
+                     width:var(--w,0); height:62%; border-radius:2px; opacity:.12; z-index:0; transition:opacity .15s ease, background .15s ease}
+  .lae .dbarpos::before{background:#2dd4a7} .lae .dbarneg::before{background:#ff5d73} .lae .dbarlive::before{background:#5b8cff}
+  .lae tbody tr:hover .dbar::before{opacity:.4}
+  .lae tbody tr:hover .dbarpos::before{background:#4dffce} .lae tbody tr:hover .dbarneg::before{background:#ff7d90}
+  .lae h4{font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:#6b7a9c; font-weight:600; margin:20px 0 11px}
+  .lae .fills{display:grid; grid-template-columns:repeat(auto-fill,minmax(208px,1fr)); gap:7px}
+  .lae .pill{display:flex; align-items:center; justify-content:space-between; gap:12px; background:#0d1424;
+             border:1px solid #1b2540; border-radius:7px; padding:6px 12px;
+             font-family:ui-monospace,Menlo,monospace; font-size:12px; color:#cdd9f5}
+  .lae .pill .lft{display:flex; align-items:center; gap:8px; min-width:0}
+  .lae .pill .side{font-weight:700; font-size:9px; letter-spacing:.06em; color:#5e6a86}
+  .lae .pill .tk{color:#eaf0ff; font-weight:600} .lae .pill .px{color:#6b7a9c}
+  @media(max-width:1100px){.kpi{grid-column:span 6}#chartcard,.loop,.col6,.col4{grid-column:span 12}}
+</style>
+</head>
+<body>
+<div id="space"></div>
+<header>
+  <h1>🏛 QUANT<span class="z">ZZZ</span> CAPITAL</h1>
+  <span style="color:var(--dim);font-size:12px">autonomous research · paper execution · recursive learning</span>
+  <span class="hb"><span class="pulse"></span><span id="heartbeat">connecting…</span></span>
+</header>
+
+<div class="grid">
+  <div class="card kpi"><div class="lbl">Total AUM</div><div class="val" id="aum">—</div>
+    <div class="sub" id="aumsub"></div><div class="glow" style="background:var(--blue)"></div></div>
+  <div class="card kpi"><div class="lbl">Equity Fund <span id="eqmode"></span></div>
+    <div class="val"><span id="eqv">—</span> <span id="eqp" style="font-size:15px"></span></div>
+    <div class="sub" id="eqs"></div><div class="glow" style="background:var(--green)"></div></div>
+  <div class="card kpi"><div class="lbl">Biotech Fund <span id="biomode"></span></div>
+    <div class="val"><span id="biov">—</span> <span id="biop" style="font-size:15px"></span></div>
+    <div class="sub" id="bios"></div><div class="glow" style="background:var(--violet)"></div></div>
+  <div class="card kpi"><div class="lbl">Research Engine</div><div class="val" id="iters">—</div>
+    <div class="sub" id="iterssub">strategy backtests run</div><div class="glow" style="background:var(--amber)"></div></div>
+
+  <div class="card col12" id="fwdcard">
+    <h3>Forward Record · live paper trading only
+      <span style="float:right; font-weight:400; text-transform:none; letter-spacing:0; color:var(--dim)">
+        replayed history excluded — this is the track record being earned in real time</span></h3>
+    <div style="display:flex; gap:48px; flex-wrap:wrap">
+      <div class="kpi" style="grid-column:unset">
+        <div class="lbl">Equity · forward</div>
+        <div class="val" id="fwdeq">—</div>
+        <div class="sub" id="fwdeqsub">awaiting first live cycle</div></div>
+      <div class="kpi" style="grid-column:unset">
+        <div class="lbl">Biotech · forward</div>
+        <div class="val" id="fwdbio">—</div>
+        <div class="sub" id="fwdbiosub">awaiting first live cycle</div></div>
+    </div>
+    <div class="glow" style="background:var(--blue)"></div></div>
+
+  <div class="card" id="chartcard" style="padding:14px 16px 8px">
+    <h3 style="margin-bottom:6px">Live Paper Equity · from $1M starting budget
+      <span style="float:right; font-weight:400; text-transform:none; letter-spacing:0">
+        <span style="color:#2dd4a7">━ Equity</span>&nbsp;
+        <span style="color:#a78bfa">━ Biotech</span>&nbsp;
+        <span style="color:#f59e0b">━ Small-Cap Bio</span>&nbsp;
+        <span style="color:#56627f">╌ benchmarks</span></span></h3>
+    <div id="chart" style="height:288px"></div>
+  </div>
+
+  <div class="card loop">
+    <h3>The Loop · live</h3>
+    <div class="stage"><span class="dot" style="background:var(--blue)"></span>Research <small>candidates evaluated</small><b id="l-eval">—</b></div>
+    <div class="flow"><span>▼▼▼</span></div>
+    <div class="stage"><span class="dot" style="background:var(--green)"></span>Promoted <small>edges live</small><b id="l-prom">—</b></div>
+    <div class="flow"><span>▼▼▼</span></div>
+    <div class="stage"><span class="dot" style="background:var(--violet)"></span>Trading <small>open / closed</small><b id="l-trade">—</b></div>
+    <div class="flow"><span>▼▼▼</span></div>
+    <div class="stage"><span class="dot" style="background:var(--amber)"></span>Learning <small>reviews · retired</small><b id="l-learn">—</b></div>
+    <div class="flow"><span>▲ feeds back ▲</span></div>
+    <div class="stage"><span class="dot" style="background:var(--red)"></span>Journal <small>decisions recorded</small><b id="l-journal">—</b></div>
+  </div>
+
+
+  <div class="card col12">
+    <h3>Biotech Bench · contaminated-discovery gate
+      <span style="float:right; font-weight:400; text-transform:none; letter-spacing:0; color:var(--dim)">
+        external-signal candidates held to the strict deflated-Sharpe bar — promotion happens where the green line crosses the red</span></h3>
+    <div style="display:flex; gap:28px; flex-wrap:wrap; margin-bottom:8px" id="benchstats"></div>
+    <div id="benchchart" style="height:200px"></div>
+    <h3 style="margin-top:14px">Shadow Book · pre-registered forward trials (no capital, parameters pinned)</h3>
+    <table id="shadowtable"><thead><tr><th>trial</th><th>basis</th><th>registered</th>
+      <th style="text-align:right">claimed sharpe</th><th style="text-align:right">claimed dsr</th>
+      <th style="text-align:right">forward</th><th style="text-align:right">fwd sharpe</th>
+      <th style="text-align:right">marks</th><th>status</th><th>committee rationale</th></tr></thead>
+      <tbody></tbody></table>
+  </div>
+
+  <div class="card col6">
+    <h3>Strategy Book</h3>
+    <div class="scrollbox">
+    <table id="strats"><thead><tr><th>desk</th><th>family</th><th>status</th>
+      <th title="backtest claim">oos sharpe</th><th title="backtest claim">alpha/yr</th><th title="backtest claim">dsr</th>
+      <th title="closed live (forward) trades — sample size">fwd&nbsp;trades</th>
+      <th title="realized P&amp;L on closed live trades">fwd&nbsp;P&amp;L</th>
+      <th title="live hit rate">fwd&nbsp;hit</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+
+  <div class="card col6">
+    <h3>Decision Feed</h3>
+    <div class="feed" id="feed"></div>
+  </div>
+
+  <div class="card col6"><h3>Equity Book</h3><table id="poseq"><thead></thead><tbody></tbody></table></div>
+  <div class="card col6"><h3>Biotech Book</h3><table id="posbio"><thead></thead><tbody></tbody></table></div>
+  <div class="card col6"><h3>Small-Cap Biotech Book · sub-$10 swing</h3><table id="possmall"><thead></thead><tbody></tbody></table></div>
+
+  <div class="card col12 lae">
+    <h3>Live Activity &amp; Evolution · what the system is actually doing</h3>
+    <div class="lae-grid">
+      <div class="lae-col">
+        <div class="subttl">daily trade activity — opened · closed · realized P&amp;L</div>
+        <table id="activitytbl"><thead><tr><th>day</th><th>opened</th><th>closed</th><th>realized</th></tr></thead><tbody></tbody></table>
+      </div>
+      <div class="lae-col">
+        <div class="subttl">evolution scoreboard — which operator earns promotions</div>
+        <table id="evotbl"><thead><tr><th>operator</th><th>created</th><th>promoted</th><th>live</th><th>hit&nbsp;rate</th></tr></thead><tbody></tbody></table>
+        <div class="subttl" id="evonote" style="margin-top:13px; text-transform:none; letter-spacing:0; font-size:11.5px; color:#7d8db0"></div>
+      </div>
+    </div>
+    <h4><span class="cursor">▮</span> recent fills <span style="color:#4a5670; font-weight:400; text-transform:none; letter-spacing:0">· newest first · price = exit, P&amp;L = realized</span></h4>
+    <div id="recentfills" class="fills"></div>
+  </div>
+  <div class="card col12"><h3>Catalyst Sleeve · event-driven, exits before the readout
+    <span style="float:right;font-weight:400;text-transform:none;letter-spacing:0" id="cssub"></span></h3>
+    <table id="csbook"><thead></thead><tbody></tbody></table></div>
+  <div class="card col12"><h3>Catalyst Radar</h3><div id="cats"></div></div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const fmt$=v=>'$'+Math.round(v).toLocaleString();
+const pct=(v,s=2)=>(v>=0?'+':'')+v.toFixed(s)+'%';
+const cls=v=>v>=0?'up':'dn';
+let chart;
+
+const cu={};
+function tick(id,val,opts={}){
+  if(!window.countUp){$(id).textContent=(opts.prefix||'')+Math.round(val).toLocaleString();return;}
+  if(!cu[id]){cu[id]=new countUp.CountUp(id,val,Object.assign({duration:1.3,separator:','},opts));cu[id].start();}
+  else cu[id].update(val);
+}
+function kpis(s){
+  const f=s.funds, eq=f.equity, bio=f.biotech, sc=f.biotech_smallcap;
+  // Headline dollars are the LIVE paper trade from each fund's fixed starting
+  // budget — the replay-inflated NAV is hindsight, never shown as capital.
+  const fv=f=> f? (f.fwd_value!=null? f.fwd_value : f.start_budget) : 0;
+  let total=0, started=0;
+  if(eq){total+=fv(eq); started+=eq.start_budget||0;}
+  if(bio){total+=fv(bio); started+=bio.start_budget||0;}
+  if(sc){total+=fv(sc); started+=sc.start_budget||0;}
+  tick('aum',Math.round(total),{prefix:'$'});
+  $('aumsub').textContent=`live paper capital · started $${started.toLocaleString()} · forward only (replay excluded)`;
+  const sess=f=>f.fwd_ret_pct==null?'forward record starts next cycle'
+    :`${f.fwd_sessions||0} live sessions since ${f.fwd_since}`;
+  const vsb=f=>f.fwd_bench_ret_pct==null?'—':pct(f.fwd_bench_ret_pct,1);
+  if(eq){tick('eqv',Math.round(fv(eq)),{prefix:'$'});
+    $('eqp').innerHTML=`<span class="${cls(eq.fwd_ret_pct||0)}">${eq.fwd_ret_pct==null?'—':pct(eq.fwd_ret_pct,2)}</span>`;
+    $('eqs').textContent=`vs ${eq.bench} ${vsb(eq)} · gross ${eq.gross.toFixed(0)}% · dd ${eq.drawdown.toFixed(1)}% · ${sess(eq)}`;
+    $('eqmode').innerHTML=`<span class="modechip m-${eq.mode}">${eq.mode.replace('_',' ')}</span>`;}
+  if(bio){tick('biov',Math.round(fv(bio)),{prefix:'$'});
+    $('biop').innerHTML=`<span class="${cls(bio.fwd_ret_pct||0)}">${bio.fwd_ret_pct==null?'—':pct(bio.fwd_ret_pct,2)}</span>`;
+    $('bios').textContent=`vs ${bio.bench} ${vsb(bio)} · gross ${bio.gross.toFixed(0)}% · dd ${bio.drawdown.toFixed(1)}% · ${sess(bio)}`;
+    $('biomode').innerHTML=`<span class="modechip m-${bio.mode}">${bio.mode.replace('_',' ')}</span>`;}
+  tick('iters',s.loop.iterations);
+  $('iterssub').textContent=`backtests run · best OOS sharpe ${(+s.loop.best_oos_sharpe||0).toFixed(2)} · ${s.loop.av_calls_today||0} API calls today`;
+  const fwdset=(vid,sid,f)=>{ if(!f)return;
+    if(f.fwd_ret_pct==null){$(vid).textContent='—';
+      $(sid).textContent='awaiting first live cycle';}
+    else{$(vid).innerHTML=`<span class="${cls(f.fwd_ret_pct)}">${pct(f.fwd_ret_pct,2)}</span>`;
+      const m=v=>{const n=Math.round(v); return (n>=0?'+$':'−$')+Math.abs(n).toLocaleString();};
+      $(sid).innerHTML=`since ${f.fwd_since} · ${f.fwd_sessions||0} live sessions · $${Math.round(fv(f)).toLocaleString()}`
+        +` · <span class="${cls(f.realized_fwd||0)}">realized ${m(f.realized_fwd||0)}</span>`
+        +` · <span class="${cls(f.unrealized_fwd||0)}">unrealized ${m(f.unrealized_fwd||0)}</span>`;}};
+  fwdset('fwdeq','fwdeqsub',eq); fwdset('fwdbio','fwdbiosub',bio);
+}
+
+// ---- live activity + evolution scoreboard (real signal, not search eye-candy) ----
+const fmtD=v=>{const n=Math.round(v); return (n>=0?'+$':'−$')+Math.abs(n).toLocaleString();};
+const OPC={random:'#5b8cff',mutation:'#a78bfa',crossover:'#2dd4a7',heuristic:'#ffc560',llm:'#f472b6',external:'#7d8db0'};
+function activity(s){
+  const rows=(s.activity||[]).slice(0,9);
+  const mx=Math.max(1,...rows.map(d=>Math.abs(d.realized)));
+  const tb=document.querySelector('#activitytbl tbody'); tb.innerHTML='';
+  for(const d of rows){
+    const w=Math.round(100*Math.abs(d.realized)/mx);
+    const rc=d.realized>0?'pos':(d.realized<0?'neg':'mut');
+    const bar=(d.closed&&d.realized)?` dbar dbar${d.realized>0?'pos':'neg'}`:'';
+    tb.insertAdjacentHTML('beforeend',
+      `<tr><td>${d.date}</td>`+
+      `<td>${d.opened||'<span class="mut">·</span>'}</td>`+
+      `<td>${d.closed||'<span class="mut">·</span>'}</td>`+
+      `<td class="${rc}${bar}" style="--w:${w}%"><span>${d.closed?fmtD(d.realized):'—'}</span></td></tr>`);
+  }
+  if(!rows.length) tb.innerHTML='<tr><td colspan="4" class="mut">no live trades yet</td></tr>';
+  const fe=$('recentfills'); fe.innerHTML='';
+  for(const t of (s.recent_trades||[]).slice(0,12)){
+    const done=t.exit_ts!=null, px=done?t.exit_px:t.entry_px;
+    const side=done?'SELL':'BUY';
+    const right=done?`<span class="${t.pnl>0?'pos':(t.pnl<0?'neg':'mut')}">${fmtD(t.pnl)}</span>`
+                    :'<span class="mut">open</span>';
+    fe.insertAdjacentHTML('beforeend',
+      `<div class="pill"><span class="lft"><span class="side">${side}</span>`+
+      `<span class="tk">${t.ticker}</span><span class="px">@${(+px).toFixed(2)}</span></span>${right}</div>`);
+  }
+}
+function evolution(s){
+  const rows=s.evolution||[];
+  const mxLive=Math.max(1,...rows.map(e=>e.live||0));
+  const tb=document.querySelector('#evotbl tbody'); tb.innerHTML='';
+  let lineage=0;
+  for(const e of rows){
+    const rate=e.created?(100*e.promoted/e.created):0;
+    lineage+=e.lineage||0;
+    const rstr=e.promoted?((rate>=1?rate.toFixed(2):rate.toFixed(3))+'%'):'—';
+    const w=Math.round(100*(e.live||0)/mxLive);
+    const dot=`<span class="opdot" style="background:${OPC[e.origin]||'#7d8db0'}"></span>`;
+    tb.insertAdjacentHTML('beforeend',
+      `<tr><td>${dot}${e.origin}</td>`+
+      `<td>${(e.created||0).toLocaleString()}</td>`+
+      `<td>${e.promoted||0}</td>`+
+      `<td class="dbar dbarlive" style="--w:${w}%"><span>${e.live||0}</span></td>`+
+      `<td class="${e.promoted?'':'mut'}">${rstr}</td></tr>`);
+  }
+  $('evonote').innerHTML = lineage>0
+    ? `lineage recorded on <b style="color:#aebbd8">${lineage.toLocaleString()}</b> strategies — mutation/crossover now traceable to their parent`
+    : `lineage tracking just enabled — parent links accrue from the next cycles on`;
+}
+
+function loop(s){
+  $('l-eval').textContent=s.loop.evaluated.toLocaleString();
+  $('l-prom').textContent=s.loop.promoted;
+  $('l-trade').textContent=`${s.loop.open_positions} / ${s.loop.closed_trades}`;
+  $('l-learn').textContent=`${s.loop.learning_reviews} · ${s.loop.retired}`;
+  $('l-journal').textContent=s.loop.journal_entries.toLocaleString();
+  const last=s.loop.last_cycle?new Date(s.loop.last_cycle):null;
+  const ran=last?`last cycle ${Math.max(0,Math.round((Date.now()-last)/60000))} min ago`:'no cycles yet';
+  const marked=s.loop.last_close_marked?` · marks as of ${s.loop.last_close_marked} close`:'';
+  const r=s.regime;
+  const reg=r?` · vol ${r.label} (VIX ${r.vix}/3M ${r.vix3m}, ${Math.round(r.score*100)}%)`:'';
+  $('heartbeat').textContent=ran+marked+reg;
+}
+
+let lwc, lwcSeries={};
+function ts2unix(t){return Math.floor(new Date(t.length<=10? t+'T21:00:00Z': t).getTime()/1000);}
+function dedupe(points){
+  const m=new Map();
+  for(const[t,v]of points)m.set(ts2unix(t),v);
+  return [...m.entries()].sort((a,b)=>a[0]-b[0]).map(([time,value])=>({time,value}));
+}
+let benchLwc=null, benchSeries=null;
+function bench(s){
+  const b=s.bench; if(!b||!window.LightweightCharts)return;
+  const stat=(lbl,val)=>`<div><div style="font-size:11px;color:var(--dim);letter-spacing:.1em;text-transform:uppercase">${lbl}</div>
+    <div style="font-size:22px;font-weight:700;font-variant-numeric:tabular-nums">${val}</div></div>`;
+  const latest=b.trend.length?b.trend[b.trend.length-1][1]:null;
+  $('benchstats').innerHTML=
+    stat('candidates tested', (b.candidates||0).toLocaleString())+
+    stat('best OOS sharpe', b.best_oos?(+b.best_oos).toFixed(2):'—')+
+    stat('best DSR (latest)', latest!=null?latest.toFixed(2):'—')+
+    stat('held out by strict gate', b.held_out||0)+
+    stat('promoted', b.promoted||0);
+  if(!benchLwc){
+    const el=$('benchchart');
+    benchLwc=LightweightCharts.createChart(el,{
+      width:el.clientWidth||900, height:200,
+      layout:{background:{color:'transparent'},textColor:'#6b7a9c',fontSize:11},
+      grid:{vertLines:{color:'#101a31'},horzLines:{color:'#101a31'}},
+      rightPriceScale:{borderColor:'#1c2742'},
+      timeScale:{borderColor:'#1c2742',timeVisible:false},
+      crosshair:{mode:0}});
+    benchSeries=benchLwc.addLineSeries({color:'#2dd4a7',lineWidth:2,
+      priceLineVisible:false,lastValueVisible:true});
+    benchSeries.createPriceLine({price:b.strict,color:'#f87171',lineStyle:2,
+      lineWidth:1,title:'strict gate'});
+    benchSeries.createPriceLine({price:b.standard,color:'#56627f',lineStyle:3,
+      lineWidth:1,title:'standard gate'});
+    benchSeries.applyOptions({autoscaleInfoProvider:()=>({priceRange:{minValue:0,maxValue:1}})});
+  }
+  benchSeries.setData(b.trend.map(([d,v])=>({time:d,value:v})));
+  benchLwc.timeScale().fitContent();
+  const tb=$('shadowtable').querySelector('tbody'); tb.innerHTML='';
+  const sh=s.shadows||[];
+  if(!sh.length){
+    tb.innerHTML='<tr><td colspan="10" style="color:var(--dim)">no shadow trials yet — the next research run with eligible near-misses convenes the committee</td></tr>';
+    return;}
+  for(const r of sh){
+    const fwd=r.fwd_ret_pct==null?'—':`<span class="${cls(r.fwd_ret_pct)}">${pct(r.fwd_ret_pct,2)}</span>`;
+    tb.insertAdjacentHTML('beforeend',`<tr>
+      <td>#${r.id}</td><td><b>${r.family}</b>${r.signal?' · '+r.signal:''}</td>
+      <td style="color:var(--dim)">${r.registered}</td>
+      <td style="text-align:right">${(+r.claim_sharpe).toFixed(2)}</td>
+      <td style="text-align:right;color:var(--dim)">${(+r.claim_dsr).toFixed(2)}</td>
+      <td style="text-align:right">${fwd}</td>
+      <td style="text-align:right">${r.fwd_sharpe==null?'—':(+r.fwd_sharpe).toFixed(2)}</td>
+      <td style="text-align:right;color:var(--dim)">${r.marks}</td>
+      <td><span class="tag t-${r.status==='active'?'candidate':(r.status==='graduated'?'promoted':'retired')}">${r.status}</span></td>
+      <td style="color:var(--dim);white-space:normal;max-width:340px">${r.note||''}</td></tr>`);
+  }
+}
+
+function curves(s){
+  if(!window.LightweightCharts)return;
+  if(!lwc){
+    const el=$('chart');
+    lwc=LightweightCharts.createChart(el,{
+      width:el.clientWidth||900, height:288,
+      layout:{background:{color:'transparent'},textColor:'#6b7a9c',fontSize:11},
+      grid:{vertLines:{color:'#101a31'},horzLines:{color:'#101a31'}},
+      rightPriceScale:{borderColor:'#1c2742'},
+      timeScale:{borderColor:'#1c2742',timeVisible:false},
+      crosshair:{mode:0,vertLine:{color:'#2b3d68',labelBackgroundColor:'#1c2742'},
+                 horzLine:{color:'#2b3d68',labelBackgroundColor:'#1c2742'}},
+      localization:{priceFormatter:v=>'$'+(v/1e6).toFixed(2)+'M'}});
+    const area=(c1,c2)=>lwc.addAreaSeries({lineColor:c1,lineWidth:2,
+      topColor:c2,bottomColor:'rgba(0,0,0,0)',priceLineVisible:false,lastValueVisible:true});
+    lwcSeries.equity=area('#2dd4a7','rgba(45,212,167,.22)');
+    lwcSeries.biotech=area('#a78bfa','rgba(167,139,250,.22)');
+    lwcSeries.smallcap=area('#f59e0b','rgba(245,158,11,.18)');
+    lwcSeries.eqb=lwc.addLineSeries({color:'#56627f',lineWidth:1,lineStyle:2,
+      priceLineVisible:false,lastValueVisible:false,crosshairMarkerVisible:false});
+    lwcSeries.biob=lwc.addLineSeries({color:'#56627f',lineWidth:1,lineStyle:2,
+      priceLineVisible:false,lastValueVisible:false,crosshairMarkerVisible:false});
+    lwcSeries.scb=lwc.addLineSeries({color:'#56627f',lineWidth:1,lineStyle:2,
+      priceLineVisible:false,lastValueVisible:false,crosshairMarkerVisible:false});
+  }
+  const f=s.funds;
+  // Plot the LIVE paper trade from the fixed starting budget (forward, honest
+  // dollars). Fall back to the replay curve only before go-live, when no
+  // forward record exists yet.
+  const fc=f=>(f.fwd_curve&&f.fwd_curve.length)?f.fwd_curve:f.curve;
+  const fb=f=>(f.fwd_bench_curve&&f.fwd_bench_curve.length)?f.fwd_bench_curve:f.bench_curve;
+  if(f.equity){lwcSeries.equity.setData(dedupe(fc(f.equity)));
+               lwcSeries.eqb.setData(dedupe(fb(f.equity)));}
+  if(f.biotech){lwcSeries.biotech.setData(dedupe(fc(f.biotech)));
+                lwcSeries.biob.setData(dedupe(fb(f.biotech)));}
+  if(f.biotech_smallcap){lwcSeries.smallcap.setData(dedupe(fc(f.biotech_smallcap)));
+                lwcSeries.scb.setData(dedupe(fb(f.biotech_smallcap)));}
+  lwc.timeScale().fitContent();
+  const el=$('chart');
+  if(el.clientWidth && Math.abs(el.clientWidth-lwc.options().width)>4)
+    lwc.applyOptions({width:el.clientWidth});
+}
+window.addEventListener('resize',()=>{
+  if(lwc)lwc.applyOptions({width:$('chart').clientWidth});
+});
+
+function strats(s){
+  const tb=$('strats').querySelector('tbody'); tb.innerHTML='';
+  for(const r of s.strategies){
+    tb.insertAdjacentHTML('beforeend',`<tr>
+      <td>${r.desk}</td><td>${r.family.replaceAll('_',' ')}</td>
+      <td><span class="tag t-${r.status}">${r.status}</span></td>
+      <td>${(+r.sharpe).toFixed(2)}</td>
+      <td class="${cls(+r.alpha)}">${pct(+r.alpha*100,1)}</td>
+      <td>${r.dsr==null?'—':(+r.dsr).toFixed(2)}</td>
+      <td title="${(r.live_closed||0)<10?'too few to judge yet':''}">${r.live_closed||0}${(r.live_closed||0)>0&&(r.live_closed||0)<10?'<span class="no">*</span>':''}</td>
+      <td class="${r.live_pnl==null?'':cls(+r.live_pnl)}">${r.live_pnl==null?'—':'$'+(+r.live_pnl).toLocaleString()}</td>
+      <td>${r.live_hit==null?'—':(+r.live_hit*100).toFixed(0)+'%'}</td></tr>`);
+  }
+}
+
+function feed(s){
+  const el=$('feed'); el.innerHTML='';
+  for(const e of s.journal){
+    const t=(e.ts||'').replace('T',' ').slice(5,16);
+    el.insertAdjacentHTML('beforeend',`<div class="evt"><span class="when">${t}</span>
+      <span class="badge b-${e.entry_type}">${e.entry_type}</span>
+      <span class="what"><b>${e.fund}</b>${e.ticker?' · '+e.ticker:''} — ${e.reasoning||''}</span></div>`);
+  }
+}
+
+const px$=v=>v>=1000?'$'+Math.round(v).toLocaleString():'$'+(+v).toFixed(2);
+function books(s){
+  for(const[fund,el]of[['equity','poseq'],['biotech','posbio'],['biotech_smallcap','possmall']]){
+    const tb=$(el).querySelector('tbody'); tb.innerHTML='';
+    const head=$(el).querySelector('thead');
+    const rows=s.positions[fund]||[];
+    if(!rows.length){head.innerHTML='';
+      tb.innerHTML='<tr><td style="color:var(--dim)">no open positions</td></tr>';continue;}
+    head.innerHTML=`<tr><th>tkr</th><th>entry</th><th style="text-align:right">in</th>
+      <th style="text-align:right">now</th><th style="text-align:right">alloc $</th>
+      <th style="text-align:right">now $</th>
+      <th style="text-align:right">p&l</th>
+      <th style="text-align:right">wt</th></tr>`;
+    const $k=v=>'$'+Math.round(v).toLocaleString();
+    for(const r of rows){
+      tb.insertAdjacentHTML('beforeend',`<tr>
+        <td><b>${r.ticker}</b></td>
+        <td style="color:var(--dim)">${(r.entry_date||'').slice(2)}</td>
+        <td style="text-align:right;color:var(--dim)">${px$(r.entry_px)}</td>
+        <td style="text-align:right">${px$(r.px)}</td>
+        <td style="text-align:right;color:var(--dim)">${$k(r.cost!=null?r.cost:r.value)}</td>
+        <td style="text-align:right">${$k(r.value)}</td>
+        <td class="${cls(r.pnl_pct)}" style="text-align:right">${pct(r.pnl_pct,1)}</td>
+        <td style="text-align:right;color:var(--dim)">${r.weight.toFixed(1)}%</td></tr>`);
+    }
+  }
+}
+
+function catalyst(s){
+  const c=s.catalyst, sub=$('cssub'),
+    tb=$('csbook').querySelector('tbody'), head=$('csbook').querySelector('thead');
+  if(!c||!c.value){ if(sub)sub.textContent='no sleeve book yet — starts on the next cycle';
+    tb.innerHTML=''; head.innerHTML=''; return; }
+  const fwd=c.fwd_ret==null?'—':`<span class="${cls(c.fwd_ret)}">${pct(c.fwd_ret,2)}</span>`;
+  const win=c.closed_n?` · ${Math.round((c.hit||0)*100)}% win on ${c.closed_n} closed`:'';
+  sub.innerHTML=`$${Math.round(c.value).toLocaleString()} forward ${fwd} · ${c.n_open} open${win}`;
+  head.innerHTML=`<tr><th>tkr</th><th>entry</th><th style="text-align:right">in</th>
+    <th>catalyst</th><th>type</th><th style="text-align:right">runup</th>
+    <th style="text-align:right">now</th><th style="text-align:right">alloc $</th>
+    <th style="text-align:right">now $</th><th style="text-align:right">p&l</th></tr>`;
+  tb.innerHTML='';
+  if(!c.open.length){tb.innerHTML='<tr><td style="color:var(--dim)">no open catalyst positions</td></tr>';return;}
+  for(const o of c.open){
+    tb.insertAdjacentHTML('beforeend',`<tr>
+      <td><b>${o.ticker}</b></td>
+      <td style="color:var(--dim)">${o.entry_date||''}</td>
+      <td style="text-align:right;color:var(--dim)">${px$(o.entry_px)}</td>
+      <td style="color:var(--dim)">${o.catalyst_date||''}</td>
+      <td style="color:var(--dim)">${o.ctype||''}</td>
+      <td style="text-align:right;color:#2dd4a7">+${Math.round(o.runup)}%</td>
+      <td style="text-align:right">${px$(o.now_px)}</td>
+      <td style="text-align:right;color:var(--dim)">$${Math.round(o.alloc).toLocaleString()}</td>
+      <td style="text-align:right">$${Math.round(o.value).toLocaleString()}</td>
+      <td class="${cls(o.pnl_pct)}" style="text-align:right">${pct(o.pnl_pct,1)}</td></tr>`);
+  }
+}
+
+function cats(s){
+  const el=$('cats'); el.innerHTML='';
+  if(!s.catalysts.length){el.innerHTML='<div style="color:var(--dim)">no upcoming catalysts loaded</div>';return;}
+  for(const c of s.catalysts){
+    el.insertAdjacentHTML('beforeend',`<div class="cat"><span class="d">${c.date}</span>
+      <b>${c.ticker}</b> <span style="color:var(--dim)">${c.label}</span>
+      ${c.big?'<span class="big">BIG MOVER</span>':''}</div>`);
+  }
+}
+
+let firstLoad=true;
+async function refresh(){
+  try{
+    const s=await(await fetch('/api/state')).json();
+    kpis(s);loop(s);curves(s);bench(s);strats(s);feed(s);books(s);catalyst(s);cats(s);activity(s);evolution(s);
+    if(firstLoad){firstLoad=false;
+      if(window.gsap)gsap.from('.card',{y:18,opacity:0,duration:.65,stagger:.05,ease:'power2.out',clearProps:'transform,opacity'});}
+  }catch(e){$('heartbeat').textContent='reconnecting…';}
+}
+
+window.addEventListener('load',()=>{
+  if(window.tsParticles)tsParticles.load({id:'space',options:{
+    fpsLimit:40,detectRetina:true,
+    particles:{number:{value:50},color:{value:['#5b8cff','#a78bfa','#2dd4a7']},
+      links:{enable:true,color:'#22304f',opacity:.3,distance:150,width:1},
+      move:{enable:true,speed:.35},opacity:{value:.35},size:{value:{min:1,max:2.2}}}}});
+  refresh(); setInterval(refresh,30000);
+});
+</script>
+</body>
+</html>

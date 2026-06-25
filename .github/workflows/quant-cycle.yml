@@ -1,0 +1,143 @@
+name: Quant fund cycle
+
+on:
+  schedule:
+    # market hours: hourly, Mon-Fri 13:00-21:00 UTC (9am-5pm ET)
+    - cron: "47 13-21 * * 1-5"
+    # off-hours + weekends: every 6 hours — research keeps grinding 24/7
+    - cron: "13 1,7 * * *"
+    - cron: "13 13,19 * * 0,6"
+  workflow_dispatch: {}              # manual "run a cycle now" button
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: quant-cycle
+  cancel-in-progress: false
+
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: pip install -e ".[dev,llm]"
+
+      - name: Choose research depth (deep when markets are closed)
+        id: depth
+        run: |
+          # Decide by wall-clock, not by which cron string fired — so a cycle
+          # launched by the heartbeat (workflow_dispatch, empty event.schedule)
+          # still runs lean+trading during market hours and deep when closed.
+          H=$(date -u +%H); H=$((10#$H)); DOW=$(date -u +%u)   # hour 0-23, DOW 1-7
+          if [ "$DOW" -le 5 ] && [ "$H" -ge 13 ] && [ "$H" -le 21 ]; then
+            echo "iters=40" >> "$GITHUB_OUTPUT"     # market hours: fresh data + trading
+          else
+            echo "iters=160" >> "$GITHUB_OUTPUT"    # nights/weekends: deep search
+          fi
+
+      - name: Run one fund cycle (refresh -> research -> trade)
+        env:
+          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+          BPIQ_API_KEY: ${{ secrets.BPIQ_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # SEC EDGAR rejects User-Agents without a contact email (HTTP 403),
+          # which silently froze all EDGAR fetches (fundamentals + insider). Read
+          # it from a secret so the contact email stays out of the public repo.
+          EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+          LIVE_TRADING: "false"
+        run: |
+          python -m quantzzz init-db   # bootstraps from data/seed.db on fresh checkout
+          python -m quantzzz run --cycles 1 --research-iterations ${{ steps.depth.outputs.iters }}
+
+      - name: Run tests (guard against bad state)
+        run: python -m pytest -q
+
+      - name: Export compact state seed (cache blobs stay local)
+        run: |
+          python - <<'EOF'
+          import shutil, sqlite3, os
+          src = sqlite3.connect("quantzzz.db")
+          src.execute("PRAGMA wal_checkpoint(TRUNCATE)")  # flush WAL before copying
+          src.close()
+          shutil.copy("quantzzz.db", "data/seed.db")
+          conn = sqlite3.connect("data/seed.db")
+          conn.execute("DELETE FROM api_cache")
+          # research_iterations bloat was the ~8 KB equity_curve_json on each row,
+          # NOT the rows themselves. Keep every row (so the "backtests run" count
+          # stays truthful) and just null the heavy curves for all but promoted +
+          # the last 500 (labs only plots the freshest search). A high 200k
+          # backstop caps pathological growth without ever biting in practice.
+          conn.execute("""
+            UPDATE research_iterations SET equity_curve_json=NULL
+            WHERE equity_curve_json IS NOT NULL
+              AND strategy_id NOT IN (SELECT id FROM strategies WHERE status='promoted')
+              AND id < (SELECT MAX(id) FROM research_iterations) - 500""")
+          conn.execute("""
+            DELETE FROM research_iterations
+            WHERE strategy_id NOT IN (SELECT id FROM strategies WHERE status='promoted')
+              AND id < (SELECT MAX(id) FROM research_iterations) - 200000""")
+          # data_health logs every ticker check every cycle (tens of thousands a
+          # day); keep only the last 40k rows for the regime feature + dashboards.
+          conn.execute("""
+            DELETE FROM data_health
+            WHERE id < (SELECT MAX(id) FROM data_health) - 40000""")
+          conn.commit()
+          conn.execute("VACUUM")
+          conn.close()
+          sz = os.path.getsize("data/seed.db")
+          print("compact seed.db: %.1f MB" % (sz / 1e6))
+          # GitHub hard-rejects any file > 100 MB; fail loudly well before that so
+          # the alert fires instead of silently wedging the branch (which is what
+          # happened at 100.87 MB — every cycle pushed green but never landed).
+          if sz > 90_000_000:
+              raise SystemExit("seed.db %.1f MB too close to GitHub's 100 MB cap" % (sz / 1e6))
+          EOF
+
+      - name: Commit updated state
+        run: |
+          git config user.name "quantzzz-bot"
+          git config user.email "quantzzz-bot@users.noreply.github.com"
+          git add data/seed.db data/snapshots
+          if git diff --cached --quiet; then
+            echo "no state changes"
+          else
+            git commit -m "Automated fund cycle: $(date -u +%Y-%m-%dT%H:%MZ)"
+            # the branch may have moved during the cycle (a code push mid-run);
+            # rebase our state commit on top and keep this run's seed/snapshots
+            # (-X theirs = our commit's files win any conflict during rebase)
+            pushed=0
+            for i in 1 2 3; do
+              if git push; then pushed=1; break; fi
+              git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" || true
+            done
+            # a persistent rejection (e.g. file-size limit) must fail the job so
+            # the alert fires — do NOT exit green on an unpushed commit.
+            if [ "$pushed" != "1" ]; then
+              echo "push rejected after retries — state NOT persisted"; exit 1
+            fi
+          fi
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh issue list --label cycle-failure --state open --json number --jq length)
+          if [ "${open:-0}" = "0" ]; then
+            gh label create cycle-failure --color B60205 --force || true
+            gh issue create --title "Fund cycle failed: $(date -u +%FT%H:%MZ)" \
+              --label cycle-failure \
+              --body "A scheduled fund cycle failed. Check the Actions run logs: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          fi

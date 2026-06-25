@@ -115,6 +115,8 @@
   .lae .pill .lft{display:flex; align-items:center; gap:8px; min-width:0}
   .lae .pill .side{font-weight:700; font-size:9px; letter-spacing:.06em; color:#5e6a86}
   .lae .pill .tk{color:#eaf0ff; font-weight:600} .lae .pill .px{color:#6b7a9c}
+  .lae .pill .rgt{display:flex; align-items:center; gap:9px}
+  .lae .pill .dt{color:#54607c; font-size:11px; font-variant-numeric:tabular-nums}
   @media(max-width:1100px){.kpi{grid-column:span 6}#chartcard,.loop,.col6,.col4{grid-column:span 12}}
 </style>
 </head>
@@ -304,11 +306,13 @@ function activity(s){
   for(const t of (s.recent_trades||[]).slice(0,12)){
     const done=t.exit_ts!=null, px=done?t.exit_px:t.entry_px;
     const side=done?'SELL':'BUY';
-    const right=done?`<span class="${t.pnl>0?'pos':(t.pnl<0?'neg':'mut')}">${fmtD(t.pnl)}</span>`
-                    :'<span class="mut">open</span>';
+    const dt=((done?t.exit_ts:t.entry_ts)||'').slice(5,10);   // MM-DD
+    const pnl=done?`<span class="${t.pnl>0?'pos':(t.pnl<0?'neg':'mut')}">${fmtD(t.pnl)}</span>`
+                  :'<span class="mut">open</span>';
     fe.insertAdjacentHTML('beforeend',
       `<div class="pill"><span class="lft"><span class="side">${side}</span>`+
-      `<span class="tk">${t.ticker}</span><span class="px">@${(+px).toFixed(2)}</span></span>${right}</div>`);
+      `<span class="tk">${t.ticker}</span><span class="px">@${(+px).toFixed(2)}</span></span>`+
+      `<span class="rgt">${pnl}<span class="dt">${dt}</span></span></div>`);
   }
 }
 function evolution(s){

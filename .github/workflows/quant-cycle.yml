@@ -111,23 +111,30 @@ jobs:
           git config user.email "quantzzz-bot@users.noreply.github.com"
           git add data/seed.db data/snapshots
           if git diff --cached --quiet; then
-            echo "no state changes"
-          else
-            git commit -m "Automated fund cycle: $(date -u +%Y-%m-%dT%H:%MZ)"
-            # the branch may have moved during the cycle (a code push mid-run);
-            # rebase our state commit on top and keep this run's seed/snapshots
-            # (-X theirs = our commit's files win any conflict during rebase)
-            pushed=0
-            for i in 1 2 3; do
-              if git push; then pushed=1; break; fi
-              git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" || true
-            done
-            # a persistent rejection (e.g. file-size limit) must fail the job so
-            # the alert fires — do NOT exit green on an unpushed commit.
-            if [ "$pushed" != "1" ]; then
-              echo "push rejected after retries — state NOT persisted"; exit 1
-            fi
+            echo "no state changes"; exit 0
           fi
+          git commit -m "Automated fund cycle: $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Push safely. NEVER let a stale cycle overwrite newer state: the old
+          # "-X theirs" rebase did exactly that and rolled the book back a week
+          # when two cycles raced. Instead:
+          #   - clean push        -> done
+          #   - remote unchanged  -> hard rejection (size/perms): fail loudly
+          #   - remote advanced, disjoint (a code deploy) -> rebase + retry
+          #   - remote advanced, seed.db conflict (a competing CYCLE wrote newer
+          #     state) -> DISCARD this stale run; do not clobber
+          for i in 1 2 3 4 5; do
+            if git push; then echo "state persisted"; exit 0; fi
+            git fetch origin "${GITHUB_REF_NAME}" || { echo "fetch failed; retry"; sleep 3; continue; }
+            if git merge-base --is-ancestor FETCH_HEAD HEAD; then
+              echo "remote unchanged; push hard-rejected (size/permission) — state NOT persisted"; exit 1
+            fi
+            if git rebase FETCH_HEAD; then
+              continue   # disjoint (code deploy): our data replays cleanly, retry push
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "a competing cycle wrote newer state — discarding this stale run (no regression)"; exit 0
+          done
+          echo "exhausted push retries"; exit 1
 
       - name: Alert on failure
         if: failure()

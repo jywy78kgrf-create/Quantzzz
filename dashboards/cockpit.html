@@ -33,7 +33,7 @@
   .hb{color:var(--dim); font-size:12px; margin-left:auto}
   .grid{display:grid; grid-template-columns:repeat(12,1fr); gap:14px}
   .card{background:linear-gradient(180deg,var(--panel) 0%,var(--panel2) 100%);
-        border:1px solid var(--line); border-radius:14px; padding:16px 18px; overflow:hidden}
+        border:1px solid var(--line); border-radius:14px; padding:16px 18px; overflow:hidden; position:relative}
   .kpi{grid-column:span 3; position:relative}
   .kpi .lbl{color:var(--dim); font-size:11px; letter-spacing:.14em; text-transform:uppercase}
   .kpi .val{font-size:30px; font-weight:700; margin-top:4px; font-variant-numeric:tabular-nums}
@@ -150,7 +150,7 @@
         <div class="val" id="fwdbio">—</div>
         <div class="sub" id="fwdbiosub">awaiting first live cycle</div></div>
     </div>
-    <div class="glow" style="background:var(--red)"></div></div>
+    <div class="glow" style="background:var(--blue)"></div></div>
 
   <div class="card" id="chartcard" style="padding:14px 16px 8px">
     <h3 style="margin-bottom:6px">Live Paper Equity · from $1M starting budget

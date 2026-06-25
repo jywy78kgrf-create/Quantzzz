@@ -106,10 +106,12 @@
                     width:var(--w,0); height:62%; border-radius:2px; opacity:.18; z-index:0}
   .lae .barpos::before{background:#2dd4a7} .lae .barneg::before{background:#ff5d73} .lae .barlive::before{background:#5b8cff}
   .lae h4{font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:#6b7a9c; font-weight:600; margin:20px 0 11px}
-  .lae .fills{display:flex; flex-wrap:wrap; gap:7px}
-  .lae .pill{display:flex; align-items:center; gap:9px; background:#0d1424; border:1px solid #1b2540;
-             border-radius:7px; padding:5px 11px; font-family:ui-monospace,Menlo,monospace; font-size:12px; color:#cdd9f5}
-  .lae .pill .side{font-weight:700; font-size:9px; letter-spacing:.06em}
+  .lae .fills{display:grid; grid-template-columns:repeat(auto-fill,minmax(208px,1fr)); gap:7px}
+  .lae .pill{display:flex; align-items:center; justify-content:space-between; gap:12px; background:#0d1424;
+             border:1px solid #1b2540; border-radius:7px; padding:6px 12px;
+             font-family:ui-monospace,Menlo,monospace; font-size:12px; color:#cdd9f5}
+  .lae .pill .lft{display:flex; align-items:center; gap:8px; min-width:0}
+  .lae .pill .side{font-weight:700; font-size:9px; letter-spacing:.06em; color:#5e6a86}
   .lae .pill .tk{color:#eaf0ff; font-weight:600} .lae .pill .px{color:#6b7a9c}
   @media(max-width:1100px){.kpi{grid-column:span 6}#chartcard,.loop,.col6,.col4{grid-column:span 12}}
 </style>
@@ -221,7 +223,7 @@
         <div class="subttl" id="evonote" style="margin-top:13px; text-transform:none; letter-spacing:0; font-size:11.5px; color:#7d8db0"></div>
       </div>
     </div>
-    <h4><span class="cursor">▮</span> recent fills</h4>
+    <h4><span class="cursor">▮</span> recent fills <span style="color:#4a5670; font-weight:400; text-transform:none; letter-spacing:0">· newest first · price = exit, P&amp;L = realized</span></h4>
     <div id="recentfills" class="fills"></div>
   </div>
   <div class="card col12"><h3>Catalyst Sleeve · event-driven, exits before the readout
@@ -299,13 +301,12 @@ function activity(s){
   const fe=$('recentfills'); fe.innerHTML='';
   for(const t of (s.recent_trades||[]).slice(0,12)){
     const done=t.exit_ts!=null, px=done?t.exit_px:t.entry_px;
-    const when=((done?t.exit_ts:t.entry_ts)||'').slice(5,16).replace('T',' ');
-    const side=done?'SELL':'BUY', sc=done?'neg':'pos';
-    const pnl=done?`<span class="${t.pnl>0?'pos':(t.pnl<0?'neg':'mut')}">${fmtD(t.pnl)}</span>`:'<span class="mut">open</span>';
+    const side=done?'SELL':'BUY';
+    const right=done?`<span class="${t.pnl>0?'pos':(t.pnl<0?'neg':'mut')}">${fmtD(t.pnl)}</span>`
+                    :'<span class="mut">open</span>';
     fe.insertAdjacentHTML('beforeend',
-      `<div class="pill"><span class="side ${sc}">${side}</span>`+
-      `<span class="tk">${t.ticker}</span><span class="px">${(+px).toFixed(2)}</span>${pnl}`+
-      `<span class="px" style="opacity:.7">${when}</span></div>`);
+      `<div class="pill"><span class="lft"><span class="side">${side}</span>`+
+      `<span class="tk">${t.ticker}</span><span class="px">@${(+px).toFixed(2)}</span></span>${right}</div>`);
   }
 }
 function evolution(s){

@@ -4,7 +4,7 @@
   "company": {
    "ticker": "UNCY",
    "name": "Unicycive Therapeutics",
-   "last_price": "8.37",
+   "last_price": "8.33",
    "market_cap": 216130992
   },
   "ticker": "UNCY",
@@ -116,7 +116,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.04",
+   "last_price": "3.95",
    "market_cap": 276452448
   },
   "ticker": "BCYC",
@@ -311,7 +311,7 @@
   "company": {
    "ticker": "GNPX",
    "name": "Genprex",
-   "last_price": "0.50",
+   "last_price": "0.48",
    "market_cap": 5277844
   },
   "ticker": "GNPX",
@@ -501,7 +501,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "17.52",
+   "last_price": "17.44",
    "market_cap": 1912607360
   },
   "ticker": "VRDN",
@@ -730,7 +730,7 @@
   "company": {
    "ticker": "BINV",
    "name": "BioInvent International AB",
-   "last_price": "42.52",
+   "last_price": "42.54",
    "market_cap": null
   },
   "ticker": "BINV",
@@ -774,7 +774,7 @@
   "company": {
    "ticker": "BINV",
    "name": "BioInvent International AB",
-   "last_price": "42.52",
+   "last_price": "42.54",
    "market_cap": null
   },
   "ticker": "BINV",
@@ -1140,7 +1140,7 @@
   "company": {
    "ticker": "AQST",
    "name": "Aquestive Therapeutics",
-   "last_price": "4.29",
+   "last_price": "4.17",
    "market_cap": 625996096
   },
   "ticker": "AQST",
@@ -1247,7 +1247,7 @@
   "company": {
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
-   "last_price": "1.87",
+   "last_price": "1.81",
    "market_cap": 178416240
   },
   "ticker": "IPHA",
@@ -1459,7 +1459,7 @@
   "company": {
    "ticker": "SPRB",
    "name": "Spruce Biosciences",
-   "last_price": "51.97",
+   "last_price": "52.62",
    "market_cap": 142760656
   },
   "ticker": "SPRB",
@@ -1693,45 +1693,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 19536,
-  "company": {
-   "ticker": "MCRB",
-   "name": "Seres Therapeutics",
-   "last_price": "6.70",
-   "market_cap": 65947588
-  },
-  "ticker": "MCRB",
-  "drug_name": "SER-155 (Live Biotherapeutic)",
-  "indications": [
-   {
-    "id": 1298,
-    "title": "Bowel disorder",
-    "nickname": ""
-   },
-   {
-    "id": 899,
-    "title": "Inflammatory bowel disease",
-    "nickname": "IBD"
-   }
-  ],
-  "indications_text": "Immune Checkpoint Related Enterocolitis",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "Collab w/ MSK. 11/05/25:- IST ongoing; complete enrollment in 2025, clinical readout in early 2026. 02/12/26:- IST fully enrolled; initial SER-155 irEC clinical results, including safety and efficacy, expected early Q2 2026. 03/12/26:- Memorial Sloan Kettering SER-155 irEC IST fully enrolled; 15 patients; Q2 2026 data expected. 05/05/26:- MSK IST in irEC remains fully enrolled; clinical readout of SER-155 data expected in coming weeks (Q2 2026).",
-  "catalyst_date": "2026-06-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/en/search/subject/ERN",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 20079,
   "company": {
    "ticker": "EVMN",
@@ -1804,7 +1765,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.04",
+   "last_price": "3.95",
    "market_cap": 276452448
   },
   "ticker": "BCYC",
@@ -1936,6 +1897,45 @@
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/02/3304986/0/en/vera-therapeutics-announces-alignment-with-u-s-fda-on-earlier-origin-phase-3-analysis-to-support-potential-full-approval-for-atacicept-in-adults-with-iga-nephropathy.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 19536,
+  "company": {
+   "ticker": "MCRB",
+   "name": "Seres Therapeutics",
+   "last_price": "6.70",
+   "market_cap": 65947588
+  },
+  "ticker": "MCRB",
+  "drug_name": "SER-155 (Live Biotherapeutic)",
+  "indications": [
+   {
+    "id": 1298,
+    "title": "Bowel disorder",
+    "nickname": ""
+   },
+   {
+    "id": 899,
+    "title": "Inflammatory bowel disease",
+    "nickname": "IBD"
+   }
+  ],
+  "indications_text": "Immune Checkpoint Related Enterocolitis",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "Collab w/ MSK. 11/05/25:- IST ongoing; complete enrollment in 2025, clinical readout in early 2026. 02/12/26:- IST fully enrolled; initial SER-155 irEC clinical results, including safety and efficacy, expected early Q2 2026. 03/12/26:- Memorial Sloan Kettering SER-155 irEC IST fully enrolled; 15 patients; Q2 2026 data expected. 05/05/26:- MSK IST in irEC remains fully enrolled; clinical readout of SER-155 data expected in coming weeks (Q2 2026). 06/25/26:- Top-line SER-155 irEC data to be discussed July 8, 2026; MSK IST NCT06801067.",
+  "catalyst_date": "2026-07-08",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/25/3317409/0/en/seres-therapeutics-to-host-webcast-on-july-8-2026-to-discuss-results-of-investigator-sponsored-trial-of-seres-ser-155-in-immune-checkpoint-inhibitor-related-enterocolitis.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -2538,10 +2538,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "C-BEYOND & C-FORWARD Ph3 Trials. 12/4/24- Met primary endpoints. 6/24/25- First patient dosed in Ph3 C-FORWARD trial. 11/12/25:- Ph3 enrollment on track. C-BEYOND topline mid-2026; C-FORWARD topline around end-2026. 12/22/25:- Completed C-BEYOND Ph3 enrollment. 05/13/26:- EASL 2026 posters May 29 on DDI and transport. 05/12/26:- HCV Ph3 C-BEYOND topline mid-2026; C-FORWARD enrollment completion mid-2026; topline around year-end 2026. 05/27/26:- EASL Ph1 DDI results: low interaction with omeprazole, digoxin, rosuvastatin. Ph3 topline still mid-2026.",
+  "note": "C-BEYOND & C-FORWARD Ph3 Trials. 12/4/24- Met primary endpoints. 6/24/25- First patient dosed in Ph3 C-FORWARD trial. 11/12/25:- Ph3 enrollment on track. C-BEYOND topline mid-2026; C-FORWARD topline around end-2026. 12/22/25:- Completed C-BEYOND Ph3 enrollment. 05/13/26:- EASL 2026 posters May 29 on DDI and transport. 05/12/26:- HCV Ph3 C-BEYOND topline mid-2026; C-FORWARD enrollment completion mid-2026; topline around year-end 2026. 05/27/26:- EASL Ph1 DDI results: low interaction with omeprazole, digoxin, rosuvastatin. Ph3 topline still mid-2026. 06/25/26:- C-FORWARD enrollment completed. C-BEYOND topline mid-2026; C-FORWARD topline around year-end 2026.",
   "catalyst_date": "2026-08-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/27/3301752/0/en/atea-pharmaceuticals-presents-new-drug-drug-interaction-results-supporting-potential-best-in-class-profile-of-the-regimen-of-bemnifosbuvir-and-ruzasvir-for-the-treatment-of-hepatit.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/25/3317395/0/en/atea-pharmaceuticals-completes-patient-enrollment-in-phase-3-c-forward-trial-evaluating-bemnifosbuvir-and-ruzasvir-for-treatment-of-hepatitis-c-virus.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -3814,7 +3814,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "199.59",
+   "last_price": "204.61",
    "market_cap": 29466892288
   },
   "ticker": "BIIB",
@@ -3892,7 +3892,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "125.16",
+   "last_price": "124.49",
    "market_cap": 155394899968
   },
   "ticker": "GILD",
@@ -4218,7 +4218,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.92",
+   "last_price": "1.85",
    "market_cap": 14480331
   },
   "ticker": "BIVI",
@@ -4471,7 +4471,7 @@
   "company": {
    "ticker": "BFRI",
    "name": "Biofrontera",
-   "last_price": "1.00",
+   "last_price": "1.01",
    "market_cap": 12802063
   },
   "ticker": "BFRI",
@@ -4558,10 +4558,10 @@
    "stage_label": "Phase 2a",
    "event_label": "Data readout"
   },
-  "note": "12/4/24- Expands Ph2 trial. 2/18/25- Announced dosing of add'l 4 patients. 3/25/25- Announced dosing at Yale. 4/2/25- Commenced dosing at JHU. 6/13/25- Dosing on multiple site commenced. 9/24/25- Poster presentation at ECTRIMS '25. 12/12/25:- na-SPMS EA program has 14 patients with stable or improved disease; Phase 2a trial ongoing. 02/25/26:- EA biomarker data from NCT06802328; Phase 2a trial NCT06292923 topline expected H1 2026. 05/14/26:- EA program NCT06802328 showed stability or improvement within 6 months in 14 patients. Ph2a topline H1 2026. 05/19/26:- NCT06802328 data through Mar 2026: 14 patients stable/improved; no new safety signals. Ph2a NCT06292923 ongoing. 05/21/26:- Enrollment completed in INFORM-MS Ph2a (NCT06292923); topline Late Q3 2026; ACTRIMS/ECTRIMS Oct 2026.",
+  "note": "12/4/24- Expands Ph2 trial. 2/18/25- Announced dosing of add'l 4 patients. 3/25/25- Announced dosing at Yale. 4/2/25- Commenced dosing at JHU. 6/13/25- Dosing on multiple site commenced. 9/24/25- Poster presentation at ECTRIMS '25. 12/12/25:- na-SPMS EA program has 14 patients with stable or improved disease; Phase 2a trial ongoing. 02/25/26:- EA biomarker data from NCT06802328; Phase 2a trial NCT06292923 topline expected H1 2026. 05/14/26:- EA program NCT06802328 showed stability or improvement within 6 months in 14 patients. Ph2a topline H1 2026. 05/19/26:- NCT06802328 data through Mar 2026: 14 patients stable/improved; no new safety signals. Ph2a NCT06292923 ongoing. 05/21/26:- Enrollment completed in INFORM-MS Ph2a (NCT06292923); topline Late Q3 2026; ACTRIMS/ECTRIMS Oct 2026. 06/25/26:- Last patient received first dose in INFORM-MS Ph2a. Topline late Q3/early Q4 2026; ACTRIMS/ECTRIMS Oct 2026.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/21/3299520/0/en/Tiziana-Fully-Enrolls-its-Phase-2-Placebo-Controlled-Multiple-Sclerosis-Trial.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/25/3317416/0/en/tiziana-announces-last-patient-successfully-dosed-in-its-phase-2-inform-ms-trial.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -4797,7 +4797,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.92",
+   "last_price": "1.85",
    "market_cap": 14480331
   },
   "ticker": "BIVI",
@@ -5430,7 +5430,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "87.91",
+   "last_price": "87.81",
    "market_cap": 7489189888
   },
   "ticker": "SYRE",
@@ -5644,7 +5644,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "87.91",
+   "last_price": "87.81",
    "market_cap": 7489189888
   },
   "ticker": "SYRE",
@@ -5790,7 +5790,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.23",
+   "last_price": "1.24",
    "market_cap": 90374304
   },
   "ticker": "BMEA",
@@ -5824,7 +5824,7 @@
   "company": {
    "ticker": "TENX",
    "name": "Tenax Therapeutics",
-   "last_price": "12.85",
+   "last_price": "12.50",
    "market_cap": 342970336
   },
   "ticker": "TENX",
@@ -6822,7 +6822,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "38.73",
+   "last_price": "38.42",
    "market_cap": 6412675584
   },
   "ticker": "COGT",
@@ -7324,7 +7324,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "38.73",
+   "last_price": "38.42",
    "market_cap": 6412675584
   },
   "ticker": "COGT",
@@ -8403,7 +8403,7 @@
   "company": {
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
-   "last_price": "1.87",
+   "last_price": "1.81",
    "market_cap": 178416240
   },
   "ticker": "IPHA",
@@ -10745,7 +10745,7 @@
   "company": {
    "ticker": "GNPX",
    "name": "Genprex",
-   "last_price": "0.50",
+   "last_price": "0.48",
    "market_cap": 5277844
   },
   "ticker": "GNPX",
@@ -12870,7 +12870,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.96",
+   "last_price": "15.42",
    "market_cap": 2252392448
   },
   "ticker": "BHVN",
@@ -13421,7 +13421,7 @@
   "company": {
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
-   "last_price": "33.90",
+   "last_price": "34.58",
    "market_cap": 3487605504
   },
   "ticker": "BEAM",
@@ -13854,7 +13854,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "10.00",
+   "last_price": "10.04",
    "market_cap": 2541626624
   },
   "ticker": "BCRX",
@@ -14044,7 +14044,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.23",
+   "last_price": "1.24",
    "market_cap": 90374304
   },
   "ticker": "BMEA",
@@ -14283,7 +14283,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.96",
+   "last_price": "15.42",
    "market_cap": 2252392448
   },
   "ticker": "BHVN",
@@ -14624,7 +14624,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "17.52",
+   "last_price": "17.44",
    "market_cap": 1912607360
   },
   "ticker": "VRDN",
@@ -14720,7 +14720,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "4.10",
+   "last_price": "4.14",
    "market_cap": 280808512
   },
   "ticker": "ADAG",
@@ -15614,7 +15614,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "22.83",
+   "last_price": "23.32",
    "market_cap": 1014855936
   },
   "ticker": "BIOA",
@@ -16061,7 +16061,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "82.09",
+   "last_price": "85.13",
    "market_cap": 4951020032
   },
   "ticker": "ORKA",
@@ -16236,7 +16236,7 @@
   "company": {
    "ticker": "BINV",
    "name": "BioInvent International AB",
-   "last_price": "42.52",
+   "last_price": "42.54",
    "market_cap": null
   },
   "ticker": "BINV",
@@ -16581,7 +16581,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.23",
+   "last_price": "1.24",
    "market_cap": 90374304
   },
   "ticker": "BMEA",
@@ -20972,7 +20972,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "4.10",
+   "last_price": "4.14",
    "market_cap": 280808512
   },
   "ticker": "ADAG",
@@ -22427,7 +22427,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "199.59",
+   "last_price": "204.61",
    "market_cap": 29466892288
   },
   "ticker": "BIIB",
@@ -23001,7 +23001,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "87.91",
+   "last_price": "87.81",
    "market_cap": 7489189888
   },
   "ticker": "SYRE",
@@ -23040,7 +23040,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "87.91",
+   "last_price": "87.81",
    "market_cap": 7489189888
   },
   "ticker": "SYRE",
@@ -23517,7 +23517,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "82.09",
+   "last_price": "85.13",
    "market_cap": 4951020032
   },
   "ticker": "ORKA",
@@ -23877,7 +23877,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "82.09",
+   "last_price": "85.13",
    "market_cap": 4951020032
   },
   "ticker": "ORKA",
@@ -23911,7 +23911,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "82.09",
+   "last_price": "85.13",
    "market_cap": 4951020032
   },
   "ticker": "ORKA",
@@ -24217,7 +24217,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "199.59",
+   "last_price": "204.61",
    "market_cap": 29466892288
   },
   "ticker": "BIIB",
@@ -26032,7 +26032,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "125.16",
+   "last_price": "124.49",
    "market_cap": 155394899968
   },
   "ticker": "GILD",
@@ -26100,7 +26100,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.04",
+   "last_price": "3.95",
    "market_cap": 276452448
   },
   "ticker": "BCYC",
@@ -26724,7 +26724,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.73",
+   "last_price": "0.72",
    "market_cap": 158604480
   },
   "ticker": "TNYA",
@@ -26963,7 +26963,7 @@
   "company": {
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
-   "last_price": "1.87",
+   "last_price": "1.81",
    "market_cap": 178416240
   },
   "ticker": "IPHA",
@@ -27645,7 +27645,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "199.59",
+   "last_price": "204.61",
    "market_cap": 29466892288
   },
   "ticker": "BIIB",
@@ -28083,7 +28083,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "38.73",
+   "last_price": "38.42",
    "market_cap": 6412675584
   },
   "ticker": "COGT",
@@ -28190,7 +28190,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "125.16",
+   "last_price": "124.49",
    "market_cap": 155394899968
   },
   "ticker": "GILD",
@@ -28224,7 +28224,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.04",
+   "last_price": "3.95",
    "market_cap": 276452448
   },
   "ticker": "BCYC",
@@ -28268,7 +28268,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "10.00",
+   "last_price": "10.04",
    "market_cap": 2541626624
   },
   "ticker": "BCRX",
@@ -29104,7 +29104,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "4.10",
+   "last_price": "4.14",
    "market_cap": 280808512
   },
   "ticker": "ADAG",
@@ -29143,7 +29143,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "4.10",
+   "last_price": "4.14",
    "market_cap": 280808512
   },
   "ticker": "ADAG",

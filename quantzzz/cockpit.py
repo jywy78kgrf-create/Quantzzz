@@ -322,13 +322,33 @@ def build_state(cfg: Config) -> dict:
                "pnl": (cl["pnl"] or 0) * scale}
     state["catalyst"] = cat
 
-    # ---- research lab: recent iterations for the animated search space ----
-    state["research_feed"] = _rows(conn, """
-        SELECT i.ts, i.desk, s.family, s.params_json, i.oos_sharpe, i.is_sharpe,
-               i.max_dd, i.fitness, i.promoted, i.dsr_prob, i.bootstrap_q05,
-               substr(i.fail_reasons,1,60) fail
-        FROM research_iterations i LEFT JOIN strategies s ON s.id = i.strategy_id
-        ORDER BY i.id DESC LIMIT 150""")
+    # ---- daily trade activity (live book): made / closed / realized per day ----
+    opened = {r[0]: r[1] for r in conn.execute(
+        "SELECT date(entry_ts) d, COUNT(*) n FROM trades WHERE source='live' "
+        "GROUP BY d").fetchall()}
+    closed = {r[0]: (r[1], r[2]) for r in conn.execute(
+        "SELECT date(exit_ts) d, COUNT(*) n, COALESCE(SUM(pnl),0) p FROM trades "
+        "WHERE source='live' AND exit_ts IS NOT NULL GROUP BY d").fetchall()}
+    days = sorted(set(opened) | set(closed), reverse=True)[:12]
+    state["activity"] = [
+        {"date": d, "opened": opened.get(d, 0),
+         "closed": closed.get(d, (0, 0))[0], "realized": closed.get(d, (0, 0))[1]}
+        for d in days]
+    state["recent_trades"] = _rows(conn, """
+        SELECT fund, ticker, qty, entry_px, exit_px, entry_ts, exit_ts, pnl
+        FROM trades WHERE source='live'
+        ORDER BY COALESCE(exit_ts, entry_ts) DESC LIMIT 16""")
+
+    # ---- evolution scoreboard: is the genetic search earning its keep? ----
+    # created -> ever-promoted -> still-live, per search operator, plus how many
+    # carry a recorded parent (lineage, accruing since the parent_id fix).
+    state["evolution"] = _rows(conn, """
+        SELECT origin,
+               COUNT(*) created,
+               SUM(CASE WHEN promoted_ts IS NOT NULL THEN 1 ELSE 0 END) promoted,
+               SUM(CASE WHEN status='promoted' THEN 1 ELSE 0 END) live,
+               SUM(CASE WHEN parent_id IS NOT NULL THEN 1 ELSE 0 END) lineage
+        FROM strategies GROUP BY origin ORDER BY created DESC""")
 
     # ---- decision feed ----
     state["journal"] = _rows(conn, """

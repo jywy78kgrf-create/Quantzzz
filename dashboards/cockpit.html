@@ -152,19 +152,23 @@
   </div>
 
   <div class="card col12">
-    <h3>Research Lab · the quants searching for edge, live</h3>
-    <div style="display:flex; gap:16px; flex-wrap:wrap">
+    <h3>Live Activity &amp; Evolution · what the system is actually doing</h3>
+    <div style="display:flex; gap:24px; flex-wrap:wrap">
       <div style="flex:1 1 440px; min-width:340px">
-        <div class="labsub">fitness landscape · drawdown × fitness × OOS Sharpe</div>
-        <div id="lab" style="height:300px"></div>
+        <div class="labsub">daily trade activity · opened / closed / realized P&amp;L (live book)</div>
+        <table id="activitytbl"><thead><tr><th>day</th>
+          <th style="text-align:right">opened</th><th style="text-align:right">closed</th>
+          <th style="text-align:right">realized</th></tr></thead><tbody></tbody></table>
+        <div class="labhead" style="margin-top:10px"><span class="cursor">▮</span> recent fills</div>
+        <div id="recentfills"></div>
       </div>
       <div style="flex:1 1 440px; min-width:340px">
-        <div class="labsub">promotion gauntlet · OOS Sharpe × deflated Sharpe × bootstrap floor</div>
-        <div id="lab2" style="height:300px"></div>
-      </div>
-      <div style="flex:1 1 100%">
-        <div class="labhead"><span class="cursor">▮</span> evaluating candidates…</div>
-        <div id="labticker"></div>
+        <div class="labsub">evolution scoreboard · which search operator earns promotions</div>
+        <table id="evotbl"><thead><tr><th>operator</th>
+          <th style="text-align:right">created</th><th style="text-align:right">promoted</th>
+          <th style="text-align:right">live</th><th style="text-align:right">hit&nbsp;rate</th></tr></thead>
+          <tbody></tbody></table>
+        <div class="labsub" id="evonote" style="margin-top:10px"></div>
       </div>
     </div>
   </div>
@@ -256,123 +260,49 @@ function kpis(s){
   fwdset('fwdeq','fwdeqsub',eq); fwdset('fwdbio','fwdbiosub',bio);
 }
 
-// ---- the research lab: animated search space + terminal readout ----
-let lab, lab2, labCursor=0, labRows=[];
-function labSupports3d(){
-  try{const c=document.createElement('canvas');
-      return !!(c.getContext('webgl')||c.getContext('experimental-webgl'));}
-  catch(e){return false;}
-}
-function labChart(s){
-  if(!window.echarts)return;
-  if(!lab){try{lab=echarts.init($('lab'),null,{renderer:'canvas'});}catch(e){return;}}
-  const pts=s.research_feed.filter(r=>r.oos_sharpe!=null).reverse();
-  const norm=pts.filter(p=>!p.promoted), prom=pts.filter(p=>p.promoted);
-  const C={equity:'#5b8cff',biotech:'#a78bfa'};
-  const has3d=!!(echarts.graphic && window.WebGLRenderingContext && labSupports3d());
-  const mk=r=>({value:[(r.max_dd||0)*100, r.fitness||0, r.oos_sharpe],
-                itemStyle:{color:r.promoted? '#2dd4a7' : (C[r.desk]||'#5b8cff'),opacity:.85},
-                name:`${r.desk} · ${(r.family||'?').replaceAll('_',' ')}`});
-  if(has3d){
-    lab.setOption({backgroundColor:'transparent',
-      tooltip:{backgroundColor:'#0c1120',borderColor:'#1c2742',textStyle:{color:'#dfe7ff'},
-        formatter:p=>`${p.name}<br>OOS Sharpe ${(+p.value[2]).toFixed(2)} · dd ${(+p.value[0]).toFixed(0)}% · fitness ${(+p.value[1]).toFixed(2)}`},
-      grid3D:{boxWidth:230,boxDepth:130,boxHeight:95,
-        viewControl:{autoRotate:true,autoRotateSpeed:7,distance:168,alpha:13,beta:35},
-        axisLine:{lineStyle:{color:'#54688f',width:1.6}},
-        axisPointer:{lineStyle:{color:'#7d93c4'}},
-        splitLine:{show:true,lineStyle:{color:'#2c3c61',width:1}},
-        splitArea:{show:true,areaStyle:{color:['rgba(20,29,54,.35)','rgba(13,20,40,.35)']}},
-        light:{main:{intensity:1.3,shadow:false},ambient:{intensity:.5}}},
-      xAxis3D:{name:'max dd %',nameTextStyle:{color:'#9fb0d6',fontSize:13},
-               axisLabel:{color:'#8295bd',fontSize:11}},
-      yAxis3D:{name:'fitness',nameTextStyle:{color:'#9fb0d6',fontSize:13},
-               axisLabel:{color:'#8295bd',fontSize:11}},
-      zAxis3D:{name:'OOS sharpe',nameTextStyle:{color:'#9fb0d6',fontSize:13},
-               axisLabel:{color:'#8295bd',fontSize:11}},
-      series:[
-        {type:'scatter3D',data:norm.map(mk),symbolSize:4,
-         itemStyle:{opacity:.85},emphasis:{itemStyle:{color:'#ffc560'}}},
-        {type:'scatter3D',data:prom.map(mk),symbolSize:9,
-         itemStyle:{color:'#2dd4a7',opacity:1},
-         label:{show:true,formatter:'★',textStyle:{color:'#2dd4a7',fontSize:12}}},
-      ]});
-  }else{
-    const mk2=r=>({value:[(r.max_dd||0)*100, r.oos_sharpe, Math.max(4,(r.fitness||0)*6+6)],
-                  itemStyle:{color:C[r.desk]||'#5b8cff',opacity:.75},name:r.desk});
-    lab.setOption({backgroundColor:'transparent',grid:{left:52,right:16,top:30,bottom:34},
-      xAxis:{axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
-      yAxis:{axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#121b32'}}},
-      series:[{type:'scatter',data:norm.map(mk2),symbolSize:d=>d[2]},
-              {type:'effectScatter',data:prom.map(mk2),symbolSize:d=>d[2]+6,
-               rippleEffect:{brushType:'stroke',scale:3.4},
-               itemStyle:{color:'#2dd4a7'}}]});
+// ---- live activity + evolution scoreboard (real signal, not search eye-candy) ----
+const fmtD=v=>{const n=Math.round(v); return (n>=0?'+$':'−$')+Math.abs(n).toLocaleString();};
+function activity(s){
+  const tb=document.querySelector('#activitytbl tbody'); tb.innerHTML='';
+  for(const d of (s.activity||[])){
+    tb.insertAdjacentHTML('beforeend',
+      `<tr><td>${d.date}</td>`+
+      `<td style="text-align:right">${d.opened}</td>`+
+      `<td style="text-align:right">${d.closed}</td>`+
+      `<td style="text-align:right" class="${cls(d.realized)}">${d.closed?fmtD(d.realized):'—'}</td></tr>`);
+  }
+  if(!(s.activity||[]).length)
+    tb.innerHTML='<tr><td colspan="4" style="color:#6b7a9c">no live trades yet</td></tr>';
+  const fe=$('recentfills'); fe.innerHTML='';
+  for(const t of (s.recent_trades||[]).slice(0,9)){
+    const done=t.exit_ts!=null;
+    const px=done?t.exit_px:t.entry_px;
+    const when=((done?t.exit_ts:t.entry_ts)||'').slice(5,16).replace('T',' ');
+    const pnl=done?` <span class="${cls(t.pnl)}">${fmtD(t.pnl)}</span>`:'';
+    const verb=done?'SELL':'BUY';
+    fe.insertAdjacentHTML('beforeend',
+      `<div style="font-size:12px;padding:2px 0;color:#9fb0d6">${when} · `+
+      `<span style="color:#5b8cff">${verb}</span> `+
+      `<span style="color:#dfe7ff;font-weight:600">${t.ticker}</span> @ ${(+px).toFixed(2)}${pnl}</div>`);
   }
 }
-function labChart2(s){
-  if(!window.echarts)return;
-  if(!lab2){try{lab2=echarts.init($('lab2'),null,{renderer:'canvas'});}catch(e){return;}}
-  const pts=s.research_feed.filter(r=>r.oos_sharpe!=null && r.dsr_prob!=null).reverse();
-  // colour by which deflated-Sharpe band a candidate is in: the gate made visible
-  const band=v=>v>=0.9?'#2dd4a7':(v>=0.6?'#ffc560':'#5b8cff');
-  if(!window.WebGLRenderingContext || !(echarts.graphic) || !labSupports3d()){
-    lab2.setOption({backgroundColor:'transparent',grid:{left:46,right:14,top:28,bottom:34},
-      xAxis:{name:'OOS sharpe',nameTextStyle:{color:'#9fb0d6'},axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#1a1424'}}},
-      yAxis:{name:'DSR',min:0,max:1,nameTextStyle:{color:'#9fb0d6'},axisLabel:{color:'#6b7a9c'},splitLine:{lineStyle:{color:'#1a1424'}}},
-      series:[{type:'scatter',symbolSize:7,
-        markLine:{silent:true,symbol:'none',lineStyle:{color:'#2dd4a7',type:'dashed'},
-          data:[{yAxis:0.9,label:{formatter:'promote ≥ 0.90',color:'#2dd4a7',position:'insideStartTop'}}]},
-        data:pts.map(r=>({value:[r.oos_sharpe, r.dsr_prob],
-          itemStyle:{color:r.promoted?'#2dd4a7':band(r.dsr_prob),opacity:.85}}))}]});
-    return;
+function evolution(s){
+  const tb=document.querySelector('#evotbl tbody'); tb.innerHTML='';
+  let lineage=0;
+  for(const e of (s.evolution||[])){
+    const rate=e.created? (100*e.promoted/e.created):0;
+    lineage+=e.lineage||0;
+    const rstr=e.promoted? ((rate>=1?rate.toFixed(2):rate.toFixed(3))+'%') : '—';
+    tb.insertAdjacentHTML('beforeend',
+      `<tr><td>${e.origin}</td>`+
+      `<td style="text-align:right">${(e.created||0).toLocaleString()}</td>`+
+      `<td style="text-align:right">${e.promoted||0}</td>`+
+      `<td style="text-align:right">${e.live||0}</td>`+
+      `<td style="text-align:right">${rstr}</td></tr>`);
   }
-  const mk=r=>({value:[r.oos_sharpe, r.dsr_prob, (r.bootstrap_q05==null?0:r.bootstrap_q05)],
-    name:`${r.desk} · ${(r.family||'?').replaceAll('_',' ')}`});
-  lab2.setOption({backgroundColor:'transparent',
-    tooltip:{backgroundColor:'#0c1120',borderColor:'#1c2742',textStyle:{color:'#dfe7ff'},
-      formatter:p=>`${p.name}<br>OOS ${(+p.value[0]).toFixed(2)} · DSR ${(+p.value[1]).toFixed(2)} · boot ${(+p.value[2]).toFixed(2)}`},
-    visualMap:{type:'piecewise',dimension:1,show:true,left:4,bottom:6,itemWidth:11,itemHeight:11,
-      textStyle:{color:'#8295bd',fontSize:10},
-      pieces:[{min:0.9,max:1,color:'#2dd4a7',label:'≥0.90 promote'},
-              {min:0.6,max:0.9,color:'#ffc560',label:'0.60–0.90'},
-              {min:0,max:0.6,color:'#ff5d73',label:'<0.60 weak'}]},
-    grid3D:{boxWidth:225,boxDepth:130,boxHeight:100,
-      viewControl:{autoRotate:true,autoRotateSpeed:-8,distance:174,alpha:18,beta:-28},
-      axisLine:{lineStyle:{color:'#6a5687',width:1.6}},
-      splitLine:{show:true,lineStyle:{color:'#3a2c50',width:1}},
-      splitArea:{show:true,areaStyle:{color:['rgba(40,24,54,.40)','rgba(24,16,34,.40)']}},
-      light:{main:{intensity:1.25,shadow:false},ambient:{intensity:.55}}},
-    xAxis3D:{name:'OOS sharpe',nameTextStyle:{color:'#c4b3df',fontSize:13},axisLabel:{color:'#9d8bbd',fontSize:11}},
-    yAxis3D:{name:'deflated sharpe',min:0,max:1,nameTextStyle:{color:'#c4b3df',fontSize:13},axisLabel:{color:'#9d8bbd',fontSize:11}},
-    zAxis3D:{name:'bootstrap floor',nameTextStyle:{color:'#c4b3df',fontSize:13},axisLabel:{color:'#9d8bbd',fontSize:11}},
-    series:[
-      {type:'scatter3D',data:pts.filter(r=>!r.promoted).map(mk),symbolSize:6,
-       emphasis:{itemStyle:{color:'#fff'}}},
-      {type:'scatter3D',data:pts.filter(r=>r.promoted).map(mk),symbolSize:11,
-       itemStyle:{color:'#2dd4a7',opacity:1},label:{show:true,formatter:'★',textStyle:{color:'#2dd4a7',fontSize:13}}},
-    ]});
-}
-function labTicker(s){
-  labRows=s.research_feed.slice(0,40);
-  const el=$('labticker'); el.innerHTML='';
-  for(const r of labRows.slice(0,9)) el.insertAdjacentHTML('beforeend',labLine(r));
-}
-function labLine(r){
-  const ok=r.promoted? '<span class="ok">★ PROMOTED</span>'
-        : (r.oos_sharpe==null? '<span class="no">✗ weak IS</span>'
-        : (r.fail? `<span class="no">✗ ${r.fail}</span>` : '<span class="ok">✓ pass</span>'));
-  let p={}; try{p=JSON.parse(r.params_json||'{}')}catch(e){}
-  const ps=Object.entries(p).slice(0,3).map(([k,v])=>`${k}:${v}`).join(' ');
-  return `<div class="row">▶ <span class="fam">${r.desk}·${(r.family||'?').replaceAll('_',' ')}</span> {${ps}} → ${
-    r.oos_sharpe!=null? 'sharpe '+(+r.oos_sharpe).toFixed(2)+' ' : ''}${ok}</div>`;
-}
-function labRotate(){  // cycle the readout so the lab always feels busy
-  if(!labRows.length)return;
-  labCursor=(labCursor+1)%labRows.length;
-  const el=$('labticker');
-  el.insertAdjacentHTML('afterbegin',labLine(labRows[labCursor]));
-  while(el.children.length>9)el.removeChild(el.lastChild);
-  if(window.gsap)gsap.from(el.firstChild,{x:-10,opacity:0,duration:.4,ease:'power2.out'});
+  $('evonote').innerHTML = lineage>0
+    ? `lineage recorded on <b>${lineage.toLocaleString()}</b> strategies — mutation/crossover now traceable to their parent`
+    : `lineage tracking just enabled — parent links accrue from the next cycles on`;
 }
 
 function loop(s){
@@ -589,7 +519,7 @@ let firstLoad=true;
 async function refresh(){
   try{
     const s=await(await fetch('/api/state')).json();
-    kpis(s);loop(s);curves(s);bench(s);strats(s);feed(s);books(s);catalyst(s);cats(s);labChart(s);labChart2(s);labTicker(s);
+    kpis(s);loop(s);curves(s);bench(s);strats(s);feed(s);books(s);catalyst(s);cats(s);activity(s);evolution(s);
     if(firstLoad){firstLoad=false;
       if(window.gsap)gsap.from('.card',{y:18,opacity:0,duration:.65,stagger:.05,ease:'power2.out',clearProps:'transform,opacity'});}
   }catch(e){$('heartbeat').textContent='reconnecting…';}
@@ -601,7 +531,7 @@ window.addEventListener('load',()=>{
     particles:{number:{value:50},color:{value:['#5b8cff','#a78bfa','#2dd4a7']},
       links:{enable:true,color:'#22304f',opacity:.3,distance:150,width:1},
       move:{enable:true,speed:.35},opacity:{value:.35},size:{value:{min:1,max:2.2}}}}});
-  refresh(); setInterval(refresh,30000); setInterval(labRotate,2200);
+  refresh(); setInterval(refresh,30000);
 });
 </script>
 </body>

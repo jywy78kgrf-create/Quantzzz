@@ -52,5 +52,23 @@ def test_spec_hash_stable_and_distinct():
 
 def test_propose_returns_origin():
     rng = random.Random(6)
-    spec, origin = evolution.propose("equity", [], rng)
+    spec, origin, parent = evolution.propose("equity", [], rng)
     assert origin == "random"
+    assert parent is None   # fresh random draw has no parent
+
+
+def test_propose_records_parent_for_mutation():
+    rng = random.Random(0)
+    from quantzzz.research.strategy_space import StrategySpec
+    from quantzzz.research.strategies import families_for, space_for
+    fam = families_for("equity")[0]
+    pop = [StrategySpec(fam, "equity", space_for(fam).random_params(rng))
+           for _ in range(10)]
+    # draw until we hit a derived operator; it must return a population parent
+    for seed in range(50):
+        spec, origin, parent = evolution.propose("equity", pop, random.Random(seed))
+        if origin in ("mutation", "crossover", "heuristic"):
+            assert parent in pop
+            break
+    else:
+        raise AssertionError("never drew a derived operator")

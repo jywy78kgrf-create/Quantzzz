@@ -50,20 +50,23 @@ def heuristic_proposal(leaderboard: list[StrategySpec], desk: str,
 
 
 def propose(desk: str, population: list[StrategySpec], rng: random.Random,
-            family_weights: dict | None = None) -> tuple[StrategySpec, str]:
-    """Pick an operator by weighted draw; returns (spec, origin). family_weights
-    (meta-learning forward-survival prior) biases which family a fresh proposal
-    explores; mutation/crossover stay anchored to the existing population."""
+            family_weights: dict | None = None) -> tuple[StrategySpec, str, StrategySpec | None]:
+    """Pick an operator by weighted draw; returns (spec, origin, parent). The
+    parent is the population spec this proposal was derived from (None for fresh
+    random draws), so lineage can be recorded. family_weights (meta-learning
+    forward-survival prior) biases which family a fresh proposal explores;
+    mutation/crossover stay anchored to the existing population."""
     r = rng.random()
     if r < 0.25 or len(population) < 2:
-        return random_spec(desk, rng, family_weights), "random"
+        return random_spec(desk, rng, family_weights), "random", None
     if r < 0.70:
         parent = _weighted_choice(population, rng)
-        return mutate(parent, rng), "mutation"
+        return mutate(parent, rng), "mutation", parent
     if r < 0.85:
         a, b = rng.sample(population[:8], 2) if len(population) >= 2 else (population[0], population[0])
-        return crossover(a, b, rng), "crossover"
-    return heuristic_proposal(population, desk, rng, family_weights), "heuristic"
+        return crossover(a, b, rng), "crossover", a   # offspring anchors to fitter parent a
+    parent = population[0] if population else None     # heuristic jitters the leader
+    return heuristic_proposal(population, desk, rng, family_weights), "heuristic", parent
 
 
 def _weighted_choice(population: list[StrategySpec], rng: random.Random) -> StrategySpec:

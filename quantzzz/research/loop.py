@@ -101,11 +101,12 @@ class ResearchDesk:
             if self.llm and i % self.cfg.llm_propose_every == 0:
                 specs += self._llm_proposals(population)
 
-            for spec, origin in specs:
+            for spec, origin, parent in specs:
                 h = spec.spec_hash()
                 if h in seen:
                     continue
                 seen.add(h)
+                parent_id = self._strategy_id_for(parent) if parent is not None else None
                 ev, promoted, reasons, corr_ids, forward_verified = self._evaluate_spec(
                     spec, is_dates, oos_windows, bench, promoted_returns)
                 only_corr_blocked = (not promoted and ev is not None and corr_ids
@@ -117,7 +118,8 @@ class ResearchDesk:
                         reasons = []
                         promoted_returns[:] = [(sid, r) for sid, r in promoted_returns
                                                if sid != swapped]
-                strat_id = self._persist_strategy(spec, origin, promoted, forward_verified)
+                strat_id = self._persist_strategy(spec, origin, promoted,
+                                                  forward_verified, parent_id=parent_id)
                 self._persist_iteration(run_id, i, strat_id, ev, promoted, reasons)
 
                 from . import shadow as SH
@@ -293,7 +295,7 @@ class ResearchDesk:
             try:
                 space = space_for(spec.family)
                 out.append((StrategySpec(spec.family, self.desk,
-                                         space.clamp(spec.params)), "llm"))
+                                         space.clamp(spec.params)), "llm", None))
             except Exception:
                 continue
         return out
@@ -467,7 +469,15 @@ class ResearchDesk:
         return sid
 
     # ---- persistence ----
-    def _persist_strategy(self, spec, origin, promoted, forward_verified=True) -> int:
+    def _strategy_id_for(self, spec) -> int | None:
+        """DB id of an already-persisted spec (its parent in the population), via
+        spec_hash. None if it isn't on record yet."""
+        row = self.conn.execute(
+            "SELECT id FROM strategies WHERE spec_hash=?", (spec.spec_hash(),)).fetchone()
+        return row["id"] if row else None
+
+    def _persist_strategy(self, spec, origin, promoted, forward_verified=True,
+                          parent_id=None) -> int:
         h = spec.spec_hash()
         row = self.conn.execute("SELECT id FROM strategies WHERE spec_hash=?", (h,)).fetchone()
         if row:
@@ -475,7 +485,8 @@ class ResearchDesk:
         else:
             sid = insert(self.conn, "strategies", desk=self.desk, family=spec.family,
                          params_json=spec.to_json(), spec_hash=h,
-                         status="candidate", origin=origin, created_ts=utcnow())
+                         status="candidate", origin=origin, created_ts=utcnow(),
+                         parent_id=parent_id)
         if promoted:
             self.conn.execute(
                 "UPDATE strategies SET status='promoted', promoted_ts=?, "

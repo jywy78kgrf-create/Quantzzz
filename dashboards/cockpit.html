@@ -100,11 +100,13 @@
   .lae tbody tr:hover td{background:rgba(91,140,255,.06)}
   .lae .pos{color:#2dd4a7} .lae .neg{color:#ff5d73} .lae .mut{color:#5e6a86}
   .lae .opdot{display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:9px; vertical-align:middle}
-  .lae .bar{position:relative; overflow:hidden}
-  .lae .bar>span{position:relative; z-index:1}
-  .lae .bar::before{content:''; position:absolute; right:0; top:50%; transform:translateY(-50%);
-                    width:var(--w,0); height:62%; border-radius:2px; opacity:.18; z-index:0}
-  .lae .barpos::before{background:#2dd4a7} .lae .barneg::before{background:#ff5d73} .lae .barlive::before{background:#5b8cff}
+  .lae .dbar{position:relative; overflow:hidden}
+  .lae .dbar>span{position:relative; z-index:1}
+  .lae .dbar::before{content:''; position:absolute; right:0; top:50%; transform:translateY(-50%);
+                     width:var(--w,0); height:62%; border-radius:2px; opacity:.12; z-index:0; transition:opacity .15s ease, background .15s ease}
+  .lae .dbarpos::before{background:#2dd4a7} .lae .dbarneg::before{background:#ff5d73} .lae .dbarlive::before{background:#5b8cff}
+  .lae tbody tr:hover .dbar::before{opacity:.4}
+  .lae tbody tr:hover .dbarpos::before{background:#4dffce} .lae tbody tr:hover .dbarneg::before{background:#ff7d90}
   .lae h4{font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:#6b7a9c; font-weight:600; margin:20px 0 11px}
   .lae .fills{display:grid; grid-template-columns:repeat(auto-fill,minmax(208px,1fr)); gap:7px}
   .lae .pill{display:flex; align-items:center; justify-content:space-between; gap:12px; background:#0d1424;
@@ -290,7 +292,7 @@ function activity(s){
   for(const d of rows){
     const w=Math.round(100*Math.abs(d.realized)/mx);
     const rc=d.realized>0?'pos':(d.realized<0?'neg':'mut');
-    const bar=(d.closed&&d.realized)?` bar bar${d.realized>0?'pos':'neg'}`:'';
+    const bar=(d.closed&&d.realized)?` dbar dbar${d.realized>0?'pos':'neg'}`:'';
     tb.insertAdjacentHTML('beforeend',
       `<tr><td>${d.date}</td>`+
       `<td>${d.opened||'<span class="mut">·</span>'}</td>`+
@@ -324,7 +326,7 @@ function evolution(s){
       `<tr><td>${dot}${e.origin}</td>`+
       `<td>${(e.created||0).toLocaleString()}</td>`+
       `<td>${e.promoted||0}</td>`+
-      `<td class="bar barlive" style="--w:${w}%"><span>${e.live||0}</span></td>`+
+      `<td class="dbar dbarlive" style="--w:${w}%"><span>${e.live||0}</span></td>`+
       `<td class="${e.promoted?'':'mut'}">${rstr}</td></tr>`);
   }
   $('evonote').innerHTML = lineage>0

@@ -1,10 +1,44 @@
 [
  {
+  "id": 18081,
+  "company": {
+   "ticker": "ASND",
+   "name": "Ascendis Pharma ",
+   "last_price": "262.13",
+   "market_cap": 17153402880
+  },
+  "ticker": "ASND",
+  "drug_name": "TransCon hGH/TransCon CNP combination",
+  "indications": [
+   {
+    "id": 817,
+    "title": "Achondroplasia",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Achondroplasia",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "COACH Trial. 9/3/24 Complete enrollment in Q3 '24. 6/9/25- Announced topline 26-wk data \u2014 demonstrated boosted treatment benefits. 8/7/25- Reported Week 52 data & initiate Ph3 trial in Q4 2025. 01/09/26:- Week 52 COACH Ph2 topline results announced; Week 78 data update anticipated in Q2 2026. 04/08/26:- Week 52 COACH Ph2 combo data showed arm span, spinal canal, and leg alignment improvements. 06/08/26:- Phase 2 COACH 52-week combo results to be presented at ENDO 2026 on June 15, 2026. 06/25/26:- ICCBH 2026 late-breaker presents COACH Week 52 results June 29, 2026.",
+  "catalyst_date": "2026-06-29",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/25/3317923/0/en/ascendis-to-showcase-advances-in-treatment-of-achondroplasia-at-iccbh-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18501,
   "company": {
    "ticker": "UNCY",
    "name": "Unicycive Therapeutics",
-   "last_price": "7.65",
+   "last_price": "7.04",
    "market_cap": 224896768
   },
   "ticker": "UNCY",
@@ -77,7 +111,7 @@
   "company": {
    "ticker": "ARQT",
    "name": "Arcutis Biotherapeutics",
-   "last_price": "26.69",
+   "last_price": "26.72",
    "market_cap": 3338475264
   },
   "ticker": "ARQT",
@@ -467,7 +501,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "17.91",
+   "last_price": "17.62",
    "market_cap": 1920337280
   },
   "ticker": "VRDN",
@@ -612,6 +646,40 @@
   "catalyst_date": "2026-06-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/03/18/3258655/0/en/marker-therapeutics-reports-year-end-2025-corporate-and-financial-results.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 17264,
+  "company": {
+   "ticker": "TSHA",
+   "name": "Taysha Gene Therapies",
+   "last_price": "6.21",
+   "market_cap": 1784512000
+  },
+  "ticker": "TSHA",
+  "drug_name": "TSHA-102",
+  "indications": [
+   {
+    "id": 1210,
+    "title": "Rett syndrome",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Rett syndrome",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "REVEAL study. 6/18/24- Reported adult & pediatric participants clinical from low dose cohort. 10/2/25- FDA BTD granted. 10/16/25- Regains full rights to lead program. 11/04/25:- Final FDA alignment reached for BLA pathway. First patient dosing remains in Q4 2025 and a longer-term safety and efficacy data update in H1 2026. 01/06/26:- First patient dosed in REVEAL pivotal trial; dosing completion expected Q2 2026; Part A data update H1 2026. 03/19/26:- Multiple REVEAL patients dosed; pivotal dosing completion and Part A longer-term safety and efficacy update expected Q2 2026. 04/27/26:- In vitro scAAV9 data to be presented at ASGCT May 14, 2026. Part A data Q2 2026. 05/06/26:- REVEAL pivotal dosing and Phase 1/2 Part A data remain on track Q2 2026; PPQ campaign completion expected Q4 2026. 06/22/26:- REVEAL pivotal dosing completed (N=17). PPQ campaign completion expected Q4 2026. Six-month interim topline and FDA feedback expected H1 2027. 06/25/26:- Longer-term REVEAL Part A data showed broad functional gains through 12+ months; IRSF presentation June 30, 2026.",
+  "catalyst_date": "2026-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/25/3317925/0/en/taysha-gene-therapies-announces-multiple-presentations-highlighting-its-tsha-102-clinical-program-at-the-2026-irsf-rett-syndrome-scientific-meeting.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -926,40 +994,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 18081,
-  "company": {
-   "ticker": "ASND",
-   "name": "Ascendis Pharma ",
-   "last_price": "262.13",
-   "market_cap": 17153402880
-  },
-  "ticker": "ASND",
-  "drug_name": "TransCon hGH/TransCon CNP combination",
-  "indications": [
-   {
-    "id": 817,
-    "title": "Achondroplasia",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Achondroplasia",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "COACH Trial. 9/3/24 Complete enrollment in Q3 '24. 6/9/25- Announced topline 26-wk data \u2014 demonstrated boosted treatment benefits. 8/7/25- Reported Week 52 data & initiate Ph3 trial in Q4 2025. 01/09/26:- Week 52 COACH Ph2 topline results announced; Week 78 data update anticipated in Q2 2026. 04/08/26:- Week 52 COACH Ph2 combo data showed arm span, spinal canal, and leg alignment improvements. 06/08/26:- Phase 2 COACH 52-week combo results to be presented at ENDO 2026 on June 15, 2026.",
-  "catalyst_date": "2026-06-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/08/3308479/0/en/ascendis-to-showcase-advances-in-treatment-of-rare-endocrine-diseases-at-endo-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18084,
   "company": {
    "ticker": "PHIO",
@@ -1106,7 +1140,7 @@
   "company": {
    "ticker": "AQST",
    "name": "Aquestive Therapeutics",
-   "last_price": "4.39",
+   "last_price": "4.32",
    "market_cap": 560134784
   },
   "ticker": "AQST",
@@ -1296,7 +1330,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "30.94",
+   "last_price": "31.66",
    "market_cap": 1840013568
   },
   "ticker": "TYRA",
@@ -1595,7 +1629,7 @@
   "company": {
    "ticker": "CTNM",
    "name": "Contineum Therapeutics Inc.",
-   "last_price": "13.36",
+   "last_price": "13.43",
    "market_cap": 499481984
   },
   "ticker": "CTNM",
@@ -2150,7 +2184,7 @@
   "company": {
    "ticker": "CVKD",
    "name": "Cadrenal Therapeutics",
-   "last_price": "2.86",
+   "last_price": "3.24",
    "market_cap": 8803786
   },
   "ticker": "CVKD",
@@ -2505,7 +2539,7 @@
   "company": {
    "ticker": "CMPS",
    "name": "Compass Pathways",
-   "last_price": "13.58",
+   "last_price": "14.79",
    "market_cap": 1832611584
   },
   "ticker": "CMPS",
@@ -2914,7 +2948,7 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "27.87",
+   "last_price": "24.50",
    "market_cap": 739266624
   },
   "ticker": "NVCT",
@@ -3849,7 +3883,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "125.45",
+   "last_price": "127.74",
    "market_cap": 309839462400
   },
   "ticker": "MRK",
@@ -3902,10 +3936,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "HOPE-2/HOPE-3 trials. 3/4/25- BLA accepted & priority review. PDUFA date August 31, 2025. 7/11/25- CRL received. 9/9/25- Responded to FDA CRL posting. 9/25/25- HOPE-3 trial completed. 12/3/25\u2013 HOPE-3 met primary and key cardiac endpoints. 01/20/26:- FDA requested HOPE-3 CSR; company plans BLA resubmission in February 2026 to enable new PDUFA. 02/24/26:- HOPE-3 CSR submitted; FDA BLA review ongoing. Detailed HOPE-3 results to be presented at MDA on March 11, 2026. 03/10/26:- FDA resumed BLA review; Class 2 resubmission. PDUFA action date set for August 22, 2026. 03/12/26:- HOPE-3 late-breaking MDA 2026 data show significant functional and cardiac benefits; BLA review ongoing, PDUFA August 22, 2026. 04/22/26:- HOPE-3 Phase 3 data presented at AAN 2026. PDUFA action date remains August 22, 2026. 05/12/26:- PDUFA August 22, 2026 confirmed; labeling talks expected soon; HOPE-3 data strengthened cardiac and functional outcomes.",
+  "note": "HOPE-2/HOPE-3 trials. 3/4/25- BLA accepted & priority review. PDUFA date August 31, 2025. 7/11/25- CRL received. 9/9/25- Responded to FDA CRL posting. 9/25/25- HOPE-3 trial completed. 12/3/25\u2013 HOPE-3 met primary and key cardiac endpoints. 01/20/26:- FDA requested HOPE-3 CSR; company plans BLA resubmission in February 2026 to enable new PDUFA. 02/24/26:- HOPE-3 CSR submitted; FDA BLA review ongoing. Detailed HOPE-3 results to be presented at MDA on March 11, 2026. 03/10/26:- FDA resumed BLA review; Class 2 resubmission. PDUFA action date set for August 22, 2026. 03/12/26:- HOPE-3 late-breaking MDA 2026 data show significant functional and cardiac benefits; BLA review ongoing, PDUFA August 22, 2026. 04/22/26:- HOPE-3 Phase 3 data presented at AAN 2026. PDUFA action date remains August 22, 2026. 05/12/26:- PDUFA August 22, 2026 confirmed; labeling talks expected soon; HOPE-3 data strengthened cardiac and functional outcomes. 06/26/26:- Five-year HOPE-2 OLE data presented at PPMD June 27. PDUFA action date remains August 22, 2026.",
   "catalyst_date": "2026-08-22",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/12/3293375/0/en/capricor-therapeutics-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/26/3318242/0/en/capricor-to-present-positive-five-year-hope-2-ole-data-and-hope-3-phase-3-results-for-deramiocel-in-duchenne-muscular-dystrophy-at-ppmd-2026-annual-conference.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -4783,7 +4817,7 @@
   "company": {
    "ticker": "OLMA",
    "name": "Olema Pharmaceuticals",
-   "last_price": "11.43",
+   "last_price": "11.28",
    "market_cap": 998381632
   },
   "ticker": "OLMA",
@@ -6097,7 +6131,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "125.45",
+   "last_price": "127.74",
    "market_cap": 309839462400
   },
   "ticker": "MRK",
@@ -6170,7 +6204,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "125.45",
+   "last_price": "127.74",
    "market_cap": 309839462400
   },
   "ticker": "MRK",
@@ -6818,7 +6852,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "14.20",
+   "last_price": "14.03",
    "market_cap": 11005985792
   },
   "ticker": "SMMT",
@@ -8872,7 +8906,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "13.05",
+   "last_price": "13.10",
    "market_cap": 1097380096
   },
   "ticker": "CRVS",
@@ -9409,7 +9443,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "30.94",
+   "last_price": "31.66",
    "market_cap": 1840013568
   },
   "ticker": "TYRA",
@@ -9921,7 +9955,7 @@
   "company": {
    "ticker": "ATAI",
    "name": "ATAI Life Sciences",
-   "last_price": "5.04",
+   "last_price": "5.08",
    "market_cap": 1686203392
   },
   "ticker": "ATAI",
@@ -9994,7 +10028,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "30.94",
+   "last_price": "31.66",
    "market_cap": 1840013568
   },
   "ticker": "TYRA",
@@ -11150,7 +11184,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.50",
    "market_cap": 919702400
   },
   "ticker": "KURA",
@@ -11296,7 +11330,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.02",
+   "last_price": "2.09",
    "market_cap": 191060976
   },
   "ticker": "CGEN",
@@ -11457,7 +11491,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "53.98",
+   "last_price": "54.67",
    "market_cap": 5316173312
   },
   "ticker": "CRSP",
@@ -12018,7 +12052,7 @@
   "company": {
    "ticker": "CTMX",
    "name": "CytomX Therapeutics",
-   "last_price": "3.27",
+   "last_price": "3.33",
    "market_cap": 711888512
   },
   "ticker": "CTMX",
@@ -12057,7 +12091,7 @@
   "company": {
    "ticker": "CTMX",
    "name": "CytomX Therapeutics",
-   "last_price": "3.27",
+   "last_price": "3.33",
    "market_cap": 711888512
   },
   "ticker": "CTMX",
@@ -12262,7 +12296,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "53.98",
+   "last_price": "54.67",
    "market_cap": 5316173312
   },
   "ticker": "CRSP",
@@ -12807,7 +12841,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "14.20",
+   "last_price": "14.03",
    "market_cap": 11005985792
   },
   "ticker": "SMMT",
@@ -13553,7 +13587,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.50",
    "market_cap": 919702400
   },
   "ticker": "KURA",
@@ -14503,7 +14537,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "53.98",
+   "last_price": "54.67",
    "market_cap": 5316173312
   },
   "ticker": "CRSP",
@@ -14795,7 +14829,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "17.91",
+   "last_price": "17.62",
    "market_cap": 1920337280
   },
   "ticker": "VRDN",
@@ -15577,7 +15611,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.50",
    "market_cap": 919702400
   },
   "ticker": "KURA",
@@ -16650,7 +16684,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "53.98",
+   "last_price": "54.67",
    "market_cap": 5316173312
   },
   "ticker": "CRSP",
@@ -17586,10 +17620,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "11/6/25- Ph2 trial initiated w/ dosing of first patient in late Q4 or early Q1 2026. 03/19/26:- TakeAim CLL Ph2 emavusertib+zanubrutinib study initiated; fifth patient dosing, tied to PIPE warrants, expected later 2026. 05/12/26:- Initial 5-patient dosing expected by Mid-2026; study data readout expected in December 2026.",
+  "note": "11/6/25- Ph2 trial initiated w/ dosing of first patient in late Q4 or early Q1 2026. 03/19/26:- TakeAim CLL Ph2 emavusertib+zanubrutinib study initiated; fifth patient dosing, tied to PIPE warrants, expected later 2026. 05/12/26:- Initial 5-patient dosing expected by Mid-2026; study data readout expected in December 2026. 06/26/26:- TakeAim CLL CA-4948-203 (NCT07271667) opened 11 sites; initial five-patient dosing by end July 2026; data expected December 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/curis-provides-first-quarter-2026-business-update-302769980.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/curis-announces-eleven-active-clinical-sites-in-takeaim-cll-study-reaffirms-patient-dosing-guidance-and-reports-stockholder-approval-of-reverse-stock-split-302811922.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18375,7 +18409,7 @@
   "company": {
    "ticker": "ONCY",
    "name": "Oncolytics Biotech",
-   "last_price": "0.92",
+   "last_price": "0.96",
    "market_cap": 109841544
   },
   "ticker": "ONCY",
@@ -19489,7 +19523,7 @@
   "company": {
    "ticker": "CUE",
    "name": "Cue Biopharma",
-   "last_price": "25.54",
+   "last_price": "24.96",
    "market_cap": 107276768
   },
   "ticker": "CUE",
@@ -19818,10 +19852,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "05/21/26:- HMB-002 Ph1/2 ongoing in VWD; data expected late 2026 or early 2027.",
+  "note": "05/21/26:- HMB-002 Ph1/2 ongoing in VWD; data expected late 2026 or early 2027. 06/26/26:- First-in-human Ph1/2 data showed VWF and FVIII increases; multiple-dose assessment ongoing.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://ir.hemab.com/node/6891/html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/26/3318236/0/en/hemab-therapeutics-to-present-clinical-and-preclinical-data-from-multiple-blood-coagulation-programs-at-the-isth-2026-congress.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20806,7 +20840,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "0.98",
+   "last_price": "0.99",
    "market_cap": 19091790
   },
   "ticker": "QNCX",
@@ -20840,7 +20874,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "0.98",
+   "last_price": "0.99",
    "market_cap": 19091790
   },
   "ticker": "QNCX",
@@ -21546,40 +21580,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 17264,
-  "company": {
-   "ticker": "TSHA",
-   "name": "Taysha Gene Therapies",
-   "last_price": "6.21",
-   "market_cap": 1784512000
-  },
-  "ticker": "TSHA",
-  "drug_name": "TSHA-102",
-  "indications": [
-   {
-    "id": 1210,
-    "title": "Rett syndrome",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Rett syndrome",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "REVEAL study. 6/18/24- Reported adult & pediatric participants clinical from low dose cohort. 10/2/25- FDA BTD granted. 10/16/25- Regains full rights to lead program. 11/04/25:- Final FDA alignment reached for BLA pathway. First patient dosing remains in Q4 2025 and a longer-term safety and efficacy data update in H1 2026. 01/06/26:- First patient dosed in REVEAL pivotal trial; dosing completion expected Q2 2026; Part A data update H1 2026. 03/19/26:- Multiple REVEAL patients dosed; pivotal dosing completion and Part A longer-term safety and efficacy update expected Q2 2026. 04/27/26:- In vitro scAAV9 data to be presented at ASGCT May 14, 2026. Part A data Q2 2026. 05/06/26:- REVEAL pivotal dosing and Phase 1/2 Part A data remain on track Q2 2026; PPQ campaign completion expected Q4 2026. 06/22/26:- REVEAL pivotal dosing completed (N=17). PPQ campaign completion expected Q4 2026. Six-month interim topline and FDA feedback expected H1 2027.",
-  "catalyst_date": "2027-06-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/22/3315248/0/en/Taysha-Gene-Therapies-Announces-Completion-of-Dosing-in-REVEAL-Pivotal-Trial-and-Reports-Longer-Term-Clinical-Data-from-Part-A-of-REVEAL-Phase-1-2-Trials-Evaluating-TSHA-102-for-Re.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 18139,
@@ -22851,7 +22851,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "36.99",
+   "last_price": "38.18",
    "market_cap": 4294747904
   },
   "ticker": "VKTX",
@@ -24836,7 +24836,7 @@
   "company": {
    "ticker": "NBIX",
    "name": "Neurocrine Biosciences",
-   "last_price": "164.18",
+   "last_price": "167.66",
    "market_cap": 16508295168
   },
   "ticker": "NBIX",
@@ -25298,7 +25298,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.50",
    "market_cap": 919702400
   },
   "ticker": "KURA",
@@ -25342,7 +25342,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.50",
    "market_cap": 919702400
   },
   "ticker": "KURA",
@@ -25833,7 +25833,7 @@
   "company": {
    "ticker": "OMER",
    "name": "Omeros Corporation",
-   "last_price": "10.72",
+   "last_price": "8.00",
    "market_cap": 775863808
   },
   "ticker": "OMER",
@@ -26461,7 +26461,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "125.45",
+   "last_price": "127.74",
    "market_cap": 309839462400
   },
   "ticker": "MRK",
@@ -26924,7 +26924,7 @@
   "company": {
    "ticker": "ATAI",
    "name": "ATAI Life Sciences",
-   "last_price": "5.04",
+   "last_price": "5.08",
    "market_cap": 1686203392
   },
   "ticker": "ATAI",
@@ -28585,7 +28585,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "125.45",
+   "last_price": "127.74",
    "market_cap": 309839462400
   },
   "ticker": "MRK",
@@ -29309,7 +29309,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "125.45",
+   "last_price": "127.74",
    "market_cap": 309839462400
   },
   "ticker": "MRK",

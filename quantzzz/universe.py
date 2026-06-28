@@ -96,6 +96,14 @@ EQUITY_RESEARCH_SEED = [
     # real estate
     "AMT", "PLD", "CCI", "EQIX", "PSA", "O", "SPG", "WELL", "DLR", "VICI", "AVB",
     "EQR", "EXR", "MAA", "INVH", "ARE", "VTR", "SBAC", "CBRE", "WY",
+    # ---- mid-cap / growth tier: more cross-sectional dispersion than the
+    # mega-cap core, where the momentum edges are already mined out. All
+    # price-gated, so thin/short-history names are filtered automatically.
+    "DKNG", "COIN", "HOOD", "SOFI", "AFRM", "UPST", "RIVN", "LCID", "U", "PATH",
+    "DASH", "ROKU", "CVNA", "W", "CHWY", "RH", "DKS", "BURL", "FIVE", "BLDR",
+    "OC", "MAS", "WMS", "TREX", "BLD", "EME", "MTZ", "FIX", "BWXT", "CW",
+    "EXAS", "NTRA", "HIMS", "DOCS", "GH", "PEN", "INSP", "SHC", "BRKR", "RGEN",
+    "TECH", "BIO", "MEDP", "HQY", "MOH", "GTLB", "S", "DOCN", "CART", "TOST",
 ]
 
 

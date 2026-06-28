@@ -280,3 +280,57 @@ def short_term_reversal_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame
 
 
 STRATEGIES.append((SHORT_REVERSAL, short_term_reversal_signal))
+
+
+# ---- low-volatility factor ----
+# The low-volatility anomaly: low-realized-vol names earn higher risk-adjusted
+# returns than high-vol ones. A genuinely different KIND of edge from the
+# momentum-heavy book — it is structurally ~orthogonal to it, so it has a real
+# shot at clearing the portfolio-correlation gate the momentum variants keep
+# tripping.
+LOW_VOL = ParamSpace("low_volatility", "equity", [
+    ParamDef("vol_lookback", "int", 20, 252, step=10),
+    ParamDef("top_n", "int", 3, 15, step=1),
+    ParamDef("rebalance", "choice", choices=(10, 21, 42)),
+    ParamDef("mom_screen", "float", 0.0, 1.0, step=0.1),  # >0.5: skip downtrenders
+])
+
+
+def low_volatility_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    vol = F.realized_vol(bundle.prices, int(p["vol_lookback"]))
+    score = 1.0 / vol.replace(0, np.nan)                  # lowest vol -> highest score
+    if p["mom_screen"] > 0.5:
+        mom = F.momentum(bundle.prices, 126)
+        score = score.where(mom > 0)                      # defensive, but not falling
+    w = _equal_weight_top(score, int(p["top_n"]))
+    return _rebalanced(w, int(p["rebalance"]))
+
+
+STRATEGIES.append((LOW_VOL, low_volatility_signal))
+
+
+# ---- 52-week-high proximity ----
+# George & Hwang (2004): names trading near their trailing 1-year high keep
+# outperforming. A different construction from return-momentum — it is anchored
+# to the distance-from-high, not the magnitude of the move — so it captures a
+# distinct slice even where it overlaps momentum thematically.
+FIFTY_TWO_HIGH = ParamSpace("fifty_two_week_high", "equity", [
+    ParamDef("lookback", "int", 126, 252, step=21),
+    ParamDef("top_n", "int", 3, 15, step=1),
+    ParamDef("rebalance", "choice", choices=(5, 10, 21)),
+    ParamDef("vol_adjust", "float", 0.0, 1.0, step=0.1),  # >0.5: per-unit-risk proximity
+])
+
+
+def fifty_two_week_high_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    px = bundle.prices
+    lb = int(p["lookback"])
+    trailing_high = px.rolling(lb, min_periods=lb // 2).max()
+    proximity = px / trailing_high.replace(0, np.nan)     # ~1.0 = sitting at its high
+    if p["vol_adjust"] > 0.5:
+        proximity = proximity / F.realized_vol(px, 60).replace(0, np.nan)
+    w = _equal_weight_top(proximity, int(p["top_n"]))
+    return _rebalanced(w, int(p["rebalance"]))
+
+
+STRATEGIES.append((FIFTY_TWO_HIGH, fifty_two_week_high_signal))

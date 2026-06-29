@@ -38,7 +38,7 @@
   "company": {
    "ticker": "UNCY",
    "name": "Unicycive Therapeutics",
-   "last_price": "7.48",
+   "last_price": "7.75",
    "market_cap": 195312288
   },
   "ticker": "UNCY",
@@ -1047,7 +1047,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.51",
+   "last_price": "1.46",
    "market_cap": 231374848
   },
   "ticker": "CHRS",
@@ -1140,7 +1140,7 @@
   "company": {
    "ticker": "AQST",
    "name": "Aquestive Therapeutics",
-   "last_price": "4.33",
+   "last_price": "4.26",
    "market_cap": 550726016
   },
   "ticker": "AQST",
@@ -1527,7 +1527,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "24.78",
+   "last_price": "24.37",
    "market_cap": 1531190400
   },
   "ticker": "CAPR",
@@ -1663,7 +1663,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "25.18",
+   "last_price": "17.17",
    "market_cap": 906942592
   },
   "ticker": "EVMN",
@@ -2248,6 +2248,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 20594,
+  "company": {
+   "ticker": "INCY",
+   "name": "Incyte Corporation",
+   "last_price": "113.75",
+   "market_cap": 22725220352
+  },
+  "ticker": "INCY",
+  "drug_name": "VGA039 (Protein S Antibody)",
+  "indications": [
+   {
+    "id": 2347,
+    "title": "Von Willebrand disease",
+    "nickname": "VWD"
+   }
+  ],
+  "indications_text": "Von Willebrand Disease",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "06/25/26:- Complete Ph1/2 VIVID-3 multidose data to be presented at ISTH 2026 on July 13, 2026.",
+  "catalyst_date": "2026-07-13",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260625529632/en/Star-Therapeutics-to-Present-Complete-Data-from-Phase-12-Multidose-Study-of-VGA039-in-Von-Willebrand-Disease-at-ISTH-2026-Congress",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 17455,
   "company": {
    "ticker": "N/A",
@@ -2467,6 +2501,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 15056,
+  "company": {
+   "ticker": "REPL",
+   "name": "Replimune Group Inc",
+   "last_price": "11.63",
+   "market_cap": 960319552
+  },
+  "ticker": "REPL",
+  "drug_name": "RP1 + Opdivo (nivolumab)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1060,
+    "title": "Melanoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Melanoma",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "IGNYTE/IGNYTE-3 study. 1/21/25- Initial PDUFA date July 22, 2025 with priority review. 6/1/25- New analyses presented at ASCO'25. 7/22/25- CRL received. 9/18/25- Completed FDA Type A meeting. 10/19/25- New ad hoc analysis at ESMO'25. 10/20/25- FDA accepted BLA with PDUFA date April 10, 2026. 11/06/25:- BLA resubmission for RP1 plus nivolumab in advanced melanoma is under FDA review with an April 10, 2026 PDUFA date; IGNYTE-3 Phase 3 trial is ongoing and may support approval, and new acral melanoma and non-melanoma skin cancer data were reported at ESMO 2025 with additional RP1 plus nivolumab data presentations planned at SITC 2025. 02/03/26:- BLA review for RP1 plus nivolumab continues with April 10, 2026 PDUFA date; IGNYTE-3 Phase 3 enrolling. 4/10/26- Received CRL. To continue discussion w/ FDA for a path toward approval 04/27/26:- ASCO 2026 IGNYTE OS oral May 30; IGNYTE-3 trial-in-progress poster May 31. 05/29/26:- FDA aligned on path forward; RP1+nivolumab BLA resubmission planned in coming days. 05/30/26:- IGNYTE trial 3-year overall survival data presented for RP1 plus nivolumab in anti-PD-1 failed melanoma. 06/26/26:- FDA accepted BLA resubmission; action date August 2, 2026. AdCom expected late July 2026.",
+  "catalyst_date": "2026-08-02",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/26/3318188/0/en/replimune-announces-fda-acceptance-of-rp1-biologics-license-application-resubmission-for-advanced-melanoma.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 15181,
   "company": {
    "ticker": "MRNA",
@@ -2573,7 +2646,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "24.15",
+   "last_price": "23.12",
    "market_cap": 1776810752
   },
   "ticker": "ZYME",
@@ -3143,7 +3216,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.51",
+   "last_price": "1.46",
    "market_cap": 231374848
   },
   "ticker": "CHRS",
@@ -3581,7 +3654,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "30.52",
+   "last_price": "33.19",
    "market_cap": 505729792
   },
   "ticker": "STRO",
@@ -3795,7 +3868,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.51",
+   "last_price": "1.46",
    "market_cap": 231374848
   },
   "ticker": "CHRS",
@@ -3917,7 +3990,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "24.78",
+   "last_price": "24.37",
    "market_cap": 1531190400
   },
   "ticker": "CAPR",
@@ -4019,7 +4092,7 @@
   "company": {
    "ticker": "JAZZ",
    "name": "Jazz Pharmaceuticals ",
-   "last_price": "230.02",
+   "last_price": "233.56",
    "market_cap": 14449310720
   },
   "ticker": "JAZZ",
@@ -5601,7 +5674,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "87.89",
+   "last_price": "88.30",
    "market_cap": 7632477696
   },
   "ticker": "SYRE",
@@ -5771,7 +5844,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "31.99",
+   "last_price": "31.12",
    "market_cap": 603625280
   },
   "ticker": "TECX",
@@ -5815,7 +5888,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "87.89",
+   "last_price": "88.30",
    "market_cap": 7632477696
   },
   "ticker": "SYRE",
@@ -5927,7 +6000,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "11.60",
+   "last_price": "12.67",
    "market_cap": 606404608
   },
   "ticker": "FDMT",
@@ -6063,7 +6136,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "25.18",
+   "last_price": "17.17",
    "market_cap": 906942592
   },
   "ticker": "EVMN",
@@ -6097,7 +6170,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "15.91",
+   "last_price": "16.00",
    "market_cap": 50271600640
   },
   "ticker": "TAK",
@@ -6925,7 +6998,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "5.90",
+   "last_price": "5.89",
    "market_cap": 1209070592
   },
   "ticker": "SVRA",
@@ -8189,7 +8262,7 @@
   "company": {
    "ticker": "XFOR",
    "name": "X4 Pharmaceuticals",
-   "last_price": "4.02",
+   "last_price": "4.05",
    "market_cap": 379165184
   },
   "ticker": "XFOR",
@@ -8350,7 +8423,7 @@
   "company": {
    "ticker": "TARA",
    "name": "Protara Therapeutics",
-   "last_price": "4.12",
+   "last_price": "4.05",
    "market_cap": 231561440
   },
   "ticker": "TARA",
@@ -9283,6 +9356,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 16335,
+  "company": {
+   "ticker": "MDNAF",
+   "name": "Medicenna Therapeutics",
+   "last_price": "0.29",
+   "market_cap": 24108438
+  },
+  "ticker": "MDNAF",
+  "drug_name": "MDNA55 (Bizaxofusp)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 767,
+    "title": "Glioblastoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Glioblastoma, Cancer",
+  "stage_event": {
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
+   "event_label": "Data readout"
+  },
+  "note": "06/26/26:- Bizaxofusp recurrent GBM clinical data expected Q4 2026. Partnership efforts continue.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/26/3318221/0/en/medicenna-therapeutics-reports-fiscal-year-2026-financial-results-and-operational-highlights.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 16372,
   "company": {
    "ticker": "IONS",
@@ -10184,7 +10296,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "12.39",
+   "last_price": "14.66",
    "market_cap": 2436277760
   },
   "ticker": "SLS",
@@ -11842,7 +11954,7 @@
   "company": {
    "ticker": "ZNTL",
    "name": "Zentalis Pharmaceuticals",
-   "last_price": "4.04",
+   "last_price": "4.84",
    "market_cap": 287592864
   },
   "ticker": "ZNTL",
@@ -12218,7 +12330,7 @@
   "company": {
    "ticker": "TNXP",
    "name": "Tonix Pharmaceuticals",
-   "last_price": "13.00",
+   "last_price": "13.07",
    "market_cap": 210737392
   },
   "ticker": "TNXP",
@@ -15037,7 +15149,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.00",
+   "last_price": "4.94",
    "market_cap": 698318400
   },
   "ticker": "ACRS",
@@ -15071,7 +15183,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.00",
+   "last_price": "4.94",
    "market_cap": 698318400
   },
   "ticker": "ACRS",
@@ -15577,7 +15689,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "108.12",
+   "last_price": "108.49",
    "market_cap": 8893689856
   },
   "ticker": "KYMR",
@@ -17097,7 +17209,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "108.12",
+   "last_price": "108.49",
    "market_cap": 8893689856
   },
   "ticker": "KYMR",
@@ -19489,7 +19601,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "15.91",
+   "last_price": "16.00",
    "market_cap": 50271600640
   },
   "ticker": "TAK",
@@ -20164,7 +20276,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "31.99",
+   "last_price": "31.12",
    "market_cap": 603625280
   },
   "ticker": "TECX",
@@ -20203,7 +20315,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "31.99",
+   "last_price": "31.12",
    "market_cap": 603625280
   },
   "ticker": "TECX",
@@ -20977,7 +21089,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "15.91",
+   "last_price": "16.00",
    "market_cap": 50271600640
   },
   "ticker": "TAK",
@@ -21289,7 +21401,7 @@
   "company": {
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
-   "last_price": "62.92",
+   "last_price": "61.49",
    "market_cap": 2707067392
   },
   "ticker": "TARS",
@@ -21406,7 +21518,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "11.60",
+   "last_price": "12.67",
    "market_cap": 606404608
   },
   "ticker": "FDMT",
@@ -21834,7 +21946,7 @@
   "company": {
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
-   "last_price": "62.92",
+   "last_price": "61.49",
    "market_cap": 2707067392
   },
   "ticker": "TARS",
@@ -22851,7 +22963,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "38.04",
+   "last_price": "38.07",
    "market_cap": 4416658432
   },
   "ticker": "VKTX",
@@ -23206,7 +23318,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "87.89",
+   "last_price": "88.30",
    "market_cap": 7632477696
   },
   "ticker": "SYRE",
@@ -23245,7 +23357,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "87.89",
+   "last_price": "88.30",
    "market_cap": 7632477696
   },
   "ticker": "SYRE",
@@ -23615,7 +23727,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "108.12",
+   "last_price": "108.49",
    "market_cap": 8893689856
   },
   "ticker": "KYMR",
@@ -25682,7 +25794,7 @@
   "company": {
    "ticker": "TBPH",
    "name": "Theravance Biopharma",
-   "last_price": "17.63",
+   "last_price": "17.09",
    "market_cap": 908879424
   },
   "ticker": "TBPH",
@@ -25901,7 +26013,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "12.39",
+   "last_price": "14.66",
    "market_cap": 2436277760
   },
   "ticker": "SLS",
@@ -27119,7 +27231,7 @@
   "company": {
    "ticker": "TCRX",
    "name": "TScan Therapeutics",
-   "last_price": "0.97",
+   "last_price": "1.05",
    "market_cap": 63311872
   },
   "ticker": "TCRX",
@@ -27996,7 +28108,7 @@
   "company": {
    "ticker": "URGN",
    "name": "UroGen Pharma",
-   "last_price": "34.70",
+   "last_price": "34.71",
    "market_cap": 1682847616
   },
   "ticker": "URGN",
@@ -28181,7 +28293,7 @@
   "company": {
    "ticker": "ELDN",
    "name": "Eledon Pharmaceuticals",
-   "last_price": "4.07",
+   "last_price": "3.86",
    "market_cap": 291769984
   },
   "ticker": "ELDN",

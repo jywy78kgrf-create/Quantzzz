@@ -1,6 +1,11 @@
 [
  {
   "date": "2026-06-30",
+  "sentiment": 0.108276,
+  "relevance": 0.626205
+ },
+ {
+  "date": "2026-06-30",
   "sentiment": 0.078627,
   "relevance": 1.0
  },
@@ -551,13 +556,13 @@
  },
  {
   "date": "2026-05-23",
-  "sentiment": 0.139947,
-  "relevance": 0.626097
+  "sentiment": 0.209596,
+  "relevance": 0.638345
  },
  {
   "date": "2026-05-23",
-  "sentiment": 0.209596,
-  "relevance": 0.638345
+  "sentiment": 0.139947,
+  "relevance": 0.626097
  },
  {
   "date": "2026-05-23",
@@ -991,13 +996,13 @@
  },
  {
   "date": "2026-05-01",
-  "sentiment": 0.126092,
-  "relevance": 0.605313
+  "sentiment": 0.110499,
+  "relevance": 0.627267
  },
  {
   "date": "2026-05-01",
-  "sentiment": 0.110499,
-  "relevance": 0.627267
+  "sentiment": 0.126092,
+  "relevance": 0.605313
  },
  {
   "date": "2026-04-30",
@@ -2831,13 +2836,13 @@
  },
  {
   "date": "2026-01-16",
-  "sentiment": 0.125401,
-  "relevance": 0.60246
+  "sentiment": 0.105391,
+  "relevance": 0.620444
  },
  {
   "date": "2026-01-16",
-  "sentiment": 0.105391,
-  "relevance": 0.620444
+  "sentiment": 0.125401,
+  "relevance": 0.60246
  },
  {
   "date": "2026-01-16",
@@ -3226,13 +3231,13 @@
  },
  {
   "date": "2025-12-22",
-  "sentiment": 0.135833,
-  "relevance": 0.636405
+  "sentiment": 0.05089,
+  "relevance": 0.583673
  },
  {
   "date": "2025-12-22",
-  "sentiment": 0.05089,
-  "relevance": 0.583673
+  "sentiment": 0.135833,
+  "relevance": 0.636405
  },
  {
   "date": "2025-12-22",
@@ -4421,12 +4426,12 @@
  },
  {
   "date": "2025-06-10",
-  "sentiment": 0.489656,
+  "sentiment": 0.486552,
   "relevance": 1.0
  },
  {
   "date": "2025-06-10",
-  "sentiment": 0.486552,
+  "sentiment": 0.489656,
   "relevance": 1.0
  },
  {
@@ -4471,12 +4476,12 @@
  },
  {
   "date": "2025-05-23",
-  "sentiment": -0.338558,
+  "sentiment": -0.311304,
   "relevance": 1.0
  },
  {
   "date": "2025-05-23",
-  "sentiment": -0.311304,
+  "sentiment": -0.338558,
   "relevance": 1.0
  },
  {
@@ -4486,12 +4491,12 @@
  },
  {
   "date": "2025-05-21",
-  "sentiment": -0.326448,
+  "sentiment": 0.413786,
   "relevance": 1.0
  },
  {
   "date": "2025-05-21",
-  "sentiment": 0.413786,
+  "sentiment": -0.326448,
   "relevance": 1.0
  },
  {
@@ -4631,13 +4636,13 @@
  },
  {
   "date": "2025-01-28",
-  "sentiment": 0.121855,
-  "relevance": 0.649691
+  "sentiment": 0.257002,
+  "relevance": 0.602185
  },
  {
   "date": "2025-01-28",
-  "sentiment": 0.257002,
-  "relevance": 0.602185
+  "sentiment": 0.121855,
+  "relevance": 0.649691
  },
  {
   "date": "2025-01-24",
@@ -4651,17 +4656,17 @@
  },
  {
   "date": "2024-12-31",
-  "sentiment": 0.123223,
-  "relevance": 0.625931
+  "sentiment": 0.450381,
+  "relevance": 1.0
  },
  {
   "date": "2024-12-31",
-  "sentiment": 0.121493,
-  "relevance": 0.638536
+  "sentiment": 0.708989,
+  "relevance": 0.824232
  },
  {
   "date": "2024-12-31",
-  "sentiment": 0.82336,
+  "sentiment": 0.546281,
   "relevance": 1.0
  },
  {
@@ -4671,8 +4676,13 @@
  },
  {
   "date": "2024-12-31",
-  "sentiment": 0.450381,
+  "sentiment": 0.82336,
   "relevance": 1.0
+ },
+ {
+  "date": "2024-12-31",
+  "sentiment": 0.123223,
+  "relevance": 0.625931
  },
  {
   "date": "2024-12-31",
@@ -4681,13 +4691,8 @@
  },
  {
   "date": "2024-12-31",
-  "sentiment": 0.546281,
-  "relevance": 1.0
- },
- {
-  "date": "2024-12-31",
-  "sentiment": 0.708989,
-  "relevance": 0.824232
+  "sentiment": 0.121493,
+  "relevance": 0.638536
  },
  {
   "date": "2024-12-10",
@@ -4776,13 +4781,13 @@
  },
  {
   "date": "2024-10-01",
-  "sentiment": 0.427695,
-  "relevance": 1.0
+  "sentiment": -0.100868,
+  "relevance": 0.819108
  },
  {
   "date": "2024-10-01",
-  "sentiment": -0.100868,
-  "relevance": 0.819108
+  "sentiment": 0.427695,
+  "relevance": 1.0
  },
  {
   "date": "2024-09-26",
@@ -4861,12 +4866,12 @@
  },
  {
   "date": "2024-07-16",
-  "sentiment": -0.2415,
+  "sentiment": -0.224666,
   "relevance": 1.0
  },
  {
   "date": "2024-07-16",
-  "sentiment": -0.224666,
+  "sentiment": -0.2415,
   "relevance": 1.0
  },
  {
@@ -4993,10 +4998,5 @@
   "date": "2023-11-02",
   "sentiment": 0.138514,
   "relevance": 0.555532
- },
- {
-  "date": "2023-10-24",
-  "sentiment": 0.318194,
-  "relevance": 0.733101
  }
 ]

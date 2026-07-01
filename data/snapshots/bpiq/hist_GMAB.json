@@ -1,5 +1,51 @@
 [
  {
+  "id": 8061,
+  "company": {
+   "id": 1351,
+   "ticker": "GMAB",
+   "name": "Genmab"
+  },
+  "created_at": "2026-07-01T13:02:17.185344Z",
+  "updated_at": "2026-07-01T13:02:17.185362Z",
+  "ticker": "GMAB",
+  "drug_name": "Epcoritamab",
+  "drug_indication": "Relapsed/Refractory Diffuse Large B-Cell Lymphoma",
+  "airtable_id": 8366,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-06-29",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/29/3319290/0/en/genmab-announces-positive-phase-3-results-for-epcoritamab-plus-lenalidomide-in-patients-with-relapsed-refractory-diffuse-large-b-cell-lymphoma-demonstrating-statistically-significa.html",
+  "catalyst_text": "Trial met primary endpoint with significant PFS improvement",
+  "detailed_catalyst_text": "Topline data from a randomized Phase 3 trial in adults with relapsed or refractory diffuse large B-cell lymphoma showed epcoritamab plus lenalidomide significantly improved progression-free survival versus R-GemOx. The primary endpoint was met with a 56\u201360% reduction in risk of progression or death, and the safety profile was consistent with the known profiles of the individual agents. These results support a chemotherapy-free combination approach in this population.",
+  "catalyst_text_evidence": "Genmab A/S (NASDAQ:GMAB) today announced topline results from the Phase 3 EPCORE DLBCL-4 trial evaluating the combination of fixed duration epcoritamab, a T-cell engaging bispecific antibody administered subcutaneously, and lenalidomide, compared to standard-of-care, rituximab plus gemcitabine plus oxaliplatin (R-GemOx), in adult patients with relapsed or refractory (R/R) diffuse large B-cell lymphoma (DLBCL) who received at least one prior line of treatment. Based on topline results, the trial met its primary objective, demonstrating statistically significant and clinically meaningful improvement in progression-free survival (PFS). The risk of disease progression and death was reduced by 60% (HR 0.40 [95% CI 0.30, 0.55]; p value < 0.0001) and 56% (HR 0.44 [95% CI 0.33, 0.60]; p value < 0.0001), based on different censoring rules in the U.S. and outside the U.S., respectively. The safety profile of epcoritamab when administered in combination with lenalidomide was consistent with the previously reported safety profiles of the individual agents (epcoritamab or lenalidomide).",
+  "news_published_at": "2026-07-01T00:00:00Z",
+  "open_price_gap_percent": "0.00421",
+  "intra_day_price_change_percent": "-0.00801"
+ },
+ {
+  "id": 8082,
+  "company": {
+   "id": 1351,
+   "ticker": "GMAB",
+   "name": "Genmab"
+  },
+  "created_at": "2026-07-01T13:06:00.973632Z",
+  "updated_at": "2026-07-01T13:06:00.973650Z",
+  "ticker": "GMAB",
+  "drug_name": "Epcoritamab",
+  "drug_indication": "Relapsed or Refractory Diffuse Large B-Cell Lymphoma",
+  "airtable_id": 8362,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-06-29",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/29/3319290/0/en/genmab-announces-positive-phase-3-results-for-epcoritamab-plus-lenalidomide-in-patients-with-relapsed-refractory-diffuse-large-b-cell-lymphoma-demonstrating-statistically-significa.html",
+  "catalyst_text": "Trial met primary endpoint with significant PFS benefit",
+  "detailed_catalyst_text": "Topline Phase 3 results from EPCORE DLBCL-4 showed that fixed-duration epcoritamab plus lenalidomide significantly improved progression-free survival versus R-GemOx in adults with relapsed or refractory diffuse large B-cell lymphoma after at least one prior therapy. Hazard ratios for PFS were 0.40 and 0.44 under different censoring rules, indicating a 56\u201360% reduction in risk; safety was consistent with known profiles.",
+  "catalyst_text_evidence": "COPENHAGEN, Denmark; 2026-06-29 \u2013 Genmab A/S (NASDAQ:GMAB) today announced topline results from the Phase 3 EPCORE DLBCL-4 trial evaluating the combination of fixed duration epcoritamab, a T-cell engaging bispecific antibody administered subcutaneously, and lenalidomide, compared to standard-of-care, rituximab plus gemcitabine plus oxaliplatin (R-GemOx), in adult patients with relapsed or refractory (R/R) diffuse large B-cell lymphoma (DLBCL) who received at least one prior line of treatment. Based on topline results, the trial met its primary objective, demonstrating statistically significant and clinically meaningful improvement in progression-free survival (PFS). The risk of disease progression and death was reduced by 60% (HR 0.40 [95% CI 0.30, 0.55]; p value < 0.0001) and 56% (HR 0.44 [95% CI 0.33, 0.60]; p value < 0.0001), based on different censoring rules in the U.S. and outside the U.S., respectively. The safety profile of epcoritamab when administered in combination with lenalidomide was consistent with the previously reported safety profiles of the individual agents (epcoritamab or lenalidomide).",
+  "news_published_at": "2026-07-01T00:00:00Z",
+  "open_price_gap_percent": "0.00421",
+  "intra_day_price_change_percent": "-0.00801"
+ },
+ {
   "id": 7853,
   "company": {
    "id": 1351,
@@ -7,7 +53,7 @@
    "name": "Genmab"
   },
   "created_at": "2026-06-12T13:04:29.275044Z",
-  "updated_at": "2026-06-30T13:06:45.020733Z",
+  "updated_at": "2026-07-01T13:04:32.555939Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "Relapsed or Refractory Follicular Lymphoma",
@@ -30,7 +76,7 @@
    "name": "Genmab"
   },
   "created_at": "2026-06-16T13:06:29.046423Z",
-  "updated_at": "2026-06-30T13:08:37.505981Z",
+  "updated_at": "2026-07-01T13:05:36.113935Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "Diffuse Large B-Cell Lymphoma",
@@ -53,7 +99,7 @@
    "name": "Genmab"
   },
   "created_at": "2026-01-20T13:04:36.465001Z",
-  "updated_at": "2026-06-30T13:08:00.933746Z",
+  "updated_at": "2026-07-01T13:05:15.090466Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "Relapsed or Refractory Diffuse Large B-Cell Lymphoma",
@@ -76,7 +122,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-12-10T13:00:53.015372Z",
-  "updated_at": "2026-06-30T13:02:01.970655Z",
+  "updated_at": "2026-07-01T13:01:13.692076Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab-bysp",
   "drug_indication": "Richter transformation",
@@ -99,7 +145,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-11-05T13:04:59.677434Z",
-  "updated_at": "2026-06-30T13:09:33.376533Z",
+  "updated_at": "2026-07-01T13:06:09.896694Z",
   "ticker": "GMAB",
   "drug_name": "Rinatabart sesutecan (Rina-S; GEN1184)",
   "drug_indication": "Advanced endometrial cancer",
@@ -122,7 +168,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-11-05T13:01:34.849100Z",
-  "updated_at": "2026-06-30T13:02:32.396767Z",
+  "updated_at": "2026-07-01T13:01:38.377321Z",
   "ticker": "GMAB",
   "drug_name": "Epkinly (epcoritamab)",
   "drug_indication": "Relapsed or refractory (R/R) diffuse large B-cell lymphoma (DLBCL)",
@@ -145,7 +191,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-06-19T13:04:13.155598Z",
-  "updated_at": "2026-06-30T13:08:36.607778Z",
+  "updated_at": "2026-07-01T13:05:35.497766Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab  ",
   "drug_indication": "Relapsed/Refractory Diffuse Large B-Cell Lymphoma (R/R DLBCL)  ",
@@ -168,7 +214,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:46:45.977066Z",
-  "updated_at": "2026-06-30T13:03:19.353463Z",
+  "updated_at": "2026-07-01T13:02:16.682847Z",
   "ticker": "GMAB",
   "drug_name": "EPCORE (Epcoritamab) - (EPCORE  NHL-2)",
   "drug_indication": "Non-Hodgkin lymphoma (NHL)",
@@ -191,7 +237,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:47:19.632586Z",
-  "updated_at": "2026-06-30T13:04:24.132061Z",
+  "updated_at": "2026-07-01T13:03:07.541780Z",
   "ticker": "GMAB",
   "drug_name": "Rinatabart sesutecan (Rina-S)",
   "drug_indication": "Ovarian cancer, Endometrial Cancers, Solid tumors",
@@ -214,7 +260,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:08:28.224390Z",
-  "updated_at": "2026-06-30T13:05:40.849623Z",
+  "updated_at": "2026-07-01T13:03:55.549131Z",
   "ticker": "GMAB",
   "drug_name": "EPKINLY (epcoritamab-bysp)",
   "drug_indication": "Follicular lymphoma (FL)",
@@ -237,7 +283,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:06:55.897701Z",
-  "updated_at": "2026-06-30T13:03:12.466485Z",
+  "updated_at": "2026-07-01T13:02:10.594810Z",
   "ticker": "GMAB",
   "drug_name": "Acasunlimab (GEN1046/BNT311)",
   "drug_indication": "Non-small cell lung cancer (NSCLC)",
@@ -260,7 +306,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:13:36.946175Z",
-  "updated_at": "2026-06-30T13:07:22.515630Z",
+  "updated_at": "2026-07-01T13:04:51.725025Z",
   "ticker": "GMAB",
   "drug_name": "Tisotumab vedotin - (innovaTV 207)",
   "drug_indication": "Squamous cell carcinoma of the head and neck (SCCHN)",
@@ -283,7 +329,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:14:28.789373Z",
-  "updated_at": "2026-06-30T13:09:08.477202Z",
+  "updated_at": "2026-07-01T13:05:54.666279Z",
   "ticker": "GMAB",
   "drug_name": "Acasunlimab (DuoBody-PD-L1x4-1BB) with pembrolizumab",
   "drug_indication": "Metastatic non-small cell lung cancer (mNSCLC)",
@@ -306,7 +352,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:06:33.484916Z",
-  "updated_at": "2026-06-30T13:02:39.329598Z",
+  "updated_at": "2026-07-01T13:01:43.863472Z",
   "ticker": "GMAB",
   "drug_name": "TIVDAK (tisotumab vedotin-tftv)",
   "drug_indication": "Cervical Cancer with disease progression on or after first-line therapy",
@@ -329,7 +375,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:47:14.203207Z",
-  "updated_at": "2026-06-30T13:04:13.086483Z",
+  "updated_at": "2026-07-01T13:02:59.272968Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "B-cell Lymphoma (DLBCL)",
@@ -352,7 +398,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:45:41.773222Z",
-  "updated_at": "2026-06-30T13:01:12.325560Z",
+  "updated_at": "2026-07-01T13:00:38.658615Z",
   "ticker": "GMAB",
   "drug_name": "EPKINLY (epcoritamab-bysp)",
   "drug_indication": "Relapsed or Refractory Diffuse Large B-Cell Lymphoma (DLBCL)",
@@ -375,7 +421,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:08:37.670010Z",
-  "updated_at": "2026-06-30T13:06:01.233544Z",
+  "updated_at": "2026-07-01T13:04:07.404481Z",
   "ticker": "GMAB",
   "drug_name": "GEN3014 (HexaBody-CD38)",
   "drug_indication": "Relapsed or Refractory (R/R) Multiple Myeloma (MM).",
@@ -398,7 +444,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:08:32.349059Z",
-  "updated_at": "2026-06-30T13:05:49.551877Z",
+  "updated_at": "2026-07-01T13:04:00.316641Z",
   "ticker": "GMAB",
   "drug_name": "Tisotumab vedotin+ pembrolizumab - (innovaTV 205)",
   "drug_indication": "Metastatic cervical cancer",
@@ -421,7 +467,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:05:50.936319Z",
-  "updated_at": "2026-06-30T13:01:37.326925Z",
+  "updated_at": "2026-07-01T13:00:54.765768Z",
   "ticker": "GMAB",
   "drug_name": "EPCORE - (NHL-3)",
   "drug_indication": "Non-Hodgkin Lymphoma (NHL)",
@@ -444,7 +490,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:08:13.856709Z",
-  "updated_at": "2026-06-30T13:05:13.623282Z",
+  "updated_at": "2026-07-01T13:03:39.547902Z",
   "ticker": "GMAB",
   "drug_name": "BNT312/GEN1042",
   "drug_indication": "Solid tumors",
@@ -467,7 +513,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:08:26.354100Z",
-  "updated_at": "2026-06-30T13:05:37.269285Z",
+  "updated_at": "2026-07-01T13:03:53.651285Z",
   "ticker": "GMAB",
   "drug_name": "TIVDAK (tisotumab vedotin)",
   "drug_indication": "Cervical Cancer",
@@ -490,7 +536,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:07:02.757624Z",
-  "updated_at": "2026-06-30T13:03:21.509544Z",
+  "updated_at": "2026-07-01T13:02:18.492740Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) using ENHANZE",
   "drug_indication": "Amyloidosis",
@@ -513,7 +559,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:05:51.968624Z",
-  "updated_at": "2026-06-30T13:01:38.824263Z",
+  "updated_at": "2026-07-01T13:00:55.609532Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) and KYPROLIS (carfilzomib)",
   "drug_indication": "Multiple Myeloma",
@@ -536,7 +582,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:14:05.435167Z",
-  "updated_at": "2026-06-30T13:08:23.207423Z",
+  "updated_at": "2026-07-01T13:05:27.102905Z",
   "ticker": "GMAB",
   "drug_name": "ARZERRA (ofatumumab)",
   "drug_indication": "Relapsing multiple sclerosis",
@@ -559,7 +605,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:05:39.880614Z",
-  "updated_at": "2026-06-30T13:01:16.567003Z",
+  "updated_at": "2026-07-01T13:00:41.522827Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) using ENHANZE",
   "drug_indication": "Multiple myeloma",
@@ -582,7 +628,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:08:46.788661Z",
-  "updated_at": "2026-06-30T13:06:17.209141Z",
+  "updated_at": "2026-07-01T13:04:18.030854Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) + bortezomib, thalidomide and dexamethasone (VTd)",
   "drug_indication": "Multiple myeloma - candidates for autologous stem cell transplant (ASCT)",
@@ -605,7 +651,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:06:40.249202Z",
-  "updated_at": "2026-06-30T13:02:49.013740Z",
+  "updated_at": "2026-07-01T13:01:51.276152Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab)",
   "drug_indication": "Newly Diagnosed Multiple Myeloma (NDMM)",
@@ -628,7 +674,7 @@
    "name": "Genmab"
   },
   "created_at": "2025-02-21T20:48:23.394650Z",
-  "updated_at": "2026-06-30T13:07:10.977562Z",
+  "updated_at": "2026-07-01T13:04:44.868037Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) +  pomalidomide and dexamethasone",
   "drug_indication": "Relapsed or refractory multiple myeloma",

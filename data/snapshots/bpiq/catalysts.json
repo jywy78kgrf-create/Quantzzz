@@ -4,7 +4,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.44",
+   "last_price": "1.46",
    "market_cap": 215949856
   },
   "ticker": "CHRS",
@@ -53,7 +53,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "187.92",
+   "last_price": "187.14",
    "market_cap": 39815065600
   },
   "ticker": "RVMD",
@@ -102,7 +102,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "187.92",
+   "last_price": "187.14",
    "market_cap": 39815065600
   },
   "ticker": "RVMD",
@@ -185,7 +185,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "187.92",
+   "last_price": "187.14",
    "market_cap": 39815065600
   },
   "ticker": "RVMD",
@@ -224,7 +224,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "42.74",
+   "last_price": "42.85",
    "market_cap": 3080204288
   },
   "ticker": "VERA",
@@ -501,7 +501,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "213.33",
+   "last_price": "212.16",
    "market_cap": 31898476544
   },
   "ticker": "BIIB",
@@ -603,7 +603,7 @@
   "company": {
    "ticker": "CELC",
    "name": "Celcuity",
-   "last_price": "103.95",
+   "last_price": "104.21",
    "market_cap": 5101928960
   },
   "ticker": "CELC",
@@ -629,6 +629,40 @@
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": true,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 19184,
+  "company": {
+   "ticker": "FDMT",
+   "name": "4D Molecular Therapeutics",
+   "last_price": "13.30",
+   "market_cap": 695274240
+  },
+  "ticker": "FDMT",
+  "drug_name": "4D-150",
+  "indications": [
+   {
+    "id": 1322,
+    "title": "Wet age-related macular degeneration ",
+    "nickname": "wAMD"
+   }
+  ],
+  "indications_text": "Wet age-related macular degeneration ",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "PRISM (Ph1/2) trial. 2/8/25- Presented initial interim 52-wk results at AED'25. 11/6/25- Positive interim 1.5- to 3.5-yr data reported. Present in detail at upcoming conference. 11/10/25:- Long-term PRISM data show durable efficacy, strong Phase 3 dose response, and no new safety issues. 03/18/26:- PRISM Ph2b 2-year wet AMD data to be presented at scientific conference in Mid-2026. 05/07/26:- PRISM Ph2b 2-year wet AMD data presentation shifted to Q3 2026 scientific conference. 06/30/26:- ASRS 2026 PRISM Ph2b 2-year wet AMD data presented July 18, 2026.",
+  "catalyst_date": "2026-07-18",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/06/g60202661/4dmt-announces-presentation-44th-annual-scientific-meeting-american-society-retina-specialists",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
  },
@@ -676,7 +710,7 @@
   "company": {
    "ticker": "OTLK",
    "name": "Outlook Therapeutics",
-   "last_price": "1.46",
+   "last_price": "1.49",
    "market_cap": 236253520
   },
   "ticker": "OTLK",
@@ -715,7 +749,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.14",
+   "last_price": "16.28",
    "market_cap": 18493097984
   },
   "ticker": "VTRS",
@@ -983,7 +1017,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "26.12",
+   "last_price": "25.84",
    "market_cap": 4082014464
   },
   "ticker": "DNLI",
@@ -1124,7 +1158,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "7.10",
+   "last_price": "6.84",
    "market_cap": 734398528
   },
   "ticker": "AURA",
@@ -1363,7 +1397,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "81.51",
+   "last_price": "81.65",
    "market_cap": 11481255936
   },
   "ticker": "ARWR",
@@ -1470,7 +1504,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.44",
+   "last_price": "1.46",
    "market_cap": 215949856
   },
   "ticker": "CHRS",
@@ -1699,7 +1733,7 @@
   "company": {
    "ticker": "CRBP",
    "name": "Corbus Pharmaceuticals",
-   "last_price": "9.13",
+   "last_price": "9.12",
    "market_cap": 173790736
   },
   "ticker": "CRBP",
@@ -1908,7 +1942,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "33.20",
+   "last_price": "30.65",
    "market_cap": 550138560
   },
   "ticker": "STRO",
@@ -2122,7 +2156,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.44",
+   "last_price": "1.46",
    "market_cap": 215949856
   },
   "ticker": "CHRS",
@@ -2312,7 +2346,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "213.33",
+   "last_price": "212.16",
    "market_cap": 31898476544
   },
   "ticker": "BIIB",
@@ -2716,7 +2750,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.94",
+   "last_price": "1.98",
    "market_cap": 14631168
   },
   "ticker": "BIVI",
@@ -2969,7 +3003,7 @@
   "company": {
    "ticker": "BFRI",
    "name": "Biofrontera",
-   "last_price": "0.95",
+   "last_price": "1.02",
    "market_cap": 12105562
   },
   "ticker": "BFRI",
@@ -3295,7 +3329,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.94",
+   "last_price": "1.98",
    "market_cap": 14631168
   },
   "ticker": "BIVI",
@@ -4250,45 +4284,11 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 19184,
-  "company": {
-   "ticker": "FDMT",
-   "name": "4D Molecular Therapeutics",
-   "last_price": "13.30",
-   "market_cap": 695274240
-  },
-  "ticker": "FDMT",
-  "drug_name": "4D-150",
-  "indications": [
-   {
-    "id": 1322,
-    "title": "Wet age-related macular degeneration ",
-    "nickname": "wAMD"
-   }
-  ],
-  "indications_text": "Wet age-related macular degeneration ",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "PRISM (Ph1/2) trial. 2/8/25- Presented initial interim 52-wk results at AED'25. 11/6/25- Positive interim 1.5- to 3.5-yr data reported. Present in detail at upcoming conference. 11/10/25:- Long-term PRISM data show durable efficacy, strong Phase 3 dose response, and no new safety issues. 03/18/26:- PRISM Ph2b 2-year wet AMD data to be presented at scientific conference in Mid-2026. 05/07/26:- PRISM Ph2b 2-year wet AMD data presentation shifted to Q3 2026 scientific conference.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290540/0/en/4dmt-reports-first-quarter-2026-financial-results-operational-highlights-and-expected-upcoming-milestones.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 19293,
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.34",
+   "last_price": "1.35",
    "market_cap": 106280176
   },
   "ticker": "BMEA",
@@ -4390,7 +4390,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "13.29",
+   "last_price": "13.70",
    "market_cap": 478684160
   },
   "ticker": "EVMN",
@@ -4687,7 +4687,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.14",
+   "last_price": "16.28",
    "market_cap": 18493097984
   },
   "ticker": "VTRS",
@@ -5822,7 +5822,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.14",
+   "last_price": "16.28",
    "market_cap": 18493097984
   },
   "ticker": "VTRS",
@@ -8067,7 +8067,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "26.12",
+   "last_price": "25.84",
    "market_cap": 4082014464
   },
   "ticker": "DNLI",
@@ -8584,7 +8584,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "14.76",
+   "last_price": "13.21",
    "market_cap": 2902296832
   },
   "ticker": "SLS",
@@ -9272,7 +9272,7 @@
   "company": {
    "ticker": "BLRX",
    "name": "BioLineRx",
-   "last_price": "3.12",
+   "last_price": "3.11",
    "market_cap": 14038162
   },
   "ticker": "BLRX",
@@ -9979,7 +9979,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1199.43",
+   "last_price": "1193.43",
    "market_cap": 965262180352
   },
   "ticker": "LLY",
@@ -11524,7 +11524,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.88",
+   "last_price": "14.86",
    "market_cap": 2240347648
   },
   "ticker": "BHVN",
@@ -12075,7 +12075,7 @@
   "company": {
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
-   "last_price": "34.32",
+   "last_price": "34.33",
    "market_cap": 3530814720
   },
   "ticker": "BEAM",
@@ -12391,7 +12391,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "81.51",
+   "last_price": "81.65",
    "market_cap": 11481255936
   },
   "ticker": "ARWR",
@@ -12508,7 +12508,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "10.00",
+   "last_price": "9.68",
    "market_cap": 2541626624
   },
   "ticker": "BCRX",
@@ -12698,7 +12698,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.34",
+   "last_price": "1.35",
    "market_cap": 106280176
   },
   "ticker": "BMEA",
@@ -12869,7 +12869,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "81.51",
+   "last_price": "81.65",
    "market_cap": 11481255936
   },
   "ticker": "ARWR",
@@ -12937,7 +12937,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.88",
+   "last_price": "14.86",
    "market_cap": 2240347648
   },
   "ticker": "BHVN",
@@ -13374,7 +13374,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "4.20",
+   "last_price": "4.23",
    "market_cap": 277504864
   },
   "ticker": "ADAG",
@@ -14268,7 +14268,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "24.51",
+   "last_price": "24.50",
    "market_cap": 1089536512
   },
   "ticker": "BIOA",
@@ -14924,7 +14924,7 @@
   "company": {
    "ticker": "BINV",
    "name": "BioInvent International AB",
-   "last_price": "41.96",
+   "last_price": "41.82",
    "market_cap": null
   },
   "ticker": "BINV",
@@ -14997,7 +14997,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "81.51",
+   "last_price": "81.65",
    "market_cap": 11481255936
   },
   "ticker": "ARWR",
@@ -15269,7 +15269,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.34",
+   "last_price": "1.35",
    "market_cap": 106280176
   },
   "ticker": "BMEA",
@@ -15337,7 +15337,7 @@
   "company": {
    "ticker": "ACET",
    "name": "Adicet Bio",
-   "last_price": "8.64",
+   "last_price": "8.62",
    "market_cap": 80768760
   },
   "ticker": "ACET",
@@ -15748,7 +15748,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "7.10",
+   "last_price": "6.84",
    "market_cap": 734398528
   },
   "ticker": "AURA",
@@ -15933,7 +15933,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "7.10",
+   "last_price": "6.84",
    "market_cap": 734398528
   },
   "ticker": "AURA",
@@ -18384,7 +18384,7 @@
   "company": {
    "ticker": "PBLS",
    "name": "Parbaillis Medicines",
-   "last_price": "27.37",
+   "last_price": "27.56",
    "market_cap": 3347691776
   },
   "ticker": "PBLS",
@@ -19694,7 +19694,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "4.20",
+   "last_price": "4.23",
    "market_cap": 277504864
   },
   "ticker": "ADAG",
@@ -20643,7 +20643,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "26.12",
+   "last_price": "25.84",
    "market_cap": 4082014464
   },
   "ticker": "DNLI",
@@ -21115,7 +21115,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "213.33",
+   "last_price": "212.16",
    "market_cap": 31898476544
   },
   "ticker": "BIIB",
@@ -21407,7 +21407,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "7.10",
+   "last_price": "6.84",
    "market_cap": 734398528
   },
   "ticker": "AURA",
@@ -22944,7 +22944,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "213.33",
+   "last_price": "212.16",
    "market_cap": 31898476544
   },
   "ticker": "BIIB",
@@ -24160,7 +24160,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "26.12",
+   "last_price": "25.84",
    "market_cap": 4082014464
   },
   "ticker": "DNLI",
@@ -24501,7 +24501,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "14.76",
+   "last_price": "13.21",
    "market_cap": 2902296832
   },
   "ticker": "SLS",
@@ -25017,7 +25017,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.24",
+   "last_price": "4.28",
    "market_cap": 295999584
   },
   "ticker": "BCYC",
@@ -25563,7 +25563,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1199.43",
+   "last_price": "1193.43",
    "market_cap": 965262180352
   },
   "ticker": "LLY",
@@ -25831,7 +25831,7 @@
   "company": {
    "ticker": "TCRX",
    "name": "TScan Therapeutics",
-   "last_price": "0.98",
+   "last_price": "1.04",
    "market_cap": 64050332
   },
   "ticker": "TCRX",
@@ -26674,7 +26674,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "213.33",
+   "last_price": "212.16",
    "market_cap": 31898476544
   },
   "ticker": "BIIB",
@@ -26971,7 +26971,7 @@
   "company": {
    "ticker": "ELDN",
    "name": "Eledon Pharmaceuticals",
-   "last_price": "3.94",
+   "last_price": "3.99",
    "market_cap": 304120032
   },
   "ticker": "ELDN",
@@ -27253,7 +27253,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.24",
+   "last_price": "4.28",
    "market_cap": 295999584
   },
   "ticker": "BCYC",
@@ -27297,7 +27297,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "10.00",
+   "last_price": "9.68",
    "market_cap": 2541626624
   },
   "ticker": "BCRX",
@@ -27875,7 +27875,7 @@
   "company": {
    "ticker": "BMRN",
    "name": "Biomarin Pharmaceutical Inc.",
-   "last_price": "57.22",
+   "last_price": "58.27",
    "market_cap": 11059735552
   },
   "ticker": "BMRN",
@@ -27943,7 +27943,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1199.43",
+   "last_price": "1193.43",
    "market_cap": 965262180352
   },
   "ticker": "LLY",
@@ -28133,7 +28133,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "4.20",
+   "last_price": "4.23",
    "market_cap": 277504864
   },
   "ticker": "ADAG",
@@ -28172,7 +28172,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "4.20",
+   "last_price": "4.23",
    "market_cap": 277504864
   },
   "ticker": "ADAG",

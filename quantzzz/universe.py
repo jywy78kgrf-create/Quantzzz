@@ -36,6 +36,18 @@ BIOTECH_SEED = [
 
 BENCH_TICKERS = ["SPY", "XBI"]
 
+# Index / sector / commodity ETFs whose OPTIONS greeks we ingest (meridian
+# desk). We pull their PRICES here (AlphaVantage serves ETFs like equities) so
+# the options-vol signals have an underlying to compute realized vol / regime
+# against. Data-only: kept out of the single-stock trading universe so the
+# cross-sectional stock families never rank an ETF against a stock.
+OPTIONS_VOL_ETFS = [
+    "SPY", "QQQ", "IWM", "DIA", "VTI", "VOO",                       # broad index
+    "XLF", "XLK", "XLE", "XLV", "XLI", "XLP", "XLU", "XLB",         # sectors
+    "XLRE", "XLC", "XOP", "KRE", "SMH", "ITA", "IBB",
+    "GLD", "SLV", "USO", "TLT", "HYG", "LQD", "UNG", "DBC",         # commodity/rates
+]
+
 # Volatility-regime indices, fetched via AlphaVantage INDEX_DATA (not the equity
 # TIME_SERIES path). VIX (30d) vs VIX3M (3-month) is the term-structure signal —
 # contango (ratio < 1) = calm, backwardation (> 1) = stress; VIX9D adds the

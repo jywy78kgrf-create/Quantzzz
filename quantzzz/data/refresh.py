@@ -276,11 +276,13 @@ def refresh_data(cfg: Config, desk: str = "all") -> None:
     _post_close = _nowc.weekday() < 5 and 20 <= _nowc.hour <= 23
 
     if desk in ("equity", "all"):
-        from ..universe import EQUITY_RESEARCH_SEED
+        from ..universe import EQUITY_RESEARCH_SEED, OPTIONS_VOL_ETFS
         # widen equity breadth: pull the broad liquid pool (~S&P 500), not just
         # the 63-name core. Budget-aware/cached, so it fills the gap over cycles
-        # then idles — same pattern as the biotech catalyst-universe pull.
-        eq_all = EQUITY_UNIVERSE + EQUITY_RESEARCH_SEED
+        # then idles — same pattern as the biotech catalyst-universe pull. The
+        # options-vol ETFs are fetched for prices only (they underlie the greek
+        # signals); they are NOT in the tradeable stock universe.
+        eq_all = EQUITY_UNIVERSE + EQUITY_RESEARCH_SEED + OPTIONS_VOL_ETFS
         _safe("equity prices (expanded universe)",
               lambda: refresh_prices(cfg, eq_all + BENCH_TICKERS, conn))
         if _post_close:   # force the day's close for the live book + bench

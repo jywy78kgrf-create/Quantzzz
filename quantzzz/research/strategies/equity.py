@@ -406,3 +406,12 @@ def skew_sentiment_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
 STRATEGIES.append((IV_RANK, iv_rank_positioning_signal))
 STRATEGIES.append((GAMMA_TILT, gamma_tilt_flow_signal))
 STRATEGIES.append((SKEW_SENT, skew_sentiment_signal))
+
+# Families whose signals only exist where the distilled chains have coverage
+# (2021-11 onward). The research loop re-anchors their walk-forward windows to
+# the covered period — otherwise the 1999-era in-sample region holds zero
+# positions and every candidate dies as "weak in-sample" without ever being
+# evaluated on the years the data actually spans.
+OPTIONS_FAMILIES = frozenset({
+    "iv_rank_positioning", "gamma_tilt_flow", "skew_sentiment",
+})

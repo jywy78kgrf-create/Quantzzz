@@ -27,6 +27,7 @@ def load_feature_bundle(cfg: Config, desk: str, tickers: list[str],
     earnings: dict = {}
     news: dict = {}
     external = None
+    options = None
 
     for t in close.columns:
         e = store.load_json(f"av_earnings/{t}.json")
@@ -41,6 +42,10 @@ def load_feature_bundle(cfg: Config, desk: str, tickers: list[str],
             data = store.load_json(f"edgar/{t}.json")
             if data:
                 fundamentals[t] = data
+        # distilled options-greeks signals (meridian export); coverage is
+        # equity/ETF underlyings, so only the equity desk loads it
+        from ..data.options_signals import load_options_signals
+        options = load_options_signals(cfg.snapshot_dir)
 
     if desk in ("biotech", "biotech_smallcap"):
         catalysts = store.load_json("bpiq/catalysts.json") or []
@@ -53,4 +58,4 @@ def load_feature_bundle(cfg: Config, desk: str, tickers: list[str],
     return FeatureBundle(desk=desk, prices=close, volume=volume,
                          fundamentals=fundamentals, catalysts=catalysts,
                          hist_catalysts=hist, earnings=earnings, news=news,
-                         external=external)
+                         external=external, options=options)

@@ -24,6 +24,7 @@ class FeatureBundle:
     earnings: dict = field(default_factory=dict)      # ticker -> AV earnings surprises
     news: dict = field(default_factory=dict)          # ticker -> AV news sentiment
     external: object = None                           # ExternalSignals | None (biotech desk)
+    options: object = None                            # OptionsSignals | None (greeks)
 
     @property
     def tickers(self) -> list[str]:
@@ -44,6 +45,7 @@ class FeatureBundle:
             earnings=self.earnings,
             news=self.news,
             external=self.external,
+            options=self.options,
         )
 
 
@@ -285,3 +287,14 @@ def external_days_to_catalyst_frame(bundle: FeatureBundle,
     if bundle.external is None:
         return pd.DataFrame(index=bundle.dates, columns=bundle.tickers, dtype=float)
     return bundle.external.days_to_catalyst(bundle.dates, bundle.tickers, catalyst_types)
+
+
+def options_signal_frame(bundle: FeatureBundle, signal_name: str) -> pd.DataFrame:
+    """A dates x tickers point-in-time frame for a distilled options-greek signal.
+
+    All-NaN when the options export isn't loaded (or a ticker has no chain
+    coverage), so families degrade gracefully to holding nothing.
+    """
+    if bundle.options is None:
+        return pd.DataFrame(index=bundle.dates, columns=bundle.tickers, dtype=float)
+    return bundle.options.panel(signal_name, bundle.dates, bundle.tickers)

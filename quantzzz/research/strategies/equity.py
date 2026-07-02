@@ -334,3 +334,75 @@ def fifty_two_week_high_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame
 
 
 STRATEGIES.append((FIFTY_TWO_HIGH, fifty_two_week_high_signal))
+
+# ---- options-greeks families (distilled meridian chains: 112 underlyings,
+# 2021->present, per-contract greeks reduced to daily signals). These rank on
+# information the price-only families cannot see; names without options
+# coverage are NaN and simply never selected.
+
+# IV-rank positioning: where a name's 30d ATM implied vol sits in its trailing
+# 1-year range. direction=1 buys vol-fear extremes (contrarian: panic pricing
+# mean-reverts), direction=0 buys the calm names (carry/quality tilt). The
+# search decides which expression survives out-of-sample.
+IV_RANK = ParamSpace("iv_rank_positioning", "equity", [
+    ParamDef("direction", "choice", choices=(0, 1)),
+    ParamDef("top_n", "int", 3, 12, step=1),
+    ParamDef("rebalance", "choice", choices=(3, 5, 10)),
+    ParamDef("trend_filter", "choice", choices=(0, 1)),   # long-term uptrend gate
+])
+
+
+def iv_rank_positioning_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    rank = F.options_signal_frame(bundle, "iv_rank_252")
+    score = rank if int(p["direction"]) else (1.0 - rank)
+    if int(p["trend_filter"]):
+        lt = F.momentum(bundle.prices, 126)
+        score = score.where((lt > 0).fillna(False))
+    w = _equal_weight_top(score, int(p["top_n"]))
+    return _rebalanced(w, int(p["rebalance"]))
+
+
+# Dealer gamma tilt: (call gamma*OI - put gamma*OI) / total. Call-heavy books
+# mean dealers hedge by buying dips / selling rips in the name — a flow tailwind
+# often read as bullish positioning. Smoothed to kill chain-day noise.
+GAMMA_TILT = ParamSpace("gamma_tilt_flow", "equity", [
+    ParamDef("smooth", "int", 1, 15, step=1),             # rolling mean days
+    ParamDef("top_n", "int", 3, 12, step=1),
+    ParamDef("rebalance", "choice", choices=(3, 5, 10)),
+    ParamDef("mom_confirm", "choice", choices=(0, 1)),    # require positive 1m momentum
+])
+
+
+def gamma_tilt_flow_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    tilt = F.options_signal_frame(bundle, "gamma_tilt")
+    score = tilt.rolling(int(p["smooth"]), min_periods=1).mean()
+    if int(p["mom_confirm"]):
+        mom = F.momentum(bundle.prices, 21)
+        score = score.where((mom > 0).fillna(False))
+    w = _equal_weight_top(score, int(p["top_n"]))
+    return _rebalanced(w, int(p["rebalance"]))
+
+
+# 25-delta skew as positioning sentiment: skew = IV(25d put) - IV(25d call).
+# Low/negative skew = unusual CALL demand (bullish speculation); high skew =
+# put-protection bid (fear). direction=0 follows the bullish call demand,
+# direction=1 fades the fear names contrarian-style.
+SKEW_SENT = ParamSpace("skew_sentiment", "equity", [
+    ParamDef("direction", "choice", choices=(0, 1)),
+    ParamDef("smooth", "int", 1, 10, step=1),
+    ParamDef("top_n", "int", 3, 12, step=1),
+    ParamDef("rebalance", "choice", choices=(3, 5, 10)),
+])
+
+
+def skew_sentiment_signal(bundle: F.FeatureBundle, p: dict) -> pd.DataFrame:
+    skew = F.options_signal_frame(bundle, "iv_skew_25d")
+    sm = skew.rolling(int(p["smooth"]), min_periods=1).mean()
+    score = sm if int(p["direction"]) else -sm    # 0: chase call demand (low skew)
+    w = _equal_weight_top(score, int(p["top_n"]))
+    return _rebalanced(w, int(p["rebalance"]))
+
+
+STRATEGIES.append((IV_RANK, iv_rank_positioning_signal))
+STRATEGIES.append((GAMMA_TILT, gamma_tilt_flow_signal))
+STRATEGIES.append((SKEW_SENT, skew_sentiment_signal))

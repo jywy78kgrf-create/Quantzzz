@@ -1,103 +1,5 @@
 [
  {
-  "id": 17294,
-  "company": {
-   "ticker": "RVMD",
-   "name": "Revolution Medicines Inc",
-   "last_price": "185.25",
-   "market_cap": 39863963648
-  },
-  "ticker": "RVMD",
-  "drug_name": "RMC-6236 (RASMULTI)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   },
-   {
-    "id": 859,
-    "title": "Pancreatic cancer",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Solid tumor/s, Pancreatic cancer, Non-small cell lung carcinoma, Cancer",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "10/23/24- Safety & efficacy data from Ph1 study of PDAC at AACR-NCI-EORTC. 12/2/24- Ph1/1b update on monotherapy in 2L metastatic PDAC supports ongoing Ph3 RASolute 302 clinical trial. Ph1/1b proof-of-concept monotherapy in previously treated NSCLC supports Ph3 RASolve 301. 03/17/26:- Present daraxonrasib Ph1/2 datasets at AACR Apr 20-21, 2026. 04/21/26:- 1L metastatic PDAC data: ORR 58% combo; ORR 47% monotherapy at AACR. 05/06/26:- NEJM published RMC-6236-001 (NCT05379985) Ph1/2 PDAC cohort results for daraxonrasib. 06/24/26:- Ph1/2 zoldonrasib+dara combo data in 2L+ KRAS G12D mPDAC presented July 2, 2026.",
-  "catalyst_date": "2026-07-02",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/24/3317231/0/en/revolution-medicines-to-present-clinical-data-from-ras-on-inhibitor-combination-trials-in-pancreatic-cancer-at-esmo-gastrointestinal-cancers-congress-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 17296,
-  "company": {
-   "ticker": "RVMD",
-   "name": "Revolution Medicines Inc",
-   "last_price": "185.25",
-   "market_cap": 39863963648
-  },
-  "ticker": "RVMD",
-  "drug_name": "RMC-9805 (KRASG12D)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 748,
-    "title": "Colorectal cancer ",
-    "nickname": "Colon and Rectal Cancer"
-   },
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   },
-   {
-    "id": 859,
-    "title": "Pancreatic cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Colorectal cancer , Pancreatic cancer, Non-small cell lung carcinoma, Cancer",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "9/19/23- Dosed the first patient in Ph1/1b. 10/25/24- Data at AACR-NCI-EORTC. 4/27/25- Reported new clinical data at AACR '25. 03/17/26:- Present preliminary Ph1 safety/activity in KRAS G12D NSCLC at AACR Apr 19, 2026. 04/19/26:- Updated Ph1 RMC-9805-001 NSCLC data: ORR 52% (n=27); manageable safety. 06/23/26:- Began treating patients in Ph3 RASolute 305 zoldonrasib+chemo for 1L metastatic RAS G12D PDAC. 06/24/26:- Ph1/2 zoldonrasib combo results in 1L and 2L+ mPDAC presented July 2, 2026.",
-  "catalyst_date": "2026-07-02",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/24/3317231/0/en/revolution-medicines-to-present-clinical-data-from-ras-on-inhibitor-combination-trials-in-pancreatic-cancer-at-esmo-gastrointestinal-cancers-congress-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 20590,
   "company": {
    "ticker": "AGEN",
@@ -132,50 +34,11 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 20593,
-  "company": {
-   "ticker": "RVMD",
-   "name": "Revolution Medicines Inc",
-   "last_price": "185.25",
-   "market_cap": 39863963648
-  },
-  "ticker": "RVMD",
-  "drug_name": "Zoldonrasib/Daraxonrasib (RMC-9805 + RMC-6236) (RAS(ON) Inhibitors)",
-  "indications": [
-   {
-    "id": 859,
-    "title": "Pancreatic cancer",
-    "nickname": ""
-   },
-   {
-    "id": 2226,
-    "title": "Pancreatic ductal adenocarcinoma ",
-    "nickname": "PDAC"
-   }
-  ],
-  "indications_text": "2L+ KRAS G12D Metastatic Pancreatic Adenocarcinoma",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "06/24/26:- Present Phase 1/2 zoldonrasib+dara results in 2L+ KRAS G12D mPDAC on July 2, 2026.",
-  "catalyst_date": "2026-07-02",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/24/3317231/0/en/revolution-medicines-to-present-clinical-data-from-ras-on-inhibitor-combination-trials-in-pancreatic-cancer-at-esmo-gastrointestinal-cancers-congress-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 14969,
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "39.31",
+   "last_price": "39.95",
    "market_cap": 3062258688
   },
   "ticker": "VERA",
@@ -695,7 +558,7 @@
   "company": {
    "ticker": "OTLK",
    "name": "Outlook Therapeutics",
-   "last_price": "1.47",
+   "last_price": "1.46",
    "market_cap": 218423072
   },
   "ticker": "OTLK",
@@ -924,7 +787,7 @@
   "company": {
    "ticker": "CMPS",
    "name": "Compass Pathways",
-   "last_price": "13.29",
+   "last_price": "13.65",
    "market_cap": 1793476352
   },
   "ticker": "CMPS",
@@ -1382,7 +1245,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "81.76",
+   "last_price": "81.80",
    "market_cap": 11330539520
   },
   "ticker": "ARWR",
@@ -1752,7 +1615,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.83",
+   "last_price": "2.77",
    "market_cap": 22616828
   },
   "ticker": "CLRB",
@@ -1961,7 +1824,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.83",
+   "last_price": "2.77",
    "market_cap": 22616828
   },
   "ticker": "CLRB",
@@ -2263,7 +2126,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "22.92",
+   "last_price": "22.87",
    "market_cap": 1336027392
   },
   "ticker": "CAPR",
@@ -2435,6 +2298,40 @@
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 19337,
+  "company": {
+   "ticker": "TENX",
+   "name": "Tenax Therapeutics",
+   "last_price": "14.44",
+   "market_cap": 352519360
+  },
+  "ticker": "TENX",
+  "drug_name": "TNX-103 (Oral Levosimendan)",
+  "indications": [
+   {
+    "id": 839,
+    "title": "Pulmonary hypertension",
+    "nickname": "PH"
+   }
+  ],
+  "indications_text": "Pulmonary hypertension in heart failure with preserved ejection fraction (PH-HFpEF)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "LEVEL & LEVEL-2 Ph3 studies. 11/6/25- KOL event on Nov 13th. Enrollment ongoing in North American LEVEL study & LEVEL-2. Global study on track to initiate in 2025. 03/10/26:- LEVEL randomization completed; Q3 2026 topline Ph3 data expected; LEVEL-2 enrollment completion anticipated by end 2027. 05/12/26:- LEVEL randomized; Q3 2026 topline on track; LEVEL-2 enrollment ongoing, completion expected end 2027. 07/02/26:- LEVEL Ph3 topline data expected August 2026; ESC late-breaking presentation scheduled Aug 29, 2026.",
+  "catalyst_date": "2026-08-29",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60239929/tenax-therapeutics-announces-late-breaking-presentation-level-clinical-trial-data-esc-congress-2026",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": true,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
  },
@@ -2628,7 +2525,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "643.57",
+   "last_price": "643.26",
    "market_cap": 65495035904
   },
   "ticker": "REGN",
@@ -2696,7 +2593,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "2.41",
+   "last_price": "2.40",
    "market_cap": 150483616
   },
   "ticker": "CNTB",
@@ -3694,7 +3591,7 @@
   "company": {
    "ticker": "CNTX",
    "name": "Context Therapeutics",
-   "last_price": "0.61",
+   "last_price": "0.63",
    "market_cap": 55890100
   },
   "ticker": "CNTX",
@@ -4049,7 +3946,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "2.41",
+   "last_price": "2.40",
    "market_cap": 150483616
   },
   "ticker": "CNTB",
@@ -4117,7 +4014,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.68",
+   "last_price": "17.51",
    "market_cap": 1061995136
   },
   "ticker": "CGEM",
@@ -4333,40 +4230,6 @@
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
-  "id": 19337,
-  "company": {
-   "ticker": "TENX",
-   "name": "Tenax Therapeutics",
-   "last_price": "14.44",
-   "market_cap": 352519360
-  },
-  "ticker": "TENX",
-  "drug_name": "TNX-103 (Oral Levosimendan)",
-  "indications": [
-   {
-    "id": 839,
-    "title": "Pulmonary hypertension",
-    "nickname": "PH"
-   }
-  ],
-  "indications_text": "Pulmonary hypertension in heart failure with preserved ejection fraction (PH-HFpEF)",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "LEVEL & LEVEL-2 Ph3 studies. 11/6/25- KOL event on Nov 13th. Enrollment ongoing in North American LEVEL study & LEVEL-2. Global study on track to initiate in 2025. 03/10/26:- LEVEL randomization completed; Q3 2026 topline Ph3 data expected; LEVEL-2 enrollment completion anticipated by end 2027. 05/12/26:- LEVEL randomized; Q3 2026 topline on track; LEVEL-2 enrollment ongoing, completion expected end 2027.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/12/3292681/12401/en/tenax-therapeutics-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": true,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
  },
@@ -5441,7 +5304,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "38.10",
+   "last_price": "37.95",
    "market_cap": 6575000576
   },
   "ticker": "COGT",
@@ -5514,7 +5377,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "643.57",
+   "last_price": "643.26",
    "market_cap": 65495035904
   },
   "ticker": "REGN",
@@ -5943,7 +5806,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "38.10",
+   "last_price": "37.95",
    "market_cap": 6575000576
   },
   "ticker": "COGT",
@@ -7100,7 +6963,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "88.48",
+   "last_price": "88.14",
    "market_cap": 9498469376
   },
   "ticker": "CORT",
@@ -9159,7 +9022,7 @@
   "company": {
    "ticker": "PCVX",
    "name": "Vaxcyte",
-   "last_price": "56.08",
+   "last_price": "57.19",
    "market_cap": 8097822208
   },
   "ticker": "PCVX",
@@ -9598,7 +9461,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.68",
+   "last_price": "17.51",
    "market_cap": 1061995136
   },
   "ticker": "CGEM",
@@ -9632,7 +9495,7 @@
   "company": {
    "ticker": "CMPX",
    "name": "Compass Therapeutics",
-   "last_price": "2.21",
+   "last_price": "2.22",
    "market_cap": 392591680
   },
   "ticker": "CMPX",
@@ -10217,7 +10080,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.85",
+   "last_price": "3.18",
    "market_cap": 203904272
   },
   "ticker": "NKTX",
@@ -11421,7 +11284,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.68",
+   "last_price": "17.51",
    "market_cap": 1061995136
   },
   "ticker": "CGEM",
@@ -11694,7 +11557,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "5.66",
+   "last_price": "5.62",
    "market_cap": 132767656
   },
   "ticker": "COYA",
@@ -12069,7 +11932,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.85",
+   "last_price": "3.18",
    "market_cap": 203904272
   },
   "ticker": "NKTX",
@@ -12478,7 +12341,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "81.76",
+   "last_price": "81.80",
    "market_cap": 11330539520
   },
   "ticker": "ARWR",
@@ -12668,7 +12531,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "13.29",
+   "last_price": "12.63",
    "market_cap": 761025600
   },
   "ticker": "CLYM",
@@ -12956,7 +12819,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "81.76",
+   "last_price": "81.80",
    "market_cap": 11330539520
   },
   "ticker": "ARWR",
@@ -13190,7 +13053,7 @@
   "company": {
    "ticker": "GLUE",
    "name": "Monte Rosa Therapeutics",
-   "last_price": "24.89",
+   "last_price": "23.87",
    "market_cap": 2029195648
   },
   "ticker": "GLUE",
@@ -13393,7 +13256,7 @@
   "company": {
    "ticker": "CMPX",
    "name": "Compass Therapeutics",
-   "last_price": "2.21",
+   "last_price": "2.22",
    "market_cap": 392591680
   },
   "ticker": "CMPX",
@@ -13573,7 +13436,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.34",
+   "last_price": "5.43",
    "market_cap": 745804096
   },
   "ticker": "ACRS",
@@ -13607,7 +13470,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.34",
+   "last_price": "5.43",
    "market_cap": 745804096
   },
   "ticker": "ACRS",
@@ -13787,7 +13650,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "2.99",
+   "last_price": "3.12",
    "market_cap": 487533856
   },
   "ticker": "CABA",
@@ -13894,7 +13757,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "88.48",
+   "last_price": "88.14",
    "market_cap": 9498469376
   },
   "ticker": "CORT",
@@ -14040,7 +13903,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.68",
+   "last_price": "17.51",
    "market_cap": 1061995136
   },
   "ticker": "CGEM",
@@ -14957,10 +14820,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "Global partnership w/ Orano Med. 11/12/25\u2013 Presented data at TRP Summit Europe'25. IND filed; Ph1 trial initiation by YE 2025 with data in 2026. 02/02/26:- TWC 2026 imaging/dosimetry data reported; US Ph1/2a NCT07278479 ongoing; initial safety data in 2026. 03/12/26:- US Ph1/2a NCT07278479 recruiting; MP0712 initial clinical data expected in 2026; imaging/dosimetry supports study design. 05/12/26:- US Ph1/2a NCT07278479 recruiting at four sites; trial-in-progress posters planned for SNMMI 2026 and ASCO 2026. 05/30/26:- Trial-in-progress posters at ASCO/SNMMI 2026. Initial Phase 1/2a clinical data expected in 2026.",
+  "note": "Global partnership w/ Orano Med. 11/12/25\u2013 Presented data at TRP Summit Europe'25. IND filed; Ph1 trial initiation by YE 2025 with data in 2026. 02/02/26:- TWC 2026 imaging/dosimetry data reported; US Ph1/2a NCT07278479 ongoing; initial safety data in 2026. 03/12/26:- US Ph1/2a NCT07278479 recruiting; MP0712 initial clinical data expected in 2026; imaging/dosimetry supports study design. 05/12/26:- US Ph1/2a NCT07278479 recruiting at four sites; trial-in-progress posters planned for SNMMI 2026 and ASCO 2026. 05/30/26:- Trial-in-progress posters at ASCO/SNMMI 2026. Initial Phase 1/2a clinical data expected in 2026. 07/02/26:- First patients dosed; five US sites recruiting. Initial data expected in coming months 2026; comprehensive safety/efficacy data 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/30/3303874/0/en/molecular-partners-holds-presentations-at-asco-and-snmmi-2026-on-dll3-targeting-radio-darpin-mp0712-now-dosing-patients-in-phase-1.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60236534/molecular-partners-and-orano-med-announce-first-patients-dosed-phase-1-2a-trial-dll3-radio-darpin-mp",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -15084,7 +14947,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "81.76",
+   "last_price": "81.80",
    "market_cap": 11330539520
   },
   "ticker": "ARWR",
@@ -18035,7 +17898,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "13.29",
+   "last_price": "12.63",
    "market_cap": 761025600
   },
   "ticker": "CLYM",
@@ -18103,7 +17966,7 @@
   "company": {
    "ticker": "CUE",
    "name": "Cue Biopharma",
-   "last_price": "27.82",
+   "last_price": "28.52",
    "market_cap": 119037720
   },
   "ticker": "CUE",
@@ -18413,7 +18276,7 @@
   "company": {
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
-   "last_price": "32.50",
+   "last_price": "31.13",
    "market_cap": 1517925760
   },
   "ticker": "COAG",
@@ -18481,7 +18344,7 @@
   "company": {
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
-   "last_price": "32.50",
+   "last_price": "31.13",
    "market_cap": 1517925760
   },
   "ticker": "COAG",
@@ -18822,7 +18685,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.68",
+   "last_price": "17.51",
    "market_cap": 1061995136
   },
   "ticker": "CGEM",
@@ -19109,7 +18972,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "5.66",
+   "last_price": "5.62",
    "market_cap": 132767656
   },
   "ticker": "COYA",
@@ -20268,7 +20131,7 @@
   "company": {
    "ticker": "PCVX",
    "name": "Vaxcyte",
-   "last_price": "56.08",
+   "last_price": "57.19",
    "market_cap": 8097822208
   },
   "ticker": "PCVX",
@@ -20978,7 +20841,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "2.99",
+   "last_price": "3.12",
    "market_cap": 487533856
   },
   "ticker": "CABA",
@@ -21212,7 +21075,7 @@
   "company": {
    "ticker": "ABVX",
    "name": "Abivax",
-   "last_price": "140.48",
+   "last_price": "142.92",
    "market_cap": 10574336000
   },
   "ticker": "ABVX",
@@ -22803,7 +22666,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "88.48",
+   "last_price": "88.14",
    "market_cap": 9498469376
   },
   "ticker": "CORT",
@@ -22837,7 +22700,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "88.48",
+   "last_price": "88.14",
    "market_cap": 9498469376
   },
   "ticker": "CORT",
@@ -22871,7 +22734,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "88.48",
+   "last_price": "88.14",
    "market_cap": 9498469376
   },
   "ticker": "CORT",
@@ -22905,7 +22768,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "88.48",
+   "last_price": "88.14",
    "market_cap": 9498469376
   },
   "ticker": "CORT",
@@ -22939,7 +22802,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "88.48",
+   "last_price": "88.14",
    "market_cap": 9498469376
   },
   "ticker": "CORT",
@@ -23221,7 +23084,7 @@
   "company": {
    "ticker": "PCVX",
    "name": "Vaxcyte",
-   "last_price": "56.08",
+   "last_price": "57.19",
    "market_cap": 8097822208
   },
   "ticker": "PCVX",
@@ -24325,7 +24188,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "88.48",
+   "last_price": "88.14",
    "market_cap": 9498469376
   },
   "ticker": "CORT",
@@ -25450,7 +25313,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "2.99",
+   "last_price": "3.12",
    "market_cap": 487533856
   },
   "ticker": "CABA",
@@ -25556,6 +25419,104 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.roche.com/media/releases/med-cor-2026-04-23",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 17294,
+  "company": {
+   "ticker": "RVMD",
+   "name": "Revolution Medicines Inc",
+   "last_price": "185.25",
+   "market_cap": 39863963648
+  },
+  "ticker": "RVMD",
+  "drug_name": "RMC-6236 (RASMULTI)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   },
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Solid tumor/s, Pancreatic cancer, Non-small cell lung carcinoma, Cancer",
+  "stage_event": {
+   "id": 125,
+   "label": "Phase 1/2 Update",
+   "stage_label": "Phase 1/2",
+   "event_label": "Update"
+  },
+  "note": "10/23/24- Safety & efficacy data from Ph1 study of PDAC at AACR-NCI-EORTC. 12/2/24- Ph1/1b update on monotherapy in 2L metastatic PDAC supports ongoing Ph3 RASolute 302 clinical trial. Ph1/1b proof-of-concept monotherapy in previously treated NSCLC supports Ph3 RASolve 301. 03/17/26:- Present daraxonrasib Ph1/2 datasets at AACR Apr 20-21, 2026. 04/21/26:- 1L metastatic PDAC data: ORR 58% combo; ORR 47% monotherapy at AACR. 05/06/26:- NEJM published RMC-6236-001 (NCT05379985) Ph1/2 PDAC cohort results for daraxonrasib. 06/24/26:- Ph1/2 zoldonrasib+dara combo data in 2L+ KRAS G12D mPDAC presented July 2, 2026. 07/02/26:- ESMO GI: zoldonrasib+dara ORR 50% in 2L, 47% in 3L+ KRAS G12D mPDAC.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60241300/revolution-medicines-presents-phase-1-2-clinical-data-zoldonrasib-combination-regimens-patients-ras-",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 17296,
+  "company": {
+   "ticker": "RVMD",
+   "name": "Revolution Medicines Inc",
+   "last_price": "185.25",
+   "market_cap": 39863963648
+  },
+  "ticker": "RVMD",
+  "drug_name": "RMC-9805 (KRASG12D)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 748,
+    "title": "Colorectal cancer ",
+    "nickname": "Colon and Rectal Cancer"
+   },
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   },
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Colorectal cancer , Pancreatic cancer, Non-small cell lung carcinoma, Cancer",
+  "stage_event": {
+   "id": 125,
+   "label": "Phase 1/2 Update",
+   "stage_label": "Phase 1/2",
+   "event_label": "Update"
+  },
+  "note": "9/19/23- Dosed the first patient in Ph1/1b. 10/25/24- Data at AACR-NCI-EORTC. 4/27/25- Reported new clinical data at AACR '25. 03/17/26:- Present preliminary Ph1 safety/activity in KRAS G12D NSCLC at AACR Apr 19, 2026. 04/19/26:- Updated Ph1 RMC-9805-001 NSCLC data: ORR 52% (n=27); manageable safety. 06/23/26:- Began treating patients in Ph3 RASolute 305 zoldonrasib+chemo for 1L metastatic RAS G12D PDAC. 06/24/26:- Ph1/2 zoldonrasib combo results in 1L and 2L+ mPDAC presented July 2, 2026. 07/02/26:- ESMO GI: zoldonrasib+chemo ORR 82% mFFX, 61% GnP; supports ongoing Ph3 RASolute 305. Planned Ph3 RASolute 309 zoldonrasib+dara vs GnP.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60241300/revolution-medicines-presents-phase-1-2-clinical-data-zoldonrasib-combination-regimens-patients-ras-",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -27243,7 +27204,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "38.10",
+   "last_price": "37.95",
    "market_cap": 6575000576
   },
   "ticker": "COGT",
@@ -28113,7 +28074,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "2.41",
+   "last_price": "2.40",
    "market_cap": 150483616
   },
   "ticker": "CNTB",
@@ -28152,7 +28113,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "2.41",
+   "last_price": "2.40",
    "market_cap": 150483616
   },
   "ticker": "CNTB",
@@ -28467,6 +28428,45 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260528295148/en/Bristol-Myers-Squibb-Announces-CELMoD-Mezigdomide-Reduces-Risk-of-Disease-Progression-or-Death-by-More-than-50-vs.-Standard-of-Care-in-Relapsed-or-Refractory-Multiple-Myeloma",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20593,
+  "company": {
+   "ticker": "RVMD",
+   "name": "Revolution Medicines Inc",
+   "last_price": "185.25",
+   "market_cap": 39863963648
+  },
+  "ticker": "RVMD",
+  "drug_name": "Zoldonrasib/Daraxonrasib (RMC-9805 + RMC-6236) (RAS(ON) Inhibitors)",
+  "indications": [
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   },
+   {
+    "id": 2226,
+    "title": "Pancreatic ductal adenocarcinoma ",
+    "nickname": "PDAC"
+   }
+  ],
+  "indications_text": "2L+ KRAS G12D Metastatic Pancreatic Adenocarcinoma",
+  "stage_event": {
+   "id": 125,
+   "label": "Phase 1/2 Update",
+   "stage_label": "Phase 1/2",
+   "event_label": "Update"
+  },
+  "note": "06/24/26:- Present Phase 1/2 zoldonrasib+dara results in 2L+ KRAS G12D mPDAC on July 2, 2026. 07/02/26:- ESMO GI: zoldonrasib+dara ORR 50% in 2L, 47% in 3L+ mPDAC; Ph3 RASolute 309 planned.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60241300/revolution-medicines-presents-phase-1-2-clinical-data-zoldonrasib-combination-regimens-patients-ras-",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

@@ -96,3 +96,18 @@ def test_families_degrade_without_options():
     for name, fn, sp in _CASES:
         w = fn(bare, sp.random_params(random.Random(2)))
         assert (w == 0).all().all(), f"{name} should hold nothing without data"
+
+
+def test_options_families_get_coverage_rewindow():
+    """The loop must re-anchor walk-forward windows to the covered period for
+    options families; otherwise the 1999-era in-sample region holds no
+    positions and every candidate dies as weak-IS (the 2026-07-02 bug)."""
+    import inspect
+
+    from quantzzz.research import loop as L
+    from quantzzz.research.strategies.equity import OPTIONS_FAMILIES
+
+    assert OPTIONS_FAMILIES == {
+        "iv_rank_positioning", "gamma_tilt_flow", "skew_sentiment"}
+    src = inspect.getsource(L.ResearchDesk._evaluate_spec)
+    assert "OPTIONS_FAMILIES" in src, "loop no longer re-windows options families"

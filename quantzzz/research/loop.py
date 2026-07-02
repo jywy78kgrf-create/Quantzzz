@@ -354,7 +354,8 @@ class ResearchDesk:
             return None, False, [f"error: {e}"], [], True
 
         from .strategies.biotech import EXTERNAL_FAMILIES
-        if spec.family in EXTERNAL_FAMILIES:
+        from .strategies.equity import OPTIONS_FAMILIES
+        if spec.family in EXTERNAL_FAMILIES or spec.family in OPTIONS_FAMILIES:
             active = weights.abs().sum(axis=1) > 0
             if not active.any():
                 return None, False, ["no active days (external signals absent)"], [], True

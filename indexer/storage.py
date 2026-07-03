@@ -196,22 +196,25 @@ class Store:
         """Idempotent insert of Solana settlement rows (same table/PK as Base:
         tx_hash=signature, log_index=instruction index)."""
         cur = self.db.cursor()
+        inserted = 0
         try:
             cur.execute("BEGIN")
             for r in rows:
                 cur.execute(
                     "INSERT OR IGNORE INTO settlements "
                     "(tx_hash,log_index,chain,token,payer,seller,amount,"
-                    " block_number,block_timestamp) "
-                    "VALUES(?,?,?,?,?,?,?,?,?)",
+                    " block_number,block_timestamp,facilitator) "
+                    "VALUES(?,?,?,?,?,?,?,?,?,?)",
                     (r["tx_hash"], r["log_index"], r["chain"], r["token"],
                      r["payer"], r["seller"], r["amount"],
-                     r["block_number"], r["block_timestamp"]))
+                     r["block_number"], r["block_timestamp"],
+                     r.get("facilitator")))
+                inserted += cur.rowcount  # 1 if inserted, 0 if ignored (dupe)
             cur.execute("COMMIT")
         except Exception:
             cur.execute("ROLLBACK")
             raise
-        return len(rows)
+        return inserted
 
     def stats(self, chain: str) -> dict:
         c = self.db.cursor()

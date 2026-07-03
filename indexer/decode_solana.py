@@ -63,6 +63,12 @@ def decode_solana_settlements(tx: dict, signature: str) -> list[dict]:
     owner = _token_account_owner_map(tx)
     slot = tx.get("slot")
     block_time = tx.get("blockTime")
+    # The fee payer (first account key) is the relayer that submitted the tx —
+    # i.e. the facilitator. Recording it lets us attribute per-facilitator
+    # volume and bound reconciliation to each relayer's indexed depth.
+    msg = tx["transaction"]["message"]
+    keys0 = msg["accountKeys"][0]
+    facilitator = (keys0["pubkey"] if isinstance(keys0, dict) else keys0)
     rows = []
     for i, info in _iter_spl_transfers(tx):
         src, dst = info.get("source"), info.get("destination")
@@ -88,5 +94,6 @@ def decode_solana_settlements(tx: dict, signature: str) -> list[dict]:
             "block_timestamp": block_time,
             "tx_hash": signature,
             "log_index": i,
+            "facilitator": facilitator,
         })
     return rows

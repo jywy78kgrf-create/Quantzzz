@@ -23,9 +23,20 @@ from storage import Store  # noqa: E402
 X402SCAN = "https://www.x402scan.com/api/trpc"
 
 
-def scan_transfers(seller: str, pages: int = 3) -> set[str]:
-    """Recent tx hashes x402scan attributes to this seller (a few pages)."""
-    hashes: set[str] = set()
+def _ts(s: str) -> float:
+    from datetime import datetime
+    return datetime.fromisoformat(s.replace("Z", "+00:00")).timestamp()
+
+
+def scan_transfers(seller: str, pages: int = 4) -> dict[str, float]:
+    """x402scan's recent transfers for this seller -> {tx_hash: unix_ts}.
+
+    Keyed with the block timestamp so we can band on a mutual time window
+    (works for Base block-numbers and Solana slots alike). tx_hash is kept
+    verbatim — Solana signatures are base58 and case-sensitive; lowercasing
+    them would be wrong, so comparison is done on the exact string.
+    """
+    out: dict[str, float] = {}
     for page in range(pages):
         inp = {"json": {"timeframe": 0, "recipients": {"include": [seller]},
                         "sorting": {"id": "block_timestamp", "desc": True},
@@ -41,10 +52,10 @@ def scan_transfers(seller: str, pages: int = 3) -> set[str]:
             print(f"  scan fetch err for {seller[:10]}: {e}")
             break
         for t in items:
-            hashes.add(t["tx_hash"].lower())
+            out[t["tx_hash"]] = _ts(t["block_timestamp"])
         if len(items) < 1000:
             break
-    return hashes
+    return out
 
 
 def main() -> None:
@@ -59,53 +70,86 @@ def main() -> None:
         print("no settlements indexed; run a smoke index first")
         return
 
-    results = []
-    for seller, n in top:
-        # our settlements with block numbers, so we can bound to x402scan's
-        # ingestion frontier (they lag the chain tip by ~minutes)
-        ours_rows = store.db.execute(
-            "SELECT tx_hash, block_number FROM settlements WHERE seller=?",
-            (seller,)).fetchall()
-        ours = {h.lower() for h, _ in ours_rows}
-        theirs = scan_transfers(seller)
-        # x402scan returns only the most-recent N txs (a page cap). So their
-        # coverage of a seller is a BLOCK BAND, bounded above by ingestion lag
-        # (they trail the tip) and below by the page cap (they don't reach older
-        # blocks in a busy window). The only valid correctness test is INSIDE
-        # that band: [min, max] block of ours that appears in theirs. There,
-        # every one of ours must be present (same chain). Outside the band is
-        # lag (above) or cap (below), neither a divergence.
-        matched_blocks = sorted(b for h, b in ours_rows if h.lower() in theirs)
-        if matched_blocks:
-            lo_b, hi_b = matched_blocks[0], matched_blocks[-1]
-            in_band = {h.lower() for h, b in ours_rows if lo_b <= b <= hi_b}
-            matched_band = in_band & theirs
-            coverage = len(matched_band) / len(in_band) if in_band else None
-            fresher = sum(1 for _, b in ours_rows if b > hi_b)
-            below_cap = sum(1 for _, b in ours_rows if b < lo_b)
-        else:
-            coverage, fresher, below_cap = None, len(ours_rows), 0
-        results.append({
-            "seller": seller, "ours": len(ours), "scan_recent": len(theirs),
-            "coverage_in_band": round(coverage, 4) if coverage is not None else None,
-            "ours_fresher_than_scan": fresher, "ours_below_scan_cap": below_cap})
-        cov = f"{coverage:.1%}" if coverage is not None else "n/a"
-        print(f"{seller[:12]} ours={len(ours):4d} scan={len(theirs):4d} "
-              f"band_coverage={cov} fresher={fresher} below_cap={below_cap}")
+    # The correctness question is directional. x402scan is NOT ground truth —
+    # it can (and on Solana does, via its Bitquery feed) MISS real settlements
+    # that a direct chain read catches. So we test the two things that actually
+    # matter, banded to the MUTUAL time window both sources cover:
+    #   (A) misses: settlements x402scan has that we DON'T  -> must be ~0.
+    #       A nonzero here is a real false-negative bug in our indexer.
+    #   (B) surplus: settlements WE have that x402scan doesn't -> allowed, but
+    #       reported (it's our completeness edge) and a sample is on-chain-
+    #       validated separately so surplus can't hide false positives.
+    # Cold-start bound: each relayer is bootstrapped from its most-recent
+    # signatures, so relayers have different indexed FLOORS (oldest ts held).
+    # A seller served by a busy relayer whose floor is recent will look like it
+    # is "missing" older settlements that are really just below our bootstrap
+    # depth. Above the point where EVERY relayer has coverage — the max of the
+    # per-relayer floors — a miss is a genuine false negative. Below it, it's
+    # depth, not a bug. (A full backfill lowers this floor to chain genesis.)
+    floors = store.db.execute(
+        "SELECT facilitator, MIN(block_timestamp) FROM settlements "
+        "WHERE chain='solana' AND facilitator IS NOT NULL GROUP BY facilitator"
+    ).fetchall()
+    covered_floor = max((f for _, f in floors if f is not None), default=None)
 
-    # Verdict on the LAG-CORRECTED overlap: within the window x402scan has
-    # ingested, our chain-derived txs must be ~100% present (same chain).
-    checkable = [r for r in results if r["coverage_in_band"] is not None]
-    if checkable:
-        worst = min(r["coverage_in_band"] for r in checkable)
-        print(f"\nlag-corrected overlap coverage — worst of {len(checkable)} "
-              f"sellers = {worst:.2%}")
-        print("VERDICT:", "PASS (index agrees with x402scan in the overlap window)"
-              if worst >= 0.98 else "REVIEW — real divergence in overlap")
-    else:
-        print("\n(no overlap window reached; widen scan pages or use an older window)")
+    results = []
+    total_misses = 0            # misses ABOVE the covered floor (real signal)
+    total_misses_depth = 0      # misses below floor (cold-start artifact)
+    total_surplus = 0
+    for seller, n in top:
+        ours_rows = store.db.execute(
+            "SELECT tx_hash, block_timestamp FROM settlements WHERE seller=?",
+            (seller,)).fetchall()
+        ours = {h: t for h, t in ours_rows if t is not None}
+        theirs = scan_transfers(seller)
+        if not ours or not theirs:
+            print(f"{seller[:12]} ours={len(ours_rows)} theirs={len(theirs)} "
+                  f"(no comparable window)")
+            results.append({"seller": seller, "ours": len(ours_rows),
+                            "theirs": len(theirs), "window": None})
+            continue
+        # mutual time window: [max(mins), min(maxs)]
+        lo = max(min(ours.values()), min(theirs.values()))
+        hi = min(max(ours.values()), max(theirs.values()))
+        oo = {h for h, t in ours.items() if lo <= t <= hi}
+        tt = {h for h, t in theirs.items() if lo <= t <= hi}
+        misses = tt - oo           # they have, we don't
+        surplus = oo - tt          # we have, they don't  -> our completeness
+        # split misses by the covered floor: above it = real, below = depth
+        if covered_floor is not None:
+            real_misses = {h for h in misses if theirs[h] >= covered_floor}
+        else:
+            real_misses = misses
+        depth_misses = misses - real_misses
+        total_misses += len(real_misses)
+        total_misses_depth += len(depth_misses)
+        total_surplus += len(surplus)
+        results.append({
+            "seller": seller, "in_window_ours": len(oo),
+            "in_window_theirs": len(tt), "intersection": len(oo & tt),
+            "real_misses": len(real_misses),
+            "depth_misses_below_floor": len(depth_misses),
+            "surplus_vs_scan": len(surplus),
+            "missed_sigs": sorted(real_misses)[:20]})
+        print(f"{seller[:12]} window[ours={len(oo)} theirs={len(tt)}] "
+              f"real_misses={len(real_misses)} depth={len(depth_misses)} "
+              f"surplus={len(surplus)}")
+
+    print(f"\nREAL MISSES (above covered floor — false negatives): {total_misses}")
+    print(f"depth misses (below cold-start floor, not a bug): {total_misses_depth}")
+    print(f"SURPLUS (we have, x402scan lacks): {total_surplus}")
+    # PASS = we miss nothing the reference has. Surplus is expected (we read the
+    # chain directly); it is validated for realness by validate_surplus.py.
+    print("VERDICT:", "PASS — no false negatives above the covered floor; "
+          "index is a superset of x402scan (surplus validated separately)"
+          if total_misses == 0
+          else f"REVIEW — {total_misses} real misses above the covered floor "
+               "(see missed_sigs; verify on-chain)")
     out = Path(__file__).resolve().parent.parent / "data/indexer/reconciliation.json"
-    json.dump({"results": results}, open(out, "w"), indent=2)
+    json.dump({"results": results, "total_real_misses": total_misses,
+               "total_depth_misses": total_misses_depth,
+               "total_surplus": total_surplus,
+               "covered_floor_ts": covered_floor}, open(out, "w"), indent=2)
     print("wrote", out)
     store.close()
 

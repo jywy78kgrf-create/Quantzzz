@@ -18,7 +18,7 @@ fail=0
 for f in $files; do
   # Lines carrying a `not-a-key` annotation are allowlisted — used for
   # well-known public 64-hex constants (event topic hashes, tx hashes).
-  if git show ":$f" | grep -v 'not-a-key' | grep -qE "$PATTERNS"; then
+  if git show ":$f" | grep -I -v 'not-a-key' | grep -qE "$PATTERNS"; then
     # tolerate known non-secret 64-hex (tx/block hashes) only in data/;
     # everywhere else, a 64-hex string is treated as a potential key.
     echo "BLOCKED: $f matches private-key pattern (64-hex or wallet env var)." >&2

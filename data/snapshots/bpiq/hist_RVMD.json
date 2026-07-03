@@ -1,5 +1,51 @@
 [
  {
+  "id": 8094,
+  "company": {
+   "id": 574,
+   "ticker": "RVMD",
+   "name": "Revolution Medicines Inc"
+  },
+  "created_at": "2026-07-03T13:04:31.926086Z",
+  "updated_at": "2026-07-03T13:04:31.926106Z",
+  "ticker": "RVMD",
+  "drug_name": "Zoldonrasib + daraxonrasib",
+  "drug_indication": "Metastatic RAS G12D Pancreatic Ductal Adenocarcinoma",
+  "airtable_id": 8381,
+  "stage": "Phase 1",
+  "catalyst_date": "2026-07-02",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/02/3321282/0/en/revolution-medicines-presents-phase-1-2-clinical-data-for-zoldonrasib-combination-regimens-in-patients-with-ras-g12d-metastatic-pancreatic-cancer-at-esmo-gastrointestinal-cancers-c.html",
+  "catalyst_text": "Announced positive results in previously treated pancreatic cancer",
+  "detailed_catalyst_text": "Phase 1 combination data of the RAS(ON) G12D inhibitor with a RAS(ON) multi\u2011selective inhibitor in previously treated metastatic RAS G12D pancreatic ductal adenocarcinoma showed robust activity, with ORR of 50% in second line and 47% in third line or later cohorts. The regimen had a manageable safety profile with low discontinuation rates. These results indicate meaningful clinical activity for patients with limited treatment options.",
+  "catalyst_text_evidence": "RMC-9805-001 (NCT06040541) is a Phase 1 trial evaluating zoldonrasib 1200 mg once daily plus daraxonrasib 300 mg once daily in advanced solid tumors with RAS G12D mutations. As of the 2026-02-09 data cutoff, 60 patients with RAS G12D metastatic PDAC who had previously received one or more prior lines of therapy were treated with the combination. Zoldonrasib plus daraxonrasib demonstrated a manageable safety and tolerability profile\u2026 The zoldonrasib plus daraxonrasib combination demonstrated compelling antitumor activity in patients with previously treated metastatic PDAC. In the second line cohort (2L) (N=30), the ORR was 50%\u2026 In the third line and beyond (3L+) cohort (N=30), the ORR was 47%\u2026",
+  "news_published_at": "2026-07-03T00:00:00Z",
+  "open_price_gap_percent": "0.00459",
+  "intra_day_price_change_percent": "0.00462"
+ },
+ {
+  "id": 8096,
+  "company": {
+   "id": 574,
+   "ticker": "RVMD",
+   "name": "Revolution Medicines Inc"
+  },
+  "created_at": "2026-07-03T13:05:17.283442Z",
+  "updated_at": "2026-07-03T13:05:17.283471Z",
+  "ticker": "RVMD",
+  "drug_name": "Zoldonrasib + chemotherapy",
+  "drug_indication": "Metastatic RAS G12D Pancreatic Ductal Adenocarcinoma",
+  "airtable_id": 8380,
+  "stage": "Phase 1/2",
+  "catalyst_date": "2026-07-02",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/02/3321282/0/en/revolution-medicines-presents-phase-1-2-clinical-data-for-zoldonrasib-combination-regimens-in-patients-with-ras-g12d-metastatic-pancreatic-cancer-at-esmo-gastrointestinal-cancers-c.html",
+  "catalyst_text": "Announced positive results in first line pancreatic cancer",
+  "detailed_catalyst_text": "Phase 1/2 data reported for the combination with standard chemotherapy in previously untreated metastatic RAS G12D pancreatic ductal adenocarcinoma showed high objective response rates and strong disease control across mFOLFIRINOX and gemcitabine/nab\u2011paclitaxel backbones. Safety was manageable and generally consistent with the known profiles of each chemotherapy regimen, with no Grade 5 treatment-related adverse events. These results provide early clinical proof-of-concept supporting advancement in first-line disease.",
+  "catalyst_text_evidence": "Revolution Medicines, Inc. (NASDAQ:RVMD) \u2026 today announced results from two Phase 1/2 clinical trials evaluating zoldonrasib\u2026 The results, which will be presented today in a proffered paper session at the 2026 European Society for Medical Oncology (ESMO) Gastrointestinal Cancers Congress, include zoldonrasib in combination with standard of care chemotherapy in previously untreated patients\u2026 RMC-GI-102 (NCT06445062) is an ongoing Phase 1/2 trial\u2026 in patients with previously untreated metastatic RAS G12D PDAC. As of the 2026-02-08 data cutoff, the trial enrolled 41 patients in the zoldonrasib plus mFFX arm and 40 patients in the zoldonrasib plus GnP arm. Zoldonrasib demonstrated a manageable safety and tolerability profile in combination with standard chemotherapy. In the trial, zoldonrasib with chemotherapy showed compelling antitumor activity, with an objective response rate (ORR) of 82%\u2026 in the mFFX population, and an ORR of 61%\u2026 in the GnP population.",
+  "news_published_at": "2026-07-03T00:00:00Z",
+  "open_price_gap_percent": "0.00459",
+  "intra_day_price_change_percent": "0.00462"
+ },
+ {
   "id": 7991,
   "company": {
    "id": 574,
@@ -7,7 +53,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2026-06-24T13:04:38.872571Z",
-  "updated_at": "2026-07-02T13:03:58.373550Z",
+  "updated_at": "2026-07-03T13:03:19.484094Z",
   "ticker": "RVMD",
   "drug_name": "Zoldonrasib",
   "drug_indication": "Metastatic RAS G12D Pancreatic Ductal Adenocarcinoma",
@@ -30,7 +76,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2026-06-02T13:05:13.071966Z",
-  "updated_at": "2026-07-02T13:06:29.751153Z",
+  "updated_at": "2026-07-03T13:05:46.371984Z",
   "ticker": "RVMD",
   "drug_name": "Daraxonrasib",
   "drug_indication": "Pancreatic Ductal Adenocarcinoma",
@@ -53,7 +99,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2026-04-21T13:01:42.026491Z",
-  "updated_at": "2026-07-02T13:01:54.972699Z",
+  "updated_at": "2026-07-03T13:01:32.499148Z",
   "ticker": "RVMD",
   "drug_name": "Zoldonrasib",
   "drug_indication": "KRAS G12D Non-Small Cell Lung Cancer",
@@ -76,7 +122,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2026-04-14T13:04:58.136272Z",
-  "updated_at": "2026-07-02T13:06:15.856541Z",
+  "updated_at": "2026-07-03T13:05:32.659487Z",
   "ticker": "RVMD",
   "drug_name": "Daraxonrasib",
   "drug_indication": "Metastatic Pancreatic Ductal Adenocarcinoma",
@@ -99,7 +145,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2026-04-03T13:05:23.161343Z",
-  "updated_at": "2026-07-02T13:05:53.273381Z",
+  "updated_at": "2026-07-03T13:05:11.863405Z",
   "ticker": "RVMD",
   "drug_name": "Daraxonrasib",
   "drug_indication": "Metastatic Pancreatic Ductal Adenocarcinoma",
@@ -122,7 +168,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2026-01-30T13:01:20.594984Z",
-  "updated_at": "2026-07-02T13:02:09.887964Z",
+  "updated_at": "2026-07-03T13:01:43.509451Z",
   "ticker": "RVMD",
   "drug_name": "RMC-5127",
   "drug_indication": "RAS G12V-mutated solid tumors",
@@ -145,7 +191,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2026-01-09T13:02:06.132462Z",
-  "updated_at": "2026-07-02T13:03:17.171435Z",
+  "updated_at": "2026-07-03T13:02:39.561367Z",
   "ticker": "RVMD",
   "drug_name": "Zoldonrasib",
   "drug_indication": "KRAS G12D-mutated Non-Small Cell Lung Cancer",
@@ -168,7 +214,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-12-19T13:01:10.018118Z",
-  "updated_at": "2026-07-02T13:02:02.229752Z",
+  "updated_at": "2026-07-03T13:01:39.043347Z",
   "ticker": "RVMD",
   "drug_name": "Daraxonrasib",
   "drug_indication": "Pancreatic Ductal Adenocarcinoma",
@@ -191,7 +237,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-11-05T13:04:29.051300Z",
-  "updated_at": "2026-07-02T13:06:33.525127Z",
+  "updated_at": "2026-07-03T13:05:50.021817Z",
   "ticker": "RVMD",
   "drug_name": "Daraxonrasib (RMC-6236)",
   "drug_indication": "Pancreatic ductal adenocarcinoma , Cancer",
@@ -214,7 +260,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-09-17T13:01:40.175980Z",
-  "updated_at": "2026-07-02T13:02:55.034834Z",
+  "updated_at": "2026-07-03T13:02:18.824482Z",
   "ticker": "RVMD",
   "drug_name": "Daraxonrasib",
   "drug_indication": "2L Metastatic Pancreatic Ductal Adenocarcinoma",
@@ -237,7 +283,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-06-24T13:01:48.352882Z",
-  "updated_at": "2026-07-02T13:03:10.325607Z",
+  "updated_at": "2026-07-03T13:02:33.053567Z",
   "ticker": "RVMD",
   "drug_name": "Daraxonrasib",
   "drug_indication": "Previously treated metastatic pancreatic ductal adenocarcinoma (PDAC)",
@@ -260,7 +306,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-02-21T20:07:44.785692Z",
-  "updated_at": "2026-07-02T13:04:01.294946Z",
+  "updated_at": "2026-07-03T13:03:22.211249Z",
   "ticker": "RVMD",
   "drug_name": "RMC-6236 - (RASolute 302)",
   "drug_indication": "Metastatic pancreatic ductal adenocarcinoma (PDAC)",
@@ -283,7 +329,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-02-21T20:08:12.762865Z",
-  "updated_at": "2026-07-02T13:04:34.948687Z",
+  "updated_at": "2026-07-03T13:03:55.028080Z",
   "ticker": "RVMD",
   "drug_name": "RMC-6291",
   "drug_indication": "Solid Tumors",
@@ -306,7 +352,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-02-21T20:08:34.682827Z",
-  "updated_at": "2026-07-02T13:05:00.842514Z",
+  "updated_at": "2026-07-03T13:04:20.909673Z",
   "ticker": "RVMD",
   "drug_name": "RMC-9805",
   "drug_indication": "Pancreatic cancer, non-small cell lung cancer (NSCLC), and colorectal cancer.",
@@ -329,7 +375,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-02-21T20:08:47.750895Z",
-  "updated_at": "2026-07-02T13:05:18.259202Z",
+  "updated_at": "2026-07-03T13:04:36.706141Z",
   "ticker": "RVMD",
   "drug_name": "RMC-6236",
   "drug_indication": "Advanced Solid Tumors",
@@ -352,7 +398,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-02-21T20:06:35.793012Z",
-  "updated_at": "2026-07-02T13:02:30.752382Z",
+  "updated_at": "2026-07-03T13:01:56.670033Z",
   "ticker": "RVMD",
   "drug_name": "Sugemalimab - (GEMSTONE-301)",
   "drug_indication": "Stage III Non-small cell lung cancer (NSCLC)",
@@ -375,7 +421,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-02-21T20:06:14.416275Z",
-  "updated_at": "2026-07-02T13:01:53.761615Z",
+  "updated_at": "2026-07-03T13:01:31.561621Z",
   "ticker": "RVMD",
   "drug_name": "Aumolertinib - (AENEAS)",
   "drug_indication": "CNS metastases and EGFR-mutated non-small cell lung cancer (NSCLC)",
@@ -398,7 +444,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-02-21T20:08:47.237592Z",
-  "updated_at": "2026-07-02T13:05:17.853860Z",
+  "updated_at": "2026-07-03T13:04:36.305139Z",
   "ticker": "RVMD",
   "drug_name": "Sugemalimab - (GEMSTONE-302)",
   "drug_indication": "1L metastatic non-small cell lung cancer (NSCLC)",
@@ -421,7 +467,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-02-21T20:06:42.706561Z",
-  "updated_at": "2026-07-02T13:02:41.975825Z",
+  "updated_at": "2026-07-03T13:02:06.604887Z",
   "ticker": "RVMD",
   "drug_name": "Sugemalimab - (GEMSTONE-201)",
   "drug_indication": "T-cell lymphoma / Stage IV non-small cell lung cancer (NSCLC)",
@@ -444,7 +490,7 @@
    "name": "Revolution Medicines Inc"
   },
   "created_at": "2025-02-21T20:06:29.672887Z",
-  "updated_at": "2026-07-02T13:02:21.626252Z",
+  "updated_at": "2026-07-03T13:01:49.556219Z",
   "ticker": "RVMD",
   "drug_name": "RMC-5552",
   "drug_indication": "Solid tumors",

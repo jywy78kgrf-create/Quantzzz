@@ -108,6 +108,8 @@ def parse_x402(body_bytes: bytes) -> dict:
         data = json.loads(body_bytes)
     except Exception:
         return out
+    if not isinstance(data, dict):
+        return out
     accepts = data.get("accepts")
     if not isinstance(accepts, list) or not accepts:
         return out

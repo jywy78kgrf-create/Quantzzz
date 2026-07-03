@@ -148,15 +148,32 @@ async function main() {
       url: row.url, request_url: url, stratum: row.stratum, method,
       listed_price_usdc: price, ts: new Date().toISOString(),
       paid_usdc: 0, outcome: null, status: null, payment_response: null,
-      content_type: null, body_prefix: null, error: null,
+      tx_hash: null, settle_network: null, content_type: null,
+      body_b64: null, body_sha256: null, body_bytes_total: null, error: null,
     };
     try {
       const resp = await fetchWithPay(url, init);
       rec.status = resp.status;
       rec.content_type = resp.headers.get("content-type");
       rec.payment_response = resp.headers.get("x-payment-response");
+      // Untrusted body: captured as inert base64 bytes (64KB cap) + hash.
+      // Never parsed, rendered, or executed here; scoring decodes in
+      // isolation afterward.
       const buf = Buffer.from(await resp.arrayBuffer());
-      rec.body_prefix = buf.subarray(0, MAX_BODY).toString("utf8");
+      rec.body_bytes_total = buf.length;
+      rec.body_b64 = buf.subarray(0, MAX_BODY).toString("base64");
+      rec.body_sha256 = (await import("node:crypto")).createHash("sha256")
+        .update(buf).digest("hex");
+      // Settle header (facilitator-produced, seller-relayed): decode the
+      // base64 JSON defensively to surface the on-chain tx hash explicitly.
+      if (rec.payment_response) {
+        try {
+          const settle = JSON.parse(
+            Buffer.from(rec.payment_response, "base64").toString("utf8"));
+          rec.tx_hash = settle?.transaction ?? null;
+          rec.settle_network = settle?.network ?? null;
+        } catch { /* raw header is still committed verbatim */ }
+      }
       // x402-fetch only returns non-402 after settling payment (or if the
       // route turned out to be free); a settle header marks money moved.
       if (rec.payment_response) {

@@ -76,6 +76,19 @@ class Store:
               key TEXT PRIMARY KEY,
               value TEXT NOT NULL
             );
+
+            -- Solana coverage is per-relayer cursor (signature history walked
+            -- newest-first), not block-range. last_signature is the newest
+            -- signature we've fully processed for this relayer; the next run
+            -- fetches everything newer via getSignaturesForAddress(until=it).
+            -- Additive table (no schema bump): a Base-only DB simply ignores it.
+            CREATE TABLE IF NOT EXISTS solana_cursors (
+              relayer        TEXT PRIMARY KEY,
+              last_signature TEXT,
+              last_slot      INTEGER,
+              backfilled_to_start INTEGER NOT NULL DEFAULT 0,
+              updated_at     TEXT
+            );
             """
         )
         row = cur.execute("SELECT value FROM meta WHERE key='schema_version'").fetchone()
@@ -162,6 +175,43 @@ class Store:
         if cursor <= end_block:
             gaps.append((cursor, end_block))
         return gaps
+
+    def get_solana_cursor(self, relayer: str):
+        row = self.db.execute(
+            "SELECT last_signature, last_slot FROM solana_cursors WHERE relayer=?",
+            (relayer,)).fetchone()
+        return row if row else (None, None)
+
+    def set_solana_cursor(self, relayer: str, signature: str, slot: int,
+                          indexed_at: str) -> None:
+        self.db.execute(
+            "INSERT INTO solana_cursors(relayer,last_signature,last_slot,updated_at) "
+            "VALUES(?,?,?,?) ON CONFLICT(relayer) DO UPDATE SET "
+            "last_signature=excluded.last_signature, last_slot=excluded.last_slot, "
+            "updated_at=excluded.updated_at",
+            (relayer, signature, slot, indexed_at))
+        self.db.commit()
+
+    def commit_solana_batch(self, rows: list[dict]) -> int:
+        """Idempotent insert of Solana settlement rows (same table/PK as Base:
+        tx_hash=signature, log_index=instruction index)."""
+        cur = self.db.cursor()
+        try:
+            cur.execute("BEGIN")
+            for r in rows:
+                cur.execute(
+                    "INSERT OR IGNORE INTO settlements "
+                    "(tx_hash,log_index,chain,token,payer,seller,amount,"
+                    " block_number,block_timestamp) "
+                    "VALUES(?,?,?,?,?,?,?,?,?)",
+                    (r["tx_hash"], r["log_index"], r["chain"], r["token"],
+                     r["payer"], r["seller"], r["amount"],
+                     r["block_number"], r["block_timestamp"]))
+            cur.execute("COMMIT")
+        except Exception:
+            cur.execute("ROLLBACK")
+            raise
+        return len(rows)
 
     def stats(self, chain: str) -> dict:
         c = self.db.cursor()

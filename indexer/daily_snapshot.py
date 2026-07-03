@@ -45,26 +45,27 @@ def write_seller_snapshot(store: Store, snapshot_date: str, head: int) -> Path:
         raise FileExistsError(
             f"snapshot for {snapshot_date} already exists — refusing to "
             f"overwrite immutable history: {sellers_csv}")
+    # group per (chain, seller) so a wallet active on both chains stays split
     rows = store.db.execute(
-        "SELECT seller, COUNT(*) tx_count, COUNT(DISTINCT payer) unique_payers, "
+        "SELECT chain, seller, COUNT(*) tx_count, COUNT(DISTINCT payer) unique_payers, "
         "SUM(amount) volume, MIN(block_timestamp) first_ts, "
         "MAX(block_timestamp) last_ts, "
         "SUM(CASE WHEN payer=seller THEN 1 ELSE 0 END) self_pay_tx "
-        "FROM settlements GROUP BY seller ORDER BY volume DESC").fetchall()
+        "FROM settlements GROUP BY chain, seller ORDER BY volume DESC").fetchall()
     with open(sellers_csv, "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["seller", "tx_count", "unique_payers", "volume_base_units",
-                    "first_ts", "last_ts", "self_pay_tx"])
+        w.writerow(["chain", "seller", "tx_count", "unique_payers",
+                    "volume_base_units", "first_ts", "last_ts", "self_pay_tx"])
         w.writerows(rows)
     meta = {
         "snapshot_date": snapshot_date,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "chain": CHAIN,
-        "head_block": head,
-        "definition": ("settlement = USDC EIP-3009 (gasless/authorized) transfer "
-                       "on Base; superset of facilitator-scoped x402. Use "
-                       "enrich_facilitators.py to split facilitator vs other."),
-        **store.stats(CHAIN),
+        "head_block_base": head,
+        "definition": ("settlement = USDC gasless/authorized transfer — Base via "
+                       "EIP-3009, Solana via SPL transfer from a facilitator "
+                       "relayer. Superset of facilitator-scoped x402."),
+        "base": store.stats("base"),
+        "solana": store.stats("solana"),
     }
     (out_dir / "snapshot_meta.json").write_text(json.dumps(meta, indent=2))
     return sellers_csv
@@ -104,6 +105,17 @@ def main() -> None:
                   f"then re-run.", file=sys.stderr)
             store.close()
             sys.exit(1)
+
+    # Solana: cursor-based per-relayer index (gap-free forward by construction —
+    # no block-range gap check applies). Failures preserve per-relayer cursors
+    # and resume next run; a Solana RPC outage never blocks the Base snapshot.
+    try:
+        from solana_chain import SolanaClient
+        import index_solana
+        index_solana.run(SolanaClient(index_solana.DEFAULT_RPC), store)
+    except Exception as e:
+        print(f"[snapshot] Solana index step error (Base snapshot unaffected): {e}",
+              file=sys.stderr)
 
     # The index above always runs (keeps the DB current). The daily snapshot is
     # one-per-UTC-day and immutable: a same-day re-run advances the index but

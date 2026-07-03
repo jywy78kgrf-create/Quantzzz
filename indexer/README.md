@@ -90,7 +90,47 @@ snapshots are the time series.
   not silently assumed).
 - **Facilitator enrichment is per-tx** (`eth_getTransactionByHash`); fine for
   daily volumes, slower for full backfill. The default index doesn't need it.
-- **Solana** settlements are not yet indexed here (registry has 25 Solana
-  relayers ready). Base is the majority of volume; Solana is the next module.
-- **Deep reorgs** (>30 blocks) are not reverted; negligible for aggregates,
-  noted for completeness.
+- **Deep reorgs** (>30 blocks on Base) are not reverted; negligible for
+  aggregates, noted for completeness.
+
+## Solana (`index_solana.py`)
+
+Solana is ~15% of sellers / ~22% of transactions / ~14% of volume (per the
+census), so it's material — indexed as a second module sharing the same DB and
+settlements table (`chain='solana'`, `tx_hash`=signature, `log_index`=
+instruction index, `block_number`=slot).
+
+Different mechanics from Base (no log-topic filter): per facilitator relayer we
+walk `getSignaturesForAddress` (cursor-based) and `getTransaction` each new sig.
+A settlement is an SPL `transfer`/`transferChecked` of USDC (`EPjFW…`) whose
+payer/seller are the **owners** of the source/destination token accounts —
+resolved via the tx's pre/postTokenBalances (decoding the token accounts naively
+would misattribute every seller; the unit tests pin this).
+
+Correctness parity with Base: idempotent `(signature, ix_index)` inserts; a
+per-relayer signature **cursor** advanced only post-commit; `until`=cursor makes
+each run gap-free above the cursor; failed/unavailable txs stop-and-resume rather
+than skip; **forward bootstrap** (fresh relayer seeds only its most-recent page,
+never its entire history) so the first run is bounded; finalized data only.
+
+```bash
+python index_solana.py --to-head     # index all relayers newer-than-cursor
+python index_solana.py --status
+```
+
+`daily_snapshot.py` runs the Solana step after Base; a Solana RPC outage is
+caught and never blocks the Base snapshot. Full Solana history is an opt-in
+backfill (walk `before` from the oldest cursor) — same posture as Base.
+
+**RPC requirement (flag-and-stop).** Base runs fine on the free public RPC.
+Solana does NOT: `api.mainnet-beta.solana.com` returns HTTP 429 under sustained
+`getTransaction` load, so it's usable for spot checks but not bulk indexing.
+Point `X402_SOLANA_RPC` (or `--rpc`) at a **keyed free-tier** endpoint
+(Helius / Triton / QuickNode all have free tiers) before running Solana at
+scale. The client honors `Retry-After` and backs off, but no backoff beats a
+hard per-IP cap. Validation status: the Solana **decoder** is unit-tested and
+verified against real mainnet transactions (token-account→owner resolution
+confirmed on-chain); the **bulk walker** is built and logic-verified but its
+full live end-to-end run is gated on a non-throttling RPC. Cross-source
+reconciliation vs x402scan (as done for Base) is the remaining step once a real
+RPC is wired.

@@ -16,3 +16,4 @@ python3 deep_features.py      # Phase 2: behavioral features
 python3 classify_final.py     # Phase 2 pass 2 + DELTA 3 buyer inflation
 python3 liveness_probe.py     # Phase 2: endpoint liveness (no payments)
 python3 spot_audit.py         # DELTA 2b: on-chain index accuracy audit
+python3 spot_audit_verify.py  # DELTA 2b: recheck apparent phantoms via RPC

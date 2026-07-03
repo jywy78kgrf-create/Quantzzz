@@ -122,15 +122,19 @@ python index_solana.py --status
 caught and never blocks the Base snapshot. Full Solana history is an opt-in
 backfill (walk `before` from the oldest cursor) — same posture as Base.
 
-**RPC requirement (flag-and-stop).** Base runs fine on the free public RPC.
-Solana does NOT: `api.mainnet-beta.solana.com` returns HTTP 429 under sustained
-`getTransaction` load, so it's usable for spot checks but not bulk indexing.
-Point `X402_SOLANA_RPC` (or `--rpc`) at a **keyed free-tier** endpoint
-(Helius / Triton / QuickNode all have free tiers) before running Solana at
-scale. The client honors `Retry-After` and backs off, but no backoff beats a
-hard per-IP cap. Validation status: the Solana **decoder** is unit-tested and
-verified against real mainnet transactions (token-account→owner resolution
-confirmed on-chain); the **bulk walker** is built and logic-verified but its
-full live end-to-end run is gated on a non-throttling RPC. Cross-source
-reconciliation vs x402scan (as done for Base) is the remaining step once a real
-RPC is wired.
+**Validation status.** The full Solana path is **live-validated end-to-end**: a
+bulk run over two facilitator relayers on the public RPC decoded, stored, and
+cursored **1,024 real settlements** (27 sellers, slots 378M–430M) through the
+exact production path (bootstrap → getTransaction → decode → owner-resolve →
+idempotent insert → cursor advance). Decoder is additionally unit-tested (3
+tests) and its token-account→owner resolution confirmed against individual
+mainnet txs.
+
+**RPC throughput (recommended, not required).** The free public
+`api.mainnet-beta.solana.com` 429-throttles under sustained `getTransaction`
+load — the 1,024-settlement run took ~10 min because of Retry-After backoff. It
+*works*, but for daily operation over 25 relayers point `X402_SOLANA_RPC` (or
+`--rpc`) at a **keyed free-tier** endpoint (Helius / Triton / QuickNode) to run
+at full speed. The client honors `Retry-After` so the public endpoint degrades
+gracefully rather than failing. Remaining step: x402scan cross-reconciliation
+for Solana (as done for Base at 99.4%), best run once a keyed RPC is wired.

@@ -71,6 +71,12 @@ def deep_bucket(cen: dict, feat: dict, cfg: dict, now: datetime) -> str:
             and modal_share >= m["modal_amount_share_min"]
             and modal_amt <= m["max_amount_usdc"] * 1_000_000):
         return "MEMECOIN"
+    ms = m["sustained"]
+    if (tx >= ms["min_lifetime_tx"]
+            and days_since >= ms["min_silence_days"]
+            and modal_share >= ms["modal_amount_share_min"]
+            and modal_amt <= ms["max_amount_usdc"] * 1_000_000):
+        return "MEMECOIN"
 
     if days_since > cl["dormant"]["primary_window_days"]:
         return "DORMANT"

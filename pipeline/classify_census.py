@@ -23,7 +23,7 @@ from datetime import datetime, timezone
 
 from lib import PROCESSED_DIR, load_config
 
-CENSUS = PROCESSED_DIR / "census_sellers.csv"
+CENSUS = PROCESSED_DIR / "census_sellers_corrected.csv"
 ORIGIN_MAP = PROCESSED_DIR / "origin_wallet_map.csv"
 
 

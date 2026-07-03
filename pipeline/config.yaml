@@ -73,6 +73,14 @@ classification:
     min_silence_days: 30             # followed by at least this much silence
     modal_amount_share_min: 0.90     # near-identical amounts
     max_amount_usdc: 1.00            # small payments
+    # Sustained mass-mint variant (approved at Phase 2 checkpoint): months-long
+    # identical-small-payment operations, now silent — same artifact class,
+    # no burst-window requirement.
+    sustained:
+      min_lifetime_tx: 100000
+      modal_amount_share_min: 0.99
+      max_amount_usdc: 1.00
+      min_silence_days: 30
 
   dormant:
     # Real historical activity, gone quiet. All three windows reported.

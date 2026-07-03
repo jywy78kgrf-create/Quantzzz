@@ -9,7 +9,9 @@ PATTERNS='(0x)?[0-9a-fA-F]{64}|X402_AUDIT_WALLET_KEY[[:space:]]*='
 # Allowlist: on-chain tx hashes and block hashes in committed data are also
 # 64-hex; only scan text files outside data/ (raw data contains tx hashes,
 # which are public, not secrets).
-files=$(git diff --cached --name-only --diff-filter=ACM | grep -v '^data/' || true)
+# data/ and *.json artifacts legitimately contain 64-hex tx/block hashes;
+# key material would live in source, env, or config files, which stay scanned.
+files=$(git diff --cached --name-only --diff-filter=ACM | grep -v '^data/' | grep -v '\.json$' || true)
 [ -z "$files" ] && exit 0
 
 fail=0

@@ -1,0 +1,781 @@
+{
+  "generated": "2026-07-03T06:59:28.585273+00:00",
+  "seed_namespace": "hand-inspection",
+  "buckets": {
+    "ACTIVE_LEGITIMATE": [
+      {
+        "recipient": "6x5ocVNEwuBpi2Gs7z8fo1ptd4TyTf578Aqr2FME99ND",
+        "bucket_final": "ACTIVE_LEGITIMATE",
+        "bucket_census": "ACTIVE_LEGITIMATE",
+        "census_tx_count": 155,
+        "pattern": {
+          "n": 155,
+          "unique_payers": 8,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.661,
+          "modal_amount_usdc": 0.02,
+          "modal_share": 0.258,
+          "first_tx": "2026-03-15",
+          "last_tx": "2026-06-22",
+          "days_silent": 10,
+          "example_tx_hashes": [
+            "uZiuoPwmEMb4Bo1zdwQ88HBwQbg2gHiQvz1PM5ce9Mn5VQeZqaALBSuR4PTgW7E2ibLjCRedMWXbEeGC7iyNuBE",
+            "5R5ajn9KFipmoKgMujsCJx8VbkDCL5cQHucVvpJXTazRj5Y5KkfVPjXxGK37kFzdACDYAmstbwyJLfK6quqpRPUf",
+            "2i8HHcM9Dhg4td33BRy7aQ4ofHMNFPDim3Ben6weJUfYJgi49W3tFWouKxyCBMejdQbsaPpaGgUirrwmrzKGQTuL"
+          ]
+        }
+      },
+      {
+        "recipient": "2ny4T8BbY6hveW8oHi9FPtMzREBwtYuvz1EW4QMNDCZ7",
+        "bucket_final": "ACTIVE_LEGITIMATE",
+        "bucket_census": "ACTIVE_LEGITIMATE",
+        "census_tx_count": 106,
+        "pattern": {
+          "n": 106,
+          "unique_payers": 66,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.102,
+          "modal_amount_usdc": 0.145,
+          "modal_share": 0.075,
+          "first_tx": "2026-06-14",
+          "last_tx": "2026-06-17",
+          "days_silent": 15,
+          "example_tx_hashes": [
+            "3r6uwrbbZ8NPdKDbVZDkmDdmdrBr1HzUoYXHT2BvRK3dTuS4C762aFwqL5ApBDbLHTZdVVsXGo2UNkLvBwmNXekG",
+            "rru3hLh6j3JMUAzrb1GM9NYVNLAAvtcN6B8gc1Xdwtq8GVaPq4sSUb6w5YMznhkxUs6nUwvGUhabwKRmK6ys1r2",
+            "5WUftj6TJRwvHJkPH16EE46Lh5HqPX3ZmGdaR5jC8heRsJLn6615EnUjz6d8scbJSUcntWgV14EY65AkRc1HDJTb"
+          ]
+        }
+      },
+      {
+        "recipient": "2Vgb83uPkms6JzfdwAzvhSZJPoXVhv6G1XP6rVxFYqBL",
+        "bucket_final": "ACTIVE_LEGITIMATE",
+        "bucket_census": "ACTIVE_LEGITIMATE",
+        "census_tx_count": 1182,
+        "pattern": {
+          "n": 1182,
+          "unique_payers": 122,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.191,
+          "modal_amount_usdc": 0.0005,
+          "modal_share": 0.389,
+          "first_tx": "2026-01-10",
+          "last_tx": "2026-07-01",
+          "days_silent": 1,
+          "example_tx_hashes": [
+            "3Fg6NpvSSvdHBbWPUDnnbXWYtEAyvGvsCjTDugvLL1Z253UDGLmnTzU6WFwbjLVxTRAHWEaK4t2Cb6R9dSNERzvS",
+            "5Hn4kfo68SvpWVMfa4LAxiG9R5Lo8xxrkm7YcChPqknBAt3JsEzJHmmxkd9EZtuzoz138cy2GUVqB7HViLKRydhk",
+            "3Yyq6XZ3FPMoTFYe1crc2uRRknL5Nz5hDC5MDYpDucfWW769owpzhYftBLoGrvUQBqCyqFATEX7G5n67XMxzhyTL"
+          ]
+        }
+      },
+      {
+        "recipient": "0x21dfc81726538fcfd7dfb5e4d14aab4475ef8694",
+        "bucket_final": "ACTIVE_LEGITIMATE",
+        "bucket_census": "ACTIVE_LEGITIMATE",
+        "census_tx_count": 706,
+        "pattern": {
+          "n": 706,
+          "unique_payers": 47,
+          "self_pay_vol_share": 0.001,
+          "top2_vol_share": 0.593,
+          "modal_amount_usdc": 0.01,
+          "modal_share": 0.997,
+          "first_tx": "2025-10-26",
+          "last_tx": "2026-06-24",
+          "days_silent": 9,
+          "example_tx_hashes": [
+            "0x4b5eb2849700e1e0290729ac09bc755efb38a3d274fa93fddaad078ea734a392",
+            "0xe9491e154a3f1ee5ae6037f5508317eaad2909534c0f5f42a3d1bcc3530a0c50",
+            "0xbafcfb0315ee55d26824e8682ba254caf9a0b2a40e73ebdc6224278eba84709c"
+          ]
+        }
+      },
+      {
+        "recipient": "4ShLAGjk8mTYMCmXu8xW4wiS2DVBz5DvSKTnHqUY1SYq",
+        "bucket_final": "ACTIVE_LEGITIMATE",
+        "bucket_census": "ACTIVE_LEGITIMATE",
+        "census_tx_count": 34,
+        "pattern": {
+          "n": 34,
+          "unique_payers": 26,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.283,
+          "modal_amount_usdc": 0.1,
+          "modal_share": 0.118,
+          "first_tx": "2026-06-14",
+          "last_tx": "2026-06-17",
+          "days_silent": 15,
+          "example_tx_hashes": [
+            "53VfsWGZQdcskPZ1smXiAPGECCdChnXhze8qwJAeZ9iNdBFXDy5aGxdiZzQsrcqFGiJuBooBV1By7VQgR1aQQncZ",
+            "VgoYyCsFSbaJ6XN1aYMqLGBXJRZQGTW6VXGm7zDDNchVNafy5v2jYwo6bbgG9UVwSyszZUAjmisvUxdCWhEBQ8L",
+            "5jyoM1vmxf18j9CoQ6Sh5a62CQ6VC6yJvNaDq11o3C5X6xgBzXSJL3fJafyRaMksD5E3BdRD4ojaYLpBnAZUt1f4"
+          ]
+        }
+      }
+    ],
+    "DORMANT": [
+      {
+        "recipient": "0x69020c0ff44b2641b8249ba5d05eefb8b8affa26",
+        "bucket_final": "DORMANT",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 103,
+        "pattern": {
+          "n": 103,
+          "unique_payers": 6,
+          "self_pay_vol_share": 0.476,
+          "top2_vol_share": 0.803,
+          "modal_amount_usdc": 0.0997,
+          "modal_share": 0.34,
+          "first_tx": "2025-10-28",
+          "last_tx": "2026-03-18",
+          "days_silent": 106,
+          "example_tx_hashes": [
+            "0x532877f2d6e9e96ea7dfe2220230107eef767f7e647c8d93300a14dc603ccb78",
+            "0x532877f2d6e9e96ea7dfe2220230107eef767f7e647c8d93300a14dc603ccb78",
+            "0x7a0a76057d13cb0301ef2e70479d75ae6443f17c6a6bcf239a7588d9acf21647"
+          ]
+        }
+      },
+      {
+        "recipient": "BHPiXHHKRFZnJSCutq9arxXDZJnrqhXbaTKF8mcYhi6U",
+        "bucket_final": "DORMANT",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 67,
+        "pattern": {
+          "n": 67,
+          "unique_payers": 46,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.123,
+          "modal_amount_usdc": 0.05,
+          "modal_share": 0.91,
+          "first_tx": "2026-03-23",
+          "last_tx": "2026-03-23",
+          "days_silent": 101,
+          "example_tx_hashes": [
+            "3XLnnLWZKRBWs75SbAvsmri7p82EChrFVdSLx53QSftgmbfEToiDhUy8SK4WBWk6rq96FnBoecgLRkE5az6ogAz5",
+            "5a5vypTbqsizYFcj3XQJGA2DEpbe4LycLpAcbvWLaWu5G195wJSpWLtj5cRDSZFu8GArJ3ixABuGwnC75YiYwRgL",
+            "27gtLaTEWU9s27a7pBg92eqMiSSG8ZvHVno3eABx1AKtnuWZ4dQ8ZiEvwQnwrwroLw1kv3CWwNQcS84enxvsUsKo"
+          ]
+        }
+      },
+      {
+        "recipient": "9dVdnqJQ8Gwudv68dNB75KpjHqcSCwRND5C5dGc92U78",
+        "bucket_final": "DORMANT",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 296,
+        "pattern": {
+          "n": 296,
+          "unique_payers": 215,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.028,
+          "modal_amount_usdc": 0.05,
+          "modal_share": 0.912,
+          "first_tx": "2026-03-08",
+          "last_tx": "2026-03-08",
+          "days_silent": 116,
+          "example_tx_hashes": [
+            "3JxpGV4D5yYgYCwTMKhyLEZ7dM2FUGCZddUGYdQkNcSm54iocTPjDvXMjVBLZ96Pzu23TgmsWni6uqc8UasG7vMq",
+            "3rKYanNqcgTcdrfKiGL3duJTRM5tFrPaE4RwxYKCFmMC6Ced9rNMY3VpE8fedErCQTdoD46548UxkULTjouD45dR",
+            "fegi6nikxP2sMH23FvxC7FZJWNVbJxVWHs43z6ytiDP2z1pEENS4SrqSPaVqBvYi2REnNRVTzFenEQvatBTSfWF"
+          ]
+        }
+      },
+      {
+        "recipient": "4MfkFeLWDaRoRPSeyjwoSRvX8QuFXLQcT1ZRYFKayy64",
+        "bucket_final": "DORMANT",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 59,
+        "pattern": {
+          "n": 59,
+          "unique_payers": 44,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.117,
+          "modal_amount_usdc": 0.05,
+          "modal_share": 0.983,
+          "first_tx": "2026-03-24",
+          "last_tx": "2026-03-25",
+          "days_silent": 100,
+          "example_tx_hashes": [
+            "2qTDzKVxSDCyDMwjCuQ6y38XXgyQzhpEY2QD4W68GbY1UGbWD2SpnuyCLxkPcsefsVEBqBmeJPJbc8mxA8KrAUFT",
+            "52oXnGCi98M9J1tyVH3JbFJ4MvcuQwbv8bvz1AKuraX1YsasHoiXhdPJnkGz4L3NoE2sGjGfsRtUWpNeCE1E25k8",
+            "2Zdngg4o9uf5JzX7HNuDLcwNQJ9xdGyEHqM5eGhRMntRECA8soaTbR7YJzfgEjEi48R2AopAYxXtVaB7s2cnEWTJ"
+          ]
+        }
+      },
+      {
+        "recipient": "8EnGZpNczNRkzRs52tsoJic1AMoJtdVGZEzY38WC9Kio",
+        "bucket_final": "DORMANT",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 44,
+        "pattern": {
+          "n": 44,
+          "unique_payers": 32,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.139,
+          "modal_amount_usdc": 0.05,
+          "modal_share": 0.977,
+          "first_tx": "2026-03-31",
+          "last_tx": "2026-04-01",
+          "days_silent": 93,
+          "example_tx_hashes": [
+            "4hmZVuP1Vvc8eZdF1hs44QnHcYXfxVwMN8MEMsw7ZgFpiMmngrcLbzNkeER4gkYvsJnU2hXKsL6WTVs8QXzWox8",
+            "2ZZ55Jngn5ZS4xEwKa9zrGZyYqaDDVKS26e7j8TL3X4BvQAGD9a5wwAGwgLUXikFURSHCwdko9wECk3dDRStsR5a",
+            "2ybWrpBqbKFszotvorrMnSxPz8VeftKXZx4xbRyh1Zo1mgCrYywhysTmttqiGFFCbQYWcVo1m43RChaNNJaY5GTP"
+          ]
+        }
+      }
+    ],
+    "DUPLICATE": [
+      {
+        "recipient": "0xe1df6968935328ccc7259c2063411a8035ef87c7",
+        "bucket_final": "DUPLICATE",
+        "bucket_census": "DUPLICATE",
+        "census_tx_count": 565,
+        "pattern": {
+          "n": 565,
+          "unique_payers": 168,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.114,
+          "modal_amount_usdc": 100.0,
+          "modal_share": 0.612,
+          "first_tx": "2025-10-31",
+          "last_tx": "2025-11-10",
+          "days_silent": 234,
+          "example_tx_hashes": [
+            "0xa36882dba226be9c418449c0962c19e65a19a38233f030defde4b98bf7a8691f",
+            "0x65d55609e0933b4e878b305ded4d580fcbea531bbbba833fa5c2dbd6e63f714a",
+            "0xf2827f9cdc24fb65375c590cdf37ad2fe5e7c67c6545d0fcc0db67d42f56a60b"
+          ]
+        }
+      },
+      {
+        "recipient": "0x4b6f4a2f7c9954e87bc460aa747ab59c65d37680",
+        "bucket_final": "DUPLICATE",
+        "bucket_census": "DUPLICATE",
+        "census_tx_count": 54,
+        "pattern": {
+          "n": 54,
+          "unique_payers": 47,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.093,
+          "modal_amount_usdc": 1.0,
+          "modal_share": 1.0,
+          "first_tx": "2025-10-27",
+          "last_tx": "2025-10-27",
+          "days_silent": 248,
+          "example_tx_hashes": [
+            "0xfdc7db6b8868a68a4a3830d279d7c66b7bc6cd7c4db995759f4b0c2dc61d5b9a",
+            "0x07a057ffb550f9960ee783a5729a492bab18b9ed53880d090d22c8b7957ae98d",
+            "0xd034e5fead3d959105c1abfc0fe7a9708988922dd61d81072558abded4d5ea8d"
+          ]
+        }
+      },
+      {
+        "recipient": "0x3801cd9bce3130ce1dcce0502bcdf65cabd18d35",
+        "bucket_final": "DUPLICATE",
+        "bucket_census": "DUPLICATE",
+        "census_tx_count": 48285,
+        "pattern": {
+          "n": 2000,
+          "unique_payers": 4,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.675,
+          "modal_amount_usdc": 0.02,
+          "modal_share": 0.213,
+          "first_tx": "2025-11-28",
+          "last_tx": "2026-01-21",
+          "days_silent": 163,
+          "example_tx_hashes": [
+            "0x73e875f68ac8b1f4419b6c4a2714ac448308d2e417be82e0e0247427d72a2f82",
+            "0x177e0773b4c00b8a13417e2e25bb7626c2d4ec433a0541058c9ac35971026e9b",
+            "0x8405109dc4616e2c2e16d0f67f53115d6d6a12d648d4292f99265c994b6f5e7c"
+          ]
+        }
+      },
+      {
+        "recipient": "TW6ntaGzvj63ZgPjszd4FCGmVTGfzv1MAYZbjYcyWhn",
+        "bucket_final": "DUPLICATE",
+        "bucket_census": "DUPLICATE",
+        "census_tx_count": 115,
+        "pattern": {
+          "n": 115,
+          "unique_payers": 3,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.971,
+          "modal_amount_usdc": 0.001,
+          "modal_share": 0.409,
+          "first_tx": "2026-06-03",
+          "last_tx": "2026-07-01",
+          "days_silent": 1,
+          "example_tx_hashes": [
+            "37YuDivu63hVspN13ow3wQ6785jkhkEe3W9aqFnJxCaMkzPaAnhRBdTyo7g3DnWUTqKWqhnMUND2oDezNNFYbshx",
+            "4bY7qkYKJHpqSqqhyQ3SAP9urVf4qkpFUkzgDDHH9rA7QGfT4icwWhFf6qkZXe5i857CYiSxg59dvmXqU7vhqU5t",
+            "vs4kDoWukjdhWgdjj4f9iNVENH28QHZ7P8aRYawVdBUUFD9LTgZpoyumPdD8BPKy5sdB86qUERH2tPJbixXcGTD"
+          ]
+        }
+      },
+      {
+        "recipient": "0xb7a6a9344fe545d4fae01c2e12c2001a80831e90",
+        "bucket_final": "DUPLICATE",
+        "bucket_census": "DUPLICATE",
+        "census_tx_count": 17848,
+        "pattern": {
+          "n": 1000,
+          "unique_payers": 38,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.754,
+          "modal_amount_usdc": 0.000823,
+          "modal_share": 0.005,
+          "first_tx": "2025-07-21",
+          "last_tx": "2025-08-07",
+          "days_silent": 329,
+          "example_tx_hashes": [
+            "0x2bc99a556289aeea4481849946bc73fd544575e92e0f132b2662064baa77c530",
+            "0xf4a30b27a8bb1ef1f6cb488bc13cd9ef2c22bb30895b63834aae6f554d9abe71",
+            "0x50df0f8fc8b42af2b07a596b90b93dd8522ff0b2046ce812e11555e3bd1180b2"
+          ]
+        }
+      }
+    ],
+    "GHOST": [
+      {
+        "recipient": "0x6f318185c58596794814479d3ccc3f3a86ea73fb",
+        "bucket_final": "GHOST",
+        "bucket_census": "GHOST",
+        "census_tx_count": 2,
+        "pattern": {
+          "n": 2,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.01,
+          "modal_share": 0.5,
+          "first_tx": "2026-06-02",
+          "last_tx": "2026-06-02",
+          "days_silent": 31,
+          "example_tx_hashes": [
+            "0x7a2db9ea4b3d06b68f9c2cff5455918d7d37507606b32540bb406ed2c3dbe026",
+            "0x89d37ce39630cf08b754b8c862b431123d0918c40e7d122d1beaf1a412440a99"
+          ]
+        }
+      },
+      {
+        "recipient": "9NCwwrEb5M7qPKNbmpVoVdyEvmZoU5XgQUJh2cKkzoHf",
+        "bucket_final": "GHOST",
+        "bucket_census": "GHOST",
+        "census_tx_count": 1,
+        "pattern": {
+          "n": 1,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.1,
+          "modal_share": 1.0,
+          "first_tx": "2026-06-14",
+          "last_tx": "2026-06-14",
+          "days_silent": 18,
+          "example_tx_hashes": [
+            "3vFSnc85HUCgC1s46KEYudUnP5TajJdGZdtXtGLDGAHQZfzVGZwkuPTDEGfc9veGUothAcq515mZummiasb66Ebd"
+          ]
+        }
+      },
+      {
+        "recipient": "0x45abdcb647a9e2cd41e3b0e76ac4e06de56b4a0e",
+        "bucket_final": "GHOST",
+        "bucket_census": "GHOST",
+        "census_tx_count": 1,
+        "pattern": {
+          "n": 1,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.001,
+          "modal_share": 1.0,
+          "first_tx": "2025-11-11",
+          "last_tx": "2025-11-11",
+          "days_silent": 233,
+          "example_tx_hashes": [
+            "0xe516044c9aa46dcedfb40c4ea060cbeeb7e464edee14b476a360ceb67827e0ce"
+          ]
+        }
+      },
+      {
+        "recipient": "0x8259f9c1e4a47af754c36b47c45a98051a6b1f0c",
+        "bucket_final": "GHOST",
+        "bucket_census": "GHOST",
+        "census_tx_count": 1,
+        "pattern": {
+          "n": 1,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.001,
+          "modal_share": 1.0,
+          "first_tx": "2025-11-07",
+          "last_tx": "2025-11-07",
+          "days_silent": 237,
+          "example_tx_hashes": [
+            "0x53853270a6f63d11818124c9685c8bd946404887021819e4412004c794bc4608"
+          ]
+        }
+      },
+      {
+        "recipient": "GzVoPrZuYdH1DbYJ38ohC1bUbbjQY4uSjxNNwpdrcuX1",
+        "bucket_final": "GHOST",
+        "bucket_census": "GHOST",
+        "census_tx_count": 1,
+        "pattern": {
+          "n": 1,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.0001,
+          "modal_share": 1.0,
+          "first_tx": "2025-10-29",
+          "last_tx": "2025-10-29",
+          "days_silent": 246,
+          "example_tx_hashes": [
+            "XNR5akRfv8tNPzkBDDugR2mmEcAeHtZAt1n2A2diyroubBmNxXe3zapNBxwvKABGx9cNyywh1KN5KaJ8LPQz4wC"
+          ]
+        }
+      }
+    ],
+    "LOW_ACTIVITY": [
+      {
+        "recipient": "8hQzXhkAfXDQagFAoB9ETU1hpRaJ9EUoPSbUM23w22bG",
+        "bucket_final": "LOW_ACTIVITY",
+        "bucket_census": "LOW_ACTIVITY",
+        "census_tx_count": 318,
+        "pattern": {
+          "n": 318,
+          "unique_payers": 116,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.069,
+          "modal_amount_usdc": 0.05,
+          "modal_share": 1.0,
+          "first_tx": "2026-05-10",
+          "last_tx": "2026-05-14",
+          "days_silent": 50,
+          "example_tx_hashes": [
+            "4jYbfnqf4yma15LmgFN45ZZPYUnKteoKPuXjjEonKPgkKwYF1qbwpT9dZL7Mw6VtT1DmMee1FGq7utg9CBfwVkiw",
+            "3T1ouq97HNQZmdrtzkyW2jcY4fKuKWW7nY58R3zMtaXtpNsMkxdT86wksUT9ey8xUb3YCvkSorFqBmLUs4XZpqG8",
+            "26qSJn6mQH9jcBAnGNSpgNhi5cykXtHwkE4uADPpKWFUfSwvVDZvwmbBButuoKXDyQHQwu4gp85BWXnWqeWKkaAh"
+          ]
+        }
+      },
+      {
+        "recipient": "BN3UiNeewWFhnTcqyN7ZSSjusEesKz4KWguh6c5FtixU",
+        "bucket_final": "LOW_ACTIVITY",
+        "bucket_census": "LOW_ACTIVITY",
+        "census_tx_count": 16,
+        "pattern": {
+          "n": 16,
+          "unique_payers": 12,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.604,
+          "modal_amount_usdc": 8.0,
+          "modal_share": 0.125,
+          "first_tx": "2026-06-14",
+          "last_tx": "2026-06-26",
+          "days_silent": 6,
+          "example_tx_hashes": [
+            "5TBLNw15J5RaY3C2An9Z4bEwisdrMHncwdgMFuJ5KiT8xLajh1sRTXheErLsbAe83XzKT7JHSbinbuZboEZyXP7i",
+            "3ds8tABhtN4L5ogjBLDLUT8Bpne8iHvgmFMuDgiv6LQf3apDYS9bVBBwm8bS5dxavpDf4EYn8Q2gTfpbwe98wZns",
+            "3B2x4Pcjh2tGegnyKVkifJuQdg5LJZrjC3LerBodpLnJnoTgYhn6NGaepsw8ttG7hhtrSQSuMHeGdpUfPjBR5svR"
+          ]
+        }
+      },
+      {
+        "recipient": "0x7d9d1821d15b9e0b8ab98a058361233e255e405d",
+        "bucket_final": "LOW_ACTIVITY",
+        "bucket_census": "LOW_ACTIVITY",
+        "census_tx_count": 67813,
+        "pattern": {
+          "n": 2000,
+          "unique_payers": 261,
+          "self_pay_vol_share": 0.007,
+          "top2_vol_share": 0.424,
+          "modal_amount_usdc": 0.03,
+          "modal_share": 0.391,
+          "first_tx": "2025-05-25",
+          "last_tx": "2026-05-12",
+          "days_silent": 51,
+          "example_tx_hashes": [
+            "0x6896a2f5b6863bff30d3bc8cf660b3103d5a2f81ddc9456b41ecf2acf40affce",
+            "0x77870057d051f23e2575bdc00578d7da87f8600c35dd565c71c68d68abec1b6c",
+            "0x24f3dd4ff02e11e090162b5210be1318f9c91a593fe4ada5a0ae34949645f863"
+          ]
+        }
+      },
+      {
+        "recipient": "XZumzDMSZK7dK3kKHHkR4cfsKVxwLx3XpaESq1axp7t",
+        "bucket_final": "LOW_ACTIVITY",
+        "bucket_census": "LOW_ACTIVITY",
+        "census_tx_count": 9,
+        "pattern": {
+          "n": 9,
+          "unique_payers": 4,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.778,
+          "modal_amount_usdc": 0.05,
+          "modal_share": 1.0,
+          "first_tx": "2026-06-25",
+          "last_tx": "2026-06-25",
+          "days_silent": 7,
+          "example_tx_hashes": [
+            "4GP8y7FPbNFbjGtus6MmFNPg17zYRAQ1EEPCb6UVrJVp53aEmbGibvh3wxZxxabhLSBHHZJ3aTWenSYgcHBh7nss",
+            "4Sowk9LRLJd6mruvjwTqoDy45h3Cy5ifU26pUZR2RtwsmNmqnmt5dK9iB8bhQs5YhXkdLCp7TorGhQVvAtiE6oco",
+            "4hJALCjr28KceiKUaoikEDEcMtKVdh6h5szWibCZtZoRboCMXfubm2Tdufd7RKkN3zb22w4XJkQ33enVYUuj8Ufn"
+          ]
+        }
+      },
+      {
+        "recipient": "4rPBAE4kUPEqXQ9skDr2fcwj67J4xpFDenYYRd9gZhfJ",
+        "bucket_final": "LOW_ACTIVITY",
+        "bucket_census": "LOW_ACTIVITY",
+        "census_tx_count": 328,
+        "pattern": {
+          "n": 328,
+          "unique_payers": 207,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.034,
+          "modal_amount_usdc": 0.05,
+          "modal_share": 1.0,
+          "first_tx": "2026-05-15",
+          "last_tx": "2026-05-16",
+          "days_silent": 47,
+          "example_tx_hashes": [
+            "4QpFALKMbMRZRtud1VVbP3FFSN1HQvvjPNgWrNZ16Vj8LegSpt9zeNktkjKzQ995HYf4Exz6M8aBWLc8ALnAEfWZ",
+            "5axvgVLFBk7Wso1fuk5k3ppm2RKhpEWZjPPk66AeKMdV86ARvXgp3HbHfYgwy12dNHLdZtbYMVxS1FeDHWHvRmRQ",
+            "472TFG89KagBVGnAXtuT4JYF2m2gEUQFNAqw6zUAe1381YZUQavNEjarToJqGaXkLRfg43VMD3fDXGQmp1ELPsHc"
+          ]
+        }
+      }
+    ],
+    "MEMECOIN": [
+      {
+        "recipient": "HPPuic3YjSDZvxNvyskBs33EyMxQnJHd16gJEJnuQwS5",
+        "bucket_final": "MEMECOIN",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 7211,
+        "pattern": {
+          "n": 2000,
+          "unique_payers": 721,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.01,
+          "modal_amount_usdc": 0.05,
+          "modal_share": 0.986,
+          "first_tx": "2026-01-30",
+          "last_tx": "2026-01-30",
+          "days_silent": 153,
+          "example_tx_hashes": [
+            "4SXBeCX1mS3My7GCfd5JmNFgdAB8x1ahQGBXZzpQUjjgZippJtjU1w8x1qHqvVLLPntZphcJKuScQautfxG4HXTN",
+            "2LVccs9fC2a3Cqep8jV4PFXzigAACMPbjKjGkUT8hAKy6i4SrBsiGEzAa6ANHXvBvR6cgStTJMUoKYc6fxpx9GKA",
+            "554BGmBcVQ1KsHkC3zeXF7YogchgyWRf5ycvrDTbySEZ6wsYYtD1DBHzhiV8uVMsfm1rQjuvguQqgRhgYT9FFE1b"
+          ]
+        }
+      },
+      {
+        "recipient": "8ZF4fB1RH947hECuFeoHk5vLqqtcdgADSW59vk7mYdre",
+        "bucket_final": "MEMECOIN",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 6405,
+        "pattern": {
+          "n": 2000,
+          "unique_payers": 735,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.009,
+          "modal_amount_usdc": 0.05,
+          "modal_share": 0.983,
+          "first_tx": "2026-01-30",
+          "last_tx": "2026-01-30",
+          "days_silent": 153,
+          "example_tx_hashes": [
+            "Neg1Ni8gHWTgdvYEshLXtMPKoZ6RwZ9eivwo3rS6b7BNEz5wbVpPpwrhFzdx2TZurahg9qbiY7rKh6yssuefGCr",
+            "mEdScW9FRL8ugPbL36FvqrfCbVSPSz17FeWX7iwFEmY7ar9HUqnCjpULms7taN1R4NKmP4ZGyUGZUgKQzJKBzNj",
+            "3JzJgBZG32sUcwiZ4LHoaqfb2ytSfwF2L9vC3i8cVYtbJhERBnKD5pkZiv1zGva1wXNxNnmfaPAAAKhkvQvFqRz6"
+          ]
+        }
+      },
+      {
+        "recipient": "7vhcwvqiYUi8VrNpJuvJfSAQsN3HCxqpDrUa33P9kJ6k",
+        "bucket_final": "MEMECOIN",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 801609,
+        "pattern": {
+          "n": 2000,
+          "unique_payers": 50,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.045,
+          "modal_amount_usdc": 0.01,
+          "modal_share": 1.0,
+          "first_tx": "2026-02-02",
+          "last_tx": "2026-02-27",
+          "days_silent": 125,
+          "example_tx_hashes": [
+            "34EpY9BucRHMyFBZPVWX4X6vzP9E5Z2FXrx8vpycV12qanfGZcTcwJJFtdvPcDA8omKEcmAa2oodAgK4iBy64gDA",
+            "2kadp7oJeWbpPHrKKsyDR3KUjKTsGpDKwryadTG8A1k9dYuYkF6scUGD1nFgREKhamhNSdbzbwUj5mQSJxVhsCsS",
+            "2w2oL82usRKgESxfdhMKBsS8gPbGct72CJMEt4XAQZkTKfY1fy1ajc1SGBfMbpJYby9d7WfYkTfHWtrMGEFx2foo"
+          ]
+        }
+      },
+      {
+        "recipient": "0x089883de0b1af1810ecdf4c1768d98479362b162",
+        "bucket_final": "MEMECOIN",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 11115,
+        "pattern": {
+          "n": 2000,
+          "unique_payers": 1293,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.169,
+          "modal_amount_usdc": 1.0,
+          "modal_share": 1.0,
+          "first_tx": "2025-10-27",
+          "last_tx": "2025-10-29",
+          "days_silent": 246,
+          "example_tx_hashes": [
+            "0xca8496e8775a38ea604e835b56b381643d78825c1ee8e469bc90e0eaaa880095",
+            "0x3135da7d93e39e391303f7d934657b9fff1f26e77541fbadb577b37962cd7e72",
+            "0x2e6944ca42d83a599e2142e72dcf2f50fc9536740f1b524649892d5095fd5218"
+          ]
+        }
+      },
+      {
+        "recipient": "0x9b4dc4f56ec94e629252db7990f885a414a26083",
+        "bucket_final": "MEMECOIN",
+        "bucket_census": "DORMANT",
+        "census_tx_count": 121531,
+        "pattern": {
+          "n": 2000,
+          "unique_payers": 310,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 0.113,
+          "modal_amount_usdc": 1.0,
+          "modal_share": 1.0,
+          "first_tx": "2025-10-26",
+          "last_tx": "2025-10-26",
+          "days_silent": 249,
+          "example_tx_hashes": [
+            "0xd610930f91f402ff81e1ec34c42916f64105cf90eb3f7002e24249376571f48c",
+            "0xf25e9d48314eb79af0674d3ce86e1d2b903f5ed94ce3639b0ce211b01cd6a464",
+            "0xc6007e9b64750ac5f26786461950be98f2a32cce380616c08c3acfe4c306b7ea"
+          ]
+        }
+      }
+    ],
+    "TEST_RIG": [
+      {
+        "recipient": "0x9467452cd38444a06d17c264956cc92aee0f1d38",
+        "bucket_final": "TEST_RIG",
+        "bucket_census": "TEST_RIG",
+        "census_tx_count": 5,
+        "pattern": {
+          "n": 5,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.06,
+          "modal_share": 1.0,
+          "first_tx": "2026-05-06",
+          "last_tx": "2026-05-06",
+          "days_silent": 58,
+          "example_tx_hashes": [
+            "0x37acf0e73a60abd15e3913660f1e6ed68ebba5dcc80892ca8289a76e11156aee",
+            "0x2058457d90e5ba03066f01ea60e12bba1a1206d42b9dbf43e8d95e6050b65236",
+            "0x2682cd10726cc97edb195cf1ceff3616b9e3696888221c75489fb21022dd08c3"
+          ]
+        }
+      },
+      {
+        "recipient": "B8xn1BeMGEyoqtmZ3HKpHKzABQH3UiLE1K6hPH1Nr9BU",
+        "bucket_final": "TEST_RIG",
+        "bucket_census": "TEST_RIG",
+        "census_tx_count": 10,
+        "pattern": {
+          "n": 10,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.01,
+          "modal_share": 0.5,
+          "first_tx": "2026-02-08",
+          "last_tx": "2026-02-08",
+          "days_silent": 145,
+          "example_tx_hashes": [
+            "5ocQyuAAYcZaFrer5oWkcgAZLVk4UmqKLR3wBhwCyMrSccgkXK7wYboSQV2cCWM4cshnCJSM5evWCYMBkeN3acNu",
+            "3XvZJDx2BwdiWEPuudVzGT8q8gPuU3TVid8oQwCejSGES9NJYJJmuXS3pyPkyPPyPRWC1pGFSNX2KzSVnRjsbtCq",
+            "3ZRERNfgT1cq6Cfyg6JJR9vNri9JVRxX7FAezZHBgyF18EKHJxntGse4pqNV31pL7kzH9sVR5h6RwLFU6xqmL2uc"
+          ]
+        }
+      },
+      {
+        "recipient": "0x4668dfcabb79ed7b871d9c6cfb4a67cbbb99ee1a",
+        "bucket_final": "TEST_RIG",
+        "bucket_census": "TEST_RIG",
+        "census_tx_count": 67,
+        "pattern": {
+          "n": 67,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.01,
+          "modal_share": 0.612,
+          "first_tx": "2026-05-17",
+          "last_tx": "2026-06-08",
+          "days_silent": 25,
+          "example_tx_hashes": [
+            "0xe4e1994ebcbb3992a177d8e1ff12dc1099961edb52cff507c6e559fe71f456fd",
+            "0xe4fa583ea63d977cd820608488dbe9bc739d6a0b9bdaa0f28d5403d558f907c4",
+            "0x0bba33b205bb412e4b32668afabc22fcdeb7e686484ac1eafc9586914b035175"
+          ]
+        }
+      },
+      {
+        "recipient": "0x150d29e1ac79b7f66075e51b74c16abba2bbcaf5",
+        "bucket_final": "TEST_RIG",
+        "bucket_census": "TEST_RIG",
+        "census_tx_count": 8,
+        "pattern": {
+          "n": 8,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.01,
+          "modal_share": 0.625,
+          "first_tx": "2026-06-09",
+          "last_tx": "2026-06-22",
+          "days_silent": 10,
+          "example_tx_hashes": [
+            "0xe3fb99f4cf2075d5d295ccef6123f3c1c824772e6d5cfb5e1e7d475762c629bd",
+            "0x2577343a76948874a0f1ce7ad5bd0fc8ca65becb468ba19adb6eeea64fb2a1a4",
+            "0x4bb3a5ca5bffd7b3b9d8028a5d90499ee8c06dabfb05247da5cfc81b36f529fd"
+          ]
+        }
+      },
+      {
+        "recipient": "0x1b4ee66224aa1418315bdf8379bbb379b6c09081",
+        "bucket_final": "TEST_RIG",
+        "bucket_census": "TEST_RIG",
+        "census_tx_count": 52,
+        "pattern": {
+          "n": 52,
+          "unique_payers": 1,
+          "self_pay_vol_share": 0.0,
+          "top2_vol_share": 1.0,
+          "modal_amount_usdc": 0.01,
+          "modal_share": 0.462,
+          "first_tx": "2026-04-24",
+          "last_tx": "2026-06-01",
+          "days_silent": 32,
+          "example_tx_hashes": [
+            "0x0f907b154c1f193b46d1d4fb03e4c07672f105c71b79c7ac89d11584da6ac68a",
+            "0x22e2e1d92d0559d7266fc113a5595d085bf5656c070200029ef9fa2d65c42893",
+            "0x6cecb921a16e595acfc8a314123f96e2c3d150ff4299ab65b52c9fa2da8ac4c6"
+          ]
+        }
+      }
+    ]
+  }
+}

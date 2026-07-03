@@ -23,7 +23,7 @@ from urllib.parse import urlparse
 from lib import PROCESSED_DIR, utcnow
 
 BAZAAR = PROCESSED_DIR / "bazaar_resources.csv"
-CENSUS = PROCESSED_DIR / "census_sellers.csv"
+CENSUS = PROCESSED_DIR / "census_sellers_corrected.csv"
 
 
 def norm_wallet(addr: str) -> str:

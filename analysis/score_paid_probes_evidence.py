@@ -36,11 +36,26 @@ def main() -> None:
     desc = bazaar_descriptions()
     strata = {r["url"]: r["stratum"] for r in csv.DictReader(
         open(PROCESSED_DIR / "paid_probe_sample.csv"))}
+    # Score every endpoint that SETTLED ON CHAIN (header-detected OR headerless
+    # — reconcile_chain.mjs sets settled_onchain). For multi-attempt endpoints,
+    # pick the delivering record: a 2xx with a body, else the last attempt.
+    rows = [json.loads(l) for l in open(LEDGER)]
+    settled_urls = {r["url"] for r in rows if r.get("settled_onchain")}
+    by_url: dict[str, list] = {}
+    for r in rows:
+        if r["url"] in settled_urls:
+            by_url.setdefault(r["url"], []).append(r)
+
+    def delivering(recs):
+        for r in recs:
+            if r["status"] and 200 <= r["status"] < 300 and r.get("body_b64"):
+                return r
+        return recs[-1]
+
     evidence = []
-    for line in open(LEDGER):
-        r = json.loads(line)
-        if not r.get("payment_response"):
-            continue
+    for url in sorted(by_url):
+        recs = by_url[url]
+        r = delivering(recs)
         body = base64.b64decode(r.get("body_b64") or "")
         try:
             text = body.decode("utf-8", errors="replace")

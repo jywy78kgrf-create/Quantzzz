@@ -126,12 +126,22 @@ function ledgerRecords() {
 }
 
 /** Endpoints with a prior SETTLEMENT are permanently skipped (one payment
- *  per endpoint, ever). Non-settled prior attempts are re-eligible only when
- *  explicitly re-run (Step 3 authorization). */
+ *  per endpoint, ever). Settlement truth comes from CHAIN, not the response
+ *  header: run-1/2 exposed endpoints that charge on-chain yet return no
+ *  X-PAYMENT-RESPONSE header (some 200, some 400/500), which a header-only
+ *  skip-set re-charged. reconcile_chain.mjs writes chain_settled_paytos.json;
+ *  we union it with header-detected settlements and body-embedded tx claims. */
+const SETTLED_SET = path.join(OUT_DIR, "chain_settled_paytos.json");
 function settledUrls() {
-  return new Set(ledgerRecords()
-    .filter((r) => r.payment_response || (r.settled_usdc_onchain ?? 0) > 0)
+  const set = new Set(ledgerRecords()
+    .filter((r) => r.payment_response || (r.settled_usdc_onchain ?? 0) > 0
+      || r.settled_onchain === true)
     .map((r) => r.url));
+  if (fs.existsSync(SETTLED_SET)) {
+    for (const u of JSON.parse(fs.readFileSync(SETTLED_SET, "utf8")).settled_urls ?? [])
+      set.add(u);
+  }
+  return set;
 }
 
 /** Step 2c: settled amount from the on-chain tx receipt, DURING the run.

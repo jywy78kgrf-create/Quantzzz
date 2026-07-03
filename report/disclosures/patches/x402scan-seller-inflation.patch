@@ -1,0 +1,81 @@
+From c6b9a76e1afc49b912ebb24602154a7b83807398 Mon Sep 17 00:00:00 2001
+From: audit <noreply@anthropic.com>
+Date: Fri, 3 Jul 2026 15:49:43 +0000
+Subject: [PATCH] fix(sellers): stop inflating seller aggregates by facilitator
+ count
+
+The seller-list MV query summed tx_count/total_amount/unique_buyers across a
+LATERAL unnest(facilitator_ids), multiplying every numeric metric by the
+seller's facilitator count. Compute numeric aggregates without the unnest
+(nums CTE) and build the DISTINCT facilitator array separately (facs CTE),
+joined on recipient.
+---
+ .../src/services/transfers/sellers/list-mv.ts | 50 ++++++++++++++-----
+ 1 file changed, 38 insertions(+), 12 deletions(-)
+
+diff --git a/apps/scan/src/services/transfers/sellers/list-mv.ts b/apps/scan/src/services/transfers/sellers/list-mv.ts
+index 683d0dd..a08eb5c 100644
+--- a/apps/scan/src/services/transfers/sellers/list-mv.ts
++++ b/apps/scan/src/services/transfers/sellers/list-mv.ts
+@@ -71,20 +71,46 @@ export const listTopSellersMVUncached = async (
+   const t0 = performance.now();
+   const offset = pagination.page * pagination.page_size;
+ 
++  // NOTE: the numeric aggregates (tx_count, total_amount, unique_buyers) MUST
++  // NOT be summed across the `LATERAL unnest(facilitator_ids)` fan-out — that
++  // multiplies each metric by the seller's facilitator count (a seller settled
++  // by N facilitators has every SUM inflated N×). We therefore compute numeric
++  // aggregates in `nums` (no unnest) and build the DISTINCT facilitator list in
++  // a separate `facs` CTE (where the fan-out is harmless), then join on
++  // recipient. Ordering by a numeric column happens on the pre-joined result.
+   const items = await queryRaw(
+     Prisma.sql`
+-    SELECT 
+-      recipient,
+-      COALESCE(ARRAY_AGG(DISTINCT unnested_facilitator) FILTER (WHERE unnested_facilitator IS NOT NULL), ARRAY[]::text[]) as facilitator_ids,
+-      COALESCE(SUM(total_transactions), 0)::integer as tx_count,
+-      COALESCE(SUM(total_amount), 0)::float as total_amount,
+-      MAX(latest_block_timestamp) as latest_block_timestamp,
+-      COALESCE(SUM(unique_buyers), 0)::integer as unique_buyers,
+-      COALESCE(ARRAY_AGG(DISTINCT chain) FILTER (WHERE chain IS NOT NULL), ARRAY[]::text[]) as chains
+-    FROM ${Prisma.raw(tableName)},
+-      LATERAL unnest(facilitator_ids) AS unnested_facilitator
+-    ${whereClause}
+-    GROUP BY recipient
++    WITH nums AS (
++      SELECT
++        recipient,
++        COALESCE(SUM(total_transactions), 0)::integer as tx_count,
++        COALESCE(SUM(total_amount), 0)::float as total_amount,
++        MAX(latest_block_timestamp) as latest_block_timestamp,
++        COALESCE(SUM(unique_buyers), 0)::integer as unique_buyers,
++        COALESCE(ARRAY_AGG(DISTINCT chain) FILTER (WHERE chain IS NOT NULL), ARRAY[]::text[]) as chains
++      FROM ${Prisma.raw(tableName)}
++      ${whereClause}
++      GROUP BY recipient
++    ),
++    facs AS (
++      SELECT
++        recipient,
++        COALESCE(ARRAY_AGG(DISTINCT unnested_facilitator) FILTER (WHERE unnested_facilitator IS NOT NULL), ARRAY[]::text[]) as facilitator_ids
++      FROM ${Prisma.raw(tableName)},
++        LATERAL unnest(facilitator_ids) AS unnested_facilitator
++      ${whereClause}
++      GROUP BY recipient
++    )
++    SELECT
++      nums.recipient,
++      facs.facilitator_ids,
++      nums.tx_count,
++      nums.total_amount,
++      nums.latest_block_timestamp,
++      nums.unique_buyers,
++      nums.chains
++    FROM nums
++    JOIN facs ON facs.recipient = nums.recipient
+     ORDER BY ${Prisma.raw(
+       `"${sorting.id === 'editorial' ? 'recipient' : sorting.id}"`
+     )} ${
+-- 
+2.43.0
+

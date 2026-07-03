@@ -177,9 +177,16 @@ def main() -> None:
     json.dump(delta3, open(PROCESSED_DIR / "delta3_buyer_inflation.json", "w"),
               indent=2)
 
-    # control-sample transition matrix + corrected shares
-    census_counts = Counter(r["bucket_census"]
-                            for r in csv.DictReader(open(CLASSIFIED)))
+    # Control-sample transition matrix + corrected shares.
+    # Deep-pulled sellers already carry their refined final bucket, so the
+    # control-derived transition rates are applied ONLY to census_only
+    # sellers; deep-pulled sellers contribute their actual final bucket.
+    census_only_counts = Counter(
+        r["bucket_census"] for r in csv.DictReader(open(out_path))
+        if r["census_only"] == "1")
+    deep_final_counts = Counter(
+        r["bucket_final"] for r in csv.DictReader(open(out_path))
+        if r["census_only"] == "0")
     trans: dict[str, dict[str, float]] = defaultdict(dict)
     by_census: Counter = Counter()
     for (c, fi), k in control_trans.items():
@@ -187,7 +194,9 @@ def main() -> None:
     for (c, fi), k in sorted(control_trans.items()):
         trans[c][fi] = round(k / by_census[c], 4)
     corrected: dict[str, float] = defaultdict(float)
-    for c, cnt in census_counts.items():
+    for b, cnt in deep_final_counts.items():
+        corrected[b] += cnt
+    for c, cnt in census_only_counts.items():
         probs = trans.get(c) or {c: 1.0}
         for fi, p in probs.items():
             corrected[fi] += cnt * p

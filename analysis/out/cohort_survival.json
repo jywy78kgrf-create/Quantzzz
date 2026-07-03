@@ -1,0 +1,61 @@
+{
+  "generated": "2026-07-03T07:03:32.879055+00:00",
+  "method": "1,500-seller seeded control sample; cohort = month of first observed transfer; survived = any transfer >=60 days after first; cohorts younger than 60 days excluded (right-censored).",
+  "cohorts": {
+    "2025-06": {
+      "n": 2,
+      "survived": 1,
+      "survival_rate": 0.5
+    },
+    "2025-07": {
+      "n": 1,
+      "survived": 0,
+      "survival_rate": 0.0
+    },
+    "2025-08": {
+      "n": 2,
+      "survived": 0,
+      "survival_rate": 0.0
+    },
+    "2025-10": {
+      "n": 329,
+      "survived": 2,
+      "survival_rate": 0.006
+    },
+    "2025-11": {
+      "n": 252,
+      "survived": 1,
+      "survival_rate": 0.004
+    },
+    "2025-12": {
+      "n": 14,
+      "survived": 3,
+      "survival_rate": 0.214
+    },
+    "2026-01": {
+      "n": 9,
+      "survived": 0,
+      "survival_rate": 0.0
+    },
+    "2026-02": {
+      "n": 57,
+      "survived": 1,
+      "survival_rate": 0.018
+    },
+    "2026-03": {
+      "n": 87,
+      "survived": 4,
+      "survival_rate": 0.046
+    },
+    "2026-04": {
+      "n": 167,
+      "survived": 2,
+      "survival_rate": 0.012
+    },
+    "2026-05": {
+      "n": 25,
+      "survived": 0,
+      "survival_rate": 0.0
+    }
+  }
+}

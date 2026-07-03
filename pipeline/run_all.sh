@@ -19,3 +19,9 @@ python3 classify_final.py     # Phase 2 pass 2 + DELTA 3 buyer inflation
 python3 liveness_probe.py     # Phase 2: endpoint liveness (no payments)
 python3 spot_audit.py         # DELTA 2b: on-chain index accuracy audit
 python3 spot_audit_verify.py  # DELTA 2b: recheck apparent phantoms via RPC
+
+# Phase 3 — analysis + charts (all report figures trace here)
+python3 ../analysis/control_error_rate.py
+python3 ../analysis/hand_inspection_sample.py
+python3 ../analysis/phase3_analysis.py
+python3 ../analysis/make_charts.py

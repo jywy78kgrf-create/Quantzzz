@@ -100,10 +100,13 @@ async function main() {
   const account = privateKeyToAccount(key);
   console.log(`paying from burner: ${account.address}`);
 
-  // maxValue is in base units of the payment asset (USDC 6dp)
-  const fetchWithPay = wrapFetchWithPayment(fetch, account, {
-    maxValue: BigInt(Math.round(PER_ENDPOINT_CAP_USDC * 1e6)),
-  });
+  // CRITICAL: maxValue is the THIRD positional arg (a BigInt), NOT a config
+  // object. Passing {maxValue:...} here silently disables the cap — the
+  // library compares BigInt > object (always false) and also loses its own
+  // 0.1-USDC default. This bug let a $15 charge through on the first run
+  // (listed $0.01). Correct call:
+  const fetchWithPay = wrapFetchWithPayment(
+    fetch, account, BigInt(Math.round(PER_ENDPOINT_CAP_USDC * 1e6)));
   const examples = loadExampleInputs();
 
   let spent = done.size

@@ -40,6 +40,52 @@ const TIMEOUT_MS = 30000;
 const UA = "x402-endpoint-quality-audit/0.1 (paid delivery verification pilot; one payment per endpoint)";
 
 const confirm = process.argv.includes("--confirm");
+const haltArg = process.argv.find((a) => a.startsWith("--halt="));
+const HALT_USDC = haltArg ? Number(haltArg.split("=")[1]) : HALT_AT_USDC;
+const dryrun402 = process.argv.find((a) => a.startsWith("--dryrun-402="));
+
+/**
+ * CAIP-2 -> SDK network-name normalization (Step 2b).
+ * x402-fetch 1.2.0's PaymentRequirementsSchema rejects CAIP-2 chain ids
+ * ("eip155:8453"), which x402 v2 servers legitimately send — that blocked 30
+ * of 75 payments in run 1 (report finding). This wrapper rewrites the network
+ * field of 402 payment-requirement bodies to the SDK's names before the SDK
+ * parses them. Mainnet-Base only: testnets stay unmapped (and thus unpayable).
+ */
+const CAIP2_MAP = {
+  "eip155:8453": "base",
+  "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp": "solana",
+};
+function normalizeAccept(a, url) {
+  let changed = false;
+  if (CAIP2_MAP[a?.network]) { a.network = CAIP2_MAP[a.network]; changed = true; }
+  // v2 field names -> v1 names the SDK schema requires
+  if (a.maxAmountRequired === undefined && a.amount !== undefined) {
+    a.maxAmountRequired = String(a.amount); changed = true;
+  }
+  for (const [k, v] of Object.entries(
+      { resource: url, description: "", mimeType: "" })) {
+    if (a[k] === undefined) { a[k] = v; changed = true; }
+  }
+  return changed;
+}
+function normalizingFetch(baseFetch) {
+  return async (url, init) => {
+    const resp = await baseFetch(url, init);
+    if (resp.status !== 402) return resp;
+    let body;
+    try { body = await resp.clone().json(); } catch { return resp; }
+    if (!Array.isArray(body?.accepts)) return resp;
+    let changed = false;
+    for (const a of body.accepts) {
+      if (normalizeAccept(a, String(url))) changed = true;
+    }
+    if (!changed) return resp;
+    return new Response(JSON.stringify(body), {
+      status: resp.status, statusText: resp.statusText, headers: resp.headers,
+    });
+  };
+}
 
 function readCsv(file) {
   const [head, ...lines] = fs.readFileSync(file, "utf8").trim().split("\n");
@@ -73,21 +119,87 @@ function appendResult(rec) {
   fs.appendFileSync(RESULTS, JSON.stringify(rec) + "\n");
 }
 
-function attempted() {
-  if (!fs.existsSync(RESULTS)) return new Set();
-  return new Set(fs.readFileSync(RESULTS, "utf8").trim().split("\n")
-    .filter(Boolean).map((l) => JSON.parse(l).url));
+function ledgerRecords() {
+  if (!fs.existsSync(RESULTS)) return [];
+  return fs.readFileSync(RESULTS, "utf8").trim().split("\n")
+    .filter(Boolean).map((l) => JSON.parse(l));
+}
+
+/** Endpoints with a prior SETTLEMENT are permanently skipped (one payment
+ *  per endpoint, ever). Non-settled prior attempts are re-eligible only when
+ *  explicitly re-run (Step 3 authorization). */
+function settledUrls() {
+  return new Set(ledgerRecords()
+    .filter((r) => r.payment_response || (r.settled_usdc_onchain ?? 0) > 0)
+    .map((r) => r.url));
+}
+
+/** Step 2c: settled amount from the on-chain tx receipt, DURING the run.
+ *  Parses USDC Transfer logs where `from` topic == our wallet. Returns
+ *  {usdc, verified}; on persistent RPC failure assumes the per-endpoint cap
+ *  for halt accounting and flags the record unverified. */
+const USDC_ADDR = "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913";
+const TRANSFER_TOPIC =
+  "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"; // ERC-20 Transfer event topic (public constant, not-a-key)
+async function settledFromReceipt(txHash, wallet) {
+  for (let i = 0; i < 6; i++) {
+    try {
+      const r = await fetch("https://mainnet.base.org", {
+        method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ jsonrpc: "2.0", id: 1,
+          method: "eth_getTransactionReceipt", params: [txHash] }),
+        signal: AbortSignal.timeout(15000),
+      }).then((x) => x.json());
+      const rcpt = r?.result;
+      if (rcpt) {
+        let units = 0n;
+        for (const log of rcpt.logs ?? []) {
+          if (log.address?.toLowerCase() === USDC_ADDR
+              && log.topics?.[0] === TRANSFER_TOPIC
+              && log.topics?.[1]?.slice(-40).toLowerCase()
+                 === wallet.slice(2).toLowerCase()) {
+            units += BigInt(log.data);
+          }
+        }
+        return { usdc: Number(units) / 1e6, verified: true };
+      }
+    } catch { /* retry */ }
+    await new Promise((res) => setTimeout(res, 2000 * (i + 1)));
+  }
+  return { usdc: PER_ENDPOINT_CAP_USDC, verified: false }; // conservative
 }
 
 async function main() {
+  if (dryrun402) {
+    // Step 2b verification: fetch a real 402, normalize CAIP-2, parse with
+    // the SDK schema, apply the cap — and STOP. No signing, no payment.
+    const url = dryrun402.split("=").slice(1).join("=");
+    const nf = normalizingFetch(fetch);
+    const resp = await nf(url, { headers: { "User-Agent": UA },
+                                 signal: AbortSignal.timeout(TIMEOUT_MS) });
+    console.log(`dryrun-402 ${url} -> HTTP ${resp.status}`);
+    if (resp.status !== 402) return;
+    const body = await resp.json();
+    const { PaymentRequirementsSchema } = await import("x402/types");
+    const parsed = body.accepts.map((a) => PaymentRequirementsSchema.parse(a));
+    const usdc = Number(parsed[0].maxAmountRequired) / 1e6;
+    console.log(`parsed OK: network=${parsed[0].network} amount=$${usdc} ` +
+                `payTo=${parsed[0].payTo}`);
+    console.log(usdc <= PER_ENDPOINT_CAP_USDC
+      ? `cap check: $${usdc} <= $${PER_ENDPOINT_CAP_USDC} — would proceed`
+      : `cap check: $${usdc} > $${PER_ENDPOINT_CAP_USDC} — would THROW`);
+    console.log("dry run: stopping before payment construction.");
+    return;
+  }
+
   const sample = readCsv(SAMPLE);
-  const done = attempted();
+  const done = settledUrls();
   const todo = sample.filter((r) => !done.has(r.url));
   const projected = todo.reduce((s, r) => s + Number(r.price_usdc), 0);
 
-  console.log(`sample=${sample.length} attempted=${done.size} todo=${todo.length}`);
+  console.log(`sample=${sample.length} settled-prior=${done.size} todo=${todo.length}`);
   console.log(`projected spend this run: $${projected.toFixed(2)} ` +
-              `(caps: $${PER_ENDPOINT_CAP_USDC}/endpoint, halt $${HALT_AT_USDC}, budget $${BUDGET_CAP_USDC})`);
+              `(caps: $${PER_ENDPOINT_CAP_USDC}/endpoint, halt $${HALT_USDC}, budget $${BUDGET_CAP_USDC})`);
   if (!confirm) {
     console.log("\nDRY RUN — no payments. Re-run with --confirm to execute.");
     for (const r of todo.slice(0, 5)) console.log(`  ${r.stratum}  $${r.price_usdc}  ${r.url}`);
@@ -104,27 +216,31 @@ async function main() {
   // object. Passing {maxValue:...} here silently disables the cap — the
   // library compares BigInt > object (always false) and also loses its own
   // 0.1-USDC default. This bug let a $15 charge through on the first run
-  // (listed $0.01). Correct call:
+  // (listed $0.01). Correct call (verified by test_cap.mjs):
   const fetchWithPay = wrapFetchWithPayment(
-    fetch, account, BigInt(Math.round(PER_ENDPOINT_CAP_USDC * 1e6)));
+    normalizingFetch(fetch), account,
+    BigInt(Math.round(PER_ENDPOINT_CAP_USDC * 1e6)));
   const examples = loadExampleInputs();
 
-  let spent = done.size
-    ? [...fs.readFileSync(RESULTS, "utf8").trim().split("\n")]
-        .filter(Boolean).map((l) => JSON.parse(l))
-        .reduce((s, r) => s + (r.paid_usdc ?? 0), 0)
-    : 0;
-  console.log(`already spent (ledger): $${spent.toFixed(2)}`);
+  // Cumulative halt accounting uses on-chain SETTLED amounts (receipt-
+  // verified during the run), never listed prices. Run 1's amounts were
+  // reconciled post-hoc and live in settled_usdc_onchain.
+  let spent = 0; // this-run settled total (halt basis per Step 3)
+  console.log(`prior settled (all runs, ledger): $${
+    ledgerRecords().reduce((s, r) => s + (r.settled_usdc_onchain ?? 0), 0)
+      .toFixed(2)}`);
 
   for (const [i, row] of todo.entries()) {
     const price = Number(row.price_usdc);
     if (price > PER_ENDPOINT_CAP_USDC) {
       appendResult({ url: row.url, stratum: row.stratum, ts: new Date().toISOString(),
-                     outcome: "SKIPPED_PRICE_CAP", listed_price_usdc: price, paid_usdc: 0 });
+                     outcome: "SKIPPED_PRICE_CAP", listed_price_usdc: price, settled_usdc_onchain: 0 });
       continue;
     }
-    if (spent + price > HALT_AT_USDC) {
-      console.log(`HALT: spent $${spent.toFixed(2)} + next $${price} would cross $${HALT_AT_USDC}`);
+    // Halt guard uses SETTLED amounts; next-payment exposure is the per-
+    // endpoint CAP (not the listed price — run 1 proved listings can lie).
+    if (spent + PER_ENDPOINT_CAP_USDC > HALT_USDC) {
+      console.log(`HALT: settled $${spent.toFixed(2)} + cap $${PER_ENDPOINT_CAP_USDC} would cross $${HALT_USDC}`);
       break;
     }
 
@@ -150,7 +266,8 @@ async function main() {
     const rec = {
       url: row.url, request_url: url, stratum: row.stratum, method,
       listed_price_usdc: price, ts: new Date().toISOString(),
-      paid_usdc: 0, outcome: null, status: null, payment_response: null,
+      settled_usdc_onchain: 0, receipt_verified: null, overcharged: false,
+      outcome: null, status: null, payment_response: null,
       tx_hash: null, settle_network: null, content_type: null,
       body_b64: null, body_sha256: null, body_bytes_total: null, error: null,
     };
@@ -179,9 +296,19 @@ async function main() {
       }
       // x402-fetch only returns non-402 after settling payment (or if the
       // route turned out to be free); a settle header marks money moved.
+      // Step 2c: verify the settled amount from the tx receipt NOW, and
+      // account the halt off that on-chain number.
       if (rec.payment_response) {
-        rec.paid_usdc = price;
-        spent += price;
+        if (rec.tx_hash) {
+          const settled = await settledFromReceipt(rec.tx_hash, account.address);
+          rec.settled_usdc_onchain = settled.usdc;
+          rec.receipt_verified = settled.verified;
+        } else {
+          rec.settled_usdc_onchain = PER_ENDPOINT_CAP_USDC; // conservative
+          rec.receipt_verified = false;
+        }
+        rec.overcharged = rec.settled_usdc_onchain > price + 1e-9;
+        spent += rec.settled_usdc_onchain;
         rec.outcome = resp.ok ? "PAID_2XX" : "PAID_NON2XX";
       } else {
         rec.outcome = `NO_PAYMENT_HTTP_${resp.status}`;
@@ -193,7 +320,7 @@ async function main() {
       rec.outcome = /payment/i.test(rec.error) ? "PAYMENT_FAILED" : "REQUEST_FAILED";
     }
     appendResult(rec);
-    console.log(`[${i + 1}/${todo.length}] ${rec.outcome} $${rec.paid_usdc} ` +
+    console.log(`[${i + 1}/${todo.length}] ${rec.outcome} $${rec.settled_usdc_onchain} ` +
                 `cum=$${spent.toFixed(2)} ${row.url.slice(0, 70)}`);
     await new Promise((r) => setTimeout(r, 1500)); // pacing
   }

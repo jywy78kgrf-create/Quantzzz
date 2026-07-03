@@ -45,12 +45,22 @@ on-chain USDC transfer from the payer wallet:
 
 (Full list and tx hashes: `data/raw/paid_probes/`.)
 
+## Current spec wording (verified 2026-07-03)
+
+The v2 HTTP transport spec
+(`specs/transports-v2/http.md`) states only: *"Servers communicate payment
+settlement results using the `PAYMENT-RESPONSE` header."* It uses **no RFC-2119
+keyword** (no MUST/SHOULD/MAY) for this header, and it **does not address the
+case where payment settled but the server returns a non-2xx status**. So the
+header is described but not required, and the settled-but-error case is
+unspecified — which is exactly the gap the observed behavior falls through.
+
 ## Proposed spec change
 
-1. **Require** that any response to a request whose payment was settled include
-   `X-PAYMENT-RESPONSE` with the settlement result (tx hash / network / status),
-   **including on 4xx/5xx responses** — if you took the money, you must confirm
-   it, even when the business logic failed.
+1. Make it normative: a response to a request whose payment settled **MUST**
+   include `PAYMENT-RESPONSE` with the settlement result (tx hash / network /
+   status), **including on 4xx/5xx responses** — if you took the money, you must
+   confirm it, even when the business logic failed.
 2. Recommend that servers **not settle before they can fulfill** (validate and
    be ready before capturing payment), and define a standard behavior for
    "settled but failed" (refund, or an explicit `settled: true, delivered:

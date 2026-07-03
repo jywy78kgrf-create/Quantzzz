@@ -1,0 +1,54 @@
+{
+  "generated": "2026-07-03T06:59:08.063655+00:00",
+  "control_sellers_with_deep_features": 1500,
+  "overall": {
+    "changed_bucket": 17,
+    "error_rate": 0.0113,
+    "agreement": 0.9887
+  },
+  "per_census_bucket": {
+    "ACTIVE_LEGITIMATE": {
+      "n_control": 9,
+      "unchanged": 9,
+      "agreement": 1.0,
+      "moved_to": {}
+    },
+    "DORMANT": {
+      "n_control": 64,
+      "unchanged": 52,
+      "agreement": 0.8125,
+      "moved_to": {
+        "TEST_RIG": 10,
+        "MEMECOIN": 2
+      }
+    },
+    "GHOST": {
+      "n_control": 1055,
+      "unchanged": 1055,
+      "agreement": 1.0,
+      "moved_to": {}
+    },
+    "LOW_ACTIVITY": {
+      "n_control": 39,
+      "unchanged": 34,
+      "agreement": 0.8718,
+      "moved_to": {
+        "TEST_RIG": 5
+      }
+    },
+    "TEST_RIG": {
+      "n_control": 333,
+      "unchanged": 333,
+      "agreement": 1.0,
+      "moved_to": {}
+    }
+  },
+  "test_rig_breakout": {
+    "n_control": 333,
+    "unchanged": 333,
+    "agreement": 1.0,
+    "moved_to": {},
+    "note": "Census TEST_RIG rule = >=5 tx AND <=2 unique buyers (census field). Deep signals can only move a seller OUT of TEST_RIG if recomputed buyers > 2 and no concentration/self-dealing rule fires."
+  },
+  "interpretation": "Error direction is asymmetric: census under-detects TEST_RIG (aggregates cannot see self-dealing or payer concentration among >2 buyers), so census-only sellers in DORMANT/LOW_ACTIVITY may include undetected test rigs; the corrected shares in control_transition_matrix.json account for this."
+}

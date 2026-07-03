@@ -1,0 +1,193 @@
+"""Continuous orchestrator: refresh data, run research on both desks, run trader
+sessions, repeat. All state is in SQLite so the loop is restart-safe."""
+
+from __future__ import annotations
+
+import signal
+import time
+
+from .config import FUNDS, Config
+from .data.refresh import refresh_data
+from .research.loop import ResearchDesk
+from .trading.trader import TraderAgent
+
+_STOP = False
+
+
+def replay(cfg: Config, fund: str, lookback_days: int = 180, step_days: int = 3) -> str:
+    """Step a trader through historical snapshot dates to build a realistic track
+    record (moving equity curve, closed trades, learning-loop activity)."""
+    import pandas as pd
+    from .trading.trader import TraderAgent
+
+    agent = TraderAgent.build(cfg, fund)
+    # use the benchmark's calendar as the trading-day clock
+    bench = agent.store.load_prices("SPY" if fund == "equity" else "XBI")
+    if bench is None or bench.empty:
+        return f"[{fund}] no benchmark calendar for replay"
+    dates = bench.index[bench.index >= bench.index.max() - pd.Timedelta(days=lookback_days)]
+    dates = dates[::step_days]
+    last = None
+    for d in dates:
+        last = agent.session(as_of=d)
+    return f"[{fund}] replayed {len(dates)} sessions over {lookback_days}d -> {last}"
+
+
+def _handle_sigint(signum, frame):
+    global _STOP
+    _STOP = True
+    print("\nshutdown requested; finishing current step...")
+
+
+def _journal_cycle_gap(cfg: Config) -> None:
+    """Make scheduler droughts visible: if the previous cycle is much older
+    than the market-hours cadence promises, surface it in the decision feed
+    (GitHub cron is best-effort and silently skips slots)."""
+    from datetime import datetime, timezone
+    from .db import get_conn, insert, utcnow
+    now = datetime.now(timezone.utc)
+    if now.weekday() >= 5 or not (13 <= now.hour <= 21):
+        return  # off-hours cadence is intentionally sparse
+    conn = get_conn(cfg.db_path)
+    try:
+        row = conn.execute("SELECT MAX(ts) m FROM equity_snapshots").fetchone()
+        if not row or not row["m"]:
+            return
+        last = datetime.fromisoformat(row["m"].replace("Z", "+00:00"))
+        if last.tzinfo is None:
+            last = last.replace(tzinfo=timezone.utc)
+        gap_h = (now - last).total_seconds() / 3600
+        throttled = conn.execute(
+            "SELECT 1 FROM journal_entries WHERE entry_type='advice' AND "
+            "action='cycle_gap' AND ts > datetime('now','-6 hours') LIMIT 1").fetchone()
+        if gap_h > 3 and not throttled:
+            insert(conn, "journal_entries", fund="equity", ts=utcnow(),
+                   entry_type="advice", action="cycle_gap",
+                   reasoning=(f"Cycle gap: {gap_h:.1f}h since the last session during "
+                              "market hours. GitHub cron likely skipped slots; this "
+                              "cycle is catching up. Manual 'Run workflow' fills gaps."))
+    finally:
+        conn.close()
+
+
+def _maybe_weekly_synthesis(cfg: Config) -> None:
+    """Once a week, the advisor writes the head-of-research note: search
+    progress, how the external-signal bench's deflated Sharpe moved, and what
+    the live forward record says. Journaled; NullAdvisor makes this a no-op."""
+    from .db import get_conn, insert, utcnow
+    from .llm import get_llm
+    llm = get_llm(cfg)
+    if not getattr(llm, "available", False):
+        return
+    conn = get_conn(cfg.db_path)
+    try:
+        throttled = conn.execute(
+            "SELECT 1 FROM journal_entries WHERE entry_type='llm_review' AND "
+            "action='weekly_synthesis' AND ts > datetime('now','-7 days') "
+            "LIMIT 1").fetchone()
+        if throttled:
+            return
+        g = lambda sql, p=(): conn.execute(sql, p).fetchone()
+        bench = g("""SELECT MAX(i.dsr_prob) d, MAX(i.oos_sharpe) s
+                     FROM research_iterations i JOIN strategies st ON st.id=i.strategy_id
+                     WHERE st.family IN ('event_anchored','options_iv_runup',
+                                         'insider_conviction')
+                       AND i.ts > datetime('now','-7 days')""")
+        stats = {
+            "promotions_7d": g("SELECT COUNT(*) c FROM strategies WHERE "
+                               "promoted_ts > datetime('now','-7 days')")["c"],
+            "iterations_7d": g("SELECT COUNT(*) c FROM research_iterations WHERE "
+                               "ts > datetime('now','-7 days')")["c"],
+            "external_bench_best_dsr_7d": bench["d"],
+            "external_bench_best_oos_sharpe_7d": bench["s"],
+            "forward_record": [dict(r) for r in conn.execute(
+                """SELECT fund, MIN(ts) since, COUNT(*) sessions,
+                          ROUND((MAX(equity)/MIN(equity)-1)*100, 2) ret_range_pct
+                   FROM equity_snapshots WHERE source='live' GROUP BY fund""")],
+            "retired_7d": g("SELECT COUNT(*) c FROM strategies WHERE "
+                            "retired_ts > datetime('now','-7 days')")["c"],
+        }
+        note = llm.synthesize_week(stats)
+        if note:
+            insert(conn, "journal_entries", fund="biotech", ts=utcnow(),
+                   entry_type="llm_review", action="weekly_synthesis",
+                   reasoning=note)
+    except Exception as e:
+        print(f"weekly synthesis error (non-fatal): {e}")
+    finally:
+        conn.close()
+
+
+def run_loop(cfg: Config, cycles: int = 0, interval_s: int = 900,
+             research_iterations: int = 25) -> None:
+    signal.signal(signal.SIGINT, _handle_sigint)
+    # ensure migrations + the source='live'/'replay' backfill have run, even if
+    # the cloud goes straight to `run` after a git-pulled seed without `init-db`
+    # (otherwise new columns are missing and replay history defaults to 'live')
+    from .db import get_conn, init_schema
+    _c = get_conn(cfg.db_path); init_schema(_c); _c.close()
+    cycle = 0
+    while not _STOP and (cycles == 0 or cycle < cycles):
+        cycle += 1
+        print(f"\n=== cycle {cycle} ===")
+        try:
+            _journal_cycle_gap(cfg)
+        except Exception as e:
+            print(f"cycle-gap check error (non-fatal): {e}")
+        # self-healing guard: keep the live book anchored to each fund's
+        # starting budget every cycle. Idempotent (a no-op once anchored), so
+        # it costs nothing in steady state but prevents any future replay /
+        # re-seed from silently re-inflating the NAV.
+        try:
+            from .db import get_conn
+            from .rebaseline import rebaseline
+            _conn = get_conn(cfg.db_path)
+            for _fund, _msg in rebaseline(_conn, cfg.snapshot_dir).items():
+                if "rescaled" in _msg or "marked" in _msg:
+                    print(f"rebaseline {_fund}: {_msg}")
+            _conn.close()
+        except Exception as e:
+            print(f"rebaseline guard error (non-fatal): {e}")
+        try:
+            refresh_data(cfg, desk="all")
+        except Exception as e:
+            print(f"data refresh error (continuing on snapshots): {e}")
+
+        for desk in FUNDS:
+            try:
+                result = ResearchDesk.build(cfg, desk).run(research_iterations)
+                print(result.summary())
+            except Exception as e:
+                print(f"research {desk} error: {e}")
+
+        try:
+            _maybe_weekly_synthesis(cfg)
+        except Exception as e:
+            print(f"weekly synthesis error (non-fatal): {e}")
+
+        for fund in FUNDS:
+            try:
+                print(TraderAgent.build(cfg, fund).session())
+            except Exception as e:
+                print(f"trader {fund} error: {e}")
+
+        # event-driven catalyst sleeve runs in tandem with the portfolio traders
+        # (its own isolated book; the per-event edge the rebalance framework
+        # can't express)
+        try:
+            from .db import get_conn
+            from .trading.catalyst_sleeve import CatalystSleeve
+            _cs_conn = get_conn(cfg.db_path)
+            print(CatalystSleeve(cfg, _cs_conn).session())
+            _cs_conn.close()
+        except Exception as e:
+            print(f"catalyst sleeve error (non-fatal): {e}")
+
+        if _STOP or (cycles and cycle >= cycles):
+            break
+        print(f"sleeping {interval_s}s...")
+        for _ in range(interval_s):
+            if _STOP:
+                break
+            time.sleep(1)
+    print("orchestrator stopped.")

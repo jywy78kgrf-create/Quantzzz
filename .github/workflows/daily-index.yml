@@ -1,0 +1,75 @@
+# Durable daily x402 settlement snapshot (zero-infra option).
+#
+# Runs the independent Base + Solana indexers on GitHub's schedule and commits
+# each day's immutable seller snapshot back to the repo, so the time-series
+# history — the moat — accrues in git itself.
+#
+# STATE (the SQLite substrate) is persisted between runs via actions/cache, NOT
+# committed, so .git does not bloat with a daily binary blob. The immutable
+# dated snapshots ARE committed (small CSV/JSON) and are the durable record;
+# if the cache is ever evicted, the indexer re-bootstraps recent history and
+# the gap-abort guarantees it never snapshots over a hole.
+#
+# ── DEPLOY REQUIREMENTS (see indexer/DEPLOY.md) ──────────────────────────────
+#  1. This file MUST be on the repository's DEFAULT branch. GitHub only runs
+#     scheduled workflows from the default branch — on a feature branch it
+#     never fires.
+#  2. Add repo secret  X402_SOLANA_RPC  = your keyed Solana RPC URL (Helius…).
+#     Without it Solana falls back to the public RPC and will be rate-limited.
+#  3. Settings → Actions → General → Workflow permissions = "Read and write".
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: daily-x402-index
+on:
+  schedule:
+    - cron: "17 2 * * *"      # 02:17 UTC daily (offset off the hour)
+  workflow_dispatch: {}        # manual trigger for the first/bootstrap run
+
+permissions:
+  contents: write              # to commit the immutable dated snapshots
+
+concurrency:
+  group: daily-x402-index      # never overlap two runs
+  cancel-in-progress: false
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+
+      # SQLite state substrate — restored from cache, saved after the run.
+      # restore-keys let a run pick up the most recent prior cache even though
+      # the primary key (dated) is unique per day.
+      - name: Restore indexer state
+        uses: actions/cache@v4
+        with:
+          path: data/indexer/base_settlements.sqlite
+          key: x402-indexer-state-${{ github.run_id }}
+          restore-keys: |
+            x402-indexer-state-
+
+      - name: Index to tip + write immutable daily snapshot
+        env:
+          X402_SOLANA_RPC: ${{ secrets.X402_SOLANA_RPC }}
+        run: python indexer/daily_snapshot.py
+
+      - name: Commit immutable dated snapshot
+        run: |
+          git config user.name  "x402-index-bot"
+          git config user.email "x402-index-bot@users.noreply.github.com"
+          # snapshots are gitignored in the dev container; in CI they ARE the
+          # durable committed history, so force-add.
+          git add -f data/indexer/snapshots/ || true
+          if git diff --cached --quiet; then
+            echo "no new snapshot to commit (same-day re-run)"
+          else
+            git commit -m "index: daily snapshot $(date -u +%F) [skip ci]"
+            git push
+          fi

@@ -1,0 +1,35 @@
+# secrets
+.env
+
+# runtime state (data/seed.db IS committed — compact state without cache blobs)
+/quantzzz.db
+quantzzz.db.backup
+*.db-wal
+*.db-shm
+data/cache/
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+data/*.backup
+
+# macOS Finder clutter
+.DS_Store
+
+# x402 audit — wallet safety (Phase 2.5): never commit key material
+*.pem
+*wallet*key*
+.x402-wallet*
+
+# indexer runtime state (regenerated; real history accrues on durable infra)
+data/indexer/*.sqlite
+data/indexer/*.sqlite-*
+data/indexer/snapshots/
+
+# Heavy one-time audit raw pulls stay in the original repo (reproducible from scripts).
+data/raw/

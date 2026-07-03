@@ -1,0 +1,146 @@
+# x402 Endpoint Quality Audit — single tunable configuration file.
+# Every classification threshold used anywhere in the pipeline lives here.
+# Re-run `pipeline/run_all.sh` after editing to regenerate all outputs.
+
+snapshot:
+  # Label for this data snapshot; raw pulls land in data/raw/<source>/<label>/
+  label: "2026-07-03"
+
+sources:
+  x402scan:
+    base_url: "https://www.x402scan.com/api/trpc"
+    page_size: 1000
+    # 'editorial' sorting orders by recipient ascending — a stable key that
+    # does not drift as new transactions arrive mid-pull.
+    census_sort: { id: "editorial", desc: false }
+    min_interval_seconds: 0.30      # self-imposed throttle (<4 req/s)
+  bazaar:
+    base_url: "https://api.cdp.coinbase.com/platform/v2/x402/discovery"
+    page_limit: 1000
+    min_interval_seconds: 0.30
+  blockscout_base:
+    base_url: "https://base.blockscout.com/api/v2"
+    min_interval_seconds: 0.60
+  base_rpc:
+    url: "https://mainnet.base.org"
+    min_interval_seconds: 0.30
+  solana_rpc:
+    url: "https://api.mainnet-beta.solana.com"
+    min_interval_seconds: 1.00
+
+http:
+  user_agent: "x402-endpoint-quality-audit/0.1 (independent research; read-only; contact: audit maintainer via repo)"
+  timeout_seconds: 45
+  max_retries: 5
+  backoff_base_seconds: 2.0
+
+# ---------------------------------------------------------------------------
+# Classification thresholds (Phase 2). Buckets are assigned in priority order:
+# GHOST > TEST_RIG > DUPLICATE > MEMECOIN > DORMANT > ACTIVE_LEGITIMATE.
+# A seller = one receiving wallet (recipient address) in the on-chain index.
+# ---------------------------------------------------------------------------
+classification:
+  ghost:
+    # Listed/observed but effectively no real usage.
+    max_lifetime_tx: 4               # tx_count < 5 => GHOST
+
+  test_rig:
+    census:
+      # Census-level signal: real tx count but almost no distinct payers.
+      max_unique_buyers: 2           # >=5 tx AND <=2 unique buyers => TEST_RIG
+    deep:
+      # Transfer-level signals (any one triggers, given >=5 tx):
+      self_pay_share_min: 0.10       # >=10% of volume where payer == seller wallet
+      top2_payer_volume_share_min: 0.90   # >2 buyers but top-2 payers >=90% of volume
+      # Uniform amounts alone are NOT a test signal (fixed-price APIs are
+      # legitimate); uniformity only counts combined with low payer diversity.
+      uniform_amount_share_min: 0.98
+      uniform_max_unique_buyers: 5
+
+  duplicate:
+    # Same endpoint URL registered for >=2 distinct receiving wallets:
+    # all but the highest-volume wallet in the URL-group are DUPLICATE.
+    # (Listing-level duplication inside the Bazaar catalog — same URL or same
+    # payTo appearing in multiple listings — is reported separately and does
+    # not consume a census bucket.)
+    keep: "highest_volume"
+
+  memecoin:
+    # PING-style pay-to-mint artifact: mass near-identical small payments in a
+    # short burst, then silence. Requires transfer-level (deep) data.
+    min_lifetime_tx: 1000
+    max_active_span_days: 21         # all activity within this many days
+    min_silence_days: 30             # followed by at least this much silence
+    modal_amount_share_min: 0.90     # near-identical amounts
+    max_amount_usdc: 1.00            # small payments
+    # Sustained mass-mint variant (approved at Phase 2 checkpoint): months-long
+    # identical-small-payment operations, now silent — same artifact class,
+    # no burst-window requirement.
+    sustained:
+      min_lifetime_tx: 100000
+      modal_amount_share_min: 0.99
+      max_amount_usdc: 1.00
+      min_silence_days: 30
+
+  dormant:
+    # Real historical activity, gone quiet. All three windows reported.
+    windows_days: [30, 60, 90]
+    primary_window_days: 60          # window used for the headline bucket
+
+  active_legitimate:
+    # Survivors of all the above filters, with sustained + diverse + recent use.
+    min_lifetime_tx: 20
+    min_unique_buyers: 5
+    max_days_since_last_tx: 30
+
+# ---------------------------------------------------------------------------
+# DELTA 1 — deep-pull allocation
+# ---------------------------------------------------------------------------
+deep_pull:
+  top_n_by_volume: 1000              # exhaustive
+  active_legit_cap: 15000            # if candidates exceed this, seeded sample
+  control_sample_size: 1500          # pure-random control across all buckets
+  random_seed: 402402                # committed seed for ALL sampling
+  # Sellers with lifetime tx_count <= this get complete transfer history
+  # (ceil(tx/1000) requests); above it, first-1000 + latest-1000 sample.
+  full_history_max_tx: 5000
+
+# ---------------------------------------------------------------------------
+# Phase 2 liveness probes (no payment execution)
+# ---------------------------------------------------------------------------
+liveness:
+  max_resources_per_origin: 10       # deterministic pick (sorted) per origin
+  min_interval_seconds: 0.25         # global probe rate cap (across hosts)
+  per_host_min_interval_seconds: 5.0 # per-host courtesy interval
+  timeout_seconds: 15
+  concurrency: 8
+  max_body_bytes: 262144
+  # If GET returns 404/405 and the Bazaar listing declares a POST route,
+  # retry once as POST with an empty JSON body — still unpaid, so an
+  # x402-compliant server answers 402 before any handler logic runs.
+  post_fallback: true
+
+# ---------------------------------------------------------------------------
+# DELTA 2b — on-chain spot audit
+# ---------------------------------------------------------------------------
+spot_audit:
+  n_sellers: 40
+  random_seed: 402402
+  # Free-tier cap: skip-and-substitute sellers whose census tx_count exceeds
+  # this (Blockscout pagination = 50/page); substitutions are recorded.
+  max_tx_for_audit: 800
+
+# ---------------------------------------------------------------------------
+# Phase 2.5 — paid delivery verification (mystery shopper)
+# NOTHING in this section executes without the explicit pre-payment
+# checkpoint. Spend caps are enforced in code as well as here.
+# ---------------------------------------------------------------------------
+paid_probe:
+  enabled: false                     # flipped only after user confirmation
+  sample_size: 75
+  strata: { top_volume: 25, mid_activity: 25, low_new: 25 }
+  max_price_usdc: 1.00
+  budget_cap_usdc: 50.00
+  halt_at_usdc: 45.00
+  one_payment_per_endpoint: true
+  wallet_env_var: "X402_AUDIT_WALLET_KEY"   # never committed, never logged

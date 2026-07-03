@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantzzz"
+version = "0.1.0"
+description = "Autonomous AI quant fund: iterative strategy research desks, paper-trading agents, and dashboards"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "requests>=2.31",
+    "pyarrow>=14.0",
+    "streamlit>=1.36",
+    "plotly>=5.20",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.40"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[tool.setuptools.packages.find]
+include = ["quantzzz*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+# bug-focused, low-noise: pyflakes (real bugs: undefined names, unused imports,
+# bad f-strings), syntax errors, and bugbear — minus the rules that are noisy
+# false-positives in this codebase (synchronous lambda capture, zip strict,
+# unused loop vars).
+select = ["F", "E9", "B"]
+ignore = ["B007", "B023", "B905"]

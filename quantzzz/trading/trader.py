@@ -1,0 +1,722 @@
+"""TraderAgent: weight-tracking execution of promoted strategies.
+
+The trader rebalances toward the combined target weights of its fund's
+promoted strategies — making live execution mathematically consistent with how
+the strategies were validated. Intelligence and safety sit as overlays on the
+targets: drawdown halts, vol-aware disaster stops with re-entry cooldown,
+pre-earnings blackouts, the biotech catalyst EV gate, Monte Carlo halt-risk
+throttling, single-name/gross caps, and learned per-strategy weight
+multipliers. Every adjustment is journaled.
+"""
+
+from __future__ import annotations
+
+import json
+import sqlite3
+
+import numpy as np
+import pandas as pd
+
+from ..config import Config
+from ..db import get_conn, insert, utcnow
+from ..data.snapshots import SnapshotStore
+from ..research.strategies import signal_fn_for
+from ..research.strategy_space import StrategySpec
+from .broker import Order, make_broker
+from .journal import DecisionJournal
+from .learning import LearningLoop
+from .risk import RiskManager
+
+# Forward-unverified external promotions trade paper at (at most) this fraction
+# of their learned weight until the live record graduates them. The learning
+# loop flips strategies.forward_verified once forward evidence accrues.
+FORWARD_UNVERIFIED_CAP = 0.5
+
+
+def _forward_verified(row) -> bool:
+    """Default True for rows predating the migration / non-external strategies."""
+    try:
+        v = row["forward_verified"]
+    except (IndexError, KeyError):
+        return True
+    return v is None or bool(v)
+
+
+class TraderAgent:
+    def __init__(self, cfg: Config, fund: str, conn: sqlite3.Connection):
+        self.cfg = cfg
+        self.fund = fund
+        self.conn = conn
+        self.store = SnapshotStore(cfg.snapshot_dir)
+        self.limits = cfg.risk_limits(fund)
+        self.risk = RiskManager(self.limits)
+        self.journal = DecisionJournal(conn, fund)
+        from ..llm import get_llm
+        self.llm = get_llm(cfg)
+        self.learning = LearningLoop(cfg, fund, conn, self.journal, self.llm)
+        self.as_of = None                       # set during historical replay
+        self._stale: set = set()                # delisted/stale tickers this session
+        self._all_prices = self._load_price_frames()
+        self._price_cache = self._closes_as_of(None)
+        self._bundle = self._load_bundle()      # built once, sliced per session
+        self._earnings_dates = self._load_earnings_calendar()
+        self.broker = make_broker(cfg, fund, conn, self._quote)
+
+    @classmethod
+    def build(cls, cfg: Config, fund: str) -> "TraderAgent":
+        return cls(cfg, fund, get_conn(cfg.db_path))
+
+    def _load_bundle(self):
+        from ..research.feature_loader import load_feature_bundle
+        from ..universe import universe_for
+        tickers = universe_for(self.fund, self.cfg.snapshot_dir)
+        return load_feature_bundle(self.cfg, self.fund, tickers, self.store, self.conn)
+
+    # ---- quotes / time ----
+    def _load_price_frames(self) -> dict:
+        frames = {}
+        for t in self.store.available_tickers():
+            df = self.store.load_prices(t)
+            if df is not None and len(df):
+                frames[t] = df["close"]
+        return frames
+
+    def _closes_as_of(self, as_of) -> dict[str, float]:
+        cache = {}
+        for t, series in self._all_prices.items():
+            s = series if as_of is None else series[series.index <= as_of]
+            if len(s):
+                cache[t] = float(s.iloc[-1])
+        return cache
+
+    def _quote(self, ticker: str) -> float | None:
+        return self._price_cache.get(ticker)
+
+    def _mark(self, ticker: str, avg_cost: float) -> float:
+        # honour a genuine 0.0 mark (a wiped-out name); `quote or avg_cost`
+        # would mark a -100% position back at cost and hide the loss from
+        # equity, drawdown, exposure and the stop check
+        q = self._quote(ticker)
+        return q if q is not None else avg_cost
+
+    def _ts(self) -> str:
+        if self.as_of is not None:
+            return pd.Timestamp(self.as_of).isoformat()
+        return utcnow()
+
+    def _source(self) -> str:
+        """Backdated sessions are replayed history, not forward evidence."""
+        return "replay" if self.as_of is not None else "live"
+
+    def _ticker_vol(self, ticker: str) -> float:
+        series = self._all_prices.get(ticker)
+        if series is None or len(series) < 30:
+            return 0.4
+        end = pd.Timestamp(self.as_of) if self.as_of is not None else None
+        s = series if end is None else series[series.index <= end]
+        vol = s.pct_change().tail(60).std() * np.sqrt(252)
+        return float(vol) if vol and vol > 0 else 0.4
+
+    # ---- calendars / gates ----
+    def _load_earnings_calendar(self) -> dict[str, list[pd.Timestamp]]:
+        cal = self.store.load_json("av_earnings_calendar.json") or []
+        out: dict[str, list[pd.Timestamp]] = {}
+        for row in cal:
+            try:
+                out.setdefault(row["ticker"], []).append(pd.Timestamp(row["reportDate"]))
+            except (KeyError, ValueError):
+                continue
+        return out
+
+    def _in_earnings_blackout(self, ticker: str) -> pd.Timestamp | None:
+        now = pd.Timestamp(self.as_of) if self.as_of is not None else pd.Timestamp.today()
+        for d in self._earnings_dates.get(ticker, []):
+            days = (d - now.normalize()).days
+            if 0 <= days <= self.cfg.pre_earnings_blackout_days:
+                return d
+        return None
+
+    def _stop_out_cooldown_tickers(self, cooldown_days: int = 14) -> set[str]:
+        cutoff = (pd.Timestamp(self._ts()) - pd.Timedelta(days=cooldown_days)).isoformat()
+        rows = self.conn.execute(
+            "SELECT DISTINCT ticker FROM trades WHERE fund=? AND exit_reason LIKE 'stop hit%' "
+            "AND exit_ts >= ?", (self.fund, cutoff)).fetchall()
+        return {r["ticker"] for r in rows}
+
+    def _days_to_next_catalyst(self, ticker: str) -> int | None:
+        now = pd.Timestamp(self.as_of) if self.as_of is not None else pd.Timestamp.today()
+        best = None
+        for c in (self._bundle.catalysts or []):
+            if c.get("ticker") != ticker or not c.get("catalyst_date"):
+                continue
+            try:
+                days = (pd.Timestamp(c["catalyst_date"]) - now.normalize()).days
+            except (ValueError, TypeError):
+                continue
+            if days >= 0 and (best is None or days < best):
+                best = days
+        return best
+
+    def _catalyst_ev_blocked(self, ticker: str) -> dict | None:
+        """Block only when about to hold INTO a near catalyst with a negative
+        empirical EV profile. Strategies that exit before events are untouched."""
+        if self.fund not in ("biotech", "biotech_smallcap"):
+            return None
+        days = self._days_to_next_catalyst(ticker)
+        if days is None or days > self.cfg.catalyst_gate_days:
+            return None
+        from ..research.montecarlo import catalyst_scenario_stats
+        hist = (self._bundle.hist_catalysts or {}).get(ticker, [])
+        moves = [float(v) for r in hist
+                 if (v := r.get("open_price_gap_percent")) is not None]
+        if len(moves) < self.cfg.min_catalyst_events:
+            return None     # thin history: pooled EV is positive, allow
+        stats = catalyst_scenario_stats(moves, kelly_cap=self.limits.kelly_cap)
+        if stats and stats["ev"] <= 0:
+            return {**stats, "days_to_catalyst": days}
+        return None
+
+    # ---- target construction ----
+    def _combined_targets(self) -> dict[str, float]:
+        """Equal-capital blend of promoted strategies' latest target weights,
+        scaled by learned per-strategy multipliers."""
+        rows = self.conn.execute(
+            "SELECT id, family, params_json, forward_verified FROM strategies "
+            "WHERE desk=? AND status='promoted'", (self.fund,)).fetchall()
+        bundle = self._bundle
+        if self.as_of is not None:
+            dates = bundle.prices.index[bundle.prices.index <= self.as_of]
+            if len(dates) < 2:
+                return {}
+            bundle = bundle.slice(dates)
+
+        strat_weights: list[tuple[int, pd.Series, float]] = []
+        for r in rows:
+            if not self.learning.is_active(r["id"]):
+                continue
+            try:
+                spec = StrategySpec.from_row(r["family"], self.fund, r["params_json"])
+                w = signal_fn_for(spec.family)(bundle, spec.params)
+            except Exception:
+                continue
+            if w.empty:
+                continue
+            mult = self.learning.current_multiplier(r["id"])
+            # forward-unverified external promotions trade paper at half weight
+            # until the live record confirms them (the learning loop flips the
+            # flag). Position-sizes down the contaminated-discovery tail risk
+            # without keeping the strategy out of the forward record entirely.
+            if not _forward_verified(r):
+                mult = min(mult, FORWARD_UNVERIFIED_CAP)
+            strat_weights.append((r["id"], w.iloc[-1], mult))
+        if not strat_weights:
+            return {}
+
+        n = len(strat_weights)
+        combined: dict[str, float] = {}
+        contributors: dict[str, list[int]] = {}
+        for sid, latest, mult in strat_weights:
+            for ticker, w in latest.items():
+                if w > 1e-6:
+                    combined[ticker] = combined.get(ticker, 0.0) + (w * mult) / n
+                    contributors.setdefault(ticker, []).append(sid)
+        self._contributors = contributors
+        # respect the gross exposure cap
+        gross = sum(combined.values())
+        cap = self.limits.max_gross_exposure
+        if gross > cap:
+            combined = {t: w * cap / gross for t, w in combined.items()}
+        return combined
+
+    def _apply_overlays(self, targets: dict[str, float],
+                        current: dict[str, float], mc_throttle: float) -> dict[str, float]:
+        out: dict[str, float] = {}
+        cooled = self._stop_out_cooldown_tickers()
+        for ticker, w in targets.items():
+            cur = current.get(ticker, 0.0)
+            if self._quote(ticker) is None:
+                continue
+            increasing = w > cur + 1e-9
+            if increasing and ticker in cooled:
+                out[ticker] = cur        # hold, don't add after a stop-out
+                continue
+            if increasing:
+                report = self._in_earnings_blackout(ticker)
+                if report is not None:
+                    self.journal.record(
+                        "skip", ticker=ticker, action="hold",
+                        reasoning=(f"Not adding {ticker}: earnings on "
+                                   f"{report.date()} inside blackout."),
+                        inputs={"target_w": w, "current_w": cur})
+                    out[ticker] = cur
+                    continue
+                blocked = self._catalyst_ev_blocked(ticker)
+                if blocked is not None:
+                    self.journal.record(
+                        "skip", ticker=ticker, action="exit_before_event",
+                        reasoning=(f"Zeroing {ticker}: catalyst in "
+                                   f"{blocked['days_to_catalyst']}d with negative "
+                                   f"empirical EV {blocked['ev']:+.2%} over "
+                                   f"{blocked['n_events']} events "
+                                   f"(q05 {blocked['downside_q05']:+.1%})."),
+                        inputs=blocked)
+                    out[ticker] = 0.0
+                    continue
+                # throttle only the increase, not the holding
+                w = cur + (w - cur) * mc_throttle
+            out[ticker] = min(w, self.limits.max_position_pct)
+        # names we hold but targets dropped entirely
+        for ticker, cur in current.items():
+            if ticker not in out and ticker not in targets:
+                out[ticker] = 0.0
+        return out
+
+    # ---- session ----
+    DELIST_STALE_DAYS = 15
+
+    def _latest_price_date(self):
+        dates = [s.index[-1] for s in self._all_prices.values() if len(s)]
+        return max(dates).date().isoformat() if dates else None
+
+    def _last_session_price_date(self):
+        row = self.conn.execute(
+            "SELECT last_session_price_date FROM fund_state WHERE fund=?", (self.fund,)).fetchone()
+        return row["last_session_price_date"] if row else None
+
+    def _stale_tickers(self) -> set:
+        dates = [s.index[-1] for s in self._all_prices.values() if len(s)]
+        if not dates:
+            return set()
+        cutoff = max(dates) - pd.Timedelta(days=self.DELIST_STALE_DAYS)
+        return {t for t, s in self._all_prices.items() if len(s) and s.index[-1] < cutoff}
+
+    def _close_delisted(self) -> int:
+        """Close positions whose price feed has gone stale (delisted/halted) at
+        their last known price — don't carry a dead name marked at a frozen
+        price forever."""
+        n = 0
+        for pos in self.broker.get_positions():
+            if pos.ticker in self._stale:
+                row = self.conn.execute(
+                    "SELECT strategy_id FROM positions WHERE fund=? AND ticker=?",
+                    (self.fund, pos.ticker)).fetchone()
+                self._close_position(pos.ticker, row["strategy_id"] if row else None,
+                                     "delisted (stale price feed)")
+                n += 1
+        return n
+
+    def session(self, as_of=None) -> str:
+        self.as_of = as_of
+        if as_of is not None:
+            self._price_cache = self._closes_as_of(as_of)
+        else:
+            # live: skip a forward session on days with no new market data
+            # (weekend/holiday) so the live-session count == real trading days
+            latest = self._latest_price_date()
+            if latest is not None and latest == self._last_session_price_date():
+                return (f"[{self.fund}] no new market data since {latest} "
+                        f"(market closed) — forward session skipped")
+        self.broker.session_ts = self._ts()
+        self.broker.session_source = self._source()
+        self.broker.mark_to_market(self._price_cache, ts=self._ts())
+        self._stale = self._stale_tickers()
+        delisted = self._close_delisted()
+        drawdown = self._current_drawdown()
+        state = self._fund_mode()
+
+        state = self._update_risk_mode(state, drawdown)
+        stops = self._process_stops()
+
+        acct = self.broker.get_account()
+        current = self._current_weights(acct.equity)
+        if state == "liquidate_only":
+            targets = {}
+        else:
+            targets = self._combined_targets()
+            if state == "derisk":
+                targets = {t: w * 0.5 for t, w in targets.items()}
+        mc_throttle = self._compute_mc_throttle()
+        raw_targets = dict(targets)
+        targets = self._apply_overlays(targets, current, mc_throttle)
+        self._record_candidates(raw_targets, targets, current)
+        n_trades = self._rebalance(targets, current, acct.equity)
+
+        reviewed = 0
+        if self.learning.unreviewed_count() >= self.cfg.learning_review_every:
+            reviewed = self.learning.review()
+
+        self.broker.mark_to_market(self._price_cache, ts=self._ts())
+        self._mark_shadows()
+        if as_of is None:
+            self.conn.execute("UPDATE fund_state SET last_session_price_date=? WHERE fund=?",
+                              (self._latest_price_date(), self.fund))
+            self.conn.commit()
+        acct = self.broker.get_account()
+        return (f"[{self.fund}] equity ${acct.equity:,.0f} cash ${acct.cash:,.0f} | "
+                f"stops {stops}, delisted {delisted}, rebalance trades {n_trades}, "
+                f"positions {len(self.broker.get_positions())}, reviewed {reviewed}, "
+                f"mode {state}")
+
+    def _mark_shadows(self) -> None:
+        """Mark the shadow book: virtual NAV per pre-registered forward trial.
+
+        Forward-only (replayed sessions never touch shadow records — that
+        would defeat the whole point), one NAV point per market day, same
+        conventions as the backtester: yesterday's target earns today's
+        return, turnover pays the flat cost assumption. Long bleeders are
+        auto-deregistered with a journaled post-mortem — "the gate was
+        right" gets recorded with the same care as a win.
+        """
+        if self.as_of is not None:
+            return
+        rows = self.conn.execute(
+            "SELECT sb.id, sb.registered_ts, sb.last_weights_json, "
+            "       s.family, s.params_json "
+            "FROM shadow_book sb JOIN strategies s ON s.id = sb.strategy_id "
+            "WHERE sb.fund=? AND sb.status='active'", (self.fund,)).fetchall()
+        if not rows:
+            return
+        prices = self._bundle.prices
+        if len(prices) < 2:
+            return
+        day = str(prices.index[-1].date())
+        rets = (prices.iloc[-1] / prices.iloc[-2] - 1).fillna(0.0)
+        from ..research import shadow as SH
+        for r in rows:
+            try:
+                spec = StrategySpec.from_row(r["family"], self.fund, r["params_json"])
+                w = signal_fn_for(spec.family)(self._bundle, spec.params)
+                w_new = w.iloc[-1].fillna(0.0) if not w.empty else pd.Series(dtype=float)
+            except Exception:
+                continue
+            prev = pd.Series(json.loads(r["last_weights_json"] or "{}"), dtype=float)
+            nav_row = self.conn.execute(
+                "SELECT nav FROM shadow_nav WHERE shadow_id=? ORDER BY ts DESC LIMIT 1",
+                (r["id"],)).fetchone()
+            nav = nav_row["nav"] if nav_row else 1.0
+            day_ret = float((prev * rets.reindex(prev.index).fillna(0.0)).sum())
+            union = prev.index.union(w_new.index)
+            turnover = float((w_new.reindex(union).fillna(0.0)
+                              - prev.reindex(union).fillna(0.0)).abs().sum())
+            nav_new = nav * (1 + day_ret - turnover * self.cfg.cost_bps / 1e4)
+            cur = self.conn.execute(
+                "INSERT OR IGNORE INTO shadow_nav (shadow_id, ts, nav) VALUES (?,?,?)",
+                (r["id"], day, nav_new))
+            if not cur.rowcount:
+                continue        # this market day already marked
+            self.conn.execute(
+                "UPDATE shadow_book SET last_weights_json=? WHERE id=?",
+                (json.dumps({k: round(float(v), 6) for k, v in
+                             w_new[w_new != 0].items()}), r["id"]))
+            age_days = (pd.Timestamp(day)
+                        - pd.Timestamp(r["registered_ts"][:10])).days
+            if age_days >= SH.DEREGISTER_AFTER_DAYS and nav_new < SH.DEREGISTER_BELOW_NAV:
+                self.conn.execute(
+                    "UPDATE shadow_book SET status='deregistered' WHERE id=?",
+                    (r["id"],))
+                self.journal.record(
+                    "learning", action="shadow_deregistered",
+                    reasoning=(f"Shadow trial #{r['id']} ({r['family']}) "
+                               f"deregistered: forward NAV {nav_new:.3f} after "
+                               f"{age_days}d — the strict gate's exclusion is "
+                               f"confirmed by forward data."),
+                    ref_table="shadow_book", ref_id=r["id"])
+        self.conn.commit()
+
+    LIQUIDATE_COOLDOWN_DAYS = 3   # circuit breaker: halt persists this long, then resumes
+
+    def _update_risk_mode(self, state: str, drawdown: float) -> str:
+        """Graduated risk response: normal -> derisk (half exposure) ->
+        liquidate_only (catastrophe). A de-risked fund keeps participating so a
+        drawdown can heal. A LIQUIDATED fund is all-cash, so its drawdown is
+        frozen and cannot heal via equity — it recovers on a COOLDOWN instead:
+        the halt persists (a real circuit breaker, not an instant self-clear),
+        then books the loss (resets the high-water mark to current equity) and
+        resumes, so it is never a permanent trap."""
+        halt = self.limits.drawdown_halt_pct
+        derisk = self.limits.drawdown_derisk_pct
+        new_state = state
+        if state == "liquidate_only":
+            if self._halt_cooldown_elapsed():
+                self._reset_hwm_to_equity()      # book the loss, restart tracking
+                new_state = "normal"
+        elif drawdown <= -halt:
+            new_state = "liquidate_only"
+        elif drawdown <= -derisk:
+            new_state = "derisk"
+        elif drawdown > -derisk * 0.5:
+            new_state = "normal"
+        if new_state != state:
+            self._set_mode(new_state)
+            self.journal.record("halt", reasoning=(
+                f"Drawdown {drawdown:.1%}: risk mode {state} -> {new_state} "
+                f"(derisk at {-derisk:.0%}, liquidate at {-halt:.0%})."))
+        return new_state
+
+    def _halt_cooldown_elapsed(self) -> bool:
+        row = self.conn.execute(
+            "SELECT halted_since FROM fund_state WHERE fund=?", (self.fund,)).fetchone()
+        if not row or not row["halted_since"]:
+            return True
+        try:
+            since = pd.Timestamp(row["halted_since"])
+            return (pd.Timestamp(self._ts()) - since) >= pd.Timedelta(days=self.LIQUIDATE_COOLDOWN_DAYS)
+        except (ValueError, TypeError):
+            return True
+
+    def _reset_hwm_to_equity(self) -> None:
+        eq = self.broker.get_account().equity
+        self.conn.execute("UPDATE fund_state SET hwm=? WHERE fund=?", (eq, self.fund))
+        self.conn.commit()
+
+    # ---- stops (disaster brake; cooldown prevents instant re-entry) ----
+    def _session_low(self, ticker: str) -> float | None:
+        """Latest session's intraday low, when OHLC snapshots carry it."""
+        df = self.store.load_prices(ticker)
+        if df is None or "low" not in df.columns or not len(df):
+            return None
+        s = df["low"] if self.as_of is None else df.loc[df.index <= self.as_of, "low"]
+        if not len(s):
+            return None
+        v = s.iloc[-1]
+        return float(v) if pd.notna(v) else None
+
+    def _process_stops(self) -> int:
+        count = 0
+        for pos in self.broker.get_positions():
+            row = self.conn.execute(
+                "SELECT stop_px, avg_cost, strategy_id FROM positions WHERE fund=? AND ticker=?",
+                (self.fund, pos.ticker)).fetchone()
+            px = self._mark(pos.ticker, pos.avg_cost)
+            if not row["stop_px"]:
+                continue
+            # close-only triggering misses intraday stop-outs (a name that
+            # crashed through the stop and recovered by the close) — an
+            # optimistic bias. Trigger on the session low when available.
+            low = self._session_low(pos.ticker)
+            breached = px <= row["stop_px"] or (low is not None and low <= row["stop_px"])
+            if breached:
+                self._close_position(pos.ticker, row["strategy_id"],
+                                     f"stop hit (px {px:.2f}, low "
+                                     f"{low if low is not None else px:.2f} <= "
+                                     f"{row['stop_px']:.2f})")
+                count += 1
+        return count
+
+    def _close_position(self, ticker: str, strategy_id, reason: str) -> None:
+        pos = self.conn.execute(
+            "SELECT qty, avg_cost FROM positions WHERE fund=? AND ticker=?",
+            (self.fund, ticker)).fetchone()
+        if pos is None:
+            return
+        jid = self.journal.record("exit", ticker=ticker, action="sell",
+                                  reasoning=f"Closing {ticker}: {reason}.",
+                                  inputs={"reason": reason})
+        fill = self.broker.submit_order(Order(self.fund, ticker, "sell", pos["qty"],
+                                              strategy_id=strategy_id, journal_id=jid))
+        if fill:
+            self._realize_sell(ticker, fill.qty, fill.price, reason)
+
+    # ---- rebalancing ----
+    def _current_weights(self, equity: float) -> dict[str, float]:
+        if equity <= 0:
+            return {}
+        out = {}
+        for p in self.broker.get_positions():
+            px = self._mark(p.ticker, p.avg_cost)
+            out[p.ticker] = p.qty * px / equity
+        return out
+
+    def _rebalance(self, targets: dict[str, float], current: dict[str, float],
+                   equity: float) -> int:
+        deltas = []
+        for ticker in set(targets) | set(current):
+            d = targets.get(ticker, 0.0) - current.get(ticker, 0.0)
+            if abs(d) >= self.cfg.min_rebalance_weight:
+                deltas.append((ticker, d))
+        # sells first to free cash
+        deltas.sort(key=lambda x: x[1])
+        n = 0
+        for ticker, d in deltas:
+            px = self._quote(ticker)
+            if px is None or px <= 0:
+                continue
+            if d > 0 and ticker in getattr(self, "_stale", set()):
+                continue                       # never re-enter a delisted/stale name
+            qty = float(int(abs(d) * equity / px))
+            if qty < 1:
+                continue
+            sid = (self._contributors.get(ticker) or [None])[0] \
+                if hasattr(self, "_contributors") else None
+            if d < 0:
+                held = self.conn.execute(
+                    "SELECT qty, avg_cost, strategy_id FROM positions WHERE fund=? AND ticker=?",
+                    (self.fund, ticker)).fetchone()
+                if held is None:
+                    continue
+                qty = min(qty, held["qty"])
+                full_close = targets.get(ticker, 0.0) < self.cfg.min_rebalance_weight
+                if full_close:
+                    qty = held["qty"]
+                jid = self.journal.record(
+                    "exit" if full_close else "resize", ticker=ticker, action="sell",
+                    reasoning=(f"Rebalance {ticker}: weight "
+                               f"{current.get(ticker, 0):.1%} -> {targets.get(ticker, 0):.1%} "
+                               f"per strategy targets."),
+                    inputs={"target_w": targets.get(ticker, 0), "current_w": current.get(ticker, 0)})
+                fill = self.broker.submit_order(Order(self.fund, ticker, "sell", qty,
+                                                      strategy_id=held["strategy_id"],
+                                                      journal_id=jid))
+                if fill:
+                    n += 1
+                    self._realize_sell(ticker, fill.qty, fill.price,
+                                       "rebalance: target weight zero" if full_close
+                                       else "rebalance: trim")
+            else:
+                opening = ticker not in current or current.get(ticker, 0.0) == 0.0
+                jid = self.journal.record(
+                    "entry" if opening else "resize", ticker=ticker, action="buy",
+                    reasoning=(f"Rebalance {ticker}: weight "
+                               f"{current.get(ticker, 0):.1%} -> {targets[ticker]:.1%} "
+                               f"(strategies {self._contributors.get(ticker, [])}, "
+                               f"vol {self._ticker_vol(ticker):.0%})."),
+                    inputs={"target_w": targets[ticker],
+                            "current_w": current.get(ticker, 0)})
+                fill = self.broker.submit_order(Order(self.fund, ticker, "buy", qty,
+                                                      strategy_id=sid, journal_id=jid))
+                if fill:
+                    n += 1
+                    if opening:
+                        self.conn.execute(
+                            "UPDATE positions SET stop_px=? WHERE fund=? AND ticker=?",
+                            (self.risk.stop_price(fill.price, self._ticker_vol(ticker)),
+                             self.fund, ticker))
+                    self._record_buy(ticker, sid)
+        return n
+
+    def _record_candidates(self, raw: dict[str, float], final: dict[str, float],
+                           current: dict[str, float]) -> None:
+        """Persist this session's target book so the dashboards show what the
+        strategies wanted vs what the overlays allowed."""
+        for ticker, w in sorted(raw.items(), key=lambda x: -x[1]):
+            if w < self.cfg.min_rebalance_weight and ticker not in current:
+                continue
+            allowed = final.get(ticker, 0.0)
+            status = "taken" if allowed >= self.cfg.min_rebalance_weight else "rejected"
+            sid = (self._contributors.get(ticker) or [0])[0] \
+                if hasattr(self, "_contributors") else 0
+            insert(self.conn, "candidates", fund=self.fund, ts=self._ts(),
+                   strategy_id=sid, ticker=ticker, direction="long",
+                   strength=round(w, 4), target_weight=round(allowed, 4),
+                   status=status)
+        self.conn.commit()
+
+    # ---- risk / MC ----
+    def _compute_mc_throttle(self) -> float:
+        from ..research.montecarlo import drawdown_halt_probability
+        positions = self.broker.get_positions()
+        if not positions:
+            return 1.0
+        acct = self.broker.get_account()
+        if acct.equity <= 0:
+            return 1.0
+        end = pd.Timestamp(self.as_of) if self.as_of is not None else None
+        parts = []
+        for p in positions:
+            series = self._all_prices.get(p.ticker)
+            if series is None:
+                continue
+            s = series if end is None else series[series.index <= end]
+            w = (p.qty * self._mark(p.ticker, p.avg_cost)) / acct.equity
+            parts.append(s.pct_change().tail(252) * w)
+        if not parts:
+            return 1.0
+        port_rets = pd.concat(parts, axis=1).sum(axis=1, skipna=True).dropna()
+        halt_p = drawdown_halt_probability(
+            port_rets, halt_pct=self.limits.drawdown_halt_pct,
+            horizon_days=self.cfg.mc_horizon_days)
+        if halt_p is None or halt_p <= self.cfg.max_halt_probability:
+            return 1.0
+        throttle = max(0.25, self.cfg.max_halt_probability / halt_p)
+        self.journal.record(
+            "resize", action="mc_throttle",
+            reasoning=(f"Monte Carlo: P(hit {self.limits.drawdown_halt_pct:.0%} halt "
+                       f"within {self.cfg.mc_horizon_days}d) = {halt_p:.1%}; "
+                       f"new exposure scaled to {throttle:.0%}."),
+            inputs={"halt_probability": halt_p, "throttle": throttle})
+        return throttle
+
+    # ---- state helpers ----
+    def _current_drawdown(self) -> float:
+        row = self.conn.execute(
+            "SELECT drawdown FROM equity_snapshots WHERE fund=? AND source='live' "
+            "ORDER BY id DESC LIMIT 1",
+            (self.fund,)).fetchone()
+        return row["drawdown"] if row else 0.0
+
+    def _fund_mode(self) -> str:
+        row = self.conn.execute(
+            "SELECT mode FROM fund_state WHERE fund=?", (self.fund,)).fetchone()
+        return row["mode"] if row else "normal"
+
+    def _set_mode(self, mode: str) -> None:
+        # halted_since on the SESSION clock (utcnow live / as_of replay) so the
+        # liquidation cooldown measures correctly in both
+        self.conn.execute("UPDATE fund_state SET mode=?, halted_since=? WHERE fund=?",
+                          (mode, self._ts(), self.fund))
+        self.conn.commit()
+
+    def _open_trade_row(self, ticker):
+        return self.conn.execute(
+            "SELECT id, qty, entry_px, entry_ts, strategy_id FROM trades "
+            "WHERE fund=? AND ticker=? AND exit_ts IS NULL ORDER BY id DESC LIMIT 1",
+            (self.fund, ticker)).fetchone()
+
+    def _record_buy(self, ticker: str, strategy_id) -> None:
+        """Keep ONE open lot-row per position, mirroring its qty + average cost,
+        so a scale-in doesn't leave the trade row's quantity stale."""
+        pos = self.conn.execute(
+            "SELECT qty, avg_cost FROM positions WHERE fund=? AND ticker=?",
+            (self.fund, ticker)).fetchone()
+        if pos is None:
+            return
+        row = self._open_trade_row(ticker)
+        if row is None:
+            insert(self.conn, "trades", fund=self.fund, strategy_id=strategy_id,
+                   ticker=ticker, entry_ts=self._ts(), entry_px=pos["avg_cost"],
+                   qty=pos["qty"], source=self._source())
+        else:
+            self.conn.execute("UPDATE trades SET qty=?, entry_px=? WHERE id=?",
+                              (pos["qty"], pos["avg_cost"], row["id"]))
+        self.conn.commit()
+
+    def _realize_sell(self, ticker: str, sold_qty: float, exit_px: float, reason: str) -> None:
+        """Book realized P&L on EVERY sell — partial trims included — against the
+        position's average cost, attributed to the lot-row's strategy. Unrecorded
+        partial exits previously biased the learning loop's hit-rate/payoff (the
+        stats that promote, retire and graduate strategies)."""
+        row = self._open_trade_row(ticker)
+        if row is not None:
+            entry_px, entry_ts, sid, open_qty = (row["entry_px"], row["entry_ts"],
+                                                 row["strategy_id"], row["qty"])
+        else:
+            p = self.conn.execute("SELECT avg_cost FROM positions WHERE fund=? AND ticker=?",
+                                  (self.fund, ticker)).fetchone()
+            entry_px = (p["avg_cost"] if p else exit_px) or exit_px
+            entry_ts, sid, open_qty = self._ts(), None, sold_qty
+        pnl = (exit_px - entry_px) * sold_qty
+        pnl_pct = (exit_px / entry_px - 1) if entry_px else 0.0
+        if row is not None and open_qty <= sold_qty + 1e-6:
+            self.conn.execute(
+                "UPDATE trades SET exit_ts=?, exit_px=?, qty=?, pnl=?, pnl_pct=?, "
+                "exit_reason=? WHERE id=?",
+                (self._ts(), exit_px, sold_qty, pnl, pnl_pct, reason, row["id"]))
+        else:
+            insert(self.conn, "trades", fund=self.fund, strategy_id=sid, ticker=ticker,
+                   entry_ts=entry_ts, entry_px=entry_px, qty=sold_qty, exit_ts=self._ts(),
+                   exit_px=exit_px, pnl=pnl, pnl_pct=pnl_pct, exit_reason=reason,
+                   source=self._source())
+            if row is not None:
+                self.conn.execute("UPDATE trades SET qty=qty-? WHERE id=?",
+                                  (sold_qty, row["id"]))
+        self.conn.commit()

@@ -1,0 +1,43 @@
+From e5053dce204554afbf603c70b9aa8dd71cba85c6 Mon Sep 17 00:00:00 2001
+From: audit <noreply@anthropic.com>
+Date: Fri, 3 Jul 2026 15:50:11 +0000
+Subject: [PATCH] fix(legacy/x402-fetch): reject non-bigint maxValue to prevent
+ silent cap bypass
+
+Passing maxValue as an object (common untyped-JS mistake) was accepted and
+made `amount > maxValue` always false, disabling the spend cap and the
+0.10 USDC default. Throw at wrap time instead.
+---
+ .../packages/legacy/x402-fetch/src/index.ts      | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+diff --git a/typescript/packages/legacy/x402-fetch/src/index.ts b/typescript/packages/legacy/x402-fetch/src/index.ts
+index 8ed5dfb..c76f7ee 100644
+--- a/typescript/packages/legacy/x402-fetch/src/index.ts
++++ b/typescript/packages/legacy/x402-fetch/src/index.ts
+@@ -59,6 +59,22 @@ export function wrapFetchWithPayment(
+   paymentRequirementsSelector: PaymentRequirementsSelector = selectPaymentRequirements,
+   config?: X402Config,
+ ) {
++  // Guard against a silent spend-cap bypass: `maxValue` is a positional
++  // `bigint` (base units). In untyped (JS) callers, passing an options object
++  // — e.g. `wrapFetchWithPayment(fetch, wallet, { maxValue: 1_000_000n })` — is
++  // accepted at runtime, and the later `amount > maxValue` comparison becomes
++  // `bigint > object`, which is always false. That disables BOTH the intended
++  // cap and this function's 0.1 USDC default, allowing an unbounded charge.
++  // Fail loud instead of silently paying any amount.
++  if (typeof maxValue !== "bigint") {
++    throw new Error(
++      "wrapFetchWithPayment: `maxValue` must be a bigint in base units " +
++        "(e.g. 1_000_000n for 1 USDC). Received " +
++        typeof maxValue +
++        "; a non-bigint value would silently disable the spend cap.",
++    );
++  }
++
+   return async (input: RequestInfo, init?: RequestInit) => {
+     const response = await fetch(input, init);
+ 
+-- 
+2.43.0
+

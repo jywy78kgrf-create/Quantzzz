@@ -1,0 +1,9 @@
+{
+  "name": "x402-audit-paid-probe",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "viem": "^2.21.0",
+    "x402-fetch": "1.2.0"
+  }
+}

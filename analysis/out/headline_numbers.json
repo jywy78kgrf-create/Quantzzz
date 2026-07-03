@@ -1,0 +1,69 @@
+{
+  "generated": "2026-07-03T07:03:31.916822+00:00",
+  "total_sellers": 163417,
+  "buckets": {
+    "GHOST": {
+      "sellers": 112694,
+      "share_sellers": 0.6896,
+      "tx": 180861,
+      "volume_base_units": 718481025738.0,
+      "share_volume": 0.0138
+    },
+    "TEST_RIG": {
+      "sellers": 41371,
+      "share_sellers": 0.2532,
+      "tx": 47279084,
+      "volume_base_units": 27550560065538.0,
+      "share_volume": 0.5308
+    },
+    "DORMANT": {
+      "sellers": 4707,
+      "share_sellers": 0.0288,
+      "tx": 9051568,
+      "volume_base_units": 5143295082426.0,
+      "share_volume": 0.0991
+    },
+    "LOW_ACTIVITY": {
+      "sellers": 3416,
+      "share_sellers": 0.0209,
+      "tx": 805776,
+      "volume_base_units": 332255760570.0,
+      "share_volume": 0.0064
+    },
+    "ACTIVE_LEGITIMATE": {
+      "sellers": 948,
+      "share_sellers": 0.0058,
+      "tx": 86656860,
+      "volume_base_units": 11231812468400.0,
+      "share_volume": 0.2164
+    },
+    "DUPLICATE": {
+      "sellers": 219,
+      "share_sellers": 0.0013,
+      "tx": 5392881,
+      "volume_base_units": 264468749299.0,
+      "share_volume": 0.0051
+    },
+    "MEMECOIN": {
+      "sellers": 62,
+      "share_sellers": 0.0004,
+      "tx": 36816690,
+      "volume_base_units": 6660347249478.0,
+      "share_volume": 0.1283
+    }
+  },
+  "headline_pair": {
+    "active_legitimate_seller_share": 0.0058,
+    "active_legitimate_volume_share": 0.2164
+  },
+  "liveness_headline": {
+    "valid_x402_rate_all_probed": 0.2693,
+    "valid_x402_rate_bazaar_resources": 0.3971
+  },
+  "bazaar_collapse": {
+    "listings": 22954,
+    "unique_paytos": 1062,
+    "paytos_with_zero_indexed_tx": 271,
+    "zero_tx_share": 0.2552
+  }
+}

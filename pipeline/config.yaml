@@ -102,10 +102,15 @@ deep_pull:
 # ---------------------------------------------------------------------------
 liveness:
   max_resources_per_origin: 10       # deterministic pick (sorted) per origin
-  min_interval_seconds: 1.0          # global probe rate cap
-  per_host_min_interval_seconds: 5.0
+  min_interval_seconds: 0.25         # global probe rate cap (across hosts)
+  per_host_min_interval_seconds: 5.0 # per-host courtesy interval
   timeout_seconds: 15
   concurrency: 8
+  max_body_bytes: 262144
+  # If GET returns 404/405 and the Bazaar listing declares a POST route,
+  # retry once as POST with an empty JSON body — still unpaid, so an
+  # x402-compliant server answers 402 before any handler logic runs.
+  post_fallback: true
 
 # ---------------------------------------------------------------------------
 # DELTA 2b — on-chain spot audit

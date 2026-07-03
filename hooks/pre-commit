@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# Phase 2.5 wallet safety: block any commit whose staged content matches a
+# private-key pattern. Install with:  git config core.hooksPath hooks
+set -euo pipefail
+
+# 64-hex private keys (EVM), optionally 0x-prefixed; and explicit env var name.
+PATTERNS='(0x)?[0-9a-fA-F]{64}|X402_AUDIT_WALLET_KEY[[:space:]]*='
+
+# Allowlist: on-chain tx hashes and block hashes in committed data are also
+# 64-hex; only scan text files outside data/ (raw data contains tx hashes,
+# which are public, not secrets).
+files=$(git diff --cached --name-only --diff-filter=ACM | grep -v '^data/' || true)
+[ -z "$files" ] && exit 0
+
+fail=0
+for f in $files; do
+  if git show ":$f" | grep -qE "$PATTERNS"; then
+    # tolerate known non-secret 64-hex (tx/block hashes) only in data/;
+    # everywhere else, a 64-hex string is treated as a potential key.
+    echo "BLOCKED: $f matches private-key pattern (64-hex or wallet env var)." >&2
+    fail=1
+  fi
+done
+if [ "$fail" -ne 0 ]; then
+  echo "Commit aborted by hooks/pre-commit (wallet-safety scan)." >&2
+  exit 1
+fi
+exit 0

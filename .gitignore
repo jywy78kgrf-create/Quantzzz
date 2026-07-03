@@ -20,3 +20,8 @@ data/*.backup
 
 # macOS Finder clutter
 .DS_Store
+
+# x402 audit — wallet safety (Phase 2.5): never commit key material
+*.pem
+*wallet*key*
+.x402-wallet*

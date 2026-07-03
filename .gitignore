@@ -25,3 +25,8 @@ data/*.backup
 *.pem
 *wallet*key*
 .x402-wallet*
+
+# indexer runtime state (regenerated; real history accrues on durable infra)
+data/indexer/*.sqlite
+data/indexer/*.sqlite-*
+data/indexer/snapshots/

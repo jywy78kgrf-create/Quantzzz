@@ -1,0 +1,56 @@
+# Durable daily x402 settlement snapshot (zero-infra option).
+#
+# Runs the independent Base indexer on GitHub's schedule and commits each day's
+# immutable seller snapshot back to the repo, so the time-series history accrues
+# in git itself. State (the SQLite substrate) is persisted between runs via a
+# committed gzip; the block-completion ledger + gap-abort make a lost/mismatched
+# state safe (it re-seeds and flags gaps rather than silently corrupting).
+#
+# NOTE: not enabled until you add it on your default branch and allow Actions to
+# push. For a high-frequency / multi-year moat, a small always-on box running
+# `cron` on a persistent disk is simpler and cheaper than committing state — see
+# indexer/README.md. This workflow is the no-infra bootstrap.
+
+name: daily-x402-index
+on:
+  schedule:
+    - cron: "17 2 * * *"      # 02:17 UTC daily (offset off the hour)
+  workflow_dispatch: {}         # manual trigger
+
+permissions:
+  contents: write               # to commit snapshots + state
+
+concurrency:
+  group: daily-x402-index       # never overlap two runs
+  cancel-in-progress: false
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Restore indexer DB state (if present)
+        run: |
+          if [ -f data/indexer/state/base_settlements.sqlite.gz ]; then
+            gunzip -kf data/indexer/state/base_settlements.sqlite.gz
+            mv -f data/indexer/state/base_settlements.sqlite data/indexer/base_settlements.sqlite
+          fi
+      - name: Index to tip + write immutable daily snapshot
+        run: python indexer/daily_snapshot.py
+      - name: Persist DB state (gzip) for the next run
+        run: |
+          mkdir -p data/indexer/state
+          gzip -cf data/indexer/base_settlements.sqlite > data/indexer/state/base_settlements.sqlite.gz
+      - name: Commit snapshot + state
+        run: |
+          git config user.name  "x402-index-bot"
+          git config user.email "x402-index-bot@users.noreply.github.com"
+          # force past .gitignore (which excludes these in the dev container;
+          # in CI they ARE the durable committed history)
+          git add -f data/indexer/snapshots/ data/indexer/state/ || true
+          git commit -m "index: daily snapshot $(date -u +%F)" || echo "nothing to commit"
+          git push

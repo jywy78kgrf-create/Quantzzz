@@ -201,21 +201,31 @@ def test_external_families_blocked_without_forward_evidence(tmp_path, monkeypatc
     assert not ok and "forward days" in why    # blocked despite DSR 1.0
 
 
-def test_effective_trials_never_loosens_below_sqrt():
-    """Measured correlation can tighten but never relax the noise floor."""
+def test_effective_trials_capped_and_gaming_neutralized():
+    """Correlation may tighten but never relax the floor, and the fixed cap makes
+    correlation-gaming irrelevant at high trial counts (the floor plateaus)."""
     import pandas as pd
     from quantzzz.research.loop import ResearchDesk
-    desk = ResearchDesk.__new__(ResearchDesk)
-    desk.desk = "biotech"
+    cap = ResearchDesk.MAX_EFFECTIVE_TRIALS
 
-    class _Conn:
-        def execute(self, *a):
-            class R:
-                def fetchone(self_):
-                    return {"c": 10000}
-            return R()
-    desk.conn = _Conn()
-    # heavily correlated sample (rho high) must NOT drop N_eff below sqrt(N)=100
+    def _desk(n, sample):
+        d = ResearchDesk.__new__(ResearchDesk)
+        d.desk = "biotech"
+
+        class _Conn:
+            def execute(self, *a):
+                class R:
+                    def fetchone(self_):
+                        return {"c": n}
+                return R()
+        d.conn = _Conn()
+        d._oos_sample = sample
+        return d
+
     base = pd.Series(range(200), dtype=float)
-    desk._oos_sample = [base + i * 1e-6 for i in range(8)]   # near-identical
-    assert desk._effective_trials() >= 100
+    gamed = [base + i * 1e-6 for i in range(8)]     # near-identical (rho -> 1)
+    # large N: capped regardless of correlation; gaming cannot drop below the cap
+    assert _desk(10_000, gamed)._effective_trials() == cap
+    assert _desk(10_000, [])._effective_trials() == cap
+    # small N: cap doesn't bind, the sqrt(N) floor still governs
+    assert _desk(400, [])._effective_trials() == 20

@@ -301,8 +301,19 @@ class ResearchDesk:
         return out
 
     # ---- evaluation ----
+    # The deflated-Sharpe noise floor grows with the trial count; left unbounded
+    # (sqrt(N) with N -> tens of thousands) it demands an OOS Sharpe near 2.0 and
+    # the search freezes — no new edge, however real, can promote. But past a few
+    # thousand backtests the marginal trial is a correlated re-sample of a handful
+    # of families, not a genuinely new independent bet, so the count of INDEPENDENT
+    # trials saturates. Cap effective trials so the floor plateaus (~OOS Sharpe 1.7
+    # at cap 50 over a 1yr+ OOS) instead of inflating forever. Redundancy is still
+    # caught by the correlation-rejection gate, so this only ever helps a genuinely
+    # new, uncorrelated family clear the bar — exactly what we want.
+    MAX_EFFECTIVE_TRIALS = 50
+
     def _effective_trials(self) -> int:
-        """Correlation-adjusted trial count for the deflated Sharpe.
+        """Correlation-adjusted, capped trial count for the deflated Sharpe.
 
         Evolutionary candidates are heavily correlated (mutations of the same
         parents), so raw iteration count overstates the search breadth. We
@@ -310,13 +321,16 @@ class ResearchDesk:
         OOS return streams and interpolate N_eff = N**(1-rho): rho=0 keeps
         every trial, rho=0.5 reproduces the old sqrt haircut, rho->1 collapses
         the search to a single effective bet. Falls back to sqrt(N) until
-        enough return streams have been sampled this run.
+        enough return streams have been sampled this run, and is capped at
+        MAX_EFFECTIVE_TRIALS so the noise floor plateaus rather than rising
+        without bound as the backtest count accumulates.
         """
         row = self.conn.execute(
             "SELECT COUNT(*) c FROM research_iterations WHERE desk=? AND n_trades IS NOT NULL",
             (self.desk,)).fetchone()
         n = max(1, row["c"] or 0)
         sample = getattr(self, "_oos_sample", [])
+        neff = max(1, int(round(n ** 0.5)))
         if len(sample) >= 6:
             cors = []
             for i in range(len(sample)):
@@ -334,9 +348,9 @@ class ResearchDesk:
                 # in-sample correlation is gameable: near-identical candidates
                 # collapse N_eff and silently relax the gate (this exact bug let
                 # a contaminated external family promote). Take the larger count.
-                return max(max(1, int(round(n ** 0.5))),
-                           max(1, int(round(n ** (1 - rho)))))
-        return max(1, int(round(n ** 0.5)))
+                neff = max(neff, max(1, int(round(n ** (1 - rho)))))
+        # cap: a FIXED ceiling (not correlation-derived, so it isn't gameable)
+        return min(self.MAX_EFFECTIVE_TRIALS, neff)
 
     # External-signal families only have data from ~2018 (options) / 2019
     # (insider). Judged on the full 2004+ panel they hold nothing in-sample and

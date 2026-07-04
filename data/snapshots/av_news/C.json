@@ -416,6 +416,11 @@
  },
  {
   "date": "2026-07-01",
+  "sentiment": 0.123469,
+  "relevance": 0.635374
+ },
+ {
+  "date": "2026-07-01",
   "sentiment": 0.129342,
   "relevance": 0.527903
  },
@@ -1421,12 +1426,12 @@
  },
  {
   "date": "2026-06-24",
-  "sentiment": 0.133858,
+  "sentiment": -0.323182,
   "relevance": 1.0
  },
  {
   "date": "2026-06-24",
-  "sentiment": -0.323182,
+  "sentiment": 0.133858,
   "relevance": 1.0
  },
  {
@@ -2201,12 +2206,12 @@
  },
  {
   "date": "2026-06-18",
-  "sentiment": 0.141214,
+  "sentiment": 0.007726,
   "relevance": 1.0
  },
  {
   "date": "2026-06-18",
-  "sentiment": 0.007726,
+  "sentiment": 0.141214,
   "relevance": 1.0
  },
  {
@@ -2491,13 +2496,13 @@
  },
  {
   "date": "2026-06-17",
-  "sentiment": 0.015296,
-  "relevance": 0.323045
+  "sentiment": 0.006725,
+  "relevance": 1.0
  },
  {
   "date": "2026-06-17",
-  "sentiment": 0.006725,
-  "relevance": 1.0
+  "sentiment": 0.015296,
+  "relevance": 0.323045
  },
  {
   "date": "2026-06-17",
@@ -3021,12 +3026,12 @@
  },
  {
   "date": "2026-06-13",
-  "sentiment": 0.111381,
+  "sentiment": 0.011701,
   "relevance": 1.0
  },
  {
   "date": "2026-06-13",
-  "sentiment": 0.011701,
+  "sentiment": 0.111381,
   "relevance": 1.0
  },
  {
@@ -4993,10 +4998,5 @@
   "date": "2026-06-01",
   "sentiment": 0.408349,
   "relevance": 1.0
- },
- {
-  "date": "2026-06-01",
-  "sentiment": 0.01205,
-  "relevance": 0.631404
  }
 ]

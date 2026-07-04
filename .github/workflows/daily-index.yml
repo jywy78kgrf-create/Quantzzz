@@ -37,9 +37,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
@@ -58,6 +58,9 @@ jobs:
       - name: Index to tip + write immutable daily snapshot
         env:
           X402_SOLANA_RPC: ${{ secrets.X402_SOLANA_RPC }}
+          # Optional keyed Base RPC (Alchemy/QuickNode free tier). If unset the
+          # indexer falls back to the public endpoint — correct, just slow.
+          X402_BASE_RPC: ${{ secrets.X402_BASE_RPC }}
         run: python indexer/daily_snapshot.py
 
       - name: Commit immutable dated snapshot

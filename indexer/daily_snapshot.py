@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -73,7 +74,12 @@ def write_seller_snapshot(store: Store, snapshot_date: str, head: int) -> Path:
 
 def main() -> None:
     store = Store(DB_PATH)
-    client = ChainClient("https://mainnet.base.org")
+    # Keyed RPC (Alchemy/QuickNode free tier) handles the large USDC getLogs in
+    # one shot instead of the public endpoint's split-and-crawl (~28min -> ~2min
+    # per run, and far more reliable). Falls back to public if the secret is
+    # unset, so the job still runs without it — just slowly.
+    client = ChainClient(os.environ.get("X402_BASE_RPC",
+                                         "https://mainnet.base.org"))
     head = client.block_number()
     end = head - CONFIRMATIONS
     # Bootstrap forward from launch on a fresh DB — never anchor to history

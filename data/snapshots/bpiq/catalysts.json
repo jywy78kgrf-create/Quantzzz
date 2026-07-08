@@ -136,6 +136,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 13675,
+  "company": {
+   "ticker": "VCNX",
+   "name": "Vaccinex ",
+   "last_price": "1.00",
+   "market_cap": 2676637
+  },
+  "ticker": "VCNX",
+  "drug_name": "Pepinemab",
+  "indications": [
+   {
+    "id": 1311,
+    "title": "Alzheimer's disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alzheimer's disease",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "SIGNAL-AD trial. 6/6/24- Completed last patient visit. 7/31/24- Topline data at Alzheimer\u2019s Association International Conference. 8/14/24- Announced new findings & plans to pursue development partnership. 10/31/24- Provided update on clinical findings at CTAD. 04/29/26:- Initiating new Ph2b Alzheimer's study of pepinemab; enrollment underway, no timing on data or completion. PR No update. 07/08/26:- Biomarker data from Ph1b/2 SIGNAL-AD presented at AAIC on July 13, 2026.",
+  "catalyst_date": "2026-07-13",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/08/3324070/34858/en/vaccinex-to-report-new-biomarker-data-and-plans-for-phase-2b-clinical-trial-of-pepinemab-in-ad-at-the-alzheimer-s-association-international-conference-in-london-on-july-13-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 13883,
   "company": {
    "ticker": "LGVN",
@@ -340,11 +374,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 18798,
+  "company": {
+   "ticker": "ACIU",
+   "name": "AC Immune SA",
+   "last_price": "2.53",
+   "market_cap": 258504880
+  },
+  "ticker": "ACIU",
+  "drug_name": "ACI-19626 (TDP-43-PET tracer)",
+  "indications": [
+   {
+    "id": 1245,
+    "title": "Frontotemporal dementia",
+    "nickname": "FTD"
+   }
+  ],
+  "indications_text": "Frontotemporal dementia",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "01/25- Trial initiated. 4/30/25- Initial Ph1 readout in H2 2025 11/04/25:- Initial Ph1 TDP-43-PET readout in genetic FTD expected Q4 2025. 03/05/26:- Oral AD/PD 2026 presentation of initial clinical evaluation scheduled March 19, 2026. 03/13/26:- First-in-class TDP-43 PET tracers including ACI-19626 described in Nature Communications, supporting diagnostic program. 04/30/26:- Presented initial Ph1 ACI-19626 PET data at AD/PD 2026, showing specific TDP-43 pathology imaging in FTD. 05/22/26:- Preliminary Phase 1 ACI-19626 data show higher uptake in ALS; Part 2 expansion started (NCT06891716). 07/07/26:- AAIC 2026 oral talk July 15 will present initial [18F]ACI-19626 clinical evaluation data.",
+  "catalyst_date": "2026-07-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/07/3323050/0/en/ac-immune-to-showcase-neurodegenerative-disease-pipeline-with-three-presentations-at-aaic-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19127,
   "company": {
    "ticker": "CELC",
    "name": "Celcuity",
-   "last_price": "110.47",
+   "last_price": "110.28",
    "market_cap": 5643234816
   },
   "ticker": "CELC",
@@ -714,7 +782,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "26.72",
+   "last_price": "26.10",
    "market_cap": 1965895680
   },
   "ticker": "ZYME",
@@ -1016,7 +1084,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "10.81",
+   "last_price": "10.57",
    "market_cap": 227762592
   },
   "ticker": "KPTI",
@@ -1547,7 +1615,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "7.69",
+   "last_price": "7.17",
    "market_cap": 2348336896
   },
   "ticker": "ABCL",
@@ -1581,7 +1649,7 @@
   "company": {
    "ticker": "SION",
    "name": "Sionna Therapeutics",
-   "last_price": "46.69",
+   "last_price": "44.12",
    "market_cap": 2028604288
   },
   "ticker": "SION",
@@ -1683,7 +1751,7 @@
   "company": {
    "ticker": "AVBP",
    "name": "ArriVent",
-   "last_price": "33.32",
+   "last_price": "32.99",
    "market_cap": 1591931008
   },
   "ticker": "AVBP",
@@ -2389,7 +2457,7 @@
   "company": {
    "ticker": "SION",
    "name": "Sionna Therapeutics",
-   "last_price": "46.69",
+   "last_price": "44.12",
    "market_cap": 2028604288
   },
   "ticker": "SION",
@@ -2647,7 +2715,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "86.33",
+   "last_price": "84.29",
    "market_cap": 14267117568
   },
   "ticker": "IONS",
@@ -3698,7 +3766,7 @@
   "company": {
    "ticker": "BOLT",
    "name": "Bolt Biotherapeutics ",
-   "last_price": "4.05",
+   "last_price": "4.27",
    "market_cap": 7782346
   },
   "ticker": "BOLT",
@@ -4029,7 +4097,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "7.69",
+   "last_price": "7.17",
    "market_cap": 2348336896
   },
   "ticker": "ABCL",
@@ -4681,7 +4749,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "86.33",
+   "last_price": "84.29",
    "market_cap": 14267117568
   },
   "ticker": "IONS",
@@ -4753,6 +4821,45 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 16938,
+  "company": {
+   "ticker": "AGIO",
+   "name": "Agios Pharmaceuticals Inc.",
+   "last_price": "43.33",
+   "market_cap": 2617345280
+  },
+  "ticker": "AGIO",
+  "drug_name": "PYRUKYND (Mitapivat)",
+  "indications": [
+   {
+    "id": 1270,
+    "title": "Anemia",
+    "nickname": ""
+   },
+   {
+    "id": 1004,
+    "title": "Sickle cell disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Sickle cell disease, Anemia",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "RISE UP trial. 11/02/23- First patient dosed. 12/18/24- Orphan medicinal product designation in EC. 10/30/25:- RISE UP Ph3 topline results expected by year-end; potential U.S. commercial launch projected in 2026. 11/19/25- Met primary endpoint. Submit results to FDA for regulatory approval after pre-sNDA meeting in Q1 2026. 02/12/26:- Company reiterates plan for Q1 2026 pre-sNDA FDA meeting before U.S. marketing application submission. 03/31/26:- RISE UP Ph3 met Hb response; pain-crisis endpoint NS. Pre-sNDA mtg done; confirmatory trial proposed; sNDA soon. 04/29/26:- Plan sNDA submission for SCD in Q2 2026 under U.S. accelerated approval pathway. 05/12/26:- sNDA submitted for SCD. Filing acceptance expected Q3 2026. RISE UP oral presentation June 13, 2026. 06/13/26:- RISE UP Ph3 52-week results presented at EHA 2026; new transfusion-burden analyses support mitapivat. 07/07/26:- FDA accepted RISE UP sNDA for SCD with Priority Review; PDUFA November 1, 2026.",
+  "catalyst_date": "2026-11-01",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/07/3323022/31990/en/u-s-fda-grants-priority-review-to-agios-snda-for-mitapivat-in-sickle-cell-disease.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 16624,
@@ -6018,40 +6125,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 14061,
-  "company": {
-   "ticker": "CMPS",
-   "name": "Compass Pathways",
-   "last_price": "12.99",
-   "market_cap": 1752991488
-  },
-  "ticker": "CMPS",
-  "drug_name": "COMP360 (Psilocybin)",
-  "indications": [
-   {
-    "id": 955,
-    "title": "Treatment Resistant Depression",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Treatment Resistant Depression",
-  "stage_event": {
-   "id": 84,
-   "label": "NDA Submission",
-   "stage_label": "NDA",
-   "event_label": "Submission"
-  },
-  "note": "COMP005 & 006 trials. Collab w/ ATAI Life Sciences. 6/23/25- COMP005 topline data reported; to discuss prelim data w/ FDA. 11/4/25- COMP006 primary & safety data plus COMP005 6/26wk data in Q1 2026. COMP006 26wk data in early Q3 2026. 01/07/26:- Positive Type B FDA meeting; rolling NDA planned. COMP005/006 data late Q1 2026, COMP006 26-week data early Q3 2026. 02/17/26:- COMP006 met primary endpoint with robust efficacy and safety. COMP006 26-week data early Q3 2026; NDA submission Q4 2026. 03/24/26:- COMP006 26-week Part B data early Q3 2026 final NDA dataset; NDA submission completion expected Q4 2026. 04/24/26:- FDA granted rolling NDA submission and review; COMP360 selected for CNPV in TRD. 05/13/26:- Rolling NDA submission ongoing with sections filed. COMP006 26-week data still early Q3 2026; final NDA Q4 2026. 07/07/26:- COMP006 26-week Part B results positive. Final NDA submission expected Q4 2026; launch anticipated H1 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260707713443/en/Compass-Pathways-Announces-Six-Month-Data-from-Second-Phase-3-Trial-Confirming-Rapid-and-Durable-Profile",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": true,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 14128,
   "company": {
    "ticker": "LTRN",
@@ -6095,7 +6168,7 @@
   "company": {
    "ticker": "ABOS",
    "name": "Acumen Pharmaceuticals",
-   "last_price": "2.67",
+   "last_price": "2.71",
    "market_cap": 185624880
   },
   "ticker": "ABOS",
@@ -6486,7 +6559,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "4.22",
+   "last_price": "4.26",
    "market_cap": 1942285440
   },
   "ticker": "IOVA",
@@ -6827,7 +6900,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "86.33",
+   "last_price": "84.29",
    "market_cap": 14267117568
   },
   "ticker": "IONS",
@@ -7535,7 +7608,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "86.33",
+   "last_price": "84.29",
    "market_cap": 14267117568
   },
   "ticker": "IONS",
@@ -9788,7 +9861,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "74.90",
+   "last_price": "73.21",
    "market_cap": 2530573824
   },
   "ticker": "NKTR",
@@ -9827,7 +9900,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1230.67",
+   "last_price": "1220.84",
    "market_cap": 965262180352
   },
   "ticker": "LLY",
@@ -10222,7 +10295,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "10.81",
+   "last_price": "10.57",
    "market_cap": 227762592
   },
   "ticker": "KPTI",
@@ -11099,7 +11172,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "10.81",
+   "last_price": "10.57",
    "market_cap": 227762592
   },
   "ticker": "KPTI",
@@ -12030,7 +12103,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "86.33",
+   "last_price": "84.29",
    "market_cap": 14267117568
   },
   "ticker": "IONS",
@@ -12390,7 +12463,7 @@
   "company": {
    "ticker": "OKUR",
    "name": "OnKure Therapeutics, Inc.",
-   "last_price": "4.52",
+   "last_price": "4.55",
    "market_cap": 176932208
   },
   "ticker": "OKUR",
@@ -14020,7 +14093,7 @@
   "company": {
    "ticker": "ZURA",
    "name": "Zura Bio",
-   "last_price": "5.08",
+   "last_price": "5.31",
    "market_cap": 481994016
   },
   "ticker": "ZURA",
@@ -14054,7 +14127,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "63.37",
+   "last_price": "66.10",
    "market_cap": 6125696000
   },
   "ticker": "XENE",
@@ -14088,7 +14161,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "63.37",
+   "last_price": "66.10",
    "market_cap": 6125696000
   },
   "ticker": "XENE",
@@ -15151,7 +15224,7 @@
   "company": {
    "ticker": "ABSI",
    "name": "Absci",
-   "last_price": "11.33",
+   "last_price": "10.52",
    "market_cap": 1919305856
   },
   "ticker": "ABSI",
@@ -16886,7 +16959,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "254.65",
+   "last_price": "253.85",
    "market_cap": 449913782272
   },
   "ticker": "ABBV",
@@ -17066,7 +17139,7 @@
   "company": {
    "ticker": "AVBP",
    "name": "ArriVent",
-   "last_price": "33.32",
+   "last_price": "32.99",
    "market_cap": 1591931008
   },
   "ticker": "AVBP",
@@ -17324,7 +17397,7 @@
   "company": {
    "ticker": "XOMA",
    "name": "Xoma Corporation",
-   "last_price": "43.89",
+   "last_price": "44.80",
    "market_cap": 775920000
   },
   "ticker": "XOMA",
@@ -18545,6 +18618,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 19017,
+  "company": {
+   "ticker": "ARQT",
+   "name": "Arcutis Biotherapeutics",
+   "last_price": "27.61",
+   "market_cap": 3461057024
+  },
+  "ticker": "ARQT",
+  "drug_name": "ZORYVE\u00ae (ARQ-151) topical roflumilast cream 0.05%",
+  "indications": [
+   {
+    "id": 1395,
+    "title": "Atopic dermatitis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Atopic dermatitis",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "INTEGUMENT-INFANT Trial in 3 months to less than 2 years old. 6/10/25- Enrolled first participant. 10/24/25\u2013 Presented new QoF & long-term data at Fall Clinical Dermatology Conf. '25. 11/13/25- Enrollment completed with topline results in Q1 2026. 01/12/26:- INTEGUMENT-INFANT topline Phase 2 data expected Q1 2026; sNDA submission planned in Q3 2026. 02/02/26:- INTEGUMENT-INFANT Ph2 topline showed 58% EASI-75 at Week 4; sNDA submission planned Q2 2026. 02/25/26:- Positive INTEGUMENT-INFANT Ph2 topline in infants; sNDA for ZORYVE cream 0.05% planned in Q2 2026. 03/18/26:- INTEGUMENT-INFANT late-breaking data presented Mar 28, 2026 at AAD. 03/28/26:- INTEGUMENT-INFANT Ph2 late-breaking data showed rapid itch relief; sNDA submission still expected Q2 2026. 04/27/26:- sNDA submitted for infants down to 3 months. Await FDA acceptance for review. 05/06/26:- sNDA submitted for infants 3\u201324 months; INTEGUMENT-INFANT data and AAD guidelines strongly support ZORYVE 0.05%. 07/08/26:- FDA accepted infant AD sNDA for ZORYVE cream 0.05%; PDUFA set for February 23, 2027.",
+  "catalyst_date": "2027-02-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60327979/fda-accepts-supplemental-new-drug-application-arcutis-zoryve-roflumilast-cream-0-05-treatment-mild-m",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 16438,
   "company": {
    "ticker": "CGEM",
@@ -19392,6 +19499,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19555,
+  "company": {
+   "ticker": "IMNM",
+   "name": "Immunome",
+   "last_price": "24.39",
+   "market_cap": 2762177024
+  },
+  "ticker": "IMNM",
+  "drug_name": "Varegacestat (Gamma Secretase Inhibitor)",
+  "indications": [
+   {
+    "id": 1200,
+    "title": "Desmoid tumors",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Desmoid Tumors",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "12/15/25:- Topline Ph3 RINGSIDE data in desmoid tumors to be disclosed via webcast on December 15, 2025. 03/03/26:- Positive Ph3 RINGSIDE topline; met primary and key secondary endpoints; more data planned at major conference. 04/21/26:- Ph3 RINGSIDE detailed results to be presented at ASCO May 30, 2026. 04/29/26:- Reported RINGSIDE HR 0.16 and ORR 56%. Oral ASCO presentation May 29-June 2, 2026. 05/13/26:- Detailed Phase 3 RINGSIDE data highlighted again; oral presentation planned at ASCO 2026. 05/30/26:- Detailed Ph3 RINGSIDE efficacy and safety presented at ASCO. NDA submitted April 2026; EU MAA planned Q4 2026. 07/08/26:- RINGSIDE Ph3 supports accepted NDA; PDUFA April 28, 2027.",
+  "catalyst_date": "2027-04-28",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260708283482/en/Immunome-Announces-U.S.-FDA-Acceptance-of-New-Drug-Application-for-Varegacestat-for-the-Treatment-of-Adults-with-Desmoid-Tumors",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 13464,
   "company": {
    "ticker": "NBTX",
@@ -19547,7 +19688,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "63.37",
+   "last_price": "66.10",
    "market_cap": 6125696000
   },
   "ticker": "XENE",
@@ -20501,7 +20642,7 @@
   "company": {
    "ticker": "ZURA",
    "name": "Zura Bio",
-   "last_price": "5.08",
+   "last_price": "5.31",
    "market_cap": 481994016
   },
   "ticker": "ZURA",
@@ -20973,7 +21114,7 @@
   "company": {
    "ticker": "ABVX",
    "name": "Abivax",
-   "last_price": "142.17",
+   "last_price": "139.05",
    "market_cap": 12391632896
   },
   "ticker": "ABVX",
@@ -21186,6 +21327,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 16124,
+  "company": {
+   "ticker": "VXRT",
+   "name": "Vaxart Inc.",
+   "last_price": "0.55",
+   "market_cap": 133197272
+  },
+  "ticker": "VXRT",
+  "drug_name": "VXA-CoV2-1 oral pill",
+  "indications": [
+   {
+    "id": 1366,
+    "title": "COVID-19",
+    "nickname": "Coronavirus Disease 2019"
+   }
+  ],
+  "indications_text": "COVID-19",
+  "stage_event": {
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
+   "event_label": "Data readout"
+  },
+  "note": "6/13/24- $453M BARDA-Funded Project. 9/30/24- Trial initiated. 12/3/24- Sentinel cohort enrollment completion. 1/13/25- Positive DSMB review. 3/20/25- Ordered to halt its trial, except for follow-up on 400 participants. A final decision will be made within 90 days. 5/15/25- BARDA approval to initiate dosing in 10,000-participant. 5/27/25- Initiated dosing. 03/12/26:- Sentinel cohort safety data expected Early Q2 2026; topline data for all participants expected Q4 2026. 05/07/26:- Sentinel 12-month safety/immunogenicity data now expected Q2 2026; main KP.2 cohort primary data anticipated Early 2027. 07/06/26:- Reported Ph2b sentinel 12-month topline safety data. Complete study topline data anticipated in 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/06/3322727/25416/en/vaxart-reports-topline-12-month-safety-data-from-the-400-participant-sentinel-safety-cohort-of-the-phase-2b-clinical-trial-of-its-oral-pill-covid-19-vaccine.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 16231,
@@ -21474,7 +21649,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "63.37",
+   "last_price": "66.10",
    "market_cap": 6125696000
   },
   "ticker": "XENE",
@@ -21708,7 +21883,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "86.33",
+   "last_price": "84.29",
    "market_cap": 14267117568
   },
   "ticker": "IONS",
@@ -22384,7 +22559,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "74.90",
+   "last_price": "73.21",
    "market_cap": 2530573824
   },
   "ticker": "NKTR",
@@ -24719,7 +24894,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "86.33",
+   "last_price": "84.29",
    "market_cap": 14267117568
   },
   "ticker": "IONS",
@@ -25621,7 +25796,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1230.67",
+   "last_price": "1220.84",
    "market_cap": 965262180352
   },
   "ticker": "LLY",
@@ -26303,7 +26478,7 @@
   "company": {
    "ticker": "ZVSA",
    "name": "ZyVersa Therapeutics ",
-   "last_price": "0.13",
+   "last_price": "0.11",
    "market_cap": 1052470
   },
   "ticker": "ZVSA",
@@ -28001,7 +28176,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1230.67",
+   "last_price": "1220.84",
    "market_cap": 965262180352
   },
   "ticker": "LLY",

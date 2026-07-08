@@ -141,10 +141,10 @@ class Config:
     starting_cash: float = 1_000_000.0
     cost_bps: float = 10.0                  # round-trip transaction cost assumption in backtests
     slippage_bps: float = 5.0               # paper-broker fill slippage
-    av_calls_per_min: int = 590             # premium tier allows 600/min; thin margin under it
+    av_calls_per_min: int = 520             # premium tier allows 600/min; wider headroom
     av_daily_budget: int = 1_000_000        # the 600/min premium tier has NO daily cap;
-                                            # the 590/min rate limiter is the only real
-                                            # governor (~850k/day ceiling). Set above that
+                                            # the 520/min rate limiter is the only real
+                                            # governor (~750k/day ceiling). Set above that
                                             # so this self-imposed counter never binds.
                                             # (The old 100k was a relic from when the tier
                                             # was unknown — it exhausted mid-day and

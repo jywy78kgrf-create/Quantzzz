@@ -1,5 +1,10 @@
 [
  {
+  "date": "2026-07-12",
+  "sentiment": 0.345876,
+  "relevance": 1.0
+ },
+ {
   "date": "2026-07-10",
   "sentiment": 0.003356,
   "relevance": 0.344015
@@ -32,6 +37,11 @@
  {
   "date": "2026-07-09",
   "sentiment": -0.198133,
+  "relevance": 1.0
+ },
+ {
+  "date": "2026-07-08",
+  "sentiment": -0.135423,
   "relevance": 1.0
  },
  {
@@ -151,12 +161,12 @@
  },
  {
   "date": "2026-06-26",
-  "sentiment": -0.228577,
+  "sentiment": -0.190629,
   "relevance": 1.0
  },
  {
   "date": "2026-06-26",
-  "sentiment": -0.190629,
+  "sentiment": -0.228577,
   "relevance": 1.0
  },
  {
@@ -381,13 +391,13 @@
  },
  {
   "date": "2026-06-10",
-  "sentiment": 0.508652,
-  "relevance": 1.0
+  "sentiment": 0.428953,
+  "relevance": 0.948829
  },
  {
   "date": "2026-06-10",
-  "sentiment": 0.428953,
-  "relevance": 0.948829
+  "sentiment": 0.508652,
+  "relevance": 1.0
  },
  {
   "date": "2026-06-10",
@@ -871,7 +881,7 @@
  },
  {
   "date": "2026-05-01",
-  "sentiment": 0.110957,
+  "sentiment": 0.008954,
   "relevance": 1.0
  },
  {
@@ -881,7 +891,7 @@
  },
  {
   "date": "2026-05-01",
-  "sentiment": 0.008954,
+  "sentiment": 0.110957,
   "relevance": 1.0
  },
  {
@@ -981,12 +991,12 @@
  },
  {
   "date": "2026-04-22",
-  "sentiment": -0.265412,
+  "sentiment": -0.275106,
   "relevance": 1.0
  },
  {
   "date": "2026-04-22",
-  "sentiment": -0.275106,
+  "sentiment": -0.265412,
   "relevance": 1.0
  },
  {
@@ -1041,12 +1051,12 @@
  },
  {
   "date": "2026-04-20",
-  "sentiment": 0.03239,
+  "sentiment": 0.428385,
   "relevance": 1.0
  },
  {
   "date": "2026-04-20",
-  "sentiment": 0.428385,
+  "sentiment": 0.03239,
   "relevance": 1.0
  },
  {
@@ -1186,13 +1196,13 @@
  },
  {
   "date": "2026-03-31",
-  "sentiment": 0.44732,
-  "relevance": 1.0
+  "sentiment": 0.026314,
+  "relevance": 0.333527
  },
  {
   "date": "2026-03-31",
-  "sentiment": 0.026314,
-  "relevance": 0.333527
+  "sentiment": 0.44732,
+  "relevance": 1.0
  },
  {
   "date": "2026-03-31",
@@ -1311,18 +1321,8 @@
  },
  {
   "date": "2026-03-18",
-  "sentiment": 0.064685,
-  "relevance": 1.0
- },
- {
-  "date": "2026-03-18",
   "sentiment": 0.038544,
   "relevance": 1.0
- },
- {
-  "date": "2026-03-18",
-  "sentiment": 0.027969,
-  "relevance": 0.315707
  },
  {
   "date": "2026-03-18",
@@ -1341,8 +1341,18 @@
  },
  {
   "date": "2026-03-18",
+  "sentiment": 0.064685,
+  "relevance": 1.0
+ },
+ {
+  "date": "2026-03-18",
   "sentiment": 0.01782,
   "relevance": 1.0
+ },
+ {
+  "date": "2026-03-18",
+  "sentiment": 0.027969,
+  "relevance": 0.315707
  },
  {
   "date": "2026-03-18",
@@ -1706,12 +1716,12 @@
  },
  {
   "date": "2026-02-11",
-  "sentiment": 0.611603,
+  "sentiment": 0.353484,
   "relevance": 1.0
  },
  {
   "date": "2026-02-11",
-  "sentiment": 0.353484,
+  "sentiment": 0.611603,
   "relevance": 1.0
  },
  {
@@ -2121,13 +2131,13 @@
  },
  {
   "date": "2025-10-18",
-  "sentiment": 0.029256,
-  "relevance": 0.340561
+  "sentiment": 0.014121,
+  "relevance": 0.317302
  },
  {
   "date": "2025-10-18",
-  "sentiment": 0.014121,
-  "relevance": 0.317302
+  "sentiment": 0.029256,
+  "relevance": 0.340561
  },
  {
   "date": "2025-10-14",
@@ -2206,22 +2216,12 @@
  },
  {
   "date": "2025-06-05",
-  "sentiment": 0.489565,
-  "relevance": 1.0
- },
- {
-  "date": "2025-06-05",
   "sentiment": -0.051207,
   "relevance": 1.0
  },
  {
-  "date": "2025-06-04",
-  "sentiment": 0.030351,
-  "relevance": 0.346425
- },
- {
-  "date": "2025-06-04",
-  "sentiment": 0.6117,
+  "date": "2025-06-05",
+  "sentiment": 0.489565,
   "relevance": 1.0
  },
  {
@@ -2231,8 +2231,18 @@
  },
  {
   "date": "2025-06-04",
+  "sentiment": 0.6117,
+  "relevance": 1.0
+ },
+ {
+  "date": "2025-06-04",
   "sentiment": 0.001756,
   "relevance": 0.323764
+ },
+ {
+  "date": "2025-06-04",
+  "sentiment": 0.030351,
+  "relevance": 0.346425
  },
  {
   "date": "2025-06-04",
@@ -2251,13 +2261,13 @@
  },
  {
   "date": "2025-05-22",
-  "sentiment": 0.038521,
-  "relevance": 0.304904
+  "sentiment": 0.019403,
+  "relevance": 0.313696
  },
  {
   "date": "2025-05-22",
-  "sentiment": 0.019403,
-  "relevance": 0.313696
+  "sentiment": 0.038521,
+  "relevance": 0.304904
  },
  {
   "date": "2025-05-19",
@@ -2856,13 +2866,13 @@
  },
  {
   "date": "2021-07-19",
-  "sentiment": 0.859719,
-  "relevance": 1.0
+  "sentiment": 0.039764,
+  "relevance": 0.32834
  },
  {
   "date": "2021-07-19",
-  "sentiment": 0.039764,
-  "relevance": 0.32834
+  "sentiment": 0.859719,
+  "relevance": 1.0
  },
  {
   "date": "2021-07-16",
@@ -2956,13 +2966,13 @@
  },
  {
   "date": "2020-05-20",
-  "sentiment": 0.04518,
-  "relevance": 0.349567
+  "sentiment": -0.437652,
+  "relevance": 1.0
  },
  {
   "date": "2020-05-20",
-  "sentiment": -0.437652,
-  "relevance": 1.0
+  "sentiment": 0.04518,
+  "relevance": 0.349567
  },
  {
   "date": "2020-05-13",
@@ -3121,12 +3131,12 @@
  },
  {
   "date": "2015-07-01",
-  "sentiment": 0.532151,
+  "sentiment": 0.414756,
   "relevance": 1.0
  },
  {
   "date": "2015-07-01",
-  "sentiment": 0.414756,
+  "sentiment": 0.532151,
   "relevance": 1.0
  },
  {

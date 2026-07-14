@@ -238,6 +238,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 18929,
+  "company": {
+   "ticker": "KURA",
+   "name": "Kura Oncology ",
+   "last_price": "11.19",
+   "market_cap": 968528320
+  },
+  "ticker": "KURA",
+  "drug_name": "KO-2806 +cabozantinib",
+  "indications": [
+   {
+    "id": 874,
+    "title": "Renal cell carcinoma",
+    "nickname": "RCC"
+   }
+  ],
+  "indications_text": "Advanced Renal Cell Carcinoma",
+  "stage_event": {
+   "id": 110,
+   "label": "Phase 1a Data readout",
+   "stage_label": "Phase 1a",
+   "event_label": "Data readout"
+  },
+  "note": "FIT-001 trial. 10/18/25\u2013 Preliminary FTI clinical data presented at ESMO\u201925. 11/04/25:- ESMO RCC data positive; plan FIT-001 Phase 1b expansion cohorts in advanced RCC in H1 2026. 03/05/26:- FIT-001 darlifarnib plus cabozantinib advanced RCC Phase 1b dose expansion cohorts have been initiated in H1 2026. 04/17/26:- Subset analysis showed 44% ORR in cabo-pretreated ccRCC. FIT-001 is in Ph1b dose expansion. 05/12/26:- Plan updated Phase 1a darlifarnib plus cabozantinib advanced RCC long-term follow-up data in H2 2026. 07/14/26:- Updated Phase 1a data to be presented July 24, 2026.",
+  "catalyst_date": "2026-07-24",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60436335/kura-oncology-present-first-long-term-follow-data-further-supporting-darlifarnib-s-potential-enhance",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 17664,
   "company": {
    "ticker": "MNKD",
@@ -359,7 +393,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "12.83",
+   "last_price": "12.37",
    "market_cap": 659144640
   },
   "ticker": "RGNX",
@@ -510,7 +544,7 @@
   "company": {
    "ticker": "LNTH",
    "name": "Lantheus Holdings",
-   "last_price": "102.53",
+   "last_price": "102.75",
    "market_cap": 6877806080
   },
   "ticker": "LNTH",
@@ -739,7 +773,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "114.23",
+   "last_price": "115.01",
    "market_cap": 22821115904
   },
   "ticker": "INCY",
@@ -1012,7 +1046,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "72.33",
+   "last_price": "73.04",
    "market_cap": 10438914048
   },
   "ticker": "ARWR",
@@ -1197,7 +1231,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.50",
+   "last_price": "4.44",
    "market_cap": 286034048
   },
   "ticker": "MGNX",
@@ -1718,7 +1752,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "58.08",
+   "last_price": "58.16",
    "market_cap": 121176514560
   },
   "ticker": "BMY",
@@ -1809,40 +1843,6 @@
   "catalyst_date": "2026-08-23",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/05/g52300889/ultragenyx-reports-first-quarter-2026-financial-results-and-corporate-update",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 17986,
-  "company": {
-   "ticker": "BIIB",
-   "name": "Biogen",
-   "last_price": "195.04",
-   "market_cap": 30860587008
-  },
-  "ticker": "BIIB",
-  "drug_name": "Leqembi (Lecanemab) SC formulation ",
-  "indications": [
-   {
-    "id": 1311,
-    "title": "Alzheimer's disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Alzheimer's disease",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "Approved 8/29/25. Collab w/ Eisai. SC formulation. 5/15/24- Initiates Rolling BLA. 10/31/24- Completes rolling submission to FDA. 11/15/24- Receives positive opinion from CHMP. 1/13/25- BLA accepted with PDUFA action date set for August 31, 2025. 7/30/25- New data presented at AAIC. 8/29/25- FDA approval. 9/3/25- Rolling sBLA initiated for Early AD. 01/25/26:- FDA accepted sBLA for LEQEMBI IQLIK SC starting dose; PDUFA action date May 24, 2026. 05/08/26:- PDUFA date for Leqembi Iqlik starting-dose sBLA extended to August 24, 2026. 06/29/26:- AAIC July 12 session covers SC lecanemab at-home use; PDUFA still August 24, 2026. 07/12/26:- AAIC 2026 showed SC-AI bioequivalent to IV initiation; real-world series suggested sustained benefit.",
-  "catalyst_date": "2026-08-24",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60405326/leqembi-subcutaneous-autoinjector-clinical-data-supports-similar-efficacy-and-safety-iv-formulation-",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2550,7 +2550,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "114.23",
+   "last_price": "115.01",
    "market_cap": 22821115904
   },
   "ticker": "INCY",
@@ -3251,7 +3251,7 @@
   "company": {
    "ticker": "CNTX",
    "name": "Context Therapeutics",
-   "last_price": "0.63",
+   "last_price": "0.64",
    "market_cap": 57314228
   },
   "ticker": "CNTX",
@@ -3426,7 +3426,7 @@
   "company": {
    "ticker": "GUTS",
    "name": "Fractyl Health",
-   "last_price": "0.76",
+   "last_price": "0.81",
    "market_cap": 120842912
   },
   "ticker": "GUTS",
@@ -3465,7 +3465,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "51.33",
+   "last_price": "52.31",
    "market_cap": 3670287872
   },
   "ticker": "GPCR",
@@ -3898,7 +3898,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "58.08",
+   "last_price": "58.16",
    "market_cap": 121176514560
   },
   "ticker": "BMY",
@@ -4516,7 +4516,7 @@
   "company": {
    "ticker": "INO",
    "name": "Inovio Pharmaceuticals",
-   "last_price": "1.16",
+   "last_price": "1.19",
    "market_cap": 95436952
   },
   "ticker": "INO",
@@ -5720,7 +5720,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "9.23",
+   "last_price": "9.37",
    "market_cap": 1261493248
   },
   "ticker": "IMTX",
@@ -5764,7 +5764,7 @@
   "company": {
    "ticker": "INKT",
    "name": "MiNK Therapeutics",
-   "last_price": "11.05",
+   "last_price": "11.57",
    "market_cap": 55049984
   },
   "ticker": "INKT",
@@ -5867,7 +5867,7 @@
   "company": {
    "ticker": "ABOS",
    "name": "Acumen Pharmaceuticals",
-   "last_price": "2.70",
+   "last_price": "2.69",
    "market_cap": 190680832
   },
   "ticker": "ABOS",
@@ -6087,7 +6087,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "58.08",
+   "last_price": "58.16",
    "market_cap": 121176514560
   },
   "ticker": "BMY",
@@ -6204,7 +6204,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "32.49",
+   "last_price": "33.77",
    "market_cap": 1652622592
   },
   "ticker": "IMCR",
@@ -6370,7 +6370,7 @@
   "company": {
    "ticker": "INAB",
    "name": "IN8bio",
-   "last_price": "1.34",
+   "last_price": "1.36",
    "market_cap": 12850147
   },
   "ticker": "INAB",
@@ -7068,7 +7068,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "14.64",
+   "last_price": "15.40",
    "market_cap": 199418512
   },
   "ticker": "IMUX",
@@ -7375,7 +7375,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "10.46",
+   "last_price": "10.50",
    "market_cap": 1082793728
   },
   "ticker": "ORIC",
@@ -7531,7 +7531,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "32.49",
+   "last_price": "33.77",
    "market_cap": 1652622592
   },
   "ticker": "IMCR",
@@ -7609,7 +7609,7 @@
   "company": {
    "ticker": "INSM",
    "name": "Insmed Incorporated",
-   "last_price": "109.14",
+   "last_price": "110.09",
    "market_cap": 23656361984
   },
   "ticker": "INSM",
@@ -7677,7 +7677,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "12.83",
+   "last_price": "12.37",
    "market_cap": 659144640
   },
   "ticker": "RGNX",
@@ -7794,7 +7794,7 @@
   "company": {
    "ticker": "INMB",
    "name": "INmune Bio",
-   "last_price": "1.86",
+   "last_price": "2.04",
    "market_cap": 49448580
   },
   "ticker": "INMB",
@@ -7897,7 +7897,7 @@
   "company": {
    "ticker": "INKT",
    "name": "MiNK Therapeutics",
-   "last_price": "11.05",
+   "last_price": "11.57",
    "market_cap": 55049984
   },
   "ticker": "INKT",
@@ -8160,7 +8160,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "12.85",
+   "last_price": "13.31",
    "market_cap": 2481502976
   },
   "ticker": "SLS",
@@ -8321,7 +8321,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "75.98",
+   "last_price": "75.31",
    "market_cap": 2902366720
   },
   "ticker": "IRON",
@@ -8360,7 +8360,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "75.98",
+   "last_price": "75.31",
    "market_cap": 2902366720
   },
   "ticker": "IRON",
@@ -8609,7 +8609,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "9.23",
+   "last_price": "9.37",
    "market_cap": 1261493248
   },
   "ticker": "IMTX",
@@ -8809,7 +8809,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "32.49",
+   "last_price": "33.77",
    "market_cap": 1652622592
   },
   "ticker": "IMCR",
@@ -9053,7 +9053,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "114.23",
+   "last_price": "115.01",
    "market_cap": 22821115904
   },
   "ticker": "INCY",
@@ -9784,7 +9784,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "9.23",
+   "last_price": "9.37",
    "market_cap": 1261493248
   },
   "ticker": "IMTX",
@@ -10199,7 +10199,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "75.98",
+   "last_price": "75.31",
    "market_cap": 2902366720
   },
   "ticker": "IRON",
@@ -10988,7 +10988,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "0.45",
+   "last_price": "0.44",
    "market_cap": 66391144
   },
   "ticker": "IMMP",
@@ -11183,7 +11183,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "4.89",
+   "last_price": "4.99",
    "market_cap": 113884632
   },
   "ticker": "COYA",
@@ -11967,7 +11967,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "72.33",
+   "last_price": "73.04",
    "market_cap": 10438914048
   },
   "ticker": "ARWR",
@@ -12445,7 +12445,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "72.33",
+   "last_price": "73.04",
    "market_cap": 10438914048
   },
   "ticker": "ARWR",
@@ -12596,7 +12596,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "32.49",
+   "last_price": "33.77",
    "market_cap": 1652622592
   },
   "ticker": "IMCR",
@@ -13023,7 +13023,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.70",
+   "last_price": "38.77",
    "market_cap": 7945455104
   },
   "ticker": "IMVT",
@@ -13378,7 +13378,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.97",
+   "last_price": "1.95",
    "market_cap": 265088944
   },
   "ticker": "ALXO",
@@ -13666,45 +13666,11 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 18929,
-  "company": {
-   "ticker": "KURA",
-   "name": "Kura Oncology ",
-   "last_price": "11.19",
-   "market_cap": 968528320
-  },
-  "ticker": "KURA",
-  "drug_name": "KO-2806 +cabozantinib",
-  "indications": [
-   {
-    "id": 874,
-    "title": "Renal cell carcinoma",
-    "nickname": "RCC"
-   }
-  ],
-  "indications_text": "Advanced Renal Cell Carcinoma",
-  "stage_event": {
-   "id": 110,
-   "label": "Phase 1a Data readout",
-   "stage_label": "Phase 1a",
-   "event_label": "Data readout"
-  },
-  "note": "FIT-001 trial. 10/18/25\u2013 Preliminary FTI clinical data presented at ESMO\u201925. 11/04/25:- ESMO RCC data positive; plan FIT-001 Phase 1b expansion cohorts in advanced RCC in H1 2026. 03/05/26:- FIT-001 darlifarnib plus cabozantinib advanced RCC Phase 1b dose expansion cohorts have been initiated in H1 2026. 04/17/26:- Subset analysis showed 44% ORR in cabo-pretreated ccRCC. FIT-001 is in Ph1b dose expansion. 05/12/26:- Plan updated Phase 1a darlifarnib plus cabozantinib advanced RCC long-term follow-up data in H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/12/3293355/35186/en/Kura-Oncology-Reports-First-Quarter-2026-Financial-Results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18933,
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "10.46",
+   "last_price": "10.50",
    "market_cap": 1082793728
   },
   "ticker": "ORIC",
@@ -14048,7 +14014,7 @@
   "company": {
    "ticker": "INBX",
    "name": "Inhibrx Inc.",
-   "last_price": "92.17",
+   "last_price": "93.55",
    "market_cap": 1352169856
   },
   "ticker": "INBX",
@@ -14427,7 +14393,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "114.23",
+   "last_price": "115.01",
    "market_cap": 22821115904
   },
   "ticker": "INCY",
@@ -14607,7 +14573,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "72.33",
+   "last_price": "73.04",
    "market_cap": 10438914048
   },
   "ticker": "ARWR",
@@ -15286,7 +15252,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.50",
+   "last_price": "4.44",
    "market_cap": 286034048
   },
   "ticker": "MGNX",
@@ -15426,7 +15392,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.50",
+   "last_price": "4.44",
    "market_cap": 286034048
   },
   "ticker": "MGNX",
@@ -15767,7 +15733,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.70",
+   "last_price": "38.77",
    "market_cap": 7945455104
   },
   "ticker": "IMVT",
@@ -15801,7 +15767,7 @@
   "company": {
    "ticker": "INTS",
    "name": "Intensity Therapeutics",
-   "last_price": "4.92",
+   "last_price": "4.84",
    "market_cap": 13297875
   },
   "ticker": "INTS",
@@ -15952,7 +15918,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "75.98",
+   "last_price": "75.31",
    "market_cap": 2902366720
   },
   "ticker": "IRON",
@@ -16478,7 +16444,7 @@
   "company": {
    "ticker": "ONCY",
    "name": "Oncolytics Biotech",
-   "last_price": "0.93",
+   "last_price": "0.95",
    "market_cap": 110867992
   },
   "ticker": "ONCY",
@@ -16580,7 +16546,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "114.23",
+   "last_price": "115.01",
    "market_cap": 22821115904
   },
   "ticker": "INCY",
@@ -16906,7 +16872,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "22.80",
+   "last_price": "22.88",
    "market_cap": 2582108928
   },
   "ticker": "IMNM",
@@ -17344,7 +17310,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "9.23",
+   "last_price": "9.37",
    "market_cap": 1261493248
   },
   "ticker": "IMTX",
@@ -17626,7 +17592,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "9.23",
+   "last_price": "9.37",
    "market_cap": 1261493248
   },
   "ticker": "IMTX",
@@ -17660,7 +17626,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "9.23",
+   "last_price": "9.37",
    "market_cap": 1261493248
   },
   "ticker": "IMTX",
@@ -17694,7 +17660,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "9.23",
+   "last_price": "9.37",
    "market_cap": 1261493248
   },
   "ticker": "IMTX",
@@ -17958,7 +17924,7 @@
   "note": "05/21/26:- Sutacimig Ph2 ongoing in congenital Factor VII deficiency; data expected late 2026 or early 2027. 07/14/26:- New preclinical FVIID data showed thrombin generation restoration; Phase 2 study continues toward Late 2026/Early 2027 readout.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60437586/hemab-therapeutics-presents-clinical-and-preclinical-data-sutacimig-glanzmann-thrombasthenia-and-fac",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/14/3326747/0/en/hemab-therapeutics-presents-clinical-and-preclinical-data-from-sutacimig-in-glanzmann-thrombasthenia-and-factor-vii-deficiency-at-the-isth-2026-congress.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18598,7 +18564,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "4.89",
+   "last_price": "4.99",
    "market_cap": 113884632
   },
   "ticker": "COYA",
@@ -19080,7 +19046,7 @@
   "company": {
    "ticker": "INBX",
    "name": "Inhibrx Inc.",
-   "last_price": "92.17",
+   "last_price": "93.55",
    "market_cap": 1352169856
   },
   "ticker": "INBX",
@@ -19158,7 +19124,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "22.80",
+   "last_price": "22.88",
    "market_cap": 2582108928
   },
   "ticker": "IMNM",
@@ -19192,7 +19158,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "58.08",
+   "last_price": "58.16",
    "market_cap": 121176514560
   },
   "ticker": "BMY",
@@ -19689,7 +19655,7 @@
   "company": {
    "ticker": "PRTA",
    "name": "Prothena Corporation",
-   "last_price": "8.83",
+   "last_price": "8.79",
    "market_cap": 483743904
   },
   "ticker": "PRTA",
@@ -19971,7 +19937,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.50",
+   "last_price": "4.44",
    "market_cap": 286034048
   },
   "ticker": "MGNX",
@@ -20136,10 +20102,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "AURORAS-1 trial. 5/13/25- IND cleared by FDA. 8/12/25- Initial monotherapy data in 2026. 11/12/25:- Ph1 mono data still expected 2026. 01/12/26:- AURORAS-1 dose escalation shows early responses; initial Ph1 monotherapy data now planned for H1 2026. 02/24/26:- AURORAS-1 dose escalation shows favorable safety and responses; initial Ph1 monotherapy data still expected in H1 2026. 03/12/26:- AURORAS-1 and JYP0015M101 Ph1 mono data expected H1 2026; AURORAS-1 expansion and combo cohorts start H2 2026. 04/27/26:- Preliminary Ph1 dose-escalation AURORAS-1 data showed favorable safety, linear PK, and partial responses. Data disclosure expected H1 2027. 05/11/26:- Keytruda combo added to AURORAS-1; early dose escalation showed partial responses at 8 mg daily. 05/11/26:- Monotherapy expansion and panitumumab combo dose escalation ongoing; data from both expected H1 2027.",
+  "note": "AURORAS-1 trial. 5/13/25- IND cleared by FDA. 8/12/25- Initial monotherapy data in 2026. 11/12/25:- Ph1 mono data still expected 2026. 01/12/26:- AURORAS-1 dose escalation shows early responses; initial Ph1 monotherapy data now planned for H1 2026. 02/24/26:- AURORAS-1 dose escalation shows favorable safety and responses; initial Ph1 monotherapy data still expected in H1 2026. 03/12/26:- AURORAS-1 and JYP0015M101 Ph1 mono data expected H1 2026; AURORAS-1 expansion and combo cohorts start H2 2026. 04/27/26:- Preliminary Ph1 dose-escalation AURORAS-1 data showed favorable safety, linear PK, and partial responses. Data disclosure expected H1 2027. 05/11/26:- Keytruda combo added to AURORAS-1; early dose escalation showed partial responses at 8 mg daily. 05/11/26:- Monotherapy expansion and panitumumab combo dose escalation ongoing; data from both expected H1 2027. 07/13/26:- 57% uORR in KRAS G12X PDAC; more mono and panitumumab-combo data expected H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/11/3292285/0/en/erasca-reports-first-quarter-2026-business-updates-and-financial-results.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60428928/erasca-announces-updated-preliminary-phase-1-data-and-registration-enabling-plans-potentially-best-c",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20593,10 +20559,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "4/29/24 - Second Ph 3 study ongoing. 8/29/24- Received RMAT designation. 1/30/25- Upcoming Ph3 completion & BLA submission. 11/4/25\u2013 FDA meeting in December. 01/18/26:- FDA Type B feedback supports 12-month pain endpoint; Ph3 MSB-DR004 enrollment completion expected April 2026. 02/20/26:- PR No update. 04/28/26:- Recruitment complete in MSB-DR004; topline results expected Mid-2027; filing expected Q3 2027. 04/29/26:- Ph3 CLBP trial met recruitment target; topline data and BLA timeline unchanged.",
+  "note": "4/29/24 - Second Ph 3 study ongoing. 8/29/24- Received RMAT designation. 1/30/25- Upcoming Ph3 completion & BLA submission. 11/4/25\u2013 FDA meeting in December. 01/18/26:- FDA Type B feedback supports 12-month pain endpoint; Ph3 MSB-DR004 enrollment completion expected April 2026. 02/20/26:- PR No update. 04/28/26:- Recruitment complete in MSB-DR004; topline results expected Mid-2027; filing expected Q3 2027. 04/29/26:- Ph3 CLBP trial met recruitment target; topline data and BLA timeline unchanged. 07/13/26:- Treated 300+ pts in MSB-DR004 Ph3; topline results still expected Mid-2027.",
   "catalyst_date": "2027-08-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/04/g52157827/mesoblast-reports-ryoncil-net-revenues-of-us-30-3m-and-improved-net-operating-cash-spend-for-the-q",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60431915/mesoblast-achieves-target-300-treated-patients-pivotal-phase-3-trial-chronic-low-back-pain",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20910,7 +20876,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.97",
+   "last_price": "1.95",
    "market_cap": 265088944
   },
   "ticker": "ALXO",
@@ -21129,7 +21095,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "37.96",
+   "last_price": "38.27",
    "market_cap": 4425946624
   },
   "ticker": "VKTX",
@@ -21601,7 +21567,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "32.49",
+   "last_price": "33.77",
    "market_cap": 1652622592
   },
   "ticker": "IMCR",
@@ -21791,7 +21757,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.70",
+   "last_price": "38.77",
    "market_cap": 7945455104
   },
   "ticker": "IMVT",
@@ -22005,7 +21971,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.70",
+   "last_price": "38.77",
    "market_cap": 7945455104
   },
   "ticker": "IMVT",
@@ -22107,7 +22073,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.70",
+   "last_price": "38.77",
    "market_cap": 7945455104
   },
   "ticker": "IMVT",
@@ -22360,7 +22326,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "75.98",
+   "last_price": "75.31",
    "market_cap": 2902366720
   },
   "ticker": "IRON",
@@ -23289,7 +23255,7 @@
   "company": {
    "ticker": "IMA",
    "name": "ImageneBio",
-   "last_price": "6.11",
+   "last_price": "6.08",
    "market_cap": 66659656
   },
   "ticker": "IMA",
@@ -23391,7 +23357,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "9.23",
+   "last_price": "9.37",
    "market_cap": 1261493248
   },
   "ticker": "IMTX",
@@ -23430,7 +23396,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "9.23",
+   "last_price": "9.37",
    "market_cap": 1261493248
   },
   "ticker": "IMTX",
@@ -23649,7 +23615,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "5.16",
+   "last_price": "5.23",
    "market_cap": 333838560
   },
   "ticker": "IMRX",
@@ -23945,7 +23911,7 @@
   "company": {
    "ticker": "PRTA",
    "name": "Prothena Corporation",
-   "last_price": "8.83",
+   "last_price": "8.79",
    "market_cap": 483743904
   },
   "ticker": "PRTA",
@@ -24213,7 +24179,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "0.45",
+   "last_price": "0.44",
    "market_cap": 66391144
   },
   "ticker": "IMMP",
@@ -24252,7 +24218,7 @@
   "company": {
    "ticker": "OMER",
    "name": "Omeros Corporation",
-   "last_price": "10.35",
+   "last_price": "10.50",
    "market_cap": 724477312
   },
   "ticker": "OMER",
@@ -24364,7 +24330,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "12.85",
+   "last_price": "13.31",
    "market_cap": 2481502976
   },
   "ticker": "SLS",
@@ -24520,7 +24486,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.70",
+   "last_price": "38.77",
    "market_cap": 7945455104
   },
   "ticker": "IMVT",
@@ -24690,7 +24656,7 @@
   "company": {
    "ticker": "INAB",
    "name": "IN8bio",
-   "last_price": "1.34",
+   "last_price": "1.36",
    "market_cap": 12850147
   },
   "ticker": "INAB",
@@ -24807,7 +24773,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.97",
+   "last_price": "1.95",
    "market_cap": 265088944
   },
   "ticker": "ALXO",
@@ -24953,7 +24919,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "5.16",
+   "last_price": "5.23",
    "market_cap": 333838560
   },
   "ticker": "IMRX",
@@ -25475,7 +25441,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.50",
+   "last_price": "4.44",
    "market_cap": 286034048
   },
   "ticker": "MGNX",
@@ -26151,6 +26117,40 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/04/3306754/24675/en/fate-therapeutics-showcases-data-from-ft819-and-ft839-programs-at-the-european-congress-of-rheumatology-annual-meeting.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 17986,
+  "company": {
+   "ticker": "BIIB",
+   "name": "Biogen",
+   "last_price": "195.04",
+   "market_cap": 30860587008
+  },
+  "ticker": "BIIB",
+  "drug_name": "Leqembi (Lecanemab) SC formulation ",
+  "indications": [
+   {
+    "id": 1311,
+    "title": "Alzheimer's disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alzheimer's disease",
+  "stage_event": {
+   "id": 99,
+   "label": "Approved Update",
+   "stage_label": "Approved",
+   "event_label": "Update"
+  },
+  "note": "Approved 8/29/25. Collab w/ Eisai. SC formulation. 5/15/24- Initiates Rolling BLA. 10/31/24- Completes rolling submission to FDA. 11/15/24- Receives positive opinion from CHMP. 1/13/25- BLA accepted with PDUFA action date set for August 31, 2025. 7/30/25- New data presented at AAIC. 8/29/25- FDA approval. 9/3/25- Rolling sBLA initiated for Early AD. 01/25/26:- FDA accepted sBLA for LEQEMBI IQLIK SC starting dose; PDUFA action date May 24, 2026. 05/08/26:- PDUFA date for Leqembi Iqlik starting-dose sBLA extended to August 24, 2026. 06/29/26:- AAIC July 12 session covers SC lecanemab at-home use; PDUFA still August 24, 2026. 07/12/26:- AAIC 2026 showed SC-AI bioequivalent to IV initiation; real-world series suggested sustained benefit. 07/13/26:- FDA approved LEQEMBI IQLIK SC initiation dose. U.S. availability expected Late August 2026.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60431218/fda-approves-leqembi-iqlik-lecanemab-irmb-subcutaneous-injection-initiation-dose-early-alzheimer-s-d",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -27461,7 +27461,7 @@
   "company": {
    "ticker": "INVA",
    "name": "Innoviva",
-   "last_price": "22.21",
+   "last_price": "21.89",
    "market_cap": 1641506688
   },
   "ticker": "INVA",
@@ -27748,7 +27748,7 @@
   "company": {
    "ticker": "LNTH",
    "name": "Lantheus Holdings",
-   "last_price": "102.53",
+   "last_price": "102.75",
    "market_cap": 6877806080
   },
   "ticker": "LNTH",
@@ -28118,7 +28118,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "58.08",
+   "last_price": "58.16",
    "market_cap": 121176514560
   },
   "ticker": "BMY",
@@ -28415,7 +28415,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "114.23",
+   "last_price": "115.01",
    "market_cap": 22821115904
   },
   "ticker": "INCY",

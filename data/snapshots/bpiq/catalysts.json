@@ -238,6 +238,50 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 17795,
+  "company": {
+   "ticker": "KURA",
+   "name": "Kura Oncology ",
+   "last_price": "11.24",
+   "market_cap": 997823872
+  },
+  "ticker": "KURA",
+  "drug_name": "KO-2806 + cabozantinib",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 874,
+    "title": "Renal cell carcinoma",
+    "nickname": "RCC"
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Solid tumor/s, Renal cell carcinoma, Cancer",
+  "stage_event": {
+   "id": 110,
+   "label": "Phase 1a Data readout",
+   "stage_label": "Phase 1a",
+   "event_label": "Data readout"
+  },
+  "note": "FIT-001 trial (ccRCC cohort) 3/6/24- First patient dosed. Dose esc. as monotherapy continues. 2/28/25- Prelim data in H2 2025. 11/04/25:- ESMO RCC data showed 33\u201350% ORR; updated cabo combo data planned in 2026. 01/11/26:- Plan updated KO-2806 plus cabozantinib RCC dose-escalation data in H2 2026. 03/05/26:- Updated Phase 1a darlifarnib plus cabozantinib RCC data with ~1-year follow-up planned for H2 2026. 04/09/26:- Updated FIT-001 darlifarnib+cabo ccRCC Ph1 data to be presented Apr 17, 2026. 04/17/26:- IKCS Europe subset showed 44% ORR in cabo-pretreated ccRCC. FIT-001 now in Ph1b expansion. 05/12/26:- IKCS Europe proof-of-mechanism darlifarnib plus cabozantinib ccRCC subset showed 44% ORR and 94% DCR; Ph1b expansion enrolling. 07/14/26:- Updated FIT-001 ccRCC Phase 1a results to be presented July 24, 2026.",
+  "catalyst_date": "2026-07-24",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/14/3326716/35186/en/kura-oncology-to-present-first-long-term-follow-up-data-further-supporting-darlifarnib-s-potential-to-enhance-vegfr-targeted-therapy-in-renal-cell-carcinoma-at-kcrs-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18929,
   "company": {
    "ticker": "KURA",
@@ -622,7 +666,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "22.65",
+   "last_price": "22.73",
    "market_cap": 3594775552
   },
   "ticker": "DNLI",
@@ -1046,7 +1090,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "71.91",
+   "last_price": "70.96",
    "market_cap": 10129029120
   },
   "ticker": "ARWR",
@@ -1304,7 +1348,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.63",
+   "last_price": "2.61",
    "market_cap": 21018466
   },
   "ticker": "CLRB",
@@ -1338,7 +1382,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "2.29",
+   "last_price": "2.31",
    "market_cap": 145084048
   },
   "ticker": "PYXS",
@@ -1479,7 +1523,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.63",
+   "last_price": "2.61",
    "market_cap": 21018466
   },
   "ticker": "CLRB",
@@ -1781,7 +1825,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "32.03",
+   "last_price": "30.97",
    "market_cap": 3154609664
   },
   "ticker": "RARE",
@@ -1932,7 +1976,7 @@
   "company": {
    "ticker": "TENX",
    "name": "Tenax Therapeutics",
-   "last_price": "15.56",
+   "last_price": "15.84",
    "market_cap": 412731488
   },
   "ticker": "TENX",
@@ -2000,7 +2044,7 @@
   "company": {
    "ticker": "PTGX",
    "name": "Protagonist Therapeutics ",
-   "last_price": "131.27",
+   "last_price": "132.31",
    "market_cap": 8442153984
   },
   "ticker": "PTGX",
@@ -2044,7 +2088,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.17",
+   "last_price": "38.20",
    "market_cap": 2996042240
   },
   "ticker": "CLDX",
@@ -2370,7 +2414,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "32.03",
+   "last_price": "30.97",
    "market_cap": 3154609664
   },
   "ticker": "RARE",
@@ -2545,7 +2589,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "327.68",
+   "last_price": "322.08",
    "market_cap": 9135315968
   },
   "ticker": "PRAX",
@@ -2754,7 +2798,7 @@
   "company": {
    "ticker": "PSTV",
    "name": "Plus Therapeutics",
-   "last_price": "4.28",
+   "last_price": "4.07",
    "market_cap": 29463080
   },
   "ticker": "PSTV",
@@ -2973,7 +3017,7 @@
   "company": {
    "ticker": "PMN",
    "name": "ProMIS Neurosciences",
-   "last_price": "13.66",
+   "last_price": "13.57",
    "market_cap": 122498688
   },
   "ticker": "PMN",
@@ -3319,7 +3363,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.17",
+   "last_price": "38.20",
    "market_cap": 2996042240
   },
   "ticker": "CLDX",
@@ -3674,7 +3718,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.77",
+   "last_price": "17.83",
    "market_cap": 1092109568
   },
   "ticker": "CGEM",
@@ -4560,7 +4604,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "39.92",
+   "last_price": "39.66",
    "market_cap": 2374106368
   },
   "ticker": "AGIO",
@@ -5193,7 +5237,7 @@
   "company": {
    "ticker": "EXEL",
    "name": "Exelixis Inc",
-   "last_price": "55.77",
+   "last_price": "55.46",
    "market_cap": 14018073600
   },
   "ticker": "EXEL",
@@ -5588,7 +5632,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.17",
+   "last_price": "38.20",
    "market_cap": 2996042240
   },
   "ticker": "CLDX",
@@ -7068,7 +7112,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "14.69",
+   "last_price": "14.90",
    "market_cap": 200099584
   },
   "ticker": "IMUX",
@@ -7609,7 +7653,7 @@
   "company": {
    "ticker": "INSM",
    "name": "Insmed Incorporated",
-   "last_price": "110.11",
+   "last_price": "109.19",
    "market_cap": 23866611712
   },
   "ticker": "INSM",
@@ -7643,7 +7687,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "22.65",
+   "last_price": "22.73",
    "market_cap": 3594775552
   },
   "ticker": "DNLI",
@@ -8160,7 +8204,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "13.39",
+   "last_price": "13.43",
    "market_cap": 2632910336
   },
   "ticker": "SLS",
@@ -8209,7 +8253,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "32.03",
+   "last_price": "30.97",
    "market_cap": 3154609664
   },
   "ticker": "RARE",
@@ -8243,7 +8287,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "32.03",
+   "last_price": "30.97",
    "market_cap": 3154609664
   },
   "ticker": "RARE",
@@ -9087,7 +9131,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.77",
+   "last_price": "17.83",
    "market_cap": 1092109568
   },
   "ticker": "CGEM",
@@ -9306,7 +9350,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.30",
+   "last_price": "2.38",
    "market_cap": 217544672
   },
   "ticker": "CGEN",
@@ -10160,7 +10204,7 @@
   "company": {
    "ticker": "CGON",
    "name": "CG Oncology",
-   "last_price": "71.77",
+   "last_price": "72.68",
    "market_cap": 6330291200
   },
   "ticker": "CGON",
@@ -10355,7 +10399,7 @@
   "company": {
    "ticker": "PTN",
    "name": "Palatin Technologies",
-   "last_price": "8.85",
+   "last_price": "9.21",
    "market_cap": 15746584
   },
   "ticker": "PTN",
@@ -10910,7 +10954,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.77",
+   "last_price": "17.83",
    "market_cap": 1092109568
   },
   "ticker": "CGEM",
@@ -10988,7 +11032,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "0.43",
+   "last_price": "0.44",
    "market_cap": 63782656
   },
   "ticker": "IMMP",
@@ -11519,7 +11563,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.17",
+   "last_price": "38.20",
    "market_cap": 2996042240
   },
   "ticker": "CLDX",
@@ -11967,7 +12011,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "71.91",
+   "last_price": "70.96",
    "market_cap": 10129029120
   },
   "ticker": "ARWR",
@@ -12313,7 +12357,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "39.92",
+   "last_price": "39.66",
    "market_cap": 2374106368
   },
   "ticker": "AGIO",
@@ -12445,7 +12489,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "71.91",
+   "last_price": "70.96",
    "market_cap": 10129029120
   },
   "ticker": "ARWR",
@@ -12849,7 +12893,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "2.29",
+   "last_price": "2.31",
    "market_cap": 145084048
   },
   "ticker": "PYXS",
@@ -13344,7 +13388,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "41.46",
+   "last_price": "40.63",
    "market_cap": 1982904448
   },
   "ticker": "RAPP",
@@ -13563,7 +13607,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.77",
+   "last_price": "17.83",
    "market_cap": 1092109568
   },
   "ticker": "CGEM",
@@ -14573,7 +14617,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "71.91",
+   "last_price": "70.96",
    "market_cap": 10129029120
   },
   "ticker": "ARWR",
@@ -17271,7 +17315,7 @@
   "company": {
    "ticker": "PTHS",
    "name": "Pelthos Therapeutics",
-   "last_price": "25.40",
+   "last_price": "25.43",
    "market_cap": 88281384
   },
   "ticker": "PTHS",
@@ -17970,7 +18014,7 @@
   "company": {
    "ticker": "CGTX",
    "name": "Cognition Therapeutics",
-   "last_price": "1.01",
+   "last_price": "0.96",
    "market_cap": 90392992
   },
   "ticker": "CGTX",
@@ -18043,7 +18087,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "327.68",
+   "last_price": "322.08",
    "market_cap": 9135315968
   },
   "ticker": "PRAX",
@@ -18277,7 +18321,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "17.77",
+   "last_price": "17.83",
    "market_cap": 1092109568
   },
   "ticker": "CGEM",
@@ -18311,7 +18355,7 @@
   "company": {
    "ticker": "PSTV",
    "name": "Plus Therapeutics",
-   "last_price": "4.28",
+   "last_price": "4.07",
    "market_cap": 29463080
   },
   "ticker": "PSTV",
@@ -18350,7 +18394,7 @@
   "company": {
    "ticker": "PYPD",
    "name": "Polypid",
-   "last_price": "5.35",
+   "last_price": "5.31",
    "market_cap": 102581312
   },
   "ticker": "PYPD",
@@ -18875,7 +18919,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "19.29",
+   "last_price": "18.52",
    "market_cap": 18864908
   },
   "ticker": "QNCX",
@@ -18909,7 +18953,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "19.29",
+   "last_price": "18.52",
    "market_cap": 18864908
   },
   "ticker": "QNCX",
@@ -19504,7 +19548,7 @@
   "company": {
    "ticker": "PROK",
    "name": "ProKidney",
-   "last_price": "1.55",
+   "last_price": "1.56",
    "market_cap": 468192384
   },
   "ticker": "PROK",
@@ -19655,7 +19699,7 @@
   "company": {
    "ticker": "PRTA",
    "name": "Prothena Corporation",
-   "last_price": "8.64",
+   "last_price": "8.61",
    "market_cap": 452331968
   },
   "ticker": "PRTA",
@@ -19689,7 +19733,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "32.03",
+   "last_price": "30.97",
    "market_cap": 3154609664
   },
   "ticker": "RARE",
@@ -20370,7 +20414,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "22.65",
+   "last_price": "22.73",
    "market_cap": 3594775552
   },
   "ticker": "DNLI",
@@ -20623,7 +20667,7 @@
   "company": {
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
-   "last_price": "8.62",
+   "last_price": "8.51",
    "market_cap": 253268640
   },
   "ticker": "RNAC",
@@ -20842,7 +20886,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "191.95",
+   "last_price": "189.41",
    "market_cap": 28338944000
   },
   "ticker": "BIIB",
@@ -21241,7 +21285,7 @@
   "company": {
    "ticker": "CGTX",
    "name": "Cognition Therapeutics",
-   "last_price": "1.01",
+   "last_price": "0.96",
    "market_cap": 90392992
   },
   "ticker": "CGTX",
@@ -21343,7 +21387,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "327.68",
+   "last_price": "322.08",
    "market_cap": 9135315968
   },
   "ticker": "PRAX",
@@ -22107,7 +22151,7 @@
   "company": {
    "ticker": "PVLA",
    "name": "Palvella Therapeutics",
-   "last_price": "149.68",
+   "last_price": "149.79",
    "market_cap": 2146836736
   },
   "ticker": "PVLA",
@@ -22739,7 +22783,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "191.95",
+   "last_price": "189.41",
    "market_cap": 28338944000
   },
   "ticker": "BIIB",
@@ -23221,7 +23265,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "41.46",
+   "last_price": "40.63",
    "market_cap": 1982904448
   },
   "ticker": "RAPP",
@@ -23911,7 +23955,7 @@
   "company": {
    "ticker": "PRTA",
    "name": "Prothena Corporation",
-   "last_price": "8.64",
+   "last_price": "8.61",
    "market_cap": 452331968
   },
   "ticker": "PRTA",
@@ -23989,7 +24033,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "22.65",
+   "last_price": "22.73",
    "market_cap": 3594775552
   },
   "ticker": "DNLI",
@@ -24106,7 +24150,7 @@
   "company": {
    "ticker": "RCKT",
    "name": "Rocket Pharmaceuticals",
-   "last_price": "3.64",
+   "last_price": "3.58",
    "market_cap": 397464544
   },
   "ticker": "RCKT",
@@ -24179,7 +24223,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "0.43",
+   "last_price": "0.44",
    "market_cap": 63782656
   },
   "ticker": "IMMP",
@@ -24330,7 +24374,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "13.39",
+   "last_price": "13.43",
    "market_cap": 2632910336
   },
   "ticker": "SLS",
@@ -24452,7 +24496,7 @@
   "company": {
    "ticker": "PTGX",
    "name": "Protagonist Therapeutics ",
-   "last_price": "131.27",
+   "last_price": "132.31",
    "market_cap": 8442153984
   },
   "ticker": "PTGX",
@@ -24520,7 +24564,7 @@
   "company": {
    "ticker": "VTGN",
    "name": "VistaGen Therapeutics",
-   "last_price": "0.25",
+   "last_price": "0.24",
    "market_cap": 10098086
   },
   "ticker": "VTGN",
@@ -25075,7 +25119,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "39.92",
+   "last_price": "39.66",
    "market_cap": 2374106368
   },
   "ticker": "AGIO",
@@ -25109,7 +25153,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "39.92",
+   "last_price": "39.66",
    "market_cap": 2374106368
   },
   "ticker": "AGIO",
@@ -25558,7 +25602,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "191.95",
+   "last_price": "189.41",
    "market_cap": 28338944000
   },
   "ticker": "BIIB",
@@ -25982,7 +26026,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "41.52",
+   "last_price": "41.40",
    "market_cap": 2854678528
   },
   "ticker": "QURE",
@@ -26021,7 +26065,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "41.52",
+   "last_price": "41.40",
    "market_cap": 2854678528
   },
   "ticker": "QURE",
@@ -26128,7 +26172,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "191.95",
+   "last_price": "189.41",
    "market_cap": 28338944000
   },
   "ticker": "BIIB",
@@ -26308,7 +26352,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.17",
+   "last_price": "38.20",
    "market_cap": 2996042240
   },
   "ticker": "CLDX",
@@ -26625,7 +26669,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "327.68",
+   "last_price": "322.08",
    "market_cap": 9135315968
   },
   "ticker": "PRAX",
@@ -26703,7 +26747,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "191.95",
+   "last_price": "189.41",
    "market_cap": 28338944000
   },
   "ticker": "BIIB",
@@ -27068,7 +27112,7 @@
   "company": {
    "ticker": "AMRX",
    "name": "Amneal Pharmaceuticals Inc.",
-   "last_price": "16.69",
+   "last_price": "17.05",
    "market_cap": 5329640448
   },
   "ticker": "AMRX",

@@ -1,5 +1,74 @@
 [
  {
+  "id": 8169,
+  "company": {
+   "id": 634,
+   "ticker": "BIIB",
+   "name": "Biogen"
+  },
+  "created_at": "2026-07-15T13:02:29.657195Z",
+  "updated_at": "2026-07-15T13:02:29.657214Z",
+  "ticker": "BIIB",
+  "drug_name": "Diranersen",
+  "drug_indication": "Alzheimer\u2019s Disease",
+  "airtable_id": 8458,
+  "stage": "Phase 2",
+  "catalyst_date": "2026-07-14",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60440831/biogen-presents-phase-2-celia-data-aaic-demonstrating-meaningful-clinical-outcomes-and-robust-tau-re",
+  "catalyst_text": "Presented positive Phase 2 results at AAIC 2026",
+  "detailed_catalyst_text": "Phase 2 CELIA results in early Alzheimer\u2019s disease were presented, showing consistent slowing of clinical decline and robust biomarker effects. Reductions of 50\u201365% in CSF total tau and decreased brain tau by PET accompanied favorable outcomes on CDR\u2011SB, ADAS\u2011Cog13, and MMSE, supporting proof of concept for a tau\u2011directed mechanism.",
+  "catalyst_text_evidence": "The data, presented at the Alzheimer\u2019s Association International Conference (AAIC) 2026, expand upon previously reported topline results and demonstrate a combination of meaningful clinical efficacy and robust biomarker effects, providing Phase 2 proof of concept for diranersen\u2019s tau-directed mechanism of action. Diranersen demonstrated efficacy across all studied doses at 18 months, with consistent efficacy across multiple prespecified secondary endpoints, including the Clinical Dementia Rating Sum of Boxes (CDR-SB), a global measure of cognition and daily function; ADAS-Cog13 and MMSE, measures of cognition; modified iADRS and ADCOMS, composite measures of cognition, function, and disease progression; as well as the individual cognitive and functional domains of CDR-SB. Diranersen demonstrated target engagement and robust reductions in cerebrospinal fluid (CSF) total tau across all studied doses, with mean reductions of 50\u201365% from baseline. In the tau PET imaging substudy (n=131), decreases from baseline were seen across all evaluated brain regions for all diranersen doses.",
+  "news_published_at": "2026-07-15T00:00:00Z",
+  "open_price_gap_percent": "-0.04160",
+  "intra_day_price_change_percent": "-0.04186"
+ },
+ {
+  "id": 8177,
+  "company": {
+   "id": 634,
+   "ticker": "BIIB",
+   "name": "Biogen"
+  },
+  "created_at": "2026-07-15T13:05:24.417745Z",
+  "updated_at": "2026-07-15T13:05:24.417765Z",
+  "ticker": "BIIB",
+  "drug_name": "Lecanemab (LEQEMBI)",
+  "drug_indication": "Early Alzheimer\u2019s Disease",
+  "airtable_id": 8461,
+  "stage": "Approved",
+  "catalyst_date": "2026-07-14",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60446617/leqembi-real-world-leader-study-presented-aaic-2026-finds-over-75-early-alzheimer-s-patients-enrolle",
+  "catalyst_text": "Presented positive real world data at conference",
+  "detailed_catalyst_text": "New real-world results from the LEADER study in early Alzheimer\u2019s disease were presented at a major conference, showing 82.5% of patients remained stable or improved over approximately 17 months of treatment. Findings were consistent across demographic and APOE genotype subgroups, and safety aligned with the approved label. These data support clinical benefit and inform maintenance dosing in routine practice.",
+  "catalyst_text_evidence": "Eisai Co., Ltd. and Biogen Inc. (NASDAQ:BIIB) announced today that results from the real-world Lecanemab in Early Alzheimer's Disease (LEADER) Study show that nearly 83% of early Alzheimer\u2019s disease (AD) patients enrolled in the study remained stable (75.9%) or improved (6.6%) while receiving LEQEMBI therapy over an average of 17 months. The data was presented during the \"Developing Topics Session #3-33-DEV-A: Lecanemab Three Years Post-Approval: A Comprehensive Multicenter, Real-World, Retrospective Study (LEADER) in Diverse US Clinical Settings\" at the Alzheimer\u2019s Association International Conference 2026 in London and online. Overall safety observations in this real-world study were consistent with the U.S. FDA-approved label.",
+  "news_published_at": "2026-07-15T00:00:00Z",
+  "open_price_gap_percent": "-0.04160",
+  "intra_day_price_change_percent": "-0.04186"
+ },
+ {
+  "id": 8168,
+  "company": {
+   "id": 634,
+   "ticker": "BIIB",
+   "name": "Biogen"
+  },
+  "created_at": "2026-07-15T13:01:54.209494Z",
+  "updated_at": "2026-07-15T13:01:54.209524Z",
+  "ticker": "BIIB",
+  "drug_name": "Leqembi IQLIK",
+  "drug_indication": "Alzheimer\u2019s Disease",
+  "airtable_id": 8453,
+  "stage": "Approved",
+  "catalyst_date": "2026-07-13",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60431218/fda-approves-leqembi-iqlik-lecanemab-irmb-subcutaneous-injection-initiation-dose-early-alzheimer-s-d",
+  "catalyst_text": "Received FDA approval for subcutaneous initiation dosing",
+  "detailed_catalyst_text": "The FDA approved a supplemental BLA for a once-weekly subcutaneous initiation dose of lecanemab-irmb for early Alzheimer\u2019s disease (mild cognitive impairment or mild dementia). The autoinjector option enables at-home dosing from the start of therapy and expands flexibility across initiation and maintenance phases.",
+  "catalyst_text_evidence": "TOKYO and CAMBRIDGE, Mass., 2026-07-13 (GLOBE NEWSWIRE) -- Eisai Co., Ltd. and Biogen Inc. (NASDAQ:BIIB), announced that the U.S. Food and Drug Administration (FDA) has approved a supplemental Biologics License Application (sBLA) for a once-weekly lecanemab-irmb subcutaneous injection (brand name: LEQEMBI IQLIK) as an initiation dose for the treatment of early Alzheimer\u2019s disease.",
+  "news_published_at": "2026-07-15T00:00:00Z",
+  "open_price_gap_percent": "0.00090",
+  "intra_day_price_change_percent": "0.04866"
+ },
+ {
   "id": 8154,
   "company": {
    "id": 634,
@@ -7,7 +76,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-07-14T13:05:55.276367Z",
-  "updated_at": "2026-07-14T13:05:55.276398Z",
+  "updated_at": "2026-07-15T13:03:21.172325Z",
   "ticker": "BIIB",
   "drug_name": "LEQEMBI (lecanemab)",
   "drug_indication": "Alzheimer\u2019s Disease",
@@ -30,7 +99,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-07-14T13:09:36.374673Z",
-  "updated_at": "2026-07-14T13:09:36.374699Z",
+  "updated_at": "2026-07-15T13:05:05.035868Z",
   "ticker": "BIIB",
   "drug_name": "LEQEMBI (lecanemab)",
   "drug_indication": "Early Alzheimer\u2019s Disease",
@@ -53,7 +122,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-06-05T13:05:44.403674Z",
-  "updated_at": "2026-07-14T13:12:07.457748Z",
+  "updated_at": "2026-07-15T13:06:13.759785Z",
   "ticker": "BIIB",
   "drug_name": "Dapirolizumab pegol",
   "drug_indication": "Systemic Lupus Erythematosus",
@@ -76,7 +145,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-06-05T13:05:45.891689Z",
-  "updated_at": "2026-07-14T13:12:11.522613Z",
+  "updated_at": "2026-07-15T13:06:15.498659Z",
   "ticker": "BIIB",
   "drug_name": "Salanersen",
   "drug_indication": "Spinal Muscular Atrophy",
@@ -99,7 +168,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-05-23T13:01:31.228869Z",
-  "updated_at": "2026-07-14T13:03:01.810786Z",
+  "updated_at": "2026-07-15T13:01:53.475176Z",
   "ticker": "BIIB",
   "drug_name": "BIIB122",
   "drug_indication": "Parkinson's Disease",
@@ -122,7 +191,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-05-15T13:05:58.902231Z",
-  "updated_at": "2026-07-14T13:11:52.217669Z",
+  "updated_at": "2026-07-15T13:06:06.318598Z",
   "ticker": "BIIB",
   "drug_name": "Diranersen (BIIB080)",
   "drug_indication": "Alzheimer\u2019s Disease",
@@ -145,7 +214,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-03-31T13:05:12.032724Z",
-  "updated_at": "2026-07-14T13:11:49.512795Z",
+  "updated_at": "2026-07-15T13:06:05.330517Z",
   "ticker": "BIIB",
   "drug_name": "SPINRAZA (nusinersen)",
   "drug_indication": "Spinal Muscular Atrophy",
@@ -168,7 +237,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-03-20T13:03:23.011189Z",
-  "updated_at": "2026-07-14T13:07:06.250734Z",
+  "updated_at": "2026-07-15T13:03:53.751021Z",
   "ticker": "BIIB",
   "drug_name": "Litifilimab",
   "drug_indication": "Cutaneous Lupus Erythematosus",
@@ -191,7 +260,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-03-12T13:01:02.611060Z",
-  "updated_at": "2026-07-14T13:01:33.825005Z",
+  "updated_at": "2026-07-15T13:01:12.976615Z",
   "ticker": "BIIB",
   "drug_name": "Salanersen",
   "drug_indication": "Spinal Muscular Atrophy",
@@ -214,7 +283,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-02-10T13:01:24.971068Z",
-  "updated_at": "2026-07-14T13:03:39.582654Z",
+  "updated_at": "2026-07-15T13:02:11.596239Z",
   "ticker": "BIIB",
   "drug_name": "Lecanemab (LEQEMBI)",
   "drug_indication": "Alzheimer\u2019s Disease",
@@ -237,7 +306,7 @@
    "name": "Biogen"
   },
   "created_at": "2026-01-27T13:04:19.794925Z",
-  "updated_at": "2026-07-14T13:09:21.868553Z",
+  "updated_at": "2026-07-15T13:04:57.109481Z",
   "ticker": "BIIB",
   "drug_name": "LEQEMBI IQLIK",
   "drug_indication": "Alzheimer\u2019s Disease",
@@ -260,7 +329,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-11-05T13:01:10.843951Z",
-  "updated_at": "2026-07-14T13:01:56.759610Z",
+  "updated_at": "2026-07-15T13:01:23.982494Z",
   "ticker": "BIIB",
   "drug_name": "Zorevunersen",
   "drug_indication": "Dravet Syndrome",
@@ -283,7 +352,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-11-05T13:02:22.988957Z",
-  "updated_at": "2026-07-14T13:05:20.984073Z",
+  "updated_at": "2026-07-15T13:03:03.378491Z",
   "ticker": "BIIB",
   "drug_name": "ZURZUVAE BIIB125 (zuranolone)",
   "drug_indication": "Postpartum depression",
@@ -306,7 +375,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-09-03T13:03:25.919568Z",
-  "updated_at": "2026-07-14T13:08:31.075627Z",
+  "updated_at": "2026-07-15T13:04:32.635323Z",
   "ticker": "BIIB",
   "drug_name": "LEQEMBI\u00ae IQLIKTM (lecanemab-irmb)",
   "drug_indication": "Early Alzheimer's Disease",
@@ -329,7 +398,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-07-01T13:03:44.633857Z",
-  "updated_at": "2026-07-14T13:11:45.767946Z",
+  "updated_at": "2026-07-15T13:06:03.410791Z",
   "ticker": "BIIB",
   "drug_name": "Felzartamab",
   "drug_indication": "Primary Membranous Nephropathy",
@@ -352,7 +421,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-06-28T13:03:56.886316Z",
-  "updated_at": "2026-07-14T13:09:27.326333Z",
+  "updated_at": "2026-07-15T13:04:59.997147Z",
   "ticker": "BIIB",
   "drug_name": "Nusinersen (SPINRAZA)",
   "drug_indication": "Spinal muscular atrophy ",
@@ -375,7 +444,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-06-19T13:01:31.915454Z",
-  "updated_at": "2026-07-14T13:03:15.132648Z",
+  "updated_at": "2026-07-15T13:01:59.886189Z",
   "ticker": "BIIB",
   "drug_name": "Dapirolizumab Pegol",
   "drug_indication": "Systemic lupus erythematosus (SLE)",
@@ -398,7 +467,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-03-12T13:02:11.865116Z",
-  "updated_at": "2026-07-14T13:06:52.833725Z",
+  "updated_at": "2026-07-15T13:03:47.599149Z",
   "ticker": "BIIB",
   "drug_name": "Felzartamab",
   "drug_indication": "Late Antibody-Mediated Rejection",
@@ -421,7 +490,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:06:03.818371Z",
-  "updated_at": "2026-07-14T13:02:05.109341Z",
+  "updated_at": "2026-07-15T13:01:28.076997Z",
   "ticker": "BIIB",
   "drug_name": "LEQEMBI (lecanemab-irmb)",
   "drug_indication": "IV Maintenance Dosing for Alzheimer\u2019s disease",
@@ -444,7 +513,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:14:37.390920Z",
-  "updated_at": "2026-07-14T13:12:45.723622Z",
+  "updated_at": "2026-07-15T13:06:31.397252Z",
   "ticker": "BIIB",
   "drug_name": "SPINRAZA (Nusinersen) - (DEVOTE)",
   "drug_indication": "Spinal muscular atrophy (SMA)",
@@ -467,7 +536,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:14:32.987994Z",
-  "updated_at": "2026-07-14T13:12:34.697005Z",
+  "updated_at": "2026-07-15T13:06:26.319254Z",
   "ticker": "BIIB",
   "drug_name": "Dapirolizumab pegol (anti-CD40L)",
   "drug_indication": "Systemic lupus erythematosus",
@@ -490,7 +559,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:06:42.409237Z",
-  "updated_at": "2026-07-14T13:03:45.534649Z",
+  "updated_at": "2026-07-15T13:02:14.363807Z",
   "ticker": "BIIB",
   "drug_name": "Felzartamab - (IGNAZ)",
   "drug_indication": "IgA nephropathy (IgAN)",
@@ -513,7 +582,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:07:35.166523Z",
-  "updated_at": "2026-07-14T13:05:48.341081Z",
+  "updated_at": "2026-07-15T13:03:17.571747Z",
   "ticker": "BIIB",
   "drug_name": "Felzartamab",
   "drug_indication": "Antibody-mediated rejection (AMR) in kidney transplant recipients",
@@ -536,7 +605,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:06:20.736370Z",
-  "updated_at": "2026-07-14T13:02:47.496685Z",
+  "updated_at": "2026-07-15T13:01:47.782619Z",
   "ticker": "BIIB",
   "drug_name": "SAGE-324 (BIIB124) - (KINETIC 2)",
   "drug_indication": "Essential tremor",
@@ -559,7 +628,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:37.334578Z",
-  "updated_at": "2026-07-14T13:08:22.946338Z",
+  "updated_at": "2026-07-15T13:04:28.623080Z",
   "ticker": "BIIB",
   "drug_name": "ION582 (BIIB121) - (HALOS)",
   "drug_indication": "Angelman Syndrome",
@@ -582,7 +651,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:14:14.830358Z",
-  "updated_at": "2026-07-14T13:11:47.753196Z",
+  "updated_at": "2026-07-15T13:06:04.515816Z",
   "ticker": "BIIB",
   "drug_name": "BIIB105 (ATXN2 ASO) - (ALSpire)",
   "drug_indication": "Amyotrophic Lateral Sclerosis (ALS)",
@@ -605,7 +674,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:14:40.126002Z",
-  "updated_at": "2026-07-14T13:12:52.063391Z",
+  "updated_at": "2026-07-15T13:06:34.449689Z",
   "ticker": "BIIB",
   "drug_name": "BIIB080",
   "drug_indication": "Mild Alzheimer's disease",
@@ -628,7 +697,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:14:32.277234Z",
-  "updated_at": "2026-07-14T13:12:33.277700Z",
+  "updated_at": "2026-07-15T13:06:25.484691Z",
   "ticker": "BIIB",
   "drug_name": "TOFIDENCE (tocilizumab-bavi) - (ACTEMRA biosimilar)",
   "drug_indication": "Rheumatoid arthritis (RA)",
@@ -651,7 +720,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:09:12.894971Z",
-  "updated_at": "2026-07-14T13:09:53.293644Z",
+  "updated_at": "2026-07-15T13:05:13.149176Z",
   "ticker": "BIIB",
   "drug_name": "Zuranolone (SAGE-217)",
   "drug_indication": "Major depressive disorder (MDD)",
@@ -674,7 +743,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:14:25.000523Z",
-  "updated_at": "2026-07-14T13:12:15.387641Z",
+  "updated_at": "2026-07-15T13:06:17.547713Z",
   "ticker": "BIIB",
   "drug_name": "Zuranolone (SAGE-217)",
   "drug_indication": "Postpartum Depression",
@@ -697,7 +766,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:13:41.526997Z",
-  "updated_at": "2026-07-14T13:10:13.756269Z",
+  "updated_at": "2026-07-15T13:05:21.492222Z",
   "ticker": "BIIB",
   "drug_name": "LEQEMBI (lecanemab)",
   "drug_indication": "Mild cognitive impairment (MCI) due to Alzheimer's disease (AD)",
@@ -720,7 +789,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:06:50.025648Z",
-  "updated_at": "2026-07-14T13:04:03.949886Z",
+  "updated_at": "2026-07-15T13:02:24.440939Z",
   "ticker": "BIIB",
   "drug_name": "SKYCLARYS (omaveloxolone)",
   "drug_indication": "Friedreich\u2019s ataxia (FA)",
@@ -743,7 +812,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:06:55.320245Z",
-  "updated_at": "2026-07-14T13:04:17.325743Z",
+  "updated_at": "2026-07-15T13:02:30.868956Z",
   "ticker": "BIIB",
   "drug_name": "Bardoxolone - (MERLIN)",
   "drug_indication": "CKD Patients at Risk of Rapid Progression",
@@ -766,7 +835,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:07:19.321656Z",
-  "updated_at": "2026-07-14T13:05:13.186483Z",
+  "updated_at": "2026-07-15T13:02:58.736727Z",
   "ticker": "BIIB",
   "drug_name": "Bardoxolone - (FALCON)",
   "drug_indication": "Chronic Kidney Disease",
@@ -789,7 +858,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:09:00.488370Z",
-  "updated_at": "2026-07-14T13:09:20.900316Z",
+  "updated_at": "2026-07-15T13:04:56.506377Z",
   "ticker": "BIIB",
   "drug_name": "QALSODY (Tofersen)",
   "drug_indication": "Amyotrophic lateral sclerosis (SOD1-ALS)",
@@ -812,7 +881,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:14:40.394368Z",
-  "updated_at": "2026-07-14T13:12:52.711562Z",
+  "updated_at": "2026-07-15T13:06:34.854334Z",
   "ticker": "BIIB",
   "drug_name": "IONIS-MAPTRx (ISIS 814907; BIIB080) - (CELIA)",
   "drug_indication": "Alzheimer's disease",
@@ -835,7 +904,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:07:02.325828Z",
-  "updated_at": "2026-07-14T13:04:31.891916Z",
+  "updated_at": "2026-07-15T13:02:38.995795Z",
   "ticker": "BIIB",
   "drug_name": "Zuranolone (SAGE-217) (PPD-301) - (SKYLARK)",
   "drug_indication": "Postpartum depression (PPD)",
@@ -858,7 +927,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:06:00.497684Z",
-  "updated_at": "2026-07-14T13:01:57.415820Z",
+  "updated_at": "2026-07-15T13:01:24.232090Z",
   "ticker": "BIIB",
   "drug_name": "BIIB104",
   "drug_indication": "Cognitive Impairment Associated With Schizophrenia (CIAS)",
@@ -881,7 +950,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:13:39.436760Z",
-  "updated_at": "2026-07-14T13:10:08.166643Z",
+  "updated_at": "2026-07-15T13:05:19.016053Z",
   "ticker": "BIIB",
   "drug_name": "BIIB078 (IONIS-C9Rx)",
   "drug_indication": "C9orf72-associated Amyotrophic Lateral Sclerosis (ALS)",
@@ -904,7 +973,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:13:57.829429Z",
-  "updated_at": "2026-07-14T13:10:58.700937Z",
+  "updated_at": "2026-07-15T13:05:43.005665Z",
   "ticker": "BIIB",
   "drug_name": "Bardoxolone methyl",
   "drug_indication": "Alport Syndrome",
@@ -927,7 +996,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:05:38.200207Z",
-  "updated_at": "2026-07-14T13:01:04.273059Z",
+  "updated_at": "2026-07-15T13:00:57.025203Z",
   "ticker": "BIIB",
   "drug_name": "Zuranolone (MDD-305) - (CORAL)",
   "drug_indication": "Major Depressive Disorder (MDD)",
@@ -950,7 +1019,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:48.262970Z",
-  "updated_at": "2026-07-14T13:08:50.095029Z",
+  "updated_at": "2026-07-15T13:04:41.625637Z",
   "ticker": "BIIB",
   "drug_name": "BIIB112 - Xirius",
   "drug_indication": "X-linked Retinitis Pigmentosa",
@@ -973,7 +1042,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:07:52.661904Z",
-  "updated_at": "2026-07-14T13:06:31.284952Z",
+  "updated_at": "2026-07-15T13:03:37.688559Z",
   "ticker": "BIIB",
   "drug_name": "Natalizumab - (NOVA)",
   "drug_indication": "Multiple sclerosis (MS)",
@@ -996,7 +1065,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:41.689021Z",
-  "updated_at": "2026-07-14T13:08:33.043329Z",
+  "updated_at": "2026-07-15T13:04:33.592845Z",
   "ticker": "BIIB",
   "drug_name": "BYOOVIZ",
   "drug_indication": "Biosimilar (ranibizumab)",
@@ -1019,7 +1088,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:14:40.339883Z",
-  "updated_at": "2026-07-14T13:12:52.568958Z",
+  "updated_at": "2026-07-15T13:06:34.794815Z",
   "ticker": "BIIB",
   "drug_name": "Vixotrigine (BIIB074) - (CONVEY)",
   "drug_indication": "Small Fiber Neuropathy",
@@ -1042,7 +1111,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:14:16.900276Z",
-  "updated_at": "2026-07-14T13:11:54.148499Z",
+  "updated_at": "2026-07-15T13:06:07.362568Z",
   "ticker": "BIIB",
   "drug_name": "Gosuranemab (BIIB092)",
   "drug_indication": "Alzheimer\u2019s disease",
@@ -1065,7 +1134,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:06:58.442960Z",
-  "updated_at": "2026-07-14T13:04:23.551011Z",
+  "updated_at": "2026-07-15T13:02:34.408991Z",
   "ticker": "BIIB",
   "drug_name": "BIIB111 - (STAR)",
   "drug_indication": "Choroideremia",
@@ -1088,7 +1157,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:15.245135Z",
-  "updated_at": "2026-07-14T13:07:24.815168Z",
+  "updated_at": "2026-07-15T13:04:02.592153Z",
   "ticker": "BIIB",
   "drug_name": "ADUHELM (Aducanumab)",
   "drug_indication": "Alzheimer\u2019s disease",
@@ -1111,7 +1180,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:07:17.917690Z",
-  "updated_at": "2026-07-14T13:05:10.450675Z",
+  "updated_at": "2026-07-15T13:02:57.400000Z",
   "ticker": "BIIB",
   "drug_name": "BIIB131 (TMS-007)",
   "drug_indication": "Acute ischemic stroke",
@@ -1134,7 +1203,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:52.256319Z",
-  "updated_at": "2026-07-14T13:08:59.481641Z",
+  "updated_at": "2026-07-15T13:04:46.879347Z",
   "ticker": "BIIB",
   "drug_name": "BIIB054",
   "drug_indication": "Parkinson's disease",
@@ -1157,7 +1226,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:40.722332Z",
-  "updated_at": "2026-07-14T13:08:30.846749Z",
+  "updated_at": "2026-07-15T13:04:32.512132Z",
   "ticker": "BIIB",
   "drug_name": "Opicinumab - (AFFINITY)",
   "drug_indication": "Multiple sclerosis (MS)",
@@ -1180,7 +1249,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:09:14.095324Z",
-  "updated_at": "2026-07-14T13:09:56.373650Z",
+  "updated_at": "2026-07-15T13:05:14.569936Z",
   "ticker": "BIIB",
   "drug_name": "Natalizumab - (OPUS)",
   "drug_indication": "Epilepsy",
@@ -1203,7 +1272,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:16.484566Z",
-  "updated_at": "2026-07-14T13:07:26.795628Z",
+  "updated_at": "2026-07-15T13:04:03.928717Z",
   "ticker": "BIIB",
   "drug_name": "Bardoxolone methyl - CATALYST",
   "drug_indication": "Pulmonary arterial hypertension associated with connective tissue disease - CTD-PAH",
@@ -1226,7 +1295,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:10.448995Z",
-  "updated_at": "2026-07-14T13:07:13.478439Z",
+  "updated_at": "2026-07-15T13:03:57.381439Z",
   "ticker": "BIIB",
   "drug_name": "litifilimab (BIIB059) - (TOPAZ-1)",
   "drug_indication": "Lupus",
@@ -1249,7 +1318,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:13:55.057296Z",
-  "updated_at": "2026-07-14T13:10:50.212739Z",
+  "updated_at": "2026-07-15T13:05:39.184661Z",
   "ticker": "BIIB",
   "drug_name": "VUMERITY (Diroximel fumarate)",
   "drug_indication": "Multiple sclerosis (MS)",
@@ -1272,7 +1341,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:38.798059Z",
-  "updated_at": "2026-07-14T13:08:26.839877Z",
+  "updated_at": "2026-07-15T13:04:30.431409Z",
   "ticker": "BIIB",
   "drug_name": "Elenbecestat (E2609) - (MissionAD1)",
   "drug_indication": "Alzheimer\u2019s disease",
@@ -1295,7 +1364,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:09:04.811024Z",
-  "updated_at": "2026-07-14T13:09:30.750915Z",
+  "updated_at": "2026-07-15T13:05:01.660236Z",
   "ticker": "BIIB",
   "drug_name": "Elenbecestat (E2609) - (MissionAD2)",
   "drug_indication": "Alzheimer\u2019s disease",
@@ -1318,7 +1387,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:06:03.472570Z",
-  "updated_at": "2026-07-14T13:02:04.345998Z",
+  "updated_at": "2026-07-15T13:01:27.561884Z",
   "ticker": "BIIB",
   "drug_name": "BG00011 (STX-100)",
   "drug_indication": "Idiopathic pulmonary fibrosis (IPF)",
@@ -1341,7 +1410,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:08.912763Z",
-  "updated_at": "2026-07-14T13:07:09.346862Z",
+  "updated_at": "2026-07-15T13:03:55.556184Z",
   "ticker": "BIIB",
   "drug_name": "Aducanumab - (ENGAGE)",
   "drug_indication": "Alzheimer\u2019s disease",
@@ -1364,7 +1433,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:07:27.824401Z",
-  "updated_at": "2026-07-14T13:05:33.948240Z",
+  "updated_at": "2026-07-15T13:03:10.013880Z",
   "ticker": "BIIB",
   "drug_name": "Raxatrigine (BIIB074)",
   "drug_indication": "Painful Lumbosacral Radiculopathy (PLSR)",
@@ -1387,7 +1456,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:08:16.652696Z",
-  "updated_at": "2026-07-14T13:07:27.307653Z",
+  "updated_at": "2026-07-15T13:04:04.152501Z",
   "ticker": "BIIB",
   "drug_name": "Natalizumab (\u03b14-integrin inhibitor)",
   "drug_indication": "Acute ischemic stroke",
@@ -1410,7 +1479,7 @@
    "name": "Biogen"
   },
   "created_at": "2025-02-21T20:06:54.910415Z",
-  "updated_at": "2026-07-14T13:04:16.868030Z",
+  "updated_at": "2026-07-15T13:02:30.546574Z",
   "ticker": "BIIB",
   "drug_name": "Omaveloxolone - MOTOR",
   "drug_indication": "Mitochondrial myopathies (MM)",

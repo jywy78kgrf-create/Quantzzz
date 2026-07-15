@@ -1,5 +1,51 @@
 [
  {
+  "id": 8172,
+  "company": {
+   "id": 293,
+   "ticker": "ERAS",
+   "name": "Erasca "
+  },
+  "created_at": "2026-07-15T13:02:44.340898Z",
+  "updated_at": "2026-07-15T13:02:44.340922Z",
+  "ticker": "ERAS",
+  "drug_name": "ERAS-0015",
+  "drug_indication": "Metastatic Colorectal Cancer",
+  "airtable_id": 8464,
+  "stage": "Phase 1",
+  "catalyst_date": "2026-07-13",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/13/3326444/0/en/erasca-announces-updated-preliminary-phase-1-data-and-registration-enabling-plans-for-potentially-best-in-class-pan-ras-molecular-glue-eras-0015-in-kras-mutant-solid-tumors.html",
+  "catalyst_text": "Reported favorable Phase 1 combination safety and progress",
+  "detailed_catalyst_text": "In metastatic colorectal cancer, the Phase 1 combination with panitumumab showed no DLTs in the 16 mg cohort and cleared the first dose escalation cohort. These safety findings indicate encouraging tolerability for the combination and supported continued enrollment and dose escalation.",
+  "catalyst_text_evidence": "Promising Combination Potential with Panitumumab in Metastatic Colorectal Cancer (CRC), including Clearance of First Dose Escalation Cohort. No DLTs were observed for the combination in the 16 mg cohort during dose escalation in four DLT-evaluable patients. Backfill enrollment is ongoing in the 16 mg combination cohort. Dose escalation is ongoing with continued enrollment in the 24 mg combination cohort. DCO 2026-07-06.",
+  "news_published_at": "2026-07-15T00:00:00Z",
+  "open_price_gap_percent": "-0.00486",
+  "intra_day_price_change_percent": "-0.02928"
+ },
+ {
+  "id": 8176,
+  "company": {
+   "id": 293,
+   "ticker": "ERAS",
+   "name": "Erasca "
+  },
+  "created_at": "2026-07-15T13:04:09.902170Z",
+  "updated_at": "2026-07-15T13:04:09.902194Z",
+  "ticker": "ERAS",
+  "drug_name": "ERAS-0015",
+  "drug_indication": "KRAS G12X Pancreatic Cancer",
+  "airtable_id": 8463,
+  "stage": "Phase 1",
+  "catalyst_date": "2026-07-13",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/13/3326444/0/en/erasca-announces-updated-preliminary-phase-1-data-and-registration-enabling-plans-for-potentially-best-in-class-pan-ras-molecular-glue-eras-0015-in-kras-mutant-solid-tumors.html",
+  "catalyst_text": "Posted positive Phase 1 data with strong responses",
+  "detailed_catalyst_text": "Updated preliminary Phase 1 results showed a 57% uORR at the recommended expansion dose of 32 mg QD in second-line or later KRAS G12X pancreatic cancer. Safety remained favorable with mostly low-grade TRAEs, no DLTs, and a median relative dose intensity of 100% at 24 mg and 32 mg. These findings demonstrate encouraging monotherapy activity and tolerability supporting continued development.",
+  "catalyst_text_evidence": "SAN DIEGO, 2026-07-13 ... today announced updated preliminary Phase 1 data for its potentially best-in-class, pan-RAS molecular glue ERAS-0015 in patients with RAS-mutant solid tumors. Encouraging Monotherapy Responses Observed in Second Line or Greater (2L+) KRAS G12X Pancreatic Ductal Adenocarcinoma (PDAC) 57% uORR8wk (N=7) at recommended dose for expansion (RDE) of 32 mg QD. With Additional Patients and Longer Follow-up, Monotherapy Safety Data Remained Consistent with Prior Disclosure and ERAS-0015 Continued to be Generally Well-Tolerated. Mostly low-grade TRAEs, no dose-limiting toxicities (DLTs), low rate of dose interruptions or reductions due to TRAEs, and no discontinuations due to TRAEs. Median relative dose intensity (RDI) was 100% at both 24 mg QD and 32 mg QD. Data cutoff (DCO) 2026-05-25.",
+  "news_published_at": "2026-07-15T00:00:00Z",
+  "open_price_gap_percent": "-0.00486",
+  "intra_day_price_change_percent": "-0.02928"
+ },
+ {
   "id": 7279,
   "company": {
    "id": 293,
@@ -7,7 +53,7 @@
    "name": "Erasca "
   },
   "created_at": "2026-04-28T13:05:53.333715Z",
-  "updated_at": "2026-07-14T13:13:00.912719Z",
+  "updated_at": "2026-07-15T13:06:38.750669Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-0015",
   "drug_indication": "RAS-mutant solid tumors",
@@ -30,7 +76,7 @@
    "name": "Erasca "
   },
   "created_at": "2026-04-29T13:01:00.065996Z",
-  "updated_at": "2026-07-14T13:01:38.231841Z",
+  "updated_at": "2026-07-15T13:01:14.699900Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-0015",
   "drug_indication": "KRAS G12X Pancreatic Cancer",
@@ -53,7 +99,7 @@
    "name": "Erasca "
   },
   "created_at": "2026-04-29T13:01:10.747953Z",
-  "updated_at": "2026-07-14T13:01:58.722008Z",
+  "updated_at": "2026-07-15T13:01:25.020742Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-0015",
   "drug_indication": "KRAS G12X Non-Small Cell Lung Cancer",
@@ -76,7 +122,7 @@
    "name": "Erasca "
   },
   "created_at": "2026-04-29T13:03:18.410961Z",
-  "updated_at": "2026-07-14T13:06:26.046264Z",
+  "updated_at": "2026-07-15T13:03:34.946116Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-0015",
   "drug_indication": "Metastatic Colorectal Cancer",
@@ -99,7 +145,7 @@
    "name": "Erasca "
   },
   "created_at": "2026-04-29T13:05:36.160140Z",
-  "updated_at": "2026-07-14T13:11:34.595140Z",
+  "updated_at": "2026-07-15T13:05:58.539260Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-0015",
   "drug_indication": "RAS-mutant Solid Tumors",
@@ -122,7 +168,7 @@
    "name": "Erasca "
   },
   "created_at": "2025-02-21T20:06:13.782340Z",
-  "updated_at": "2026-07-14T13:02:30.353672Z",
+  "updated_at": "2026-07-15T13:01:40.480886Z",
   "ticker": "ERAS",
   "drug_name": "Naporafenib plus trametinib - (SEACRAFT-1)",
   "drug_indication": "RAS Q61X solid tumors",
@@ -145,7 +191,7 @@
    "name": "Erasca "
   },
   "created_at": "2025-02-21T20:07:04.812311Z",
-  "updated_at": "2026-07-14T13:04:37.672124Z",
+  "updated_at": "2026-07-15T13:02:41.993823Z",
   "ticker": "ERAS",
   "drug_name": "Naporafenib plus trametinib (SEACRAFT-2)",
   "drug_indication": "NRASm melanoma",
@@ -168,7 +214,7 @@
    "name": "Erasca "
   },
   "created_at": "2025-02-21T20:13:47.310505Z",
-  "updated_at": "2026-07-14T13:10:29.073038Z",
+  "updated_at": "2026-07-15T13:05:28.756370Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-007 - (HERKULES-3)",
   "drug_indication": "Colorectal cancer and gastrointestinal (GI) cancer",
@@ -191,7 +237,7 @@
    "name": "Erasca "
   },
   "created_at": "2025-02-21T20:13:54.207583Z",
-  "updated_at": "2026-07-14T13:10:48.620293Z",
+  "updated_at": "2026-07-15T13:05:38.339135Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-601 - (FLAGSHP-1)",
   "drug_indication": "Advanced solid tumors",
@@ -214,7 +260,7 @@
    "name": "Erasca "
   },
   "created_at": "2025-02-21T20:06:02.392759Z",
-  "updated_at": "2026-07-14T13:02:01.701735Z",
+  "updated_at": "2026-07-15T13:01:26.396494Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-801 - (THUNDERBBOLT-1)",
   "drug_indication": "Glioblastoma Multiforme",
@@ -237,7 +283,7 @@
    "name": "Erasca "
   },
   "created_at": "2025-02-21T20:06:52.733216Z",
-  "updated_at": "2026-07-14T13:04:09.678379Z",
+  "updated_at": "2026-07-15T13:02:27.340015Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-007 - (HERKULES-1)",
   "drug_indication": "Solid Tumors",
@@ -260,7 +306,7 @@
    "name": "Erasca "
   },
   "created_at": "2025-02-21T20:07:04.389445Z",
-  "updated_at": "2026-07-14T13:04:36.616981Z",
+  "updated_at": "2026-07-15T13:02:41.439056Z",
   "ticker": "ERAS",
   "drug_name": "ERAS-007 (HERKULES-2)",
   "drug_indication": "Non-small-cell Lung Cancer",

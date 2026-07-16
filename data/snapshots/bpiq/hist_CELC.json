@@ -1,5 +1,51 @@
 [
  {
+  "id": 8196,
+  "company": {
+   "id": 1995,
+   "ticker": "CELC",
+   "name": "Celcuity"
+  },
+  "created_at": "2026-07-16T13:06:26.440169Z",
+  "updated_at": "2026-07-16T13:06:26.440199Z",
+  "ticker": "CELC",
+  "drug_name": "REVTORPYK (gedatolisib)",
+  "drug_indication": "HR+/HER2- locally advanced or metastatic breast cancer without a PIK3CA mutation",
+  "airtable_id": 8484,
+  "stage": "Approved",
+  "catalyst_date": "2026-07-14",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60458172/celcuity-announces-fda-approval-revtorpyk-gedatolisib-treatment-hr-her2-pik3ca-wild-type-locally-adv",
+  "catalyst_text": "Received FDA approval for targeted breast cancer indication",
+  "detailed_catalyst_text": "The FDA approved REVTORPYK (gedatolisib) for adults with HR+/HER2- locally advanced or metastatic breast cancer without a PIK3CA mutation after progression on at least one endocrine therapy in the metastatic setting. The approval was supported by Phase 3 VIKTORIA-1 results demonstrating large improvements in progression-free survival and objective response rate versus fulvestrant. This represents the first approval of a pan-PI3K and mTORC1/2 inhibitor for this population.",
+  "catalyst_text_evidence": "Celcuity Inc. (NASDAQ:CELC)... announced that the U.S. Food and Drug Administration (\"FDA\") approved REVTORPYK (gedatolisib) for the treatment of patients with hormone receptor positive (\"HR+\"), human epidermal growth factor receptor 2 negative (\"HER2-\"), locally advanced or metastatic breast cancer without a PIK3CA mutation detected following progression on or after treatment with at least one line of endocrine therapy in the metastatic setting. REVTORPYK is the only inhibitor of class I PI3K isoforms (\u03b1, \u03b2, \u03b4, \u03b3) and mTOR complexes mTORC1 and mTORC2 to receive FDA approval.",
+  "news_published_at": "2026-07-16T00:00:00Z",
+  "open_price_gap_percent": "0.00000",
+  "intra_day_price_change_percent": "0.06995"
+ },
+ {
+  "id": 8200,
+  "company": {
+   "id": 1995,
+   "ticker": "CELC",
+   "name": "Celcuity"
+  },
+  "created_at": "2026-07-16T13:07:15.309025Z",
+  "updated_at": "2026-07-16T13:07:15.309055Z",
+  "ticker": "CELC",
+  "drug_name": "REVTORPYK (gedatolisib)",
+  "drug_indication": "HR+/HER2- locally advanced or metastatic breast cancer with a PIK3CA mutation",
+  "airtable_id": 8485,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-07-14",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60458172/celcuity-announces-fda-approval-revtorpyk-gedatolisib-treatment-hr-her2-pik3ca-wild-type-locally-adv",
+  "catalyst_text": "Presented Phase 3 results at ASCO conference",
+  "detailed_catalyst_text": "Data from the PIK3CA-mutant cohort of the Phase 3 VIKTORIA-1 trial were presented in a late-breaking oral session at ASCO 2026. The cohort evaluated patients with HR+/HER2- locally advanced or metastatic breast cancer with PIK3CA mutations after at least one line of endocrine therapy. This public disclosure adds to the clinical evidence base for this population.",
+  "catalyst_text_evidence": "Celcuity plans to submit in Q3 2026 a supplemental New Drug Application (\"sNDA\") to the FDA for REVTORPYK for the treatment of HR+/HER2-, PIK3CA mutated, locally advanced or metastatic breast cancer, following at least one line of endocrine therapy based on results from the mutant cohort of the Phase 3 VIKTORIA-1 trial. Results for this study were recently presented in a late-breaking abstract oral session at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting.",
+  "news_published_at": "2026-07-16T00:00:00Z",
+  "open_price_gap_percent": "0.00000",
+  "intra_day_price_change_percent": "0.06995"
+ },
+ {
   "id": 7705,
   "company": {
    "id": 1995,
@@ -7,7 +53,7 @@
    "name": "Celcuity"
   },
   "created_at": "2026-06-03T13:00:47.994056Z",
-  "updated_at": "2026-07-15T13:01:00.925474Z",
+  "updated_at": "2026-07-16T13:01:01.795092Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib",
   "drug_indication": "HR+/HER2- Advanced Breast Cancer PIK3CA Mutant",
@@ -30,7 +76,7 @@
    "name": "Celcuity"
   },
   "created_at": "2026-06-03T13:05:01.613540Z",
-  "updated_at": "2026-07-15T13:05:18.444694Z",
+  "updated_at": "2026-07-16T13:06:28.901052Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib",
   "drug_indication": "HR+/HER2- Advanced Breast Cancer PIK3CA Wild-Type",
@@ -53,7 +99,7 @@
    "name": "Celcuity"
   },
   "created_at": "2026-05-15T13:01:10.444683Z",
-  "updated_at": "2026-07-15T13:01:12.405043Z",
+  "updated_at": "2026-07-16T13:01:20.121059Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib",
   "drug_indication": "HR+/HER2-/PIK3CA WT Advanced Breast Cancer",
@@ -76,7 +122,7 @@
    "name": "Celcuity"
   },
   "created_at": "2026-05-05T13:01:10.778429Z",
-  "updated_at": "2026-07-15T13:01:17.483132Z",
+  "updated_at": "2026-07-16T13:01:28.352840Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib",
   "drug_indication": "HR+/HER2- PIK3CA wild-type advanced breast cancer",
@@ -99,7 +145,7 @@
    "name": "Celcuity"
   },
   "created_at": "2026-05-05T13:01:54.635820Z",
-  "updated_at": "2026-07-15T13:01:56.703157Z",
+  "updated_at": "2026-07-16T13:02:22.484272Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib",
   "drug_indication": "HR+/HER2- PIK3CA-mutant advanced breast cancer",
@@ -122,7 +168,7 @@
    "name": "Celcuity"
   },
   "created_at": "2026-01-21T13:05:23.790287Z",
-  "updated_at": "2026-07-15T13:06:33.551916Z",
+  "updated_at": "2026-07-16T13:07:58.116006Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib",
   "drug_indication": "HR+/HER2- PIK3CA Wild-Type Advanced Breast Cancer",
@@ -145,7 +191,7 @@
    "name": "Celcuity"
   },
   "created_at": "2025-12-13T13:04:35.162527Z",
-  "updated_at": "2026-07-15T13:05:27.717676Z",
+  "updated_at": "2026-07-16T13:06:40.291590Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib",
   "drug_indication": "HR+/HER2- Advanced Breast Cancer",
@@ -168,7 +214,7 @@
    "name": "Celcuity"
   },
   "created_at": "2025-11-07T13:01:13.001523Z",
-  "updated_at": "2026-07-15T13:01:43.579039Z",
+  "updated_at": "2026-07-16T13:02:02.896532Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib + palbociclib + fulvestrant (gedatolisib triplet)",
   "drug_indication": "HR+/HER2- Advanced Breast Cancer (ABC)",
@@ -191,7 +237,7 @@
    "name": "Celcuity"
   },
   "created_at": "2025-11-07T13:01:35.154219Z",
-  "updated_at": "2026-07-15T13:02:12.311974Z",
+  "updated_at": "2026-07-16T13:02:42.673855Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib + palbociclib + fulvestrant (gedatolisib triplet)",
   "drug_indication": "HR+/HER2- Advanced Breast Cancer (ABC)",
@@ -214,7 +260,7 @@
    "name": "Celcuity"
   },
   "created_at": "2025-11-07T13:01:41.181106Z",
-  "updated_at": "2026-07-15T13:02:20.839347Z",
+  "updated_at": "2026-07-16T13:02:51.877008Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib + darolutamide (Nubeqa\u00ae)",
   "drug_indication": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
@@ -237,7 +283,7 @@
    "name": "Celcuity"
   },
   "created_at": "2025-11-07T13:04:34.533068Z",
-  "updated_at": "2026-07-15T13:06:04.748174Z",
+  "updated_at": "2026-07-16T13:07:23.115175Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib + darolutamide (Nubeqa\u00ae)",
   "drug_indication": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
@@ -260,7 +306,7 @@
    "name": "Celcuity"
   },
   "created_at": "2025-07-26T13:03:22.147444Z",
-  "updated_at": "2026-07-15T13:04:50.685542Z",
+  "updated_at": "2026-07-16T13:05:55.561011Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib + trastuzumab-pkrb",
   "drug_indication": "HER2+ Metastatic Breast Cancer (mBC)",
@@ -283,7 +329,7 @@
    "name": "Celcuity"
   },
   "created_at": "2025-07-01T13:00:31.510079Z",
-  "updated_at": "2026-07-15T13:00:58.169154Z",
+  "updated_at": "2026-07-16T13:00:56.714211Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib + darolutamide (Nubeqa\u00ae)",
   "drug_indication": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
@@ -306,7 +352,7 @@
    "name": "Celcuity"
   },
   "created_at": "2025-02-21T20:45:59.962706Z",
-  "updated_at": "2026-07-15T13:01:25.149730Z",
+  "updated_at": "2026-07-16T13:01:39.213225Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib with Palbociclib and Letrozole",
   "drug_indication": "Early-Stage Breast Cancer",
@@ -329,7 +375,7 @@
    "name": "Celcuity"
   },
   "created_at": "2025-02-21T20:08:41.988322Z",
-  "updated_at": "2026-07-15T13:04:33.947464Z",
+  "updated_at": "2026-07-16T13:05:34.697084Z",
   "ticker": "CELC",
   "drug_name": "Gedatolisib plus IBRANCE (Palbociclib)",
   "drug_indication": "ER+/HER2-  Breast Cancer",

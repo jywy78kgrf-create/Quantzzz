@@ -72,7 +72,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "11.05",
+   "last_price": "11.20",
    "market_cap": 566674624
   },
   "ticker": "FDMT",
@@ -184,7 +184,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "4.09",
+   "last_price": "4.06",
    "market_cap": 1248158720
   },
   "ticker": "MNKD",
@@ -251,6 +251,108 @@
   "catalyst_date": "2026-07-29",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/16/3312535/0/en/outlook-therapeutics-announces-fda-acceptance-of-resubmitted-biologics-license-application-for-ons-5010-lytenava-bevacizumab-vikg-as-a-treatment-for-wet-amd.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20271,
+  "company": {
+   "ticker": "MRK",
+   "name": "Merck & Co",
+   "last_price": "128.14",
+   "market_cap": 315223703552
+  },
+  "ticker": "MRK",
+  "drug_name": "Islatravir (MK-8591) + Ulonivirine (MK-8507) (Reverse Transcriptase Inhibition)",
+  "indications": [
+   {
+    "id": 1053,
+    "title": "Human immunodeficiency virus",
+    "nickname": "HIV"
+   }
+  ],
+  "indications_text": "HIV-1 Infection",
+  "stage_event": {
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
+   "event_label": "Data readout"
+  },
+  "note": "04/21/26:- MK-8591B-060 and MK-8591B-062 Phase 2b once-weekly oral HIV-1 trials ongoing; no timing provided. 07/15/26:- Week 24 MK-8591B-060 Ph2b primary results presented at AIDS 2026 July 29, 2026.",
+  "catalyst_date": "2026-07-29",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260715827319/en/Merck-to-Present-New-Data-on-Daily-Weekly-and-Monthly-Options-Across-its-HIV-Treatment-and-Prevention-Pipeline-at-AIDS-2026",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20274,
+  "company": {
+   "ticker": "MRK",
+   "name": "Merck & Co",
+   "last_price": "128.14",
+   "market_cap": 315223703552
+  },
+  "ticker": "MRK",
+  "drug_name": "Islatravir (MK-8591) + Lenacapavir (GS-6207) (Reverse Transcriptase/Capsid Inhibition)",
+  "indications": [
+   {
+    "id": 1053,
+    "title": "Human immunodeficiency virus",
+    "nickname": "HIV"
+   }
+  ],
+  "indications_text": "HIV-1 Infection",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "04/21/26:- ISLEND-1 and ISLEND-2 Phase 3 once-weekly oral HIV-1 trials ongoing; no timing provided. 07/15/26:- Week 48 ISLEND-1/2 Ph3 results presented at AIDS 2026 on July 29, 2026.",
+  "catalyst_date": "2026-07-29",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260715827319/en/Merck-to-Present-New-Data-on-Daily-Weekly-and-Monthly-Options-Across-its-HIV-Treatment-and-Prevention-Pipeline-at-AIDS-2026",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20620,
+  "company": {
+   "ticker": "MRK",
+   "name": "Merck & Co",
+   "last_price": "128.14",
+   "market_cap": 315223703552
+  },
+  "ticker": "MRK",
+  "drug_name": "Doravirine/Islatravir (MK-8591) (Reverse Transcriptase Inhibitor)",
+  "indications": [
+   {
+    "id": 1053,
+    "title": "Human immunodeficiency virus",
+    "nickname": "HIV"
+   }
+  ],
+  "indications_text": "Treatment-Na\u00efve HIV-1 Infection",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "07/15/26:- Phase 3 doravirine/islatravir week 48 results to be presented at AIDS 2026 July 29, 2026.",
+  "catalyst_date": "2026-07-29",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260715827319/en/Merck-to-Present-New-Data-on-Daily-Weekly-and-Monthly-Options-Across-its-HIV-Treatment-and-Prevention-Pipeline-at-AIDS-2026",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -486,7 +588,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "24.44",
+   "last_price": "24.33",
    "market_cap": 1779753728
   },
   "ticker": "ZYME",
@@ -754,7 +856,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "19.09",
+   "last_price": "19.88",
    "market_cap": 1588507648
   },
   "ticker": "MLTX",
@@ -1022,7 +1124,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.39",
+   "last_price": "1.41",
    "market_cap": 214407360
   },
   "ticker": "CHRS",
@@ -1567,7 +1669,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.39",
+   "last_price": "1.41",
    "market_cap": 214407360
   },
   "ticker": "CHRS",
@@ -2915,7 +3017,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "4.09",
+   "last_price": "4.06",
    "market_cap": 1248158720
   },
   "ticker": "MNKD",
@@ -3368,7 +3470,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "94.12",
+   "last_price": "100.21",
    "market_cap": 8173499392
   },
   "ticker": "SYRE",
@@ -3582,7 +3684,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "94.12",
+   "last_price": "100.21",
    "market_cap": 8173499392
   },
   "ticker": "SYRE",
@@ -3762,7 +3864,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "11.82",
+   "last_price": "12.12",
    "market_cap": 421775136
   },
   "ticker": "EVMN",
@@ -6254,7 +6356,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "34.47",
+   "last_price": "35.00",
    "market_cap": 1753336448
   },
   "ticker": "IMCR",
@@ -6976,7 +7078,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.74",
+   "last_price": "37.97",
    "market_cap": 1905990400
   },
   "ticker": "NBTX",
@@ -7074,7 +7176,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "15.25",
+   "last_price": "15.66",
    "market_cap": 204730880
   },
   "ticker": "IMUX",
@@ -7186,7 +7288,7 @@
   "company": {
    "ticker": "IVA",
    "name": " Inventiva",
-   "last_price": "4.52",
+   "last_price": "4.63",
    "market_cap": 1067717376
   },
   "ticker": "IVA",
@@ -7347,7 +7449,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.40",
+   "last_price": "5.39",
    "market_cap": 327738784
   },
   "ticker": "VNDA",
@@ -7493,7 +7595,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "34.47",
+   "last_price": "35.00",
    "market_cap": 1753336448
   },
   "ticker": "IMCR",
@@ -8088,7 +8190,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "13.36",
+   "last_price": "13.41",
    "market_cap": 2310432768
   },
   "ticker": "SLS",
@@ -8332,7 +8434,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.74",
+   "last_price": "37.97",
    "market_cap": 1905990400
   },
   "ticker": "NBTX",
@@ -8371,7 +8473,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.74",
+   "last_price": "37.97",
    "market_cap": 1905990400
   },
   "ticker": "NBTX",
@@ -8410,7 +8512,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.74",
+   "last_price": "37.97",
    "market_cap": 1905990400
   },
   "ticker": "NBTX",
@@ -8737,7 +8839,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "34.47",
+   "last_price": "35.00",
    "market_cap": 1753336448
   },
   "ticker": "IMCR",
@@ -8947,7 +9049,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "341.79",
+   "last_price": "352.29",
    "market_cap": 10075885568
   },
   "ticker": "KRYS",
@@ -9483,7 +9585,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1178.99",
+   "last_price": "1176.74",
    "market_cap": 965262180352
   },
   "ticker": "LLY",
@@ -9532,7 +9634,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "341.79",
+   "last_price": "352.29",
    "market_cap": 10075885568
   },
   "ticker": "KRYS",
@@ -10317,7 +10419,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "15.10",
+   "last_price": "16.34",
    "market_cap": 1108416896
   },
   "ticker": "XNCR",
@@ -10351,7 +10453,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "15.10",
+   "last_price": "16.34",
    "market_cap": 1108416896
   },
   "ticker": "XNCR",
@@ -10599,7 +10701,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "341.79",
+   "last_price": "352.29",
    "market_cap": 10075885568
   },
   "ticker": "KRYS",
@@ -10633,7 +10735,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "341.79",
+   "last_price": "352.29",
    "market_cap": 10075885568
   },
   "ticker": "KRYS",
@@ -11744,7 +11846,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "15.10",
+   "last_price": "16.34",
    "market_cap": 1108416896
   },
   "ticker": "XNCR",
@@ -11812,7 +11914,7 @@
   "company": {
    "ticker": "LXEO",
    "name": "Lexeo Therapeutics",
-   "last_price": "4.56",
+   "last_price": "4.70",
    "market_cap": 358058624
   },
   "ticker": "LXEO",
@@ -12475,7 +12577,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "34.47",
+   "last_price": "35.00",
    "market_cap": 1753336448
   },
   "ticker": "IMCR",
@@ -13325,7 +13427,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.40",
+   "last_price": "5.39",
    "market_cap": 327738784
   },
   "ticker": "VNDA",
@@ -13990,7 +14092,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "529.05",
+   "last_price": "536.53",
    "market_cap": 22456442880
   },
   "ticker": "UTHR",
@@ -14126,7 +14228,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "341.79",
+   "last_price": "352.29",
    "market_cap": 10075885568
   },
   "ticker": "KRYS",
@@ -14160,7 +14262,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.04",
+   "last_price": "91.47",
    "market_cap": 5008316928
   },
   "ticker": "ORKA",
@@ -14918,7 +15020,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.40",
+   "last_price": "5.39",
    "market_cap": 327738784
   },
   "ticker": "VNDA",
@@ -16050,7 +16152,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "341.79",
+   "last_price": "352.29",
    "market_cap": 10075885568
   },
   "ticker": "KRYS",
@@ -18638,6 +18740,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19680,
+  "company": {
+   "ticker": "AKBA",
+   "name": "Akebia",
+   "last_price": "1.40",
+   "market_cap": 375561536
+  },
+  "ticker": "AKBA",
+  "drug_name": "AKB-9090 (HIF-PH Inhibitor)",
+  "indications": [
+   {
+    "id": 861,
+    "title": " Acute Kidney Injury",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Acute Kidney Injury Associated With Cardiac Surgery",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "01/12/26:- Phase 1 trial in cardiac surgery-associated acute kidney injury planned for H1 2026. 02/26/26:- Ph1 AKB-9090 in healthy volunteers expected H1 2026; topline data by end of 2026. 04/13/26:- First participants dosed in Ph1 SAD/MAD trial. Topline data planned Early 2027. 05/08/26:- Confirmed Phase 1 AKB-9090 study in up to 70 healthy volunteers; topline data expected early 2027.",
+  "catalyst_date": "2027-03-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3289828/37519/en/Akebia-Therapeutics-Reports-First-Quarter-2026-Financial-Results-and-Commercial-and-Pipeline-Highlights.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19700,
   "company": {
    "ticker": "AKBA",
@@ -18955,6 +19091,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 13460,
+  "company": {
+   "ticker": "AXSM",
+   "name": "Axsome Therapeutics Inc.",
+   "last_price": "230.03",
+   "market_cap": 12198023168
+  },
+  "ticker": "AXSM",
+  "drug_name": "AXS-12 (reboxetine) (NE reuptake inhibitor) ",
+  "indications": [
+   {
+    "id": 919,
+    "title": "Narcolepsy",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Narcolepsy",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "SYMPHONY & ENCORE trials. 3/25/24- Reported topline data, met primary endpoint. 11/26/24- Reported ENCORE long-term data. 12/31/25:- Pre-NDA meeting minutes supports NDA. 2/23/26:- Company now plans to submit NDA in Q1 2026. 05/04/26:- NDA for AXS-12 for cataplexy in narcolepsy has been submitted; awaiting FDA decision on filing acceptance. 06/15/26:- ENCORE Ph3 open-label extension and randomized-withdrawal outcomes presented at SLEEP 2026. 07/15/26:- FDA accepted NDA for AXS-12; PDUFA action date May 1, 2027. No advisory committee planned.",
+  "catalyst_date": "2027-05-01",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/15/3327580/33090/en/axsome-therapeutics-announces-fda-acceptance-of-new-drug-application-for-axs-12-for-the-treatment-of-cataplexy-in-narcolepsy.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 20439,
   "company": {
    "ticker": "BMY",
@@ -18993,7 +19163,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.74",
+   "last_price": "37.97",
    "market_cap": 1905990400
   },
   "ticker": "NBTX",
@@ -19344,7 +19514,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "11.05",
+   "last_price": "11.20",
    "market_cap": 566674624
   },
   "ticker": "FDMT",
@@ -20930,7 +21100,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "37.11",
+   "last_price": "37.40",
    "market_cap": 4222761984
   },
   "ticker": "VKTX",
@@ -21324,7 +21494,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "94.12",
+   "last_price": "100.21",
    "market_cap": 8173499392
   },
   "ticker": "SYRE",
@@ -21363,7 +21533,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "94.12",
+   "last_price": "100.21",
    "market_cap": 8173499392
   },
   "ticker": "SYRE",
@@ -21402,7 +21572,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "34.47",
+   "last_price": "35.00",
    "market_cap": 1753336448
   },
   "ticker": "IMCR",
@@ -21840,7 +22010,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.04",
+   "last_price": "91.47",
    "market_cap": 5008316928
   },
   "ticker": "ORKA",
@@ -21931,6 +22101,40 @@
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/20/3298332/0/en/immunovant-provides-corporate-updates-and-reports-financial-results-for-the-fourth-quarter-and-fiscal-year-ended-march-31-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 19185,
+  "company": {
+   "ticker": "MOLN",
+   "name": "Molecular Partners",
+   "last_price": "4.10",
+   "market_cap": 153795776
+  },
+  "ticker": "MOLN",
+  "drug_name": "MP0317 + Durvalumab + SoC",
+  "indications": [
+   {
+    "id": 1107,
+    "title": "Cholangiocarcinoma",
+    "nickname": "Bile Duct Cancer"
+   }
+  ],
+  "indications_text": "Advanced cholangiocarcinoma",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "IIT trial. 11/24- Presented biomarker data at SITC'24. 8/25/25- Ph2 protocol submitted, RA approval pending. 10/30/25- Ph2 protocol approved. 03/12/26:- Ph2 IIT NCT07036380 in advanced cholangiocarcinoma open; two sites activated; dosing ongoing. 05/12/26:- Phase 2 IIT now has eight sites; randomized 75-patient design; treatment ongoing. 07/16/26:- First patients dosed in Ph2 TACTIC (NCT07036380). Data update 2027; trial completion 2028; ESMO 2026 Oct 23-27.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/16/3328214/0/en/molecular-partners-announces-clinical-progress-in-phase-2-tactic-combination-trial-of-mp0317-for-patients-with-cholangiocarcinoma.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22234,7 +22438,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.04",
+   "last_price": "91.47",
    "market_cap": 5008316928
   },
   "ticker": "ORKA",
@@ -22268,7 +22472,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.04",
+   "last_price": "91.47",
    "market_cap": 5008316928
   },
   "ticker": "ORKA",
@@ -24165,7 +24369,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "13.36",
+   "last_price": "13.41",
    "market_cap": 2310432768
   },
   "ticker": "SLS",
@@ -24934,7 +25138,7 @@
   "company": {
    "ticker": "INSM",
    "name": "Insmed Incorporated",
-   "last_price": "109.54",
+   "last_price": "108.78",
    "market_cap": 23292217344
   },
   "ticker": "INSM",
@@ -25349,7 +25553,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1178.99",
+   "last_price": "1176.74",
    "market_cap": 965262180352
   },
   "ticker": "LLY",
@@ -26820,7 +27024,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "19.09",
+   "last_price": "19.88",
    "market_cap": 1588507648
   },
   "ticker": "MLTX",
@@ -27759,6 +27963,55 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19603,
+  "company": {
+   "ticker": "AZN",
+   "name": "Astrazeneca",
+   "last_price": "169.29",
+   "market_cap": 262547947520
+  },
+  "ticker": "AZN",
+  "drug_name": "Enhertu/Trastuzumab Deruxtecan (DS-8201a) (HER2-Targeted ADC)",
+  "indications": [
+   {
+    "id": 947,
+    "title": "Breast cancer",
+    "nickname": ""
+   },
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 918,
+    "title": "HER2-expressing cancers",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "HER2-Positive Early Breast Cancer With Residual Disease After Neoadjuvant Therapy",
+  "stage_event": {
+   "id": 99,
+   "label": "Approved Update",
+   "stage_label": "Approved",
+   "event_label": "Update"
+  },
+  "note": "12/19/25:- BTD granted in US for HER2+ early breast cancer residual disease per DESTINY-Breast05 ESMO25 results. 03/06/26:- U.S. sBLA accepted; Priority Review granted. PDUFA July 7, 2026. 04/29/26:- DESTINY-Breast05 filings accepted in EU, Japan, and China for residual disease. 05/15/26:- FDA approved adjuvant ENHERTU for residual invasive HER2+ breast cancer after neoadjuvant therapy. 05/22/26:- DESTINY-Breast05 ILD and radiation pneumonitis risk analysis presented at ASCO 2026 on Jun 1, 2026.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260522049385/en/AstraZeneca-to-showcase-Phase-III-data-in-liver-breast-and-bladder-cancers-and-potential-first-in-class-rare-disease-therapy-at-ASCO-2026",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19656,
   "company": {
    "ticker": "BMRN",
@@ -27831,7 +28084,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1178.99",
+   "last_price": "1176.74",
    "market_cap": 965262180352
   },
   "ticker": "LLY",

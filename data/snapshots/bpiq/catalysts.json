@@ -301,7 +301,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "9.17",
+   "last_price": "9.72",
    "market_cap": 579013312
   },
   "ticker": "RGNX",
@@ -379,7 +379,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "9.67",
+   "last_price": "9.72",
    "market_cap": 799157952
   },
   "ticker": "REPL",
@@ -2453,7 +2453,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "308.20",
+   "last_price": "317.66",
    "market_cap": 8592238592
   },
   "ticker": "PRAX",
@@ -2881,7 +2881,7 @@
   "company": {
    "ticker": "RNTX",
    "name": "Rein Therapeutics",
-   "last_price": "0.86",
+   "last_price": "0.91",
    "market_cap": 73734648
   },
   "ticker": "RNTX",
@@ -4267,6 +4267,187 @@
   "catalyst_date": "2026-10-23",
   "has_catalyst": true,
   "catalyst_source": "https://www.esmo.org/meeting-calendar/esmo-congress-2026",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 16776,
+  "company": {
+   "ticker": "IDYA",
+   "name": "IDEAYA Biosciences",
+   "last_price": "35.93",
+   "market_cap": 3459153664
+  },
+  "ticker": "IDYA",
+  "drug_name": "Darovasertib ",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   },
+   {
+    "id": 1156,
+    "title": "Uveal melanoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Uveal melanoma",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "OptimUM-10 Ph3 trial. 9/23/24- Interim data & successful FDA Type C meeting. 3/31/25- Received FDA BTD. 9/8/25- Announced interim Ph2 data. 11/04/25:- Positive data reported; initiated Ph3 trial; Servier ex-US licensing finalized. 02/17/26:- Enrollment ongoing; full enrollment of ~450 patients targeted by H1 2027. 05/05/26:- Targeting OptimUM-09 Ph2 data update H2 2026; OptimUM-10 Ph3 full enrollment now expected YE 2027. 07/17/26:- OptimUM-09 Ph2 follow-up data to be presented at ESMO Oct 23-27, 2026.",
+  "catalyst_date": "2026-10-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/n60521426/ideaya-biosciences-announces-esmo-2026-presentations-darovasertib-and-ide849-clinical-programs",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 18267,
+  "company": {
+   "ticker": "IDYA",
+   "name": "IDEAYA Biosciences",
+   "last_price": "35.93",
+   "market_cap": 3459153664
+  },
+  "ticker": "IDYA",
+  "drug_name": "Darovasertib (IDE196) + crizotinib ",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 2177,
+    "title": "Cutaneous Melanoma",
+    "nickname": ""
+   },
+   {
+    "id": 888,
+    "title": "Metastatic uveal melanoma",
+    "nickname": "MUM"
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Solid tumor/s, Metastatic uveal melanoma, Cancer, Cutaneous Melanoma",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "IDE196-001 trial. Collab w/ Pfizer. 8/29/25-Present Ph2 Median OS data at SMR in October 25-28, 2025. 11/04/25:- OptimUM-01 Ph2 1L mUM data: 21.1m OS, 7.0m PFS, 34% ORR, 90% DCR, manageable safety. 02/17/26:- OptimUM-01 Phase 2 HLA*A2-positive metastatic uveal melanoma enrollment ~100 patients targeted complete by Q2 2026. 05/05/26:- Completed OptimUM-01 Ph2 HLA*A2-positive mUM enrollment; data from over 85 patients planned H2 2026. 07/17/26:- OptimUM-01 Ph2 results to be presented at ESMO Oct 23-27, 2026.",
+  "catalyst_date": "2026-10-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/n60521426/ideaya-biosciences-announces-esmo-2026-presentations-darovasertib-and-ide849-clinical-programs",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 18674,
+  "company": {
+   "ticker": "IDYA",
+   "name": "IDEAYA Biosciences",
+   "last_price": "35.93",
+   "market_cap": 3459153664
+  },
+  "ticker": "IDYA",
+  "drug_name": "IDE849 (SHR-4849)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1158,
+    "title": "Small cell lung cancer",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Solid tumors",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "Licensed from Jiangsu Hengrui. 5/6/25- FDA IND-clearance to initiate Ph1 trial in the US. 9/8/25- Present Ph1 data at IASLC 2025. 11/04/25:- WCLC Ph1 SCLC data show high ORR; global trial enrolling, US FPI achieved; NET/DLL3 tumor expansion planned YE 2025. 02/17/26:- Preliminary global Phase 1 IDE849 data and initiation of 2L+ SCLC/NEC monotherapy registrational study targeted by YE 2026. 03/30/26:- Ph1 IDE849 multiple PRs; registrational study planned YE 2026; monotherapy and IDE161 combo data update H2 2026. 05/05/26:- Targeting global IDE849 Ph1/2 data update and monotherapy registrational trial YE 2026; added Imfinzi combo and China Ph3 2027. 07/17/26:- China Ph1 long-term results to be presented at ESMO Oct 23-27, 2026. Registrational trial targeted YE 2026.",
+  "catalyst_date": "2026-10-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/n60521426/ideaya-biosciences-announces-esmo-2026-presentations-darovasertib-and-ide849-clinical-programs",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 16039,
+  "company": {
+   "ticker": "EVAX",
+   "name": "Evaxion Biotech",
+   "last_price": "3.12",
+   "market_cap": 26021470
+  },
+  "ticker": "EVAX",
+  "drug_name": "EVX-01 + pembrolizumab",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1060,
+    "title": "Melanoma",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Melanoma",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "04/17/26:- New Ph2 immune-response data to be presented at AACR Apr 22, 2026. Three-year clinical data expected H2 2026. 05/07/26:- Ph2 AACR data showed 86% target response; one-year extension completed; three-year data expected H2 2026. 07/17/26:- Ph2 three-year efficacy data to be presented at ESMO on Oct 24, 2026.",
+  "catalyst_date": "2026-10-24",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60519231/evaxion-present-three-year-clinical-efficacy-data-personalized-cancer-vaccine-evx-01-esmo-congress-2",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5770,7 +5951,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "5.89",
+   "last_price": "6.12",
    "market_cap": 965032576
   },
   "ticker": "ANNX",
@@ -6659,50 +6840,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 16039,
-  "company": {
-   "ticker": "EVAX",
-   "name": "Evaxion Biotech",
-   "last_price": "3.12",
-   "market_cap": 26021470
-  },
-  "ticker": "EVAX",
-  "drug_name": "EVX-01 + pembrolizumab",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1060,
-    "title": "Melanoma",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Melanoma",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "04/17/26:- New Ph2 immune-response data to be presented at AACR Apr 22, 2026. Three-year clinical data expected H2 2026. 05/07/26:- Ph2 AACR data showed 86% target response; one-year extension completed; three-year data expected H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3289858/0/en/evaxion-announces-business-update-and-first-quarter-2026-financial-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 16061,
   "company": {
    "ticker": "ADCT",
@@ -6937,7 +7074,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "14.80",
+   "last_price": "15.10",
    "market_cap": 204730880
   },
   "ticker": "IMUX",
@@ -7318,50 +7455,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 16776,
-  "company": {
-   "ticker": "IDYA",
-   "name": "IDEAYA Biosciences",
-   "last_price": "35.93",
-   "market_cap": 3459153664
-  },
-  "ticker": "IDYA",
-  "drug_name": "Darovasertib ",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   },
-   {
-    "id": 1156,
-    "title": "Uveal melanoma",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Uveal melanoma",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "OptimUM-10 Ph3 trial. 9/23/24- Interim data & successful FDA Type C meeting. 3/31/25- Received FDA BTD. 9/8/25- Announced interim Ph2 data. 11/04/25:- Positive data reported; initiated Ph3 trial; Servier ex-US licensing finalized. 02/17/26:- Enrollment ongoing; full enrollment of ~450 patients targeted by H1 2027. 05/05/26:- Targeting OptimUM-09 Ph2 data update H2 2026; OptimUM-10 Ph3 full enrollment now expected YE 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/ideaya-biosciences-reports-first-quarter-2026-financial-results-and-provides-business-update-302762088.html",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 16839,
   "company": {
    "ticker": "ARGX",
@@ -7512,7 +7605,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "9.17",
+   "last_price": "9.72",
    "market_cap": 579013312
   },
   "ticker": "RGNX",
@@ -7556,7 +7649,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "5.89",
+   "last_price": "6.12",
    "market_cap": 965032576
   },
   "ticker": "ANNX",
@@ -7766,7 +7859,7 @@
   "company": {
    "ticker": "ATAI",
    "name": "ATAI Life Sciences",
-   "last_price": "7.15",
+   "last_price": "7.19",
    "market_cap": 2632391936
   },
   "ticker": "ATAI",
@@ -8117,7 +8210,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "31.47",
+   "last_price": "31.82",
    "market_cap": 3629868288
   },
   "ticker": "NAMS",
@@ -10965,55 +11058,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 18267,
-  "company": {
-   "ticker": "IDYA",
-   "name": "IDEAYA Biosciences",
-   "last_price": "35.93",
-   "market_cap": 3459153664
-  },
-  "ticker": "IDYA",
-  "drug_name": "Darovasertib (IDE196) + crizotinib ",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 2177,
-    "title": "Cutaneous Melanoma",
-    "nickname": ""
-   },
-   {
-    "id": 888,
-    "title": "Metastatic uveal melanoma",
-    "nickname": "MUM"
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Solid tumor/s, Metastatic uveal melanoma, Cancer, Cutaneous Melanoma",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "IDE196-001 trial. Collab w/ Pfizer. 8/29/25-Present Ph2 Median OS data at SMR in October 25-28, 2025. 11/04/25:- OptimUM-01 Ph2 1L mUM data: 21.1m OS, 7.0m PFS, 34% ORR, 90% DCR, manageable safety. 02/17/26:- OptimUM-01 Phase 2 HLA*A2-positive metastatic uveal melanoma enrollment ~100 patients targeted complete by Q2 2026. 05/05/26:- Completed OptimUM-01 Ph2 HLA*A2-positive mUM enrollment; data from over 85 patients planned H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/general-business-latest-news/earnings-list/",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 18282,
   "company": {
    "ticker": "COYA",
@@ -11841,7 +11885,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "9.67",
+   "last_price": "9.72",
    "market_cap": 799157952
   },
   "ticker": "REPL",
@@ -12466,50 +12510,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 18674,
-  "company": {
-   "ticker": "IDYA",
-   "name": "IDEAYA Biosciences",
-   "last_price": "35.93",
-   "market_cap": 3459153664
-  },
-  "ticker": "IDYA",
-  "drug_name": "IDE849 (SHR-4849)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1158,
-    "title": "Small cell lung cancer",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Solid tumors",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "Licensed from Jiangsu Hengrui. 5/6/25- FDA IND-clearance to initiate Ph1 trial in the US. 9/8/25- Present Ph1 data at IASLC 2025. 11/04/25:- WCLC Ph1 SCLC data show high ORR; global trial enrolling, US FPI achieved; NET/DLL3 tumor expansion planned YE 2025. 02/17/26:- Preliminary global Phase 1 IDE849 data and initiation of 2L+ SCLC/NEC monotherapy registrational study targeted by YE 2026. 03/30/26:- Ph1 IDE849 multiple PRs; registrational study planned YE 2026; monotherapy and IDE161 combo data update H2 2026. 05/05/26:- Targeting global IDE849 Ph1/2 data update and monotherapy registrational trial YE 2026; added Imfinzi combo and China Ph3 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/general-business-latest-news/earnings-list/",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 18679,
   "company": {
    "ticker": "GLUE",
@@ -12931,7 +12931,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.38",
+   "last_price": "5.48",
    "market_cap": 748597312
   },
   "ticker": "ACRS",
@@ -12965,7 +12965,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.38",
+   "last_price": "5.48",
    "market_cap": 748597312
   },
   "ticker": "ACRS",
@@ -13111,7 +13111,7 @@
   "company": {
    "ticker": "KNSA",
    "name": "Kiniksa Pharmaceuticals",
-   "last_price": "62.12",
+   "last_price": "62.86",
    "market_cap": 4701682176
   },
   "ticker": "KNSA",
@@ -14296,7 +14296,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "31.47",
+   "last_price": "31.82",
    "market_cap": 3629868288
   },
   "ticker": "NAMS",
@@ -14476,7 +14476,7 @@
   "company": {
    "ticker": "KTTA",
    "name": "Pasithea Therapeutics",
-   "last_price": "0.46",
+   "last_price": "0.45",
    "market_cap": 15277085
   },
   "ticker": "KTTA",
@@ -17198,10 +17198,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "05/12/26:- Study 302 12-month data and Study 304 topline data expected H2 2026. 05/27/26:- Study 302 Part A topline results presented at WCHR May 30, 2026.",
+  "note": "05/12/26:- Study 302 12-month data and Study 304 topline data expected H2 2026. 05/27/26:- Study 302 Part A topline results presented at WCHR May 30, 2026. 07/17/26:- Study 302 age subgroup data presented at AAD. Study 304 topline results still expected H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260527702949/en/Veradermics-Announces-Poster-Presentation-on-Topline-Results-from-Phase-23-302-Study-of-VDPHL01-at-the-2026-World-Congress-for-Hair-Research",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/b60519388/veradermics-announces-presentations-data-subgroup-analysis-phase-2-3-study-302-males-pattern-hair-lo",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -17359,7 +17359,7 @@
   "company": {
    "ticker": "CUE",
    "name": "Cue Biopharma",
-   "last_price": "27.48",
+   "last_price": "29.47",
    "market_cap": 116727536
   },
   "ticker": "CUE",
@@ -17844,7 +17844,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "308.20",
+   "last_price": "317.66",
    "market_cap": 8592238592
   },
   "ticker": "PRAX",
@@ -18292,7 +18292,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "9.67",
+   "last_price": "9.72",
    "market_cap": 799157952
   },
   "ticker": "REPL",
@@ -18506,7 +18506,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "31.47",
+   "last_price": "31.82",
    "market_cap": 3629868288
   },
   "ticker": "NAMS",
@@ -19971,10 +19971,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "9/15/25- Ph1b/2 MAD study initiated; topline data in H2 2026. Ph1a SAD data in Q4 2025. 11/12/25:- Ph1a data still expected Q4 2025. 12/17/25:- Initial Ph1a SAD data positive with single-dose efficacy. Ph1b/2 preliminary data expected H2 2026. 01/28/26:- Phase 1 SAD data to be presented at Macula Society on February 26, 2026. 03/17/26:- Ph1a SAD data detailed; Ph1b/2 preliminary data now expected H1 2027; plan Ph3 start by YE 2027. 05/12/26:- Patient screening underway in Ph1b/2 MAD; prelim data still expected H1 2027; Ph3 start YE 2027. 06/12/26:- Ph1a SAD data to be presented at CTS 2026 on June 13, 2026. 06/23/26:- Phase 1a data to be presented at ASRS on July 17, 2026. Ph1b/2 enrolling; initial data still H1 2027.",
+  "note": "9/15/25- Ph1b/2 MAD study initiated; topline data in H2 2026. Ph1a SAD data in Q4 2025. 11/12/25:- Ph1a data still expected Q4 2025. 12/17/25:- Initial Ph1a SAD data positive with single-dose efficacy. Ph1b/2 preliminary data expected H2 2026. 01/28/26:- Phase 1 SAD data to be presented at Macula Society on February 26, 2026. 03/17/26:- Ph1a SAD data detailed; Ph1b/2 preliminary data now expected H1 2027; plan Ph3 start by YE 2027. 05/12/26:- Patient screening underway in Ph1b/2 MAD; prelim data still expected H1 2027; Ph3 start YE 2027. 06/12/26:- Ph1a SAD data to be presented at CTS 2026 on June 13, 2026. 06/23/26:- Phase 1a data to be presented at ASRS on July 17, 2026. Ph1b/2 enrolling; initial data still H1 2027. 07/17/26:- Expanded Ph1a SAD data positive at ASRS 2026; Ph1b/2 MAD enrollment ongoing; initial data still H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/23/3315872/0/en/kalaris-announces-upcoming-presentation-of-th103-phase-1a-clinical-data-at-american-society-of-retina-specialists-ph-1b-2-clinical-trial-actively-enrolling.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60518889/kalaris-therapeutics-reports-positive-th103-phase-1a-sad-results-expanded-neovascular-amd-cohorts",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20273,7 +20273,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "21.02",
+   "last_price": "20.57",
    "market_cap": 1877908352
   },
   "ticker": "KARD",
@@ -20307,7 +20307,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "21.02",
+   "last_price": "20.57",
    "market_cap": 1877908352
   },
   "ticker": "KARD",
@@ -20341,7 +20341,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "21.02",
+   "last_price": "20.57",
    "market_cap": 1877908352
   },
   "ticker": "KARD",
@@ -20677,7 +20677,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "208.92",
+   "last_price": "211.16",
    "market_cap": 30844346368
   },
   "ticker": "BIIB",
@@ -21178,7 +21178,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "308.20",
+   "last_price": "317.66",
    "market_cap": 8592238592
   },
   "ticker": "PRAX",
@@ -22574,7 +22574,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "208.92",
+   "last_price": "211.16",
    "market_cap": 30844346368
   },
   "ticker": "BIIB",
@@ -25383,7 +25383,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "208.92",
+   "last_price": "211.16",
    "market_cap": 30844346368
   },
   "ticker": "BIIB",
@@ -25456,7 +25456,7 @@
   "company": {
    "ticker": "ATAI",
    "name": "ATAI Life Sciences",
-   "last_price": "7.15",
+   "last_price": "7.19",
    "market_cap": 2632391936
   },
   "ticker": "ATAI",
@@ -25953,7 +25953,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "208.92",
+   "last_price": "211.16",
    "market_cap": 30844346368
   },
   "ticker": "BIIB",
@@ -26279,7 +26279,7 @@
   "company": {
    "ticker": "KTTA",
    "name": "Pasithea Therapeutics",
-   "last_price": "0.46",
+   "last_price": "0.45",
    "market_cap": 15277085
   },
   "ticker": "KTTA",
@@ -26450,7 +26450,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "308.20",
+   "last_price": "317.66",
    "market_cap": 8592238592
   },
   "ticker": "PRAX",
@@ -26528,7 +26528,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "208.92",
+   "last_price": "211.16",
    "market_cap": 30844346368
   },
   "ticker": "BIIB",

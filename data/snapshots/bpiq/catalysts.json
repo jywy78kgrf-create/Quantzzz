@@ -2021,6 +2021,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 18855,
+  "company": {
+   "ticker": "OSTX",
+   "name": "OS Therapies",
+   "last_price": "1.53",
+   "market_cap": 68143296
+  },
+  "ticker": "OSTX",
+  "drug_name": "OST-HER2",
+  "indications": [
+   {
+    "id": 1109,
+    "title": "Osteosarcoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Pediatric lung metastatic osteosarcoma",
+  "stage_event": {
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
+   "event_label": "Data readout"
+  },
+  "note": "05/18/26:- FDA/MHRA meetings and ASCO 2026 2.5-year OS precede BLA/MAA filings; H2 2026 Ph3, 3-year OS, decisions. 06/02/26:- 2.5-year OS 75%. FDA/MHRA mtgs Early Jun 2026; 3-year OS Early Q4 2026; Ph3 Late Q3 2026. 06/08/26:- FDA and MHRA aligned on Ph3 design. Ph3 starts Late Q3 2026; potential Q4 2026 decisions. 06/30/26:- Type B FDA meeting requested. Ph2b 3-year OS data readout expected Early Fall 2026.",
+  "catalyst_date": "2026-08-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/06/60181605/os-therapies-provides-u-s-regulatory-update",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18942,
   "company": {
    "ticker": "BIVI",
@@ -2345,40 +2379,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
- },
- {
-  "id": 18855,
-  "company": {
-   "ticker": "OSTX",
-   "name": "OS Therapies",
-   "last_price": "1.53",
-   "market_cap": 68143296
-  },
-  "ticker": "OSTX",
-  "drug_name": "OST-HER2",
-  "indications": [
-   {
-    "id": 1109,
-    "title": "Osteosarcoma",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Pediatric lung metastatic osteosarcoma",
-  "stage_event": {
-   "id": 146,
-   "label": "Phase 2b Data readout",
-   "stage_label": "Phase 2b",
-   "event_label": "Data readout"
-  },
-  "note": "05/18/26:- FDA/MHRA meetings and ASCO 2026 2.5-year OS precede BLA/MAA filings; H2 2026 Ph3, 3-year OS, decisions. 06/02/26:- 2.5-year OS 75%. FDA/MHRA mtgs Early Jun 2026; 3-year OS Early Q4 2026; Ph3 Late Q3 2026. 06/08/26:- FDA and MHRA aligned on Ph3 design. Ph3 starts Late Q3 2026; potential Q4 2026 decisions. 06/30/26:- Type B FDA meeting requested. Ph2b 3-year OS data readout expected Early Fall 2026.",
-  "catalyst_date": "2026-09-22",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/06/60181605/os-therapies-provides-u-s-regulatory-update",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
  },
  {
   "id": 20361,
@@ -3619,40 +3619,6 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
-  "id": 19046,
-  "company": {
-   "ticker": "RFL",
-   "name": "Rafael Holdings Inc",
-   "last_price": "2.15",
-   "market_cap": 111800000
-  },
-  "ticker": "RFL",
-  "drug_name": "Trappsol\u00ae Cyclo\u2122 (hydroxypropyl-beta-cyclodextrin)",
-  "indications": [
-   {
-    "id": 1164,
-    "title": "Niemann Pick Disease Type C",
-    "nickname": "NPC"
-   }
-  ],
-  "indications_text": "Niemann-Pick Disease Type C1 (NPC1)",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "06/11/26:- TransportNPC pre-NDA meeting completed. NDA submission expected H2 2026; Ph3 topline data expected Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/11/3310357/0/en/rafael-holdings-reports-third-quarter-fiscal-2026-financial-results.html",
-  "is_big_mover": true,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": true,
   "is_high_mgmt_interest": true
  },
  {
@@ -14027,6 +13993,40 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 19046,
+  "company": {
+   "ticker": "RFL",
+   "name": "Rafael Holdings Inc",
+   "last_price": "2.15",
+   "market_cap": 111800000
+  },
+  "ticker": "RFL",
+  "drug_name": "Trappsol\u00ae Cyclo\u2122 (hydroxypropyl-beta-cyclodextrin)",
+  "indications": [
+   {
+    "id": 1164,
+    "title": "Niemann Pick Disease Type C",
+    "nickname": "NPC"
+   }
+  ],
+  "indications_text": "Niemann-Pick Disease Type C1 (NPC1)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "06/11/26:- TransportNPC pre-NDA meeting completed. NDA submission expected H2 2026; Ph3 topline data expected Q3 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/11/3310357/0/en/rafael-holdings-reports-third-quarter-fiscal-2026-financial-results.html",
+  "is_big_mover": true,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": true,
   "is_high_mgmt_interest": true
  },
  {

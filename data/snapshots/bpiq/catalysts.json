@@ -82,7 +82,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "4.01",
+   "last_price": "4.00",
    "market_cap": 1245069312
   },
   "ticker": "MNKD",
@@ -1212,7 +1212,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.50",
+   "last_price": "2.55",
    "market_cap": 20059448
   },
   "ticker": "CLRB",
@@ -1285,7 +1285,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "6.20",
+   "last_price": "6.06",
    "market_cap": 1974251904
   },
   "ticker": "ABCL",
@@ -1319,7 +1319,7 @@
   "company": {
    "ticker": "SION",
    "name": "Sionna Therapeutics",
-   "last_price": "46.32",
+   "last_price": "45.26",
    "market_cap": 2230877696
   },
   "ticker": "SION",
@@ -1387,7 +1387,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.50",
+   "last_price": "2.55",
    "market_cap": 20059448
   },
   "ticker": "CLRB",
@@ -1987,40 +1987,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 17283,
-  "company": {
-   "ticker": "ACAD",
-   "name": "ACADIA Pharmaceuticals",
-   "last_price": "25.60",
-   "market_cap": 4383638528
-  },
-  "ticker": "ACAD",
-  "drug_name": "ACP-204",
-  "indications": [
-   {
-    "id": 1311,
-    "title": "Alzheimer's disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Alzheimer's disease",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "8/2/23- Completed Ph1 development. 11/27/23- Ph2 trial initiated. 11/07/24- Ongoing development. 11/05/25:- PR No update. 05/06/26:- Reaffirmed expectation for Phase 2 remlifanserin Alzheimer's psychosis topline data between August and October 2026.",
-  "catalyst_date": "2026-08-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260506206885/en/Acadia-Pharmaceuticals-Reports-First-Quarter-2026-Financial-Results-and-Reaffirms-2026-Financial-Guidance",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 18855,
   "company": {
    "ticker": "OSTX",
@@ -2093,7 +2059,7 @@
   "company": {
    "ticker": "SION",
    "name": "Sionna Therapeutics",
-   "last_price": "46.32",
+   "last_price": "45.26",
    "market_cap": 2230877696
   },
   "ticker": "SION",
@@ -2385,7 +2351,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "118.86",
+   "last_price": "117.03",
    "market_cap": 7248228864
   },
   "ticker": "MIRM",
@@ -2613,10 +2579,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "03/31/26:- Resubmitted SMA BLA; FDA acceptance expected within 30 days. PDUFA action expected Late September 2026. 05/07/26:- FDA accepted SAPPHIRE-based apitegromab BLA; PDUFA action date September 30, 2026; OPAL Ph2 enrolling infants.",
+  "note": "03/31/26:- Resubmitted SMA BLA; FDA acceptance expected within 30 days. PDUFA action expected Late September 2026. 05/07/26:- FDA accepted SAPPHIRE-based apitegromab BLA; PDUFA action date September 30, 2026; OPAL Ph2 enrolling infants. 07/19/26:- CHMP opinion timing depends on Catalent Indiana classification; could be later 2026. Update Aug 6, 2026.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260507365694/en/Scholar-Rock-Reports-First-Quarter-2026-Financial-Results-and-Recent-Business-Highlights",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/b60548008/scholar-rock-provides-update-timing-committee-medicinal-products-human-use-chmp-opinion-apitegromab-",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -2770,6 +2736,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 17283,
+  "company": {
+   "ticker": "ACAD",
+   "name": "ACADIA Pharmaceuticals",
+   "last_price": "25.60",
+   "market_cap": 4383638528
+  },
+  "ticker": "ACAD",
+  "drug_name": "ACP-204",
+  "indications": [
+   {
+    "id": 1311,
+    "title": "Alzheimer's disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alzheimer's disease",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "8/2/23- Completed Ph1 development. 11/27/23- Ph2 trial initiated. 11/07/24- Ongoing development. 11/05/25:- PR No update. 05/06/26:- Reaffirmed expectation for Phase 2 remlifanserin Alzheimer's psychosis topline data between August and October 2026. 07/20/26:- RADIANT Ph2 enrollment completed; topline expected September To October 2026; Phase 3 screening and enrollment underway; Fast Track granted.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/b60549998/acadia-pharmaceuticals-receives-fda-fast-track-designation-remlifanserin-alzheimer-s-disease-psychos",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 17384,
   "company": {
    "ticker": "BIVI",
@@ -2915,7 +2915,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "4.01",
+   "last_price": "4.00",
    "market_cap": 1245069312
   },
   "ticker": "MNKD",
@@ -3280,10 +3280,10 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- HALT-CINP enrolled 164 patients; Ph2b top-line results remain expected Fall 2026. 05/18/26:- Ph2b 12-week extension began. Topline results still expected Fall 2026. Ph3 start projected H1 2027.",
+  "note": "05/14/26:- HALT-CINP enrolled 164 patients; Ph2b top-line results remain expected Fall 2026. 05/18/26:- Ph2b 12-week extension began. Topline results still expected Fall 2026. Ph3 start projected H1 2027. 07/20/26:- HAL-CINP (NCT06848348) enrolled 200; unblinded review showed placebo separation. Topline data still expected Fall 2026.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/18/3296648/0/en/dogwood-therapeutics-announces-commencement-of-halneuron-chemotherapy-induced-neuropathic-pain-phase-2b-long-term-extension-study.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60548739/dogwood-enrolls-first-200-patients-ongoing-halneuron-phase-2b-chemotherapy-induced-neuropathy-trial-",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -3626,7 +3626,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "6.20",
+   "last_price": "6.06",
    "market_cap": 1974251904
   },
   "ticker": "ABCL",
@@ -5804,7 +5804,7 @@
   "company": {
    "ticker": "NCNA",
    "name": "Nucana",
-   "last_price": "1.32",
+   "last_price": "1.26",
    "market_cap": 5472992
   },
   "ticker": "NCNA",
@@ -5995,7 +5995,7 @@
   "company": {
    "ticker": "ABOS",
    "name": "Acumen Pharmaceuticals",
-   "last_price": "2.25",
+   "last_price": "2.21",
    "market_cap": 162512064
   },
   "ticker": "ABOS",
@@ -7152,7 +7152,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "15.10",
+   "last_price": "15.34",
    "market_cap": 206501680
   },
   "ticker": "IMUX",
@@ -7488,10 +7488,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "8/10/23- Present initial data at ESMO. 10/21/23- Initial Ph1 dose escalation data. 4/16/24 First patient dosed in all 3 expansion cohorts w/ NSCLC. 10/23/24 Poster presentation at EORTC-NCI-AACR 2024. 1/13/25- To initiate subq amivantamab cohort in Q1 '25, data in H2 2025 and in mid-2026. 11/13/25:- ESMO Asia 2025 data in December 2025 for multiple NSCLC EGFR/HER2 mutant cohorts. 12/05/25:- Reported ESMO Asia 2025 Ph1b NSCLC exon 20 data; next update expected Mid-2026. 01/12/26:- ESMO Asia Ph1b NSCLC showed strong systemic/CNS activity; 2H 2026 1L EGFR exon20/PACC monotherapy data planned. 02/23/26:- Reiterated plan for 2H 2026 1L EGFR exon20 and PACC monotherapy and SC amivantamab combo data. 05/04/26:- Completed 1L EGFR exon20 monotherapy Ph1b enrollment; 2H 2026 1L EGFR atypical, exon20 and SC amivantamab data expected.",
+  "note": "8/10/23- Present initial data at ESMO. 10/21/23- Initial Ph1 dose escalation data. 4/16/24 First patient dosed in all 3 expansion cohorts w/ NSCLC. 10/23/24 Poster presentation at EORTC-NCI-AACR 2024. 1/13/25- To initiate subq amivantamab cohort in Q1 '25, data in H2 2025 and in mid-2026. 11/13/25:- ESMO Asia 2025 data in December 2025 for multiple NSCLC EGFR/HER2 mutant cohorts. 12/05/25:- Reported ESMO Asia 2025 Ph1b NSCLC exon 20 data; next update expected Mid-2026. 01/12/26:- ESMO Asia Ph1b NSCLC showed strong systemic/CNS activity; 2H 2026 1L EGFR exon20/PACC monotherapy data planned. 02/23/26:- Reiterated plan for 2H 2026 1L EGFR exon20 and PACC monotherapy and SC amivantamab combo data. 05/04/26:- Completed 1L EGFR exon20 monotherapy Ph1b enrollment; 2H 2026 1L EGFR atypical, exon20 and SC amivantamab data expected. 07/20/26:- ESMO 2026 poster with Ph1b 1L EGFR atypical NSCLC data on Oct 26; abstracts Oct 19.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/04/3287132/0/en/oric-pharmaceuticals-reports-first-quarter-2026-financial-results-and-operational-updates.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60548733/oric-pharmaceuticals-announces-three-presentations-european-society-medical-oncology-esmo-congress-2",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -8166,7 +8166,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "12.22",
+   "last_price": "12.36",
    "market_cap": 2593583616
   },
   "ticker": "SLS",
@@ -12897,7 +12897,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "3.59",
+   "last_price": "3.65",
    "market_cap": 237200592
   },
   "ticker": "ADAG",
@@ -14374,7 +14374,7 @@
   "company": {
    "ticker": "MOLN",
    "name": "Molecular Partners",
-   "last_price": "3.90",
+   "last_price": "4.01",
    "market_cap": 146293536
   },
   "ticker": "MOLN",
@@ -14860,7 +14860,7 @@
   "company": {
    "ticker": "ACET",
    "name": "Adicet Bio",
-   "last_price": "8.12",
+   "last_price": "8.01",
    "market_cap": 75907672
   },
   "ticker": "ACET",
@@ -15294,40 +15294,6 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/05/g52467347/aura-biosciences-reports-first-quarter-2026-financial-results-and-business-highlights",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 19390,
-  "company": {
-   "ticker": "AUTL",
-   "name": "Autolus Therapeutics",
-   "last_price": "1.44",
-   "market_cap": 383246336
-  },
-  "ticker": "AUTL",
-  "drug_name": "AUTO8 (BCMA & CD19) (BCMA CD19 CAR-T)",
-  "indications": [
-   {
-    "id": 1403,
-    "title": "relapsed or refractory light chain amyloidosis",
-    "nickname": "AL"
-   }
-  ],
-  "indications_text": "Relapsed Or Refractory Light-Chain (AL) Amyloidosis",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "05/14/26:- ALARIC Phase 1 remains ongoing; initial AL amyloidosis data expected by YE 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/04/21/3278431/0/en/autolus-therapeutics-announces-inducement-grants-under-nasdaq-listing-rule-5635-c-4.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -15962,7 +15928,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "118.86",
+   "last_price": "117.03",
    "market_cap": 7248228864
   },
   "ticker": "MIRM",
@@ -16270,45 +16236,11 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 19712,
-  "company": {
-   "ticker": "GMAB",
-   "name": "Genmab",
-   "last_price": "28.72",
-   "market_cap": 17632237568
-  },
-  "ticker": "GMAB",
-  "drug_name": "Epkinly/Epcoritamab (GEN3013) (CD3-CD20 Bispecific)",
-  "indications": [
-   {
-    "id": 1362,
-    "title": "Diffuse large B cell lymphoma",
-    "nickname": "DLBCL"
-   }
-  ],
-  "indications_text": "Newly Diagnosed Diffuse Large B-Cell Lymphoma",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "EPCORE DLBCL-2 trial. 01/16/26:- Data from Ph3 EPCORE DLBCL-2 front-line R-CHOP combination trial anticipated in 2026. 02/17/26:- PR No update.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 19713,
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "118.86",
+   "last_price": "117.03",
    "market_cap": 7248228864
   },
   "ticker": "MIRM",
@@ -16347,7 +16279,7 @@
   "company": {
    "ticker": "ONCY",
    "name": "Oncolytics Biotech",
-   "last_price": "0.85",
+   "last_price": "0.82",
    "market_cap": 101844816
   },
   "ticker": "ONCY",
@@ -17615,10 +17547,10 @@
    "stage_label": "Phase 2/3",
    "event_label": "Data readout"
   },
-  "note": "5/3/26:- TeLuRide-005 Ph2 in 1L Stage 4 NSCLC completed enrollment; updated ORR/DCR data presented at ASCO 2026. TeLuRide-008 Ph2/3 FPD expected 2H 2026.",
+  "note": "5/3/26:- TeLuRide-005 Ph2 in 1L Stage 4 NSCLC completed enrollment; updated ORR/DCR data presented at ASCO 2026. TeLuRide-008 Ph2/3 FPD expected 2H 2026. 07/20/26:- ESMO 2026 to present TeLuRide-005 squamous cohort and pooled results; TeLuRide-008 trial highlighted.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://investors.eikontx.com/news-releases/news-release-details/eikon-therapeutics-presents-data-clinical-stage-programs-2026",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60547945/eikon-therapeutics-announces-seven-abstracts-accepted-presentation-2026-european-society-medical-onc",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -17873,7 +17805,7 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "5.80",
+   "last_price": "6.32",
    "market_cap": 2019571584
   },
   "ticker": "NUVB",
@@ -18282,7 +18214,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "118.86",
+   "last_price": "117.03",
    "market_cap": 7248228864
   },
   "ticker": "MIRM",
@@ -18428,7 +18360,7 @@
   "company": {
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
-   "last_price": "2.39",
+   "last_price": "2.32",
    "market_cap": 1061629376
   },
   "ticker": "LXRX",
@@ -18462,7 +18394,7 @@
   "company": {
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
-   "last_price": "2.39",
+   "last_price": "2.32",
    "market_cap": 1061629376
   },
   "ticker": "LXRX",
@@ -19212,7 +19144,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "3.59",
+   "last_price": "3.65",
    "market_cap": 237200592
   },
   "ticker": "ADAG",
@@ -21548,7 +21480,7 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "5.80",
+   "last_price": "6.32",
    "market_cap": 2019571584
   },
   "ticker": "NUVB",
@@ -21767,7 +21699,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "118.86",
+   "last_price": "117.03",
    "market_cap": 7248228864
   },
   "ticker": "MIRM",
@@ -22010,7 +21942,7 @@
   "company": {
    "ticker": "MOLN",
    "name": "Molecular Partners",
-   "last_price": "3.90",
+   "last_price": "4.01",
    "market_cap": 146293536
   },
   "ticker": "MOLN",
@@ -24301,7 +24233,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "12.22",
+   "last_price": "12.36",
    "market_cap": 2593583616
   },
   "ticker": "SLS",
@@ -28191,7 +28123,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "3.59",
+   "last_price": "3.65",
    "market_cap": 237200592
   },
   "ticker": "ADAG",
@@ -28230,7 +28162,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "3.59",
+   "last_price": "3.65",
    "market_cap": 237200592
   },
   "ticker": "ADAG",

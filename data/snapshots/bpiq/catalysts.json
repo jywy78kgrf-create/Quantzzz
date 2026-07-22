@@ -4,7 +4,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.66",
+   "last_price": "10.63",
    "market_cap": 966752896
   },
   "ticker": "KURA",
@@ -48,7 +48,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.66",
+   "last_price": "10.63",
    "market_cap": 966752896
   },
   "ticker": "KURA",
@@ -82,7 +82,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "3.90",
+   "last_price": "3.89",
    "market_cap": 1251248256
   },
   "ticker": "MNKD",
@@ -121,7 +121,7 @@
   "company": {
    "ticker": "OTLK",
    "name": "Outlook Therapeutics",
-   "last_price": "1.31",
+   "last_price": "1.33",
    "market_cap": 265535728
   },
   "ticker": "OTLK",
@@ -160,7 +160,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "127.82",
+   "last_price": "128.08",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -194,7 +194,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "127.82",
+   "last_price": "128.08",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -228,7 +228,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "127.82",
+   "last_price": "128.08",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -262,7 +262,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.30",
+   "last_price": "17.29",
    "market_cap": 20484483072
   },
   "ticker": "VTRS",
@@ -301,7 +301,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "44.07",
+   "last_price": "43.86",
    "market_cap": 5984066048
   },
   "ticker": "DFTX",
@@ -331,11 +331,45 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 19425,
+  "company": {
+   "ticker": "CRIS",
+   "name": "Curis",
+   "last_price": "4.87",
+   "market_cap": 9257436
+  },
+  "ticker": "CRIS",
+  "drug_name": "Emavusertib (CA-4948) (IRAK4/FLT3 Inhibitor)",
+  "indications": [
+   {
+    "id": 1264,
+    "title": "Chronic lymphocytic leukemia",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Chronic Lymphocytic Leukemia",
+  "stage_event": {
+   "id": 137,
+   "label": "Phase 2 Update",
+   "stage_label": "Phase 2",
+   "event_label": "Update"
+  },
+  "note": "11/6/25- Ph2 trial initiated w/ dosing of first patient in late Q4 or early Q1 2026. 03/19/26:- TakeAim CLL Ph2 emavusertib+zanubrutinib study initiated; fifth patient dosing, tied to PIPE warrants, expected later 2026. 05/12/26:- Initial 5-patient dosing expected by Mid-2026; study data readout expected in December 2026. 06/26/26:- TakeAim CLL CA-4948-203 (NCT07271667) opened 11 sites; initial five-patient dosing by end July 2026; data expected December 2026. 07/06/26:- First six patients consented; five-patient dosing reaffirmed by end July 2026. Initial data expected December 2026. 07/22/26:- Ten consented; first five dosed by end July. December 2026 initial data now 5-10 patients.",
+  "catalyst_date": "2026-07-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/n60601869/curis-announces-positive-emavusertib-update",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 15056,
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "11.01",
+   "last_price": "11.07",
    "market_cap": 923396736
   },
   "ticker": "REPL",
@@ -374,7 +408,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "58.63",
+   "last_price": "58.55",
    "market_cap": 23672268800
   },
   "ticker": "MRNA",
@@ -408,7 +442,7 @@
   "company": {
    "ticker": "LNTH",
    "name": "Lantheus Holdings",
-   "last_price": "105.83",
+   "last_price": "105.12",
    "market_cap": 7028200960
   },
   "ticker": "LNTH",
@@ -442,7 +476,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "23.57",
+   "last_price": "23.55",
    "market_cap": 1759520896
   },
   "ticker": "ZYME",
@@ -486,7 +520,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "23.53",
+   "last_price": "23.56",
    "market_cap": 3782053120
   },
   "ticker": "DNLI",
@@ -520,7 +554,7 @@
   "company": {
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
-   "last_price": "12.60",
+   "last_price": "12.58",
    "market_cap": 1094128896
   },
   "ticker": "EYPT",
@@ -559,7 +593,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "53.46",
+   "last_price": "53.01",
    "market_cap": 8823367680
   },
   "ticker": "IONS",
@@ -603,7 +637,7 @@
   "company": {
    "ticker": "AVIR",
    "name": "Atea Pharmaceuticals",
-   "last_price": "4.80",
+   "last_price": "4.78",
    "market_cap": 389731936
   },
   "ticker": "AVIR",
@@ -637,7 +671,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "117.00",
+   "last_price": "116.72",
    "market_cap": 23452428288
   },
   "ticker": "INCY",
@@ -671,7 +705,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "6.95",
+   "last_price": "6.97",
    "market_cap": 727158016
   },
   "ticker": "AURA",
@@ -710,7 +744,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "19.08",
+   "last_price": "19.18",
    "market_cap": 1676247424
   },
   "ticker": "MLTX",
@@ -744,7 +778,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.24",
+   "last_price": "29.29",
    "market_cap": 3543030016
   },
   "ticker": "RCUS",
@@ -788,7 +822,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "7.11",
+   "last_price": "7.35",
    "market_cap": 178244048
   },
   "ticker": "KPTI",
@@ -827,7 +861,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "863.61",
+   "last_price": "859.20",
    "market_cap": 54398132224
   },
   "ticker": "ARGX",
@@ -861,7 +895,7 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "19.34",
+   "last_price": "19.13",
    "market_cap": 601507136
   },
   "ticker": "NVCT",
@@ -906,45 +940,11 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 17790,
-  "company": {
-   "ticker": "ARWR",
-   "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "90.16",
-   "market_cap": 10496664576
-  },
-  "ticker": "ARWR",
-  "drug_name": "Plozasiran (ARO-APOC3) ",
-  "indications": [
-   {
-    "id": 1095,
-    "title": "Severe hypertriglyceridemia",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Severe hypertriglyceridemia",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "SHASTA-2,3,4 trials: 5/28/24- SHASTA-3 and SHASTA-4 initiated. 6/23/25- Completed enrollment in SHASTA-3, SHASTA-4, & MUIR-3. Study completion in mid-2026 with subsequent data readout & regulatory submissions. 12/2/25\u2013 Granted FDA Breakthrough Therapy Designation. 11/25/25:- Sanofi-Visirna deal grants Sanofi Greater China plozasiran rights; Visirna gets $130M upfront and up to $265M milestones. 03/28/26:- SHASTA-2 OLE showed durable TG reductions; no pancreatitis. Ph3 SHASTA-3/4 & MUIR-3 complete Mid-2026; sNDA Year-End 2026. 04/24/26:- Phase 3 SHASTA-5 added to program; SHASTA-3/4 and MUIR-3 remain ongoing. 05/26/26:- EAS 2026: renal/hepatic impairment data support no dose adjustment; PALISADE pregnancy case reported. Ph3 completes Mid-2026. 06/22/26:- SHASTA-3/4/5 and MUIR-3 Ph3 trials cited with NCT IDs; timelines unchanged.",
-  "catalyst_date": "2026-08-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260622025442/en/Arrowhead-Pharmaceuticals-Receives-Marketing-Authorization-in-the-European-Union-for-REDEMPLO-plozasiran-to-Reduce-Triglycerides-in-Adults-with-Familial-Chylomicronemia-Syndrome-FCS",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 17945,
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "103.78",
+   "last_price": "103.46",
    "market_cap": 7312075264
   },
   "ticker": "RYTM",
@@ -978,7 +978,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.43",
+   "last_price": "1.44",
    "market_cap": 226747360
   },
   "ticker": "CHRS",
@@ -1056,7 +1056,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.38",
+   "last_price": "4.37",
    "market_cap": 288576576
   },
   "ticker": "MGNX",
@@ -1095,7 +1095,7 @@
   "company": {
    "ticker": "VALN",
    "name": "Valneva SE",
-   "last_price": "4.96",
+   "last_price": "4.90",
    "market_cap": 503449792
   },
   "ticker": "VALN",
@@ -1134,7 +1134,7 @@
   "company": {
    "ticker": "CRBP",
    "name": "Corbus Pharmaceuticals",
-   "last_price": "8.75",
+   "last_price": "8.80",
    "market_cap": 166379600
   },
   "ticker": "CRBP",
@@ -1168,7 +1168,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.54",
+   "last_price": "2.56",
    "market_cap": 20618874
   },
   "ticker": "CLRB",
@@ -1241,7 +1241,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "5.88",
+   "last_price": "5.86",
    "market_cap": 1823091072
   },
   "ticker": "ABCL",
@@ -1275,7 +1275,7 @@
   "company": {
    "ticker": "SION",
    "name": "Sionna Therapeutics",
-   "last_price": "45.63",
+   "last_price": "45.53",
    "market_cap": 2131546880
   },
   "ticker": "SION",
@@ -1309,7 +1309,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "23.65",
+   "last_price": "23.39",
    "market_cap": 381120096
   },
   "ticker": "STRO",
@@ -1343,7 +1343,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.54",
+   "last_price": "2.56",
    "market_cap": 20618874
   },
   "ticker": "CLRB",
@@ -1377,7 +1377,7 @@
   "company": {
    "ticker": "AVBP",
    "name": "ArriVent",
-   "last_price": "29.62",
+   "last_price": "30.00",
    "market_cap": null
   },
   "ticker": "AVBP",
@@ -1411,7 +1411,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "35.79",
+   "last_price": "35.62",
    "market_cap": 2132766208
   },
   "ticker": "HRMY",
@@ -1450,7 +1450,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "35.97",
+   "last_price": "35.91",
    "market_cap": 1697742080
   },
   "ticker": "MPLT",
@@ -1523,7 +1523,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.43",
+   "last_price": "1.44",
    "market_cap": 226747360
   },
   "ticker": "CHRS",
@@ -1577,7 +1577,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.01",
+   "last_price": "60.91",
    "market_cap": 124423405568
   },
   "ticker": "BMY",
@@ -1757,7 +1757,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "81.11",
+   "last_price": "83.58",
    "market_cap": 11012353024
   },
   "ticker": "CYTK",
@@ -1824,6 +1824,40 @@
   "is_hedge_fund_pick": true,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 17790,
+  "company": {
+   "ticker": "ARWR",
+   "name": "Arrowhead Pharmaceuticals ",
+   "last_price": "91.16",
+   "market_cap": 10496664576
+  },
+  "ticker": "ARWR",
+  "drug_name": "Plozasiran (ARO-APOC3) ",
+  "indications": [
+   {
+    "id": 1095,
+    "title": "Severe hypertriglyceridemia",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Severe hypertriglyceridemia",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "SHASTA-2,3,4 trials: 5/28/24- SHASTA-3 and SHASTA-4 initiated. 6/23/25- Completed enrollment in SHASTA-3, SHASTA-4, & MUIR-3. Study completion in mid-2026 with subsequent data readout & regulatory submissions. 12/2/25\u2013 Granted FDA Breakthrough Therapy Designation. 11/25/25:- Sanofi-Visirna deal grants Sanofi Greater China plozasiran rights; Visirna gets $130M upfront and up to $265M milestones. 03/28/26:- SHASTA-2 OLE showed durable TG reductions; no pancreatitis. Ph3 SHASTA-3/4 & MUIR-3 complete Mid-2026; sNDA Year-End 2026. 04/24/26:- Phase 3 SHASTA-5 added to program; SHASTA-3/4 and MUIR-3 remain ongoing. 05/26/26:- EAS 2026: renal/hepatic impairment data support no dose adjustment; PALISADE pregnancy case reported. Ph3 completes Mid-2026. 06/22/26:- SHASTA-3/4/5 and MUIR-3 Ph3 trials cited with NCT IDs; timelines unchanged. 07/22/26:- SHASTA-3/4 topline positive. Detailed data at ESC Aug 30, 2026. U.S. sNDA planned Q4 2026.",
+  "catalyst_date": "2026-08-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/b60602654/arrowhead-pharmaceuticals-reports-topline-results-phase-3-shasta-3-and-shasta-4-studies-plozasiran-p",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 14275,
@@ -1904,45 +1938,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 16962,
-  "company": {
-   "ticker": "CLDX",
-   "name": "Celldex Therapeutics, Inc.",
-   "last_price": "35.66",
-   "market_cap": 2799027200
-  },
-  "ticker": "CLDX",
-  "drug_name": "Barzolvolimab (CDX-0159) (KIT receptor) ",
-  "indications": [
-   {
-    "id": 1397,
-    "title": "Prurigo nodularis",
-    "nickname": ""
-   },
-   {
-    "id": 1037,
-    "title": "Skin disease/disorder",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Prurigo nodularis, Skin disease/disorder",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "5/15/24- First patient dosed in Ph2 trial. 8/7/25- Enrollment ongoing. 11/10/25:- Enrollment continues; initial Ph2 PN data expected H2 2026. 02/25/26:- Ph2 PN enrollment completed; topline data to be presented Summer 2026. 05/07/26:- Phase 2 PN study enrollment complete; topline efficacy and safety data still expected Summer 2026.",
-  "catalyst_date": "2026-08-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290499/24180/en/celldex-reports-first-quarter-financial-results-and-provides-corporate-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18855,
   "company": {
    "ticker": "OSTX",
@@ -2015,7 +2010,7 @@
   "company": {
    "ticker": "SION",
    "name": "Sionna Therapeutics",
-   "last_price": "45.63",
+   "last_price": "45.53",
    "market_cap": 2131546880
   },
   "ticker": "SION",
@@ -2273,7 +2268,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "53.46",
+   "last_price": "53.01",
    "market_cap": 8823367680
   },
   "ticker": "IONS",
@@ -2341,7 +2336,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "117.00",
+   "last_price": "116.72",
    "market_cap": 23452428288
   },
   "ticker": "INCY",
@@ -2437,6 +2432,50 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
+ },
+ {
+  "id": 13436,
+  "company": {
+   "ticker": "CLDX",
+   "name": "Celldex Therapeutics, Inc.",
+   "last_price": "35.66",
+   "market_cap": 2799027200
+  },
+  "ticker": "CLDX",
+  "drug_name": "Barzolvolimab (CDX-0159) (KIT receptor) ",
+  "indications": [
+   {
+    "id": 2024,
+    "title": "Chronic spontaneous urticaria",
+    "nickname": "CSU"
+   },
+   {
+    "id": 867,
+    "title": "Chronic urticaria",
+    "nickname": ""
+   },
+   {
+    "id": 1247,
+    "title": "KIT/Mast cell diseases",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Chronic spontaneous urticaria",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "EMBARQ-CSU1 & EMBARQ-CSU 2. 7/16/24- Initiated global Ph3.11/10/25:- Ph2 CSU study complete. 2/23/26:- Study data on prolonged off-treatment efficacy to be presented at AAAAI 2026 on Feb. 27, 2026. 2/25/26:- Enrollment completed 6 months early; topline results expected Q4 2026; BLA submission planned 2027. 02/27/26:- AAAAI: Ph2 CSU off-treatment efficacy durable to Week 76; Ph3 EMBARQ-CSU1/2 enrollment completed. 03/27/26:- AAD 2026 Ph2 CSU QoL data showed durable off-treatment benefit; EMBARQ-CSU1/2 topline expected Q4 2026. 05/07/26:- EMBARQ-CSU1/2 enrollment finished six months early; 1,939 patients; topline Ph3 CSU data Q4 2026; BLA 2027. 06/14/26:- Week 76 Phase 2 CSU angioedema results positive; Phase 3 topline still expected Q4 2026. BLA planned 2027. 07/21/26:- Phase 3 EMBARQ-CSU1/2 topline expected September/October 2026; BLA submission planned 2027 reiterated.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60593829/celldex-reports-results-phase-2-study-barzolvolimab-prurigo-nodularis",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": true,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 13480,
@@ -2764,7 +2803,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.30",
+   "last_price": "1.29",
    "market_cap": 440078400
   },
   "ticker": "OCGN",
@@ -2871,7 +2910,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "3.90",
+   "last_price": "3.89",
    "market_cap": 1251248256
   },
   "ticker": "MNKD",
@@ -2944,7 +2983,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "863.61",
+   "last_price": "859.20",
    "market_cap": 54398132224
   },
   "ticker": "ARGX",
@@ -3494,7 +3533,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "32.80",
+   "last_price": "31.81",
    "market_cap": 605134784
   },
   "ticker": "TECX",
@@ -3582,7 +3621,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "5.88",
+   "last_price": "5.86",
    "market_cap": 1823091072
   },
   "ticker": "ABCL",
@@ -3650,7 +3689,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.01",
+   "last_price": "60.91",
    "market_cap": 124423405568
   },
   "ticker": "BMY",
@@ -3786,7 +3825,7 @@
   "company": {
    "ticker": "SANA",
    "name": "Sana Biotechnology",
-   "last_price": "3.16",
+   "last_price": "3.13",
    "market_cap": 879401408
   },
   "ticker": "SANA",
@@ -3820,7 +3859,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "127.82",
+   "last_price": "128.08",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -3893,7 +3932,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "127.82",
+   "last_price": "128.08",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -4015,7 +4054,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.30",
+   "last_price": "17.29",
    "market_cap": 20484483072
   },
   "ticker": "VTRS",
@@ -4858,7 +4897,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "53.46",
+   "last_price": "53.01",
    "market_cap": 8823367680
   },
   "ticker": "IONS",
@@ -5209,7 +5248,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "81.11",
+   "last_price": "83.58",
    "market_cap": 11012353024
   },
   "ticker": "CYTK",
@@ -5243,7 +5282,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.03",
+   "last_price": "14.81",
    "market_cap": 10478195712
   },
   "ticker": "SMMT",
@@ -5267,10 +5306,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "HARMONi trial. 5/30/25- Favorable Ph3 result announced. Timing of BLA filing to be determined. 9/7/25- Long term follow-up data presented at IASLC'25. 01/12/26:- BLA for ivonescimab plus chemotherapy in 2L+ EGFRm NSCLC submitted in Q4 2025; FDA decision expected Q4 2026. 01/29/26:- FDA accepted BLA for ivonescimab plus chemotherapy; PDUFA action date set for November 14, 2026. 03/27/26:- ELCC 2026 posters show intracranial PFS benefit and HRQoL data. PDUFA still November 14, 2026.",
+  "note": "HARMONi trial. 5/30/25- Favorable Ph3 result announced. Timing of BLA filing to be determined. 9/7/25- Long term follow-up data presented at IASLC'25. 01/12/26:- BLA for ivonescimab plus chemotherapy in 2L+ EGFRm NSCLC submitted in Q4 2025; FDA decision expected Q4 2026. 01/29/26:- FDA accepted BLA for ivonescimab plus chemotherapy; PDUFA action date set for November 14, 2026. 03/27/26:- ELCC 2026 posters show intracranial PFS benefit and HRQoL data. PDUFA still November 14, 2026. 07/22/26:- June 2026 OS update showed HR 0.76; PDUFA remains November 14, 2026.",
   "catalyst_date": "2026-11-14",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260327933390/en/Multiple-Ivonescimab-Data-Sets-from-Phase-III-Studies-in-Advanced-NSCLC-Patient-Populations-to-be-Featured-at-ELCC-2026",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/b60601115/ivonescimab-plus-chemotherapy-shows-consistent-favorable-overall-survival-results-western-and-asian-",
   "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5423,7 +5462,7 @@
   "company": {
    "ticker": "OLMA",
    "name": "Olema Pharmaceuticals",
-   "last_price": "11.59",
+   "last_price": "11.41",
    "market_cap": 1012357184
   },
   "ticker": "OLMA",
@@ -5998,7 +6037,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.30",
+   "last_price": "17.29",
    "market_cap": 20484483072
   },
   "ticker": "VTRS",
@@ -6066,7 +6105,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "863.61",
+   "last_price": "859.20",
    "market_cap": 54398132224
   },
   "ticker": "ARGX",
@@ -6104,50 +6143,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 13436,
-  "company": {
-   "ticker": "CLDX",
-   "name": "Celldex Therapeutics, Inc.",
-   "last_price": "35.66",
-   "market_cap": 2799027200
-  },
-  "ticker": "CLDX",
-  "drug_name": "Barzolvolimab (CDX-0159) (KIT receptor) ",
-  "indications": [
-   {
-    "id": 2024,
-    "title": "Chronic spontaneous urticaria",
-    "nickname": "CSU"
-   },
-   {
-    "id": 867,
-    "title": "Chronic urticaria",
-    "nickname": ""
-   },
-   {
-    "id": 1247,
-    "title": "KIT/Mast cell diseases",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Chronic spontaneous urticaria",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "EMBARQ-CSU1 & EMBARQ-CSU 2. 7/16/24- Initiated global Ph3.11/10/25:- Ph2 CSU study complete. 2/23/26:- Study data on prolonged off-treatment efficacy to be presented at AAAAI 2026 on Feb. 27, 2026. 2/25/26:- Enrollment completed 6 months early; topline results expected Q4 2026; BLA submission planned 2027. 02/27/26:- AAAAI: Ph2 CSU off-treatment efficacy durable to Week 76; Ph3 EMBARQ-CSU1/2 enrollment completed. 03/27/26:- AAD 2026 Ph2 CSU QoL data showed durable off-treatment benefit; EMBARQ-CSU1/2 topline expected Q4 2026. 05/07/26:- EMBARQ-CSU1/2 enrollment finished six months early; 1,939 patients; topline Ph3 CSU data Q4 2026; BLA 2027. 06/14/26:- Week 76 Phase 2 CSU angioedema results positive; Phase 3 topline still expected Q4 2026. BLA planned 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/14/3311449/24180/en/celldex-presents-long-term-barzolvolimab-results-demonstrating-sustained-off-treatment-improvement-in-angioedema-in-patients-with-csu-at-the-european-academy-of-allergy-and-clinica.html",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": true,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 13472,
@@ -6609,7 +6604,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.01",
+   "last_price": "60.91",
    "market_cap": 124423405568
   },
   "ticker": "BMY",
@@ -6936,7 +6931,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "58.63",
+   "last_price": "58.55",
    "market_cap": 23672268800
   },
   "ticker": "MRNA",
@@ -7043,7 +7038,7 @@
   "company": {
    "ticker": "NVS",
    "name": "Novartis ",
-   "last_price": "153.87",
+   "last_price": "153.67",
    "market_cap": 292462985216
   },
   "ticker": "NVS",
@@ -7121,7 +7116,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "53.46",
+   "last_price": "53.01",
    "market_cap": 8823367680
   },
   "ticker": "IONS",
@@ -7228,7 +7223,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "35.79",
+   "last_price": "35.62",
    "market_cap": 2132766208
   },
   "ticker": "HRMY",
@@ -7546,7 +7541,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "14.58",
+   "last_price": "14.65",
    "market_cap": 206365456
   },
   "ticker": "IMUX",
@@ -7931,7 +7926,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "863.61",
+   "last_price": "859.20",
    "market_cap": 54398132224
   },
   "ticker": "ARGX",
@@ -8043,7 +8038,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "23.53",
+   "last_price": "23.56",
    "market_cap": 3782053120
   },
   "ticker": "DNLI",
@@ -8077,7 +8072,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "10.38",
+   "last_price": "10.24",
    "market_cap": 661969344
   },
   "ticker": "RGNX",
@@ -8160,7 +8155,7 @@
   "company": {
    "ticker": "RIGL",
    "name": "Rigel Pharmaceuticals",
-   "last_price": "39.31",
+   "last_price": "38.73",
    "market_cap": 727316800
   },
   "ticker": "RIGL",
@@ -9336,7 +9331,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.89",
+   "last_price": "2.99",
    "market_cap": 129588808
   },
   "ticker": "GNLX",
@@ -9414,7 +9409,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "117.00",
+   "last_price": "116.72",
    "market_cap": 23452428288
   },
   "ticker": "INCY",
@@ -9521,7 +9516,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.66",
+   "last_price": "10.63",
    "market_cap": 966752896
   },
   "ticker": "KURA",
@@ -9750,7 +9745,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.89",
+   "last_price": "2.99",
    "market_cap": 129588808
   },
   "ticker": "GNLX",
@@ -10184,7 +10179,7 @@
   "company": {
    "ticker": "ZNTL",
    "name": "Zentalis Pharmaceuticals",
-   "last_price": "4.51",
+   "last_price": "4.40",
    "market_cap": 356643648
   },
   "ticker": "ZNTL",
@@ -10228,7 +10223,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "58.63",
+   "last_price": "58.55",
    "market_cap": 23672268800
   },
   "ticker": "MRNA",
@@ -10267,7 +10262,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "7.11",
+   "last_price": "7.35",
    "market_cap": 178244048
   },
   "ticker": "KPTI",
@@ -10301,7 +10296,7 @@
   "company": {
    "ticker": "NXTC",
    "name": "NextCure Inc",
-   "last_price": "5.09",
+   "last_price": "4.88",
    "market_cap": 19505318
   },
   "ticker": "NXTC",
@@ -11105,7 +11100,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.89",
+   "last_price": "2.99",
    "market_cap": 129588808
   },
   "ticker": "GNLX",
@@ -11144,7 +11139,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "7.11",
+   "last_price": "7.35",
    "market_cap": 178244048
   },
   "ticker": "KPTI",
@@ -11183,7 +11178,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.03",
+   "last_price": "14.81",
    "market_cap": 10478195712
   },
   "ticker": "SMMT",
@@ -11880,7 +11875,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.66",
+   "last_price": "10.63",
    "market_cap": 966752896
   },
   "ticker": "KURA",
@@ -12026,7 +12021,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "53.46",
+   "last_price": "53.01",
    "market_cap": 8823367680
   },
   "ticker": "IONS",
@@ -12235,7 +12230,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "90.16",
+   "last_price": "91.16",
    "market_cap": 10496664576
   },
   "ticker": "ARWR",
@@ -12313,7 +12308,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "11.01",
+   "last_price": "11.07",
    "market_cap": 923396736
   },
   "ticker": "REPL",
@@ -12352,7 +12347,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "58.63",
+   "last_price": "58.55",
    "market_cap": 23672268800
   },
   "ticker": "MRNA",
@@ -12425,7 +12420,7 @@
   "company": {
    "ticker": "OKUR",
    "name": "OnKure Therapeutics, Inc.",
-   "last_price": "4.17",
+   "last_price": "4.19",
    "market_cap": 168449152
   },
   "ticker": "OKUR",
@@ -12464,7 +12459,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "12.84",
+   "last_price": "12.45",
    "market_cap": 750145664
   },
   "ticker": "CLYM",
@@ -12713,7 +12708,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "90.16",
+   "last_price": "91.16",
    "market_cap": 10496664576
   },
   "ticker": "ARWR",
@@ -12747,7 +12742,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "32.36",
+   "last_price": "31.78",
    "market_cap": null
   },
   "ticker": "ZBIO",
@@ -12971,7 +12966,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "53.19",
+   "last_price": "53.07",
    "market_cap": 8260389888
   },
   "ticker": "TGTX",
@@ -14447,7 +14442,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "53.19",
+   "last_price": "53.07",
    "market_cap": 8260389888
   },
   "ticker": "TGTX",
@@ -14617,7 +14612,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "117.00",
+   "last_price": "116.72",
    "market_cap": 23452428288
   },
   "ticker": "INCY",
@@ -14797,7 +14792,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "90.16",
+   "last_price": "91.16",
    "market_cap": 10496664576
   },
   "ticker": "ARWR",
@@ -15273,7 +15268,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "58.63",
+   "last_price": "58.55",
    "market_cap": 23672268800
   },
   "ticker": "MRNA",
@@ -15448,7 +15443,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.38",
+   "last_price": "4.37",
    "market_cap": 288576576
   },
   "ticker": "MGNX",
@@ -15520,7 +15515,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "6.95",
+   "last_price": "6.97",
    "market_cap": 727158016
   },
   "ticker": "AURA",
@@ -15627,7 +15622,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "6.95",
+   "last_price": "6.97",
    "market_cap": 727158016
   },
   "ticker": "AURA",
@@ -15738,40 +15733,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
- },
- {
-  "id": 19425,
-  "company": {
-   "ticker": "CRIS",
-   "name": "Curis",
-   "last_price": "4.75",
-   "market_cap": 9257436
-  },
-  "ticker": "CRIS",
-  "drug_name": "Emavusertib (CA-4948) (IRAK4/FLT3 Inhibitor)",
-  "indications": [
-   {
-    "id": 1264,
-    "title": "Chronic lymphocytic leukemia",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Chronic Lymphocytic Leukemia",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "11/6/25- Ph2 trial initiated w/ dosing of first patient in late Q4 or early Q1 2026. 03/19/26:- TakeAim CLL Ph2 emavusertib+zanubrutinib study initiated; fifth patient dosing, tied to PIPE warrants, expected later 2026. 05/12/26:- Initial 5-patient dosing expected by Mid-2026; study data readout expected in December 2026. 06/26/26:- TakeAim CLL CA-4948-203 (NCT07271667) opened 11 sites; initial five-patient dosing by end July 2026; data expected December 2026. 07/06/26:- First six patients consented; five-patient dosing reaffirmed by end July 2026. Initial data expected December 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/curis-consents-first-six-patients-in-takeaim-cll-study-302818084.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
  },
  {
   "id": 19428,
@@ -16143,7 +16104,7 @@
   "company": {
    "ticker": "SANA",
    "name": "Sana Biotechnology",
-   "last_price": "3.16",
+   "last_price": "3.13",
    "market_cap": 879401408
   },
   "ticker": "SANA",
@@ -16245,7 +16206,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.24",
+   "last_price": "29.29",
    "market_cap": 3543030016
   },
   "ticker": "RCUS",
@@ -16289,7 +16250,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.24",
+   "last_price": "29.29",
    "market_cap": 3543030016
   },
   "ticker": "RCUS",
@@ -16455,7 +16416,7 @@
   "company": {
    "ticker": "GMAB",
    "name": "Genmab",
-   "last_price": "29.16",
+   "last_price": "29.07",
    "market_cap": 17414291456
   },
   "ticker": "GMAB",
@@ -16630,7 +16591,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "117.00",
+   "last_price": "116.72",
    "market_cap": 23452428288
   },
   "ticker": "INCY",
@@ -16844,7 +16805,7 @@
   "company": {
    "ticker": "AVBP",
    "name": "ArriVent",
-   "last_price": "29.62",
+   "last_price": "30.00",
    "market_cap": null
   },
   "ticker": "AVBP",
@@ -16990,7 +16951,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "32.36",
+   "last_price": "31.78",
    "market_cap": null
   },
   "ticker": "ZBIO",
@@ -17472,7 +17433,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "12.84",
+   "last_price": "12.45",
    "market_cap": 750145664
   },
   "ticker": "CLYM",
@@ -18079,7 +18040,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "32.80",
+   "last_price": "31.81",
    "market_cap": 605134784
   },
   "ticker": "TECX",
@@ -18366,7 +18327,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "11.01",
+   "last_price": "11.07",
    "market_cap": 923396736
   },
   "ticker": "REPL",
@@ -19033,7 +18994,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.01",
+   "last_price": "60.91",
    "market_cap": 124423405568
   },
   "ticker": "BMY",
@@ -19335,7 +19296,7 @@
   "company": {
    "ticker": "CRIS",
    "name": "Curis",
-   "last_price": "4.75",
+   "last_price": "4.87",
    "market_cap": 9257436
   },
   "ticker": "CRIS",
@@ -19364,10 +19325,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "TakeAim Lymphoma study. 9/24- Initial efficacy data at IRAK4 Symposium in Cancer. 11/14/24- Ongoing discussion w/ RA to gain alignment on the registrational path. 11/6/25: Enrollment ongoing; present updated data at SNO annual meeting on November 19-23, 2025. 03/19/26:- SNO 2025 TakeAim Lymphoma data: 100% ORR in BTKi-na\u00efve PCNSL, 37% ORR in BTKi-experienced; 1 CR SCNSL. 05/12/26:- Enrollment ongoing; updated TakeAim Lymphoma PCNSL data from emavusertib+ibrutinib expected in H1 2027.",
+  "note": "TakeAim Lymphoma study. 9/24- Initial efficacy data at IRAK4 Symposium in Cancer. 11/14/24- Ongoing discussion w/ RA to gain alignment on the registrational path. 11/6/25: Enrollment ongoing; present updated data at SNO annual meeting on November 19-23, 2025. 03/19/26:- SNO 2025 TakeAim Lymphoma data: 100% ORR in BTKi-na\u00efve PCNSL, 37% ORR in BTKi-experienced; 1 CR SCNSL. 05/12/26:- Enrollment ongoing; updated TakeAim Lymphoma PCNSL data from emavusertib+ibrutinib expected in H1 2027. 07/22/26:- Updated PCNSL ORR 100% BTKi-na\u00efve, 33% BTKi-experienced. H1 2027 update remains; FDA/EMA supportive.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/curis-provides-first-quarter-2026-business-update-302769980.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/n60601869/curis-announces-positive-emavusertib-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -19671,7 +19632,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "35.79",
+   "last_price": "35.62",
    "market_cap": 2132766208
   },
   "ticker": "HRMY",
@@ -19812,7 +19773,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.38",
+   "last_price": "4.37",
    "market_cap": 288576576
   },
   "ticker": "MGNX",
@@ -19919,7 +19880,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.24",
+   "last_price": "29.29",
    "market_cap": 3543030016
   },
   "ticker": "RCUS",
@@ -19992,7 +19953,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "35.79",
+   "last_price": "35.62",
    "market_cap": 2132766208
   },
   "ticker": "HRMY",
@@ -20284,7 +20245,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "23.53",
+   "last_price": "23.56",
    "market_cap": 3782053120
   },
   "ticker": "DNLI",
@@ -21082,7 +21043,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "35.79",
+   "last_price": "35.62",
    "market_cap": 2132766208
   },
   "ticker": "HRMY",
@@ -21150,7 +21111,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "6.95",
+   "last_price": "6.97",
    "market_cap": 727158016
   },
   "ticker": "AURA",
@@ -21223,7 +21184,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "863.61",
+   "last_price": "859.20",
    "market_cap": 54398132224
   },
   "ticker": "ARGX",
@@ -21403,7 +21364,7 @@
   "company": {
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
-   "last_price": "12.60",
+   "last_price": "12.58",
    "market_cap": 1094128896
   },
   "ticker": "EYPT",
@@ -21559,7 +21520,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "53.46",
+   "last_price": "53.01",
    "market_cap": 8823367680
   },
   "ticker": "IONS",
@@ -21632,7 +21593,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "44.07",
+   "last_price": "43.86",
    "market_cap": 5984066048
   },
   "ticker": "DFTX",
@@ -21778,7 +21739,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "863.61",
+   "last_price": "859.20",
    "market_cap": 54398132224
   },
   "ticker": "ARGX",
@@ -22123,7 +22084,7 @@
   "company": {
    "ticker": "JBIO",
    "name": "Jade Biosciences",
-   "last_price": "20.53",
+   "last_price": "19.67",
    "market_cap": 1249453312
   },
   "ticker": "JBIO",
@@ -22619,7 +22580,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "35.79",
+   "last_price": "35.62",
    "market_cap": 2132766208
   },
   "ticker": "HRMY",
@@ -22906,7 +22867,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "35.97",
+   "last_price": "35.91",
    "market_cap": 1697742080
   },
   "ticker": "MPLT",
@@ -23665,7 +23626,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.66",
+   "last_price": "10.63",
    "market_cap": 966752896
   },
   "ticker": "KURA",
@@ -23709,7 +23670,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.66",
+   "last_price": "10.63",
    "market_cap": 966752896
   },
   "ticker": "KURA",
@@ -23966,7 +23927,7 @@
   "company": {
    "ticker": "VALN",
    "name": "Valneva SE",
-   "last_price": "4.96",
+   "last_price": "4.90",
    "market_cap": 503449792
   },
   "ticker": "VALN",
@@ -24005,7 +23966,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "23.53",
+   "last_price": "23.56",
    "market_cap": 3782053120
   },
   "ticker": "DNLI",
@@ -24268,7 +24229,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "81.11",
+   "last_price": "83.58",
    "market_cap": 11012353024
   },
   "ticker": "CYTK",
@@ -24458,7 +24419,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "10.38",
+   "last_price": "10.24",
    "market_cap": 661969344
   },
   "ticker": "RGNX",
@@ -24589,10 +24550,10 @@
    "stage_label": "Phase 3",
    "event_label": "Update"
   },
-  "note": "FLAMINGO-01 trial. 2/10/25- Provided update on open label HLA data. 4/3/25- Provided preliminary HLA prevalence, safety, and immune response data. 12/3/25\u2013 Screened over 1K patients. 12/08/25:- Non-HLA-A*02 open-label arm completed enrollment; company analyzing data and seeking randomized non-HLA-A*02 expansion. 12/15/25:- Preliminary ~80% recurrence reduction in non-HLA-A*02 open-label arm; first patient completed full vaccination series. 12/22/25:- DSMB twice in 2025 recommended study continue; steering committee backed protocol changes to accelerate interim analysis. 01/22/26:- FDA approved first commercial GP2 vial lot for FLAMINGO-01; non-HLA-A*02 arm fully enrolled. 03/03/26:- FLAMINGO-01 screen rate ~800/yr; non-HLA-A*02 arm fully enrolled; preliminary ~80% recurrence reduction after PIS. 03/16/26:- Commercial GP2 vials supplied to ~40 US sites; preliminary ~80% recurrence reduction reiterated. 03/17/26:- Non-HLA-A*02 arm recurrence <1%/year over 1.2 years; ~83% reduction vs Katherine. 03/18/26:- AACR 2026 posters Apr 20-21; immune response data statistically significant; preliminary PIS recurrence reduction ~70-80%. 03/19/26:- FLAMINGO-01 activated at City of Hope sites; total sites may rise to 190-200. 04/20/26:- AACR 2026 poster reported significant DTH immune response; screened >1,300; non-HLA-A*02 arm fully enrolled. 04/23/26:- ASCO poster/abstract on June 1, 2026 will present preliminary non-HLA-A*02 immune response data. 06/01/26:- ASCO LBA538 poster showed significant ISR increases in non-HLA-A*02 arm; Phase 3 FLAMINGO-01 ongoing. 07/09/26:- EMA allowed commercial GP2 in FLAMINGO-01 Europe. Preliminary PIS recurrence reduction ~70-80% in non-HLA-A*02 arm. 07/16/26:- EMA aligned Europe protocol; all sites enroll both HLA types. 07/20/26:- May 2026 DSMB recommended continue. Screened >1,500; combined HLA types to speed enrollment.",
+  "note": "FLAMINGO-01 trial. 2/10/25- Provided update on open label HLA data. 4/3/25- Provided preliminary HLA prevalence, safety, and immune response data. 12/3/25\u2013 Screened over 1K patients. 12/08/25:- Non-HLA-A*02 open-label arm completed enrollment; company analyzing data and seeking randomized non-HLA-A*02 expansion. 12/15/25:- Preliminary ~80% recurrence reduction in non-HLA-A*02 open-label arm; first patient completed full vaccination series. 12/22/25:- DSMB twice in 2025 recommended study continue; steering committee backed protocol changes to accelerate interim analysis. 01/22/26:- FDA approved first commercial GP2 vial lot for FLAMINGO-01; non-HLA-A*02 arm fully enrolled. 03/03/26:- FLAMINGO-01 screen rate ~800/yr; non-HLA-A*02 arm fully enrolled; preliminary ~80% recurrence reduction after PIS. 03/16/26:- Commercial GP2 vials supplied to ~40 US sites; preliminary ~80% recurrence reduction reiterated. 03/17/26:- Non-HLA-A*02 arm recurrence <1%/year over 1.2 years; ~83% reduction vs Katherine. 03/18/26:- AACR 2026 posters Apr 20-21; immune response data statistically significant; preliminary PIS recurrence reduction ~70-80%. 03/19/26:- FLAMINGO-01 activated at City of Hope sites; total sites may rise to 190-200. 04/20/26:- AACR 2026 poster reported significant DTH immune response; screened >1,300; non-HLA-A*02 arm fully enrolled. 04/23/26:- ASCO poster/abstract on June 1, 2026 will present preliminary non-HLA-A*02 immune response data. 06/01/26:- ASCO LBA538 poster showed significant ISR increases in non-HLA-A*02 arm; Phase 3 FLAMINGO-01 ongoing. 07/09/26:- EMA allowed commercial GP2 in FLAMINGO-01 Europe. Preliminary PIS recurrence reduction ~70-80% in non-HLA-A*02 arm. 07/16/26:- EMA aligned Europe protocol; all sites enroll both HLA types. 07/20/26:- May 2026 DSMB recommended continue. Screened >1,500; combined HLA types to speed enrollment. 07/22/26:- UK approval expands FLAMINGO-01 to 5-10 UK sites; non-HLA arm fully enrolled.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/20/3329545/0/en/greenwich-lifesciences-provides-clinical-updates-on-flamingo-01.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60600295/greenwich-lifesciences-announces-approval-expand-flamingo-01-united-kingdom",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -24638,7 +24599,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "53.46",
+   "last_price": "53.01",
    "market_cap": 8823367680
   },
   "ticker": "IONS",
@@ -25052,7 +25013,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "127.82",
+   "last_price": "128.08",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -25189,11 +25150,50 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 16962,
+  "company": {
+   "ticker": "CLDX",
+   "name": "Celldex Therapeutics, Inc.",
+   "last_price": "35.66",
+   "market_cap": 2799027200
+  },
+  "ticker": "CLDX",
+  "drug_name": "Barzolvolimab (CDX-0159) (KIT receptor) ",
+  "indications": [
+   {
+    "id": 1397,
+    "title": "Prurigo nodularis",
+    "nickname": ""
+   },
+   {
+    "id": 1037,
+    "title": "Skin disease/disorder",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Prurigo nodularis, Skin disease/disorder",
+  "stage_event": {
+   "id": 77,
+   "label": "Failed Discontinued",
+   "stage_label": "Failed",
+   "event_label": "Discontinued"
+  },
+  "note": "5/15/24- First patient dosed in Ph2 trial. 8/7/25- Enrollment ongoing. 11/10/25:- Enrollment continues; initial Ph2 PN data expected H2 2026. 02/25/26:- Ph2 PN enrollment completed; topline data to be presented Summer 2026. 05/07/26:- Phase 2 PN study enrollment complete; topline efficacy and safety data still expected Summer 2026. 07/21/26:- Phase 2 PN study failed efficacy; program discontinued after topline results.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60593829/celldex-reports-results-phase-2-study-barzolvolimab-prurigo-nodularis",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 16993,
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "103.78",
+   "last_price": "103.46",
    "market_cap": 7312075264
   },
   "ticker": "RYTM",
@@ -25491,7 +25491,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.38",
+   "last_price": "4.37",
    "market_cap": 288576576
   },
   "ticker": "MGNX",
@@ -25642,7 +25642,7 @@
   "company": {
    "ticker": "CRDF",
    "name": "Cardiff Oncology, Inc.",
-   "last_price": "0.84",
+   "last_price": "0.87",
    "market_cap": 65348008
   },
   "ticker": "CRDF",
@@ -25920,7 +25920,7 @@
   "company": {
    "ticker": "ELTX",
    "name": "Elicio Therapeutics",
-   "last_price": "3.04",
+   "last_price": "3.03",
    "market_cap": 80894488
   },
   "ticker": "ELTX",
@@ -25998,7 +25998,7 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "103.78",
+   "last_price": "103.46",
    "market_cap": 7312075264
   },
   "ticker": "RYTM",
@@ -26372,15 +26372,15 @@
   ],
   "indications_text": "Chronic inducible urticaria",
   "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
+   "id": 80,
+   "label": "Phase 3 Update",
    "stage_label": "Phase 3",
-   "event_label": "Data readout"
+   "event_label": "Update"
   },
-  "note": "7/29/24- Reported topline results. 10/28/24- Met all primary & secondary endpoints. 3/1/25- Presented Ph2 data at AAAAI'25. 11/6/25- New data presented at ACAAI'25. Initiate Ph3 trial in ColdU and SD in December 2025.\n\n11/10/25:- 20-week Ph2 ColdU/SD data positive; OLE data expected Q1 2026; Ph3 initiation planned December 2025. 12/09/25:- Global Phase 3 EMBARQ-ColdU and SD initiated; Phase 2 OLE data expected Q1 2026. 02/23/26:- Phase 2 ColdU/SD study and OLE data to be presented at AAAAI 2026, including late-breaking OLE results. 02/25/26:- Ph3 EMBARQ-ColdU/SD enrollment actively accruing; late-breaking ColdU/SD Ph2 data to be presented March 1, 2026. 03/01/26:- Ph2 ColdU/SD OLE retreatment data positive at AAAAI 2026; Ph3 EMBARQ-ColdU/SD enrolling. 03/27/26:- AAD 2026 posters showed Ph2 ColdU/SD QoL improvements; Ph3 EMBARQ-ColdU/SD enrollment ongoing. 05/07/26:- EMBARQ-ColdU/SD Ph3 trial actively enrolling; prior positive Ph2 efficacy and QoL data reiterated.",
+  "note": "7/29/24- Reported topline results. 10/28/24- Met all primary & secondary endpoints. 3/1/25- Presented Ph2 data at AAAAI'25. 11/6/25- New data presented at ACAAI'25. Initiate Ph3 trial in ColdU and SD in December 2025.\n\n11/10/25:- 20-week Ph2 ColdU/SD data positive; OLE data expected Q1 2026; Ph3 initiation planned December 2025. 12/09/25:- Global Phase 3 EMBARQ-ColdU and SD initiated; Phase 2 OLE data expected Q1 2026. 02/23/26:- Phase 2 ColdU/SD study and OLE data to be presented at AAAAI 2026, including late-breaking OLE results. 02/25/26:- Ph3 EMBARQ-ColdU/SD enrollment actively accruing; late-breaking ColdU/SD Ph2 data to be presented March 1, 2026. 03/01/26:- Ph2 ColdU/SD OLE retreatment data positive at AAAAI 2026; Ph3 EMBARQ-ColdU/SD enrolling. 03/27/26:- AAD 2026 posters showed Ph2 ColdU/SD QoL improvements; Ph3 EMBARQ-ColdU/SD enrollment ongoing. 05/07/26:- EMBARQ-ColdU/SD Ph3 trial actively enrolling; prior positive Ph2 efficacy and QoL data reiterated. 07/21/26:- Phase 3 EMBARQ-ColdU/SD enrollment on track; data timing not provided.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290499/24180/en/celldex-reports-first-quarter-financial-results-and-provides-corporate-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60593829/celldex-reports-results-phase-2-study-barzolvolimab-prurigo-nodularis",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -26553,7 +26553,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.24",
+   "last_price": "29.29",
    "market_cap": 3543030016
   },
   "ticker": "RCUS",
@@ -26904,7 +26904,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "32.36",
+   "last_price": "31.78",
    "market_cap": null
   },
   "ticker": "ZBIO",
@@ -26938,7 +26938,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "32.36",
+   "last_price": "31.78",
    "market_cap": null
   },
   "ticker": "ZBIO",
@@ -27045,7 +27045,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "19.08",
+   "last_price": "19.18",
    "market_cap": 1676247424
   },
   "ticker": "MLTX",
@@ -27415,7 +27415,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "127.82",
+   "last_price": "128.08",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -27618,7 +27618,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "863.61",
+   "last_price": "859.20",
    "market_cap": 54398132224
   },
   "ticker": "ARGX",
@@ -27798,7 +27798,7 @@
   "company": {
    "ticker": "NXTC",
    "name": "NextCure Inc",
-   "last_price": "5.09",
+   "last_price": "4.88",
    "market_cap": 19505318
   },
   "ticker": "NXTC",
@@ -27832,7 +27832,7 @@
   "company": {
    "ticker": "LNTH",
    "name": "Lantheus Holdings",
-   "last_price": "105.83",
+   "last_price": "105.12",
    "market_cap": 7028200960
   },
   "ticker": "LNTH",
@@ -28022,7 +28022,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "35.97",
+   "last_price": "35.91",
    "market_cap": 1697742080
   },
   "ticker": "MPLT",
@@ -28202,7 +28202,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.01",
+   "last_price": "60.91",
    "market_cap": 124423405568
   },
   "ticker": "BMY",
@@ -28246,7 +28246,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "127.82",
+   "last_price": "128.08",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -28499,7 +28499,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "117.00",
+   "last_price": "116.72",
    "market_cap": 23452428288
   },
   "ticker": "INCY",

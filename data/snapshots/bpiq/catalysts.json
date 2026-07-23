@@ -910,7 +910,7 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "102.47",
+   "last_price": "102.66",
    "market_cap": 7131674112
   },
   "ticker": "RYTM",
@@ -1543,7 +1543,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.60",
+   "last_price": "61.42",
    "market_cap": 124076244992
   },
   "ticker": "BMY",
@@ -2842,7 +2842,7 @@
   "company": {
    "ticker": "RNTX",
    "name": "Rein Therapeutics",
-   "last_price": "0.84",
+   "last_price": "0.81",
    "market_cap": 71852784
   },
   "ticker": "RNTX",
@@ -3115,7 +3115,7 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "35.15",
+   "last_price": "35.20",
    "market_cap": 25109729280
   },
   "ticker": "ROIV",
@@ -3655,7 +3655,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.60",
+   "last_price": "61.42",
    "market_cap": 124076244992
   },
   "ticker": "BMY",
@@ -5424,6 +5424,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 20631,
+  "company": {
+   "ticker": "GSK",
+   "name": "GSK",
+   "last_price": "50.69",
+   "market_cap": null
+  },
+  "ticker": "GSK",
+  "drug_name": "Neladalkib (NVL-655) (ALK Inhibitor)",
+  "indications": [
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   }
+  ],
+  "indications_text": "ALK-Altered Non-Small Cell Lung Cancer",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "07/22/26:- FDA decision for neladalkib in ALK-altered NSCLC due November 27, 2026.",
+  "catalyst_date": "2026-11-27",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer-302832452.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 15137,
   "company": {
    "ticker": "OLMA",
@@ -5563,6 +5597,40 @@
   "catalyst_date": "2026-11-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/22/3315167/0/en/cemdisiran-regulatory-submissions-accepted-for-review-by-fda-and-ema-for-the-treatment-of-generalized-myasthenia-gravis-gmg.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 19743,
+  "company": {
+   "ticker": "RHHBY",
+   "name": "Roche Holding",
+   "last_price": "51.70",
+   "market_cap": 332993921024
+  },
+  "ticker": "RHHBY",
+  "drug_name": "Gazyva\u00ae/Gazyvaro\u00ae (Obinutuzumab) (CD20 Antibody)",
+  "indications": [
+   {
+    "id": 2169,
+    "title": "Primary Membranous Nephropathy",
+    "nickname": "PMN"
+   }
+  ],
+  "indications_text": "Primary Membranous Nephropathy",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "02/17/26:- Ph3 MAJESTY in primary membranous nephropathy met primary endpoint; data to be presented at meeting. 05/06/26:- MAJESTY Ph3 in primary membranous nephropathy met primary endpoint of complete remission at two years. 07/15/26:- FDA priority review sBLA for pMN; approval decision expected November 2026. MAJESTY CR 36.9% vs 5.7%.",
+  "catalyst_date": "2026-11-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/15/3327447/0/en/fda-grants-priority-review-to-roche-s-gazyva-gazyvaro-for-adults-with-primary-membranous-nephropathy.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -6570,7 +6638,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.60",
+   "last_price": "61.42",
    "market_cap": 124076244992
   },
   "ticker": "BMY",
@@ -7965,7 +8033,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "19.27",
+   "last_price": "19.09",
    "market_cap": 4199710464
   },
   "ticker": "RLAY",
@@ -8404,7 +8472,7 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "35.15",
+   "last_price": "35.20",
    "market_cap": 25109729280
   },
   "ticker": "ROIV",
@@ -9594,7 +9662,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "239.62",
+   "last_price": "241.19",
    "market_cap": 12330788864
   },
   "ticker": "AXSM",
@@ -11714,7 +11782,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.00",
+   "last_price": "3.02",
    "market_cap": 1581671424
   },
   "ticker": "RXRX",
@@ -12128,7 +12196,7 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "35.15",
+   "last_price": "35.20",
    "market_cap": 25109729280
   },
   "ticker": "ROIV",
@@ -13461,7 +13529,7 @@
   "company": {
    "ticker": "KNSA",
    "name": "Kiniksa Pharmaceuticals",
-   "last_price": "62.44",
+   "last_price": "63.00",
    "market_cap": 4804009472
   },
   "ticker": "KNSA",
@@ -17025,6 +17093,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 20121,
+  "company": {
+   "ticker": "PFE",
+   "name": "Pfizer",
+   "last_price": "24.97",
+   "market_cap": null
+  },
+  "ticker": "PFE",
+  "drug_name": "Talzenna/Talazoparib + Xtandi/Enzalutamide (BMN 673 + MDV3100) (PARP Inhibitor)",
+  "indications": [
+   {
+    "id": 944,
+    "title": "Prostate cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "HRR Gene-Mutated Metastatic Castration-Sensitive Prostate Cancer",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "03/19/26:- TALAPRO-3 Ph3 topline positive in HRR-mutated mCSPC; submission to congress and regulator discussions planned. 04/21/26:- TALAPRO-3 subgroup rPFS and OS-trend data at ASCO 2026 on May 30, 2026. 07/22/26:- FDA accepted sNDA; PDUFA action date set for Q4 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260722156396/en/FDA-Grants-Priority-Review-for-Pfizers-TALZENNA-Plus-XTANDI-for-the-Treatment-of-Metastatic-Prostate-Cancer",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 20131,
   "company": {
    "ticker": "IFRX",
@@ -18926,7 +19028,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "239.62",
+   "last_price": "241.19",
    "market_cap": 12330788864
   },
   "ticker": "AXSM",
@@ -18994,7 +19096,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.60",
+   "last_price": "61.42",
    "market_cap": 124076244992
   },
   "ticker": "BMY",
@@ -19067,7 +19169,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.00",
+   "last_price": "3.02",
    "market_cap": 1581671424
   },
   "ticker": "RXRX",
@@ -19734,7 +19836,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.00",
+   "last_price": "3.02",
    "market_cap": 1581671424
   },
   "ticker": "RXRX",
@@ -19812,7 +19914,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.00",
+   "last_price": "3.02",
    "market_cap": 1581671424
   },
   "ticker": "RXRX",
@@ -20532,7 +20634,7 @@
   "company": {
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
-   "last_price": "8.13",
+   "last_price": "7.86",
    "market_cap": 238871712
   },
   "ticker": "RNAC",
@@ -21218,7 +21320,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "239.62",
+   "last_price": "241.19",
    "market_cap": 12330788864
   },
   "ticker": "AXSM",
@@ -21700,7 +21802,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.00",
+   "last_price": "3.02",
    "market_cap": 1581671424
   },
   "ticker": "RXRX",
@@ -22940,7 +23042,7 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "35.15",
+   "last_price": "35.20",
    "market_cap": 25109729280
   },
   "ticker": "ROIV",
@@ -25193,7 +25295,7 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "102.47",
+   "last_price": "102.66",
    "market_cap": 7131674112
   },
   "ticker": "RYTM",
@@ -25349,7 +25451,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "189.09",
+   "last_price": "189.26",
    "market_cap": 38911528960
   },
   "ticker": "RVMD",
@@ -25398,7 +25500,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "189.09",
+   "last_price": "189.26",
    "market_cap": 38911528960
   },
   "ticker": "RVMD",
@@ -25998,7 +26100,7 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "102.47",
+   "last_price": "102.66",
    "market_cap": 7131674112
   },
   "ticker": "RYTM",
@@ -26285,7 +26387,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "19.27",
+   "last_price": "19.09",
    "market_cap": 4199710464
   },
   "ticker": "RLAY",
@@ -27186,7 +27288,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "19.27",
+   "last_price": "19.09",
    "market_cap": 4199710464
   },
   "ticker": "RLAY",
@@ -28202,7 +28304,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.60",
+   "last_price": "61.42",
    "market_cap": 124076244992
   },
   "ticker": "BMY",
@@ -28460,7 +28562,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "189.09",
+   "last_price": "189.26",
    "market_cap": 38911528960
   },
   "ticker": "RVMD",

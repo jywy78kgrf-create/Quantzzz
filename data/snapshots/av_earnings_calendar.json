@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "EXEL",
-  "reportDate": "2026-07-27",
-  "estimate": "0.75",
-  "time": ""
- },
- {
   "ticker": "ALKS",
   "reportDate": "2026-07-28",
   "estimate": "-0.04",
@@ -14,7 +8,7 @@
  {
   "ticker": "BA",
   "reportDate": "2026-07-28",
-  "estimate": "-0.27",
+  "estimate": "-0.34",
   "time": "pre-market"
  },
  {
@@ -32,14 +26,20 @@
  {
   "ticker": "V",
   "reportDate": "2026-07-28",
-  "estimate": "3.22",
+  "estimate": "3.23",
   "time": "post-market"
  },
  {
   "ticker": "BIIB",
   "reportDate": "2026-07-29",
-  "estimate": "3.13",
+  "estimate": "0.79",
   "time": "pre-market"
+ },
+ {
+  "ticker": "CORT",
+  "reportDate": "2026-07-29",
+  "estimate": "-0.04",
+  "time": "post-market"
  },
  {
   "ticker": "IONS",
@@ -50,7 +50,7 @@
  {
   "ticker": "META",
   "reportDate": "2026-07-29",
-  "estimate": "7.09",
+  "estimate": "7.13",
   "time": "post-market"
  },
  {
@@ -62,7 +62,7 @@
  {
   "ticker": "PG",
   "reportDate": "2026-07-29",
-  "estimate": "1.42",
+  "estimate": "1.41",
   "time": "pre-market"
  },
  {
@@ -84,10 +84,10 @@
   "time": "pre-market"
  },
  {
-  "ticker": "UTHR",
+  "ticker": "VKTX",
   "reportDate": "2026-07-29",
-  "estimate": "6.83",
-  "time": ""
+  "estimate": "-1.21",
+  "time": "post-market"
  },
  {
   "ticker": "AAPL",
@@ -98,7 +98,7 @@
  {
   "ticker": "ALNY",
   "reportDate": "2026-07-30",
-  "estimate": "1.43",
+  "estimate": "1.44",
   "time": "pre-market"
  },
  {
@@ -110,20 +110,14 @@
  {
   "ticker": "AMZN",
   "reportDate": "2026-07-30",
-  "estimate": "1.82",
-  "time": ""
+  "estimate": "1.81",
+  "time": "post-market"
  },
  {
   "ticker": "BMY",
   "reportDate": "2026-07-30",
   "estimate": "1.59",
   "time": "pre-market"
- },
- {
-  "ticker": "CORT",
-  "reportDate": "2026-07-30",
-  "estimate": "-0.04",
-  "time": ""
  },
  {
   "ticker": "DFTX",
@@ -134,19 +128,19 @@
  {
   "ticker": "MA",
   "reportDate": "2026-07-30",
-  "estimate": "4.76",
+  "estimate": "4.77",
   "time": "pre-market"
  },
  {
   "ticker": "MDGL",
   "reportDate": "2026-07-30",
-  "estimate": "-2.66",
+  "estimate": "-2.55",
   "time": "pre-market"
  },
  {
   "ticker": "NBIX",
   "reportDate": "2026-07-30",
-  "estimate": "1.86",
+  "estimate": "1.88",
   "time": "post-market"
  },
  {
@@ -158,19 +152,19 @@
  {
   "ticker": "CVX",
   "reportDate": "2026-07-31",
-  "estimate": "5.71",
+  "estimate": "5.79",
   "time": "pre-market"
  },
  {
   "ticker": "MRNA",
   "reportDate": "2026-07-31",
-  "estimate": "-1.99",
+  "estimate": "-1.97",
   "time": "pre-market"
  },
  {
   "ticker": "XOM",
   "reportDate": "2026-07-31",
-  "estimate": "4.04",
+  "estimate": "3.79",
   "time": "pre-market"
  },
  {
@@ -184,6 +178,12 @@
   "reportDate": "2026-08-03",
   "estimate": "-1.1",
   "time": ""
+ },
+ {
+  "ticker": "JAZZ",
+  "reportDate": "2026-08-03",
+  "estimate": "5.06",
+  "time": "post-market"
  },
  {
   "ticker": "KRYS",
@@ -206,7 +206,7 @@
  {
   "ticker": "ACAD",
   "reportDate": "2026-08-04",
-  "estimate": "0.05",
+  "estimate": "0.06",
   "time": "post-market"
  },
  {
@@ -218,31 +218,31 @@
  {
   "ticker": "AMGN",
   "reportDate": "2026-08-04",
-  "estimate": "5.57",
+  "estimate": "5.6",
+  "time": "post-market"
+ },
+ {
+  "ticker": "ARWR",
+  "reportDate": "2026-08-04",
+  "estimate": "-1.19",
   "time": "post-market"
  },
  {
   "ticker": "BBIO",
   "reportDate": "2026-08-04",
-  "estimate": "-0.64",
+  "estimate": "-0.63",
   "time": ""
  },
  {
   "ticker": "CAT",
   "reportDate": "2026-08-04",
   "estimate": "6.25",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "COGT",
   "reportDate": "2026-08-04",
   "estimate": "-0.55",
-  "time": ""
- },
- {
-  "ticker": "JAZZ",
-  "reportDate": "2026-08-04",
-  "estimate": "5.06",
   "time": ""
  },
  {
@@ -254,13 +254,13 @@
  {
   "ticker": "MCD",
   "reportDate": "2026-08-04",
-  "estimate": "3.33",
+  "estimate": "3.32",
   "time": "pre-market"
  },
  {
   "ticker": "MRK",
   "reportDate": "2026-08-04",
-  "estimate": "-0.21",
+  "estimate": "-0.26",
   "time": "pre-market"
  },
  {
@@ -273,7 +273,7 @@
   "ticker": "RYTM",
   "reportDate": "2026-08-04",
   "estimate": "-0.82",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "SYRE",
@@ -294,16 +294,16 @@
   "time": "pre-market"
  },
  {
-  "ticker": "LLY",
+  "ticker": "EXEL",
   "reportDate": "2026-08-05",
-  "estimate": "7.47",
-  "time": "pre-market"
+  "estimate": "0.75",
+  "time": "post-market"
  },
  {
-  "ticker": "LNTH",
+  "ticker": "LLY",
   "reportDate": "2026-08-05",
-  "estimate": "1.11",
-  "time": ""
+  "estimate": "6.71",
+  "time": "pre-market"
  },
  {
   "ticker": "MIRM",
@@ -314,8 +314,8 @@
  {
   "ticker": "ONC",
   "reportDate": "2026-08-05",
-  "estimate": "1.08",
-  "time": ""
+  "estimate": "1.4",
+  "time": "pre-market"
  },
  {
   "ticker": "PCVX",
@@ -332,7 +332,7 @@
  {
   "ticker": "RVMD",
   "reportDate": "2026-08-05",
-  "estimate": "-1.9",
+  "estimate": "-1.92",
   "time": ""
  },
  {
@@ -350,14 +350,14 @@
  {
   "ticker": "UBER",
   "reportDate": "2026-08-05",
-  "estimate": "0.84",
+  "estimate": "0.83",
   "time": "pre-market"
  },
  {
-  "ticker": "ARWR",
-  "reportDate": "2026-08-06",
-  "estimate": "-1.19",
-  "time": ""
+  "ticker": "UTHR",
+  "reportDate": "2026-08-05",
+  "estimate": "6.83",
+  "time": "pre-market"
  },
  {
   "ticker": "COP",
@@ -368,7 +368,7 @@
  {
   "ticker": "CYTK",
   "reportDate": "2026-08-06",
-  "estimate": "-1.64",
+  "estimate": "-1.63",
   "time": ""
  },
  {
@@ -386,14 +386,20 @@
  {
   "ticker": "GMAB",
   "reportDate": "2026-08-06",
-  "estimate": "0.35",
+  "estimate": "0.37",
   "time": "pre-market"
  },
  {
   "ticker": "INSM",
   "reportDate": "2026-08-06",
-  "estimate": "-0.74",
-  "time": ""
+  "estimate": "-0.69",
+  "time": "pre-market"
+ },
+ {
+  "ticker": "LNTH",
+  "reportDate": "2026-08-06",
+  "estimate": "1.11",
+  "time": "pre-market"
  },
  {
   "ticker": "RLAY",
@@ -489,12 +495,12 @@
   "ticker": "TGT",
   "reportDate": "2026-08-19",
   "estimate": "2.21",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "DE",
   "reportDate": "2026-08-20",
-  "estimate": "4.82",
+  "estimate": "4.85",
   "time": "pre-market"
  },
  {
@@ -518,7 +524,7 @@
  {
   "ticker": "AVGO",
   "reportDate": "2026-09-03",
-  "estimate": "2.84",
+  "estimate": "2.83",
   "time": ""
  },
  {

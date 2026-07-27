@@ -1,49 +1,10 @@
 [
  {
-  "id": 13445,
-  "company": {
-   "ticker": "OTLK",
-   "name": "Outlook Therapeutics",
-   "last_price": "1.14",
-   "market_cap": 262730768
-  },
-  "ticker": "OTLK",
-  "drug_name": "ONS-5010 / LYTENAVA\u2122 (bevacizumab-vikg)",
-  "indications": [
-   {
-    "id": 993,
-    "title": "Eye disease ",
-    "nickname": ""
-   },
-   {
-    "id": 1322,
-    "title": "Wet age-related macular degeneration ",
-    "nickname": "wAMD"
-   }
-  ],
-  "indications_text": "Wet age-related macular degeneration (AMD) ",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "05/15/26:- Dispute meeting completed; FDA decision expected May 2026; Europe Q2 unit sales down 10%. 05/26/26:- FDA granted appeal; expects BLA resubmission June 2026. Class 1; decision expected within 60 days. 06/01/26:- BLA resubmitted; Class 1 review. PDUFA decision expected within 60 days (Late July 2026 est.). 06/16/26:- FDA set PDUFA action date July 29, 2026 for Class 1 resubmitted BLA.",
-  "catalyst_date": "2026-07-29",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/16/3312535/0/en/outlook-therapeutics-announces-fda-acceptance-of-resubmitted-biologics-license-application-for-ons-5010-lytenava-bevacizumab-vikg-as-a-treatment-for-wet-amd.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 20271,
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "132.31",
+   "last_price": "131.73",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -77,7 +38,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "132.31",
+   "last_price": "131.73",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -111,7 +72,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "132.31",
+   "last_price": "131.73",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -145,7 +106,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.45",
+   "last_price": "17.56",
    "market_cap": 20076888064
   },
   "ticker": "VTRS",
@@ -184,7 +145,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "42.09",
+   "last_price": "42.18",
    "market_cap": 5730526208
   },
   "ticker": "DFTX",
@@ -218,7 +179,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "8.49",
+   "last_price": "8.79",
    "market_cap": 814268032
   },
   "ticker": "REPL",
@@ -257,7 +218,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.88",
+   "last_price": "55.46",
    "market_cap": 21454233600
   },
   "ticker": "MRNA",
@@ -291,7 +252,7 @@
   "company": {
    "ticker": "LNTH",
    "name": "Lantheus Holdings",
-   "last_price": "107.86",
+   "last_price": "108.21",
    "market_cap": 6824419328
   },
   "ticker": "LNTH",
@@ -325,7 +286,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "23.14",
+   "last_price": "23.15",
    "market_cap": 1681900416
   },
   "ticker": "ZYME",
@@ -369,7 +330,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "23.62",
+   "last_price": "23.64",
    "market_cap": 3667782400
   },
   "ticker": "DNLI",
@@ -403,7 +364,7 @@
   "company": {
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
-   "last_price": "12.38",
+   "last_price": "12.23",
    "market_cap": 1022025344
   },
   "ticker": "EYPT",
@@ -442,7 +403,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "56.35",
+   "last_price": "56.29",
    "market_cap": 9345597440
   },
   "ticker": "IONS",
@@ -486,7 +447,7 @@
   "company": {
    "ticker": "AVIR",
    "name": "Atea Pharmaceuticals",
-   "last_price": "4.87",
+   "last_price": "4.83",
    "market_cap": 378528160
   },
   "ticker": "AVIR",
@@ -520,7 +481,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.17",
+   "last_price": "119.18",
    "market_cap": 23508367360
   },
   "ticker": "INCY",
@@ -554,7 +515,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "7.11",
+   "last_price": "7.20",
    "market_cap": 729226752
   },
   "ticker": "AURA",
@@ -593,7 +554,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "19.76",
+   "last_price": "19.77",
    "market_cap": 1589343360
   },
   "ticker": "MLTX",
@@ -627,7 +588,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "28.72",
+   "last_price": "28.49",
    "market_cap": 3574473216
   },
   "ticker": "RCUS",
@@ -671,7 +632,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "7.57",
+   "last_price": "7.37",
    "market_cap": 167932416
   },
   "ticker": "KPTI",
@@ -710,7 +671,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "901.12",
+   "last_price": "895.02",
    "market_cap": 57102053376
   },
   "ticker": "ARGX",
@@ -744,7 +705,7 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "19.49",
+   "last_price": "19.13",
    "market_cap": 608758016
   },
   "ticker": "NVCT",
@@ -793,7 +754,7 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "105.86",
+   "last_price": "107.11",
    "market_cap": 7003403776
   },
   "ticker": "RYTM",
@@ -905,7 +866,7 @@
   "company": {
    "ticker": "VALN",
    "name": "Valneva SE",
-   "last_price": "5.04",
+   "last_price": "4.96",
    "market_cap": 488131904
   },
   "ticker": "VALN",
@@ -944,7 +905,7 @@
   "company": {
    "ticker": "CRBP",
    "name": "Corbus Pharmaceuticals",
-   "last_price": "9.38",
+   "last_price": "9.33",
    "market_cap": 169899888
   },
   "ticker": "CRBP",
@@ -978,7 +939,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.44",
+   "last_price": "2.43",
    "market_cap": 19260268
   },
   "ticker": "CLRB",
@@ -1012,7 +973,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "2.92",
+   "last_price": "2.90",
    "market_cap": 165357792
   },
   "ticker": "PYXS",
@@ -1051,7 +1012,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "5.33",
+   "last_price": "5.30",
    "market_cap": 1621543296
   },
   "ticker": "ABCL",
@@ -1085,7 +1046,7 @@
   "company": {
    "ticker": "SION",
    "name": "Sionna Therapeutics",
-   "last_price": "45.65",
+   "last_price": "45.94",
    "market_cap": 2063369984
   },
   "ticker": "SION",
@@ -1119,7 +1080,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "23.92",
+   "last_price": "23.49",
    "market_cap": 379131616
   },
   "ticker": "STRO",
@@ -1153,7 +1114,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.44",
+   "last_price": "2.43",
    "market_cap": 19260268
   },
   "ticker": "CLRB",
@@ -1187,7 +1148,7 @@
   "company": {
    "ticker": "AVBP",
    "name": "ArriVent",
-   "last_price": "31.40",
+   "last_price": "31.42",
    "market_cap": null
   },
   "ticker": "AVBP",
@@ -1221,7 +1182,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "36.41",
+   "last_price": "36.46",
    "market_cap": 2044769280
   },
   "ticker": "HRMY",
@@ -1353,7 +1314,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "63.27",
+   "last_price": "62.76",
    "market_cap": 126792204288
   },
   "ticker": "BMY",
@@ -1387,7 +1348,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "6.35",
+   "last_price": "6.45",
    "market_cap": 1140864256
   },
   "ticker": "CAPR",
@@ -1406,10 +1367,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "HOPE-2/HOPE-3 trials. 3/4/25- BLA accepted & priority review. PDUFA date August 31, 2025. 7/11/25- CRL received. 9/9/25- Responded to FDA CRL posting. 9/25/25- HOPE-3 trial completed. 12/3/25\u2013 HOPE-3 met primary and key cardiac endpoints. 01/20/26:- FDA requested HOPE-3 CSR; company plans BLA resubmission in February 2026 to enable new PDUFA. 02/24/26:- HOPE-3 CSR submitted; FDA BLA review ongoing. Detailed HOPE-3 results to be presented at MDA on March 11, 2026. 03/10/26:- FDA resumed BLA review; Class 2 resubmission. PDUFA action date set for August 22, 2026. 03/12/26:- HOPE-3 late-breaking MDA 2026 data show significant functional and cardiac benefits; BLA review ongoing, PDUFA August 22, 2026. 04/22/26:- HOPE-3 Phase 3 data presented at AAN 2026. PDUFA action date remains August 22, 2026. 05/12/26:- PDUFA August 22, 2026 confirmed; labeling talks expected soon; HOPE-3 data strengthened cardiac and functional outcomes. 06/26/26:- Five-year HOPE-2 OLE data presented at PPMD June 27. PDUFA action date remains August 22, 2026.",
+  "note": "HOPE-2/HOPE-3 trials. 3/4/25- BLA accepted & priority review. PDUFA date August 31, 2025. 7/11/25- CRL received. 9/9/25- Responded to FDA CRL posting. 9/25/25- HOPE-3 trial completed. 12/3/25\u2013 HOPE-3 met primary and key cardiac endpoints. 01/20/26:- FDA requested HOPE-3 CSR; company plans BLA resubmission in February 2026 to enable new PDUFA. 02/24/26:- HOPE-3 CSR submitted; FDA BLA review ongoing. Detailed HOPE-3 results to be presented at MDA on March 11, 2026. 03/10/26:- FDA resumed BLA review; Class 2 resubmission. PDUFA action date set for August 22, 2026. 03/12/26:- HOPE-3 late-breaking MDA 2026 data show significant functional and cardiac benefits; BLA review ongoing, PDUFA August 22, 2026. 04/22/26:- HOPE-3 Phase 3 data presented at AAN 2026. PDUFA action date remains August 22, 2026. 05/12/26:- PDUFA August 22, 2026 confirmed; labeling talks expected soon; HOPE-3 data strengthened cardiac and functional outcomes. 06/26/26:- Five-year HOPE-2 OLE data presented at PPMD June 27. PDUFA action date remains August 22, 2026. 07/27/26:- FDA Adcomm upcoming for Deramiocel BLA; company defends HOPE-3 analysis. PDUFA Aug 22, 2026.",
   "catalyst_date": "2026-08-22",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/26/3318242/0/en/capricor-to-present-positive-five-year-hope-2-ole-data-and-hope-3-phase-3-results-for-deramiocel-in-duchenne-muscular-dystrophy-at-ppmd-2026-annual-conference.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60699368/capricor-comments-briefing-materials-ahead-july-29-fda-advisory-committee-meeting-deramiocel",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -1421,7 +1382,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "26.73",
+   "last_price": "26.91",
    "market_cap": 2649360128
   },
   "ticker": "RARE",
@@ -1455,7 +1416,7 @@
   "company": {
    "ticker": "JAZZ",
    "name": "Jazz Pharmaceuticals ",
-   "last_price": "255.48",
+   "last_price": "255.55",
    "market_cap": 15947510784
   },
   "ticker": "JAZZ",
@@ -1786,7 +1747,7 @@
   "company": {
    "ticker": "SION",
    "name": "Sionna Therapeutics",
-   "last_price": "45.65",
+   "last_price": "45.94",
    "market_cap": 2063369984
   },
   "ticker": "SION",
@@ -2039,7 +2000,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "26.73",
+   "last_price": "26.91",
    "market_cap": 2649360128
   },
   "ticker": "RARE",
@@ -2078,7 +2039,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "56.35",
+   "last_price": "56.29",
    "market_cap": 9345597440
   },
   "ticker": "IONS",
@@ -2146,7 +2107,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.17",
+   "last_price": "119.18",
    "market_cap": 23508367360
   },
   "ticker": "INCY",
@@ -2793,7 +2754,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "901.12",
+   "last_price": "895.02",
    "market_cap": 57102053376
   },
   "ticker": "ARGX",
@@ -3027,7 +2988,7 @@
   "company": {
    "ticker": "IVVD",
    "name": "INVIVYD",
-   "last_price": "0.60",
+   "last_price": "0.61",
    "market_cap": 180123008
   },
   "ticker": "IVVD",
@@ -3431,7 +3392,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "5.33",
+   "last_price": "5.30",
    "market_cap": 1621543296
   },
   "ticker": "ABCL",
@@ -3499,7 +3460,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "63.27",
+   "last_price": "62.76",
    "market_cap": 126792204288
   },
   "ticker": "BMY",
@@ -3669,7 +3630,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "132.31",
+   "last_price": "131.73",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -3742,7 +3703,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "132.31",
+   "last_price": "131.73",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -3864,7 +3825,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.45",
+   "last_price": "17.56",
    "market_cap": 20076888064
   },
   "ticker": "VTRS",
@@ -3980,6 +3941,45 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 17452,
+  "company": {
+   "ticker": "IMMP",
+   "name": "Immutep",
+   "last_price": "0.38",
+   "market_cap": 56664584
+  },
+  "ticker": "IMMP",
+  "drug_name": "Eftilagimod Alpha + Pembrolizumab",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 724,
+    "title": "Soft tissue sarcoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Soft tissue sarcoma",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "EFTISARC-NEO Phase 2 trial. 5/27/25: Primary endpoint met. 10/20/25: Data presented at ESMO 2025. 11/13/25: Detailed efficacy data presented at CTOS 2025. 01/29/26:- EFTISARC-NEO ESMO and CTOS 2025 data show primary endpoint surpassed and strong immune activation; survival data pending. 04/15/26:- FDA granted ODD for efti in STS; EFTISARC-NEO data reiterated; late-stage study considered. 07/24/26:- EFTISARC-NEO HRQoL results accepted for ESMO 2026; abstract online October 19, 2026.",
+  "catalyst_date": "2026-10-19",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/24/3332815/0/en/immutep-announces-abstract-accepted-for-presentation-at-the-european-society-for-medical-oncology-esmo-congress-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17590,
@@ -4595,7 +4595,7 @@
   "company": {
    "ticker": "EVAX",
    "name": "Evaxion Biotech",
-   "last_price": "2.96",
+   "last_price": "2.99",
    "market_cap": 24687036
   },
   "ticker": "EVAX",
@@ -4746,7 +4746,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "56.35",
+   "last_price": "56.29",
    "market_cap": 9345597440
   },
   "ticker": "IONS",
@@ -5277,7 +5277,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "84.02",
+   "last_price": "84.66",
    "market_cap": 16456261632
   },
   "ticker": "BBIO",
@@ -5423,7 +5423,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "477.36",
+   "last_price": "482.59",
    "market_cap": 121156550656
   },
   "ticker": "VRTX",
@@ -5954,7 +5954,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.45",
+   "last_price": "17.56",
    "market_cap": 20076888064
   },
   "ticker": "VTRS",
@@ -6022,7 +6022,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "901.12",
+   "last_price": "895.02",
    "market_cap": 57102053376
   },
   "ticker": "ARGX",
@@ -6560,7 +6560,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "63.27",
+   "last_price": "62.76",
    "market_cap": 126792204288
   },
   "ticker": "BMY",
@@ -6887,7 +6887,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.88",
+   "last_price": "55.46",
    "market_cap": 21454233600
   },
   "ticker": "MRNA",
@@ -7072,7 +7072,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "56.35",
+   "last_price": "56.29",
    "market_cap": 9345597440
   },
   "ticker": "IONS",
@@ -7179,7 +7179,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "36.41",
+   "last_price": "36.46",
    "market_cap": 2044769280
   },
   "ticker": "HRMY",
@@ -7609,7 +7609,7 @@
   "company": {
    "ticker": "IVA",
    "name": " Inventiva",
-   "last_price": "4.46",
+   "last_price": "4.53",
    "market_cap": 1053544128
   },
   "ticker": "IVA",
@@ -7882,7 +7882,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "901.12",
+   "last_price": "895.02",
    "market_cap": 57102053376
   },
   "ticker": "ARGX",
@@ -7994,7 +7994,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "23.62",
+   "last_price": "23.64",
    "market_cap": 3667782400
   },
   "ticker": "DNLI",
@@ -8560,7 +8560,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "26.73",
+   "last_price": "26.91",
    "market_cap": 2649360128
   },
   "ticker": "RARE",
@@ -8594,7 +8594,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "26.73",
+   "last_price": "26.91",
    "market_cap": 2649360128
   },
   "ticker": "RARE",
@@ -9365,7 +9365,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.17",
+   "last_price": "119.18",
    "market_cap": 23508367360
   },
   "ticker": "INCY",
@@ -10179,7 +10179,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.88",
+   "last_price": "55.46",
    "market_cap": 21454233600
   },
   "ticker": "MRNA",
@@ -10218,7 +10218,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "7.57",
+   "last_price": "7.37",
    "market_cap": 167932416
   },
   "ticker": "KPTI",
@@ -11095,7 +11095,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "7.57",
+   "last_price": "7.37",
    "market_cap": 167932416
   },
   "ticker": "KPTI",
@@ -11977,7 +11977,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "56.35",
+   "last_price": "56.29",
    "market_cap": 9345597440
   },
   "ticker": "IONS",
@@ -12264,7 +12264,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "8.49",
+   "last_price": "8.79",
    "market_cap": 814268032
   },
   "ticker": "REPL",
@@ -12303,7 +12303,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.88",
+   "last_price": "55.46",
    "market_cap": 21454233600
   },
   "ticker": "MRNA",
@@ -13024,7 +13024,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "2.92",
+   "last_price": "2.90",
    "market_cap": 165357792
   },
   "ticker": "PYXS",
@@ -13485,7 +13485,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "2.69",
+   "last_price": "2.71",
    "market_cap": 438617408
   },
   "ticker": "CABA",
@@ -14087,7 +14087,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "19.22",
+   "last_price": "18.71",
    "market_cap": 2170371328
   },
   "ticker": "ZLAB",
@@ -14228,7 +14228,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "19.22",
+   "last_price": "18.71",
    "market_cap": 2170371328
   },
   "ticker": "ZLAB",
@@ -14568,7 +14568,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.17",
+   "last_price": "119.18",
    "market_cap": 23508367360
   },
   "ticker": "INCY",
@@ -15054,7 +15054,7 @@
   "company": {
    "ticker": "ABSI",
    "name": "Absci",
-   "last_price": "8.01",
+   "last_price": "7.67",
    "market_cap": 1280666496
   },
   "ticker": "ABSI",
@@ -15224,7 +15224,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.88",
+   "last_price": "55.46",
    "market_cap": 21454233600
   },
   "ticker": "MRNA",
@@ -15471,7 +15471,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "7.11",
+   "last_price": "7.20",
    "market_cap": 729226752
   },
   "ticker": "AURA",
@@ -15578,7 +15578,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "7.11",
+   "last_price": "7.20",
    "market_cap": 729226752
   },
   "ticker": "AURA",
@@ -16162,7 +16162,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "28.72",
+   "last_price": "28.49",
    "market_cap": 3574473216
   },
   "ticker": "RCUS",
@@ -16206,7 +16206,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "28.72",
+   "last_price": "28.49",
    "market_cap": 3574473216
   },
   "ticker": "RCUS",
@@ -16513,7 +16513,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "15.33",
+   "last_price": "15.45",
    "market_cap": 934890112
   },
   "ticker": "JANX",
@@ -16547,7 +16547,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.17",
+   "last_price": "119.18",
    "market_cap": 23508367360
   },
   "ticker": "INCY",
@@ -16761,7 +16761,7 @@
   "company": {
    "ticker": "AVBP",
    "name": "ArriVent",
-   "last_price": "31.40",
+   "last_price": "31.42",
    "market_cap": null
   },
   "ticker": "AVBP",
@@ -18317,7 +18317,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "8.49",
+   "last_price": "8.79",
    "market_cap": 814268032
   },
   "ticker": "REPL",
@@ -18443,10 +18443,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "SONATA-HCM trial. 8/3/24- Trial initiated w/ multiple sites open for recruitment. 8/6/25- Enrollment underway. 11/06/25:- All 130 SONATA-HCM sites across 20 countries have been initiated and enrollment is accelerating in the 500-patient Ph3 study; enrollment completion remains on track for 2026. 03/05/26:- SONATA-HCM surpassed 50% enrollment; enrollment completion expected Mid-2026; topline Ph3 results expected in Q1 2027. 05/07/26:- SONATA-HCM enrollment continues; company reiterates Mid-2026 enrollment completion and Q1 2027 topline Ph3 results.",
+  "note": "SONATA-HCM trial. 8/3/24- Trial initiated w/ multiple sites open for recruitment. 8/6/25- Enrollment underway. 11/06/25:- All 130 SONATA-HCM sites across 20 countries have been initiated and enrollment is accelerating in the 500-patient Ph3 study; enrollment completion remains on track for 2026. 03/05/26:- SONATA-HCM surpassed 50% enrollment; enrollment completion expected Mid-2026; topline Ph3 results expected in Q1 2027. 05/07/26:- SONATA-HCM enrollment continues; company reiterates Mid-2026 enrollment completion and Q1 2027 topline Ph3 results. 07/27/26:- Ph3 SONATA-HCM enrollment completed; study exceeded 500 patients. Topline results anticipated Q1 2027.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3289862/0/en/lexicon-pharmaceuticals-reports-first-quarter-2026-financial-results-and-provides-clinical-updates.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60692495/lexicon-pharmaceuticals-completes-enrollment-pivotal-phase-3-sonata-hcm-study-sotagliflozin-symptoma",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18984,7 +18984,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "84.02",
+   "last_price": "84.66",
    "market_cap": 16456261632
   },
   "ticker": "BBIO",
@@ -19018,7 +19018,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "63.27",
+   "last_price": "62.76",
    "market_cap": 126792204288
   },
   "ticker": "BMY",
@@ -19403,7 +19403,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "10.07",
+   "last_price": "10.31",
    "market_cap": 526421888
   },
   "ticker": "FDMT",
@@ -19471,7 +19471,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "15.33",
+   "last_price": "15.45",
    "market_cap": 934890112
   },
   "ticker": "JANX",
@@ -19549,7 +19549,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "26.73",
+   "last_price": "26.91",
    "market_cap": 2649360128
   },
   "ticker": "RARE",
@@ -19656,7 +19656,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "36.41",
+   "last_price": "36.46",
    "market_cap": 2044769280
   },
   "ticker": "HRMY",
@@ -19904,7 +19904,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "28.72",
+   "last_price": "28.49",
    "market_cap": 3574473216
   },
   "ticker": "RCUS",
@@ -19977,7 +19977,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "36.41",
+   "last_price": "36.46",
    "market_cap": 2044769280
   },
   "ticker": "HRMY",
@@ -20269,7 +20269,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "23.62",
+   "last_price": "23.64",
    "market_cap": 3667782400
   },
   "ticker": "DNLI",
@@ -20507,7 +20507,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "2.69",
+   "last_price": "2.71",
    "market_cap": 438617408
   },
   "ticker": "CABA",
@@ -21028,7 +21028,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "35.80",
+   "last_price": "34.83",
    "market_cap": 4039315200
   },
   "ticker": "VKTX",
@@ -21067,7 +21067,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "36.41",
+   "last_price": "36.46",
    "market_cap": 2044769280
   },
   "ticker": "HRMY",
@@ -21135,7 +21135,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "7.11",
+   "last_price": "7.20",
    "market_cap": 729226752
   },
   "ticker": "AURA",
@@ -21208,7 +21208,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "901.12",
+   "last_price": "895.02",
    "market_cap": 57102053376
   },
   "ticker": "ARGX",
@@ -21388,7 +21388,7 @@
   "company": {
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
-   "last_price": "12.38",
+   "last_price": "12.23",
    "market_cap": 1022025344
   },
   "ticker": "EYPT",
@@ -21544,7 +21544,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "56.35",
+   "last_price": "56.29",
    "market_cap": 9345597440
   },
   "ticker": "IONS",
@@ -21617,7 +21617,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "42.09",
+   "last_price": "42.18",
    "market_cap": 5730526208
   },
   "ticker": "DFTX",
@@ -21763,7 +21763,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "901.12",
+   "last_price": "895.02",
    "market_cap": 57102053376
   },
   "ticker": "ARGX",
@@ -22108,7 +22108,7 @@
   "company": {
    "ticker": "JBIO",
    "name": "Jade Biosciences",
-   "last_price": "20.08",
+   "last_price": "20.38",
    "market_cap": 1222066304
   },
   "ticker": "JBIO",
@@ -22604,7 +22604,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "36.41",
+   "last_price": "36.46",
    "market_cap": 2044769280
   },
   "ticker": "HRMY",
@@ -23951,7 +23951,7 @@
   "company": {
    "ticker": "VALN",
    "name": "Valneva SE",
-   "last_price": "5.04",
+   "last_price": "4.96",
    "market_cap": 488131904
   },
   "ticker": "VALN",
@@ -23986,11 +23986,50 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 13445,
+  "company": {
+   "ticker": "OTLK",
+   "name": "Outlook Therapeutics",
+   "last_price": "1.14",
+   "market_cap": 262730768
+  },
+  "ticker": "OTLK",
+  "drug_name": "ONS-5010 / LYTENAVA\u2122 (bevacizumab-vikg)",
+  "indications": [
+   {
+    "id": 993,
+    "title": "Eye disease ",
+    "nickname": ""
+   },
+   {
+    "id": 1322,
+    "title": "Wet age-related macular degeneration ",
+    "nickname": "wAMD"
+   }
+  ],
+  "indications_text": "Wet age-related macular degeneration (AMD) ",
+  "stage_event": {
+   "id": 99,
+   "label": "Approved Update",
+   "stage_label": "Approved",
+   "event_label": "Update"
+  },
+  "note": "05/15/26:- Dispute meeting completed; FDA decision expected May 2026; Europe Q2 unit sales down 10%. 05/26/26:- FDA granted appeal; expects BLA resubmission June 2026. Class 1; decision expected within 60 days. 06/01/26:- BLA resubmitted; Class 1 review. PDUFA decision expected within 60 days (Late July 2026 est.). 06/16/26:- FDA set PDUFA action date July 29, 2026 for Class 1 resubmitted BLA. 07/24/26:- FDA approved LYTENAVA for wet AMD. Plans U.S. availability before year-end.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60678668/outlook-therapeutics-announces-lytenava-fda-approval-first-and-only-fda-approved-ophthalmic-bevacizu",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 13551,
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "23.62",
+   "last_price": "23.64",
    "market_cap": 3667782400
   },
   "ticker": "DNLI",
@@ -24623,7 +24662,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "56.35",
+   "last_price": "56.29",
    "market_cap": 9345597440
   },
   "ticker": "IONS",
@@ -25037,7 +25076,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "132.31",
+   "last_price": "131.73",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -25217,7 +25256,7 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "105.86",
+   "last_price": "107.11",
    "market_cap": 7003403776
   },
   "ticker": "RYTM",
@@ -25256,7 +25295,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "2.69",
+   "last_price": "2.71",
    "market_cap": 438617408
   },
   "ticker": "CABA",
@@ -25295,7 +25334,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "15.33",
+   "last_price": "15.45",
    "market_cap": 934890112
   },
   "ticker": "JANX",
@@ -26061,7 +26100,7 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "105.86",
+   "last_price": "107.11",
    "market_cap": 7003403776
   },
   "ticker": "RYTM",
@@ -26616,7 +26655,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "28.72",
+   "last_price": "28.49",
    "market_cap": 3574473216
   },
   "ticker": "RCUS",
@@ -27035,7 +27074,7 @@
   "company": {
    "ticker": "JSPR",
    "name": "Jasper Therapeutics",
-   "last_price": "0.69",
+   "last_price": "0.66",
    "market_cap": 22906206
   },
   "ticker": "JSPR",
@@ -27108,7 +27147,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "19.76",
+   "last_price": "19.77",
    "market_cap": 1589343360
   },
   "ticker": "MLTX",
@@ -27478,7 +27517,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "132.31",
+   "last_price": "131.73",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -27681,7 +27720,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "901.12",
+   "last_price": "895.02",
    "market_cap": 57102053376
   },
   "ticker": "ARGX",
@@ -27895,7 +27934,7 @@
   "company": {
    "ticker": "LNTH",
    "name": "Lantheus Holdings",
-   "last_price": "107.86",
+   "last_price": "108.21",
    "market_cap": 6824419328
   },
   "ticker": "LNTH",
@@ -28299,7 +28338,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "63.27",
+   "last_price": "62.76",
    "market_cap": 126792204288
   },
   "ticker": "BMY",
@@ -28343,7 +28382,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "132.31",
+   "last_price": "131.73",
    "market_cap": null
   },
   "ticker": "MRK",
@@ -28596,7 +28635,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.17",
+   "last_price": "119.18",
    "market_cap": 23508367360
   },
   "ticker": "INCY",

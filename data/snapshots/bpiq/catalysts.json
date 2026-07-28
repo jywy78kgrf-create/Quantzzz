@@ -179,7 +179,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "8.63",
+   "last_price": "5.93",
    "market_cap": 724446720
   },
   "ticker": "REPL",
@@ -218,7 +218,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.63",
+   "last_price": "55.10",
    "market_cap": 22073221120
   },
   "ticker": "MRNA",
@@ -246,6 +246,45 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 15204,
+  "company": {
+   "ticker": "PSTV",
+   "name": "Plus Therapeutics",
+   "last_price": "3.65",
+   "market_cap": 25676936
+  },
+  "ticker": "PSTV",
+  "drug_name": "REYOBIQ (Rhenium Re186 Obisbemeda)",
+  "indications": [
+   {
+    "id": 947,
+    "title": "Breast cancer",
+    "nickname": ""
+   },
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Leptomeningeal Metastases (LM)",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/15/26:- SpectronRx added. ReSPECT-LM Ph2 dose optimization continues. Data expected Q3 2026. 07/28/26:- ReSPECT-LMM repeated-dosing emerging data in LM to be presented Aug 13, 2026.",
+  "catalyst_date": "2026-08-13",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60720027/plus-therapeutics-announces-scientific-presentations-and-sponsored-symposium-2026-sno-asco-cns-metas",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18433,
@@ -436,40 +475,6 @@
   "catalyst_date": "2026-08-15",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/b60349363/update-cardio-ttransform-phase-3-trial-eplontersen-adults-transthyretin-mediated-amyloid-cardiomyopa",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
-  "id": 16443,
-  "company": {
-   "ticker": "AVIR",
-   "name": "Atea Pharmaceuticals",
-   "last_price": "4.82",
-   "market_cap": 385730624
-  },
-  "ticker": "AVIR",
-  "drug_name": "Bemnifosbuvir + Ruzasvir (RZR)",
-  "indications": [
-   {
-    "id": 895,
-    "title": "Hepatitis C",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Hepatitis C Virus Infection",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "C-BEYOND & C-FORWARD Ph3 Trials. 12/4/24- Met primary endpoints. 6/24/25- First patient dosed in Ph3 C-FORWARD trial. 11/12/25:- Ph3 enrollment on track. C-BEYOND topline mid-2026; C-FORWARD topline around end-2026. 12/22/25:- Completed C-BEYOND Ph3 enrollment. 05/13/26:- EASL 2026 posters May 29 on DDI and transport. 05/12/26:- HCV Ph3 C-BEYOND topline mid-2026; C-FORWARD enrollment completion mid-2026; topline around year-end 2026. 05/27/26:- EASL Ph1 DDI results: low interaction with omeprazole, digoxin, rosuvastatin. Ph3 topline still mid-2026. 06/25/26:- C-FORWARD enrollment completed. C-BEYOND topline mid-2026; C-FORWARD topline around year-end 2026.",
-  "catalyst_date": "2026-08-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/25/3317395/0/en/atea-pharmaceuticals-completes-patient-enrollment-in-phase-3-c-forward-trial-evaluating-bemnifosbuvir-and-ruzasvir-for-treatment-of-hepatitis-c-virus.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -973,7 +978,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "2.76",
+   "last_price": "2.80",
    "market_cap": 184364448
   },
   "ticker": "PYXS",
@@ -1348,7 +1353,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "7.00",
+   "last_price": "5.98",
    "market_cap": 405093664
   },
   "ticker": "CAPR",
@@ -1382,7 +1387,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "25.87",
+   "last_price": "25.66",
    "market_cap": 2648375296
   },
   "ticker": "RARE",
@@ -1815,7 +1820,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "667.17",
+   "last_price": "686.43",
    "market_cap": 69945458688
   },
   "ticker": "REGN",
@@ -2000,7 +2005,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "25.87",
+   "last_price": "25.66",
    "market_cap": 2648375296
   },
   "ticker": "RARE",
@@ -2390,45 +2395,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 15204,
-  "company": {
-   "ticker": "PSTV",
-   "name": "Plus Therapeutics",
-   "last_price": "3.65",
-   "market_cap": 25676936
-  },
-  "ticker": "PSTV",
-  "drug_name": "REYOBIQ (Rhenium Re186 Obisbemeda)",
-  "indications": [
-   {
-    "id": 947,
-    "title": "Breast cancer",
-    "nickname": ""
-   },
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Leptomeningeal Metastases (LM)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/15/26:- SpectronRx added. ReSPECT-LM Ph2 dose optimization continues. Data expected Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/05/g52614905/plus-therapeutics-reports-first-quarter-2026-financial-results-and-provides-business-update-on-rey",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 16136,
   "company": {
    "ticker": "MNOV",
@@ -2574,7 +2540,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.25",
+   "last_price": "1.22",
    "market_cap": 426537536
   },
   "ticker": "OCGN",
@@ -2988,7 +2954,7 @@
   "company": {
    "ticker": "IVVD",
    "name": "INVIVYD",
-   "last_price": "0.61",
+   "last_price": "0.60",
    "market_cap": 179681088
   },
   "ticker": "IVVD",
@@ -3168,7 +3134,7 @@
   "company": {
    "ticker": "ALMS",
    "name": "Alumis",
-   "last_price": "26.43",
+   "last_price": "26.61",
    "market_cap": 3369613056
   },
   "ticker": "ALMS",
@@ -3225,40 +3191,6 @@
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/17/3313482/0/en/connect-biopharma-announces-completion-of-enrollment-of-phase-2-seabreeze-stat-asthma-study-evaluating-rademikibart-for-the-treatment-of-acute-exacerbations-in-asthma.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
-  "id": 18940,
-  "company": {
-   "ticker": "ALT",
-   "name": "Altimmune Inc.",
-   "last_price": "2.86",
-   "market_cap": 555223744
-  },
-  "ticker": "ALT",
-  "drug_name": "Pemvidutide (ALT-801) (GLP-1R/GCGR)",
-  "indications": [
-   {
-    "id": 744,
-    "title": "Alcohol use disorder",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Alcohol Use Disorder (AUD)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "RECLAIM Trial. 5/19/25- Initiated Ph2 study. 11/3/25- Enrollment completed. On track to complete 24-wk treatment period & announce topline results in 2026. 11/06/25:- Enrollment completed early; FDA granted Fast Track for AUD. Topline RECLAIM Phase 2 results expected in 2026. 03/05/26:- Topline RECLAIM Ph2 AUD data now expected in Q3 2026. 05/13/26:- RECLAIM Ph2 AUD trial ongoing; topline data expected Q3 2026 from 24-week, ~100-patient placebo-controlled study.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/13/3293891/0/en/altimmune-announces-first-quarter-2026-financial-results-and-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -4395,7 +4327,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.00",
+   "last_price": "3.76",
    "market_cap": 254252496
   },
   "ticker": "MGNX",
@@ -5423,7 +5355,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "483.11",
+   "last_price": "483.15",
    "market_cap": 121572794368
   },
   "ticker": "VRTX",
@@ -5457,7 +5389,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "667.17",
+   "last_price": "686.43",
    "market_cap": 69945458688
   },
   "ticker": "REGN",
@@ -6887,7 +6819,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.63",
+   "last_price": "55.10",
    "market_cap": 22073221120
   },
   "ticker": "MRNA",
@@ -7399,7 +7331,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "40.18",
+   "last_price": "37.24",
    "market_cap": 2040572800
   },
   "ticker": "NBTX",
@@ -7609,7 +7541,7 @@
   "company": {
    "ticker": "IVA",
    "name": " Inventiva",
-   "last_price": "4.57",
+   "last_price": "4.56",
    "market_cap": 1086615040
   },
   "ticker": "IVA",
@@ -8028,7 +7960,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "9.71",
+   "last_price": "9.47",
    "market_cap": 621636544
   },
   "ticker": "RGNX",
@@ -8511,7 +8443,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "9.81",
+   "last_price": "9.94",
    "market_cap": 2130513920
   },
   "ticker": "SLS",
@@ -8560,7 +8492,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "25.87",
+   "last_price": "25.66",
    "market_cap": 2648375296
   },
   "ticker": "RARE",
@@ -8594,7 +8526,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "25.87",
+   "last_price": "25.66",
    "market_cap": 2648375296
   },
   "ticker": "RARE",
@@ -8633,7 +8565,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "30.22",
+   "last_price": "28.23",
    "market_cap": 3532838144
   },
   "ticker": "NAMS",
@@ -8755,7 +8687,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "40.18",
+   "last_price": "37.24",
    "market_cap": 2040572800
   },
   "ticker": "NBTX",
@@ -8794,7 +8726,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "40.18",
+   "last_price": "37.24",
    "market_cap": 2040572800
   },
   "ticker": "NBTX",
@@ -8833,7 +8765,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "40.18",
+   "last_price": "37.24",
    "market_cap": 2040572800
   },
   "ticker": "NBTX",
@@ -9618,7 +9550,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.38",
+   "last_price": "2.28",
    "market_cap": 225111456
   },
   "ticker": "CGEN",
@@ -9828,7 +9760,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "71.35",
+   "last_price": "69.55",
    "market_cap": 2410633216
   },
   "ticker": "NKTR",
@@ -10018,7 +9950,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.26",
+   "last_price": "2.25",
    "market_cap": 161692512
   },
   "ticker": "NKTX",
@@ -10179,7 +10111,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.63",
+   "last_price": "55.10",
    "market_cap": 22073221120
   },
   "ticker": "MRNA",
@@ -10306,7 +10238,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "1.66",
+   "last_price": "1.62",
    "market_cap": 307571840
   },
   "ticker": "NMRA",
@@ -11402,7 +11334,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "4.27",
+   "last_price": "4.08",
    "market_cap": 100044888
   },
   "ticker": "COYA",
@@ -11777,7 +11709,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.26",
+   "last_price": "2.25",
    "market_cap": 161692512
   },
   "ticker": "NKTX",
@@ -12264,7 +12196,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "8.63",
+   "last_price": "5.93",
    "market_cap": 724446720
   },
   "ticker": "REPL",
@@ -12303,7 +12235,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.63",
+   "last_price": "55.10",
    "market_cap": 22073221120
   },
   "ticker": "MRNA",
@@ -13024,7 +12956,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "2.76",
+   "last_price": "2.80",
    "market_cap": 184364448
   },
   "ticker": "PYXS",
@@ -14296,7 +14228,7 @@
   "company": {
    "ticker": "RFL",
    "name": "Rafael Holdings Inc",
-   "last_price": "2.28",
+   "last_price": "2.12",
    "market_cap": 118559992
   },
   "ticker": "RFL",
@@ -14636,7 +14568,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "30.22",
+   "last_price": "28.23",
    "market_cap": 3532838144
   },
   "ticker": "NAMS",
@@ -15190,7 +15122,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "1.66",
+   "last_price": "1.62",
    "market_cap": 307571840
   },
   "ticker": "NMRA",
@@ -15224,7 +15156,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "55.63",
+   "last_price": "55.10",
    "market_cap": 22073221120
   },
   "ticker": "MRNA",
@@ -15399,7 +15331,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.00",
+   "last_price": "3.76",
    "market_cap": 254252496
   },
   "ticker": "MGNX",
@@ -16985,7 +16917,7 @@
   "company": {
    "ticker": "PFE",
    "name": "Pfizer",
-   "last_price": "25.13",
+   "last_price": "25.16",
    "market_cap": null
   },
   "ticker": "PFE",
@@ -17763,6 +17695,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 20637,
+  "company": {
+   "ticker": "GMAB",
+   "name": "Genmab",
+   "last_price": "29.19",
+   "market_cap": 17681352704
+  },
+  "ticker": "GMAB",
+  "drug_name": "Epkinly/Epcoritamab (GEN3013) (CD3-CD20 Bispecific) + R-CHOP",
+  "indications": [
+   {
+    "id": 1362,
+    "title": "Diffuse large B cell lymphoma",
+    "nickname": "DLBCL"
+   }
+  ],
+  "indications_text": "Newly Diagnosed Diffuse Large B-Cell Lymphoma",
+  "stage_event": {
+   "id": 152,
+   "label": "Phase 2/3 Data readout",
+   "stage_label": "Phase 2/3",
+   "event_label": "Data readout"
+  },
+  "note": "07/23/26:- EPCORE DLBCL-2 epcoritamab plus R-CHOP data in newly diagnosed DLBCL anticipated in 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/b60654249/genmab-and-abbvie-provide-clarification-phase-3-epcore-dlbcl-1-trial-evaluating-epcoritamab-duobody-",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 13598,
   "company": {
    "ticker": "CGTX",
@@ -17990,6 +17956,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
+ },
+ {
+  "id": 16443,
+  "company": {
+   "ticker": "AVIR",
+   "name": "Atea Pharmaceuticals",
+   "last_price": "4.82",
+   "market_cap": 385730624
+  },
+  "ticker": "AVIR",
+  "drug_name": "Bemnifosbuvir + Ruzasvir (RZR)",
+  "indications": [
+   {
+    "id": 895,
+    "title": "Hepatitis C",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Hepatitis C Virus Infection",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "C-BEYOND & C-FORWARD Ph3 Trials. 12/4/24- Met primary endpoints. 6/24/25- First patient dosed in Ph3 C-FORWARD trial. 11/12/25:- Ph3 enrollment on track. C-BEYOND topline mid-2026; C-FORWARD topline around end-2026. 12/22/25:- Completed C-BEYOND Ph3 enrollment. 05/13/26:- EASL 2026 posters May 29 on DDI and transport. 05/12/26:- HCV Ph3 C-BEYOND topline mid-2026; C-FORWARD enrollment completion mid-2026; topline around year-end 2026. 05/27/26:- EASL Ph1 DDI results: low interaction with omeprazole, digoxin, rosuvastatin. Ph3 topline still mid-2026. 06/25/26:- C-FORWARD enrollment completed. C-BEYOND topline mid-2026; C-FORWARD topline around year-end 2026. 07/28/26:- C-BEYOND Ph3 topline positive. C-FORWARD Ph3 topline expected Early 2027.",
+  "catalyst_date": "2027-02-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60719016/atea-pharmaceuticals-meets-both-its-primary-and-secondary-endpoints-phase-3-c-beyond-north-america-t",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19150,
@@ -18283,7 +18283,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "8.63",
+   "last_price": "5.93",
    "market_cap": 724446720
   },
   "ticker": "REPL",
@@ -18356,7 +18356,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "4.27",
+   "last_price": "4.08",
    "market_cap": 100044888
   },
   "ticker": "COYA",
@@ -18497,7 +18497,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "30.22",
+   "last_price": "28.23",
    "market_cap": 3532838144
   },
   "ticker": "NAMS",
@@ -19018,7 +19018,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "40.18",
+   "last_price": "37.24",
    "market_cap": 2040572800
   },
   "ticker": "NBTX",
@@ -19515,7 +19515,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "25.87",
+   "last_price": "25.66",
    "market_cap": 2648375296
   },
   "ticker": "RARE",
@@ -19763,7 +19763,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.00",
+   "last_price": "3.76",
    "market_cap": 254252496
   },
   "ticker": "MGNX",
@@ -20435,6 +20435,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 14089,
+  "company": {
+   "ticker": "ARWR",
+   "name": "Arrowhead Pharmaceuticals ",
+   "last_price": "83.57",
+   "market_cap": 11771421696
+  },
+  "ticker": "ARWR",
+  "drug_name": "Zodasiran (ARO-ANG3)",
+  "indications": [
+   {
+    "id": 884,
+    "title": "Dyslipidemia",
+    "nickname": ""
+   },
+   {
+    "id": 1341,
+    "title": "Homozygous familial hypercholesterolemia",
+    "nickname": "HoFH"
+   }
+  ],
+  "indications_text": "Homozygous Familial Hypercholesterolemia",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "YOSEMITE study. 7/8/25- Initiated Ph3 trial. 11/25/25:- First subject dosed in YOSEMITE Ph3 HoFH trial; no data timeline disclosed. 07/27/26:- YOSEMITE Ph3 enrollment complete. Study completion expected Mid-2027. FDA Orphan Drug Designation noted.",
+  "catalyst_date": "2027-08-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260727697851/en/Arrowhead-Pharmaceuticals-Completes-Enrollment-in-Global-Phase-3-YOSEMITE-Study-of-Zodasiran-for-the-Treatment-of-Homozygous-Familial-Hypercholesterolemia",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 15046,
   "company": {
    "ticker": "MESO",
@@ -20848,7 +20887,7 @@
   "company": {
    "ticker": "NERV",
    "name": "Minerva Neurosciences",
-   "last_price": "4.21",
+   "last_price": "4.16",
    "market_cap": 195905520
   },
   "ticker": "NERV",
@@ -21315,7 +21354,7 @@
   "company": {
    "ticker": "NGNE",
    "name": "Neurogene Inc",
-   "last_price": "34.62",
+   "last_price": "33.23",
    "market_cap": 690679872
   },
   "ticker": "NGNE",
@@ -21617,7 +21656,7 @@
   "company": {
    "ticker": "MDGL",
    "name": "Madrigal Pharmaceuticals",
-   "last_price": "551.25",
+   "last_price": "535.21",
    "market_cap": 12709432320
   },
   "ticker": "MDGL",
@@ -22220,7 +22259,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "71.35",
+   "last_price": "69.55",
    "market_cap": 2410633216
   },
   "ticker": "NKTR",
@@ -22857,7 +22896,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "9.91",
+   "last_price": "10.92",
    "market_cap": 449148896
   },
   "ticker": "MPLT",
@@ -23086,7 +23125,7 @@
   "company": {
    "ticker": "NBIX",
    "name": "Neurocrine Biosciences",
-   "last_price": "176.41",
+   "last_price": "180.89",
    "market_cap": 17738022912
   },
   "ticker": "NBIX",
@@ -23475,7 +23514,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "71.35",
+   "last_price": "69.55",
    "market_cap": 2410633216
   },
   "ticker": "NKTR",
@@ -24336,7 +24375,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "9.81",
+   "last_price": "9.94",
    "market_cap": 2130513920
   },
   "ticker": "SLS",
@@ -24448,7 +24487,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "9.71",
+   "last_price": "9.47",
    "market_cap": 621636544
   },
   "ticker": "RGNX",
@@ -25520,7 +25559,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "4.00",
+   "last_price": "3.76",
    "market_cap": 254252496
   },
   "ticker": "MGNX",
@@ -26173,7 +26212,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "1.66",
+   "last_price": "1.62",
    "market_cap": 307571840
   },
   "ticker": "NMRA",
@@ -26494,7 +26533,7 @@
   "company": {
    "ticker": "AVTX",
    "name": "Avalo Therapeutics ",
-   "last_price": "19.50",
+   "last_price": "19.16",
    "market_cap": 1031608256
   },
   "ticker": "AVTX",
@@ -27445,6 +27484,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 18940,
+  "company": {
+   "ticker": "ALT",
+   "name": "Altimmune Inc.",
+   "last_price": "2.86",
+   "market_cap": 555223744
+  },
+  "ticker": "ALT",
+  "drug_name": "Pemvidutide (ALT-801) (GLP-1R/GCGR)",
+  "indications": [
+   {
+    "id": 744,
+    "title": "Alcohol use disorder",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alcohol Use Disorder (AUD)",
+  "stage_event": {
+   "id": 137,
+   "label": "Phase 2 Update",
+   "stage_label": "Phase 2",
+   "event_label": "Update"
+  },
+  "note": "RECLAIM Trial. 5/19/25- Initiated Ph2 study. 11/3/25- Enrollment completed. On track to complete 24-wk treatment period & announce topline results in 2026. 11/06/25:- Enrollment completed early; FDA granted Fast Track for AUD. Topline RECLAIM Phase 2 results expected in 2026. 03/05/26:- Topline RECLAIM Ph2 AUD data now expected in Q3 2026. 05/13/26:- RECLAIM Ph2 AUD trial ongoing; topline data expected Q3 2026 from 24-week, ~100-patient placebo-controlled study. 07/28/26:- RECLAIM Ph2 topline positive; met primary/secondary endpoints. Plans to request End-of-Ph2 FDA meeting; conference submission planned.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60719013/altimmune-announces-positive-topline-results-reclaim-phase-2-trial-pemvidutide-alcohol-use-disorder",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 18951,
   "company": {
    "ticker": "CAMP",
@@ -28090,7 +28163,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "9.91",
+   "last_price": "10.92",
    "market_cap": 449148896
   },
   "ticker": "MPLT",
@@ -28124,7 +28197,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "9.91",
+   "last_price": "10.92",
    "market_cap": 449148896
   },
   "ticker": "MPLT",
@@ -28231,7 +28304,7 @@
   "company": {
    "ticker": "GMAB",
    "name": "Genmab",
-   "last_price": "28.80",
+   "last_price": "29.19",
    "market_cap": 17681352704
   },
   "ticker": "GMAB",

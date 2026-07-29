@@ -102,45 +102,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 19590,
-  "company": {
-   "ticker": "VTRS",
-   "name": "Viatris Inc",
-   "last_price": "17.86",
-   "market_cap": 20798912512
-  },
-  "ticker": "VTRS",
-  "drug_name": "Low Dose Estrogen Weekly Patch (Transdermal Contraceptive)",
-  "indications": [
-   {
-    "id": 738,
-    "title": "Birth control",
-    "nickname": ""
-   },
-   {
-    "id": 1041,
-    "title": "Contraceptive",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Contraception",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "12/18/25:- FDA accepted NDA for low dose weekly patch. PDUFA decision expected July 30, 2026. 02/26/26:- NDA acceptance and July 30, 2026 PDUFA date highlighted in company financial update.\n05/01/26:- ACOG May 2026 posters share Ph3 NCT05139121 efficacy/safety, adhesion, PK, cycle-control data. PDUFA July 30, 2026.\n05/07/26:- Q1 2026 update reiterates positive Ph3 ACOG 2026 data; PDUFA decision remains July 30, 2026.",
-  "catalyst_date": "2026-07-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/viatris-reports-first-quarter-2026-financial-results-302765461.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18049,
   "company": {
    "ticker": "DFTX",
@@ -2636,45 +2597,6 @@
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/21/3330367/28652/en/rein-therapeutics-announces-phase-2-renew-trial-now-enrolling-across-all-five-countries.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 18116,
-  "company": {
-   "ticker": "MNKD",
-   "name": "MannKind Corporation",
-   "last_price": "3.91",
-   "market_cap": 1207995264
-  },
-  "ticker": "MNKD",
-  "drug_name": "MNKD 201 (nintedanib DPI)",
-  "indications": [
-   {
-    "id": 1294,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   },
-   {
-    "id": 1325,
-    "title": "Lung disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Lung disease, Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 122,
-   "label": "Phase 1b Data readout",
-   "stage_label": "Phase 1b",
-   "event_label": "Data readout"
-  },
-  "note": "4/30/24 First patient enrollment in June 2024. 11/4/24- Positive Ph1 results. 8/6/25- Initiate Ph2 trial by YE 2025. 11/05/25:- INFLO Ph2 trial initiated. First patient enrollment expected Q1 2026 instead of YE 2025. 02/26/26:- INFLO-1 Ph1b enrollment ongoing with topline data expected in 2H 2026; INFLO-2 first patient now planned Q2 2026. 05/06/26:- INFLO-1 Ph1b Cohort 1 enrollment completed; topline IPF data expected Q3 2026; INFLO-2 FPI remains Q2 2026. 06/03/26:- INFLO-1 randomization complete; INFLO-2 enrolled first patient. INFLO-1 Ph1b data expected Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/03/3305858/29517/en/mannkind-enters-data-rich-development-period-with-completion-of-randomization-in-phase-1b-inflo-1-study-and-enrollment-of-first-patient-in-phase-2-inflo-2-trial-for-nintedanib-dpi-.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5273,6 +5195,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 14230,
+  "company": {
+   "ticker": "PYPD",
+   "name": "Polypid",
+   "last_price": "4.17",
+   "market_cap": 71902792
+  },
+  "ticker": "PYPD",
+  "drug_name": "D-PLEX-100",
+  "indications": [
+   {
+    "id": 1207,
+    "title": "Surgical site infection",
+    "nickname": "SSI"
+   }
+  ],
+  "indications_text": "Surgical site infection",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "SHIELD II study. 5/14/25- Enrollment completed. 6/9/25- Reported topline results, met primary & secondary endpoints. 10/5/25- Presentation at ACS'25. 12/3/25- Pre-NDA meeting held; FDA agreed to rolling NDA. Initial submission in early 2026. 02/11/26:- FDA confirmed rolling NDA; submission to begin by Q1 2026 end. Advanced U.S. partnership talks ongoing. 03/17/26:- FDA granted PDUFA fee waiver; first rolling NDA sections expected by end of March 2026. 03/31/26:- Submitted CMC and nonclinical NDA modules; clinical section expected in Q2 2026. 04/13/26:- New SHIELD II Ph3 PK data to be presented at ESCMID Global 2026 on Apr 19, 2026. 04/28/26:- Present SHIELD II ASEPSIS analysis at SIS 2026 on May 6, 2026. 05/13/26:- NDA filing initiated March 30; completion imminent. EMA meetings Q2 2026, MAA Q3 2026, PDUFA planned Q1 2027. 06/01/26:- Rolling NDA submission completed. FDA decision anticipated in Q1 2027. 07/29/26:- FDA accepted NDA with Priority Review; PDUFA set for November 28, 2026, about one quarter earlier.",
+  "catalyst_date": "2026-11-28",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/29/3335209/0/en/polypid-announces-fda-acceptance-of-nda-with-priority-review-for-d-plex.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 15137,
   "company": {
    "ticker": "OLMA",
@@ -6042,7 +5998,7 @@
   "company": {
    "ticker": "NCNA",
    "name": "Nucana",
-   "last_price": "1.29",
+   "last_price": "1.27",
    "market_cap": 5368942
   },
   "ticker": "NCNA",
@@ -6086,7 +6042,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "24.15",
+   "last_price": "23.86",
    "market_cap": 2506327552
   },
   "ticker": "NRIX",
@@ -6384,7 +6340,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "24.15",
+   "last_price": "23.86",
    "market_cap": 2506327552
   },
   "ticker": "NRIX",
@@ -6448,7 +6404,7 @@
   "company": {
    "ticker": "DTIL",
    "name": "Precision BioSciences",
-   "last_price": "7.17",
+   "last_price": "6.85",
    "market_cap": 185002128
   },
   "ticker": "DTIL",
@@ -6663,7 +6619,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "4.51",
+   "last_price": "4.71",
    "market_cap": 2098561152
   },
   "ticker": "IOVA",
@@ -7331,7 +7287,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.82",
+   "last_price": "38.11",
    "market_cap": 1920718336
   },
   "ticker": "NBTX",
@@ -8565,7 +8521,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "27.98",
+   "last_price": "28.01",
    "market_cap": 3270973184
   },
   "ticker": "NAMS",
@@ -8687,7 +8643,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.82",
+   "last_price": "38.11",
    "market_cap": 1920718336
   },
   "ticker": "NBTX",
@@ -8726,7 +8682,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.82",
+   "last_price": "38.11",
    "market_cap": 1920718336
   },
   "ticker": "NBTX",
@@ -8765,7 +8721,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.82",
+   "last_price": "38.11",
    "market_cap": 1920718336
   },
   "ticker": "NBTX",
@@ -9594,7 +9550,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "8.72",
+   "last_price": "8.71",
    "market_cap": 1492569984
   },
   "ticker": "VIR",
@@ -9760,7 +9716,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "70.77",
+   "last_price": "70.32",
    "market_cap": 2391037440
   },
   "ticker": "NKTR",
@@ -9950,7 +9906,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.22",
+   "last_price": "2.16",
    "market_cap": 158830704
   },
   "ticker": "NKTX",
@@ -10238,7 +10194,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "1.68",
+   "last_price": "1.65",
    "market_cap": 311277504
   },
   "ticker": "NMRA",
@@ -11709,7 +11665,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.22",
+   "last_price": "2.16",
    "market_cap": 158830704
   },
   "ticker": "NKTX",
@@ -12386,7 +12342,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "24.15",
+   "last_price": "23.86",
    "market_cap": 2506327552
   },
   "ticker": "NRIX",
@@ -12547,7 +12503,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "8.72",
+   "last_price": "8.71",
    "market_cap": 1492569984
   },
   "ticker": "VIR",
@@ -13524,7 +13480,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "24.15",
+   "last_price": "23.86",
    "market_cap": 2506327552
   },
   "ticker": "NRIX",
@@ -14534,7 +14490,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "27.98",
+   "last_price": "28.01",
    "market_cap": 3270973184
   },
   "ticker": "NAMS",
@@ -15088,7 +15044,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "1.68",
+   "last_price": "1.65",
    "market_cap": 311277504
   },
   "ticker": "NMRA",
@@ -15229,7 +15185,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "24.15",
+   "last_price": "23.86",
    "market_cap": 2506327552
   },
   "ticker": "NRIX",
@@ -16221,7 +16177,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "24.15",
+   "last_price": "23.86",
    "market_cap": 2506327552
   },
   "ticker": "NRIX",
@@ -16445,7 +16401,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "265.46",
+   "last_price": "266.13",
    "market_cap": 465019895808
   },
   "ticker": "ABBV",
@@ -18104,40 +18060,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 14230,
-  "company": {
-   "ticker": "PYPD",
-   "name": "Polypid",
-   "last_price": "4.03",
-   "market_cap": 71902792
-  },
-  "ticker": "PYPD",
-  "drug_name": "D-PLEX-100",
-  "indications": [
-   {
-    "id": 1207,
-    "title": "Surgical site infection",
-    "nickname": "SSI"
-   }
-  ],
-  "indications_text": "Surgical site infection",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "SHIELD II study. 5/14/25- Enrollment completed. 6/9/25- Reported topline results, met primary & secondary endpoints. 10/5/25- Presentation at ACS'25. 12/3/25- Pre-NDA meeting held; FDA agreed to rolling NDA. Initial submission in early 2026. 02/11/26:- FDA confirmed rolling NDA; submission to begin by Q1 2026 end. Advanced U.S. partnership talks ongoing. 03/17/26:- FDA granted PDUFA fee waiver; first rolling NDA sections expected by end of March 2026. 03/31/26:- Submitted CMC and nonclinical NDA modules; clinical section expected in Q2 2026. 04/13/26:- New SHIELD II Ph3 PK data to be presented at ESCMID Global 2026 on Apr 19, 2026. 04/28/26:- Present SHIELD II ASEPSIS analysis at SIS 2026 on May 6, 2026. 05/13/26:- NDA filing initiated March 30; completion imminent. EMA meetings Q2 2026, MAA Q3 2026, PDUFA planned Q1 2027. 06/01/26:- Rolling NDA submission completed. FDA decision anticipated in Q1 2027.",
-  "catalyst_date": "2027-03-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/01/3304355/0/en/polypid-completes-new-drug-application-submission-to-fda-for-d-plex.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 16322,
   "company": {
    "ticker": "ANVS",
@@ -18463,7 +18385,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "27.98",
+   "last_price": "28.01",
    "market_cap": 3270973184
   },
   "ticker": "NAMS",
@@ -18984,7 +18906,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.82",
+   "last_price": "38.11",
    "market_cap": 1920718336
   },
   "ticker": "NBTX",
@@ -19943,7 +19865,7 @@
   "company": {
    "ticker": "KLRS",
    "name": "Kalaris Therapeutics",
-   "last_price": "3.34",
+   "last_price": "3.42",
    "market_cap": 79466208
   },
   "ticker": "KLRS",
@@ -20585,10 +20507,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/13/26:- ALPHA3 MRD data reported. Interim EFS Mid-2027, enrollment End-2027, primary EFS Mid-2028.",
+  "note": "05/13/26:- ALPHA3 MRD data reported. Interim EFS Mid-2027, enrollment End-2027, primary EFS Mid-2028. 07/29/26:- FDA granted RMAT and Fast Track. ALPHA3 Day 45 MRD negativity 58.3% vs 16.7%.",
   "catalyst_date": "2027-08-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/13/3294405/0/en/Allogene-Therapeutics-Reports-First-Quarter-2026-Financial-Results-and-Business-Update.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/29/3335229/0/en/allogene-therapeutics-receives-fda-regenerative-medicine-advanced-therapy-rmat-designation-for-cemacabtagene-ansegedleucel-cema-cel-as-first-line-consolidation-therapy-for-large-b-.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20853,7 +20775,7 @@
   "company": {
    "ticker": "NERV",
    "name": "Minerva Neurosciences",
-   "last_price": "4.28",
+   "last_price": "4.24",
    "market_cap": 199399680
   },
   "ticker": "NERV",
@@ -21320,7 +21242,7 @@
   "company": {
    "ticker": "NGNE",
    "name": "Neurogene Inc",
-   "last_price": "33.22",
+   "last_price": "33.84",
    "market_cap": 662749440
   },
   "ticker": "NGNE",
@@ -22225,7 +22147,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "70.77",
+   "last_price": "70.32",
    "market_cap": 2391037440
   },
   "ticker": "NKTR",
@@ -23091,7 +23013,7 @@
   "company": {
    "ticker": "NBIX",
    "name": "Neurocrine Biosciences",
-   "last_price": "182.83",
+   "last_price": "182.70",
    "market_cap": 18383554560
   },
   "ticker": "NBIX",
@@ -23480,7 +23402,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "70.77",
+   "last_price": "70.32",
    "market_cap": 2391037440
   },
   "ticker": "NKTR",
@@ -23587,7 +23509,7 @@
   "company": {
    "ticker": "ALNY",
    "name": "Alnylam Pharmaceuticals",
-   "last_price": "285.21",
+   "last_price": "287.45",
    "market_cap": 38506360832
   },
   "ticker": "ALNY",
@@ -26178,7 +26100,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "1.68",
+   "last_price": "1.65",
    "market_cap": 311277504
   },
   "ticker": "NMRA",
@@ -26324,7 +26246,7 @@
   "company": {
    "ticker": "DTIL",
    "name": "Precision BioSciences",
-   "last_price": "7.17",
+   "last_price": "6.85",
    "market_cap": 185002128
   },
   "ticker": "DTIL",
@@ -26454,6 +26376,45 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/21/3330938/0/en/Celldex-Reports-Results-from-Phase-2-Study-of-Barzolvolimab-in-Prurigo-Nodularis.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18116,
+  "company": {
+   "ticker": "MNKD",
+   "name": "MannKind Corporation",
+   "last_price": "3.91",
+   "market_cap": 1207995264
+  },
+  "ticker": "MNKD",
+  "drug_name": "MNKD 201 (nintedanib DPI)",
+  "indications": [
+   {
+    "id": 1294,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   },
+   {
+    "id": 1325,
+    "title": "Lung disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Lung disease, Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "4/30/24 First patient enrollment in June 2024. 11/4/24- Positive Ph1 results. 8/6/25- Initiate Ph2 trial by YE 2025. 11/05/25:- INFLO Ph2 trial initiated. First patient enrollment expected Q1 2026 instead of YE 2025. 02/26/26:- INFLO-1 Ph1b enrollment ongoing with topline data expected in 2H 2026; INFLO-2 first patient now planned Q2 2026. 05/06/26:- INFLO-1 Ph1b Cohort 1 enrollment completed; topline IPF data expected Q3 2026; INFLO-2 FPI remains Q2 2026. 06/03/26:- INFLO-1 randomization complete; INFLO-2 enrolled first patient. INFLO-1 Ph1b data expected Q3 2026. 07/29/26:- INFLO-1 Ph1b topline positive; well tolerated. INFLO-2 global Ph2 trial actively enrolling.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/29/3335054/29517/en/mannkind-reports-positive-phase-1b-inflo-1-results-demonstrating-safety-and-tolerability-of-nintedanib-dpi-and-clinical-validation-of-its-dpi-technology-in-ipf.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28069,6 +28030,45 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/08/3291323/0/en/entera-announces-first-quarter-2026-financial-results-and-updates-across-its-oral-peptide-programs.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 19590,
+  "company": {
+   "ticker": "VTRS",
+   "name": "Viatris Inc",
+   "last_price": "17.86",
+   "market_cap": 20798912512
+  },
+  "ticker": "VTRS",
+  "drug_name": "Low Dose Estrogen Weekly Patch (Transdermal Contraceptive)",
+  "indications": [
+   {
+    "id": 738,
+    "title": "Birth control",
+    "nickname": ""
+   },
+   {
+    "id": 1041,
+    "title": "Contraceptive",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Contraception",
+  "stage_event": {
+   "id": 99,
+   "label": "Approved Update",
+   "stage_label": "Approved",
+   "event_label": "Update"
+  },
+  "note": "12/18/25:- FDA accepted NDA for low dose weekly patch. PDUFA decision expected July 30, 2026. 02/26/26:- NDA acceptance and July 30, 2026 PDUFA date highlighted in company financial update.\n05/01/26:- ACOG May 2026 posters share Ph3 NCT05139121 efficacy/safety, adhesion, PK, cycle-control data. PDUFA July 30, 2026.\n05/07/26:- Q1 2026 update reiterates positive Ph3 ACOG 2026 data; PDUFA decision remains July 30, 2026. 07/29/26:- FDA approved Gwyn Lo low-dose CHC patch for contraception; Luminous Study (NCT05139121) supported approval.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/viatris-receives-us-fda-approval-for-gwyn-lo-a-once-weekly-contraceptive-patch-302837674.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

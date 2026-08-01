@@ -74,11 +74,17 @@ jobs:
           shutil.copy("quantzzz.db", "data/seed.db")
           conn = sqlite3.connect("data/seed.db")
           conn.execute("DELETE FROM api_cache")
-          # research_iterations bloat was the ~8 KB equity_curve_json on each row,
-          # NOT the rows themselves. Keep every row (so the "backtests run" count
-          # stays truthful) and just null the heavy curves for all but promoted +
-          # the last 500 (labs only plots the freshest search). A high 200k
-          # backstop caps pathological growth without ever biting in practice.
+          # research_iterations + strategies are the only tables that grow without
+          # bound (the trader tables — trades/positions/equity_snapshots — stay
+          # tiny). The old 200k backstop was too generous and the seed crept back
+          # to ~90 MB and tripped the guard, wedging persistence. Bound both:
+          #  - research_iterations: keep promoted-strategy provenance + the last
+          #    50k rows; null the heavy equity_curve_json for all but promoted +
+          #    the last 500 (labs only plots the freshest search).
+          #  - strategies: prune old FAILED candidates that nothing references any
+          #    more (not promoted, not in trades/positions/shadow_book, and not
+          #    referenced by a kept research_iteration), keeping the last 40k.
+          # This keeps the full track record intact and lands the seed near 35 MB.
           conn.execute("""
             UPDATE research_iterations SET equity_curve_json=NULL
             WHERE equity_curve_json IS NOT NULL
@@ -87,7 +93,15 @@ jobs:
           conn.execute("""
             DELETE FROM research_iterations
             WHERE strategy_id NOT IN (SELECT id FROM strategies WHERE status='promoted')
-              AND id < (SELECT MAX(id) FROM research_iterations) - 200000""")
+              AND id < (SELECT MAX(id) FROM research_iterations) - 50000""")
+          conn.execute("""
+            DELETE FROM strategies
+            WHERE status != 'promoted'
+              AND id < (SELECT MAX(id) FROM strategies) - 40000
+              AND id NOT IN (SELECT DISTINCT strategy_id FROM research_iterations WHERE strategy_id IS NOT NULL)
+              AND id NOT IN (SELECT DISTINCT strategy_id FROM trades WHERE strategy_id IS NOT NULL)
+              AND id NOT IN (SELECT DISTINCT strategy_id FROM shadow_book WHERE strategy_id IS NOT NULL)
+              AND id NOT IN (SELECT DISTINCT strategy_id FROM positions WHERE strategy_id IS NOT NULL)""")
           # data_health logs every ticker check every cycle (tens of thousands a
           # day); keep only the last 40k rows for the regime feature + dashboards.
           conn.execute("""

@@ -2258,7 +2258,7 @@
   "company": {
    "ticker": "ALZN",
    "name": "Alzamend Neuro ",
-   "last_price": "1.31",
+   "last_price": "1.33",
    "market_cap": 6276897
   },
   "ticker": "ALZN",
@@ -2599,7 +2599,7 @@
   "company": {
    "ticker": "AMLX",
    "name": "Amylyx Pharmaceuticals",
-   "last_price": "20.31",
+   "last_price": "19.84",
    "market_cap": 2258194176
   },
   "ticker": "AMLX",
@@ -2925,7 +2925,7 @@
   "company": {
    "ticker": "ALMS",
    "name": "Alumis",
-   "last_price": "28.25",
+   "last_price": "26.43",
    "market_cap": 3601648640
   },
   "ticker": "ALMS",
@@ -2993,7 +2993,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "16.50",
+   "last_price": "16.39",
    "market_cap": 1014057792
   },
   "ticker": "CGEM",
@@ -3285,7 +3285,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "17.09",
+   "last_price": "16.92",
    "market_cap": 54576967680
   },
   "ticker": "TAK",
@@ -3308,6 +3308,40 @@
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260615651327/en/New-Pivotal-Study-Data-Show-Takedas-Oveporexton-Improved-Daily-Function-Cognition-and-Nighttime-Sleep-for-People-with-Narcolepsy-Type-1",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20405,
+  "company": {
+   "ticker": "CUE",
+   "name": "Cue Biopharma",
+   "last_price": "26.84",
+   "market_cap": 112737208
+  },
+  "ticker": "CUE",
+  "drug_name": "CUE-221 (Anti-IgE Antibody)",
+  "indications": [
+   {
+    "id": 2024,
+    "title": "Chronic spontaneous urticaria",
+    "nickname": "CSU"
+   }
+  ],
+  "indications_text": "Chronic Spontaneous Urticaria",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/14/26:- China Phase 2 CSU study data expected in H2 2026. 08/03/26:- IND submitted for CUE-221 in Food Allergy. Phase 2 CSU data readout expected by end of Q3 2026.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g60870060/cue-biopharma-announces-appointment-james-m-ahlers-chief-financial-officer-and-cue-221-investigation",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5214,7 +5248,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "477.10",
+   "last_price": "471.49",
    "market_cap": 121090572288
   },
   "ticker": "VRTX",
@@ -5627,6 +5661,40 @@
   "catalyst_date": "2026-12-12",
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-ema-positive-opinion-for-orphan-drug-designation-of-imsidolimab-for-generalized-pustular-psoriasis--a-milestone-recognition-of-gpp-as-a-distinct-rare-disease-in-europe-302827934.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 13601,
+  "company": {
+   "ticker": "CORT",
+   "name": "Corcept Therapeutics",
+   "last_price": "114.49",
+   "market_cap": 12376185856
+  },
+  "ticker": "CORT",
+  "drug_name": "Relacorilant",
+  "indications": [
+   {
+    "id": 841,
+    "title": "Hypercortisolism",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Hypercortisolism",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "07/29/26:- Cushing\u2019s NDA resubmitted. PDUFA decision expected December 17, 2026.",
+  "catalyst_date": "2026-12-17",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260729465503/en/Corcept-Therapeutics-Announces-Second-Quarter-Financial-Results-and-Provides-Corporate-Update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -9327,7 +9395,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "16.50",
+   "last_price": "16.39",
    "market_cap": 1014057792
   },
   "ticker": "CGEM",
@@ -9795,7 +9863,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1148.84",
+   "last_price": "1116.99",
    "market_cap": 965262180352
   },
   "ticker": "LLY",
@@ -10395,7 +10463,7 @@
   "company": {
    "ticker": "TNXP",
    "name": "Tonix Pharmaceuticals",
-   "last_price": "10.01",
+   "last_price": "10.35",
    "market_cap": 159567424
   },
   "ticker": "TNXP",
@@ -11101,7 +11169,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "16.50",
+   "last_price": "16.39",
    "market_cap": 1014057792
   },
   "ticker": "CGEM",
@@ -11236,6 +11304,40 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18231,
+  "company": {
+   "ticker": "AGIO",
+   "name": "Agios Pharmaceuticals Inc.",
+   "last_price": "30.02",
+   "market_cap": 1792250496
+  },
+  "ticker": "AGIO",
+  "drug_name": "AG-181",
+  "indications": [
+   {
+    "id": 1230,
+    "title": "Phenylketonuria",
+    "nickname": "PKU"
+   }
+  ],
+  "indications_text": "Phenylketonuria",
+  "stage_event": {
+   "id": 122,
+   "label": "Phase 1b Data readout",
+   "stage_label": "Phase 1b",
+   "event_label": "Data readout"
+  },
+  "note": "07/30/26:- AG-181 Ph1b dosed first PKU patient; data expected H2 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3335866/31990/en/agios-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -11934,7 +12036,7 @@
   "company": {
    "ticker": "ALLO",
    "name": "Allogene Therapeutics",
-   "last_price": "1.88",
+   "last_price": "1.85",
    "market_cap": 648890560
   },
   "ticker": "ALLO",
@@ -12811,7 +12913,7 @@
   "company": {
    "ticker": "ALKS",
    "name": "Alkermes plc",
-   "last_price": "48.99",
+   "last_price": "50.45",
    "market_cap": 8218722816
   },
   "ticker": "ALKS",
@@ -12913,7 +13015,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "4.12",
+   "last_price": "3.80",
    "market_cap": 1393465728
   },
   "ticker": "ALVO",
@@ -13048,7 +13150,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "4.12",
+   "last_price": "3.80",
    "market_cap": 1393465728
   },
   "ticker": "ALVO",
@@ -13442,7 +13544,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.94",
+   "last_price": "2.00",
    "market_cap": 261052064
   },
   "ticker": "ALXO",
@@ -13627,7 +13729,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "16.50",
+   "last_price": "16.39",
    "market_cap": 1014057792
   },
   "ticker": "CGEM",
@@ -16801,7 +16903,7 @@
   "company": {
    "ticker": "ONC",
    "name": "BeOne Medicines",
-   "last_price": "316.01",
+   "last_price": "311.47",
    "market_cap": 32786421760
   },
   "ticker": "ONC",
@@ -16908,7 +17010,7 @@
   "company": {
    "ticker": "ONC",
    "name": "BeOne Medicines",
-   "last_price": "316.01",
+   "last_price": "311.47",
    "market_cap": 32786421760
   },
   "ticker": "ONC",
@@ -16981,7 +17083,7 @@
   "company": {
    "ticker": "PFE",
    "name": "Pfizer",
-   "last_price": "25.01",
+   "last_price": "24.93",
    "market_cap": 143341027000
   },
   "ticker": "PFE",
@@ -17419,7 +17521,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "17.09",
+   "last_price": "16.92",
    "market_cap": 54576967680
   },
   "ticker": "TAK",
@@ -17442,40 +17544,6 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260727883646/en/Takeda-Announces-FY2026-First-Quarter-Results-Near-Term-Launch-Preparations-and-Pipeline-Progress-on-Track",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 20405,
-  "company": {
-   "ticker": "CUE",
-   "name": "Cue Biopharma",
-   "last_price": "26.84",
-   "market_cap": 112737208
-  },
-  "ticker": "CUE",
-  "drug_name": "CUE-221 (Anti-IgE Antibody)",
-  "indications": [
-   {
-    "id": 2024,
-    "title": "Chronic spontaneous urticaria",
-    "nickname": "CSU"
-   }
-  ],
-  "indications_text": "Chronic Spontaneous Urticaria",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/14/26:- China Phase 2 CSU study data expected in H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3295381/0/en/cue-biopharma-reports-first-quarter-2026-financial-results-and-recent-strategic-developments.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18133,7 +18201,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "16.50",
+   "last_price": "16.39",
    "market_cap": 1014057792
   },
   "ticker": "CGEM",
@@ -18731,7 +18799,7 @@
   "company": {
    "ticker": "AKTS",
    "name": "Aktis Oncology",
-   "last_price": "22.07",
+   "last_price": "21.64",
    "market_cap": 1219973248
   },
   "ticker": "AKTS",
@@ -18800,7 +18868,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "17.09",
+   "last_price": "16.92",
    "market_cap": 54576967680
   },
   "ticker": "TAK",
@@ -19568,6 +19636,45 @@
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/05/g52300889/ultragenyx-reports-first-quarter-2026-financial-results-and-corporate-update",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 17556,
+  "company": {
+   "ticker": "QURE",
+   "name": "Uniqure NV",
+   "last_price": "43.63",
+   "market_cap": 3026456832
+  },
+  "ticker": "QURE",
+  "drug_name": "AMT-260",
+  "indications": [
+   {
+    "id": 734,
+    "title": "Epilepsy",
+    "nickname": ""
+   },
+   {
+    "id": 2135,
+    "title": "Mesial temporal lobe epilepsy",
+    "nickname": "MTLE"
+   }
+  ],
+  "indications_text": "Mesial temporal lobe epilepsy (MTLE)",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "07/29/26:- First-cohort data reported; second cohort completion Q3 2026; updated Ph1/2a results H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/29/3335112/0/en/uniqure-announces-second-quarter-2026-financial-results-and-provides-company-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20659,7 +20766,7 @@
   "company": {
    "ticker": "ALLO",
    "name": "Allogene Therapeutics",
-   "last_price": "1.88",
+   "last_price": "1.85",
    "market_cap": 648890560
   },
   "ticker": "ALLO",
@@ -20878,7 +20985,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.94",
+   "last_price": "2.00",
    "market_cap": 261052064
   },
   "ticker": "ALXO",
@@ -20951,7 +21058,7 @@
   "company": {
    "ticker": "ALGS",
    "name": "Aligos Therapeutics Inc.",
-   "last_price": "4.23",
+   "last_price": "4.69",
    "market_cap": 26176184
   },
   "ticker": "ALGS",
@@ -23539,7 +23646,7 @@
   "company": {
    "ticker": "AKTS",
    "name": "Aktis Oncology",
-   "last_price": "22.07",
+   "last_price": "21.64",
    "market_cap": 1219973248
   },
   "ticker": "AKTS",
@@ -23601,6 +23708,40 @@
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/17/3313361/0/en/avalyn-completes-target-enrollment-in-phase-2b-mist-trial-of-ap01-inhaled-pirfenidone-for-patients-with-progressive-pulmonary-fibrosis.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20648,
+  "company": {
+   "ticker": "HCM",
+   "name": "HUTCHMED (China) Limited",
+   "last_price": "11.13",
+   "market_cap": 1934551808
+  },
+  "ticker": "HCM",
+  "drug_name": "IMG-007 (OX40 Antagonist)",
+  "indications": [
+   {
+    "id": 1395,
+    "title": "Atopic dermatitis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Moderate-To-Severe Atopic Dermatitis",
+  "stage_event": {
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
+   "event_label": "Data readout"
+  },
+  "note": "07/30/26:- IMG-007 Ph2b atopic dermatitis topline data are anticipated in Q4 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3335918/0/en/hutchmed-reports-2026-interim-results.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -23753,7 +23894,7 @@
   "company": {
    "ticker": "ALNY",
    "name": "Alnylam Pharmaceuticals",
-   "last_price": "205.52",
+   "last_price": "218.60",
    "market_cap": 27500451840
   },
   "ticker": "ALNY",
@@ -24084,6 +24225,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 18340,
+  "company": {
+   "ticker": "ALT",
+   "name": "Altimmune Inc.",
+   "last_price": "2.98",
+   "market_cap": 552306624
+  },
+  "ticker": "ALT",
+  "drug_name": "Pemvidutide (ALT-801) (GLP-1R/GCGR)",
+  "indications": [
+   {
+    "id": 2202,
+    "title": "Metabolic dysfunction-associated steatohepatitis ",
+    "nickname": "MASH"
+   }
+  ],
+  "indications_text": "Metabolic dysfunction-associated steatohepatitis (MASH)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "IMPACT trial. 9/30/24- Completed enrollment. 6/26/25- Reported topline results, met primary endpoint. 11/12/25\u2013 48wk data readout in Q4 2025. EoPh2 FDA meeting in Q4 2025. 12/19/25:- Reported positive 48-week IMPACT Ph2b topline data; EoPh2 FDA meeting aligned Ph3, initiation planned in 2026. 03/05/26:- FDA granted Breakthrough Therapy for MASH; global Phase 3 MASH trial initiation remains planned in 2026. 05/13/26:- EASL 2026 May 27-30 features IMPACT analyses; oral May 28; late-breaker May 27. PERFORMA Ph3 MASH trial initiation planned H2 2026; 52-week data readout anticipated in 2029. 05/27/26:- EASL 2026 24-week qFibrosis and NIT analyses reported. PERFORMA Ph3 enrollment planned H2 2026. 05/28/26:- New 48-week IMPACT lipid and blood pressure data shown at EASL 2026. PERFORMA Ph3 starts H2 2026. 07/28/26:- PERFORMA Phase 3 MASH trial initiation planned in Q3 2026. 08/03/26:- PERFORMA Ph3 enrolling in MASH; 52-week data readout anticipated in 2029.",
+  "catalyst_date": "2029-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g60869097/altimmune-initiates-performa-phase-3-trial-pemvidutide-patients-mash",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 13398,
   "company": {
    "ticker": "VALN",
@@ -24283,7 +24458,7 @@
   "company": {
    "ticker": "RCKT",
    "name": "Rocket Pharmaceuticals",
-   "last_price": "3.11",
+   "last_price": "3.34",
    "market_cap": 339591936
   },
   "ticker": "RCKT",
@@ -24911,7 +25086,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.94",
+   "last_price": "2.00",
    "market_cap": 261052064
   },
   "ticker": "ALXO",
@@ -25735,7 +25910,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1148.84",
+   "last_price": "1116.99",
    "market_cap": 965262180352
   },
   "ticker": "LLY",
@@ -26880,7 +27055,7 @@
   "company": {
    "ticker": "AMLX",
    "name": "Amylyx Pharmaceuticals",
-   "last_price": "20.31",
+   "last_price": "19.84",
    "market_cap": 2258194176
   },
   "ticker": "AMLX",
@@ -27693,7 +27868,7 @@
   "company": {
    "ticker": "ALT",
    "name": "Altimmune Inc.",
-   "last_price": "2.84",
+   "last_price": "2.98",
    "market_cap": 552306624
   },
   "ticker": "ALT",
@@ -27795,7 +27970,7 @@
   "company": {
    "ticker": "ALZN",
    "name": "Alzamend Neuro ",
-   "last_price": "1.31",
+   "last_price": "1.33",
    "market_cap": 6276897
   },
   "ticker": "ALZN",
@@ -28003,7 +28178,7 @@
   "company": {
    "ticker": "ONC",
    "name": "BeOne Medicines",
-   "last_price": "316.01",
+   "last_price": "311.47",
    "market_cap": 32786421760
   },
   "ticker": "ONC",
@@ -28475,7 +28650,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1148.84",
+   "last_price": "1116.99",
    "market_cap": 965262180352
   },
   "ticker": "LLY",

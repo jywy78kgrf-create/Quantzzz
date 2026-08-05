@@ -494,7 +494,7 @@
   "note": "08/04/26:- Ph1b data expected Summer 2026; osimertinib update by Year-End 2026. Lorlatinib starts Q3 2026.",
   "catalyst_date": "2026-08-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g60902638/nuvectis-pharma-reports-second-quarter-2026-financial-results-and-business-highlights",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/29/3319274/0/en/nuvectis-pharma-announces-proposed-public-offering-of-common-stock.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1234,7 +1234,7 @@
   "note": "SHASTA-2,3,4 trials: 5/28/24- SHASTA-3 and SHASTA-4 initiated. 6/23/25- Completed enrollment in SHASTA-3, SHASTA-4, & MUIR-3. Study completion in mid-2026 with subsequent data readout & regulatory submissions. 12/2/25\u2013 Granted FDA Breakthrough Therapy Designation. 11/25/25:- Sanofi-Visirna deal grants Sanofi Greater China plozasiran rights; Visirna gets $130M upfront and up to $265M milestones. 03/28/26:- SHASTA-2 OLE showed durable TG reductions; no pancreatitis. Ph3 SHASTA-3/4 & MUIR-3 complete Mid-2026; sNDA Year-End 2026. 04/24/26:- Phase 3 SHASTA-5 added to program; SHASTA-3/4 and MUIR-3 remain ongoing. 05/26/26:- EAS 2026: renal/hepatic impairment data support no dose adjustment; PALISADE pregnancy case reported. Ph3 completes Mid-2026. 06/22/26:- SHASTA-3/4/5 and MUIR-3 Ph3 trials cited with NCT IDs; timelines unchanged. 07/22/26:- SHASTA-3/4 topline positive. Detailed data at ESC Aug 30, 2026. U.S. sNDA planned Q4 2026. 08/04/26:- PRV acquired; plozasiran sNDA planned before end 2026 to expand into sHTG.",
   "catalyst_date": "2026-08-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b60927438/arrowhead-pharmaceuticals-acquires-fda-priority-review-voucher",
+  "catalyst_source": "https://www.businesswire.com/news/home/20260804042189/en/Arrowhead-Pharmaceuticals-Acquires-FDA-Priority-Review-Voucher",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2297,7 +2297,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "42.21",
+   "last_price": "43.55",
    "market_cap": 5617694720
   },
   "ticker": "DFTX",
@@ -2736,6 +2736,45 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 18677,
+  "company": {
+   "ticker": "TYRA",
+   "name": "Tyra Biosciences",
+   "last_price": "32.53",
+   "market_cap": 1934571392
+  },
+  "ticker": "TYRA",
+  "drug_name": "TYRA-300",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1153,
+    "title": "Non-muscle invasive bladder cancer",
+    "nickname": "NMIBC"
+   }
+  ],
+  "indications_text": "Low-grade, intermediate risk non-muscle invasive bladder cancer (IR NMIBC)",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "08/04/26:- SURF302 initial data expected September 2026; more than 40 patients enrolled.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/tyra-biosciences-reports-second-quarter-2026-financial-results-and-recent-highlights-302842952.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18841,
   "company": {
    "ticker": "BOLT",
@@ -2915,7 +2954,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "29.17",
+   "last_price": "29.77",
    "market_cap": 550414144
   },
   "ticker": "TECX",
@@ -4270,6 +4309,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 20660,
+  "company": {
+   "ticker": "NVCT",
+   "name": "Nuvectis Pharma",
+   "last_price": "20.05",
+   "market_cap": 654888832
+  },
+  "ticker": "NVCT",
+  "drug_name": "NXP200 (BRAF Inhibitor)",
+  "indications": [
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "BRAF-Mutated Solid Tumors",
+  "stage_event": {
+   "id": 122,
+   "label": "Phase 1b Data readout",
+   "stage_label": "Phase 1b",
+   "event_label": "Data readout"
+  },
+  "note": "08/04/26:- NXP200 Ph1b ongoing; ESMO data Oct 2026. U.S. IND submission expected Q4 2026.",
+  "catalyst_date": "2026-10-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g60902638/nuvectis-pharma-reports-second-quarter-2026-financial-results-and-business-highlights",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 16039,
   "company": {
    "ticker": "EVAX",
@@ -5560,7 +5633,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.18",
+   "last_price": "5.16",
    "market_cap": 320522528
   },
   "ticker": "VNDA",
@@ -6829,7 +6902,7 @@
   "company": {
    "ticker": "NVS",
    "name": "Novartis ",
-   "last_price": "153.27",
+   "last_price": "154.31",
    "market_cap": 291322593280
   },
   "ticker": "NVS",
@@ -7522,7 +7595,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.18",
+   "last_price": "5.16",
    "market_cap": 320522528
   },
   "ticker": "VNDA",
@@ -7829,7 +7902,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "10.30",
+   "last_price": "10.54",
    "market_cap": 659408512
   },
   "ticker": "RGNX",
@@ -7912,7 +7985,7 @@
   "company": {
    "ticker": "RIGL",
    "name": "Rigel Pharmaceuticals",
-   "last_price": "38.70",
+   "last_price": "38.69",
    "market_cap": 716030528
   },
   "ticker": "RIGL",
@@ -10801,7 +10874,7 @@
   "note": "HARMONi-3 trial. 12/5/22- Trial collab w/ Akeso. 05/09/23- Dosed 1st patient. Q2'25- Enrollment ongoing. 10/19/25- Squamous PFS readout in H2 2026 & non-squamous PFS readout in H1 2027. 08/05/26:- HARMONi-3 Ph3 evaluates ivonescimab plus chemo vs pembrolizumab plus chemo, with separate squamous and non-squamous cohorts.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b60942261/summit-therapeutics-further-expands-ivonescimab-global-development-program-phase-ii-iii-harmoni-gu1-",
+  "catalyst_source": "https://www.businesswire.com/news/home/20260805758066/en/Summit-Therapeutics-Further-Expands-Ivonescimab-Global-Development-Program-with-Phase-IIIII-HARMONi-GU1-Study-in-1L-Bladder-Cancer",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -11221,6 +11294,45 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18318,
+  "company": {
+   "ticker": "QTTB",
+   "name": "Q32 Bio ",
+   "last_price": "16.16",
+   "market_cap": 479945920
+  },
+  "ticker": "QTTB",
+  "drug_name": "Bempikibart (ADX-914) ",
+  "indications": [
+   {
+    "id": 902,
+    "title": "Alopecia areata",
+    "nickname": ""
+   },
+   {
+    "id": 1037,
+    "title": "Skin disease/disorder",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alopecia areata",
+  "stage_event": {
+   "id": 134,
+   "label": "Phase 2a Data readout",
+   "stage_label": "Phase 2a",
+   "event_label": "Data readout"
+  },
+  "note": "08/05/26:- Meeting data in H2 2026. Ph3 starts H1 2027. OLE data H2 2027.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/q32-bio-reports-second-quarter-2026-financial-results-and-provides-corporate-update-302843061.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18321,
@@ -11843,7 +11955,7 @@
   "note": "HEROIC-PKP2 trial. 9/12/24- Ongoing recruitment. 3/25- Interim data reported. 8/14/25- Interim clinical data update in H2 2025. 11/05/25:- Enrollment completed; low-dose cohort interim data shared; substantive Ph1/2 data update planned for January 2026. 01/12/26:- Preliminary HEROIC-PKP2 Ph1/2 data from 10 patients positive; 12-month high-dose data expected Q4 2026. 03/30/26:- HEROIC-PKP2 interim data detailed at ACC; dose-dependent PKP2 expression; Q4 2026 12-month update and 2026 FDA engagement. 05/11/26:- HEROIC-PKP2 Phase 1/2 shows good tolerability without complement activation; 12-month high-dose data still expected Q4 2026. 08/05/26:- FDA granted RMAT designation. Additional clinical and regulatory updates expected before year-end.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g60942247/lexeo-therapeutics-receives-fda-regenerative-medicine-advanced-therapy-rmat-designation-lx2020-treat",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/05/3339165/0/en/lexeo-therapeutics-receives-fda-regenerative-medicine-advanced-therapy-rmat-designation-for-lx2020-for-the-treatment-of-pkp2-arrhythmogenic-cardiomyopathy.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -12940,7 +13052,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "6.14",
+   "last_price": "6.28",
    "market_cap": 835188800
   },
   "ticker": "ACRS",
@@ -12974,7 +13086,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "6.14",
+   "last_price": "6.28",
    "market_cap": 835188800
   },
   "ticker": "ACRS",
@@ -13266,7 +13378,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.18",
+   "last_price": "5.16",
    "market_cap": 320522528
   },
   "ticker": "VNDA",
@@ -13931,7 +14043,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "518.68",
+   "last_price": "519.65",
    "market_cap": 25831362560
   },
   "ticker": "UTHR",
@@ -14859,7 +14971,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.18",
+   "last_price": "5.16",
    "market_cap": 320522528
   },
   "ticker": "VNDA",
@@ -17024,7 +17136,7 @@
   "company": {
    "ticker": "MANE",
    "name": "Veradermics",
-   "last_price": "107.28",
+   "last_price": "111.40",
    "market_cap": 4482017792
   },
   "ticker": "MANE",
@@ -17777,7 +17889,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "29.17",
+   "last_price": "29.77",
    "market_cap": 550414144
   },
   "ticker": "TECX",
@@ -19394,6 +19506,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 17201,
+  "company": {
+   "ticker": "STOK",
+   "name": "Stoke Therapeutics",
+   "last_price": "31.67",
+   "market_cap": 1972460032
+  },
+  "ticker": "STOK",
+  "drug_name": "STK-002",
+  "indications": [
+   {
+    "id": 2061,
+    "title": "Autosomal Dominant Optic Atrophy ",
+    "nickname": "ADOA"
+   },
+   {
+    "id": 1126,
+    "title": "Rare genetic disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Autosomal Dominant Optic Atrophy (ADOA)",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "08/03/26:- OSPREY cohort 1 dosing complete; cohort 2 starts August 2026, Ph1 data H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260803082079/en/Stoke-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Provides-Business-Updates",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 17536,
   "company": {
    "ticker": "KROS",
@@ -20124,6 +20275,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19442,
+  "company": {
+   "ticker": "ARVN",
+   "name": "Arvinas Inc.",
+   "last_price": "9.00",
+   "market_cap": 580690816
+  },
+  "ticker": "ARVN",
+  "drug_name": "ARV-027 (PolyQ-AR Degrader)",
+  "indications": [
+   {
+    "id": 2053,
+    "title": "Spinal and bulbar muscular atrophy ",
+    "nickname": "SBMA"
+   }
+  ],
+  "indications_text": "Spinal And Bulbar Muscular Atrophy",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "08/04/26:- SAD cohorts complete; MAD enrollment initiated; initial muscle AR-degradation data expected H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/12/3292695/0/en/arvinas-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19663,
   "company": {
    "ticker": "WHWK",
@@ -20274,7 +20459,7 @@
   "company": {
    "ticker": "MANE",
    "name": "Veradermics",
-   "last_price": "107.28",
+   "last_price": "111.40",
    "market_cap": 4482017792
   },
   "ticker": "MANE",
@@ -21783,7 +21968,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "42.21",
+   "last_price": "43.55",
    "market_cap": 5617694720
   },
   "ticker": "DFTX",
@@ -22409,6 +22594,45 @@
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3294731/0/en/autolus-therapeutics-reports-first-quarter-2026-financial-results-and-business-updates.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 19389,
+  "company": {
+   "ticker": "TYRA",
+   "name": "Tyra Biosciences",
+   "last_price": "32.53",
+   "market_cap": 1934571392
+  },
+  "ticker": "TYRA",
+  "drug_name": "Dabogratinib (TYRA-300) (FGFR3 Inhibitor)",
+  "indications": [
+   {
+    "id": 843,
+    "title": "Urothelial cancer",
+    "nickname": ""
+   },
+   {
+    "id": 964,
+    "title": "Urothelial carcinoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Low-Grade Upper Tract Urothelial Carcinoma",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "08/04/26:- SURF303 initial results are expected in 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/tyra-biosciences-reports-second-quarter-2026-financial-results-and-recent-highlights-302842952.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -24185,7 +24409,7 @@
   "company": {
    "ticker": "ALT",
    "name": "Altimmune Inc.",
-   "last_price": "3.07",
+   "last_price": "3.06",
    "market_cap": 597035648
   },
   "ticker": "ALT",
@@ -24672,7 +24896,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "10.30",
+   "last_price": "10.54",
    "market_cap": 659408512
   },
   "ticker": "RGNX",
@@ -25641,7 +25865,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "195.56",
+   "last_price": "195.86",
    "market_cap": 41128914944
   },
   "ticker": "RVMD",
@@ -25690,7 +25914,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "195.56",
+   "last_price": "195.86",
    "market_cap": 41128914944
   },
   "ticker": "RVMD",
@@ -27902,7 +28126,7 @@
   "company": {
    "ticker": "ALT",
    "name": "Altimmune Inc.",
-   "last_price": "3.07",
+   "last_price": "3.06",
    "market_cap": 597035648
   },
   "ticker": "ALT",
@@ -29122,7 +29346,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "195.56",
+   "last_price": "195.86",
    "market_cap": 41128914944
   },
   "ticker": "RVMD",

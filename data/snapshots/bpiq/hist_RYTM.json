@@ -1,5 +1,28 @@
 [
  {
+  "id": 8335,
+  "company": {
+   "id": 263,
+   "ticker": "RYTM",
+   "name": "Rhythm Pharmaceuticals"
+  },
+  "created_at": "2026-08-05T13:01:50.567706Z",
+  "updated_at": "2026-08-05T13:01:50.567725Z",
+  "ticker": "RYTM",
+  "drug_name": "RM-718",
+  "drug_indication": "Acquired Hypothalamic Obesity",
+  "airtable_id": 8624,
+  "stage": "Phase 2",
+  "catalyst_date": "2026-08-04",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/04/3338126/0/en/rhythm-pharmaceuticals-announces-preliminary-data-from-phase-2-trial-that-showed-rm-718-demonstrated-positive-efficacy-signal-in-acquired-hypothalamic-obesity.html",
+  "catalyst_text": "Announced positive Phase 2 data in hypothalamic obesity",
+  "detailed_catalyst_text": "Preliminary results were reported from an ongoing open-label Phase 2 study of RM-718 in acquired hypothalamic obesity. After 16 weeks, mean BMI fell 11.6% (n=7), with only mild, injection site-limited hyperpigmentation and a generally tolerable safety profile, supporting further development.",
+  "catalyst_text_evidence": "Rhythm Pharmaceuticals, Inc. (NASDAQ:RYTM)... today announced preliminary results from the ongoing Phase 2 trial evaluating RM-718, Rhythm\u2019s investigational once-weekly MC4R agonist, in patients with acquired hypothalamic obesity (HO). Eleven patients with acquired HO were enrolled in the ongoing, open-label trial. Key preliminary findings include: -11.6% reduction in mean BMI from baseline (n=7) after 16 weeks of RM-718; RM-718 efficacy results at 16 weeks comparable to mean BMI reduction of -10.1% with bivamelagon (600 mg dose; n=7) at 14 weeks and -10.1% BMI reduction with setmelanotide at 16 weeks (n=64 patients in Phase 2 and 3 trials); and Two (2) mild instances of hyperpigmentation were reported and were limited to the injection site, with no generalized hyperpigmentation observed. RM-718 was generally well tolerated, with the most common adverse events being injection site reactions, nausea, and vomiting.",
+  "news_published_at": "2026-08-05T00:00:00Z",
+  "open_price_gap_percent": "-0.02043",
+  "intra_day_price_change_percent": "0.05066"
+ },
+ {
   "id": 8141,
   "company": {
    "id": 263,
@@ -7,7 +30,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-07-10T13:06:57.659140Z",
-  "updated_at": "2026-08-04T13:07:00.043777Z",
+  "updated_at": "2026-08-05T13:06:31.165863Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Acquired Hypothalamic Obesity",
@@ -30,7 +53,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-06-17T13:02:08.827149Z",
-  "updated_at": "2026-08-04T13:02:35.050234Z",
+  "updated_at": "2026-08-05T13:02:10.922139Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Prader-Willi Syndrome",
@@ -53,7 +76,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-06-17T13:04:53.237096Z",
-  "updated_at": "2026-08-04T13:05:16.498823Z",
+  "updated_at": "2026-08-05T13:04:44.780620Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Bardet-Biedl Syndrome",
@@ -76,7 +99,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-06-17T13:05:43.171669Z",
-  "updated_at": "2026-08-04T13:06:04.876763Z",
+  "updated_at": "2026-08-05T13:05:32.897596Z",
   "ticker": "RYTM",
   "drug_name": "Bivamelagon",
   "drug_indication": "Acquired Hypothalamic Obesity",
@@ -99,7 +122,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-06-17T13:06:08.307999Z",
-  "updated_at": "2026-08-04T13:06:30.372150Z",
+  "updated_at": "2026-08-05T13:05:58.858406Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Acquired Hypothalamic Obesity",
@@ -122,7 +145,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-06-16T13:05:19.650946Z",
-  "updated_at": "2026-08-04T13:05:38.532768Z",
+  "updated_at": "2026-08-05T13:05:07.658743Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Prader-Willi Syndrome",
@@ -145,7 +168,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-05-05T13:03:47.366823Z",
-  "updated_at": "2026-08-04T13:04:13.016417Z",
+  "updated_at": "2026-08-05T13:03:43.996058Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Acquired Hypothalamic Obesity",
@@ -168,7 +191,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-05-02T13:04:11.984136Z",
-  "updated_at": "2026-08-04T13:04:54.124936Z",
+  "updated_at": "2026-08-05T13:04:24.978992Z",
   "ticker": "RYTM",
   "drug_name": "IMCIVREE (setmelanotide)",
   "drug_indication": "Acquired Hypothalamic Obesity",
@@ -191,7 +214,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-03-27T13:03:20.698735Z",
-  "updated_at": "2026-08-04T13:04:56.718774Z",
+  "updated_at": "2026-08-05T13:04:27.357409Z",
   "ticker": "RYTM",
   "drug_name": "IMCIVREE (setmelanotide)",
   "drug_indication": "Acquired Hypothalamic Obesity",
@@ -214,7 +237,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-03-21T13:03:35.474308Z",
-  "updated_at": "2026-08-04T13:04:43.087169Z",
+  "updated_at": "2026-08-05T13:04:14.184514Z",
   "ticker": "RYTM",
   "drug_name": "IMCIVREE (setmelanotide)",
   "drug_indication": "Acquired Hypothalamic Obesity",
@@ -237,7 +260,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-03-18T13:02:21.286519Z",
-  "updated_at": "2026-08-04T13:02:54.817514Z",
+  "updated_at": "2026-08-05T13:02:30.095675Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Obesity due to heterozygous POMC/PCSK1, LEPR, SRC1, SH2B1 variants",
@@ -260,7 +283,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2026-03-03T13:00:53.044456Z",
-  "updated_at": "2026-08-04T13:01:43.547792Z",
+  "updated_at": "2026-08-05T13:01:25.042271Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Acquired Hypothalamic Obesity",
@@ -283,7 +306,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-12-12T13:03:13.512817Z",
-  "updated_at": "2026-08-04T13:04:40.381855Z",
+  "updated_at": "2026-08-05T13:04:11.553762Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Prader-Willi Syndrome",
@@ -306,7 +329,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-12-12T13:03:50.428165Z",
-  "updated_at": "2026-08-04T13:05:33.766410Z",
+  "updated_at": "2026-08-05T13:05:02.480957Z",
   "ticker": "RYTM",
   "drug_name": "RM-718",
   "drug_indication": "Prader-Willi Syndrome",
@@ -329,7 +352,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-08-22T13:04:31.910935Z",
-  "updated_at": "2026-08-04T13:06:40.290705Z",
+  "updated_at": "2026-08-05T13:06:11.131121Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Acquired hypothalamic obesity  ",
@@ -352,7 +375,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-04-08T13:03:20.730566Z",
-  "updated_at": "2026-08-04T13:05:45.117959Z",
+  "updated_at": "2026-08-05T13:05:14.139133Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Acquired hypothalamic obesity  ",
@@ -375,7 +398,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:13:40.956288Z",
-  "updated_at": "2026-08-04T13:06:07.914150Z",
+  "updated_at": "2026-08-05T13:05:35.716144Z",
   "ticker": "RYTM",
   "drug_name": "IMCIVREE (setmelanotide)",
   "drug_indication": "Obesity due to biallelic POMC, PCSK1, LEPR deficiency, or BBS (ages 2-6 years old)",
@@ -398,7 +421,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:08:24.281346Z",
-  "updated_at": "2026-08-04T13:04:50.391021Z",
+  "updated_at": "2026-08-05T13:04:21.394004Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide - (DAYBREAK)",
   "drug_indication": "Variants in one of 31 additional genes with MC4R pathway relevance",
@@ -421,7 +444,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:14:39.125804Z",
-  "updated_at": "2026-08-04T13:07:30.269047Z",
+  "updated_at": "2026-08-05T13:07:02.317326Z",
   "ticker": "RYTM",
   "drug_name": "Bivamelagon (LB54640)",
   "drug_indication": "Healthy overweight adults",
@@ -444,7 +467,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:14:11.956151Z",
-  "updated_at": "2026-08-04T13:06:52.717905Z",
+  "updated_at": "2026-08-05T13:06:23.852700Z",
   "ticker": "RYTM",
   "drug_name": "RM-718",
   "drug_indication": "Hypothalamic Obesity",
@@ -467,7 +490,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:06:35.022154Z",
-  "updated_at": "2026-08-04T13:02:25.924887Z",
+  "updated_at": "2026-08-05T13:02:01.896461Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide - (SWITCH)",
   "drug_indication": "Obesity due to biallelic POMC, PCSK1, LEPR deficiency or BBS",
@@ -490,7 +513,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:07:33.693065Z",
-  "updated_at": "2026-08-04T13:03:45.076281Z",
+  "updated_at": "2026-08-05T13:03:17.824463Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "Hypothalamic obesity",
@@ -513,7 +536,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:08:19.025447Z",
-  "updated_at": "2026-08-04T13:04:43.285809Z",
+  "updated_at": "2026-08-05T13:04:14.357651Z",
   "ticker": "RYTM",
   "drug_name": "IMCIVREE (setmelanotide)",
   "drug_indication": "Alstrom Syndrome",
@@ -536,7 +559,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:14:30.001493Z",
-  "updated_at": "2026-08-04T13:07:18.245845Z",
+  "updated_at": "2026-08-05T13:06:48.745970Z",
   "ticker": "RYTM",
   "drug_name": "IMCIVREE (setmelanotide)",
   "drug_indication": "Bardet-Biedl Syndrome",
@@ -559,7 +582,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:08:28.835250Z",
-  "updated_at": "2026-08-04T13:04:55.710673Z",
+  "updated_at": "2026-08-05T13:04:26.371765Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide - (Basket)",
   "drug_indication": "POMC Heterozygous Deficiency Obesity, Alstrom Syndrome, POMC Epigenetic Disorders",
@@ -582,7 +605,7 @@
    "name": "Rhythm Pharmaceuticals"
   },
   "created_at": "2025-02-21T20:08:22.788242Z",
-  "updated_at": "2026-08-04T13:04:48.206393Z",
+  "updated_at": "2026-08-05T13:04:19.062719Z",
   "ticker": "RYTM",
   "drug_name": "Setmelanotide",
   "drug_indication": "POMC deficiency obesity / Leptin Receptor Deficiency Obesity",

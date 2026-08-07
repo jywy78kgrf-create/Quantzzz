@@ -1,5 +1,51 @@
 [
  {
+  "id": 8344,
+  "company": {
+   "id": 1328,
+   "ticker": "ROIV",
+   "name": "Roivant"
+  },
+  "created_at": "2026-08-07T13:01:10.993154Z",
+  "updated_at": "2026-08-07T13:01:10.993184Z",
+  "ticker": "ROIV",
+  "drug_name": "Brepocitinib",
+  "drug_indication": "Cutaneous Sarcoidosis",
+  "airtable_id": 8631,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-08-06",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340098/0/en/Priovant-Announces-First-Patients-Enrolled-in-Phase-3-Study-BEACON-of-Brepocitinib-in-Cutaneous-Sarcoidosis-CS.html",
+  "catalyst_text": "Initiated Phase 3 trial after positive Phase 2",
+  "detailed_catalyst_text": "First patients were enrolled in a Phase 3 study for cutaneous sarcoidosis. This follows a positive placebo-controlled Phase 2 trial that supported FDA Breakthrough Therapy Designation. Advancing to Phase 3 in a disease with no approved therapies underscores clinical momentum.",
+  "catalyst_text_evidence": "\"Priovant today announced that the first patients have been enrolled in the Phase 3 study evaluating brepocitinib in cutaneous sarcoidosis (CS).\" \"This follows brepocitinib\u2019s Phase 2 study, the first positive placebo-controlled study in CS, which led to FDA Breakthrough Therapy Designation.\"",
+  "news_published_at": "2026-08-07T00:00:00Z",
+  "open_price_gap_percent": "-0.04306",
+  "intra_day_price_change_percent": "0.06071"
+ },
+ {
+  "id": 8348,
+  "company": {
+   "id": 1328,
+   "ticker": "ROIV",
+   "name": "Roivant"
+  },
+  "created_at": "2026-08-07T13:04:38.804558Z",
+  "updated_at": "2026-08-07T13:04:38.804592Z",
+  "ticker": "ROIV",
+  "drug_name": "Brepocitinib",
+  "drug_indication": "Dermatomyositis",
+  "airtable_id": 8632,
+  "stage": "PDUFA priority review",
+  "catalyst_date": "2026-08-06",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340098/0/en/Priovant-Announces-First-Patients-Enrolled-in-Phase-3-Study-BEACON-of-Brepocitinib-in-Cutaneous-Sarcoidosis-CS.html",
+  "catalyst_text": "NDA under FDA priority review with PDUFA date",
+  "detailed_catalyst_text": "The NDA for dermatomyositis is under FDA Priority Review, following a positive Phase 3 VALOR readout. A PDUFA date has been set for later this quarter. This marks a major regulatory step toward potential approval in this rare autoimmune disease.",
+  "catalyst_text_evidence": "\"In dermatomyositis (DM), brepocitinib\u2019s NDA is currently under Priority Review with FDA with a PDUFA date later this quarter, following the positive Phase 3 VALOR readout.\"",
+  "news_published_at": "2026-08-07T00:00:00Z",
+  "open_price_gap_percent": "-0.04306",
+  "intra_day_price_change_percent": "0.06071"
+ },
+ {
   "id": 7061,
   "company": {
    "id": 1328,
@@ -7,7 +53,7 @@
    "name": "Roivant"
   },
   "created_at": "2026-04-03T13:00:48.892115Z",
-  "updated_at": "2026-08-06T13:01:09.160707Z",
+  "updated_at": "2026-08-07T13:01:14.704844Z",
   "ticker": "ROIV",
   "drug_name": "Batoclimab",
   "drug_indication": "Thyroid Eye Disease",
@@ -30,7 +76,7 @@
    "name": "Roivant"
   },
   "created_at": "2026-04-03T13:03:23.016927Z",
-  "updated_at": "2026-08-06T13:03:57.210092Z",
+  "updated_at": "2026-08-07T13:04:41.533454Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Lichen Planopilaris",
@@ -53,7 +99,7 @@
    "name": "Roivant"
   },
   "created_at": "2026-04-03T13:03:48.409102Z",
-  "updated_at": "2026-08-06T13:04:25.934680Z",
+  "updated_at": "2026-08-07T13:05:14.164129Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Dermatomyositis",
@@ -122,7 +168,7 @@
    "name": "Roivant"
   },
   "created_at": "2026-03-04T13:02:44.972601Z",
-  "updated_at": "2026-08-06T13:03:54.893439Z",
+  "updated_at": "2026-08-07T13:04:38.990904Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Dermatomyositis",
@@ -214,7 +260,7 @@
    "name": "Roivant"
   },
   "created_at": "2025-02-21T20:08:01.161724Z",
-  "updated_at": "2026-08-06T13:04:26.653424Z",
+  "updated_at": "2026-08-07T13:05:15.020437Z",
   "ticker": "ROIV",
   "drug_name": "Namilumab - (RESOLVE-Lung)",
   "drug_indication": "Sarcoidosis",
@@ -260,7 +306,7 @@
    "name": "Roivant"
   },
   "created_at": "2025-02-21T20:07:59.681387Z",
-  "updated_at": "2026-08-06T13:04:24.625695Z",
+  "updated_at": "2026-08-07T13:05:12.620815Z",
   "ticker": "ROIV",
   "drug_name": "RVT-2001",
   "drug_indication": "Transfusion-Dependent Anemia in Patients with Lower-Risk MDS",
@@ -306,7 +352,7 @@
    "name": "Roivant"
   },
   "created_at": "2025-02-21T20:05:58.311838Z",
-  "updated_at": "2026-08-06T13:01:35.120274Z",
+  "updated_at": "2026-08-07T13:01:51.064316Z",
   "ticker": "ROIV",
   "drug_name": "VTAMA (tapinarof) - (ADORING 1)",
   "drug_indication": "Atopic dermatitis (AD)",
@@ -329,7 +375,7 @@
    "name": "Roivant"
   },
   "created_at": "2025-02-21T20:08:09.384540Z",
-  "updated_at": "2026-08-06T13:04:36.563556Z",
+  "updated_at": "2026-08-07T13:05:26.479772Z",
   "ticker": "ROIV",
   "drug_name": "ADORING 2",
   "drug_indication": "Atopic Dermatitis",
@@ -352,7 +398,7 @@
    "name": "Roivant"
   },
   "created_at": "2025-02-21T20:05:39.643978Z",
-  "updated_at": "2026-08-06T13:01:08.280296Z",
+  "updated_at": "2026-08-07T13:01:13.348594Z",
   "ticker": "ROIV",
   "drug_name": "VTAMA (tapinarof)",
   "drug_indication": "Plaque psoriasis",

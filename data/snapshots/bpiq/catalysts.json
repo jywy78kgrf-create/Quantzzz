@@ -1,5 +1,78 @@
 [
  {
+  "id": 16856,
+  "company": {
+   "ticker": "VSTM",
+   "name": "Verastem Oncology",
+   "last_price": "6.74",
+   "market_cap": 610397568
+  },
+  "ticker": "VSTM",
+  "drug_name": "Avutometinib (VS-6766), + defactinib+gemcitabine/nab-paclitaxel",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "First-Line Metastatic Pancreatic Cancer (PDAC)",
+  "stage_event": {
+   "id": 125,
+   "label": "Phase 1/2 Update",
+   "stage_label": "Phase 1/2",
+   "event_label": "Update"
+  },
+  "note": "08/06/26:- RAMP 205 data reiterated; survival follow-up continues as data mature.",
+  "catalyst_date": "2026-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61016255/verastem-oncology-reports-second-quarter-2026-financial-results-and-highlights-recent-business-updat",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18049,
+  "company": {
+   "ticker": "DFTX",
+   "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
+   "last_price": "46.14",
+   "market_cap": 6124773888
+  },
+  "ticker": "DFTX",
+  "drug_name": "DT120 (formerly MM120; lysergide D-tartrate)",
+  "indications": [
+   {
+    "id": 2043,
+    "title": "Anxiety Disorders",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Anxiety Disorders",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "08/06/26:- Voyage and Panorama enrolled; data expected week of August 10 and September 2026.",
+  "catalyst_date": "2026-08-10",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61016244/definium-therapeutics-reports-second-quarter-2026-financial-results-and-recent-highlights",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 15204,
   "company": {
    "ticker": "PSTV",
@@ -78,7 +151,7 @@
    "ticker": "ZYME",
    "name": "Zymeworks",
    "last_price": "23.54",
-   "market_cap": 1701765000
+   "market_cap": 1670380544
   },
   "ticker": "ZYME",
   "drug_name": "Zanidatamab (HER2) + chemotherapy + tislelizumab",
@@ -106,49 +179,15 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "Prelim results presented at ASCO 2022. 1/19/23- Reported tolerability and efficacy data from Ph2 at ASCO GI 2023. 8/7/25- No recent Q2'25 report update. 11/06/25:- Partner Jazz plans Phase 3 1L GEA top-line PFS data from zanidatamab in Q4 2025. 01/06/26:- Ph3 HERIZON-GEA-01 showed positive PFS/OS in 1L HER2+ GEA; next OS interim expected Mid-2026. 01/12/26:- Late-breaking HERIZON-GEA-01 ASCO GI data detailed PFS and OS benefits; next OS interim remains expected Mid-2026. 03/02/26:- HERIZON-GEA-01 supports Ziihera; sBLA Q1 2026, OS interim and potential U.S. launch expected Mid- and 2H 2026. 05/07/26:- US sBLA priority review; PDUFA Aug 25, 2026; China sBLA accepted; second OS interim expected Mid-2026.",
+  "note": "08/06/26:- HERIZON-GEA-01 OS readout expected Q3 2026; PDUFA remains Aug 25, 2026.",
   "catalyst_date": "2026-08-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290579/0/en/zymeworks-provides-corporate-update-and-reports-first-quarter-2026-financial-results.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61017019/zymeworks-provides-corporate-update-and-reports-second-quarter-2026-financial-results",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
- },
- {
-  "id": 15371,
-  "company": {
-   "ticker": "DNLI",
-   "name": "Denali Therapeutics",
-   "last_price": "24.83",
-   "market_cap": 3969011200
-  },
-  "ticker": "DNLI",
-  "drug_name": "BIIB122/DNL151 (LRRK2 Inhibitor)",
-  "indications": [
-   {
-    "id": 1386,
-    "title": "Parkinson's disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Parkinson's disease",
-  "stage_event": {
-   "id": 146,
-   "label": "Phase 2b Data readout",
-   "stage_label": "Phase 2b",
-   "event_label": "Data readout"
-  },
-  "note": "LUMA/LIGHTHOUSE trials. Collab w/ Biogen. 05/2022- Initiated trial. 01/24- collab agreement initiated w/ a third party for a global Ph2a study, starting in 2024. Biogen to continue the trial and co-commercialize w/ DNLI. 5/6/25- Ph2b data expected in 2026. 11/06/25:- Ph2b LUMA study completed enrollment earlier in 2025, and a data readout remains expected in 2026 while the Ph2a BEACON study continues. 02/26/26:- Global Ph2b LUMA study readout for early Parkinson's expected in Mid-2026; Biogen collaboration continues. 05/07/26:- Global Ph2b LUMA data readout for early Parkinson's still expected in Mid-2026; BEACON Ph2a study ongoing.",
-  "catalyst_date": "2026-08-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290512/0/en/denali-therapeutics-reports-first-quarter-2026-financial-results-and-business-highlights.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
  },
  {
   "id": 16118,
@@ -556,7 +595,7 @@
    "ticker": "VALN",
    "name": "Valneva SE",
    "last_price": "5.30",
-   "market_cap": 541234000
+   "market_cap": 541234112
   },
   "ticker": "VALN",
   "drug_name": "Shigella4V2 (S4V2) ",
@@ -668,7 +707,7 @@
    "ticker": "SION",
    "name": "Sionna Therapeutics",
    "last_price": "51.04",
-   "market_cap": 2304473000
+   "market_cap": 2304472832
   },
   "ticker": "SION",
   "drug_name": "SION-451 ",
@@ -702,7 +741,7 @@
    "ticker": "STRO",
    "name": "Sutro Biopharma",
    "last_price": "25.38",
-   "market_cap": 420558000
+   "market_cap": 420557728
   },
   "ticker": "STRO",
   "drug_name": "STRO-004",
@@ -1046,10 +1085,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "Suspected Big Mover. ACACIA-HCM trial (non-obstructive HCM). Q3 '24- Enrollment ongoing in pivotal Ph3 trial for non-obstructive HCM. 2/27/25- Complete enrollment in H2 2025. 5/6/25- Topline results in H1 2026. 11/05/25:- Completed enrollment in Japan cohort; topline primary cohort (excluding Japan) Phase 3 results expected in Q2 2026. 02/24/26:- ACACIA-HCM Ph3 topline results reiterated for Q2 2026; Japan cohort ongoing. 05/05/26:- ACACIA-HCM Ph3 topline positive; met dual endpoints. Medical meeting presentation and FDA discussions planned. Full ACACIA-HCM results will be presented at a future medical congress. 07/07/26:- ACACIA-HCM Ph3 primary results at ESC Hot Line Aug 28, 2026; additional analyses Aug 29.",
+  "note": "08/06/26:- ACACIA-HCM full results expected in August; nHCM sNDA expected Q4 2026.",
   "catalyst_date": "2026-08-28",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/07/3323061/35409/en/cytokinetics-announces-three-late-breaking-science-abstracts-at-the-european-society-of-cardiology-esc-congress-2026.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016128/cytokinetics-reports-second-quarter-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1062,7 +1101,7 @@
    "ticker": "TENX",
    "name": "Tenax Therapeutics",
    "last_price": "13.44",
-   "market_cap": 498112000
+   "market_cap": 502977408
   },
   "ticker": "TENX",
   "drug_name": "TNX-103 (Oral Levosimendan)",
@@ -1276,7 +1315,7 @@
    "ticker": "SION",
    "name": "Sionna Therapeutics",
    "last_price": "51.04",
-   "market_cap": 2304473000
+   "market_cap": 2304472832
   },
   "ticker": "SION",
   "drug_name": "SION-719",
@@ -1310,7 +1349,7 @@
    "ticker": "SLN",
    "name": "Silence Therapeutics",
    "last_price": "11.95",
-   "market_cap": 564454000
+   "market_cap": 564453632
   },
   "ticker": "SLN",
   "drug_name": "Divesiran",
@@ -1834,10 +1873,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "EMBARQ-CSU1 & EMBARQ-CSU 2. 7/16/24- Initiated global Ph3.11/10/25:- Ph2 CSU study complete. 2/23/26:- Study data on prolonged off-treatment efficacy to be presented at AAAAI 2026 on Feb. 27, 2026. 2/25/26:- Enrollment completed 6 months early; topline results expected Q4 2026; BLA submission planned 2027. 02/27/26:- AAAAI: Ph2 CSU off-treatment efficacy durable to Week 76; Ph3 EMBARQ-CSU1/2 enrollment completed. 03/27/26:- AAD 2026 Ph2 CSU QoL data showed durable off-treatment benefit; EMBARQ-CSU1/2 topline expected Q4 2026. 05/07/26:- EMBARQ-CSU1/2 enrollment finished six months early; 1,939 patients; topline Ph3 CSU data Q4 2026; BLA 2027. 06/14/26:- Week 76 Phase 2 CSU angioedema results positive; Phase 3 topline still expected Q4 2026. BLA planned 2027. 07/21/26:- Phase 3 EMBARQ-CSU1/2 topline expected September/October 2026; BLA submission planned 2027 reiterated.",
+  "note": "08/06/26:- Ph3 EMBARQ-CSU1/2 topline expected September/October 2026; BLA planned 2027.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/21/3330938/0/en/Celldex-Reports-Results-from-Phase-2-Study-of-Barzolvolimab-in-Prurigo-Nodularis.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016217/celldex-reports-second-quarter-financial-results-and-provides-corporate-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1884,7 +1923,7 @@
    "ticker": "TLSA",
    "name": "Tiziana Life Sciences",
    "last_price": "1.00",
-   "market_cap": 127259000
+   "market_cap": 127259128
   },
   "ticker": "TLSA",
   "drug_name": "Intranasal Foralumab (anti-CD3 mAb)",
@@ -1918,7 +1957,7 @@
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
    "last_price": "52.92",
-   "market_cap": 6444877000
+   "market_cap": 6444876800
   },
   "ticker": "SRRK",
   "drug_name": "Apitegromab (SRK-015) ",
@@ -2210,40 +2249,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 18049,
-  "company": {
-   "ticker": "DFTX",
-   "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "46.14",
-   "market_cap": 6124773888
-  },
-  "ticker": "DFTX",
-  "drug_name": "DT120 (formerly MM120; lysergide D-tartrate)",
-  "indications": [
-   {
-    "id": 2043,
-    "title": "Anxiety Disorders",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Anxiety Disorders",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "Voyage and Panorama studies. 12/16/24- 1st patient dosed (Voyage study). 1/30/25- 1st patient dosed (Panorama study). 5/8/25- 12wk topline data in H1 2026 (Voyage) and H2 2025 (Panorama). 11/06/25:- Voyage Ph3 GAD topline expected H1 2026. Panorama Ph3 topline now expected H2 2026. JAMA Ph2b published. 05/07/26:- Voyage enrollment completed; topline early Q3 2026. Panorama enrollment complete; topline late Q3 2026 (timeline updated).",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260507422734/en/Definium-Therapeutics-Reports-First-Quarter-2026-Financial-Results-and-Recent-Highlights",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18148,
   "company": {
    "ticker": "SCYX",
@@ -2527,40 +2532,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 18478,
-  "company": {
-   "ticker": "CLDX",
-   "name": "Celldex Therapeutics, Inc.",
-   "last_price": "41.71",
-   "market_cap": 3275466752
-  },
-  "ticker": "CLDX",
-  "drug_name": "CDX-622",
-  "indications": [
-   {
-    "id": 1174,
-    "title": "Inflammatory disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Inflammatory disease",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "11/20/24- First patient dosed. 2/27/25- Enrollment ongoing. 10/30/25- Initial positive results reported. Report data from Part 2 & Part 3 in Q3 2026. 11/10/25:- Detailed Ph1 Part 1 data reported; Part 2 enrollment ongoing; data expected Q3 2026. 02/25/26:- Phase 1 healthy-volunteer study enrollment completed; multiple-dose and subcutaneous data expected Q3 2026. 05/07/26:- Multi-part healthy-volunteer Ph1 enrollment complete; multiple-dose and SubQ data still anticipated Q3 2026. 06/14/26:- EAACI Phase 1 results positive. Phase 1b proof-of-mechanism asthma study ongoing.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/14/3311438/24180/en/celldex-presents-positive-first-in-human-results-from-phase-1-study-of-novel-bispecific-cdx-622-at-the-european-academy-of-allergy-and-clinical-immunology-annual-meeting.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18503,
   "company": {
    "ticker": "IVVD",
@@ -2691,10 +2662,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "12/17/24- Selected as lead oral small molecule. 6/23/25- Present preclinical data at ADA '25. 8/6/25- Ph1 study initiation by YE 2025. 11/06/25:- IND-enabling activities are ongoing and first-in-human Ph1 initiation remains expected by YE 2025. 12/17/25:- Initiated first-in-human Ph1 SAD/MAD study in healthy volunteers and people with obesity. 02/26/26:- Initial Phase 1 SAD data from ACCG-2671 in obesity expected in H2 2026. 04/27/26:- ADA 2026 posters Jun 7: aleniglipron+ACCG-2671 NHP combo data; taste-avoidance profiles. 05/07/26:- Initial Phase 1 SAD data and MAD study initiation now expected around Q3 2026.",
+  "note": "08/06/26:- Phase 1 SAD data and MAD trial initiation remain on track for Q3 2026. Combo trial starts Q4 2026.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290577/0/en/structure-therapeutics-reports-first-quarter-2026-financial-results-and-recent-highlights.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61017092/structure-therapeutics-reports-second-quarter-2026-financial-results-and-recent-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2707,7 +2678,7 @@
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
    "last_price": "26.51",
-   "market_cap": 1608890000
+   "market_cap": 1582035712
   },
   "ticker": "TYRA",
   "drug_name": "TYRA-300",
@@ -2785,7 +2756,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.91",
-   "market_cap": 9250309000
+   "market_cap": 9250309120
   },
   "ticker": "SYRE",
   "drug_name": "SPY003",
@@ -2921,7 +2892,7 @@
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
    "last_price": "30.98",
-   "market_cap": 605639000
+   "market_cap": 605639360
   },
   "ticker": "TECX",
   "drug_name": "TX2100",
@@ -2949,10 +2920,10 @@
    "stage_label": "Phase 1a",
    "event_label": "Data readout"
   },
-  "note": "8/7/25- Initiate trial in Q1 2026. 02/26/26:- First subject randomized in Phase 1a HV trial in February 2026; topline results expected in Q4 2026. 05/07/26:- Phase 1a HV trial dosed four cohorts; topline results expected Q3 2026; Phase 2 PoC planned early 2027.",
+  "note": "08/06/26:- Ph1a dosing completed; topline results expected Q3 2026; Ph1b and Ph2 planned Early 2027.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290500/0/en/tectonic-therapeutic-announces-first-quarter-2026-financial-results-and-recent-business-highlights.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016238/tectonic-therapeutic-announces-second-quarter-2026-financial-results-and-recent-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2965,7 +2936,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.91",
-   "market_cap": 9250309000
+   "market_cap": 9250309120
   },
   "ticker": "SYRE",
   "drug_name": "SPY072 (SPY002-072)",
@@ -3134,10 +3105,10 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "03/05/26:- Ph2b AD dose-ranging trial enrolling; topline data expected H2 2026. 05/07/26:- Ph2b AD trial enrollment complete; topline data on track for Q3 2026.",
+  "note": "08/06/26:- Ph2b AD top-line data expected in September 2026.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260507281814/en/Evommune-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Highlights",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61016964/evommune-reports-second-quarter-2026-financial-results-and-provides-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -3218,7 +3189,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "23.32",
-   "market_cap": 2074387000
+   "market_cap": 2618048256
   },
   "ticker": "ZLAB",
   "drug_name": "VYVGART/Efgartigimod Alfa (FcRn Blocker)",
@@ -3325,7 +3296,7 @@
    "ticker": "SXTP",
    "name": "60 Degree Pharmaceuticals ",
    "last_price": "1.12",
-   "market_cap": 2978400
+   "market_cap": 2978402
   },
   "ticker": "SXTP",
   "drug_name": "Arakoda (Tafenoquine)",
@@ -3515,7 +3486,7 @@
    "ticker": "VTRS",
    "name": "Viatris Inc",
    "last_price": "16.43",
-   "market_cap": 18871347000
+   "market_cap": 18871347200
   },
   "ticker": "VTRS",
   "drug_name": "MR-141 (phentolamine ophthalmic solution 0.75%) ",
@@ -5088,10 +5059,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "MAPLE-HCM trial (oHCM). Trial comparing aficamten to metoprolol. 5/13/25- Reported topline results, met primary endpoint. 8/30/25- Primary results presented at ESC'25. Present results from prespecified analysis at HFSA'25. 11/10/25- Additional analyses presented at AHA'25. 11/05/25:- MAPLE-HCM primary and supplemental analyses presented at ESC 2025 and HFSA 2025, reinforcing aficamten benefits and informing multiple recent peer-reviewed publications. 12/12/25:- FOREST-HCM open-label extension study in HCM patients noted; no new MAPLE-HCM data or timelines provided. 02/24/26:- sNDA for MAPLE-HCM submitted; FDA approval decision expected in Q4 2026. 03/16/26:- New MAPLE-HCM analyses (pooled, hypertension subset) to be presented at ACC March 28-30, 2026. 04/28/26:- MAPLE-HCM dose-response and sex-based analyses presented at ESC HF 2026 on May 10-11, 2026. 05/05/26:- sNDA for MAPLE-HCM accepted; FDA assigned PDUFA date November 14, 2026. 05/11/26:- ESC HF 2026 presented new MAPLE-HCM dose-response and sex analyses showing benefits versus metoprolol. 07/07/26:- MAPLE-HCM analyses to be presented at ESC Congress Aug 29, 2026.",
+  "note": "08/06/26:- MAPLE-HCM analyses at ESC Heart Failure 2026 supported published oHCM data.",
   "catalyst_date": "2026-11-14",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/07/3323061/35409/en/cytokinetics-announces-three-late-breaking-science-abstracts-at-the-european-society-of-cardiology-esc-congress-2026.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016128/cytokinetics-reports-second-quarter-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5104,7 +5075,7 @@
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
    "last_price": "13.96",
-   "market_cap": 11136585000
+   "market_cap": 11136584704
   },
   "ticker": "SMMT",
   "drug_name": "Ivonescimab + chemotherapy",
@@ -5216,7 +5187,7 @@
    "ticker": "SVRA",
    "name": "Savara",
    "last_price": "5.83",
-   "market_cap": 1186529000
+   "market_cap": 1194725632
   },
   "ticker": "SVRA",
   "drug_name": "Molgramostim",
@@ -5464,7 +5435,7 @@
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
    "last_price": "496.07",
-   "market_cap": 125734363000
+   "market_cap": 125734363136
   },
   "ticker": "VRTX",
   "drug_name": "Povetacicept",
@@ -5678,7 +5649,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "23.32",
-   "market_cap": 2074387000
+   "market_cap": 2618048256
   },
   "ticker": "ZLAB",
   "drug_name": "Povetacicept (Pove) (APRIL/BAFF Inhibitor)",
@@ -5888,7 +5859,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.00",
-   "market_cap": 302313000
+   "market_cap": 302313440
   },
   "ticker": "VNDA",
   "drug_name": "Imsidolimab (IL-36 Inhibitor)",
@@ -6097,7 +6068,7 @@
    "ticker": "VTRS",
    "name": "Viatris Inc",
    "last_price": "16.43",
-   "market_cap": 18871347000
+   "market_cap": 18871347200
   },
   "ticker": "VTRS",
   "drug_name": "Meloxicam (MR-107A-02)",
@@ -6830,7 +6801,7 @@
    "ticker": "XFOR",
    "name": "X4 Pharmaceuticals",
    "last_price": "4.64",
-   "market_cap": 460041000
+   "market_cap": 460040864
   },
   "ticker": "XFOR",
   "drug_name": "Mavorixafor (CXCR4 inhibitor)",
@@ -6848,10 +6819,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "4WARD trial. 6/27/24- Ph2 interim clinical data. 3/25/25- Full enrollment in Q3 or Q4 2025 w/ topline data in H2 2026. 6/10/25- Granted Fast Track Designation. 8/8/25- Trial ongoing. 11/5/25- Enrollment raised to 176, completion Q3 2026; sNDA and launch in 2028. 03/17/26:- 4WARD Ph3 chronic neutropenia trial enrollment on track for Q3 2026 completion; >100 sites active globally. 05/06/26:- 4WARD Phase 3 trial enrollment remains on track for Q3 2026 completion; now over 110 global sites active.",
+  "note": "08/06/26:- 4WARD CRO transition; FDA meeting and enrollment update expected Q3 2026; topline data remains H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/06/3288685/0/en/x4-pharmaceuticals-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61019070/x4-pharmaceuticals-reports-second-quarter-2026-financial-results-and-provides-corporate-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -6991,7 +6962,7 @@
    "ticker": "TARA",
    "name": "Protara Therapeutics",
    "last_price": "4.12",
-   "market_cap": 231561000
+   "market_cap": 231561440
   },
   "ticker": "TARA",
   "drug_name": "IV Choline chloride",
@@ -7058,10 +7029,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "8/12/24- Completed Type B meeting. 2/14/25- Reported updated data at TCT 2025. 5/12/25- Presented data at ISCT'25. 10/29/25\u2013 Add Ohio State site to accelerate enrollment. 03/12/26:- Expect INB-100 dosing completion early 2026. Plan long-term follow-up Ph1 data at Q4 2026 meeting. 05/07/26:- Reiterated INB-100 dosing completion and long-term follow-up Ph1 results at late 2026 medical meeting.",
+  "note": "08/06/26:- Reiterated INB-100 clinical update at a late 2026 scientific meeting.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290667/0/en/in8bio-reports-first-quarter-2026-financial-results-and-recent-business-highlights.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016210/in8bio-reports-second-quarter-2026-financial-results-and-recent-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -7492,10 +7463,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "Collab w/ Angel Pharmaceuticals. 02/08/24- Received FDA ODD. 8/1/24- FTD. 9/10/24- Ph3 initiated. 11/04/25:- Enrollment ongoing. 12/08/25:- Final Ph1/1b PTCL data at ASH 2025; strong responses and survival; Ph3 interim data in Late 2026. 03/12/26:- Registrational Ph3 PTCL trial NCT06561048 enrollment ongoing; ASH 2025 Ph1/1b data showed favorable PFS/OS and good tolerability. 05/07/26:- Registrational Ph3 PTCL trial enrollment ongoing; randomized 150-patient study versus chemotherapy with PFS primary endpoint.",
+  "note": "08/06/26:- Registrational Ph3 PTCL trial enrollment remains on track; Late 2026 interim data preserved.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290514/0/en/corvus-pharmaceuticals-provides-business-update-and-reports-first-quarter-2026-financial-results.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016230/corvus-pharmaceuticals-provides-business-update-and-reports-second-quarter-2026-financial-results",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -7684,7 +7655,7 @@
    "ticker": "VTVT",
    "name": "vTv Therapeutics",
    "last_price": "35.37",
-   "market_cap": 136317000
+   "market_cap": 139310192
   },
   "ticker": "VTVT",
   "drug_name": "Cadisegliatin (TTP399) ",
@@ -7884,7 +7855,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.00",
-   "market_cap": 302313000
+   "market_cap": 302313440
   },
   "ticker": "VNDA",
   "drug_name": "VQW-765",
@@ -8102,7 +8073,7 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "ReDiscover trial. 2/22/24- Trial initiated. 11/06/25:- Trial ongoing. 12/12/25:- ReDiscover Ph1/2 triplet cohorts continue dose escalation to select regimen for potential frontline metastatic breast cancer trial. 02/26/26:- Triplet zovegalisib cohorts will report clinical data and frontline Ph3 design details during 2026. 05/05/26:- PR No update.",
+  "note": "08/06/26:- PR No update.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "",
@@ -8111,40 +8082,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 16957,
-  "company": {
-   "ticker": "DNLI",
-   "name": "Denali Therapeutics",
-   "last_price": "24.83",
-   "market_cap": 3969011200
-  },
-  "ticker": "DNLI",
-  "drug_name": "TAK-594/DNL593 (PTV:PGRN)",
-  "indications": [
-   {
-    "id": 1019,
-    "title": "Frontotemporal dementia with GRN mutations ",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Frontotemporal dementia with GRN mutations ",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "Collab w/ Takeda. 11/2022- Interim Part A data reported. Part A data at AAIC '23. 02/27/24- Part B voluntarily paused and will resume in 2024. 11/06/25:- Trial ongoing. 02/26/26:- Ph1/2 FTD-GRN trial fully enrolled 40 participants; initial patient data expected in 2026. 05/07/26:- Takeda collaboration ended; Denali now holds full rights; fully enrolled Ph1/2 FTD-GRN trial results expected end-2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290512/0/en/denali-therapeutics-reports-first-quarter-2026-financial-results-and-business-highlights.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 16983,
@@ -8297,7 +8234,7 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "CaRe PC. 1/28/25- First patient treated. Expands trial to veterans. 2/12/25- Completed third & highest dose cohort. 8/4/25- Met primary & secondary endpoints. To proceed to Ph2b. 10/30/25:- Enrollment closed; follow-up completes in Q4 2025; final data in Q4 2026. 05/07/26:- PR No update.",
+  "note": "08/06/26:- PR No update.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "",
@@ -8440,7 +8377,7 @@
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
    "last_price": "0.73",
-   "market_cap": 162970000
+   "market_cap": 162970384
   },
   "ticker": "TNYA",
   "drug_name": "TN-201",
@@ -8474,7 +8411,7 @@
    "ticker": "SLGL",
    "name": "Sol-Gel",
    "last_price": "88.00",
-   "market_cap": 287671000
+   "market_cap": 287671200
   },
   "ticker": "SLGL",
   "drug_name": "SGT-610 (Patidegib)",
@@ -8513,7 +8450,7 @@
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
    "last_price": "26.51",
-   "market_cap": 1608890000
+   "market_cap": 1582035712
   },
   "ticker": "TYRA",
   "drug_name": "TYRA-200 ",
@@ -8630,7 +8567,7 @@
    "ticker": "TLSA",
    "name": "Tiziana Life Sciences",
    "last_price": "1.00",
-   "market_cap": 127259000
+   "market_cap": 127259128
   },
   "ticker": "TLSA",
   "drug_name": "Intranasal Foralumab ",
@@ -8669,7 +8606,7 @@
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
    "last_price": "12.01",
-   "market_cap": 2361557000
+   "market_cap": 2361557248
   },
   "ticker": "SLS",
   "drug_name": "SLS009 (GFH009) +/- venetoclax & azacitidine",
@@ -9201,7 +9138,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "20.40",
-   "market_cap": 1764510000
+   "market_cap": 1821660544
   },
   "ticker": "SNDX",
   "drug_name": "Revumenib (SNDX-5613) w/ venetoclax and azacitidine",
@@ -9250,7 +9187,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "20.40",
-   "market_cap": 1764510000
+   "market_cap": 1821660544
   },
   "ticker": "SNDX",
   "drug_name": "Axatilimab (SNDX-6352) + Jakafi\u00ae (ruxolitinib)",
@@ -9284,7 +9221,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "20.40",
-   "market_cap": 1764510000
+   "market_cap": 1821660544
   },
   "ticker": "SNDX",
   "drug_name": "Axatilimab (SNDX-6352) ",
@@ -9762,7 +9699,7 @@
    "ticker": "SPRY",
    "name": "ARS Pharmaceuticals",
    "last_price": "6.16",
-   "market_cap": 611708000
+   "market_cap": 611708096
   },
   "ticker": "SPRY",
   "drug_name": "neffy\u00ae (epinephrine nasal spray)",
@@ -9796,7 +9733,7 @@
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
    "last_price": "0.73",
-   "market_cap": 162970000
+   "market_cap": 162970384
   },
   "ticker": "TNYA",
   "drug_name": "TN-401",
@@ -9830,7 +9767,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "20.40",
-   "market_cap": 1764510000
+   "market_cap": 1821660544
   },
   "ticker": "SNDX",
   "drug_name": "Revumenib (SNDX-5613) + venetoclax + decitabine and cedazuridine",
@@ -9913,7 +9850,7 @@
    "ticker": "VIR",
    "name": "Vir Biotechnology",
    "last_price": "8.82",
-   "market_cap": 1492485000
+   "market_cap": 1492484608
   },
   "ticker": "VIR",
   "drug_name": "Tobevibart + Elebsiran",
@@ -10313,7 +10250,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "20.40",
-   "market_cap": 1764510000
+   "market_cap": 1821660544
   },
   "ticker": "SNDX",
   "drug_name": "Revumenib w/ 7+3 cytarabine + daunorubicin",
@@ -10389,50 +10326,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 17802,
-  "company": {
-   "ticker": "ZNTL",
-   "name": "Zentalis Pharmaceuticals",
-   "last_price": "4.22",
-   "market_cap": 302455000
-  },
-  "ticker": "ZNTL",
-  "drug_name": "Azenosertib (ZN-c3) (oral inhibitor of WEE1) mono",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 704,
-    "title": "Ovarian cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1134,
-    "title": "Platinum-resistant ovarian cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Cyclin E1+ platinum-resistant ovarian cancer (PROC)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "DENALI (ZN-c3-005): 1/29/25- Reported topline data from Part 1b. 3/15/25- Presented updated data at (SGO) 2025. 4/28/25- First patient dosed in Part 2 with topline data by YE 2026. 11/10/25:- Enrollment in DENALI Part 2a is ongoing, with two intermittent dosing regimens; Part 2b will enroll approximately 70 patients at a single selected dose, and topline Part 2 data are expected by YE 2026 with the potential to support an accelerated approval, subject to FDA review. 01/06/26:- Completed DENALI Part 2a enrollment; dose confirmation and ASPENOVA Ph3 initiation expected H1 2026; topline Part 2 data YE 2026. 03/26/26:- FDA-aligned ASPENOVA Ph3 design; DENALI dose confirmation and topline Part 2 data remain expected H1 and YE 2026. 04/09/26:- DENALI chose 400mg QD 5:2. Part 2c and ASPENOVA start Q2 2026; topline YE 2026. 04/21/26:- FDA Fast Track for Cyclin E1+ PROC; CD validation ongoing in DENALI/ASPENOVA. 05/05/26:- ASPENOVA Ph3 first patient dosed; trial enrolling. DENALI Part 2 topline readout expected Year-End 2026. 05/12/26:- DENALI Part 2 selected 400mg QD 5:2 pivotal dose; interim analysis showed better responses and safety; topline YE 2026. 07/17/26:- ESMO 2026 will present DENALI Part 1b overall survival Oct 23, 2026; ASPENOVA trial-in-progress Oct 26.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/17/3329282/0/en/zentalis-pharmaceuticals-to-present-at-the-european-society-for-medical-oncology-esmo-congress-2026.html",
-  "is_big_mover": true,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 17888,
@@ -10551,10 +10444,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "Collab w/ LegoChem Biosciences. 12/10/24- IND application accepted. 1/5/25- FDA accepted amendment adding higher dose cohorts; Ph1 PoC data in H1 2026. 01/23/26:- Higher-dose Ph1 cohorts enrolling including adenoid cystic carcinoma; PoC delayed; trial progress update in H2 2026. 03/05/26:- Higher-dose Ph1 cohort enrollment underway; update from NCT06774963 planned H2 2026. 05/07/26:- Ongoing Ph1 NCT06774963 enrollment; plan patient backfilling for dose levels; trial progress update reiterated for H2 2026.",
+  "note": "08/06/26:- LigaChem became sole developer; ongoing Ph1 operations continue, with H2 2026 update unchanged.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290534/0/en/nextcure-provides-business-update-and-reports-first-quarter-2026-financial-results.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016220/nextcure-provides-business-update-and-reports-second-quarter-2026-financial-results",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -10629,59 +10522,15 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "CTMX-2051-101 study. 1/24/24- IND cleared. 4/24- First patient dosed. 5/12/25- Interim data reported. 11/6/25- Data update by Q1 2026. Ph1b CRC combo study with bevacizumab to start Q1 2026. 11/06/25:- Reiterated Ph1 data update, 1b CRC in Q1 2026. 01/08/26:- Varseta-M Ph1 CRC expansion update Q1 2026. Bevacizumab combo starts Q1 2026; initial data by H1 2027.03/16/26:- Ph1 expansion data positive; FDA talks Mid-2026. More data at meetings 2026. Ph1b/2 chemo combo End-2026. Expansion cohorts in additional indications planned 2H 2026.05/07/26:- Dose optimization enrolled 40 CRC pts; extra Ph1 data H2 2026. Bev combo data 1H 2027; chemo/non-CRC 2H 2026.",
+  "note": "08/06/26:- Ph1 data due year-end 2026. Combo study starts Q4 2026. Bev data H1 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290623/37704/en/cytomx-therapeutics-announces-q1-2026-financial-results-and-provides-business-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61019080/cytomx-therapeutics-announces-q2-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
- },
- {
-  "id": 17978,
-  "company": {
-   "ticker": "CTMX",
-   "name": "CytomX Therapeutics",
-   "last_price": "3.46",
-   "market_cap": 753931520
-  },
-  "ticker": "CTMX",
-  "drug_name": "CX-801 +/- KEYTRUDA",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1060,
-    "title": "Melanoma",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Cancer, Solid tumor/s, Melanoma",
-  "stage_event": {
-   "id": 110,
-   "label": "Phase 1a Data readout",
-   "stage_label": "Phase 1a",
-   "event_label": "Data readout"
-  },
-  "note": "In collab w/ MRK. 1/24/24- IND cleared. 1/6/25- Dose escalation ongoing. 11/06/25:- Ph1 mono biomarkers positive, combo data in 2026. 11/8/25\u2013 Monotx biomarker data at SITC'25. 01/08/26:- CX-801 Ph1 monotherapy escalation reached fourth dose, well tolerated. Keytruda combo escalation ongoing; initial data expected end 2026. 03/16/26:- CX-801 Keytruda combo enrolling 2nd dose; first combo data expected end 2026.05/07/26:- CX-801 monotherapy tolerated beyond approved IFN\u03b12b; combo now at third dose level, initial Keytruda data expected end 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290623/37704/en/cytomx-therapeutics-announces-q1-2026-financial-results-and-provides-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
  },
  {
   "id": 17982,
@@ -10767,7 +10616,7 @@
    "ticker": "TNXP",
    "name": "Tonix Pharmaceuticals",
    "last_price": "12.03",
-   "market_cap": 191768000
+   "market_cap": 191767824
   },
   "ticker": "TNXP",
   "drug_name": "TNX-102 SL ",
@@ -10913,7 +10762,7 @@
    "ticker": "XNCR",
    "name": "Xencor Inc",
    "last_price": "20.81",
-   "market_cap": 1547294000
+   "market_cap": 1547294208
   },
   "ticker": "XNCR",
   "drug_name": "XmAb819 (ENPP3 x CD3)",
@@ -11088,7 +10937,7 @@
    "ticker": "VSTM",
    "name": "Verastem Oncology",
    "last_price": "6.74",
-   "market_cap": 610398000
+   "market_cap": 610397568
   },
   "ticker": "VSTM",
   "drug_name": "GFH375 (VS-7375)",
@@ -11106,10 +10955,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "VS-7375-101 trial. Collab w/ GenFleet Therapeutics (China). 7/12/24- First patient dosed in China. 4/23/25- US IND cleared. 6/24/25- First patient dosed in US trial. 10/23/25\u2013 Reported preliminary data w/ tumor reduction. Interim update planned H1\u20172026. 11/04/25:- 400/600mg doses cleared without DLTs; 4/5 patients showed tumor reductions. Interim update and RP2D expansions planned H1 2026. 12/29/25:- Program prioritized; Ph1/2 VS-7375 showed 69% ORR in KRAS G12D NSCLC; interim update planned H1 2026. 03/04/26:- VS-7375-101 cleared 900 mg; early data and CRC combo RP2D/expansion expected 1H 2026; further enrollments mid-2026. 03/18/26:- VS-7375 has FDA Fast Track for KRAS G12D PDAC; AACR 2026 preclinical data Apr 20-22. 05/07/26:- TARGET-D 101 early data expected H1 2026; mature data update planned H2 2026; multiple Phase 2 trials initiating mid-2026. 06/03/26:- TARGET-D 101 now testing 1200 mg and cetuximab combo. Early data H1 2026; mature data H2 2026. 06/16/26:- Investor call June 23, 2026 to present updated preliminary TARGET-D 101 data. TARGET-D 101 evaluating 1200 mg monotherapy and combos incl cetuximab, gem/nab-paclitaxel, or chemo-immunotherapy. 06/23/26:- TARGET-D 101 prelim data positive; enroll end Jun 2026; update H2 2026; Ph3 start H1 2027.",
+  "note": "08/06/26:- TARGET-D 101 complete; 1200mg cleared. Data October 2026. Ph2 ends 2026. Ph3 H1 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260623312556/en/VS-7375-Demonstrates-Clinical-Activity-with-a-Favorable-Safety-and-Tolerability-Profile-in-TARGET-D-101-Phase-12-Clinical-Trial-in-Patients-with-Advanced-KRAS-G12D-Mutated-Solid-Tumors",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61016255/verastem-oncology-reports-second-quarter-2026-financial-results-and-highlights-recent-business-updat",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -11190,7 +11039,7 @@
    "ticker": "VYGR",
    "name": "Voyager Therapeutics",
    "last_price": "3.27",
-   "market_cap": 201491000
+   "market_cap": 201490688
   },
   "ticker": "VYGR",
   "drug_name": "VY7523 (formerly VT- TAU01) [anti-tau antibody]",
@@ -11213,10 +11062,10 @@
    "stage_label": "Phase 1a",
    "event_label": "Data readout"
   },
-  "note": "Q4 '24- Ph1a SAD data demonstrated acceptable safety, tolerability, & immunogenicity profile. Initiated MAD study with Initial PET imaging data in H2 2026. 11/10/25:- Dosing ongoing in third and final MAD cohort; initial tau PET imaging data expected in H2 2026. 03/09/26:- MAD Ph1 AD trial completed enrollment; tau PET imaging data remain expected in H2 2026. 05/07/26:- Reiterated expectation for tau PET imaging efficacy data from ongoing MAD AD trial in H2 2026.",
+  "note": "08/06/26:- MAD trial tau PET imaging data now expected Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290505/36461/en/Voyager-Reports-First-Quarter-2026-Financial-and-Operating-Results.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016214/voyager-reports-second-quarter-2026-financial-and-operating-results",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -11307,7 +11156,7 @@
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
    "last_price": "13.96",
-   "market_cap": 11136585000
+   "market_cap": 11136584704
   },
   "ticker": "SMMT",
   "drug_name": "Ivonescimab (SMT112) ",
@@ -11648,7 +11497,7 @@
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
    "last_price": "27.07",
-   "market_cap": 4407393000
+   "market_cap": 4407392768
   },
   "ticker": "TNGX",
   "drug_name": "Vopimetostat (TNG462)",
@@ -11697,7 +11546,7 @@
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
    "last_price": "52.92",
-   "market_cap": 6444877000
+   "market_cap": 6444876800
   },
   "ticker": "SRRK",
   "drug_name": "SRK-439",
@@ -11731,7 +11580,7 @@
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
    "last_price": "35.36",
-   "market_cap": 40563962000
+   "market_cap": 41204871168
   },
   "ticker": "TEVA",
   "drug_name": "TEV-\u2019248 (ICS/SABA)",
@@ -12007,10 +11856,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "12/19/24- Initiated trial. 8/7/25- Enrollment ongoing. 11/10/25:- Enrollment ongoing in Ph2 AD study; initial efficacy data expected H2 2026. 12/09/25:- Phase 2 atopic dermatitis study reiterated as ongoing; initial efficacy data still expected H2 2026. 02/25/26:- Ph2 AD enrollment completed; topline data planned for late 2026. 05/07/26:- Phase 2 AD study enrollment complete; topline efficacy and safety results still expected late 2026.",
+  "note": "08/06/26:- Ph2 AD topline data still expected late 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290499/24180/en/celldex-reports-first-quarter-financial-results-and-provides-corporate-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016217/celldex-reports-second-quarter-financial-results-and-provides-corporate-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -12155,7 +12004,7 @@
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
    "last_price": "35.36",
-   "market_cap": 40563962000
+   "market_cap": 41204871168
   },
   "ticker": "TEVA",
   "drug_name": "Emrusolmin / TEV-\u2019286",
@@ -12330,7 +12179,7 @@
    "ticker": "XNCR",
    "name": "Xencor Inc",
    "last_price": "20.81",
-   "market_cap": 1547294000
+   "market_cap": 1547294208
   },
   "ticker": "XNCR",
   "drug_name": "XmAb942",
@@ -12762,10 +12611,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "PiNACLE trial. Formerly IMPT-314. 6/17/25- Reported new clinical data & presentation at ICML'25. Initiated PiNACLE, single-arm pivotal trial. 9/3/25- Initiated head-to-head trial in 2L setting. 11/3/25- Present new clinical & translational data at ASH'25 on Dec 7, 2025. 11/12/25:- Received RMAT 2L; ASH 2025 oral data; PiNACLE\u2011H2H first patient early 2026; BLA planned 2027. 12/07/25:- ASH 2025 Ph1/2 data show high ORR/CR in 2L/3L+ R/R LBCL; manageable safety; PiNACLE trials enrolling. 02/12/26:- First patient dosed in PiNACLE\u2011H2H Ph3; PiNACLE pivotal trial ongoing; BLA submission expected in 2027. 03/12/26:- PiNACLE pivotal data to support BLA expected Mid-2027; cash runway into Q2 2027 supports trials. 05/06/26:- PiNACLE additional data expected H2 2026; pivotal data mid-2027; BLA submission planned 2027. 06/04/26:- EHA 2026 posters June 12 show updated safety/translational data. PiNACLE updated data H2 2026; pivotal data Mid-2027. BLA 2027. 06/12/26:- EHA posters showed safety/translational updates. PiNACLE data H2 2026; pivotal Mid-2027; BLA H2 2027.",
+  "note": "08/06/26:- EHA safety updated. PiNACLE data H2 2026, pivotal Mid-2027, BLA H2 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/12/3311241/0/en/lyell-immunopharma-presents-updated-safety-data-and-translational-insights-for-rondecabtagene-autoleucel-ronde-cel-in-patients-with-large-b-cell-lymphoma-at-european-hematology-ass.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016987/lyell-immunopharma-reports-business-highlights-and-financial-results-second-quarter-2026",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -12778,7 +12627,7 @@
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
    "last_price": "27.07",
-   "market_cap": 4407393000
+   "market_cap": 4407392768
   },
   "ticker": "TNGX",
   "drug_name": "TNG456",
@@ -12822,7 +12671,7 @@
    "ticker": "VIR",
    "name": "Vir Biotechnology",
    "last_price": "8.82",
-   "market_cap": 1492485000
+   "market_cap": 1492484608
   },
   "ticker": "VIR",
   "drug_name": "VIR-5818 + Pembrolizumab",
@@ -12905,7 +12754,7 @@
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
    "last_price": "32.43",
-   "market_cap": 1983651000
+   "market_cap": 1962817000
   },
   "ticker": "ZBIO",
   "drug_name": "Obexelimab (CD19xFcyRIIb)",
@@ -13129,7 +12978,7 @@
    "ticker": "TGTX",
    "name": "TG Therapeutics",
    "last_price": "49.76",
-   "market_cap": 7617439000
+   "market_cap": 7617438720
   },
   "ticker": "TGTX",
   "drug_name": "BRIUMVI (ublituximab-xiiy) subcutaneous",
@@ -13151,40 +13000,6 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/03/3337372/8790/en/tg-therapeutics-reports-second-quarter-2026-financial-results-and-raises-briumvi-revenue-guidance.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 18704,
-  "company": {
-   "ticker": "SLDB",
-   "name": "Solid Biosciences",
-   "last_price": "8.39",
-   "market_cap": 899620000
-  },
-  "ticker": "SLDB",
-  "drug_name": "SGT-212 (dual route)",
-  "indications": [
-   {
-    "id": 706,
-    "title": "Friedreich\u2019s Ataxia",
-    "nickname": "FRDA"
-   }
-  ],
-  "indications_text": "Friedreich\u2019s Ataxia",
-  "stage_event": {
-   "id": 122,
-   "label": "Phase 1b Data readout",
-   "stage_label": "Phase 1b",
-   "event_label": "Data readout"
-  },
-  "note": "1/21/25- FDA Fast Track Designation. Planned Ph1b trial. 8/12/25- Initiate trial in Q4 2025. 11/03/25:- First FALCON Ph1b site activated and screening started; trial initiation remains expected in Q4 2025. 01/12/26:- First FALCON Ph1b participant dosed; preliminary safety coming months; initial data update in H2 2026. 01/13/26:- Received FDA Orphan and Rare Pediatric Disease designations; FALCON Ph1b initial data still expected H2 2026. 03/06/26:- FALCON Ph1b SGT-212 efficacy and safety poster at MDA on March 10, 2026. 03/19/26:- FALCON Ph1b dosing ongoing; SGT-212 remains well tolerated without treatment-related AEs; initial data expected H2 2026. 05/12/26:- Two FALCON Ph1b participants dosed; well tolerated; initial data expected by year-end 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/search/keyword/global%2520blood%2520therapeutics/load/before",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -13270,7 +13085,7 @@
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
    "last_price": "23.59",
-   "market_cap": 2672565000
+   "market_cap": 2672564736
   },
   "ticker": "VRDN",
   "drug_name": "VRDN-008",
@@ -13439,7 +13254,7 @@
    "ticker": "VXRT",
    "name": "Vaxart Inc.",
    "last_price": "0.55",
-   "market_cap": 137965552
+   "market_cap": 133124664
   },
   "ticker": "VXRT",
   "drug_name": "Second Generation Oral Norovirus Vaccine",
@@ -13462,10 +13277,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "3/11/25- Ph1 initiated. 4/30/25- Enrollment completed. 6/11/25- Reported positive topline results. 9/10/25- Add'l Ph1 data reported. Subject to funding & partnering opportunities, initiate Ph2b before YE 2025 followed by EoPh2 w/ FDA. 10/20/25- Presentation at IDWeek'25. 11/13/25:- Additional supportive Ph1 data presented at multiple conferences. Next clinical trial expected to start in 2026. 03/12/26:- PR No update. 05/07/26:- Next generation bivalent norovirus candidate cross-reactivity data expected at meetings and publications later in 2026.",
+  "note": "08/06/26:- PR No update.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290569/25416/en/vaxart-provides-business-update-and-reports-first-quarter-2026-financial-results.html",
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -13646,6 +13461,40 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/search/exchange/nasdaq",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18843,
+  "company": {
+   "ticker": "RLAY",
+   "name": "Relay Therapeutics",
+   "last_price": "19.77",
+   "market_cap": 4332430336
+  },
+  "ticker": "RLAY",
+  "drug_name": "RLY-2608",
+  "indications": [
+   {
+    "id": 2312,
+    "title": "Vascular Malformations",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Vascular Malformations",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "08/06/26:- ReInspire data showed 60% response. Expansion cohorts opened. Data and regulatory update expected Year-End 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016988/relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -14057,7 +13906,7 @@
    "ticker": "ZURA",
    "name": "Zura Bio",
    "last_price": "5.97",
-   "market_cap": 565963000
+   "market_cap": 565963456
   },
   "ticker": "ZURA",
   "drug_name": "Tibulizumab",
@@ -14091,7 +13940,7 @@
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
    "last_price": "63.36",
-   "market_cap": 6124729000
+   "market_cap": 6124729344
   },
   "ticker": "XENE",
   "drug_name": "XEN1120 (Kv7 channel opener)",
@@ -14109,10 +13958,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "5/12/25- CTA accepted. Ph1 initiation in 2025. 11/03/25:- Phase 1 SAD/MAD study underway in healthy adults. 02/26/26:- XEN1120 Phase 1 SAD/MAD in healthy adults ongoing; completion expected in 2026 to support Phase 2 pain study. 05/07/26:- XEN1120 Phase 1 SAD/MAD pain study ongoing; completion expected in H2 2026 to support Phase 2 proof-of-concept.",
+  "note": "08/06/26:- XEN1120 Phase 1 SAD/MAD completion remains expected in H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290503/0/en/xenon-reports-q1-2026-financial-results-and-provides-business-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016223/xenon-reports-q2-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -14125,7 +13974,7 @@
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
    "last_price": "63.36",
-   "market_cap": 6124729000
+   "market_cap": 6124729344
   },
   "ticker": "XENE",
   "drug_name": "XEN1701 (Nav1.7 candidate)",
@@ -14137,10 +13986,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "5/12/25- IND filing and Ph1 study start in Q3 2025. 11/03/25:- Phase 1 SAD/MAD study of XEN1701 for pain is underway in healthy volunteers. 02/26/26:- XEN1701 Phase 1 SAD/MAD pain study ongoing; completion expected in 2026 to support Phase 2 proof-of-concept. 05/07/26:- XEN1701 Phase 1 SAD/MAD pain study ongoing; completion expected in H2 2026 to support Phase 2 proof-of-concept.",
+  "note": "08/06/26:- XEN1701 Phase 1 SAD/MAD completion remains expected in H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290503/0/en/xenon-reports-q1-2026-financial-results-and-provides-business-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016223/xenon-reports-q2-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -14255,7 +14104,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "23.32",
-   "market_cap": 2074387000
+   "market_cap": 2618048256
   },
   "ticker": "ZLAB",
   "drug_name": "Zocilurtatug pelitecan (formerly ZL-1310)",
@@ -14396,7 +14245,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "23.32",
-   "market_cap": 2074387000
+   "market_cap": 2618048256
   },
   "ticker": "ZLAB",
   "drug_name": "ZL-1503",
@@ -14498,7 +14347,7 @@
    "ticker": "UTHR",
    "name": "United Therapeutics",
    "last_price": "538.84",
-   "market_cap": 23111221000
+   "market_cap": 23111221248
   },
   "ticker": "UTHR",
   "drug_name": "miroliverELAP",
@@ -14566,7 +14415,7 @@
    "ticker": "TGTX",
    "name": "TG Therapeutics",
    "last_price": "49.76",
-   "market_cap": 7617439000
+   "market_cap": 7617438720
   },
   "ticker": "TGTX",
   "drug_name": "Azercabtagene zapreleucel (azer-cel)",
@@ -14882,7 +14731,7 @@
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
    "last_price": "16.78",
-   "market_cap": 1772422000
+   "market_cap": 1772421504
   },
   "ticker": "SRPT",
   "drug_name": "SRP-1003",
@@ -14916,7 +14765,7 @@
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
    "last_price": "16.78",
-   "market_cap": 1772422000
+   "market_cap": 1772421504
   },
   "ticker": "SRPT",
   "drug_name": "SRP-1001",
@@ -14989,7 +14838,7 @@
    "ticker": "SKYE",
    "name": "Skye Bioscience",
    "last_price": "0.52",
-   "market_cap": 18253600
+   "market_cap": 18253648
   },
   "ticker": "SKYE",
   "drug_name": "Nimacimab",
@@ -15533,7 +15382,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.00",
-   "market_cap": 302313000
+   "market_cap": 302313440
   },
   "ticker": "VNDA",
   "drug_name": "NEREUS\u2122 (tradipitant)",
@@ -15697,10 +15546,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "11/12/25:- Planning IND for Ph2 metastatic breast cancer Q4 2025 with topline data in 2026. 12/15/25:- ESR1 mutant breast cancer data showed strong ER\u03b1 antagonism and reversal of oncogenic transcriptional signatures. 01/06/26:- FDA issued Study May Proceed for metastatic Ph2; topline data still expected in 2026. 03/25/26:- Company reiterates focus on (Z)-endoxifen metastatic program; no new data or timing changes disclosed. 05/08/26:- Q1 update: metastatic program progressing; higher R&D spend; new breast oncology lead; no new trial data. 05/27/26:- ASCO 2026 abstract shows (Z)-endoxifen ER inhibition across ESR1 mutations.",
+  "note": "08/07/26:- ASCO ESR1 mutation data reiterated; 2026 Ph2 topline timing unchanged.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/atossa-therapeutics-announces-asco-2026-abstracts-highlighting-z-endoxifen-activity-across-esr1-mutations-and-ongoing-evangeline-phase-2-trial-302782646.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/n61036952/atossa-therapeutics-reports-second-quarter-2026-financial-results-and-provides-corporate-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -16100,10 +15949,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "11/12/25:- Acquired LYL273; Phase 1 ongoing. Next Phase 1 data update in H1 2026. 03/12/26:- Seven additional mCRC patients treated in U.S. Ph1; no DLTs; 67% ORR, 83% DCR, 8\u2011month PFS. 05/06/26:- U.S. Ph1 continues; Dose Level 3 dosing started March; safety data H1 2026; outcomes data H2 2026. 06/08/26:- Ph1 safety improved with GI prophylaxis; trial amended to Ph1/2 CARABINER. Ph1 data and FDA meeting expected H2 2026.",
+  "note": "08/06/26:- Ph1 safety updated. Trial amended to Ph1/2. Data and FDA meeting expected H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/08/3307886/0/en/lyell-immunopharma-provides-update-on-safety-profile-of-lyl273-in-relapsed-or-refractory-metastatic-colorectal-cancer-and-amends-phase-1-trial-to-phase-1-2-expansion.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016987/lyell-immunopharma-reports-business-highlights-and-financial-results-second-quarter-2026",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -16139,10 +15988,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "11/14/25:- Minipig PK data for OPK-88006 reported; IND submission for oral OXM planned for H1 2026. 03/27/26:- ENDO 2025 PK/PD showed human-comparable exposure; injectable Ph1 data expected Q4 2026 to trigger oral tablet Ph1. 05/08/26:- EB618 oral OXM tablet NHP pharmacokinetic data submitted to ENDO2026; OPKO collaboration funding earmarked through early 2027. 05/28/26:- ENDO 2026 session presents EB618 non-human primate PK-PD results on June 13, 2026. 06/16/26:- ENDO 2026 EB618 NHP PK/PD showed robust bioavailability and glucose lowering. Injectable Ph1 data expected Q4 2026.",
+  "note": "08/07/26:- EB618 NHP data support development, and OPKO Phase 1 SAD/MAD data are expected Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/16/3312598/0/en/entera-reports-robust-preclinical-data-for-eb612-oral-la-pth-1-34-for-hypoparathyroidism-and-eb618-oral-glp-1-glucagon-for-obesity-at-endo-2026.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61056107/entera-announces-second-quarter-2026-financial-results-and-business-updates",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -16671,6 +16520,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19562,
+  "company": {
+   "ticker": "ENTX",
+   "name": "Entera Bio Ltd",
+   "last_price": "2.87",
+   "market_cap": 141462960
+  },
+  "ticker": "ENTX",
+  "drug_name": "Next-Gen EB613 (PTH Agonist)",
+  "indications": [
+   {
+    "id": 834,
+    "title": "Osteoporosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Osteoporosis",
+  "stage_event": {
+   "id": 78,
+   "label": "Phase 3 Initiation",
+   "stage_label": "Phase 3",
+   "event_label": "Initiation"
+  },
+  "note": "08/07/26:- ENDO 2026 Phase 1 data support single-tablet EB613 advancing to Ph3 in late 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61056107/entera-announces-second-quarter-2026-financial-results-and-business-updates",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19604,
   "company": {
    "ticker": "DNTH",
@@ -16918,10 +16801,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "02/17/26:- First participant dosed in Ph1 healthy volunteer trial evaluating safety, PK/PD and B-cell depletion. 02/26/26:- Phase 1 healthy volunteer trial actively enrolling; initial clinical update expected by year-end 2026. 05/07/26:- Phase 1 healthy volunteer trial actively enrolling; initial clinical update planned in second half 2026.",
+  "note": "08/06/26:- Ph1 healthy volunteer study continues; initial clinical data expected in H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260507597234/en/Janux-Therapeutics-Reports-First-Quarter-2026-Financial-Results-and-Business-Highlights",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61016407/janux-therapeutics-reports-second-quarter-2026-financial-results-and-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -17002,7 +16885,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "20.40",
-   "market_cap": 1764510000
+   "market_cap": 1821660544
   },
   "ticker": "SNDX",
   "drug_name": "Revuforj/Revumenib (SNDX-5613) Post-Transplant Maintenance (Menin Inhibitor)",
@@ -17148,7 +17031,7 @@
    "ticker": "ZLDPF",
    "name": "Zealand Pharma",
    "last_price": "50.50",
-   "market_cap": 3254522880
+   "market_cap": 3460071680
   },
   "ticker": "ZEAL",
   "drug_name": "ZP9830 (Kv1.3 Channel Blocker)",
@@ -17187,7 +17070,7 @@
    "ticker": "ZLDPF",
    "name": "Zealand Pharma",
    "last_price": "50.50",
-   "market_cap": 3254522880
+   "market_cap": 3460071680
   },
   "ticker": "ZEAL",
   "drug_name": "Survodutide (GLP-1/Glucagon Agonist)",
@@ -17367,7 +17250,7 @@
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
    "last_price": "32.43",
-   "market_cap": 1983651000
+   "market_cap": 1962817000
   },
   "ticker": "ZBIO",
   "drug_name": "ZB021 (IL-17AA/AF Inhibitor)",
@@ -17805,7 +17688,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "20.40",
-   "market_cap": 1764510000
+   "market_cap": 1821660544
   },
   "ticker": "SNDX",
   "drug_name": "Revuforj/Revumenib (SNDX-5613) + Gilteritinib (Menin Inhibitor)",
@@ -17951,7 +17834,7 @@
    "ticker": "TAK",
    "name": "Takeda",
    "last_price": "17.45",
-   "market_cap": 55726629000
+   "market_cap": 55726628864
   },
   "ticker": "TAK",
   "drug_name": "Rusfertide (Hepcidin Mimetic)",
@@ -17985,7 +17868,7 @@
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
    "last_price": "23.62",
-   "market_cap": 1264392000
+   "market_cap": 1264391680
   },
   "ticker": "SPTX",
   "drug_name": "GlyphAllo/Glyph Allopregnanolone (SPT-300) (Neuroactive Steroid)",
@@ -18109,10 +17992,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "4/23/26:- STENOVA Ph2a OLE ongoing in FSCD; topline OLE data and Ph2b initiation expected in H2 2026. 06/23/26:- NOV-ERA Ph2b design aligned with FDA; first participants dosing expected in H2 2026.",
+  "note": "08/06/26:- NOV-ERA regulatory progress reported; OLE topline data and first dosing expected in H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/23/3316415/0/en/agomab-announces-design-of-nov-era-phase-2b-study-with-ontunisertib-in-fibrostenosing-crohn-s-disease.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016233/agomab-reports-half-year-2026-financial-results-and-confirms-2026-outlook",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18177,10 +18060,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "04/23/26:- AGMB-447 Ph1b IPF cohort enrolling; topline data and Ph2 IPF proof-of-concept study initiation expected in 2H 2026.",
+  "note": "08/06/26:- IPF cohort enrolled 10 participants; topline data and Ph2 initiation remain expected in H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://ir.agomab.com/news-releases/news-release-details/agomab-reports-full-year-2025-financial-results-and-confirms",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016233/agomab-reports-half-year-2026-financial-results-and-confirms-2026-outlook",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18329,7 +18212,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.00",
-   "market_cap": 302313000
+   "market_cap": 302313440
   },
   "ticker": "VNDA",
   "drug_name": "Hetlioz/Tasimelteon (Melatonin Receptor Agonist)",
@@ -18381,10 +18264,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "SHINE Trial. 11/07/23- Completed enrollment. 7/29/24- Presented Ph2 POC data at AAIC 2024. 3/25/25- Present biomarker data at AD/PD 2025. 7/10/25- End-of-Ph2 meeting with FDA completed. 8/12/25- Received EoPh2 minutes confirming proposed Ph3 design may support NDA. 11/06/25:- FDA alignment on registrational path; Ph3 study design to be presented at CTAD'25. 03/26/26:- EMA scientific advice completed; registrational AD program decision to follow START Ph2 results expected 2027. 05/07/26:- Company reiterates commitment to Alzheimer's disease program; START Phase 2 results in 2027 expected to guide registrational strategy.",
+  "note": "08/06/26:- PR No update.",
   "catalyst_date": "2027-01-01",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290635/0/en/cognition-therapeutics-reports-financial-results-for-the-first-quarter-2026-and-provides-business-update.html",
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18626,7 +18509,7 @@
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
    "last_price": "30.98",
-   "market_cap": 605639000
+   "market_cap": 605639360
   },
   "ticker": "TECX",
   "drug_name": "TX45",
@@ -18649,10 +18532,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "APEX trial. 9/19/24- Topline Ph1a data reported. Ph2 trial initiated. 3/20/25- Started Ph1b part B enrollment. 5/17/25- 24-wk topline results in 2026. 10/29/25\u2013 Topline Ph1b Part B data reported. 02/26/26:- APEX Ph2 trial ongoing in PH-HFpEF; 24-week topline results expected in 2026. 05/07/26:- APEX Ph2 enrollment near complete; topline results expected late Q4 2026 or early Q1 2027. 06/10/26:- APEX Ph2 enrollment complete. Topline results expected Early Q1 2027.",
+  "note": "08/06/26:- APEX enrollment completed; IDMC recommended continuing trial; topline results expected Early Q1 2027.",
   "catalyst_date": "2027-02-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/10/3310080/0/en/tectonic-therapeutic-completes-enrollment-in-tx45-apex-phase-2-clinical-trial-in-ph-hfpef-patients.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016238/tectonic-therapeutic-announces-second-quarter-2026-financial-results-and-recent-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -18947,7 +18830,7 @@
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
    "last_price": "26.51",
-   "market_cap": 1608890000
+   "market_cap": 1582035712
   },
   "ticker": "TYRA",
   "drug_name": "TYRA-300",
@@ -19268,6 +19151,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 18704,
+  "company": {
+   "ticker": "SLDB",
+   "name": "Solid Biosciences",
+   "last_price": "8.39",
+   "market_cap": 899619776
+  },
+  "ticker": "SLDB",
+  "drug_name": "SGT-212 (dual route)",
+  "indications": [
+   {
+    "id": 706,
+    "title": "Friedreich\u2019s Ataxia",
+    "nickname": "FRDA"
+   }
+  ],
+  "indications_text": "Friedreich\u2019s Ataxia",
+  "stage_event": {
+   "id": 122,
+   "label": "Phase 1b Data readout",
+   "stage_label": "Phase 1b",
+   "event_label": "Data readout"
+  },
+  "note": "08/06/26:- FALCON Ph1b dosing tolerated. Initial data expected in Q1 2027.",
+  "catalyst_date": "2027-03-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61017818/solid-biosciences-reports-second-quarter-2026-financial-results-and-provides-business-updates",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19010,
   "company": {
    "ticker": "KZIA",
@@ -19580,7 +19497,7 @@
    "ticker": "TAK",
    "name": "Takeda",
    "last_price": "17.45",
-   "market_cap": 55726629000
+   "market_cap": 55726628864
   },
   "ticker": "TAK",
   "drug_name": "Entyvio/Vedolizumab (Vedolizumab) (Integrin Inhibitor)",
@@ -20013,7 +19930,7 @@
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
    "last_price": "63.36",
-   "market_cap": 6124729000
+   "market_cap": 6124729344
   },
   "ticker": "XENE",
   "drug_name": "XEN1101",
@@ -20036,10 +19953,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "X-NOVA2/3 studies. Collab w/ Icahn School of Medicine. 5/3/22- trial initiated. 5/28/24- Presentation at ASCP '24. 2/27/25- Enrollment ongoing w/ X-NOVA3 initiation by mid-year. 11/03/25:- X-NOVA2 and X-NOVA3 Phase 3 MDD studies are underway and continuing to recruit patients. 02/26/26:- X-NOVA2 and X-NOVA3 MDD Ph3 trials enrolling; X-NOVA2 topline data expected in H1 2027. 05/07/26:- X-NOVA2 and X-NOVA3 Ph3 MDD trials continue enrolling; X-NOVA2 topline data remains expected in H1 2027.",
+  "note": "08/06/26:- X-NOVA2 Phase 3 MDD topline data remains expected in H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290503/0/en/xenon-reports-q1-2026-financial-results-and-provides-business-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016223/xenon-reports-q2-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20096,7 +20013,7 @@
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
    "last_price": "64.79",
-   "market_cap": 2843179000
+   "market_cap": 2843179264
   },
   "ticker": "TARS",
   "drug_name": "TP-05",
@@ -20309,10 +20226,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "7/17/23- Presented interim clinical data. 5/7/24- Ongoing enrollment. 2/3/24- Ph1a data reported. 5/5/25- Ph1b initiated. 12/1/25- Updated interim data reported. 02/26/26:- Ongoing Ph1b enrollment and expansion cohorts; additional JANX007 clinical data expected in 2026. 04/16/26:- Early clinical data highlighted; no new timelines for additional data readout. 05/07/26:- Ph1b enrollment and darolutamide combo cohorts ongoing; additional clinical data at medical congress expected in H1 2027.",
+  "note": "08/06/26:- Ph1b enrollment continues; additional clinical data expected at medical congress in H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260507597234/en/Janux-Therapeutics-Reports-First-Quarter-2026-Financial-Results-and-Business-Highlights",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61016407/janux-therapeutics-reports-second-quarter-2026-financial-results-and-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20343,10 +20260,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "7/10/23 Opt-in rights to Bristol Myers Squibb & BMS to provide all updates moving forward. 8/8/24- Enrollment ongoing. 8/4/25- Ph2 TargetTau-1 trial: Primary completion in 2027. Ph1 SC formulation trial: Primary completion in H2 2025. 12/01/25:- Bristol Myers Squibb is conducting the Phase 2 TargetTau-1 trial in early Alzheimer's disease with primary completion expected in H1 2027 and a Phase 1 subcutaneous administration study with primary completion expected in H2 2025; BMS-986446 has also received Fast Track designation from the U.S. FDA. 02/19/26:- Phase 2 TargetTau-1 fully enrolled; primary completion H1 2027. Phase 1 subcutaneous study completed; Fast Track granted. 03/21/26:- AD/PD 2026 Ph1 single-dose study showed safe, well tolerated; no anti-drug antibodies. 05/07/26:- Phase 2 TargetTau-1 in early Alzheimer's ongoing; primary completion H1 2027; Phase 1 subcutaneous study completed; Fast Track confirmed.",
+  "note": "08/06/26:- Moponetug name noted; TargetTau-1 Ph2 primary completion remains H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260507030808/en/Prothena-Reports-First-Quarter-2026-Financial-Results-and-Business-Highlights",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61017000/prothena-reports-second-quarter-2026-financial-results-and-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20393,7 +20310,7 @@
    "ticker": "STOK",
    "name": "Stoke Therapeutics",
    "last_price": "32.71",
-   "market_cap": 2110653000
+   "market_cap": 2110653312
   },
   "ticker": "STOK",
   "drug_name": "STK-002",
@@ -20544,6 +20461,94 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 17802,
+  "company": {
+   "ticker": "ZNTL",
+   "name": "Zentalis Pharmaceuticals",
+   "last_price": "4.22",
+   "market_cap": 302455456
+  },
+  "ticker": "ZNTL",
+  "drug_name": "Azenosertib (ZN-c3) (oral inhibitor of WEE1) mono",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 704,
+    "title": "Ovarian cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1134,
+    "title": "Platinum-resistant ovarian cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Cyclin E1+ platinum-resistant ovarian cancer (PROC)",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "08/06/26:- DENALI FDA aligned; ESMO OS update upcoming; Part 2 topline now H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61017014/zentalis-pharmaceuticals-reports-second-quarter-2026-financial-results-and-business-updates",
+  "is_big_mover": true,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 17978,
+  "company": {
+   "ticker": "CTMX",
+   "name": "CytomX Therapeutics",
+   "last_price": "3.46",
+   "market_cap": 753931520
+  },
+  "ticker": "CTMX",
+  "drug_name": "CX-801 +/- KEYTRUDA",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1060,
+    "title": "Melanoma",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Cancer, Solid tumor/s, Melanoma",
+  "stage_event": {
+   "id": 110,
+   "label": "Phase 1a Data readout",
+   "stage_label": "Phase 1a",
+   "event_label": "Data readout"
+  },
+  "note": "08/06/26:- Combo cleared third dose. Initial Keytruda combo data now expected H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61019080/cytomx-therapeutics-announces-q2-2026-financial-results-and-provides-business-update",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18109,
   "company": {
    "ticker": "KRYS",
@@ -20593,7 +20598,7 @@
    "ticker": "XLO",
    "name": "Xilio Therapeutics",
    "last_price": "9.17",
-   "market_cap": 60294000
+   "market_cap": 60294024
   },
   "ticker": "XLO",
   "drug_name": "Efarindodekin Alfa (XTX301)",
@@ -20890,7 +20895,7 @@
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
    "last_price": "64.79",
-   "market_cap": 2843179000
+   "market_cap": 2843179264
   },
   "ticker": "TARS",
   "drug_name": "TP-04",
@@ -20963,7 +20968,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.00",
-   "market_cap": 302313000
+   "market_cap": 302313440
   },
   "ticker": "VNDA",
   "drug_name": "Bysanti\u2122 (milsaperidone)",
@@ -21104,7 +21109,7 @@
    "ticker": "VOR",
    "name": "Vor Biopharma",
    "last_price": "23.67",
-   "market_cap": 1284205000
+   "market_cap": 1282579712
   },
   "ticker": "VOR",
   "drug_name": "Telitacicept",
@@ -21172,7 +21177,7 @@
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
    "last_price": "4.76",
-   "market_cap": 271363000
+   "market_cap": 271362880
   },
   "ticker": "WHWK",
   "drug_name": "HWK-007",
@@ -21352,7 +21357,7 @@
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
    "last_price": "4.76",
-   "market_cap": 271363000
+   "market_cap": 271362880
   },
   "ticker": "WHWK",
   "drug_name": "HWK-016 (MUC16 Targeted ADC)",
@@ -21391,7 +21396,7 @@
    "ticker": "XNCR",
    "name": "Xencor Inc",
    "last_price": "20.81",
-   "market_cap": 1547294000
+   "market_cap": 1547294208
   },
   "ticker": "XNCR",
   "drug_name": "XmAb412 (TL1A/IL23p19 Bispecific)",
@@ -21425,7 +21430,7 @@
    "ticker": "ZURA",
    "name": "Zura Bio",
    "last_price": "5.97",
-   "market_cap": 565963000
+   "market_cap": 565963456
   },
   "ticker": "ZURA",
   "drug_name": "Tibulizumab (ZB-106) (Bispecific Antibody)",
@@ -21516,10 +21521,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "02/26/26:- Phase 1b Alzheimer's study CTA approved for DNL628; start-up activities underway. 05/07/26:- First patient dosed in Ph1b Alzheimer's study in March 2026; data expected in H1 2027.",
+  "note": "08/06/26:- Ph1b biomarker data remain expected in H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290512/0/en/denali-therapeutics-reports-first-quarter-2026-financial-results-and-business-highlights.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016213/denali-therapeutics-reports-second-quarter-2026-financial-results-and-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -21566,7 +21571,7 @@
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
    "last_price": "23.62",
-   "market_cap": 1264392000
+   "market_cap": 1264391680
   },
   "ticker": "SPTX",
   "drug_name": "GlyphAllo/Glyph Allopregnanolone (SPT-300) (Neuroactive Steroid)",
@@ -21702,7 +21707,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "23.32",
-   "market_cap": 2074387000
+   "market_cap": 2618048256
   },
   "ticker": "ZLAB",
   "drug_name": "ZL-6201 (LRRC15 ADC)",
@@ -22233,7 +22238,7 @@
    "ticker": "TOVX",
    "name": "Theriva Biologics",
    "last_price": "0.22",
-   "market_cap": 10133100
+   "market_cap": 10133101
   },
   "ticker": "TOVX",
   "drug_name": "VCN-01 (zabilugene almadenorepvec) (Oncolytic Adenovirus)",
@@ -22295,10 +22300,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "5/10/23- Accepted NDA, PDUFA on February 26, 2024. 2/27/24- Received CRL. 5/13/25- Ongoing interaction w/ FDA to address queries raised in the CRL. 11/05/25:- Completed $80M private placement with added warrant funding tied to Ph3 primary endpoint success. Aligned with FDA on confirmatory Ph3 trial; timing for trial start and NDA resubmission remains TBA. 01/26/26:- Plans confirmatory Ph3 roluperidone trial start in 2026 using FDA-aligned protocol focused on negative schizophrenia symptoms. 03/11/26:- Confirmatory Ph3 trial initiation expected Q2 2026; 12-week primary endpoint data expected 2H 2027. 03/25/26:- Open label safety trial showed no significant issues with olanzapine. Confirmatory Ph3 enrolling; topline data expected H2 2027. 03/31/26:- First patient screened in MIN-101C19 confirmatory Ph3. Topline 12-week efficacy data expected H2 2027. 05/05/26:- MIN-101C19 confirmatory Ph3 enrolling; SIRS 2026 open-label data showed no safety concerns; topline remains H2 2027.",
+  "note": "08/07/26:- C19 Ph3 is ongoing. Phase A data are due H2 2027 and Phase B data H2 2028.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/05/3287601/0/en/Minerva-Neurosciences-Provides-First-Quarter-2026-Financial-Results-and-Business-Updates.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61033140/minerva-neurosciences-provides-second-quarter-2026-financial-results-and-business-updates",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22345,7 +22350,7 @@
    "ticker": "TVTX",
    "name": "Travere Therapeutics",
    "last_price": "61.32",
-   "market_cap": 5780089000
+   "market_cap": 5780089344
   },
   "ticker": "TVTX",
   "drug_name": "Pegtibatinase (TVT-058)",
@@ -22379,7 +22384,7 @@
    "ticker": "VXRT",
    "name": "Vaxart Inc.",
    "last_price": "0.55",
-   "market_cap": 137965552
+   "market_cap": 133124664
   },
   "ticker": "VXRT",
   "drug_name": "VXA-CoV2-1 oral pill",
@@ -22397,10 +22402,10 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "6/13/24- $453M BARDA-Funded Project. 9/30/24- Trial initiated. 12/3/24- Sentinel cohort enrollment completion. 1/13/25- Positive DSMB review. 3/20/25- Ordered to halt its trial, except for follow-up on 400 participants. A final decision will be made within 90 days. 5/15/25- BARDA approval to initiate dosing in 10,000-participant. 5/27/25- Initiated dosing. 03/12/26:- Sentinel cohort safety data expected Early Q2 2026; topline data for all participants expected Q4 2026. 05/07/26:- Sentinel 12-month safety/immunogenicity data now expected Q2 2026; main KP.2 cohort primary data anticipated Early 2027. 07/06/26:- Reported Ph2b sentinel 12-month topline safety data. Complete study topline data anticipated in 2027.",
+  "note": "08/06/26:- Phase 2b complete study topline efficacy and safety data expected in H1 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/06/3322727/25416/en/vaxart-reports-topline-12-month-safety-data-from-the-400-participant-sentinel-safety-cohort-of-the-phase-2b-clinical-trial-of-its-oral-pill-covid-19-vaccine.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61017008/vaxart-provides-business-update-and-reports-second-quarter-2026-financial-results",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22413,7 +22418,7 @@
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
    "last_price": "34.26",
-   "market_cap": 3996529000
+   "market_cap": 3996529408
   },
   "ticker": "VKTX",
   "drug_name": "VK2735 (Injectable) ",
@@ -22474,6 +22479,40 @@
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260507035953/en/Harmony-Biosciences-Reports-Q1-Financial-Results-and-Confirms-2026-Net-Revenue-Guidance-of-Over-%241-Billion-Reinforces-2026-Strategic-Priorities",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 16957,
+  "company": {
+   "ticker": "DNLI",
+   "name": "Denali Therapeutics",
+   "last_price": "24.83",
+   "market_cap": 3969011200
+  },
+  "ticker": "DNLI",
+  "drug_name": "TAK-594/DNL593 (PTV:PGRN)",
+  "indications": [
+   {
+    "id": 1019,
+    "title": "Frontotemporal dementia with GRN mutations ",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Frontotemporal dementia with GRN mutations ",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "08/06/26:- FDA granted Orphan Drug Designation; Ph1/2 results delayed to 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016213/denali-therapeutics-reports-second-quarter-2026-financial-results-and-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22577,10 +22616,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "START Trial. 11/02/23- Trial sites activated. 11/13/25- Enrollment completed. Topline results after all participants completed 18mts treatment. 03/02/26:- START Ph2 trial ongoing with $81M grant support; topline results remain after 18-month treatment. 03/26/26:- Completed Dec 2025 enrollment; START Ph2 topline results expected 2027. 05/07/26:- START Phase 2 COG0203 trial in early Alzheimer's disease continues; topline results still anticipated in 2027.",
+  "note": "08/06/26:- START Phase 2 study remains ongoing; topline results expected in 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290635/0/en/cognition-therapeutics-reports-financial-results-for-the-first-quarter-2026-and-provides-business-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61019059/cognition-therapeutics-reports-financial-results-second-quarter-2026-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22695,7 +22734,7 @@
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
    "last_price": "63.36",
-   "market_cap": 6124729000
+   "market_cap": 6124729344
   },
   "ticker": "XENE",
   "drug_name": "XEN901/NBI-921352",
@@ -22718,10 +22757,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "Partnered w/ Neurocrine. 9/14/23- Completed patient enrollment. 11/9/23- Ph2 proof-of-concept study failed to demonstrate meaningful reduction in seizure frequency. 11/03/25:- PR No update. 02/26/26:- Partnered NBI-921355 Phase 1 epilepsy study ongoing; selective NaV1.2/NaV1.6 inhibitor; no new timelines disclosed. 05/07/26:- NBI-921355 Phase 1b epilepsy study ongoing; data readout expected in 2027.",
+  "note": "08/06/26:- NBI-921355 Phase 1b epilepsy data remains expected in 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290503/0/en/xenon-reports-q1-2026-financial-results-and-provides-business-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016223/xenon-reports-q2-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22768,7 +22807,7 @@
    "ticker": "TVTX",
    "name": "Travere Therapeutics",
    "last_price": "61.32",
-   "market_cap": 5780089000
+   "market_cap": 5780089344
   },
   "ticker": "TVTX",
   "drug_name": "Sparsentan ",
@@ -22880,7 +22919,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.91",
-   "market_cap": 9250309000
+   "market_cap": 9250309120
   },
   "ticker": "SYRE",
   "drug_name": "SPY001 (\u03b14\u03b27)",
@@ -22919,7 +22958,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.91",
-   "market_cap": 9250309000
+   "market_cap": 9250309120
   },
   "ticker": "SYRE",
   "drug_name": "SPY002 (SPY002-091) (TL1A)",
@@ -23132,10 +23171,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "Emerge (MM120-310) study. 4/15/25- First patient dosed. 5/8/25- 12wk topline data in H2 2026. 11/06/25:- Emerge Ph3 topline now expected Mid-2026. Ascend Ph3 MDD study planned to start Mid-2026. 05/07/26:- Emerge enrollment completed; topline late Q2 2026. Ascend Ph3 MDD first dosing anticipated in Q2 2026. 05/12/26:- Ascend Ph3 MDD first patient dosed. Ascend topline data anticipated in 2027. 06/22/26:- Emerge Ph3 topline positive; met primary and key secondary endpoints. Next Ascend Ph3 MDD topline remains 2027.",
+  "note": "08/06/26:- Emerge Phase 3 positive. Ascend enrollment initiated; topline expected in 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260622572802/en/Definium-Therapeutics-Announces-Positive-Topline-Results-from-Phase-3-Emerge-Study-of-DT120-Orally-Disintegrating-Tablet-ODT-in-Major-Depressive-Disorder",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61016244/definium-therapeutics-reports-second-quarter-2026-financial-results-and-recent-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -23469,7 +23508,7 @@
    "ticker": "UPB",
    "name": "Upstream Bio",
    "last_price": "7.25",
-   "market_cap": 394545000
+   "market_cap": 394544928
   },
   "ticker": "UPB",
   "drug_name": "Verekitug",
@@ -23751,7 +23790,7 @@
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
    "last_price": "26.51",
-   "market_cap": 1608890000
+   "market_cap": 1582035712
   },
   "ticker": "TYRA",
   "drug_name": "Dabogratinib (TYRA-300) (FGFR3 Inhibitor)",
@@ -24226,10 +24265,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "01/08/26:- Phase 3 CIC trial of IBSRELA has begun, with completion expected in H2 2027. 01/28/26:- First patient dosed in ACCEL Ph3 CIC trial; enrollment through 2026; topline data in H2 2027. 02/19/26:- ACCEL Ph3 CIC trial ongoing; enrollment completion expected end 2026; topline data in H2 2027. 04/30/26:- IBSRELA ACCEL Ph3 CIC trial ongoing; all sites initiated; enrollment completion by end 2026; topline data H2 2027.",
+  "note": "08/06/26:- ACCEL Ph3 enrollment remains on track by end-2026; topline data expected H2 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/04/30/3285421/0/en/ardelyx-reports-first-quarter-2026-financial-results-and-provides-business-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61017051/ardelyx-reports-second-quarter-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -24445,10 +24484,10 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "03/05/26:- Planning Phase 2b migraine trial, with initiation targeted for Mid-2026. 04/06/26:- Migraine prophylaxis Phase 2b study initiation guided to Q3 2026. 05/07/26:- Ph2b migraine prophylaxis trial initiation planned for Mid-2026; topline data anticipated in 2027. 06/29/26:- Screening began in Ph2b migraine trial; patient dosing expected to start imminently. 07/30/26:- First patient dosed in Ph2b migraine trial. Top-line data expected in 2027.",
+  "note": "08/06/26:- Ph2b migraine trial underway; top-line data expected in 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260730173614/en/Evommune-Initiates-Phase-2b-Clinical-Trial-of-MRGPRX2-Inhibitor-EVO756-in-Migraine-Prophylaxis",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61016964/evommune-reports-second-quarter-2026-financial-results-and-provides-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -25079,7 +25118,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.91",
-   "market_cap": 9250309000
+   "market_cap": 9250309120
   },
   "ticker": "SYRE",
   "drug_name": "SPY120 (Antibody Combination)",
@@ -25113,7 +25152,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "20.40",
-   "market_cap": 1764510000
+   "market_cap": 1821660544
   },
   "ticker": "SNDX",
   "drug_name": "Axatilimab (SNDX-6352) + Steroids",
@@ -25666,10 +25705,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "Collab w/ Novo Nordisk. 11/12/24- Completed enrollment. 5/8/25- Trial completion in H1 and topline data in H2 2025. Initiate Ph3 program in 2025. 12/01/25:- Novo Nordisk initiated the Phase 3 CLEOPATTRA trial of coramitug for ATTR amyloidosis with cardiomyopathy and will present Phase 2 results at the American Heart Association Scientific Sessions on November 10, 2025. Prothena expects to earn clinical milestones as Phase 3 enrollment criteria and other development milestones are achieved by the end of 2026. 02/19/26:- Phase 3 CLEOPATTRA trial ongoing with 2029 primary completion; enrollment-milestone payment possible in H1 2026. 04/27/26:- FDA granted Fast Track for coramitug in ATTR-CM. Phase 3 CLEOPATTRA primary completion expected 2029. 05/07/26:- Phase 3 enrollment milestone achieved; $50M paid. CLEOPATTRA Ph3 primary completion 2029; 89Zr-coramitug imaging study completes 2027.",
+  "note": "08/06/26:- CLEOPATTRA Ph3 ongoing; primary completion 2029; imaging study completion 2027.",
   "catalyst_date": "2029-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260507030808/en/Prothena-Reports-First-Quarter-2026-Financial-Results-and-Business-Highlights",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61017000/prothena-reports-second-quarter-2026-financial-results-and-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -25716,7 +25755,7 @@
    "ticker": "VALN",
    "name": "Valneva SE",
    "last_price": "5.30",
-   "market_cap": 541234000
+   "market_cap": 541234112
   },
   "ticker": "VALN",
   "drug_name": "VLA15",
@@ -25812,10 +25851,10 @@
    "stage_label": "Approved",
    "event_label": "Update"
   },
-  "note": "COMPASS study. 9/3/24- Successful meeting w/ FDA. 5/6/25- Completed submission of BLA. 7/7/25- BLA accepted with priority review. PDUFA target action date of January 5, 2026. 10/23/25\u2013 FDA extends BLA review to April 5, 2026. 11/06/25:- BLA review for accelerated approval is ongoing, with productive FDA engagement and commercial launch preparations on track. 01/29/26:- Continued Ph1/2 follow-up data for DNL310 to be presented at WORLDSymposium on February 5, 2026. 02/05/26:- WORLDSymposium Ph1/2 follow-up shows sustained biomarker normalization through Week 201; PDUFA April 5, 2026 unchanged. 02/26/26:- NEJM Ph1/2 results published. COMPASS Cohort A enrollment completed Dec 2025 to support confirmatory evidence. 03/25/26:- FDA granted accelerated approval for Avlayah for neurologic Hunter syndrome; Rare Pediatric Disease voucher awarded. 05/07/26:- U.S. launch underway; first commercial patients treated; COMPASS Ph2/3 confirmatory study ongoing to support global submissions.",
+  "note": "08/06/26:- Q2 sales were $3.6M; Q3 revenue projected $10M-$12M; COMPASS ongoing.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290512/0/en/denali-therapeutics-reports-first-quarter-2026-financial-results-and-business-highlights.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016213/denali-therapeutics-reports-second-quarter-2026-financial-results-and-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -25872,7 +25911,7 @@
    "ticker": "TBPH",
    "name": "Theravance Biopharma",
    "last_price": "16.93",
-   "market_cap": 877452000
+   "market_cap": 877452416
   },
   "ticker": "TBPH",
   "drug_name": "Ampreloxetine (TD-9855)",
@@ -26057,7 +26096,7 @@
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
    "last_price": "12.01",
-   "market_cap": 2361557000
+   "market_cap": 2361557248
   },
   "ticker": "SLS",
   "drug_name": "Galinpepimut-S",
@@ -26247,7 +26286,7 @@
    "ticker": "VTGN",
    "name": "VistaGen Therapeutics",
    "last_price": "0.29",
-   "market_cap": 12594200
+   "market_cap": 12762800
   },
   "ticker": "VTGN",
   "drug_name": "Fasedienol (PH94B)",
@@ -26417,7 +26456,7 @@
    "ticker": "VERA",
    "name": "Vera Therapeutics",
    "last_price": "32.89",
-   "market_cap": 2360940000
+   "market_cap": 2360939776
   },
   "ticker": "VERA",
   "drug_name": "Atacicept",
@@ -26527,6 +26566,40 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3335743/0/en/ipsen-delivers-excellent-h1-2026-results-and-upgrades-its-full-year-guidance.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 15371,
+  "company": {
+   "ticker": "DNLI",
+   "name": "Denali Therapeutics",
+   "last_price": "24.83",
+   "market_cap": 3969011200
+  },
+  "ticker": "DNLI",
+  "drug_name": "BIIB122/DNL151 (LRRK2 Inhibitor)",
+  "indications": [
+   {
+    "id": 1386,
+    "title": "Parkinson's disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Parkinson's disease",
+  "stage_event": {
+   "id": 77,
+   "label": "Failed Discontinued",
+   "stage_label": "Failed",
+   "event_label": "Discontinued"
+  },
+  "note": "08/06/26:- LUMA missed endpoints; DNL151 discontinued in idiopathic Parkinson's disease.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016213/denali-therapeutics-reports-second-quarter-2026-financial-results-and-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -26729,7 +26802,7 @@
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
    "last_price": "23.59",
-   "market_cap": 2672565000
+   "market_cap": 2672564736
   },
   "ticker": "VRDN",
   "drug_name": "Veligrotug (formerly VRDN-001)",
@@ -26751,45 +26824,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260806919095/en/Viridian-Therapeutics-Highlights-Recent-Business-Progress-and-Reports-Second-Quarter-2026-Financial-Results",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 16856,
-  "company": {
-   "ticker": "VSTM",
-   "name": "Verastem Oncology",
-   "last_price": "6.74",
-   "market_cap": 610398000
-  },
-  "ticker": "VSTM",
-  "drug_name": "Avutometinib (VS-6766), + defactinib+gemcitabine/nab-paclitaxel",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 859,
-    "title": "Pancreatic cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "First-Line Metastatic Pancreatic Cancer (PDAC)",
-  "stage_event": {
-   "id": 125,
-   "label": "Phase 1/2 Update",
-   "stage_label": "Phase 1/2",
-   "event_label": "Update"
-  },
-  "note": "RAMP 205 study. 5/22/25- Reported updated safety & efficacy results. Presented results at ASCO'25. 8/7/25- Complete enrollment in expansion cohort in Q3 2025. 11/04/25:- Completed RAMP 205 expansion cohort enrollment. Plan safety and efficacy update of 29 RP2D patients in H1 2026. 03/04/26:- RAMP205 expansion cohort completed; safety/efficacy update with \u22656-month follow-up expected Q2 2026. 05/07/26:- Company reiterates RAMP 205 expansion cohort safety/efficacy update with \u22656-month follow-up expected in Q2 2026. 06/17/26:- RAMP 205 RP2D (NCT05669482) update: 52% ORR; 6-month OS 86% (June 5, 2026 cutoff).",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260617680929/en/Verastem-Oncology-Announces-Positive-Updated-Results-from-RAMP-205-Evaluating-Avutometinib-Plus-Defactinib-in-Combination-with-Standard-of-Care-Chemotherapy-in-First-Line-Metastatic-Pancreatic-Cancer",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -26966,10 +27000,10 @@
    "stage_label": "Failed",
    "event_label": "Discontinued"
   },
-  "note": "5/15/24- First patient dosed in Ph2 trial. 8/7/25- Enrollment ongoing. 11/10/25:- Enrollment continues; initial Ph2 PN data expected H2 2026. 02/25/26:- Ph2 PN enrollment completed; topline data to be presented Summer 2026. 05/07/26:- Phase 2 PN study enrollment complete; topline efficacy and safety data still expected Summer 2026. 07/21/26:- Phase 2 PN study failed efficacy; program discontinued after topline results.",
+  "note": "",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/21/3330938/0/en/Celldex-Reports-Results-from-Phase-2-Study-of-Barzolvolimab-in-Prurigo-Nodularis.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016217/celldex-reports-second-quarter-financial-results-and-provides-corporate-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -27083,10 +27117,10 @@
    "stage_label": "Failed",
    "event_label": "Discontinued"
   },
-  "note": "2/26/24- Interim data reported. Continuing in the DE and optimization portion. 2/27/25- Ongoing enrollment. 11/6/25- Additional data in Q4 2025. 12/23/25:- Phase 1a dose escalation completed; expansion cohorts initiated for selected EGFR-positive solid tumors. 02/26/26:- Phase 1 trial and expansion cohorts ongoing; additional JANX008 clinical update expected in 2026. 04/27/26:- Discontinued JANX008 after internal review; responses seen but insufficient overall.",
+  "note": "",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260507597234/en/Janux-Therapeutics-Reports-First-Quarter-2026-Financial-Results-and-Business-Highlights",
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -27704,7 +27738,7 @@
    "ticker": "SLGL",
    "name": "Sol-Gel",
    "last_price": "88.00",
-   "market_cap": 287671000
+   "market_cap": 287671200
   },
   "ticker": "SLGL",
   "drug_name": "SGT-210 (Erlotinib)",
@@ -27748,7 +27782,7 @@
    "ticker": "TCRX",
    "name": "TScan Therapeutics",
    "last_price": "0.80",
-   "market_cap": 49875700
+   "market_cap": 52032320
   },
   "ticker": "TCRX",
   "drug_name": "TSC-203-A0201, TSC-200-A0201, TSC-204-A0201, TSC-204-C0702,TSC-201-B0702, TSC-204-A0101",
@@ -28253,10 +28287,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Update"
   },
-  "note": "ReDiscover trial. 9/9/24- Announced interim data. 12/11/24- Reported new interim data at SBCS'24. 6/2/25- Reported updated data at ASCO '25. 11/06/25:- PR No update. 12/12/25:- SABCS 2025 subset analysis: zovegalisib+fulvestrant showed 10.3-month median PFS and 39% ORR in ReDiscover. 02/03/26:- Breakthrough Therapy designation granted. Initial Ph1/2 400mg BID fed doublet data at ESMO TAT on March 16, 2026. 02/26/26:- ESMO TAT 2026 session will present initial ReDiscover Ph1/2 doublet data on 57 patients. 03/16/26:- ReDiscover Ph1/2 400mg BID fed data: median PFS 11.1 months; ORR 43%; tolerability consistent. 05/05/26:- ESMO TAT doublet data reiterated: median PFS 11.1 months, similar efficacy across kinase and non-kinase mutations.",
+  "note": "08/06/26:- PR No update.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/05/3288234/0/en/relay-therapeutics-reports-first-quarter-2026-financial-results-and-corporate-updates.html",
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28269,7 +28303,7 @@
    "ticker": "ZVSA",
    "name": "ZyVersa Therapeutics ",
    "last_price": "0.12",
-   "market_cap": 809592
+   "market_cap": 955318
   },
   "ticker": "ZVSA",
   "drug_name": "Cholesterol Efflux Mediator\u2122 VAR 200",
@@ -28321,10 +28355,10 @@
    "stage_label": "Phase 3",
    "event_label": "Update"
   },
-  "note": "7/29/24- Reported topline results. 10/28/24- Met all primary & secondary endpoints. 3/1/25- Presented Ph2 data at AAAAI'25. 11/6/25- New data presented at ACAAI'25. Initiate Ph3 trial in ColdU and SD in December 2025.\n\n11/10/25:- 20-week Ph2 ColdU/SD data positive; OLE data expected Q1 2026; Ph3 initiation planned December 2025. 12/09/25:- Global Phase 3 EMBARQ-ColdU and SD initiated; Phase 2 OLE data expected Q1 2026. 02/23/26:- Phase 2 ColdU/SD study and OLE data to be presented at AAAAI 2026, including late-breaking OLE results. 02/25/26:- Ph3 EMBARQ-ColdU/SD enrollment actively accruing; late-breaking ColdU/SD Ph2 data to be presented March 1, 2026. 03/01/26:- Ph2 ColdU/SD OLE retreatment data positive at AAAAI 2026; Ph3 EMBARQ-ColdU/SD enrolling. 03/27/26:- AAD 2026 posters showed Ph2 ColdU/SD QoL improvements; Ph3 EMBARQ-ColdU/SD enrollment ongoing. 05/07/26:- EMBARQ-ColdU/SD Ph3 trial actively enrolling; prior positive Ph2 efficacy and QoL data reiterated. 07/21/26:- Phase 3 EMBARQ-ColdU/SD enrollment on track; data timing not provided.",
+  "note": "08/06/26:- Ph3 EMBARQ-ColdU/SD actively enrolling; no data timing provided.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/21/3330938/0/en/Celldex-Reports-Results-from-Phase-2-Study-of-Barzolvolimab-in-Prurigo-Nodularis.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016217/celldex-reports-second-quarter-financial-results-and-provides-corporate-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28542,12 +28576,46 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 18478,
+  "company": {
+   "ticker": "CLDX",
+   "name": "Celldex Therapeutics, Inc.",
+   "last_price": "41.71",
+   "market_cap": 3275466752
+  },
+  "ticker": "CLDX",
+  "drug_name": "CDX-622",
+  "indications": [
+   {
+    "id": 1174,
+    "title": "Inflammatory disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Inflammatory disease",
+  "stage_event": {
+   "id": 113,
+   "label": "Phase 1 Update",
+   "stage_label": "Phase 1",
+   "event_label": "Update"
+  },
+  "note": "08/06/26:- Ph1 results positive; asthma POM study ongoing; expansion includes allergic rhinitis and food allergy.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61016217/celldex-reports-second-quarter-financial-results-and-provides-corporate-update",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18501,
   "company": {
    "ticker": "UNCY",
    "name": "Unicycive Therapeutics",
    "last_price": "5.07",
-   "market_cap": 138883000
+   "market_cap": 138882656
   },
   "ticker": "UNCY",
   "drug_name": "Oxylanthanum Carbonate (OLC)",
@@ -28737,7 +28805,7 @@
    "ticker": "URGN",
    "name": "UroGen Pharma",
    "last_price": "46.96",
-   "market_cap": 2221710000
+   "market_cap": 2287971072
   },
   "ticker": "URGN",
   "drug_name": "UGN-301",
@@ -28776,7 +28844,7 @@
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
    "last_price": "32.43",
-   "market_cap": 1983651000
+   "market_cap": 1962817000
   },
   "ticker": "ZBIO",
   "drug_name": "Obexelimab (CD19xFcyRIIb)",
@@ -28810,7 +28878,7 @@
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
    "last_price": "32.43",
-   "market_cap": 1983651000
+   "market_cap": 1962817000
   },
   "ticker": "ZBIO",
   "drug_name": "Obexelimab (CD19xFcyRIIb)",
@@ -29080,40 +29148,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/28/3334131/0/en/kiniksa-pharmaceuticals-reports-second-quarter-2026-financial-results-and-recent-portfolio-execution.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 18843,
-  "company": {
-   "ticker": "RLAY",
-   "name": "Relay Therapeutics",
-   "last_price": "19.77",
-   "market_cap": 4332430336
-  },
-  "ticker": "RLAY",
-  "drug_name": "RLY-2608",
-  "indications": [
-   {
-    "id": 2312,
-    "title": "Vascular Malformations",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Vascular Malformations",
-  "stage_event": {
-   "id": 137,
-   "label": "Phase 2 Update",
-   "stage_label": "Phase 2",
-   "event_label": "Update"
-  },
-  "note": "ReInspire trial. 5/5/25- Trial initiated in Q1'25. 11/06/25:- Trial execution continues. 02/26/26:- Initial data planned H1 2026, about 20 patients including pediatric cohort. 05/05/26:- ISSVA call May 19 to discuss initial clinical results; late-breaking abstract May 20; pre-clinical data on May 22. 05/19/26:- Initial Ph2 ReInspire data reported; expansion cohorts opened; pediatric dose-finding ongoing.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/19/3297237/0/en/relay-therapeutics-announces-initial-clinical-data-demonstrating-that-zovegalisib-has-potential-for-differentiated-safety-and-efficacy-in-patients-with-pik3ca-driven-vascular-anoma.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -29840,46 +29874,12 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 19562,
-  "company": {
-   "ticker": "ENTX",
-   "name": "Entera Bio Ltd",
-   "last_price": "2.87",
-   "market_cap": 141462960
-  },
-  "ticker": "ENTX",
-  "drug_name": "Next-Gen EB613 (PTH Agonist)",
-  "indications": [
-   {
-    "id": 834,
-    "title": "Osteoporosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Osteoporosis",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "11/14/25:- Next-Gen EB613 preclinical PK supports single-dose regimen; Ph1 initiation remains on track for late 2025. 01/21/26:- Ph1 bridging study initiated Nov 2025; results expected by end of Q1 2026. 03/27/26:- ASBMR 2026 PK showed single tablet matches multitablet; Phase 1 bridging supports advancing final tablet to Ph3. 05/08/26:- Phase 1 bridging study completed; single EB613 tablet chosen as Phase 3 candidate; data abstract sent to ENDO2026.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/08/3291323/0/en/entera-announces-first-quarter-2026-financial-results-and-updates-across-its-oral-peptide-programs.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 19590,
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
    "last_price": "16.43",
-   "market_cap": 18871347000
+   "market_cap": 18871347200
   },
   "ticker": "VTRS",
   "drug_name": "Low Dose Estrogen Weekly Patch (Transdermal Contraceptive)",
@@ -30507,7 +30507,7 @@
    "ticker": "TAK",
    "name": "Takeda",
    "last_price": "17.45",
-   "market_cap": 55726629000
+   "market_cap": 55726628864
   },
   "ticker": "TAK",
   "drug_name": "Oveporexton (Orexin Agonist)",

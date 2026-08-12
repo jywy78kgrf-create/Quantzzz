@@ -47,7 +47,7 @@
    "market_cap": 6571621888
   },
   "ticker": "LNTH",
-  "drug_name": "MK-6240 (florquinitau)",
+  "drug_name": "MK-6240 (florquinitau) ",
   "indications": [
    {
     "id": 1311,
@@ -1164,6 +1164,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19082,
+  "company": {
+   "ticker": "UPB",
+   "name": "Upstream Bio",
+   "last_price": "7.09",
+   "market_cap": 388326688
+  },
+  "ticker": "UPB",
+  "drug_name": "Verekitug",
+  "indications": [
+   {
+    "id": 946,
+    "title": "Asthma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Severe asthma",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "08/11/26:- VALIANT ERS data September 5-9, 2026. Ph3 remains Q1 2027. VALOUR data H2 2027.",
+  "catalyst_date": "2026-09-05",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/11/3342576/0/en/upstream-bio-reports-second-quarter-2026-financial-results-and-highlights-continued-progress.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18113,
   "company": {
    "ticker": "BEAM",
@@ -1420,6 +1454,60 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 13527,
+  "company": {
+   "ticker": "CCCC",
+   "name": "C4 Therapuetics",
+   "last_price": "3.87",
+   "market_cap": 476107264
+  },
+  "ticker": "CCCC",
+  "drug_name": "Cemsidomide (CFT7455) +/- dexamethasone",
+  "indications": [
+   {
+    "id": 905,
+    "title": "Blood cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1333,
+    "title": "Blood disorder",
+    "nickname": ""
+   },
+   {
+    "id": 1043,
+    "title": "Hematologic malignancies",
+    "nickname": ""
+   },
+   {
+    "id": 1360,
+    "title": "Multiple myeloma",
+    "nickname": "MM"
+   },
+   {
+    "id": 818,
+    "title": "Non-Hodgkin lymphoma",
+    "nickname": "NHL"
+   }
+  ],
+  "indications_text": "Hematologic malignancies, Blood disorder, Non-Hodgkin lymphoma, Blood cancer, Multiple myeloma",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "08/11/26:- IMS data September 2026; Ph1b updates H2 2026/Mid-2027; MOMENTUM enrolls/data Q1/H2 2027; SoC Ph1b starts H1 2027.",
+  "catalyst_date": "2026-09-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://ir.c4therapeutics.com/news-releases/news-release-details/c4-therapeutics-reports-second-quarter-2026-financial-results",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 20361,
@@ -3014,6 +3102,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 20588,
+  "company": {
+   "ticker": "DMAC",
+   "name": "DiaMedica Therapeutics",
+   "last_price": "6.87",
+   "market_cap": 370469536
+  },
+  "ticker": "DMAC",
+  "drug_name": "Rinvecalinase Alfa (DM199) (KLK1 Protein)",
+  "indications": [
+   {
+    "id": 1110,
+    "title": "Reproductive disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Early-Onset Fetal Growth Restriction",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "08/10/26:- FGR first cohort complete; topline results expected in September 2026.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260810989621/en/DiaMedica-Therapeutics-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Highlights",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 20688,
   "company": {
    "ticker": "ZLAB",
@@ -3052,7 +3174,7 @@
   "company": {
    "ticker": "SANA",
    "name": "Sana Biotechnology",
-   "last_price": "3.79",
+   "last_price": "3.75",
    "market_cap": 1134576768
   },
   "ticker": "SANA",
@@ -4392,7 +4514,7 @@
   "company": {
    "ticker": "INO",
    "name": "Inovio Pharmaceuticals",
-   "last_price": "0.77",
+   "last_price": "0.76",
    "market_cap": 79126952
   },
   "ticker": "INO",
@@ -4641,7 +4763,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.35",
+   "last_price": "3.29",
    "market_cap": 1796508032
   },
   "ticker": "RXRX",
@@ -6840,7 +6962,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "60.57",
+   "last_price": "61.70",
    "market_cap": 24181719040
   },
   "ticker": "MRNA",
@@ -10128,7 +10250,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "60.57",
+   "last_price": "61.70",
    "market_cap": 24181719040
   },
   "ticker": "MRNA",
@@ -11594,7 +11716,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.35",
+   "last_price": "3.29",
    "market_cap": 1796508032
   },
   "ticker": "RXRX",
@@ -12193,7 +12315,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "60.57",
+   "last_price": "61.70",
    "market_cap": 24181719040
   },
   "ticker": "MRNA",
@@ -15119,7 +15241,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "60.57",
+   "last_price": "61.70",
    "market_cap": 24181719040
   },
   "ticker": "MRNA",
@@ -16101,7 +16223,7 @@
   "company": {
    "ticker": "SANA",
    "name": "Sana Biotechnology",
-   "last_price": "3.79",
+   "last_price": "3.75",
    "market_cap": 1134576768
   },
   "ticker": "SANA",
@@ -18782,45 +18904,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 17473,
-  "company": {
-   "ticker": "CRDF",
-   "name": "Cardiff Oncology, Inc.",
-   "last_price": "1.05",
-   "market_cap": 81685008
-  },
-  "ticker": "CRDF",
-  "drug_name": "Onvansertib + SOC (FOLFIRI + bevacizumab or FOLFOX + bevacizumab)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1364,
-    "title": "Metastatic colorectal cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Metastatic colorectal cancer",
-  "stage_event": {
-   "id": 78,
-   "label": "Phase 3 Initiation",
-   "stage_label": "Phase 3",
-   "event_label": "Initiation"
-  },
-  "note": "08/11/26:- Ph3 trial initiation planned Q1 2027. CRDF-004 Ph2 remained ongoing with positive data.",
-  "catalyst_date": "2027-03-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/en/news/heathcare/biotechnology",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 17509,
   "company": {
    "ticker": "REPL",
@@ -19842,7 +19925,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.35",
+   "last_price": "3.29",
    "market_cap": 1796508032
   },
   "ticker": "RXRX",
@@ -20065,6 +20148,45 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 15975,
+  "company": {
+   "ticker": "VOR",
+   "name": "Vor Biopharma",
+   "last_price": "23.59",
+   "market_cap": 1278244864
+  },
+  "ticker": "VOR",
+  "drug_name": "Trem-cel (VOR33) + Mylotarg (VBP101)",
+  "indications": [
+   {
+    "id": 1282,
+    "title": "Acute myeloid leukemia",
+    "nickname": "AML, Cancer"
+   },
+   {
+    "id": 800,
+    "title": "Myelodysplastic syndrome",
+    "nickname": "MDS, preleukemia"
+   }
+  ],
+  "indications_text": "Acute myeloid leukemia, Myelodysplastic syndrome",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "08/11/26:- UPSTREAM MG enrollment ongoing; topline data still anticipated in H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 16129,
@@ -20481,6 +20603,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 17647,
+  "company": {
+   "ticker": "VOR",
+   "name": "Vor Biopharma",
+   "last_price": "23.59",
+   "market_cap": 1278244864
+  },
+  "ticker": "VOR",
+  "drug_name": "VCAR33 (ALLO)",
+  "indications": [
+   {
+    "id": 1282,
+    "title": "Acute myeloid leukemia",
+    "nickname": "AML, Cancer"
+   }
+  ],
+  "indications_text": "Acute myeloid leukemia",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "08/11/26:- UPSTREAM MG enrollment ongoing; topline data still anticipated in H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 17657,
   "company": {
    "ticker": "ENLV",
@@ -20826,7 +20982,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.35",
+   "last_price": "3.29",
    "market_cap": 1796508032
   },
   "ticker": "RXRX",
@@ -20949,11 +21105,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 18827,
+  "company": {
+   "ticker": "VOR",
+   "name": "Vor Biopharma",
+   "last_price": "23.59",
+   "market_cap": 1278244864
+  },
+  "ticker": "VOR",
+  "drug_name": "Trem-cel (VOR33) + VCAR33",
+  "indications": [
+   {
+    "id": 1282,
+    "title": "Acute myeloid leukemia",
+    "nickname": "AML, Cancer"
+   }
+  ],
+  "indications_text": "Acute myeloid leukemia",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "08/11/26:- UPSTREAM MG enrollment ongoing; topline data still anticipated in H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18868,
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.35",
+   "last_price": "3.29",
    "market_cap": 1796508032
   },
   "ticker": "RXRX",
@@ -21129,6 +21319,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 19154,
+  "company": {
+   "ticker": "VOR",
+   "name": "Vor Biopharma",
+   "last_price": "23.59",
+   "market_cap": 1278244864
+  },
+  "ticker": "VOR",
+  "drug_name": "Telitacicept",
+  "indications": [
+   {
+    "id": 2316,
+    "title": "Sj\u00f6gren\u2019s Disease ",
+    "nickname": "SjD"
+   }
+  ],
+  "indications_text": "Sjogren's Disease",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "08/11/26:- UPSTREAM MG enrollment ongoing; topline data still anticipated in H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19183,
   "company": {
    "ticker": "HRMY",
@@ -21263,6 +21487,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 19307,
+  "company": {
+   "ticker": "VOR",
+   "name": "Vor Biopharma",
+   "last_price": "23.59",
+   "market_cap": 1278244864
+  },
+  "ticker": "VOR",
+  "drug_name": "Telitacicept",
+  "indications": [
+   {
+    "id": 825,
+    "title": "IgA nephropathy",
+    "nickname": "IgAN "
+   }
+  ],
+  "indications_text": "IgA neuropathy (IgAN)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "08/11/26:- UPSTREAM MG enrollment ongoing; topline data still anticipated in H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19317,
@@ -22588,7 +22846,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "34.22",
+   "last_price": "34.39",
    "market_cap": 3942869248
   },
   "ticker": "VKTX",
@@ -22695,7 +22953,7 @@
   "company": {
    "ticker": "PLX",
    "name": "Protalix Biotherapeutics",
-   "last_price": "2.43",
+   "last_price": "2.62",
    "market_cap": 195789088
   },
   "ticker": "PLX",
@@ -23430,7 +23688,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.35",
+   "last_price": "3.29",
    "market_cap": 1796508032
   },
   "ticker": "RXRX",
@@ -27561,7 +27819,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "205.55",
+   "last_price": "207.45",
    "market_cap": 44056850432
   },
   "ticker": "RVMD",
@@ -27610,7 +27868,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "205.55",
+   "last_price": "207.45",
    "market_cap": 44056850432
   },
   "ticker": "RVMD",
@@ -30254,45 +30512,11 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 19324,
-  "company": {
-   "ticker": "LNTH",
-   "name": "Lantheus Holdings",
-   "last_price": "100.84",
-   "market_cap": 6571621888
-  },
-  "ticker": "LNTH",
-  "drug_name": "LNTH-2501 (Ga 68 edotreotide)",
-  "indications": [
-   {
-    "id": 1025,
-    "title": "Neuroendocrine tumor",
-    "nickname": "NET"
-   }
-  ],
-  "indications_text": "Neuroendocrine tumors (NETs)",
-  "stage_event": {
-   "id": 87,
-   "label": "NDA Resubmission",
-   "stage_label": "NDA",
-   "event_label": "Resubmission"
-  },
-  "note": "08/06/26:- PR No update.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 19536,
   "company": {
    "ticker": "MCRB",
    "name": "Seres Therapeutics",
-   "last_price": "4.64",
+   "last_price": "4.60",
    "market_cap": 46607784
   },
   "ticker": "MCRB",
@@ -30993,7 +31217,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "205.55",
+   "last_price": "207.45",
    "market_cap": 44056850432
   },
   "ticker": "RVMD",

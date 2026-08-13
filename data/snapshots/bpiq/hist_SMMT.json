@@ -1,5 +1,51 @@
 [
  {
+  "id": 8377,
+  "company": {
+   "id": 223,
+   "ticker": "SMMT",
+   "name": "Summit Therapeutics"
+  },
+  "created_at": "2026-08-13T13:03:40.244036Z",
+  "updated_at": "2026-08-13T13:03:40.244063Z",
+  "ticker": "SMMT",
+  "drug_name": "Ivonescimab",
+  "drug_indication": "Squamous Non-Small Cell Lung Cancer",
+  "airtable_id": 8662,
+  "stage": "Approved",
+  "catalyst_date": "2026-08-12",
+  "catalyst_source": "https://www.businesswire.com/news/home/20260812443578/en/Ivonescimab-in-Combination-with-Chemotherapy-Approved-in-China-by-NMPA-for-First-Line-Treatment-of-Patients-with-Squamous-Non-Small-Cell-Lung-Cancer",
+  "catalyst_text": "Received NMPA approval for first-line squamous NSCLC",
+  "detailed_catalyst_text": "China\u2019s regulator granted marketing authorization for the combination with chemotherapy as first-line treatment for advanced squamous NSCLC, based on the Phase III HARMONi-6 trial. This approval, supported by statistically significant PFS and OS benefits, further validates the clinical profile of the regimen.",
+  "catalyst_text_evidence": "Summit Therapeutics Inc. ... noted that, on 2026-08-12, its partner Akeso Inc. ... announced receipt of marketing authorization in China from the National Medical Products Administration (NMPA) for the use of ivonescimab ... in combination with chemotherapy for the first-line treatment of patients with advanced squamous non-small cell lung cancer (NSCLC).",
+  "news_published_at": "2026-08-13T00:00:00Z",
+  "open_price_gap_percent": "0.01952",
+  "intra_day_price_change_percent": "-0.02012"
+ },
+ {
+  "id": 8381,
+  "company": {
+   "id": 223,
+   "ticker": "SMMT",
+   "name": "Summit Therapeutics"
+  },
+  "created_at": "2026-08-13T13:07:06.333792Z",
+  "updated_at": "2026-08-13T13:07:06.333813Z",
+  "ticker": "SMMT",
+  "drug_name": "Ivonescimab",
+  "drug_indication": "EGFR-Mutated Non-Squamous Non-Small Cell Lung Cancer",
+  "airtable_id": 8661,
+  "stage": "PDUFA",
+  "catalyst_date": "2026-08-12",
+  "catalyst_source": "https://www.businesswire.com/news/home/20260812443578/en/Ivonescimab-in-Combination-with-Chemotherapy-Approved-in-China-by-NMPA-for-First-Line-Treatment-of-Patients-with-Squamous-Non-Small-Cell-Lung-Cancer",
+  "catalyst_text": "BLA accepted with PDUFA date November 14 2026",
+  "detailed_catalyst_text": "The FDA accepted the BLA for the regimen in EGFR-mutated, locally advanced or metastatic non-squamous NSCLC after a third-generation EGFR TKI, assigning a 2026-11-14 PDUFA date. Acceptance confirms the filing is complete and sets the timeline for regulatory review toward potential approval.",
+  "catalyst_text_evidence": "Detailed results of the study were provided in September 2025, and a Biologics License Application (BLA) was submitted to the United States Food and Drug Administration (FDA) for marketing authorization, which the FDA accepted for filing in January 2026; the goal Prescription Drug User Fee Act (PDUFA) date is 2026-11-14.",
+  "news_published_at": "2026-08-13T00:00:00Z",
+  "open_price_gap_percent": "0.01952",
+  "intra_day_price_change_percent": "-0.02012"
+ },
+ {
   "id": 8342,
   "company": {
    "id": 223,
@@ -7,7 +53,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2026-08-06T13:03:46.980167Z",
-  "updated_at": "2026-08-12T13:04:20.351022Z",
+  "updated_at": "2026-08-13T13:03:49.033236Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "Urothelial Carcinoma",
@@ -30,7 +76,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2026-07-23T13:01:46.484118Z",
-  "updated_at": "2026-08-12T13:02:16.174143Z",
+  "updated_at": "2026-08-13T13:01:59.698541Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "EGFR-mutated non-squamous NSCLC",
@@ -53,7 +99,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2026-06-02T13:00:52.619843Z",
-  "updated_at": "2026-08-12T13:01:26.600944Z",
+  "updated_at": "2026-08-13T13:01:19.460572Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "First-Line Squamous Non-Small Cell Lung Cancer",
@@ -76,7 +122,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2026-06-02T13:01:33.627456Z",
-  "updated_at": "2026-08-12T13:02:37.555990Z",
+  "updated_at": "2026-08-13T13:02:17.508115Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "Metastatic Colorectal Cancer",
@@ -99,7 +145,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2026-06-02T13:03:36.295113Z",
-  "updated_at": "2026-08-12T13:05:32.641435Z",
+  "updated_at": "2026-08-13T13:04:57.443870Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "EGFR-mutated Non-Small Cell Lung Cancer",
@@ -122,7 +168,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2026-01-30T13:02:00.942856Z",
-  "updated_at": "2026-08-12T13:03:33.004777Z",
+  "updated_at": "2026-08-13T13:03:06.108711Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "EGFR-mutated Non-Squamous NSCLC post-TKI",
@@ -145,7 +191,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2026-01-13T13:03:44.663667Z",
-  "updated_at": "2026-08-12T13:06:43.300875Z",
+  "updated_at": "2026-08-13T13:06:07.114757Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "EGFR-mutated Non-Small Cell Lung Cancer",
@@ -168,7 +214,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-05-31T13:00:42.049450Z",
-  "updated_at": "2026-08-12T13:01:04.591739Z",
+  "updated_at": "2026-08-13T13:00:59.538146Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab + Chemotherapy",
   "drug_indication": "EGFR-mutated, locally advanced or metastatic non-squamous non-small cell lung cancer (NSCLC)  ",
@@ -191,7 +237,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-02-21T20:06:15.747532Z",
-  "updated_at": "2026-08-12T13:02:09.889545Z",
+  "updated_at": "2026-08-13T13:01:55.479261Z",
   "ticker": "SMMT",
   "drug_name": "AK117-201",
   "drug_indication": "Recurrent / metastatic head and neck squamous cell carcinoma (HNSCC)",
@@ -214,7 +260,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-02-21T20:14:10.691062Z",
-  "updated_at": "2026-08-12T13:07:52.439189Z",
+  "updated_at": "2026-08-13T13:07:20.858067Z",
   "ticker": "SMMT",
   "drug_name": "AK117-203",
   "drug_indication": "Triple-negative breast cancer (TNBC)",
@@ -237,7 +283,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-02-21T20:14:10.743964Z",
-  "updated_at": "2026-08-12T13:07:52.549587Z",
+  "updated_at": "2026-08-13T13:07:20.963936Z",
   "ticker": "SMMT",
   "drug_name": "AK112-206",
   "drug_indication": "Metastatic microsatellite-stable (MSS) colorectal cancer (CRC)",
@@ -260,7 +306,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-02-21T20:47:31.589774Z",
-  "updated_at": "2026-08-12T13:05:05.979641Z",
+  "updated_at": "2026-08-13T13:04:32.342591Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab (SMT112) with chemotherapy - (HARMONi-2)",
   "drug_indication": "Epidermal growth factor receptor (EGFR)-mutated, locally advanced or metastatic non-squamous NSCLC",
@@ -283,7 +329,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-02-21T20:47:00.260764Z",
-  "updated_at": "2026-08-12T13:04:01.562657Z",
+  "updated_at": "2026-08-13T13:03:31.269624Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab - (HARMONi-A)",
   "drug_indication": "Non-squamous non-small cell lung cancer (NSCLC)",
@@ -306,7 +352,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-02-21T20:06:41.470273Z",
-  "updated_at": "2026-08-12T13:02:57.491769Z",
+  "updated_at": "2026-08-13T13:02:34.311481Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab plus chemotherapy - (AK112-201)",
   "drug_indication": "Non-small cell lung cancer (NSCLC)",
@@ -329,7 +375,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-02-21T20:14:11.341047Z",
-  "updated_at": "2026-08-12T13:07:53.405872Z",
+  "updated_at": "2026-08-13T13:07:21.871972Z",
   "ticker": "SMMT",
   "drug_name": "ivonescimab (AK112-202)",
   "drug_indication": "Patients with Advanced Non-Small Cell Lung Cancer (NSCLC) and Brain Metastases",
@@ -352,7 +398,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-02-21T20:08:06.304758Z",
-  "updated_at": "2026-08-12T13:05:13.285010Z",
+  "updated_at": "2026-08-13T13:04:39.352081Z",
   "ticker": "SMMT",
   "drug_name": "Ridinilazole - (Ri-CoDIFy)",
   "drug_indication": "C. difficile infection (CDI)",
@@ -375,7 +421,7 @@
    "name": "Summit Therapeutics"
   },
   "created_at": "2025-02-21T20:08:12.077877Z",
-  "updated_at": "2026-08-12T13:05:22.309766Z",
+  "updated_at": "2026-08-13T13:04:47.876927Z",
   "ticker": "SMMT",
   "drug_name": "Ezutromid",
   "drug_indication": "Duchenne muscular dystrophy",

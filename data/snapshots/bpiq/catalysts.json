@@ -48,7 +48,7 @@
   "company": {
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
-   "last_price": "13.37",
+   "last_price": "13.52",
    "market_cap": 1134372736
   },
   "ticker": "EYPT",
@@ -131,7 +131,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "120.77",
+   "last_price": "120.58",
    "market_cap": 24479805440
   },
   "ticker": "INCY",
@@ -165,7 +165,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.17",
+   "last_price": "1.16",
    "market_cap": 180766112
   },
   "ticker": "CHRS",
@@ -662,7 +662,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "4.19",
+   "last_price": "4.33",
    "market_cap": 242650832
   },
   "ticker": "CAPR",
@@ -955,40 +955,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 18855,
-  "company": {
-   "ticker": "OSTX",
-   "name": "OS Therapies",
-   "last_price": "1.61",
-   "market_cap": 73457576
-  },
-  "ticker": "OSTX",
-  "drug_name": "OST-HER2",
-  "indications": [
-   {
-    "id": 1109,
-    "title": "Osteosarcoma",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Pediatric lung metastatic osteosarcoma",
-  "stage_event": {
-   "id": 146,
-   "label": "Phase 2b Data readout",
-   "stage_label": "Phase 2b",
-   "event_label": "Data readout"
-  },
-  "note": "05/18/26:- FDA/MHRA meetings and ASCO 2026 2.5-year OS precede BLA/MAA filings; H2 2026 Ph3, 3-year OS, decisions. 06/02/26:- 2.5-year OS 75%. FDA/MHRA mtgs Early Jun 2026; 3-year OS Early Q4 2026; Ph3 Late Q3 2026. 06/08/26:- FDA and MHRA aligned on Ph3 design. Ph3 starts Late Q3 2026; potential Q4 2026 decisions. 06/30/26:- Type B FDA meeting requested. Ph2b 3-year OS data readout expected Early Fall 2026.",
-  "catalyst_date": "2026-08-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/06/60181605/os-therapies-provides-u-s-regulatory-update",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18942,
   "company": {
    "ticker": "BIVI",
@@ -1095,7 +1061,7 @@
   "company": {
    "ticker": "UPB",
    "name": "Upstream Bio",
-   "last_price": "6.91",
+   "last_price": "6.93",
    "market_cap": 378467872
   },
   "ticker": "UPB",
@@ -1266,6 +1232,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 18855,
+  "company": {
+   "ticker": "OSTX",
+   "name": "OS Therapies",
+   "last_price": "1.61",
+   "market_cap": 73457576
+  },
+  "ticker": "OSTX",
+  "drug_name": "OST-HER2",
+  "indications": [
+   {
+    "id": 1109,
+    "title": "Osteosarcoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Pediatric lung metastatic osteosarcoma",
+  "stage_event": {
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
+   "event_label": "Data readout"
+  },
+  "note": "05/18/26:- FDA/MHRA meetings and ASCO 2026 2.5-year OS precede BLA/MAA filings; H2 2026 Ph3, 3-year OS, decisions. 06/02/26:- 2.5-year OS 75%. FDA/MHRA mtgs Early Jun 2026; 3-year OS Early Q4 2026; Ph3 Late Q3 2026. 06/08/26:- FDA and MHRA aligned on Ph3 design. Ph3 starts Late Q3 2026; potential Q4 2026 decisions. 06/30/26:- Type B FDA meeting requested. Ph2b 3-year OS data readout expected Early Fall 2026. 08/13/26:- Interim 3-year OS data expected Early September 2026. FDA Type C meeting Mid-September 2026; BLA targeted Year-End 2026.",
+  "catalyst_date": "2026-09-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/61172646/os-therapies-granted-u-s-fda-type-c-statistical-methods-meeting-review-2-5-year-overall-survival-dat",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 13518,
   "company": {
    "ticker": "GSK",
@@ -1387,7 +1387,7 @@
   "company": {
    "ticker": "CCCC",
    "name": "C4 Therapuetics",
-   "last_price": "3.90",
+   "last_price": "4.15",
    "market_cap": 479798048
   },
   "ticker": "CCCC",
@@ -1475,7 +1475,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "120.77",
+   "last_price": "120.58",
    "market_cap": 24479805440
   },
   "ticker": "INCY",
@@ -3101,7 +3101,7 @@
   "company": {
    "ticker": "SANA",
    "name": "Sana Biotechnology",
-   "last_price": "3.77",
+   "last_price": "3.66",
    "market_cap": 1128589568
   },
   "ticker": "SANA",
@@ -4485,7 +4485,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.17",
+   "last_price": "1.16",
    "market_cap": 180766112
   },
   "ticker": "CHRS",
@@ -4597,7 +4597,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.17",
+   "last_price": "1.16",
    "market_cap": 180766112
   },
   "ticker": "CHRS",
@@ -5065,7 +5065,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "5.70",
+   "last_price": "5.39",
    "market_cap": 1171122048
   },
   "ticker": "SVRA",
@@ -5201,7 +5201,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "38.98",
+   "last_price": "38.01",
    "market_cap": 6764003328
   },
   "ticker": "COGT",
@@ -5941,7 +5941,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "38.98",
+   "last_price": "38.01",
    "market_cap": 6764003328
   },
   "ticker": "COGT",
@@ -6371,7 +6371,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "5.33",
+   "last_price": "5.30",
    "market_cap": 873280768
   },
   "ticker": "ANNX",
@@ -6889,7 +6889,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "63.67",
+   "last_price": "64.40",
    "market_cap": 25419350016
   },
   "ticker": "MRNA",
@@ -7938,7 +7938,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "5.33",
+   "last_price": "5.30",
    "market_cap": 873280768
   },
   "ticker": "ANNX",
@@ -8411,7 +8411,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "11.77",
+   "last_price": "11.86",
    "market_cap": 2376901120
   },
   "ticker": "SLS",
@@ -9343,7 +9343,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "120.77",
+   "last_price": "120.58",
    "market_cap": 24479805440
   },
   "ticker": "INCY",
@@ -9415,40 +9415,6 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/03/3337358/0/en/krystal-biotech-announces-second-quarter-2026-financial-and-operating-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 17466,
-  "company": {
-   "ticker": "CGEM",
-   "name": "Cullinan Management",
-   "last_price": "19.60",
-   "market_cap": 1204577792
-  },
-  "ticker": "CGEM",
-  "drug_name": "Zipalertinib",
-  "indications": [
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "Non-small cell lung carcinoma (NSCLC)",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "REZILIENT3 trial: w/ Taiho Oncology. 8/3/23- Initiated trial. 5/8/25- Enrollment continues. 8/7/25- To complete enrollment by H1 2026. 11/06/25:- Partner expects REZILIENT3 Ph3 enrollment to complete in H1 2026. 03/10/26:- REZILIENT3 Ph3 frontline NSCLC enrollment completed; Taiho expects top-line results by Q4 2026. 05/07/26:- REZILIENT3 Ph3 enrollment completion reiterated; Taiho continues to expect top-line results by end of 2026. 08/06/26:- REZILIENT3 enrollment complete; top-line results expected by end of 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340069/0/en/cullinan-therapeutics-provides-corporate-update-and-reports-second-quarter-2026-financial-results.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -9860,7 +9826,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "76.03",
+   "last_price": "76.95",
    "market_cap": 2568751872
   },
   "ticker": "NKTR",
@@ -10177,7 +10143,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "63.67",
+   "last_price": "64.40",
    "market_cap": 25419350016
   },
   "ticker": "MRNA",
@@ -10883,7 +10849,7 @@
   "company": {
    "ticker": "VYGR",
    "name": "Voyager Therapeutics",
-   "last_price": "3.20",
+   "last_price": "3.22",
    "market_cap": 197177440
   },
   "ticker": "VYGR",
@@ -12242,7 +12208,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "63.67",
+   "last_price": "64.40",
    "market_cap": 25419350016
   },
   "ticker": "MRNA",
@@ -13395,7 +13361,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "2.85",
+   "last_price": "2.75",
    "market_cap": 464706176
   },
   "ticker": "CABA",
@@ -14439,7 +14405,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "120.77",
+   "last_price": "120.58",
    "market_cap": 24479805440
   },
   "ticker": "INCY",
@@ -15168,7 +15134,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "63.67",
+   "last_price": "64.40",
    "market_cap": 25419350016
   },
   "ticker": "MRNA",
@@ -16150,7 +16116,7 @@
   "company": {
    "ticker": "SANA",
    "name": "Sana Biotechnology",
-   "last_price": "3.77",
+   "last_price": "3.66",
    "market_cap": 1128589568
   },
   "ticker": "SANA",
@@ -16637,7 +16603,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "120.77",
+   "last_price": "120.58",
    "market_cap": 24479805440
   },
   "ticker": "INCY",
@@ -17002,7 +16968,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "27.99",
+   "last_price": "26.96",
    "market_cap": 3179037952
   },
   "ticker": "IMNM",
@@ -17794,7 +17760,7 @@
   "company": {
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
-   "last_price": "53.48",
+   "last_price": "55.02",
    "market_cap": 2497805312
   },
   "ticker": "COAG",
@@ -17862,7 +17828,7 @@
   "company": {
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
-   "last_price": "53.48",
+   "last_price": "55.02",
    "market_cap": 2497805312
   },
   "ticker": "COAG",
@@ -18173,7 +18139,7 @@
   "company": {
    "ticker": "DYN",
    "name": "Dyne Therapeutics",
-   "last_price": "26.17",
+   "last_price": "26.26",
    "market_cap": 4887154176
   },
   "ticker": "DYN",
@@ -18689,7 +18655,7 @@
   "company": {
    "ticker": "DYN",
    "name": "Dyne Therapeutics",
-   "last_price": "26.17",
+   "last_price": "26.26",
    "market_cap": 4887154176
   },
   "ticker": "DYN",
@@ -19677,7 +19643,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "27.99",
+   "last_price": "26.96",
    "market_cap": 3179037952
   },
   "ticker": "IMNM",
@@ -20203,7 +20169,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "11.48",
+   "last_price": "11.43",
    "market_cap": 620519168
   },
   "ticker": "FDMT",
@@ -20495,7 +20461,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "45.13",
+   "last_price": "45.93",
    "market_cap": 3130506496
   },
   "ticker": "QURE",
@@ -21882,7 +21848,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "21.78",
+   "last_price": "21.75",
    "market_cap": 1945806080
   },
   "ticker": "KARD",
@@ -21916,7 +21882,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "21.78",
+   "last_price": "21.75",
    "market_cap": 1945806080
   },
   "ticker": "KARD",
@@ -21950,7 +21916,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "21.78",
+   "last_price": "21.75",
    "market_cap": 1945806080
   },
   "ticker": "KARD",
@@ -22179,7 +22145,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "2.85",
+   "last_price": "2.75",
    "market_cap": 464706176
   },
   "ticker": "CABA",
@@ -22773,7 +22739,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "33.55",
+   "last_price": "33.13",
    "market_cap": 3968532992
   },
   "ticker": "VKTX",
@@ -23240,7 +23206,7 @@
   "company": {
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
-   "last_price": "13.37",
+   "last_price": "13.52",
    "market_cap": 1134372736
   },
   "ticker": "EYPT",
@@ -23829,7 +23795,7 @@
   "company": {
    "ticker": "UPB",
    "name": "Upstream Bio",
-   "last_price": "6.91",
+   "last_price": "6.93",
    "market_cap": 378467872
   },
   "ticker": "UPB",
@@ -24150,7 +24116,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "76.03",
+   "last_price": "76.95",
    "market_cap": 2568751872
   },
   "ticker": "NKTR",
@@ -25609,7 +25575,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "76.03",
+   "last_price": "76.95",
    "market_cap": 2568751872
   },
   "ticker": "NKTR",
@@ -25682,7 +25648,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "5.19",
+   "last_price": "5.18",
    "market_cap": 328015840
   },
   "ticker": "IMRX",
@@ -26587,7 +26553,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "11.77",
+   "last_price": "11.86",
    "market_cap": 2376901120
   },
   "ticker": "SLS",
@@ -27293,7 +27259,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "5.19",
+   "last_price": "5.18",
    "market_cap": 328015840
   },
   "ticker": "IMRX",
@@ -27590,7 +27556,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "2.85",
+   "last_price": "2.75",
    "market_cap": 464706176
   },
   "ticker": "CABA",
@@ -27746,7 +27712,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "205.26",
+   "last_price": "204.21",
    "market_cap": 43994689536
   },
   "ticker": "RVMD",
@@ -27795,7 +27761,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "205.26",
+   "last_price": "204.21",
    "market_cap": 43994689536
   },
   "ticker": "RVMD",
@@ -28062,6 +28028,40 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60440831/biogen-presents-phase-2-celia-data-aaic-demonstrating-meaningful-clinical-outcomes-and-robust-tau-re",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 17466,
+  "company": {
+   "ticker": "CGEM",
+   "name": "Cullinan Management",
+   "last_price": "19.60",
+   "market_cap": 1204577792
+  },
+  "ticker": "CGEM",
+  "drug_name": "Zipalertinib",
+  "indications": [
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   }
+  ],
+  "indications_text": "Non-small cell lung carcinoma (NSCLC)",
+  "stage_event": {
+   "id": 80,
+   "label": "Phase 3 Update",
+   "stage_label": "Phase 3",
+   "event_label": "Update"
+  },
+  "note": "REZILIENT3 trial: w/ Taiho Oncology. 8/3/23- Initiated trial. 5/8/25- Enrollment continues. 8/7/25- To complete enrollment by H1 2026. 11/06/25:- Partner expects REZILIENT3 Ph3 enrollment to complete in H1 2026. 03/10/26:- REZILIENT3 Ph3 frontline NSCLC enrollment completed; Taiho expects top-line results by Q4 2026. 05/07/26:- REZILIENT3 Ph3 enrollment completion reiterated; Taiho continues to expect top-line results by end of 2026. 08/06/26:- REZILIENT3 enrollment complete; top-line results expected by end of 2026. 08/12/26:- REZILIENT3 interim analysis met PFS endpoint; unblinding recommended. Full results to be presented at a conference.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61163388/zipalertinib-plus-chemotherapy-meets-primary-endpoint-progression-free-survival-planned-interim-anal",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28361,7 +28361,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "3.85",
+   "last_price": "3.73",
    "market_cap": 1229655296
   },
   "ticker": "MNKD",
@@ -28512,7 +28512,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "45.13",
+   "last_price": "45.93",
    "market_cap": 3130506496
   },
   "ticker": "QURE",
@@ -28551,7 +28551,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "45.13",
+   "last_price": "45.93",
    "market_cap": 3130506496
   },
   "ticker": "QURE",
@@ -28906,7 +28906,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "3.85",
+   "last_price": "3.73",
    "market_cap": 1229655296
   },
   "ticker": "MNKD",
@@ -29627,7 +29627,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "38.98",
+   "last_price": "38.01",
    "market_cap": 6764003328
   },
   "ticker": "COGT",
@@ -30570,7 +30570,7 @@
   "company": {
    "ticker": "BMRN",
    "name": "Biomarin Pharmaceutical Inc.",
-   "last_price": "70.24",
+   "last_price": "69.10",
    "market_cap": 13596620800
   },
   "ticker": "BMRN",
@@ -31144,7 +31144,7 @@
   "company": {
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
-   "last_price": "205.26",
+   "last_price": "204.21",
    "market_cap": 43994689536
   },
   "ticker": "RVMD",
@@ -31183,7 +31183,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "120.77",
+   "last_price": "120.58",
    "market_cap": 24479805440
   },
   "ticker": "INCY",

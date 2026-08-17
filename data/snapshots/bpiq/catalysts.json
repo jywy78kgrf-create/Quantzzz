@@ -39,6 +39,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19716,
+  "company": {
+   "ticker": "CNTB",
+   "name": "Connect Biopharma",
+   "last_price": "2.55",
+   "market_cap": 160584480
+  },
+  "ticker": "CNTB",
+  "drug_name": "Rademikibart (CBP-201) (IL-4R\u03b1 Antibody)",
+  "indications": [
+   {
+    "id": 807,
+    "title": "Respiratory conditions",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Acute Bronchoconstriction",
+  "stage_event": {
+   "id": 119,
+   "label": "Phase 1b Update",
+   "stage_label": "Phase 1b",
+   "event_label": "Update"
+  },
+  "note": "01/12/26:- IV rademikibart airway function study enrolling; topline results in Q1 2026. 03/30/26:- Positive topline preliminary Ph1 IV study results reported; rapid FEV1 improvements maintained to Day 29. 03/31/26:- Phase 1 IV airway function study showed rapid 200\u2013400 mL FEV1 gains through Day 29 with good tolerability. 05/12/26:- Ph1 IV pharmacology data reiterated; shows rapid, durable FEV1 gains and bronchodilation. 08/12/26:- PR No update.",
+  "catalyst_date": "2026-03-31",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 14182,
   "company": {
    "ticker": "ZYME",
@@ -410,152 +444,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 18578,
-  "company": {
-   "ticker": "VALN",
-   "name": "Valneva SE",
-   "last_price": "7.13",
-   "market_cap": 728113024
-  },
-  "ticker": "VALN",
-  "drug_name": "Shigella4V2 (S4V2) ",
-  "indications": [
-   {
-    "id": 2292,
-    "title": "Nasolabial fold lines",
-    "nickname": ""
-   },
-   {
-    "id": 2290,
-    "title": "Shigella",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Prevention of shigellosis",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Partnership w/ LimmaTech. 11/13/24- First patient dosed. Conduct a Ph2 pediatric study in Low- and Middle-Income Countries expected to begin before the end of 2024. 4/9/25- First vaccination in Ph2 Infant Study. Topline data in H2 2025. 11/20/25:- Two Ph2 trials ongoing (infant and Ph2b CHIM); further development contingent on positive results. 02/19/26:- First Ph2 S4V2 data to guide program; development decision anticipated in H2 2026. 03/18/26:- Two Ph2 trials ongoing; first Ph2 results expected Mid-2026 with development decision in H2 2026. 05/13/26:- Two Ph2 S4V2 trials ongoing; first Ph2 results still expected Mid-2026; Valneva to assume development if positive.",
-  "catalyst_date": "2026-08-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/13/3293636/0/en/Valneva-Reports-First-Quarter-2026-Financial-Results-and-Prov",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 18881,
-  "company": {
-   "ticker": "CLRB",
-   "name": "Cellectar Biosciences",
-   "last_price": "2.60",
-   "market_cap": 20778710
-  },
-  "ticker": "CLRB",
-  "drug_name": "CLR 121125",
-  "indications": [
-   {
-    "id": 995,
-    "title": "Triple-negative breast cancer ",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Triple-negative breast cancer",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "05/14/26:- First patients dosed; dosimetry, safety and efficacy updates expected Q2 and Mid-2026.",
-  "catalyst_date": "2026-08-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3294782/29076/en/cellectar-biosciences-reports-first-quarter-2026-financial-results-and-provides-corporate-updates.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 18888,
-  "company": {
-   "ticker": "PYXS",
-   "name": "Pyxis Oncology",
-   "last_price": "3.01",
-   "market_cap": 190700000
-  },
-  "ticker": "PYXS",
-  "drug_name": "Micvotabart pelidotin (MICVO, formerly PYX-201)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1040,
-    "title": "Head and neck squamous cell carcinoma",
-    "nickname": "HNSCC"
-   }
-  ],
-  "indications_text": "Cancer, 2L/3L R/M HNSCC [Arms: EGFRi+PD(L)-1-experienced; platinum/PD(L)-1-experienced]",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "PYX-201-101 trial. 11/3/25- Preliminary clinical data in Q4 2025. 11/03/25:- Q4 25 prelim mono Ph1 data 12/18/25:- New Ph1 monotherapy data in 2L+ R/M HNSCC; updated durability data planned Mid-2026. 03/23/26:- Ph1 mono expansion enrollment completed; updated 2L+ HNSCC data mid-2026; preclinical maMICVO AACR 2026 data upcoming. 05/14/26:- Mid-2026 MICVO monotherapy Ph1 2L+ R/M HNSCC update on track; AACR 2026 maMICVO combo data presented.",
-  "catalyst_date": "2026-08-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3294764/0/en/pyxis-oncology-reports-first-quarter-2026-financial-results-and-advances-micvo-toward-key-2026-clinical-milestones.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 19077,
-  "company": {
-   "ticker": "CLRB",
-   "name": "Cellectar Biosciences",
-   "last_price": "2.60",
-   "market_cap": 20778710
-  },
-  "ticker": "CLRB",
-  "drug_name": "CLR 125",
-  "indications": [
-   {
-    "id": 995,
-    "title": "Triple-negative breast cancer ",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Triple-negative breast cancer",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "05/14/26:- First patients dosed; dosimetry, safety and efficacy updates expected Q2 and Mid-2026.",
-  "catalyst_date": "2026-08-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3294782/29076/en/cellectar-biosciences-reports-first-quarter-2026-financial-results-and-provides-corporate-updates.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 19119,
   "company": {
    "ticker": "AVBP",
@@ -652,10 +540,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "HOPE-2/HOPE-3 trials. 3/4/25- BLA accepted & priority review. PDUFA date August 31, 2025. 7/11/25- CRL received. 9/9/25- Responded to FDA CRL posting. 9/25/25- HOPE-3 trial completed. 12/3/25\u2013 HOPE-3 met primary and key cardiac endpoints. 01/20/26:- FDA requested HOPE-3 CSR; company plans BLA resubmission in February 2026 to enable new PDUFA. 02/24/26:- HOPE-3 CSR submitted; FDA BLA review ongoing. Detailed HOPE-3 results to be presented at MDA on March 11, 2026. 03/10/26:- FDA resumed BLA review; Class 2 resubmission. PDUFA action date set for August 22, 2026. 03/12/26:- HOPE-3 late-breaking MDA 2026 data show significant functional and cardiac benefits; BLA review ongoing, PDUFA August 22, 2026. 04/22/26:- HOPE-3 Phase 3 data presented at AAN 2026. PDUFA action date remains August 22, 2026. 05/12/26:- PDUFA August 22, 2026 confirmed; labeling talks expected soon; HOPE-3 data strengthened cardiac and functional outcomes. 06/26/26:- Five-year HOPE-2 OLE data presented at PPMD June 27. PDUFA action date remains August 22, 2026. 07/27/26:- FDA Adcomm upcoming for Deramiocel BLA; company defends HOPE-3 analysis. PDUFA Aug 22, 2026. 07/30/26:- Adcomm voted 9-3 against cardiomyopathy effectiveness; PDUFA remains August 22, 2026.",
+  "note": "HOPE-2/HOPE-3 trials. 3/4/25- BLA accepted & priority review. PDUFA date August 31, 2025. 7/11/25- CRL received. 9/9/25- Responded to FDA CRL posting. 9/25/25- HOPE-3 trial completed. 12/3/25\u2013 HOPE-3 met primary and key cardiac endpoints. 01/20/26:- FDA requested HOPE-3 CSR; company plans BLA resubmission in February 2026 to enable new PDUFA. 02/24/26:- HOPE-3 CSR submitted; FDA BLA review ongoing. Detailed HOPE-3 results to be presented at MDA on March 11, 2026. 03/10/26:- FDA resumed BLA review; Class 2 resubmission. PDUFA action date set for August 22, 2026. 03/12/26:- HOPE-3 late-breaking MDA 2026 data show significant functional and cardiac benefits; BLA review ongoing, PDUFA August 22, 2026. 04/22/26:- HOPE-3 Phase 3 data presented at AAN 2026. PDUFA action date remains August 22, 2026. 05/12/26:- PDUFA August 22, 2026 confirmed; labeling talks expected soon; HOPE-3 data strengthened cardiac and functional outcomes. 06/26/26:- Five-year HOPE-2 OLE data presented at PPMD June 27. PDUFA action date remains August 22, 2026. 07/27/26:- FDA Adcomm upcoming for Deramiocel BLA; company defends HOPE-3 analysis. PDUFA Aug 22, 2026. 07/30/26:- Adcomm voted 9-3 against cardiomyopathy effectiveness; PDUFA remains August 22, 2026. 08/13/26:- HOPE-3 results were published; BLA remains under FDA review. PDUFA decision will occur August 22, 2026.",
   "catalyst_date": "2026-08-22",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3336165/0/en/capricor-therapeutics-provides-update-on-fda-advisory-committee-meeting-for-deramiocel.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344927/0/en/capricor-therapeutics-reports-second-quarter-2026-financial-results-and-provides-corporate-update.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -846,40 +734,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 14275,
-  "company": {
-   "ticker": "LGVN",
-   "name": "Longeveron Inc",
-   "last_price": "0.74",
-   "market_cap": 23379324
-  },
-  "ticker": "LGVN",
-  "drug_name": "Lomecel-B (laromestrocel)",
-  "indications": [
-   {
-    "id": 730,
-    "title": "Hypoplastic Left Heart Syndrome",
-    "nickname": "HLHS"
-   }
-  ],
-  "indications_text": "Hypoplastic Left Heart Syndrome",
-  "stage_event": {
-   "id": 146,
-   "label": "Phase 2b Data readout",
-   "stage_label": "Phase 2b",
-   "event_label": "Data readout"
-  },
-  "note": "05/13/26:- ELPIS II topline results remain expected in August 2026.",
-  "catalyst_date": "2026-08-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/13/3294435/0/en/longeveron-announces-2026-first-quarter-financial-results-and-provides-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 15294,
@@ -1192,10 +1046,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "Seabreeze STAT Asthma Ph2 Study. 5/13/25- Seabreeze STAT asthma initiated. 6/13/25- Supporting data presented at EAACI'25. Topline data in H1 2026. 11/12/25:- Presented new Ph2 asthma analyses at ERS 2025; Seabreeze STAT asthma recruitment ongoing; topline data H1 2026. 01/12/26:- New MOA data; Seabreeze STAT asthma recruitment ongoing; topline adjunct data now expected in Mid-2026. 03/31/26:- Seabreeze STAT asthma Ph2 recruitment ongoing; topline adjunct data expected mid-2026. 04/23/26:- DMC interim efficacy review completed; no sample size change. Seabreeze STAT topline data still expected Mid-2026. 05/12/26:- DMC review supports Seabreeze STAT asthma; enrollment ongoing; topline adjunct data expected mid-2026; plan post-topline FDA meeting. 06/17/26:- Seabreeze STAT Asthma enrollment completed; topline data expected in Early September 2026. FDA Ph3 meeting planned later 2026.",
+  "note": "Seabreeze STAT Asthma Ph2 Study. 5/13/25- Seabreeze STAT asthma initiated. 6/13/25- Supporting data presented at EAACI'25. Topline data in H1 2026. 11/12/25:- Presented new Ph2 asthma analyses at ERS 2025; Seabreeze STAT asthma recruitment ongoing; topline data H1 2026. 01/12/26:- New MOA data; Seabreeze STAT asthma recruitment ongoing; topline adjunct data now expected in Mid-2026. 03/31/26:- Seabreeze STAT asthma Ph2 recruitment ongoing; topline adjunct data expected mid-2026. 04/23/26:- DMC interim efficacy review completed; no sample size change. Seabreeze STAT topline data still expected Mid-2026. 05/12/26:- DMC review supports Seabreeze STAT asthma; enrollment ongoing; topline adjunct data expected mid-2026; plan post-topline FDA meeting. 06/17/26:- Seabreeze STAT Asthma enrollment completed; topline data expected in Early September 2026. FDA Ph3 meeting planned later 2026. 08/12/26:- Seabreeze STAT Asthma enrollment completed. Topline data will be reported in September 2026. FDA meeting will follow topline results.",
   "catalyst_date": "2026-09-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/17/3313482/0/en/connect-biopharma-announces-completion-of-enrollment-of-phase-2-seabreeze-stat-asthma-study-evaluating-rademikibart-for-the-treatment-of-acute-exacerbations-in-asthma.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344061/0/en/connect-biopharma-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1499,10 +1353,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "05/14/26:- sBCC sNDA acceptance and September 28, 2026 PDUFA date reiterated.",
+  "note": "05/14/26:- sBCC sNDA acceptance and September 28, 2026 PDUFA date reiterated. 08/13/26:- PDUFA decision remains due September 28, 2026. Launch is expected in Q1 2027 if approved.",
   "catalyst_date": "2026-09-28",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3294804/0/en/Biofrontera-Inc-Reports-First-Quarter-2026-Financial-Results-and-Provides-a-Business-Update.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344531/0/en/biofrontera-inc-reports-strong-second-quarter-2026-financial-results-driven-by-33-revenue-growth.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1654,6 +1508,74 @@
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260807011647/en/Scholar-Rock-Announces-FDA-Review-of-Apitegromab-Biologics-License-Application-BLA-for-Spinal-Muscular-Atrophy-SMA-to-Progress-with-Second-Fill-Finish-Facility-Approval-Decision-Anticipated-by-September-30-2026-Action-Date",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 14101,
+  "company": {
+   "ticker": "VTGN",
+   "name": "VistaGen Therapeutics",
+   "last_price": "0.27",
+   "market_cap": 11875262
+  },
+  "ticker": "VTGN",
+  "drug_name": "Fasedienol (PH94B)",
+  "indications": [
+   {
+    "id": 780,
+    "title": "Social Anxiety Disorder",
+    "nickname": "SAD"
+   }
+  ],
+  "indications_text": "Social Anxiety Disorder",
+  "stage_event": {
+   "id": 80,
+   "label": "Phase 3 Update",
+   "stage_label": "Phase 3",
+   "event_label": "Update"
+  },
+  "note": "06/16/26:- PALISADE-4 completed; data June 2026. Repeat-dose data Q3 2026; ICH E1 met; OLE positive. 06/30/26:- PALISADE-4 missed endpoints; post-hoc signal in very severe SAD. Plans FDA meeting; future multi-dose Ph3. 08/06/26:- Topline exploratory Ph2 repeat-dose study showed favorable safety; efficacy signals, including very severe SAD. 08/14/26:- PALISADE-3 OLE showed favorable preliminary safety and exploratory efficacy. FDA engagement on future Ph3 path is expected in Q3 2026.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345334/0/en/vistagen-reports-fiscal-year-2027-first-quarter-financial-results-and-corporate-update.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 14275,
+  "company": {
+   "ticker": "LGVN",
+   "name": "Longeveron Inc",
+   "last_price": "0.74",
+   "market_cap": 23379324
+  },
+  "ticker": "LGVN",
+  "drug_name": "Lomecel-B (laromestrocel)",
+  "indications": [
+   {
+    "id": 730,
+    "title": "Hypoplastic Left Heart Syndrome",
+    "nickname": "HLHS"
+   }
+  ],
+  "indications_text": "Hypoplastic Left Heart Syndrome",
+  "stage_event": {
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
+   "event_label": "Data readout"
+  },
+  "note": "05/13/26:- ELPIS II topline results remain expected in August 2026. 08/12/26:- ELPIS II Ph2b topline results are expected in September 2026; final DMC review found no safety concerns.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344055/0/en/longeveron-announces-2026-second-quarter-financial-results-and-provides-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2142,10 +2064,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "DAYBREAK study: Ph3 study use an enhanced formulation of KSI-501. Initiate in mid-2024. 8/14/24- Enrollment ongoing. 3/27/25- Announce topline data in Q2 2026 11/13/25:- DAYBREAK enrollment completed. Last visit Aug 2026; KSI-501 wet AMD Ph3 topline data expected Q3 2026. 03/26/26:- DAYBREAK topline wet AMD data expected Q3 2026; potential BLA submission after readout. 03/31/26:- DAYBREAK wet AMD enrolled ~690 patients; topline remains expected in Q3 2026 (September 2026). 05/07/26:- DAYBREAK Phase 3 fully enrolled; September 2026 one-year topline wet AMD data still expected.",
+  "note": "DAYBREAK study: Ph3 study use an enhanced formulation of KSI-501. Initiate in mid-2024. 8/14/24- Enrollment ongoing. 3/27/25- Announce topline data in Q2 2026 11/13/25:- DAYBREAK enrollment completed. Last visit Aug 2026; KSI-501 wet AMD Ph3 topline data expected Q3 2026. 03/26/26:- DAYBREAK topline wet AMD data expected Q3 2026; potential BLA submission after readout. 03/31/26:- DAYBREAK wet AMD enrolled ~690 patients; topline remains expected in Q3 2026 (September 2026). 05/07/26:- DAYBREAK Phase 3 fully enrolled; September 2026 one-year topline wet AMD data still expected. 08/13/26:- DAYBREAK one-year Phase 3 topline data for KSI-501 will be reported in September 2026.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/kodiak-sciences-announces-recent-business-highlights-and-first-quarter-2026-financial-results-302766182.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/kodiak-sciences-announces-recent-business-highlights-and-second-quarter-2026-financial-results-302851311.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2376,15 +2298,54 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- HALT-CINP enrolled 164 patients; Ph2b top-line results remain expected Fall 2026. 05/18/26:- Ph2b 12-week extension began. Topline results still expected Fall 2026. Ph3 start projected H1 2027. 07/20/26:- HAL-CINP (NCT06848348) enrolled 200; unblinded review showed placebo separation. Topline data still expected Fall 2026.",
+  "note": "05/14/26:- HALT-CINP enrolled 164 patients; Ph2b top-line results remain expected Fall 2026. 05/18/26:- Ph2b 12-week extension began. Topline results still expected Fall 2026. Ph3 start projected H1 2027. 07/20/26:- HAL-CINP (NCT06848348) enrolled 200; unblinded review showed placebo separation. Topline data still expected Fall 2026. 08/13/26:- Halneuron Phase 2b CINP study enrolled 217 patients. Topline results remain expected Fall 2026. A 12-week extension study began.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/20/3329712/0/en/dogwood-enrolls-first-200-patients-in-ongoing-halneuron-phase-2b-chemotherapy-induced-neuropathy-trial-top-line-data-expected-in-fall-2026.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344496/0/en/dogwood-therapeutics-announces-second-quarter-2026-financial-results.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 18578,
+  "company": {
+   "ticker": "VALN",
+   "name": "Valneva SE",
+   "last_price": "7.13",
+   "market_cap": 728113024
+  },
+  "ticker": "VALN",
+  "drug_name": "Shigella4V2 (S4V2) ",
+  "indications": [
+   {
+    "id": 2292,
+    "title": "Nasolabial fold lines",
+    "nickname": ""
+   },
+   {
+    "id": 2290,
+    "title": "Shigella",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Prevention of shigellosis",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Partnership w/ LimmaTech. 11/13/24- First patient dosed. Conduct a Ph2 pediatric study in Low- and Middle-Income Countries expected to begin before the end of 2024. 4/9/25- First vaccination in Ph2 Infant Study. Topline data in H2 2025. 11/20/25:- Two Ph2 trials ongoing (infant and Ph2b CHIM); further development contingent on positive results. 02/19/26:- First Ph2 S4V2 data to guide program; development decision anticipated in H2 2026. 03/18/26:- Two Ph2 trials ongoing; first Ph2 results expected Mid-2026 with development decision in H2 2026. 05/13/26:- Two Ph2 S4V2 trials ongoing; first Ph2 results still expected Mid-2026; Valneva to assume development if positive. 08/13/26:- Phase 2 infant and Phase 2b CHIM trial results are expected in Q3 2026. Development next steps will follow results.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344207/0/en/valneva-reports-half-year-2026-financial-results-and-provides-corporate-updates.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18597,
@@ -2590,10 +2551,10 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- LUMUS Ph2b SLE topline data remains expected in Q3 2026.",
+  "note": "05/14/26:- LUMUS Ph2b SLE topline data remains expected in Q3 2026. 08/13/26:- LUMUS Ph2b SLE topline data remains expected in Q3 2026.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3295336/0/en/alumis-reports-first-quarter-2026-financial-results-and-highlights-recent-achievements.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/03/28/3264196/0/en/alumis-envudeucitinib-delivers-early-and-robust-improvements-in-skin-clearance-quality-of-life-and-psoriasis-symptoms-in-two-phase-3-trials-underscoring-its-potential-as-a-leading-.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2624,10 +2585,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "Seabreeze STAT COPD Study. 5/14/25- Ph2 Seabreeze STAT COPD initiated. 6/13/25- Supporting data presented at EAACI'25. 9/29/25- Supporting data presented at ERS'25. Topline data in H1 2026. 11/12/25:- Phase 2 Seabreeze STAT COPD enrollment ongoing; topline adjunct data expected in H1 2026. 01/12/26:- New MOA data; Seabreeze STAT COPD recruitment ongoing; topline adjunct data now expected in Mid-2026. 03/31/26:- Seabreeze STAT COPD Ph2 recruitment ongoing; topline adjunct data expected mid-2026. 04/23/26:- DMC interim efficacy review completed; no sample size change. Seabreeze STAT COPD topline data still expected Mid-2026. 05/12/26:- DMC review supports Seabreeze STAT COPD; enrollment ongoing; topline adjunct data expected mid-2026; plan post-topline FDA meeting. 06/17/26:- Seabreeze STAT COPD enrollment expected complete June 2026; topline data expected soon after Early September 2026; FDA meeting later 2026.",
+  "note": "Seabreeze STAT COPD Study. 5/14/25- Ph2 Seabreeze STAT COPD initiated. 6/13/25- Supporting data presented at EAACI'25. 9/29/25- Supporting data presented at ERS'25. Topline data in H1 2026. 11/12/25:- Phase 2 Seabreeze STAT COPD enrollment ongoing; topline adjunct data expected in H1 2026. 01/12/26:- New MOA data; Seabreeze STAT COPD recruitment ongoing; topline adjunct data now expected in Mid-2026. 03/31/26:- Seabreeze STAT COPD Ph2 recruitment ongoing; topline adjunct data expected mid-2026. 04/23/26:- DMC interim efficacy review completed; no sample size change. Seabreeze STAT COPD topline data still expected Mid-2026. 05/12/26:- DMC review supports Seabreeze STAT COPD; enrollment ongoing; topline adjunct data expected mid-2026; plan post-topline FDA meeting. 06/17/26:- Seabreeze STAT COPD enrollment expected complete June 2026; topline data expected soon after Early September 2026; FDA meeting later 2026. 08/12/26:- Seabreeze STAT COPD enrollment completed. Topline data will be reported in September 2026. FDA meeting will follow topline results.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/17/3313482/0/en/connect-biopharma-announces-completion-of-enrollment-of-phase-2-seabreeze-stat-asthma-study-evaluating-rademikibart-for-the-treatment-of-acute-exacerbations-in-asthma.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344061/0/en/connect-biopharma-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -3198,10 +3159,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/15/26:- PR No update. 05/26/26:- NCT06207370 enrolled first patient; minimum interim-analysis enrollment expected Early July 2026. Interim analyses date to follow. 07/29/26:- NCT06207370 minimum 24 patients enrolled; interim analysis results due by October 6, 2026. FDA meeting planned after interim.",
+  "note": "05/15/26:- PR No update. 05/26/26:- NCT06207370 enrolled first patient; minimum interim-analysis enrollment expected Early July 2026. Interim analyses date to follow. 07/29/26:- NCT06207370 minimum 24 patients enrolled; interim analysis results due by October 6, 2026. FDA meeting planned after interim. 08/14/26:- PR No update.",
   "catalyst_date": "2026-10-06",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/29/3335549/0/en/60-degrees-pharmaceuticals-announces-minimum-enrollment-achieved-in-hospitalized-babesiosis-study-interim-data-readout-planned-by-october-6-2026.html",
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -4442,6 +4403,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 20549,
+  "company": {
+   "ticker": "EIKN",
+   "name": "Eikon Therapeutics",
+   "last_price": "11.05",
+   "market_cap": 598523584
+  },
+  "ticker": "EIKN",
+  "drug_name": "EIK1001",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   }
+  ],
+  "indications_text": "Stage 4 NSCLC",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "5/3/26:- TeLuRide-005 Ph2 in 1L Stage 4 NSCLC completed enrollment; updated ORR/DCR data presented at ASCO 2026. TeLuRide-008 Ph2/3 FPD expected 2H 2026. 07/20/26:- ESMO 2026 to present TeLuRide-005 squamous cohort and pooled results; TeLuRide-008 trial highlighted. 07/27/26:- TeLuRide-008 Ph2/3 first patient dosed (NCT07365319). 08/13/26:- TeLuRide-005 full combination data will be presented October 26, 2026. TeLuRide-008 Ph2/3 is ongoing.",
+  "catalyst_date": "2026-10-26",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344893/0/en/eikon-therapeutics-reports-second-quarter-2026-financial-results-and-provides-clinical-updates.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 16243,
   "company": {
    "ticker": "INO",
@@ -4993,6 +4993,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 17004,
+  "company": {
+   "ticker": "ANNX",
+   "name": "Annexon Inc.",
+   "last_price": "5.29",
+   "market_cap": 866727040
+  },
+  "ticker": "ANNX",
+  "drug_name": "ANX1502",
+  "indications": [
+   {
+    "id": 1272,
+    "title": "Autoimmune disease",
+    "nickname": ""
+   },
+   {
+    "id": 1201,
+    "title": "Cold agglutinin disease",
+    "nickname": "CAD"
+   }
+  ],
+  "indications_text": "Cold agglutinin disease",
+  "stage_event": {
+   "id": 110,
+   "label": "Phase 1a Data readout",
+   "stage_label": "Phase 1a",
+   "event_label": "Data readout"
+  },
+  "note": "12/20/23- Ph1 results from SAD & MAD study. 3/3/25- Ongoing POC trial expanded dataset to include up to seven patients. Q2 '25- Update on POC trial by YE 2025. 11/10/25:- CAD POC study completion in 2026. 01/12/26:- CAD POC trial PK/PD evaluation ongoing; update and proof-of-concept data anticipated during 2026. 03/30/26:- CAD POC study enrollment ongoing; dosing timing adjusted around food; update on POC results anticipated in 2026. 05/07/26:- Reiterated CAD POC trial ongoing with data and update anticipated in 2026. 08/12/26:- CAD POC dosing completed. POC trial update is anticipated in Fall 2026.",
+  "catalyst_date": "2026-11-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3343464/0/en/annexon-reports-second-quarter-2026-financial-results-business-updates-and-key-anticipated-milestones.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 18598,
   "company": {
    "ticker": "GUTS",
@@ -5030,6 +5069,45 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 18888,
+  "company": {
+   "ticker": "PYXS",
+   "name": "Pyxis Oncology",
+   "last_price": "3.01",
+   "market_cap": 190700000
+  },
+  "ticker": "PYXS",
+  "drug_name": "Micvotabart pelidotin (MICVO, formerly PYX-201)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1040,
+    "title": "Head and neck squamous cell carcinoma",
+    "nickname": "HNSCC"
+   }
+  ],
+  "indications_text": "Cancer, 2L/3L R/M HNSCC [Arms: EGFRi+PD(L)-1-experienced; platinum/PD(L)-1-experienced]",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "PYX-201-101 trial. 11/3/25- Preliminary clinical data in Q4 2025. 11/03/25:- Q4 25 prelim mono Ph1 data 12/18/25:- New Ph1 monotherapy data in 2L+ R/M HNSCC; updated durability data planned Mid-2026. 03/23/26:- Ph1 mono expansion enrollment completed; updated 2L+ HNSCC data mid-2026; preclinical maMICVO AACR 2026 data upcoming. 05/14/26:- Mid-2026 MICVO monotherapy Ph1 2L+ R/M HNSCC update on track; AACR 2026 maMICVO combo data presented. 08/13/26:- Phase 1 PYX-201-101 monotherapy data in 2L+ R/M HNSCC will be reported in Fall 2026.",
+  "catalyst_date": "2026-11-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344366/0/en/pyxis-oncology-reports-second-quarter-2026-financial-results-and-advances-micvo-toward-key-2026-clinical-milestones.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 16626,
@@ -6053,7 +6131,7 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "RAINIER trial. 8/13/24- Initiated Ph1b/2 dose optimization trial. 6/18/25- New data in frontline AML. 9/16/25- 100% remission rate in Cohort 3 reported. Cohort 4 enrolling. Presentation at major medical conference in Q4 2025. 11/06/25:- Across two trials, 89% remission in frontline AML; no CRS observed so far. 12/09/25:- RAINIER Ph1b/2 ASH 2025 poster showed 93% ORR, 87% CR/CRi, no CRS; enrollment ongoing. 03/26/26:- Updated interim RAINIER data: 86% benefit, 79% CR/CRi, 61% CR, 55% MRD-negative; no CRS; four transplants. 05/06/26:- New RAINIER Cohort 5 data: 81% CR/CRi. Complete Ph1b dose optimization and select RP2D in 2026. 05/13/26:- RAINIER on track for completion and Ph2 dose selection by year-end 2026. Updated Cohort 5: 81% CR/CRi, no CRS. Added RAINIER data: 87% clinical benefit, 81% CR/CRi, 65% CR, 52% MRD-negative, no CRS.",
+  "note": "RAINIER trial. 8/13/24- Initiated Ph1b/2 dose optimization trial. 6/18/25- New data in frontline AML. 9/16/25- 100% remission rate in Cohort 3 reported. Cohort 4 enrolling. Presentation at major medical conference in Q4 2025. 11/06/25:- Across two trials, 89% remission in frontline AML; no CRS observed so far. 12/09/25:- RAINIER Ph1b/2 ASH 2025 poster showed 93% ORR, 87% CR/CRi, no CRS; enrollment ongoing. 03/26/26:- Updated interim RAINIER data: 86% benefit, 79% CR/CRi, 61% CR, 55% MRD-negative; no CRS; four transplants. 05/06/26:- New RAINIER Cohort 5 data: 81% CR/CRi. Complete Ph1b dose optimization and select RP2D in 2026. 05/13/26:- RAINIER on track for completion and Ph2 dose selection by year-end 2026. Updated Cohort 5: 81% CR/CRi, no CRS. Added RAINIER data: 87% clinical benefit, 81% CR/CRi, 65% CR, 52% MRD-negative, no CRS. 08/14/26:- Updated RAINIER data showed 87% clinical benefit and 81% remission. Final dose optimization will complete and RP2D will be selected by year-end 2026. Phase 2 regulatory interaction is expected in Q1 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://aptevotherapeutics.gcs-web.com/news-releases",
@@ -6244,10 +6322,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "11/3/23- Data update at SITC'23. 3/18/25- Trial completed. 11/7/25\u2013 Durable responses and ~23mt median OS data via poster at SITC'25. Move to Phase 2 trials planned. 11/14/25:- SITC 2025 data show durable responses and long-term survivors with favorable safety. Further oncology updates expected in 2026. 03/31/26:- SITC 2025 solid tumor data reiterated with >23-month median OS and durable remissions. 04/02/26:- Abstract accepted for ASGCT May 11-15, 2026 poster on cancer and ARDS. 05/12/26:- ASGCT Poster 3371 on May 14, 2026. Solid tumor NCT05108623 shows TH1 activation and tumor responses.",
+  "note": "11/3/23- Data update at SITC'23. 3/18/25- Trial completed. 11/7/25\u2013 Durable responses and ~23mt median OS data via poster at SITC'25. Move to Phase 2 trials planned. 11/14/25:- SITC 2025 data show durable responses and long-term survivors with favorable safety. Further oncology updates expected in 2026. 03/31/26:- SITC 2025 solid tumor data reiterated with >23-month median OS and durable remissions. 04/02/26:- Abstract accepted for ASGCT May 11-15, 2026 poster on cancer and ARDS. 05/12/26:- ASGCT Poster 3371 on May 14, 2026. Solid tumor NCT05108623 shows TH1 activation and tumor responses. 08/13/26:- ASGCT 2026 cancer findings were reiterated. Further oncology updates are expected in 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/12/3292728/0/en/mink-therapeutics-presents-clinical-evidence-that-a-single-off-the-shelf-inkt-cell-product-drives-context-dependent-immune-responses-at-asgct-2026.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344397/0/en/mink-therapeutics-reports-second-quarter-2026-financial-results-and-reports-observations-from-randomized-phase-2-trial-of-agent-797-in-acute-lung-injury.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -6327,10 +6405,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/15/26:- HARMONIC Type C outcome successful; protocol amendments accepted. Additional Ph2 data expected H2 2026. 05/19/26:- FDA supported HARMONIC protocol changes. Additional Ph2 data expected in H2 2026. 06/02/26:- Updated Ph2 HARMONIC data show 8.9-month median PFS in L858R. Dosing extended; more data expected H2 2026.",
+  "note": "05/15/26:- HARMONIC Type C outcome successful; protocol amendments accepted. Additional Ph2 data expected H2 2026. 05/19/26:- FDA supported HARMONIC protocol changes. Additional Ph2 data expected in H2 2026. 06/02/26:- Updated Ph2 HARMONIC data show 8.9-month median PFS in L858R. Dosing extended; more data expected H2 2026. 08/14/26:- HARMONIC data showed 8.9-month L858R median progression-free survival. Additional Phase 2 data is expected in H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260602549826/en/Lantern-Pharma-Reports-HARMONIC-Data-Showing-LP-300-Progression-Free-Survival-Benefit-Deepens-with-Treatment-Duration-in-EGFR-Exon-21-L858R-Lung-Cancer",
+  "catalyst_source": "https://www.businesswire.com/news/home/20260814100282/en/Lantern-Pharma-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -6361,10 +6439,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "INTERCEPT-AD & ALTITUDE-AD trials. 5/8/24- First patient dosed. Presented at AD/PD & AAN'25. 3/26/25- Completed enrollment ahead of schedule. 8/12/25- Topline data in late 2026. 11/17/25- First patient dosed in Ph2 OLE study. 03/03/26:- New ALTITUDE-AD biomarker and brain-delivery data to be presented at AD/PD March 17-21, 2026. 03/17/26:- ALTITUDE-AD enrolled 542; topline results expected Late 2026 (NCT06335173). 03/26/26:- AD/PD and CTAD 2025 presentations showed sabirnetug biomarker responses and recruitment analyses; ALTITUDE-AD topline remains expected Late 2026. 05/12/26:- ALTITUDE-AD topline results for early AD remain expected in Late 2026. 07/07/26:- ALTITUDE-AD patient-perspective findings to be presented at AAIC July 14, 2026; topline still Late 2026. 07/15/26:- AAIC 2026 posters shared ALTITUDE-AD patient-experience data; topline still expected Late 2026.",
+  "note": "INTERCEPT-AD & ALTITUDE-AD trials. 5/8/24- First patient dosed. Presented at AD/PD & AAN'25. 3/26/25- Completed enrollment ahead of schedule. 8/12/25- Topline data in late 2026. 11/17/25- First patient dosed in Ph2 OLE study. 03/03/26:- New ALTITUDE-AD biomarker and brain-delivery data to be presented at AD/PD March 17-21, 2026. 03/17/26:- ALTITUDE-AD enrolled 542; topline results expected Late 2026 (NCT06335173). 03/26/26:- AD/PD and CTAD 2025 presentations showed sabirnetug biomarker responses and recruitment analyses; ALTITUDE-AD topline remains expected Late 2026. 05/12/26:- ALTITUDE-AD topline results for early AD remain expected in Late 2026. 07/07/26:- ALTITUDE-AD patient-perspective findings to be presented at AAIC July 14, 2026; topline still Late 2026. 07/15/26:- AAIC 2026 posters shared ALTITUDE-AD patient-experience data; topline still expected Late 2026. 08/12/26:- ALTITUDE-AD readout preparations continue. Topline results for the Phase 2 trial will be reported in Late 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60464280/acumen-pharmaceuticals-highlights-enhanced-brain-delivery-ebd-program-data-and-early-alzheimer-s-dis",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3343497/0/en/acumen-pharmaceuticals-reports-second-quarter-2026-financial-results-and-business-highlights.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -6400,10 +6478,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "ARCHER, ARCHER II, & ARROW trials. 8/5/24- Dosed in Ph3 trial. 10/17/24- New Ph2 ARCHER data at AAO '24. 7/24/25- Enrollment completed in ARCHER II w/ topline data in H2 2026. 8/8/25- Selected by EMA to participate in PDC pilot. 11/10/25:- Reiterated Ph3 ARCHER II enrollment completed in July. 01/12/26:- GA Investor Day planned March 2026; ARCHER II topline Ph3 GA data expected in H2 2026. 03/30/26:- ARCHER II topline Ph3 GA data expected Q4 2026; March 2026 retina-focused Investor Day held. 05/07/26:- Reiterated ARCHER II Ph3 GA topline data expected Q4 2026. 07/14/26:- ASRS oral presentation July 18, 2026. ARCHER II Phase 3 topline data expected Q4 2026. 08/12/26:- Added Month 24 dual primary endpoint; launched OLE. Month 15 topline and DMC assessment expected Q4 2026.",
+  "note": "ARCHER, ARCHER II, & ARROW trials. 8/5/24- Dosed in Ph3 trial. 10/17/24- New Ph2 ARCHER data at AAO '24. 7/24/25- Enrollment completed in ARCHER II w/ topline data in H2 2026. 8/8/25- Selected by EMA to participate in PDC pilot. 11/10/25:- Reiterated Ph3 ARCHER II enrollment completed in July. 01/12/26:- GA Investor Day planned March 2026; ARCHER II topline Ph3 GA data expected in H2 2026. 03/30/26:- ARCHER II topline Ph3 GA data expected Q4 2026; March 2026 retina-focused Investor Day held. 05/07/26:- Reiterated ARCHER II Ph3 GA topline data expected Q4 2026. 07/14/26:- ASRS oral presentation July 18, 2026. ARCHER II Phase 3 topline data expected Q4 2026. 08/12/26:- Added Month 24 dual primary endpoint; launched OLE. Month 15 topline and DMC assessment expected Q4 2026. 08/12/26:- ARCHER II Month 15 primary endpoint is expected in Q4 2026. Final trial completion with the Month 24 endpoint is expected in Q3 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3343458/0/en/annexon-expands-vonaprument-phase-3-program-in-geographic-atrophy-with-addition-of-month-24-dual-primary-endpoint-complementing-month-15-primary-endpoint-and-launch-of-open-label-e.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3343464/0/en/annexon-reports-second-quarter-2026-financial-results-business-updates-and-key-anticipated-milestones.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -7411,10 +7489,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "02/26/24- Dose escalation ongoing. 5/9/24 Translational Data at ASGCT '24. 8/12/25- To initiate individual DE cohorts in H2 2025 for AAV, IIM, & SSc. 11/13/25:- FT819 autoimmune Ph1 data and ex-US expansion discussed; no new oncology trial updates provided. 02/26/26:- FT819-102 autoimmune basket expanding outpatient treatment; SSc and IIM patients treated; clinical/regulatory updates planned H2 2026. 05/13/26:- FT819-102 Phase 1 autoimmune basket now at 18 sites; 27 patients treated; further updates planned H2 2026.",
+  "note": "02/26/24- Dose escalation ongoing. 5/9/24 Translational Data at ASGCT '24. 8/12/25- To initiate individual DE cohorts in H2 2025 for AAV, IIM, & SSc. 11/13/25:- FT819 autoimmune Ph1 data and ex-US expansion discussed; no new oncology trial updates provided. 02/26/26:- FT819-102 autoimmune basket expanding outpatient treatment; SSc and IIM patients treated; clinical/regulatory updates planned H2 2026. 05/13/26:- FT819-102 Phase 1 autoimmune basket now at 18 sites; 27 patients treated; further updates planned H2 2026. 08/13/26:- FT819 updates concerned autoimmune indications; no new update for listed oncology indications.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/13/3293996/24675/en/fate-therapeutics-reports-first-quarter-2026-financial-results-and-business-updates.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344503/0/en/fate-therapeutics-reports-second-quarter-2026-financial-results-and-business-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -7939,45 +8017,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 17004,
-  "company": {
-   "ticker": "ANNX",
-   "name": "Annexon Inc.",
-   "last_price": "5.29",
-   "market_cap": 866727040
-  },
-  "ticker": "ANNX",
-  "drug_name": "ANX1502",
-  "indications": [
-   {
-    "id": 1272,
-    "title": "Autoimmune disease",
-    "nickname": ""
-   },
-   {
-    "id": 1201,
-    "title": "Cold agglutinin disease",
-    "nickname": "CAD"
-   }
-  ],
-  "indications_text": "Cold agglutinin disease",
-  "stage_event": {
-   "id": 110,
-   "label": "Phase 1a Data readout",
-   "stage_label": "Phase 1a",
-   "event_label": "Data readout"
-  },
-  "note": "12/20/23- Ph1 results from SAD & MAD study. 3/3/25- Ongoing POC trial expanded dataset to include up to seven patients. Q2 '25- Update on POC trial by YE 2025. 11/10/25:- CAD POC study completion in 2026. 01/12/26:- CAD POC trial PK/PD evaluation ongoing; update and proof-of-concept data anticipated during 2026. 03/30/26:- CAD POC study enrollment ongoing; dosing timing adjusted around food; update on POC results anticipated in 2026. 05/07/26:- Reiterated CAD POC trial ongoing with data and update anticipated in 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290509/0/en/annexon-reports-first-quarter-2026-financial-results-portfolio-progress-and-key-anticipated-milestones.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 17056,
   "company": {
    "ticker": "RIGL",
@@ -8113,40 +8152,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 17099,
-  "company": {
-   "ticker": "INKT",
-   "name": "MiNK Therapeutics",
-   "last_price": "11.27",
-   "market_cap": 57510836
-  },
-  "ticker": "INKT",
-  "drug_name": "AgenT-797 ",
-  "indications": [
-   {
-    "id": 2039,
-    "title": "Virus-Induced  Acute Respiratory Disease Syndrome",
-    "nickname": "Viral ARDS"
-   }
-  ],
-  "indications_text": "Virus-Induced  Acute Respiratory Disease Syndrome",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "03/21/24- Advance development to a much larger platform trial. Clinical data presented at ATS '24. 8/14/25- Advance into a Ph2 trial contingent to strategic collab and non-dilutive external funding. 11/14/25:- Launching randomized Ph2 severe pulmonary trial with FDA-validated endpoints. Early Ph2 data and broader pulmonary updates expected 2026. 02/03/26:- Human IPF tissue data show iNKT depletion, supporting iNKT cell restoration strategies for chronic fibrotic lung disease. 03/31/26:- ARDS Ph2 trial initiation H1 2026; readouts planned H2 2026; IPF Keystone data support expansion. 04/02/26:- Abstract accepted for ASGCT May 11-15, 2026 poster on cancer and ARDS. 05/12/26:- ASGCT Poster 3371 on May 14, 2026. Randomized Ph2 acute lung injury trial C-1300-02; preliminary data 2026. 05/14/26:- Randomized Ph2 ALI/ARDS trial C-1300-02 initiated in Ukraine; prelim data expected H2 2026. 05/28/26:- First patient dosed in Ph2 C-1300-02 ALI/ARDS trial; U.S. sites expanding; prelim data expected H2 2026. 08/06/26:- Day 28 observations encouraging in Ph2 C-1300-02. Additional data expected Early 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340551/0/en/MiNK-Therapeutics-Presents-Early-Observations-from-Ongoing-Phase-2-Trial-at-the-2026-Military-Health-System-Research-Symposium.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 17113,
@@ -8845,10 +8850,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- Linoserpaturev IND clearance and Q4 2026 arm C mOS update reiterated.",
+  "note": "05/14/26:- Linoserpaturev IND clearance and Q4 2026 arm C mOS update reiterated. 08/13/26:- Phase 2 planning advanced for rGBM. Arm C long-term survival data will be presented in Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3294901/0/en/candel-therapeutics-reports-first-quarter-2026-financial-results-and-recent-corporate-highlights.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344478/0/en/candel-therapeutics-reports-second-quarter-2026-financial-results-and-recent-corporate-highlights.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -9299,10 +9304,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "OnPrime/GOG-3076 trial. 09/2022- Initiated trial. Trial ongoing. 11/27/23- Granted Fast Track Designation. 8/7/25- Topline data in H1 2026. 11/05/25:- Enrollment in the Phase 3 OnPrime ovarian cancer trial remains active; topline data timeline revised with data now expected in H2 2026. 03/19/26:- OnPrime Phase 3 IDMC review Feb 2026 recommended continuation without changes; topline H2 2026 reiterated. 05/07/26:- OnPrime/GOG-3076 Phase 3 trial remains on track; topline ovarian cancer data expected in H2 2026.",
+  "note": "OnPrime/GOG-3076 trial. 09/2022- Initiated trial. Trial ongoing. 11/27/23- Granted Fast Track Designation. 8/7/25- Topline data in H1 2026. 11/05/25:- Enrollment in the Phase 3 OnPrime ovarian cancer trial remains active; topline data timeline revised with data now expected in H2 2026. 03/19/26:- OnPrime Phase 3 IDMC review Feb 2026 recommended continuation without changes; topline H2 2026 reiterated. 05/07/26:- OnPrime/GOG-3076 Phase 3 trial remains on track; topline ovarian cancer data expected in H2 2026. 08/13/26:- Phase 3 OnPrime/GOG-3076 topline data are expected in H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290643/0/en/Genelux-Corporation-Reports-First-Quarter-Financial-Results-and-Provides-Business-Updates.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344971/0/en/genelux-corporation-reports-second-quarter-financial-results-and-provides-business-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -9694,10 +9699,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "Partnered w/ Newsoara. Initiated trial in China in H1 2023. 11/14/23- Ongoing trial. 3/25/25- Announced Ph1b data. 3/28/25- Enrollment ongoing. 8/7/25- Interim results in H2 2025. 11/05/25:- Systemic SCLC Ph1b/2 trial enrollment ongoing; additional interim data from lung cancer programs expected in Q4 2025 and further updates through 2026. 01/05/26:- Interim OLVI-VEC-SCLC-202 Ph1b/2 data show responses; further systemic lung cancer readouts expected throughout 2026. 03/19/26:- OLVI-VEC-SCLC-202 interim data show 33% partial responses, 67% disease control; more dose-finding updates expected 2026. 05/07/26:- January 2026 SCLC OLVI-VEC-SCLC-202 data reiterated; additional dose-finding updates expected throughout 2026.",
+  "note": "Partnered w/ Newsoara. Initiated trial in China in H1 2023. 11/14/23- Ongoing trial. 3/25/25- Announced Ph1b data. 3/28/25- Enrollment ongoing. 8/7/25- Interim results in H2 2025. 11/05/25:- Systemic SCLC Ph1b/2 trial enrollment ongoing; additional interim data from lung cancer programs expected in Q4 2025 and further updates through 2026. 01/05/26:- Interim OLVI-VEC-SCLC-202 Ph1b/2 data show responses; further systemic lung cancer readouts expected throughout 2026. 03/19/26:- OLVI-VEC-SCLC-202 interim data show 33% partial responses, 67% disease control; more dose-finding updates expected 2026. 05/07/26:- January 2026 SCLC OLVI-VEC-SCLC-202 data reiterated; additional dose-finding updates expected throughout 2026. 08/13/26:- OLVI-VEC-SCLC-202 dose-finding updates are expected in 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290643/0/en/Genelux-Corporation-Reports-First-Quarter-Financial-Results-and-Provides-Business-Updates.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344971/0/en/genelux-corporation-reports-second-quarter-financial-results-and-provides-business-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -9881,40 +9886,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 17685,
-  "company": {
-   "ticker": "AZTR",
-   "name": "Azitra",
-   "last_price": "0.14",
-   "market_cap": 2255606
-  },
-  "ticker": "AZTR",
-  "drug_name": "ATR12-351 (ATR-12)",
-  "indications": [
-   {
-    "id": 2160,
-    "title": "Netherton syndrome",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Netherton syndrome",
-  "stage_event": {
-   "id": 122,
-   "label": "Phase 1b Data readout",
-   "stage_label": "Phase 1b",
-   "event_label": "Data readout"
-  },
-  "note": "8/28/24- First patient dosed. 6/17/25- Reported initial safety data. 8/11/25- Topline data in Q1 2026. 11/12/25:- Company continues Phase 1b ATR-12 trial in Netherton syndrome; initial safety and topline data planned. 02/27/26:- Phase 1b ATR-12 shows promising safety; topline data timing updated to H2 2026. 05/13/26:- Topline Ph1b ATR-12 Netherton data still anticipated H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/azitra-inc-announces-q1-2026-results-and-provides-business-updates-302770153.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 17715,
   "company": {
    "ticker": "IMAB",
@@ -10016,10 +9987,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "12/12/23 Initial positive results presented at ASH. Planning a multicenter clinical trial to expand the current cohort, to launch in Q1 '24. 11/5/24 Additional updates at ASH medical congresses on 12/7/24. 11/10/25:- iwNHL Ph2 IIT update; ORR 98%, CR 84%; median PFS not reached; trial expanded to 100 patients. 03/10/26:- Data publication between end-2026 and mid-2027. 05/04/26:- IIT FL and MZL trials ongoing; data publication still expected between end-2026 and mid-2027.",
+  "note": "12/12/23 Initial positive results presented at ASH. Planning a multicenter clinical trial to expand the current cohort, to launch in Q1 '24. 11/5/24 Additional updates at ASH medical congresses on 12/7/24. 11/10/25:- iwNHL Ph2 IIT update; ORR 98%, CR 84%; median PFS not reached; trial expanded to 100 patients. 03/10/26:- Data publication between end-2026 and mid-2027. 05/04/26:- IIT FL and MZL trials ongoing; data publication still expected between end-2026 and mid-2027. 08/13/26:- Updated FL Phase 2 IIT data will be presented in Q2 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/adc-therapeutics-reports-first-quarter-2026-financial-results-and-provides-operational-updates-302760423.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/adc-therapeutics-reports-second-quarter-2026-financial-results-and-provides-operational-updates-302850226.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -10596,10 +10567,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "ACESOT-1051 trial. 3/11/24- IND cleared. 6/17/24- Dosed first patient. 8/12/25- Completion of DE phase in H1 2026. 10/24/25- Presented clinical update at AACR-NCI-EORTC\u201925. 11/12/25:- Early Ph1 data; dose escalation to 150 mg; DE completion expected H1 2026. 02/18/26:- Ph1 ACESOT-1051 showed second unconfirmed PR and multiple SD; next data update expected Q2 2026. 03/16/26:- Two uPRs and five SD in ACESOT-1051; dose level 8 ongoing; next data update Q2 2026. 03/30/26:- Confirmed partial response at 220 mg; dose escalation to 300 mg planned Q2 2026; further update Q2 2026. 04/21/26:- ASCO 2026 abstract accepted; ACESOT-1051 early results poster May 30, 2026 (NCT06260514). 05/13/26:- Two PRs including one confirmed; ASCO 2026 poster May 30; dose escalation completion anticipated Q2 2027. 06/01/26:- Updated ACESOT-1051 ASCO data; dose escalation ongoing; completion of escalation/backfill expected Q2 2027. 07/30/26:- Next Ph1 data update expected at a medical meeting in Q4 2026. Dose escalation/backfill completion expected Q2 2027.",
+  "note": "ACESOT-1051 trial. 3/11/24- IND cleared. 6/17/24- Dosed first patient. 8/12/25- Completion of DE phase in H1 2026. 10/24/25- Presented clinical update at AACR-NCI-EORTC\u201925. 11/12/25:- Early Ph1 data; dose escalation to 150 mg; DE completion expected H1 2026. 02/18/26:- Ph1 ACESOT-1051 showed second unconfirmed PR and multiple SD; next data update expected Q2 2026. 03/16/26:- Two uPRs and five SD in ACESOT-1051; dose level 8 ongoing; next data update Q2 2026. 03/30/26:- Confirmed partial response at 220 mg; dose escalation to 300 mg planned Q2 2026; further update Q2 2026. 04/21/26:- ASCO 2026 abstract accepted; ACESOT-1051 early results poster May 30, 2026 (NCT06260514). 05/13/26:- Two PRs including one confirmed; ASCO 2026 poster May 30; dose escalation completion anticipated Q2 2027. 06/01/26:- Updated ACESOT-1051 ASCO data; dose escalation ongoing; completion of escalation/backfill expected Q2 2027. 07/30/26:- Next Ph1 data update expected at a medical meeting in Q4 2026. Dose escalation/backfill completion expected Q2 2027. 08/12/26:- ACESOT-1051 enrollment is accelerating. Next Phase 1 data update will occur in Q4 2026; escalation/backfill completion is expected in Q2 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3335993/0/en/aprea-therapeutics-provides-acesot-1051-program-update-for-wee1-inhibitor-apr-1051-accelerating-and-expanding-enrollment-clinical-data-presentation-planned-for-q4-2026.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3343645/0/en/aprea-therapeutics-announces-second-quarter-2026-financial-results.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -10883,10 +10854,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "VIRO-25 trial. 10/22/24- First patient dosed in Ph2. 8/7/25- Interim readout in H2 2025. 11/05/25:- Systemic NSCLC Ph2 VIRO-25 dose-escalation ongoing; additional interim data planned for Q4 2025 with further lung program updates expected throughout 2026. 01/05/26:- Interim Phase 2 VIRO-25 systemic NSCLC data show 60% disease control; further updated lung data expected throughout 2026. 03/19/26:- VIRO-25 interim NSCLC data show 60% disease control; tumor size changes to -22.7%; more updates during 2026. 05/07/26:- January 2026 VIRO-25 NSCLC data reiterated; 60% disease control; further dose-finding updates expected through 2026.",
+  "note": "VIRO-25 trial. 10/22/24- First patient dosed in Ph2. 8/7/25- Interim readout in H2 2025. 11/05/25:- Systemic NSCLC Ph2 VIRO-25 dose-escalation ongoing; additional interim data planned for Q4 2025 with further lung program updates expected throughout 2026. 01/05/26:- Interim Phase 2 VIRO-25 systemic NSCLC data show 60% disease control; further updated lung data expected throughout 2026. 03/19/26:- VIRO-25 interim NSCLC data show 60% disease control; tumor size changes to -22.7%; more updates during 2026. 05/07/26:- January 2026 VIRO-25 NSCLC data reiterated; 60% disease control; further dose-finding updates expected through 2026. 08/13/26:- Phase 2 VIRO-25 dose-finding updates are expected in 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3290643/0/en/Genelux-Corporation-Reports-First-Quarter-Financial-Results-and-Provides-Business-Updates.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344971/0/en/genelux-corporation-reports-second-quarter-financial-results-and-provides-business-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -11044,10 +11015,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "APEX, PINNACLE, and PEAK studies. 8/14/24- Enrollment ongoing 3/27/25- Ph2b/3 trial initiated. 11/5/25- APEX follow up data reported. PEAK & PINNACLE ongoing enrollment. Present 24wk data on February 7, 2026. 11/13/25:- APEX enrollment complete; 24wk data February 7, 2026. PEAK topline Q4 2026; PINNACLE Q1 2027. 02/04/26:- APEX Phase 1b MESI end-of-study results February 7, 2026; PEAK topline Q4 2026; PINNACLE topline Q2 2027. 03/31/26:- Final APEX Ph1b MESI data showed rapid, durable vision and retinal improvements; PEAK Q4 2026, PINNACLE Q2 2027 unchanged. 05/01/26:- APEX Week 24 and Asian cohort MESI data to be presented at AUS May 2 and ARVO May 4-6, 2026. 05/07/26:- APEX Phase 1b data detailed strong visual gains and retinal dryness; PEAK Q4 2026, PINNACLE Q2 2027 reiterated. 08/06/26:- PEAK cohort 1 (300 patients) enrollment complete; PEAK topline December 2026; Pivotal Analysis 2 topline Q2 2027.",
+  "note": "APEX, PINNACLE, and PEAK studies. 8/14/24- Enrollment ongoing 3/27/25- Ph2b/3 trial initiated. 11/5/25- APEX follow up data reported. PEAK & PINNACLE ongoing enrollment. Present 24wk data on February 7, 2026. 11/13/25:- APEX enrollment complete; 24wk data February 7, 2026. PEAK topline Q4 2026; PINNACLE Q1 2027. 02/04/26:- APEX Phase 1b MESI end-of-study results February 7, 2026; PEAK topline Q4 2026; PINNACLE topline Q2 2027. 03/31/26:- Final APEX Ph1b MESI data showed rapid, durable vision and retinal improvements; PEAK Q4 2026, PINNACLE Q2 2027 unchanged. 05/01/26:- APEX Week 24 and Asian cohort MESI data to be presented at AUS May 2 and ARVO May 4-6, 2026. 05/07/26:- APEX Phase 1b data detailed strong visual gains and retinal dryness; PEAK Q4 2026, PINNACLE Q2 2027 reiterated. 08/06/26:- PEAK cohort 1 (300 patients) enrollment complete; PEAK topline December 2026; Pivotal Analysis 2 topline Q2 2027. 08/13/26:- PEAK Pivotal Analysis 1 topline data will be reported in December 2026. Pivotal Analysis 2 topline data will be reported in Q2 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/kodiak-sciences-completes-enrollment-in-first-pivotal-cohort-in-the-phase-3-peak-trial-of-ksi-101-for-macular-edema-secondary-to-inflammation-and-reaffirms-topline-clinical-data-release-remains-on-track-for-december-2026-302844806.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/kodiak-sciences-announces-recent-business-highlights-and-second-quarter-2026-financial-results-302851311.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -11487,10 +11458,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- Ph1 preliminary data remains due H1 2026; full readout expected Q4 2026. 06/16/26:- Positive; RP2D by Q4 2026; NCT07049328.",
+  "note": "05/14/26:- Ph1 preliminary data remains due H1 2026; full readout expected Q4 2026. 06/16/26:- Positive; RP2D by Q4 2026; NCT07049328. 08/14/26:- Preliminary Phase 1 efficacy and safety data reported. Full Phase 1 data readout is expected in Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/16/3312406/0/en/hcw-biologics-announces-positive-results-for-preliminary-human-data-readout-for-phase-1-clinical-trial-evaluating-il-2-based-fusion-immunotherapeutic-hcw9302-monotherapy-in-alopeci.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345575/0/en/hcw-biologics-reports-second-quarter-2026-business-and-clinical-development-highlights-and-financial-results.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -11906,10 +11877,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "05/13/26:- RESOLUTION treated nine patients. Early activity seen, with next update expected Q4 2026.",
+  "note": "05/13/26:- RESOLUTION treated nine patients. Early activity seen, with next update expected Q4 2026. 08/12/26:- RESOLUTION enrollment continued briskly. Clinical and translational data will be updated in Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/13/3294405/0/en/Allogene-Therapeutics-Reports-First-Quarter-2026-Financial-Results-and-Business-Update.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344049/0/en/allogene-therapeutics-reports-second-quarter-2026-financial-results-and-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -12047,10 +12018,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "HEROIC-PKP2 trial. 9/12/24- Ongoing recruitment. 3/25- Interim data reported. 8/14/25- Interim clinical data update in H2 2025. 11/05/25:- Enrollment completed; low-dose cohort interim data shared; substantive Ph1/2 data update planned for January 2026. 01/12/26:- Preliminary HEROIC-PKP2 Ph1/2 data from 10 patients positive; 12-month high-dose data expected Q4 2026. 03/30/26:- HEROIC-PKP2 interim data detailed at ACC; dose-dependent PKP2 expression; Q4 2026 12-month update and 2026 FDA engagement. 05/11/26:- HEROIC-PKP2 Phase 1/2 shows good tolerability without complement activation; 12-month high-dose data still expected Q4 2026. 08/05/26:- FDA granted RMAT designation. Additional clinical and regulatory updates expected before year-end.",
+  "note": "HEROIC-PKP2 trial. 9/12/24- Ongoing recruitment. 3/25- Interim data reported. 8/14/25- Interim clinical data update in H2 2025. 11/05/25:- Enrollment completed; low-dose cohort interim data shared; substantive Ph1/2 data update planned for January 2026. 01/12/26:- Preliminary HEROIC-PKP2 Ph1/2 data from 10 patients positive; 12-month high-dose data expected Q4 2026. 03/30/26:- HEROIC-PKP2 interim data detailed at ACC; dose-dependent PKP2 expression; Q4 2026 12-month update and 2026 FDA engagement. 05/11/26:- HEROIC-PKP2 Phase 1/2 shows good tolerability without complement activation; 12-month high-dose data still expected Q4 2026. 08/05/26:- FDA granted RMAT designation. Additional clinical and regulatory updates expected before year-end. 08/12/26:- RMAT designation and tolerability were reiterated. 12-month high-dose data update is expected in Q4 2026; FDA engagement is expected in 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/05/3339165/0/en/lexeo-therapeutics-receives-fda-regenerative-medicine-advanced-therapy-rmat-designation-for-lx2020-for-the-treatment-of-pkp2-arrhythmogenic-cardiomyopathy.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3343500/0/en/lexeo-therapeutics-reports-second-quarter-2026-financial-results-and-operational-highlights.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -12164,7 +12135,7 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "06/29/26:- PR No update.",
+  "note": "06/29/26:- PR No update. 08/14/26:- PR No update.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "",
@@ -12598,10 +12569,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "SunStone trial. 11/12/24- Trial initiated. 5/15/25- Enrollment completion by YE 2025. 8/12/25- Topline data in mid-2026. 11/12/25:- SunStone Ph2 enrollment completion YE 2025; topline data expected Mid-2026. 01/05/26:- SunStone Ph2 SLE topline and biomarker data now expected in Q4 2026. 03/16/26:- Reiterated SunStone Ph2 SLE topline and biomarker data expected in Q4 2026. 05/13/26:- SunStone Ph2 SLE enrollment complete; topline and biomarker results expected in Q4 2026.",
+  "note": "SunStone trial. 11/12/24- Trial initiated. 5/15/25- Enrollment completion by YE 2025. 8/12/25- Topline data in mid-2026. 11/12/25:- SunStone Ph2 enrollment completion YE 2025; topline data expected Mid-2026. 01/05/26:- SunStone Ph2 SLE topline and biomarker data now expected in Q4 2026. 03/16/26:- Reiterated SunStone Ph2 SLE topline and biomarker data expected in Q4 2026. 05/13/26:- SunStone Ph2 SLE enrollment complete; topline and biomarker results expected in Q4 2026. 08/13/26:- SunStone Ph2 SLE topline and biomarker results are expected in Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/13/3293773/0/en/zenas-biopharma-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/03/27/3263539/0/en/zenas-biopharma-announces-pricing-of-concurrent-public-offerings-of-2-50-convertible-senior-notes-due-2032-and-common-stock-with-aggregate-gross-proceeds-of-300-0-million.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -12895,10 +12866,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "PYX-201-102 trial. Collab w/ MSD. 2/4/25- Actively recruiting. 11/3/25- Additional prelim clinical data from 1L/2L+ R/M HNSCC patients in Q4 2025. 11/03/25:- Q4 25 addl Ph1/2 data planned 12/18/25:- Updated Ph1/2 MICVO+pembro data in R/M HNSCC; broader tumor data expected H2 2026. 03/23/26:- 2H26 Ph1/2 MICVO+KEYTRUDA data in 1L/2L+ R/M HNSCC remains on track. 05/14/26:- 2H26 MICVO+KEYTRUDA Ph1/2 update remains on track, now focused on 1L R/M HNSCC.",
+  "note": "PYX-201-102 trial. Collab w/ MSD. 2/4/25- Actively recruiting. 11/3/25- Additional prelim clinical data from 1L/2L+ R/M HNSCC patients in Q4 2025. 11/03/25:- Q4 25 addl Ph1/2 data planned 12/18/25:- Updated Ph1/2 MICVO+pembro data in R/M HNSCC; broader tumor data expected H2 2026. 03/23/26:- 2H26 Ph1/2 MICVO+KEYTRUDA data in 1L/2L+ R/M HNSCC remains on track. 05/14/26:- 2H26 MICVO+KEYTRUDA Ph1/2 update remains on track, now focused on 1L R/M HNSCC. 08/13/26:- Updated Phase 1/2 MICVO plus pembrolizumab data in 1L R/M HNSCC will be reported in Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3294764/0/en/pyxis-oncology-reports-first-quarter-2026-financial-results-and-advances-micvo-toward-key-2026-clinical-milestones.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344366/0/en/pyxis-oncology-reports-second-quarter-2026-financial-results-and-advances-micvo-toward-key-2026-clinical-milestones.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -13987,7 +13958,7 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- PR No update.",
+  "note": "05/14/26:- PR No update. 08/13/26:- PR No update.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "",
@@ -14021,10 +13992,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "6/27/25- CTA submitted to EMA. 11/6/25- Initial safety, tolerability, and PK data in late 2025. Engagement data from all cohorts in H1 2026. 01/08/26:- Cohort 1 Ph1 HV trial EUCT 2025-521876-77-00 shows good safety/PK; target engagement readout on track H1 2026. 03/12/26:- Ph1 HV dosing ongoing; target engagement data on track H1 2026. PSC patient cohort planned after HV completion. 05/12/26:- AX-0810 Ph1 HV target engagement data still expected Q2 2026. BA IIT in China initial data H1 2027. 06/25/26:- MAD Phase 1 positive; data Year-End 2026; Biliary Atresia China trial data H1 2027; Phase 2 Mid-2027; interim Mid-2028.",
+  "note": "6/27/25- CTA submitted to EMA. 11/6/25- Initial safety, tolerability, and PK data in late 2025. Engagement data from all cohorts in H1 2026. 01/08/26:- Cohort 1 Ph1 HV trial EUCT 2025-521876-77-00 shows good safety/PK; target engagement readout on track H1 2026. 03/12/26:- Ph1 HV dosing ongoing; target engagement data on track H1 2026. PSC patient cohort planned after HV completion. 05/12/26:- AX-0810 Ph1 HV target engagement data still expected Q2 2026. BA IIT in China initial data H1 2027. 06/25/26:- MAD Phase 1 positive; data Year-End 2026; Biliary Atresia China trial data H1 2027; Phase 2 Mid-2027; interim Mid-2028. 08/13/26:- Positive Ph1 target-engagement data reported. Full Ph1 data is expected by Year-End 2026. Biliary atresia IIT data is expected in H1 2027; Ph2 is expected Mid-2027 and interim data Mid-2028.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/25/3317367/33039/en/proqr-announces-positive-phase-1-target-engagement-data-for-ax-0810-establishing-first-clinical-validation-of-the-axiomer-rna-editing-platform.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344335/0/en/proqr-announces-second-quarter-2026-operating-and-financial-results.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -14954,10 +14925,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "10/15/25- Initiate Ph1/2a trial in early December. 03/24/26:- HEADLINE Ph1/2a dosed first three SAD cohorts; preliminary safety and pharmacokinetic data H1 2026; proof-of-concept data H2 2026\u2013early 2027. 05/07/26:- Completed 4 SAD cohorts; MAD dosing started. Safety/tolerability/PK data Q2 2026; interim POC H2 2026; full POC 2027. 06/24/26:- Interim Phase 1 data positive; MAD started. Interim POC data expected H2 2026; full POC data Early 2027.",
+  "note": "10/15/25- Initiate Ph1/2a trial in early December. 03/24/26:- HEADLINE Ph1/2a dosed first three SAD cohorts; preliminary safety and pharmacokinetic data H1 2026; proof-of-concept data H2 2026\u2013early 2027. 05/07/26:- Completed 4 SAD cohorts; MAD dosing started. Safety/tolerability/PK data Q2 2026; interim POC H2 2026; full POC 2027. 06/24/26:- Interim Phase 1 data positive; MAD started. Interim POC data expected H2 2026; full POC data Early 2027. 08/11/26:- Positive interim Phase 1 HEADLINE data reported. Interim proof-of-concept data is expected in H2 2026; full data is expected in Early 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/24/3316681/0/en/absci-announces-positive-interim-phase-1-data-from-the-headline-trial-of-abs-201-a-novel-antibody-targeting-the-prolactin-receptor-prlr.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/11/3343158/0/en/absci-reports-business-updates-and-second-quarter-2026-financial-and-operating-results.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -15090,10 +15061,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "10/27/25- Initiated Ph1 trial. Update in mid-2026. 11/6/25:- Advancing Ph1 M4 PAM studies; comprehensive franchise update still expected mid-2026. 01/05/26:- Phase 1 M4 PAM trials for NMRA-898/NMRA-861 progressing; comprehensive franchise update planned mid-2026. 03/30/26:- NMRA-898 chosen as lead M4 modulator; ongoing Ph1 schizophrenia study data expected from multiple ascending doses in H2 2026. 05/07/26:- Ongoing Ph1 MAD study in schizophrenia and healthy volunteers; data readout still expected in H2 2026.",
+  "note": "10/27/25- Initiated Ph1 trial. Update in mid-2026. 11/6/25:- Advancing Ph1 M4 PAM studies; comprehensive franchise update still expected mid-2026. 01/05/26:- Phase 1 M4 PAM trials for NMRA-898/NMRA-861 progressing; comprehensive franchise update planned mid-2026. 03/30/26:- NMRA-898 chosen as lead M4 modulator; ongoing Ph1 schizophrenia study data expected from multiple ascending doses in H2 2026. 05/07/26:- Ongoing Ph1 MAD study in schizophrenia and healthy volunteers; data readout still expected in H2 2026. 08/14/26:- Ph1 MAD study data in stable schizophrenia and healthy volunteers remains expected in H2 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/07/3289792/0/en/neumora-therapeutics-reports-first-quarter-2026-financial-results-and-provides-business-update.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345232/0/en/neumora-therapeutics-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -15376,10 +15347,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- ET-700 first patient dosed. Topline results are expected H2 2026. Pivotal study is possible early 2027.",
+  "note": "05/14/26:- ET-700 first patient dosed. Topline results are expected H2 2026. Pivotal study is possible early 2027. 08/13/26:- ET-700 pilot study is underway. Pivotal study initiation is expected in Early 2027 if results succeed.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3295360/0/en/Eton-Pharmaceuticals-Reports-First-Quarter-2026-Financial-Results.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344924/0/en/eton-pharmaceuticals-reports-second-quarter-2026-financial-results.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -15897,7 +15868,7 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "11/13/25:- CARAMEL Ph1/2 IST treating B-cell autoimmune diseases; initial CNTY-101 data expected December 5, 2025. 03/12/26:- Ongoing CARAMEL Ph1/2 IST; updated preliminary CNTY-101 clinical data anticipated during 2026. 05/13/26:- PR No update.",
+  "note": "11/13/25:- CARAMEL Ph1/2 IST treating B-cell autoimmune diseases; initial CNTY-101 data expected December 5, 2025. 03/12/26:- Ongoing CARAMEL Ph1/2 IST; updated preliminary CNTY-101 clinical data anticipated during 2026. 05/13/26:- PR No update. 08/12/26:- PR No update.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "",
@@ -16997,10 +16968,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "03/16/26:- ZB021 oral IL-17AA/AF inhibitor Phase 1 trial expected to initiate in Q2 2026; initial data by YE 2026. 05/13/26:- First subject dosed in ZB021 Ph1 SAD/MAD trial; initial safety data expected Q4 2026; psoriasis POC results 2027. North America plaque psoriasis POC planned.",
+  "note": "03/16/26:- ZB021 oral IL-17AA/AF inhibitor Phase 1 trial expected to initiate in Q2 2026; initial data by YE 2026. 05/13/26:- First subject dosed in ZB021 Ph1 SAD/MAD trial; initial safety data expected Q4 2026; psoriasis POC results 2027. North America plaque psoriasis POC planned. 08/13/26:- ZB021 Ph1 SAD and MAD dosing is ongoing. Initial data are expected by year-end 2026; psoriasis POC results are expected in 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/13/3293817/0/en/zenas-biopharma-announces-first-subject-dosed-in-phase-1-clinical-trial-of-zb021-a-novel-potentially-best-in-class-oral-il-17aa-af-inhibitor.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/03/27/3263539/0/en/zenas-biopharma-announces-pricing-of-concurrent-public-offerings-of-2-50-convertible-senior-notes-due-2032-and-common-stock-with-aggregate-gross-proceeds-of-300-0-million.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -17615,45 +17586,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 20549,
-  "company": {
-   "ticker": "EIKN",
-   "name": "Eikon Therapeutics",
-   "last_price": "11.05",
-   "market_cap": 598523584
-  },
-  "ticker": "EIKN",
-  "drug_name": "EIK1001",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "Stage 4 NSCLC",
-  "stage_event": {
-   "id": 152,
-   "label": "Phase 2/3 Data readout",
-   "stage_label": "Phase 2/3",
-   "event_label": "Data readout"
-  },
-  "note": "5/3/26:- TeLuRide-005 Ph2 in 1L Stage 4 NSCLC completed enrollment; updated ORR/DCR data presented at ASCO 2026. TeLuRide-008 Ph2/3 FPD expected 2H 2026. 07/20/26:- ESMO 2026 to present TeLuRide-005 squamous cohort and pooled results; TeLuRide-008 trial highlighted. 07/27/26:- TeLuRide-008 Ph2/3 first patient dosed (NCT07365319).",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/27/3333400/0/en/eikon-therapeutics-announces-first-patient-dosed-in-teluride-008-a-registrational-phase-2-3-trial-of-eik1001-in-non-small-cell-lung-cancer.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 20551,
   "company": {
    "ticker": "EIKN",
@@ -17682,10 +17614,10 @@
    "stage_label": "Phase 2/3",
    "event_label": "Data readout"
   },
-  "note": "05/11/26:- TeLuRide-006 Ph2/3 ongoing in 1L advanced melanoma; first interim analysis expected H2 2026. 07/27/26:- TeLuRide-006 (NCT06697301) Ph2/3 enrolling; initiated May 2025. 08/11/26:- DMC selected 0.60 mg/m2 dose for TeLuRide-006; study continues as planned.",
+  "note": "05/11/26:- TeLuRide-006 Ph2/3 ongoing in 1L advanced melanoma; first interim analysis expected H2 2026. 07/27/26:- TeLuRide-006 (NCT06697301) Ph2/3 enrolling; initiated May 2025. 08/11/26:- DMC selected 0.60 mg/m2 dose for TeLuRide-006; study continues as planned. 08/13/26:- TeLuRide-006 first interim analysis and dose selection were reiterated; the study will continue as planned.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/11/3292291/0/en/eikon-therapeutics-reports-first-quarter-2026-financial-results-and-provides-clinical-updates.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344893/0/en/eikon-therapeutics-reports-second-quarter-2026-financial-results-and-provides-clinical-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18353,10 +18285,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "C-BEYOND & C-FORWARD Ph3 Trials. 12/4/24- Met primary endpoints. 6/24/25- First patient dosed in Ph3 C-FORWARD trial. 11/12/25:- Ph3 enrollment on track. C-BEYOND topline mid-2026; C-FORWARD topline around end-2026. 12/22/25:- Completed C-BEYOND Ph3 enrollment. 05/13/26:- EASL 2026 posters May 29 on DDI and transport. 05/12/26:- HCV Ph3 C-BEYOND topline mid-2026; C-FORWARD enrollment completion mid-2026; topline around year-end 2026. 05/27/26:- EASL Ph1 DDI results: low interaction with omeprazole, digoxin, rosuvastatin. Ph3 topline still mid-2026. 06/25/26:- C-FORWARD enrollment completed. C-BEYOND topline mid-2026; C-FORWARD topline around year-end 2026. 07/28/26:- C-BEYOND Ph3 topline positive. C-FORWARD Ph3 topline expected Early 2027.",
+  "note": "C-BEYOND & C-FORWARD Ph3 Trials. 12/4/24- Met primary endpoints. 6/24/25- First patient dosed in Ph3 C-FORWARD trial. 11/12/25:- Ph3 enrollment on track. C-BEYOND topline mid-2026; C-FORWARD topline around end-2026. 12/22/25:- Completed C-BEYOND Ph3 enrollment. 05/13/26:- EASL 2026 posters May 29 on DDI and transport. 05/12/26:- HCV Ph3 C-BEYOND topline mid-2026; C-FORWARD enrollment completion mid-2026; topline around year-end 2026. 05/27/26:- EASL Ph1 DDI results: low interaction with omeprazole, digoxin, rosuvastatin. Ph3 topline still mid-2026. 06/25/26:- C-FORWARD enrollment completed. C-BEYOND topline mid-2026; C-FORWARD topline around year-end 2026. 07/28/26:- C-BEYOND Ph3 topline positive. C-FORWARD Ph3 topline expected Early 2027. 08/12/26:- C-BEYOND Phase 3 met primary and secondary endpoints. C-FORWARD topline will be reported Early Q1 2027; NDA submission will follow in Q2 2027.",
   "catalyst_date": "2027-02-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/28/3334101/0/en/atea-pharmaceuticals-meets-both-its-primary-and-secondary-endpoints-in-the-phase-3-c-beyond-north-america-trial-evaluating-bemnifosbuvir-ruzasvir-for-hepatitis-c-virus.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344063/0/en/atea-pharmaceuticals-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -18499,10 +18431,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/15/26:- ReSPECT-GBM Ph2 data expected Q1 2027. Enrollment completion planned in 2026. SpectronRx added as second GMP site.",
+  "note": "05/15/26:- ReSPECT-GBM Ph2 data expected Q1 2027. Enrollment completion planned in 2026. SpectronRx added as second GMP site. 08/14/26:- ReSPECT-GBM Ph2 enrollment continues and will complete in 2026. Data is expected Q1 2027, followed by an FDA End-of-Phase 2 meeting.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/05/g52614905/plus-therapeutics-reports-first-quarter-2026-financial-results-and-provides-business-update-on-rey",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345619/0/en/cerenome-reports-second-quarter-2026-financial-results-and-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18834,6 +18766,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
+ },
+ {
+  "id": 17099,
+  "company": {
+   "ticker": "INKT",
+   "name": "MiNK Therapeutics",
+   "last_price": "11.27",
+   "market_cap": 57510836
+  },
+  "ticker": "INKT",
+  "drug_name": "AgenT-797 ",
+  "indications": [
+   {
+    "id": 2039,
+    "title": "Virus-Induced  Acute Respiratory Disease Syndrome",
+    "nickname": "Viral ARDS"
+   }
+  ],
+  "indications_text": "Virus-Induced  Acute Respiratory Disease Syndrome",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "03/21/24- Advance development to a much larger platform trial. Clinical data presented at ATS '24. 8/14/25- Advance into a Ph2 trial contingent to strategic collab and non-dilutive external funding. 11/14/25:- Launching randomized Ph2 severe pulmonary trial with FDA-validated endpoints. Early Ph2 data and broader pulmonary updates expected 2026. 02/03/26:- Human IPF tissue data show iNKT depletion, supporting iNKT cell restoration strategies for chronic fibrotic lung disease. 03/31/26:- ARDS Ph2 trial initiation H1 2026; readouts planned H2 2026; IPF Keystone data support expansion. 04/02/26:- Abstract accepted for ASGCT May 11-15, 2026 poster on cancer and ARDS. 05/12/26:- ASGCT Poster 3371 on May 14, 2026. Randomized Ph2 acute lung injury trial C-1300-02; preliminary data 2026. 05/14/26:- Randomized Ph2 ALI/ARDS trial C-1300-02 initiated in Ukraine; prelim data expected H2 2026. 05/28/26:- First patient dosed in Ph2 C-1300-02 ALI/ARDS trial; U.S. sites expanding; prelim data expected H2 2026. 08/06/26:- Day 28 observations encouraging in Ph2 C-1300-02. Additional data expected Early 2027. 08/13/26:- Initial Phase 2 C-1300-02 Day 28 data showed clinical recovery and no treatment-attributed major serious adverse events. Additional data are expected in Early 2027.",
+  "catalyst_date": "2027-03-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344397/0/en/mink-therapeutics-reports-second-quarter-2026-financial-results-and-reports-observations-from-randomized-phase-2-trial-of-agent-797-in-acute-lung-injury.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17500,
@@ -19520,10 +19486,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/18/26:- Phase 2 BOS study ongoing. Data expected Q1 2027.",
+  "note": "05/18/26:- Phase 2 BOS study ongoing. Data expected Q1 2027. 08/14/26:- Phase 2 BOS trial is fully enrolled. Data is expected in Q1 2027.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/18/3296719/0/en/quince-therapeutics-announces-clinically-meaningful-improvements-across-functional-hemodynamic-and-biomarker-measures-in-phase-2-study-in-pah-and-ph-ild.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345285/0/en/quince-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -19554,10 +19520,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/18/26:- Ongoing Phase 2 in BOS; data expected Q1 2027.",
+  "note": "05/18/26:- Ongoing Phase 2 in BOS; data expected Q1 2027. 08/14/26:- Phase 2 BOS trial is fully enrolled. Data is expected in Q1 2027.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/18/3296781/0/en/UPDATE-Quince-Therapeutics-Announces-Clinically-Meaningful-Improvements-Across-Functional-Hemodynamic-and-Biomarker-Measures-in-Phase-2-Study-in-PAH-and-PH-ILD.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345285/0/en/quince-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -19623,10 +19589,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "6/3/26- NECTINIUM-2 Ph1b ongoing in Nectin-4 expressing solid tumors; prelim data in Q1 2027. FDA Fast Track granted in locally advanced/metastatic urothelial cancer.",
+  "note": "6/3/26- NECTINIUM-2 Ph1b ongoing in Nectin-4 expressing solid tumors; prelim data in Q1 2027. FDA Fast Track granted in locally advanced/metastatic urothelial cancer. 08/13/26:- Enrollment continued in the Phase 1b NECTINIUM-2 trial. Preliminary data are expected in Q1 2027.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://investors.aktisoncology.com/news-releases/news-release-details/aktis-oncology-receives-us-fda-fast-track-designation-aky-1189?utm_source=chatgpt.com",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344882/0/en/aktis-oncology-reports-financial-results-and-business-highlights-for-the-second-quarter-2026.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -19735,10 +19701,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "05/14/26:- BLA submission in April 2026 was reiterated. Acceptance timing remains TBA. 06/15/26:- BLA accepted; PDUFA goal date set for April 14, 2027.",
+  "note": "05/14/26:- BLA submission in April 2026 was reiterated. Acceptance timing remains TBA. 06/15/26:- BLA accepted; PDUFA goal date set for April 14, 2027. 08/13/26:- BLA acceptance and April 14, 2027 PDUFA date were reiterated.",
   "catalyst_date": "2027-04-14",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/inhibrx-announces-us-fda-acceptance-of-bla-for-ozekibart-in-patients-with-conventional-chondrosarcoma-302800101.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/inhibrx-reports-second-quarter-2026-financial-results-302851356.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20329,10 +20295,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "4FRONT-1 & 4FRONT-2(Ph3) trials. 3/10/25- First patients enrolled in 4FRONT-1 trial. 7/2/25- 4FRONT-1 topline data now expected in H1 2027. 4FRONT-2 initiated in June 2025 with topline data in H2 2027. 11/10/25:- 4FRONT-1 >200 randomized; enrollment complete Q1 2026, topline H1 2027. 4FRONT-2 topline H2 2027. 02/09/26:- 4FRONT-1 enrollment completed (>500 randomized) in ~11 months; topline H1 2027 reiterated; 4FRONT-2 timelines unchanged. 03/18/26:- 4FRONT-1 enrollment completed; target 480 patients per Ph3 trial; topline H1 2027, 4FRONT-2 topline H2 2027. 05/07/26:- 4FRONT-1 randomization complete (N=523); topline H1 2027 reaffirmed. 4FRONT-2 enrollment completes H2 2026; topline H2 2027. 06/29/26:- 4FRONT-2 enrollment complete; final randomization Q3 2026. 4FRONT-1 topline H1 2027; 4FRONT-2 H2 2027. 07/18/26:- PRISM confirms 3E10 selected as 4FRONT Ph3 dose; topline timing unchanged.",
+  "note": "4FRONT-1 & 4FRONT-2(Ph3) trials. 3/10/25- First patients enrolled in 4FRONT-1 trial. 7/2/25- 4FRONT-1 topline data now expected in H1 2027. 4FRONT-2 initiated in June 2025 with topline data in H2 2027. 11/10/25:- 4FRONT-1 >200 randomized; enrollment complete Q1 2026, topline H1 2027. 4FRONT-2 topline H2 2027. 02/09/26:- 4FRONT-1 enrollment completed (>500 randomized) in ~11 months; topline H1 2027 reiterated; 4FRONT-2 timelines unchanged. 03/18/26:- 4FRONT-1 enrollment completed; target 480 patients per Ph3 trial; topline H1 2027, 4FRONT-2 topline H2 2027. 05/07/26:- 4FRONT-1 randomization complete (N=523); topline H1 2027 reaffirmed. 4FRONT-2 enrollment completes H2 2026; topline H2 2027. 06/29/26:- 4FRONT-2 enrollment complete; final randomization Q3 2026. 4FRONT-1 topline H1 2027; 4FRONT-2 H2 2027. 07/18/26:- PRISM confirms 3E10 selected as 4FRONT Ph3 dose; topline timing unchanged. 08/13/26:- 4FRONT-1 topline data is expected in Q2 2027. 4FRONT-2 topline data is expected in H2 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/18/3329368/0/en/4dmt-announces-positive-2-year-data-from-prism-phase-2b-clinical-trial-in-a-broad-wet-amd-population.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344919/0/en/4dmt-reports-second-quarter-2026-financial-results-operational-highlights-and-expected-upcoming-milestones.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20363,10 +20329,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- AQUAx2 is closing; pivotal 12-month data readout remains on track for Q2 2027.",
+  "note": "05/14/26:- AQUAx2 is closing; pivotal 12-month data readout remains on track for Q2 2027. 08/13/26:- Positive Ph1 three-year data and Breakthrough Therapy Designation were reported. AQUAx2 Ph2 readout will occur in Q2 2027; BLA filing may occur Mid-2027; approval is targeted for end 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/14/3294852/0/en/meiragtx-reports-first-quarter-2026-financial-and-operational-results.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/07/3323060/0/en/meiragtx-announces-400-million-strategic-investment-by-oberland-capital-to-support-development-and-commercialization-of-aav2-haqp1-and-botaretigene-sparoparvovec-bota-vec.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20865,10 +20831,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "3/28/24- Partnered w/GILD. 12/19/24- Reported preliminary data. 5/8/25- Maximum tolerated dose not yet established. 9/9/25- Ph2 trial initiated. 11/13/25:- SITC Ph1 monotherapy data showed promising anti-tumor activity and well-tolerated safety; RP2D selected, Ph2 dosing ongoing, and Ph1A/Ph1B enrollment completed with evaluation continuing. 01/08/26:- Deliver Ph1/2 option data package to Gilead for efarindodekin alfa in H1 2027. 03/23/26:- Expects to deliver Gilead option data package from ongoing Ph2 monotherapy trial in H1 2027. 05/12/26:- Reiterates plan to deliver Gilead option data package for efarindodekin alfa in H1 2027.",
+  "note": "3/28/24- Partnered w/GILD. 12/19/24- Reported preliminary data. 5/8/25- Maximum tolerated dose not yet established. 9/9/25- Ph2 trial initiated. 11/13/25:- SITC Ph1 monotherapy data showed promising anti-tumor activity and well-tolerated safety; RP2D selected, Ph2 dosing ongoing, and Ph1A/Ph1B enrollment completed with evaluation continuing. 01/08/26:- Deliver Ph1/2 option data package to Gilead for efarindodekin alfa in H1 2027. 03/23/26:- Expects to deliver Gilead option data package from ongoing Ph2 monotherapy trial in H1 2027. 05/12/26:- Reiterates plan to deliver Gilead option data package for efarindodekin alfa in H1 2027. 08/12/26:- Ongoing Ph2 monotherapy trial continues. Gilead option data package is expected in H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/12/3292720/0/en/xilio-therapeutics-reports-first-quarter-2026-financial-results-and-provides-pipeline-and-business-updates.html",
+  "catalyst_source": "https://www.globenewswire.com/de/news-release/2026/08/12/3343546/0/en/xilio-therapeutics-reports-second-quarter-2026-financial-results-and-provides-pipeline-and-business-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -20933,7 +20899,7 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "2/12/25- Reported favorable outcome from the planned interim analysis. 5/14/25- Topline results in mid-2026. 5/29/25- Data presented at ASCP'25. 11/12/25:- Enrollment ongoing; Ph2b adjunctive MDD topline data still expected mid-2026. 03/16/26:- ALTO-300 Ph2b adjunctive MDD trial enrollment ongoing; topline data remains expected mid-2026. 05/13/26:- Enhanced eligibility process implemented; ALTO-300 Ph2b MDD topline data timeline shifted to H1 2027.",
+  "note": "2/12/25- Reported favorable outcome from the planned interim analysis. 5/14/25- Topline results in mid-2026. 5/29/25- Data presented at ASCP'25. 11/12/25:- Enrollment ongoing; Ph2b adjunctive MDD topline data still expected mid-2026. 03/16/26:- ALTO-300 Ph2b adjunctive MDD trial enrollment ongoing; topline data remains expected mid-2026. 05/13/26:- Enhanced eligibility process implemented; ALTO-300 Ph2b MDD topline data timeline shifted to H1 2027. 08/12/26:- Ph2b MDD enrollment remains ongoing. Topline data is expected H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260513295402/en/Alto-Neuroscience-Reports-First-Quarter-2026-Financial-Results-and-Recent-Business-Highlights",
@@ -21906,10 +21872,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "02/12/26:- First U.S. patient dosed in ongoing Ph1 MRCT of AN9025 in RAS-mutant solid tumors. 07/16/26:- First U.S. patient dosed in weekly arm. Initial Phase 1 dose-escalation data expected H1 2027.",
+  "note": "02/12/26:- First U.S. patient dosed in ongoing Ph1 MRCT of AN9025 in RAS-mutant solid tumors. 07/16/26:- First U.S. patient dosed in weekly arm. Initial Phase 1 dose-escalation data expected H1 2027. 08/14/26:- QD and QW arms are enrolling concurrently. Initial Phase Ia QD data, with a possible QW look, is expected in H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/16/3328326/0/en/adlai-nortye-announces-first-patient-dosed-in-intermittent-weekly-dosing-arm-of-global-phase-1-trial-of-pan-ras-on-inhibitor-an9025.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345240/0/en/adlai-nortye-ltd-reports-unaudited-first-half-2026-financial-results-and-highlights-recent-operational-progress.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22432,10 +22398,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/13/26:- ALPHA3 MRD data reported. Interim EFS Mid-2027, enrollment End-2027, primary EFS Mid-2028. 07/29/26:- FDA granted RMAT and Fast Track. ALPHA3 Day 45 MRD negativity 58.3% vs 16.7%.",
+  "note": "05/13/26:- ALPHA3 MRD data reported. Interim EFS Mid-2027, enrollment End-2027, primary EFS Mid-2028. 07/29/26:- FDA granted RMAT and Fast Track. ALPHA3 Day 45 MRD negativity 58.3% vs 16.7%. 08/12/26:- ALPHA3 interim analysis supported cema-cel. Interim EFS data will be updated Mid-2027; enrollment will complete by year-end 2027.",
   "catalyst_date": "2027-08-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/29/3335229/0/en/allogene-therapeutics-receives-fda-regenerative-medicine-advanced-therapy-rmat-designation-for-cemacabtagene-ansegedleucel-cema-cel-as-first-line-consolidation-therapy-for-large-b-.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344049/0/en/allogene-therapeutics-reports-second-quarter-2026-financial-results-and-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22544,7 +22510,7 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "5/14/25- Enrollment ongoing w/ data in H2 2026. 10/20/25- Positive blinded PK data. 11/12/25:- Enrollment ongoing; H2 2026 Ph2b BPD topline expected. Blinded PK analysis showed 96% PK-positive samples. 03/16/26:- ALTO-100 Ph2b BPD trial ongoing; topline data still anticipated in 2H 2026. 05/13/26:- Enhanced eligibility measures applied; ALTO-100 Ph2b BPD topline data readout now expected Mid-2027.",
+  "note": "5/14/25- Enrollment ongoing w/ data in H2 2026. 10/20/25- Positive blinded PK data. 11/12/25:- Enrollment ongoing; H2 2026 Ph2b BPD topline expected. Blinded PK analysis showed 96% PK-positive samples. 03/16/26:- ALTO-100 Ph2b BPD trial ongoing; topline data still anticipated in 2H 2026. 05/13/26:- Enhanced eligibility measures applied; ALTO-100 Ph2b BPD topline data readout now expected Mid-2027. 08/12/26:- Ph2b bipolar depression enrollment remains ongoing. Topline data is expected Mid-2027.",
   "catalyst_date": "2027-08-15",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260513295402/en/Alto-Neuroscience-Reports-First-Quarter-2026-Financial-Results-and-Recent-Business-Highlights",
@@ -23040,10 +23006,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "11/6/23- Enrollment ongoing. 11/18/24- Presented data via poster ACR Convergence'24. 8/14/25- Initiate trial in H2 2025 and enrollment of first patient in Q4 2025. 11/13/25:- IND for Ph2 in uncontrolled gout was submitted in October 2025 and became effective; Ph2 initiation remains planned for later in 2025. 03/18/26:- RELEASE Ph2 trial actively enrolling with first patients randomized; topline results expected in H2 2027. 05/13/26:- RELEASE Ph2 enrollment continues; company reiterates top-line results anticipated in H2 2027.",
+  "note": "11/6/23- Enrollment ongoing. 11/18/24- Presented data via poster ACR Convergence'24. 8/14/25- Initiate trial in H2 2025 and enrollment of first patient in Q4 2025. 11/13/25:- IND for Ph2 in uncontrolled gout was submitted in October 2025 and became effective; Ph2 initiation remains planned for later in 2025. 03/18/26:- RELEASE Ph2 trial actively enrolling with first patients randomized; topline results expected in H2 2027. 05/13/26:- RELEASE Ph2 enrollment continues; company reiterates top-line results anticipated in H2 2027. 08/12/26:- RELEASE Ph2 enrollment continues. Topline results are expected in H2 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/protalix-biotherapeutics-reports-first-quarter-2026-financial-and-business-results-302770790.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/protalix-biotherapeutics-reports-second-quarter-2026-financial-and-business-results-302849539.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -25312,10 +25278,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/26/26:- Global Ph2 began. Hengrui Ph3 obesity data expected later in 2026. Global Ph2 data 2027. 07/07/26:- Reported positive Ph3 topline in China. Global Ph2 trial data expected in 2027.",
+  "note": "05/26/26:- Global Ph2 began. Hengrui Ph3 obesity data expected later in 2026. Global Ph2 data 2027. 07/07/26:- Reported positive Ph3 topline in China. Global Ph2 trial data expected in 2027. 08/12/26:- Global Ph2 remains ongoing; data is expected in 2027. HARBOR-1 Ph3 obesity results were positive.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/07/3323036/0/en/kailera-therapeutics-announces-positive-topline-data-from-two-hengrui-pharma-phase-3-clinical-trials-of-oral-small-molecule-glp-1-receptor-agonist-hrs-7535-kai-7535.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/26/3301439/0/en/kailera-reports-first-quarter-2026-financial-results-and-provides-clinical-data-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -25346,10 +25312,10 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "KaiNETIC program. 05/26/26:- KaiNETIC Ph3 began. Ph2b data 2027; Ph3 data 2028. Ph1 data reported on June 5, 2026. 06/05/26:- NCT07044401 Ph1 SAD injection data showed up to 5.5% loss Day 29; KaiNETIC global Ph3 ongoing.",
+  "note": "KaiNETIC program. 05/26/26:- KaiNETIC Ph3 began. Ph2b data 2027; Ph3 data 2028. Ph1 data reported on June 5, 2026. 06/05/26:- NCT07044401 Ph1 SAD injection data showed up to 5.5% loss Day 29; KaiNETIC global Ph3 ongoing. 08/12/26:- NCT07458269 U.S. Ph2b high-dose trial fully enrolled; data is anticipated Mid-2027. KaiNETIC Ph3 data is anticipated in 2028.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/05/3307661/0/en/hengrui-pharma-and-kailera-therapeutics-present-ribupatide-clinical-data-at-ada-2026.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/26/3301439/0/en/kailera-reports-first-quarter-2026-financial-results-and-provides-clinical-data-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -25424,7 +25390,7 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "06/03/26:- AURA Ph2 enrollment underway; topline data anticipated Late 2027.",
+  "note": "06/03/26:- AURA Ph2 enrollment underway; topline data anticipated Late 2027. 08/12/26:- AURA Ph2 enrollment remains on track. Topline data are expected in Late 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/03/3305895/0/en/avalyn-reports-first-quarter-2026-financial-results-and-recent-business-highlights.html",
@@ -25463,10 +25429,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "BActinium-1 trial. 5/4/26- Ph1b initiated in B7-H3 expressing mCRPC, including PLUVICTO-na\u00efve and -experienced patients; prelim data in 2027.",
+  "note": "BActinium-1 trial. 5/4/26- Ph1b initiated in B7-H3 expressing mCRPC, including PLUVICTO-na\u00efve and -experienced patients; prelim data in 2027. 08/13/26:- First-in-human imaging and dosimetry data were presented at ASCO. BActinium-1 enrollment continued; preliminary data are expected in 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://investors.aktisoncology.com/news-releases/news-release-details/aktis-oncology-initiates-phase-1b-clinical-trial-aky-2519-b7-h3",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344882/0/en/aktis-oncology-reports-financial-results-and-business-highlights-for-the-second-quarter-2026.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -26726,7 +26692,7 @@
   "note": "InnovAATe trial. 8/16/23- Advancing pivotal trial, positive feedback from EMA. 11/13/23- DSMB positive recommendation to continue trial w/o modification. Received FDA feedback. 8/13/25- Conduct an interim futility analysis by YE 2025. 12/08/25:- Interim futility analysis found low chance of benefit; InnovAATe Ph3 inhaled AAT trial discontinued.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/13/3293856/0/en/Kamada-Reports-First-Quarter-2026-Financial-Results-and-Affirms-2026-Annual-Guidance-Expecting-Significantly-Stronger-Remainder-of-the-Year.html",
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -26839,40 +26805,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/20/3298332/0/en/immunovant-provides-corporate-updates-and-reports-financial-results-for-the-fourth-quarter-and-fiscal-year-ended-march-31-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 14101,
-  "company": {
-   "ticker": "VTGN",
-   "name": "VistaGen Therapeutics",
-   "last_price": "0.27",
-   "market_cap": 11875262
-  },
-  "ticker": "VTGN",
-  "drug_name": "Fasedienol (PH94B)",
-  "indications": [
-   {
-    "id": 780,
-    "title": "Social Anxiety Disorder",
-    "nickname": "SAD"
-   }
-  ],
-  "indications_text": "Social Anxiety Disorder",
-  "stage_event": {
-   "id": 80,
-   "label": "Phase 3 Update",
-   "stage_label": "Phase 3",
-   "event_label": "Update"
-  },
-  "note": "06/16/26:- PALISADE-4 completed; data June 2026. Repeat-dose data Q3 2026; ICH E1 met; OLE positive. 06/30/26:- PALISADE-4 missed endpoints; post-hoc signal in very severe SAD. Plans FDA meeting; future multi-dose Ph3. 08/06/26:- Topline exploratory Ph2 repeat-dose study showed favorable safety; efficacy signals, including very severe SAD.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340279/0/en/vistagen-announces-topline-results-for-repeat-dose-study-of-fasedienol-for-acute-treatment-of-social-anxiety-disorder.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28531,10 +28463,44 @@
    "stage_label": "Phase 3",
    "event_label": "Initiation"
   },
-  "note": "AMPLIFY-7P trial. 1/11/24- First patient dosed. 12/3/24- Completed enrollment in Ph2 portion. 8/7/25- Secured alignment w/ FDA on planned Ph3 study. 9/29/25- Initiate Ph1 IIT in H1 2026. 11/7/25\u2013 99% mKRAS-specific T cell responses data presented at SITC\u201925. 11/13/25:- Ph2 AMPLIFY-7P DFS primary analysis expected H1 2026; Ph1 IIT neoadjuvant PDAC trial initiation also anticipated H1 2026. 12/11/25:- Ph2 AMPLIFY-7P subset showed 87% antigen spreading with broad non-mKRAS neoantigen T cell responses. 03/12/26:- DFS primary analysis still expected H1 2026. Oral AMPLIFY-7P updates at WVC and AACR 2026. 05/11/26:- AMPLIFY-7P DFS primary analysis still expected mid-2026. Fewer events observed; remains blinded. EoPh2 FDA meeting planned. 06/15/26:- AMPLIFY-7P Ph2 missed DFS; post-hoc R0 benefit. Ph3 planned, timing TBA. 06/17/26:- 3 post-ELI-002 7P pts had confirmed CRs on nivolumab-based therapy. Plans Ph1 metastatic combo study. 08/10/26:- Ph1 neoadjuvant IIT NCT07671339 opened in resectable/borderline resectable PDAC; enroll 20.",
+  "note": "AMPLIFY-7P trial. 1/11/24- First patient dosed. 12/3/24- Completed enrollment in Ph2 portion. 8/7/25- Secured alignment w/ FDA on planned Ph3 study. 9/29/25- Initiate Ph1 IIT in H1 2026. 11/7/25\u2013 99% mKRAS-specific T cell responses data presented at SITC\u201925. 11/13/25:- Ph2 AMPLIFY-7P DFS primary analysis expected H1 2026; Ph1 IIT neoadjuvant PDAC trial initiation also anticipated H1 2026. 12/11/25:- Ph2 AMPLIFY-7P subset showed 87% antigen spreading with broad non-mKRAS neoantigen T cell responses. 03/12/26:- DFS primary analysis still expected H1 2026. Oral AMPLIFY-7P updates at WVC and AACR 2026. 05/11/26:- AMPLIFY-7P DFS primary analysis still expected mid-2026. Fewer events observed; remains blinded. EoPh2 FDA meeting planned. 06/15/26:- AMPLIFY-7P Ph2 missed DFS; post-hoc R0 benefit. Ph3 planned, timing TBA. 06/17/26:- 3 post-ELI-002 7P pts had confirmed CRs on nivolumab-based therapy. Plans Ph1 metastatic combo study. 08/10/26:- Ph1 neoadjuvant IIT NCT07671339 opened in resectable/borderline resectable PDAC; enroll 20. 08/13/26:- AMPLIFY-7P Phase 2 subgroup analyses continue to refine the Phase 3 strategy. Neoadjuvant Phase 1 trial has been activated.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/10/3341758/0/en/elicio-therapeutics-announces-activation-of-the-investigator-initiated-phase-1-study-of-neoadjuvant-eli-002-7p-for-pancreatic-ductal-adenocarcinoma.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344883/0/en/elicio-therapeutics-reports-second-quarter-2026-financial-results-and-provides-corporate-updates.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 17685,
+  "company": {
+   "ticker": "AZTR",
+   "name": "Azitra",
+   "last_price": "0.14",
+   "market_cap": 2255606
+  },
+  "ticker": "AZTR",
+  "drug_name": "ATR12-351 (ATR-12)",
+  "indications": [
+   {
+    "id": 2160,
+    "title": "Netherton syndrome",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Netherton syndrome",
+  "stage_event": {
+   "id": 119,
+   "label": "Phase 1b Update",
+   "stage_label": "Phase 1b",
+   "event_label": "Update"
+  },
+  "note": "8/28/24- First patient dosed. 6/17/25- Reported initial safety data. 8/11/25- Topline data in Q1 2026. 11/12/25:- Company continues Phase 1b ATR-12 trial in Netherton syndrome; initial safety and topline data planned. 02/27/26:- Phase 1b ATR-12 shows promising safety; topline data timing updated to H2 2026. 05/13/26:- Topline Ph1b ATR-12 Netherton data still anticipated H2 2026. 08/12/26:- Further Ph1b enrollment is strategically paused. Future ATR-12 data timing is TBA.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/azitra-inc-announces-q2-2026-results-and-provides-business-updates-302850148.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28719,7 +28685,7 @@
   "note": "KOASTAL program (1/2/3). 1/2/25- Reported KOASTAL-1 topline data, did not meet primary endpoint. 3/3/25- KOASTAL-2 and -3 paused and plans to make changes. 5/12/25- Resumed enrollment. 8/6/25- Topline data for -3 in Q1 2026 and -2 in Q2 2026. 11/6/25:- Enrollment ongoing in KOASTAL Ph3; KOASTAL-3 topline Q1 2026, KOASTAL-2 Q2 2026. 01/05/26:- Increasing KOASTAL-2 and -3 enrollment; consolidated Phase 3 topline data now expected in Q2 2026. 03/30/26:- KOASTAL-2/-3 fully enrolled; joint Ph3 topline data for both studies expected in Q2 2026. 05/07/26:- KOASTAL-2/-3 fully enrolled >400 pts; joint Ph3 topline readout remains expected in Q2 2026. 06/15/26:- KOASTAL-2/-3 missed primary endpoints; navacaprant development discontinued.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/15/3311713/0/en/neumora-therapeutics-reports-data-from-phase-3-koastal-program-and-provides-business-and-pipeline-update.html",
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28750,10 +28716,10 @@
    "stage_label": "Phase 1",
    "event_label": "Update"
   },
-  "note": "3/5/25- Initiated DE study. 11/13/25:- Updated Ph1 SLE data at ACR 2025; robust responses, favorable safety, first SSc patient treated with FT819. 12/08/25:- Updated data at ASH 2025; durable responses, favorable safety; registrational trial initiation planned 2026. 02/26/26:- Dosing ongoing; enrollment expanding; clinical/regulatory updates in H2 2026. 05/04/26:- ASGCT 2026 poster presents Regimen B Ph1 SLE clinical and translational data May 12, 2026. 05/05/26:- FDA selected FT819 for CDRP; RMAT supports Phase 2 potentially registrational SLE study planning. 05/11/26:- Regimen B cutoff Apr 9 showed LLDAS in 2/3. Dose level 2 initiated. 05/13/26:- FT819-102 Phase 1 SLE cohorts expanding; Regimen B dose level 2; EULAR June 2026 data update planned. 05/21/26:- EULAR 2026 poster tour presents Ph1 SLE safety and efficacy data on June 4, 2026. 06/04/26:- EULAR Ph1 SLE update (May 14 cutoff): 21 treated; outpatient dosing; durable responses; no Grade \u22653 CRS/ICANS.",
+  "note": "3/5/25- Initiated DE study. 11/13/25:- Updated Ph1 SLE data at ACR 2025; robust responses, favorable safety, first SSc patient treated with FT819. 12/08/25:- Updated data at ASH 2025; durable responses, favorable safety; registrational trial initiation planned 2026. 02/26/26:- Dosing ongoing; enrollment expanding; clinical/regulatory updates in H2 2026. 05/04/26:- ASGCT 2026 poster presents Regimen B Ph1 SLE clinical and translational data May 12, 2026. 05/05/26:- FDA selected FT819 for CDRP; RMAT supports Phase 2 potentially registrational SLE study planning. 05/11/26:- Regimen B cutoff Apr 9 showed LLDAS in 2/3. Dose level 2 initiated. 05/13/26:- FT819-102 Phase 1 SLE cohorts expanding; Regimen B dose level 2; EULAR June 2026 data update planned. 05/21/26:- EULAR 2026 poster tour presents Ph1 SLE safety and efficacy data on June 4, 2026. 06/04/26:- EULAR Ph1 SLE update (May 14 cutoff): 21 treated; outpatient dosing; durable responses; no Grade \u22653 CRS/ICANS. 08/13/26:- EULAR Ph1 SLE data detailed durable responses and favorable safety in 21 treated patients.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/04/3306754/24675/en/fate-therapeutics-showcases-data-from-ft819-and-ft839-programs-at-the-european-congress-of-rheumatology-annual-meeting.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344503/0/en/fate-therapeutics-reports-second-quarter-2026-financial-results-and-business-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -29539,7 +29505,7 @@
    "stage_label": "Phase 2",
    "event_label": "Update"
   },
-  "note": "MoonStone trial. 11/12/24- Trial initiated. 10/27/25- Positive results reported, trial met primary endpoint. Report 24-wk data in Q1 2026. Initiate global Ph3 trial in SPMS in Q1 2026. 11/12/25:- MoonStone Ph2 RMS trial positive 12-week results; 24-week data expected Q1 2026. 02/09/26:- MoonStone Ph2 RMS trial 12- and 24-week data showed ~95% reduction in new GdE T1 lesions; safety consistent. 03/16/26:- PR No update. 05/13/26:- PR No update.",
+  "note": "MoonStone trial. 11/12/24- Trial initiated. 10/27/25- Positive results reported, trial met primary endpoint. Report 24-wk data in Q1 2026. Initiate global Ph3 trial in SPMS in Q1 2026. 11/12/25:- MoonStone Ph2 RMS trial positive 12-week results; 24-week data expected Q1 2026. 02/09/26:- MoonStone Ph2 RMS trial 12- and 24-week data showed ~95% reduction in new GdE T1 lesions; safety consistent. 03/16/26:- PR No update. 05/13/26:- PR No update. 08/13/26:- PR No update.",
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "",
@@ -29612,10 +29578,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Update"
   },
-  "note": "8/6/25- Updated data presented. 11/14/25:- Long-term data in 2026. 01/23/26:- 24-month Ph1b kidney transplant data for eight patients presented at ASTS 2026; favorable safety and eGFR. 03/19/26:- 24-month Ph1b kidney extension data reiterated; continued favorable safety and renal function, no acute rejection reported. 05/13/26:- 24-month Ph1b extension data described; additional long-term kidney transplant data from Ph1b expected in 2026. 06/22/26:- Long-term Ph1b kidney transplant follow-up consistent with BESTOW; 16 patients, eight to 24 months.",
+  "note": "8/6/25- Updated data presented. 11/14/25:- Long-term data in 2026. 01/23/26:- 24-month Ph1b kidney transplant data for eight patients presented at ASTS 2026; favorable safety and eGFR. 03/19/26:- 24-month Ph1b kidney extension data reiterated; continued favorable safety and renal function, no acute rejection reported. 05/13/26:- 24-month Ph1b extension data described; additional long-term kidney transplant data from Ph1b expected in 2026. 06/22/26:- Long-term Ph1b kidney transplant follow-up consistent with BESTOW; 16 patients, eight to 24 months. 08/13/26:- PR No update.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/22/3315172/0/en/eledon-presents-long-term-extension-phase-2-bestow-results-at-american-transplant-congress-showing-sustained-higher-kidney-function-and-improved-patient-reported-outcomes-with-tego.html",
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -29685,10 +29651,10 @@
    "stage_label": "Phase 2",
    "event_label": "Update"
   },
-  "note": "11/10/25:- Completed enrollment reiterated; topline Explore-OSA Phase 2 data expected in Q1 2026. 03/09/26:- Explore-OSA topline results missed AHI endpoint; showed clinically meaningful blood pressure reduction and favorable safety. 03/12/26:- Explore-OSA topline Ph2 data detailed; AHI endpoint missed; blood pressure reduced; safety favorable; further endpoint analyses planned. 05/06/26:- OSA development reiterated in corporate description; no new Explore-OSA or hypertension outcome milestones disclosed.",
+  "note": "11/10/25:- Completed enrollment reiterated; topline Explore-OSA Phase 2 data expected in Q1 2026. 03/09/26:- Explore-OSA topline results missed AHI endpoint; showed clinically meaningful blood pressure reduction and favorable safety. 03/12/26:- Explore-OSA topline Ph2 data detailed; AHI endpoint missed; blood pressure reduced; safety favorable; further endpoint analyses planned. 05/06/26:- OSA development reiterated in corporate description; no new Explore-OSA or hypertension outcome milestones disclosed. 08/11/26:- OSA comorbidity focus reiterated; no Explore-OSA clinical milestone disclosed.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/06/3289320/0/en/mineralys-therapeutics-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/5/6/3289320/0/en/mineralys-therapeutics-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -29830,6 +29796,40 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18881,
+  "company": {
+   "ticker": "CLRB",
+   "name": "Cellectar Biosciences",
+   "last_price": "2.60",
+   "market_cap": 20778710
+  },
+  "ticker": "CLRB",
+  "drug_name": "CLR 121125",
+  "indications": [
+   {
+    "id": 995,
+    "title": "Triple-negative breast cancer ",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Triple-negative breast cancer",
+  "stage_event": {
+   "id": 117,
+   "label": "Phase 1b Initiation",
+   "stage_label": "Phase 1b",
+   "event_label": "Initiation"
+  },
+  "note": "05/14/26:- First patients dosed; dosimetry, safety and efficacy updates expected Q2 and Mid-2026. 08/13/26:- Phase 1b triple-negative breast cancer trial enrollment began and first patients were dosed.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344389/29076/en/cellectar-biosciences-reports-second-quarter-2026-financial-results-and-provides-corporate-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -30016,7 +30016,7 @@
    "stage_label": "Phase 1b",
    "event_label": "Initiation"
   },
-  "note": "5/16/25- Study update reported. 8/14/25- Dosing completed in MAD cohort 3 and data from SAD and MAD cohorts in Q4 2025. 11/06/25:- Ph1 SAD/MAD trial safety/PK favorable; CTA cleared for Ph1b in OTC heterozygotes; seeking partner. 03/05/26:- PR No update. 05/07/26:- PR No update.",
+  "note": "5/16/25- Study update reported. 8/14/25- Dosing completed in MAD cohort 3 and data from SAD and MAD cohorts in Q4 2025. 11/06/25:- Ph1 SAD/MAD trial safety/PK favorable; CTA cleared for Ph1b in OTC heterozygotes; seeking partner. 03/05/26:- PR No update. 05/07/26:- PR No update. 08/13/26:- PR No update.",
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "",
@@ -30225,6 +30225,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19077,
+  "company": {
+   "ticker": "CLRB",
+   "name": "Cellectar Biosciences",
+   "last_price": "2.60",
+   "market_cap": 20778710
+  },
+  "ticker": "CLRB",
+  "drug_name": "CLR 125",
+  "indications": [
+   {
+    "id": 995,
+    "title": "Triple-negative breast cancer ",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Triple-negative breast cancer",
+  "stage_event": {
+   "id": 117,
+   "label": "Phase 1b Initiation",
+   "stage_label": "Phase 1b",
+   "event_label": "Initiation"
+  },
+  "note": "05/14/26:- First patients dosed; dosimetry, safety and efficacy updates expected Q2 and Mid-2026. 08/13/26:- Phase 1b triple-negative breast cancer trial enrollment began and first patients were dosed.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344389/29076/en/cellectar-biosciences-reports-second-quarter-2026-financial-results-and-provides-corporate-updates.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19105,
   "company": {
    "ticker": "PHGE",
@@ -30287,10 +30321,10 @@
    "stage_label": "Approved",
    "event_label": "Update"
   },
-  "note": "05/14/26:- PDUFA remains July 17, 2026; ASCO data June 2 and sNDA planned Q3 2026. 06/02/26:- Priority Review confirmed; PDUFA remains July 17, 2026. VIKTORIA-1 MT data support planned sNDA; timing TBA. 07/14/26:- FDA approved Revtorpyk for HR+/HER2- PIK3CA WT mBC. Launch planned late Q3 2026.",
+  "note": "05/14/26:- PDUFA remains July 17, 2026; ASCO data June 2 and sNDA planned Q3 2026. 06/02/26:- Priority Review confirmed; PDUFA remains July 17, 2026. VIKTORIA-1 MT data support planned sNDA; timing TBA. 07/14/26:- FDA approved Revtorpyk for HR+/HER2- PIK3CA WT mBC. Launch planned late Q3 2026. 08/13/26:- Commercial launch activities commenced. Revtorpyk shipments are expected late Q3 2026.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/g60458172/celcuity-announces-fda-approval-revtorpyk-gedatolisib-treatment-hr-her2-pik3ca-wild-type-locally-adv",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344947/0/en/celcuity-inc-reports-release-of-second-quarter-2026-financial-results-and-provides-corporate-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -30909,40 +30943,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/b60654249/genmab-and-abbvie-provide-clarification-phase-3-epcore-dlbcl-1-trial-evaluating-epcoritamab-duobody-",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 19716,
-  "company": {
-   "ticker": "CNTB",
-   "name": "Connect Biopharma",
-   "last_price": "2.55",
-   "market_cap": 160584480
-  },
-  "ticker": "CNTB",
-  "drug_name": "Rademikibart (CBP-201) (IL-4R\u03b1 Antibody)",
-  "indications": [
-   {
-    "id": 807,
-    "title": "Respiratory conditions",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Acute Bronchoconstriction",
-  "stage_event": {
-   "id": 119,
-   "label": "Phase 1b Update",
-   "stage_label": "Phase 1b",
-   "event_label": "Update"
-  },
-  "note": "01/12/26:- IV rademikibart airway function study enrolling; topline results in Q1 2026. 03/30/26:- Positive topline preliminary Ph1 IV study results reported; rapid FEV1 improvements maintained to Day 29. 03/31/26:- Phase 1 IV airway function study showed rapid 200\u2013400 mL FEV1 gains through Day 29 with good tolerability. 05/12/26:- Ph1 IV pharmacology data reiterated; shows rapid, durable FEV1 gains and bronchodilation.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/12/3292887/0/en/connect-biopharma-reports-first-quarter-2026-financial-results-and-provides-business-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

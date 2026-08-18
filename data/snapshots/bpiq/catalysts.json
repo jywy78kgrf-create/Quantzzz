@@ -4,7 +4,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "25.83",
+   "last_price": "25.99",
    "market_cap": 1795978368
   },
   "ticker": "ZYME",
@@ -92,7 +92,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.50",
+   "last_price": "123.98",
    "market_cap": 25033170944
   },
   "ticker": "INCY",
@@ -126,7 +126,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.15",
+   "last_price": "1.32",
    "market_cap": 177676096
   },
   "ticker": "CHRS",
@@ -842,7 +842,7 @@
   "company": {
    "ticker": "GENB",
    "name": "Generate Biomedicines",
-   "last_price": "16.18",
+   "last_price": "16.21",
    "market_cap": 2013849600
   },
   "ticker": "GENB",
@@ -1188,7 +1188,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.50",
+   "last_price": "123.98",
    "market_cap": 25033170944
   },
   "ticker": "INCY",
@@ -1245,6 +1245,34 @@
   "catalyst_date": "2026-09-28",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344531/0/en/biofrontera-inc-reports-strong-second-quarter-2026-financial-results-driven-by-33-revenue-growth.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18985,
+  "company": {
+   "ticker": "ALZN",
+   "name": "Alzamend Neuro ",
+   "last_price": "1.58",
+   "market_cap": 7570609
+  },
+  "ticker": "ALZN",
+  "drug_name": "AL001",
+  "indications": [],
+  "indications_text": "Healthy Subjects (Baseline Study)",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "Collab w/ MGH. 5/29/25- Dosed first patient. Serve as baseline study. 11/19/25\u2013 Completed trial; topline data Q1 2026. 03/16/26:- 'Lithium In Brain' healthy-subjects topline data expected by end of March 2026. 03/26/26:- Ph2 Lithium In Brain healthy-subjects topline positive; bioequivalence met; higher brain lithium vs lithium carbonate. 04/07/26:- Preliminary Phase 2 MRS pharmacodynamic results suggest improved tolerability versus lithium carbonate. 08/18/26:- Phase 1/2A pharmacokinetic lithium imaging results present at ISMRM on September 29, 2026.",
+  "catalyst_date": "2026-09-29",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/n61269473/alzamend-neuro-s-phase-1-2a-lithium-imaging-data-accepted-oral-presentation-ismrm-workshop-x-nuclei-",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1469,6 +1497,50 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 15176,
+  "company": {
+   "ticker": "INBX",
+   "name": "Inhibrx Inc.",
+   "last_price": "92.01",
+   "market_cap": 1354171904
+  },
+  "ticker": "INBX",
+  "drug_name": "INBRX-106 (OX40 agonist) + Keytruda ",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1040,
+    "title": "Head and neck squamous cell carcinoma",
+    "nickname": "HNSCC"
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Head and neck squamous cell carcinoma ",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/14/26:- HNSCC interim data reiterated. Phase 2 PFS data planned in Q4 2026. 08/13/26:- Randomized Phase 2 HNSCC PFS data will be announced in Q3 2026.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/inhibrx-reports-second-quarter-2026-financial-results-302851356.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 15204,
@@ -1850,7 +1922,7 @@
   "company": {
    "ticker": "SCYX",
    "name": "SCYNEXIS",
-   "last_price": "5.09",
+   "last_price": "5.16",
    "market_cap": 50643512
   },
   "ticker": "SCYX",
@@ -1966,50 +2038,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 18408,
-  "company": {
-   "ticker": "AMLX",
-   "name": "Amylyx Pharmaceuticals",
-   "last_price": "32.39",
-   "market_cap": 2387795968
-  },
-  "ticker": "AMLX",
-  "drug_name": "Avexitide",
-  "indications": [
-   {
-    "id": 992,
-    "title": "Congenital Hyperinsulinism",
-    "nickname": ""
-   },
-   {
-    "id": 1140,
-    "title": "Hyperinsulinism",
-    "nickname": "HI"
-   },
-   {
-    "id": 2186,
-    "title": "Post-Bariatric Hypoglycemia",
-    "nickname": "PBH"
-   }
-  ],
-  "indications_text": "Post-Bariatric Hypoglycemia (PBH)",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "LUCIDITY trial. 7/10/24- Acquired from Eiger. 12/4/24- Announced Ph3 trial design. 4/30/25- Dosed first study participant with topline data in H1 2026. 7/13/25- Presented new analyses from Ph2 PREVENT & Ph2b trials at ENDO '25. 11/06/25:- LUCIDITY Ph3 recruitment completes Q1 2026; topline PBH data expected Q3 2026; launch anticipated 2027. 03/03/26:- LUCIDITY recruitment complete; last participants randomized/dosed this month; still expect Q3 2026 topline and 2027 launch. 03/24/26:- LUCIDITY (NCT06747468) randomized/dosed last participant; 78 enrolled. Topline data still expected Q3 2026. 05/07/26:- LUCIDITY topline still expected Q3 2026; US Expanded Access Program for PBH initiated May 2026. 08/06/26:- LUCIDITY final visit completed; topline expected late August or early September 2026; launch anticipated 2027.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260806299550/en/Amylyx-Pharmaceuticals-Reports-Second-Quarter-2026-Financial-Results",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 18477,
@@ -2230,7 +2258,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "26.22",
+   "last_price": "26.04",
    "market_cap": 1564729344
   },
   "ticker": "TYRA",
@@ -2809,7 +2837,7 @@
   "company": {
    "ticker": "SCYX",
    "name": "SCYNEXIS",
-   "last_price": "5.09",
+   "last_price": "5.16",
    "market_cap": 50643512
   },
   "ticker": "SCYX",
@@ -2843,7 +2871,7 @@
   "company": {
    "ticker": "CUE",
    "name": "Cue Biopharma",
-   "last_price": "27.64",
+   "last_price": "24.89",
    "market_cap": 200788400
   },
   "ticker": "CUE",
@@ -3944,7 +3972,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "7.10",
+   "last_price": "7.11",
    "market_cap": 3216097024
   },
   "ticker": "IOVA",
@@ -4028,6 +4056,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 20550,
+  "company": {
+   "ticker": "EIKN",
+   "name": "Eikon Therapeutics",
+   "last_price": "10.47",
+   "market_cap": 567107904
+  },
+  "ticker": "EIKN",
+  "drug_name": "EIK1005",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "MSI-high / dMMR advanced solid tumors",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "05/11/26:- WRN inhibitor EIK1005 Ph1/2 underway in advanced solid tumors, including MSI-H/dMMR tumors; first patient dosed in Feb 2026. 07/20/26:- ESMO 2026 to present initial safety, tolerability, and pharmacokinetics analyses for EIK1005. 08/13/26:- Initial Ph1/2 safety, tolerability, and pharmacokinetic data will be presented October 23, 2026. The trial first dosed a patient in January 2026.",
+  "catalyst_date": "2026-10-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344893/0/en/eikon-therapeutics-reports-second-quarter-2026-financial-results-and-provides-clinical-updates.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 20555,
   "company": {
    "ticker": "EIKN",
@@ -4071,7 +4138,7 @@
   "company": {
    "ticker": "PBLS",
    "name": "Parbaillis Medicines",
-   "last_price": "37.22",
+   "last_price": "38.75",
    "market_cap": 4552469504
   },
   "ticker": "PBLS",
@@ -4441,7 +4508,7 @@
   "company": {
    "ticker": "INO",
    "name": "Inovio Pharmaceuticals",
-   "last_price": "1.11",
+   "last_price": "1.15",
    "market_cap": 118824752
   },
   "ticker": "INO",
@@ -4485,7 +4552,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.15",
+   "last_price": "1.32",
    "market_cap": 177676096
   },
   "ticker": "CHRS",
@@ -4558,7 +4625,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "13.38",
+   "last_price": "13.71",
    "market_cap": 1386872576
   },
   "ticker": "ORIC",
@@ -4597,7 +4664,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.15",
+   "last_price": "1.32",
    "market_cap": 177676096
   },
   "ticker": "CHRS",
@@ -4747,6 +4814,40 @@
   "catalyst_date": "2026-11-04",
   "has_catalyst": true,
   "catalyst_source": "https://www.sitcancer.org/2026/schedule/sitc-2026-schedule",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20760,
+  "company": {
+   "ticker": "ANL",
+   "name": "Adlai Nortye Biopharma",
+   "last_price": "13.34",
+   "market_cap": 859068480
+  },
+  "ticker": "ANL",
+  "drug_name": "AN4005 (PD-L1 Inhibitor)",
+  "indications": [
+   {
+    "id": 1374,
+    "title": "Advanced malignancies",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Cancer, Advanced Tumors",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "08/14/26:- AN4005 monotherapy was de-prioritized. Expansion-cohort clinical data is expected at the 2026 SITC meeting.",
+  "catalyst_date": "2026-11-04",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/16/3328326/0/en/adlai-nortye-announces-first-patient-dosed-in-intermittent-weekly-dosing-arm-of-global-phase-1-trial-of-pan-ras-on-inhibitor-an9025.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -6718,7 +6819,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "7.10",
+   "last_price": "7.11",
    "market_cap": 3216097024
   },
   "ticker": "IOVA",
@@ -7587,7 +7688,7 @@
   "company": {
    "ticker": "VTVT",
    "name": "vTv Therapeutics",
-   "last_price": "31.31",
+   "last_price": "31.29",
    "market_cap": 123319256
   },
   "ticker": "VTVT",
@@ -7626,7 +7727,7 @@
   "company": {
    "ticker": "IVA",
    "name": " Inventiva",
-   "last_price": "4.70",
+   "last_price": "4.58",
    "market_cap": 1110237056
   },
   "ticker": "IVA",
@@ -7860,7 +7961,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "13.38",
+   "last_price": "13.71",
    "market_cap": 1386872576
   },
   "ticker": "ORIC",
@@ -7982,7 +8083,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "20.67",
+   "last_price": "20.49",
    "market_cap": 4529657344
   },
   "ticker": "RLAY",
@@ -8387,7 +8488,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "26.22",
+   "last_price": "26.04",
    "market_cap": 1564729344
   },
   "ticker": "TYRA",
@@ -9188,6 +9289,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 17326,
+  "company": {
+   "ticker": "ADCT",
+   "name": "ADC Therapeutics",
+   "last_price": "1.10",
+   "market_cap": 140434464
+  },
+  "ticker": "ADCT",
+  "drug_name": "ZYNLONTA (Loncastuximab Tesirine) + rituximab",
+  "indications": [
+   {
+    "id": 1362,
+    "title": "Diffuse large B cell lymphoma",
+    "nickname": "DLBCL"
+   }
+  ],
+  "indications_text": "Diffuse large B cell lymphoma",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "LOTIS-5 study (Lonca-R). ZYNLONTA was approved on 4/23/2021. 12/30/24- Completed enrollment of LOTIS-5 study (Phase 3 confirmatory trial). Topline data by end of 2025. 11/10/25:- LOTIS-5 topline PFS data now expected H1 2026; sBLA and confirmatory approval targeted by H1 2027. 03/10/26:- LOTIS-5 Phase 3 topline PFS results expected in Q2 2026; full LOTIS-5 data by year-end 2026. 05/04/26:- LOTIS-5 topline still expected Q2 2026; full data and sBLA submission targeted by YE 2026; compendia H1 2027. 06/03/26:- LOTIS-5 met PFS. Pre-sBLA FDA meeting August 2026; sBLA submission Q4 2026. 08/13/26:- LOTIS-5 pre-sBLA meeting raised benefit-risk concerns. Full data will be presented at ASH by YE 2026; regulatory timing is under assessment.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/adc-therapeutics-reports-second-quarter-2026-financial-results-and-provides-operational-updates-302850226.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 17328,
   "company": {
    "ticker": "IMCR",
@@ -9475,7 +9610,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.50",
+   "last_price": "123.98",
    "market_cap": 25033170944
   },
   "ticker": "INCY",
@@ -9597,7 +9732,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "11.28",
+   "last_price": "12.30",
    "market_cap": 1003475712
   },
   "ticker": "KURA",
@@ -9641,7 +9776,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "11.28",
+   "last_price": "12.30",
    "market_cap": 1003475712
   },
   "ticker": "KURA",
@@ -11840,11 +11975,55 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 18408,
+  "company": {
+   "ticker": "AMLX",
+   "name": "Amylyx Pharmaceuticals",
+   "last_price": "31.85",
+   "market_cap": 2387795968
+  },
+  "ticker": "AMLX",
+  "drug_name": "Avexitide",
+  "indications": [
+   {
+    "id": 992,
+    "title": "Congenital Hyperinsulinism",
+    "nickname": ""
+   },
+   {
+    "id": 1140,
+    "title": "Hyperinsulinism",
+    "nickname": "HI"
+   },
+   {
+    "id": 2186,
+    "title": "Post-Bariatric Hypoglycemia",
+    "nickname": "PBH"
+   }
+  ],
+  "indications_text": "Post-Bariatric Hypoglycemia (PBH)",
+  "stage_event": {
+   "id": 84,
+   "label": "NDA Submission",
+   "stage_label": "NDA",
+   "event_label": "Submission"
+  },
+  "note": "LUCIDITY trial. 7/10/24- Acquired from Eiger. 12/4/24- Announced Ph3 trial design. 4/30/25- Dosed first study participant with topline data in H1 2026. 7/13/25- Presented new analyses from Ph2 PREVENT & Ph2b trials at ENDO '25. 11/06/25:- LUCIDITY Ph3 recruitment completes Q1 2026; topline PBH data expected Q3 2026; launch anticipated 2027. 03/03/26:- LUCIDITY recruitment complete; last participants randomized/dosed this month; still expect Q3 2026 topline and 2027 launch. 03/24/26:- LUCIDITY (NCT06747468) randomized/dosed last participant; 78 enrolled. Topline data still expected Q3 2026. 05/07/26:- LUCIDITY topline still expected Q3 2026; US Expanded Access Program for PBH initiated May 2026. 08/06/26:- LUCIDITY final visit completed; topline expected late August or early September 2026; launch anticipated 2027. 08/18/26:- Positive Ph3 LUCIDITY topline. NDA submission planned by end of 2026. OLE and EAP ongoing.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61268066/amylyx-pharmaceuticals-announces-positive-topline-results-phase-3-lucidity-clinical-trial-avexitide-",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 18436,
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "11.28",
+   "last_price": "12.30",
    "market_cap": 1003475712
   },
   "ticker": "KURA",
@@ -13047,7 +13226,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "11.28",
+   "last_price": "12.30",
    "market_cap": 1003475712
   },
   "ticker": "KURA",
@@ -13406,7 +13585,7 @@
   "company": {
    "ticker": "RZLT",
    "name": "Rezolute Bio",
-   "last_price": "4.68",
+   "last_price": "4.62",
    "market_cap": 450648064
   },
   "ticker": "RZLT",
@@ -13479,7 +13658,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "20.67",
+   "last_price": "20.49",
    "market_cap": 4529657344
   },
   "ticker": "RLAY",
@@ -13834,7 +14013,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "13.38",
+   "last_price": "13.71",
    "market_cap": 1386872576
   },
   "ticker": "ORIC",
@@ -14698,7 +14877,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.50",
+   "last_price": "123.98",
    "market_cap": 25033170944
   },
   "ticker": "INCY",
@@ -15500,7 +15679,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "38.14",
+   "last_price": "38.95",
    "market_cap": 2221135872
   },
   "ticker": "HRMY",
@@ -16638,7 +16817,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "25.83",
+   "last_price": "25.99",
    "market_cap": 1795978368
   },
   "ticker": "ZYME",
@@ -16808,10 +16987,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "02/04/26:- Received Fast Track Designation. Study starts March 2026; interim data Q4 2026. 03/02/26:- REO 033 Ph2 study initiated; first site March 2026. Preliminary data expected Q4 2026. 05/04/26:- REO 022 showed 19.5-month median DOR; FDA engagement ongoing for accelerated approval path. 07/13/26:- Sites activate Jul-Aug 2026. Type D FDA meeting Aug 2026; Part A response update YE 2026; Part B Q1 2027.",
+  "note": "02/04/26:- Received Fast Track Designation. Study starts March 2026; interim data Q4 2026. 03/02/26:- REO 033 Ph2 study initiated; first site March 2026. Preliminary data expected Q4 2026. 05/04/26:- REO 022 showed 19.5-month median DOR; FDA engagement ongoing for accelerated approval path. 07/13/26:- Sites activate Jul-Aug 2026. Type D FDA meeting Aug 2026; Part A response update YE 2026; Part B Q1 2027. 08/18/26:- FDA written feedback aligns on potential pivotal REO 033 Part B; End-of-Phase meeting planned; Type D canceled.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/13/3326226/0/en/oncolytics-biotech-reports-fda-regulatory-milestone-and-strong-clinical-progress-in-randomized-ras-mutant-mss-colorectal-cancer-trial.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61271599/oncolytics-biotech-aligns-fda-registrational-path-second-line-ras-mutant-mss-colorectal-cancer",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -16896,7 +17075,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "16.26",
+   "last_price": "16.68",
    "market_cap": 994083904
   },
   "ticker": "JANX",
@@ -16930,7 +17109,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.50",
+   "last_price": "123.98",
    "market_cap": 25033170944
   },
   "ticker": "INCY",
@@ -18213,7 +18392,7 @@
   "company": {
    "ticker": "PBLS",
    "name": "Parbaillis Medicines",
-   "last_price": "37.22",
+   "last_price": "38.75",
    "market_cap": 4552469504
   },
   "ticker": "PBLS",
@@ -19079,7 +19258,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "15.10",
+   "last_price": "15.15",
    "market_cap": 944982976
   },
   "ticker": "DSGN",
@@ -19254,7 +19433,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "26.22",
+   "last_price": "26.04",
    "market_cap": 1564729344
   },
   "ticker": "TYRA",
@@ -20027,7 +20206,7 @@
   "company": {
    "ticker": "SEPN",
    "name": "Septerna",
-   "last_price": "44.20",
+   "last_price": "44.01",
    "market_cap": 2063121152
   },
   "ticker": "SEPN",
@@ -20232,7 +20411,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "38.14",
+   "last_price": "38.95",
    "market_cap": 2221135872
   },
   "ticker": "HRMY",
@@ -20904,7 +21083,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "16.26",
+   "last_price": "16.68",
    "market_cap": 994083904
   },
   "ticker": "JANX",
@@ -21406,7 +21585,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "38.14",
+   "last_price": "38.95",
    "market_cap": 2221135872
   },
   "ticker": "HRMY",
@@ -21429,6 +21608,45 @@
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260507035953/en/Harmony-Biosciences-Reports-Q1-Financial-Results-and-Confirms-2026-Net-Revenue-Guidance-of-Over-%241-Billion-Reinforces-2026-Strategic-Priorities",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18283,
+  "company": {
+   "ticker": "ANL",
+   "name": "Adlai Nortye Biopharma",
+   "last_price": "13.34",
+   "market_cap": 859068480
+  },
+  "ticker": "ANL",
+  "drug_name": "Buparlisib/AN2025 in comb w/chemoradiotherapy and radiotherapy",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 2235,
+    "title": "Rectal cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Cancer, Rectal cancer",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "ARTEMIS. 5/22/24- Encouraging Phase Ib results. First Patient Dosed in Ph2 08/14/26:- ARTEMIS passed futility analysis in March 2026. Topline Phase 2 results are expected in H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/16/3328326/0/en/adlai-nortye-announces-first-patient-dosed-in-intermittent-weekly-dosing-arm-of-global-phase-1-trial-of-pan-ras-on-inhibitor-an9025.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -21951,7 +22169,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "38.14",
+   "last_price": "38.95",
    "market_cap": 2221135872
   },
   "ticker": "HRMY",
@@ -22724,7 +22942,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "7.10",
+   "last_price": "7.11",
    "market_cap": 3216097024
   },
   "ticker": "IOVA",
@@ -22758,7 +22976,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "7.10",
+   "last_price": "7.11",
    "market_cap": 3216097024
   },
   "ticker": "IOVA",
@@ -22786,6 +23004,40 @@
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340124/0/en/iovance-biotherapeutics-reports-record-second-quarter-2026-revenue-of-99m-business-achievements-and-corporate-updates.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20766,
+  "company": {
+   "ticker": "PBLS",
+   "name": "Parbaillis Medicines",
+   "last_price": "38.75",
+   "market_cap": 4552469504
+  },
+  "ticker": "PBLS",
+  "drug_name": "Zolucatetide (FOG-001) (Beta-Catenin Inhibitor)",
+  "indications": [
+   {
+    "id": 717,
+    "title": "Brain tumor",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Adamantinomatous Craniopharyngioma",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "08/13/26:- Additional ACP clinical data are expected in H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344336/0/en/parabilis-medicines-reports-second-quarter-2026-financial-results-and-provides-business-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22909,7 +23161,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "38.14",
+   "last_price": "38.95",
    "market_cap": 2221135872
   },
   "ticker": "HRMY",
@@ -23625,7 +23877,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "38.14",
+   "last_price": "38.95",
    "market_cap": 2221135872
   },
   "ticker": "HRMY",
@@ -23824,10 +24076,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "08/11/26:- FORTIFY enrollment strong and ahead; interim Ph1b data expected in 2027.",
+  "note": "08/11/26:- FORTIFY enrollment strong and ahead; interim Ph1b data expected in 2027. 08/18/26:- FDA Fast Track granted with pembrolizumab; FORTIFY NCT06270706 Phase 1a/1b data expected in 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/11/3343151/0/en/pliant-therapeutics-provides-corporate-update-and-reports-second-quarter-2026-financial-results.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61270521/pliant-therapeutics-receives-fda-fast-track-designation-pln-101095-combination-pembrolizumab-treatme",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -23896,6 +24148,40 @@
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/02/23/3242481/33090/en/axsome-therapeutics-reports-fourth-quarter-and-full-year-2025-financial-results-and-provides-business-update.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 17600,
+  "company": {
+   "ticker": "UTHR",
+   "name": "United Therapeutics",
+   "last_price": "508.48",
+   "market_cap": 21809059840
+  },
+  "ticker": "UTHR",
+  "drug_name": "Tyvaso (inhaled treprostinil)",
+  "indications": [
+   {
+    "id": 2146,
+    "title": "Progressive pulmonary fibrosis ",
+    "nickname": "(PPF)"
+   }
+  ],
+  "indications_text": "Progressive pulmonary fibrosis ",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "TETON PPF trial. 10/31/23- First patient enrolled. 4/30/25- Enrollment ongoing. 05/11/26:- TETON-PPF interim analysis to be presented at ATS May 19, 2026. 08/17/26:- TETON-PPF fully enrolled Aug 2026. Topline Phase 3 data expected H2 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260817124577/en/United-Therapeutics-Corporation-Announces-Full-Enrollment-of-the-TETON-PPF-Study-of-Inhaled-Treprostinil-for-the-Treatment-of-Progressive-Pulmonary-Fibrosis",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -24204,7 +24490,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "15.10",
+   "last_price": "15.15",
    "market_cap": 944982976
   },
   "ticker": "DSGN",
@@ -24924,7 +25210,7 @@
   "company": {
    "ticker": "SABS",
    "name": "SAb Biotherapeutics",
-   "last_price": "3.77",
+   "last_price": "3.79",
    "market_cap": 343018592
   },
   "ticker": "SABS",
@@ -25002,7 +25288,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "26.22",
+   "last_price": "26.04",
    "market_cap": 1564729344
   },
   "ticker": "TYRA",
@@ -25119,7 +25405,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "15.10",
+   "last_price": "15.15",
    "market_cap": 944982976
   },
   "ticker": "DSGN",
@@ -25323,7 +25609,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "38.14",
+   "last_price": "38.95",
    "market_cap": 2221135872
   },
   "ticker": "HRMY",
@@ -26865,7 +27151,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "11.28",
+   "last_price": "12.30",
    "market_cap": 1003475712
   },
   "ticker": "KURA",
@@ -26909,7 +27195,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "11.28",
+   "last_price": "12.30",
    "market_cap": 1003475712
   },
   "ticker": "KURA",
@@ -28637,7 +28923,7 @@
   "company": {
    "ticker": "INSM",
    "name": "Insmed Incorporated",
-   "last_price": "126.97",
+   "last_price": "128.53",
    "market_cap": 28022716416
   },
   "ticker": "INSM",
@@ -28827,7 +29113,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "16.26",
+   "last_price": "16.68",
    "market_cap": 994083904
   },
   "ticker": "JANX",
@@ -30026,7 +30312,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "20.67",
+   "last_price": "20.49",
    "market_cap": 4529657344
   },
   "ticker": "RLAY",
@@ -30172,7 +30458,7 @@
   "company": {
    "ticker": "SDGR",
    "name": "Schrodinger Inc",
-   "last_price": "17.40",
+   "last_price": "17.27",
    "market_cap": 1301617920
   },
   "ticker": "SDGR",
@@ -31291,34 +31577,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260227462624/en/KEYTRUDA-pembrolizumab-Plus-Paclitaxel-With-or-Without-Bevacizumab-Significantly-Improved-Key-Secondary-Endpoint-of-Overall-Survival-OS-Versus-Paclitaxel-With-or-Without-Bevacizumab-in-Patients-With-Platinum-Resistant-Recurrent-Ovarian-Cancer",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 18985,
-  "company": {
-   "ticker": "ALZN",
-   "name": "Alzamend Neuro ",
-   "last_price": "1.58",
-   "market_cap": 7570609
-  },
-  "ticker": "ALZN",
-  "drug_name": "AL001",
-  "indications": [],
-  "indications_text": "Healthy Subjects (Baseline Study)",
-  "stage_event": {
-   "id": 137,
-   "label": "Phase 2 Update",
-   "stage_label": "Phase 2",
-   "event_label": "Update"
-  },
-  "note": "Collab w/ MGH. 5/29/25- Dosed first patient. Serve as baseline study. 11/19/25\u2013 Completed trial; topline data Q1 2026. 03/16/26:- 'Lithium In Brain' healthy-subjects topline data expected by end of March 2026. 03/26/26:- Ph2 Lithium In Brain healthy-subjects topline positive; bioequivalence met; higher brain lithium vs lithium carbonate. 04/07/26:- Preliminary Phase 2 MRS pharmacodynamic results suggest improved tolerability versus lithium carbonate.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/alzamend-neuro-reports-encouraging-pharmacodynamic-data-from-phase-ii-clinical-trial-of-al001-lithium-in-brain-study-in-a-trial-conducted-at-massachusetts-general-hospital-302735711.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -32532,7 +32790,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.50",
+   "last_price": "123.98",
    "market_cap": 25033170944
   },
   "ticker": "INCY",

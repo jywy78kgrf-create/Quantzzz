@@ -5,7 +5,7 @@
    "ticker": "ZYME",
    "name": "Zymeworks",
    "last_price": "25.31",
-   "market_cap": 1782496128
+   "market_cap": 1782496000
   },
   "ticker": "ZYME",
   "drug_name": "Zanidatamab (HER2) + chemotherapy + tislelizumab",
@@ -49,7 +49,7 @@
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
    "last_price": "58.63",
-   "market_cap": 9512390656
+   "market_cap": 9743386624
   },
   "ticker": "IONS",
   "drug_name": "Eplontersen (AKCEA-TTR-LRx) ",
@@ -93,7 +93,7 @@
    "ticker": "INCY",
    "name": "Incyte Corporation",
    "last_price": "123.50",
-   "market_cap": 24356161536
+   "market_cap": 25033170944
   },
   "ticker": "INCY",
   "drug_name": "Povorcitinib (JAK1) ",
@@ -127,7 +127,7 @@
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
    "last_price": "1.15",
-   "market_cap": 185401000
+   "market_cap": 177676096
   },
   "ticker": "CHRS",
   "drug_name": "Toripalimab +/- CHS-006 (anti-TIGIT) (anti-PD-1)",
@@ -170,8 +170,8 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.38",
-   "market_cap": 3707792640
+   "last_price": "29.56",
+   "market_cap": 3763974000
   },
   "ticker": "RCUS",
   "drug_name": "Casdatifan + Cabozantinib",
@@ -248,8 +248,8 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "18.94",
-   "market_cap": 617745792
+   "last_price": "19.08",
+   "market_cap": 617746000
   },
   "ticker": "NVCT",
   "drug_name": "NXP900",
@@ -376,7 +376,7 @@
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
    "last_price": "7.45",
-   "market_cap": 433135000
+   "market_cap": 433135456
   },
   "ticker": "CAPR",
   "drug_name": "Deramiocel (CAP-1002)",
@@ -410,7 +410,7 @@
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
    "last_price": "26.13",
-   "market_cap": 2611619072
+   "market_cap": 2576127000
   },
   "ticker": "RARE",
   "drug_name": "DTX401",
@@ -444,7 +444,7 @@
    "ticker": "JAZZ",
    "name": "Jazz Pharmaceuticals ",
    "last_price": "248.36",
-   "market_cap": 15901474816
+   "market_cap": 16122183680
   },
   "ticker": "JAZZ",
   "drug_name": "Ziihera\u00ae (zanidatamab-hrii) + chemo",
@@ -488,7 +488,7 @@
    "ticker": "GILD",
    "name": "Gilead Sciences",
    "last_price": "138.92",
-   "market_cap": 172254577000
+   "market_cap": 172254576640
   },
   "ticker": "GILD",
   "drug_name": "Bictegravir/Lenacapavir (BIC/LEN) (Antiretroviral Combination)",
@@ -522,7 +522,7 @@
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
    "last_price": "75.87",
-   "market_cap": 10547708000
+   "market_cap": 10547707904
   },
   "ticker": "CYTK",
   "drug_name": "Aficamten",
@@ -561,7 +561,7 @@
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
    "last_price": "88.70",
-   "market_cap": 12494018000
+   "market_cap": 12529270784
   },
   "ticker": "ARWR",
   "drug_name": "Plozasiran (ARO-APOC3) ",
@@ -595,7 +595,7 @@
    "ticker": "PTGX",
    "name": "Protagonist Therapeutics ",
    "last_price": "158.62",
-   "market_cap": 10036255744
+   "market_cap": 10264028000
   },
   "ticker": "PTGX",
   "drug_name": "Rusfertide (PTG-300) ",
@@ -639,7 +639,7 @@
    "ticker": "BIVI",
    "name": "BioVie",
    "last_price": "1.17",
-   "market_cap": 10559700
+   "market_cap": 8824886
   },
   "ticker": "BIVI",
   "drug_name": "Bezisterim (NE3107)",
@@ -673,7 +673,7 @@
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
    "last_price": "805.93",
-   "market_cap": 82722275328
+   "market_cap": 82974515000
   },
   "ticker": "REGN",
   "drug_name": "Garetosmab",
@@ -707,7 +707,7 @@
    "ticker": "CLYM",
    "name": "Climb Bio",
    "last_price": "17.44",
-   "market_cap": 1001688000
+   "market_cap": 1001688320
   },
   "ticker": "CLYM",
   "drug_name": "CLYM116 (Anti-APRIL Antibody)",
@@ -736,12 +736,46 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 16193,
+  "company": {
+   "ticker": "PHVS",
+   "name": "Pharvaris B.V. ",
+   "last_price": "35.32",
+   "market_cap": 2479623000
+  },
+  "ticker": "PHVS",
+  "drug_name": "Deucrictibant immediate-release capsules (PHVS416)",
+  "indications": [
+   {
+    "id": 978,
+    "title": "Hereditary angioedema ",
+    "nickname": "HAE"
+   }
+  ],
+  "indications_text": "Hereditary angioedema ",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "RAPIDe-1/2/3 studies. 3/18/24- RAPIDe-3 trial initiated. 4/7/25- Target enrollment achieved. 7/10/25- NDA submission in H1 2026. 12/3/25\u2013 Met all study endpoints. 01/12/26:- NDA filing H1 2026; RAPIDe-3 Phase 3 results to be presented at AAAAI 2026. 02/10/26:- RAPIDe-3 Phase 3 results to be presented as featured poster at AAAAI 2026. 03/02/26:- RAPIDe-3 (NCT06343779) met all endpoints; median relief 1.28h, complete resolution 11.95h. NDA filing H1 2026. 04/02/26:- NDA submission for deucrictibant IR on-demand HAE remains on-track H1 2026. RAPIDe-3 data presented at AAAAI 2026. 04/20/26:- CIIC 2026 analyses support IR+XR combined dosing safety margins. Marketing applications for IR on-demand HAE in preparation. 05/29/26:- EAACI June 12 oral and June 13 poster RAPIDe-3 results. Marketing authorization applications in preparation. 06/15/26:- EAACI 2026 detailed RAPIDe-3 EoP endpoint and patient voices. NDA submission still expected H1 2026. 07/06/26:- FDA accepted deucrictibant IR NDA; PDUFA action date set for April 23, 2027. 08/12/26:- RAPIDe-3 analyses will be presented September 4, 2026. PDUFA action is April 23, 2027; U.S. expanded access opened.",
+  "catalyst_date": "2026-09-04",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61136269/pharvaris-reports-second-quarter-2026-financial-results-and-provides-business-update",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19082,
   "company": {
    "ticker": "UPB",
    "name": "Upstream Bio",
    "last_price": "7.14",
-   "market_cap": 387231264
+   "market_cap": 391065000
   },
   "ticker": "UPB",
   "drug_name": "Verekitug",
@@ -775,7 +809,7 @@
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
    "last_price": "27.10",
-   "market_cap": 2762945000
+   "market_cap": 2799095808
   },
   "ticker": "BEAM",
   "drug_name": "BEAM-302",
@@ -809,7 +843,7 @@
    "ticker": "GENB",
    "name": "Generate Biomedicines",
    "last_price": "15.69",
-   "market_cap": 2013850000
+   "market_cap": 2013849600
   },
   "ticker": "GENB",
   "drug_name": "GB-0895",
@@ -877,7 +911,7 @@
    "ticker": "CNTB",
    "name": "Connect Biopharma",
    "last_price": "2.49",
-   "market_cap": 160584000
+   "market_cap": 156806032
   },
   "ticker": "CNTB",
   "drug_name": "Rademikibart /CBP-201 ",
@@ -916,7 +950,7 @@
    "ticker": "OSTX",
    "name": "OS Therapies",
    "last_price": "1.47",
-   "market_cap": 73913832
+   "market_cap": 67805000
   },
   "ticker": "OSTX",
   "drug_name": "OST-HER2",
@@ -934,10 +968,10 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "05/18/26:- FDA/MHRA meetings and ASCO 2026 2.5-year OS precede BLA/MAA filings; H2 2026 Ph3, 3-year OS, decisions. 06/02/26:- 2.5-year OS 75%. FDA/MHRA mtgs Early Jun 2026; 3-year OS Early Q4 2026; Ph3 Late Q3 2026. 06/08/26:- FDA and MHRA aligned on Ph3 design. Ph3 starts Late Q3 2026; potential Q4 2026 decisions. 06/30/26:- Type B FDA meeting requested. Ph2b 3-year OS data readout expected Early Fall 2026. 08/13/26:- Interim 3-year OS data expected Early September 2026. FDA Type C meeting Mid-September 2026; BLA targeted Year-End 2026.",
+  "note": "05/18/26:- FDA/MHRA meetings and ASCO 2026 2.5-year OS precede BLA/MAA filings; H2 2026 Ph3, 3-year OS, decisions. 06/02/26:- 2.5-year OS 75%. FDA/MHRA mtgs Early Jun 2026; 3-year OS Early Q4 2026; Ph3 Late Q3 2026. 06/08/26:- FDA and MHRA aligned on Ph3 design. Ph3 starts Late Q3 2026; potential Q4 2026 decisions. 06/30/26:- Type B FDA meeting requested. Ph2b 3-year OS data readout expected Early Fall 2026. 08/13/26:- Interim 3-year OS data expected Early September 2026. FDA Type C meeting Mid-September 2026; BLA targeted Year-End 2026. 08/17/26:- 2.5-year OS data showed 75% versus 47%. Metastatic Osteosarcoma Program interim 3-year OS data is expected Early September 2026; FDA Type C meeting will occur Mid-September 2026; BLA submission is expected H2 2026.",
   "catalyst_date": "2026-09-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/61172646/os-therapies-granted-u-s-fda-type-c-statistical-methods-meeting-review-2-5-year-overall-survival-dat",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/61242585/os-therapies-reports-second-quarter-2026-financials-and-provides-business-and-regulatory-updates",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -950,7 +984,7 @@
    "ticker": "GSK",
    "name": "GSK",
    "last_price": "50.28",
-   "market_cap": 99178938000
+   "market_cap": 100701061120
   },
   "ticker": "GSK",
   "drug_name": "Zidesamtinib (NVL-520)",
@@ -994,7 +1028,7 @@
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
    "last_price": "26.13",
-   "market_cap": 2611619072
+   "market_cap": 2576127000
   },
   "ticker": "RARE",
   "drug_name": "UX111 (ABO-102)",
@@ -1033,7 +1067,7 @@
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
    "last_price": "58.63",
-   "market_cap": 9512390656
+   "market_cap": 9743386624
   },
   "ticker": "IONS",
   "drug_name": "Zilganersen (ION373)",
@@ -1067,7 +1101,7 @@
    "ticker": "CCCC",
    "name": "C4 Therapuetics",
    "last_price": "4.27",
-   "market_cap": 521627000
+   "market_cap": 524702176
   },
   "ticker": "CCCC",
   "drug_name": "Cemsidomide (CFT7455) +/- dexamethasone",
@@ -1121,7 +1155,7 @@
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
    "last_price": "99.83",
-   "market_cap": 6137150976
+   "market_cap": 6087756288
   },
   "ticker": "MIRM",
   "drug_name": "Zilurgisertib (ALK2 Inhibitor)",
@@ -1155,7 +1189,7 @@
    "ticker": "INCY",
    "name": "Incyte Corporation",
    "last_price": "123.50",
-   "market_cap": 24356161536
+   "market_cap": 25033170944
   },
   "ticker": "INCY",
   "drug_name": "Zilurgisertib (ALK2 Inhibitor)",
@@ -1189,7 +1223,7 @@
    "ticker": "BFRI",
    "name": "Biofrontera",
    "last_price": "1.35",
-   "market_cap": 17284500
+   "market_cap": 17284514
   },
   "ticker": "BFRI",
   "drug_name": "Ameluz\u00ae-PDT combo w/ BF-RhodoLED\u00ae",
@@ -1223,7 +1257,7 @@
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
    "last_price": "41.92",
-   "market_cap": 3291958000
+   "market_cap": 3291958016
   },
   "ticker": "CLDX",
   "drug_name": "Barzolvolimab (CDX-0159) (KIT receptor) ",
@@ -1266,8 +1300,8 @@
   "company": {
    "ticker": "PHVS",
    "name": "Pharvaris B.V. ",
-   "last_price": "35.20",
-   "market_cap": 2455573504
+   "last_price": "35.32",
+   "market_cap": 2479623000
   },
   "ticker": "PHVS",
   "drug_name": "PHVS719 (deucrictibant extended-release tablets)",
@@ -1301,7 +1335,7 @@
    "ticker": "TLSA",
    "name": "Tiziana Life Sciences",
    "last_price": "1.15",
-   "market_cap": 144439104
+   "market_cap": 146348000
   },
   "ticker": "TLSA",
   "drug_name": "Intranasal Foralumab (anti-CD3 mAb)",
@@ -1334,8 +1368,8 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "52.52",
-   "market_cap": 6396163072
+   "last_price": "52.05",
+   "market_cap": 6338924000
   },
   "ticker": "SRRK",
   "drug_name": "Apitegromab (SRK-015) ",
@@ -1374,7 +1408,7 @@
    "ticker": "LGVN",
    "name": "Longeveron Inc",
    "last_price": "0.82",
-   "market_cap": 23379324
+   "market_cap": 25910320
   },
   "ticker": "LGVN",
   "drug_name": "Lomecel-B (laromestrocel)",
@@ -1408,7 +1442,7 @@
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
    "last_price": "40.98",
-   "market_cap": 2598824960
+   "market_cap": 2575570688
   },
   "ticker": "KOD",
   "drug_name": "Tarcocimab (KSI-301)",
@@ -1426,10 +1460,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "DAZZLE & DAYLIGHT study: 2/23/22- Topline data, did not meet primary endpoint. 7/24/23- Ph3 study met primary endpoints. Decided to discontinue the program. Presentation at The Retina Society '23. 03/31/26:- Zenkuda wet AMD now BLA-ready; DAYLIGHT successful; DAYBREAK Phase 3 topline one-year data expected in Q3 2026. 05/07/26:- Zenkuda wet AMD remains BLA-ready; DAYBREAK Phase 3 topline one-year data still expected in third quarter 2026.",
+  "note": "DAZZLE & DAYLIGHT study: 2/23/22- Topline data, did not meet primary endpoint. 7/24/23- Ph3 study met primary endpoints. Decided to discontinue the program. Presentation at The Retina Society '23. 03/31/26:- Zenkuda wet AMD now BLA-ready; DAYLIGHT successful; DAYBREAK Phase 3 topline one-year data expected in Q3 2026. 05/07/26:- Zenkuda wet AMD remains BLA-ready; DAYBREAK Phase 3 topline one-year data still expected in third quarter 2026. 08/13/26:- DAYBREAK one-year Phase 3 topline data for Zenkuda will be reported in September 2026.",
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/kodiak-sciences-announces-recent-business-highlights-and-first-quarter-2026-financial-results-302766182.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/n61191437/kodiak-sciences-announces-recent-business-highlights-and-second-quarter-2026-financial-results",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1442,7 +1476,7 @@
    "ticker": "CNSY",
    "name": "Cerenome, Inc.",
    "last_price": "3.20",
-   "market_cap": 25332700
+   "market_cap": 22028470
   },
   "ticker": "CNSY",
   "drug_name": "REYOBIQ (Rhenium Re186 Obisbemeda)",
@@ -1481,7 +1515,7 @@
    "ticker": "MNOV",
    "name": "MediciNova",
    "last_price": "1.32",
-   "market_cap": 64479832
+   "market_cap": 64972048
   },
   "ticker": "MNOV",
   "drug_name": "MN-001 (tipelukast)",
@@ -1627,7 +1661,7 @@
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
    "last_price": "53.76",
-   "market_cap": 3833618000
+   "market_cap": 3833617664
   },
   "ticker": "GPCR",
   "drug_name": "Aleniglipron (GSBR-1290)",
@@ -1665,8 +1699,8 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.36",
-   "market_cap": 457799040
+   "last_price": "1.38",
+   "market_cap": 457799000
   },
   "ticker": "OCGN",
   "drug_name": "OCU410ST",
@@ -1705,7 +1739,7 @@
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
    "last_price": "80.05",
-   "market_cap": 3026891776
+   "market_cap": 3073347328
   },
   "ticker": "IRON",
   "drug_name": "DISC-3405 (formerly MWTX-003)",
@@ -1748,8 +1782,8 @@
   "company": {
    "ticker": "RNTX",
    "name": "Rein Therapeutics",
-   "last_price": "0.85",
-   "market_cap": 69531224
+   "last_price": "0.84",
+   "market_cap": 72576000
   },
   "ticker": "RNTX",
   "drug_name": "LTI-03",
@@ -1783,7 +1817,7 @@
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
    "last_price": "45.26",
-   "market_cap": 6081447000
+   "market_cap": 6081447424
   },
   "ticker": "DFTX",
   "drug_name": "DT120 (formerly MM120; lysergide D-tartrate)",
@@ -1817,7 +1851,7 @@
    "ticker": "SCYX",
    "name": "SCYNEXIS",
    "last_price": "5.09",
-   "market_cap": 51538972
+   "market_cap": 51539000
   },
   "ticker": "SCYX",
   "drug_name": "SCY-247",
@@ -1851,7 +1885,7 @@
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
    "last_price": "40.98",
-   "market_cap": 2598824960
+   "market_cap": 2575570688
   },
   "ticker": "KOD",
   "drug_name": "KSI-501 (anti-VEGF & IL-6)",
@@ -1982,8 +2016,8 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "36.33",
-   "market_cap": 26148093952
+   "last_price": "36.24",
+   "market_cap": 26148094000
   },
   "ticker": "ROIV",
   "drug_name": "Brepocitinib ",
@@ -2017,7 +2051,7 @@
    "ticker": "IVVD",
    "name": "INVIVYD",
    "last_price": "0.74",
-   "market_cap": 212491584
+   "market_cap": 218268848
   },
   "ticker": "IVVD",
   "drug_name": "VYD2311",
@@ -2051,7 +2085,7 @@
    "ticker": "DWTX",
    "name": "Dogwood Therapeutics",
    "last_price": "2.06",
-   "market_cap": 69277000
+   "market_cap": 69276872
   },
   "ticker": "DWTX",
   "drug_name": "Halneuron",
@@ -2089,8 +2123,8 @@
   "company": {
    "ticker": "VALN",
    "name": "Valneva SE",
-   "last_price": "7.05",
-   "market_cap": 728113024
+   "last_price": "7.06",
+   "market_cap": 669454000
   },
   "ticker": "VALN",
   "drug_name": "Shigella4V2 (S4V2) ",
@@ -2129,7 +2163,7 @@
    "ticker": "CRBP",
    "name": "Corbus Pharmaceuticals",
    "last_price": "10.49",
-   "market_cap": 195154000
+   "market_cap": 202890144
   },
   "ticker": "CRBP",
   "drug_name": "CRB-913",
@@ -2163,7 +2197,7 @@
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
    "last_price": "53.76",
-   "market_cap": 3833618000
+   "market_cap": 3833617664
   },
   "ticker": "GPCR",
   "drug_name": "ACCG-2671",
@@ -2197,7 +2231,7 @@
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
    "last_price": "26.22",
-   "market_cap": 1509229824
+   "market_cap": 1559313000
   },
   "ticker": "TYRA",
   "drug_name": "TYRA-300",
@@ -2236,7 +2270,7 @@
    "ticker": "GHRS",
    "name": "GH Research",
    "last_price": "29.98",
-   "market_cap": 2024261120
+   "market_cap": 2057895808
   },
   "ticker": "GHRS",
   "drug_name": "GH001 (inhalable mebufotenin) (5-MeO-DMT) ",
@@ -2270,7 +2304,7 @@
    "ticker": "BOLT",
    "name": "Bolt Biotherapeutics ",
    "last_price": "3.20",
-   "market_cap": 6164300
+   "market_cap": 6164304
   },
   "ticker": "BOLT",
   "drug_name": "BDC-4182",
@@ -2309,7 +2343,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.60",
-   "market_cap": 9137446912
+   "market_cap": 9222975000
   },
   "ticker": "SYRE",
   "drug_name": "SPY003",
@@ -2377,7 +2411,7 @@
    "ticker": "CNTB",
    "name": "Connect Biopharma",
    "last_price": "2.49",
-   "market_cap": 160584000
+   "market_cap": 156806032
   },
   "ticker": "CNTB",
   "drug_name": "Rademikibart /CBP-201",
@@ -2411,7 +2445,7 @@
    "ticker": "CGEM",
    "name": "Cullinan Management",
    "last_price": "20.59",
-   "market_cap": 1308974000
+   "market_cap": 1265421184
   },
   "ticker": "CGEM",
   "drug_name": "CLN-978 (CD19xCD3)",
@@ -2445,7 +2479,7 @@
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
    "last_price": "33.85",
-   "market_cap": 682468352
+   "market_cap": 661746000
   },
   "ticker": "TECX",
   "drug_name": "TX2100",
@@ -2489,7 +2523,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.60",
-   "market_cap": 9137446912
+   "market_cap": 9222975000
   },
   "ticker": "SYRE",
   "drug_name": "SPY072 (SPY002-072)",
@@ -2532,8 +2566,8 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "112.32",
-   "market_cap": 7351925248
+   "last_price": "112.66",
+   "market_cap": 7459185000
   },
   "ticker": "ORKA",
   "drug_name": "ORKA-001",
@@ -2567,7 +2601,7 @@
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
    "last_price": "8.95",
-   "market_cap": 505260928
+   "market_cap": 553498816
   },
   "ticker": "KYTX",
   "drug_name": "KYV-101",
@@ -2635,7 +2669,7 @@
    "ticker": "BMEA",
    "name": "Biomea Fusion",
    "last_price": "1.35",
-   "market_cap": 95435000
+   "market_cap": 97604248
   },
   "ticker": "BMEA",
   "drug_name": "BMF-650 (GLP-1 RA)",
@@ -2669,7 +2703,7 @@
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
    "last_price": "64.63",
-   "market_cap": 132020642000
+   "market_cap": 132020641792
   },
   "ticker": "BMY",
   "drug_name": "Camzyos/Mavacamten (MYK-461) (Myosin Inhibitor)",
@@ -2703,7 +2737,7 @@
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
    "last_price": "99.83",
-   "market_cap": 6137150976
+   "market_cap": 6087756288
   },
   "ticker": "MIRM",
   "drug_name": "Brelovitug (HBsAg Antibody)",
@@ -2742,7 +2776,7 @@
    "ticker": "EVMN",
    "name": "Evommune",
    "last_price": "14.25",
-   "market_cap": 517163000
+   "market_cap": 517162592
   },
   "ticker": "EVMN",
   "drug_name": "EVO756 (MRGPRX2 Antagonist)",
@@ -2776,7 +2810,7 @@
    "ticker": "SCYX",
    "name": "SCYNEXIS",
    "last_price": "5.09",
-   "market_cap": 51538972
+   "market_cap": 51539000
   },
   "ticker": "SCYX",
   "drug_name": "SCY-770 (AMPK Activator)",
@@ -2810,7 +2844,7 @@
    "ticker": "CUE",
    "name": "Cue Biopharma",
    "last_price": "27.64",
-   "market_cap": 188681000
+   "market_cap": 200788400
   },
   "ticker": "CUE",
   "drug_name": "CUE-221 (Anti-IgE Antibody)",
@@ -2844,7 +2878,7 @@
    "ticker": "DMAC",
    "name": "DiaMedica Therapeutics",
    "last_price": "6.62",
-   "market_cap": 356988000
+   "market_cap": 356988096
   },
   "ticker": "DMAC",
   "drug_name": "Rinvecalinase Alfa (DM199) (KLK1 Protein)",
@@ -2878,7 +2912,7 @@
    "ticker": "SANA",
    "name": "Sana Biotechnology",
    "last_price": "3.68",
-   "market_cap": 1062730240
+   "market_cap": 1101647000
   },
   "ticker": "SANA",
   "drug_name": "UP421",
@@ -2912,7 +2946,7 @@
    "ticker": "MRK",
    "name": "Merck & Co",
    "last_price": "135.97",
-   "market_cap": 335140585472
+   "market_cap": 335461318656
   },
   "ticker": "MRK",
   "drug_name": "WELIREG/Belzutifan (MK-6482) + LENVIMA/Lenvatinib (E7080) (HIF-2\u03b1 Combo)",
@@ -2951,7 +2985,7 @@
    "ticker": "SXTP",
    "name": "60 Degree Pharmaceuticals ",
    "last_price": "1.08",
-   "market_cap": 3406776
+   "market_cap": 3078900
   },
   "ticker": "SXTP",
   "drug_name": "Arakoda (Tafenoquine)",
@@ -3019,7 +3053,7 @@
    "ticker": "MRK",
    "name": "Merck & Co",
    "last_price": "135.97",
-   "market_cap": 335140585472
+   "market_cap": 335461318656
   },
   "ticker": "MRK",
   "drug_name": "Ifinatamab Deruxtecan (I-DXd)",
@@ -3141,7 +3175,7 @@
    "ticker": "VTRS",
    "name": "Viatris Inc",
    "last_price": "16.23",
-   "market_cap": 18641629184
+   "market_cap": 18641629000
   },
   "ticker": "VTRS",
   "drug_name": "MR-141 (phentolamine ophthalmic solution 0.75%) ",
@@ -3224,7 +3258,7 @@
    "ticker": "IMTX",
    "name": "Immatics ",
    "last_price": "9.25",
-   "market_cap": 1290194688
+   "market_cap": 1264226816
   },
   "ticker": "IMTX",
   "drug_name": "TCER\u00ae IMA402 (PRAME)",
@@ -3263,7 +3297,7 @@
    "ticker": "IMMP",
    "name": "Immutep",
    "last_price": "0.39",
-   "market_cap": 56959000
+   "market_cap": 56959328
   },
   "ticker": "IMMP",
   "drug_name": "Eftilagimod Alpha + Pembrolizumab",
@@ -3336,7 +3370,7 @@
    "ticker": "IMTX",
    "name": "Immatics ",
    "last_price": "9.25",
-   "market_cap": 1290194688
+   "market_cap": 1264226816
   },
   "ticker": "IMTX",
   "drug_name": "ACTengine\u00ae IMA203CD8  GEN2 (PRAME) ",
@@ -3380,7 +3414,7 @@
    "ticker": "IMTX",
    "name": "Immatics ",
    "last_price": "9.25",
-   "market_cap": 1290194688
+   "market_cap": 1264226816
   },
   "ticker": "IMTX",
   "drug_name": "ACTengine\u00ae IMA203CD8  GEN2 (PRAME) ",
@@ -3414,7 +3448,7 @@
    "ticker": "IMTX",
    "name": "Immatics ",
    "last_price": "9.25",
-   "market_cap": 1290194688
+   "market_cap": 1264226816
   },
   "ticker": "IMTX",
   "drug_name": "ACTengine\u00ae IMA203CD8  GEN2 (PRAME) ",
@@ -3448,7 +3482,7 @@
    "ticker": "IMTX",
    "name": "Immatics ",
    "last_price": "9.25",
-   "market_cap": 1290194688
+   "market_cap": 1264226816
   },
   "ticker": "IMTX",
   "drug_name": "IMA203CD8 (TCR Cell Therapy)",
@@ -3482,7 +3516,7 @@
    "ticker": "IMTX",
    "name": "Immatics ",
    "last_price": "9.25",
-   "market_cap": 1290194688
+   "market_cap": 1264226816
   },
   "ticker": "IMTX",
   "drug_name": "ACTengine\u00ae IMA203CD8  GEN2 (PRAME) ",
@@ -3550,7 +3584,7 @@
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
    "last_price": "36.54",
-   "market_cap": 3525726000
+   "market_cap": 3525725952
   },
   "ticker": "IDYA",
   "drug_name": "Darovasertib (IDE196) + crizotinib",
@@ -3628,7 +3662,7 @@
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
    "last_price": "36.54",
-   "market_cap": 3525726000
+   "market_cap": 3525725952
   },
   "ticker": "IDYA",
   "drug_name": "Darovasertib ",
@@ -3672,7 +3706,7 @@
    "ticker": "KTTA",
    "name": "Pasithea Therapeutics",
    "last_price": "0.48",
-   "market_cap": 16055643
+   "market_cap": 15972106
   },
   "ticker": "KTTA",
   "drug_name": "PAS-004",
@@ -3711,7 +3745,7 @@
    "ticker": "MGNX",
    "name": "MacroGenics",
    "last_price": "4.06",
-   "market_cap": 268584896
+   "market_cap": 258622752
   },
   "ticker": "MGNX",
   "drug_name": "MGC026",
@@ -3750,7 +3784,7 @@
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
    "last_price": "36.54",
-   "market_cap": 3525726000
+   "market_cap": 3525725952
   },
   "ticker": "IDYA",
   "drug_name": "Darovasertib (IDE196) + crizotinib ",
@@ -3799,7 +3833,7 @@
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
    "last_price": "36.54",
-   "market_cap": 3525726000
+   "market_cap": 3525725952
   },
   "ticker": "IDYA",
   "drug_name": "IDE849 (SHR-4849)",
@@ -3843,7 +3877,7 @@
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
    "last_price": "14.46",
-   "market_cap": 2184093000
+   "market_cap": 2184092928
   },
   "ticker": "BHVN",
   "drug_name": "BHV-1530",
@@ -3877,7 +3911,7 @@
    "ticker": "CATX",
    "name": "Perspective Therapeutics",
    "last_price": "3.22",
-   "market_cap": 367568000
+   "market_cap": 367568352
   },
   "ticker": "CATX",
   "drug_name": "[212Pb]VMT-\u03b1-NET",
@@ -3911,7 +3945,7 @@
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
    "last_price": "7.10",
-   "market_cap": 3161740544
+   "market_cap": 3216097024
   },
   "ticker": "IOVA",
   "drug_name": "Amtagvi/Lifileucel (LN-144) (TIL Therapy)",
@@ -3960,7 +3994,7 @@
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
    "last_price": "10.47",
-   "market_cap": 598524000
+   "market_cap": 567107904
   },
   "ticker": "EIKN",
   "drug_name": "EIK1003",
@@ -3999,7 +4033,7 @@
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
    "last_price": "10.47",
-   "market_cap": 598524000
+   "market_cap": 567107904
   },
   "ticker": "EIKN",
   "drug_name": "EIK1004",
@@ -4038,7 +4072,7 @@
    "ticker": "PBLS",
    "name": "Parbaillis Medicines",
    "last_price": "37.22",
-   "market_cap": 4534122496
+   "market_cap": 4534122000
   },
   "ticker": "PBLS",
   "drug_name": "Zolucatetide (FOG-001)",
@@ -4077,7 +4111,7 @@
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
    "last_price": "10.47",
-   "market_cap": 598524000
+   "market_cap": 567107904
   },
   "ticker": "EIKN",
   "drug_name": "EIK1003 (Selective PARP1 Inhibitor)",
@@ -4110,8 +4144,8 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "18.94",
-   "market_cap": 617745792
+   "last_price": "19.08",
+   "market_cap": 617746000
   },
   "ticker": "NVCT",
   "drug_name": "NXP200 (BRAF Inhibitor)",
@@ -4145,7 +4179,7 @@
    "ticker": "EVAX",
    "name": "Evaxion Biotech",
    "last_price": "3.13",
-   "market_cap": 26104900
+   "market_cap": 26104874
   },
   "ticker": "EVAX",
   "drug_name": "EVX-01 + pembrolizumab",
@@ -4189,7 +4223,7 @@
    "ticker": "CMPX",
    "name": "Compass Therapeutics",
    "last_price": "2.31",
-   "market_cap": 416003000
+   "market_cap": 416003072
   },
   "ticker": "CMPX",
   "drug_name": "Tovecimig  (CTX-009) (DLL4 and VEGF-A bispecific antibody)",
@@ -4228,7 +4262,7 @@
    "ticker": "PHAR",
    "name": "Pharming Group",
    "last_price": "11.79",
-   "market_cap": 829519680
+   "market_cap": 829520000
   },
   "ticker": "PHAR",
   "drug_name": "Leniolisib",
@@ -4296,7 +4330,7 @@
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
    "last_price": "58.63",
-   "market_cap": 9512390656
+   "market_cap": 9743386624
   },
   "ticker": "IONS",
   "drug_name": "Bepirovirsen (IONIS-HBVRx)",
@@ -4369,7 +4403,7 @@
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
    "last_price": "10.47",
-   "market_cap": 598524000
+   "market_cap": 567107904
   },
   "ticker": "EIKN",
   "drug_name": "EIK1001",
@@ -4408,7 +4442,7 @@
    "ticker": "INO",
    "name": "Inovio Pharmaceuticals",
    "last_price": "1.15",
-   "market_cap": 112625200
+   "market_cap": 118824752
   },
   "ticker": "INO",
   "drug_name": "INO-3107",
@@ -4452,7 +4486,7 @@
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
    "last_price": "1.15",
-   "market_cap": 185401000
+   "market_cap": 177676096
   },
   "ticker": "CHRS",
   "drug_name": "Casdozokitug (casdozo) combination",
@@ -4490,8 +4524,8 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "47.42",
-   "market_cap": 2275130368
+   "last_price": "48.42",
+   "market_cap": 2323109000
   },
   "ticker": "RAPP",
   "drug_name": "RAP-219",
@@ -4524,8 +4558,8 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "13.35",
-   "market_cap": 1437662336
+   "last_price": "13.38",
+   "market_cap": 1386873000
   },
   "ticker": "ORIC",
   "drug_name": "Enozertinib (ORIC-114)",
@@ -4564,7 +4598,7 @@
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
    "last_price": "1.15",
-   "market_cap": 185401000
+   "market_cap": 177676096
   },
   "ticker": "CHRS",
   "drug_name": "Tagmokitug (CCR8 Antibody)",
@@ -4657,7 +4691,7 @@
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
    "last_price": "3.11",
-   "market_cap": 1694616576
+   "market_cap": 1667803000
   },
   "ticker": "RXRX",
   "drug_name": "REC-4881 ",
@@ -4798,7 +4832,7 @@
    "ticker": "BTAI",
    "name": "BioXcel Therapeutics Inc",
    "last_price": "0.89",
-   "market_cap": 27481100
+   "market_cap": 27481068
   },
   "ticker": "BTAI",
   "drug_name": "BXCL501",
@@ -4886,7 +4920,7 @@
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
    "last_price": "75.87",
-   "market_cap": 10547708000
+   "market_cap": 10547707904
   },
   "ticker": "CYTK",
   "drug_name": "Aficamten",
@@ -4920,7 +4954,7 @@
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
    "last_price": "12.78",
-   "market_cap": 10649958400
+   "market_cap": 10649958000
   },
   "ticker": "SMMT",
   "drug_name": "Ivonescimab + chemotherapy",
@@ -4998,7 +5032,7 @@
    "ticker": "GUTS",
    "name": "Fractyl Health",
    "last_price": "0.66",
-   "market_cap": 105059000
+   "market_cap": 105058696
   },
   "ticker": "GUTS",
   "drug_name": "Revita",
@@ -5037,7 +5071,7 @@
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
    "last_price": "3.02",
-   "market_cap": 190700000
+   "market_cap": 191334000
   },
   "ticker": "PYXS",
   "drug_name": "Micvotabart pelidotin (MICVO, formerly PYX-201)",
@@ -5110,7 +5144,7 @@
    "ticker": "SVRA",
    "name": "Savara",
    "last_price": "5.37",
-   "market_cap": 1105374848
+   "market_cap": 1105375000
   },
   "ticker": "SVRA",
   "drug_name": "MOLBREEVI (Molgramostim)",
@@ -5144,7 +5178,7 @@
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
    "last_price": "79.89",
-   "market_cap": 15617494000
+   "market_cap": 15617494016
   },
   "ticker": "BBIO",
   "drug_name": "BBP-418",
@@ -5178,7 +5212,7 @@
    "ticker": "GSK",
    "name": "GSK",
    "last_price": "50.28",
-   "market_cap": 99178938000
+   "market_cap": 100701061120
   },
   "ticker": "GSK",
   "drug_name": "Neladalkib (NVL-655) (ALK Inhibitor)",
@@ -5212,7 +5246,7 @@
    "ticker": "PYPD",
    "name": "Polypid",
    "last_price": "4.77",
-   "market_cap": 90885128
+   "market_cap": 90885000
   },
   "ticker": "PYPD",
   "drug_name": "D-PLEX-100",
@@ -5246,7 +5280,7 @@
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
    "last_price": "37.87",
-   "market_cap": 6571390000
+   "market_cap": 6571390464
   },
   "ticker": "COGT",
   "drug_name": "Bezuclastinib (CGT9486) (KIT exon 17 inhibitor) + Sunitinib",
@@ -5285,7 +5319,7 @@
    "ticker": "PEPG",
    "name": "PepGen",
    "last_price": "3.04",
-   "market_cap": 206815952
+   "market_cap": 206816000
   },
   "ticker": "PEPG",
   "drug_name": "PGN-EDODM1",
@@ -5319,7 +5353,7 @@
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
    "last_price": "515.55",
-   "market_cap": 128187867136
+   "market_cap": 130588811000
   },
   "ticker": "VRTX",
   "drug_name": "Povetacicept",
@@ -5353,7 +5387,7 @@
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
    "last_price": "805.93",
-   "market_cap": 82722275328
+   "market_cap": 82974515000
   },
   "ticker": "REGN",
   "drug_name": "Cemdisiran",
@@ -5533,7 +5567,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "25.64",
-   "market_cap": 2907695104
+   "market_cap": 2907695000
   },
   "ticker": "ZLAB",
   "drug_name": "Povetacicept (Pove) (APRIL/BAFF Inhibitor)",
@@ -5567,7 +5601,7 @@
    "ticker": "EXEL",
    "name": "Exelixis Inc",
    "last_price": "52.32",
-   "market_cap": 12963938000
+   "market_cap": 12963938304
   },
   "ticker": "EXEL",
   "drug_name": "Zanzalintinib + atezolizumab",
@@ -5743,7 +5777,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.26",
-   "market_cap": 315615232
+   "market_cap": 318034000
   },
   "ticker": "VNDA",
   "drug_name": "Imsidolimab (IL-36 Inhibitor)",
@@ -5777,7 +5811,7 @@
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
    "last_price": "117.17",
-   "market_cap": 12665890000
+   "market_cap": 12665889792
   },
   "ticker": "CORT",
   "drug_name": "Relacorilant",
@@ -5844,8 +5878,8 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "25.98",
-   "market_cap": 2266752512
+   "last_price": "26.05",
+   "market_cap": 2302999296
   },
   "ticker": "MLYS",
   "drug_name": "Lorundrostat",
@@ -5918,7 +5952,7 @@
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
    "last_price": "376.38",
-   "market_cap": 10226212864
+   "market_cap": 10508526000
   },
   "ticker": "PRAX",
   "drug_name": "Relutrigine (PRAX-562)",
@@ -5952,7 +5986,7 @@
    "ticker": "VTRS",
    "name": "Viatris Inc",
    "last_price": "16.23",
-   "market_cap": 18641629184
+   "market_cap": 18641629000
   },
   "ticker": "VTRS",
   "drug_name": "Meloxicam (MR-107A-02)",
@@ -5986,7 +6020,7 @@
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
    "last_price": "37.87",
-   "market_cap": 6571390000
+   "market_cap": 6571390464
   },
   "ticker": "COGT",
   "drug_name": "Bezuclastinib (CGT9486) (KIT exon 17 inhibitor) ",
@@ -6107,8 +6141,8 @@
   "company": {
    "ticker": "NCNA",
    "name": "Nucana",
-   "last_price": "1.59",
-   "market_cap": 6617534
+   "last_price": "1.55",
+   "market_cap": 6617500
   },
   "ticker": "NCNA",
   "drug_name": "NUC-7738 (ProTide) +/- pembrolizumab",
@@ -6152,7 +6186,7 @@
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
    "last_price": "27.17",
-   "market_cap": 2807294464
+   "market_cap": 2819748000
   },
   "ticker": "NRIX",
   "drug_name": "Bexobrutideg (NX-5948)",
@@ -6191,7 +6225,7 @@
    "ticker": "IMTX",
    "name": "Immatics ",
    "last_price": "9.25",
-   "market_cap": 1290194688
+   "market_cap": 1264226816
   },
   "ticker": "IMTX",
   "drug_name": "ACTengine\u00ae IMA203 GEN1 (PRAME)",
@@ -6235,7 +6269,7 @@
    "ticker": "INKT",
    "name": "MiNK Therapeutics",
    "last_price": "11.22",
-   "market_cap": 57510836
+   "market_cap": 57255684
   },
   "ticker": "INKT",
   "drug_name": "AgenT-797 +/- pembrolizumab/nivolumab",
@@ -6294,56 +6328,12 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 13916,
-  "company": {
-   "ticker": "MBRX",
-   "name": "Moleculin Biotech",
-   "last_price": "0.61",
-   "market_cap": 4347056
-  },
-  "ticker": "MBRX",
-  "drug_name": "Annamycin + Ara-C (Cytarabine)",
-  "indications": [
-   {
-    "id": 1282,
-    "title": "Acute myeloid leukemia",
-    "nickname": "AML, Cancer"
-   },
-   {
-    "id": 905,
-    "title": "Blood cancer",
-    "nickname": ""
-   },
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Acute myeloid leukemia (AML)",
-  "stage_event": {
-   "id": 152,
-   "label": "Phase 2/3 Data readout",
-   "stage_label": "Phase 2/3",
-   "event_label": "Data readout"
-  },
-  "note": "05/15/26:- 45 enrolled; 40% blinded CRc persists. June unblinding; 90-subject data Q3 2026; Part B H2 2026. 05/21/26:- ASCO poster May 30, 2026 shows pooled cardiac safety; no cardiotoxicity. 05/29/26:- MIRACLE Ph2b/3 unblinding of first 45 remains on track for June 2026. Cleveland Clinic review found no cardiotoxicity. 06/04/26:- 45th subject enrolled; interim 45-subject unblinding remains on track for Mid-2026. 06/30/26:- MIRACLE interim unblinded efficacy favored Annamycin+HiDAC vs control; iDMC recommended continue; Part A 67/90 enrolled. 07/31/26:- MIRACLE blinded CRc 37% (n=62); 90th treated Sep 2026; Part A unblinding Dec 2026\u2013Feb 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/31/3336762/0/en/moleculin-s-miracle-r-r-aml-trial-reports-positive-interim-data-with-37-blinded-crc-in-venetoclax-failed-patients.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 14128,
   "company": {
    "ticker": "LTRN",
    "name": "Lantern Pharma",
-   "last_price": "2.58",
-   "market_cap": 33877988
+   "last_price": "2.60",
+   "market_cap": 33238778
   },
   "ticker": "LTRN",
   "drug_name": "LP-300",
@@ -6455,7 +6445,7 @@
    "ticker": "MNOV",
    "name": "MediciNova",
    "last_price": "1.32",
-   "market_cap": 64479832
+   "market_cap": 64972048
   },
   "ticker": "MNOV",
   "drug_name": "MN-166 (ibudilast)",
@@ -6494,7 +6484,7 @@
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
    "last_price": "27.17",
-   "market_cap": 2807294464
+   "market_cap": 2819748000
   },
   "ticker": "NRIX",
   "drug_name": "Zelebrudomide (NX-2127)",
@@ -6558,7 +6548,7 @@
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
    "last_price": "64.63",
-   "market_cap": 132020642000
+   "market_cap": 132020641792
   },
   "ticker": "BMY",
   "drug_name": "KarXT (M1/M4 muscarinic agonist)",
@@ -6602,7 +6592,7 @@
    "ticker": "MNOV",
    "name": "MediciNova",
    "last_price": "1.32",
-   "market_cap": 64479832
+   "market_cap": 64972048
   },
   "ticker": "MNOV",
   "drug_name": "MN-166 (ibudilast)",
@@ -6640,8 +6630,8 @@
   "company": {
    "ticker": "XFOR",
    "name": "X4 Pharmaceuticals",
-   "last_price": "4.25",
-   "market_cap": 418399232
+   "last_price": "4.30",
+   "market_cap": 426331000
   },
   "ticker": "XFOR",
   "drug_name": "Mavorixafor (CXCR4 inhibitor)",
@@ -6675,7 +6665,7 @@
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
    "last_price": "35.05",
-   "market_cap": 1761767552
+   "market_cap": 1805026432
   },
   "ticker": "IMCR",
   "drug_name": "IMC-F106C (Brenetafusp)",
@@ -6729,7 +6719,7 @@
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
    "last_price": "7.10",
-   "market_cap": 3161740544
+   "market_cap": 3216097024
   },
   "ticker": "IOVA",
   "drug_name": "Iovance TIL (LN-145)",
@@ -6768,7 +6758,7 @@
    "ticker": "CLLS",
    "name": "Cellectis",
    "last_price": "3.11",
-   "market_cap": 307129000
+   "market_cap": 313180736
   },
   "ticker": "CLLS",
   "drug_name": "UCART22",
@@ -6816,8 +6806,8 @@
   "company": {
    "ticker": "MDWD",
    "name": "MediWound ",
-   "last_price": "13.32",
-   "market_cap": 174276576
+   "last_price": "13.39",
+   "market_cap": 172091696
   },
   "ticker": "MDWD",
   "drug_name": "EscharEx",
@@ -6850,8 +6840,8 @@
   "company": {
    "ticker": "TARA",
    "name": "Protara Therapeutics",
-   "last_price": "3.97",
-   "market_cap": 234609088
+   "last_price": "3.98",
+   "market_cap": 235200000
   },
   "ticker": "TARA",
   "drug_name": "IV Choline chloride",
@@ -6890,7 +6880,7 @@
    "ticker": "INAB",
    "name": "IN8bio",
    "last_price": "1.11",
-   "market_cap": 10548628
+   "market_cap": 10942805
   },
   "ticker": "INAB",
   "drug_name": "INB-100",
@@ -6934,7 +6924,7 @@
    "ticker": "MRNA",
    "name": "Moderna",
    "last_price": "64.46",
-   "market_cap": 25279617024
+   "market_cap": 25734746112
   },
   "ticker": "MRNA",
   "drug_name": "mRNA-1574",
@@ -6968,7 +6958,7 @@
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
    "last_price": "4.00",
-   "market_cap": 279245000
+   "market_cap": 279971488
   },
   "ticker": "BCYC",
   "drug_name": "Zelenectide pevedotin (zele, formerly BT8009)",
@@ -7050,8 +7040,8 @@
   "company": {
    "ticker": "NVS",
    "name": "Novartis ",
-   "last_price": "152.20",
-   "market_cap": 286779867136
+   "last_price": "151.97",
+   "market_cap": 288851657000
   },
   "ticker": "NVS",
   "drug_name": "Delpacibart Etedesiran (Del-desiran) (AOC 1001)",
@@ -7085,7 +7075,7 @@
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
    "last_price": "2.26",
-   "market_cap": 204709168
+   "market_cap": 212221424
   },
   "ticker": "IPHA",
   "drug_name": "Monalizumab + durvalumab +  oleclumab",
@@ -7129,7 +7119,7 @@
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
    "last_price": "58.63",
-   "market_cap": 9512390656
+   "market_cap": 9743386624
   },
   "ticker": "IONS",
   "drug_name": "Ulefnersen (ION363 )",
@@ -7163,7 +7153,7 @@
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
    "last_price": "117.17",
-   "market_cap": 12665890000
+   "market_cap": 12665889792
   },
   "ticker": "CORT",
   "drug_name": "Miricorilant ",
@@ -7220,10 +7210,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "06/26/26:- ABILITY-1 enrollment completes Q3 2026. ABILITY-1 and NEO-CYT data expected H2 2026.",
+  "note": "06/26/26:- ABILITY-1 enrollment completes Q3 2026. ABILITY-1 and NEO-CYT data expected H2 2026. 08/14/26:- ABILITY-1 enrollment is expected to complete in Q3 2026. Updated ABILITY-1 data will be presented at an upcoming conference. NEO-CYT preliminary data is expected in Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/26/3318221/0/en/medicenna-therapeutics-reports-fiscal-year-2026-financial-results-and-operational-highlights.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61203844/medicenna-therapeutics-reports-first-quarter-fiscal-2027-financial-results-and-announces-oral-presen",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -7269,10 +7259,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "LOTIS-7 trial. 4/4/24- DE study completed. Initiated enrollment in Part 2 dose expansion. 12/11/24- Reported initial data. 12/3/25\u2013 Updated combo efficacy data reported, enrollment completes H1 2026. Share full data at a medical mtg by YE 2026. 03/10/26:- LOTIS-7 December 2025 data: 89.8% ORR, 77.6% CR in 49 patients; full data by YE 2026. 05/04/26:- LOTIS-7 enrollment completion still expected H1 2026; full Phase 1b data by year-end 2026. 06/30/26:- LOTIS-7 enrollment complete (100 pts). Full Ph1b data expected Q4 2026; publication by YE 2026.",
+  "note": "LOTIS-7 trial. 4/4/24- DE study completed. Initiated enrollment in Part 2 dose expansion. 12/11/24- Reported initial data. 12/3/25\u2013 Updated combo efficacy data reported, enrollment completes H1 2026. Share full data at a medical mtg by YE 2026. 03/10/26:- LOTIS-7 December 2025 data: 89.8% ORR, 77.6% CR in 49 patients; full data by YE 2026. 05/04/26:- LOTIS-7 enrollment completion still expected H1 2026; full Phase 1b data by year-end 2026. 06/30/26:- LOTIS-7 enrollment complete (100 pts). Full Ph1b data expected Q4 2026; publication by YE 2026. 08/13/26:- LOTIS-7 enrollment completed in 100 patients. Full data will be presented later in 2026; BTD submission will occur this year.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/adc-therapeutics-announces-completion-of-enrollment-in-lotis-7-phase-1b-zynlonta-combination-trial-302813948.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/n61169819/adc-therapeutics-reports-second-quarter-2026-financial-results-and-provides-operational-updates",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -7285,7 +7275,7 @@
    "ticker": "CRVS",
    "name": "Corvus ",
    "last_price": "14.91",
-   "market_cap": 1252561000
+   "market_cap": 1254243200
   },
   "ticker": "CRVS",
   "drug_name": "Soquelitinib (CPI-818) ",
@@ -7329,7 +7319,7 @@
    "ticker": "TCRX",
    "name": "TScan Therapeutics",
    "last_price": "0.78",
-   "market_cap": 52786484
+   "market_cap": 51202000
   },
   "ticker": "TCRX",
   "drug_name": "TSC-101",
@@ -7383,7 +7373,7 @@
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
    "last_price": "4.87",
-   "market_cap": 419853000
+   "market_cap": 408307104
   },
   "ticker": "EYPT",
   "drug_name": "DURAVYU\u2122 (vorolanib intravitreal insert) (EYP-1901)",
@@ -7422,7 +7412,7 @@
    "ticker": "HCM",
    "name": "HUTCHMED (China) Limited",
    "last_price": "12.56",
-   "market_cap": 2120532864
+   "market_cap": 2183106048
   },
   "ticker": "HCM",
   "drug_name": "ORPATHYS (Savolitinib) + TAGRISSO",
@@ -7461,7 +7451,7 @@
    "ticker": "NBTX",
    "name": "Nanobiotix ",
    "last_price": "42.05",
-   "market_cap": 1946284544
+   "market_cap": 2136290000
   },
   "ticker": "NBTX",
   "drug_name": "JNJ-1900 (NBTXR3) + Anti-PD-1",
@@ -7510,7 +7500,7 @@
    "ticker": "FATE",
    "name": "Fate Therapeutics",
    "last_price": "2.62",
-   "market_cap": 305385000
+   "market_cap": 305385056
   },
   "ticker": "FATE",
   "drug_name": "FT819 (CAR-19, TCR-KO)",
@@ -7559,7 +7549,7 @@
    "ticker": "IMUX",
    "name": "Immunic",
    "last_price": "16.03",
-   "market_cap": 219130128
+   "market_cap": 218720816
   },
   "ticker": "IMUX",
   "drug_name": "Vidofludimus calcium (IMU-838) ",
@@ -7598,7 +7588,7 @@
    "ticker": "VTVT",
    "name": "vTv Therapeutics",
    "last_price": "31.31",
-   "market_cap": 118632264
+   "market_cap": 118632000
   },
   "ticker": "VTVT",
   "drug_name": "Cadisegliatin (TTP399) ",
@@ -7637,7 +7627,7 @@
    "ticker": "IVA",
    "name": " Inventiva",
    "last_price": "4.70",
-   "market_cap": 1086615040
+   "market_cap": 1110237056
   },
   "ticker": "IVA",
   "drug_name": "Lanifibranor (Pan-PPAR)",
@@ -7680,8 +7670,8 @@
   "company": {
    "ticker": "PCRX",
    "name": "Pacira BioSciences",
-   "last_price": "23.38",
-   "market_cap": 916823424
+   "last_price": "23.24",
+   "market_cap": 914446000
   },
   "ticker": "PCRX",
   "drug_name": "PCRX-201 (enekinragene inzadenovec)",
@@ -7764,7 +7754,7 @@
    "ticker": "EWTX",
    "name": "Edgewise Therapeutics",
    "last_price": "44.04",
-   "market_cap": 4782926000
+   "market_cap": 4782925824
   },
   "ticker": "EWTX",
   "drug_name": "Sevasemten (EDG-5506)",
@@ -7798,7 +7788,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.26",
-   "market_cap": 315615232
+   "market_cap": 318034000
   },
   "ticker": "VNDA",
   "drug_name": "VQW-765",
@@ -7832,7 +7822,7 @@
    "ticker": "HOWL",
    "name": "Werewolf Therapeutics",
    "last_price": "0.41",
-   "market_cap": 19668042
+   "market_cap": 19706920
   },
   "ticker": "HOWL",
   "drug_name": "WTX-124 +/- pembrolizumab (IL-2 INDUKINE\u2122)",
@@ -7870,8 +7860,8 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "13.35",
-   "market_cap": 1437662336
+   "last_price": "13.38",
+   "market_cap": 1386873000
   },
   "ticker": "ORIC",
   "drug_name": "Enozertinib (ORIC-114)",
@@ -7949,7 +7939,7 @@
    "ticker": "HOWL",
    "name": "Werewolf Therapeutics",
    "last_price": "0.41",
-   "market_cap": 19668042
+   "market_cap": 19706920
   },
   "ticker": "HOWL",
   "drug_name": "WTX-330 (IL-2 INDUKINE\u2122)",
@@ -7993,7 +7983,7 @@
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
    "last_price": "20.67",
-   "market_cap": 4352153088
+   "market_cap": 4529657000
   },
   "ticker": "RLAY",
   "drug_name": "RLY-2608 + fulvestrant + ribociclib (triplet)",
@@ -8032,7 +8022,7 @@
    "ticker": "RGNX",
    "name": "Regenxbio",
    "last_price": "11.33",
-   "market_cap": 710632064
+   "market_cap": 710632000
   },
   "ticker": "RGNX",
   "drug_name": "ABBV-RGX-314 (Subretinal Delivery)",
@@ -8076,7 +8066,7 @@
    "ticker": "RIGL",
    "name": "Rigel Pharmaceuticals",
    "last_price": "42.45",
-   "market_cap": 795388672
+   "market_cap": 792960000
   },
   "ticker": "RIGL",
   "drug_name": "R289",
@@ -8110,7 +8100,7 @@
    "ticker": "CRBU",
    "name": "Caribou Biosciences",
    "last_price": "1.57",
-   "market_cap": 169388000
+   "market_cap": 168315792
   },
   "ticker": "CRBU",
   "drug_name": "CB-011",
@@ -8153,8 +8143,8 @@
   "company": {
    "ticker": "OVID",
    "name": "Ovid Therapeutics",
-   "last_price": "2.85",
-   "market_cap": 528191456
+   "last_price": "2.89",
+   "market_cap": 528191000
   },
   "ticker": "OVID",
   "drug_name": "OV329 (GABA-AT inhibitor)",
@@ -8188,7 +8178,7 @@
    "ticker": "INMB",
    "name": "INmune Bio",
    "last_price": "2.13",
-   "market_cap": 60225724
+   "market_cap": 59115572
   },
   "ticker": "INMB",
   "drug_name": "INKmune\u2122",
@@ -8291,7 +8281,7 @@
    "ticker": "ATAI",
    "name": "ATAI Life Sciences",
    "last_price": "7.24",
-   "market_cap": 2685060000
+   "market_cap": 2685060096
   },
   "ticker": "ATAI",
   "drug_name": "VLS-01 (buccal film DMT)",
@@ -8325,7 +8315,7 @@
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
    "last_price": "0.70",
-   "market_cap": 163261872
+   "market_cap": 156983000
   },
   "ticker": "TNYA",
   "drug_name": "TN-201",
@@ -8358,8 +8348,8 @@
   "company": {
    "ticker": "SLGL",
    "name": "Sol-Gel",
-   "last_price": "84.69",
-   "market_cap": 276850848
+   "last_price": "83.01",
+   "market_cap": 269390000
   },
   "ticker": "SLGL",
   "drug_name": "SGT-610 (Patidegib)",
@@ -8398,7 +8388,7 @@
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
    "last_price": "26.22",
-   "market_cap": 1509229824
+   "market_cap": 1559313000
   },
   "ticker": "TYRA",
   "drug_name": "TYRA-200 ",
@@ -8436,8 +8426,8 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "36.33",
-   "market_cap": 26148093952
+   "last_price": "36.24",
+   "market_cap": 26148094000
   },
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
@@ -8480,8 +8470,8 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "17.51",
-   "market_cap": 1973757056
+   "last_price": "17.53",
+   "market_cap": 1973757000
   },
   "ticker": "NVCR",
   "drug_name": "Stereotactic radiosurgery (SRS) w/ NovoTTF-200M",
@@ -8515,7 +8505,7 @@
    "ticker": "TLSA",
    "name": "Tiziana Life Sciences",
    "last_price": "1.15",
-   "market_cap": 144439104
+   "market_cap": 146348000
   },
   "ticker": "TLSA",
   "drug_name": "Intranasal Foralumab ",
@@ -8554,7 +8544,7 @@
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
    "last_price": "13.00",
-   "market_cap": 2580866048
+   "market_cap": 2625294000
   },
   "ticker": "SLS",
   "drug_name": "SLS009 (GFH009) +/- venetoclax & azacitidine",
@@ -8603,7 +8593,7 @@
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
    "last_price": "26.13",
-   "market_cap": 2611619072
+   "market_cap": 2576127000
   },
   "ticker": "RARE",
   "drug_name": "GTX-102",
@@ -8637,7 +8627,7 @@
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
    "last_price": "26.13",
-   "market_cap": 2611619072
+   "market_cap": 2576127000
   },
   "ticker": "RARE",
   "drug_name": "UX701",
@@ -8676,7 +8666,7 @@
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
    "last_price": "26.90",
-   "market_cap": 3154069248
+   "market_cap": 3215550000
   },
   "ticker": "NAMS",
   "drug_name": "Obicetrapib",
@@ -8715,7 +8705,7 @@
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
    "last_price": "26.90",
-   "market_cap": 3154069248
+   "market_cap": 3215550000
   },
   "ticker": "NAMS",
   "drug_name": "Obicetrapib + ezetimibe",
@@ -8754,7 +8744,7 @@
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
    "last_price": "80.05",
-   "market_cap": 3026891776
+   "market_cap": 3073347328
   },
   "ticker": "IRON",
   "drug_name": "Bitopertin",
@@ -8793,7 +8783,7 @@
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
    "last_price": "80.05",
-   "market_cap": 3026891776
+   "market_cap": 3073347328
   },
   "ticker": "IRON",
   "drug_name": "DISC-0974",
@@ -8837,7 +8827,7 @@
    "ticker": "NBTX",
    "name": "Nanobiotix ",
    "last_price": "42.05",
-   "market_cap": 1946284544
+   "market_cap": 2136290000
   },
   "ticker": "NBTX",
   "drug_name": "RT + NBTXR3  ",
@@ -8876,7 +8866,7 @@
    "ticker": "NBTX",
    "name": "Nanobiotix ",
    "last_price": "42.05",
-   "market_cap": 1946284544
+   "market_cap": 2136290000
   },
   "ticker": "NBTX",
   "drug_name": "RT + NBTXR3 ",
@@ -8915,7 +8905,7 @@
    "ticker": "NBTX",
    "name": "Nanobiotix ",
    "last_price": "42.05",
-   "market_cap": 1946284544
+   "market_cap": 2136290000
   },
   "ticker": "NBTX",
   "drug_name": "RT + NBTXR3 + Chemotherapy",
@@ -8954,7 +8944,7 @@
    "ticker": "CADL",
    "name": "Candel Therapeutics",
    "last_price": "12.16",
-   "market_cap": 896798000
+   "market_cap": 930465792
   },
   "ticker": "CADL",
   "drug_name": "CAN-3110",
@@ -9042,7 +9032,7 @@
    "ticker": "PCVX",
    "name": "Vaxcyte",
    "last_price": "60.22",
-   "market_cap": 8641122304
+   "market_cap": 8961054000
   },
   "ticker": "PCVX",
   "drug_name": "VAX-31",
@@ -9086,7 +9076,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "19.76",
-   "market_cap": 1771654272
+   "market_cap": 1771654000
   },
   "ticker": "SNDX",
   "drug_name": "Revumenib (SNDX-5613) w/ venetoclax and azacitidine",
@@ -9135,7 +9125,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "19.76",
-   "market_cap": 1771654272
+   "market_cap": 1771654000
   },
   "ticker": "SNDX",
   "drug_name": "Axatilimab (SNDX-6352) + Jakafi\u00ae (ruxolitinib)",
@@ -9169,7 +9159,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "19.76",
-   "market_cap": 1771654272
+   "market_cap": 1771654000
   },
   "ticker": "SNDX",
   "drug_name": "Axatilimab (SNDX-6352) ",
@@ -9203,7 +9193,7 @@
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
    "last_price": "35.05",
-   "market_cap": 1761767552
+   "market_cap": 1805026432
   },
   "ticker": "IMCR",
   "drug_name": "KIMMTRAK (Tebentafusp) +/- anti-PD1",
@@ -9242,7 +9232,7 @@
    "ticker": "BLRX",
    "name": "BioLineRx",
    "last_price": "2.64",
-   "market_cap": 12418400
+   "market_cap": 11878446
   },
   "ticker": "BLRX",
   "drug_name": "Motixafortide (BL-8040) w/ cemiplimab",
@@ -9286,7 +9276,7 @@
    "ticker": "CLLS",
    "name": "Cellectis",
    "last_price": "3.11",
-   "market_cap": 307129000
+   "market_cap": 313180736
   },
   "ticker": "CLLS",
   "drug_name": "UCART20x22",
@@ -9408,7 +9398,7 @@
    "ticker": "GNLX",
    "name": "Genelux Corporation",
    "last_price": "2.70",
-   "market_cap": 122862744
+   "market_cap": 121069128
   },
   "ticker": "GNLX",
   "drug_name": "Olvi-Vec (Olvimulogene nanivacirepvec) + platinum-doublet + bevacizumab",
@@ -9452,7 +9442,7 @@
    "ticker": "KRYS",
    "name": "Krystal Biotech",
    "last_price": "335.73",
-   "market_cap": 9834805248
+   "market_cap": 9937217536
   },
   "ticker": "KRYS",
   "drug_name": "KB407",
@@ -9486,7 +9476,7 @@
    "ticker": "INCY",
    "name": "Incyte Corporation",
    "last_price": "123.50",
-   "market_cap": 24356161536
+   "market_cap": 25033170944
   },
   "ticker": "INCY",
   "drug_name": "Povorcitinib (JAK1) ",
@@ -9520,7 +9510,7 @@
    "ticker": "KRYS",
    "name": "Krystal Biotech",
    "last_price": "335.73",
-   "market_cap": 9834805248
+   "market_cap": 9937217536
   },
   "ticker": "KRYS",
   "drug_name": "KB707 (IL-2 and IL-12)",
@@ -9569,7 +9559,7 @@
    "ticker": "CMPX",
    "name": "Compass Therapeutics",
    "last_price": "2.31",
-   "market_cap": 416003000
+   "market_cap": 416003072
   },
   "ticker": "CMPX",
   "drug_name": "CTX-8371",
@@ -9608,7 +9598,7 @@
    "ticker": "KURA",
    "name": "Kura Oncology ",
    "last_price": "11.28",
-   "market_cap": 966112256
+   "market_cap": 1003475712
   },
   "ticker": "KURA",
   "drug_name": "Ziftomenib + venetoclax/azacitidine (ven/aza) or cytarabine/daunorubicin (7+3)",
@@ -9652,7 +9642,7 @@
    "ticker": "KURA",
    "name": "Kura Oncology ",
    "last_price": "11.28",
-   "market_cap": 966112256
+   "market_cap": 1003475712
   },
   "ticker": "KURA",
   "drug_name": "Ziftomenib + gilteritinib",
@@ -9696,7 +9686,7 @@
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
    "last_price": "0.70",
-   "market_cap": 163261872
+   "market_cap": 156983000
   },
   "ticker": "TNYA",
   "drug_name": "TN-401",
@@ -9730,7 +9720,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "19.76",
-   "market_cap": 1771654272
+   "market_cap": 1771654000
   },
   "ticker": "SNDX",
   "drug_name": "Revumenib (SNDX-5613) + venetoclax + decitabine and cedazuridine",
@@ -9779,7 +9769,7 @@
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
    "last_price": "216.27",
-   "market_cap": 11192208000
+   "market_cap": 11328399360
   },
   "ticker": "AXSM",
   "drug_name": "Solriamfetol",
@@ -9812,8 +9802,8 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "9.46",
-   "market_cap": 1563555328
+   "last_price": "9.39",
+   "market_cap": 1588938000
   },
   "ticker": "VIR",
   "drug_name": "Tobevibart + Elebsiran",
@@ -9852,7 +9842,7 @@
    "ticker": "GNLX",
    "name": "Genelux Corporation",
    "last_price": "2.70",
-   "market_cap": 122862744
+   "market_cap": 121069128
   },
   "ticker": "GNLX",
   "drug_name": "Olvi-Vec (Olvimulogene nanivacirepvec)",
@@ -9890,8 +9880,8 @@
   "company": {
    "ticker": "LSTA",
    "name": "Lisata Therapeutics",
-   "last_price": "1.09",
-   "market_cap": 9821922
+   "last_price": "1.08",
+   "market_cap": 9731812
   },
   "ticker": "LSTA",
   "drug_name": "LSTA1 + gemcitabine/nab-paclitaxel",
@@ -9930,7 +9920,7 @@
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
    "last_price": "54.28",
-   "market_cap": 5177892000
+   "market_cap": 5248477184
   },
   "ticker": "CRSP",
   "drug_name": "CTX112",
@@ -9979,7 +9969,7 @@
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
    "last_price": "72.67",
-   "market_cap": 2493121280
+   "market_cap": 2481171000
   },
   "ticker": "NKTR",
   "drug_name": "Rezpegaldesleukin (NKTR-358) ",
@@ -10100,8 +10090,8 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.33",
-   "market_cap": 166885760
+   "last_price": "2.43",
+   "market_cap": 174048000
   },
   "ticker": "NKTX",
   "drug_name": "NKX019 (CAR NK cell therapy)",
@@ -10179,7 +10169,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "19.76",
-   "market_cap": 1771654272
+   "market_cap": 1771654000
   },
   "ticker": "SNDX",
   "drug_name": "Revumenib w/ 7+3 cytarabine + daunorubicin",
@@ -10223,7 +10213,7 @@
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
    "last_price": "2.28",
-   "market_cap": 606851000
+   "market_cap": 606850624
   },
   "ticker": "AUTL",
   "drug_name": "obe-cel  (AUTO1) (CD19) ",
@@ -10262,7 +10252,7 @@
    "ticker": "MRNA",
    "name": "Moderna",
    "last_price": "64.46",
-   "market_cap": 25279617024
+   "market_cap": 25734746112
   },
   "ticker": "MRNA",
   "drug_name": "mRNA-4157/V940 +KEYTRUDA ",
@@ -10301,7 +10291,7 @@
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
    "last_price": "1.81",
-   "market_cap": 45816548
+   "market_cap": 41053440
   },
   "ticker": "KPTI",
   "drug_name": "XPOVIO (Selinexor) (XPO1 inhibitor) + pomalidomide + dexamethasone",
@@ -10334,8 +10324,8 @@
   "company": {
    "ticker": "NXTC",
    "name": "NextCure Inc",
-   "last_price": "7.78",
-   "market_cap": 37580116
+   "last_price": "7.71",
+   "market_cap": 35291400
   },
   "ticker": "NXTC",
   "drug_name": "LNCB74 (B7-H4 ADC)",
@@ -10388,8 +10378,8 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "1.50",
-   "market_cap": 300633440
+   "last_price": "1.52",
+   "market_cap": 285602000
   },
   "ticker": "NMRA",
   "drug_name": "NMRA-511",
@@ -10412,10 +10402,10 @@
    "stage_label": "Phase 1b",
    "event_label": "Data readout"
   },
-  "note": "6/20/24- Initiated Ph1b trial. 5/12/25- Enrollment ongoing. 8/6/25- Report data by YE 2025. 11/6/25:- On track to report Phase 1b AD agitation data around end of 2025. 01/05/26:- Ph1b AD agitation study showed positive efficacy and safety; MAD extension study and ER formulation planned in 2026. 03/30/26:- New Ph1b analysis shows agitation benefit; higher-dose multiple ascending cohort data H2 2026; Ph2 Alzheimer's agitation initiation Q1 2027. 05/07/26:- Ph1b study showed strong agitation reduction without somnolence; higher-dose MAD expansion cohort data expected in H2 2026. 06/15/26:- Higher-dose MAD cohort completion expected Q4 2026; Phase 2b initiation planned by end 2026.",
+  "note": "6/20/24- Initiated Ph1b trial. 5/12/25- Enrollment ongoing. 8/6/25- Report data by YE 2025. 11/6/25:- On track to report Phase 1b AD agitation data around end of 2025. 01/05/26:- Ph1b AD agitation study showed positive efficacy and safety; MAD extension study and ER formulation planned in 2026. 03/30/26:- New Ph1b analysis shows agitation benefit; higher-dose multiple ascending cohort data H2 2026; Ph2 Alzheimer's agitation initiation Q1 2027. 05/07/26:- Ph1b study showed strong agitation reduction without somnolence; higher-dose MAD expansion cohort data expected in H2 2026. 06/15/26:- Higher-dose MAD cohort completion expected Q4 2026; Phase 2b initiation planned by end 2026. 08/14/26:- Higher-dose MAD expansion cohort data will be reported in Q4 2026; Phase 2 initiation will occur by end of 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/15/3311713/0/en/neumora-therapeutics-reports-data-from-phase-3-koastal-program-and-provides-business-and-pipeline-update.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61203841/neumora-therapeutics-reports-second-quarter-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -10428,7 +10418,7 @@
    "ticker": "CTMX",
    "name": "CytomX Therapeutics",
    "last_price": "3.45",
-   "market_cap": 732142000
+   "market_cap": 751752512
   },
   "ticker": "CTMX",
   "drug_name": "CX-2051",
@@ -10467,7 +10457,7 @@
    "ticker": "CGON",
    "name": "CG Oncology",
    "last_price": "77.11",
-   "market_cap": 6835059000
+   "market_cap": 6835059200
   },
   "ticker": "CGON",
   "drug_name": "Cretostimogene",
@@ -10506,7 +10496,7 @@
    "ticker": "CGON",
    "name": "CG Oncology",
    "last_price": "77.11",
-   "market_cap": 6835059000
+   "market_cap": 6835059200
   },
   "ticker": "CGON",
   "drug_name": "Cretostimogene",
@@ -10545,7 +10535,7 @@
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
    "last_price": "9.20",
-   "market_cap": 593595000
+   "market_cap": 593595008
   },
   "ticker": "ARVN",
   "drug_name": "ARV-102",
@@ -10584,7 +10574,7 @@
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
    "last_price": "54.28",
-   "market_cap": 5177892000
+   "market_cap": 5248477184
   },
   "ticker": "CRSP",
   "drug_name": "CTX310 (ANGPTL3)",
@@ -10617,8 +10607,8 @@
   "company": {
    "ticker": "PTN",
    "name": "Palatin Technologies",
-   "last_price": "9.56",
-   "market_cap": 16654013
+   "last_price": "9.95",
+   "market_cap": 17703800
   },
   "ticker": "PTN",
   "drug_name": "Bremelanotide + PDE5i",
@@ -10651,8 +10641,8 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "23.34",
-   "market_cap": 1735408384
+   "last_price": "23.12",
+   "market_cap": 1719051000
   },
   "ticker": "XNCR",
   "drug_name": "XmAb819 (ENPP3 x CD3)",
@@ -10686,7 +10676,7 @@
    "ticker": "OGEN",
    "name": "Oragenics, Inc.",
    "last_price": "0.54",
-   "market_cap": 2404421
+   "market_cap": 2413900
   },
   "ticker": "OGEN",
   "drug_name": "ONP-002",
@@ -10758,8 +10748,8 @@
   "company": {
    "ticker": "PHAT",
    "name": "Phathom Pharmaceuticals",
-   "last_price": "9.53",
-   "market_cap": 775030976
+   "last_price": "9.28",
+   "market_cap": 750761000
   },
   "ticker": "PHAT",
   "drug_name": "VOQUEZNA\u00ae (Vonoprazan)(potassium competitive acid blocker)",
@@ -10793,7 +10783,7 @@
    "ticker": "AZTR",
    "name": "Azitra",
    "last_price": "0.14",
-   "market_cap": 2190800
+   "market_cap": 2190836
   },
   "ticker": "AZTR",
   "drug_name": "ATR-04",
@@ -10827,7 +10817,7 @@
    "ticker": "VSTM",
    "name": "Verastem Oncology",
    "last_price": "7.18",
-   "market_cap": 595907456
+   "market_cap": 650246000
   },
   "ticker": "VSTM",
   "drug_name": "GFH375 (VS-7375)",
@@ -10861,7 +10851,7 @@
    "ticker": "CRVS",
    "name": "Corvus ",
    "last_price": "14.91",
-   "market_cap": 1252561000
+   "market_cap": 1254243200
   },
   "ticker": "CRVS",
   "drug_name": "Soquelitinib (CPI-818) ",
@@ -10900,7 +10890,7 @@
    "ticker": "BRNS",
    "name": "Barinthus Biotherapeutics plc [Formerly Vaccitech]",
    "last_price": "0.59",
-   "market_cap": 24243800
+   "market_cap": 24243818
   },
   "ticker": "BRNS",
   "drug_name": "VTP-1000",
@@ -10934,7 +10924,7 @@
    "ticker": "KRYS",
    "name": "Krystal Biotech",
    "last_price": "335.73",
-   "market_cap": 9834805248
+   "market_cap": 9937217536
   },
   "ticker": "KRYS",
   "drug_name": "KB803 (Ophthalmic B-VEC)",
@@ -10967,8 +10957,8 @@
   "company": {
    "ticker": "VYGR",
    "name": "Voyager Therapeutics",
-   "last_price": "3.22",
-   "market_cap": 201490688
+   "last_price": "3.23",
+   "market_cap": 201491000
   },
   "ticker": "VYGR",
   "drug_name": "VY7523 (formerly VT- TAU01) [anti-tau antibody]",
@@ -11007,7 +10997,7 @@
    "ticker": "GNLX",
    "name": "Genelux Corporation",
    "last_price": "2.70",
-   "market_cap": 122862744
+   "market_cap": 121069128
   },
   "ticker": "GNLX",
   "drug_name": "Olvi-Vec (Olvimulogene nanivacirepvec) ",
@@ -11046,7 +11036,7 @@
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
    "last_price": "1.81",
-   "market_cap": 45816548
+   "market_cap": 41053440
   },
   "ticker": "KPTI",
   "drug_name": "XPOVIO (Selinexor)",
@@ -11085,7 +11075,7 @@
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
    "last_price": "12.78",
-   "market_cap": 10649958400
+   "market_cap": 10649958000
   },
   "ticker": "SMMT",
   "drug_name": "Ivonescimab (SMT112) ",
@@ -11129,7 +11119,7 @@
    "ticker": "CGEM",
    "name": "Cullinan Management",
    "last_price": "20.59",
-   "market_cap": 1308974000
+   "market_cap": 1265421184
   },
   "ticker": "CGEM",
   "drug_name": "CLN-978 (CD19xCD3)",
@@ -11168,7 +11158,7 @@
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
    "last_price": "40.98",
-   "market_cap": 2598824960
+   "market_cap": 2575570688
   },
   "ticker": "KOD",
   "drug_name": "KSI-101",
@@ -11207,7 +11197,7 @@
    "ticker": "IMMP",
    "name": "Immutep",
    "last_price": "0.39",
-   "market_cap": 56959000
+   "market_cap": 56959328
   },
   "ticker": "IMMP",
   "drug_name": "IMP761 (LAG-3 agonist) ",
@@ -11241,7 +11231,7 @@
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
    "last_price": "8.95",
-   "market_cap": 505260928
+   "market_cap": 553498816
   },
   "ticker": "KYTX",
   "drug_name": "KYV-101",
@@ -11353,7 +11343,7 @@
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
    "last_price": "14.46",
-   "market_cap": 2184093000
+   "market_cap": 2184092928
   },
   "ticker": "BHVN",
   "drug_name": "Taldefgrobep alfa (BHV-2000) ",
@@ -11387,7 +11377,7 @@
    "ticker": "COYA",
    "name": "Coya Therapeutics",
    "last_price": "4.67",
-   "market_cap": 109548000
+   "market_cap": 109548152
   },
   "ticker": "COYA",
   "drug_name": "COYA 301 (Low Dose IL-2)",
@@ -11426,7 +11416,7 @@
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
    "last_price": "25.29",
-   "market_cap": 4316425728
+   "market_cap": 4264156000
   },
   "ticker": "TNGX",
   "drug_name": "Vopimetostat (TNG462)",
@@ -11474,8 +11464,8 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "52.52",
-   "market_cap": 6396163072
+   "last_price": "52.05",
+   "market_cap": 6338924000
   },
   "ticker": "SRRK",
   "drug_name": "SRK-439",
@@ -11508,8 +11498,8 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "36.77",
-   "market_cap": 42847940608
+   "last_price": "36.46",
+   "market_cap": 42847941000
   },
   "ticker": "TEVA",
   "drug_name": "TEV-\u2019248 (ICS/SABA)",
@@ -11543,7 +11533,7 @@
    "ticker": "QTTB",
    "name": "Q32 Bio ",
    "last_price": "15.95",
-   "market_cap": 451007392
+   "market_cap": 474823000
   },
   "ticker": "QTTB",
   "drug_name": "Bempikibart (ADX-914) ",
@@ -11582,7 +11572,7 @@
    "ticker": "FBRX",
    "name": "Forte Biosciences Inc",
    "last_price": "76.89",
-   "market_cap": 1632305000
+   "market_cap": 1632304512
   },
   "ticker": "FBRX",
   "drug_name": "FB102",
@@ -11616,7 +11606,7 @@
    "ticker": "HCWB",
    "name": "HCW Biologics",
    "last_price": "2.52",
-   "market_cap": 4279552
+   "market_cap": 4024057
   },
   "ticker": "HCWB",
   "drug_name": "HCW9302",
@@ -11684,7 +11674,7 @@
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
    "last_price": "9.20",
-   "market_cap": 593595000
+   "market_cap": 593595008
   },
   "ticker": "ARVN",
   "drug_name": "ARV-393",
@@ -11728,7 +11718,7 @@
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
    "last_price": "3.11",
-   "market_cap": 1694616576
+   "market_cap": 1667803000
   },
   "ticker": "RXRX",
   "drug_name": "REC-1245",
@@ -11762,7 +11752,7 @@
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
    "last_price": "41.92",
-   "market_cap": 3291958000
+   "market_cap": 3291958016
   },
   "ticker": "CLDX",
   "drug_name": "Barzolvolimab (CDX-0159) (KIT receptor)  ",
@@ -11800,8 +11790,8 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.33",
-   "market_cap": 166885760
+   "last_price": "2.43",
+   "market_cap": 174048000
   },
   "ticker": "NKTX",
   "drug_name": "NKX019 (CAR NK cell therapy)",
@@ -11855,7 +11845,7 @@
    "ticker": "KURA",
    "name": "Kura Oncology ",
    "last_price": "11.28",
-   "market_cap": 966112256
+   "market_cap": 1003475712
   },
   "ticker": "KURA",
   "drug_name": "Ziftomenib + imatinib",
@@ -11894,7 +11884,7 @@
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
    "last_price": "27.10",
-   "market_cap": 2762945000
+   "market_cap": 2799095808
   },
   "ticker": "BEAM",
   "drug_name": "BEAM-301",
@@ -11932,8 +11922,8 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "36.77",
-   "market_cap": 42847940608
+   "last_price": "36.46",
+   "market_cap": 42847941000
   },
   "ticker": "TEVA",
   "drug_name": "Emrusolmin / TEV-\u2019286",
@@ -12001,7 +11991,7 @@
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
    "last_price": "58.63",
-   "market_cap": 9512390656
+   "market_cap": 9743386624
   },
   "ticker": "IONS",
   "drug_name": "IONIS-FB-LRx",
@@ -12107,8 +12097,8 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "23.34",
-   "market_cap": 1735408384
+   "last_price": "23.12",
+   "market_cap": 1719051000
   },
   "ticker": "XNCR",
   "drug_name": "XmAb942",
@@ -12141,8 +12131,8 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "36.33",
-   "market_cap": 26148093952
+   "last_price": "36.24",
+   "market_cap": 26148094000
   },
   "ticker": "ROIV",
   "drug_name": "Mosliciguat",
@@ -12175,8 +12165,8 @@
   "company": {
    "ticker": "LXEO",
    "name": "Lexeo Therapeutics",
-   "last_price": "4.85",
-   "market_cap": 397103904
+   "last_price": "4.98",
+   "market_cap": 408590368
   },
   "ticker": "LXEO",
   "drug_name": "LX2020",
@@ -12210,7 +12200,7 @@
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
    "last_price": "88.70",
-   "market_cap": 12494018000
+   "market_cap": 12529270784
   },
   "ticker": "ARWR",
   "drug_name": "ARO-INHBE",
@@ -12249,7 +12239,7 @@
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
    "last_price": "2.26",
-   "market_cap": 204709168
+   "market_cap": 212221424
   },
   "ticker": "IPHA",
   "drug_name": "IPH4502",
@@ -12287,8 +12277,8 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "14.55",
-   "market_cap": 1403101568
+   "last_price": "14.63",
+   "market_cap": 1378433000
   },
   "ticker": "REPL",
   "drug_name": " RP2 in comb w/ atezolizumab and bevacizumab",
@@ -12327,7 +12317,7 @@
    "ticker": "MRNA",
    "name": "Moderna",
    "last_price": "64.46",
-   "market_cap": 25279617024
+   "market_cap": 25734746112
   },
   "ticker": "MRNA",
   "drug_name": "mRNA-1403",
@@ -12366,7 +12356,7 @@
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
    "last_price": "9.94",
-   "market_cap": 2488912000
+   "market_cap": 2540018944
   },
   "ticker": "BCRX",
   "drug_name": "BCX17725",
@@ -12400,7 +12390,7 @@
    "ticker": "OKUR",
    "name": "OnKure Therapeutics, Inc.",
    "last_price": "4.11",
-   "market_cap": 161580272
+   "market_cap": 166025000
   },
   "ticker": "OKUR",
   "drug_name": "OKI-219 +/- Fulvestrant or Trastuzumab",
@@ -12439,7 +12429,7 @@
    "ticker": "CLYM",
    "name": "Climb Bio",
    "last_price": "17.44",
-   "market_cap": 1001688000
+   "market_cap": 1001688320
   },
   "ticker": "CLYM",
   "drug_name": "Budoprutug",
@@ -12478,7 +12468,7 @@
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
    "last_price": "27.17",
-   "market_cap": 2807294464
+   "market_cap": 2819748000
   },
   "ticker": "NRIX",
   "drug_name": "Bexobrutideg (NX-5948)",
@@ -12511,8 +12501,8 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "13.72",
-   "market_cap": 341846688
+   "last_price": "13.55",
+   "market_cap": 332044640
   },
   "ticker": "LYEL",
   "drug_name": "Ronde-cel (LYL314)",
@@ -12556,7 +12546,7 @@
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
    "last_price": "25.29",
-   "market_cap": 4316425728
+   "market_cap": 4264156000
   },
   "ticker": "TNGX",
   "drug_name": "TNG456",
@@ -12599,8 +12589,8 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "9.46",
-   "market_cap": 1563555328
+   "last_price": "9.39",
+   "market_cap": 1588938000
   },
   "ticker": "VIR",
   "drug_name": "VIR-5818 + Pembrolizumab",
@@ -12649,7 +12639,7 @@
    "ticker": "PBYI",
    "name": "Puma Biotechnology",
    "last_price": "8.82",
-   "market_cap": 455805152
+   "market_cap": 455289000
   },
   "ticker": "PBYI",
   "drug_name": "Alisertib",
@@ -12693,7 +12683,7 @@
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
    "last_price": "88.70",
-   "market_cap": 12494018000
+   "market_cap": 12529270784
   },
   "ticker": "ARWR",
   "drug_name": "ARO-ALK7",
@@ -12727,7 +12717,7 @@
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
    "last_price": "30.50",
-   "market_cap": 1923365120
+   "market_cap": 1987890000
   },
   "ticker": "ZBIO",
   "drug_name": "Obexelimab (CD19xFcyRIIb)",
@@ -12761,7 +12751,7 @@
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
    "last_price": "14.46",
-   "market_cap": 2184093000
+   "market_cap": 2184092928
   },
   "ticker": "BHVN",
   "drug_name": "BHV-7000",
@@ -12810,7 +12800,7 @@
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
    "last_price": "54.28",
-   "market_cap": 5177892000
+   "market_cap": 5248477184
   },
   "ticker": "CRSP",
   "drug_name": "CTX112",
@@ -12844,7 +12834,7 @@
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
    "last_price": "35.05",
-   "market_cap": 1761767552
+   "market_cap": 1805026432
   },
   "ticker": "IMCR",
   "drug_name": "IMC-P115C (PRAME-HLE-A02)",
@@ -12883,7 +12873,7 @@
    "ticker": "GLUE",
    "name": "Monte Rosa Therapeutics",
    "last_price": "15.38",
-   "market_cap": 1322358000
+   "market_cap": 1312120064
   },
   "ticker": "GLUE",
   "drug_name": "MRT-8102",
@@ -12951,7 +12941,7 @@
    "ticker": "TGTX",
    "name": "TG Therapeutics",
    "last_price": "49.28",
-   "market_cap": 7461294080
+   "market_cap": 7543959000
   },
   "ticker": "TGTX",
   "drug_name": "BRIUMVI (ublituximab-xiiy) subcutaneous",
@@ -13019,7 +13009,7 @@
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
    "last_price": "3.02",
-   "market_cap": 190700000
+   "market_cap": 191334000
   },
   "ticker": "PYXS",
   "drug_name": "Micvotabart pelidotin (MICVO, formerly PYX-201) + KEYTRUDA\u00ae (pembrolizumab)",
@@ -13058,7 +13048,7 @@
    "ticker": "KURA",
    "name": "Kura Oncology ",
    "last_price": "11.28",
-   "market_cap": 966112256
+   "market_cap": 1003475712
   },
   "ticker": "KURA",
   "drug_name": "Ziftomenib + venetoclax/azacitidine",
@@ -13102,7 +13092,7 @@
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
    "last_price": "23.09",
-   "market_cap": 2501493248
+   "market_cap": 2615919000
   },
   "ticker": "VRDN",
   "drug_name": "VRDN-008",
@@ -13130,7 +13120,7 @@
    "ticker": "CMPX",
    "name": "Compass Therapeutics",
    "last_price": "2.31",
-   "market_cap": 416003000
+   "market_cap": 416003072
   },
   "ticker": "CMPX",
   "drug_name": "CTX-10726 (PD-1 x VEGF-A bispecific antibody)",
@@ -13237,7 +13227,7 @@
    "ticker": "IMVT",
    "name": "Immunovant",
    "last_price": "43.71",
-   "market_cap": 8638032896
+   "market_cap": 9028417536
   },
   "ticker": "IMVT",
   "drug_name": "IMVT-1402",
@@ -13270,7 +13260,7 @@
   "company": {
    "ticker": "VXRT",
    "name": "Vaxart Inc.",
-   "last_price": "0.54",
+   "last_price": "0.49",
    "market_cap": 130704216
   },
   "ticker": "VXRT",
@@ -13383,7 +13373,7 @@
    "ticker": "PHAR",
    "name": "Pharming Group",
    "last_price": "11.79",
-   "market_cap": 829519680
+   "market_cap": 829520000
   },
   "ticker": "PHAR",
   "drug_name": "Leniolisib",
@@ -13416,8 +13406,8 @@
   "company": {
    "ticker": "RZLT",
    "name": "Rezolute Bio",
-   "last_price": "4.61",
-   "market_cap": 442944704
+   "last_price": "4.68",
+   "market_cap": 450648000
   },
   "ticker": "RZLT",
   "drug_name": "Ersodetug",
@@ -13490,7 +13480,7 @@
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
    "last_price": "20.67",
-   "market_cap": 4352153088
+   "market_cap": 4529657000
   },
   "ticker": "RLAY",
   "drug_name": "RLY-2608",
@@ -13524,7 +13514,7 @@
    "ticker": "CABA",
    "name": "Cabaletta Bio",
    "last_price": "2.89",
-   "market_cap": 489986000
+   "market_cap": 489986336
   },
   "ticker": "CABA",
   "drug_name": "Rese-cel (formerly CABA-201)",
@@ -13557,8 +13547,8 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "47.42",
-   "market_cap": 2275130368
+   "last_price": "48.42",
+   "market_cap": 2323109000
   },
   "ticker": "RAPP",
   "drug_name": "RAP-219",
@@ -13631,7 +13621,7 @@
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
    "last_price": "117.17",
-   "market_cap": 12665890000
+   "market_cap": 12665889792
   },
   "ticker": "CORT",
   "drug_name": "Relacorilant + Nab-Paclitaxel & Bevacizumab ",
@@ -13699,7 +13689,7 @@
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
    "last_price": "27.17",
-   "market_cap": 2807294464
+   "market_cap": 2819748000
   },
   "ticker": "NRIX",
   "drug_name": "GS-6791 (NX-0479)",
@@ -13738,7 +13728,7 @@
    "ticker": "CGEM",
    "name": "Cullinan Management",
    "last_price": "20.59",
-   "market_cap": 1308974000
+   "market_cap": 1265421184
   },
   "ticker": "CGEM",
   "drug_name": "CLN-978 (CD19xCD3)",
@@ -13811,7 +13801,7 @@
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
    "last_price": "121.41",
-   "market_cap": 9656217600
+   "market_cap": 9986893824
   },
   "ticker": "KYMR",
   "drug_name": "KT-579",
@@ -13844,8 +13834,8 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "13.35",
-   "market_cap": 1437662336
+   "last_price": "13.38",
+   "market_cap": 1386873000
   },
   "ticker": "ORIC",
   "drug_name": "Enozertinib (ORIC-114) + amivantamab  SC",
@@ -13884,7 +13874,7 @@
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
    "last_price": "24.94",
-   "market_cap": 1650353000
+   "market_cap": 1650353024
   },
   "ticker": "BCAX",
   "drug_name": "Ficerafusp alfa -/+ Pembrolizumab",
@@ -13923,7 +13913,7 @@
    "ticker": "ZURA",
    "name": "Zura Bio",
    "last_price": "5.68",
-   "market_cap": 533768288
+   "market_cap": 533768000
   },
   "ticker": "ZURA",
   "drug_name": "Tibulizumab",
@@ -13956,8 +13946,8 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "62.35",
-   "market_cap": 6027097088
+   "last_price": "62.36",
+   "market_cap": 6027097000
   },
   "ticker": "XENE",
   "drug_name": "XEN1120 (Kv7 channel opener)",
@@ -13990,8 +13980,8 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "62.35",
-   "market_cap": 6027097088
+   "last_price": "62.36",
+   "market_cap": 6027097000
   },
   "ticker": "XENE",
   "drug_name": "XEN1701 (Nav1.7 candidate)",
@@ -14019,7 +14009,7 @@
    "ticker": "FBIO",
    "name": "Fortress Biotech",
    "last_price": "2.82",
-   "market_cap": 97718000
+   "market_cap": 94049792
   },
   "ticker": "FBIO",
   "drug_name": "Triplex",
@@ -14058,7 +14048,7 @@
    "ticker": "BIOA",
    "name": "BioAge Labs",
    "last_price": "10.40",
-   "market_cap": 477328000
+   "market_cap": 477327840
   },
   "ticker": "BIOA",
   "drug_name": "BGE-102",
@@ -14126,7 +14116,7 @@
    "ticker": "ERAS",
    "name": "Erasca ",
    "last_price": "18.28",
-   "market_cap": 6393651000
+   "market_cap": 6393650688
   },
   "ticker": "ERAS",
   "drug_name": "ERAS-4001",
@@ -14160,7 +14150,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "25.64",
-   "market_cap": 2907695104
+   "market_cap": 2907695000
   },
   "ticker": "ZLAB",
   "drug_name": "Zocilurtatug pelitecan (formerly ZL-1310)",
@@ -14228,7 +14218,7 @@
    "ticker": "INBX",
    "name": "Inhibrx Inc.",
    "last_price": "92.01",
-   "market_cap": 1300599680
+   "market_cap": 1354171904
   },
   "ticker": "INBX",
   "drug_name": "INBRX-106",
@@ -14266,8 +14256,8 @@
   "company": {
    "ticker": "PRQR",
    "name": "ProQR",
-   "last_price": "1.92",
-   "market_cap": 270953216
+   "last_price": "1.93",
+   "market_cap": 270953000
   },
   "ticker": "PRQR",
   "drug_name": "AX-0810",
@@ -14301,7 +14291,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "25.64",
-   "market_cap": 2907695104
+   "market_cap": 2907695000
   },
   "ticker": "ZLAB",
   "drug_name": "ZL-1503",
@@ -14334,8 +14324,8 @@
   "company": {
    "ticker": "MBX",
    "name": "MBX Biosciences",
-   "last_price": "68.39",
-   "market_cap": 3302337792
+   "last_price": "68.25",
+   "market_cap": 3286926592
   },
   "ticker": "MBX",
   "drug_name": "MBX 4291",
@@ -14369,7 +14359,7 @@
    "ticker": "RFL",
    "name": "Rafael Holdings Inc",
    "last_price": "1.87",
-   "market_cap": 103479992
+   "market_cap": 97240000
   },
   "ticker": "RFL",
   "drug_name": "Trappsol\u00ae Cyclo\u2122 (hydroxypropyl-beta-cyclodextrin)",
@@ -14402,8 +14392,8 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "507.06",
-   "market_cap": 21433765888
+   "last_price": "508.48",
+   "market_cap": 21809060000
   },
   "ticker": "UTHR",
   "drug_name": "miroliverELAP",
@@ -14437,7 +14427,7 @@
    "ticker": "ENGN",
    "name": "enGene",
    "last_price": "1.70",
-   "market_cap": 113882000
+   "market_cap": 113882088
   },
   "ticker": "ENGN",
   "drug_name": "Detalimogene (EG-70)",
@@ -14471,7 +14461,7 @@
    "ticker": "TGTX",
    "name": "TG Therapeutics",
    "last_price": "49.28",
-   "market_cap": 7461294080
+   "market_cap": 7543959000
   },
   "ticker": "TGTX",
   "drug_name": "Azercabtagene zapreleucel (azer-cel)",
@@ -14505,7 +14495,7 @@
    "ticker": "FBRX",
    "name": "Forte Biosciences Inc",
    "last_price": "76.89",
-   "market_cap": 1632305000
+   "market_cap": 1632304512
   },
   "ticker": "FBRX",
   "drug_name": "FB102",
@@ -14539,7 +14529,7 @@
    "ticker": "CELC",
    "name": "Celcuity",
    "last_price": "92.44",
-   "market_cap": 4501735000
+   "market_cap": 4523265536
   },
   "ticker": "CELC",
   "drug_name": "Gedatolisib + darolutamide (Nubeqa\u00ae)",
@@ -14573,7 +14563,7 @@
    "ticker": "KRYS",
    "name": "Krystal Biotech",
    "last_price": "335.73",
-   "market_cap": 9834805248
+   "market_cap": 9937217536
   },
   "ticker": "KRYS",
   "drug_name": "KB801",
@@ -14607,7 +14597,7 @@
    "ticker": "AVBP",
    "name": "ArriVent",
    "last_price": "29.01",
-   "market_cap": 1430417000
+   "market_cap": 1430417152
   },
   "ticker": "AVBP",
   "drug_name": "Firmonertinib",
@@ -14675,7 +14665,7 @@
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
    "last_price": "53.76",
-   "market_cap": 3833618000
+   "market_cap": 3833617664
   },
   "ticker": "GPCR",
   "drug_name": "Aleniglipron (GSBR-1290)",
@@ -14709,7 +14699,7 @@
    "ticker": "INCY",
    "name": "Incyte Corporation",
    "last_price": "123.50",
-   "market_cap": 24356161536
+   "market_cap": 25033170944
   },
   "ticker": "INCY",
   "drug_name": "INCB160058",
@@ -14742,8 +14732,8 @@
   "company": {
    "ticker": "MOLN",
    "name": "Molecular Partners",
-   "last_price": "4.28",
-   "market_cap": 157922000
+   "last_price": "4.25",
+   "market_cap": 159422448
   },
   "ticker": "MOLN",
   "drug_name": "MP0712 (212Pb x DLL3)",
@@ -14777,7 +14767,7 @@
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
    "last_price": "26.90",
-   "market_cap": 3154069248
+   "market_cap": 3215550000
   },
   "ticker": "NAMS",
   "drug_name": "Obicetrapib + ezetimibe",
@@ -14816,7 +14806,7 @@
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
    "last_price": "26.90",
-   "market_cap": 3154069248
+   "market_cap": 3215550000
   },
   "ticker": "NAMS",
   "drug_name": "Obicetrapib",
@@ -14854,8 +14844,8 @@
   "company": {
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
-   "last_price": "18.10",
-   "market_cap": 1911849216
+   "last_price": "18.18",
+   "market_cap": 1911849000
   },
   "ticker": "SRPT",
   "drug_name": "SRP-1003",
@@ -14888,8 +14878,8 @@
   "company": {
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
-   "last_price": "18.10",
-   "market_cap": 1911849216
+   "last_price": "18.18",
+   "market_cap": 1911849000
   },
   "ticker": "SRPT",
   "drug_name": "SRP-1001",
@@ -14962,7 +14952,7 @@
    "ticker": "SKYE",
    "name": "Skye Bioscience",
    "last_price": "0.42",
-   "market_cap": 17624576
+   "market_cap": 14703400
   },
   "ticker": "SKYE",
   "drug_name": "Nimacimab",
@@ -14996,7 +14986,7 @@
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
    "last_price": "88.70",
-   "market_cap": 12494018000
+   "market_cap": 12529270784
   },
   "ticker": "ARWR",
   "drug_name": "ARO-MAPT",
@@ -15030,7 +15020,7 @@
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
    "last_price": "114.86",
-   "market_cap": 6424623000
+   "market_cap": 6424622592
   },
   "ticker": "DNTH",
   "drug_name": "Claseprubart (DNTH103)",
@@ -15064,7 +15054,7 @@
    "ticker": "KTTA",
    "name": "Pasithea Therapeutics",
    "last_price": "0.48",
-   "market_cap": 16055643
+   "market_cap": 15972106
   },
   "ticker": "KTTA",
   "drug_name": "PAS-004",
@@ -15098,7 +15088,7 @@
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
    "last_price": "54.28",
-   "market_cap": 5177892000
+   "market_cap": 5248477184
   },
   "ticker": "CRSP",
   "drug_name": "SRSD107",
@@ -15132,7 +15122,7 @@
    "ticker": "IPSEY",
    "name": "Ipsen",
    "last_price": "45.10",
-   "market_cap": 14904748032
+   "market_cap": 14902944768
   },
   "ticker": "IPSEY",
   "drug_name": "IPN10200",
@@ -15166,7 +15156,7 @@
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
    "last_price": "8.95",
-   "market_cap": 505260928
+   "market_cap": 553498816
   },
   "ticker": "KYTX",
   "drug_name": "KYV-101",
@@ -15200,7 +15190,7 @@
    "ticker": "DTIL",
    "name": "Precision BioSciences",
    "last_price": "7.40",
-   "market_cap": 204252000
+   "market_cap": 204251504
   },
   "ticker": "DTIL",
   "drug_name": "PBGENE-DMD",
@@ -15234,7 +15224,7 @@
    "ticker": "CATX",
    "name": "Perspective Therapeutics",
    "last_price": "3.22",
-   "market_cap": 367568000
+   "market_cap": 367568352
   },
   "ticker": "CATX",
   "drug_name": "PSV359",
@@ -15336,7 +15326,7 @@
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
    "last_price": "9.20",
-   "market_cap": 593595000
+   "market_cap": 593595008
   },
   "ticker": "ARVN",
   "drug_name": "ARV-806",
@@ -15370,7 +15360,7 @@
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
    "last_price": "8.95",
-   "market_cap": 505260928
+   "market_cap": 553498816
   },
   "ticker": "KYTX",
   "drug_name": "KYV-101",
@@ -15403,8 +15393,8 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "1.50",
-   "market_cap": 300633440
+   "last_price": "1.52",
+   "market_cap": 285602000
   },
   "ticker": "NMRA",
   "drug_name": "NMRA-898",
@@ -15438,7 +15428,7 @@
    "ticker": "MRNA",
    "name": "Moderna",
    "last_price": "64.46",
-   "market_cap": 25279617024
+   "market_cap": 25734746112
   },
   "ticker": "MRNA",
   "drug_name": "mRNA-2808",
@@ -15472,7 +15462,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.26",
-   "market_cap": 315615232
+   "market_cap": 318034000
   },
   "ticker": "VNDA",
   "drug_name": "NEREUS\u2122 (tradipitant)",
@@ -15511,7 +15501,7 @@
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
    "last_price": "38.14",
-   "market_cap": 2219971328
+   "market_cap": 2221135872
   },
   "ticker": "HRMY",
   "drug_name": "BP1.15205",
@@ -15550,7 +15540,7 @@
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
    "last_price": "121.41",
-   "market_cap": 9656217600
+   "market_cap": 9986893824
   },
   "ticker": "KYMR",
   "drug_name": "KT-621 (Oral STAT6 Degrader)",
@@ -15584,7 +15574,7 @@
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
    "last_price": "27.17",
-   "market_cap": 2807294464
+   "market_cap": 2819748000
   },
   "ticker": "NRIX",
   "drug_name": "Zelebrudomide (BTK Degrader)",
@@ -15618,7 +15608,7 @@
    "ticker": "ATOS",
    "name": "Atossa Therapeutics",
    "last_price": "2.79",
-   "market_cap": 25946200
+   "market_cap": 27842242
   },
   "ticker": "ATOS",
   "drug_name": "(Z)-Endoxifen (Estrogen Modulator)",
@@ -15652,7 +15642,7 @@
    "ticker": "MGNX",
    "name": "MacroGenics",
    "last_price": "4.06",
-   "market_cap": 268584896
+   "market_cap": 258622752
   },
   "ticker": "MGNX",
   "drug_name": "MGC028 (ADAM9-Targeted ADC)",
@@ -15696,7 +15686,7 @@
    "ticker": "ETON",
    "name": "Eton Pharmaceuticals",
    "last_price": "61.73",
-   "market_cap": 1764437000
+   "market_cap": 1764436992
   },
   "ticker": "ETON",
   "drug_name": "ET-700 (Extended-Release Drug)",
@@ -15724,7 +15714,7 @@
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
    "last_price": "7.68",
-   "market_cap": 795426000
+   "market_cap": 794391680
   },
   "ticker": "AURA",
   "drug_name": "Belzupacap Sarotalocan (AU-011) (Virus-Like Conjugate)",
@@ -15758,7 +15748,7 @@
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
    "last_price": "2.28",
-   "market_cap": 606851000
+   "market_cap": 606850624
   },
   "ticker": "AUTL",
   "drug_name": "AUTO8 (BCMA & CD19) (BCMA CD19 CAR-T)",
@@ -15792,7 +15782,7 @@
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
    "last_price": "36.54",
-   "market_cap": 3525726000
+   "market_cap": 3525725952
   },
   "ticker": "IDYA",
   "drug_name": "IDE034 (B7H3/PTK7 TOP1 ADC)",
@@ -15831,7 +15821,7 @@
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
    "last_price": "7.68",
-   "market_cap": 795426000
+   "market_cap": 794391680
   },
   "ticker": "AURA",
   "drug_name": "Belzupacap Sarotalocan (AU-011) (Virus-Like Conjugate)",
@@ -15914,7 +15904,7 @@
    "ticker": "CGEM",
    "name": "Cullinan Management",
    "last_price": "20.59",
-   "market_cap": 1308974000
+   "market_cap": 1265421184
   },
   "ticker": "CGEM",
   "drug_name": "Velinotamig (BCMAxCD3) (T Cell Engager)",
@@ -15953,7 +15943,7 @@
    "ticker": "ENTA",
    "name": "Enanta Pharmaceuticals",
    "last_price": "12.83",
-   "market_cap": 373679000
+   "market_cap": 373678912
   },
   "ticker": "ENTA",
   "drug_name": "EDP-978 (KIT Inhibitor)",
@@ -15987,7 +15977,7 @@
    "ticker": "CRIS",
    "name": "Curis",
    "last_price": "1.80",
-   "market_cap": 4365100
+   "market_cap": 4365140
   },
   "ticker": "CRIS",
   "drug_name": "Emavusertib (CA-4948) (IRAK4/FLT3 Inhibitor)",
@@ -16020,8 +16010,8 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "13.72",
-   "market_cap": 341846688
+   "last_price": "13.55",
+   "market_cap": 332044640
   },
   "ticker": "LYEL",
   "drug_name": "LYL273 (GCC CAR-T)",
@@ -16055,7 +16045,7 @@
    "ticker": "ENTX",
    "name": "Entera Bio Ltd",
    "last_price": "2.90",
-   "market_cap": 142942000
+   "market_cap": 142941680
   },
   "ticker": "ENTX",
   "drug_name": "OPK-88006 (GLP-1/Glucagon Agonist)",
@@ -16094,7 +16084,7 @@
    "ticker": "IMVT",
    "name": "Immunovant",
    "last_price": "43.71",
-   "market_cap": 8638032896
+   "market_cap": 9028417536
   },
   "ticker": "IMVT",
   "drug_name": "IMVT-1402",
@@ -16128,7 +16118,7 @@
    "ticker": "INTS",
    "name": "Intensity Therapeutics",
    "last_price": "4.15",
-   "market_cap": 12929247
+   "market_cap": 13549248
   },
   "ticker": "INTS",
   "drug_name": "INT230-6 (Intratumoral Cytotoxic)",
@@ -16206,7 +16196,7 @@
    "ticker": "IPSC",
    "name": "Century Therapeutics",
    "last_price": "1.95",
-   "market_cap": 347664608
+   "market_cap": 353096896
   },
   "ticker": "IPSC",
   "drug_name": "CNTY-101",
@@ -16245,7 +16235,7 @@
    "ticker": "FBRX",
    "name": "Forte Biosciences Inc",
    "last_price": "76.89",
-   "market_cap": 1632305000
+   "market_cap": 1632304512
   },
   "ticker": "FBRX",
   "drug_name": "FB102 (Anti-CD122 Antibody)",
@@ -16279,7 +16269,7 @@
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
    "last_price": "80.05",
-   "market_cap": 3026891776
+   "market_cap": 3073347328
   },
   "ticker": "IRON",
   "drug_name": "DISC-3405 (Hepcidin Induction)",
@@ -16385,8 +16375,8 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "112.32",
-   "market_cap": 7351925248
+   "last_price": "112.66",
+   "market_cap": 7459185000
   },
   "ticker": "ORKA",
   "drug_name": "ORKA-001 (IL-23p19 Antibody)",
@@ -16420,7 +16410,7 @@
    "ticker": "SANA",
    "name": "Sana Biotechnology",
    "last_price": "3.68",
-   "market_cap": 1062730240
+   "market_cap": 1101647000
   },
   "ticker": "SANA",
   "drug_name": "SG293 (In Vivo CAR-T)",
@@ -16454,7 +16444,7 @@
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
    "last_price": "99.83",
-   "market_cap": 6137150976
+   "market_cap": 6087756288
   },
   "ticker": "MIRM",
   "drug_name": "LIVMARLI/Maralixibat (IBAT Inhibitor)",
@@ -16488,7 +16478,7 @@
    "ticker": "FATE",
    "name": "Fate Therapeutics",
    "last_price": "2.62",
-   "market_cap": 305385000
+   "market_cap": 305385056
   },
   "ticker": "FATE",
   "drug_name": "FT836 (CAR T Cell)",
@@ -16521,8 +16511,8 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.38",
-   "market_cap": 3707792640
+   "last_price": "29.56",
+   "market_cap": 3763974000
   },
   "ticker": "RCUS",
   "drug_name": "Casdatifan (AB521) (HIF-2a Inhibitor)",
@@ -16565,8 +16555,8 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.38",
-   "market_cap": 3707792640
+   "last_price": "29.56",
+   "market_cap": 3763974000
   },
   "ticker": "RCUS",
   "drug_name": "Casdatifan (AB521) (HIF-2a Inhibitor)",
@@ -16610,7 +16600,7 @@
    "ticker": "KRYS",
    "name": "Krystal Biotech",
    "last_price": "335.73",
-   "market_cap": 9834805248
+   "market_cap": 9937217536
   },
   "ticker": "KRYS",
   "drug_name": "KB111 (HSV-1 Gene Therapy)",
@@ -16649,7 +16639,7 @@
    "ticker": "ZYME",
    "name": "Zymeworks",
    "last_price": "25.31",
-   "market_cap": 1782496128
+   "market_cap": 1782496000
   },
   "ticker": "ZYME",
   "drug_name": "Pasritamig (Bispecific Antibody)",
@@ -16683,7 +16673,7 @@
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
    "last_price": "114.86",
-   "market_cap": 6424623000
+   "market_cap": 6424622592
   },
   "ticker": "DNTH",
   "drug_name": "LBL-047 (DNTH212) (BDCA2/TACI Inhibitor)",
@@ -16717,7 +16707,7 @@
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
    "last_price": "27.17",
-   "market_cap": 2807294464
+   "market_cap": 2819748000
   },
   "ticker": "NRIX",
   "drug_name": "Bexobrutideg (NX-5948) (BTK Degrader)",
@@ -16766,7 +16756,7 @@
    "ticker": "ARQT",
    "name": "Arcutis Biotherapeutics",
    "last_price": "25.61",
-   "market_cap": 3218971000
+   "market_cap": 3218971136
   },
   "ticker": "ARQT",
   "drug_name": "ZORYVE/Roflumilast (ARQ-154) (PDE4 Inhibitor)",
@@ -16799,8 +16789,8 @@
   "company": {
    "ticker": "ONCY",
    "name": "Oncolytics Biotech",
-   "last_price": "0.83",
-   "market_cap": 99541288
+   "last_price": "0.82",
+   "market_cap": 104903000
   },
   "ticker": "ONCY",
   "drug_name": "Pelareorep + Bevacizumab + FOLFIRI (Oncolytic Virus)",
@@ -16868,7 +16858,7 @@
    "ticker": "IPSEY",
    "name": "Ipsen",
    "last_price": "45.10",
-   "market_cap": 14904748032
+   "market_cap": 14902944768
   },
   "ticker": "IPSEY",
   "drug_name": "IPN10200 (Long-Acting Toxin)",
@@ -16907,7 +16897,7 @@
    "ticker": "JANX",
    "name": "Janux Therapeutics",
    "last_price": "16.26",
-   "market_cap": 985524800
+   "market_cap": 994083904
   },
   "ticker": "JANX",
   "drug_name": "JANX011 (CD19 Bispecific)",
@@ -16941,7 +16931,7 @@
    "ticker": "INCY",
    "name": "Incyte Corporation",
    "last_price": "123.50",
-   "market_cap": 24356161536
+   "market_cap": 25033170944
   },
   "ticker": "INCY",
   "drug_name": "Olumiant/Baricitinib (JAK Inhibitor)",
@@ -16974,8 +16964,8 @@
   "company": {
    "ticker": "OPK",
    "name": "OPKO Health",
-   "last_price": "1.34",
-   "market_cap": 1029932992
+   "last_price": "1.36",
+   "market_cap": 1015006000
   },
   "ticker": "OPK",
   "drug_name": "MDX2301 (Tetravalent Bispecific Antibody)",
@@ -17009,7 +16999,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "19.76",
-   "market_cap": 1771654272
+   "market_cap": 1771654000
   },
   "ticker": "SNDX",
   "drug_name": "Revuforj/Revumenib (SNDX-5613) Post-Transplant Maintenance (Menin Inhibitor)",
@@ -17228,7 +17218,7 @@
    "ticker": "ONC",
    "name": "BeOne Medicines",
    "last_price": "362.51",
-   "market_cap": 39307689984
+   "market_cap": 41007915000
   },
   "ticker": "ONC",
   "drug_name": "BGB-45035 (IRAK4 Degrader)",
@@ -17262,7 +17252,7 @@
    "ticker": "IMNM",
    "name": "Immunome",
    "last_price": "27.40",
-   "market_cap": 3112027000
+   "market_cap": 3112027136
   },
   "ticker": "IMNM",
   "drug_name": "IM-1021 (ROR1 ADC)",
@@ -17296,7 +17286,7 @@
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
    "last_price": "30.50",
-   "market_cap": 1923365120
+   "market_cap": 1987890000
   },
   "ticker": "ZBIO",
   "drug_name": "ZB021 (IL-17AA/AF Inhibitor)",
@@ -17335,7 +17325,7 @@
    "ticker": "ONC",
    "name": "BeOne Medicines",
    "last_price": "362.51",
-   "market_cap": 39307689984
+   "market_cap": 41007915000
   },
   "ticker": "ONC",
   "drug_name": "TEVIMBRA/Tislelizumab + ZIIHERA/Zanidatamab (PD-1 Antibody)",
@@ -17408,7 +17398,7 @@
    "ticker": "PFE",
    "name": "Pfizer",
    "last_price": "26.87",
-   "market_cap": 152694259712
+   "market_cap": 153150226000
   },
   "ticker": "PFE",
   "drug_name": "Talzenna/Talazoparib + Xtandi/Enzalutamide (BMN 673 + MDV3100) (PARP Inhibitor)",
@@ -17442,7 +17432,7 @@
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
    "last_price": "2.07",
-   "market_cap": 300631000
+   "market_cap": 305052224
   },
   "ticker": "IFRX",
   "drug_name": "Izicopan (C5aR Inhibitor)",
@@ -17476,7 +17466,7 @@
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
    "last_price": "2.07",
-   "market_cap": 300631000
+   "market_cap": 305052224
   },
   "ticker": "IFRX",
   "drug_name": "Izicopan (C5aR Inhibitor)",
@@ -17515,7 +17505,7 @@
    "ticker": "MAZE",
    "name": "Maze Therapeutics",
    "last_price": "27.95",
-   "market_cap": 1509826432
+   "market_cap": 1552599296
   },
   "ticker": "MAZE",
   "drug_name": "MZE829 (APOL1 Inhibitor)",
@@ -17549,7 +17539,7 @@
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
    "last_price": "36.54",
-   "market_cap": 3525726000
+   "market_cap": 3525725952
   },
   "ticker": "IDYA",
   "drug_name": "IDE849 + IDE161 (TOP1-PARG Combination)",
@@ -17583,7 +17573,7 @@
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
    "last_price": "36.54",
-   "market_cap": 3525726000
+   "market_cap": 3525725952
   },
   "ticker": "IDYA",
   "drug_name": "IDE849 + IDE161 (PARG-ADC Combination)",
@@ -17661,7 +17651,7 @@
    "ticker": "PTHS",
    "name": "Pelthos Therapeutics",
    "last_price": "25.90",
-   "market_cap": 105282896
+   "market_cap": 105283000
   },
   "ticker": "PTHS",
   "drug_name": "CT2000 (NaV1.7 Inhibitor)",
@@ -17700,7 +17690,7 @@
    "ticker": "MANE",
    "name": "Veradermics",
    "last_price": "108.22",
-   "market_cap": 4709039104
+   "market_cap": 4521446400
   },
   "ticker": "MANE",
   "drug_name": "Minoxidil (VDPHL01) (Potassium Channel Opener)",
@@ -17734,7 +17724,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "19.76",
-   "market_cap": 1771654272
+   "market_cap": 1771654000
   },
   "ticker": "SNDX",
   "drug_name": "Revuforj/Revumenib (SNDX-5613) + Gilteritinib (Menin Inhibitor)",
@@ -17767,8 +17757,8 @@
   "company": {
    "ticker": "PCRX",
    "name": "Pacira BioSciences",
-   "last_price": "23.38",
-   "market_cap": 916823424
+   "last_price": "23.24",
+   "market_cap": 914446000
   },
   "ticker": "PCRX",
   "drug_name": "ZILRETTA (triamcinolone acetonide) (Corticosteroid Injection)",
@@ -17812,7 +17802,7 @@
    "ticker": "CLYM",
    "name": "Climb Bio",
    "last_price": "17.44",
-   "market_cap": 1001688000
+   "market_cap": 1001688320
   },
   "ticker": "CLYM",
   "drug_name": "Budoprutug (CD19 Antibody)",
@@ -17846,7 +17836,7 @@
    "ticker": "CLYM",
    "name": "Climb Bio",
    "last_price": "17.44",
-   "market_cap": 1001688000
+   "market_cap": 1001688320
   },
   "ticker": "CLYM",
   "drug_name": "Budoprutug (CD19 Antibody)",
@@ -17879,8 +17869,8 @@
   "company": {
    "ticker": "PRQR",
    "name": "ProQR",
-   "last_price": "1.92",
-   "market_cap": 270953216
+   "last_price": "1.93",
+   "market_cap": 270953000
   },
   "ticker": "PRQR",
   "drug_name": "AX-0811 (RNA Editing Oligonucleotide)",
@@ -17914,7 +17904,7 @@
    "ticker": "TAK",
    "name": "Takeda",
    "last_price": "17.38",
-   "market_cap": 56301453312
+   "market_cap": 55503077000
   },
   "ticker": "TAK",
   "drug_name": "Rusfertide (Hepcidin Mimetic)",
@@ -17948,7 +17938,7 @@
    "ticker": "VERA",
    "name": "Vera Therapeutics",
    "last_price": "31.63",
-   "market_cap": 2279363328
+   "market_cap": 2279363000
   },
   "ticker": "VERA",
   "drug_name": "Atacicept",
@@ -17987,7 +17977,7 @@
    "ticker": "VERA",
    "name": "Vera Therapeutics",
    "last_price": "31.63",
-   "market_cap": 2279363328
+   "market_cap": 2279363000
   },
   "ticker": "VERA",
   "drug_name": "Atacicept",
@@ -18021,7 +18011,7 @@
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
    "last_price": "24.40",
-   "market_cap": 1296509952
+   "market_cap": 1306145000
   },
   "ticker": "SPTX",
   "drug_name": "GlyphAllo/Glyph Allopregnanolone (SPT-300) (Neuroactive Steroid)",
@@ -18049,7 +18039,7 @@
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
    "last_price": "10.47",
-   "market_cap": 598524000
+   "market_cap": 567107904
   },
   "ticker": "EIKN",
   "drug_name": "EIK1001",
@@ -18122,7 +18112,7 @@
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
    "last_price": "53.59",
-   "market_cap": 2503302000
+   "market_cap": 2503302400
   },
   "ticker": "COAG",
   "drug_name": "HMB-002",
@@ -18190,7 +18180,7 @@
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
    "last_price": "53.59",
-   "market_cap": 2503302000
+   "market_cap": 2503302400
   },
   "ticker": "COAG",
   "drug_name": "Sutacimig (HMB-001)",
@@ -18224,7 +18214,7 @@
    "ticker": "PBLS",
    "name": "Parbaillis Medicines",
    "last_price": "37.22",
-   "market_cap": 4534122496
+   "market_cap": 4534122000
   },
   "ticker": "PBLS",
   "drug_name": "Zolucatetide (FOG-001)",
@@ -18242,10 +18232,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "03/05/26:- Zolucatetide showed early evidence of reduced duodenal polyp burden in a FAP patient from ongoing Ph1/2 trial; additional readouts expected in 2026.",
+  "note": "03/05/26:- Zolucatetide showed early evidence of reduced duodenal polyp burden in a FAP patient from ongoing Ph1/2 trial; additional readouts expected in 2026. 08/13/26:- Dedicated FAP cohort enrollment will begin in H2 2026. Additional FAP data are expected in Q1 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://investors.parabilismed.com/news-releases/news-release-details/parabilis-medicines-reports-early-clinical-evidence-zolucatetide",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61168570/parabilis-medicines-reports-second-quarter-2026-financial-results-and-provides-business-updates",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18258,7 +18248,7 @@
    "ticker": "GMAB",
    "name": "Genmab",
    "last_price": "32.84",
-   "market_cap": 20184199000
+   "market_cap": 20184199168
   },
   "ticker": "GMAB",
   "drug_name": "Epkinly/Epcoritamab (GEN3013) (CD3-CD20 Bispecific) + R-CHOP",
@@ -18292,7 +18282,7 @@
    "ticker": "KRYS",
    "name": "Krystal Biotech",
    "last_price": "335.73",
-   "market_cap": 9834805248
+   "market_cap": 9937217536
   },
   "ticker": "KRYS",
   "drug_name": "Intratumoral KB707 (Cytokine Gene Therapy)",
@@ -18326,7 +18316,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.26",
-   "market_cap": 315615232
+   "market_cap": 318034000
   },
   "ticker": "VNDA",
   "drug_name": "Hetlioz/Tasimelteon (Melatonin Receptor Agonist)",
@@ -18360,7 +18350,7 @@
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
    "last_price": "114.86",
-   "market_cap": 6424623000
+   "market_cap": 6424622592
   },
   "ticker": "DNTH",
   "drug_name": "LBL-047 (DNTH212) (BDCA2/TACI Inhibitor)",
@@ -18394,7 +18384,7 @@
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
    "last_price": "114.86",
-   "market_cap": 6424623000
+   "market_cap": 6424622592
   },
   "ticker": "DNTH",
   "drug_name": "LBL-047 (DNTH212) (BDCA2/TACI Inhibitor)",
@@ -18427,8 +18417,8 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.33",
-   "market_cap": 166885760
+   "last_price": "2.43",
+   "market_cap": 174048000
   },
   "ticker": "NKTX",
   "drug_name": "NKX019 (CAR NK Therapy)",
@@ -18462,7 +18452,7 @@
    "ticker": "JSPR",
    "name": "Jasper Therapeutics",
    "last_price": "0.84",
-   "market_cap": 26290230
+   "market_cap": 28023834
   },
   "ticker": "JSPR",
   "drug_name": "Vensobafusp Alfa (KP-104) (Dual Complement Inhibitor)",
@@ -18500,8 +18490,8 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.33",
-   "market_cap": 166885760
+   "last_price": "2.43",
+   "market_cap": 174048000
   },
   "ticker": "NKTX",
   "drug_name": "NKX019 (CAR NK Therapy)",
@@ -18535,7 +18525,7 @@
    "ticker": "CGTX",
    "name": "Cognition Therapeutics",
    "last_price": "1.02",
-   "market_cap": 96045000
+   "market_cap": 96995616
   },
   "ticker": "CGTX",
   "drug_name": "Zervimesine (CT1812) ",
@@ -18568,8 +18558,8 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "6.47",
-   "market_cap": 2183986432
+   "last_price": "6.48",
+   "market_cap": 2275279000
   },
   "ticker": "NUVB",
   "drug_name": "IBTROZI (Taletrectinib) (ROS1 inhibitor)",
@@ -18608,7 +18598,7 @@
    "ticker": "DYN",
    "name": "Dyne Therapeutics",
    "last_price": "26.15",
-   "market_cap": 4883419000
+   "market_cap": 4883419136
   },
   "ticker": "DYN",
   "drug_name": "DYNE-251",
@@ -18642,7 +18632,7 @@
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
    "last_price": "376.38",
-   "market_cap": 10226212864
+   "market_cap": 10508526000
   },
   "ticker": "PRAX",
   "drug_name": "Ulixacaltamide (PRAX-944) (T-type calcium channel blocker) ",
@@ -18764,7 +18754,7 @@
    "ticker": "BLTE",
    "name": "Belite Bio",
    "last_price": "163.21",
-   "market_cap": 6556305000
+   "market_cap": 6542288384
   },
   "ticker": "BLTE",
   "drug_name": "Tinlarebant (LBS-008)",
@@ -18798,7 +18788,7 @@
    "ticker": "BLTE",
    "name": "Belite Bio",
    "last_price": "163.21",
-   "market_cap": 6556305000
+   "market_cap": 6542288384
   },
   "ticker": "BLTE",
   "drug_name": "Tinlarebant (LBS-008) ",
@@ -18832,7 +18822,7 @@
    "ticker": "AVIR",
    "name": "Atea Pharmaceuticals",
    "last_price": "5.22",
-   "market_cap": 410648000
+   "market_cap": 418668512
   },
   "ticker": "AVIR",
   "drug_name": "Bemnifosbuvir + Ruzasvir (RZR)",
@@ -18866,7 +18856,7 @@
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
    "last_price": "33.85",
-   "market_cap": 682468352
+   "market_cap": 661746000
   },
   "ticker": "TECX",
   "drug_name": "TX45",
@@ -18905,7 +18895,7 @@
    "ticker": "ARQT",
    "name": "Arcutis Biotherapeutics",
    "last_price": "25.61",
-   "market_cap": 3218971000
+   "market_cap": 3218971136
   },
   "ticker": "ARQT",
   "drug_name": "ZORYVE\u00ae (ARQ-151) topical roflumilast cream 0.05%",
@@ -18939,7 +18929,7 @@
    "ticker": "CGEM",
    "name": "Cullinan Management",
    "last_price": "20.59",
-   "market_cap": 1308974000
+   "market_cap": 1265421184
   },
   "ticker": "CGEM",
   "drug_name": "Zipalertinib",
@@ -18973,7 +18963,7 @@
    "ticker": "CNSY",
    "name": "Cerenome, Inc.",
    "last_price": "3.20",
-   "market_cap": 25332700
+   "market_cap": 22028470
   },
   "ticker": "CNSY",
   "drug_name": "REYOBIQ (Rhenium Re186 Obisbemeda)",
@@ -19011,8 +19001,8 @@
   "company": {
    "ticker": "OLMA",
    "name": "Olema Pharmaceuticals",
-   "last_price": "10.76",
-   "market_cap": 930099584
+   "last_price": "10.77",
+   "market_cap": 942349000
   },
   "ticker": "OLMA",
   "drug_name": "OP-1250 (palazestrant) (CER antagonist) ",
@@ -19051,7 +19041,7 @@
    "ticker": "DMAC",
    "name": "DiaMedica Therapeutics",
    "last_price": "6.62",
-   "market_cap": 356988000
+   "market_cap": 356988096
   },
   "ticker": "DMAC",
   "drug_name": "DM199 (KLK1 protein)",
@@ -19090,7 +19080,7 @@
    "ticker": "DSGN",
    "name": "Design Therapeutics",
    "last_price": "15.10",
-   "market_cap": 944983000
+   "market_cap": 944982976
   },
   "ticker": "DSGN",
   "drug_name": "DT-216P2",
@@ -19142,10 +19132,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "05/15/26:- AD Ph3 NCT06709014 is 85% enrolled. Enrollment Summer 2026. Readouts and NDA plans Early 2027/2028. 07/07/26:- AD Ph3 NCT06709014 fully enrolled. Symptomatic topline Q1 2027; disease-modifying topline Q1 2028.",
+  "note": "05/15/26:- AD Ph3 NCT06709014 is 85% enrolled. Enrollment Summer 2026. Readouts and NDA plans Early 2027/2028. 07/07/26:- AD Ph3 NCT06709014 fully enrolled. Symptomatic topline Q1 2027; disease-modifying topline Q1 2028. 08/14/26:- AD Ph3 is fully enrolled with 850 patients. AD OLE will initiate in October 2026. Symptomatic topline data will be reported in Q1 2027; disease-modifying data will follow in Q1 2028.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/07/3323032/0/en/annovis-reaches-full-enrollment-in-pivotal-phase-3-trial-of-buntanetap-for-early-alzheimer-s-disease.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61205175/annovis-provides-corporate-updates-and-second-quarter-2026-financial-results",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -19157,8 +19147,8 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.36",
-   "market_cap": 457799040
+   "last_price": "1.38",
+   "market_cap": 457799000
   },
   "ticker": "OCGN",
   "drug_name": "OCU400",
@@ -19192,7 +19182,7 @@
    "ticker": "DYN",
    "name": "Dyne Therapeutics",
    "last_price": "26.15",
-   "market_cap": 4883419000
+   "market_cap": 4883419136
   },
   "ticker": "DYN",
   "drug_name": "DYNE-101",
@@ -19226,7 +19216,7 @@
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
    "last_price": "99.83",
-   "market_cap": 6137150976
+   "market_cap": 6087756288
   },
   "ticker": "MIRM",
   "drug_name": "Volixibat  ",
@@ -19265,7 +19255,7 @@
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
    "last_price": "26.22",
-   "market_cap": 1509229824
+   "market_cap": 1559313000
   },
   "ticker": "TYRA",
   "drug_name": "TYRA-300",
@@ -19299,7 +19289,7 @@
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
    "last_price": "35.05",
-   "market_cap": 1761767552
+   "market_cap": 1805026432
   },
   "ticker": "IMCR",
   "drug_name": "IMC-M113V (Gag-A02)",
@@ -19338,7 +19328,7 @@
    "ticker": "INKT",
    "name": "MiNK Therapeutics",
    "last_price": "11.22",
-   "market_cap": 57510836
+   "market_cap": 57255684
   },
   "ticker": "INKT",
   "drug_name": "AgenT-797 ",
@@ -19372,7 +19362,7 @@
    "ticker": "SPRY",
    "name": "ARS Pharmaceuticals",
    "last_price": "6.24",
-   "market_cap": 561877504
+   "market_cap": 620551000
   },
   "ticker": "SPRY",
   "drug_name": "neffy\u00ae (epinephrine nasal spray)",
@@ -19405,8 +19395,8 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "14.55",
-   "market_cap": 1403101568
+   "last_price": "14.63",
+   "market_cap": 1378433000
   },
   "ticker": "REPL",
   "drug_name": "RP2 + Opdivo ",
@@ -19479,7 +19469,7 @@
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
    "last_price": "9.18",
-   "market_cap": 267457312
+   "market_cap": 267457000
   },
   "ticker": "RNAC",
   "drug_name": "Descartes-08",
@@ -19513,7 +19503,7 @@
    "ticker": "PMN",
    "name": "ProMIS Neurosciences",
    "last_price": "14.66",
-   "market_cap": 133259912
+   "market_cap": 131466000
   },
   "ticker": "PMN",
   "drug_name": "PMN310",
@@ -19552,7 +19542,7 @@
    "ticker": "COYA",
    "name": "Coya Therapeutics",
    "last_price": "4.67",
-   "market_cap": 109548000
+   "market_cap": 109548152
   },
   "ticker": "COYA",
   "drug_name": "COYA 302",
@@ -19586,7 +19576,7 @@
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
    "last_price": "2.34",
-   "market_cap": 1032297728
+   "market_cap": 1041196864
   },
   "ticker": "LXRX",
   "drug_name": "ZYNQUISTA\u2122 (sotagliflozin)",
@@ -19620,7 +19610,7 @@
    "ticker": "BMEA",
    "name": "Biomea Fusion",
    "last_price": "1.35",
-   "market_cap": 95435000
+   "market_cap": 97604248
   },
   "ticker": "BMEA",
   "drug_name": "BMF-219 (icovamenib) + GLP-1-based therapy",
@@ -19659,7 +19649,7 @@
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
    "last_price": "2.34",
-   "market_cap": 1032297728
+   "market_cap": 1041196864
   },
   "ticker": "LXRX",
   "drug_name": "LX9851",
@@ -19697,8 +19687,8 @@
   "company": {
    "ticker": "SLDB",
    "name": "Solid Biosciences",
-   "last_price": "9.20",
-   "market_cap": 986472192
+   "last_price": "9.10",
+   "market_cap": 975750000
   },
   "ticker": "SLDB",
   "drug_name": "SGT-212 (dual route)",
@@ -19732,7 +19722,7 @@
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
    "last_price": "2.28",
-   "market_cap": 606851000
+   "market_cap": 606850624
   },
   "ticker": "AUTL",
   "drug_name": "Obecabtagene Autoleucel (Obe-Cel)",
@@ -19765,8 +19755,8 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "112.32",
-   "market_cap": 7351925248
+   "last_price": "112.66",
+   "market_cap": 7459185000
   },
   "ticker": "ORKA",
   "drug_name": "ORKA-002",
@@ -19800,7 +19790,7 @@
    "ticker": "ATYR",
    "name": "aTyr Pharma, Inc",
    "last_price": "0.52",
-   "market_cap": 50898000
+   "market_cap": 50897564
   },
   "ticker": "ATYR",
   "drug_name": "Efzofitimod",
@@ -19834,7 +19824,7 @@
    "ticker": "KZIA",
    "name": "Kazia Therapeutics ",
    "last_price": "13.56",
-   "market_cap": 154491680
+   "market_cap": 154948752
   },
   "ticker": "KZIA",
   "drug_name": "Paxalisib (GDC-0084)",
@@ -19868,7 +19858,7 @@
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
    "last_price": "26.90",
-   "market_cap": 3154069248
+   "market_cap": 3215550000
   },
   "ticker": "NAMS",
   "drug_name": "Obicetrapib",
@@ -19902,7 +19892,7 @@
    "ticker": "CBIO",
    "name": "Crescent Biopharma Inc",
    "last_price": "17.48",
-   "market_cap": 649276000
+   "market_cap": 649276032
   },
   "ticker": "CBIO",
   "drug_name": "CR-001",
@@ -19935,8 +19925,8 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "112.32",
-   "market_cap": 7351925248
+   "last_price": "112.66",
+   "market_cap": 7459185000
   },
   "ticker": "ORKA",
   "drug_name": "ORKA-002 (IL-17A/F Antibody)",
@@ -19970,7 +19960,7 @@
    "ticker": "CBIO",
    "name": "Crescent Biopharma Inc",
    "last_price": "17.48",
-   "market_cap": 649276000
+   "market_cap": 649276032
   },
   "ticker": "CBIO",
   "drug_name": "CR-003 (Topoisomerase Inhibitor ADC)",
@@ -20037,8 +20027,8 @@
   "company": {
    "ticker": "SEPN",
    "name": "Septerna",
-   "last_price": "44.50",
-   "market_cap": 2077124224
+   "last_price": "44.20",
+   "market_cap": 2063121000
   },
   "ticker": "SEPN",
   "drug_name": "SEP-479 (PTH1R Agonist)",
@@ -20072,7 +20062,7 @@
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
    "last_price": "34.12",
-   "market_cap": 34620824
+   "market_cap": 34702200
   },
   "ticker": "QNCX",
   "drug_name": "Rapamycin/Sirolimus (LAM-001) (mTOR Inhibitor)",
@@ -20106,7 +20096,7 @@
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
    "last_price": "34.12",
-   "market_cap": 34620824
+   "market_cap": 34702200
   },
   "ticker": "QNCX",
   "drug_name": "Sirolimus/Rapamycin (LAM-001) (mTOR Inhibitor)",
@@ -20209,7 +20199,7 @@
    "ticker": "TAK",
    "name": "Takeda",
    "last_price": "17.38",
-   "market_cap": 56301453312
+   "market_cap": 55503077000
   },
   "ticker": "TAK",
   "drug_name": "Entyvio/Vedolizumab (Vedolizumab) (Integrin Inhibitor)",
@@ -20243,7 +20233,7 @@
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
    "last_price": "38.14",
-   "market_cap": 2219971328
+   "market_cap": 2221135872
   },
   "ticker": "HRMY",
   "drug_name": "WAKIX/Pitolisant GR (H3 Antagonist)",
@@ -20277,7 +20267,7 @@
    "ticker": "INBX",
    "name": "Inhibrx Inc.",
    "last_price": "92.01",
-   "market_cap": 1300599680
+   "market_cap": 1354171904
   },
   "ticker": "INBX",
   "drug_name": "Ozekibart (INBRX-109) (DR5 agonist)",
@@ -20316,46 +20306,12 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 16193,
-  "company": {
-   "ticker": "PHVS",
-   "name": "Pharvaris B.V. ",
-   "last_price": "35.20",
-   "market_cap": 2455573504
-  },
-  "ticker": "PHVS",
-  "drug_name": "Deucrictibant immediate-release capsules (PHVS416)",
-  "indications": [
-   {
-    "id": 978,
-    "title": "Hereditary angioedema ",
-    "nickname": "HAE"
-   }
-  ],
-  "indications_text": "Hereditary angioedema ",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "RAPIDe-1/2/3 studies. 3/18/24- RAPIDe-3 trial initiated. 4/7/25- Target enrollment achieved. 7/10/25- NDA submission in H1 2026. 12/3/25\u2013 Met all study endpoints. 01/12/26:- NDA filing H1 2026; RAPIDe-3 Phase 3 results to be presented at AAAAI 2026. 02/10/26:- RAPIDe-3 Phase 3 results to be presented as featured poster at AAAAI 2026. 03/02/26:- RAPIDe-3 (NCT06343779) met all endpoints; median relief 1.28h, complete resolution 11.95h. NDA filing H1 2026. 04/02/26:- NDA submission for deucrictibant IR on-demand HAE remains on-track H1 2026. RAPIDe-3 data presented at AAAAI 2026. 04/20/26:- CIIC 2026 analyses support IR+XR combined dosing safety margins. Marketing applications for IR on-demand HAE in preparation. 05/29/26:- EAACI June 12 oral and June 13 poster RAPIDe-3 results. Marketing authorization applications in preparation. 06/15/26:- EAACI 2026 detailed RAPIDe-3 EoP endpoint and patient voices. NDA submission still expected H1 2026. 07/06/26:- FDA accepted deucrictibant IR NDA; PDUFA action date set for April 23, 2027.",
-  "catalyst_date": "2027-04-23",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/06/3322293/0/en/pharvaris-announces-fda-acceptance-of-new-drug-application-for-deucrictibant-ir-for-on-demand-treatment-of-hereditary-angioedema-attacks.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 19555,
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
    "last_price": "27.40",
-   "market_cap": 3112027000
+   "market_cap": 3112027136
   },
   "ticker": "IMNM",
   "drug_name": "Varegacestat (Gamma Secretase Inhibitor)",
@@ -20389,7 +20345,7 @@
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
    "last_price": "216.27",
-   "market_cap": 11192208000
+   "market_cap": 11328399360
   },
   "ticker": "AXSM",
   "drug_name": "AXS-12 (reboxetine) (NE reuptake inhibitor) ",
@@ -20423,7 +20379,7 @@
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
    "last_price": "79.89",
-   "market_cap": 15617494000
+   "market_cap": 15617494016
   },
   "ticker": "BBIO",
   "drug_name": "Encaleret ",
@@ -20457,7 +20413,7 @@
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
    "last_price": "64.63",
-   "market_cap": 132020642000
+   "market_cap": 132020641792
   },
   "ticker": "BMY",
   "drug_name": "Mezigdomide (CELMoD Modulator)",
@@ -20491,7 +20447,7 @@
    "ticker": "NBTX",
    "name": "Nanobiotix ",
    "last_price": "42.05",
-   "market_cap": 1946284544
+   "market_cap": 2136290000
   },
   "ticker": "NBTX",
   "drug_name": "NBTXR3 +/- Cetuximab",
@@ -20530,7 +20486,7 @@
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
    "last_price": "3.11",
-   "market_cap": 1694616576
+   "market_cap": 1667803000
   },
   "ticker": "RXRX",
   "drug_name": "REC-4881",
@@ -20641,8 +20597,8 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "62.35",
-   "market_cap": 6027097088
+   "last_price": "62.36",
+   "market_cap": 6027097000
   },
   "ticker": "XENE",
   "drug_name": "XEN1101",
@@ -20724,8 +20680,8 @@
   "company": {
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
-   "last_price": "69.20",
-   "market_cap": 3036703232
+   "last_price": "70.62",
+   "market_cap": 3098798000
   },
   "ticker": "TARS",
   "drug_name": "TP-05",
@@ -20758,8 +20714,8 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "23.03",
-   "market_cap": 1362507776
+   "last_price": "23.01",
+   "market_cap": 1361324000
   },
   "ticker": "VOR",
   "drug_name": "Trem-cel (VOR33) + Mylotarg (VBP101)",
@@ -20798,7 +20754,7 @@
    "ticker": "CRIS",
    "name": "Curis",
    "last_price": "1.80",
-   "market_cap": 4365100
+   "market_cap": 4365140
   },
   "ticker": "CRIS",
   "drug_name": "CA-4948 (emavusertib)+/- ibrutinib",
@@ -20842,7 +20798,7 @@
    "ticker": "PROK",
    "name": "ProKidney",
    "last_price": "1.40",
-   "market_cap": 530912832
+   "market_cap": 558856000
   },
   "ticker": "PROK",
   "drug_name": "Rilparencel (REACT\u00ae)",
@@ -20881,7 +20837,7 @@
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
    "last_price": "14.55",
-   "market_cap": 803527000
+   "market_cap": 803527040
   },
   "ticker": "FDMT",
   "drug_name": "4D-150",
@@ -20914,8 +20870,8 @@
   "company": {
    "ticker": "MGTX",
    "name": "MeiraGTx",
-   "last_price": "13.61",
-   "market_cap": 1298501248
+   "last_price": "13.77",
+   "market_cap": 1322512000
   },
   "ticker": "MGTX",
   "drug_name": "AAV2-hAQP1",
@@ -20949,7 +20905,7 @@
    "ticker": "JANX",
    "name": "Janux Therapeutics",
    "last_price": "16.26",
-   "market_cap": 985524800
+   "market_cap": 994083904
   },
   "ticker": "JANX",
   "drug_name": "JANX007 (PSMA-TRACTr)",
@@ -20993,7 +20949,7 @@
    "ticker": "PRTA",
    "name": "Prothena Corporation",
    "last_price": "8.88",
-   "market_cap": 454845600
+   "market_cap": 455872000
   },
   "ticker": "PRTA",
   "drug_name": "BMS-986446 (PRX005)",
@@ -21027,7 +20983,7 @@
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
    "last_price": "16.35",
-   "market_cap": 1401707136
+   "market_cap": 1391494400
   },
   "ticker": "MLTX",
   "drug_name": "Sonelokimab ",
@@ -21061,7 +21017,7 @@
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
    "last_price": "26.13",
-   "market_cap": 2611619072
+   "market_cap": 2576127000
   },
   "ticker": "RARE",
   "drug_name": "DTX301 ",
@@ -21094,8 +21050,8 @@
   "company": {
    "ticker": "STOK",
    "name": "Stoke Therapeutics",
-   "last_price": "31.27",
-   "market_cap": 2017735552
+   "last_price": "32.13",
+   "market_cap": 2073228000
   },
   "ticker": "STOK",
   "drug_name": "STK-002",
@@ -21134,7 +21090,7 @@
    "ticker": "KROS",
    "name": "Keros Therapeutics",
    "last_price": "10.48",
-   "market_cap": 200254608
+   "market_cap": 207788928
   },
   "ticker": "KROS",
   "drug_name": "KER-065",
@@ -21173,7 +21129,7 @@
    "ticker": "QURE",
    "name": "Uniqure NV",
    "last_price": "47.97",
-   "market_cap": 3372594944
+   "market_cap": 3327507000
   },
   "ticker": "QURE",
   "drug_name": "AMT-260",
@@ -21211,8 +21167,8 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "23.03",
-   "market_cap": 1362507776
+   "last_price": "23.01",
+   "market_cap": 1361324000
   },
   "ticker": "VOR",
   "drug_name": "VCAR33 (ALLO)",
@@ -21246,7 +21202,7 @@
    "ticker": "ENLV",
    "name": "Enlivex Therapeutics",
    "last_price": "1.58",
-   "market_cap": 27627000
+   "market_cap": 27627030
   },
   "ticker": "ENLV",
   "drug_name": "Allocetra (Immunotherapy)",
@@ -21285,7 +21241,7 @@
    "ticker": "ZNTL",
    "name": "Zentalis Pharmaceuticals",
    "last_price": "3.71",
-   "market_cap": 255152000
+   "market_cap": 350759000
   },
   "ticker": "ZNTL",
   "drug_name": "Azenosertib (ZN-c3) (oral inhibitor of WEE1) mono",
@@ -21329,7 +21285,7 @@
    "ticker": "CTMX",
    "name": "CytomX Therapeutics",
    "last_price": "3.45",
-   "market_cap": 732142000
+   "market_cap": 751752512
   },
   "ticker": "CTMX",
   "drug_name": "CX-801 +/- KEYTRUDA",
@@ -21373,7 +21329,7 @@
    "ticker": "KRYS",
    "name": "Krystal Biotech",
    "last_price": "335.73",
-   "market_cap": 9834805248
+   "market_cap": 9937217536
   },
   "ticker": "KRYS",
   "drug_name": "Inhaled KB707",
@@ -21416,8 +21372,8 @@
   "company": {
    "ticker": "XLO",
    "name": "Xilio Therapeutics",
-   "last_price": "9.17",
-   "market_cap": 60340004
+   "last_price": "9.49",
+   "market_cap": 62446000
   },
   "ticker": "XLO",
   "drug_name": "Efarindodekin Alfa (XTX301)",
@@ -21451,7 +21407,7 @@
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
    "last_price": "38.14",
-   "market_cap": 2219971328
+   "market_cap": 2221135872
   },
   "ticker": "HRMY",
   "drug_name": "EPX-100 (clemizole hydrochloride)",
@@ -21519,7 +21475,7 @@
    "ticker": "PCVX",
    "name": "Vaxcyte",
    "last_price": "60.22",
-   "market_cap": 8641122304
+   "market_cap": 8961054000
   },
   "ticker": "PCVX",
   "drug_name": "VAX-31 (PCV Infant)",
@@ -21553,7 +21509,7 @@
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
    "last_price": "24.35",
-   "market_cap": 3892284000
+   "market_cap": 3892284416
   },
   "ticker": "DNLI",
   "drug_name": "BIIB122 (DNL151)",
@@ -21587,7 +21543,7 @@
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
    "last_price": "3.11",
-   "market_cap": 1694616576
+   "market_cap": 1667803000
   },
   "ticker": "RXRX",
   "drug_name": "REC-617",
@@ -21626,7 +21582,7 @@
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
    "last_price": "9.18",
-   "market_cap": 267457312
+   "market_cap": 267457000
   },
   "ticker": "RNAC",
   "drug_name": "Descartes-08",
@@ -21675,7 +21631,7 @@
    "ticker": "MGNX",
    "name": "MacroGenics",
    "last_price": "4.06",
-   "market_cap": 268584896
+   "market_cap": 258622752
   },
   "ticker": "MGNX",
   "drug_name": "Lorigerlimab monotherapy",
@@ -21713,8 +21669,8 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "23.03",
-   "market_cap": 1362507776
+   "last_price": "23.01",
+   "market_cap": 1361324000
   },
   "ticker": "VOR",
   "drug_name": "Trem-cel (VOR33) + VCAR33",
@@ -21748,7 +21704,7 @@
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
    "last_price": "3.11",
-   "market_cap": 1694616576
+   "market_cap": 1667803000
   },
   "ticker": "RXRX",
   "drug_name": "REC-3565",
@@ -21781,8 +21737,8 @@
   "company": {
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
-   "last_price": "69.20",
-   "market_cap": 3036703232
+   "last_price": "70.62",
+   "market_cap": 3098798000
   },
   "ticker": "TARS",
   "drug_name": "TP-04",
@@ -21815,8 +21771,8 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.38",
-   "market_cap": 3707792640
+   "last_price": "29.56",
+   "market_cap": 3763974000
   },
   "ticker": "RCUS",
   "drug_name": "Quemliclustat + Gemcitabine/Nab-Paclitaxel v.s. Gemcitabine/Nab-Paclitaxel",
@@ -21855,7 +21811,7 @@
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
    "last_price": "5.26",
-   "market_cap": 315615232
+   "market_cap": 318034000
   },
   "ticker": "VNDA",
   "drug_name": "Bysanti\u2122 (milsaperidone)",
@@ -21894,7 +21850,7 @@
    "ticker": "ERAS",
    "name": "Erasca ",
    "last_price": "18.28",
-   "market_cap": 6393651000
+   "market_cap": 6393650688
   },
   "ticker": "ERAS",
   "drug_name": "ERAS-0015",
@@ -21927,8 +21883,8 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "20.48",
-   "market_cap": 339582368
+   "last_price": "22.28",
+   "market_cap": 369429000
   },
   "ticker": "STRO",
   "drug_name": "STRO-004",
@@ -21961,8 +21917,8 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "23.03",
-   "market_cap": 1362507776
+   "last_price": "23.01",
+   "market_cap": 1361324000
   },
   "ticker": "VOR",
   "drug_name": "Telitacicept",
@@ -21996,7 +21952,7 @@
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
    "last_price": "38.14",
-   "market_cap": 2219971328
+   "market_cap": 2221135872
   },
   "ticker": "HRMY",
   "drug_name": "EPX-100 (clemizole hydrochloride)",
@@ -22030,7 +21986,7 @@
    "ticker": "KLRS",
    "name": "Kalaris Therapeutics",
    "last_price": "3.96",
-   "market_cap": 97124320
+   "market_cap": 94267720
   },
   "ticker": "KLRS",
   "drug_name": "TH103",
@@ -22063,8 +22019,8 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "23.03",
-   "market_cap": 1362507776
+   "last_price": "23.01",
+   "market_cap": 1361324000
   },
   "ticker": "VOR",
   "drug_name": "Telitacicept",
@@ -22098,7 +22054,7 @@
    "ticker": "BMEA",
    "name": "Biomea Fusion",
    "last_price": "1.35",
-   "market_cap": 95435000
+   "market_cap": 97604248
   },
   "ticker": "BMEA",
   "drug_name": "Icovamenib + GLP-1 based therapy",
@@ -22131,8 +22087,8 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "23.03",
-   "market_cap": 1362507776
+   "last_price": "23.01",
+   "market_cap": 1361324000
   },
   "ticker": "VOR",
   "drug_name": "Telitacicept",
@@ -22165,8 +22121,8 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "4.46",
-   "market_cap": 254260176
+   "last_price": "4.64",
+   "market_cap": 264522000
   },
   "ticker": "WHWK",
   "drug_name": "HWK-007",
@@ -22209,8 +22165,8 @@
   "company": {
    "ticker": "OPK",
    "name": "OPKO Health",
-   "last_price": "1.34",
-   "market_cap": 1029932992
+   "last_price": "1.36",
+   "market_cap": 1015006000
   },
   "ticker": "OPK",
   "drug_name": "MDX2004",
@@ -22244,7 +22200,7 @@
    "ticker": "JUNS",
    "name": "Jupiter Neurosciences",
    "last_price": "5.18",
-   "market_cap": 4035224
+   "market_cap": 3989019
   },
   "ticker": "JUNS",
   "drug_name": "JOTROL (Resveratrol)",
@@ -22278,7 +22234,7 @@
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
    "last_price": "9.18",
-   "market_cap": 267457312
+   "market_cap": 267457000
   },
   "ticker": "RNAC",
   "drug_name": "Descartes-08",
@@ -22312,7 +22268,7 @@
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
    "last_price": "9.20",
-   "market_cap": 593595000
+   "market_cap": 593595008
   },
   "ticker": "ARVN",
   "drug_name": "ARV-027 (PolyQ-AR Degrader)",
@@ -22345,8 +22301,8 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "4.46",
-   "market_cap": 254260176
+   "last_price": "4.64",
+   "market_cap": 264522000
   },
   "ticker": "WHWK",
   "drug_name": "HWK-016 (MUC16 Targeted ADC)",
@@ -22384,8 +22340,8 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "23.34",
-   "market_cap": 1735408384
+   "last_price": "23.12",
+   "market_cap": 1719051000
   },
   "ticker": "XNCR",
   "drug_name": "XmAb412 (TL1A/IL23p19 Bispecific)",
@@ -22419,7 +22375,7 @@
    "ticker": "ZURA",
    "name": "Zura Bio",
    "last_price": "5.68",
-   "market_cap": 533768288
+   "market_cap": 533768000
   },
   "ticker": "ZURA",
   "drug_name": "Tibulizumab (ZB-106) (Bispecific Antibody)",
@@ -22492,7 +22448,7 @@
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
    "last_price": "24.35",
-   "market_cap": 3892284000
+   "market_cap": 3892284416
   },
   "ticker": "DNLI",
   "drug_name": "DNL628 (Tau-Targeting Oligonucleotide)",
@@ -22526,7 +22482,7 @@
    "ticker": "MANE",
    "name": "Veradermics",
    "last_price": "108.22",
-   "market_cap": 4709039104
+   "market_cap": 4521446400
   },
   "ticker": "MANE",
   "drug_name": "Minoxidil (VDPHL01) (Potassium Channel Opener)",
@@ -22560,7 +22516,7 @@
    "ticker": "FATE",
    "name": "Fate Therapeutics",
    "last_price": "2.62",
-   "market_cap": 305385000
+   "market_cap": 305385056
   },
   "ticker": "FATE",
   "drug_name": "FT836 (CAR T Cell)",
@@ -22599,7 +22555,7 @@
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
    "last_price": "24.40",
-   "market_cap": 1296509952
+   "market_cap": 1306145000
   },
   "ticker": "SPTX",
   "drug_name": "GlyphAllo/Glyph Allopregnanolone (SPT-300) (Neuroactive Steroid)",
@@ -22633,7 +22589,7 @@
    "ticker": "KARD",
    "name": "Kardigan\u2122",
    "last_price": "20.55",
-   "market_cap": 1888774784
+   "market_cap": 1921500928
   },
   "ticker": "KARD",
   "drug_name": "Ataciguat",
@@ -22667,7 +22623,7 @@
    "ticker": "KARD",
    "name": "Kardigan\u2122",
    "last_price": "20.55",
-   "market_cap": 1888774784
+   "market_cap": 1921500928
   },
   "ticker": "KARD",
   "drug_name": "Tonlamarsen",
@@ -22701,7 +22657,7 @@
    "ticker": "KARD",
    "name": "Kardigan\u2122",
    "last_price": "20.55",
-   "market_cap": 1888774784
+   "market_cap": 1921500928
   },
   "ticker": "KARD",
   "drug_name": "Danicamtiv",
@@ -22735,7 +22691,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "25.64",
-   "market_cap": 2907695104
+   "market_cap": 2907695000
   },
   "ticker": "ZLAB",
   "drug_name": "ZL-6201 (LRRC15 ADC)",
@@ -22769,7 +22725,7 @@
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
    "last_price": "7.10",
-   "market_cap": 3161740544
+   "market_cap": 3216097024
   },
   "ticker": "IOVA",
   "drug_name": "Amtagvi/Lifileucel (LN-144) (TIL Therapy)",
@@ -22803,7 +22759,7 @@
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
    "last_price": "7.10",
-   "market_cap": 3161740544
+   "market_cap": 3216097024
   },
   "ticker": "IOVA",
   "drug_name": "Amtagvi/Lifileucel (LN-144) (TIL Therapy)",
@@ -22842,7 +22798,7 @@
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
    "last_price": "88.70",
-   "market_cap": 12494018000
+   "market_cap": 12529270784
   },
   "ticker": "ARWR",
   "drug_name": "Zodasiran (ARO-ANG3)",
@@ -22880,8 +22836,8 @@
   "company": {
    "ticker": "VRCA",
    "name": "Verrica Pharmaceuticals",
-   "last_price": "4.93",
-   "market_cap": 85378576
+   "last_price": "4.89",
+   "market_cap": 84004000
   },
   "ticker": "VRCA",
   "drug_name": "YCANTH (VP-102)",
@@ -22920,7 +22876,7 @@
    "ticker": "MESO",
    "name": "Mesoblast",
    "last_price": "17.02",
-   "market_cap": 2022610560
+   "market_cap": 2207427584
   },
   "ticker": "MESO",
   "drug_name": "Rexlemestrocel",
@@ -22954,7 +22910,7 @@
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
    "last_price": "38.14",
-   "market_cap": 2219971328
+   "market_cap": 2221135872
   },
   "ticker": "HRMY",
   "drug_name": "WAKIX\u00ae (pitolisant)",
@@ -23003,7 +22959,7 @@
    "ticker": "CABA",
    "name": "Cabaletta Bio",
    "last_price": "2.89",
-   "market_cap": 489986000
+   "market_cap": 489986336
   },
   "ticker": "CABA",
   "drug_name": "Rese-cel (formerly CABA-201)",
@@ -23052,7 +23008,7 @@
    "ticker": "TNXP",
    "name": "Tonix Pharmaceuticals",
    "last_price": "12.66",
-   "market_cap": 217989520
+   "market_cap": 217132000
   },
   "ticker": "TNXP",
   "drug_name": "TNX-102 SL ",
@@ -23169,7 +23125,7 @@
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
    "last_price": "24.94",
-   "market_cap": 1650353000
+   "market_cap": 1650353024
   },
   "ticker": "BCAX",
   "drug_name": "Ficerafusp alfa + Pembrolizumab",
@@ -23276,7 +23232,7 @@
    "ticker": "BIIB",
    "name": "Biogen",
    "last_price": "209.15",
-   "market_cap": 30902749000
+   "market_cap": 30902749184
   },
   "ticker": "BIIB",
   "drug_name": "Zorevunersen",
@@ -23349,7 +23305,7 @@
    "ticker": "CALC",
    "name": "CalciMedica",
    "last_price": "0.66",
-   "market_cap": 20362900
+   "market_cap": 20362866
   },
   "ticker": "CALC",
   "drug_name": "Auxora/Zegocractin (Zegocractin) (CRAC Channel Inhibitor)",
@@ -23416,8 +23372,8 @@
   "company": {
    "ticker": "TOVX",
    "name": "Theriva Biologics",
-   "last_price": "0.23",
-   "market_cap": 10463528
+   "last_price": "0.24",
+   "market_cap": 10904100
   },
   "ticker": "TOVX",
   "drug_name": "VCN-01 (zabilugene almadenorepvec) (Oncolytic Adenovirus)",
@@ -23451,7 +23407,7 @@
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
    "last_price": "9.94",
-   "market_cap": 2488912000
+   "market_cap": 2540018944
   },
   "ticker": "BCRX",
   "drug_name": "Navenibart (Plasma Kallikrein Inhibitor)",
@@ -23484,8 +23440,8 @@
   "company": {
    "ticker": "NERV",
    "name": "Minerva Neurosciences",
-   "last_price": "4.58",
-   "market_cap": 218683824
+   "last_price": "4.42",
+   "market_cap": 211044000
   },
   "ticker": "NERV",
   "drug_name": "Roluperidone (5-HT2A antagonist)",
@@ -23529,7 +23485,7 @@
    "ticker": "DARE",
    "name": "Dar\u00e9 Bioscience, Inc.",
    "last_price": "0.81",
-   "market_cap": 13930900
+   "market_cap": 15697777
   },
   "ticker": "DARE",
   "drug_name": "Ovaprene\u00ae",
@@ -23563,7 +23519,7 @@
    "ticker": "TVTX",
    "name": "Travere Therapeutics",
    "last_price": "63.53",
-   "market_cap": 5857383424
+   "market_cap": 5988406000
   },
   "ticker": "TVTX",
   "drug_name": "Pegtibatinase (TVT-058)",
@@ -23596,7 +23552,7 @@
   "company": {
    "ticker": "VXRT",
    "name": "Vaxart Inc.",
-   "last_price": "0.54",
+   "last_price": "0.49",
    "market_cap": 130704216
   },
   "ticker": "VXRT",
@@ -23631,7 +23587,7 @@
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
    "last_price": "33.63",
-   "market_cap": 3871710720
+   "market_cap": 3923038000
   },
   "ticker": "VKTX",
   "drug_name": "VK2735 (Injectable) ",
@@ -23670,7 +23626,7 @@
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
    "last_price": "38.14",
-   "market_cap": 2219971328
+   "market_cap": 2221135872
   },
   "ticker": "HRMY",
   "drug_name": "WAKIX\u00ae (pitolisant)",
@@ -23704,7 +23660,7 @@
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
    "last_price": "24.35",
-   "market_cap": 3892284000
+   "market_cap": 3892284416
   },
   "ticker": "DNLI",
   "drug_name": "TAK-594/DNL593 (PTV:PGRN)",
@@ -23737,8 +23693,8 @@
   "company": {
    "ticker": "PLX",
    "name": "Protalix Biotherapeutics",
-   "last_price": "2.30",
-   "market_cap": 178869040
+   "last_price": "2.29",
+   "market_cap": 184509000
   },
   "ticker": "PLX",
   "drug_name": "PRX-115",
@@ -23772,7 +23728,7 @@
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
    "last_price": "7.68",
-   "market_cap": 795426000
+   "market_cap": 794391680
   },
   "ticker": "AURA",
   "drug_name": "Belzupacap Sarotalocan (Bel-sar)",
@@ -23811,7 +23767,7 @@
    "ticker": "CGTX",
    "name": "Cognition Therapeutics",
    "last_price": "1.02",
-   "market_cap": 96045000
+   "market_cap": 96995616
   },
   "ticker": "CGTX",
   "drug_name": "Zervimesine (CT1812) ",
@@ -23845,7 +23801,7 @@
    "ticker": "PLRX",
    "name": "Pliant Therapeutics ",
    "last_price": "1.10",
-   "market_cap": 66256432
+   "market_cap": 68114000
   },
   "ticker": "PLRX",
   "drug_name": "PLN-101095",
@@ -23918,7 +23874,7 @@
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
    "last_price": "216.27",
-   "market_cap": 11192208000
+   "market_cap": 11328399360
   },
   "ticker": "AXSM",
   "drug_name": "Solriamfetol",
@@ -23952,7 +23908,7 @@
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
    "last_price": "376.38",
-   "market_cap": 10226212864
+   "market_cap": 10508526000
   },
   "ticker": "PRAX",
   "drug_name": "Elsunersen (PRAX-222)",
@@ -23985,8 +23941,8 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "62.35",
-   "market_cap": 6027097088
+   "last_price": "62.36",
+   "market_cap": 6027097000
   },
   "ticker": "XENE",
   "drug_name": "XEN901/NBI-921352",
@@ -24025,7 +23981,7 @@
    "ticker": "KRYS",
    "name": "Krystal Biotech",
    "last_price": "335.73",
-   "market_cap": 9834805248
+   "market_cap": 9937217536
   },
   "ticker": "KRYS",
   "drug_name": "KB408",
@@ -24059,7 +24015,7 @@
    "ticker": "TVTX",
    "name": "Travere Therapeutics",
    "last_price": "63.53",
-   "market_cap": 5857383424
+   "market_cap": 5988406000
   },
   "ticker": "TVTX",
   "drug_name": "Sparsentan ",
@@ -24098,7 +24054,7 @@
    "ticker": "NGNE",
    "name": "Neurogene Inc",
    "last_price": "36.68",
-   "market_cap": 723211328
+   "market_cap": 734017000
   },
   "ticker": "NGNE",
   "drug_name": "NGN-401 ",
@@ -24137,7 +24093,7 @@
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
    "last_price": "4.87",
-   "market_cap": 419853000
+   "market_cap": 408307104
   },
   "ticker": "EYPT",
   "drug_name": "DURAVYU (EYP-1901)",
@@ -24171,7 +24127,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.60",
-   "market_cap": 9137446912
+   "market_cap": 9222975000
   },
   "ticker": "SYRE",
   "drug_name": "SPY001 (\u03b14\u03b27)",
@@ -24210,7 +24166,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.60",
-   "market_cap": 9137446912
+   "market_cap": 9222975000
   },
   "ticker": "SYRE",
   "drug_name": "SPY002 (SPY002-091) (TL1A)",
@@ -24249,7 +24205,7 @@
    "ticker": "DSGN",
    "name": "Design Therapeutics",
    "last_price": "15.10",
-   "market_cap": 944983000
+   "market_cap": 944982976
   },
   "ticker": "DSGN",
   "drug_name": "DT-168",
@@ -24287,8 +24243,8 @@
   "company": {
    "ticker": "LXEO",
    "name": "Lexeo Therapeutics",
-   "last_price": "4.85",
-   "market_cap": 397103904
+   "last_price": "4.98",
+   "market_cap": 408590368
   },
   "ticker": "LXEO",
   "drug_name": "LX2006",
@@ -24322,7 +24278,7 @@
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
    "last_price": "35.05",
-   "market_cap": 1761767552
+   "market_cap": 1805026432
   },
   "ticker": "IMCR",
   "drug_name": "IMC-R117C [PIWIL1-A02 targeted]",
@@ -24366,7 +24322,7 @@
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
    "last_price": "58.63",
-   "market_cap": 9512390656
+   "market_cap": 9743386624
   },
   "ticker": "IONS",
   "drug_name": "ION582",
@@ -24399,8 +24355,8 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "6.47",
-   "market_cap": 2183986432
+   "last_price": "6.48",
+   "market_cap": 2275279000
   },
   "ticker": "NUVB",
   "drug_name": "Safusidenib",
@@ -24439,7 +24395,7 @@
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
    "last_price": "45.26",
-   "market_cap": 6081447000
+   "market_cap": 6081447424
   },
   "ticker": "DFTX",
   "drug_name": "DT120 (formerly MM120; lysergide D-tartrate)",
@@ -24472,8 +24428,8 @@
   "company": {
    "ticker": "MDGL",
    "name": "Madrigal Pharmaceuticals",
-   "last_price": "515.57",
-   "market_cap": 11726730240
+   "last_price": "524.87",
+   "market_cap": 12126662656
   },
   "ticker": "MDGL",
   "drug_name": "Rezdiffra (Resmetirom) (MGL-3196)",
@@ -24512,7 +24468,7 @@
    "ticker": "IMVT",
    "name": "Immunovant",
    "last_price": "43.71",
-   "market_cap": 8638032896
+   "market_cap": 9028417536
   },
   "ticker": "IMVT",
   "drug_name": "IMVT-1402",
@@ -24546,7 +24502,7 @@
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
    "last_price": "3.11",
-   "market_cap": 1694616576
+   "market_cap": 1667803000
   },
   "ticker": "RXRX",
   "drug_name": "REC-4539",
@@ -24619,7 +24575,7 @@
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
    "last_price": "99.83",
-   "market_cap": 6137150976
+   "market_cap": 6087756288
   },
   "ticker": "MIRM",
   "drug_name": "MRM-3379",
@@ -24653,7 +24609,7 @@
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
    "last_price": "121.41",
-   "market_cap": 9656217600
+   "market_cap": 9986893824
   },
   "ticker": "KYMR",
   "drug_name": "KT-621",
@@ -24687,7 +24643,7 @@
    "ticker": "PHAR",
    "name": "Pharming Group",
    "last_price": "11.79",
-   "market_cap": 829519680
+   "market_cap": 829520000
   },
   "ticker": "PHAR",
   "drug_name": "KL1333",
@@ -24765,7 +24721,7 @@
    "ticker": "UPB",
    "name": "Upstream Bio",
    "last_price": "7.14",
-   "market_cap": 387231264
+   "market_cap": 391065000
   },
   "ticker": "UPB",
   "drug_name": "Verekitug",
@@ -24799,7 +24755,7 @@
    "ticker": "IMVT",
    "name": "Immunovant",
    "last_price": "43.71",
-   "market_cap": 8638032896
+   "market_cap": 9028417536
   },
   "ticker": "IMVT",
   "drug_name": "IMVT-1402",
@@ -24832,8 +24788,8 @@
   "company": {
    "ticker": "MOLN",
    "name": "Molecular Partners",
-   "last_price": "4.28",
-   "market_cap": 157922000
+   "last_price": "4.25",
+   "market_cap": 159422448
   },
   "ticker": "MOLN",
   "drug_name": "MP0317 + Durvalumab + SoC",
@@ -24867,7 +24823,7 @@
    "ticker": "PVLA",
    "name": "Palvella Therapeutics",
    "last_price": "153.52",
-   "market_cap": 2249584640
+   "market_cap": 2211979000
   },
   "ticker": "PVLA",
   "drug_name": "QTORIN Rapamycin ",
@@ -24901,7 +24857,7 @@
    "ticker": "JBIO",
    "name": "Jade Biosciences",
    "last_price": "23.45",
-   "market_cap": 1571491456
+   "market_cap": 1491358848
   },
   "ticker": "JBIO",
   "drug_name": "JADE201",
@@ -24953,10 +24909,10 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "10/20/25- Initiate Ph2b trial by mid-2026. Initiate Ph3 study by early 2027 following readiness work and alignment with FDA. 11/12/25:- On track for Ph2b TRD initiation in H1 2026 and Ph3 trial by early 2027. 03/16/26:- Ph2b TRD initiation still expected 1H 2026; topline Ph2b data planned 2H 2027. 04/21/26:- Ph2b TRD trial initiated; topline data expected in H2 2027. 05/04/26:- Ph2a MDD data positive. Ph2b TRD ongoing; titration adjusted; topline still expected H2 2027. 05/13/26:- Ph2b TRD trial ongoing; Ph3 TRD initiation expected early 2027; Ph2b topline still guided 2H 2027.",
+  "note": "10/20/25- Initiate Ph2b trial by mid-2026. Initiate Ph3 study by early 2027 following readiness work and alignment with FDA. 11/12/25:- On track for Ph2b TRD initiation in H1 2026 and Ph3 trial by early 2027. 03/16/26:- Ph2b TRD initiation still expected 1H 2026; topline Ph2b data planned 2H 2027. 04/21/26:- Ph2b TRD trial initiated; topline data expected in H2 2027. 05/04/26:- Ph2a MDD data positive. Ph2b TRD ongoing; titration adjusted; topline still expected H2 2027. 05/13/26:- Ph2b TRD trial ongoing; Ph3 TRD initiation expected early 2027; Ph2b topline still guided 2H 2027. 08/12/26:- PACE-3 Ph3 monotherapy trial added. PACE-2 Ph3 initiation is expected Early 2027; PACE-1 topline data and PACE-3 initiation are expected H2 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260513295402/en/Alto-Neuroscience-Reports-First-Quarter-2026-Financial-Results-and-Recent-Business-Highlights",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b61157377/alto-neuroscience-reports-second-quarter-2026-financial-results-and-recent-business-highlights",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -24968,8 +24924,8 @@
   "company": {
    "ticker": "SABS",
    "name": "SAb Biotherapeutics",
-   "last_price": "3.79",
-   "market_cap": 336649568
+   "last_price": "3.77",
+   "market_cap": 336650000
   },
   "ticker": "SABS",
   "drug_name": "SAB-142",
@@ -25003,7 +24959,7 @@
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
    "last_price": "2.28",
-   "market_cap": 606851000
+   "market_cap": 606850624
   },
   "ticker": "AUTL",
   "drug_name": "AUCATZYL/Obecabtagene Autoleucel (AUTO1) (CD19 CAR-T)",
@@ -25047,7 +25003,7 @@
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
    "last_price": "26.22",
-   "market_cap": 1509229824
+   "market_cap": 1559313000
   },
   "ticker": "TYRA",
   "drug_name": "Dabogratinib (TYRA-300) (FGFR3 Inhibitor)",
@@ -25086,7 +25042,7 @@
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
    "last_price": "72.67",
-   "market_cap": 2493121280
+   "market_cap": 2481171000
   },
   "ticker": "NKTR",
   "drug_name": "Rezpegaldesleukin (NKTR-358) (Treg Stimulator)",
@@ -25125,7 +25081,7 @@
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
    "last_price": "80.05",
-   "market_cap": 3026891776
+   "market_cap": 3073347328
   },
   "ticker": "IRON",
   "drug_name": "DISC-0974 (Hepcidin Suppression)",
@@ -25164,7 +25120,7 @@
    "ticker": "DSGN",
    "name": "Design Therapeutics",
    "last_price": "15.10",
-   "market_cap": 944983000
+   "market_cap": 944982976
   },
   "ticker": "DSGN",
   "drug_name": "DT-818 (GeneTAC Modulator)",
@@ -25198,7 +25154,7 @@
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
    "last_price": "117.17",
-   "market_cap": 12665890000
+   "market_cap": 12665889792
   },
   "ticker": "CORT",
   "drug_name": "Relacorilant + Nab-Paclitaxel (GR Antagonist)",
@@ -25232,7 +25188,7 @@
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
    "last_price": "117.17",
-   "market_cap": 12665890000
+   "market_cap": 12665889792
   },
   "ticker": "CORT",
   "drug_name": "Relacorilant + Nab-Paclitaxel & Bevacizumab (GR Antagonist)",
@@ -25266,7 +25222,7 @@
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
    "last_price": "117.17",
-   "market_cap": 12665890000
+   "market_cap": 12665889792
   },
   "ticker": "CORT",
   "drug_name": "Relacorilant + Nab-Paclitaxel & Gemcitabine (GR Antagonist)",
@@ -25300,7 +25256,7 @@
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
    "last_price": "117.17",
-   "market_cap": 12665890000
+   "market_cap": 12665889792
   },
   "ticker": "CORT",
   "drug_name": "Relacorilant + Nab-Paclitaxel (GR Antagonist)",
@@ -25334,7 +25290,7 @@
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
    "last_price": "117.17",
-   "market_cap": 12665890000
+   "market_cap": 12665889792
   },
   "ticker": "CORT",
   "drug_name": "Nenocorilant + Nivolumab (GR Antagonist)",
@@ -25368,7 +25324,7 @@
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
    "last_price": "38.14",
-   "market_cap": 2219971328
+   "market_cap": 2221135872
   },
   "ticker": "HRMY",
   "drug_name": "WAKIX/Pitolisant HD (H3 Antagonist)",
@@ -25558,7 +25514,7 @@
    "ticker": "BIIB",
    "name": "Biogen",
    "last_price": "209.15",
-   "market_cap": 30902749000
+   "market_cap": 30902749184
   },
   "ticker": "BIIB",
   "drug_name": "Litifilimab (BIIB059) (BDCA2 Antibody)",
@@ -25592,7 +25548,7 @@
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
    "last_price": "24.35",
-   "market_cap": 3892284000
+   "market_cap": 3892284416
   },
   "ticker": "DNLI",
   "drug_name": "DNL952 (Enzyme Replacement)",
@@ -25626,7 +25582,7 @@
    "ticker": "IBIO",
    "name": "iBio Inc.",
    "last_price": "1.45",
-   "market_cap": 71040336
+   "market_cap": 72033912
   },
   "ticker": "IBIO",
   "drug_name": "IBIO-600 (Myostatin Antibody)",
@@ -25704,7 +25660,7 @@
    "ticker": "DARE",
    "name": "Dar\u00e9 Bioscience, Inc.",
    "last_price": "0.81",
-   "market_cap": 13930900
+   "market_cap": 15697777
   },
   "ticker": "DARE",
   "drug_name": "DARE-HPV (Protease Inhibitor)",
@@ -25738,7 +25694,7 @@
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
    "last_price": "24.35",
-   "market_cap": 3892284000
+   "market_cap": 3892284416
   },
   "ticker": "DNLI",
   "drug_name": "DNL921 (Abeta TransportVehicle)",
@@ -25772,7 +25728,7 @@
    "ticker": "PCVX",
    "name": "Vaxcyte",
    "last_price": "60.22",
-   "market_cap": 8641122304
+   "market_cap": 8961054000
   },
   "ticker": "PCVX",
   "drug_name": "VAX-A1 (Protein Vaccine)",
@@ -25811,7 +25767,7 @@
    "ticker": "EVMN",
    "name": "Evommune",
    "last_price": "14.25",
-   "market_cap": 517163000
+   "market_cap": 517162592
   },
   "ticker": "EVMN",
   "drug_name": "EVO756 (MRGPRX2 Antagonist)",
@@ -25845,7 +25801,7 @@
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
    "last_price": "11.25",
-   "market_cap": 544939520
+   "market_cap": 521518720
   },
   "ticker": "MPLT",
   "drug_name": "ML-007C-MA (M1/M4 Agonist)",
@@ -25917,8 +25873,8 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "36.33",
-   "market_cap": 26148093952
+   "last_price": "36.24",
+   "market_cap": 26148094000
   },
   "ticker": "ROIV",
   "drug_name": "IMVT-1402 (FcRn Blocker)",
@@ -26019,10 +25975,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "05/07/26:- ELAINE-3 enrollment expected Q4 2026; topline data expected H2 2027. 08/12/26:- ELAINE-3 presented at Dava Oncology Summit Aug 19-20, 2026.",
+  "note": "05/07/26:- ELAINE-3 enrollment expected Q4 2026; topline data expected H2 2027. 08/12/26:- ELAINE-3 presented at Dava Oncology Summit Aug 19-20, 2026. 08/14/26:- ELAINE-3 enrolled 495 patients; enrollment will complete Q4 2026. Topline data will be available H2 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61136488/leonabio-highlight-lasofoxifene-er-positive-er-her2-negative-esr1-mutated-metastatic-breast-cancer-d",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61226646/leonabio-reports-second-quarter-2026-financial-results-and-provides-business-update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -26073,8 +26029,8 @@
   "company": {
    "ticker": "NBIX",
    "name": "Neurocrine Biosciences",
-   "last_price": "153.54",
-   "market_cap": 15523863552
+   "last_price": "154.49",
+   "market_cap": 15703783000
   },
   "ticker": "NBIX",
   "drug_name": "NBIP-2118 (CRF2 Peptide Agonist)",
@@ -26108,7 +26064,7 @@
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
    "last_price": "2.07",
-   "market_cap": 300631000
+   "market_cap": 305052224
   },
   "ticker": "IFRX",
   "drug_name": "Izicopan (C5aR Inhibitor)",
@@ -26141,8 +26097,8 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "47.42",
-   "market_cap": 2275130368
+   "last_price": "48.42",
+   "market_cap": 2323109000
   },
   "ticker": "RAPP",
   "drug_name": "RAP-219 Long-Acting Injectable (RAP-219) (TARP\u03b38 NAM)",
@@ -26176,7 +26132,7 @@
    "ticker": "IMA",
    "name": "ImageneBio",
    "last_price": "5.58",
-   "market_cap": 63468000
+   "market_cap": 63467644
   },
   "ticker": "IMA",
   "drug_name": "IMG-007 (OX40 Antagonist)",
@@ -26210,7 +26166,7 @@
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
    "last_price": "18.51",
-   "market_cap": 2324407040
+   "market_cap": 2398259456
   },
   "ticker": "KLRA",
   "drug_name": "KAI-7535 (GLP-1 Agonist)",
@@ -26244,7 +26200,7 @@
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
    "last_price": "18.51",
-   "market_cap": 2324407040
+   "market_cap": 2398259456
   },
   "ticker": "KLRA",
   "drug_name": "Ribupatide Injection (KAI-9531) (GLP-1/GIP Agonist)",
@@ -26278,7 +26234,7 @@
    "ticker": "IMTX",
    "name": "Immatics ",
    "last_price": "9.25",
-   "market_cap": 1290194688
+   "market_cap": 1264226816
   },
   "ticker": "IMTX",
   "drug_name": "IMA401/IMA402 (TCR Bispecific Combination)",
@@ -26322,7 +26278,7 @@
    "ticker": "AVLN",
    "name": "Avalyn Pharma",
    "last_price": "38.25",
-   "market_cap": 1695741000
+   "market_cap": 1695740928
   },
   "ticker": "AVLN",
   "drug_name": "Nintedanib (AP02) (Antifibrotic Therapy)",
@@ -26395,7 +26351,7 @@
    "ticker": "AVLN",
    "name": "Avalyn Pharma",
    "last_price": "38.25",
-   "market_cap": 1695741000
+   "market_cap": 1695740928
   },
   "ticker": "AVLN",
   "drug_name": "Pirfenidone (AP01) (Antifibrotic Therapy)",
@@ -26429,7 +26385,7 @@
    "ticker": "HCM",
    "name": "HUTCHMED (China) Limited",
    "last_price": "12.56",
-   "market_cap": 2120532864
+   "market_cap": 2183106048
   },
   "ticker": "HCM",
   "drug_name": "IMG-007 (OX40 Antagonist)",
@@ -26463,7 +26419,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.60",
-   "market_cap": 9137446912
+   "market_cap": 9222975000
   },
   "ticker": "SYRE",
   "drug_name": "SPY120 (Antibody Combination)",
@@ -26497,7 +26453,7 @@
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
    "last_price": "104.60",
-   "market_cap": 9137446912
+   "market_cap": 9222975000
   },
   "ticker": "SYRE",
   "drug_name": "SPY072 (SPY002-072) (TL1A Antibody)",
@@ -26531,7 +26487,7 @@
    "ticker": "IPSEY",
    "name": "Ipsen",
    "last_price": "45.10",
-   "market_cap": 14904748032
+   "market_cap": 14902944768
   },
   "ticker": "IPSEY",
   "drug_name": "Navtemadlin (MDM2 Inhibitor)",
@@ -26565,7 +26521,7 @@
    "ticker": "CLYM",
    "name": "Climb Bio",
    "last_price": "17.44",
-   "market_cap": 1001688000
+   "market_cap": 1001688320
   },
   "ticker": "CLYM",
   "drug_name": "Budoprutug (CD19 Antibody)",
@@ -26599,7 +26555,7 @@
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
    "last_price": "2.07",
-   "market_cap": 300631000
+   "market_cap": 305052224
   },
   "ticker": "IFRX",
   "drug_name": "Izicopan (C5aR Inhibitor)",
@@ -26633,7 +26589,7 @@
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
    "last_price": "2.07",
-   "market_cap": 300631000
+   "market_cap": 305052224
   },
   "ticker": "IFRX",
   "drug_name": "Izicopan (C5aR Inhibitor)",
@@ -26667,7 +26623,7 @@
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
    "last_price": "19.76",
-   "market_cap": 1771654272
+   "market_cap": 1771654000
   },
   "ticker": "SNDX",
   "drug_name": "Axatilimab (SNDX-6352) + Steroids",
@@ -26701,7 +26657,7 @@
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
    "last_price": "34.12",
-   "market_cap": 34620824
+   "market_cap": 34702200
   },
   "ticker": "QNCX",
   "drug_name": "Sirolimus/Rapamycin (LAM-001) (mTOR Inhibitor)",
@@ -26735,7 +26691,7 @@
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
    "last_price": "34.12",
-   "market_cap": 34620824
+   "market_cap": 34702200
   },
   "ticker": "QNCX",
   "drug_name": "Rapamycin/Sirolimus (LAM-001) (mTOR Inhibitor)",
@@ -26769,7 +26725,7 @@
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
    "last_price": "72.67",
-   "market_cap": 2493121280
+   "market_cap": 2481171000
   },
   "ticker": "NKTR",
   "drug_name": "Rezpegaldesleukin (NKTR-358)",
@@ -26808,7 +26764,7 @@
    "ticker": "DCTH",
    "name": "Delcath Systems Inc",
    "last_price": "17.05",
-   "market_cap": 591614000
+   "market_cap": 591614464
   },
   "ticker": "DCTH",
   "drug_name": "HEPZATO\u2122",
@@ -26842,7 +26798,7 @@
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
    "last_price": "5.22",
-   "market_cap": 337720000
+   "market_cap": 337720416
   },
   "ticker": "IMRX",
   "drug_name": "Atebimetinib (IMM-1-104) (MEK Inhibitor)",
@@ -26910,7 +26866,7 @@
    "ticker": "KURA",
    "name": "Kura Oncology ",
    "last_price": "11.28",
-   "market_cap": 966112256
+   "market_cap": 1003475712
   },
   "ticker": "KURA",
   "drug_name": "Ziftomenib + Induction Chemotherapy (7+3)",
@@ -26954,7 +26910,7 @@
    "ticker": "KURA",
    "name": "Kura Oncology ",
    "last_price": "11.28",
-   "market_cap": 966112256
+   "market_cap": 1003475712
   },
   "ticker": "KURA",
   "drug_name": "Ziftomenib + venetoclax + azacitidine",
@@ -26997,8 +26953,8 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "36.33",
-   "market_cap": 26148093952
+   "last_price": "36.24",
+   "market_cap": 26148094000
   },
   "ticker": "ROIV",
   "drug_name": "Brepocitinib ",
@@ -27032,7 +26988,7 @@
    "ticker": "IMVT",
    "name": "Immunovant",
    "last_price": "43.71",
-   "market_cap": 8638032896
+   "market_cap": 9028417536
   },
   "ticker": "IMVT",
   "drug_name": "IMVT-1402",
@@ -27066,7 +27022,7 @@
    "ticker": "BOLD",
    "name": "Boundless Bio Inc",
    "last_price": "2.83",
-   "market_cap": 64377000
+   "market_cap": 64376792
   },
   "ticker": "BOLD",
   "drug_name": "BBI-940",
@@ -27094,7 +27050,7 @@
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
    "last_price": "114.86",
-   "market_cap": 6424623000
+   "market_cap": 6424622592
   },
   "ticker": "DNTH",
   "drug_name": "Claseprubart (DNTH103)",
@@ -27206,7 +27162,7 @@
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
    "last_price": "2.28",
-   "market_cap": 606851000
+   "market_cap": 606850624
   },
   "ticker": "AUTL",
   "drug_name": "AUCATZYL/Obecabtagene Autoleucel (AUTO1) (CD19 CAR-T)",
@@ -27240,7 +27196,7 @@
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
    "last_price": "11.25",
-   "market_cap": 544939520
+   "market_cap": 521518720
   },
   "ticker": "MPLT",
   "drug_name": "ML-007C-MA (Undisclosed Mechanism)",
@@ -27274,7 +27230,7 @@
    "ticker": "IMVT",
    "name": "Immunovant",
    "last_price": "43.71",
-   "market_cap": 8638032896
+   "market_cap": 9028417536
   },
   "ticker": "IMVT",
   "drug_name": "IMVT-1402 (FcRn Inhibitor)",
@@ -27333,7 +27289,7 @@
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
    "last_price": "33.85",
-   "market_cap": 682468352
+   "market_cap": 661746000
   },
   "ticker": "TECX",
   "drug_name": "TX45",
@@ -27367,7 +27323,7 @@
    "ticker": "PRTA",
    "name": "Prothena Corporation",
    "last_price": "8.88",
-   "market_cap": 454845600
+   "market_cap": 455872000
   },
   "ticker": "PRTA",
   "drug_name": "Coramitug (PRX004)",
@@ -27439,8 +27395,8 @@
   "company": {
    "ticker": "VALN",
    "name": "Valneva SE",
-   "last_price": "7.05",
-   "market_cap": 728113024
+   "last_price": "7.06",
+   "market_cap": 669454000
   },
   "ticker": "VALN",
   "drug_name": "VLA15",
@@ -27478,8 +27434,8 @@
   "company": {
    "ticker": "OTLK",
    "name": "Outlook Therapeutics",
-   "last_price": "0.75",
-   "market_cap": 141444528
+   "last_price": "0.67",
+   "market_cap": 163124000
   },
   "ticker": "OTLK",
   "drug_name": "ONS-5010 / LYTENAVA\u2122 (bevacizumab-vikg)",
@@ -27518,7 +27474,7 @@
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
    "last_price": "24.35",
-   "market_cap": 3892284000
+   "market_cap": 3892284416
   },
   "ticker": "DNLI",
   "drug_name": "AVLAYAH\u2122 (tividenofusp alfa) (DNL310) ",
@@ -27552,7 +27508,7 @@
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
    "last_price": "117.17",
-   "market_cap": 12665890000
+   "market_cap": 12665889792
   },
   "ticker": "CORT",
   "drug_name": "Lifyorli (relacorilant) + Nab-paclitaxel",
@@ -27596,7 +27552,7 @@
    "ticker": "TBPH",
    "name": "Theravance Biopharma",
    "last_price": "16.92",
-   "market_cap": 881061184
+   "market_cap": 878465000
   },
   "ticker": "TBPH",
   "drug_name": "Ampreloxetine (TD-9855)",
@@ -27634,8 +27590,8 @@
   "company": {
    "ticker": "RCKT",
    "name": "Rocket Pharmaceuticals",
-   "last_price": "3.47",
-   "market_cap": 380917856
+   "last_price": "3.40",
+   "market_cap": 373234000
   },
   "ticker": "RCKT",
   "drug_name": "KRESLADI (Marnetegragene autotemcel) /RP-L201 ",
@@ -27674,7 +27630,7 @@
    "ticker": "IMMP",
    "name": "Immutep",
    "last_price": "0.39",
-   "market_cap": 56959000
+   "market_cap": 56959328
   },
   "ticker": "IMMP",
   "drug_name": "Eftilagimod alfa (efti) + Keytruda",
@@ -27712,8 +27668,8 @@
   "company": {
    "ticker": "OMER",
    "name": "Omeros Corporation",
-   "last_price": "17.21",
-   "market_cap": 1244132352
+   "last_price": "17.36",
+   "market_cap": 1256661000
   },
   "ticker": "OMER",
   "drug_name": "YARTEMLEA\u00ae (narsoplimab-wuug)",
@@ -27747,7 +27703,7 @@
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
    "last_price": "75.87",
-   "market_cap": 10547708000
+   "market_cap": 10547707904
   },
   "ticker": "CYTK",
   "drug_name": "Aficamten ",
@@ -27776,12 +27732,56 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 13916,
+  "company": {
+   "ticker": "MBRX",
+   "name": "Moleculin Biotech",
+   "last_price": "0.61",
+   "market_cap": 11822770
+  },
+  "ticker": "MBRX",
+  "drug_name": "Annamycin + Ara-C (Cytarabine)",
+  "indications": [
+   {
+    "id": 1282,
+    "title": "Acute myeloid leukemia",
+    "nickname": "AML, Cancer"
+   },
+   {
+    "id": 905,
+    "title": "Blood cancer",
+    "nickname": ""
+   },
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Acute myeloid leukemia (AML)",
+  "stage_event": {
+   "id": 152,
+   "label": "Phase 2/3 Data readout",
+   "stage_label": "Phase 2/3",
+   "event_label": "Data readout"
+  },
+  "note": "05/15/26:- 45 enrolled; 40% blinded CRc persists. June unblinding; 90-subject data Q3 2026; Part B H2 2026. 05/21/26:- ASCO poster May 30, 2026 shows pooled cardiac safety; no cardiotoxicity. 05/29/26:- MIRACLE Ph2b/3 unblinding of first 45 remains on track for June 2026. Cleveland Clinic review found no cardiotoxicity. 06/04/26:- 45th subject enrolled; interim 45-subject unblinding remains on track for Mid-2026. 06/30/26:- MIRACLE interim unblinded efficacy favored Annamycin+HiDAC vs control; iDMC recommended continue; Part A 67/90 enrolled. 07/31/26:- MIRACLE blinded CRc 37% (n=62); 90th treated Sep 2026; Part A unblinding Dec 2026\u2013Feb 2027. 08/14/26:- MIRACLE interim data showed higher remission rates and no cardiotoxicity. Part A enrollment will complete in September 2026; 90-subject unblinding will occur December 2026\u2013February 2027. Part B will begin in H1 2027.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g61206260/moleculin-biotech-reports-second-quarter-2026-financial-results-and-highlights-continued-advancement",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 13927,
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
    "last_price": "13.00",
-   "market_cap": 2580866048
+   "market_cap": 2625294000
   },
   "ticker": "SLS",
   "drug_name": "Galinpepimut-S",
@@ -27825,7 +27825,7 @@
    "ticker": "KMDA",
    "name": "Kamada",
    "last_price": "7.76",
-   "market_cap": 437322592
+   "market_cap": 447707552
   },
   "ticker": "KMDA",
   "drug_name": "Inhaled AAT",
@@ -27859,7 +27859,7 @@
    "ticker": "PTGX",
    "name": "Protagonist Therapeutics ",
    "last_price": "158.62",
-   "market_cap": 10036255744
+   "market_cap": 10264028000
   },
   "ticker": "PTGX",
   "drug_name": "Icotrokinra (JNJ-2113) (PN-235)",
@@ -27893,7 +27893,7 @@
    "ticker": "RGNX",
    "name": "Regenxbio",
    "last_price": "11.33",
-   "market_cap": 710632064
+   "market_cap": 710632000
   },
   "ticker": "RGNX",
   "drug_name": "Surabgene lomparvovec (sura-vec, ABBV-RGX-314) (Suprachoroidal Delivery)",
@@ -27937,7 +27937,7 @@
    "ticker": "IMVT",
    "name": "Immunovant",
    "last_price": "43.71",
-   "market_cap": 8638032896
+   "market_cap": 9028417536
   },
   "ticker": "IMVT",
   "drug_name": "Batoclimab (IMVT-1401)",
@@ -27971,7 +27971,7 @@
    "ticker": "GLSI",
    "name": "Greenwich LifeSciences",
    "last_price": "17.38",
-   "market_cap": 255107000
+   "market_cap": 255107248
   },
   "ticker": "GLSI",
   "drug_name": "GLSI-100",
@@ -28004,7 +28004,7 @@
   "company": {
    "ticker": "MIST",
    "name": "Milestone Pharmaceuticals",
-   "last_price": "1.07",
+   "last_price": "1.10",
    "market_cap": 136947792
   },
   "ticker": "MIST",
@@ -28039,7 +28039,7 @@
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
    "last_price": "58.63",
-   "market_cap": 9512390656
+   "market_cap": 9743386624
   },
   "ticker": "IONS",
   "drug_name": "IONIS-APOCIII-LRx (Olezarsen) ",
@@ -28073,7 +28073,7 @@
    "ticker": "DTIL",
    "name": "Precision BioSciences",
    "last_price": "7.40",
-   "market_cap": 204252000
+   "market_cap": 204251504
   },
   "ticker": "DTIL",
   "drug_name": "Azer-cel (PBCAR0191) (azercabtagene zapreleucel)",
@@ -28117,7 +28117,7 @@
    "ticker": "INAB",
    "name": "IN8bio",
    "last_price": "1.11",
-   "market_cap": 10548628
+   "market_cap": 10942805
   },
   "ticker": "INAB",
   "drug_name": "INB-200",
@@ -28151,7 +28151,7 @@
    "ticker": "VERA",
    "name": "Vera Therapeutics",
    "last_price": "31.63",
-   "market_cap": 2279363328
+   "market_cap": 2279363000
   },
   "ticker": "VERA",
   "drug_name": "Atacicept",
@@ -28234,7 +28234,7 @@
    "ticker": "IPSEY",
    "name": "Ipsen",
    "last_price": "45.10",
-   "market_cap": 14904748032
+   "market_cap": 14902944768
   },
   "ticker": "IPSEY",
   "drug_name": "Odevixibat (ileal bile acid transport inhibitor)",
@@ -28273,7 +28273,7 @@
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
    "last_price": "24.35",
-   "market_cap": 3892284000
+   "market_cap": 3892284416
   },
   "ticker": "DNLI",
   "drug_name": "BIIB122/DNL151 (LRRK2 Inhibitor)",
@@ -28346,7 +28346,7 @@
    "ticker": "GILD",
    "name": "Gilead Sciences",
    "last_price": "138.92",
-   "market_cap": 172254577000
+   "market_cap": 172254576640
   },
   "ticker": "GILD",
   "drug_name": "Bulevirtide (Hepcludex\u00ae)",
@@ -28380,7 +28380,7 @@
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
    "last_price": "40.98",
-   "market_cap": 2598824960
+   "market_cap": 2575570688
   },
   "ticker": "KOD",
   "drug_name": "Tarcocimab (KSI-301) (anti-VEGF)",
@@ -28414,7 +28414,7 @@
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
    "last_price": "4.00",
-   "market_cap": 279245000
+   "market_cap": 279971488
   },
   "ticker": "BCYC",
   "drug_name": "BT5528 (EphA2)",
@@ -28453,7 +28453,7 @@
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
    "last_price": "5.22",
-   "market_cap": 337720000
+   "market_cap": 337720416
   },
   "ticker": "IMRX",
   "drug_name": "Atebimetinib (IMM-1-104)",
@@ -28497,7 +28497,7 @@
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
    "last_price": "23.09",
-   "market_cap": 2501493248
+   "market_cap": 2615919000
   },
   "ticker": "VRDN",
   "drug_name": "Veligrotug (formerly VRDN-001)",
@@ -28531,7 +28531,7 @@
    "ticker": "MRK",
    "name": "Merck & Co",
    "last_price": "135.97",
-   "market_cap": 335140585472
+   "market_cap": 335461318656
   },
   "ticker": "MRK",
   "drug_name": "Doravirine / Islatravir (DOR/ISL)  ",
@@ -28638,7 +28638,7 @@
    "ticker": "INSM",
    "name": "Insmed Incorporated",
    "last_price": "128.32",
-   "market_cap": 27022526464
+   "market_cap": 28022716416
   },
   "ticker": "INSM",
   "drug_name": "TPIP (Treprostinil Palmitil Inhalation Powder) ",
@@ -28672,7 +28672,7 @@
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
    "last_price": "41.92",
-   "market_cap": 3291958000
+   "market_cap": 3291958016
   },
   "ticker": "CLDX",
   "drug_name": "Barzolvolimab (CDX-0159) (KIT receptor) ",
@@ -28710,8 +28710,8 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "116.41",
-   "market_cap": 7951038464
+   "last_price": "115.44",
+   "market_cap": 7921186000
   },
   "ticker": "RYTM",
   "drug_name": "IMCIVREE\u2122 (Setmelanotide)",
@@ -28750,7 +28750,7 @@
    "ticker": "CABA",
    "name": "Cabaletta Bio",
    "last_price": "2.89",
-   "market_cap": 489986000
+   "market_cap": 489986336
   },
   "ticker": "CABA",
   "drug_name": "Rese-cel (formerly CABA-201)",
@@ -28789,7 +28789,7 @@
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
    "last_price": "7.68",
-   "market_cap": 795426000
+   "market_cap": 794391680
   },
   "ticker": "AURA",
   "drug_name": "Belzupacap Sarotalocan (Bel-sar) (AU-011)",
@@ -28828,7 +28828,7 @@
    "ticker": "JANX",
    "name": "Janux Therapeutics",
    "last_price": "16.26",
-   "market_cap": 985524800
+   "market_cap": 994083904
   },
   "ticker": "JANX",
   "drug_name": "JANX008 (EGFR-TRACTr)",
@@ -28906,7 +28906,7 @@
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
    "last_price": "212.00",
-   "market_cap": 43662471168
+   "market_cap": 45439320000
   },
   "ticker": "RVMD",
   "drug_name": "RMC-6236 (RASMULTI)",
@@ -28955,7 +28955,7 @@
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
    "last_price": "212.00",
-   "market_cap": 43662471168
+   "market_cap": 45439320000
   },
   "ticker": "RVMD",
   "drug_name": "RMC-9805 (KRASG12D)",
@@ -29004,7 +29004,7 @@
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
    "last_price": "9.20",
-   "market_cap": 593595000
+   "market_cap": 593595008
   },
   "ticker": "ARVN",
   "drug_name": "Vepdegestrant (Mono)",
@@ -29048,7 +29048,7 @@
    "ticker": "MGNX",
    "name": "MacroGenics",
    "last_price": "4.06",
-   "market_cap": 268584896
+   "market_cap": 258622752
   },
   "ticker": "MGNX",
   "drug_name": "Lorigerlimab (PD-1 \u00d7 CTLA-4 bispecific DART\u00ae molecule) + docetaxel",
@@ -29092,7 +29092,7 @@
    "ticker": "BCAB",
    "name": "Bioatla Inc",
    "last_price": "3.06",
-   "market_cap": 5098300
+   "market_cap": 5098266
   },
   "ticker": "BCAB",
   "drug_name": "CAB-EpCAM x CAB-CD3 TCE (BA3182)",
@@ -29131,7 +29131,7 @@
    "ticker": "BIVI",
    "name": "BioVie",
    "last_price": "1.17",
-   "market_cap": 10559700
+   "market_cap": 8824886
   },
   "ticker": "BIVI",
   "drug_name": "Bezisterim (NE3107) ",
@@ -29199,7 +29199,7 @@
    "ticker": "BIIB",
    "name": "Biogen",
    "last_price": "209.15",
-   "market_cap": 30902749000
+   "market_cap": 30902749184
   },
   "ticker": "BIIB",
   "drug_name": "BIIB080 (tau ASO)",
@@ -29233,7 +29233,7 @@
    "ticker": "CGEM",
    "name": "Cullinan Management",
    "last_price": "20.59",
-   "market_cap": 1308974000
+   "market_cap": 1265421184
   },
   "ticker": "CGEM",
   "drug_name": "Zipalertinib",
@@ -29267,7 +29267,7 @@
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
    "last_price": "1.81",
-   "market_cap": 45816548
+   "market_cap": 41053440
   },
   "ticker": "KPTI",
   "drug_name": "XPOVIO (Selinexor) (XPO1 inhibitor)",
@@ -29306,7 +29306,7 @@
    "ticker": "ATAI",
    "name": "ATAI Life Sciences",
    "last_price": "7.24",
-   "market_cap": 2685060000
+   "market_cap": 2685060096
   },
   "ticker": "ATAI",
   "drug_name": "EMP-01 (3,4-methylenedioxy-methamphetamine [MDMA] derivative)",
@@ -29345,7 +29345,7 @@
    "ticker": "CGEN",
    "name": "Compugen",
    "last_price": "2.35",
-   "market_cap": 222602000
+   "market_cap": 222601728
   },
   "ticker": "CGEN",
   "drug_name": "Rilvegostomig (PD-1/TIGIT) ",
@@ -29428,7 +29428,7 @@
    "ticker": "GSK",
    "name": "GSK",
    "last_price": "50.28",
-   "market_cap": 99178938000
+   "market_cap": 100701061120
   },
   "ticker": "GSK",
   "drug_name": "Exdensur (depemokimab)",
@@ -29466,8 +29466,8 @@
   "company": {
    "ticker": "SLGL",
    "name": "Sol-Gel",
-   "last_price": "84.69",
-   "market_cap": 276850848
+   "last_price": "83.01",
+   "market_cap": 269390000
   },
   "ticker": "SLGL",
   "drug_name": "SGT-210 (Erlotinib)",
@@ -29511,7 +29511,7 @@
    "ticker": "TCRX",
    "name": "TScan Therapeutics",
    "last_price": "0.78",
-   "market_cap": 52786484
+   "market_cap": 51202000
   },
   "ticker": "TCRX",
   "drug_name": "TSC-203-A0201, TSC-200-A0201, TSC-204-A0201, TSC-204-C0702,TSC-201-B0702, TSC-204-A0101",
@@ -29555,7 +29555,7 @@
    "ticker": "MNKD",
    "name": "MannKind Corporation",
    "last_price": "3.90",
-   "market_cap": 1229655296
+   "market_cap": 1245624960
   },
   "ticker": "MNKD",
   "drug_name": "FUROSCIX ReadyFlow\u2122 Auto-Injector Injection (furosemide)  ",
@@ -29594,7 +29594,7 @@
    "ticker": "ELTX",
    "name": "Elicio Therapeutics",
    "last_price": "3.02",
-   "market_cap": 81211000
+   "market_cap": 79371280
   },
   "ticker": "ELTX",
   "drug_name": "ELI-002 7P",
@@ -29633,7 +29633,7 @@
    "ticker": "AZTR",
    "name": "Azitra",
    "last_price": "0.14",
-   "market_cap": 2190800
+   "market_cap": 2190836
   },
   "ticker": "AZTR",
   "drug_name": "ATR12-351 (ATR-12)",
@@ -29667,7 +29667,7 @@
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
    "last_price": "2.26",
-   "market_cap": 204709168
+   "market_cap": 212221424
   },
   "ticker": "IPHA",
   "drug_name": "IPH6501 ",
@@ -29705,8 +29705,8 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "116.41",
-   "market_cap": 7951038464
+   "last_price": "115.44",
+   "market_cap": 7921186000
   },
   "ticker": "RYTM",
   "drug_name": "IMCIVREE\u2122 (Setmelanotide)",
@@ -29740,7 +29740,7 @@
    "ticker": "QURE",
    "name": "Uniqure NV",
    "last_price": "47.97",
-   "market_cap": 3372594944
+   "market_cap": 3327507000
   },
   "ticker": "QURE",
   "drug_name": "AMT-191 ",
@@ -29779,7 +29779,7 @@
    "ticker": "QURE",
    "name": "Uniqure NV",
    "last_price": "47.97",
-   "market_cap": 3372594944
+   "market_cap": 3327507000
   },
   "ticker": "QURE",
   "drug_name": "AMT-162",
@@ -29812,8 +29812,8 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "1.50",
-   "market_cap": 300633440
+   "last_price": "1.52",
+   "market_cap": 285602000
   },
   "ticker": "NMRA",
   "drug_name": "Navacaprant (NMRA-140)",
@@ -29852,7 +29852,7 @@
    "ticker": "FATE",
    "name": "Fate Therapeutics",
    "last_price": "2.62",
-   "market_cap": 305385000
+   "market_cap": 305385056
   },
   "ticker": "FATE",
   "drug_name": "FT819 (CAR-19, TCR-KO) ",
@@ -29885,8 +29885,8 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "116.41",
-   "market_cap": 7951038464
+   "last_price": "115.44",
+   "market_cap": 7921186000
   },
   "ticker": "RYTM",
   "drug_name": "RM-718",
@@ -29920,7 +29920,7 @@
    "ticker": "BIIB",
    "name": "Biogen",
    "last_price": "209.15",
-   "market_cap": 30902749000
+   "market_cap": 30902749184
   },
   "ticker": "BIIB",
   "drug_name": "Leqembi (Lecanemab) SC formulation ",
@@ -29953,8 +29953,8 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "17.51",
-   "market_cap": 1973757056
+   "last_price": "17.53",
+   "market_cap": 1973757000
   },
   "ticker": "NVCR",
   "drug_name": "Optune Gio\u00ae w/ radiation therapy & temozolomide (TMZ)",
@@ -29993,7 +29993,7 @@
    "ticker": "DTIL",
    "name": "Precision BioSciences",
    "last_price": "7.40",
-   "market_cap": 204252000
+   "market_cap": 204251504
   },
   "ticker": "DTIL",
   "drug_name": "ECUR-506",
@@ -30027,7 +30027,7 @@
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
    "last_price": "20.67",
-   "market_cap": 4352153088
+   "market_cap": 4529657000
   },
   "ticker": "RLAY",
   "drug_name": "RLY-2608 + fulvestrant (doublet)",
@@ -30100,7 +30100,7 @@
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
    "last_price": "41.92",
-   "market_cap": 3291958000
+   "market_cap": 3291958016
   },
   "ticker": "CLDX",
   "drug_name": "Barzolvolimab (CDX-0159)",
@@ -30134,7 +30134,7 @@
    "ticker": "MNKD",
    "name": "MannKind Corporation",
    "last_price": "3.90",
-   "market_cap": 1229655296
+   "market_cap": 1245624960
   },
   "ticker": "MNKD",
   "drug_name": "MNKD 201 (nintedanib DPI)",
@@ -30173,7 +30173,7 @@
    "ticker": "SDGR",
    "name": "Schrodinger Inc",
    "last_price": "17.40",
-   "market_cap": 1315831040
+   "market_cap": 1301618000
   },
   "ticker": "SDGR",
   "drug_name": "SGR-3515",
@@ -30295,7 +30295,7 @@
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
    "last_price": "36.54",
-   "market_cap": 3525726000
+   "market_cap": 3525725952
   },
   "ticker": "IDYA",
   "drug_name": "IDE397 (MAT2A) + Trodelvy",
@@ -30343,8 +30343,8 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "29.38",
-   "market_cap": 3707792640
+   "last_price": "29.56",
+   "market_cap": 3763974000
   },
   "ticker": "RCUS",
   "drug_name": "Domvanalimab + Zimberelimab + Chemo v.s. Nivolumab + Chemo",
@@ -30393,7 +30393,7 @@
    "ticker": "CNTX",
    "name": "Context Therapeutics",
    "last_price": "0.53",
-   "market_cap": 48723500
+   "market_cap": 48723528
   },
   "ticker": "CNTX",
   "drug_name": "CT-95",
@@ -30427,7 +30427,7 @@
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
    "last_price": "41.92",
-   "market_cap": 3291958000
+   "market_cap": 3291958016
   },
   "ticker": "CLDX",
   "drug_name": "CDX-622",
@@ -30461,7 +30461,7 @@
    "ticker": "UNCY",
    "name": "Unicycive Therapeutics",
    "last_price": "5.57",
-   "market_cap": 150935584
+   "market_cap": 152579000
   },
   "ticker": "UNCY",
   "drug_name": "Oxylanthanum Carbonate (OLC)",
@@ -30500,7 +30500,7 @@
    "ticker": "BIIB",
    "name": "Biogen",
    "last_price": "209.15",
-   "market_cap": 30902749000
+   "market_cap": 30902749184
   },
   "ticker": "BIIB",
   "drug_name": "Nusinersen (SPINRAZA)",
@@ -30534,7 +30534,7 @@
    "ticker": "DRUG",
    "name": "Bright Minds Biosciences",
    "last_price": "79.48",
-   "market_cap": 750034000
+   "market_cap": 779862656
   },
   "ticker": "DRUG",
   "drug_name": "BMB-101",
@@ -30611,8 +30611,8 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "17.51",
-   "market_cap": 1973757056
+   "last_price": "17.53",
+   "market_cap": 1973757000
   },
   "ticker": "NVCR",
   "drug_name": "Atezolizumab, Gemcitabine & Nab-paclitaxel w/ NovoTTF-200T ",
@@ -30651,7 +30651,7 @@
    "ticker": "URGN",
    "name": "UroGen Pharma",
    "last_price": "49.14",
-   "market_cap": 2349360384
+   "market_cap": 2394184000
   },
   "ticker": "URGN",
   "drug_name": "UGN-301",
@@ -30690,7 +30690,7 @@
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
    "last_price": "30.50",
-   "market_cap": 1923365120
+   "market_cap": 1987890000
   },
   "ticker": "ZBIO",
   "drug_name": "Obexelimab (CD19xFcyRIIb)",
@@ -30724,7 +30724,7 @@
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
    "last_price": "30.50",
-   "market_cap": 1923365120
+   "market_cap": 1987890000
   },
   "ticker": "ZBIO",
   "drug_name": "Obexelimab (CD19xFcyRIIb)",
@@ -30758,7 +30758,7 @@
    "ticker": "JSPR",
    "name": "Jasper Therapeutics",
    "last_price": "0.84",
-   "market_cap": 26290230
+   "market_cap": 28023834
   },
   "ticker": "JSPR",
   "drug_name": "Briquilimab (SC)",
@@ -30797,7 +30797,7 @@
    "ticker": "ELDN",
    "name": "Eledon Pharmaceuticals",
    "last_price": "3.58",
-   "market_cap": 290915000
+   "market_cap": 290914912
   },
   "ticker": "ELDN",
   "drug_name": "Tegoprubart (AT-1501)",
@@ -30831,7 +30831,7 @@
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
    "last_price": "16.35",
-   "market_cap": 1401707136
+   "market_cap": 1391494400
   },
   "ticker": "MLTX",
   "drug_name": "Sonelokimab",
@@ -30864,8 +30864,8 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "25.98",
-   "market_cap": 2266752512
+   "last_price": "26.05",
+   "market_cap": 2302999296
   },
   "ticker": "MLYS",
   "drug_name": "Lorundrostat",
@@ -30938,7 +30938,7 @@
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
    "last_price": "37.87",
-   "market_cap": 6571390000
+   "market_cap": 6571390464
   },
   "ticker": "COGT",
   "drug_name": "CGT4859 (FGFR2 inhibitor)",
@@ -30972,7 +30972,7 @@
    "ticker": "KNSA",
    "name": "Kiniksa Pharmaceuticals",
    "last_price": "79.18",
-   "market_cap": 5988343296
+   "market_cap": 6177941504
   },
   "ticker": "KNSA",
   "drug_name": "KPL-387",
@@ -31006,7 +31006,7 @@
    "ticker": "BOLD",
    "name": "Boundless Bio Inc",
    "last_price": "2.83",
-   "market_cap": 64377000
+   "market_cap": 64376792
   },
   "ticker": "BOLD",
   "drug_name": "BBI-355 + BBI-825 ",
@@ -31045,7 +31045,7 @@
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
    "last_price": "2.56",
-   "market_cap": 20459000
+   "market_cap": 20459038
   },
   "ticker": "CLRB",
   "drug_name": "CLR 121125",
@@ -31079,7 +31079,7 @@
    "ticker": "GILD",
    "name": "Gilead Sciences",
    "last_price": "138.92",
-   "market_cap": 172254577000
+   "market_cap": 172254576640
   },
   "ticker": "GILD",
   "drug_name": "Trodelvy + Keytruda  ",
@@ -31113,7 +31113,7 @@
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
    "last_price": "4.00",
-   "market_cap": 279245000
+   "market_cap": 279971488
   },
   "ticker": "BCYC",
   "drug_name": "Zelenectide pevedotin (zele, formerly BT8009)",
@@ -31157,7 +31157,7 @@
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
    "last_price": "9.94",
-   "market_cap": 2488912000
+   "market_cap": 2540018944
   },
   "ticker": "BCRX",
   "drug_name": "Orladeyo (Berotralstat)",
@@ -31235,7 +31235,7 @@
    "ticker": "CAMP",
    "name": "CAMP4 Therapeutics",
    "last_price": "5.00",
-   "market_cap": 313766000
+   "market_cap": 313766016
   },
   "ticker": "CAMP",
   "drug_name": "CMP-CPS-001",
@@ -31269,7 +31269,7 @@
    "ticker": "MRK",
    "name": "Merck & Co",
    "last_price": "135.97",
-   "market_cap": 335140585472
+   "market_cap": 335461318656
   },
   "ticker": "MRK",
   "drug_name": "KEYTRUDA\u00ae plus chemotherapy +/- bevacizumab",
@@ -31331,7 +31331,7 @@
    "ticker": "SION",
    "name": "Sionna Therapeutics",
    "last_price": "5.91",
-   "market_cap": 291671136
+   "market_cap": 266838000
   },
   "ticker": "SION",
   "drug_name": "SION-451 ",
@@ -31365,7 +31365,7 @@
    "ticker": "SION",
    "name": "Sionna Therapeutics",
    "last_price": "5.91",
-   "market_cap": 291671136
+   "market_cap": 266838000
   },
   "ticker": "SION",
   "drug_name": "SION-719",
@@ -31398,8 +31398,8 @@
   "company": {
    "ticker": "MBX",
    "name": "MBX Biosciences",
-   "last_price": "68.39",
-   "market_cap": 3302337792
+   "last_price": "68.25",
+   "market_cap": 3286926592
   },
   "ticker": "MBX",
   "drug_name": "MBX 1416",
@@ -31433,7 +31433,7 @@
    "ticker": "INVA",
    "name": "Innoviva",
    "last_price": "20.96",
-   "market_cap": 1530881920
+   "market_cap": 1514265344
   },
   "ticker": "INVA",
   "drug_name": "NUZOLVENCE\u00ae (zoliflodacin)",
@@ -31467,7 +31467,7 @@
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
    "last_price": "2.56",
-   "market_cap": 20459000
+   "market_cap": 20459038
   },
   "ticker": "CLRB",
   "drug_name": "CLR 125",
@@ -31501,7 +31501,7 @@
    "ticker": "PHGE",
    "name": "BiomX",
    "last_price": "0.14",
-   "market_cap": 1585220
+   "market_cap": 1558300
   },
   "ticker": "PHGE",
   "drug_name": "BX004",
@@ -31540,7 +31540,7 @@
    "ticker": "CELC",
    "name": "Celcuity",
    "last_price": "92.44",
-   "market_cap": 4501735000
+   "market_cap": 4523265536
   },
   "ticker": "CELC",
   "drug_name": "Gedatolisib + palbociclib + fulvestrant (gedatolisib triplet)",
@@ -31647,7 +31647,7 @@
    "ticker": "ONC",
    "name": "BeOne Medicines",
    "last_price": "362.51",
-   "market_cap": 39307689984
+   "market_cap": 41007915000
   },
   "ticker": "ONC",
   "drug_name": "Sonrotoclax / BGB-11417",
@@ -31681,7 +31681,7 @@
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
    "last_price": "64.63",
-   "market_cap": 132020642000
+   "market_cap": 132020641792
   },
   "ticker": "BMY",
   "drug_name": "Iberdomide +  (daratumumab + dexamethasone)",
@@ -31715,7 +31715,7 @@
    "ticker": "AZN",
    "name": "Astrazeneca",
    "last_price": "156.89",
-   "market_cap": 243318489000
+   "market_cap": 243318489088
   },
   "ticker": "AZN",
   "drug_name": "Enhertu",
@@ -31754,7 +31754,7 @@
    "ticker": "AZN",
    "name": "Astrazeneca",
    "last_price": "156.89",
-   "market_cap": 243318489000
+   "market_cap": 243318489088
   },
   "ticker": "AZN",
   "drug_name": "Enhertu",
@@ -31788,7 +31788,7 @@
    "ticker": "AZN",
    "name": "Astrazeneca",
    "last_price": "156.89",
-   "market_cap": 243318489000
+   "market_cap": 243318489088
   },
   "ticker": "AZN",
   "drug_name": "Baxdrostat",
@@ -31821,8 +31821,8 @@
   "company": {
    "ticker": "NXTC",
    "name": "NextCure Inc",
-   "last_price": "7.78",
-   "market_cap": 37580116
+   "last_price": "7.71",
+   "market_cap": 35291400
   },
   "ticker": "NXTC",
   "drug_name": "SIM0505 (CDH6 ADC)",
@@ -31855,8 +31855,8 @@
   "company": {
    "ticker": "MCRB",
    "name": "Seres Therapeutics",
-   "last_price": "4.52",
-   "market_cap": 45603304
+   "last_price": "4.51",
+   "market_cap": 45301964
   },
   "ticker": "MCRB",
   "drug_name": "SER-155 (Live Biotherapeutic)",
@@ -31895,7 +31895,7 @@
    "ticker": "VTRS",
    "name": "Viatris Inc",
    "last_price": "16.23",
-   "market_cap": 18641629184
+   "market_cap": 18641629000
   },
   "ticker": "VTRS",
   "drug_name": "Low Dose Estrogen Weekly Patch (Transdermal Contraceptive)",
@@ -31934,7 +31934,7 @@
    "ticker": "AZN",
    "name": "Astrazeneca",
    "last_price": "156.89",
-   "market_cap": 243318489000
+   "market_cap": 243318489088
   },
   "ticker": "AZN",
   "drug_name": "Enhertu/Trastuzumab Deruxtecan (DS-8201a) (HER2-Targeted ADC)",
@@ -31983,7 +31983,7 @@
    "ticker": "BMRN",
    "name": "Biomarin Pharmaceutical Inc.",
    "last_price": "66.64",
-   "market_cap": 12899755000
+   "market_cap": 12899755008
   },
   "ticker": "BMRN",
   "drug_name": "BMN 401 (formerly INZ-701)",
@@ -32017,7 +32017,7 @@
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
    "last_price": "11.25",
-   "market_cap": 544939520
+   "market_cap": 521518720
   },
   "ticker": "MPLT",
   "drug_name": "ML-004 (Undisclosed Mechanism)",
@@ -32090,7 +32090,7 @@
    "ticker": "IPSEY",
    "name": "Ipsen",
    "last_price": "45.10",
-   "market_cap": 14904748032
+   "market_cap": 14902944768
   },
   "ticker": "IPSEY",
   "drug_name": "Dysport/AbobotulinumtoxinA (Botulinum Neurotoxin)",
@@ -32124,7 +32124,7 @@
    "ticker": "GMAB",
    "name": "Genmab",
    "last_price": "32.84",
-   "market_cap": 20184199000
+   "market_cap": 20184199168
   },
   "ticker": "GMAB",
   "drug_name": "Epkinly/Epcoritamab (GEN3013) (CD3-CD20 Bispecific) + lenalidomide ",
@@ -32158,7 +32158,7 @@
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
    "last_price": "64.63",
-   "market_cap": 132020642000
+   "market_cap": 132020641792
   },
   "ticker": "BMY",
   "drug_name": "Izalontamab Brengitecan (BL-B01D1) (EGFR/HER3 Bispecific ADC)",
@@ -32202,7 +32202,7 @@
    "ticker": "MRK",
    "name": "Merck & Co",
    "last_price": "135.97",
-   "market_cap": 335140585472
+   "market_cap": 335461318656
   },
   "ticker": "MRK",
   "drug_name": "Welireg/Belzutifan (MK-6482) + Keytruda/Pembrolizumab (MK-3475) (HIF-2\u03b1/PD-1 Blockade)",
@@ -32236,7 +32236,7 @@
    "ticker": "AVBP",
    "name": "ArriVent",
    "last_price": "29.01",
-   "market_cap": 1430417000
+   "market_cap": 1430417152
   },
   "ticker": "AVBP",
   "drug_name": "ARR-217/MRG007 (CDH17-Targeted ADC)",
@@ -32353,7 +32353,7 @@
    "ticker": "BCDA",
    "name": "BioCardia",
    "last_price": "0.94",
-   "market_cap": 14492900
+   "market_cap": 13991268
   },
   "ticker": "BCDA",
   "drug_name": "CardiAMP Autologous Cell Therapy (BCDA-02) (Cell Therapy)",
@@ -32392,7 +32392,7 @@
    "ticker": "AZN",
    "name": "Astrazeneca",
    "last_price": "156.89",
-   "market_cap": 243318489000
+   "market_cap": 243318489088
   },
   "ticker": "AZN",
   "drug_name": "Tozorakimab (MEDI3506) (IL-33 Antibody)",
@@ -32426,7 +32426,7 @@
    "ticker": "AZN",
    "name": "Astrazeneca",
    "last_price": "156.89",
-   "market_cap": 243318489000
+   "market_cap": 243318489088
   },
   "ticker": "AZN",
   "drug_name": "Imfinzi/Durvalumab + Bacillus Calmette-Gu\u00e9rin (MEDI4736) (PD-L1 Inhibitor)",
@@ -32460,7 +32460,7 @@
    "ticker": "TAK",
    "name": "Takeda",
    "last_price": "17.38",
-   "market_cap": 56301453312
+   "market_cap": 55503077000
   },
   "ticker": "TAK",
   "drug_name": "Oveporexton (Orexin Agonist)",
@@ -32494,7 +32494,7 @@
    "ticker": "RVMD",
    "name": "Revolution Medicines Inc",
    "last_price": "212.00",
-   "market_cap": 43662471168
+   "market_cap": 45439320000
   },
   "ticker": "RVMD",
   "drug_name": "Zoldonrasib/Daraxonrasib (RMC-9805 + RMC-6236) (RAS(ON) Inhibitors)",
@@ -32533,7 +32533,7 @@
    "ticker": "INCY",
    "name": "Incyte Corporation",
    "last_price": "123.50",
-   "market_cap": 24356161536
+   "market_cap": 25033170944
   },
   "ticker": "INCY",
   "drug_name": "VGA039 (Protein S Antibody)",
@@ -32567,7 +32567,7 @@
    "ticker": "ZLAB",
    "name": "Zai Lab",
    "last_price": "25.64",
-   "market_cap": 2907695104
+   "market_cap": 2907695000
   },
   "ticker": "ZLAB",
   "drug_name": "VYVGART/Efgartigimod Alfa (FcRn Blocker)",

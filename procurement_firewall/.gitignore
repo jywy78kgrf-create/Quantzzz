@@ -11,5 +11,10 @@ __pycache__/
 eval/.judge_cache.json
 eval/.judge_cache.json.tmp
 
+# bulk real-data cache — public data, large, and regenerable with
+# realdata/fetch_usaspending.py, so NOT committed. The small derived/authored
+# artifacts (seeds, PROVENANCE.json, the derived mandate, the report) ARE committed.
+datasets/real/usaspending_*.jsonl
+
 # NOTE: eval/runs/*.json and eval/runs/history.jsonl ARE committed on purpose —
 # the persisted eval numbers are part of the deliverable.

@@ -13,6 +13,12 @@ python realdata/derive_mandate.py        # derive a mandate from the data's dist
 python realdata/real_validate.py --judge both   # Test A + Test B; writes eval/REPORT_REAL.md
 ```
 
+The bulk cache (`datasets/real/usaspending_*.jsonl`, ~6 MB) is **gitignored, not
+committed** — it's public and regenerable, so run `fetch_usaspending.py` once to
+recreate it. The small derived/authored artifacts (seeds, `PROVENANCE.json`, the
+derived mandate, the report) are committed. Tests that need the bulk cache skip
+gracefully when it's absent.
+
 `--judge heuristic` (default) is free; `--judge both` also runs the Anthropic
 judge (uses your `ANTHROPIC_API_KEY`; real-spend FP is estimated on a
 `--llm-sample` of gate-allowed rows to bound cost, responses cached).

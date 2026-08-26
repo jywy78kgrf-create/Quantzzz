@@ -132,10 +132,23 @@ class AnthropicJudge(SemanticJudge):
         )
         return hashlib.sha256(blob.encode("utf-8")).hexdigest()
 
-    def _call_with_retries(self, system: str, user_content: str) -> str:
-        import anthropic
+    def _retryable_exceptions(self) -> tuple:
+        """Transient API errors worth retrying. Empty when the SDK isn't
+        importable (e.g. a test that injected a fake client) so `evaluate()`
+        needs no `anthropic` import to run — `except ()` catches nothing."""
+        try:
+            import anthropic
+        except Exception:
+            return ()
+        return (
+            anthropic.RateLimitError,
+            anthropic.APIConnectionError,
+            anthropic.InternalServerError,
+        )
 
+    def _call_with_retries(self, system: str, user_content: str) -> str:
         client = self._ensure_client()
+        retryable = self._retryable_exceptions()
         delay = 1.0
         last_exc: Exception | None = None
         for attempt in range(self.max_retries + 1):
@@ -150,11 +163,7 @@ class AnthropicJudge(SemanticJudge):
                 return "".join(
                     b.text for b in resp.content if getattr(b, "type", None) == "text"
                 ).strip()
-            except (
-                anthropic.RateLimitError,
-                anthropic.APIConnectionError,
-                anthropic.InternalServerError,
-            ) as exc:  # pragma: no cover - network dependent
+            except retryable as exc:  # pragma: no cover - network dependent
                 last_exc = exc
                 if attempt == self.max_retries:
                     break

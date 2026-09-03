@@ -335,7 +335,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "21.79",
+   "last_price": "22.33",
    "market_cap": 1339170944
   },
   "ticker": "CGEM",
@@ -1883,7 +1883,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "85.80",
+   "last_price": "87.05",
    "market_cap": 7803377664
   },
   "ticker": "SYRE",
@@ -1985,7 +1985,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "21.79",
+   "last_price": "22.33",
    "market_cap": 1339170944
   },
   "ticker": "CGEM",
@@ -2063,7 +2063,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "91.74",
+   "last_price": "91.63",
    "market_cap": 6098575360
   },
   "ticker": "ORKA",
@@ -2097,7 +2097,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "8.63",
+   "last_price": "8.62",
    "market_cap": 516392768
   },
   "ticker": "KYTX",
@@ -2165,7 +2165,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.80",
+   "last_price": "1.94",
    "market_cap": 130138992
   },
   "ticker": "BMEA",
@@ -2340,7 +2340,7 @@
   "company": {
    "ticker": "CUE",
    "name": "Cue Biopharma",
-   "last_price": "26.99",
+   "last_price": "26.96",
    "market_cap": 206599936
   },
   "ticker": "CUE",
@@ -2374,7 +2374,7 @@
   "company": {
    "ticker": "DMAC",
    "name": "DiaMedica Therapeutics",
-   "last_price": "6.45",
+   "last_price": "6.75",
    "market_cap": 347820736
   },
   "ticker": "DMAC",
@@ -3607,7 +3607,7 @@
   "company": {
    "ticker": "PBLS",
    "name": "Parbaillis Medicines",
-   "last_price": "39.86",
+   "last_price": "40.11",
    "market_cap": 4875856896
   },
   "ticker": "PBLS",
@@ -4523,7 +4523,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "71.54",
+   "last_price": "71.93",
    "market_cap": 9926273024
   },
   "ticker": "CYTK",
@@ -4917,7 +4917,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "34.50",
+   "last_price": "34.57",
    "market_cap": 6017846272
   },
   "ticker": "COGT",
@@ -5093,40 +5093,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 19743,
-  "company": {
-   "ticker": "RHHBY",
-   "name": "Roche Holding",
-   "last_price": "53.83",
-   "market_cap": 338402410496
-  },
-  "ticker": "RHHBY",
-  "drug_name": "Gazyva\u00ae/Gazyvaro\u00ae (Obinutuzumab) (CD20 Antibody)",
-  "indications": [
-   {
-    "id": 2169,
-    "title": "Primary Membranous Nephropathy",
-    "nickname": "PMN"
-   }
-  ],
-  "indications_text": "Primary Membranous Nephropathy",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "02/17/26:- Ph3 MAJESTY in primary membranous nephropathy met primary endpoint; data to be presented at meeting. 05/06/26:- MAJESTY Ph3 in primary membranous nephropathy met primary endpoint of complete remission at two years. 07/15/26:- FDA priority review sBLA for pMN; approval decision expected November 2026. MAJESTY CR 36.9% vs 5.7%. 07/23/26:- MAJESTY Priority Review was reiterated; FDA decision is expected in November 2026.",
-  "catalyst_date": "2026-11-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/7/23/3331865/0/en/ad-hoc-announcement-pursuant-to-art-53-lr-roche-s-strong-momentum-continues-in-the-first-half-of-2026-delivering-6-sales-growth-at-constant-exchange-rates-2-in-chf-due-to-the-signi.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 19745,
   "company": {
    "ticker": "RHHBY",
@@ -5161,45 +5127,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 19776,
-  "company": {
-   "ticker": "RHHBY",
-   "name": "Roche Holding",
-   "last_price": "53.83",
-   "market_cap": 338402410496
-  },
-  "ticker": "RHHBY",
-  "drug_name": "Giredestrant (Estrogen Receptor Degrader)",
-  "indications": [
-   {
-    "id": 947,
-    "title": "Breast cancer",
-    "nickname": ""
-   },
-   {
-    "id": 974,
-    "title": "ER+/HER2- breast cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Early-Stage ER-Positive HER2-Negative Breast Cancer",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "02/19/26:- Phase 3 lidERA early-stage ER+ HER2- breast cancer data to be submitted to FDA in coming weeks. 03/09/26:- Phase 3 lidERA data submission to FDA planned in coming weeks. 05/06/26:- Phase 3 lidERA early breast cancer data have been submitted to the FDA; NDA acceptance decision pending. 05/19/26:- LidERA menopausal status results to be presented at ASCO May 30, 2026. 06/02/26:- FDA accepted lidERA NDA; PDUFA Nov 30, 2026. 07/23/26:- lidERA Priority Review was reiterated; FDA decision will occur November 30, 2026.",
-  "catalyst_date": "2026-11-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/7/23/3331865/0/en/ad-hoc-announcement-pursuant-to-art-53-lr-roche-s-strong-momentum-continues-in-the-first-half-of-2026-delivering-6-sales-growth-at-constant-exchange-rates-2-in-chf-due-to-the-signi.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 19823,
   "company": {
    "ticker": "RHHBY",
@@ -5221,7 +5148,7 @@
     "nickname": ""
    }
   ],
-  "indications_text": "Estrogen Receptor-Positive, HER2-Negative Early Breast Cancer",
+  "indications_text": "ER-positive/HER2-negative early breast cancer",
   "stage_event": {
    "id": 97,
    "label": "PDUFA Approval decision",
@@ -5696,7 +5623,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "34.50",
+   "last_price": "34.57",
    "market_cap": 6017846272
   },
   "ticker": "COGT",
@@ -6556,7 +6483,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.10",
+   "last_price": "4.30",
    "market_cap": 286970784
   },
   "ticker": "BCYC",
@@ -7542,7 +7469,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "18.49",
+   "last_price": "18.51",
    "market_cap": 4051928832
   },
   "ticker": "RLAY",
@@ -7703,7 +7630,7 @@
   "company": {
    "ticker": "OVID",
    "name": "Ovid Therapeutics",
-   "last_price": "2.76",
+   "last_price": "2.71",
    "market_cap": 539022080
   },
   "ticker": "OVID",
@@ -10751,7 +10678,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "8.63",
+   "last_price": "8.62",
    "market_cap": 516392768
   },
   "ticker": "KYTX",
@@ -11876,7 +11803,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "9.92",
+   "last_price": "10.17",
    "market_cap": 2534908160
   },
   "ticker": "BCRX",
@@ -12495,7 +12422,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "5.33",
+   "last_price": "5.34",
    "market_cap": 1869721088
   },
   "ticker": "ALVO",
@@ -12674,7 +12601,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "5.33",
+   "last_price": "5.34",
    "market_cap": 1869721088
   },
   "ticker": "ALVO",
@@ -13000,7 +12927,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "18.49",
+   "last_price": "18.51",
    "market_cap": 4051928832
   },
   "ticker": "RLAY",
@@ -13175,7 +13102,7 @@
   "company": {
    "ticker": "ALMS",
    "name": "Alumis",
-   "last_price": "10.59",
+   "last_price": "10.35",
    "market_cap": 1225751808
   },
   "ticker": "ALMS",
@@ -13321,7 +13248,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "119.52",
+   "last_price": "118.63",
    "market_cap": 9792765952
   },
   "ticker": "KYMR",
@@ -14676,7 +14603,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "8.63",
+   "last_price": "8.62",
    "market_cap": 516392768
   },
   "ticker": "KYTX",
@@ -14880,7 +14807,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "8.63",
+   "last_price": "8.62",
    "market_cap": 516392768
   },
   "ticker": "KYTX",
@@ -15060,7 +14987,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "119.52",
+   "last_price": "118.63",
    "market_cap": 9792765952
   },
   "ticker": "KYMR",
@@ -15128,7 +15055,7 @@
   "company": {
    "ticker": "ATOS",
    "name": "Atossa Therapeutics",
-   "last_price": "2.42",
+   "last_price": "2.46",
    "market_cap": 24149902
   },
   "ticker": "ATOS",
@@ -17627,7 +17554,7 @@
   "company": {
    "ticker": "PBLS",
    "name": "Parbaillis Medicines",
-   "last_price": "39.86",
+   "last_price": "40.11",
    "market_cap": 4875856896
   },
   "ticker": "PBLS",
@@ -18454,7 +18381,7 @@
   "company": {
    "ticker": "DMAC",
    "name": "DiaMedica Therapeutics",
-   "last_price": "6.45",
+   "last_price": "6.75",
    "market_cap": 347820736
   },
   "ticker": "DMAC",
@@ -19023,7 +18950,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.80",
+   "last_price": "1.94",
    "market_cap": 130138992
   },
   "ticker": "BMEA",
@@ -19305,7 +19232,7 @@
   "company": {
    "ticker": "CBIO",
    "name": "Crescent Biopharma Inc",
-   "last_price": "17.93",
+   "last_price": "18.54",
    "market_cap": 666042688
   },
   "ticker": "CBIO",
@@ -19373,7 +19300,7 @@
   "company": {
    "ticker": "CBIO",
    "name": "Crescent Biopharma Inc",
-   "last_price": "17.93",
+   "last_price": "18.54",
    "market_cap": 666042688
   },
   "ticker": "CBIO",
@@ -22435,7 +22362,7 @@
   "company": {
    "ticker": "PBLS",
    "name": "Parbaillis Medicines",
-   "last_price": "39.86",
+   "last_price": "40.11",
    "market_cap": 4875856896
   },
   "ticker": "PBLS",
@@ -22869,7 +22796,7 @@
   "company": {
    "ticker": "ABVX",
    "name": "Abivax",
-   "last_price": "113.67",
+   "last_price": "111.08",
    "market_cap": 9918139392
   },
   "ticker": "ABVX",
@@ -23078,7 +23005,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "9.92",
+   "last_price": "10.17",
    "market_cap": 2534908160
   },
   "ticker": "BCRX",
@@ -24314,7 +24241,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "119.52",
+   "last_price": "118.63",
    "market_cap": 9792765952
   },
   "ticker": "KYMR",
@@ -26503,7 +26430,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "5.03",
+   "last_price": "5.02",
    "market_cap": 313782368
   },
   "ticker": "IMRX",
@@ -27369,7 +27296,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "71.54",
+   "last_price": "71.93",
    "market_cap": 9926273024
   },
   "ticker": "CYTK",
@@ -28085,7 +28012,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.10",
+   "last_price": "4.30",
    "market_cap": 286970784
   },
   "ticker": "BCYC",
@@ -28124,7 +28051,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "5.03",
+   "last_price": "5.02",
    "market_cap": 313782368
   },
   "ticker": "IMRX",
@@ -28962,7 +28889,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.60",
+   "last_price": "2.63",
    "market_cap": 245335520
   },
   "ticker": "CGEN",
@@ -29610,7 +29537,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "18.49",
+   "last_price": "18.51",
    "market_cap": 4051928832
   },
   "ticker": "RLAY",
@@ -30521,7 +30448,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "34.50",
+   "last_price": "34.57",
    "market_cap": 6017846272
   },
   "ticker": "COGT",
@@ -30589,7 +30516,7 @@
   "company": {
    "ticker": "ALMS",
    "name": "Alumis",
-   "last_price": "10.59",
+   "last_price": "10.35",
    "market_cap": 1225751808
   },
   "ticker": "ALMS",
@@ -30696,7 +30623,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.10",
+   "last_price": "4.30",
    "market_cap": 286970784
   },
   "ticker": "BCYC",
@@ -30740,7 +30667,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "9.92",
+   "last_price": "10.17",
    "market_cap": 2534908160
   },
   "ticker": "BCRX",

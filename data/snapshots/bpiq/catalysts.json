@@ -4,7 +4,7 @@
   "company": {
    "ticker": "PHVS",
    "name": "Pharvaris B.V. ",
-   "last_price": "35.29",
+   "last_price": "35.66",
    "market_cap": 2469092352
   },
   "ticker": "PHVS",
@@ -31,7 +31,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17271,
@@ -138,14 +138,14 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20557,
   "company": {
    "ticker": "GENB",
    "name": "Generate Biomedicines",
-   "last_price": "16.24",
+   "last_price": "16.34",
    "market_cap": 2089577728
   },
   "ticker": "GENB",
@@ -172,7 +172,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18007,
@@ -445,7 +445,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20776,
@@ -480,6 +480,45 @@
   "catalyst_date": "2026-09-15",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/20/3348151/0/en/biontech-highlights-late-stage-lung-cancer-pipeline-momentum-and-first-global-data-for-pumitamig-elfetabart-drozuntecan-novel-novel-combination-at-wclc-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20825,
+  "company": {
+   "ticker": "BLSM",
+   "name": "BlossomHill Therapeutics",
+   "last_price": "20.02",
+   "market_cap": 563592832
+  },
+  "ticker": "BLSM",
+  "drug_name": "BH-30643 (EGFR Inhibitor)",
+  "indications": [
+   {
+    "id": 2164,
+    "title": "EGFR-mutated advanced lung cancer",
+    "nickname": ""
+   },
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   }
+  ],
+  "indications_text": "C797S-Positive Resistance In EGFR-Mutant Non-Small Cell Lung Cancer",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "09/01/26:- SOLARA Ph1/2 mini-oral data at WCLC 2026 on September 15, 2026. FDA Fast Track granted.",
+  "catalyst_date": "2026-09-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/01/3353953/0/en/blossomhill-therapeutics-to-present-updated-data-from-ongoing-phase-1-2-solara-trial-of-its-macrocyclic-omni-egfr-inhibitor-bh-30643-in-egfr-mutant-nsclc-at-the-2026-world-conferen.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -611,7 +650,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20361,
@@ -792,7 +831,7 @@
   "company": {
    "ticker": "PHVS",
    "name": "Pharvaris B.V. ",
-   "last_price": "35.29",
+   "last_price": "35.66",
    "market_cap": 2469092352
   },
   "ticker": "PHVS",
@@ -933,7 +972,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "36.81",
+   "last_price": "36.36",
    "market_cap": 2356854528
   },
   "ticker": "KOD",
@@ -1118,10 +1157,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260806642697/en/Arcturus-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Pipeline-Progress",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_hedge_fund_avoid": true,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16489,
@@ -1312,11 +1351,11 @@
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340127/0/en/ocugen-provides-business-update-with-second-quarter-2026-financial-results.html",
-  "is_big_mover": false,
+  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18014,
@@ -1350,14 +1389,14 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18049,
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "38.07",
+   "last_price": "38.00",
    "market_cap": 5226874368
   },
   "ticker": "DFTX",
@@ -1425,7 +1464,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "36.81",
+   "last_price": "36.36",
    "market_cap": 2356854528
   },
   "ticker": "KOD",
@@ -1732,7 +1771,7 @@
   "company": {
    "ticker": "GHRS",
    "name": "GH Research",
-   "last_price": "28.07",
+   "last_price": "27.92",
    "market_cap": 1926788992
   },
   "ticker": "GHRS",
@@ -2046,7 +2085,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19292,
@@ -2218,7 +2257,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260806006411/en/Evommune-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Highlights",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -2323,7 +2362,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18135,
@@ -2396,7 +2435,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17696,
@@ -2430,7 +2469,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 20420,
@@ -2503,7 +2542,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17588,
@@ -2859,7 +2898,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20500,
@@ -3195,7 +3234,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18267,
@@ -3322,7 +3361,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18994,
@@ -3444,7 +3483,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20550,
@@ -3483,7 +3522,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20555,
@@ -3708,11 +3747,11 @@
   "catalyst_date": "2026-10-24",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340156/0/en/Compass-Therapeutics-Reports-2026-Second-Quarter-Financial-Results-and-Provides-Corporate-Update.html",
-  "is_big_mover": false,
+  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17957,
@@ -3926,7 +3965,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16243,
@@ -4082,7 +4121,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20065,
@@ -4175,7 +4214,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17281,
@@ -4209,7 +4248,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16624,
@@ -4727,8 +4766,8 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260824428528/en/Savara-Announces-Encore-Presentations-of-Results-from-the-Phase-3-Clinical-Trial-of-Molgramostim-Inhalation-Solution-Molgramostim-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-APAP-at-the-European-Respiratory-Society-ERS-Congress-2026/",
   "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": true,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
  },
@@ -4764,14 +4803,14 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20631,
   "company": {
    "ticker": "GSK",
    "name": "GSK",
-   "last_price": "50.44",
+   "last_price": "50.88",
    "market_cap": 101021515776
   },
   "ticker": "GSK",
@@ -4832,7 +4871,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 15376,
@@ -4871,7 +4910,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17138,
@@ -4940,7 +4979,7 @@
   "catalyst_date": "2026-11-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260512245445/en/PepGen-Reports-First-Quarter-2026-Financial-Results-and-Recent-Corporate-Highlights",
-  "is_big_mover": true,
+  "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
@@ -5012,7 +5051,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19745,
@@ -5046,7 +5085,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19823,
@@ -5326,10 +5365,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-reports-second-quarter-2026-financial-results-302844175.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_hedge_fund_avoid": true,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 13601,
@@ -5363,7 +5402,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19275,
@@ -5572,7 +5611,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16836,
@@ -5616,7 +5655,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 13472,
@@ -6371,7 +6410,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "150.81",
+   "last_price": "148.87",
    "market_cap": 60208766976
   },
   "ticker": "MRNA",
@@ -6477,8 +6516,8 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://ir.acimmune.com/news",
-  "is_big_mover": true,
-  "is_suspected_mover": false,
+  "is_big_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -6666,7 +6705,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16061,
@@ -7069,7 +7108,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/02/3355510/0/en/inventiva-announces-last-patient-visit-in-nativ3-phase-3-clinical-trial-of-lanifibranor-in-mash.html",
   "is_big_mover": false,
-  "is_suspected_mover": true,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -7220,10 +7259,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-reports-second-quarter-2026-financial-results-302844175.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_hedge_fund_avoid": true,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16737,
@@ -7262,7 +7301,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16751,
@@ -7384,7 +7423,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16917,
@@ -7545,7 +7584,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17073,
@@ -7750,7 +7789,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17139,
@@ -7789,7 +7828,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17153,
@@ -7955,7 +7994,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17191,
@@ -8033,7 +8072,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17194,
@@ -8594,7 +8633,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17333,
@@ -8960,7 +8999,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17485,
@@ -9289,7 +9328,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "56.56",
+   "last_price": "56.49",
    "market_cap": 5503746048
   },
   "ticker": "CRSP",
@@ -9587,7 +9626,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "150.81",
+   "last_price": "148.87",
    "market_cap": 60208766976
   },
   "ticker": "MRNA",
@@ -9707,7 +9746,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17903,
@@ -9824,7 +9863,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17983,
@@ -9863,7 +9902,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18021,
@@ -9902,14 +9941,14 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18029,
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "56.56",
+   "last_price": "56.49",
    "market_cap": 5503746048
   },
   "ticker": "CRSP",
@@ -10145,7 +10184,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18098,
@@ -10286,14 +10325,14 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18128,
   "company": {
    "ticker": "VYGR",
    "name": "Voyager Therapeutics",
-   "last_price": "3.54",
+   "last_price": "3.38",
    "market_cap": 218127536
   },
   "ticker": "VYGR",
@@ -10493,7 +10532,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "36.81",
+   "last_price": "36.36",
    "market_cap": 2356854528
   },
   "ticker": "KOD",
@@ -11251,7 +11290,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18444,
@@ -11652,7 +11691,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "150.81",
+   "last_price": "148.87",
    "market_cap": 60208766976
   },
   "ticker": "MRNA",
@@ -11871,7 +11910,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://ir.lyell.com/news-events/news-releases",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -12135,7 +12174,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "56.56",
+   "last_price": "56.49",
    "market_cap": 5503746048
   },
   "ticker": "CRSP",
@@ -13271,18 +13310,18 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260811021983/en/Zura-Bio-Reports-Second-Quarter-2026-Financial-Results-and-Recent-Corporate-Updates",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
+  "is_big_mover": true,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18963,
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "60.16",
+   "last_price": "60.40",
    "market_cap": 5825920512
   },
   "ticker": "XENE",
@@ -13316,7 +13355,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "60.16",
+   "last_price": "60.40",
    "market_cap": 5825920512
   },
   "ticker": "XENE",
@@ -13407,10 +13446,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/en/search/industry/biotechnology,pharmaceuticals,pharmaceuticals%20&%20biotechnology,health%20care,health%20care%20equipment%20&%20services/load/before?page=1&pageSize=50&_gl=1*1ncr9vj*_up*MQ..*_ga*MTU2NTE5NTI4MS4xNzg1OTY4OTI3*_ga_B6167QB2TF*czE3ODU5Njg4ODkkbzEkZzAkdDE3ODU5Njg5MjYkajIzJGwwJGgxNTM1NDI5NTgz*_ga_ERWPGTJ5X8*czE3ODU5Njg5MjYkbzEkZzAkdDE3ODU5Njg5MjYkajYwJGwwJGgw",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18993,
@@ -13542,8 +13581,8 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345256/0/en/helus-pharma-reports-first-quarter-fiscal-2027-financial-results-and-recent-business-highlights.html",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
+  "is_big_mover": true,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": true,
   "is_high_mgmt_interest": true
@@ -13853,11 +13892,11 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260511177742/en/Forte-Biosciences-Inc.-Announces-First-Quarter-2026-Results-and-Provides-Update",
-  "is_big_mover": true,
-  "is_suspected_mover": false,
+  "is_big_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19097,
@@ -13925,7 +13964,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19119,
@@ -14027,7 +14066,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19167,
@@ -14173,7 +14212,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19193,
@@ -14207,7 +14246,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19195,
@@ -14241,7 +14280,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19198,
@@ -14423,7 +14462,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "56.56",
+   "last_price": "56.49",
    "market_cap": 5503746048
   },
   "ticker": "CRSP",
@@ -14586,7 +14625,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19298,
@@ -14763,7 +14802,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "150.81",
+   "last_price": "148.87",
    "market_cap": 60208766976
   },
   "ticker": "MRNA",
@@ -14826,10 +14865,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-reports-second-quarter-2026-financial-results-302844175.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_hedge_fund_avoid": true,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19345,
@@ -15014,7 +15053,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19385,
@@ -15149,7 +15188,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19401,
@@ -15232,7 +15271,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19423,
@@ -15271,7 +15310,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19424,
@@ -15373,7 +15412,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19432,
@@ -15446,7 +15485,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19454,
@@ -15772,7 +15811,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19495,
@@ -15884,7 +15923,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19542,
@@ -16660,7 +16699,7 @@
   "company": {
    "ticker": "PFE",
    "name": "Pfizer",
-   "last_price": "28.61",
+   "last_price": "28.82",
    "market_cap": 165404524544
   },
   "ticker": "PFE",
@@ -17054,10 +17093,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/04/30/3285423/0/en/pacira-biosciences-reports-first-quarter-2026-financial-results.html",
   "is_big_mover": false,
-  "is_suspected_mover": true,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": true,
-  "is_high_mgmt_interest": true
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 20337,
@@ -17091,7 +17130,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20339,
@@ -17330,10 +17369,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340677/0/en/Agomab-Reports-Half-Year-2026-Financial-Results-and-Confirms-2026-Outlook.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20559,
@@ -17401,7 +17440,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20565,
@@ -17568,10 +17607,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-reports-second-quarter-2026-financial-results-302844175.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_hedge_fund_avoid": true,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20714,
@@ -17605,7 +17644,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20715,
@@ -17673,7 +17712,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20729,
@@ -17853,7 +17892,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 15126,
@@ -18043,7 +18082,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16443,
@@ -18074,7 +18113,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344063/0/en/atea-pharmaceuticals-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
   "is_big_mover": false,
-  "is_suspected_mover": true,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -18150,7 +18189,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16438,
@@ -18180,11 +18219,11 @@
   "catalyst_date": "2027-02-27",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260819883527/en/Zipalertinib-Plus-Chemotherapy-First-Line-Phase-3-REZILIENT3-Trial-Data-Selected-for-Presidential-Symposium-Presentation-at-the-IASLC-2026-World-Conference-on-Lung-Cancer",
-  "is_big_mover": true,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": true,
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 14211,
@@ -18259,7 +18298,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/10/3342186/0/en/olema-oncology-reports-second-quarter-2026-financial-and-operating-results.html",
   "is_big_mover": false,
-  "is_suspected_mover": true,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -18301,7 +18340,7 @@
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": true,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 16262,
@@ -18335,7 +18374,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16322,
@@ -18476,7 +18515,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16756,
@@ -18583,7 +18622,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17500,
@@ -18724,7 +18763,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17910,
@@ -18763,7 +18802,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17966,
@@ -18828,10 +18867,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340161/0/en/lexicon-pharmaceuticals-reports-second-quarter-2026-financial-results-and-provides-clinical-updates.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18594,
@@ -18943,7 +18982,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18903,
@@ -19351,7 +19390,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20413,
@@ -19385,7 +19424,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20547,
@@ -19562,7 +19601,7 @@
   "catalyst_date": "2027-04-14",
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/inhibrx-reports-second-quarter-2026-financial-results-302851356.html",
-  "is_big_mover": false,
+  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
@@ -19600,7 +19639,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16376,
@@ -19775,7 +19814,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 13603,
@@ -20011,7 +20050,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "60.16",
+   "last_price": "60.40",
    "market_cap": 5825920512
   },
   "ticker": "XENE",
@@ -20121,7 +20160,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 15975,
@@ -20420,8 +20459,8 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/10/3291475/0/en/moonlake-immunotherapeutics-announces-positive-outcome-from-its-final-pre-bla-meeting-with-the-u-s-fda-and-reports-first-quarter-2026-financial-results.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": true,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
  },
@@ -20532,10 +20571,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/03/3337854/0/en/keros-therapeutics-reports-second-quarter-2026-financial-results.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17556,
@@ -20786,7 +20825,7 @@
   "company": {
    "ticker": "XLO",
    "name": "Xilio Therapeutics",
-   "last_price": "8.84",
+   "last_price": "9.02",
    "market_cap": 58168552
   },
   "ticker": "XLO",
@@ -21076,7 +21115,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18818,
@@ -21363,7 +21402,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19154,
@@ -21496,8 +21535,8 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
   "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": true,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
  },
@@ -21574,7 +21613,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "4.71",
+   "last_price": "4.63",
    "market_cap": 268512416
   },
   "ticker": "WHWK",
@@ -21611,7 +21650,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19326,
@@ -21710,10 +21749,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340066/0/en/Cartesian-Therapeutics-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19442,
@@ -21754,7 +21793,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "4.71",
+   "last_price": "4.63",
    "market_cap": 268512416
   },
   "ticker": "WHWK",
@@ -21786,7 +21825,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19666,
@@ -22065,10 +22104,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260803578717/en/Seaport-Therapeutics-Reports-Second-Quarter-2026-Financial-Results-and-Highlights-Recent-Corporate-and-Clinical-Progress",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20585,
@@ -22170,7 +22209,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20695,
@@ -22521,7 +22560,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18008,
@@ -22674,7 +22713,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/11/3342597/0/en/bicara-therapeutics-reports-second-quarter-2026-progress-and-announces-strategic-leadership-transitions-marking-next-era-of-execution-and-growth.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
@@ -22852,7 +22891,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 13860,
@@ -23107,7 +23146,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "33.81",
+   "last_price": "33.98",
    "market_cap": 3907873280
   },
   "ticker": "VKTX",
@@ -23207,7 +23246,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17029,
@@ -23314,7 +23353,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17491,
@@ -23496,7 +23535,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "60.16",
+   "last_price": "60.40",
    "market_cap": 5825920512
   },
   "ticker": "XENE",
@@ -23674,7 +23713,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18073,
@@ -23825,7 +23864,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18361,
@@ -23942,14 +23981,14 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18533,
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "38.07",
+   "last_price": "38.00",
    "market_cap": 5226874368
   },
   "ticker": "DFTX",
@@ -23976,7 +24015,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18626,
@@ -24472,7 +24511,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19329,
@@ -25017,7 +25056,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19691,
@@ -25061,7 +25100,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19722,
@@ -25314,7 +25353,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20081,
@@ -25932,7 +25971,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20648,
@@ -26238,7 +26277,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20414,
@@ -26272,7 +26311,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16496,
@@ -26311,7 +26350,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18631,
@@ -26457,7 +26496,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18713,
@@ -26501,7 +26540,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18767,
@@ -26535,7 +26574,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18890,
@@ -26631,7 +26670,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19476,
@@ -26777,7 +26816,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19734,
@@ -26909,7 +26948,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18340,
@@ -27252,7 +27291,7 @@
   "company": {
    "ticker": "MBRX",
    "name": "Moleculin Biotech",
-   "last_price": "0.69",
+   "last_price": "0.68",
    "market_cap": 13517302
   },
   "ticker": "MBRX",
@@ -27486,7 +27525,7 @@
   "company": {
    "ticker": "GLSI",
    "name": "Greenwich LifeSciences",
-   "last_price": "15.74",
+   "last_price": "15.63",
    "market_cap": 231034992
   },
   "ticker": "GLSI",
@@ -27900,7 +27939,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "36.81",
+   "last_price": "36.36",
    "market_cap": 2356854528
   },
   "ticker": "KOD",
@@ -28928,7 +28967,7 @@
   "company": {
    "ticker": "GSK",
    "name": "GSK",
-   "last_price": "50.44",
+   "last_price": "50.88",
    "market_cap": 101021515776
   },
   "ticker": "GSK",
@@ -30701,7 +30740,7 @@
   "company": {
    "ticker": "CAMP",
    "name": "CAMP4 Therapeutics",
-   "last_price": "3.80",
+   "last_price": "4.49",
    "market_cap": 238462160
   },
   "ticker": "CAMP",

@@ -562,14 +562,14 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16170,
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "57.97",
+   "last_price": "58.13",
    "market_cap": 10192084992
   },
   "ticker": "IONS",
@@ -1423,7 +1423,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18148,
@@ -1761,10 +1761,10 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/tyra-biosciences-reports-second-quarter-2026-financial-results-and-recent-highlights-302842952.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": true,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18768,
@@ -2119,7 +2119,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19293,
@@ -2226,7 +2226,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 20071,
@@ -2294,7 +2294,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20405,
@@ -2396,7 +2396,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19892,
@@ -2632,7 +2632,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.91",
+   "last_price": "16.94",
    "market_cap": 19629418496
   },
   "ticker": "VTRS",
@@ -3078,7 +3078,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16659,
@@ -3561,7 +3561,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20568,
@@ -3634,7 +3634,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20660,
@@ -3860,7 +3860,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "57.97",
+   "last_price": "58.13",
    "market_cap": 10192084992
   },
   "ticker": "IONS",
@@ -4550,7 +4550,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17004,
@@ -4667,7 +4667,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16626,
@@ -4990,7 +4990,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "556.75",
+   "last_price": "557.96",
    "market_cap": 141114376192
   },
   "ticker": "VRTX",
@@ -5017,7 +5017,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19186,
@@ -5341,7 +5341,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.53",
+   "last_price": "5.34",
    "market_cap": 334358688
   },
   "ticker": "VNDA",
@@ -5443,7 +5443,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "29.04",
+   "last_price": "28.27",
    "market_cap": 2567336192
   },
   "ticker": "MLYS",
@@ -5550,7 +5550,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.91",
+   "last_price": "16.94",
    "market_cap": 19629418496
   },
   "ticker": "VTRS",
@@ -5699,7 +5699,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 13493,
@@ -6316,11 +6316,11 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340821/0/en/cellectis-reports-financial-results-for-the-second-quarter-2026.html",
-  "is_big_mover": false,
+  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_hedge_fund_avoid": true,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 15122,
@@ -6359,7 +6359,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 15161,
@@ -6605,7 +6605,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "57.97",
+   "last_price": "58.13",
    "market_cap": 10192084992
   },
   "ticker": "IONS",
@@ -6887,11 +6887,11 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/17/3345965/0/en/eyepoint-announces-topline-data-from-lugano-the-first-of-two-pivotal-phase-3-clinical-trials-for-duravyu-2-7mg-in-wet-amd.html",
-  "is_big_mover": false,
+  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16163,
@@ -7035,7 +7035,7 @@
   "company": {
    "ticker": "VTVT",
    "name": "vTv Therapeutics",
-   "last_price": "33.40",
+   "last_price": "33.47",
    "market_cap": 132061200
   },
   "ticker": "VTVT",
@@ -7194,7 +7194,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16417,
@@ -7228,14 +7228,14 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 16641,
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.53",
+   "last_price": "5.34",
    "market_cap": 334358688
   },
   "ticker": "VNDA",
@@ -7540,7 +7540,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17059,
@@ -8194,7 +8194,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17203,
@@ -8677,7 +8677,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17337,
@@ -8716,7 +8716,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17377,
@@ -9121,7 +9121,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17526,
@@ -9211,7 +9211,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "11.50",
+   "last_price": "11.45",
    "market_cap": 1945983488
   },
   "ticker": "VIR",
@@ -9536,7 +9536,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17796,
@@ -10191,7 +10191,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "8.00",
+   "last_price": "7.98",
    "market_cap": 726318848
   },
   "ticker": "VSTM",
@@ -10598,7 +10598,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18204,
@@ -11085,7 +11085,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18377,
@@ -11158,7 +11158,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18385,
@@ -11365,7 +11365,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "57.97",
+   "last_price": "58.13",
    "market_cap": 10192084992
   },
   "ticker": "IONS",
@@ -11964,7 +11964,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "11.50",
+   "last_price": "11.45",
    "market_cap": 1945983488
   },
   "ticker": "VIR",
@@ -12466,7 +12466,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "23.04",
+   "last_price": "22.96",
    "market_cap": 2580797952
   },
   "ticker": "VRDN",
@@ -12487,7 +12487,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18722,
@@ -12628,7 +12628,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18778,
@@ -12915,7 +12915,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18870,
@@ -13994,11 +13994,11 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344035/0/en/arrivent-biopharma-reports-second-quarter-2026-financial-results.html",
-  "is_big_mover": false,
+  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19156,
@@ -14353,7 +14353,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19220,
@@ -14836,7 +14836,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.53",
+   "last_price": "5.34",
    "market_cap": 334358688
   },
   "ticker": "VNDA",
@@ -15967,7 +15967,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19559,
@@ -16157,7 +16157,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19729,
@@ -16478,7 +16478,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20055,
@@ -16619,7 +16619,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 20093,
@@ -17198,14 +17198,14 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20519,
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "35.66",
+   "last_price": "34.99",
    "market_cap": 2569778432
   },
   "ticker": "VERA",
@@ -17244,7 +17244,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "35.66",
+   "last_price": "34.99",
    "market_cap": 2569778432
   },
   "ticker": "VERA",
@@ -17299,7 +17299,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20551,
@@ -17583,7 +17583,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.53",
+   "last_price": "5.34",
    "market_cap": 334358688
   },
   "ticker": "VNDA",
@@ -17678,7 +17678,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20728,
@@ -17785,7 +17785,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 13598,
@@ -18151,8 +18151,8 @@
   "catalyst_date": "2027-02-15",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340678/0/en/Tectonic-Therapeutic-Announces-Second-Quarter-2026-Financial-Results-and-Recent-Business-Highlights.html",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
+  "is_big_mover": true,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -18476,7 +18476,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16678,
@@ -18653,7 +18653,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344888/0/en/ars-pharmaceuticals-outlines-strategic-priorities-including-a-focused-commercial-strategy-and-reports-second-quarter-2026-financial-results.html",
   "is_big_mover": false,
-  "is_suspected_mover": true,
+  "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -19084,7 +19084,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19010,
@@ -19322,7 +19322,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20305,
@@ -19712,7 +19712,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 13887,
@@ -19746,7 +19746,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20439,
@@ -20167,7 +20167,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "24.76",
+   "last_price": "24.24",
    "market_cap": 1464858496
   },
   "ticker": "VOR",
@@ -20279,9 +20279,9 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/10/3342213/0/en/prokidney-reports-second-quarter-2026-financial-results-and-business-highlights.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
+  "is_hedge_fund_avoid": true,
   "is_high_mgmt_interest": true
  },
  {
@@ -20289,7 +20289,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "14.94",
+   "last_price": "14.70",
    "market_cap": 825348480
   },
   "ticker": "FDMT",
@@ -20535,7 +20535,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17536,
@@ -20620,7 +20620,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "24.76",
+   "last_price": "24.24",
    "market_cap": 1464858496
   },
   "ticker": "VOR",
@@ -20956,7 +20956,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260513295402/en/Alto-Neuroscience-Reports-First-Quarter-2026-Financial-Results-and-Recent-Business-Highlights",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
@@ -21151,17 +21151,17 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344913/0/en/macrogenics-reports-second-quarter-2026-financial-results-streamlined-operating-model-and-strengthened-financial-position.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18827,
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "24.76",
+   "last_price": "24.24",
    "market_cap": 1464858496
   },
   "ticker": "VOR",
@@ -21302,7 +21302,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.53",
+   "last_price": "5.34",
    "market_cap": 334358688
   },
   "ticker": "VNDA",
@@ -21409,7 +21409,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "24.76",
+   "last_price": "24.24",
    "market_cap": 1464858496
   },
   "ticker": "VOR",
@@ -21511,7 +21511,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "24.76",
+   "last_price": "24.24",
    "market_cap": 1464858496
   },
   "ticker": "VOR",
@@ -21579,7 +21579,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "24.76",
+   "last_price": "24.24",
    "market_cap": 1464858496
   },
   "ticker": "VOR",
@@ -21786,7 +21786,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19663,
@@ -22396,7 +22396,7 @@
   "company": {
    "ticker": "VRCA",
    "name": "Verrica Pharmaceuticals",
-   "last_price": "5.39",
+   "last_price": "5.36",
    "market_cap": 92593664
   },
   "ticker": "VRCA",
@@ -22635,7 +22635,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344049/0/en/allogene-therapeutics-reports-second-quarter-2026-financial-results-and-business-update.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -22750,7 +22750,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19122,
@@ -22853,7 +22853,7 @@
   "catalyst_date": "2027-08-15",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340196/0/en/alx-oncology-reports-second-quarter-2026-financial-results-and-provides-corporate-update.html",
-  "is_big_mover": false,
+  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
@@ -23212,7 +23212,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 16957,
@@ -23791,7 +23791,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18100,
@@ -23915,7 +23915,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "57.97",
+   "last_price": "58.13",
    "market_cap": 10192084992
   },
   "ticker": "IONS",
@@ -24477,7 +24477,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19305,
@@ -24944,7 +24944,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19657,
@@ -25387,7 +25387,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20204,
@@ -25820,7 +25820,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20513,
@@ -27627,7 +27627,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "35.66",
+   "last_price": "34.99",
    "market_cap": 2569778432
   },
   "ticker": "VERA",
@@ -28056,7 +28056,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "23.04",
+   "last_price": "22.96",
    "market_cap": 2580797952
   },
   "ticker": "VRDN",
@@ -28453,7 +28453,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17189,
@@ -30370,7 +30370,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "29.04",
+   "last_price": "28.27",
    "market_cap": 2567336192
   },
   "ticker": "MLYS",
@@ -31450,7 +31450,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.91",
+   "last_price": "16.94",
    "market_cap": 19629418496
   },
   "ticker": "VTRS",

@@ -1306,7 +1306,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 17573,
@@ -1584,7 +1584,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18503,
@@ -2363,11 +2363,11 @@
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345611/0/en/cue-biopharma-reports-second-quarter-2026-financial-results-and-recent-business-highlights.html",
-  "is_big_mover": false,
+  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20588,
@@ -3039,7 +3039,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16630,
@@ -3117,7 +3117,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 16659,
@@ -4550,7 +4550,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18895,
@@ -4804,9 +4804,9 @@
   "catalyst_date": "2026-11-22",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260824428528/en/Savara-Announces-Encore-Presentations-of-Results-from-the-Phase-3-Clinical-Trial-of-Molgramostim-Inhalation-Solution-Molgramostim-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-APAP-at-the-European-Respiratory-Society-ERS-Congress-2026/",
-  "is_big_mover": true,
+  "is_big_mover": false,
   "is_suspected_mover": false,
-  "is_hedge_fund_pick": true,
+  "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
  },
@@ -6891,7 +6891,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16118,
@@ -7148,7 +7148,7 @@
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/26/3301432/0/en/inventiva-reports-2026-first-quarter-financial-information.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
-  "is_hedge_fund_pick": true,
+  "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
  },
@@ -7508,7 +7508,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "9.32",
+   "last_price": "9.60",
    "market_cap": 615242944
   },
   "ticker": "RGNX",
@@ -10863,7 +10863,7 @@
   "company": {
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
-   "last_price": "22.59",
+   "last_price": "22.32",
    "market_cap": 3768441856
   },
   "ticker": "TNGX",
@@ -10980,7 +10980,7 @@
   "company": {
    "ticker": "QTTB",
    "name": "Q32 Bio ",
-   "last_price": "13.55",
+   "last_price": "13.59",
    "market_cap": 427489536
   },
   "ticker": "QTTB",
@@ -11837,7 +11837,7 @@
   "company": {
    "ticker": "OKUR",
    "name": "OnKure Therapeutics, Inc.",
-   "last_price": "3.56",
+   "last_price": "3.54",
    "market_cap": 144166848
   },
   "ticker": "OKUR",
@@ -11993,7 +11993,7 @@
   "company": {
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
-   "last_price": "22.59",
+   "last_price": "22.32",
    "market_cap": 3768441856
   },
   "ticker": "TNGX",
@@ -12539,7 +12539,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "22.58",
+   "last_price": "22.78",
    "market_cap": 2609121024
   },
   "ticker": "VRDN",
@@ -13394,7 +13394,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "60.56",
+   "last_price": "60.16",
    "market_cap": 5810425856
   },
   "ticker": "XENE",
@@ -13428,7 +13428,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "60.56",
+   "last_price": "60.16",
    "market_cap": 5810425856
   },
   "ticker": "XENE",
@@ -13658,7 +13658,7 @@
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": true,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19012,
@@ -14664,7 +14664,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 19290,
@@ -18121,7 +18121,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 18223,
@@ -18370,8 +18370,8 @@
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/10/3342186/0/en/olema-oncology-reports-second-quarter-2026-financial-and-operating-results.html",
-  "is_big_mover": true,
-  "is_suspected_mover": false,
+  "is_big_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
@@ -18481,7 +18481,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16490,
@@ -18515,7 +18515,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16597,
@@ -20123,7 +20123,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "60.56",
+   "last_price": "60.16",
    "market_cap": 5810425856
   },
   "ticker": "XENE",
@@ -20576,7 +20576,7 @@
   "company": {
    "ticker": "STOK",
    "name": "Stoke Therapeutics",
-   "last_price": "30.89",
+   "last_price": "30.50",
    "market_cap": 1993215488
   },
   "ticker": "STOK",
@@ -20654,7 +20654,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "46.66",
+   "last_price": "46.23",
    "market_cap": 3319876608
   },
   "ticker": "QURE",
@@ -21032,7 +21032,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18617,
@@ -22467,7 +22467,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 15046,
@@ -23076,7 +23076,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 13953,
@@ -23178,7 +23178,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
+  "is_high_mgmt_interest": true
  },
  {
   "id": 16231,
@@ -23574,7 +23574,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "60.56",
+   "last_price": "60.16",
    "market_cap": 5810425856
   },
   "ticker": "XENE",
@@ -23988,7 +23988,7 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "6.78",
+   "last_price": "6.93",
    "market_cap": 2331458304
   },
   "ticker": "NUVB",
@@ -27486,7 +27486,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "9.32",
+   "last_price": "9.60",
    "market_cap": 615242944
   },
   "ticker": "RGNX",
@@ -28095,7 +28095,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "22.58",
+   "last_price": "22.78",
    "market_cap": 2609121024
   },
   "ticker": "VRDN",
@@ -29284,7 +29284,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "46.66",
+   "last_price": "46.23",
    "market_cap": 3319876608
   },
   "ticker": "QURE",
@@ -29323,7 +29323,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "46.66",
+   "last_price": "46.23",
    "market_cap": 3319876608
   },
   "ticker": "QURE",
@@ -31543,7 +31543,7 @@
   "company": {
    "ticker": "BMRN",
    "name": "Biomarin Pharmaceutical Inc.",
-   "last_price": "64.84",
+   "last_price": "66.97",
    "market_cap": 12551321600
   },
   "ticker": "BMRN",

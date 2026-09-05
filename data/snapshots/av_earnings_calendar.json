@@ -1,14 +1,14 @@
 [
  {
-  "ticker": "ORCL",
-  "reportDate": "2026-09-08",
-  "estimate": "1.4",
-  "time": ""
- },
- {
   "ticker": "ADBE",
   "reportDate": "2026-09-10",
   "estimate": "4.86",
+  "time": "post-market"
+ },
+ {
+  "ticker": "ORCL",
+  "reportDate": "2026-09-10",
+  "estimate": "1.4",
   "time": "post-market"
  },
  {
@@ -20,14 +20,8 @@
  {
   "ticker": "COST",
   "reportDate": "2026-09-24",
-  "estimate": "6.51",
+  "estimate": "6.5",
   "time": "post-market"
- },
- {
-  "ticker": "NKE",
-  "reportDate": "2026-09-29",
-  "estimate": "0.44",
-  "time": ""
  },
  {
   "ticker": "MU",
@@ -36,9 +30,15 @@
   "time": "post-market"
  },
  {
+  "ticker": "NKE",
+  "reportDate": "2026-10-01",
+  "estimate": "0.45",
+  "time": "post-market"
+ },
+ {
   "ticker": "PEP",
   "reportDate": "2026-10-08",
-  "estimate": "2.31",
+  "estimate": "2.3",
   "time": "pre-market"
  },
  {
@@ -51,13 +51,13 @@
   "ticker": "GS",
   "reportDate": "2026-10-13",
   "estimate": "15.62",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "JNJ",
   "reportDate": "2026-10-13",
   "estimate": "2.95",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "JPM",
@@ -72,15 +72,15 @@
   "time": ""
  },
  {
+  "ticker": "BAC",
+  "reportDate": "2026-10-14",
+  "estimate": "1.18",
+  "time": "pre-market"
+ },
+ {
   "ticker": "SCHW",
   "reportDate": "2026-10-15",
   "estimate": "1.67",
-  "time": ""
- },
- {
-  "ticker": "AXP",
-  "reportDate": "2026-10-16",
-  "estimate": "4.58",
   "time": ""
  },
  {
@@ -132,12 +132,6 @@
   "time": ""
  },
  {
-  "ticker": "BAC",
-  "reportDate": "2026-10-21",
-  "estimate": "1.18",
-  "time": ""
- },
- {
   "ticker": "MS",
   "reportDate": "2026-10-21",
   "estimate": "3.01",
@@ -147,12 +141,12 @@
   "ticker": "T",
   "reportDate": "2026-10-21",
   "estimate": "0.62",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "HON",
   "reportDate": "2026-10-22",
-  "estimate": "2.15",
+  "estimate": "2.16",
   "time": ""
  },
  {
@@ -166,6 +160,12 @@
   "reportDate": "2026-10-22",
   "estimate": "3.43",
   "time": ""
+ },
+ {
+  "ticker": "AXP",
+  "reportDate": "2026-10-23",
+  "estimate": "4.58",
+  "time": "pre-market"
  },
  {
   "ticker": "PG",
@@ -242,7 +242,7 @@
  {
   "ticker": "VKTX",
   "reportDate": "2026-10-28",
-  "estimate": "1",
+  "estimate": "1.0",
   "time": ""
  },
  {

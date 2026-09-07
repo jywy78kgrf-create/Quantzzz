@@ -18085,6 +18085,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 18223,
+  "company": {
+   "ticker": "BLTE",
+   "name": "Belite Bio",
+   "last_price": "193.61",
+   "market_cap": 7797089792
+  },
+  "ticker": "BLTE",
+  "drug_name": "Tinlarebant (LBS-008) ",
+  "indications": [
+   {
+    "id": 2007,
+    "title": "Stargardt disease",
+    "nickname": "STGD1"
+   }
+  ],
+  "indications_text": "Stargardt disease",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "05/20/26:- NDA completion remains on track for Q2 2026; commercial leadership hiring completed. 06/12/26:- Rolling NDA submission completed. FDA 60-day filing review underway; acceptance decision expected by Aug 11, 2026 (est). 07/06/26:- Phase 3 DRAGON topline results to be presented July 8 and July 18, 2026. 07/20/26:- Ph3 DRAGON qAF secondary endpoint data presented at ASRS 2026. NDA filing decision expected Aug 11, 2026 (est). 08/11/26:- FDA accepted NDA; priority review granted. PDUFA action date set for February 12, 2027. 08/12/26:- DRAGON quantitative autofluorescence secondary endpoint data showed benefit at month 25. PDUFA decision is expected February 12, 2027.",
+  "catalyst_date": "2027-02-12",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344190/0/en/belite-bio-reports-unaudited-second-quarter-2026-financial-results-and-provides-a-corporate-update.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 16443,
   "company": {
    "ticker": "AVIR",

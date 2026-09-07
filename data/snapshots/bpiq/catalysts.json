@@ -18260,6 +18260,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 20836,
+  "company": {
+   "ticker": "APMD",
+   "name": "Apnimed",
+   "last_price": "27.45",
+   "market_cap": 1142556416
+  },
+  "ticker": "APMD",
+  "drug_name": "AD109 (proposed brand: Oxnimbi)",
+  "indications": [
+   {
+    "id": 2222,
+    "title": "Obstructive sleep apnea ",
+    "nickname": "OSA"
+   }
+  ],
+  "indications_text": "Obstructive sleep apnea",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "07/14/26:- FDA accepted AD109 NDA for adults with OSA; PDUFA set for 02/28/27. NDA supported by positive Ph3 SynAIRgy and LunAIRo trials.",
+  "catalyst_date": "2027-02-28",
+  "has_catalyst": true,
+  "catalyst_source": "https://ir.apnimed.com/news-releases/news-release-details/apnimed-announces-fda-acceptance-new-drug-application-ad109",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 14211,
   "company": {
    "ticker": "CNSY",
@@ -22380,6 +22414,40 @@
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344336/0/en/parabilis-medicines-reports-second-quarter-2026-financial-results-and-provides-business-updates.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20835,
+  "company": {
+   "ticker": "SCTX",
+   "name": "Scribe Therapeutics",
+   "last_price": "28.67",
+   "market_cap": 542771264
+  },
+  "ticker": "SCTX",
+  "drug_name": "STX-1150",
+  "indications": [
+   {
+    "id": 1329,
+    "title": "Hypercholesterolemia",
+    "nickname": " "
+   }
+  ],
+  "indications_text": "Hypercholesterolemia",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "9/2/26: Ph1 initiated mid-2026; recruiting up to 64 adults. Initial SAD safety, tolerability and LDL-C-lowering data expected H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://investors.scribetx.com/news-releases/news-release-details/scribe-therapeutics-reports-second-quarter-2026-financial",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

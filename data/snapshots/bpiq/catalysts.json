@@ -243,7 +243,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "1.96",
+   "last_price": "2.08",
    "market_cap": 120280928
   },
   "ticker": "CNTB",
@@ -393,6 +393,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 18698,
+  "company": {
+   "ticker": "ELDN",
+   "name": "Eledon Pharmaceuticals",
+   "last_price": "2.93",
+   "market_cap": 238095184
+  },
+  "ticker": "ELDN",
+  "drug_name": "Tegoprubart (AT-1501)",
+  "indications": [
+   {
+    "id": 718,
+    "title": "Kidney transplantation",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Kidney transplantation",
+  "stage_event": {
+   "id": 122,
+   "label": "Phase 1b Data readout",
+   "stage_label": "Phase 1b",
+   "event_label": "Data readout"
+  },
+  "note": "8/6/25- Updated data presented. 11/14/25:- Long-term data in 2026. 01/23/26:- 24-month Ph1b kidney transplant data for eight patients presented at ASTS 2026; favorable safety and eGFR. 03/19/26:- 24-month Ph1b kidney extension data reiterated; continued favorable safety and renal function, no acute rejection reported. 05/13/26:- 24-month Ph1b extension data described; additional long-term kidney transplant data from Ph1b expected in 2026. 06/22/26:- Long-term Ph1b kidney transplant follow-up consistent with BESTOW; 16 patients, eight to 24 months. 08/13/26:- PR No update. 09/09/26:- Oral long-term kidney transplant data presented at TTS Sept 20\u201323, 2026.",
+  "catalyst_date": "2026-09-20",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358508/0/en/eledon-pharmaceuticals-announces-presentation-at-the-international-congress-of-the-transplantation-society.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 13527,
@@ -583,7 +617,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.81",
+   "last_price": "39.00",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -1002,7 +1036,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.33",
+   "last_price": "1.09",
    "market_cap": 451016832
   },
   "ticker": "OCGN",
@@ -1489,7 +1523,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "1.96",
+   "last_price": "2.08",
    "market_cap": 120280928
   },
   "ticker": "CNTB",
@@ -2360,7 +2394,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.54",
+   "last_price": "16.46",
    "market_cap": 19078094848
   },
   "ticker": "VTRS",
@@ -4495,40 +4529,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 20631,
-  "company": {
-   "ticker": "GSK",
-   "name": "GSK",
-   "last_price": "48.54",
-   "market_cap": 97216184320
-  },
-  "ticker": "GSK",
-  "drug_name": "Neladalkib (NVL-655) (ALK Inhibitor)",
-  "indications": [
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "ALK-Altered Non-Small Cell Lung Cancer",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "07/22/26:- FDA decision for neladalkib in ALK-altered NSCLC due November 27, 2026.",
-  "catalyst_date": "2026-11-27",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer-302832452.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 236,
   "company": {
    "ticker": "AGT-236",
@@ -4556,6 +4556,40 @@
   "catalyst_date": "2026-09-29",
   "has_catalyst": true,
   "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20631,
+  "company": {
+   "ticker": "GSK",
+   "name": "GSK",
+   "last_price": "48.54",
+   "market_cap": 97216184320
+  },
+  "ticker": "GSK",
+  "drug_name": "Neladalkib (NVL-655) (ALK Inhibitor)",
+  "indications": [
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   }
+  ],
+  "indications_text": "ALK-Altered Non-Small Cell Lung Cancer",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "07/22/26:- FDA decision for neladalkib in ALK-altered NSCLC due November 27, 2026.",
+  "catalyst_date": "2026-11-27",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer-302832452.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5273,7 +5307,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.54",
+   "last_price": "16.46",
    "market_cap": 19078094848
   },
   "ticker": "VTRS",
@@ -5576,7 +5610,7 @@
   "company": {
    "ticker": "LTRN",
    "name": "Lantern Pharma",
-   "last_price": "1.84",
+   "last_price": "1.82",
    "market_cap": 23522830
   },
   "ticker": "LTRN",
@@ -6450,7 +6484,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "13.93",
+   "last_price": "13.24",
    "market_cap": 1171804800
   },
   "ticker": "CRVS",
@@ -6724,7 +6758,7 @@
   "company": {
    "ticker": "VTVT",
    "name": "vTv Therapeutics",
-   "last_price": "32.79",
+   "last_price": "33.40",
    "market_cap": 129649304
   },
   "ticker": "VTVT",
@@ -7314,7 +7348,7 @@
   "company": {
    "ticker": "INMB",
    "name": "INmune Bio",
-   "last_price": "2.51",
+   "last_price": "2.54",
    "market_cap": 69662008
   },
   "ticker": "INMB",
@@ -9017,7 +9051,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "54.78",
+   "last_price": "53.84",
    "market_cap": 5296823808
   },
   "ticker": "CRSP",
@@ -9637,7 +9671,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "54.78",
+   "last_price": "53.84",
    "market_cap": 5296823808
   },
   "ticker": "CRSP",
@@ -9705,7 +9739,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "25.33",
+   "last_price": "25.32",
    "market_cap": 1883371648
   },
   "ticker": "XNCR",
@@ -9846,7 +9880,7 @@
   "company": {
    "ticker": "AZTR",
    "name": "Azitra",
-   "last_price": "0.17",
+   "last_price": "0.18",
    "market_cap": 10423844
   },
   "ticker": "AZTR",
@@ -9914,7 +9948,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "13.93",
+   "last_price": "13.24",
    "market_cap": 1171804800
   },
   "ticker": "CRVS",
@@ -10021,7 +10055,7 @@
   "company": {
    "ticker": "VYGR",
    "name": "Voyager Therapeutics",
-   "last_price": "3.40",
+   "last_price": "3.25",
    "market_cap": 209501024
   },
   "ticker": "VYGR",
@@ -10815,7 +10849,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.81",
+   "last_price": "39.00",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -11161,7 +11195,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "25.33",
+   "last_price": "25.32",
    "market_cap": 1883371648
   },
   "ticker": "XNCR",
@@ -11829,7 +11863,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "54.78",
+   "last_price": "53.84",
    "market_cap": 5296823808
   },
   "ticker": "CRSP",
@@ -12976,7 +13010,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "58.91",
+   "last_price": "58.85",
    "market_cap": 5766847488
   },
   "ticker": "XENE",
@@ -13010,7 +13044,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "58.91",
+   "last_price": "58.85",
    "market_cap": 5766847488
   },
   "ticker": "XENE",
@@ -13694,7 +13728,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "43.21",
+   "last_price": "41.95",
    "market_cap": 2879492096
   },
   "ticker": "GPCR",
@@ -13874,7 +13908,7 @@
   "company": {
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
-   "last_price": "20.94",
+   "last_price": "22.19",
    "market_cap": 2211830016
   },
   "ticker": "SRPT",
@@ -13908,7 +13942,7 @@
   "company": {
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
-   "last_price": "20.94",
+   "last_price": "22.19",
    "market_cap": 2211830016
   },
   "ticker": "SRPT",
@@ -14117,7 +14151,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "54.78",
+   "last_price": "53.84",
    "market_cap": 5296823808
   },
   "ticker": "CRSP",
@@ -17925,7 +17959,7 @@
   "company": {
    "ticker": "APMD",
    "name": "Apnimed",
-   "last_price": "28.79",
+   "last_price": "27.89",
    "market_cap": 1198331520
   },
   "ticker": "APMD",
@@ -18188,7 +18222,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.33",
+   "last_price": "1.09",
    "market_cap": 451016832
   },
   "ticker": "OCGN",
@@ -19891,7 +19925,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "58.91",
+   "last_price": "58.85",
    "market_cap": 5766847488
   },
   "ticker": "XENE",
@@ -20008,7 +20042,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "25.10",
+   "last_price": "23.78",
    "market_cap": 1484973696
   },
   "ticker": "VOR",
@@ -20130,7 +20164,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "14.63",
+   "last_price": "14.32",
    "market_cap": 808222848
   },
   "ticker": "FDMT",
@@ -20461,7 +20495,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "25.10",
+   "last_price": "23.78",
    "market_cap": 1484973696
   },
   "ticker": "VOR",
@@ -20914,7 +20948,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "43.21",
+   "last_price": "41.95",
    "market_cap": 2879492096
   },
   "ticker": "GPCR",
@@ -21036,7 +21070,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "25.10",
+   "last_price": "23.78",
    "market_cap": 1484973696
   },
   "ticker": "VOR",
@@ -21284,7 +21318,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "25.10",
+   "last_price": "23.78",
    "market_cap": 1484973696
   },
   "ticker": "VOR",
@@ -21386,7 +21420,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "25.10",
+   "last_price": "23.78",
    "market_cap": 1484973696
   },
   "ticker": "VOR",
@@ -21454,7 +21488,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "25.10",
+   "last_price": "23.78",
    "market_cap": 1484973696
   },
   "ticker": "VOR",
@@ -21488,7 +21522,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "4.39",
+   "last_price": "4.21",
    "market_cap": 250269536
   },
   "ticker": "WHWK",
@@ -21668,7 +21702,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "4.39",
+   "last_price": "4.21",
    "market_cap": 250269536
   },
   "ticker": "WHWK",
@@ -21707,7 +21741,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "25.33",
+   "last_price": "25.32",
    "market_cap": 1883371648
   },
   "ticker": "XNCR",
@@ -22705,7 +22739,7 @@
   "company": {
    "ticker": "ABVX",
    "name": "Abivax",
-   "last_price": "117.22",
+   "last_price": "118.53",
    "market_cap": 10378839040
   },
   "ticker": "ABVX",
@@ -23094,7 +23128,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "33.68",
+   "last_price": "33.04",
    "market_cap": 3928870912
   },
   "ticker": "VKTX",
@@ -23483,7 +23517,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "58.91",
+   "last_price": "58.85",
    "market_cap": 5766847488
   },
   "ticker": "XENE",
@@ -26509,7 +26543,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "43.21",
+   "last_price": "41.95",
    "market_cap": 2879492096
   },
   "ticker": "GPCR",
@@ -26548,7 +26582,7 @@
   "company": {
    "ticker": "ALNY",
    "name": "Alnylam Pharmaceuticals",
-   "last_price": "255.37",
+   "last_price": "255.45",
    "market_cap": 34803752960
   },
   "ticker": "ALNY",
@@ -28364,7 +28398,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.81",
+   "last_price": "39.00",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -29305,7 +29339,7 @@
   "company": {
    "ticker": "AZTR",
    "name": "Azitra",
-   "last_price": "0.17",
+   "last_price": "0.18",
    "market_cap": 10423844
   },
   "ticker": "AZTR",
@@ -29738,7 +29772,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.81",
+   "last_price": "39.00",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -30133,7 +30167,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.81",
+   "last_price": "39.00",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -30489,40 +30523,6 @@
    "event_label": "Update"
   },
   "note": "05/14/26:- SPOTLIGHT data informed CSU dosing analysis. No CIndU timeline disclosed. 08/14/26:- PR No update.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 18698,
-  "company": {
-   "ticker": "ELDN",
-   "name": "Eledon Pharmaceuticals",
-   "last_price": "2.93",
-   "market_cap": 238095184
-  },
-  "ticker": "ELDN",
-  "drug_name": "Tegoprubart (AT-1501)",
-  "indications": [
-   {
-    "id": 718,
-    "title": "Kidney transplantation",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Kidney transplantation",
-  "stage_event": {
-   "id": 119,
-   "label": "Phase 1b Update",
-   "stage_label": "Phase 1b",
-   "event_label": "Update"
-  },
-  "note": "8/6/25- Updated data presented. 11/14/25:- Long-term data in 2026. 01/23/26:- 24-month Ph1b kidney transplant data for eight patients presented at ASTS 2026; favorable safety and eGFR. 03/19/26:- 24-month Ph1b kidney extension data reiterated; continued favorable safety and renal function, no acute rejection reported. 05/13/26:- 24-month Ph1b extension data described; additional long-term kidney transplant data from Ph1b expected in 2026. 06/22/26:- Long-term Ph1b kidney transplant follow-up consistent with BESTOW; 16 patients, eight to 24 months. 08/13/26:- PR No update.",
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "",
@@ -31685,7 +31685,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.54",
+   "last_price": "16.46",
    "market_cap": 19078094848
   },
   "ticker": "VTRS",

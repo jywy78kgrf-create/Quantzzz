@@ -583,7 +583,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "39.12",
+   "last_price": "38.81",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -3447,7 +3447,7 @@
   "company": {
    "ticker": "CMPX",
    "name": "Compass Therapeutics",
-   "last_price": "2.20",
+   "last_price": "2.19",
    "market_cap": 397994304
   },
   "ticker": "CMPX",
@@ -3949,7 +3949,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.44",
+   "last_price": "3.25",
    "market_cap": 1844772480
   },
   "ticker": "RXRX",
@@ -4285,7 +4285,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "4.60",
+   "last_price": "4.51",
    "market_cap": 885334592
   },
   "ticker": "ANNX",
@@ -4352,45 +4352,6 @@
   "catalyst_date": "2026-11-15",
   "has_catalyst": true,
   "catalyst_source": "https://ir.fractyl.com/news-events/news-releases/",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
-  "id": 18888,
-  "company": {
-   "ticker": "PYXS",
-   "name": "Pyxis Oncology",
-   "last_price": "3.57",
-   "market_cap": 324457312
-  },
-  "ticker": "PYXS",
-  "drug_name": "Micvotabart pelidotin (MICVO, formerly PYX-201)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1040,
-    "title": "Head and neck squamous cell carcinoma",
-    "nickname": "HNSCC"
-   }
-  ],
-  "indications_text": "Cancer, 2L/3L R/M HNSCC [Arms: EGFRi+PD(L)-1-experienced; platinum/PD(L)-1-experienced]",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "PYX-201-101 trial. 11/3/25- Preliminary clinical data in Q4 2025. 11/03/25:- Q4 25 prelim mono Ph1 data 12/18/25:- New Ph1 monotherapy data in 2L+ R/M HNSCC; updated durability data planned Mid-2026. 03/23/26:- Ph1 mono expansion enrollment completed; updated 2L+ HNSCC data mid-2026; preclinical maMICVO AACR 2026 data upcoming. 05/14/26:- Mid-2026 MICVO monotherapy Ph1 2L+ R/M HNSCC update on track; AACR 2026 maMICVO combo data presented. 08/13/26:- Phase 1 PYX-201-101 monotherapy data in 2L+ R/M HNSCC will be reported in Fall 2026.",
-  "catalyst_date": "2026-11-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344366/0/en/pyxis-oncology-reports-second-quarter-2026-financial-results-and-advances-micvo-toward-key-2026-clinical-milestones.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -4534,40 +4495,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-09-29",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 20631,
   "company": {
    "ticker": "GSK",
@@ -4595,6 +4522,40 @@
   "catalyst_date": "2026-11-27",
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer-302832452.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-09-29",
+  "has_catalyst": true,
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -4893,7 +4854,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.41",
+   "last_price": "25.37",
    "market_cap": 2852684800
   },
   "ticker": "ZLAB",
@@ -5688,7 +5649,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "4.60",
+   "last_price": "4.51",
    "market_cap": 885334592
   },
   "ticker": "ANNX",
@@ -7197,7 +7158,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "8.76",
+   "last_price": "8.86",
    "market_cap": 578275584
   },
   "ticker": "RGNX",
@@ -8695,7 +8656,7 @@
   "company": {
    "ticker": "CMPX",
    "name": "Compass Therapeutics",
-   "last_price": "2.20",
+   "last_price": "2.19",
    "market_cap": 397994304
   },
   "ticker": "CMPX",
@@ -8734,7 +8695,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "12.31",
+   "last_price": "12.17",
    "market_cap": 1113787008
   },
   "ticker": "KURA",
@@ -8778,7 +8739,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "12.31",
+   "last_price": "12.17",
    "market_cap": 1113787008
   },
   "ticker": "KURA",
@@ -9339,10 +9300,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- CARLYSLE supported 50M-cell Phase 2 dose; longer-term SLE data expected by YE 2026. 08/11/26:- CARLYSLE SLE data submitted for ACR Q4 2026; longer follow-up expected by YE 2026.",
+  "note": "05/14/26:- CARLYSLE supported 50M-cell Phase 2 dose; longer-term SLE data expected by YE 2026. 08/11/26:- CARLYSLE SLE data submitted for ACR Q4 2026; longer follow-up expected by YE 2026. 09/09/26:- FDA granted RMAT designation for obe-cel in SLE and LN.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/03/3337385/0/en/autolus-therapeutics-reports-preliminary-second-quarter-2026-net-product-revenue-and-announces-credit-facility-of-up-to-250-million-with-perceptive-advisors.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358486/0/en/autolus-therapeutics-announces-fda-rmat-designation-granted-to-obe-cel-for-the-treatment-of-systemic-lupus-erythematosus-and-lupus-nephritis.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -10820,7 +10781,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.44",
+   "last_price": "3.25",
    "market_cap": 1844772480
   },
   "ticker": "RXRX",
@@ -10854,7 +10815,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "39.12",
+   "last_price": "38.81",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -10947,7 +10908,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "12.31",
+   "last_price": "12.17",
    "market_cap": 1113787008
   },
   "ticker": "KURA",
@@ -10986,7 +10947,7 @@
   "company": {
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
-   "last_price": "25.45",
+   "last_price": "25.33",
    "market_cap": 2771207936
   },
   "ticker": "BEAM",
@@ -11707,7 +11668,7 @@
   "company": {
    "ticker": "PBYI",
    "name": "Puma Biotechnology",
-   "last_price": "9.39",
+   "last_price": "9.08",
    "market_cap": 484712416
   },
   "ticker": "PBYI",
@@ -11785,7 +11746,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "32.91",
+   "last_price": "32.52",
    "market_cap": 2154090752
   },
   "ticker": "ZBIO",
@@ -12116,7 +12077,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "12.31",
+   "last_price": "12.17",
    "market_cap": 1113787008
   },
   "ticker": "KURA",
@@ -12188,7 +12149,7 @@
   "company": {
    "ticker": "CMPX",
    "name": "Compass Therapeutics",
-   "last_price": "2.20",
+   "last_price": "2.19",
    "market_cap": 397994304
   },
   "ticker": "CMPX",
@@ -12499,10 +12460,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "upLIFT trial. 5/5/25- Breakthrough Therapy Designation. 9/2/25- Alignment with FDA. Study initiated & enrolling patients in U.S. and Europe. Topline data in H2 2026. 01/07/26:- EAP tumor HI data show 75% discontinuing IV dextrose/TPN; upLIFT topline results still expected H2 2026. 02/12/26:- upLIFT Ph3 enrolling; topline results still expected in H2 2026. 05/12/26:- upLIFT Ph3 enrollment continues; topline tumor HI results still expected H2 2026. 06/02/26:- upLIFT 50% enrolled; 6/8 responders; topline still expected H2 2026. 06/04/26:- ENDO Jun 13 poster presents compassionate-use tumor HI case series. Topline upLIFT results still expected H2 2026. 06/17/26:- ENDO poster showed tumor HI EAP case series; interim upLIFT observations discussed; topline still expected H2 2026.",
+  "note": "upLIFT trial. 5/5/25- Breakthrough Therapy Designation. 9/2/25- Alignment with FDA. Study initiated & enrolling patients in U.S. and Europe. Topline data in H2 2026. 01/07/26:- EAP tumor HI data show 75% discontinuing IV dextrose/TPN; upLIFT topline results still expected H2 2026. 02/12/26:- upLIFT Ph3 enrolling; topline results still expected in H2 2026. 05/12/26:- upLIFT Ph3 enrollment continues; topline tumor HI results still expected H2 2026. 06/02/26:- upLIFT 50% enrolled; 6/8 responders; topline still expected H2 2026. 06/04/26:- ENDO Jun 13 poster presents compassionate-use tumor HI case series. Topline upLIFT results still expected H2 2026. 06/17/26:- ENDO poster showed tumor HI EAP case series; interim upLIFT observations discussed; topline still expected H2 2026. 09/09/26:- upLIFT Ph3 enrollment ongoing; topline tumor HI results expected by end of 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/17/3313313/0/en/rezolute-highlights-results-presented-from-natural-history-outcomes-studies-and-its-ersodetug-clinical-program-in-hyperinsulinism-at-annual-meeting-of-the-endocrine-society.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358488/0/en/rezolute-provides-update-on-fda-review-of-its-phase-3-sunrize-study-results-in-congenital-hyperinsulinism.html",
   "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -12981,7 +12942,7 @@
   "company": {
    "ticker": "ZURA",
    "name": "Zura Bio",
-   "last_price": "6.13",
+   "last_price": "5.75",
    "market_cap": 587432640
   },
   "ticker": "ZURA",
@@ -13218,7 +13179,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.41",
+   "last_price": "25.37",
    "market_cap": 2852684800
   },
   "ticker": "ZLAB",
@@ -13359,7 +13320,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.41",
+   "last_price": "25.37",
    "market_cap": 2852684800
   },
   "ticker": "ZLAB",
@@ -15707,7 +15668,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "28.11",
+   "last_price": "27.55",
    "market_cap": 2010124800
   },
   "ticker": "ZYME",
@@ -16320,7 +16281,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "32.91",
+   "last_price": "32.52",
    "market_cap": 2154090752
   },
   "ticker": "ZBIO",
@@ -17034,34 +16995,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 20539,
-  "company": {
-   "ticker": "SPTX",
-   "name": "Seaport Therapeutics",
-   "last_price": "24.06",
-   "market_cap": 1287945088
-  },
-  "ticker": "SPTX",
-  "drug_name": "GlyphAllo/Glyph Allopregnanolone (SPT-300) (Neuroactive Steroid)",
-  "indications": [],
-  "indications_text": "Driving Safety In Healthy Volunteers",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "06/08/26:- First participant dosed in driving simulation trial; Ph1 data expected H2 2026. 08/03/26:- Driving simulation trial remains on track. Topline data expected H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260608629588/en/Seaport-Therapeutics-Reports-First-Quarter-2026-Financial-Results-and-Highlights-Recent-Corporate-and-Clinical-Progress",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 20551,
@@ -18026,7 +17959,7 @@
   "company": {
    "ticker": "NTLA",
    "name": "Intellia Therapeutics",
-   "last_price": "12.74",
+   "last_price": "12.31",
    "market_cap": 1785213952
   },
   "ticker": "NTLA",
@@ -19165,6 +19098,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 20219,
+  "company": {
+   "ticker": "AZN",
+   "name": "Astrazeneca",
+   "last_price": "158.04",
+   "market_cap": 248205361152
+  },
+  "ticker": "AZN",
+  "drug_name": "Tozorakimab (MEDI3506) (IL-33 Antibody)",
+  "indications": [
+   {
+    "id": 781,
+    "title": "Chronic obstructive pulmonary disease",
+    "nickname": "COPD"
+   }
+  ],
+  "indications_text": "Chronic Obstructive Pulmonary Disease",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "04/28/26:- OBERON, TITANIA and MIRANDA met endpoints; PROSPERO missed endpoint in COPD. 09/08/26:- FDA accepted BLA for COPD; Priority Review. PDUFA expected in Q1 2027.",
+  "catalyst_date": "2027-03-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b61654335/tozorakimab-demonstrated-statistically-significant-and-highly-clinically-meaningful-reduction-copd-e",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 20305,
   "company": {
    "ticker": "TEVA",
@@ -19627,7 +19594,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "32.91",
+   "last_price": "32.52",
    "market_cap": 2154090752
   },
   "ticker": "ZBIO",
@@ -19768,7 +19735,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.44",
+   "last_price": "3.25",
    "market_cap": 1844772480
   },
   "ticker": "RXRX",
@@ -20309,7 +20276,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "14.32",
+   "last_price": "14.04",
    "market_cap": 1271493888
   },
   "ticker": "MLTX",
@@ -20455,7 +20422,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "45.68",
+   "last_price": "46.23",
    "market_cap": 3168657920
   },
   "ticker": "QURE",
@@ -20528,7 +20495,7 @@
   "company": {
    "ticker": "ENLV",
    "name": "Enlivex Therapeutics",
-   "last_price": "1.11",
+   "last_price": "1.05",
    "market_cap": 19408864
   },
   "ticker": "ENLV",
@@ -20567,7 +20534,7 @@
   "company": {
    "ticker": "ZNTL",
    "name": "Zentalis Pharmaceuticals",
-   "last_price": "4.03",
+   "last_price": "3.88",
    "market_cap": 381527840
   },
   "ticker": "ZNTL",
@@ -20908,7 +20875,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.44",
+   "last_price": "3.25",
    "market_cap": 1844772480
   },
   "ticker": "RXRX",
@@ -21103,7 +21070,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.44",
+   "last_price": "3.25",
    "market_cap": 1844772480
   },
   "ticker": "RXRX",
@@ -21774,7 +21741,7 @@
   "company": {
    "ticker": "ZURA",
    "name": "Zura Bio",
-   "last_price": "6.13",
+   "last_price": "5.75",
    "market_cap": 587432640
   },
   "ticker": "ZURA",
@@ -22124,7 +22091,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.41",
+   "last_price": "25.37",
    "market_cap": 2852684800
   },
   "ticker": "ZLAB",
@@ -22661,6 +22628,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 18888,
+  "company": {
+   "ticker": "PYXS",
+   "name": "Pyxis Oncology",
+   "last_price": "3.57",
+   "market_cap": 324457312
+  },
+  "ticker": "PYXS",
+  "drug_name": "Micvotabart pelidotin (MICVO, formerly PYX-201)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1040,
+    "title": "Head and neck squamous cell carcinoma",
+    "nickname": "HNSCC"
+   }
+  ],
+  "indications_text": "Cancer, 2L/3L R/M HNSCC [Arms: EGFRi+PD(L)-1-experienced; platinum/PD(L)-1-experienced]",
+  "stage_event": {
+   "id": 78,
+   "label": "Phase 3 Initiation",
+   "stage_label": "Phase 3",
+   "event_label": "Initiation"
+  },
+  "note": "PYX-201-101 trial. 11/3/25- Preliminary clinical data in Q4 2025. 11/03/25:- Q4 25 prelim mono Ph1 data 12/18/25:- New Ph1 monotherapy data in 2L+ R/M HNSCC; updated durability data planned Mid-2026. 03/23/26:- Ph1 mono expansion enrollment completed; updated 2L+ HNSCC data mid-2026; preclinical maMICVO AACR 2026 data upcoming. 05/14/26:- Mid-2026 MICVO monotherapy Ph1 2L+ R/M HNSCC update on track; AACR 2026 maMICVO combo data presented. 08/13/26:- Phase 1 PYX-201-101 monotherapy data in 2L+ R/M HNSCC will be reported in Fall 2026. 09/09/26:- Reported confirmed 36% ORR in 2L+ R/M HNSCC. Phase 3 Headliner trial planned Mid-2027.",
+  "catalyst_date": "2027-08-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358487/0/en/pyxis-oncology-announces-positive-updated-data-from-phase-1-monotherapy-study-of-micvotabart-pelidotin-micvo-in-second-line-and-beyond-recurrent-metastatic-head-and-neck-squamous-c.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 18953,
   "company": {
    "ticker": "ANRO",
@@ -22699,7 +22705,7 @@
   "company": {
    "ticker": "ABVX",
    "name": "Abivax",
-   "last_price": "117.51",
+   "last_price": "117.22",
    "market_cap": 10378839040
   },
   "ticker": "ABVX",
@@ -24037,7 +24043,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.44",
+   "last_price": "3.25",
    "market_cap": 1844772480
   },
   "ticker": "RXRX",
@@ -26576,7 +26582,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "12.31",
+   "last_price": "12.17",
    "market_cap": 1113787008
   },
   "ticker": "KURA",
@@ -26620,7 +26626,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "12.31",
+   "last_price": "12.17",
    "market_cap": 1113787008
   },
   "ticker": "KURA",
@@ -26891,10 +26897,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "05/14/26:- LUMINA is enrolling after FDA alignment; Phase 2 LN data remains expected in 2028. 08/11/26:- LUMINA continues enrolling in five countries; Phase 2 LN data expected in 2028.",
+  "note": "05/14/26:- LUMINA is enrolling after FDA alignment; Phase 2 LN data remains expected in 2028. 08/11/26:- LUMINA continues enrolling in five countries; Phase 2 LN data expected in 2028. 09/09/26:- FDA granted RMAT designation for obe-cel in LN and SLE.",
   "catalyst_date": "2028-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/03/3337385/0/en/autolus-therapeutics-reports-preliminary-second-quarter-2026-net-product-revenue-and-announces-credit-facility-of-up-to-250-million-with-perceptive-advisors.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358486/0/en/autolus-therapeutics-announces-fda-rmat-designation-granted-to-obe-cel-for-the-treatment-of-systemic-lupus-erythematosus-and-lupus-nephritis.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -27564,7 +27570,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "8.76",
+   "last_price": "8.86",
    "market_cap": 578275584
   },
   "ticker": "RGNX",
@@ -27676,7 +27682,7 @@
   "company": {
    "ticker": "MIST",
    "name": "Milestone Pharmaceuticals",
-   "last_price": "1.13",
+   "last_price": "1.09",
    "market_cap": 140060224
   },
   "ticker": "MIST",
@@ -28358,7 +28364,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "39.12",
+   "last_price": "38.81",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -29406,7 +29412,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "45.68",
+   "last_price": "46.23",
    "market_cap": 3168657920
   },
   "ticker": "QURE",
@@ -29445,7 +29451,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "45.68",
+   "last_price": "46.23",
    "market_cap": 3168657920
   },
   "ticker": "QURE",
@@ -29732,7 +29738,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "39.12",
+   "last_price": "38.81",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -29766,7 +29772,7 @@
   "company": {
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
-   "last_price": "25.45",
+   "last_price": "25.33",
    "market_cap": 2771207936
   },
   "ticker": "BEAM",
@@ -30127,7 +30133,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "39.12",
+   "last_price": "38.81",
    "market_cap": 3072075264
   },
   "ticker": "CLDX",
@@ -30424,7 +30430,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "32.91",
+   "last_price": "32.52",
    "market_cap": 2154090752
   },
   "ticker": "ZBIO",
@@ -30531,7 +30537,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "14.32",
+   "last_price": "14.04",
    "market_cap": 1271493888
   },
   "ticker": "MLTX",
@@ -32211,40 +32217,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 20219,
-  "company": {
-   "ticker": "AZN",
-   "name": "Astrazeneca",
-   "last_price": "158.04",
-   "market_cap": 248205361152
-  },
-  "ticker": "AZN",
-  "drug_name": "Tozorakimab (MEDI3506) (IL-33 Antibody)",
-  "indications": [
-   {
-    "id": 781,
-    "title": "Chronic obstructive pulmonary disease",
-    "nickname": "COPD"
-   }
-  ],
-  "indications_text": "Chronic Obstructive Pulmonary Disease",
-  "stage_event": {
-   "id": 80,
-   "label": "Phase 3 Update",
-   "stage_label": "Phase 3",
-   "event_label": "Update"
-  },
-  "note": "04/28/26:- OBERON, TITANIA and MIRANDA met endpoints; PROSPERO missed endpoint in COPD.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260428491257/en/AstraZeneca-results-Q1-2026",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 20397,
   "company": {
    "ticker": "AZN",
@@ -32347,11 +32319,39 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 20539,
+  "company": {
+   "ticker": "SPTX",
+   "name": "Seaport Therapeutics",
+   "last_price": "24.06",
+   "market_cap": 1287945088
+  },
+  "ticker": "SPTX",
+  "drug_name": "GlyphAllo/Glyph Allopregnanolone (SPT-300) (Neuroactive Steroid)",
+  "indications": [],
+  "indications_text": "Driving Safety In Healthy Volunteers",
+  "stage_event": {
+   "id": 113,
+   "label": "Phase 1 Update",
+   "stage_label": "Phase 1",
+   "event_label": "Update"
+  },
+  "note": "06/08/26:- First participant dosed in driving simulation trial; Ph1 data expected H2 2026. 08/03/26:- Driving simulation trial remains on track. Topline data expected H2 2026. 09/09/26:- Positive Ph1 topline results reported in driving simulation trial.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260909055068/en/Seaport-Therapeutics-Reports-Positive-Topline-Results-from-Phase-1-Driving-Simulation-Trial-of-GlyphAllo%E2%84%A2-in-Healthy-Volunteers/",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 20688,
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.41",
+   "last_price": "25.37",
    "market_cap": 2852684800
   },
   "ticker": "ZLAB",

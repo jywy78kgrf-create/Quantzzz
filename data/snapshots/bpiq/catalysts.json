@@ -360,7 +360,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.62",
+   "last_price": "14.76",
    "market_cap": 1467002368
   },
   "ticker": "RARE",
@@ -399,7 +399,7 @@
   "company": {
    "ticker": "ELDN",
    "name": "Eledon Pharmaceuticals",
-   "last_price": "2.93",
+   "last_price": "2.85",
    "market_cap": 238095184
   },
   "ticker": "ELDN",
@@ -487,7 +487,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "99.53",
+   "last_price": "99.66",
    "market_cap": 6069461504
   },
   "ticker": "MIRM",
@@ -521,7 +521,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.40",
+   "last_price": "126.48",
    "market_cap": 25215600640
   },
   "ticker": "INCY",
@@ -555,7 +555,7 @@
   "company": {
    "ticker": "BFRI",
    "name": "Biofrontera",
-   "last_price": "1.60",
+   "last_price": "1.58",
    "market_cap": 23169680
   },
   "ticker": "BFRI",
@@ -695,7 +695,7 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "57.42",
+   "last_price": "54.76",
    "market_cap": 6992910336
   },
   "ticker": "SRRK",
@@ -1338,7 +1338,7 @@
   "company": {
    "ticker": "VALN",
    "name": "Valneva SE",
-   "last_price": "6.85",
+   "last_price": "6.86",
    "market_cap": 649540672
   },
   "ticker": "VALN",
@@ -1805,7 +1805,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "64.69",
+   "last_price": "64.66",
    "market_cap": 132143210496
   },
   "ticker": "BMY",
@@ -1839,7 +1839,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "99.53",
+   "last_price": "99.66",
    "market_cap": 6069461504
   },
   "ticker": "MIRM",
@@ -1872,40 +1872,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 20071,
-  "company": {
-   "ticker": "EVMN",
-   "name": "Evommune",
-   "last_price": "11.01",
-   "market_cap": 474700832
-  },
-  "ticker": "EVMN",
-  "drug_name": "EVO756 (MRGPRX2 Antagonist)",
-  "indications": [
-   {
-    "id": 1395,
-    "title": "Atopic dermatitis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Moderate-To-Severe Atopic Dermatitis",
-  "stage_event": {
-   "id": 146,
-   "label": "Phase 2b Data readout",
-   "stage_label": "Phase 2b",
-   "event_label": "Data readout"
-  },
-  "note": "03/05/26:- Ph2b AD dose-ranging trial enrolling; topline data expected H2 2026. 05/07/26:- Ph2b AD trial enrollment complete; topline data on track for Q3 2026. 08/06/26:- Ph2b AD top-line data expected in September 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260806006411/en/Evommune-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Highlights",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 20230,
@@ -3622,7 +3588,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "55.85",
+   "last_price": "56.39",
    "market_cap": 9424312320
   },
   "ticker": "IONS",
@@ -3734,7 +3700,7 @@
   "company": {
    "ticker": "INO",
    "name": "Inovio Pharmaceuticals",
-   "last_price": "1.37",
+   "last_price": "1.36",
    "market_cap": 146824480
   },
   "ticker": "INO",
@@ -4529,40 +4495,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-09-29",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 20631,
   "company": {
    "ticker": "GSK",
@@ -4590,6 +4522,40 @@
   "catalyst_date": "2026-11-27",
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer-302832452.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-09-29",
+  "has_catalyst": true,
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5098,7 +5064,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.33",
+   "last_price": "5.26",
    "market_cap": 322266112
   },
   "ticker": "VNDA",
@@ -5825,7 +5791,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "64.69",
+   "last_price": "64.66",
    "market_cap": 132143210496
   },
   "ticker": "BMY",
@@ -6328,7 +6294,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "55.85",
+   "last_price": "56.39",
    "market_cap": 9424312320
   },
   "ticker": "IONS",
@@ -6958,7 +6924,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.33",
+   "last_price": "5.26",
    "market_cap": 322266112
   },
   "ticker": "VNDA",
@@ -7724,7 +7690,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.62",
+   "last_price": "14.76",
    "market_cap": 1467002368
   },
   "ticker": "RARE",
@@ -8363,7 +8329,7 @@
   "company": {
    "ticker": "BLRX",
    "name": "BioLineRx",
-   "last_price": "2.59",
+   "last_price": "2.56",
    "market_cap": 12558886
   },
   "ticker": "BLRX",
@@ -8607,7 +8573,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.40",
+   "last_price": "126.48",
    "market_cap": 25215600640
   },
   "ticker": "INCY",
@@ -8934,7 +8900,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "11.18",
+   "last_price": "10.82",
    "market_cap": 1891834000
   },
   "ticker": "VIR",
@@ -10562,7 +10528,7 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "57.42",
+   "last_price": "54.76",
    "market_cap": 6992910336
   },
   "ticker": "SRRK",
@@ -11088,7 +11054,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "55.85",
+   "last_price": "56.39",
    "market_cap": 9424312320
   },
   "ticker": "IONS",
@@ -11341,7 +11307,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "14.77",
+   "last_price": "14.60",
    "market_cap": 1391624064
   },
   "ticker": "REPL",
@@ -11419,7 +11385,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "9.07",
+   "last_price": "9.11",
    "market_cap": 2316425728
   },
   "ticker": "BCRX",
@@ -11492,7 +11458,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "15.90",
+   "last_price": "15.21",
    "market_cap": 913236480
   },
   "ticker": "CLYM",
@@ -11653,7 +11619,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "11.18",
+   "last_price": "10.82",
    "market_cap": 1891834000
   },
   "ticker": "VIR",
@@ -12155,7 +12121,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "23.17",
+   "last_price": "23.01",
    "market_cap": 2624982016
   },
   "ticker": "VRDN",
@@ -12290,7 +12256,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "39.57",
+   "last_price": "38.77",
    "market_cap": 8173289984
   },
   "ticker": "IMVT",
@@ -13456,7 +13422,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "497.97",
+   "last_price": "506.02",
    "market_cap": 21358278656
   },
   "ticker": "UTHR",
@@ -13762,7 +13728,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.40",
+   "last_price": "126.48",
    "market_cap": 25215600640
   },
   "ticker": "INCY",
@@ -13976,7 +13942,7 @@
   "company": {
    "ticker": "BINV",
    "name": "BioInvent International AB",
-   "last_price": "44.72",
+   "last_price": "44.16",
    "market_cap": null
   },
   "ticker": "BINV",
@@ -14525,7 +14491,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.33",
+   "last_price": "5.26",
    "market_cap": 322266112
   },
   "ticker": "VNDA",
@@ -15147,7 +15113,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "39.57",
+   "last_price": "38.77",
    "market_cap": 8173289984
   },
   "ticker": "IMVT",
@@ -15507,7 +15473,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "99.53",
+   "last_price": "99.66",
    "market_cap": 6069461504
   },
   "ticker": "MIRM",
@@ -15994,7 +15960,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.40",
+   "last_price": "126.48",
    "market_cap": 25215600640
   },
   "ticker": "INCY",
@@ -16281,7 +16247,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "26.81",
+   "last_price": "26.32",
    "market_cap": 3045016320
   },
   "ticker": "IMNM",
@@ -16495,7 +16461,7 @@
   "company": {
    "ticker": "MAZE",
    "name": "Maze Therapeutics",
-   "last_price": "26.14",
+   "last_price": "24.50",
    "market_cap": 1464831616
   },
   "ticker": "MAZE",
@@ -16792,7 +16758,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "15.90",
+   "last_price": "15.21",
    "market_cap": 913236480
   },
   "ticker": "CLYM",
@@ -16826,7 +16792,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "15.90",
+   "last_price": "15.21",
    "market_cap": 913236480
   },
   "ticker": "CLYM",
@@ -16962,7 +16928,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "35.28",
+   "last_price": "34.34",
    "market_cap": 2542394368
   },
   "ticker": "VERA",
@@ -17001,7 +16967,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "35.28",
+   "last_price": "34.34",
    "market_cap": 2542394368
   },
   "ticker": "VERA",
@@ -17312,7 +17278,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.33",
+   "last_price": "5.26",
    "market_cap": 322266112
   },
   "ticker": "VNDA",
@@ -17993,7 +17959,7 @@
   "company": {
    "ticker": "NTLA",
    "name": "Intellia Therapeutics",
-   "last_price": "12.31",
+   "last_price": "12.35",
    "market_cap": 1785213952
   },
   "ticker": "NTLA",
@@ -18290,7 +18256,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "99.53",
+   "last_price": "99.66",
    "market_cap": 6069461504
   },
   "ticker": "MIRM",
@@ -18470,7 +18436,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "14.77",
+   "last_price": "14.60",
    "market_cap": 1391624064
   },
   "ticker": "REPL",
@@ -19453,7 +19419,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "26.81",
+   "last_price": "26.32",
    "market_cap": 3045016320
   },
   "ticker": "IMNM",
@@ -19487,7 +19453,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "497.97",
+   "last_price": "506.02",
    "market_cap": 21358278656
   },
   "ticker": "UTHR",
@@ -19594,7 +19560,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "64.69",
+   "last_price": "64.66",
    "market_cap": 132143210496
   },
   "ticker": "BMY",
@@ -19662,7 +19628,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "497.97",
+   "last_price": "506.02",
    "market_cap": 21358278656
   },
   "ticker": "UTHR",
@@ -20344,7 +20310,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.62",
+   "last_price": "14.76",
    "market_cap": 1467002368
   },
   "ticker": "RARE",
@@ -20456,7 +20422,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "46.23",
+   "last_price": "46.62",
    "market_cap": 3168657920
   },
   "ticker": "QURE",
@@ -21211,7 +21177,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "5.33",
+   "last_price": "5.26",
    "market_cap": 322266112
   },
   "ticker": "VNDA",
@@ -21955,7 +21921,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "15.90",
+   "last_price": "15.21",
    "market_cap": 913236480
   },
   "ticker": "CLYM",
@@ -22339,7 +22305,7 @@
   "company": {
    "ticker": "VRCA",
    "name": "Verrica Pharmaceuticals",
-   "last_price": "5.26",
+   "last_price": "5.14",
    "market_cap": 90360432
   },
   "ticker": "VRCA",
@@ -22948,7 +22914,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "9.07",
+   "last_price": "9.11",
    "market_cap": 2316425728
   },
   "ticker": "BCRX",
@@ -23128,7 +23094,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "33.04",
+   "last_price": "32.82",
    "market_cap": 3928870912
   },
   "ticker": "VKTX",
@@ -23449,7 +23415,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "497.97",
+   "last_price": "506.02",
    "market_cap": 21358278656
   },
   "ticker": "UTHR",
@@ -23897,7 +23863,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "55.85",
+   "last_price": "56.39",
    "market_cap": 9424312320
   },
   "ticker": "IONS",
@@ -24043,7 +24009,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "39.57",
+   "last_price": "38.77",
    "market_cap": 8173289984
   },
   "ticker": "IMVT",
@@ -24150,7 +24116,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "99.53",
+   "last_price": "99.66",
    "market_cap": 6069461504
   },
   "ticker": "MIRM",
@@ -24364,7 +24330,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "39.57",
+   "last_price": "38.77",
    "market_cap": 8173289984
   },
   "ticker": "IMVT",
@@ -26164,7 +26130,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "15.90",
+   "last_price": "15.21",
    "market_cap": 913236480
   },
   "ticker": "CLYM",
@@ -26300,7 +26266,7 @@
   "company": {
    "ticker": "VOGX",
    "name": "Vogenx",
-   "last_price": "32.00",
+   "last_price": "30.63",
    "market_cap": 475362784
   },
   "ticker": "VOGX",
@@ -26738,7 +26704,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "39.57",
+   "last_price": "38.77",
    "market_cap": 8173289984
   },
   "ticker": "IMVT",
@@ -26980,7 +26946,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "39.57",
+   "last_price": "38.77",
    "market_cap": 8173289984
   },
   "ticker": "IMVT",
@@ -27648,7 +27614,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "39.57",
+   "last_price": "38.77",
    "market_cap": 8173289984
   },
   "ticker": "IMVT",
@@ -27784,7 +27750,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "35.28",
+   "last_price": "34.34",
    "market_cap": 2542394368
   },
   "ticker": "VERA",
@@ -28257,7 +28223,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "23.17",
+   "last_price": "23.01",
    "market_cap": 2624982016
   },
   "ticker": "VRDN",
@@ -28593,7 +28559,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.62",
+   "last_price": "14.76",
    "market_cap": 1467002368
   },
   "ticker": "RARE",
@@ -28627,7 +28593,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.62",
+   "last_price": "14.76",
    "market_cap": 1467002368
   },
   "ticker": "RARE",
@@ -29446,7 +29412,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "46.23",
+   "last_price": "46.62",
    "market_cap": 3168657920
   },
   "ticker": "QURE",
@@ -29485,7 +29451,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "46.23",
+   "last_price": "46.62",
    "market_cap": 3168657920
   },
   "ticker": "QURE",
@@ -30425,7 +30391,7 @@
   "company": {
    "ticker": "URGN",
    "name": "UroGen Pharma",
-   "last_price": "43.82",
+   "last_price": "44.91",
    "market_cap": 2141701888
   },
   "ticker": "URGN",
@@ -30897,7 +30863,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "9.07",
+   "last_price": "9.11",
    "market_cap": 2316425728
   },
   "ticker": "BCRX",
@@ -31471,7 +31437,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "64.69",
+   "last_price": "64.66",
    "market_cap": 132143210496
   },
   "ticker": "BMY",
@@ -31948,7 +31914,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "64.69",
+   "last_price": "64.66",
    "market_cap": 132143210496
   },
   "ticker": "BMY",
@@ -32020,6 +31986,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20071,
+  "company": {
+   "ticker": "EVMN",
+   "name": "Evommune",
+   "last_price": "11.01",
+   "market_cap": 474700832
+  },
+  "ticker": "EVMN",
+  "drug_name": "EVO756 (MRGPRX2 Antagonist)",
+  "indications": [
+   {
+    "id": 1395,
+    "title": "Atopic dermatitis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Moderate-To-Severe Atopic Dermatitis",
+  "stage_event": {
+   "id": 143,
+   "label": "Phase 2b Update",
+   "stage_label": "Phase 2b",
+   "event_label": "Update"
+  },
+  "note": "03/05/26:- Ph2b AD dose-ranging trial enrolling; topline data expected H2 2026. 05/07/26:- Ph2b AD trial enrollment complete; topline data on track for Q3 2026. 08/06/26:- Ph2b AD top-line data expected in September 2026. 09/09/26:- Ph2b topline results announced.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260908697408/en/Evommune-Announces-Top-line-Results-from-EVO756-Phase-2b-Trial-in-Moderate-to-Severe-Atopic-Dermatitis/",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20076,

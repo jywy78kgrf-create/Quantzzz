@@ -1,44 +1,5 @@
 [
  {
-  "id": 17271,
-  "company": {
-   "ticker": "GRI",
-   "name": "GRI Bio Inc.",
-   "last_price": "1.93",
-   "market_cap": 4372230
-  },
-  "ticker": "GRI",
-  "drug_name": "GRI-0621",
-  "indications": [
-   {
-    "id": 1294,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   },
-   {
-    "id": 1325,
-    "title": "Lung disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis (IPF)",
-  "stage_event": {
-   "id": 134,
-   "label": "Phase 2a Data readout",
-   "stage_label": "Phase 2a",
-   "event_label": "Data readout"
-  },
-  "note": "05/14/26:- Ph2a GRI-0621-IPF-02 data showed zero cough, lower diarrhea, and no active-arm SAEs. 06/18/26:- FDA granted Orphan Drug Designation for IPF. Ph2a GRI-0621-IPF-02 (NCT06331624) met endpoints. 08/24/26:- ERS 2026 presentation of Ph2a GRI-0621-IPF-02 data Sept 5-9, 2026. 09/08/26:- Whole blood RNA-seq showed coordinated gene changes supporting antifibrotic, antitussive, and gastrointestinal protective effects.",
-  "catalyst_date": "2026-09-05",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/08/3357628/0/en/gri-bio-presents-new-phase-2a-data-at-ers-2026-defining-gri-0621-s-mechanism-of-action-in-ipf-across-nine-mechanistic-pillars.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18007,
   "company": {
    "ticker": "IRON",
@@ -349,6 +310,40 @@
   "catalyst_date": "2026-09-15",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/01/3353953/0/en/blossomhill-therapeutics-to-present-updated-data-from-ongoing-phase-1-2-solara-trial-of-its-macrocyclic-omni-egfr-inhibitor-bh-30643-in-egfr-mutant-nsclc-at-the-2026-world-conferen.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20401,
+  "company": {
+   "ticker": "FATE",
+   "name": "Fate Therapeutics",
+   "last_price": "2.50",
+   "market_cap": 299551296
+  },
+  "ticker": "FATE",
+  "drug_name": "FT819 (CD19 CAR T-Cell)",
+  "indications": [
+   {
+    "id": 1218,
+    "title": "Lupus nephritis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Lupus Nephritis",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/13/26:- RECLAIM-LN Phase 2 lupus nephritis trial of FT819 plans dosing start in H2 2026. 08/14/26:- RECLAIM-LN Ph2 dosed first patient outpatient. Enrollment completion expected in H1 2028. 09/09/26:- Clinical FT819 data will be presented at CCR-West on September 17-20, 2026.",
+  "catalyst_date": "2026-09-17",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358477/24675/en/fate-therapeutics-announces-encore-clinical-data-presentation-of-ft819-off-the-shelf-car-t-cell-product-candidate-at-the-ccr-west-2026-meeting.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -695,7 +690,7 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "54.54",
+   "last_price": "54.62",
    "market_cap": 6992910336
   },
   "ticker": "SRRK",
@@ -1109,7 +1104,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "38.18",
+   "last_price": "37.93",
    "market_cap": 5136848384
   },
   "ticker": "DFTX",
@@ -1265,7 +1260,7 @@
   "company": {
    "ticker": "IVVD",
    "name": "INVIVYD",
-   "last_price": "0.79",
+   "last_price": "0.80",
    "market_cap": 243411776
   },
   "ticker": "IVVD",
@@ -1625,7 +1620,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "30.31",
+   "last_price": "30.39",
    "market_cap": 594300736
   },
   "ticker": "TECX",
@@ -1703,7 +1698,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "7.70",
+   "last_price": "7.61",
    "market_cap": 499076576
   },
   "ticker": "KYTX",
@@ -2209,7 +2204,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "8.00",
+   "last_price": "8.07",
    "market_cap": 731752576
   },
   "ticker": "VSTM",
@@ -2248,7 +2243,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "8.00",
+   "last_price": "8.07",
    "market_cap": 731752576
   },
   "ticker": "VSTM",
@@ -2287,7 +2282,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "8.00",
+   "last_price": "8.07",
    "market_cap": 731752576
   },
   "ticker": "VSTM",
@@ -2769,7 +2764,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.49",
+   "last_price": "38.46",
    "market_cap": 3747651840
   },
   "ticker": "IDYA",
@@ -2847,7 +2842,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.49",
+   "last_price": "38.46",
    "market_cap": 3747651840
   },
   "ticker": "IDYA",
@@ -2969,7 +2964,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.49",
+   "last_price": "38.46",
    "market_cap": 3747651840
   },
   "ticker": "IDYA",
@@ -3018,7 +3013,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.49",
+   "last_price": "38.46",
    "market_cap": 3747651840
   },
   "ticker": "IDYA",
@@ -3783,7 +3778,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "43.52",
+   "last_price": "43.89",
    "market_cap": 2211319296
   },
   "ticker": "RAPP",
@@ -4212,7 +4207,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "73.95",
+   "last_price": "73.99",
    "market_cap": 10475414528
   },
   "ticker": "CYTK",
@@ -4246,7 +4241,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "17.51",
+   "last_price": "17.54",
    "market_cap": 13785114624
   },
   "ticker": "SMMT",
@@ -4397,7 +4392,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "8.81",
+   "last_price": "8.64",
    "market_cap": 526739264
   },
   "ticker": "CAPR",
@@ -4431,7 +4426,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "5.40",
+   "last_price": "5.42",
    "market_cap": 1136193920
   },
   "ticker": "SVRA",
@@ -4601,7 +4596,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "34.16",
+   "last_price": "34.14",
    "market_cap": 6121960960
   },
   "ticker": "COGT",
@@ -5307,7 +5302,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "34.16",
+   "last_price": "34.14",
    "market_cap": 6121960960
   },
   "ticker": "COGT",
@@ -5967,7 +5962,7 @@
   "company": {
    "ticker": "CLLS",
    "name": "Cellectis",
-   "last_price": "3.08",
+   "last_price": "3.13",
    "market_cap": 318215840
   },
   "ticker": "CLLS",
@@ -6494,7 +6489,7 @@
   "company": {
    "ticker": "TCRX",
    "name": "TScan Therapeutics",
-   "last_price": "0.34",
+   "last_price": "0.33",
    "market_cap": 23370288
   },
   "ticker": "TCRX",
@@ -7158,7 +7153,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "8.86",
+   "last_price": "8.73",
    "market_cap": 578275584
   },
   "ticker": "RGNX",
@@ -8329,7 +8324,7 @@
   "company": {
    "ticker": "BLRX",
    "name": "BioLineRx",
-   "last_price": "2.56",
+   "last_price": "2.55",
    "market_cap": 12558886
   },
   "ticker": "BLRX",
@@ -8373,7 +8368,7 @@
   "company": {
    "ticker": "CLLS",
    "name": "Cellectis",
-   "last_price": "3.08",
+   "last_price": "3.13",
    "market_cap": 318215840
   },
   "ticker": "CLLS",
@@ -9705,7 +9700,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "25.32",
+   "last_price": "24.94",
    "market_cap": 1883371648
   },
   "ticker": "XNCR",
@@ -9880,7 +9875,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "8.00",
+   "last_price": "8.07",
    "market_cap": 731752576
   },
   "ticker": "VSTM",
@@ -10138,7 +10133,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "17.51",
+   "last_price": "17.54",
    "market_cap": 13785114624
   },
   "ticker": "SMMT",
@@ -10294,7 +10289,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "7.70",
+   "last_price": "7.61",
    "market_cap": 499076576
   },
   "ticker": "KYTX",
@@ -10528,7 +10523,7 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "54.54",
+   "last_price": "54.62",
    "market_cap": 6992910336
   },
   "ticker": "SRRK",
@@ -10562,7 +10557,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "36.75",
+   "last_price": "36.85",
    "market_cap": 42836283392
   },
   "ticker": "TEVA",
@@ -10596,7 +10591,7 @@
   "company": {
    "ticker": "QTTB",
    "name": "Q32 Bio ",
-   "last_price": "11.69",
+   "last_price": "11.14",
    "market_cap": 348005056
   },
   "ticker": "QTTB",
@@ -10986,7 +10981,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "36.75",
+   "last_price": "36.85",
    "market_cap": 42836283392
   },
   "ticker": "TEVA",
@@ -11161,7 +11156,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "25.32",
+   "last_price": "24.94",
    "market_cap": 1883371648
   },
   "ticker": "XNCR",
@@ -12577,7 +12572,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "43.52",
+   "last_price": "43.89",
    "market_cap": 2211319296
   },
   "ticker": "RAPP",
@@ -13874,7 +13869,7 @@
   "company": {
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
-   "last_price": "22.19",
+   "last_price": "22.02",
    "market_cap": 2211830016
   },
   "ticker": "SRPT",
@@ -13908,7 +13903,7 @@
   "company": {
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
-   "last_price": "22.19",
+   "last_price": "22.02",
    "market_cap": 2211830016
   },
   "ticker": "SRPT",
@@ -14185,7 +14180,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "7.70",
+   "last_price": "7.61",
    "market_cap": 499076576
   },
   "ticker": "KYTX",
@@ -14389,7 +14384,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "7.70",
+   "last_price": "7.61",
    "market_cap": 499076576
   },
   "ticker": "KYTX",
@@ -14811,7 +14806,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.49",
+   "last_price": "38.46",
    "market_cap": 3747651840
   },
   "ticker": "IDYA",
@@ -16495,7 +16490,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.49",
+   "last_price": "38.46",
    "market_cap": 3747651840
   },
   "ticker": "IDYA",
@@ -16529,7 +16524,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.49",
+   "last_price": "38.46",
    "market_cap": 3747651840
   },
   "ticker": "IDYA",
@@ -17818,7 +17813,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "30.31",
+   "last_price": "30.39",
    "market_cap": 594300736
   },
   "ticker": "TECX",
@@ -18509,7 +18504,7 @@
   "company": {
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
-   "last_price": "8.95",
+   "last_price": "8.69",
    "market_cap": 270785408
   },
   "ticker": "RNAC",
@@ -19136,7 +19131,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "36.75",
+   "last_price": "36.85",
    "market_cap": 42836283392
   },
   "ticker": "TEVA",
@@ -19307,7 +19302,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "18.32",
+   "last_price": "18.23",
    "market_cap": 58504974336
   },
   "ticker": "TAK",
@@ -19940,7 +19935,7 @@
   "company": {
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
-   "last_price": "87.22",
+   "last_price": "82.77",
    "market_cap": 3827474944
   },
   "ticker": "TARS",
@@ -20310,7 +20305,7 @@
   "company": {
    "ticker": "STOK",
    "name": "Stoke Therapeutics",
-   "last_price": "30.05",
+   "last_price": "29.92",
    "market_cap": 1939013504
   },
   "ticker": "STOK",
@@ -20461,7 +20456,7 @@
   "company": {
    "ticker": "ENLV",
    "name": "Enlivex Therapeutics",
-   "last_price": "1.05",
+   "last_price": "1.04",
    "market_cap": 19408864
   },
   "ticker": "ENLV",
@@ -20914,7 +20909,7 @@
   "company": {
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
-   "last_price": "8.95",
+   "last_price": "8.69",
    "market_cap": 270785408
   },
   "ticker": "RNAC",
@@ -21070,7 +21065,7 @@
   "company": {
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
-   "last_price": "87.22",
+   "last_price": "82.77",
    "market_cap": 3827474944
   },
   "ticker": "TARS",
@@ -21216,7 +21211,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "19.10",
+   "last_price": "18.36",
    "market_cap": 316700384
   },
   "ticker": "STRO",
@@ -21566,7 +21561,7 @@
   "company": {
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
-   "last_price": "8.95",
+   "last_price": "8.69",
    "market_cap": 270785408
   },
   "ticker": "RNAC",
@@ -21673,7 +21668,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "25.32",
+   "last_price": "24.94",
    "market_cap": 1883371648
   },
   "ticker": "XNCR",
@@ -21921,7 +21916,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "24.06",
+   "last_price": "21.75",
    "market_cap": 1287945088
   },
   "ticker": "SPTX",
@@ -22592,45 +22587,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 18888,
-  "company": {
-   "ticker": "PYXS",
-   "name": "Pyxis Oncology",
-   "last_price": "3.57",
-   "market_cap": 324457312
-  },
-  "ticker": "PYXS",
-  "drug_name": "Micvotabart pelidotin (MICVO, formerly PYX-201)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1040,
-    "title": "Head and neck squamous cell carcinoma",
-    "nickname": "HNSCC"
-   }
-  ],
-  "indications_text": "Cancer, 2L/3L R/M HNSCC [Arms: EGFRi+PD(L)-1-experienced; platinum/PD(L)-1-experienced]",
-  "stage_event": {
-   "id": 78,
-   "label": "Phase 3 Initiation",
-   "stage_label": "Phase 3",
-   "event_label": "Initiation"
-  },
-  "note": "PYX-201-101 trial. 11/3/25- Preliminary clinical data in Q4 2025. 11/03/25:- Q4 25 prelim mono Ph1 data 12/18/25:- New Ph1 monotherapy data in 2L+ R/M HNSCC; updated durability data planned Mid-2026. 03/23/26:- Ph1 mono expansion enrollment completed; updated 2L+ HNSCC data mid-2026; preclinical maMICVO AACR 2026 data upcoming. 05/14/26:- Mid-2026 MICVO monotherapy Ph1 2L+ R/M HNSCC update on track; AACR 2026 maMICVO combo data presented. 08/13/26:- Phase 1 PYX-201-101 monotherapy data in 2L+ R/M HNSCC will be reported in Fall 2026. 09/09/26:- Reported confirmed 36% ORR in 2L+ R/M HNSCC. Phase 3 Headliner trial planned Mid-2027.",
-  "catalyst_date": "2027-08-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358487/0/en/pyxis-oncology-announces-positive-updated-data-from-phase-1-monotherapy-study-of-micvotabart-pelidotin-micvo-in-second-line-and-beyond-recurrent-metastatic-head-and-neck-squamous-c.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 18953,
@@ -23634,7 +23590,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.79",
+   "last_price": "86.93",
    "market_cap": 8005295616
   },
   "ticker": "SYRE",
@@ -23673,7 +23629,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.79",
+   "last_price": "86.93",
    "market_cap": 8005295616
   },
   "ticker": "SYRE",
@@ -23902,7 +23858,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "38.18",
+   "last_price": "37.93",
    "market_cap": 5136848384
   },
   "ticker": "DFTX",
@@ -24189,7 +24145,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.79",
+   "last_price": "86.93",
    "market_cap": 8005295616
   },
   "ticker": "SYRE",
@@ -25342,7 +25298,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "10.81",
+   "last_price": "10.82",
    "market_cap": 474700832
   },
   "ticker": "EVMN",
@@ -25673,7 +25629,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "43.52",
+   "last_price": "43.89",
    "market_cap": 2211319296
   },
   "ticker": "RAPP",
@@ -25994,7 +25950,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.79",
+   "last_price": "86.93",
    "market_cap": 8005295616
   },
   "ticker": "SYRE",
@@ -26028,7 +25984,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.79",
+   "last_price": "86.93",
    "market_cap": 8005295616
   },
   "ticker": "SYRE",
@@ -26441,7 +26397,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "4.78",
+   "last_price": "4.61",
    "market_cap": 309253600
   },
   "ticker": "IMRX",
@@ -26971,7 +26927,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "30.31",
+   "last_price": "30.39",
    "market_cap": 594300736
   },
   "ticker": "TECX",
@@ -27346,7 +27302,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "73.95",
+   "last_price": "73.99",
    "market_cap": 10475414528
   },
   "ticker": "CYTK",
@@ -27502,7 +27458,7 @@
   "company": {
    "ticker": "PTGX",
    "name": "Protagonist Therapeutics ",
-   "last_price": "145.94",
+   "last_price": "145.09",
    "market_cap": 9443526656
   },
   "ticker": "PTGX",
@@ -27536,7 +27492,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "8.86",
+   "last_price": "8.73",
    "market_cap": 578275584
   },
   "ticker": "RGNX",
@@ -27882,7 +27838,7 @@
   "company": {
    "ticker": "PTGX",
    "name": "Protagonist Therapeutics ",
-   "last_price": "145.94",
+   "last_price": "145.09",
    "market_cap": 9443526656
   },
   "ticker": "PTGX",
@@ -28145,7 +28101,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "4.78",
+   "last_price": "4.61",
    "market_cap": 309253600
   },
   "ticker": "IMRX",
@@ -29149,7 +29105,7 @@
   "company": {
    "ticker": "TCRX",
    "name": "TScan Therapeutics",
-   "last_price": "0.34",
+   "last_price": "0.33",
    "market_cap": 23370288
   },
   "ticker": "TCRX",
@@ -29193,7 +29149,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "4.01",
+   "last_price": "3.94",
    "market_cap": 1337624960
   },
   "ticker": "MNKD",
@@ -29772,7 +29728,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "4.01",
+   "last_price": "3.94",
    "market_cap": 1337624960
   },
   "ticker": "MNKD",
@@ -29933,7 +29889,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.49",
+   "last_price": "38.46",
    "market_cap": 3747651840
   },
   "ticker": "IDYA",
@@ -30576,7 +30532,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "34.16",
+   "last_price": "34.14",
    "market_cap": 6121960960
   },
   "ticker": "COGT",
@@ -31111,7 +31067,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.79",
+   "last_price": "86.93",
    "market_cap": 8005295616
   },
   "ticker": "SYRE",
@@ -31958,7 +31914,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "10.81",
+   "last_price": "10.82",
    "market_cap": 474700832
   },
   "ticker": "EVMN",
@@ -32221,7 +32177,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "18.32",
+   "last_price": "18.23",
    "market_cap": 58504974336
   },
   "ticker": "TAK",
@@ -32255,7 +32211,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "18.32",
+   "last_price": "18.23",
    "market_cap": 58504974336
   },
   "ticker": "TAK",
@@ -32289,7 +32245,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "24.06",
+   "last_price": "21.75",
    "market_cap": 1287945088
   },
   "ticker": "SPTX",

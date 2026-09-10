@@ -4,7 +4,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "76.00",
+   "last_price": "75.09",
    "market_cap": 2937436672
   },
   "ticker": "IRON",
@@ -33,10 +33,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "07/30/26:- RESTORE-PV enrollment completed; initial data moved up to Q3 2026. 08/31/26:- RESTORE-PV initial DISC-3405 data to be presented at SOHO September 9\u201312, 2026.",
-  "catalyst_date": "2026-09-09",
+  "note": "07/30/26:- RESTORE-PV enrollment completed; initial data moved up to Q3 2026. 08/31/26:- RESTORE-PV initial DISC-3405 data to be presented at SOHO September 9\u201312, 2026. 09/09/26:- Positive RESTORE-PV initial Ph2 results at SOHO; oral presentation Sept 10, 2026.",
+  "catalyst_date": "2026-09-10",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/31/3353741/0/en/disc-medicine-announces-multiple-presentations-across-portfolio-at-the-society-of-hematologic-oncology-soho-2026-annual-meeting.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3359133/0/en/disc-medicine-presents-initial-results-from-restore-pv-phase-2-trial-in-patients-with-polycythemia-vera-pv-at-the-14th-society-of-hematologic-oncology-soho-annual-meeting.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -204,7 +204,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "1.97",
+   "last_price": "1.96",
    "market_cap": 126578360
   },
   "ticker": "CNTB",
@@ -282,7 +282,7 @@
   "company": {
    "ticker": "BLSM",
    "name": "BlossomHill Therapeutics",
-   "last_price": "22.09",
+   "last_price": "22.05",
    "market_cap": 639785536
   },
   "ticker": "BLSM",
@@ -478,11 +478,55 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 16590,
+  "company": {
+   "ticker": "IMRX",
+   "name": "Immuneering Corporation",
+   "last_price": "4.61",
+   "market_cap": 298255008
+  },
+  "ticker": "IMRX",
+  "drug_name": "Atebimetinib (IMM-1-104)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "1L Pancreatic cancer",
+  "stage_event": {
+   "id": 134,
+   "label": "Phase 2a Data readout",
+   "stage_label": "Phase 2a",
+   "event_label": "Data readout"
+  },
+  "note": "05/15/26:- ASCO June 1 will report 55-patient Ph2a survival data. 05/21/26:- Reported 17.3-mo median OS in Ph2a; full N=55 data at ASCO June 1, 2026. 06/01/26:- Updated Ph2a ASCO data: 55 patients, 17.3-month median overall survival; 36% overall response rate. 08/05/26:- Ph2a ASCO data reiterated. 84% evaluable patients were weight-stable or gained weight. 09/10/26:- AACR Pancreatic Cancer poster presents new OS analyses; Sept 25-28, 2026.",
+  "catalyst_date": "2026-09-25",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/10/3359390/0/en/immuneering-to-present-at-the-aacr-conference-on-pancreatic-cancer-highlighting-atebimetinib-s-dual-mechanism-for-extended-survival.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 20361,
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.30",
+   "last_price": "98.25",
    "market_cap": 6382835712
   },
   "ticker": "MIRM",
@@ -797,7 +841,7 @@
   "company": {
    "ticker": "CNSY",
    "name": "Cerenome, Inc.",
-   "last_price": "2.49",
+   "last_price": "2.52",
    "market_cap": 18898166
   },
   "ticker": "CNSY",
@@ -1402,45 +1446,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 18677,
-  "company": {
-   "ticker": "TYRA",
-   "name": "Tyra Biosciences",
-   "last_price": "22.01",
-   "market_cap": 1313489408
-  },
-  "ticker": "TYRA",
-  "drug_name": "TYRA-300",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1153,
-    "title": "Non-muscle invasive bladder cancer",
-    "nickname": "NMIBC"
-   }
-  ],
-  "indications_text": "Low-grade, intermediate risk non-muscle invasive bladder cancer (IR NMIBC)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "SURF302 trial. 1/10/25- Received IND clearance. 6/30/25- Dosed first patient. 8/14/25- Initial 3-month CR data in H1 2026.\n11/05/25:- SURF302 Phase 2 study is enrolling and the company remains on track to report initial three-month complete response data in H1 2026. 03/02/26:- SURF302 opened additional US and international sites; initial three-month complete response data expected by end H1 2026. 08/04/26:- SURF302 initial data expected September 2026; more than 40 patients enrolled.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/tyra-biosciences-reports-second-quarter-2026-financial-results-and-recent-highlights-302842952.html",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": true,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 18768,
   "company": {
    "ticker": "GHRS",
@@ -1479,7 +1484,7 @@
   "company": {
    "ticker": "BOLT",
    "name": "Bolt Biotherapeutics ",
-   "last_price": "3.70",
+   "last_price": "3.68",
    "market_cap": 7085290
   },
   "ticker": "BOLT",
@@ -1518,7 +1523,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "1.97",
+   "last_price": "1.96",
    "market_cap": 126578360
   },
   "ticker": "CNTB",
@@ -1732,7 +1737,7 @@
   "company": {
    "ticker": "AARD",
    "name": "Aardvark Therapeutics",
-   "last_price": "4.68",
+   "last_price": "4.65",
    "market_cap": 107673440
   },
   "ticker": "AARD",
@@ -1766,7 +1771,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.73",
+   "last_price": "1.72",
    "market_cap": 133392472
   },
   "ticker": "BMEA",
@@ -1834,7 +1839,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.30",
+   "last_price": "98.25",
    "market_cap": 6382835712
   },
   "ticker": "MIRM",
@@ -3549,7 +3554,7 @@
   "company": {
    "ticker": "AGEN",
    "name": "Agenus Inc.",
-   "last_price": "6.86",
+   "last_price": "6.88",
    "market_cap": 308840000
   },
   "ticker": "AGEN",
@@ -3617,7 +3622,7 @@
   "company": {
    "ticker": "AGEN",
    "name": "Agenus Inc.",
-   "last_price": "6.86",
+   "last_price": "6.88",
    "market_cap": 308840000
   },
   "ticker": "AGEN",
@@ -6094,7 +6099,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "135.61",
+   "last_price": "133.81",
    "market_cap": 54140383232
   },
   "ticker": "MRNA",
@@ -6128,7 +6133,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.01",
+   "last_price": "3.87",
    "market_cap": 280321472
   },
   "ticker": "BCYC",
@@ -6445,7 +6450,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "13.33",
+   "last_price": "12.98",
    "market_cap": 1121332224
   },
   "ticker": "CRVS",
@@ -6680,7 +6685,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "12.19",
+   "last_price": "11.91",
    "market_cap": 166326048
   },
   "ticker": "IMUX",
@@ -7802,7 +7807,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "76.00",
+   "last_price": "75.09",
    "market_cap": 2937436672
   },
   "ticker": "IRON",
@@ -7841,7 +7846,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "76.00",
+   "last_price": "75.09",
    "market_cap": 2937436672
   },
   "ticker": "IRON",
@@ -8861,7 +8866,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "210.29",
+   "last_price": "209.99",
    "market_cap": 11032971264
   },
   "ticker": "AXSM",
@@ -9310,7 +9315,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "135.61",
+   "last_price": "133.81",
    "market_cap": 54140383232
   },
   "ticker": "MRNA",
@@ -9909,7 +9914,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "13.33",
+   "last_price": "12.98",
    "market_cap": 1121332224
   },
   "ticker": "CRVS",
@@ -11341,7 +11346,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "135.61",
+   "last_price": "133.81",
    "market_cap": 54140383232
   },
   "ticker": "MRNA",
@@ -11380,7 +11385,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "8.81",
+   "last_price": "8.14",
    "market_cap": 2249986560
   },
   "ticker": "BCRX",
@@ -12898,7 +12903,7 @@
   "company": {
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
-   "last_price": "23.09",
+   "last_price": "23.01",
    "market_cap": 1564328192
   },
   "ticker": "BCAX",
@@ -14452,7 +14457,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "135.61",
+   "last_price": "133.81",
    "market_cap": 54140383232
   },
   "ticker": "MRNA",
@@ -15293,7 +15298,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "76.00",
+   "last_price": "75.09",
    "market_cap": 2937436672
   },
   "ticker": "IRON",
@@ -15468,7 +15473,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.30",
+   "last_price": "98.25",
    "market_cap": 6382835712
   },
   "ticker": "MIRM",
@@ -17998,7 +18003,7 @@
   "company": {
    "ticker": "CNSY",
    "name": "Cerenome, Inc.",
-   "last_price": "2.49",
+   "last_price": "2.52",
    "market_cap": 18898166
   },
   "ticker": "CNSY",
@@ -18251,7 +18256,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.30",
+   "last_price": "98.25",
    "market_cap": 6382835712
   },
   "ticker": "MIRM",
@@ -18309,10 +18314,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "BEACH301 trial. 10/28/24- IND cleared. 8/21/25- First participant dosed. Initial results from safety sentinel cohort in H2 2026.\n11/05/25:- BEACH301 Phase 2 study is enrolling the safety sentinel cohort and remains on track to report interim results from this cohort in H2 2026. 03/02/26:- BEACH301 sentinel cohort enrolling; two of four doses cleared safely; interim height data expected 2H 2026. 08/04/26:- BEACH301 data now expected end of Q1 2027; fifth dose level opened.",
+  "note": "BEACH301 trial. 10/28/24- IND cleared. 8/21/25- First participant dosed. Initial results from safety sentinel cohort in H2 2026.\n11/05/25:- BEACH301 Phase 2 study is enrolling the safety sentinel cohort and remains on track to report interim results from this cohort in H2 2026. 03/02/26:- BEACH301 sentinel cohort enrolling; two of four doses cleared safely; interim height data expected 2H 2026. 08/04/26:- BEACH301 data now expected end of Q1 2027; fifth dose level opened. 09/09/26:- Achondroplasia Ph2 BEACH301 reiterated; FDA Orphan and Rare Pediatric Disease designations noted.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/tyra-biosciences-reports-second-quarter-2026-financial-results-and-recent-highlights-302842952.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/n61680614/tyra-biosciences-reports-initial-phase-2-surf302-results-supporting-first-potential-oral-innovation-",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18645,7 +18650,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.73",
+   "last_price": "1.72",
    "market_cap": 133392472
   },
   "ticker": "BMEA",
@@ -19097,7 +19102,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "156.94",
+   "last_price": "159.48",
    "market_cap": 243397607424
   },
   "ticker": "AZN",
@@ -19487,7 +19492,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "210.29",
+   "last_price": "209.99",
    "market_cap": 11032971264
   },
   "ticker": "AXSM",
@@ -21381,7 +21386,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.73",
+   "last_price": "1.72",
    "market_cap": 133392472
   },
   "ticker": "BMEA",
@@ -22554,7 +22559,7 @@
   "company": {
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
-   "last_price": "23.09",
+   "last_price": "23.01",
    "market_cap": 1564328192
   },
   "ticker": "BCAX",
@@ -22836,7 +22841,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "8.81",
+   "last_price": "8.14",
    "market_cap": 2249986560
   },
   "ticker": "BCRX",
@@ -23303,7 +23308,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "210.29",
+   "last_price": "209.99",
    "market_cap": 11032971264
   },
   "ticker": "AXSM",
@@ -24038,7 +24043,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.30",
+   "last_price": "98.25",
    "market_cap": 6382835712
   },
   "ticker": "MIRM",
@@ -24524,10 +24529,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "11/05/25:- IND for SURF303 in low-grade upper tract urothelial carcinoma was cleared and a Phase 2 study of dabogratinib is expected to initiate in 2026. 03/02/26:- SURF303 Phase 2a/b study startup ongoing; first LG-UTUC patient dosing anticipated in 2026. 08/04/26:- SURF303 initial results are expected in 2027.",
+  "note": "11/05/25:- IND for SURF303 in low-grade upper tract urothelial carcinoma was cleared and a Phase 2 study of dabogratinib is expected to initiate in 2026. 03/02/26:- SURF303 Phase 2a/b study startup ongoing; first LG-UTUC patient dosing anticipated in 2026. 08/04/26:- SURF303 initial results are expected in 2027. 09/09/26:- SURF303 first patient had 3-month CR at 60 mg QD; no TEAEs. Initial results still expected 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/tyra-biosciences-reports-second-quarter-2026-financial-results-and-recent-highlights-302842952.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/n61680614/tyra-biosciences-reports-initial-phase-2-surf302-results-supporting-first-potential-oral-innovation-",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -24578,7 +24583,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "76.00",
+   "last_price": "75.09",
    "market_cap": 2937436672
   },
   "ticker": "IRON",
@@ -28062,7 +28067,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.01",
+   "last_price": "3.87",
    "market_cap": 280321472
   },
   "ticker": "BCYC",
@@ -28090,50 +28095,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260730302807/en/Bicycle-Therapeutics-Reports-Recent-Business-Progress-and-Second-Quarter-2026-Financial-Results",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 16590,
-  "company": {
-   "ticker": "IMRX",
-   "name": "Immuneering Corporation",
-   "last_price": "4.61",
-   "market_cap": 298255008
-  },
-  "ticker": "IMRX",
-  "drug_name": "Atebimetinib (IMM-1-104)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 859,
-    "title": "Pancreatic cancer",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "1L Pancreatic cancer",
-  "stage_event": {
-   "id": 131,
-   "label": "Phase 2a Update",
-   "stage_label": "Phase 2a",
-   "event_label": "Update"
-  },
-  "note": "05/15/26:- ASCO June 1 will report 55-patient Ph2a survival data. 05/21/26:- Reported 17.3-mo median OS in Ph2a; full N=55 data at ASCO June 1, 2026. 06/01/26:- Updated Ph2a ASCO data: 55 patients, 17.3-month median overall survival; 36% overall response rate. 08/05/26:- Ph2a ASCO data reiterated. 84% evaluable patients were weight-stable or gained weight.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/05/3339218/0/en/immuneering-reports-second-quarter-2026-financial-results-and-provides-business-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -29319,10 +29280,10 @@
    "stage_label": "Approved",
    "event_label": "Update"
   },
-  "note": "TRANSCEND Trial. 4/7/25- Trial met primary endpoint. 5/7/25- New data reported. Topline data from Japanese cohort in Q1 2026. 8/20/25- sNDA accepted with initial PDUFA date Dec 20, 2025. 11/7/25- Review period extended. Updated PDUFA date March 20, 2026. 02/26/26:- PDUFA on March 20, 2026; Japanese cohort topline March 2026; ObesityWeek 2025 TRANSCEND data showed significant BMI and cardiometabolic benefits. 03/01/26:- New 52-week TRANSCEND data; FDA package Mar 2; PDUFA Mar 20; CHMP opinion Q2 2026, EU decision H2 2026. 03/19/26:- FDA approved IMCIVREE for acquired HO ages \u22654. TRANSCEND Ph3 showed -18.4% placebo-adjusted BMI at 52 weeks. 05/04/26:- PES 2026 showed 2.5-year 16-week Ph2 pediatric data and 1-year TRANSCEND pediatric improvements. 05/05/26:- EC approved acquired HO; 150 U.S. patient starts; Japan PMDA H2 2026 decision, launch by year-end. 05/12/26:- France early-access showed 12-month BMI -16.9%. TRANSCEND Week 52 post hoc showed improved metabolic indices. 05/29/26:- ENDO 2026 to feature setmelanotide acquired HO Ph2 LTE 2.5-year and Ph3 bariatric surgery analyses. 06/15/26:- Phase 2/LTE showed 2.5-year BMI reduction; Phase 3 post hoc showed weight-category gains and bariatric-surgery benefits. 08/04/26:- Q2 sales $71.3M; 400 acquired HO starts; ESPE data September; Japan launch Year-End 2026; Europe 2027.",
+  "note": "TRANSCEND Trial. 4/7/25- Trial met primary endpoint. 5/7/25- New data reported. Topline data from Japanese cohort in Q1 2026. 8/20/25- sNDA accepted with initial PDUFA date Dec 20, 2025. 11/7/25- Review period extended. Updated PDUFA date March 20, 2026. 02/26/26:- PDUFA on March 20, 2026; Japanese cohort topline March 2026; ObesityWeek 2025 TRANSCEND data showed significant BMI and cardiometabolic benefits. 03/01/26:- New 52-week TRANSCEND data; FDA package Mar 2; PDUFA Mar 20; CHMP opinion Q2 2026, EU decision H2 2026. 03/19/26:- FDA approved IMCIVREE for acquired HO ages \u22654. TRANSCEND Ph3 showed -18.4% placebo-adjusted BMI at 52 weeks. 05/04/26:- PES 2026 showed 2.5-year 16-week Ph2 pediatric data and 1-year TRANSCEND pediatric improvements. 05/05/26:- EC approved acquired HO; 150 U.S. patient starts; Japan PMDA H2 2026 decision, launch by year-end. 05/12/26:- France early-access showed 12-month BMI -16.9%. TRANSCEND Week 52 post hoc showed improved metabolic indices. 05/29/26:- ENDO 2026 to feature setmelanotide acquired HO Ph2 LTE 2.5-year and Ph3 bariatric surgery analyses. 06/15/26:- Phase 2/LTE showed 2.5-year BMI reduction; Phase 3 post hoc showed weight-category gains and bariatric-surgery benefits. 08/04/26:- Q2 sales $71.3M; 400 acquired HO starts; ESPE data September; Japan launch Year-End 2026; Europe 2027. 09/10/26:- ESPE 2026 features France real-world 18-month pediatric data and Phase 3 cardiometabolic analyses.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/04/3338168/0/en/rhythm-pharmaceuticals-reports-second-quarter-2026-financial-results-and-business-update.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/10/3359459/0/en/rhythm-pharmaceuticals-announces-new-data-presentations-at-the-european-society-for-paediatric-endocrinology-meeting.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -30421,6 +30382,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 18677,
+  "company": {
+   "ticker": "TYRA",
+   "name": "Tyra Biosciences",
+   "last_price": "22.01",
+   "market_cap": 1313489408
+  },
+  "ticker": "TYRA",
+  "drug_name": "TYRA-300",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1153,
+    "title": "Non-muscle invasive bladder cancer",
+    "nickname": "NMIBC"
+   }
+  ],
+  "indications_text": "Low-grade, intermediate risk non-muscle invasive bladder cancer (IR NMIBC)",
+  "stage_event": {
+   "id": 137,
+   "label": "Phase 2 Update",
+   "stage_label": "Phase 2",
+   "event_label": "Update"
+  },
+  "note": "SURF302 trial. 1/10/25- Received IND clearance. 6/30/25- Dosed first patient. 8/14/25- Initial 3-month CR data in H1 2026.\n11/05/25:- SURF302 Phase 2 study is enrolling and the company remains on track to report initial three-month complete response data in H1 2026. 03/02/26:- SURF302 opened additional US and international sites; initial three-month complete response data expected by end H1 2026. 08/04/26:- SURF302 initial data expected September 2026; more than 40 patients enrolled. 09/09/26:- SURF302 Ph2 initial data reported; 60 mg QD selected. 70 mg cohort planned; Ph3 design discussions pending.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/n61680614/tyra-biosciences-reports-initial-phase-2-surf302-results-supporting-first-potential-oral-innovation-",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": true,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 18720,
   "company": {
    "ticker": "MLTX",
@@ -30741,7 +30741,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.01",
+   "last_price": "3.87",
    "market_cap": 280321472
   },
   "ticker": "BCYC",
@@ -30785,7 +30785,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "8.81",
+   "last_price": "8.14",
    "market_cap": 2249986560
   },
   "ticker": "BCRX",
@@ -31393,7 +31393,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "156.94",
+   "last_price": "159.48",
    "market_cap": 243397607424
   },
   "ticker": "AZN",
@@ -31432,7 +31432,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "156.94",
+   "last_price": "159.48",
    "market_cap": 243397607424
   },
   "ticker": "AZN",
@@ -31466,7 +31466,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "156.94",
+   "last_price": "159.48",
    "market_cap": 243397607424
   },
   "ticker": "AZN",
@@ -31612,7 +31612,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "156.94",
+   "last_price": "159.48",
    "market_cap": 243397607424
   },
   "ticker": "AZN",
@@ -32104,7 +32104,7 @@
   "company": {
    "ticker": "BCDA",
    "name": "BioCardia",
-   "last_price": "1.08",
+   "last_price": "1.09",
    "market_cap": 16652661
   },
   "ticker": "BCDA",
@@ -32143,7 +32143,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "156.94",
+   "last_price": "159.48",
    "market_cap": 243397607424
   },
   "ticker": "AZN",

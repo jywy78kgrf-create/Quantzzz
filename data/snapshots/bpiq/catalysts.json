@@ -1,49 +1,5 @@
 [
  {
-  "id": 18007,
-  "company": {
-   "ticker": "IRON",
-   "name": "Disc Medicine Inc",
-   "last_price": "74.23",
-   "market_cap": 2846445312
-  },
-  "ticker": "IRON",
-  "drug_name": "DISC-3405 (formerly MWTX-003)",
-  "indications": [
-   {
-    "id": 905,
-    "title": "Blood cancer",
-    "nickname": ""
-   },
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 2047,
-    "title": "Polycythemia vera",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Polycythemia vera",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "07/30/26:- RESTORE-PV enrollment completed; initial data moved up to Q3 2026. 08/31/26:- RESTORE-PV initial DISC-3405 data to be presented at SOHO September 9\u201312, 2026. 09/09/26:- Positive RESTORE-PV initial Ph2 results at SOHO; oral presentation Sept 10, 2026.",
-  "catalyst_date": "2026-09-10",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3359133/0/en/disc-medicine-presents-initial-results-from-restore-pv-phase-2-trial-in-patients-with-polycythemia-vera-pv-at-the-14th-society-of-hematologic-oncology-soho-annual-meeting.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 17434,
   "company": {
    "ticker": "N/A",
@@ -394,7 +350,7 @@
   "company": {
    "ticker": "ELDN",
    "name": "Eledon Pharmaceuticals",
-   "last_price": "2.78",
+   "last_price": "2.76",
    "market_cap": 225906000
   },
   "ticker": "ELDN",
@@ -656,7 +612,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.10",
+   "last_price": "37.41",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -1338,7 +1294,7 @@
   "company": {
    "ticker": "DWTX",
    "name": "Dogwood Therapeutics",
-   "last_price": "1.88",
+   "last_price": "1.95",
    "market_cap": 63905996
   },
   "ticker": "DWTX",
@@ -1377,7 +1333,7 @@
   "company": {
    "ticker": "VALN",
    "name": "Valneva SE",
-   "last_price": "6.69",
+   "last_price": "6.67",
    "market_cap": 634368896
   },
   "ticker": "VALN",
@@ -1557,7 +1513,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.91",
+   "last_price": "1.97",
    "market_cap": 16141692
   },
   "ticker": "BIVI",
@@ -1974,6 +1930,45 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 17164,
+  "company": {
+   "ticker": "AGEN",
+   "name": "Agenus Inc.",
+   "last_price": "6.89",
+   "market_cap": 310190592
+  },
+  "ticker": "AGEN",
+  "drug_name": "Botensilimab (AGEN1181)  w/ Balstilimab (AGEN2034) ",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 704,
+    "title": "Ovarian cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Cancer, Ovarian cancer",
+  "stage_event": {
+   "id": 122,
+   "label": "Phase 1b Data readout",
+   "stage_label": "Phase 1b",
+   "event_label": "Data readout"
+  },
+  "note": "11/10/25:- Updated Phase 1b data; investigator-initiated updates expected H1 2026. 02/19/26:- AACR-IO C-800-01 Ph1b BOT+BAL biomarker analyses showed durable activity and stratified outcomes in cold tumors including ovarian cancer. 03/16/26:- France AAC expanded Jan 2026 to include platinum-resistant ovarian cancer for BOT+BAL. 05/11/26:- AAC provides BOT+BAL for platinum-resistant ovarian cancer; BAP Pharma partners; named-patient access broadened. 08/06/26:- PR No update. 09/10/26:- IGCS poster scheduled Oct 1\u20133, 2026, with BOT+BAL results.",
+  "catalyst_date": "2026-10-01",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260910303866/en/Agenus-to-Present-Three-Year-Overall-Survival-Data-for-BOTBAL-in-Recurrent-Ovarian-Cancer-at-IGCS-2026/",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18135,
@@ -3179,7 +3174,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "9.21",
+   "last_price": "9.08",
    "market_cap": 498859936
   },
   "ticker": "EIKN",
@@ -3218,7 +3213,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "9.21",
+   "last_price": "9.08",
    "market_cap": 498859936
   },
   "ticker": "EIKN",
@@ -3257,7 +3252,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "9.21",
+   "last_price": "9.08",
    "market_cap": 498859936
   },
   "ticker": "EIKN",
@@ -3335,7 +3330,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "9.21",
+   "last_price": "9.08",
    "market_cap": 498859936
   },
   "ticker": "EIKN",
@@ -3661,7 +3656,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "9.21",
+   "last_price": "9.08",
    "market_cap": 498859936
   },
   "ticker": "EIKN",
@@ -3910,7 +3905,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "33.64",
+   "last_price": "33.90",
    "market_cap": 2008371200
   },
   "ticker": "AGIO",
@@ -8866,7 +8861,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "211.12",
+   "last_price": "224.81",
    "market_cap": 11058376704
   },
   "ticker": "AXSM",
@@ -9017,7 +9012,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "52.26",
+   "last_price": "52.22",
    "market_cap": 5053157888
   },
   "ticker": "CRSP",
@@ -9276,7 +9271,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.96",
+   "last_price": "1.88",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -9637,7 +9632,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "52.26",
+   "last_price": "52.22",
    "market_cap": 5053157888
   },
   "ticker": "CRSP",
@@ -10328,7 +10323,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "33.64",
+   "last_price": "33.90",
    "market_cap": 2008371200
   },
   "ticker": "AGIO",
@@ -10815,7 +10810,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.10",
+   "last_price": "37.41",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -10947,7 +10942,7 @@
   "company": {
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
-   "last_price": "24.37",
+   "last_price": "24.29",
    "market_cap": 2517120512
   },
   "ticker": "BEAM",
@@ -11829,7 +11824,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "52.26",
+   "last_price": "52.22",
    "market_cap": 5053157888
   },
   "ticker": "CRSP",
@@ -12256,7 +12251,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.10",
+   "last_price": "37.36",
    "market_cap": 7869657088
   },
   "ticker": "IMVT",
@@ -13422,7 +13417,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "506.79",
+   "last_price": "502.63",
    "market_cap": 21610903552
   },
   "ticker": "UTHR",
@@ -14117,7 +14112,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "52.26",
+   "last_price": "52.22",
    "market_cap": 5053157888
   },
   "ticker": "CRSP",
@@ -14219,7 +14214,7 @@
   "company": {
    "ticker": "DTIL",
    "name": "Precision BioSciences",
-   "last_price": "7.24",
+   "last_price": "7.10",
    "market_cap": 199835248
   },
   "ticker": "DTIL",
@@ -14777,7 +14772,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.96",
+   "last_price": "1.88",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -15113,7 +15108,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.10",
+   "last_price": "37.36",
    "market_cap": 7869657088
   },
   "ticker": "IMVT",
@@ -17001,7 +16996,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "9.21",
+   "last_price": "9.08",
    "market_cap": 498859936
   },
   "ticker": "EIKN",
@@ -17594,7 +17589,7 @@
   "company": {
    "ticker": "DYN",
    "name": "Dyne Therapeutics",
-   "last_price": "18.42",
+   "last_price": "18.10",
    "market_cap": 3439869184
   },
   "ticker": "DYN",
@@ -18120,7 +18115,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "14.80",
+   "last_price": "14.53",
    "market_cap": 926208448
   },
   "ticker": "DSGN",
@@ -18222,7 +18217,7 @@
   "company": {
    "ticker": "DYN",
    "name": "Dyne Therapeutics",
-   "last_price": "18.42",
+   "last_price": "18.10",
    "market_cap": 3439869184
   },
   "ticker": "DYN",
@@ -18762,7 +18757,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.96",
+   "last_price": "1.88",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -19034,7 +19029,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.95",
+   "last_price": "0.96",
    "market_cap": 262281056
   },
   "ticker": "AKBA",
@@ -19453,7 +19448,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "506.79",
+   "last_price": "502.63",
    "market_cap": 21610903552
   },
   "ticker": "UTHR",
@@ -19492,7 +19487,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "211.12",
+   "last_price": "224.81",
    "market_cap": 11058376704
   },
   "ticker": "AXSM",
@@ -19628,7 +19623,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "506.79",
+   "last_price": "502.63",
    "market_cap": 21610903552
   },
   "ticker": "UTHR",
@@ -23308,7 +23303,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "211.12",
+   "last_price": "224.81",
    "market_cap": 11058376704
   },
   "ticker": "AXSM",
@@ -23342,7 +23337,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "506.79",
+   "last_price": "502.63",
    "market_cap": 21610903552
   },
   "ticker": "UTHR",
@@ -23673,7 +23668,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "14.80",
+   "last_price": "14.53",
    "market_cap": 926208448
   },
   "ticker": "DSGN",
@@ -23936,7 +23931,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.10",
+   "last_price": "37.36",
    "market_cap": 7869657088
   },
   "ticker": "IMVT",
@@ -24257,7 +24252,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.10",
+   "last_price": "37.36",
    "market_cap": 7869657088
   },
   "ticker": "IMVT",
@@ -24461,7 +24456,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.96",
+   "last_price": "1.88",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -24622,7 +24617,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "14.80",
+   "last_price": "14.53",
    "market_cap": 926208448
   },
   "ticker": "DSGN",
@@ -24928,7 +24923,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.95",
+   "last_price": "0.96",
    "market_cap": 262281056
   },
   "ticker": "AKBA",
@@ -24972,7 +24967,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.95",
+   "last_price": "0.96",
    "market_cap": 262281056
   },
   "ticker": "AKBA",
@@ -26631,7 +26626,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.10",
+   "last_price": "37.36",
    "market_cap": 7869657088
   },
   "ticker": "IMVT",
@@ -26805,7 +26800,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.96",
+   "last_price": "1.88",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -26873,7 +26868,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.10",
+   "last_price": "37.36",
    "market_cap": 7869657088
   },
   "ticker": "IMVT",
@@ -27541,7 +27536,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "38.10",
+   "last_price": "37.36",
    "market_cap": 7869657088
   },
   "ticker": "IMVT",
@@ -28179,7 +28174,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "33.64",
+   "last_price": "33.90",
    "market_cap": 2008371200
   },
   "ticker": "AGIO",
@@ -28213,7 +28208,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "33.64",
+   "last_price": "33.90",
    "market_cap": 2008371200
   },
   "ticker": "AGIO",
@@ -28247,7 +28242,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.10",
+   "last_price": "37.41",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -28720,7 +28715,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.91",
+   "last_price": "1.97",
    "market_cap": 16141692
   },
   "ticker": "BIVI",
@@ -29149,7 +29144,7 @@
   "company": {
    "ticker": "ELTX",
    "name": "Elicio Therapeutics",
-   "last_price": "2.11",
+   "last_price": "2.18",
    "market_cap": 55454768
   },
   "ticker": "ELTX",
@@ -29621,7 +29616,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.10",
+   "last_price": "37.41",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -29655,7 +29650,7 @@
   "company": {
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
-   "last_price": "24.37",
+   "last_price": "24.29",
    "market_cap": 2517120512
   },
   "ticker": "BEAM",
@@ -30016,7 +30011,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.10",
+   "last_price": "37.41",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -30157,7 +30152,7 @@
   "company": {
    "ticker": "DRUG",
    "name": "Bright Minds Biosciences",
-   "last_price": "65.00",
+   "last_price": "62.65",
    "market_cap": 637783936
   },
   "ticker": "DRUG",
@@ -30196,7 +30191,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "33.64",
+   "last_price": "33.90",
    "market_cap": 2008371200
   },
   "ticker": "AGIO",

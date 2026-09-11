@@ -34,6 +34,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 17466,
+  "company": {
+   "ticker": "CGEM",
+   "name": "Cullinan Management",
+   "last_price": "20.37",
+   "market_cap": 1290619008
+  },
+  "ticker": "CGEM",
+  "drug_name": "Zipalertinib",
+  "indications": [
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   }
+  ],
+  "indications_text": "Non-small cell lung carcinoma (NSCLC)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "09/11/26:- REZILIENT3 interim analysis to be presented September 13, 2026 in Presidential Symposium 2.",
+  "catalyst_date": "2026-09-13",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/10/3359870/0/en/cullinan-therapeutics-to-host-virtual-analyst-and-investor-event-to-showcase-zipalertinib-plus-chemotherapy-phase-3-rezilient3-data-presented-at-the-iaslc-2026-world-conference-on-.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 17250,
   "company": {
    "ticker": "BNTX",
@@ -71,40 +105,6 @@
   "catalyst_date": "2026-09-14",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/20/3348151/0/en/biontech-highlights-late-stage-lung-cancer-pipeline-momentum-and-first-global-data-for-pumitamig-elfetabart-drozuntecan-novel-novel-combination-at-wclc-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 17466,
-  "company": {
-   "ticker": "CGEM",
-   "name": "Cullinan Management",
-   "last_price": "20.48",
-   "market_cap": 1290619008
-  },
-  "ticker": "CGEM",
-  "drug_name": "Zipalertinib",
-  "indications": [
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "Non-small cell lung carcinoma (NSCLC)",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "REZILIENT3 trial: w/ Taiho Oncology. 8/3/23- Initiated trial. 5/8/25- Enrollment continues. 8/7/25- To complete enrollment by H1 2026. 11/06/25:- Partner expects REZILIENT3 Ph3 enrollment to complete in H1 2026. 03/10/26:- REZILIENT3 Ph3 frontline NSCLC enrollment completed; Taiho expects top-line results by Q4 2026. 05/07/26:- REZILIENT3 Ph3 enrollment completion reiterated; Taiho continues to expect top-line results by end of 2026. 08/06/26:- REZILIENT3 enrollment complete; top-line results expected by end of 2026. 08/12/26:- REZILIENT3 interim analysis met PFS endpoint; unblinding recommended. Full results to be presented at a conference. 08/19/26:- REZILIENT3 interim analysis results to be presented at WCLC on September 14, 2026.",
-  "catalyst_date": "2026-09-14",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260819883527/en/Zipalertinib-Plus-Chemotherapy-First-Line-Phase-3-REZILIENT3-Trial-Data-Selected-for-Presidential-Symposium-Presentation-at-the-IASLC-2026-World-Conference-on-Lung-Cancer",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -311,7 +311,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.40",
+   "last_price": "14.31",
    "market_cap": 1419679744
   },
   "ticker": "RARE",
@@ -516,7 +516,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.28",
+   "last_price": "122.44",
    "market_cap": 24988577792
   },
   "ticker": "INCY",
@@ -550,7 +550,7 @@
   "company": {
    "ticker": "BFRI",
    "name": "Biofrontera",
-   "last_price": "1.46",
+   "last_price": "1.60",
    "market_cap": 21684444
   },
   "ticker": "BFRI",
@@ -612,7 +612,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "37.41",
+   "last_price": "37.15",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -1547,7 +1547,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "20.48",
+   "last_price": "20.37",
    "market_cap": 1290619008
   },
   "ticker": "CGEM",
@@ -3110,10 +3110,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "07/31/26:- PR No update.",
+  "note": "07/31/26:- PR No update. 09/11/26:- Updated data accepted for ENA 2026; abstract Nov 4; presentation Nov 18\u201320.",
   "catalyst_date": "2026-10-23",
   "has_catalyst": true,
-  "catalyst_source": "",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/11/3360200/0/en/perspective-therapeutics-announces-acceptance-of-vmt-%CE%B1-net-data-for-presentation-at-the-38th-eortc-nci-aacr-symposium-2026.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -3739,7 +3739,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.34",
+   "last_price": "1.33",
    "market_cap": 207031296
   },
   "ticker": "CHRS",
@@ -3851,7 +3851,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.34",
+   "last_price": "1.33",
    "market_cap": 207031296
   },
   "ticker": "CHRS",
@@ -5093,7 +5093,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "114.92",
+   "last_price": "111.49",
    "market_cap": 12422668288
   },
   "ticker": "CORT",
@@ -5962,7 +5962,7 @@
   "company": {
    "ticker": "CLLS",
    "name": "Cellectis",
-   "last_price": "3.12",
+   "last_price": "3.07",
    "market_cap": 314243200
   },
   "ticker": "CLLS",
@@ -6323,7 +6323,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "114.92",
+   "last_price": "111.49",
    "market_cap": 12422668288
   },
   "ticker": "CORT",
@@ -7153,7 +7153,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "8.56",
+   "last_price": "8.42",
    "market_cap": 565072960
   },
   "ticker": "RGNX",
@@ -7685,7 +7685,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.40",
+   "last_price": "14.31",
    "market_cap": 1419679744
   },
   "ticker": "RARE",
@@ -7802,7 +7802,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "71.08",
+   "last_price": "70.37",
    "market_cap": 2846445312
   },
   "ticker": "IRON",
@@ -7841,7 +7841,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "71.08",
+   "last_price": "70.37",
    "market_cap": 2846445312
   },
   "ticker": "IRON",
@@ -8368,7 +8368,7 @@
   "company": {
    "ticker": "CLLS",
    "name": "Cellectis",
-   "last_price": "3.12",
+   "last_price": "3.07",
    "market_cap": 314243200
   },
   "ticker": "CLLS",
@@ -8568,7 +8568,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.28",
+   "last_price": "122.44",
    "market_cap": 24988577792
   },
   "ticker": "INCY",
@@ -8861,7 +8861,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "224.81",
+   "last_price": "221.61",
    "market_cap": 11058376704
   },
   "ticker": "AXSM",
@@ -9271,7 +9271,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.88",
+   "last_price": "1.89",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -9515,7 +9515,7 @@
   "company": {
    "ticker": "CGON",
    "name": "CG Oncology",
-   "last_price": "72.00",
+   "last_price": "72.29",
    "market_cap": 6382107136
   },
   "ticker": "CGON",
@@ -9554,7 +9554,7 @@
   "company": {
    "ticker": "CGON",
    "name": "CG Oncology",
-   "last_price": "72.00",
+   "last_price": "72.29",
    "market_cap": 6382107136
   },
   "ticker": "CGON",
@@ -10177,7 +10177,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "20.48",
+   "last_price": "20.37",
    "market_cap": 1290619008
   },
   "ticker": "CGEM",
@@ -10435,7 +10435,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "4.52",
+   "last_price": "4.46",
    "market_cap": 106029472
   },
   "ticker": "COYA",
@@ -10810,7 +10810,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "37.41",
+   "last_price": "37.15",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -11224,7 +11224,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "82.76",
+   "last_price": "84.43",
    "market_cap": 11690219520
   },
   "ticker": "ARWR",
@@ -11453,7 +11453,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "14.95",
+   "last_price": "14.32",
    "market_cap": 858672000
   },
   "ticker": "CLYM",
@@ -11707,7 +11707,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "82.76",
+   "last_price": "84.43",
    "market_cap": 11690219520
   },
   "ticker": "ARWR",
@@ -11965,7 +11965,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "55.39",
+   "last_price": "54.39",
    "market_cap": 8479299584
   },
   "ticker": "TGTX",
@@ -12645,7 +12645,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "114.92",
+   "last_price": "111.49",
    "market_cap": 12422668288
   },
   "ticker": "CORT",
@@ -12752,7 +12752,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "20.48",
+   "last_price": "20.37",
    "market_cap": 1290619008
   },
   "ticker": "CGEM",
@@ -13485,7 +13485,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "55.39",
+   "last_price": "54.39",
    "market_cap": 8479299584
   },
   "ticker": "TGTX",
@@ -13553,7 +13553,7 @@
   "company": {
    "ticker": "CELC",
    "name": "Celcuity",
-   "last_price": "85.49",
+   "last_price": "83.92",
    "market_cap": 4183188736
   },
   "ticker": "CELC",
@@ -13723,7 +13723,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.28",
+   "last_price": "122.44",
    "market_cap": 24988577792
   },
   "ticker": "INCY",
@@ -14010,7 +14010,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "82.76",
+   "last_price": "84.43",
    "market_cap": 11690219520
   },
   "ticker": "ARWR",
@@ -14282,7 +14282,7 @@
   "company": {
    "ticker": "ABSI",
    "name": "Absci",
-   "last_price": "8.24",
+   "last_price": "8.18",
    "market_cap": 1414099456
   },
   "ticker": "ABSI",
@@ -14772,7 +14772,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.88",
+   "last_price": "1.89",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -14928,7 +14928,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "20.48",
+   "last_price": "20.37",
    "market_cap": 1290619008
   },
   "ticker": "CGEM",
@@ -15293,7 +15293,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "71.08",
+   "last_price": "70.37",
    "market_cap": 2846445312
   },
   "ticker": "IRON",
@@ -15955,7 +15955,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "123.28",
+   "last_price": "122.44",
    "market_cap": 24988577792
   },
   "ticker": "INCY",
@@ -16753,7 +16753,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "14.95",
+   "last_price": "14.32",
    "market_cap": 858672000
   },
   "ticker": "CLYM",
@@ -16787,7 +16787,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "14.95",
+   "last_price": "14.32",
    "market_cap": 858672000
   },
   "ticker": "CLYM",
@@ -17516,7 +17516,7 @@
   "company": {
    "ticker": "CGTX",
    "name": "Cognition Therapeutics",
-   "last_price": "0.98",
+   "last_price": "0.99",
    "market_cap": 93163344
   },
   "ticker": "CGTX",
@@ -17886,7 +17886,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "20.48",
+   "last_price": "20.37",
    "market_cap": 1290619008
   },
   "ticker": "CGEM",
@@ -17905,10 +17905,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "REZILIENT1, 2, & 3 trials. 9/14/24- Met primary endpoint. 10/19/25- Presented preliminary data in parallel cohort at ESMO'25. 11/6/25- Type B mtg w/ FDA; REZILIENT3 enrollment in H1 2026. 11/20/25- NDA rolling submission initiated with completion in Q1 2026. 03/10/26:- Rolling NDA for previously treated EGFR ex20ins NSCLC completed in February 2026; next regulatory milestone timing TBA. 04/27/26:- FDA accepted NDA; PDUFA action date February 27, 2027. 05/07/26:- NDA acceptance and February 27, 2027 PDUFA action date for relapsed EGFR ex20ins NSCLC reiterated. 08/06/26:- Zipalertinib NDA accepted; PDUFA date remains February 27, 2027. 08/19/26:- REZILIENT3 interim analysis results selected for WCLC Presidential Symposium on September 14, 2026.",
+  "note": "09/11/26:- REZILIENT3 interim analysis to be presented September 13, 2026; PDUFA remains February 27, 2027.",
   "catalyst_date": "2027-02-27",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260819883527/en/Zipalertinib-Plus-Chemotherapy-First-Line-Phase-3-REZILIENT3-Trial-Data-Selected-for-Presidential-Symposium-Presentation-at-the-IASLC-2026-World-Conference-on-Lung-Cancer",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/10/3359870/0/en/cullinan-therapeutics-to-host-virtual-analyst-and-investor-event-to-showcase-zipalertinib-plus-chemotherapy-phase-3-rezilient3-data-presented-at-the-iaslc-2026-world-conference-on-.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -18577,7 +18577,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "4.52",
+   "last_price": "4.46",
    "market_cap": 106029472
   },
   "ticker": "COYA",
@@ -18757,7 +18757,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.88",
+   "last_price": "1.89",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -19029,7 +19029,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.96",
+   "last_price": "0.97",
    "market_cap": 262281056
   },
   "ticker": "AKBA",
@@ -19487,7 +19487,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "224.81",
+   "last_price": "221.61",
    "market_cap": 11058376704
   },
   "ticker": "AXSM",
@@ -20271,7 +20271,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.40",
+   "last_price": "14.31",
    "market_cap": 1419679744
   },
   "ticker": "RARE",
@@ -21882,7 +21882,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "14.95",
+   "last_price": "14.32",
    "market_cap": 858672000
   },
   "ticker": "CLYM",
@@ -22227,7 +22227,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "82.76",
+   "last_price": "84.43",
    "market_cap": 11690219520
   },
   "ticker": "ARWR",
@@ -23196,7 +23196,7 @@
   "company": {
    "ticker": "CGTX",
    "name": "Cognition Therapeutics",
-   "last_price": "0.98",
+   "last_price": "0.99",
    "market_cap": 93163344
   },
   "ticker": "CGTX",
@@ -23303,7 +23303,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "224.81",
+   "last_price": "221.61",
    "market_cap": 11058376704
   },
   "ticker": "AXSM",
@@ -24456,7 +24456,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.88",
+   "last_price": "1.89",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -24578,7 +24578,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "71.08",
+   "last_price": "70.37",
    "market_cap": 2846445312
   },
   "ticker": "IRON",
@@ -24651,7 +24651,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "114.92",
+   "last_price": "111.49",
    "market_cap": 12422668288
   },
   "ticker": "CORT",
@@ -24685,7 +24685,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "114.92",
+   "last_price": "111.49",
    "market_cap": 12422668288
   },
   "ticker": "CORT",
@@ -24719,7 +24719,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "114.92",
+   "last_price": "111.49",
    "market_cap": 12422668288
   },
   "ticker": "CORT",
@@ -24753,7 +24753,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "114.92",
+   "last_price": "111.49",
    "market_cap": 12422668288
   },
   "ticker": "CORT",
@@ -24787,7 +24787,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "114.92",
+   "last_price": "111.49",
    "market_cap": 12422668288
   },
   "ticker": "CORT",
@@ -24923,7 +24923,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.96",
+   "last_price": "0.97",
    "market_cap": 262281056
   },
   "ticker": "AKBA",
@@ -24967,7 +24967,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.96",
+   "last_price": "0.97",
    "market_cap": 262281056
   },
   "ticker": "AKBA",
@@ -25809,7 +25809,7 @@
   "company": {
    "ticker": "AVLN",
    "name": "Avalyn Pharma",
-   "last_price": "34.67",
+   "last_price": "34.73",
    "market_cap": 1537028352
   },
   "ticker": "AVLN",
@@ -25882,7 +25882,7 @@
   "company": {
    "ticker": "AVLN",
    "name": "Avalyn Pharma",
-   "last_price": "34.67",
+   "last_price": "34.73",
    "market_cap": 1537028352
   },
   "ticker": "AVLN",
@@ -26052,7 +26052,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "14.95",
+   "last_price": "14.32",
    "market_cap": 858672000
   },
   "ticker": "CLYM",
@@ -26800,7 +26800,7 @@
   "company": {
    "ticker": "AUTL",
    "name": "Autolus Therapeutics",
-   "last_price": "1.88",
+   "last_price": "1.89",
    "market_cap": 521678592
   },
   "ticker": "AUTL",
@@ -27107,7 +27107,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "114.92",
+   "last_price": "111.49",
    "market_cap": 12422668288
   },
   "ticker": "CORT",
@@ -27492,7 +27492,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "8.56",
+   "last_price": "8.42",
    "market_cap": 565072960
   },
   "ticker": "RGNX",
@@ -28242,7 +28242,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "37.41",
+   "last_price": "37.15",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -28437,7 +28437,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.40",
+   "last_price": "14.31",
    "market_cap": 1419679744
   },
   "ticker": "RARE",
@@ -28471,7 +28471,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.40",
+   "last_price": "14.31",
    "market_cap": 1419679744
   },
   "ticker": "RARE",
@@ -28895,7 +28895,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.46",
+   "last_price": "2.49",
    "market_cap": 233021392
   },
   "ticker": "CGEN",
@@ -29616,7 +29616,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "37.41",
+   "last_price": "37.15",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -30011,7 +30011,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "37.41",
+   "last_price": "37.15",
    "market_cap": 2991975168
   },
   "ticker": "CLDX",
@@ -30702,7 +30702,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.37",
+   "last_price": "2.40",
    "market_cap": 22401494
   },
   "ticker": "CLRB",
@@ -31106,7 +31106,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "2.37",
+   "last_price": "2.40",
    "market_cap": 22401494
   },
   "ticker": "CLRB",
@@ -31179,7 +31179,7 @@
   "company": {
    "ticker": "CELC",
    "name": "Celcuity",
-   "last_price": "85.49",
+   "last_price": "83.92",
    "market_cap": 4183188736
   },
   "ticker": "CELC",

@@ -38,7 +38,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "19.94",
+   "last_price": "20.45",
    "market_cap": 1265421184
   },
   "ticker": "CGEM",
@@ -72,7 +72,7 @@
   "company": {
    "ticker": "BNTX",
    "name": "BioNTech SE",
-   "last_price": "96.73",
+   "last_price": "99.36",
    "market_cap": 24298999808
   },
   "ticker": "BNTX",
@@ -116,7 +116,7 @@
   "company": {
    "ticker": "BNTX",
    "name": "BioNTech SE",
-   "last_price": "96.73",
+   "last_price": "99.36",
    "market_cap": 24298999808
   },
   "ticker": "BNTX",
@@ -199,7 +199,7 @@
   "company": {
    "ticker": "BNTX",
    "name": "BioNTech SE",
-   "last_price": "96.73",
+   "last_price": "99.36",
    "market_cap": 24298999808
   },
   "ticker": "BNTX",
@@ -438,7 +438,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "4.27",
+   "last_price": "4.41",
    "market_cap": 276257888
   },
   "ticker": "IMRX",
@@ -482,7 +482,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.22",
+   "last_price": "99.51",
    "market_cap": 6377640960
   },
   "ticker": "MIRM",
@@ -612,7 +612,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "36.90",
+   "last_price": "38.51",
    "market_cap": 2897740032
   },
   "ticker": "CLDX",
@@ -684,6 +684,45 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
+ },
+ {
+  "id": 13849,
+  "company": {
+   "ticker": "SRRK",
+   "name": "Scholar Rock Holding Corp",
+   "last_price": "53.88",
+   "market_cap": 6748122112
+  },
+  "ticker": "SRRK",
+  "drug_name": "Apitegromab (SRK-015) ",
+  "indications": [
+   {
+    "id": 768,
+    "title": "Genetic disorder",
+    "nickname": ""
+   },
+   {
+    "id": 1269,
+    "title": "Spinal muscular atrophy ",
+    "nickname": "SMA"
+   }
+  ],
+  "indications_text": "Spinal muscular atrophy ",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "03/31/26:- Resubmitted SMA BLA; FDA acceptance expected within 30 days. PDUFA action expected Late September 2026. 05/07/26:- FDA accepted SAPPHIRE-based apitegromab BLA; PDUFA action date September 30, 2026; OPAL Ph2 enrolling infants. 07/19/26:- CHMP opinion timing depends on Catalent Indiana classification; could be later 2026. Update Aug 6, 2026. 08/06/26:- BLA review advancing; second facility package submitted; OPAL ongoing; PDUFA remains September 30, 2026. 08/07/26:- Catalent Indiana removed after OAI. Second fill-finish review progressing; PDUFA still September 30, 2026. 08/21/26:- Catalent Indiana removed from SMA BLA; EU application withdrawn Aug 20; Japan NDA planned YE 2026.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260821050366/en/Scholar-Rock-Provides-Update-on-Global-Apitegromab-Regulatory-Progress-Across-U.S.-Europe-and-Japan",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 14275,
@@ -909,7 +948,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "27.83",
+   "last_price": "27.74",
    "market_cap": 4795262464
   },
   "ticker": "ACAD",
@@ -992,7 +1031,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.02",
+   "last_price": "1.03",
    "market_cap": 345892608
   },
   "ticker": "OCGN",
@@ -1065,7 +1104,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "40.68",
+   "last_price": "40.14",
    "market_cap": 5225530368
   },
   "ticker": "DFTX",
@@ -1255,7 +1294,7 @@
   "company": {
    "ticker": "DWTX",
    "name": "Dogwood Therapeutics",
-   "last_price": "1.86",
+   "last_price": "1.89",
    "market_cap": 65945552
   },
   "ticker": "DWTX",
@@ -1508,7 +1547,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "19.94",
+   "last_price": "20.45",
    "market_cap": 1265421184
   },
   "ticker": "CGEM",
@@ -1586,7 +1625,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "92.38",
+   "last_price": "94.72",
    "market_cap": 6116451840
   },
   "ticker": "ORKA",
@@ -1756,7 +1795,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.22",
+   "last_price": "99.51",
    "market_cap": 6377640960
   },
   "ticker": "MIRM",
@@ -1829,7 +1868,7 @@
   "company": {
    "ticker": "CUE",
    "name": "Cue Biopharma",
-   "last_price": "28.74",
+   "last_price": "30.45",
    "market_cap": 208779264
   },
   "ticker": "CUE",
@@ -4168,7 +4207,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "73.77",
+   "last_price": "74.09",
    "market_cap": 10255757312
   },
   "ticker": "CYTK",
@@ -4241,7 +4280,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "3.95",
+   "last_price": "3.99",
    "market_cap": 746941824
   },
   "ticker": "ANNX",
@@ -4387,7 +4426,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "5.30",
+   "last_price": "5.34",
    "market_cap": 1088938112
   },
   "ticker": "SVRA",
@@ -4485,40 +4524,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 14230,
-  "company": {
-   "ticker": "PYPD",
-   "name": "Polypid",
-   "last_price": "5.15",
-   "market_cap": 104605600
-  },
-  "ticker": "PYPD",
-  "drug_name": "D-PLEX-100",
-  "indications": [
-   {
-    "id": 1207,
-    "title": "Surgical site infection",
-    "nickname": "SSI"
-   }
-  ],
-  "indications_text": "Surgical site infection",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "SHIELD II study. 5/14/25- Enrollment completed. 6/9/25- Reported topline results, met primary & secondary endpoints. 10/5/25- Presentation at ACS'25. 12/3/25- Pre-NDA meeting held; FDA agreed to rolling NDA. Initial submission in early 2026. 02/11/26:- FDA confirmed rolling NDA; submission to begin by Q1 2026 end. Advanced U.S. partnership talks ongoing. 03/17/26:- FDA granted PDUFA fee waiver; first rolling NDA sections expected by end of March 2026. 03/31/26:- Submitted CMC and nonclinical NDA modules; clinical section expected in Q2 2026. 04/13/26:- New SHIELD II Ph3 PK data to be presented at ESCMID Global 2026 on Apr 19, 2026. 04/28/26:- Present SHIELD II ASEPSIS analysis at SIS 2026 on May 6, 2026. 05/13/26:- NDA filing initiated March 30; completion imminent. EMA meetings Q2 2026, MAA Q3 2026, PDUFA planned Q1 2027. 06/01/26:- Rolling NDA submission completed. FDA decision anticipated in Q1 2027. 07/29/26:- FDA accepted NDA with Priority Review; PDUFA set for November 28, 2026, about one quarter earlier. 08/12/26:- Azurity partnership achieved $30 million in payments. PDUFA decision will occur November 28, 2026. EMA MAA submission is expected in Q3 2026; U.S. launch is targeted for Early 2027.",
-  "catalyst_date": "2026-11-28",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3335971/0/en/polypid-to-report-second-quarter-2026-financial-results-and-operational-highlights-on-august-12-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 236,
   "company": {
    "ticker": "AGT-236",
@@ -4553,11 +4558,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 14230,
+  "company": {
+   "ticker": "PYPD",
+   "name": "Polypid",
+   "last_price": "5.15",
+   "market_cap": 104605600
+  },
+  "ticker": "PYPD",
+  "drug_name": "D-PLEX-100",
+  "indications": [
+   {
+    "id": 1207,
+    "title": "Surgical site infection",
+    "nickname": "SSI"
+   }
+  ],
+  "indications_text": "Surgical site infection",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "SHIELD II study. 5/14/25- Enrollment completed. 6/9/25- Reported topline results, met primary & secondary endpoints. 10/5/25- Presentation at ACS'25. 12/3/25- Pre-NDA meeting held; FDA agreed to rolling NDA. Initial submission in early 2026. 02/11/26:- FDA confirmed rolling NDA; submission to begin by Q1 2026 end. Advanced U.S. partnership talks ongoing. 03/17/26:- FDA granted PDUFA fee waiver; first rolling NDA sections expected by end of March 2026. 03/31/26:- Submitted CMC and nonclinical NDA modules; clinical section expected in Q2 2026. 04/13/26:- New SHIELD II Ph3 PK data to be presented at ESCMID Global 2026 on Apr 19, 2026. 04/28/26:- Present SHIELD II ASEPSIS analysis at SIS 2026 on May 6, 2026. 05/13/26:- NDA filing initiated March 30; completion imminent. EMA meetings Q2 2026, MAA Q3 2026, PDUFA planned Q1 2027. 06/01/26:- Rolling NDA submission completed. FDA decision anticipated in Q1 2027. 07/29/26:- FDA accepted NDA with Priority Review; PDUFA set for November 28, 2026, about one quarter earlier. 08/12/26:- Azurity partnership achieved $30 million in payments. PDUFA decision will occur November 28, 2026. EMA MAA submission is expected in Q3 2026; U.S. launch is targeted for Early 2027.",
+  "catalyst_date": "2026-11-28",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3335971/0/en/polypid-to-report-second-quarter-2026-financial-results-and-operational-highlights-on-august-12-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 15376,
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "33.41",
+   "last_price": "33.36",
    "market_cap": 5797469184
   },
   "ticker": "COGT",
@@ -5195,7 +5234,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "334.58",
+   "last_price": "333.47",
    "market_cap": 9341469696
   },
   "ticker": "PRAX",
@@ -5263,7 +5302,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "33.41",
+   "last_price": "33.36",
    "market_cap": 5797469184
   },
   "ticker": "COGT",
@@ -5605,7 +5644,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "3.95",
+   "last_price": "3.99",
    "market_cap": 746941824
   },
   "ticker": "ANNX",
@@ -6055,7 +6094,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "143.97",
+   "last_price": "144.33",
    "market_cap": 57477992448
   },
   "ticker": "MRNA",
@@ -6543,7 +6582,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.01",
+   "last_price": "36.08",
    "market_cap": 1880527744
   },
   "ticker": "NBTX",
@@ -6719,7 +6758,7 @@
   "company": {
    "ticker": "IVA",
    "name": " Inventiva",
-   "last_price": "3.85",
+   "last_price": "3.91",
    "market_cap": 949607040
   },
   "ticker": "IVA",
@@ -7236,7 +7275,7 @@
   "company": {
    "ticker": "OVID",
    "name": "Ovid Therapeutics",
-   "last_price": "2.69",
+   "last_price": "2.77",
    "market_cap": 525351232
   },
   "ticker": "OVID",
@@ -7597,7 +7636,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "11.48",
+   "last_price": "12.07",
    "market_cap": 2331463168
   },
   "ticker": "SLS",
@@ -7685,7 +7724,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.80",
+   "last_price": "22.81",
    "market_cap": 2665410560
   },
   "ticker": "NAMS",
@@ -7724,7 +7763,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.80",
+   "last_price": "22.81",
    "market_cap": 2665410560
   },
   "ticker": "NAMS",
@@ -7763,7 +7802,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "67.88",
+   "last_price": "69.42",
    "market_cap": 2689802496
   },
   "ticker": "IRON",
@@ -7802,7 +7841,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "67.88",
+   "last_price": "69.42",
    "market_cap": 2689802496
   },
   "ticker": "IRON",
@@ -7846,7 +7885,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.01",
+   "last_price": "36.08",
    "market_cap": 1880527744
   },
   "ticker": "NBTX",
@@ -7885,7 +7924,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.01",
+   "last_price": "36.08",
    "market_cap": 1880527744
   },
   "ticker": "NBTX",
@@ -7924,7 +7963,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.01",
+   "last_price": "36.08",
    "market_cap": 1880527744
   },
   "ticker": "NBTX",
@@ -9271,7 +9310,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "143.97",
+   "last_price": "144.33",
    "market_cap": 57477992448
   },
   "ticker": "MRNA",
@@ -9476,7 +9515,7 @@
   "company": {
    "ticker": "CGON",
    "name": "CG Oncology",
-   "last_price": "72.35",
+   "last_price": "74.12",
    "market_cap": 6413131264
   },
   "ticker": "CGON",
@@ -9515,7 +9554,7 @@
   "company": {
    "ticker": "CGON",
    "name": "CG Oncology",
-   "last_price": "72.35",
+   "last_price": "74.12",
    "market_cap": 6413131264
   },
   "ticker": "CGON",
@@ -9627,7 +9666,7 @@
   "company": {
    "ticker": "PTN",
    "name": "Palatin Technologies",
-   "last_price": "11.80",
+   "last_price": "12.17",
    "market_cap": 20995446
   },
   "ticker": "PTN",
@@ -10138,7 +10177,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "19.94",
+   "last_price": "20.45",
    "market_cap": 1265421184
   },
   "ticker": "CGEM",
@@ -10484,7 +10523,7 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "52.96",
+   "last_price": "53.88",
    "market_cap": 6748122112
   },
   "ticker": "SRRK",
@@ -10771,7 +10810,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "36.90",
+   "last_price": "38.51",
    "market_cap": 2897740032
   },
   "ticker": "CLDX",
@@ -11302,7 +11341,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "143.97",
+   "last_price": "144.33",
    "market_cap": 57477992448
   },
   "ticker": "MRNA",
@@ -11624,7 +11663,7 @@
   "company": {
    "ticker": "PBYI",
    "name": "Puma Biotechnology",
-   "last_price": "9.12",
+   "last_price": "9.09",
    "market_cap": 470774976
   },
   "ticker": "PBYI",
@@ -11994,7 +12033,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "3.21",
+   "last_price": "3.45",
    "market_cap": 267739840
   },
   "ticker": "PYXS",
@@ -12285,7 +12324,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.32",
+   "last_price": "5.59",
    "market_cap": 783098176
   },
   "ticker": "ACRS",
@@ -12319,7 +12358,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.32",
+   "last_price": "5.59",
    "market_cap": 783098176
   },
   "ticker": "ACRS",
@@ -12713,7 +12752,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "19.94",
+   "last_price": "20.45",
    "market_cap": 1265421184
   },
   "ticker": "CGEM",
@@ -13242,7 +13281,7 @@
   "company": {
    "ticker": "PRQR",
    "name": "ProQR",
-   "last_price": "1.86",
+   "last_price": "1.85",
    "market_cap": 262481424
   },
   "ticker": "PRQR",
@@ -13650,7 +13689,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "38.66",
+   "last_price": "39.17",
    "market_cap": 2756838912
   },
   "ticker": "GPCR",
@@ -13752,7 +13791,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.80",
+   "last_price": "22.81",
    "market_cap": 2665410560
   },
   "ticker": "NAMS",
@@ -13791,7 +13830,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.80",
+   "last_price": "22.81",
    "market_cap": 2665410560
   },
   "ticker": "NAMS",
@@ -14005,7 +14044,7 @@
   "company": {
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
-   "last_price": "106.20",
+   "last_price": "108.97",
    "market_cap": 5940230656
   },
   "ticker": "DNTH",
@@ -14413,7 +14452,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "143.97",
+   "last_price": "144.33",
    "market_cap": 57477992448
   },
   "ticker": "MRNA",
@@ -14889,7 +14928,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "19.94",
+   "last_price": "20.45",
    "market_cap": 1265421184
   },
   "ticker": "CGEM",
@@ -15103,7 +15142,7 @@
   "company": {
    "ticker": "INTS",
    "name": "Intensity Therapeutics",
-   "last_price": "4.02",
+   "last_price": "3.98",
    "market_cap": 13124814
   },
   "ticker": "INTS",
@@ -15254,7 +15293,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "67.88",
+   "last_price": "69.42",
    "market_cap": 2689802496
   },
   "ticker": "IRON",
@@ -15361,7 +15400,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "92.38",
+   "last_price": "94.72",
    "market_cap": 6116451840
   },
   "ticker": "ORKA",
@@ -15429,7 +15468,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.22",
+   "last_price": "99.51",
    "market_cap": 6377640960
   },
   "ticker": "MIRM",
@@ -15658,7 +15697,7 @@
   "company": {
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
-   "last_price": "106.20",
+   "last_price": "108.97",
    "market_cap": 5940230656
   },
   "ticker": "DNTH",
@@ -16850,7 +16889,7 @@
   "company": {
    "ticker": "PRQR",
    "name": "ProQR",
-   "last_price": "1.86",
+   "last_price": "1.85",
    "market_cap": 262481424
   },
   "ticker": "PRQR",
@@ -17268,7 +17307,7 @@
   "company": {
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
-   "last_price": "106.20",
+   "last_price": "108.97",
    "market_cap": 5940230656
   },
   "ticker": "DNTH",
@@ -17302,7 +17341,7 @@
   "company": {
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
-   "last_price": "106.20",
+   "last_price": "108.97",
    "market_cap": 5940230656
   },
   "ticker": "DNTH",
@@ -17584,7 +17623,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "334.58",
+   "last_price": "333.47",
    "market_cap": 9341469696
   },
   "ticker": "PRAX",
@@ -17847,7 +17886,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "19.94",
+   "last_price": "20.45",
    "market_cap": 1265421184
   },
   "ticker": "CGEM",
@@ -18144,7 +18183,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.02",
+   "last_price": "1.03",
    "market_cap": 345892608
   },
   "ticker": "OCGN",
@@ -18212,7 +18251,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.22",
+   "last_price": "99.51",
    "market_cap": 6377640960
   },
   "ticker": "MIRM",
@@ -18752,7 +18791,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "92.38",
+   "last_price": "94.72",
    "market_cap": 6116451840
   },
   "ticker": "ORKA",
@@ -18854,7 +18893,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.80",
+   "last_price": "22.81",
    "market_cap": 2665410560
   },
   "ticker": "NAMS",
@@ -18922,7 +18961,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "92.38",
+   "last_price": "94.72",
    "market_cap": 6116451840
   },
   "ticker": "ORKA",
@@ -19126,7 +19165,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "29.55",
+   "last_price": "27.90",
    "market_cap": 30054210
   },
   "ticker": "QNCX",
@@ -19160,7 +19199,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "29.55",
+   "last_price": "27.90",
    "market_cap": 30054210
   },
   "ticker": "QNCX",
@@ -19618,7 +19657,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "37.01",
+   "last_price": "36.08",
    "market_cap": 1880527744
   },
   "ticker": "NBTX",
@@ -20013,7 +20052,7 @@
   "company": {
    "ticker": "PROK",
    "name": "ProKidney",
-   "last_price": "1.80",
+   "last_price": "1.81",
    "market_cap": 718528576
   },
   "ticker": "PROK",
@@ -20052,7 +20091,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "13.17",
+   "last_price": "14.10",
    "market_cap": 727566272
   },
   "ticker": "FDMT",
@@ -20164,7 +20203,7 @@
   "company": {
    "ticker": "PRTA",
    "name": "Prothena Corporation",
-   "last_price": "8.93",
+   "last_price": "8.92",
    "market_cap": 458439200
   },
   "ticker": "PRTA",
@@ -20836,7 +20875,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "38.66",
+   "last_price": "39.17",
    "market_cap": 2756838912
   },
   "ticker": "GPCR",
@@ -21877,7 +21916,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "23.34",
+   "last_price": "24.65",
    "market_cap": 1249403136
   },
   "ticker": "SPTX",
@@ -22266,7 +22305,7 @@
   "company": {
    "ticker": "MESO",
    "name": "Mesoblast",
-   "last_price": "15.03",
+   "last_price": "15.08",
    "market_cap": 2010153472
   },
   "ticker": "MESO",
@@ -23332,7 +23371,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "334.58",
+   "last_price": "333.47",
    "market_cap": 9341469696
   },
   "ticker": "PRAX",
@@ -23551,7 +23590,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.60",
+   "last_price": "90.37",
    "market_cap": 7988542464
   },
   "ticker": "SYRE",
@@ -23590,7 +23629,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.60",
+   "last_price": "90.37",
    "market_cap": 7988542464
   },
   "ticker": "SYRE",
@@ -23819,7 +23858,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "40.68",
+   "last_price": "40.14",
    "market_cap": 5225530368
   },
   "ticker": "DFTX",
@@ -23999,7 +24038,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "98.22",
+   "last_price": "99.51",
    "market_cap": 6377640960
   },
   "ticker": "MIRM",
@@ -24106,7 +24145,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.60",
+   "last_price": "90.37",
    "market_cap": 7988542464
   },
   "ticker": "SYRE",
@@ -24281,7 +24320,7 @@
   "company": {
    "ticker": "PVLA",
    "name": "Palvella Therapeutics",
-   "last_price": "152.38",
+   "last_price": "153.38",
    "market_cap": 2163134208
   },
   "ticker": "PVLA",
@@ -24539,7 +24578,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "67.88",
+   "last_price": "69.42",
    "market_cap": 2689802496
   },
   "ticker": "IRON",
@@ -25911,7 +25950,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.60",
+   "last_price": "90.37",
    "market_cap": 7988542464
   },
   "ticker": "SYRE",
@@ -25945,7 +25984,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.60",
+   "last_price": "90.37",
    "market_cap": 7988542464
   },
   "ticker": "SYRE",
@@ -26358,7 +26397,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "4.27",
+   "last_price": "4.41",
    "market_cap": 276257888
   },
   "ticker": "IMRX",
@@ -26392,7 +26431,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "38.66",
+   "last_price": "39.17",
    "market_cap": 2756838912
   },
   "ticker": "GPCR",
@@ -26649,7 +26688,7 @@
   "company": {
    "ticker": "DNTH",
    "name": "Dianthus Therapeutics",
-   "last_price": "106.20",
+   "last_price": "108.97",
    "market_cap": 5940230656
   },
   "ticker": "DNTH",
@@ -26922,7 +26961,7 @@
   "company": {
    "ticker": "PRTA",
    "name": "Prothena Corporation",
-   "last_price": "8.93",
+   "last_price": "8.92",
    "market_cap": 458439200
   },
   "ticker": "PRTA",
@@ -27263,7 +27302,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "73.77",
+   "last_price": "74.09",
    "market_cap": 10255757312
   },
   "ticker": "CYTK",
@@ -27341,7 +27380,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "11.48",
+   "last_price": "12.07",
    "market_cap": 2331463168
   },
   "ticker": "SLS",
@@ -27419,7 +27458,7 @@
   "company": {
    "ticker": "PTGX",
    "name": "Protagonist Therapeutics ",
-   "last_price": "148.18",
+   "last_price": "148.11",
    "market_cap": 9588472832
   },
   "ticker": "PTGX",
@@ -27799,7 +27838,7 @@
   "company": {
    "ticker": "PTGX",
    "name": "Protagonist Therapeutics ",
-   "last_price": "148.18",
+   "last_price": "148.11",
    "market_cap": 9588472832
   },
   "ticker": "PTGX",
@@ -28203,7 +28242,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "36.90",
+   "last_price": "38.51",
    "market_cap": 2897740032
   },
   "ticker": "CLDX",
@@ -29577,7 +29616,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "36.90",
+   "last_price": "38.51",
    "market_cap": 2897740032
   },
   "ticker": "CLDX",
@@ -29972,7 +30011,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "36.90",
+   "last_price": "38.51",
    "market_cap": 2897740032
   },
   "ticker": "CLDX",
@@ -30488,7 +30527,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "33.41",
+   "last_price": "33.36",
    "market_cap": 5797469184
   },
   "ticker": "COGT",
@@ -31023,7 +31062,7 @@
   "company": {
    "ticker": "SYRE",
    "name": "Spyre Therapeutics Inc",
-   "last_price": "90.60",
+   "last_price": "90.37",
    "market_cap": 7988542464
   },
   "ticker": "SYRE",
@@ -32201,7 +32240,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "23.34",
+   "last_price": "24.65",
    "market_cap": 1249403136
   },
   "ticker": "SPTX",

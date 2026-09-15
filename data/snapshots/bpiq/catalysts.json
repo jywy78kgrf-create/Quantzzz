@@ -34,50 +34,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 17719,
-  "company": {
-   "ticker": "BNTX",
-   "name": "BioNTech SE",
-   "last_price": "96.25",
-   "market_cap": 24834064384
-  },
-  "ticker": "BNTX",
-  "drug_name": "BNT116 +/- cemiplimab",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Solid tumor/s, Cancer, Non-small cell lung carcinoma",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "W/ Regeneron. EMPOWERVAX Lung 1 trial. Presentation at ESMO '23. 08/20/26:- Preliminary neoadjuvant Ph1 results to present at WCLC Sep 14, 2026.",
-  "catalyst_date": "2026-09-14",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/20/3348151/0/en/biontech-highlights-late-stage-lung-cancer-pipeline-momentum-and-first-global-data-for-pumitamig-elfetabart-drozuntecan-novel-novel-combination-at-wclc-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 13433,
   "company": {
    "ticker": "CNTB",
@@ -4519,40 +4475,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-05",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 19186,
   "company": {
    "ticker": "REGN",
@@ -4585,6 +4507,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-05",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19745,
@@ -5283,7 +5239,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "25.52",
+   "last_price": "24.32",
    "market_cap": 2648508416
   },
   "ticker": "NRIX",
@@ -5537,7 +5493,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "25.52",
+   "last_price": "24.32",
    "market_cap": 2648508416
   },
   "ticker": "NRIX",
@@ -7261,7 +7217,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.68",
+   "last_price": "0.67",
    "market_cap": 155368976
   },
   "ticker": "TNYA",
@@ -7910,7 +7866,7 @@
   "company": {
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
-   "last_price": "17.77",
+   "last_price": "17.95",
    "market_cap": 1638601600
   },
   "ticker": "SNDX",
@@ -7959,7 +7915,7 @@
   "company": {
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
-   "last_price": "17.77",
+   "last_price": "17.95",
    "market_cap": 1638601600
   },
   "ticker": "SNDX",
@@ -7993,7 +7949,7 @@
   "company": {
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
-   "last_price": "17.77",
+   "last_price": "17.95",
    "market_cap": 1638601600
   },
   "ticker": "SNDX",
@@ -8554,7 +8510,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.68",
+   "last_price": "0.67",
    "market_cap": 155368976
   },
   "ticker": "TNYA",
@@ -8588,7 +8544,7 @@
   "company": {
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
-   "last_price": "17.77",
+   "last_price": "17.95",
    "market_cap": 1638601600
   },
   "ticker": "SNDX",
@@ -9003,7 +8959,7 @@
   "company": {
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
-   "last_price": "17.77",
+   "last_price": "17.95",
    "market_cap": 1638601600
   },
   "ticker": "SNDX",
@@ -10299,7 +10255,7 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "51.85",
+   "last_price": "47.02",
    "market_cap": 6314566656
   },
   "ticker": "SRRK",
@@ -11078,7 +11034,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "13.11",
+   "last_price": "12.77",
    "market_cap": 1235219328
   },
   "ticker": "REPL",
@@ -11268,7 +11224,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "25.52",
+   "last_price": "24.32",
    "market_cap": 2648508416
   },
   "ticker": "NRIX",
@@ -12489,7 +12445,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "25.52",
+   "last_price": "24.32",
    "market_cap": 2648508416
   },
   "ticker": "NRIX",
@@ -13645,7 +13601,7 @@
   "company": {
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
-   "last_price": "20.92",
+   "last_price": "20.91",
    "market_cap": 2209717248
   },
   "ticker": "SRPT",
@@ -13679,7 +13635,7 @@
   "company": {
    "ticker": "SRPT",
    "name": "Sarepta Therapeutics",
-   "last_price": "20.92",
+   "last_price": "20.91",
    "market_cap": 2209717248
   },
   "ticker": "SRPT",
@@ -13752,7 +13708,7 @@
   "company": {
    "ticker": "SKYE",
    "name": "Skye Bioscience",
-   "last_price": "1.99",
+   "last_price": "1.97",
    "market_cap": 8811075
   },
   "ticker": "SKYE",
@@ -14340,7 +14296,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "25.52",
+   "last_price": "24.32",
    "market_cap": 2648508416
   },
   "ticker": "NRIX",
@@ -15473,7 +15429,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "25.52",
+   "last_price": "24.32",
    "market_cap": 2648508416
   },
   "ticker": "NRIX",
@@ -15765,7 +15721,7 @@
   "company": {
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
-   "last_price": "17.77",
+   "last_price": "17.95",
    "market_cap": 1638601600
   },
   "ticker": "SNDX",
@@ -16417,7 +16373,7 @@
   "company": {
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
-   "last_price": "17.77",
+   "last_price": "17.95",
    "market_cap": 1638601600
   },
   "ticker": "SNDX",
@@ -18173,7 +18129,7 @@
   "company": {
    "ticker": "SPRY",
    "name": "ARS Pharmaceuticals",
-   "last_price": "4.50",
+   "last_price": "4.34",
    "market_cap": 447513056
   },
   "ticker": "SPRY",
@@ -18207,7 +18163,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "13.11",
+   "last_price": "12.77",
    "market_cap": 1235219328
   },
   "ticker": "REPL",
@@ -21225,7 +21181,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "4.02",
+   "last_price": "4.06",
    "market_cap": 232026672
   },
   "ticker": "WHWK",
@@ -21405,7 +21361,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "4.02",
+   "last_price": "4.06",
    "market_cap": 232026672
   },
   "ticker": "WHWK",
@@ -21692,7 +21648,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "24.70",
+   "last_price": "24.19",
    "market_cap": 1322204672
   },
   "ticker": "SPTX",
@@ -22729,7 +22685,7 @@
   "company": {
    "ticker": "DARE",
    "name": "Dar\u00e9 Bioscience, Inc.",
-   "last_price": "0.74",
+   "last_price": "0.73",
    "market_cap": 14482346
   },
   "ticker": "DARE",
@@ -25006,7 +24962,7 @@
   "company": {
    "ticker": "DARE",
    "name": "Dar\u00e9 Bioscience, Inc.",
-   "last_price": "0.74",
+   "last_price": "0.73",
    "market_cap": 14482346
   },
   "ticker": "DARE",
@@ -25113,7 +25069,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "10.43",
+   "last_price": "10.08",
    "market_cap": 378526752
   },
   "ticker": "EVMN",
@@ -26037,7 +25993,7 @@
   "company": {
    "ticker": "SNDX",
    "name": "Syndax Pharmaceuticals",
-   "last_price": "17.77",
+   "last_price": "17.95",
    "market_cap": 1638601600
   },
   "ticker": "SNDX",
@@ -28827,7 +28783,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.48",
+   "last_price": "2.42",
    "market_cap": 234915872
   },
   "ticker": "CGEN",
@@ -31977,7 +31933,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "10.43",
+   "last_price": "10.08",
    "market_cap": 378526752
   },
   "ticker": "EVMN",
@@ -32308,7 +32264,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "24.70",
+   "last_price": "24.19",
    "market_cap": 1322204672
   },
   "ticker": "SPTX",

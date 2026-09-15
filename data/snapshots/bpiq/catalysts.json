@@ -1,5 +1,39 @@
 [
  {
+  "id": 19008,
+  "company": {
+   "ticker": "SION",
+   "name": "Sionna Therapeutics",
+   "last_price": "7.09",
+   "market_cap": 372941728
+  },
+  "ticker": "SION",
+  "drug_name": "SION-719",
+  "indications": [
+   {
+    "id": 1213,
+    "title": "Cystic fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Cystic fibrosis ",
+  "stage_event": {
+   "id": 77,
+   "label": "Failed Discontinued",
+   "stage_label": "Failed",
+   "event_label": "Discontinued"
+  },
+  "note": "6/4/25- Reported Ph1 data. Planned advancement to Ph2a proof-of-concept trial. 10/21/25- Trial initiated. 10/24/25\u2013 PK data reported; additional readout in mid-2026. 03/02/26:- PreciSION CF Ph2a POC trial ongoing; topline data still expected in Mid-2026. 04/27/26:- Completed enrollment in PreciSION CF Ph2a POC (NCT07108153). Data expected Summer 2026. 05/12/26:- Enrollment completed in PreciSION CF Ph2a POC; topline data still expected summer 2026. Encore Ph1 data at ECFS. 08/06/26:- PreciSION CF Ph2a POC topline data remain on track for Summer 2026. 08/10/26:- PreciSION CF Ph2a POC missed sweat chloride endpoint; SION-719 not advancing as add-on.",
+  "catalyst_date": "2026-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/14/3361527/0/en/sionna-therapeutics-announces-plans-to-advance-sion-451-sion-2222-dual-combination-into-phase-2a-proof-of-concept-trial.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 17434,
   "company": {
    "ticker": "N/A",
@@ -32,45 +66,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 13433,
-  "company": {
-   "ticker": "CNTB",
-   "name": "Connect Biopharma",
-   "last_price": "1.09",
-   "market_cap": 108630680
-  },
-  "ticker": "CNTB",
-  "drug_name": "Rademikibart /CBP-201 ",
-  "indications": [
-   {
-    "id": 946,
-    "title": "Asthma",
-    "nickname": ""
-   },
-   {
-    "id": 781,
-    "title": "Chronic obstructive pulmonary disease",
-    "nickname": "COPD"
-   }
-  ],
-  "indications_text": "Asthma",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Seabreeze STAT Asthma Ph2 Study. 5/13/25- Seabreeze STAT asthma initiated. 6/13/25- Supporting data presented at EAACI'25. Topline data in H1 2026. 11/12/25:- Presented new Ph2 asthma analyses at ERS 2025; Seabreeze STAT asthma recruitment ongoing; topline data H1 2026. 01/12/26:- New MOA data; Seabreeze STAT asthma recruitment ongoing; topline adjunct data now expected in Mid-2026. 03/31/26:- Seabreeze STAT asthma Ph2 recruitment ongoing; topline adjunct data expected mid-2026. 04/23/26:- DMC interim efficacy review completed; no sample size change. Seabreeze STAT topline data still expected Mid-2026. 05/12/26:- DMC review supports Seabreeze STAT asthma; enrollment ongoing; topline adjunct data expected mid-2026; plan post-topline FDA meeting. 06/17/26:- Seabreeze STAT Asthma enrollment completed; topline data expected in Early September 2026. FDA Ph3 meeting planned later 2026. 08/12/26:- Seabreeze STAT Asthma enrollment completed. Topline data will be reported in September 2026. FDA meeting will follow topline results.",
-  "catalyst_date": "2026-09-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344061/0/en/connect-biopharma-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 20776,
@@ -150,7 +145,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "13.14",
+   "last_price": "12.98",
    "market_cap": 1341794560
   },
   "ticker": "RARE",
@@ -355,7 +350,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "121.51",
+   "last_price": "121.19",
    "market_cap": 24767637504
   },
   "ticker": "INCY",
@@ -870,7 +865,7 @@
   "company": {
    "ticker": "SCYX",
    "name": "SCYNEXIS",
-   "last_price": "4.60",
+   "last_price": "4.45",
    "market_cap": 45768200
   },
   "ticker": "SCYX",
@@ -1459,7 +1454,7 @@
   "company": {
    "ticker": "SCYX",
    "name": "SCYNEXIS",
-   "last_price": "4.60",
+   "last_price": "4.45",
    "market_cap": 45768200
   },
   "ticker": "SCYX",
@@ -3369,7 +3364,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "44.00",
+   "last_price": "42.59",
    "market_cap": 2111044608
   },
   "ticker": "RAPP",
@@ -3924,10 +3919,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "HARMONi trial. 5/30/25- Favorable Ph3 result announced. Timing of BLA filing to be determined. 9/7/25- Long term follow-up data presented at IASLC'25. 01/12/26:- BLA for ivonescimab plus chemotherapy in 2L+ EGFRm NSCLC submitted in Q4 2025; FDA decision expected Q4 2026. 01/29/26:- FDA accepted BLA for ivonescimab plus chemotherapy; PDUFA action date set for November 14, 2026. 03/27/26:- ELCC 2026 posters show intracranial PFS benefit and HRQoL data. PDUFA still November 14, 2026. 07/22/26:- June 2026 OS update showed HR 0.76; PDUFA remains November 14, 2026.",
+  "note": "HARMONi trial. 5/30/25- Favorable Ph3 result announced. Timing of BLA filing to be determined. 9/7/25- Long term follow-up data presented at IASLC'25. 01/12/26:- BLA for ivonescimab plus chemotherapy in 2L+ EGFRm NSCLC submitted in Q4 2025; FDA decision expected Q4 2026. 01/29/26:- FDA accepted BLA for ivonescimab plus chemotherapy; PDUFA action date set for November 14, 2026. 03/27/26:- ELCC 2026 posters show intracranial PFS benefit and HRQoL data. PDUFA still November 14, 2026. 07/22/26:- June 2026 OS update showed HR 0.76; PDUFA remains November 14, 2026. 09/15/26:- Updated OS results presented at WCLC 2026. PDUFA remains November 14, 2026.",
   "catalyst_date": "2026-11-14",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260722390898/en/Ivonescimab-Plus-Chemotherapy-Shows-Consistent-Favorable-Overall-Survival-Results-in-Western-and-Asian-Patients-in-Updated-Analysis-from-Global-Phase-III-HARMONi-Study",
+  "catalyst_source": "https://www.businesswire.com/news/home/20260915307340/en/Updated-HARMONi-Data-Presented-at-WCLC-2026-Demonstrate-Consistent-Overall-Survival-Results-with-Ivonescimab-Plus-Chemotherapy-in-Western-and-Asian-Patients/",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -4406,7 +4401,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "793.74",
+   "last_price": "776.97",
    "market_cap": 81719492608
   },
   "ticker": "REGN",
@@ -6280,7 +6275,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.25",
+   "last_price": "35.40",
    "market_cap": 1815489280
   },
   "ticker": "NBTX",
@@ -7383,7 +7378,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "13.14",
+   "last_price": "12.98",
    "market_cap": 1341794560
   },
   "ticker": "RARE",
@@ -7583,7 +7578,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.25",
+   "last_price": "35.40",
    "market_cap": 1815489280
   },
   "ticker": "NBTX",
@@ -7622,7 +7617,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.25",
+   "last_price": "35.40",
    "market_cap": 1815489280
   },
   "ticker": "NBTX",
@@ -8227,7 +8222,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "121.51",
+   "last_price": "121.19",
    "market_cap": 24767637504
   },
   "ticker": "INCY",
@@ -10250,7 +10245,7 @@
   "company": {
    "ticker": "QTTB",
    "name": "Q32 Bio ",
-   "last_price": "10.71",
+   "last_price": "11.02",
    "market_cap": 324784864
   },
   "ticker": "QTTB",
@@ -10961,7 +10956,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "12.87",
+   "last_price": "12.83",
    "market_cap": 1235219328
   },
   "ticker": "REPL",
@@ -12231,7 +12226,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "44.00",
+   "last_price": "42.59",
    "market_cap": 2111044608
   },
   "ticker": "RAPP",
@@ -12799,7 +12794,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "16.16",
+   "last_price": "15.81",
    "market_cap": 5652154880
   },
   "ticker": "ERAS",
@@ -13382,7 +13377,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "121.51",
+   "last_price": "121.19",
    "market_cap": 24767637504
   },
   "ticker": "INCY",
@@ -15161,7 +15156,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "23.69",
+   "last_price": "24.01",
    "market_cap": 3027360000
   },
   "ticker": "RCUS",
@@ -15205,7 +15200,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "23.69",
+   "last_price": "24.01",
    "market_cap": 3027360000
   },
   "ticker": "RCUS",
@@ -15580,7 +15575,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "121.51",
+   "last_price": "121.19",
    "market_cap": 24767637504
   },
   "ticker": "INCY",
@@ -15974,7 +15969,7 @@
   "company": {
    "ticker": "PFE",
    "name": "Pfizer",
-   "last_price": "27.50",
+   "last_price": "27.52",
    "market_cap": 157994942464
   },
   "ticker": "PFE",
@@ -16742,15 +16737,15 @@
   ],
   "indications_text": "Idiopathic pulmonary fibrosis (IPF)",
   "stage_event": {
-   "id": 122,
-   "label": "Phase 1b Data readout",
-   "stage_label": "Phase 1b",
-   "event_label": "Data readout"
+   "id": 135,
+   "label": "Phase 2 Initiation",
+   "stage_label": "Phase 2",
+   "event_label": "Initiation"
   },
-  "note": "04/23/26:- AGMB-447 Ph1b IPF cohort enrolling; topline data and Ph2 IPF proof-of-concept study initiation expected in 2H 2026. 08/06/26:- IPF cohort enrolled 10 participants; topline data and Ph2 initiation remain expected in H2 2026.",
+  "note": "04/23/26:- AGMB-447 Ph1b IPF cohort enrolling; topline data and Ph2 IPF proof-of-concept study initiation expected in 2H 2026. 08/06/26:- IPF cohort enrolled 10 participants; topline data and Ph2 initiation remain expected in H2 2026. 09/14/26:- Ph1 SAD/MAD and IPF Part C topline positive. INSPIRIA Ph2 CTA submitted; study planned before year-end 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340677/0/en/Agomab-Reports-Half-Year-2026-Financial-Results-and-Confirms-2026-Outlook.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/14/3361543/0/en/agomab-announces-positive-phase-1-results-for-agmb-447-in-patients-with-idiopathic-pulmonary-fibrosis-and-design-of-phase-2-inspiria-study.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18090,7 +18085,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "12.87",
+   "last_price": "12.83",
    "market_cap": 1235219328
   },
   "ticker": "REPL",
@@ -18230,40 +18225,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
- },
- {
-  "id": 17966,
-  "company": {
-   "ticker": "COYA",
-   "name": "Coya Therapeutics",
-   "last_price": "4.64",
-   "market_cap": 108844408
-  },
-  "ticker": "COYA",
-  "drug_name": "COYA 302",
-  "indications": [
-   {
-    "id": 1160,
-    "title": "Amyotrophic lateral sclerosis",
-    "nickname": "ALS"
-   }
-  ],
-  "indications_text": "Amyotrophic lateral sclerosis",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "ALSTARS Trial. 3/19/24- FDA requested additional non-clinical toxicology/pharmacology data before trial initiation. 9/22/25- Trial initiated. 11/12/25- First patient dosed. Topline data readout before H2 2027. 12/09/25:- Dosing of ALS patients commenced in ALSTARS Ph2 trial. 03/16/26:- ALSTARS Ph2 enrolling across ~25 US/Canada sites; ALS biomarker publication 1H 2026; full enrollment targeted H2 2026. 05/12/26:- FDA granted Fast Track for COYA 302 in ALS; ALSTARS Ph2 ongoing (NCT07161999). Topline ALSTARS Ph2 readout guided for Q1 2027; protocol amended to broaden eligibility and increase recruitment; full enrollment and ALS IIT proteomics data expected H2 2026; ALS conference presentations planned June 2026. 06/08/26:- Blinded extension phase initiated in ALSTARS Ph2; placebo patients re-randomized; up to 48 weeks total data. 06/18/26:- ALSTARS Ph2 trial design overview to be presented at ENCALS 2026 on June 24, 2026.",
-  "catalyst_date": "2027-03-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260618774012/en/Coya-Therapeutics-to-Present-ALSTARS-Trial-Design-at-the-ENCALS-2026-Meeting",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
  },
  {
   "id": 18251,
@@ -18824,7 +18785,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "28.59",
+   "last_price": "28.07",
    "market_cap": 29077832
   },
   "ticker": "QNCX",
@@ -18858,7 +18819,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "28.59",
+   "last_price": "28.07",
    "market_cap": 29077832
   },
   "ticker": "QNCX",
@@ -19244,6 +19205,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 17966,
+  "company": {
+   "ticker": "COYA",
+   "name": "Coya Therapeutics",
+   "last_price": "4.64",
+   "market_cap": 108844408
+  },
+  "ticker": "COYA",
+  "drug_name": "COYA 302",
+  "indications": [
+   {
+    "id": 1160,
+    "title": "Amyotrophic lateral sclerosis",
+    "nickname": "ALS"
+   }
+  ],
+  "indications_text": "Amyotrophic lateral sclerosis",
+  "stage_event": {
+   "id": 152,
+   "label": "Phase 2/3 Data readout",
+   "stage_label": "Phase 2/3",
+   "event_label": "Data readout"
+  },
+  "note": "ALSTARS Trial. 3/19/24- FDA requested additional non-clinical toxicology/pharmacology data before trial initiation. 9/22/25- Trial initiated. 11/12/25- First patient dosed. Topline data readout before H2 2027. 12/09/25:- Dosing of ALS patients commenced in ALSTARS Ph2 trial. 03/16/26:- ALSTARS Ph2 enrolling across ~25 US/Canada sites; ALS biomarker publication 1H 2026; full enrollment targeted H2 2026. 05/12/26:- FDA granted Fast Track for COYA 302 in ALS; ALSTARS Ph2 ongoing (NCT07161999). Topline ALSTARS Ph2 readout guided for Q1 2027; protocol amended to broaden eligibility and increase recruitment; full enrollment and ALS IIT proteomics data expected H2 2026; ALS conference presentations planned June 2026. 06/08/26:- Blinded extension phase initiated in ALSTARS Ph2; placebo patients re-randomized; up to 48 weeks total data. 06/18/26:- ALSTARS Ph2 trial design overview to be presented at ENCALS 2026 on June 24, 2026. 09/15/26:- 100th patient enrolled; full enrollment in coming weeks; topline data expected in Early Q2 2027.",
+  "catalyst_date": "2027-05-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b61786015/coya-therapeutics-announces-enrollment-100th-participant-phase-2-3-alstars-trial-coya-302-treatment-",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18639,
   "company": {
    "ticker": "ZBIO",
@@ -19316,7 +19311,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.25",
+   "last_price": "35.40",
    "market_cap": 1815489280
   },
   "ticker": "NBTX",
@@ -19930,7 +19925,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "13.14",
+   "last_price": "12.98",
    "market_cap": 1341794560
   },
   "ticker": "RARE",
@@ -20042,7 +20037,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "43.60",
+   "last_price": "42.76",
    "market_cap": 3116633088
   },
   "ticker": "QURE",
@@ -20154,7 +20149,7 @@
   "company": {
    "ticker": "ZNTL",
    "name": "Zentalis Pharmaceuticals",
-   "last_price": "3.50",
+   "last_price": "3.17",
    "market_cap": 331351680
   },
   "ticker": "ZNTL",
@@ -20758,7 +20753,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "23.69",
+   "last_price": "24.01",
    "market_cap": 3027360000
   },
   "ticker": "RCUS",
@@ -20836,7 +20831,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "16.16",
+   "last_price": "15.81",
    "market_cap": 5652154880
   },
   "ticker": "ERAS",
@@ -24811,7 +24806,7 @@
   "company": {
    "ticker": "IBIO",
    "name": "iBio Inc.",
-   "last_price": "1.20",
+   "last_price": "1.19",
    "market_cap": 77168712
   },
   "ticker": "IBIO",
@@ -25327,7 +25322,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "44.00",
+   "last_price": "42.59",
    "market_cap": 2111044608
   },
   "ticker": "RAPP",
@@ -25507,7 +25502,7 @@
   "company": {
    "ticker": "AVLN",
    "name": "Avalyn Pharma",
-   "last_price": "33.60",
+   "last_price": "33.74",
    "market_cap": 1550771712
   },
   "ticker": "AVLN",
@@ -25580,7 +25575,7 @@
   "company": {
    "ticker": "AVLN",
    "name": "Avalyn Pharma",
-   "last_price": "33.60",
+   "last_price": "33.74",
    "market_cap": 1550771712
   },
   "ticker": "AVLN",
@@ -25954,7 +25949,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "28.59",
+   "last_price": "28.07",
    "market_cap": 29077832
   },
   "ticker": "QNCX",
@@ -25988,7 +25983,7 @@
   "company": {
    "ticker": "QNCX",
    "name": "Quince Therapeutics",
-   "last_price": "28.59",
+   "last_price": "28.07",
    "market_cap": 29077832
   },
   "ticker": "QNCX",
@@ -26728,6 +26723,45 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 13433,
+  "company": {
+   "ticker": "CNTB",
+   "name": "Connect Biopharma",
+   "last_price": "1.09",
+   "market_cap": 108630680
+  },
+  "ticker": "CNTB",
+  "drug_name": "Rademikibart /CBP-201 ",
+  "indications": [
+   {
+    "id": 946,
+    "title": "Asthma",
+    "nickname": ""
+   },
+   {
+    "id": 781,
+    "title": "Chronic obstructive pulmonary disease",
+    "nickname": "COPD"
+   }
+  ],
+  "indications_text": "Asthma",
+  "stage_event": {
+   "id": 137,
+   "label": "Phase 2 Update",
+   "stage_label": "Phase 2",
+   "event_label": "Update"
+  },
+  "note": "Seabreeze STAT Asthma Ph2 Study. 5/13/25- Seabreeze STAT asthma initiated. 6/13/25- Supporting data presented at EAACI'25. Topline data in H1 2026. 11/12/25:- Presented new Ph2 asthma analyses at ERS 2025; Seabreeze STAT asthma recruitment ongoing; topline data H1 2026. 01/12/26:- New MOA data; Seabreeze STAT asthma recruitment ongoing; topline adjunct data now expected in Mid-2026. 03/31/26:- Seabreeze STAT asthma Ph2 recruitment ongoing; topline adjunct data expected mid-2026. 04/23/26:- DMC interim efficacy review completed; no sample size change. Seabreeze STAT topline data still expected Mid-2026. 05/12/26:- DMC review supports Seabreeze STAT asthma; enrollment ongoing; topline adjunct data expected mid-2026; plan post-topline FDA meeting. 06/17/26:- Seabreeze STAT Asthma enrollment completed; topline data expected in Early September 2026. FDA Ph3 meeting planned later 2026. 08/12/26:- Seabreeze STAT Asthma enrollment completed. Topline data will be reported in September 2026. FDA meeting will follow topline results. 09/15/26:- Seabreeze STAT asthma Phase 2 data: 66% lower treatment failure; Day 7 lung function improved; well tolerated.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/15/3361907/0/en/connect-biopharma-announces-positive-preliminary-topline-data-from-its-global-phase-2-study-of-rademikibart-as-an-add-on-treatment-for-acute-exacerbations-in-adult-and-adolescent-p.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 13445,
   "company": {
    "ticker": "OTLK",
@@ -26888,7 +26922,7 @@
   "company": {
    "ticker": "RCKT",
    "name": "Rocket Pharmaceuticals",
-   "last_price": "3.27",
+   "last_price": "3.35",
    "market_cap": 376526880
   },
   "ticker": "RCKT",
@@ -27268,7 +27302,7 @@
   "company": {
    "ticker": "GLSI",
    "name": "Greenwich LifeSciences",
-   "last_price": "16.05",
+   "last_price": "16.25",
    "market_cap": 235585232
   },
   "ticker": "GLSI",
@@ -28135,7 +28169,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "13.14",
+   "last_price": "12.98",
    "market_cap": 1341794560
   },
   "ticker": "RARE",
@@ -28169,7 +28203,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "13.14",
+   "last_price": "12.98",
    "market_cap": 1341794560
   },
   "ticker": "RARE",
@@ -28203,7 +28237,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "36.25",
+   "last_price": "35.40",
    "market_cap": 1815489280
   },
   "ticker": "NBTX",
@@ -29105,7 +29139,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "43.60",
+   "last_price": "42.76",
    "market_cap": 3116633088
   },
   "ticker": "QURE",
@@ -29144,7 +29178,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "43.60",
+   "last_price": "42.76",
    "market_cap": 3116633088
   },
   "ticker": "QURE",
@@ -29777,7 +29811,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "23.69",
+   "last_price": "24.01",
    "market_cap": 3027360000
   },
   "ticker": "RCUS",
@@ -30941,40 +30975,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 19008,
-  "company": {
-   "ticker": "SION",
-   "name": "Sionna Therapeutics",
-   "last_price": "7.09",
-   "market_cap": 372941728
-  },
-  "ticker": "SION",
-  "drug_name": "SION-719",
-  "indications": [
-   {
-    "id": 1213,
-    "title": "Cystic fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Cystic fibrosis ",
-  "stage_event": {
-   "id": 77,
-   "label": "Failed Discontinued",
-   "stage_label": "Failed",
-   "event_label": "Discontinued"
-  },
-  "note": "6/4/25- Reported Ph1 data. Planned advancement to Ph2a proof-of-concept trial. 10/21/25- Trial initiated. 10/24/25\u2013 PK data reported; additional readout in mid-2026. 03/02/26:- PreciSION CF Ph2a POC trial ongoing; topline data still expected in Mid-2026. 04/27/26:- Completed enrollment in PreciSION CF Ph2a POC (NCT07108153). Data expected Summer 2026. 05/12/26:- Enrollment completed in PreciSION CF Ph2a POC; topline data still expected summer 2026. Encore Ph1 data at ECFS. 08/06/26:- PreciSION CF Ph2a POC topline data remain on track for Summer 2026. 08/10/26:- PreciSION CF Ph2a POC missed sweat chloride endpoint; SION-719 not advancing as add-on.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news/heathcare",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 19019,
   "company": {
    "ticker": "MBX",
@@ -31305,7 +31305,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "793.74",
+   "last_price": "776.97",
    "market_cap": 81719492608
   },
   "ticker": "REGN",

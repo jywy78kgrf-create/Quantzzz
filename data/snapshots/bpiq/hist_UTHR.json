@@ -1,28 +1,5 @@
 [
  {
-  "id": 8429,
-  "company": {
-   "id": 93,
-   "ticker": "UTHR",
-   "name": "United Therapeutics"
-  },
-  "created_at": "2026-08-25T13:03:51.104942Z",
-  "updated_at": "2026-09-16T13:04:17.721389Z",
-  "ticker": "UTHR",
-  "drug_name": "Ralinepag",
-  "drug_indication": "Pulmonary Arterial Hypertension",
-  "airtable_id": 8709,
-  "stage": "PDUFA",
-  "catalyst_date": null,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260824016096/en/United-Therapeutics-Corporation-Announces-FDA-Filing-Acceptance-of-New-Drug-Application-for-Ralinepag-to-Treat-Pulmonary-Arterial-Hypertension/",
-  "catalyst_text": "NDA accepted PDUFA set for June 24 2027",
-  "detailed_catalyst_text": "The FDA accepted the NDA for ralinepag for pulmonary arterial hypertension. A PDUFA target action date of June 24, 2027 has been set, initiating the formal review. This milestone establishes a clear timeline toward a potential approval decision.",
-  "catalyst_text_evidence": "United Therapeutics Corporation (Nasdaq: UTHR), a public benefit corporation, today announced that the FDA has accepted the New Drug Application (NDA) for ralinepag to treat PAH. The FDA has set a Prescription Drug User Fee Act target action date of 2027-06-24.",
-  "news_published_at": "2026-08-25T00:00:00Z",
-  "open_price_gap_percent": "0.00000",
-  "intra_day_price_change_percent": "-0.00047"
- },
- {
   "id": 8491,
   "company": {
    "id": 93,
@@ -30,13 +7,13 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-09-03T13:02:34.362848Z",
-  "updated_at": "2026-09-16T13:02:56.572126Z",
+  "updated_at": "2026-09-17T13:02:47.283457Z",
   "ticker": "UTHR",
   "drug_name": "Nebulized Tyvaso (treprostinil) Inhalation Solution",
   "drug_indication": "Idiopathic Pulmonary Fibrosis",
   "airtable_id": 8774,
   "stage": "sNDA Filing",
-  "catalyst_date": null,
+  "catalyst_date": "2026-09-02",
   "catalyst_source": "https://www.businesswire.com/news/home/20260902138059/en/United-Therapeutics-Corporation-Announces-FDA-Acceptance-of-Supplemental-New-Drug-Application-for-Nebulized-Tyvaso%C2%AE-to-Treat-Idiopathic-Pulmonary-Fibrosis/",
   "catalyst_text": "sNDA accepted for IPF review completion expected 2027",
   "detailed_catalyst_text": "The FDA accepted a supplemental New Drug Application for nebulized treprostinil inhalation solution to treat idiopathic pulmonary fibrosis. Acceptance initiates formal review, a key regulatory step toward a potential label expansion, with review completion anticipated around April 2027.",
@@ -46,6 +23,29 @@
   "intra_day_price_change_percent": "-0.03526"
  },
  {
+  "id": 8429,
+  "company": {
+   "id": 93,
+   "ticker": "UTHR",
+   "name": "United Therapeutics"
+  },
+  "created_at": "2026-08-25T13:03:51.104942Z",
+  "updated_at": "2026-09-17T13:04:05.742816Z",
+  "ticker": "UTHR",
+  "drug_name": "Ralinepag",
+  "drug_indication": "Pulmonary Arterial Hypertension",
+  "airtable_id": 8709,
+  "stage": "PDUFA",
+  "catalyst_date": "2026-08-24",
+  "catalyst_source": "https://www.businesswire.com/news/home/20260824016096/en/United-Therapeutics-Corporation-Announces-FDA-Filing-Acceptance-of-New-Drug-Application-for-Ralinepag-to-Treat-Pulmonary-Arterial-Hypertension/",
+  "catalyst_text": "NDA accepted PDUFA set for June 24 2027",
+  "detailed_catalyst_text": "The FDA accepted the NDA for ralinepag for pulmonary arterial hypertension. A PDUFA target action date of June 24, 2027 has been set, initiating the formal review. This milestone establishes a clear timeline toward a potential approval decision.",
+  "catalyst_text_evidence": "United Therapeutics Corporation (Nasdaq: UTHR), a public benefit corporation, today announced that the FDA has accepted the New Drug Application (NDA) for ralinepag to treat PAH. The FDA has set a Prescription Drug User Fee Act target action date of 2027-06-24.",
+  "news_published_at": "2026-08-25T00:00:00Z",
+  "open_price_gap_percent": "0.00000",
+  "intra_day_price_change_percent": "-0.00047"
+ },
+ {
   "id": 8394,
   "company": {
    "id": 93,
@@ -53,7 +53,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-08-18T13:01:51.981978Z",
-  "updated_at": "2026-09-16T13:01:48.813173Z",
+  "updated_at": "2026-09-17T13:01:42.931101Z",
   "ticker": "UTHR",
   "drug_name": "Tyvaso (treprostinil) Inhalation Solution",
   "drug_indication": "Progressive Pulmonary Fibrosis",
@@ -76,7 +76,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-08-18T13:02:21.576376Z",
-  "updated_at": "2026-09-16T13:02:19.565450Z",
+  "updated_at": "2026-09-17T13:02:11.945746Z",
   "ticker": "UTHR",
   "drug_name": "Tyvaso (treprostinil) Inhalation Solution",
   "drug_indication": "Idiopathic Pulmonary Fibrosis",
@@ -99,7 +99,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-05-19T13:01:47.685397Z",
-  "updated_at": "2026-09-16T13:02:30.211711Z",
+  "updated_at": "2026-09-17T13:02:21.601757Z",
   "ticker": "UTHR",
   "drug_name": "Ralinepag",
   "drug_indication": "Pulmonary Arterial Hypertension",
@@ -122,7 +122,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-05-19T13:02:14.351228Z",
-  "updated_at": "2026-09-16T13:03:02.883833Z",
+  "updated_at": "2026-09-17T13:02:53.227442Z",
   "ticker": "UTHR",
   "drug_name": "UHeart",
   "drug_indication": "Advanced or End-Stage Heart Failure",
@@ -145,7 +145,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-04-21T13:01:40.331252Z",
-  "updated_at": "2026-09-16T13:02:03.119173Z",
+  "updated_at": "2026-09-17T13:01:55.089758Z",
   "ticker": "UTHR",
   "drug_name": "Treprostinil",
   "drug_indication": "Pulmonary Arterial Hypertension",
@@ -168,7 +168,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-04-09T13:04:06.552665Z",
-  "updated_at": "2026-09-16T13:05:48.363917Z",
+  "updated_at": "2026-09-17T13:05:28.284191Z",
   "ticker": "UTHR",
   "drug_name": "miroliverELAP",
   "drug_indication": "Acute Liver Failure",
@@ -191,7 +191,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-03-31T13:04:54.467660Z",
-  "updated_at": "2026-09-16T13:07:08.446670Z",
+  "updated_at": "2026-09-17T13:06:39.368251Z",
   "ticker": "UTHR",
   "drug_name": "Tyvaso (treprostinil) Inhalation Solution",
   "drug_indication": "Idiopathic Pulmonary Fibrosis",
@@ -214,7 +214,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-03-03T13:03:37.953139Z",
-  "updated_at": "2026-09-16T13:05:57.457760Z",
+  "updated_at": "2026-09-17T13:05:37.526369Z",
   "ticker": "UTHR",
   "drug_name": "Ralinepag",
   "drug_indication": "Pulmonary Arterial Hypertension",
@@ -237,7 +237,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2026-01-27T13:01:44.809998Z",
-  "updated_at": "2026-09-16T13:02:40.600158Z",
+  "updated_at": "2026-09-17T13:02:31.378645Z",
   "ticker": "UTHR",
   "drug_name": "miroliverELAP",
   "drug_indication": "Acute Liver Failure",
@@ -260,7 +260,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2025-09-03T13:03:08.794223Z",
-  "updated_at": "2026-09-16T13:05:04.698128Z",
+  "updated_at": "2026-09-17T13:04:47.139459Z",
   "ticker": "UTHR",
   "drug_name": " Tyvaso\u00ae (treprostinil) Inhalation Solution  ",
   "drug_indication": "Idiopathic pulmonary fibrosis (IPF)  ",
@@ -283,7 +283,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2025-06-26T13:04:48.521919Z",
-  "updated_at": "2026-09-16T13:06:47.966555Z",
+  "updated_at": "2026-09-17T13:06:21.163100Z",
   "ticker": "UTHR",
   "drug_name": "miroliverELAP",
   "drug_indication": "Acute liver failure  ",
@@ -306,7 +306,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2025-02-21T20:14:24.602335Z",
-  "updated_at": "2026-09-16T13:07:49.186051Z",
+  "updated_at": "2026-09-17T13:07:13.997143Z",
   "ticker": "UTHR",
   "drug_name": "TYVASO (treprostinil) DPI",
   "drug_indication": "Pulmonary arterial hypertension and pulmonary hypertension associated with interstitial lung disease (PH-ILD)",
@@ -329,7 +329,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2025-02-21T20:07:19.265984Z",
-  "updated_at": "2026-09-16T13:03:38.705428Z",
+  "updated_at": "2026-09-17T13:03:27.939645Z",
   "ticker": "UTHR",
   "drug_name": "Orenitram",
   "drug_indication": "Pulmonary arterial hypertension (PAH)",
@@ -352,7 +352,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2025-02-21T20:46:00.071090Z",
-  "updated_at": "2026-09-16T13:01:40.627825Z",
+  "updated_at": "2026-09-17T13:01:34.962548Z",
   "ticker": "UTHR",
   "drug_name": "TYVASO (treprostinil)",
   "drug_indication": "Pulmonary hypertension associated with interstitial lung disease (PH-ILD) (WHO Group 3)",
@@ -375,7 +375,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2025-02-21T20:05:38.776301Z",
-  "updated_at": "2026-09-16T13:00:55.800120Z",
+  "updated_at": "2026-09-17T13:00:50.184390Z",
   "ticker": "UTHR",
   "drug_name": "Trevyent",
   "drug_indication": "Pulmonary Arterial Hypertension (PAH)",
@@ -398,7 +398,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2025-02-21T20:05:46.478531Z",
-  "updated_at": "2026-09-16T13:01:10.135965Z",
+  "updated_at": "2026-09-17T13:01:03.136365Z",
   "ticker": "UTHR",
   "drug_name": "Unituxin - DISTINCT",
   "drug_indication": "Small cell lung cancer",
@@ -421,7 +421,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2025-02-21T20:08:14.081792Z",
-  "updated_at": "2026-09-16T13:04:54.810011Z",
+  "updated_at": "2026-09-17T13:04:39.211044Z",
   "ticker": "UTHR",
   "drug_name": "Esuberaprost - BEAT",
   "drug_indication": "Pulmonary arterial hypertension (PAH)",
@@ -444,7 +444,7 @@
    "name": "United Therapeutics"
   },
   "created_at": "2025-02-21T20:13:50.297916Z",
-  "updated_at": "2026-09-16T13:06:52.099399Z",
+  "updated_at": "2026-09-17T13:06:24.897200Z",
   "ticker": "UTHR",
   "drug_name": "Ralinepag - (ADVANCE OUTCOMES)",
   "drug_indication": "Pulmonary Arterial Hypertension",

@@ -4,7 +4,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "2.56",
+   "last_price": "2.49",
    "market_cap": 301947680
   },
   "ticker": "FATE",
@@ -161,6 +161,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 20478,
+  "company": {
+   "ticker": "ABBV",
+   "name": "AbbVie",
+   "last_price": "264.57",
+   "market_cap": 466554290176
+  },
+  "ticker": "ABBV",
+  "drug_name": "Etentamig (N/A) (BCMAxCD3 Bispecific)",
+  "indications": [
+   {
+    "id": 1360,
+    "title": "Multiple myeloma",
+    "nickname": "MM"
+   }
+  ],
+  "indications_text": "Relapsed Or Refractory Multiple Myeloma",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "05/21/26:- Etentamig Ph1b RRMM data presented at ASCO 2026 on May 29, 2026. 09/17/26:- IMS 2026 plenary presents Ph3 CERVINO RRMM results; met ORR and PFS endpoints.",
+  "catalyst_date": "2026-09-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/abbvie-to-present-phase-3-etentamig-results-and-data-from-broad-multiple-myeloma-portfolio-at-the-2026-international-myeloma-society-ims-meeting-302881330.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 16590,
   "company": {
    "ticker": "IMRX",
@@ -305,7 +339,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.98",
+   "last_price": "37.83",
    "market_cap": 3061081344
   },
   "ticker": "CLDX",
@@ -383,7 +417,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "31.74",
+   "last_price": "31.93",
    "market_cap": 2064604544
   },
   "ticker": "KOD",
@@ -758,7 +792,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "31.74",
+   "last_price": "31.93",
    "market_cap": 2064604544
   },
   "ticker": "KOD",
@@ -1522,7 +1556,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "146.33",
+   "last_price": "145.97",
    "market_cap": 363044274176
   },
   "ticker": "MRK",
@@ -1629,7 +1663,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "146.33",
+   "last_price": "145.97",
    "market_cap": 363044274176
   },
   "ticker": "MRK",
@@ -2399,7 +2433,7 @@
   "company": {
    "ticker": "KTTA",
    "name": "Pasithea Therapeutics",
-   "last_price": "0.51",
+   "last_price": "0.50",
    "market_cap": 16931100
   },
   "ticker": "KTTA",
@@ -3257,7 +3291,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "40.86",
+   "last_price": "40.71",
    "market_cap": 2012689280
   },
   "ticker": "RAPP",
@@ -3632,7 +3666,7 @@
   "company": {
    "ticker": "KTTA",
    "name": "Pasithea Therapeutics",
-   "last_price": "0.51",
+   "last_price": "0.50",
    "market_cap": 16931100
   },
   "ticker": "KTTA",
@@ -4435,7 +4469,7 @@
   "company": {
    "ticker": "EXEL",
    "name": "Exelixis Inc",
-   "last_price": "58.49",
+   "last_price": "58.00",
    "market_cap": 14492751872
   },
   "ticker": "EXEL",
@@ -4475,6 +4509,40 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-08",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 16656,
   "company": {
    "ticker": "N/A",
@@ -4507,40 +4575,6 @@
   "catalyst_date": "2026-12-08",
   "has_catalyst": true,
   "catalyst_source": "https://www.sabcs.org/",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-08",
-  "has_catalyst": true,
-  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -4820,7 +4854,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "307.97",
+   "last_price": "297.28",
    "market_cap": 8668318720
   },
   "ticker": "PRAX",
@@ -6217,7 +6251,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "2.56",
+   "last_price": "2.49",
    "market_cap": 301947680
   },
   "ticker": "FATE",
@@ -7032,7 +7066,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.67",
+   "last_price": "0.68",
    "market_cap": 150727424
   },
   "ticker": "TNYA",
@@ -8081,7 +8115,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "338.75",
+   "last_price": "336.36",
    "market_cap": 10026605568
   },
   "ticker": "KRYS",
@@ -8149,7 +8183,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "338.75",
+   "last_price": "336.36",
    "market_cap": 10026605568
   },
   "ticker": "KRYS",
@@ -8325,7 +8359,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.67",
+   "last_price": "0.68",
    "market_cap": 150727424
   },
   "ticker": "TNYA",
@@ -8896,7 +8930,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "1.76",
+   "last_price": "1.80",
    "market_cap": 40599812
   },
   "ticker": "KPTI",
@@ -9529,7 +9563,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "338.75",
+   "last_price": "336.36",
    "market_cap": 10026605568
   },
   "ticker": "KRYS",
@@ -9641,7 +9675,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "1.76",
+   "last_price": "1.80",
    "market_cap": 40599812
   },
   "ticker": "KPTI",
@@ -9763,7 +9797,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "31.74",
+   "last_price": "31.93",
    "market_cap": 2064604544
   },
   "ticker": "KOD",
@@ -11210,7 +11244,7 @@
   "company": {
    "ticker": "PBYI",
    "name": "Puma Biotechnology",
-   "last_price": "9.54",
+   "last_price": "9.46",
    "market_cap": 491423040
   },
   "ticker": "PBYI",
@@ -12081,40 +12115,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 18855,
-  "company": {
-   "ticker": "OSTX",
-   "name": "OS Therapies",
-   "last_price": "1.83",
-   "market_cap": 85653576
-  },
-  "ticker": "OSTX",
-  "drug_name": "OST-HER2",
-  "indications": [
-   {
-    "id": 1109,
-    "title": "Osteosarcoma",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Pediatric lung metastatic osteosarcoma",
-  "stage_event": {
-   "id": 78,
-   "label": "Phase 3 Initiation",
-   "stage_label": "Phase 3",
-   "event_label": "Initiation"
-  },
-  "note": "05/18/26:- FDA/MHRA meetings and ASCO 2026 2.5-year OS precede BLA/MAA filings; H2 2026 Ph3, 3-year OS, decisions. 06/02/26:- 2.5-year OS 75%. FDA/MHRA mtgs Early Jun 2026; 3-year OS Early Q4 2026; Ph3 Late Q3 2026. 06/08/26:- FDA and MHRA aligned on Ph3 design. Ph3 starts Late Q3 2026; potential Q4 2026 decisions. 06/30/26:- Type B FDA meeting requested. Ph2b 3-year OS data readout expected Early Fall 2026. 08/13/26:- Interim 3-year OS data expected Early September 2026. FDA Type C meeting Mid-September 2026; BLA targeted Year-End 2026. 08/17/26:- 2.5-year OS data showed 75% versus 47%. Metastatic Osteosarcoma Program interim 3-year OS data is expected Early September 2026; FDA Type C meeting will occur Mid-September 2026; BLA submission is expected H2 2026. 09/02/26:- Interim 3-year OS and FDA/MHRA meetings expected Sep 2026; BLA submission and Ph3 start expected Q4 2026. 09/08/26:- 3-year OS 71.2% vs 45.8% controls; two patients pending September/early October 2026 visits. 09/17/26:- FDA aligned on adaptive Ph3 design. Ph3 expected to start Q4 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.newsfilecorp.com/release/314748/OS-Therapies-Achieves-Incremental-Alignment-With-FDA-and-Accepts-Project-Orbis-Invitation-From-MHRA-on-OSTHER2-Metastatic-Osteosarcoma-Program",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18859,
   "company": {
    "ticker": "CABA",
@@ -12153,7 +12153,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "40.86",
+   "last_price": "40.71",
    "market_cap": 2012689280
   },
   "ticker": "RAPP",
@@ -12721,7 +12721,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "15.34",
+   "last_price": "14.95",
    "market_cap": 5365349888
   },
   "ticker": "ERAS",
@@ -13168,7 +13168,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "338.75",
+   "last_price": "336.36",
    "market_cap": 10026605568
   },
   "ticker": "KRYS",
@@ -15049,7 +15049,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "2.56",
+   "last_price": "2.49",
    "market_cap": 301947680
   },
   "ticker": "FATE",
@@ -15171,7 +15171,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "338.75",
+   "last_price": "336.36",
    "market_cap": 10026605568
   },
   "ticker": "KRYS",
@@ -15609,7 +15609,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "264.13",
+   "last_price": "264.57",
    "market_cap": 466554290176
   },
   "ticker": "ABBV",
@@ -16752,7 +16752,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "338.75",
+   "last_price": "336.36",
    "market_cap": 10026605568
   },
   "ticker": "KRYS",
@@ -17131,7 +17131,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "307.97",
+   "last_price": "297.28",
    "market_cap": 8668318720
   },
   "ticker": "PRAX",
@@ -19745,7 +19745,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "12.26",
+   "last_price": "12.34",
    "market_cap": 1051067648
   },
   "ticker": "MLTX",
@@ -19852,7 +19852,7 @@
   "company": {
    "ticker": "KROS",
    "name": "Keros Therapeutics",
-   "last_price": "11.36",
+   "last_price": "11.20",
    "market_cap": 225236848
   },
   "ticker": "KROS",
@@ -20091,7 +20091,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "338.75",
+   "last_price": "336.36",
    "market_cap": 10026605568
   },
   "ticker": "KRYS",
@@ -20685,7 +20685,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "15.34",
+   "last_price": "14.95",
    "market_cap": 5365349888
   },
   "ticker": "ERAS",
@@ -20821,7 +20821,7 @@
   "company": {
    "ticker": "KLRS",
    "name": "Kalaris Therapeutics",
-   "last_price": "3.16",
+   "last_price": "3.07",
    "market_cap": 75223736
   },
   "ticker": "KLRS",
@@ -21351,7 +21351,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "2.56",
+   "last_price": "2.49",
    "market_cap": 301947680
   },
   "ticker": "FATE",
@@ -21458,7 +21458,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "16.57",
+   "last_price": "16.68",
    "market_cap": 1560576768
   },
   "ticker": "KARD",
@@ -21492,7 +21492,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "16.57",
+   "last_price": "16.68",
    "market_cap": 1560576768
   },
   "ticker": "KARD",
@@ -21526,7 +21526,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "16.57",
+   "last_price": "16.68",
    "market_cap": 1560576768
   },
   "ticker": "KARD",
@@ -22281,7 +22281,7 @@
   "company": {
    "ticker": "CALC",
    "name": "CalciMedica",
-   "last_price": "1.95",
+   "last_price": "1.97",
    "market_cap": 13451735
   },
   "ticker": "CALC",
@@ -22918,7 +22918,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "307.97",
+   "last_price": "297.28",
    "market_cap": 8668318720
   },
   "ticker": "PRAX",
@@ -22991,7 +22991,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "338.75",
+   "last_price": "336.36",
    "market_cap": 10026605568
   },
   "ticker": "KRYS",
@@ -25176,7 +25176,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "40.86",
+   "last_price": "40.71",
    "market_cap": 2012689280
   },
   "ticker": "RAPP",
@@ -25244,7 +25244,7 @@
   "company": {
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
-   "last_price": "12.92",
+   "last_price": "12.60",
    "market_cap": 1674996352
   },
   "ticker": "KLRA",
@@ -25278,7 +25278,7 @@
   "company": {
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
-   "last_price": "12.92",
+   "last_price": "12.60",
    "market_cap": 1674996352
   },
   "ticker": "KLRA",
@@ -27390,7 +27390,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "1.76",
+   "last_price": "1.80",
    "market_cap": 40599812
   },
   "ticker": "KPTI",
@@ -27585,7 +27585,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "2.56",
+   "last_price": "2.49",
    "market_cap": 301947680
   },
   "ticker": "FATE",
@@ -28369,7 +28369,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "12.26",
+   "last_price": "12.34",
    "market_cap": 1051067648
   },
   "ticker": "MLTX",
@@ -29093,45 +29093,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344075/0/en/biocardia-reports-second-quarter-2026-business-highlights-and-financial-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 20377,
-  "company": {
-   "ticker": "NUVB",
-   "name": "Nuvation Bio",
-   "last_price": "6.07",
-   "market_cap": 2131318016
-  },
-  "ticker": "NUVB",
-  "drug_name": "IBTROZI (Taletrectinib) (ROS1 inhibitor)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "TKI-na\u00efve and TKI-pretreated advanced ROS1-positive (ROS1+) non-small cell lung cancer (NSCLC) ",
-  "stage_event": {
-   "id": 99,
-   "label": "Approved Update",
-   "stage_label": "Approved",
-   "event_label": "Update"
-  },
-  "note": "05/06/26:- FDA accepted sNDA; target action date January 4, 2027. 08/06/26:- sNDA target action date remains January 4, 2027. 09/15/26:- TRUST-I/II subgroup analyses showed similar efficacy across CD74 and non-CD74 fusions. 09/16/26:- FDA approved IBTROZI sNDA early; label shows TRUST-I TKI-na\u00efve mDOR ~50 months; no new safety signals.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/nuvation-bio-announces-fda-approval-of-supplemental-new-drug-application-for-ibtrozi-taletrectinib-with-updated-duration-of-response-in-tki-naive-advanced-ros1-positive-non-small-cell-lung-cancer-302881232.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

@@ -14,13 +14,13 @@
  {
   "ticker": "MU",
   "reportDate": "2026-09-30",
-  "estimate": "31.17",
+  "estimate": "31.24",
   "time": "post-market"
  },
  {
   "ticker": "NKE",
   "reportDate": "2026-10-01",
-  "estimate": "0.45",
+  "estimate": "0.44",
   "time": "post-market"
  },
  {
@@ -44,7 +44,7 @@
  {
   "ticker": "JNJ",
   "reportDate": "2026-10-13",
-  "estimate": "2.95",
+  "estimate": "2.96",
   "time": "pre-market"
  },
  {
@@ -54,21 +54,27 @@
   "time": "pre-market"
  },
  {
-  "ticker": "WFC",
+  "ticker": "UNH",
   "reportDate": "2026-10-13",
-  "estimate": "1.84",
-  "time": ""
+  "estimate": "4.07",
+  "time": "pre-market"
  },
  {
   "ticker": "BAC",
   "reportDate": "2026-10-14",
-  "estimate": "1.18",
+  "estimate": "1.16",
   "time": "pre-market"
  },
  {
   "ticker": "MS",
   "reportDate": "2026-10-14",
-  "estimate": "3.01",
+  "estimate": "3.06",
+  "time": "pre-market"
+ },
+ {
+  "ticker": "WFC",
+  "reportDate": "2026-10-14",
+  "estimate": "1.84",
   "time": "pre-market"
  },
  {
@@ -105,7 +111,7 @@
   "ticker": "NFLX",
   "reportDate": "2026-10-20",
   "estimate": "0.82",
-  "time": ""
+  "time": "post-market"
  },
  {
   "ticker": "TXN",
@@ -123,6 +129,12 @@
   "ticker": "T",
   "reportDate": "2026-10-21",
   "estimate": "0.62",
+  "time": "pre-market"
+ },
+ {
+  "ticker": "CMCSA",
+  "reportDate": "2026-10-22",
+  "estimate": "0.99",
   "time": "pre-market"
  },
  {
@@ -146,7 +158,7 @@
  {
   "ticker": "AXP",
   "reportDate": "2026-10-23",
-  "estimate": "4.58",
+  "estimate": "4.57",
   "time": "pre-market"
  },
  {
@@ -168,12 +180,6 @@
   "time": ""
  },
  {
-  "ticker": "ARQT",
-  "reportDate": "2026-10-27",
-  "estimate": "0.17",
-  "time": ""
- },
- {
   "ticker": "INCY",
   "reportDate": "2026-10-27",
   "estimate": "-3.58",
@@ -183,12 +189,6 @@
   "ticker": "NBIX",
   "reportDate": "2026-10-27",
   "estimate": "1.99",
-  "time": ""
- },
- {
-  "ticker": "UNH",
-  "reportDate": "2026-10-27",
-  "estimate": "4.03",
   "time": ""
  },
  {
@@ -224,25 +224,19 @@
  {
   "ticker": "AMZN",
   "reportDate": "2026-10-29",
-  "estimate": "2.03",
+  "estimate": "2.0",
   "time": ""
  },
  {
   "ticker": "BIIB",
   "reportDate": "2026-10-29",
-  "estimate": "2.31",
+  "estimate": "2.1",
   "time": ""
  },
  {
   "ticker": "BMY",
   "reportDate": "2026-10-29",
   "estimate": "1.68",
-  "time": ""
- },
- {
-  "ticker": "CMCSA",
-  "reportDate": "2026-10-29",
-  "estimate": "1.01",
   "time": ""
  },
  {
@@ -254,7 +248,7 @@
  {
   "ticker": "MA",
   "reportDate": "2026-10-29",
-  "estimate": "5.12",
+  "estimate": "5.13",
   "time": ""
  },
  {
@@ -326,7 +320,7 @@
  {
   "ticker": "CORT",
   "reportDate": "2026-11-03",
-  "estimate": "0.58",
+  "estimate": "0.68",
   "time": ""
  },
  {
@@ -404,7 +398,7 @@
  {
   "ticker": "UBER",
   "reportDate": "2026-11-03",
-  "estimate": "1.09",
+  "estimate": "1.03",
   "time": ""
  },
  {
@@ -440,13 +434,13 @@
  {
   "ticker": "DNTH",
   "reportDate": "2026-11-04",
-  "estimate": "-1.02",
+  "estimate": "-1.01",
   "time": ""
  },
  {
   "ticker": "DYN",
   "reportDate": "2026-11-04",
-  "estimate": "-0.84",
+  "estimate": "-0.88",
   "time": ""
  },
  {
@@ -470,13 +464,13 @@
  {
   "ticker": "META",
   "reportDate": "2026-11-04",
-  "estimate": "6.33",
+  "estimate": "6.39",
   "time": ""
  },
  {
   "ticker": "MSFT",
   "reportDate": "2026-11-04",
-  "estimate": "4.67",
+  "estimate": "4.69",
   "time": ""
  },
  {
@@ -512,7 +506,7 @@
  {
   "ticker": "UTHR",
   "reportDate": "2026-11-04",
-  "estimate": "6.47",
+  "estimate": "6.38",
   "time": ""
  },
  {
@@ -540,6 +534,12 @@
   "time": ""
  },
  {
+  "ticker": "DNLI",
+  "reportDate": "2026-11-05",
+  "estimate": "-0.67",
+  "time": ""
+ },
+ {
   "ticker": "EWTX",
   "reportDate": "2026-11-05",
   "estimate": "-0.55",
@@ -548,7 +548,7 @@
  {
   "ticker": "GMAB",
   "reportDate": "2026-11-05",
-  "estimate": "0.35",
+  "estimate": "0.37",
   "time": ""
  },
  {
@@ -572,7 +572,7 @@
  {
   "ticker": "VTRS",
   "reportDate": "2026-11-05",
-  "estimate": "0.67",
+  "estimate": "0.66",
   "time": ""
  },
  {

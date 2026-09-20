@@ -1,78 +1,5 @@
 [
  {
-  "id": 20401,
-  "company": {
-   "ticker": "FATE",
-   "name": "Fate Therapeutics",
-   "last_price": "2.53",
-   "market_cap": 303145888
-  },
-  "ticker": "FATE",
-  "drug_name": "FT819 (CD19 CAR T-Cell)",
-  "indications": [
-   {
-    "id": 1218,
-    "title": "Lupus nephritis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Lupus Nephritis",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/13/26:- RECLAIM-LN Phase 2 lupus nephritis trial of FT819 plans dosing start in H2 2026. 08/14/26:- RECLAIM-LN Ph2 dosed first patient outpatient. Enrollment completion expected in H1 2028. 09/09/26:- Clinical FT819 data will be presented at CCR-West on September 17-20, 2026.",
-  "catalyst_date": "2026-09-17",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358477/24675/en/fate-therapeutics-announces-encore-clinical-data-presentation-of-ft819-off-the-shelf-car-t-cell-product-candidate-at-the-ccr-west-2026-meeting.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 18004,
-  "company": {
-   "ticker": "RARE",
-   "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.51",
-   "market_cap": 1430524544
-  },
-  "ticker": "RARE",
-  "drug_name": "UX111 (ABO-102)",
-  "indications": [
-   {
-    "id": 720,
-    "title": "Rare diseases",
-    "nickname": ""
-   },
-   {
-    "id": 990,
-    "title": "Sanfilippo Syndrome",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Rare diseases, Sanfilippo Syndrome",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "01/30/26:- BLA resubmitted for UX111; PDUFA decision expected Q3 2026; long-term data at WORLDSymposium 2026. 02/03/26:- Transpher A long-term UX111 data for WORLDSymposium 2026 show durable CSF HS reduction; PDUFA decision remains expected Q3 2026. 04/02/26:- FDA accepted UX111 BLA for review; PDUFA action date set for September 19, 2026. 05/05/26:- FDA accepted resubmitted UX111 BLA; long-term data up to eight years show durable clinical improvements and acceptable safety. 08/04/26:- UX111 PDUFA action date reiterated for September 19, 2026.",
-  "catalyst_date": "2026-09-19",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/g60928185/ultragenyx-reports-second-quarter-2026-financial-results-and-corporate-update",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 18698,
   "company": {
    "ticker": "ELDN",
@@ -4509,40 +4436,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-10",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 16656,
   "company": {
    "ticker": "N/A",
@@ -4634,6 +4527,40 @@
   "catalyst_date": "2026-12-12",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/12/3293422/0/en/anaptys-announces-first-quarter-2026-financial-results-and-provides-business-update.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-10",
+  "has_catalyst": true,
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -27167,40 +27094,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 17188,
-  "company": {
-   "ticker": "RARE",
-   "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.51",
-   "market_cap": 1430524544
-  },
-  "ticker": "RARE",
-  "drug_name": "GTX-102",
-  "indications": [
-   {
-    "id": 1244,
-    "title": "Angelman Syndrome",
-    "nickname": "AS"
-   }
-  ],
-  "indications_text": "Angelman Syndrome",
-  "stage_event": {
-   "id": 80,
-   "label": "Phase 3 Update",
-   "stage_label": "Phase 3",
-   "event_label": "Update"
-  },
-  "note": "ASPIRE, Aurora trials. 7/17/24- Alignment w/ FDA on Ph3 study endpoints. 12/19/24- First patient dosed in ASPIRE trial. 7/31/25- ASPIRE trial enrollment completed. 10/30/25- First patient dosed in Aurora study. Data from Aspire study in H2 2026. 11/04/25:- Reiterated ASPIRE Ph3 fully enrolled; Aspire Ph3 data expected H2 2026. 01/12/26:- Reiterated ASPIRE Ph3 fully enrolled; Aspire Ph3 pivotal data expected H2 2026; Aurora Ph2/3 ongoing. 05/05/26:- New long-term Ph1/2 data show durable multdomain improvement, stable safety; ASPIRE Ph3 data and Aurora enrollment expected H2 2026. 08/04/26:- Aspire Ph3 data expected September or October; Aurora enrollment completion expected H2 2026. 09/03/26:- ASPIRE Ph3 missed primary and key secondary endpoints for Bayley-4 cognition and MDRI.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/02/3355481/20739/en/ultragenyx-announces-phase-3-aspire-results-in-angelman-syndrome.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 17204,
   "company": {
    "ticker": "NBTX",
@@ -27574,40 +27467,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/29/3335112/0/en/uniqure-announces-second-quarter-2026-financial-results-and-provides-company-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 17923,
-  "company": {
-   "ticker": "FATE",
-   "name": "Fate Therapeutics",
-   "last_price": "2.53",
-   "market_cap": 303145888
-  },
-  "ticker": "FATE",
-  "drug_name": "FT819 (CAR-19, TCR-KO) ",
-  "indications": [
-   {
-    "id": 1376,
-    "title": "Systemic lupus erythematosus",
-    "nickname": "SLE, Lupus"
-   }
-  ],
-  "indications_text": "Systemic lupus erythematosus",
-  "stage_event": {
-   "id": 113,
-   "label": "Phase 1 Update",
-   "stage_label": "Phase 1",
-   "event_label": "Update"
-  },
-  "note": "3/5/25- Initiated DE study. 11/13/25:- Updated Ph1 SLE data at ACR 2025; robust responses, favorable safety, first SSc patient treated with FT819. 12/08/25:- Updated data at ASH 2025; durable responses, favorable safety; registrational trial initiation planned 2026. 02/26/26:- Dosing ongoing; enrollment expanding; clinical/regulatory updates in H2 2026. 05/04/26:- ASGCT 2026 poster presents Regimen B Ph1 SLE clinical and translational data May 12, 2026. 05/05/26:- FDA selected FT819 for CDRP; RMAT supports Phase 2 potentially registrational SLE study planning. 05/11/26:- Regimen B cutoff Apr 9 showed LLDAS in 2/3. Dose level 2 initiated. 05/13/26:- FT819-102 Phase 1 SLE cohorts expanding; Regimen B dose level 2; EULAR June 2026 data update planned. 05/21/26:- EULAR 2026 poster tour presents Ph1 SLE safety and efficacy data on June 4, 2026. 06/04/26:- EULAR Ph1 SLE update (May 14 cutoff): 21 treated; outpatient dosing; durable responses; no Grade \u22653 CRS/ICANS. 08/13/26:- EULAR Ph1 SLE data detailed durable responses and favorable safety in 21 treated patients.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344503/0/en/fate-therapeutics-reports-second-quarter-2026-financial-results-and-business-updates.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

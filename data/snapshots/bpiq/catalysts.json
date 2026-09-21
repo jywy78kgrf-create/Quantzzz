@@ -92,7 +92,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "265.54",
+   "last_price": "264.82",
    "market_cap": 466448285696
   },
   "ticker": "ABBV",
@@ -126,7 +126,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "4.48",
+   "last_price": "4.51",
    "market_cap": 289844352
   },
   "ticker": "IMRX",
@@ -266,7 +266,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.05",
+   "last_price": "37.90",
    "market_cap": 3002969600
   },
   "ticker": "CLDX",
@@ -306,45 +306,11 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 13497,
-  "company": {
-   "ticker": "TLSA",
-   "name": "Tiziana Life Sciences",
-   "last_price": "0.92",
-   "market_cap": 115245864
-  },
-  "ticker": "TLSA",
-  "drug_name": "Intranasal Foralumab (anti-CD3 mAb)",
-  "indications": [
-   {
-    "id": 722,
-    "title": "Multiple sclerosis",
-    "nickname": "MS"
-   }
-  ],
-  "indications_text": "Non-Active Secondary Progressive Multiple Sclerosis (na-SPMS)",
-  "stage_event": {
-   "id": 134,
-   "label": "Phase 2a Data readout",
-   "stage_label": "Phase 2a",
-   "event_label": "Data readout"
-  },
-  "note": "12/4/24- Expands Ph2 trial. 2/18/25- Announced dosing of add'l 4 patients. 3/25/25- Announced dosing at Yale. 4/2/25- Commenced dosing at JHU. 6/13/25- Dosing on multiple site commenced. 9/24/25- Poster presentation at ECTRIMS '25. 12/12/25:- na-SPMS EA program has 14 patients with stable or improved disease; Phase 2a trial ongoing. 02/25/26:- EA biomarker data from NCT06802328; Phase 2a trial NCT06292923 topline expected H1 2026. 05/14/26:- EA program NCT06802328 showed stability or improvement within 6 months in 14 patients. Ph2a topline H1 2026. 05/19/26:- NCT06802328 data through Mar 2026: 14 patients stable/improved; no new safety signals. Ph2a NCT06292923 ongoing. 05/21/26:- Enrollment completed in INFORM-MS Ph2a (NCT06292923); topline Late Q3 2026; ACTRIMS/ECTRIMS Oct 2026. 06/25/26:- Last patient received first dose in INFORM-MS Ph2a. Topline late Q3/early Q4 2026; ACTRIMS/ECTRIMS Oct 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/25/3317416/0/en/tiziana-announces-last-patient-successfully-dosed-in-its-phase-2-inform-ms-trial.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 14932,
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "32.65",
+   "last_price": "32.43",
    "market_cap": 2055805696
   },
   "ticker": "KOD",
@@ -417,7 +383,7 @@
   "company": {
    "ticker": "MNOV",
    "name": "MediciNova",
-   "last_price": "3.32",
+   "last_price": "3.07",
    "market_cap": 163414544
   },
   "ticker": "MNOV",
@@ -529,7 +495,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "27.29",
+   "last_price": "27.05",
    "market_cap": 4702217728
   },
   "ticker": "ACAD",
@@ -719,7 +685,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "32.65",
+   "last_price": "32.43",
    "market_cap": 2055805696
   },
   "ticker": "KOD",
@@ -748,6 +714,45 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/kodiak-sciences-announces-recent-business-highlights-and-second-quarter-2026-financial-results-302851311.html",
   "is_big_mover": true,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 18318,
+  "company": {
+   "ticker": "QTTB",
+   "name": "Q32 Bio ",
+   "last_price": "10.54",
+   "market_cap": 313770176
+  },
+  "ticker": "QTTB",
+  "drug_name": "Bempikibart (ADX-914) ",
+  "indications": [
+   {
+    "id": 902,
+    "title": "Alopecia areata",
+    "nickname": ""
+   },
+   {
+    "id": 1037,
+    "title": "Skin disease/disorder",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alopecia areata",
+  "stage_event": {
+   "id": 134,
+   "label": "Phase 2a Data readout",
+   "stage_label": "Phase 2a",
+   "event_label": "Data readout"
+  },
+  "note": "SIGNAL-AA trial. 5/9/24- Enrollment completed. 12/10/24- Topline data reported. 8/6/25- Dosed the 1st patients in Part B & OLE. 10/21/25\u2013 Enrollment completed. Topline data in mid-2026. 11/13/25:- Part B enrollment confirmed at 33 patients with emerging activity; Part A open-label extension dosing ongoing; mid-2026 topline. 03/10/26:- SIGNAL-AA Part B enrollment reiterated; 36-week topline mid-2026; Part A OLE ongoing; emerging activity described. 05/05/26:- 36-week Part B topline on track mid-2026. First Part B OLE patient dosed; Part A OLE completed. 07/13/26:- Positive 36-week Part B topline reported. Registration-directed program planned in H1 2027. 08/05/26:- Meeting data in H2 2026. Ph3 starts H1 2027. OLE data H2 2027. 09/21/26:- Additional 36-week and 16-week off-drug findings to be presented at EADV Sep 30, 2026.",
+  "catalyst_date": "2026-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/q32-bio-announces-upcoming-late-breaking-presentation-of-results-from-part-b-of-the-signal-aa-clinical-trial-of-bempikibart-in-alopecia-areata-at-the-european-academy-of-dermatology-and-venereology-congress-2026-302884741.html",
+  "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
@@ -1133,7 +1138,7 @@
   "company": {
    "ticker": "AARD",
    "name": "Aardvark Therapeutics",
-   "last_price": "5.38",
+   "last_price": "5.47",
    "market_cap": 117740472
   },
   "ticker": "AARD",
@@ -1331,40 +1336,6 @@
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
-  "id": 20405,
-  "company": {
-   "ticker": "CUE",
-   "name": "Cue Biopharma",
-   "last_price": "25.46",
-   "market_cap": 269146528
-  },
-  "ticker": "CUE",
-  "drug_name": "CUE-221 (Anti-IgE Antibody)",
-  "indications": [
-   {
-    "id": 2024,
-    "title": "Chronic spontaneous urticaria",
-    "nickname": "CSU"
-   }
-  ],
-  "indications_text": "Chronic Spontaneous Urticaria",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/14/26:- China Phase 2 CSU study data expected in H2 2026. 08/03/26:- IND submitted for CUE-221 in Food Allergy. Phase 2 CSU data readout expected by end of Q3 2026. 08/14/26:- Phase 2 CSU data is expected by the end of Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345611/0/en/cue-biopharma-reports-second-quarter-2026-financial-results-and-recent-business-highlights.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1829,7 +1800,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.95",
+   "last_price": "17.14",
    "market_cap": 19468615680
   },
   "ticker": "VTRS",
@@ -2531,7 +2502,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.25",
+   "last_price": "14.18",
    "market_cap": 2057216256
   },
   "ticker": "BHVN",
@@ -3135,7 +3106,7 @@
   "company": {
    "ticker": "INO",
    "name": "Inovio Pharmaceuticals",
-   "last_price": "1.24",
+   "last_price": "1.26",
    "market_cap": 128212928
   },
   "ticker": "INO",
@@ -3173,6 +3144,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 13497,
+  "company": {
+   "ticker": "TLSA",
+   "name": "Tiziana Life Sciences",
+   "last_price": "0.92",
+   "market_cap": 115245864
+  },
+  "ticker": "TLSA",
+  "drug_name": "Intranasal Foralumab (anti-CD3 mAb)",
+  "indications": [
+   {
+    "id": 722,
+    "title": "Multiple sclerosis",
+    "nickname": "MS"
+   }
+  ],
+  "indications_text": "Non-Active Secondary Progressive Multiple Sclerosis (na-SPMS)",
+  "stage_event": {
+   "id": 134,
+   "label": "Phase 2a Data readout",
+   "stage_label": "Phase 2a",
+   "event_label": "Data readout"
+  },
+  "note": "12/4/24- Expands Ph2 trial. 2/18/25- Announced dosing of add'l 4 patients. 3/25/25- Announced dosing at Yale. 4/2/25- Commenced dosing at JHU. 6/13/25- Dosing on multiple site commenced. 9/24/25- Poster presentation at ECTRIMS '25. 12/12/25:- na-SPMS EA program has 14 patients with stable or improved disease; Phase 2a trial ongoing. 02/25/26:- EA biomarker data from NCT06802328; Phase 2a trial NCT06292923 topline expected H1 2026. 05/14/26:- EA program NCT06802328 showed stability or improvement within 6 months in 14 patients. Ph2a topline H1 2026. 05/19/26:- NCT06802328 data through Mar 2026: 14 patients stable/improved; no new safety signals. Ph2a NCT06292923 ongoing. 05/21/26:- Enrollment completed in INFORM-MS Ph2a (NCT06292923); topline Late Q3 2026; ACTRIMS/ECTRIMS Oct 2026. 06/25/26:- Last patient received first dose in INFORM-MS Ph2a. Topline late Q3/early Q4 2026; ACTRIMS/ECTRIMS Oct 2026. 09/21/26:- INFORM-MS Ph2a last patient last visit completed; topline 12-week data expected in October.",
+  "catalyst_date": "2026-10-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/g61890205/tiziana-announces-last-patient-completes-last-visit-phase-2a-inform-ms-trial-intranasal-foralumab",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 17970,
@@ -3345,7 +3350,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "33.69",
+   "last_price": "34.00",
    "market_cap": 1974341120
   },
   "ticker": "AGIO",
@@ -3384,7 +3389,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.88",
    "market_cap": 2053918208
   },
   "ticker": "RXRX",
@@ -3486,7 +3491,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "15.74",
+   "last_price": "15.78",
    "market_cap": 1013623488
   },
   "ticker": "ANL",
@@ -3749,7 +3754,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "17.56",
+   "last_price": "16.85",
    "market_cap": 14239831040
   },
   "ticker": "SMMT",
@@ -3968,7 +3973,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "66.18",
+   "last_price": "65.97",
    "market_cap": 13021788160
   },
   "ticker": "BBIO",
@@ -4002,7 +4007,7 @@
   "company": {
    "ticker": "GSK",
    "name": "GSK",
-   "last_price": "50.95",
+   "last_price": "51.07",
    "market_cap": 100580900864
   },
   "ticker": "GSK",
@@ -4815,7 +4820,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "16.95",
+   "last_price": "17.14",
    "market_cap": 19468615680
   },
   "ticker": "VTRS",
@@ -5157,7 +5162,7 @@
   "company": {
    "ticker": "ABOS",
    "name": "Acumen Pharmaceuticals",
-   "last_price": "2.60",
+   "last_price": "2.58",
    "market_cap": 191640816
   },
   "ticker": "ABOS",
@@ -5230,7 +5235,7 @@
   "company": {
    "ticker": "MNOV",
    "name": "MediciNova",
-   "last_price": "3.32",
+   "last_price": "3.07",
    "market_cap": 163414544
   },
   "ticker": "MNOV",
@@ -5377,7 +5382,7 @@
   "company": {
    "ticker": "MNOV",
    "name": "MediciNova",
-   "last_price": "3.32",
+   "last_price": "3.07",
    "market_cap": 163414544
   },
   "ticker": "MNOV",
@@ -6305,7 +6310,7 @@
   "company": {
    "ticker": "IVA",
    "name": " Inventiva",
-   "last_price": "3.78",
+   "last_price": "3.60",
    "market_cap": 892914048
   },
   "ticker": "IVA",
@@ -7271,7 +7276,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.60",
+   "last_price": "22.14",
    "market_cap": 2629170432
   },
   "ticker": "NAMS",
@@ -7310,7 +7315,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.60",
+   "last_price": "22.14",
    "market_cap": 2629170432
   },
   "ticker": "NAMS",
@@ -8042,7 +8047,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "336.67",
+   "last_price": "336.09",
    "market_cap": 9965040640
   },
   "ticker": "KRYS",
@@ -8110,7 +8115,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "336.67",
+   "last_price": "336.09",
    "market_cap": 9965040640
   },
   "ticker": "KRYS",
@@ -8520,7 +8525,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "58.23",
+   "last_price": "58.27",
    "market_cap": 5468936704
   },
   "ticker": "CRSP",
@@ -8657,7 +8662,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.87",
+   "last_price": "2.88",
    "market_cap": 202698160
   },
   "ticker": "NKTX",
@@ -9140,7 +9145,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "58.23",
+   "last_price": "58.27",
    "market_cap": 5468936704
   },
   "ticker": "CRSP",
@@ -9490,7 +9495,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "336.67",
+   "last_price": "336.09",
    "market_cap": 9965040640
   },
   "ticker": "KRYS",
@@ -9641,7 +9646,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "17.56",
+   "last_price": "16.85",
    "market_cap": 14239831040
   },
   "ticker": "SMMT",
@@ -9724,7 +9729,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "32.65",
+   "last_price": "32.43",
    "market_cap": 2055805696
   },
   "ticker": "KOD",
@@ -9831,7 +9836,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "33.69",
+   "last_price": "34.00",
    "market_cap": 1974341120
   },
   "ticker": "AGIO",
@@ -9909,7 +9914,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.25",
+   "last_price": "14.18",
    "market_cap": 2057216256
   },
   "ticker": "BHVN",
@@ -10065,7 +10070,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "39.26",
+   "last_price": "39.31",
    "market_cap": 45462085632
   },
   "ticker": "TEVA",
@@ -10093,45 +10098,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 18318,
-  "company": {
-   "ticker": "QTTB",
-   "name": "Q32 Bio ",
-   "last_price": "10.54",
-   "market_cap": 313770176
-  },
-  "ticker": "QTTB",
-  "drug_name": "Bempikibart (ADX-914) ",
-  "indications": [
-   {
-    "id": 902,
-    "title": "Alopecia areata",
-    "nickname": ""
-   },
-   {
-    "id": 1037,
-    "title": "Skin disease/disorder",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Alopecia areata",
-  "stage_event": {
-   "id": 134,
-   "label": "Phase 2a Data readout",
-   "stage_label": "Phase 2a",
-   "event_label": "Data readout"
-  },
-  "note": "SIGNAL-AA trial. 5/9/24- Enrollment completed. 12/10/24- Topline data reported. 8/6/25- Dosed the 1st patients in Part B & OLE. 10/21/25\u2013 Enrollment completed. Topline data in mid-2026. 11/13/25:- Part B enrollment confirmed at 33 patients with emerging activity; Part A open-label extension dosing ongoing; mid-2026 topline. 03/10/26:- SIGNAL-AA Part B enrollment reiterated; 36-week topline mid-2026; Part A OLE ongoing; emerging activity described. 05/05/26:- 36-week Part B topline on track mid-2026. First Part B OLE patient dosed; Part A OLE completed. 07/13/26:- Positive 36-week Part B topline reported. Registration-directed program planned in H1 2027. 08/05/26:- Meeting data in H2 2026. Ph3 starts H1 2027. OLE data H2 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/q32-bio-reports-second-quarter-2026-financial-results-and-provides-corporate-update-302843061.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 18321,
@@ -10284,7 +10250,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.88",
    "market_cap": 2053918208
   },
   "ticker": "RXRX",
@@ -10318,7 +10284,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.05",
+   "last_price": "37.90",
    "market_cap": 3002969600
   },
   "ticker": "CLDX",
@@ -10357,7 +10323,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.87",
+   "last_price": "2.88",
    "market_cap": 202698160
   },
   "ticker": "NKTX",
@@ -10489,7 +10455,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "39.26",
+   "last_price": "39.31",
    "market_cap": 45462085632
   },
   "ticker": "TEVA",
@@ -11283,7 +11249,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.25",
+   "last_price": "14.18",
    "market_cap": 2057216256
   },
   "ticker": "BHVN",
@@ -11332,7 +11298,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "58.23",
+   "last_price": "58.27",
    "market_cap": 5468936704
   },
   "ticker": "CRSP",
@@ -11439,7 +11405,7 @@
   "company": {
    "ticker": "ALKS",
    "name": "Alkermes plc",
-   "last_price": "43.62",
+   "last_price": "43.39",
    "market_cap": 7279247872
   },
   "ticker": "ALKS",
@@ -11759,7 +11725,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "36.95",
+   "last_price": "36.94",
    "market_cap": 7632121856
   },
   "ticker": "IMVT",
@@ -12580,7 +12546,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "8.06",
+   "last_price": "7.77",
    "market_cap": 369929088
   },
   "ticker": "BIOA",
@@ -12735,10 +12701,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "06/29/26:- APPROACH surpassed 88% enrollment. Q4 2026 topline reiterated. EMBRACE enrollment underway. NDA possible in 2028. 07/21/26:- APPROACH enrollment completed (223). EMBRACE enrollment continues; EXTEND rollover ongoing. Q4 2026 topline reiterated. 08/14/26:- APPROACH enrollment completed and topline data will be reported in Q4 2026. EMBRACE enrollment and EXTEND rollover continue.",
+  "note": "06/29/26:- APPROACH surpassed 88% enrollment. Q4 2026 topline reiterated. EMBRACE enrollment underway. NDA possible in 2028. 07/21/26:- APPROACH enrollment completed (223). EMBRACE enrollment continues; EXTEND rollover ongoing. Q4 2026 topline reiterated. 08/14/26:- APPROACH enrollment completed and topline data will be reported in Q4 2026. EMBRACE enrollment and EXTEND rollover continue. 09/21/26:- Psych Congress 2026 posters reported 12-month Ph1/2a efficacy and expanded safety; PARADIGM Ph3 program overview presented.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345256/0/en/helus-pharma-reports-first-quarter-fiscal-2027-financial-results-and-recent-business-highlights.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/21/3365383/0/en/helus-pharma-presents-new-analyses-on-hlp003-in-major-depressive-disorder-at-psych-congress-2026.html",
   "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -13095,7 +13061,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "336.67",
+   "last_price": "336.09",
    "market_cap": 9965040640
   },
   "ticker": "KRYS",
@@ -13299,7 +13265,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.60",
+   "last_price": "22.14",
    "market_cap": 2629170432
   },
   "ticker": "NAMS",
@@ -13338,7 +13304,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.60",
+   "last_price": "22.14",
    "market_cap": 2629170432
   },
   "ticker": "NAMS",
@@ -13586,7 +13552,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "58.23",
+   "last_price": "58.27",
    "market_cap": 5468936704
   },
   "ticker": "CRSP",
@@ -13756,7 +13722,7 @@
   "company": {
    "ticker": "ABSI",
    "name": "Absci",
-   "last_price": "9.65",
+   "last_price": "9.67",
    "market_cap": 1656075136
   },
   "ticker": "ABSI",
@@ -14582,7 +14548,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "36.95",
+   "last_price": "36.94",
    "market_cap": 7632121856
   },
   "ticker": "IMVT",
@@ -15098,7 +15064,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "336.67",
+   "last_price": "336.09",
    "market_cap": 9965040640
   },
   "ticker": "KRYS",
@@ -15536,7 +15502,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "265.54",
+   "last_price": "264.82",
    "market_cap": 466448285696
   },
   "ticker": "ABBV",
@@ -16679,7 +16645,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "336.67",
+   "last_price": "336.09",
    "market_cap": 9965040640
   },
   "ticker": "KRYS",
@@ -16815,7 +16781,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.87",
+   "last_price": "2.88",
    "market_cap": 202698160
   },
   "ticker": "NKTX",
@@ -16888,7 +16854,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.87",
+   "last_price": "2.88",
    "market_cap": 202698160
   },
   "ticker": "NKTX",
@@ -18294,7 +18260,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.60",
+   "last_price": "22.14",
    "market_cap": 2629170432
   },
   "ticker": "NAMS",
@@ -18532,7 +18498,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "39.26",
+   "last_price": "39.31",
    "market_cap": 45462085632
   },
   "ticker": "TEVA",
@@ -18922,7 +18888,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "66.18",
+   "last_price": "65.97",
    "market_cap": 13021788160
   },
   "ticker": "BBIO",
@@ -19131,7 +19097,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.88",
    "market_cap": 2053918208
   },
   "ticker": "RXRX",
@@ -19818,7 +19784,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "44.10",
+   "last_price": "44.40",
    "market_cap": 3052122368
   },
   "ticker": "QURE",
@@ -20018,7 +19984,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "336.67",
+   "last_price": "336.09",
    "market_cap": 9965040640
   },
   "ticker": "KRYS",
@@ -20130,7 +20096,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "15.74",
+   "last_price": "15.78",
    "market_cap": 1013623488
   },
   "ticker": "ANL",
@@ -20271,7 +20237,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.88",
    "market_cap": 2053918208
   },
   "ticker": "RXRX",
@@ -20466,7 +20432,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.88",
    "market_cap": 2053918208
   },
   "ticker": "RXRX",
@@ -21171,7 +21137,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "15.74",
+   "last_price": "15.78",
    "market_cap": 1013623488
   },
   "ticker": "ANL",
@@ -22101,7 +22067,7 @@
   "company": {
    "ticker": "ABVX",
    "name": "Abivax",
-   "last_price": "105.04",
+   "last_price": "103.74",
    "market_cap": 9165138944
   },
   "ticker": "ABVX",
@@ -22422,7 +22388,7 @@
   "company": {
    "ticker": "TVTX",
    "name": "Travere Therapeutics",
-   "last_price": "62.76",
+   "last_price": "63.34",
    "market_cap": 5915825152
   },
   "ticker": "TVTX",
@@ -22918,7 +22884,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "336.67",
+   "last_price": "336.09",
    "market_cap": 9965040640
   },
   "ticker": "KRYS",
@@ -22952,7 +22918,7 @@
   "company": {
    "ticker": "TVTX",
    "name": "Travere Therapeutics",
-   "last_price": "62.76",
+   "last_price": "63.34",
    "market_cap": 5915825152
   },
   "ticker": "TVTX",
@@ -23405,7 +23371,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "36.95",
+   "last_price": "36.94",
    "market_cap": 7632121856
   },
   "ticker": "IMVT",
@@ -23439,7 +23405,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.88",
    "market_cap": 2053918208
   },
   "ticker": "RXRX",
@@ -23726,7 +23692,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "36.95",
+   "last_price": "36.94",
    "market_cap": 7632121856
   },
   "ticker": "IMVT",
@@ -23794,7 +23760,7 @@
   "company": {
    "ticker": "PVLA",
    "name": "Palvella Therapeutics",
-   "last_price": "153.90",
+   "last_price": "153.00",
    "market_cap": 2169329664
   },
   "ticker": "PVLA",
@@ -24485,7 +24451,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "8.06",
+   "last_price": "7.77",
    "market_cap": 369929088
   },
   "ticker": "BIOA",
@@ -25871,7 +25837,7 @@
   "company": {
    "ticker": "IMRX",
    "name": "Immuneering Corporation",
-   "last_price": "4.48",
+   "last_price": "4.51",
    "market_cap": 289844352
   },
   "ticker": "IMRX",
@@ -25944,7 +25910,7 @@
   "company": {
    "ticker": "ALNY",
    "name": "Alnylam Pharmaceuticals",
-   "last_price": "243.33",
+   "last_price": "244.85",
    "market_cap": 32055312384
   },
   "ticker": "ALNY",
@@ -26100,7 +26066,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "36.95",
+   "last_price": "36.94",
    "market_cap": 7632121856
   },
   "ticker": "IMVT",
@@ -26342,7 +26308,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "36.95",
+   "last_price": "36.94",
    "market_cap": 7632121856
   },
   "ticker": "IMVT",
@@ -27439,7 +27405,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "44.10",
+   "last_price": "44.40",
    "market_cap": 3052122368
   },
   "ticker": "QURE",
@@ -27658,7 +27624,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.05",
+   "last_price": "37.90",
    "market_cap": 3002969600
   },
   "ticker": "CLDX",
@@ -27936,7 +27902,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "38.05",
+   "last_price": "37.90",
    "market_cap": 3002969600
   },
   "ticker": "CLDX",
@@ -28957,6 +28923,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20405,
+  "company": {
+   "ticker": "CUE",
+   "name": "Cue Biopharma",
+   "last_price": "25.79",
+   "market_cap": 269146528
+  },
+  "ticker": "CUE",
+  "drug_name": "CUE-221 (Anti-IgE Antibody)",
+  "indications": [
+   {
+    "id": 2024,
+    "title": "Chronic spontaneous urticaria",
+    "nickname": "CSU"
+   }
+  ],
+  "indications_text": "Chronic Spontaneous Urticaria",
+  "stage_event": {
+   "id": 147,
+   "label": "Phase 2/3 Initiation",
+   "stage_label": "Phase 2/3",
+   "event_label": "Initiation"
+  },
+  "note": "05/14/26:- China Phase 2 CSU study data expected in H2 2026. 08/03/26:- IND submitted for CUE-221 in Food Allergy. Phase 2 CSU data readout expected by end of Q3 2026. 08/14/26:- Phase 2 CSU data is expected by the end of Q3 2026. 09/20/26:- Positive Ph2 CSU topline results reported. Plan rapid Ph2b/3 initiation; full dataset incl PK/IgE to be presented.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/20/3365072/0/en/cue-biopharma-announces-positive-topline-results-from-cue-221-phase-2-study-in-chronic-spontaneous-urticaria.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 20539,

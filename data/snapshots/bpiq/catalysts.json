@@ -300,7 +300,7 @@
   "company": {
    "ticker": "CNSY",
    "name": "Cerenome, Inc.",
-   "last_price": "1.97",
+   "last_price": "1.95",
    "market_cap": 15406939
   },
   "ticker": "CNSY",
@@ -641,7 +641,7 @@
   "company": {
    "ticker": "SCYX",
    "name": "SCYNEXIS",
-   "last_price": "5.00",
+   "last_price": "4.74",
    "market_cap": 48355100
   },
   "ticker": "SCYX",
@@ -1056,40 +1056,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 19124,
-  "company": {
-   "ticker": "ORKA",
-   "name": "Oruka Pharmaceuticals",
-   "last_price": "85.76",
-   "market_cap": 6260127232
-  },
-  "ticker": "ORKA",
-  "drug_name": "ORKA-001",
-  "indications": [
-   {
-    "id": 1023,
-    "title": "Psoriasis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Psoriasis",
-  "stage_event": {
-   "id": 134,
-   "label": "Phase 2a Data readout",
-   "stage_label": "Phase 2a",
-   "event_label": "Data readout"
-  },
-  "note": "EVERLAST-A Phase 2a trial. 7/21/25- Received IND clearance. 8/11/25- Dosed first patient w/ data in H2 2026. 9/17/25- Ph1 interim results presented at EADV. 11/12/25:- Ph1 interim EADV data favorable. EVERLAST-A enrolling well; Week16 and duration data in H2 2026. EVERLAST-B starts H1 2026. 03/12/26:- EVERLAST-A enrollment completed; Week16 data expected Q2 2026, longer-term data in H2 2026. 04/27/26:- EVERLAST-A Ph2a Week16 PASI100 63.5%. Longer-term Week28/52wk data expected H2 2026. 05/13/26:- EVERLAST-A Week16 PASI100 63.5%, PASI90 83%, IGA0/1 84%; annual dosing PK; longer-term data H2 2026. 08/10/26:- EVERLAST-A Week28 data expected end Q3 2026. Week52 data expected December 2026. Phase3 starts H1 2027.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news/heathcare/biotechnology",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 19232,
   "company": {
    "ticker": "KYTX",
@@ -1162,7 +1128,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.70",
+   "last_price": "1.37",
    "market_cap": 122909048
   },
   "ticker": "BMEA",
@@ -1196,7 +1162,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.84",
+   "last_price": "61.60",
    "market_cap": 127158984704
   },
   "ticker": "BMY",
@@ -1303,7 +1269,7 @@
   "company": {
    "ticker": "SCYX",
    "name": "SCYNEXIS",
-   "last_price": "5.00",
+   "last_price": "4.74",
    "market_cap": 48355100
   },
   "ticker": "SCYX",
@@ -1399,6 +1365,40 @@
   "catalyst_date": "2026-10-01",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260910303866/en/Agenus-to-Present-Three-Year-Overall-Survival-Data-for-BOTBAL-in-Recurrent-Ovarian-Cancer-at-IGCS-2026/",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 20363,
+  "company": {
+   "ticker": "ARTV",
+   "name": "Artiva Biotherapeutics",
+   "last_price": "7.82",
+   "market_cap": 395521088
+  },
+  "ticker": "ARTV",
+  "drug_name": "AlloNK (AB-101) (NK Cell Therapy)",
+  "indications": [
+   {
+    "id": 2316,
+    "title": "Sj\u00f6gren\u2019s Disease ",
+    "nickname": "SjD"
+   }
+  ],
+  "indications_text": "Sj\u00f6gren Disease",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/08/26:- Initial Ph2a data reported; EULAR 2026 presentations planned. Next milestone timing not provided.\n05/19/26:- EULAR 2026 oral features first Sj\u00f6gren patient; webcast June 8, 2026.\n06/08/26:- EULAR 2026 showed Sj\u00f6gren improvements; mean salivary flow normalized at 6 months (0.65 to 1.23 mL/min). 08/06/26:- SjD data updated: 11 patients improved; salivary flow normalized in seven with six-month follow-up.\n09/08/26:- Updated Phase 2 data expected in H2 2026 with at least 10 SjD patients.\n09/23/26:- Updated Ph2 Sj\u00f6gren data in 11 patients to be presented at ISSjD 2026 on October 1, 2026.",
+  "catalyst_date": "2026-10-01",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/g61941669/artiva-biotherapeutics-announces-oral-presentation-allonk-clinical-data-17th-international-symposium",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -3569,7 +3569,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "34.30",
+   "last_price": "34.32",
    "market_cap": 2087774848
   },
   "ticker": "AGIO",
@@ -5596,7 +5596,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.84",
+   "last_price": "61.60",
    "market_cap": 127158984704
   },
   "ticker": "BMY",
@@ -6006,10 +6006,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "VacSYn study. 1/3/24- Completed enrollment of cohort 1 and commenced cohort 2. 11/14/24- Interim data reported. 4/2/25- Reported further interim safety and immunogenicity data. Future updates in 2025. Initiate Part 2 in H2 2025. 4/30/25- Further interim results from Part 1 including PD & biomarker data in Q2 2025. 11/04/25:- Further interim Part 1 VacSYn Ph2 PD data incl PD and biomarkers expected Q4 2025. 12/11/25:- Positive interim VacSYn Ph2 PD data reported. Final Part 1 data expected in Mid-2026. 03/05/26:- VacSYn Ph2 interim results to be presented at AD/PD 2026 on March 18, 2026. 03/13/26:- Positive Part 1 VacSYn Ph2 interim data suggest slowed PD progression and 100% immunogenicity; final data mid-2026. 04/30/26:- Updated VacSYn Ph2 interim AD/PD 2026 data; final Part 1 week 104 results expected H2 2026. 08/05/26:- VacSYn Part 1 week 104 data expected H2 2026; $4M grant awarded. 08/11/26:- FDA Fast Track and IND clearance. VacSYn Part 1 week-100 results expected H2 2026.",
+  "note": "VacSYn study. 1/3/24- Completed enrollment of cohort 1 and commenced cohort 2. 11/14/24- Interim data reported. 4/2/25- Reported further interim safety and immunogenicity data. Future updates in 2025. Initiate Part 2 in H2 2025. 4/30/25- Further interim results from Part 1 including PD & biomarker data in Q2 2025. 11/04/25:- Further interim Part 1 VacSYn Ph2 PD data incl PD and biomarkers expected Q4 2025. 12/11/25:- Positive interim VacSYn Ph2 PD data reported. Final Part 1 data expected in Mid-2026. 03/05/26:- VacSYn Ph2 interim results to be presented at AD/PD 2026 on March 18, 2026. 03/13/26:- Positive Part 1 VacSYn Ph2 interim data suggest slowed PD progression and 100% immunogenicity; final data mid-2026. 04/30/26:- Updated VacSYn Ph2 interim AD/PD 2026 data; final Part 1 week 104 results expected H2 2026. 08/05/26:- VacSYn Part 1 week 104 data expected H2 2026; $4M grant awarded. 08/11/26:- FDA Fast Track and IND clearance. VacSYn Part 1 week-100 results expected H2 2026. 09/23/26:- Week-100 VacSYn Part 1 met endpoints; Part 2 FDA meetings expected Early 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://ir.acimmune.com/news",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/23/3367352/0/en/ac-immune-reports-positive-safety-immunogenicity-at-week-100-in-part-1-of-vacsyn-phase-2-trial-of-aci-7104.html",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -6929,7 +6929,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "7.54",
+   "last_price": "7.53",
    "market_cap": 538007488
   },
   "ticker": "RGNX",
@@ -8061,7 +8061,7 @@
   "company": {
    "ticker": "BLRX",
    "name": "BioLineRx",
-   "last_price": "2.43",
+   "last_price": "2.49",
    "market_cap": 11783048
   },
   "ticker": "BLRX",
@@ -10021,7 +10021,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "34.30",
+   "last_price": "34.32",
    "market_cap": 2087774848
   },
   "ticker": "AGIO",
@@ -10727,10 +10727,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "Partnered w/Roche, advanced to Ph3 stage. 01/11/26:- IMAGINATION Ph3 sefaxersen IgAN study results in 2026 among partnered readouts.",
+  "note": "Partnered w/Roche, advanced to Ph3 stage. 01/11/26:- IMAGINATION Ph3 sefaxersen IgAN study results in 2026 among partnered readouts. 09/22/26:- Positive prespecified Ph3 interim UPCR results at Week 37; interim data to be presented at upcoming congress.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/01/b49837683/ionis-well-positioned-for-continued-momentum-and-substantial-value-creation-in-2026-with-two-new-i",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b61937739/ionis-announces-positive-interim-data-partner-roche-s-phase-3-imagination-study-iga-nephropathy-igan",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -12697,7 +12697,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "8.21",
+   "last_price": "7.76",
    "market_cap": 388287840
   },
   "ticker": "BIOA",
@@ -13270,6 +13270,40 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344035/0/en/arrivent-biopharma-reports-second-quarter-2026-financial-results.html",
   "is_big_mover": true,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 19124,
+  "company": {
+   "ticker": "ORKA",
+   "name": "Oruka Pharmaceuticals",
+   "last_price": "85.76",
+   "market_cap": 6260127232
+  },
+  "ticker": "ORKA",
+  "drug_name": "ORKA-001",
+  "indications": [
+   {
+    "id": 1023,
+    "title": "Psoriasis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Psoriasis",
+  "stage_event": {
+   "id": 134,
+   "label": "Phase 2a Data readout",
+   "stage_label": "Phase 2a",
+   "event_label": "Data readout"
+  },
+  "note": "EVERLAST-A Phase 2a trial. 7/21/25- Received IND clearance. 8/11/25- Dosed first patient w/ data in H2 2026. 9/17/25- Ph1 interim results presented at EADV. 11/12/25:- Ph1 interim EADV data favorable. EVERLAST-A enrolling well; Week16 and duration data in H2 2026. EVERLAST-B starts H1 2026. 03/12/26:- EVERLAST-A enrollment completed; Week16 data expected Q2 2026, longer-term data in H2 2026. 04/27/26:- EVERLAST-A Ph2a Week16 PASI100 63.5%. Longer-term Week28/52wk data expected H2 2026. 05/13/26:- EVERLAST-A Week16 PASI100 63.5%, PASI90 83%, IGA0/1 84%; annual dosing PK; longer-term data H2 2026. 08/10/26:- EVERLAST-A Week28 data expected end Q3 2026. Week52 data expected December 2026. Phase3 starts H1 2027. 09/23/26:- EVERLAST-A Week28 PASI100 71.4% with no dosing after Week4. Week52 data expected December 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/23/3367325/0/en/oruka-therapeutics-announces-positive-week-28-data-for-orka-001-from-the-ongoing-everlast-a-trial-showing-deepening-of-responses-without-additional-dosing.html",
+  "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
@@ -14688,40 +14722,6 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/07/3341389/0/en/entera-announces-second-quarter-2026-financial-results-and-business-updates.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 19439,
-  "company": {
-   "ticker": "IMVT",
-   "name": "Immunovant",
-   "last_price": "33.91",
-   "market_cap": 7702349824
-  },
-  "ticker": "IMVT",
-  "drug_name": "IMVT-1402",
-  "indications": [
-   {
-    "id": 1030,
-    "title": "Cutaneous lupus erythematosus",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Cutaneous Lupus Erythematosus",
-  "stage_event": {
-   "id": 134,
-   "label": "Phase 2a Data readout",
-   "stage_label": "Phase 2a",
-   "event_label": "Data readout"
-  },
-  "note": "05/20/26:- CLE PoC trial fully enrolled; topline data expected in H2 2026. 08/06/26:- CLE topline data remains expected in H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.immunovant.com/investors/news-events",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -16354,40 +16354,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 20363,
-  "company": {
-   "ticker": "ARTV",
-   "name": "Artiva Biotherapeutics",
-   "last_price": "7.82",
-   "market_cap": 395521088
-  },
-  "ticker": "ARTV",
-  "drug_name": "AlloNK (AB-101) (NK Cell Therapy)",
-  "indications": [
-   {
-    "id": 2316,
-    "title": "Sj\u00f6gren\u2019s Disease ",
-    "nickname": "SjD"
-   }
-  ],
-  "indications_text": "Sj\u00f6gren Disease",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/08/26:- Initial Ph2a data reported; EULAR 2026 presentations planned. Next milestone timing not provided.\n05/19/26:- EULAR 2026 oral features first Sj\u00f6gren patient; webcast June 8, 2026.\n06/08/26:- EULAR 2026 showed Sj\u00f6gren improvements; mean salivary flow normalized at 6 months (0.65 to 1.23 mL/min). 08/06/26:- SjD data updated: 11 patients improved; salivary flow normalized in seven with six-month follow-up.\n09/08/26:- Updated Phase 2 data expected in H2 2026 with at least 10 SjD patients.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/08/3357530/0/en/artiva-biotherapeutics-provides-update-on-planned-allonk-data-disclosures-and-development-milestones-for-the-remainder-of-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 20384,
   "company": {
    "ticker": "PRQR",
@@ -17243,7 +17209,7 @@
   "company": {
    "ticker": "BLTE",
    "name": "Belite Bio",
-   "last_price": "170.49",
+   "last_price": "167.85",
    "market_cap": 7061720576
   },
   "ticker": "BLTE",
@@ -17496,7 +17462,7 @@
   "company": {
    "ticker": "CNSY",
    "name": "Cerenome, Inc.",
-   "last_price": "1.97",
+   "last_price": "1.95",
    "market_cap": 15406939
   },
   "ticker": "CNSY",
@@ -18109,7 +18075,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.70",
+   "last_price": "1.37",
    "market_cap": 122909048
   },
   "ticker": "BMEA",
@@ -19019,7 +18985,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.84",
+   "last_price": "61.60",
    "market_cap": 127158984704
   },
   "ticker": "BMY",
@@ -20879,7 +20845,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "1.70",
+   "last_price": "1.37",
    "market_cap": 122909048
   },
   "ticker": "BMEA",
@@ -22305,7 +22271,7 @@
   "company": {
    "ticker": "CALC",
    "name": "CalciMedica",
-   "last_price": "1.82",
+   "last_price": "1.81",
    "market_cap": 12768906
   },
   "ticker": "CALC",
@@ -22339,7 +22305,7 @@
   "company": {
    "ticker": "ALGS",
    "name": "Aligos Therapeutics Inc.",
-   "last_price": "5.75",
+   "last_price": "5.53",
    "market_cap": 35469088
   },
   "ticker": "ALGS",
@@ -23429,7 +23395,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "38.27",
+   "last_price": "37.50",
    "market_cap": 5417675264
   },
   "ticker": "DFTX",
@@ -24582,7 +24548,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "8.21",
+   "last_price": "7.76",
    "market_cap": 388287840
   },
   "ticker": "BIOA",
@@ -26333,7 +26299,7 @@
   "company": {
    "ticker": "BOLD",
    "name": "Boundless Bio Inc",
-   "last_price": "2.88",
+   "last_price": "2.84",
    "market_cap": 65514196
   },
   "ticker": "BOLD",
@@ -26834,7 +26800,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "7.54",
+   "last_price": "7.53",
    "market_cap": 538007488
   },
   "ticker": "RGNX",
@@ -27448,7 +27414,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.63",
+   "last_price": "1.61",
    "market_cap": 13905771
   },
   "ticker": "BIVI",
@@ -27784,7 +27750,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "38.27",
+   "last_price": "37.50",
    "market_cap": 5417675264
   },
   "ticker": "DFTX",
@@ -28568,7 +28534,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.63",
+   "last_price": "1.61",
    "market_cap": 13905771
   },
   "ticker": "BIVI",
@@ -28744,6 +28710,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19439,
+  "company": {
+   "ticker": "IMVT",
+   "name": "Immunovant",
+   "last_price": "33.91",
+   "market_cap": 7702349824
+  },
+  "ticker": "IMVT",
+  "drug_name": "IMVT-1402",
+  "indications": [
+   {
+    "id": 1030,
+    "title": "Cutaneous lupus erythematosus",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Cutaneous Lupus Erythematosus",
+  "stage_event": {
+   "id": 77,
+   "label": "Failed Discontinued",
+   "stage_label": "Failed",
+   "event_label": "Discontinued"
+  },
+  "note": "05/20/26:- CLE PoC trial fully enrolled; topline data expected in H2 2026. 08/06/26:- CLE topline data remains expected in H2 2026. 09/23/26:- CLE NCT06980805 topline missed primary endpoint; development stopped.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/23/3367346/0/en/immunovant-announces-topline-results-from-proof-of-concept-study-of-imvt-1402-in-cutaneous-lupus-erythematosus.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19536,
   "company": {
    "ticker": "MCRB",
@@ -28787,7 +28787,7 @@
   "company": {
    "ticker": "BMRN",
    "name": "Biomarin Pharmaceutical Inc.",
-   "last_price": "63.37",
+   "last_price": "62.25",
    "market_cap": 12266769408
   },
   "ticker": "BMRN",
@@ -28962,7 +28962,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.84",
+   "last_price": "61.60",
    "market_cap": 127158984704
   },
   "ticker": "BMY",
@@ -29258,7 +29258,7 @@
   "company": {
    "ticker": "BLSM",
    "name": "BlossomHill Therapeutics",
-   "last_price": "25.25",
+   "last_price": "22.69",
    "market_cap": 802568896
   },
   "ticker": "BLSM",

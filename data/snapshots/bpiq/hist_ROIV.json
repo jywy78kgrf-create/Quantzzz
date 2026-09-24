@@ -1,5 +1,29 @@
 [
  {
+  "id": 8664,
+  "company": {
+   "id": 1328,
+   "ticker": "ROIV",
+   "name": "Roivant",
+   "website": "https://roivant.com"
+  },
+  "created_at": "2026-09-24T13:04:47.843420Z",
+  "updated_at": "2026-09-24T13:04:47.843440Z",
+  "ticker": "ROIV",
+  "drug_name": "IMVT-1402 (imeroprubart)",
+  "drug_indication": "Cutaneous Lupus Erythematosus",
+  "airtable_id": 8939,
+  "stage": "Phase 2",
+  "catalyst_date": "2026-09-23",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/23/3367346/0/en/immunovant-announces-topline-results-from-proof-of-concept-study-of-imvt-1402-in-cutaneous-lupus-erythematosus.html",
+  "catalyst_text": "Announced negative topline results in cutaneous lupus erythematosus",
+  "detailed_catalyst_text": "Topline results from a randomized, double-blind, placebo-controlled proof-of-concept trial in cutaneous lupus erythematosus showed the primary endpoint was not met at Week 12. Numerical trends favored active treatment and safety was favorable, but efficacy fell short.",
+  "catalyst_text_evidence": "Immunovant (Nasdaq: IMVT) today announced topline results from Period 1 of its proof-of-concept trial evaluating IMVT-1402 (imeroprubart) for the treatment of cutaneous lupus erythematosus (CLE). The study did not achieve statistical significance on its primary endpoint of percent change from baseline in the Cutaneous Lupus Erythematosus Disease Area and Severity Index Activity (CLASI-A) score at Week 12. IMVT-1402 demonstrated a favorable safety and tolerability profile, consistent with prior studies.",
+  "news_published_at": "2026-09-24T00:00:00Z",
+  "open_price_gap_percent": "-0.00576",
+  "intra_day_price_change_percent": "-0.03105"
+ },
+ {
   "id": 8513,
   "company": {
    "id": 1328,
@@ -8,7 +32,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-09-09T13:02:48.936320Z",
-  "updated_at": "2026-09-23T13:03:09.224539Z",
+  "updated_at": "2026-09-24T13:02:52.324571Z",
   "ticker": "ROIV",
   "drug_name": "Mosliciguat",
   "drug_indication": "Pulmonary Hypertension Associated with Interstitial Lung Disease",
@@ -32,7 +56,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-09-09T13:06:20.828329Z",
-  "updated_at": "2026-09-23T13:06:56.763976Z",
+  "updated_at": "2026-09-24T13:06:24.351236Z",
   "ticker": "ROIV",
   "drug_name": "Mosliciguat",
   "drug_indication": "Pulmonary Hypertension Associated with Interstitial Lung Disease",
@@ -56,7 +80,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-08-29T13:01:34.084313Z",
-  "updated_at": "2026-09-23T13:01:39.708703Z",
+  "updated_at": "2026-09-24T13:01:25.693075Z",
   "ticker": "ROIV",
   "drug_name": "LISRAYA (brepocitinib)",
   "drug_indication": "Dermatomyositis",
@@ -80,7 +104,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-08-29T13:02:30.206582Z",
-  "updated_at": "2026-09-23T13:02:39.115490Z",
+  "updated_at": "2026-09-24T13:02:23.325219Z",
   "ticker": "ROIV",
   "drug_name": "LISRAYA (brepocitinib)",
   "drug_indication": "Dermatomyositis",
@@ -104,7 +128,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-08-07T13:01:10.993154Z",
-  "updated_at": "2026-09-23T13:00:53.392337Z",
+  "updated_at": "2026-09-24T13:00:39.292551Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Cutaneous Sarcoidosis",
@@ -128,7 +152,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-08-07T13:04:38.804558Z",
-  "updated_at": "2026-09-23T13:03:42.485199Z",
+  "updated_at": "2026-09-24T13:03:23.384010Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Dermatomyositis",
@@ -152,7 +176,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-04-03T13:00:48.892115Z",
-  "updated_at": "2026-09-23T13:00:56.126338Z",
+  "updated_at": "2026-09-24T13:00:42.115331Z",
   "ticker": "ROIV",
   "drug_name": "Batoclimab",
   "drug_indication": "Thyroid Eye Disease",
@@ -176,7 +200,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-04-03T13:03:23.016927Z",
-  "updated_at": "2026-09-23T13:03:45.128910Z",
+  "updated_at": "2026-09-24T13:03:26.205094Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Lichen Planopilaris",
@@ -200,7 +224,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-04-03T13:03:48.409102Z",
-  "updated_at": "2026-09-23T13:04:13.286190Z",
+  "updated_at": "2026-09-24T13:03:53.085577Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Dermatomyositis",
@@ -224,7 +248,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-04-03T13:05:37.295974Z",
-  "updated_at": "2026-09-23T13:06:20.737577Z",
+  "updated_at": "2026-09-24T13:05:52.331700Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Lichen Planopilaris",
@@ -248,7 +272,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-04-03T13:05:38.446947Z",
-  "updated_at": "2026-09-23T13:06:22.537686Z",
+  "updated_at": "2026-09-24T13:05:53.468013Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Dermatomyositis",
@@ -272,7 +296,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-03-04T13:02:44.972601Z",
-  "updated_at": "2026-09-23T13:03:42.642486Z",
+  "updated_at": "2026-09-24T13:03:23.523590Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Dermatomyositis",
@@ -296,7 +320,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2026-02-07T13:03:36.740816Z",
-  "updated_at": "2026-09-23T13:05:15.490785Z",
+  "updated_at": "2026-09-24T13:04:51.977037Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Cutaneous Sarcoidosis",
@@ -320,7 +344,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2025-11-05T13:04:55.272684Z",
-  "updated_at": "2026-09-23T13:07:34.475338Z",
+  "updated_at": "2026-09-24T13:07:00.784676Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib ",
   "drug_indication": "Dermatomyositis ",
@@ -344,7 +368,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2025-03-21T13:03:12.425975Z",
-  "updated_at": "2026-09-23T13:05:27.546198Z",
+  "updated_at": "2026-09-24T13:05:03.491518Z",
   "ticker": "ROIV",
   "drug_name": "Batoclimab",
   "drug_indication": "Myasthenia Gravis (MG) & Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
@@ -368,7 +392,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2025-02-21T20:08:01.161724Z",
-  "updated_at": "2026-09-23T13:04:13.963595Z",
+  "updated_at": "2026-09-24T13:03:53.793229Z",
   "ticker": "ROIV",
   "drug_name": "Namilumab - (RESOLVE-Lung)",
   "drug_indication": "Sarcoidosis",
@@ -392,7 +416,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2025-02-21T20:08:42.918131Z",
-  "updated_at": "2026-09-23T13:05:12.178440Z",
+  "updated_at": "2026-09-24T13:04:48.960252Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib - (NEPTUNE)",
   "drug_indication": "Non-infectious uveitis (NIU)",
@@ -416,7 +440,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2025-02-21T20:07:59.681387Z",
-  "updated_at": "2026-09-23T13:04:11.856189Z",
+  "updated_at": "2026-09-24T13:03:51.639210Z",
   "ticker": "ROIV",
   "drug_name": "RVT-2001",
   "drug_indication": "Transfusion-Dependent Anemia in Patients with Lower-Risk MDS",
@@ -440,7 +464,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2025-02-21T20:14:24.267806Z",
-  "updated_at": "2026-09-23T13:07:17.151191Z",
+  "updated_at": "2026-09-24T13:06:43.385594Z",
   "ticker": "ROIV",
   "drug_name": "Brepocitinib",
   "drug_indication": "Systemic lupus erythematosus (SLE)",
@@ -464,7 +488,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2025-02-21T20:05:58.311838Z",
-  "updated_at": "2026-09-23T13:01:23.520482Z",
+  "updated_at": "2026-09-24T13:01:08.803376Z",
   "ticker": "ROIV",
   "drug_name": "VTAMA (tapinarof) - (ADORING 1)",
   "drug_indication": "Atopic dermatitis (AD)",
@@ -488,7 +512,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2025-02-21T20:08:09.384540Z",
-  "updated_at": "2026-09-23T13:04:24.606704Z",
+  "updated_at": "2026-09-24T13:04:04.328223Z",
   "ticker": "ROIV",
   "drug_name": "ADORING 2",
   "drug_indication": "Atopic Dermatitis",
@@ -512,7 +536,7 @@
    "website": "https://roivant.com"
   },
   "created_at": "2025-02-21T20:05:39.643978Z",
-  "updated_at": "2026-09-23T13:00:55.255893Z",
+  "updated_at": "2026-09-24T13:00:41.163460Z",
   "ticker": "ROIV",
   "drug_name": "VTAMA (tapinarof)",
   "drug_indication": "Plaque psoriasis",

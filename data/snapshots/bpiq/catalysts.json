@@ -135,6 +135,76 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19193,
+  "company": {
+   "ticker": "SRPT",
+   "name": "Sarepta Therapeutics",
+   "last_price": "18.24",
+   "market_cap": 2001632128,
+   "website": "https://www.sarepta.com"
+  },
+  "ticker": "SRPT",
+  "drug_name": "SRP-1003",
+  "indications": [
+   {
+    "id": 1262,
+    "title": "Myotonic Dystrophy Type 1",
+    "nickname": "DM1"
+   }
+  ],
+  "indications_text": "Myotonic dystrophy type 1 (DM1)",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "8/6/25- Preliminary data in H2 2025. 11/24/25- Begin dosing in final cohort (cohort 5) in early 2026. 11/03/25:- SAD enrollment complete, MAD cohort 4 ongoing; Ph1/2 SAD and MAD readouts for DM1 expected in early 2026. 02/25/26:- Positive safety review; MAD cohort 3 fully enrolled; additional cohorts planned before Q1 2026 readout. 03/25/26:- Early Ph1/2 ascending-dose results to be presented in webcast on March 25, 2026. 05/06/26:- First Ph1/2 SRP-1003 data show dose-dependent exposure, early biomarker effects, and favorable tolerability in DM1. 08/05/26:- DM1 Phase 1/2 MAD cohort readouts remain expected in H2 2026. 09/24/26:- Interim Ph1/2 SRP-1003 safety and exposure findings to be presented at NMSG on Sept 25, 2026.",
+  "catalyst_date": "2026-09-25",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b61968551/sarepta-therapeutics-present-new-data-its-neuromuscular-portfolio-27th-annual-neuromuscular-study-gr",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
+  "id": 19195,
+  "company": {
+   "ticker": "SRPT",
+   "name": "Sarepta Therapeutics",
+   "last_price": "18.24",
+   "market_cap": 2001632128,
+   "website": "https://www.sarepta.com"
+  },
+  "ticker": "SRPT",
+  "drug_name": "SRP-1001",
+  "indications": [
+   {
+    "id": 1402,
+    "title": "Facioscapulohumeral muscular dystrophy ",
+    "nickname": "FHSD"
+   }
+  ],
+  "indications_text": "Facioscapulohumeral muscular dystrophy (FSHD)",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "8/6/25- Preliminary data in H2 2025. 11/03/25:- SAD enrollment complete, MAD cohort 6 ongoing; Ph1/2 SAD and MAD readouts for FSHD expected in early 2026. 02/25/26:- FSHD siRNA program highlighted among five clinical-stage RNA interference therapies with multiple readouts ahead. 03/25/26:- Early Ph1/2 ascending-dose results to be presented in webcast on March 25, 2026. 05/06/26:- First Ph1/2 SRP-1001 data in FSHD1 show dose-dependent exposure, early biomarker effects, and favorable tolerability. 08/05/26:- FSHD Phase 1/2 MAD cohort readouts remain expected in H2 2026. 09/24/26:- Interim Ph1/2 SRP-1001 safety and exposure findings in FSHD1 to be presented Sept 25, 2026.",
+  "catalyst_date": "2026-09-25",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b61968551/sarepta-therapeutics-present-new-data-its-neuromuscular-portfolio-27th-annual-neuromuscular-study-gr",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 20361,
   "company": {
    "ticker": "MIRM",
@@ -713,7 +783,7 @@
   "company": {
    "ticker": "IVVD",
    "name": "INVIVYD",
-   "last_price": "0.97",
+   "last_price": "0.92",
    "market_cap": 272091808,
    "website": "https://www.invivyd.com"
   },
@@ -943,7 +1013,7 @@
   "company": {
    "ticker": "AARD",
    "name": "Aardvark Therapeutics",
-   "last_price": "5.44",
+   "last_price": "5.48",
    "market_cap": 121679744,
    "website": "https://aardvarktherapeutics.com"
   },
@@ -2548,7 +2618,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "13.35",
+   "last_price": "13.15",
    "market_cap": 2064768384,
    "website": "https://www.biohaven.com"
   },
@@ -2988,7 +3058,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.74",
+   "last_price": "183.87",
    "market_cap": 72704851968,
    "website": "https://www.modernatx.com"
   },
@@ -3068,7 +3138,7 @@
   "company": {
    "ticker": "HCM",
    "name": "HUTCHMED (China) Limited",
-   "last_price": "13.91",
+   "last_price": "14.37",
    "market_cap": 2497709568,
    "website": "https://www.hutch-med.com"
   },
@@ -3218,7 +3288,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.74",
+   "last_price": "183.87",
    "market_cap": 72704851968,
    "website": "https://www.modernatx.com"
   },
@@ -3253,7 +3323,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.74",
+   "last_price": "183.87",
    "market_cap": 72704851968,
    "website": "https://www.modernatx.com"
   },
@@ -3288,7 +3358,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "44.32",
+   "last_price": "44.11",
    "market_cap": 7300477440,
    "website": "https://www.ionis.com"
   },
@@ -4298,7 +4368,7 @@
   "company": {
    "ticker": "APRE",
    "name": "Aprea Therapeutics",
-   "last_price": "0.78",
+   "last_price": "0.77",
    "market_cap": 9821086,
    "website": "https://aprea.com"
   },
@@ -4589,6 +4659,40 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-14",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 17501,
   "company": {
    "ticker": "PEPG",
@@ -4662,40 +4766,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-14",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
  },
  {
   "id": 18587,
@@ -5167,7 +5237,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "26.89",
+   "last_price": "26.42",
    "market_cap": 2377261056,
    "website": "https://mineralystx.com"
   },
@@ -5687,10 +5757,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "ARCHER, ARCHER II, & ARROW trials. 8/5/24- Dosed in Ph3 trial. 10/17/24- New Ph2 ARCHER data at AAO '24. 7/24/25- Enrollment completed in ARCHER II w/ topline data in H2 2026. 8/8/25- Selected by EMA to participate in PDC pilot. 11/10/25:- Reiterated Ph3 ARCHER II enrollment completed in July. 01/12/26:- GA Investor Day planned March 2026; ARCHER II topline Ph3 GA data expected in H2 2026. 03/30/26:- ARCHER II topline Ph3 GA data expected Q4 2026; March 2026 retina-focused Investor Day held. 05/07/26:- Reiterated ARCHER II Ph3 GA topline data expected Q4 2026. 07/14/26:- ASRS oral presentation July 18, 2026. ARCHER II Phase 3 topline data expected Q4 2026. 08/12/26:- Added Month 24 dual primary endpoint; launched OLE. Month 15 topline and DMC assessment expected Q4 2026. 08/12/26:- ARCHER II Month 15 primary endpoint is expected in Q4 2026. Final trial completion with the Month 24 endpoint is expected in Q3 2027.",
+  "note": "ARCHER, ARCHER II, & ARROW trials. 8/5/24- Dosed in Ph3 trial. 10/17/24- New Ph2 ARCHER data at AAO '24. 7/24/25- Enrollment completed in ARCHER II w/ topline data in H2 2026. 8/8/25- Selected by EMA to participate in PDC pilot. 11/10/25:- Reiterated Ph3 ARCHER II enrollment completed in July. 01/12/26:- GA Investor Day planned March 2026; ARCHER II topline Ph3 GA data expected in H2 2026. 03/30/26:- ARCHER II topline Ph3 GA data expected Q4 2026; March 2026 retina-focused Investor Day held. 05/07/26:- Reiterated ARCHER II Ph3 GA topline data expected Q4 2026. 07/14/26:- ASRS oral presentation July 18, 2026. ARCHER II Phase 3 topline data expected Q4 2026. 08/12/26:- Added Month 24 dual primary endpoint; launched OLE. Month 15 topline and DMC assessment expected Q4 2026. 08/12/26:- ARCHER II Month 15 primary endpoint is expected in Q4 2026. Final trial completion with the Month 24 endpoint is expected in Q3 2027. 09/24/26:- Retina Society oral talks Sept 25, 2026; ARCHER II Month 15 results expected Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3343464/0/en/annexon-reports-second-quarter-2026-financial-results-business-updates-and-key-anticipated-milestones.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/24/3368269/0/en/annexon-to-present-patient-baseline-characteristics-from-vonaprument-phase-3-archer-ii-pivotal-trial-for-geographic-atrophy-at-the-retina-society-59th-annual-scientific-meeting.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -6122,7 +6192,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.74",
+   "last_price": "183.87",
    "market_cap": 72704851968,
    "website": "https://www.modernatx.com"
   },
@@ -6763,46 +6833,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 16237,
-  "company": {
-   "ticker": "ARCT",
-   "name": "Arcturus Therapeutics",
-   "last_price": "13.30",
-   "market_cap": 378026816,
-   "website": "https://arcturusrx.com"
-  },
-  "ticker": "ARCT",
-  "drug_name": "ARCT-810 ",
-  "indications": [
-   {
-    "id": 1135,
-    "title": "Ornithine transcarbmylase deficiency",
-    "nickname": "OTC Deficiency"
-   },
-   {
-    "id": 1277,
-    "title": "Urea cycle disorder",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Ornithine transcarbmylase (OTC) deficiency",
-  "stage_event": {
-   "id": 137,
-   "label": "Phase 2 Update",
-   "stage_label": "Phase 2",
-   "event_label": "Update"
-  },
-  "note": "LUNAR-OTC. 8/7/23- Completed enrollment & dosing of all cohorts in SAD study in U.S. 7/1/25- Announced favorable interim Ph2 data. 7/11/25- Align Ph3 trial design w/ RA in H1 2026. 11/10/25:- Regulatory alignment on ARCT-810 pivotal trial strategy for adult and pediatric OTC deficiency remains on track for H1 2026. 03/03/26:- Development strategy broadened to adult and pediatric OTC; Type C regulatory meetings remain on track H1 2026. 05/07/26:- FDA Type C meeting in March 2026; preparing exploratory data for pediatric EOP2 meeting in H2 2026. 08/06/26:- Ph2 enrollment and dosing completed. Data and regulatory plan expected Q3 2026. 09/23/26:- Interim Ph2 activity reported. ARCT-2601 dosing under amended Ph2 protocol planned near Year-End 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b61957909/arcturus-therapeutics-announces-interim-otc-deficiency-phase-2-results-and-introduces-lunar-2-0-next",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": true,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 16301,
   "company": {
    "ticker": "IVA",
@@ -7007,7 +7037,7 @@
   "company": {
    "ticker": "HOWL",
    "name": "Werewolf Therapeutics",
-   "last_price": "0.99",
+   "last_price": "0.97",
    "market_cap": 48086312,
    "website": "https://werewolftx.com"
   },
@@ -7127,7 +7157,7 @@
   "company": {
    "ticker": "HOWL",
    "name": "Werewolf Therapeutics",
-   "last_price": "0.99",
+   "last_price": "0.97",
    "market_cap": 48086312,
    "website": "https://werewolftx.com"
   },
@@ -9037,7 +9067,7 @@
   "company": {
    "ticker": "LSTA",
    "name": "Lisata Therapeutics",
-   "last_price": "1.44",
+   "last_price": "1.49",
    "market_cap": 15503834,
    "website": "https://www.lisata.com"
   },
@@ -9382,7 +9412,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.74",
+   "last_price": "183.87",
    "market_cap": 72704851968,
    "website": "https://www.modernatx.com"
   },
@@ -10462,7 +10492,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "13.35",
+   "last_price": "13.15",
    "market_cap": 2064768384,
    "website": "https://www.biohaven.com"
   },
@@ -10622,7 +10652,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "39.55",
+   "last_price": "39.90",
    "market_cap": 45497073664,
    "website": "https://www.tevapharm.com"
   },
@@ -10692,7 +10722,7 @@
   "company": {
    "ticker": "HCWB",
    "name": "HCW Biologics",
-   "last_price": "2.09",
+   "last_price": "1.98",
    "market_cap": 3048297,
    "website": "https://www.hcwbiologics.com"
   },
@@ -11017,7 +11047,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "39.55",
+   "last_price": "39.90",
    "market_cap": 45497073664,
    "website": "https://www.tevapharm.com"
   },
@@ -11087,7 +11117,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "44.32",
+   "last_price": "44.11",
    "market_cap": 7300477440,
    "website": "https://www.ionis.com"
   },
@@ -11387,7 +11417,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.74",
+   "last_price": "183.87",
    "market_cap": 72704851968,
    "website": "https://www.modernatx.com"
   },
@@ -11832,7 +11862,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "13.35",
+   "last_price": "13.15",
    "market_cap": 2064768384,
    "website": "https://www.biohaven.com"
   },
@@ -11957,7 +11987,7 @@
   "company": {
    "ticker": "GLUE",
    "name": "Monte Rosa Therapeutics",
-   "last_price": "11.74",
+   "last_price": "11.60",
    "market_cap": 1014376384,
    "website": "https://www.monterosatx.com"
   },
@@ -14016,76 +14046,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 19193,
-  "company": {
-   "ticker": "SRPT",
-   "name": "Sarepta Therapeutics",
-   "last_price": "18.95",
-   "market_cap": 2001632128,
-   "website": "https://www.sarepta.com"
-  },
-  "ticker": "SRPT",
-  "drug_name": "SRP-1003",
-  "indications": [
-   {
-    "id": 1262,
-    "title": "Myotonic Dystrophy Type 1",
-    "nickname": "DM1"
-   }
-  ],
-  "indications_text": "Myotonic dystrophy type 1 (DM1)",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "8/6/25- Preliminary data in H2 2025. 11/24/25- Begin dosing in final cohort (cohort 5) in early 2026. 11/03/25:- SAD enrollment complete, MAD cohort 4 ongoing; Ph1/2 SAD and MAD readouts for DM1 expected in early 2026. 02/25/26:- Positive safety review; MAD cohort 3 fully enrolled; additional cohorts planned before Q1 2026 readout. 03/25/26:- Early Ph1/2 ascending-dose results to be presented in webcast on March 25, 2026. 05/06/26:- First Ph1/2 SRP-1003 data show dose-dependent exposure, early biomarker effects, and favorable tolerability in DM1. 08/05/26:- DM1 Phase 1/2 MAD cohort readouts remain expected in H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260805692741/en/Sarepta-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Recent-Corporate-Developments",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
-  "id": 19195,
-  "company": {
-   "ticker": "SRPT",
-   "name": "Sarepta Therapeutics",
-   "last_price": "18.95",
-   "market_cap": 2001632128,
-   "website": "https://www.sarepta.com"
-  },
-  "ticker": "SRPT",
-  "drug_name": "SRP-1001",
-  "indications": [
-   {
-    "id": 1402,
-    "title": "Facioscapulohumeral muscular dystrophy ",
-    "nickname": "FHSD"
-   }
-  ],
-  "indications_text": "Facioscapulohumeral muscular dystrophy (FSHD)",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "8/6/25- Preliminary data in H2 2025. 11/03/25:- SAD enrollment complete, MAD cohort 6 ongoing; Ph1/2 SAD and MAD readouts for FSHD expected in early 2026. 02/25/26:- FSHD siRNA program highlighted among five clinical-stage RNA interference therapies with multiple readouts ahead. 03/25/26:- Early Ph1/2 ascending-dose results to be presented in webcast on March 25, 2026. 05/06/26:- First Ph1/2 SRP-1001 data in FSHD1 show dose-dependent exposure, early biomarker effects, and favorable tolerability. 08/05/26:- FSHD Phase 1/2 MAD cohort readouts remain expected in H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260805692741/en/Sarepta-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Recent-Corporate-Developments",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
   "id": 19198,
   "company": {
    "ticker": "BINV",
@@ -14585,7 +14545,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.74",
+   "last_price": "183.87",
    "market_cap": 72704851968,
    "website": "https://www.modernatx.com"
   },
@@ -14660,7 +14620,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "40.48",
+   "last_price": "41.24",
    "market_cap": 2357409024,
    "website": "https://www.harmonybiosciences.com"
   },
@@ -17464,7 +17424,7 @@
   "company": {
    "ticker": "ATTO",
    "name": "Attovia Therapeutics",
-   "last_price": "18.52",
+   "last_price": "18.25",
    "market_cap": 845461440,
    "website": "https://www.attovia.com"
   },
@@ -19154,7 +19114,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "39.55",
+   "last_price": "39.90",
    "market_cap": 45497073664,
    "website": "https://www.tevapharm.com"
   },
@@ -19364,7 +19324,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "40.48",
+   "last_price": "41.24",
    "market_cap": 2357409024,
    "website": "https://www.harmonybiosciences.com"
   },
@@ -20474,7 +20434,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "37.67",
+   "last_price": "38.12",
    "market_cap": 2966107904,
    "website": "https://www.uniqure.com"
   },
@@ -20759,7 +20719,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "40.48",
+   "last_price": "41.24",
    "market_cap": 2357409024,
    "website": "https://www.harmonybiosciences.com"
   },
@@ -21394,7 +21354,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "40.48",
+   "last_price": "41.24",
    "market_cap": 2357409024,
    "website": "https://www.harmonybiosciences.com"
   },
@@ -22519,7 +22479,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "40.48",
+   "last_price": "41.24",
    "market_cap": 2357409024,
    "website": "https://www.harmonybiosciences.com"
   },
@@ -23329,7 +23289,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "40.48",
+   "last_price": "41.24",
    "market_cap": 2357409024,
    "website": "https://www.harmonybiosciences.com"
   },
@@ -24079,7 +24039,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "44.32",
+   "last_price": "44.11",
    "market_cap": 7300477440,
    "website": "https://www.ionis.com"
   },
@@ -25144,7 +25104,7 @@
   "company": {
    "ticker": "HRMY",
    "name": "Harmony Biosciences Holdings Inc",
-   "last_price": "40.48",
+   "last_price": "41.24",
    "market_cap": 2357409024,
    "website": "https://www.harmonybiosciences.com"
   },
@@ -26269,7 +26229,7 @@
   "company": {
    "ticker": "HCM",
    "name": "HUTCHMED (China) Limited",
-   "last_price": "13.91",
+   "last_price": "14.37",
    "market_cap": 2497709568,
    "website": "https://www.hutch-med.com"
   },
@@ -27888,7 +27848,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "44.32",
+   "last_price": "44.11",
    "market_cap": 7300477440,
    "website": "https://www.ionis.com"
   },
@@ -28473,7 +28433,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "37.67",
+   "last_price": "38.12",
    "market_cap": 2966107904,
    "website": "https://www.uniqure.com"
   },
@@ -28808,7 +28768,7 @@
   "company": {
    "ticker": "SDGR",
    "name": "Schrodinger Inc",
-   "last_price": "29.11",
+   "last_price": "28.70",
    "market_cap": 2186568704,
    "website": "https://www.schrodinger.com"
   },
@@ -29318,7 +29278,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "26.89",
+   "last_price": "26.42",
    "market_cap": 2377261056,
    "website": "https://mineralystx.com"
   },

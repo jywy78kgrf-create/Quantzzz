@@ -1,60 +1,5 @@
 [
  {
-  "id": 13527,
-  "company": {
-   "ticker": "CCCC",
-   "name": "C4 Therapuetics",
-   "last_price": "3.03",
-   "market_cap": 372766144,
-   "website": "https://www.c4therapeutics.com"
-  },
-  "ticker": "CCCC",
-  "drug_name": "Cemsidomide (CFT7455) +/- dexamethasone",
-  "indications": [
-   {
-    "id": 905,
-    "title": "Blood cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1333,
-    "title": "Blood disorder",
-    "nickname": ""
-   },
-   {
-    "id": 1043,
-    "title": "Hematologic malignancies",
-    "nickname": ""
-   },
-   {
-    "id": 1360,
-    "title": "Multiple myeloma",
-    "nickname": "MM"
-   },
-   {
-    "id": 818,
-    "title": "Non-Hodgkin lymphoma",
-    "nickname": "NHL"
-   }
-  ],
-  "indications_text": "Hematologic malignancies, Blood disorder, Non-Hodgkin lymphoma, Blood cancer, Multiple myeloma",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "12/8/24- Updated r/r MM & r/r NHL DE data at ASH'24. 5/7/25- DE phase completed. 9/20/25- Ph1 DE data in MM presented at IMS. Align with FDA on RP2D for Ph2 trial by YE 2025. Initiate Ph2 trial in Q1 2026. 11/06/25:- Ph1 MM data showed 53% ORR at 100 \u00b5g. MOMENTUM Ph2 Q1 2026, Ph1b elranatamab Q2 2026. 02/23/26:- First MOMENTUM Ph2 patient dosed. Ph1b elranatamab starts Q2 2026. Ph1 analysis Mid-2026. Ph2 enrollment Q1 2027. 02/26/26:- MOMENTUM Ph2 enrolling; Ph1 analysis Mid-2026; Ph1b elranatamab Q2 2026; additional Ph1b combos Mid-2026. 03/25/26:- First patient dosed in Ph1b elranatamab combo (NCT07280013). Ph1b data expected Mid-2027. Other combo plans Mid-2026. 05/12/26:- Ph1 MM data at EHA June 12 2026. Ph1b elranatamab update 2H 2026. MOMENTUM enrollment completes Q1 2027. 06/11/26:- EHA 2026 poster June 12 shows deeper responses and MRD negativity in Ph1 RRMM. 08/11/26:- IMS data September 2026; Ph1b updates H2 2026/Mid-2027; MOMENTUM enrolls/data Q1/H2 2027; SoC Ph1b starts H1 2027.",
-  "catalyst_date": "2026-09-23",
-  "has_catalyst": true,
-  "catalyst_source": "https://ir.c4therapeutics.com/news-releases/news-release-details/c4-therapeutics-reports-second-quarter-2026-financial-results",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 20478,
   "company": {
    "ticker": "ABBV",
@@ -209,7 +154,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "88.74",
+   "last_price": "88.84",
    "market_cap": 5802341888,
    "website": "https://www.mirumpharma.com"
   },
@@ -244,7 +189,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.26",
+   "last_price": "123.70",
    "market_cap": 25223708672,
    "website": "https://www.incyte.com"
   },
@@ -418,7 +363,7 @@
   "company": {
    "ticker": "MNOV",
    "name": "MediciNova",
-   "last_price": "2.58",
+   "last_price": "2.57",
    "market_cap": 130436312,
    "website": "https://medicinova.com"
   },
@@ -858,7 +803,7 @@
   "company": {
    "ticker": "GHRS",
    "name": "GH Research",
-   "last_price": "24.45",
+   "last_price": "23.56",
    "market_cap": 1678304000,
    "website": "https://www.ghres.com"
   },
@@ -1083,7 +1028,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.94",
+   "last_price": "62.29",
    "market_cap": 125626949632,
    "website": "https://www.bms.com"
   },
@@ -1118,7 +1063,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "88.74",
+   "last_price": "88.84",
    "market_cap": 5802341888,
    "website": "https://www.mirumpharma.com"
   },
@@ -1158,7 +1103,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1170.61",
+   "last_price": "1176.11",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -1369,46 +1314,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 19892,
-  "company": {
-   "ticker": "MRK",
-   "name": "Merck & Co",
-   "last_price": "147.98",
-   "market_cap": 365092044800,
-   "website": "https://www.merck.com"
-  },
-  "ticker": "MRK",
-  "drug_name": "WELIREG/Belzutifan (MK-6482) + LENVIMA/Lenvatinib (E7080) (HIF-2\u03b1 Combo)",
-  "indications": [
-   {
-    "id": 894,
-    "title": "Kidney cancer",
-    "nickname": ""
-   },
-   {
-    "id": 874,
-    "title": "Renal cell carcinoma",
-    "nickname": "RCC"
-   }
-  ],
-  "indications_text": "Advanced Clear Cell Renal Cell Carcinoma After PD-1/PD-L1 Therapy",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "02/28/26:- LITESPARK-011 Ph3 interim PFS positive; FDA accepted sNDAs; PDUFA October 4, 2026.",
-  "catalyst_date": "2026-10-04",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260228417897/en/WELIREG-belzutifan-Plus-LENVIMA-lenvatinib-Reduced-the-Risk-of-Disease-Progression-or-Death-by-30-Compared-to-Cabozantinib-in-Certain-Previously-Treated-Patients-With-Advanced-Renal-Cell-Carcinoma-RCC",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 17696,
   "company": {
    "ticker": "SXTP",
@@ -1483,7 +1388,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.98",
+   "last_price": "148.34",
    "market_cap": 365092044800,
    "website": "https://www.merck.com"
   },
@@ -1523,7 +1428,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.98",
+   "last_price": "148.34",
    "market_cap": 365092044800,
    "website": "https://www.merck.com"
   },
@@ -1803,7 +1708,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.42",
+   "last_price": "17.64",
    "market_cap": 20008452096,
    "website": "https://www.viatris.com"
   },
@@ -2483,7 +2388,7 @@
   "company": {
    "ticker": "ELTX",
    "name": "Elicio Therapeutics",
-   "last_price": "1.88",
+   "last_price": "1.84",
    "market_cap": 49409940,
    "website": "https://elicio.com"
   },
@@ -2563,7 +2468,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "3.74",
+   "last_price": "3.84",
    "market_cap": 242060704,
    "website": "https://www.macrogenics.com"
   },
@@ -3188,7 +3093,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "200.52",
+   "last_price": "198.15",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -3418,7 +3323,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "200.52",
+   "last_price": "198.15",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -3453,7 +3358,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "200.52",
+   "last_price": "198.15",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -3488,7 +3393,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.81",
+   "last_price": "45.13",
    "market_cap": 7280535040,
    "website": "https://www.ionis.com"
   },
@@ -3853,7 +3758,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "33.23",
+   "last_price": "32.94",
    "market_cap": 1964192000,
    "website": "https://www.agios.com"
   },
@@ -4108,7 +4013,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "25.44",
+   "last_price": "25.69",
    "market_cap": 2350739200,
    "website": "https://mineralystx.com"
   },
@@ -4543,7 +4448,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "20.75",
+   "last_price": "20.69",
    "market_cap": 3821736448,
    "website": "https://www.acadia.com"
   },
@@ -4684,40 +4589,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-15",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 15254,
   "company": {
    "ticker": "BBIO",
@@ -4781,6 +4652,40 @@
   "catalyst_date": "2026-11-27",
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer-302832452.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-15",
+  "has_catalyst": true,
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5447,7 +5352,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "25.44",
+   "last_price": "25.69",
    "market_cap": 2350739200,
    "website": "https://mineralystx.com"
   },
@@ -5557,7 +5462,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.42",
+   "last_price": "17.64",
    "market_cap": 20008452096,
    "website": "https://www.viatris.com"
   },
@@ -5982,7 +5887,7 @@
   "company": {
    "ticker": "MNOV",
    "name": "MediciNova",
-   "last_price": "2.58",
+   "last_price": "2.57",
    "market_cap": 130436312,
    "website": "https://medicinova.com"
   },
@@ -6087,7 +5992,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.94",
+   "last_price": "62.29",
    "market_cap": 125626949632,
    "website": "https://www.bms.com"
   },
@@ -6132,7 +6037,7 @@
   "company": {
    "ticker": "MNOV",
    "name": "MediciNova",
-   "last_price": "2.58",
+   "last_price": "2.57",
    "market_cap": 130436312,
    "website": "https://medicinova.com"
   },
@@ -6402,7 +6307,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "200.52",
+   "last_price": "198.15",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -6487,7 +6392,7 @@
   "company": {
    "ticker": "ACIU",
    "name": "AC Immune SA",
-   "last_price": "2.48",
+   "last_price": "2.47",
    "market_cap": 264475632,
    "website": "https://www.acimmune.com"
   },
@@ -6967,7 +6872,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "9.26",
+   "last_price": "9.14",
    "market_cap": 127166432,
    "website": "https://imux.com"
   },
@@ -7577,7 +7482,7 @@
   "company": {
    "ticker": "OVID",
    "name": "Ovid Therapeutics",
-   "last_price": "2.44",
+   "last_price": "2.42",
    "market_cap": 487268128,
    "website": "https://www.ovidrx.com"
   },
@@ -7752,7 +7657,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.62",
+   "last_price": "0.61",
    "market_cap": 139022608,
    "website": "https://www.tenayatherapeutics.com"
   },
@@ -8282,7 +8187,7 @@
   "company": {
    "ticker": "CADL",
    "name": "Candel Therapeutics",
-   "last_price": "11.55",
+   "last_price": "11.29",
    "market_cap": 883789504,
    "website": "https://www.candeltx.com"
   },
@@ -8862,7 +8767,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.26",
+   "last_price": "123.70",
    "market_cap": 25223708672,
    "website": "https://www.incyte.com"
   },
@@ -9077,7 +8982,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.62",
+   "last_price": "0.61",
    "market_cap": 139022608,
    "website": "https://www.tenayatherapeutics.com"
   },
@@ -9317,7 +9222,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "54.27",
+   "last_price": "54.61",
    "market_cap": 5385781248,
    "website": "https://www.crisprtx.com"
   },
@@ -9407,7 +9312,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1170.61",
+   "last_price": "1176.11",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -9622,7 +9527,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "200.52",
+   "last_price": "198.15",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -9952,7 +9857,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "54.27",
+   "last_price": "54.61",
    "market_cap": 5385781248,
    "website": "https://www.crisprtx.com"
   },
@@ -10622,7 +10527,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "33.23",
+   "last_price": "32.94",
    "market_cap": 1964192000,
    "website": "https://www.agios.com"
   },
@@ -11327,7 +11232,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.81",
+   "last_price": "45.13",
    "market_cap": 7280535040,
    "website": "https://www.ionis.com"
   },
@@ -11627,7 +11532,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "200.52",
+   "last_price": "198.15",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -12122,7 +12027,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "54.27",
+   "last_price": "54.61",
    "market_cap": 5385781248,
    "website": "https://www.crisprtx.com"
   },
@@ -14110,7 +14015,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.26",
+   "last_price": "123.70",
    "market_cap": 25223708672,
    "website": "https://www.incyte.com"
   },
@@ -14145,7 +14050,7 @@
   "company": {
    "ticker": "MOLN",
    "name": "Molecular Partners",
-   "last_price": "4.09",
+   "last_price": "4.11",
    "market_cap": 164712528,
    "website": "https://www.molecularpartners.com"
   },
@@ -14405,7 +14310,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "54.27",
+   "last_price": "54.61",
    "market_cap": 5385781248,
    "website": "https://www.crisprtx.com"
   },
@@ -14755,7 +14660,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "200.52",
+   "last_price": "198.15",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -14975,7 +14880,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "3.74",
+   "last_price": "3.84",
    "market_cap": 242060704,
    "website": "https://www.macrogenics.com"
   },
@@ -15434,7 +15339,7 @@
   "company": {
    "ticker": "ACIU",
    "name": "AC Immune SA",
-   "last_price": "2.48",
+   "last_price": "2.47",
    "market_cap": 264475632,
    "website": "https://www.acimmune.com"
   },
@@ -15724,7 +15629,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "88.74",
+   "last_price": "88.84",
    "market_cap": 5802341888,
    "website": "https://www.mirumpharma.com"
   },
@@ -16134,7 +16039,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.26",
+   "last_price": "123.70",
    "market_cap": 25223708672,
    "website": "https://www.incyte.com"
   },
@@ -18454,7 +18359,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "88.74",
+   "last_price": "88.84",
    "market_cap": 5802341888,
    "website": "https://www.mirumpharma.com"
   },
@@ -18714,7 +18619,7 @@
   "company": {
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
-   "last_price": "7.40",
+   "last_price": "7.41",
    "market_cap": 230545776,
    "website": "https://www.cartesiantherapeutics.com"
   },
@@ -19759,7 +19664,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.94",
+   "last_price": "62.29",
    "market_cap": 125626949632,
    "website": "https://www.bms.com"
   },
@@ -20379,7 +20284,7 @@
   "company": {
    "ticker": "MGTX",
    "name": "MeiraGTx",
-   "last_price": "11.12",
+   "last_price": "10.89",
    "market_cap": 1061275072,
    "website": "https://www.meiragtx.com"
   },
@@ -20494,7 +20399,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "12.12",
+   "last_price": "11.94",
    "market_cap": 1031493056,
    "website": "https://www.moonlaketx.com"
   },
@@ -21184,7 +21089,7 @@
   "company": {
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
-   "last_price": "7.40",
+   "last_price": "7.41",
    "market_cap": 230545776,
    "website": "https://www.cartesiantherapeutics.com"
   },
@@ -21234,7 +21139,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "3.74",
+   "last_price": "3.84",
    "market_cap": 242060704,
    "website": "https://www.macrogenics.com"
   },
@@ -21494,7 +21399,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "15.40",
+   "last_price": "15.39",
    "market_cap": 260490192,
    "website": "https://www.sutrobio.com"
   },
@@ -21854,7 +21759,7 @@
   "company": {
    "ticker": "RNAC",
    "name": "Cartesian Therapeutics",
-   "last_price": "7.40",
+   "last_price": "7.41",
    "market_cap": 230545776,
    "website": "https://www.cartesiantherapeutics.com"
   },
@@ -22563,6 +22468,61 @@
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
   "catalyst_source": "https://ir.electra-therapeutics.com/news-releases/news-release-details/electra-therapeutics-announces-initiation-phase-1-trial-ela822",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 13527,
+  "company": {
+   "ticker": "CCCC",
+   "name": "C4 Therapuetics",
+   "last_price": "3.03",
+   "market_cap": 372766144,
+   "website": "https://www.c4therapeutics.com"
+  },
+  "ticker": "CCCC",
+  "drug_name": "Cemsidomide (CFT7455) +/- dexamethasone",
+  "indications": [
+   {
+    "id": 905,
+    "title": "Blood cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1333,
+    "title": "Blood disorder",
+    "nickname": ""
+   },
+   {
+    "id": 1043,
+    "title": "Hematologic malignancies",
+    "nickname": ""
+   },
+   {
+    "id": 1360,
+    "title": "Multiple myeloma",
+    "nickname": "MM"
+   },
+   {
+    "id": 818,
+    "title": "Non-Hodgkin lymphoma",
+    "nickname": "NHL"
+   }
+  ],
+  "indications_text": "Hematologic malignancies, Blood disorder, Non-Hodgkin lymphoma, Blood cancer, Multiple myeloma",
+  "stage_event": {
+   "id": 122,
+   "label": "Phase 1b Data readout",
+   "stage_label": "Phase 1b",
+   "event_label": "Data readout"
+  },
+  "note": "12/8/24- Updated r/r MM & r/r NHL DE data at ASH'24. 5/7/25- DE phase completed. 9/20/25- Ph1 DE data in MM presented at IMS. Align with FDA on RP2D for Ph2 trial by YE 2025. Initiate Ph2 trial in Q1 2026. 11/06/25:- Ph1 MM data showed 53% ORR at 100 \u00b5g. MOMENTUM Ph2 Q1 2026, Ph1b elranatamab Q2 2026. 02/23/26:- First MOMENTUM Ph2 patient dosed. Ph1b elranatamab starts Q2 2026. Ph1 analysis Mid-2026. Ph2 enrollment Q1 2027. 02/26/26:- MOMENTUM Ph2 enrolling; Ph1 analysis Mid-2026; Ph1b elranatamab Q2 2026; additional Ph1b combos Mid-2026. 03/25/26:- First patient dosed in Ph1b elranatamab combo (NCT07280013). Ph1b data expected Mid-2027. Other combo plans Mid-2026. 05/12/26:- Ph1 MM data at EHA June 12 2026. Ph1b elranatamab update 2H 2026. MOMENTUM enrollment completes Q1 2027. 06/11/26:- EHA 2026 poster June 12 shows deeper responses and MRD negativity in Ph1 RRMM. 08/11/26:- IMS data September 2026; Ph1b updates H2 2026/Mid-2027; MOMENTUM enrolls/data Q1/H2 2027; SoC Ph1b starts H1 2027. 09/25/26:- 75 \u00b5g safe in Ph1b elranatamab; expanding/escalating. All-cohort Ph1b data expected Mid-2027.",
+  "catalyst_date": "2027-08-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/25/3369035/0/en/c4-therapeutics-presents-new-biomarker-data-from-the-cemsidomide-phase-1-trial-with-dexamethasone-and-phase-1b-trial-with-elranatamab-elrexfio-in-relapsed-refractory-multiple-myelo.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -23459,7 +23419,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "35.35",
+   "last_price": "35.57",
    "market_cap": 4286995456,
    "website": "https://www.vikingtherapeutics.com"
   },
@@ -24249,7 +24209,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.81",
+   "last_price": "45.13",
    "market_cap": 7280535040,
    "website": "https://www.ionis.com"
   },
@@ -24509,7 +24469,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "88.74",
+   "last_price": "88.84",
    "market_cap": 5802341888,
    "website": "https://www.mirumpharma.com"
   },
@@ -24764,7 +24724,7 @@
   "company": {
    "ticker": "MOLN",
    "name": "Molecular Partners",
-   "last_price": "4.09",
+   "last_price": "4.11",
    "market_cap": 164712528,
    "website": "https://www.molecularpartners.com"
   },
@@ -25839,7 +25799,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "10.52",
+   "last_price": "10.42",
    "market_cap": 597994752,
    "website": "https://www.maplightrx.com"
   },
@@ -26789,7 +26749,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1170.61",
+   "last_price": "1176.11",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -27488,7 +27448,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "10.52",
+   "last_price": "10.42",
    "market_cap": 597994752,
    "website": "https://www.maplightrx.com"
   },
@@ -27853,10 +27813,10 @@
    "stage_label": "Phase 2/3",
    "event_label": "Update"
   },
-  "note": "ALTITUDE\u00ae trial. Collab w/ AbbVie. 10/21/24- Ph2 data result at AAO 2024. 3/13/25- Ongoing enrollment in Ph2 portion. Plans further the development to Ph3. 10/9/25- Present interim data at AAO'25 on Oct 17th.11/06/25:- Company plans to initiate a two-part sham-controlled Phase IIb/III global pivotal trial in diabetic retinopathy with site selection in progress, supported by durable two-year Phase II ALTITUDE data; timing for trial initiation remains unspecified. 01/11/26:- Planned Phase IIb/III DR suprachoroidal trial initiation; first patient dosing expected H1 2026, triggering $100M AbbVie milestone. 03/05/26:- NAAVIGATE Phase IIb/III DR trial sites activating; first patient dosing and $100M AbbVie milestone expected Q2 2026. 05/14/26:- NAAVIGATE Phase IIb/III DR sites now active and initiating enrollment; first patient dosing still expected Q2 2026. 06/29/26:- First NAAVIGATE Ph2b/3 DR patient dosed; $100M milestone. Present ALTITUDE 2.5-year data at ASRS July 2026. 07/18/26:- ALTITUDE NPDR 2.5-year Dose Level 3 data showed durable DRSS gains; no intraocular inflammation. Same dose used in NAAVIGATE Ph2b/3. 08/06/26:- NAAVIGATE Ph2b/3 ongoing; AbbVie milestone received July 2026.",
+  "note": "ALTITUDE\u00ae trial. Collab w/ AbbVie. 10/21/24- Ph2 data result at AAO 2024. 3/13/25- Ongoing enrollment in Ph2 portion. Plans further the development to Ph3. 10/9/25- Present interim data at AAO'25 on Oct 17th.11/06/25:- Company plans to initiate a two-part sham-controlled Phase IIb/III global pivotal trial in diabetic retinopathy with site selection in progress, supported by durable two-year Phase II ALTITUDE data; timing for trial initiation remains unspecified. 01/11/26:- Planned Phase IIb/III DR suprachoroidal trial initiation; first patient dosing expected H1 2026, triggering $100M AbbVie milestone. 03/05/26:- NAAVIGATE Phase IIb/III DR trial sites activating; first patient dosing and $100M AbbVie milestone expected Q2 2026. 05/14/26:- NAAVIGATE Phase IIb/III DR sites now active and initiating enrollment; first patient dosing still expected Q2 2026. 06/29/26:- First NAAVIGATE Ph2b/3 DR patient dosed; $100M milestone. Present ALTITUDE 2.5-year data at ASRS July 2026. 07/18/26:- ALTITUDE NPDR 2.5-year Dose Level 3 data showed durable DRSS gains; no intraocular inflammation. Same dose used in NAAVIGATE Ph2b/3. 08/06/26:- NAAVIGATE Ph2b/3 ongoing; AbbVie milestone received July 2026. 09/24/26:- ALTITUDE Ph2 Dose Level 3 NPDR showed durable 3-year DRSS gains; no inflammation.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/regenxbio-reports-second-quarter-2026-financial-results-and-operational-highlights-302844662.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/regenxbio-presents-positive-three-year-durability-data-for-surabgene-lomparvovec-in-diabetic-retinopathy-at-retina-society-annual-scientific-meeting-302889773.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28058,7 +28018,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.81",
+   "last_price": "45.13",
    "market_cap": 7280535040,
    "website": "https://www.ionis.com"
   },
@@ -29453,7 +29413,7 @@
   "company": {
    "ticker": "MLTX",
    "name": "MoonLake Immunotherapies",
-   "last_price": "12.12",
+   "last_price": "11.94",
    "market_cap": 1031493056,
    "website": "https://www.moonlaketx.com"
   },
@@ -29488,7 +29448,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "25.44",
+   "last_price": "25.69",
    "market_cap": 2350739200,
    "website": "https://mineralystx.com"
   },
@@ -29823,7 +29783,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "10.52",
+   "last_price": "10.42",
    "market_cap": 597994752,
    "website": "https://www.maplightrx.com"
   },
@@ -29858,7 +29818,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1170.61",
+   "last_price": "1176.11",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -29968,7 +29928,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.94",
+   "last_price": "62.29",
    "market_cap": 125626949632,
    "website": "https://www.bms.com"
   },
@@ -30002,6 +29962,46 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260531541836/en/Izalontamab-Brengitecan-Iza-Bren-Demonstrates-Statistically-Significant-and-Clinically-Meaningful-Improvements-in-Overall-Survival-and-Progression-Free-Survival-in-Patients-with-Triple-Negative-Breast-Cancer-and-Esophageal-Squamous-Cell-Carcinoma",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 19892,
+  "company": {
+   "ticker": "MRK",
+   "name": "Merck & Co",
+   "last_price": "148.34",
+   "market_cap": 365092044800,
+   "website": "https://www.merck.com"
+  },
+  "ticker": "MRK",
+  "drug_name": "WELIREG/Belzutifan (MK-6482) + LENVIMA/Lenvatinib (E7080) (HIF-2\u03b1 Combo)",
+  "indications": [
+   {
+    "id": 894,
+    "title": "Kidney cancer",
+    "nickname": ""
+   },
+   {
+    "id": 874,
+    "title": "Renal cell carcinoma",
+    "nickname": "RCC"
+   }
+  ],
+  "indications_text": "Advanced Clear Cell Renal Cell Carcinoma After PD-1/PD-L1 Therapy",
+  "stage_event": {
+   "id": 99,
+   "label": "Approved Update",
+   "stage_label": "Approved",
+   "event_label": "Update"
+  },
+  "note": "02/28/26:- LITESPARK-011 Ph3 interim PFS positive; FDA accepted sNDAs; PDUFA October 4, 2026. 09/24/26:- FDA approved WELIREG+LENVIMA for post-PD-1/PD-L1 advanced ccRCC; LITESPARK-011 data planned for ESMO 2026.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b61990998/u-s-fda-approves-welireg-belzutifan-plus-lenvima-lenvatinib-certain-previously-treated-adult-patient",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

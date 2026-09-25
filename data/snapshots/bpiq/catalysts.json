@@ -244,7 +244,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.44",
+   "last_price": "124.26",
    "market_cap": 25223708672,
    "website": "https://www.incyte.com"
   },
@@ -343,7 +343,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "32.39",
+   "last_price": "32.56",
    "market_cap": 2087858944,
    "website": "https://kodiak.com"
   },
@@ -493,7 +493,7 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "21.63",
+   "last_price": "21.77",
    "market_cap": 706091136,
    "website": "https://www.nuvectis.com"
   },
@@ -653,7 +653,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "32.39",
+   "last_price": "32.56",
    "market_cap": 2087858944,
    "website": "https://kodiak.com"
   },
@@ -933,7 +933,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "1.10",
+   "last_price": "1.09",
    "market_cap": 69271744,
    "website": "https://www.connectbiopharm.com"
   },
@@ -1472,6 +1472,46 @@
   "catalyst_date": "2026-10-09",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/7/23/3331865/0/en/ad-hoc-announcement-pursuant-to-art-53-lr-roche-s-strong-momentum-continues-in-the-first-half-of-2026-delivering-6-sales-growth-at-constant-exchange-rates-2-in-chf-due-to-the-signi.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18504,
+  "company": {
+   "ticker": "MRK",
+   "name": "Merck & Co",
+   "last_price": "147.98",
+   "market_cap": 365092044800,
+   "website": "https://www.merck.com"
+  },
+  "ticker": "MRK",
+  "drug_name": "Restoret (MK-3000, formerly EYE103)",
+  "indications": [
+   {
+    "id": 1133,
+    "title": "Diabetic macular edema",
+    "nickname": "DME"
+   },
+   {
+    "id": 993,
+    "title": "Eye disease ",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Eye disease , Diabetic macular edema",
+  "stage_event": {
+   "id": 152,
+   "label": "Phase 2/3 Data readout",
+   "stage_label": "Phase 2/3",
+   "event_label": "Data readout"
+  },
+  "note": "BRUNELLO trial : 9/4/24 Initiate Phase 2b/3. 09/24/26:- BRUNELLO topline showed non-inferior BCVA vs ranibizumab. Year 1 results presented at AAO Oct 10, 2026.",
+  "catalyst_date": "2026-10-10",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260924103567/en/Mercks-Remigromig-a-Tri-specific-Agonist-of-the-Wingless-related-Integration-Site-Wnt-Pathway-Met-Primary-Endpoint-in-the-Pivotal-Phase-2b3-BRUNELLO-Study-of-Adults-with-Diabetic-Macular-Edema",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2439,6 +2479,46 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 17680,
+  "company": {
+   "ticker": "ELTX",
+   "name": "Elicio Therapeutics",
+   "last_price": "1.88",
+   "market_cap": 49409940,
+   "website": "https://elicio.com"
+  },
+  "ticker": "ELTX",
+  "drug_name": "ELI-002 7P",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Pancreatic cancer, Cancer",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "AMPLIFY-7P trial. 1/11/24- First patient dosed. 12/3/24- Completed enrollment in Ph2 portion. 8/7/25- Secured alignment w/ FDA on planned Ph3 study. 9/29/25- Initiate Ph1 IIT in H1 2026. 11/7/25\u2013 99% mKRAS-specific T cell responses data presented at SITC\u201925. 11/13/25:- Ph2 AMPLIFY-7P DFS primary analysis expected H1 2026; Ph1 IIT neoadjuvant PDAC trial initiation also anticipated H1 2026. 12/11/25:- Ph2 AMPLIFY-7P subset showed 87% antigen spreading with broad non-mKRAS neoantigen T cell responses. 03/12/26:- DFS primary analysis still expected H1 2026. Oral AMPLIFY-7P updates at WVC and AACR 2026. 05/11/26:- AMPLIFY-7P DFS primary analysis still expected mid-2026. Fewer events observed; remains blinded. EoPh2 FDA meeting planned. 06/15/26:- AMPLIFY-7P Ph2 missed DFS; post-hoc R0 benefit. Ph3 planned, timing TBA. 06/17/26:- 3 post-ELI-002 7P pts had confirmed CRs on nivolumab-based therapy. Plans Ph1 metastatic combo study. 08/10/26:- Ph1 neoadjuvant IIT NCT07671339 opened in resectable/borderline resectable PDAC; enroll 20. 08/13/26:- AMPLIFY-7P Phase 2 subgroup analyses continue to refine the Phase 3 strategy. Neoadjuvant Phase 1 trial has been activated. 09/24/26:- AMPLIFY-7P Phase 2 complete results present at ESMO Oct 23, 2026.",
+  "catalyst_date": "2026-10-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/24/3368259/0/en/elicio-therapeutics-announces-late-breaking-phase-2-amplify-7p-data-selected-for-proffered-paper-oral-presentation-at-esmo-congress-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18212,
   "company": {
    "ticker": "KTTA",
@@ -2517,6 +2597,56 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 18260,
+  "company": {
+   "ticker": "HCM",
+   "name": "HUTCHMED (China) Limited",
+   "last_price": "14.03",
+   "market_cap": 2416016896,
+   "website": "https://www.hutch-med.com"
+  },
+  "ticker": "HCM",
+  "drug_name": "SULANDA (Surufatinib) + Camrelizumab",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   },
+   {
+    "id": 2226,
+    "title": "Pancreatic ductal adenocarcinoma ",
+    "nickname": "PDAC"
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Solid tumor/s, Pancreatic cancer, Cancer, Pancreatic ductal adenocarcinoma ",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "07/30/26:- PR No update. 09/23/26:- Final Ph2 analysis to be presented at ESMO 2026 in October.",
+  "catalyst_date": "2026-10-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/24/3367914/0/en/hutchmed-highlights-clinical-data-to-be-presented-at-the-esmo-congress-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18267,
@@ -2933,7 +3063,7 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "21.63",
+   "last_price": "21.77",
    "market_cap": 706091136,
    "website": "https://www.nuvectis.com"
   },
@@ -3058,7 +3188,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "198.33",
+   "last_price": "200.52",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -3288,7 +3418,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "198.33",
+   "last_price": "200.52",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -3323,7 +3453,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "198.33",
+   "last_price": "200.52",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -3723,7 +3853,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "32.90",
+   "last_price": "33.23",
    "market_cap": 1964192000,
    "website": "https://www.agios.com"
   },
@@ -3763,7 +3893,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.81",
    "market_cap": 2086094464,
    "website": "https://www.recursion.com"
   },
@@ -3974,6 +4104,46 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 17441,
+  "company": {
+   "ticker": "MLYS",
+   "name": "Mineralys Therapeutics",
+   "last_price": "26.59",
+   "market_cap": 2350739200,
+   "website": "https://mineralystx.com"
+  },
+  "ticker": "MLYS",
+  "drug_name": "Lorundrostat",
+  "indications": [
+   {
+    "id": 1057,
+    "title": "Chronic kidney disease",
+    "nickname": ""
+   },
+   {
+    "id": 2188,
+    "title": "Hypertension",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Hypertension and comorbid chronic kidney disease (CKD)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "11/10/25:- Positive topline Phase 2 Explore-CKD data reiterated; supports lorundrostat opportunity in chronic kidney disease comorbid hypertension. 03/12/26:- Lorundrostat development in CKD comorbid hypertension reiterated; no new CKD-specific clinical milestones disclosed. 05/06/26:- CKD comorbid hypertension focus reiterated; no new lorundrostat CKD clinical data or trial milestones disclosed. 05/18/26:- Launch-HTN (NCT06153693) Phase 3 CKD results presented at ESH 2026 on May 30, 2026. 05/30/26:- Post hoc Launch-HTN CKD analysis showed significant SBP and UACR reductions; safety favorable. 08/11/26:- CKD comorbidity focus reiterated; no CKD-specific clinical milestone disclosed. 09/23/26:- Transform-HTN extension includes Explore-CKD completers; long-term data presentation at AHA 2026 on November 8, 2026.",
+  "catalyst_date": "2026-11-08",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/23/3367839/0/en/mineralys-therapeutics-transform-htn-open-label-extension-trial-data-selected-for-late-breaking-presentation-at-american-heart-association-scientific-sessions-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19423,
   "company": {
    "ticker": "CGEM",
@@ -4012,6 +4182,46 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 20873,
+  "company": {
+   "ticker": "LSTA",
+   "name": "Lisata Therapeutics",
+   "last_price": "1.50",
+   "market_cap": 16206099,
+   "website": "https://www.lisata.com"
+  },
+  "ticker": "LSTA",
+  "drug_name": "MAR001 (ANGPTL4 Antibody)",
+  "indications": [
+   {
+    "id": 884,
+    "title": "Dyslipidemia",
+    "nickname": ""
+   },
+   {
+    "id": 1082,
+    "title": "Triglycerides",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Elevated Triglycerides And Remnant Cholesterol",
+  "stage_event": {
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
+   "event_label": "Data readout"
+  },
+  "note": "09/24/26:- Phase 2b TYDAL-TIMI 78 data will be presented at AHA on November 9, 2026.",
+  "catalyst_date": "2026-11-09",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/24/3368262/18623/en/marea-therapeutics-a-subsidiary-of-lisata-therapeutics-announces-upcoming-late-breaking-presentation-of-mar001-clinical-data-at-the-american-heart-association-scientific-sessions-2.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 19231,
@@ -4474,11 +4684,45 @@
   "is_high_mgmt_interest": true
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-15",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 15254,
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "66.28",
+   "last_price": "65.30",
    "market_cap": 12957275136,
    "website": "https://bridgebio.com"
   },
@@ -4652,40 +4896,6 @@
   "catalyst_date": "2026-11-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/17/3363987/0/en/sol-gel-technologies-announces-last-patient-last-visit-in-pivotal-phase-3-clinical-trial-of-sgt-610-in-gorlin-syndrome.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-15",
-  "has_catalyst": true,
-  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5552,7 +5762,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.65",
+   "last_price": "23.31",
    "market_cap": 2454436608,
    "website": "https://www.nurixtx.com"
   },
@@ -5812,7 +6022,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.65",
+   "last_price": "23.31",
    "market_cap": 2454436608,
    "website": "https://www.nurixtx.com"
   },
@@ -6107,7 +6317,7 @@
   "company": {
    "ticker": "TARA",
    "name": "Protara Therapeutics",
-   "last_price": "3.35",
+   "last_price": "3.28",
    "market_cap": 197969872,
    "website": "https://www.protaratx.com"
   },
@@ -6192,7 +6402,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "198.33",
+   "last_price": "200.52",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -6517,7 +6727,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "11.80",
+   "last_price": "11.50",
    "market_cap": 992627136,
    "website": "https://www.corvuspharma.com"
   },
@@ -7242,7 +7452,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "7.24",
+   "last_price": "7.31",
    "market_cap": 477935488,
    "website": "https://www.regenxbio.com"
   },
@@ -7662,7 +7872,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "16.20",
+   "last_price": "16.05",
    "market_cap": 1886422656,
    "website": "https://www.novocure.com"
   },
@@ -8652,7 +8862,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.44",
+   "last_price": "124.26",
    "market_cap": 25223708672,
    "website": "https://www.incyte.com"
   },
@@ -9157,7 +9367,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "59.38",
+   "last_price": "58.86",
    "market_cap": 2027410944,
    "website": "https://www.nektar.com"
   },
@@ -9247,7 +9457,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.85",
+   "last_price": "2.76",
    "market_cap": 204130656,
    "website": "https://www.nkartatx.com"
   },
@@ -9412,7 +9622,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "198.33",
+   "last_price": "200.52",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -9542,7 +9752,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "0.70",
+   "last_price": "0.65",
    "market_cap": 132109616,
    "website": "https://www.neumoratx.com"
   },
@@ -9987,7 +10197,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "11.80",
+   "last_price": "11.50",
    "market_cap": 992627136,
    "website": "https://www.corvuspharma.com"
   },
@@ -10302,7 +10512,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "32.39",
+   "last_price": "32.56",
    "market_cap": 2087858944,
    "website": "https://kodiak.com"
   },
@@ -10412,7 +10622,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "32.90",
+   "last_price": "33.23",
    "market_cap": 1964192000,
    "website": "https://www.agios.com"
   },
@@ -10837,7 +11047,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.81",
    "market_cap": 2086094464,
    "website": "https://www.recursion.com"
   },
@@ -10872,7 +11082,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "30.85",
+   "last_price": "31.11",
    "market_cap": 2472109824,
    "website": "https://www.celldex.com"
   },
@@ -10912,7 +11122,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.85",
+   "last_price": "2.76",
    "market_cap": 204130656,
    "website": "https://www.nkartatx.com"
   },
@@ -11417,7 +11627,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "198.33",
+   "last_price": "200.52",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -11572,7 +11782,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.65",
+   "last_price": "23.31",
    "market_cap": 2454436608,
    "website": "https://www.nurixtx.com"
   },
@@ -12212,7 +12422,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "20.76",
+   "last_price": "20.26",
    "market_cap": 2340618240,
    "website": "https://www.viridiantherapeutics.com"
   },
@@ -12791,7 +13001,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.65",
+   "last_price": "23.31",
    "market_cap": 2454436608,
    "website": "https://www.nurixtx.com"
   },
@@ -13900,7 +14110,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.44",
+   "last_price": "124.26",
    "market_cap": 25223708672,
    "website": "https://www.incyte.com"
   },
@@ -14050,7 +14260,7 @@
   "company": {
    "ticker": "BINV",
    "name": "BioInvent International AB",
-   "last_price": "43.67",
+   "last_price": "43.93",
    "market_cap": null,
    "website": ""
   },
@@ -14510,7 +14720,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "0.70",
+   "last_price": "0.65",
    "market_cap": 132109616,
    "website": "https://www.neumoratx.com"
   },
@@ -14545,7 +14755,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "198.33",
+   "last_price": "200.52",
    "market_cap": 77779140608,
    "website": "https://www.modernatx.com"
   },
@@ -14695,7 +14905,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.65",
+   "last_price": "23.31",
    "market_cap": 2454436608,
    "website": "https://www.nurixtx.com"
   },
@@ -15694,7 +15904,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.65",
+   "last_price": "23.31",
    "market_cap": 2454436608,
    "website": "https://www.nurixtx.com"
   },
@@ -15924,7 +16134,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "124.44",
+   "last_price": "124.26",
    "market_cap": 25223708672,
    "website": "https://www.incyte.com"
   },
@@ -16329,7 +16539,7 @@
   "company": {
    "ticker": "PFE",
    "name": "Pfizer",
-   "last_price": "28.34",
+   "last_price": "28.36",
    "market_cap": 161927725056,
    "website": "https://www.pfizer.com"
   },
@@ -17314,7 +17524,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.85",
+   "last_price": "2.76",
    "market_cap": 204130656,
    "website": "https://www.nkartatx.com"
   },
@@ -17389,7 +17599,7 @@
   "company": {
    "ticker": "NKTX",
    "name": "Nkarta Therapeutics",
-   "last_price": "2.85",
+   "last_price": "2.76",
    "market_cap": 204130656,
    "website": "https://www.nkartatx.com"
   },
@@ -17939,7 +18149,7 @@
   "company": {
    "ticker": "NTLA",
    "name": "Intellia Therapeutics",
-   "last_price": "12.02",
+   "last_price": "11.94",
    "market_cap": 1703940480,
    "website": "https://www.intelliatx.com"
   },
@@ -19514,7 +19724,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "66.28",
+   "last_price": "65.30",
    "market_cap": 12957275136,
    "website": "https://bridgebio.com"
   },
@@ -19729,7 +19939,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.81",
    "market_cap": 2086094464,
    "website": "https://www.recursion.com"
   },
@@ -20899,7 +21109,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.81",
    "market_cap": 2086094464,
    "website": "https://www.recursion.com"
   },
@@ -21099,7 +21309,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.81",
    "market_cap": 2086094464,
    "website": "https://www.recursion.com"
   },
@@ -22569,7 +22779,7 @@
   "company": {
    "ticker": "CRDL",
    "name": "Cardiol Therapeutics",
-   "last_price": "1.73",
+   "last_price": "1.71",
    "market_cap": 210217392,
    "website": "https://www.cardiolrx.com"
   },
@@ -23249,7 +23459,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "35.75",
+   "last_price": "35.35",
    "market_cap": 4286995456,
    "website": "https://www.vikingtherapeutics.com"
   },
@@ -23764,7 +23974,7 @@
   "company": {
    "ticker": "NGNE",
    "name": "Neurogene Inc",
-   "last_price": "31.25",
+   "last_price": "29.10",
    "market_cap": 625355712,
    "website": "https://www.neurogene.com"
   },
@@ -24074,7 +24284,7 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "5.73",
+   "last_price": "5.79",
    "market_cap": 2011936128,
    "website": "https://www.nuvationbio.com"
   },
@@ -24149,7 +24359,7 @@
   "company": {
    "ticker": "MDGL",
    "name": "Madrigal Pharmaceuticals",
-   "last_price": "511.36",
+   "last_price": "520.73",
    "market_cap": 11857268736,
    "website": "https://www.madrigalpharma.com"
   },
@@ -24224,7 +24434,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.89",
+   "last_price": "3.81",
    "market_cap": 2086094464,
    "website": "https://www.recursion.com"
   },
@@ -24814,7 +25024,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "59.38",
+   "last_price": "58.86",
    "market_cap": 2027410944,
    "website": "https://www.nektar.com"
   },
@@ -26754,7 +26964,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "59.38",
+   "last_price": "58.86",
    "market_cap": 2027410944,
    "website": "https://www.nektar.com"
   },
@@ -27483,7 +27693,7 @@
   "company": {
    "ticker": "CNTB",
    "name": "Connect Biopharma",
-   "last_price": "1.10",
+   "last_price": "1.09",
    "market_cap": 69271744,
    "website": "https://www.connectbiopharm.com"
   },
@@ -27613,7 +27823,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "7.24",
+   "last_price": "7.31",
    "market_cap": 477935488,
    "website": "https://www.regenxbio.com"
   },
@@ -28508,7 +28718,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "16.20",
+   "last_price": "16.05",
    "market_cap": 1886422656,
    "website": "https://www.novocure.com"
   },
@@ -28658,7 +28868,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "30.85",
+   "last_price": "31.11",
    "market_cap": 2472109824,
    "website": "https://www.celldex.com"
   },
@@ -28943,7 +29153,7 @@
   "company": {
    "ticker": "CLDX",
    "name": "Celldex Therapeutics, Inc.",
-   "last_price": "30.85",
+   "last_price": "31.11",
    "market_cap": 2472109824,
    "website": "https://www.celldex.com"
   },
@@ -29088,7 +29298,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "16.20",
+   "last_price": "16.05",
    "market_cap": 1886422656,
    "website": "https://www.novocure.com"
   },

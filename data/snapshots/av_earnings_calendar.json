@@ -26,7 +26,7 @@
  {
   "ticker": "GS",
   "reportDate": "2026-10-13",
-  "estimate": "15.62",
+  "estimate": "15.18",
   "time": "pre-market"
  },
  {
@@ -44,7 +44,7 @@
  {
   "ticker": "UNH",
   "reportDate": "2026-10-13",
-  "estimate": "4.07",
+  "estimate": "4.12",
   "time": "pre-market"
  },
  {
@@ -69,7 +69,7 @@
   "ticker": "SCHW",
   "reportDate": "2026-10-15",
   "estimate": "1.67",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "SLB",
@@ -87,7 +87,7 @@
   "ticker": "GE",
   "reportDate": "2026-10-20",
   "estimate": "2.01",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "KO",
@@ -116,7 +116,7 @@
  {
   "ticker": "T",
   "reportDate": "2026-10-21",
-  "estimate": "0.62",
+  "estimate": "0.61",
   "time": "pre-market"
  },
  {
@@ -129,7 +129,7 @@
   "ticker": "HON",
   "reportDate": "2026-10-22",
   "estimate": "2.16",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "INTC",
@@ -138,10 +138,16 @@
   "time": ""
  },
  {
+  "ticker": "PG",
+  "reportDate": "2026-10-22",
+  "estimate": "1.89",
+  "time": "pre-market"
+ },
+ {
   "ticker": "UNP",
   "reportDate": "2026-10-22",
   "estimate": "3.43",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "AXP",
@@ -150,15 +156,9 @@
   "time": "pre-market"
  },
  {
-  "ticker": "PG",
-  "reportDate": "2026-10-23",
-  "estimate": "1.89",
-  "time": ""
- },
- {
   "ticker": "BMRN",
   "reportDate": "2026-10-26",
-  "estimate": "1.14",
+  "estimate": "1.13",
   "time": ""
  },
  {
@@ -218,7 +218,7 @@
  {
   "ticker": "AMZN",
   "reportDate": "2026-10-29",
-  "estimate": "2.0",
+  "estimate": "2.01",
   "time": ""
  },
  {
@@ -231,12 +231,12 @@
   "ticker": "BMY",
   "reportDate": "2026-10-29",
   "estimate": "1.68",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "LLY",
   "reportDate": "2026-10-29",
-  "estimate": "9.56",
+  "estimate": "9.8",
   "time": "pre-market"
  },
  {
@@ -248,7 +248,7 @@
  {
   "ticker": "MRK",
   "reportDate": "2026-10-29",
-  "estimate": "2.27",
+  "estimate": "2.25",
   "time": ""
  },
  {
@@ -266,7 +266,7 @@
  {
   "ticker": "CVX",
   "reportDate": "2026-10-30",
-  "estimate": "4.89",
+  "estimate": "4.85",
   "time": ""
  },
  {
@@ -357,7 +357,7 @@
   "ticker": "PFE",
   "reportDate": "2026-11-03",
   "estimate": "0.79",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "RYTM",
@@ -382,6 +382,12 @@
   "reportDate": "2026-11-03",
   "estimate": "-1.43",
   "time": ""
+ },
+ {
+  "ticker": "TEVA",
+  "reportDate": "2026-11-03",
+  "estimate": "0.71",
+  "time": "pre-market"
  },
  {
   "ticker": "TNGX",
@@ -446,7 +452,7 @@
  {
   "ticker": "MCD",
   "reportDate": "2026-11-04",
-  "estimate": "3.39",
+  "estimate": "3.38",
   "time": ""
  },
  {
@@ -486,12 +492,6 @@
   "time": ""
  },
  {
-  "ticker": "TEVA",
-  "reportDate": "2026-11-04",
-  "estimate": "0.7",
-  "time": ""
- },
- {
   "ticker": "UTHR",
   "reportDate": "2026-11-04",
   "estimate": "6.38",
@@ -500,7 +500,7 @@
  {
   "ticker": "VZ",
   "reportDate": "2026-11-04",
-  "estimate": "1.29",
+  "estimate": "1.28",
   "time": ""
  },
  {
@@ -513,7 +513,7 @@
   "ticker": "COP",
   "reportDate": "2026-11-05",
   "estimate": "2.58",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "DFTX",
@@ -537,7 +537,7 @@
   "ticker": "GMAB",
   "reportDate": "2026-11-05",
   "estimate": "0.37",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "IOVA",
@@ -560,7 +560,7 @@
  {
   "ticker": "VTRS",
   "reportDate": "2026-11-05",
-  "estimate": "0.66",
+  "estimate": "0.65",
   "time": ""
  },
  {
@@ -578,7 +578,7 @@
  {
   "ticker": "CRSP",
   "reportDate": "2026-11-09",
-  "estimate": "-1.06",
+  "estimate": "-1.13",
   "time": ""
  },
  {
@@ -602,7 +602,7 @@
  {
   "ticker": "CELC",
   "reportDate": "2026-11-11",
-  "estimate": "-1.5",
+  "estimate": "-1.45",
   "time": ""
  },
  {
@@ -645,7 +645,7 @@
   "ticker": "HD",
   "reportDate": "2026-11-17",
   "estimate": "3.87",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "NVDA",
@@ -663,6 +663,6 @@
   "ticker": "WMT",
   "reportDate": "2026-11-19",
   "estimate": "0.63",
-  "time": ""
+  "time": "pre-market"
  }
 ]

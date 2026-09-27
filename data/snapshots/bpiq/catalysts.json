@@ -24980,6 +24980,41 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19403,
+  "company": {
+   "ticker": "PRME",
+   "name": "Prime Medicine",
+   "last_price": "2.90",
+   "market_cap": 525992928,
+   "website": "https://primemedicine.com"
+  },
+  "ticker": "PRME",
+  "drug_name": "PM647 (Prime Editing Therapy)",
+  "indications": [
+   {
+    "id": 2183,
+    "title": "Alpha-1 Antitrypsin Deficiency",
+    "nickname": "AATD"
+   }
+  ],
+  "indications_text": "Alpha-1 Antitrypsin Deficiency",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "11/07/25:- PM647 nominated as AATD development candidate with strong preclinical efficacy. Company plans IND/CTA filing for AATD program in Mid-2026 and expects initial clinical data from the first trial in 2027. 03/03/26:- Company reiterates plan to file AATD IND/CTA in Mid-2026 and expects initial clinical data in 2027. 05/07/26:- Company reiterates PM647 AATD IND/CTA plan for Mid-2026 with initial clinical data expected 2027. 08/06/26:- Arbitration resolved; PM647 IND/CTA submission expected Q3 2026, with initial data in 2027. 09/24/26:- FDA cleared PM647 AATD IND. Initial Ph1/2 clinical data expected in 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/24/3368730/0/en/prime-medicine-announces-u-s-fda-clearance-of-investigational-new-drug-application-for-pm647-in-alpha-1-antitrypsin-deficiency.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 19445,
   "company": {
    "ticker": "NKTR",

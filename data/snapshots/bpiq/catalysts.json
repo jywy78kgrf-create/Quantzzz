@@ -1,40 +1,5 @@
 [
  {
-  "id": 20478,
-  "company": {
-   "ticker": "ABBV",
-   "name": "AbbVie",
-   "last_price": "264.34",
-   "market_cap": 467119767552,
-   "website": "https://www.abbvie.com"
-  },
-  "ticker": "ABBV",
-  "drug_name": "Etentamig (N/A) (BCMAxCD3 Bispecific)",
-  "indications": [
-   {
-    "id": 1360,
-    "title": "Multiple myeloma",
-    "nickname": "MM"
-   }
-  ],
-  "indications_text": "Relapsed Or Refractory Multiple Myeloma",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "05/21/26:- Etentamig Ph1b RRMM data presented at ASCO 2026 on May 29, 2026. 09/17/26:- IMS 2026 plenary presents Ph3 CERVINO RRMM results; met ORR and PFS endpoints.",
-  "catalyst_date": "2026-09-23",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/abbvie-to-present-phase-3-etentamig-results-and-data-from-broad-multiple-myeloma-portfolio-at-the-2026-international-myeloma-society-ims-meeting-302881330.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 16590,
   "company": {
    "ticker": "IMRX",
@@ -78,111 +43,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
- },
- {
-  "id": 19193,
-  "company": {
-   "ticker": "SRPT",
-   "name": "Sarepta Therapeutics",
-   "last_price": "18.67",
-   "market_cap": 1972056576,
-   "website": "https://www.sarepta.com"
-  },
-  "ticker": "SRPT",
-  "drug_name": "SRP-1003",
-  "indications": [
-   {
-    "id": 1262,
-    "title": "Myotonic Dystrophy Type 1",
-    "nickname": "DM1"
-   }
-  ],
-  "indications_text": "Myotonic dystrophy type 1 (DM1)",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "8/6/25- Preliminary data in H2 2025. 11/24/25- Begin dosing in final cohort (cohort 5) in early 2026. 11/03/25:- SAD enrollment complete, MAD cohort 4 ongoing; Ph1/2 SAD and MAD readouts for DM1 expected in early 2026. 02/25/26:- Positive safety review; MAD cohort 3 fully enrolled; additional cohorts planned before Q1 2026 readout. 03/25/26:- Early Ph1/2 ascending-dose results to be presented in webcast on March 25, 2026. 05/06/26:- First Ph1/2 SRP-1003 data show dose-dependent exposure, early biomarker effects, and favorable tolerability in DM1. 08/05/26:- DM1 Phase 1/2 MAD cohort readouts remain expected in H2 2026. 09/24/26:- Interim Ph1/2 SRP-1003 safety and exposure findings to be presented at NMSG on Sept 25, 2026.",
-  "catalyst_date": "2026-09-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260924471682/en/Sarepta-Therapeutics-to-Present-New-Data-from-its-Neuromuscular-Portfolio-at-27th-Annual-Neuromuscular-Study-Group-Scientific-Meeting",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 19195,
-  "company": {
-   "ticker": "SRPT",
-   "name": "Sarepta Therapeutics",
-   "last_price": "18.67",
-   "market_cap": 1972056576,
-   "website": "https://www.sarepta.com"
-  },
-  "ticker": "SRPT",
-  "drug_name": "SRP-1001",
-  "indications": [
-   {
-    "id": 1402,
-    "title": "Facioscapulohumeral muscular dystrophy ",
-    "nickname": "FHSD"
-   }
-  ],
-  "indications_text": "Facioscapulohumeral muscular dystrophy (FSHD)",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "8/6/25- Preliminary data in H2 2025. 11/03/25:- SAD enrollment complete, MAD cohort 6 ongoing; Ph1/2 SAD and MAD readouts for FSHD expected in early 2026. 02/25/26:- FSHD siRNA program highlighted among five clinical-stage RNA interference therapies with multiple readouts ahead. 03/25/26:- Early Ph1/2 ascending-dose results to be presented in webcast on March 25, 2026. 05/06/26:- First Ph1/2 SRP-1001 data in FSHD1 show dose-dependent exposure, early biomarker effects, and favorable tolerability. 08/05/26:- FSHD Phase 1/2 MAD cohort readouts remain expected in H2 2026. 09/24/26:- Interim Ph1/2 SRP-1001 safety and exposure findings in FSHD1 to be presented Sept 25, 2026.",
-  "catalyst_date": "2026-09-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260924471682/en/Sarepta-Therapeutics-to-Present-New-Data-from-its-Neuromuscular-Portfolio-at-27th-Annual-Neuromuscular-Study-Group-Scientific-Meeting",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 20361,
-  "company": {
-   "ticker": "MIRM",
-   "name": "Mirum Pharmaceuticals",
-   "last_price": "89.70",
-   "market_cap": 5824418304,
-   "website": "https://www.mirumpharma.com"
-  },
-  "ticker": "MIRM",
-  "drug_name": "Zilurgisertib (ALK2 Inhibitor)",
-  "indications": [
-   {
-    "id": 1069,
-    "title": "Fibrodysplasia ossificans progressiva",
-    "nickname": "FOP"
-   }
-  ],
-  "indications_text": "Fibrodysplasia Ossificans Progressiva (FOP)",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "05/06/26:- In-licensed zilurgisertib; NDA accepted for FOP with Priority Review and PDUFA September 26, 2026. 08/05/26:- PROGRESS pivotal Ph2 results presented; PDUFA remains September 26, 2026.",
-  "catalyst_date": "2026-09-26",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260805277342/en/Mirum-Pharmaceuticals-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
  },
  {
   "id": 20529,
@@ -4659,40 +4519,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-17",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 14230,
   "company": {
    "ticker": "PYPD",
@@ -4841,6 +4667,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-17",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18554,
@@ -29997,46 +29857,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260531541836/en/Izalontamab-Brengitecan-Iza-Bren-Demonstrates-Statistically-Significant-and-Clinically-Meaningful-Improvements-in-Overall-Survival-and-Progression-Free-Survival-in-Patients-with-Triple-Negative-Breast-Cancer-and-Esophageal-Squamous-Cell-Carcinoma",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 19892,
-  "company": {
-   "ticker": "MRK",
-   "name": "Merck & Co",
-   "last_price": "148.78",
-   "market_cap": 367065792512,
-   "website": "https://www.merck.com"
-  },
-  "ticker": "MRK",
-  "drug_name": "WELIREG/Belzutifan (MK-6482) + LENVIMA/Lenvatinib (E7080) (HIF-2\u03b1 Combo)",
-  "indications": [
-   {
-    "id": 894,
-    "title": "Kidney cancer",
-    "nickname": ""
-   },
-   {
-    "id": 874,
-    "title": "Renal cell carcinoma",
-    "nickname": "RCC"
-   }
-  ],
-  "indications_text": "Advanced Clear Cell Renal Cell Carcinoma After PD-1/PD-L1 Therapy",
-  "stage_event": {
-   "id": 99,
-   "label": "Approved Update",
-   "stage_label": "Approved",
-   "event_label": "Update"
-  },
-  "note": "02/28/26:- LITESPARK-011 Ph3 interim PFS positive; FDA accepted sNDAs; PDUFA October 4, 2026. 09/24/26:- FDA approved WELIREG+LENVIMA for post-PD-1/PD-L1 advanced ccRCC; LITESPARK-011 data planned for ESMO 2026.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b61990998/u-s-fda-approves-welireg-belzutifan-plus-lenvima-lenvatinib-certain-previously-treated-adult-patient",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

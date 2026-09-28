@@ -45,41 +45,6 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 20529,
-  "company": {
-   "ticker": "INCY",
-   "name": "Incyte Corporation",
-   "last_price": "123.89",
-   "market_cap": 25112223744,
-   "website": "https://www.incyte.com"
-  },
-  "ticker": "INCY",
-  "drug_name": "Zilurgisertib (ALK2 Inhibitor)",
-  "indications": [
-   {
-    "id": 1069,
-    "title": "Fibrodysplasia ossificans progressiva",
-    "nickname": "FOP"
-   }
-  ],
-  "indications_text": "Fibrodysplasia Ossificans Progressiva",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "06/04/26:- PROGRESS Ph2 Cohort 1 results at ENDO 2026 (Jun 13\u201316). PDUFA Sep 26, 2026. 06/14/26:- NDA accepted with Priority Review; PDUFA Sep 26, 2026. PROGRESS Week 48 Cohort 1 data presented.",
-  "catalyst_date": "2026-09-26",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260614539468/en/Mirum-Pharmaceuticals-and-Incyte-Announce-Positive-Pivotal-Phase-2-Results-from-PROGRESS-Study-of-Zilurgisertib-in-Fibrodysplasia-Ossificans-Progressiva?feedref=JjAwJuNHiystnCoBq_hl-RLXHJgazfQJNuOVHefdHP-D8R-QU5o2AvY8bhI9uvWSD8DYIYv4TIC1g1u0AKcacnnViVjtb72bOP4-4nHK5ieT3WxPE8m_kWI77F87CseT",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18985,
   "company": {
    "ticker": "ALZN",
@@ -4669,40 +4634,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-18",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18554,
   "company": {
    "ticker": "DWTX",
@@ -4741,6 +4672,40 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-18",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 18587,

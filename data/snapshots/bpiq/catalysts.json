@@ -45,11 +45,51 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 19713,
+  "company": {
+   "ticker": "MIRM",
+   "name": "Mirum Pharmaceuticals",
+   "last_price": "85.85",
+   "market_cap": 5824418304,
+   "website": "https://www.mirumpharma.com"
+  },
+  "ticker": "MIRM",
+  "drug_name": "Brelovitug (HBsAg Antibody)",
+  "indications": [
+   {
+    "id": 712,
+    "title": "Hepatitis D",
+    "nickname": "HDV "
+   },
+   {
+    "id": 1097,
+    "title": "Hepatitis Delta Virus",
+    "nickname": "HDV"
+   }
+  ],
+  "indications_text": "Chronic Hepatitis Delta Virus (HDV)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "AZURE-1 trial. 01/12/26:- Interim data in Q2 2026; topline data in H2 2026, subject to acquisition. 02/25/26:- AZURE-1 Phase 3 HDV trial interim data still expected Q2 2026 and topline data H2 2026. 03/05/26:- AZURE-1 enrollment complete; AZURE-4 screening complete. AZURE-1 interim data Q2 2026. 04/27/26:- AZURE-1 Ph2b met endpoint. Full results at EASL May 27-30, 2026. Ph3 topline H2 2026. BLA possible 2027. 05/06/26:- AZURE-1 Ph2b primary endpoint and EASL May 27 poster reiterated; AZURE-1 and AZURE-4 Ph3 enrollment now complete; topline H2 2026. 05/30/26:- AZURE-1 Ph2b Week 24 efficacy/safety presented. Ph3 AZURE-1/4 topline expected H2 2026. 08/05/26:- AZURE-1 Ph3 topline results expected Q3 2026; AZURE-4 expected Q4 2026. 09/28/26:- AZURE-1 Phase 3 topline results and 48-week Phase 2b data on Sept 28, 2026 call.",
+  "catalyst_date": "2026-09-28",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b62012566/mirum-pharmaceuticals-host-investor-call-share-topline-results-phase-3-azure-1-study-brelovitug-chro",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
   "id": 18985,
   "company": {
    "ticker": "ALZN",
    "name": "Alzamend Neuro ",
-   "last_price": "1.83",
+   "last_price": "1.85",
    "market_cap": 8831073,
    "website": "https://www.alzamend.com"
   },
@@ -78,7 +118,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "6.81",
+   "last_price": "6.89",
    "market_cap": 421153856,
    "website": "https://kyvernatx.com"
   },
@@ -103,41 +143,6 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/24/3368111/0/en/kyverna-therapeutics-reports-positive-one-year-data-demonstrating-durable-clinical-responses-and-favorable-safety-profile-for-miv-cel-in-stiff-person-syndrome-and-generalized-myast.html",
   "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
-  "id": 14932,
-  "company": {
-   "ticker": "KOD",
-   "name": "Kodiak Sciences Inc.",
-   "last_price": "83.88",
-   "market_cap": 2033179776,
-   "website": "https://kodiak.com"
-  },
-  "ticker": "KOD",
-  "drug_name": "Tarcocimab (KSI-301)",
-  "indications": [
-   {
-    "id": 1322,
-    "title": "Wet age-related macular degeneration ",
-    "nickname": "wAMD"
-   }
-  ],
-  "indications_text": "Wet age-related macular degeneration ",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "DAZZLE & DAYLIGHT study: 2/23/22- Topline data, did not meet primary endpoint. 7/24/23- Ph3 study met primary endpoints. Decided to discontinue the program. Presentation at The Retina Society '23. 03/31/26:- Zenkuda wet AMD now BLA-ready; DAYLIGHT successful; DAYBREAK Phase 3 topline one-year data expected in Q3 2026. 05/07/26:- Zenkuda wet AMD remains BLA-ready; DAYBREAK Phase 3 topline one-year data still expected in third quarter 2026. 08/13/26:- DAYBREAK one-year Phase 3 topline data for Zenkuda will be reported in September 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/kodiak-sciences-announces-recent-business-highlights-and-second-quarter-2026-financial-results-302851311.html",
-  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
@@ -184,51 +189,11 @@
   "is_high_mgmt_interest": false
  },
  {
-  "id": 16136,
-  "company": {
-   "ticker": "MNOV",
-   "name": "MediciNova",
-   "last_price": "2.58",
-   "market_cap": 126990816,
-   "website": "https://medicinova.com"
-  },
-  "ticker": "MNOV",
-  "drug_name": "MN-001 (tipelukast)",
-  "indications": [
-   {
-    "id": 1191,
-    "title": "Liver disease",
-    "nickname": ""
-   },
-   {
-    "id": 797,
-    "title": "Non-alcoholic steatohepatitis",
-    "nickname": "NASH"
-   }
-  ],
-  "indications_text": "Hypertriglyceridemia and non-alcoholic fatty liver disease (NAFLD) due to Type 2 diabetes (T2DM)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "MN-001-NATG-202 trial. 7/26/22- Initiated Ph2 trial in NAFLD with T2DM and hypertriglyceridemia. 11/4/25- Patient enrollment completed. Top-line data by summer 2026 05/26/26:- LPLV completed; topline data expected in Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/26/3301569/7767/en/medicinova-announces-completion-of-last-patient-last-visit-in-the-mn-001-natg-202-clinical-trial-of-mn-001-tipelukast.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 16489,
   "company": {
    "ticker": "ALZN",
    "name": "Alzamend Neuro ",
-   "last_price": "1.83",
+   "last_price": "1.85",
    "market_cap": 8831073,
    "website": "https://www.alzamend.com"
   },
@@ -413,46 +378,6 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
   "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true
- },
- {
-  "id": 18201,
-  "company": {
-   "ticker": "KOD",
-   "name": "Kodiak Sciences Inc.",
-   "last_price": "83.88",
-   "market_cap": 2033179776,
-   "website": "https://kodiak.com"
-  },
-  "ticker": "KOD",
-  "drug_name": "KSI-501 (anti-VEGF & IL-6)",
-  "indications": [
-   {
-    "id": 993,
-    "title": "Eye disease ",
-    "nickname": ""
-   },
-   {
-    "id": 1322,
-    "title": "Wet age-related macular degeneration ",
-    "nickname": "wAMD"
-   }
-  ],
-  "indications_text": "Eye disease , Wet age-related macular degeneration ",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "DAYBREAK study: Ph3 study use an enhanced formulation of KSI-501. Initiate in mid-2024. 8/14/24- Enrollment ongoing. 3/27/25- Announce topline data in Q2 2026 11/13/25:- DAYBREAK enrollment completed. Last visit Aug 2026; KSI-501 wet AMD Ph3 topline data expected Q3 2026. 03/26/26:- DAYBREAK topline wet AMD data expected Q3 2026; potential BLA submission after readout. 03/31/26:- DAYBREAK wet AMD enrolled ~690 patients; topline remains expected in Q3 2026 (September 2026). 05/07/26:- DAYBREAK Phase 3 fully enrolled; September 2026 one-year topline wet AMD data still expected. 08/13/26:- DAYBREAK one-year Phase 3 topline data for KSI-501 will be reported in September 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/kodiak-sciences-announces-recent-business-highlights-and-second-quarter-2026-financial-results-302851311.html",
-  "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
@@ -783,7 +708,7 @@
   "company": {
    "ticker": "AARD",
    "name": "Aardvark Therapeutics",
-   "last_price": "5.03",
+   "last_price": "5.01",
    "market_cap": 110737320,
    "website": "https://aardvarktherapeutics.com"
   },
@@ -877,46 +802,6 @@
   "catalyst_date": "2026-09-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260529154810/en/U.S.-Food-and-Drug-Administration-Accepts-for-Priority-Review-Bristol-Myers-Squibbs-Supplemental-New-Drug-Application-for-Camzyos-mavacamten-to-Treat-Adolescents-with-Symptomatic-Obstructive-Hypertrophic-Cardiomyopathy-oHCM",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 19713,
-  "company": {
-   "ticker": "MIRM",
-   "name": "Mirum Pharmaceuticals",
-   "last_price": "86.87",
-   "market_cap": 5824418304,
-   "website": "https://www.mirumpharma.com"
-  },
-  "ticker": "MIRM",
-  "drug_name": "Brelovitug (HBsAg Antibody)",
-  "indications": [
-   {
-    "id": 712,
-    "title": "Hepatitis D",
-    "nickname": "HDV "
-   },
-   {
-    "id": 1097,
-    "title": "Hepatitis Delta Virus",
-    "nickname": "HDV"
-   }
-  ],
-  "indications_text": "Chronic Hepatitis Delta Virus (HDV)",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "AZURE-1 trial. 01/12/26:- Interim data in Q2 2026; topline data in H2 2026, subject to acquisition. 02/25/26:- AZURE-1 Phase 3 HDV trial interim data still expected Q2 2026 and topline data H2 2026. 03/05/26:- AZURE-1 enrollment complete; AZURE-4 screening complete. AZURE-1 interim data Q2 2026. 04/27/26:- AZURE-1 Ph2b met endpoint. Full results at EASL May 27-30, 2026. Ph3 topline H2 2026. BLA possible 2027. 05/06/26:- AZURE-1 Ph2b primary endpoint and EASL May 27 poster reiterated; AZURE-1 and AZURE-4 Ph3 enrollment now complete; topline H2 2026. 05/30/26:- AZURE-1 Ph2b Week 24 efficacy/safety presented. Ph3 AZURE-1/4 topline expected H2 2026. 08/05/26:- AZURE-1 Ph3 topline results expected Q3 2026; AZURE-4 expected Q4 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260805277342/en/Mirum-Pharmaceuticals-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1242,46 +1127,6 @@
   "catalyst_date": "2026-10-10",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260924103567/en/Mercks-Remigromig-a-Tri-specific-Agonist-of-the-Wingless-related-Integration-Site-Wnt-Pathway-Met-Primary-Endpoint-in-the-Pivotal-Phase-2b3-BRUNELLO-Study-of-Adults-with-Diabetic-Macular-Edema",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
-  "id": 18514,
-  "company": {
-   "ticker": "MRK",
-   "name": "Merck & Co",
-   "last_price": "148.78",
-   "market_cap": 367065792512,
-   "website": "https://www.merck.com"
-  },
-  "ticker": "MRK",
-  "drug_name": "Ifinatamab Deruxtecan (I-DXd)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1158,
-    "title": "Small cell lung cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Small cell lung cancer, Cancer",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "IDeate-Lung01 trial. 9/7/24 Promising Ph2 data at WCLC2024. 8/18/25- Granted Breakthrough Therapy Designation. 04/13/26:- BLA accepted; Priority Review with PDUFA October 10, 2026 for ES-SCLC post-platinum.",
-  "catalyst_date": "2026-10-10",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260413838856/en/Ifinatamab-Deruxtecan-Granted-Priority-Review-in-the-U.S.-for-Adult-Patients-with-Previously-Treated-Extensive-Stage-Small-Cell-Lung-Cancer-who-Experienced-Disease-Progression-on-or-After-Platinum-Based-Chemotherapy",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2918,7 +2763,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "193.60",
+   "last_price": "195.23",
    "market_cap": 79400042496,
    "website": "https://www.modernatx.com"
   },
@@ -3148,7 +2993,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "193.60",
+   "last_price": "195.23",
    "market_cap": 79400042496,
    "website": "https://www.modernatx.com"
   },
@@ -3183,7 +3028,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "193.60",
+   "last_price": "195.23",
    "market_cap": 79400042496,
    "website": "https://www.modernatx.com"
   },
@@ -4158,7 +4003,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "3.64",
+   "last_price": "3.76",
    "market_cap": 690068096,
    "website": "https://www.annexonbio.com"
   },
@@ -4674,40 +4519,6 @@
   "is_high_mgmt_interest": true
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-18",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false
- },
- {
   "id": 18587,
   "company": {
    "ticker": "VRTX",
@@ -4846,6 +4657,40 @@
   "catalyst_date": "2026-11-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/7/23/3331865/0/en/ad-hoc-announcement-pursuant-to-art-53-lr-roche-s-strong-momentum-continues-in-the-first-half-of-2026-delivering-6-sales-growth-at-constant-exchange-rates-2-in-chf-due-to-the-signi.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-18",
+  "has_catalyst": true,
+  "catalyst_source": "",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5107,7 +4952,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "116.10",
+   "last_price": "115.74",
    "market_cap": 12550223872,
    "website": "https://www.corcept.com"
   },
@@ -5672,7 +5517,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "3.64",
+   "last_price": "3.76",
    "market_cap": 690068096,
    "website": "https://www.annexonbio.com"
   },
@@ -5896,6 +5741,41 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false
+ },
+ {
+  "id": 14932,
+  "company": {
+   "ticker": "KOD",
+   "name": "Kodiak Sciences Inc.",
+   "last_price": "83.88",
+   "market_cap": 2033179776,
+   "website": "https://kodiak.com"
+  },
+  "ticker": "KOD",
+  "drug_name": "Tarcocimab (KSI-301)",
+  "indications": [
+   {
+    "id": 1322,
+    "title": "Wet age-related macular degeneration ",
+    "nickname": "wAMD"
+   }
+  ],
+  "indications_text": "Wet age-related macular degeneration ",
+  "stage_event": {
+   "id": 92,
+   "label": "BLA Submission",
+   "stage_label": "BLA",
+   "event_label": "Submission"
+  },
+  "note": "DAZZLE & DAYLIGHT study: 2/23/22- Topline data, did not meet primary endpoint. 7/24/23- Ph3 study met primary endpoints. Decided to discontinue the program. Presentation at The Retina Society '23. 03/31/26:- Zenkuda wet AMD now BLA-ready; DAYLIGHT successful; DAYBREAK Phase 3 topline one-year data expected in Q3 2026. 05/07/26:- Zenkuda wet AMD remains BLA-ready; DAYBREAK Phase 3 topline one-year data still expected in third quarter 2026. 08/13/26:- DAYBREAK one-year Phase 3 topline data for Zenkuda will be reported in September 2026. 09/28/26:- DAYBREAK Ph3 met 1-year endpoint Sept 2026; Zenkuda BLA planned Q4 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/n62016398/zenkuda-and-tabirafusp-ted-meet-primary-endpoints-pivotal-daybreak-trial-wamd-zenkuda-demonstrating-",
+  "is_big_mover": true,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
  },
  {
   "id": 15088,
@@ -6132,7 +6012,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "193.60",
+   "last_price": "195.23",
    "market_cap": 79400042496,
    "website": "https://www.modernatx.com"
   },
@@ -6332,7 +6212,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "116.10",
+   "last_price": "115.74",
    "market_cap": 12550223872,
    "website": "https://www.corcept.com"
   },
@@ -7677,7 +7557,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "11.67",
+   "last_price": "11.44",
    "market_cap": 2344589568,
    "website": "https://sellaslifesciences.com"
   },
@@ -9097,7 +8977,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "57.06",
+   "last_price": "58.74",
    "market_cap": 1948199168,
    "website": "https://www.nektar.com"
   },
@@ -9352,7 +9232,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "193.60",
+   "last_price": "195.23",
    "market_cap": 79400042496,
    "website": "https://www.modernatx.com"
   },
@@ -10037,7 +9917,7 @@
   "company": {
    "ticker": "VYGR",
    "name": "Voyager Therapeutics",
-   "last_price": "2.68",
+   "last_price": "2.64",
    "market_cap": 165136112,
    "website": "https://www.voyagertherapeutics.com"
   },
@@ -10317,7 +10197,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "6.81",
+   "last_price": "6.89",
    "market_cap": 421153856,
    "website": "https://kyvernatx.com"
   },
@@ -11357,7 +11237,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "193.60",
+   "last_price": "195.23",
    "market_cap": 79400042496,
    "website": "https://www.modernatx.com"
   },
@@ -12152,7 +12032,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "20.39",
+   "last_price": "20.32",
    "market_cap": 2319092736,
    "website": "https://www.viridiantherapeutics.com"
   },
@@ -12661,7 +12541,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "116.10",
+   "last_price": "115.74",
    "market_cap": 12550223872,
    "website": "https://www.corcept.com"
   },
@@ -13170,7 +13050,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "12.70",
+   "last_price": "13.06",
    "market_cap": 4115401472,
    "website": "https://www.abcellera.com"
   },
@@ -14205,7 +14085,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "6.81",
+   "last_price": "6.89",
    "market_cap": 421153856,
    "website": "https://kyvernatx.com"
   },
@@ -14415,7 +14295,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "6.81",
+   "last_price": "6.89",
    "market_cap": 421153856,
    "website": "https://kyvernatx.com"
   },
@@ -14485,7 +14365,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "193.60",
+   "last_price": "195.23",
    "market_cap": 79400042496,
    "website": "https://www.modernatx.com"
   },
@@ -15454,7 +15334,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "86.87",
+   "last_price": "85.85",
    "market_cap": 5824418304,
    "website": "https://www.mirumpharma.com"
   },
@@ -16379,7 +16259,7 @@
   "company": {
    "ticker": "MAZE",
    "name": "Maze Therapeutics",
-   "last_price": "26.05",
+   "last_price": "26.79",
    "market_cap": 1447055744,
    "website": "https://www.mazetx.com"
   },
@@ -16818,6 +16698,41 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true
+ },
+ {
+  "id": 20398,
+  "company": {
+   "ticker": "AZN",
+   "name": "Astrazeneca",
+   "last_price": "166.58",
+   "market_cap": 258348236800,
+   "website": "https://www.astrazeneca.com"
+  },
+  "ticker": "AZN",
+  "drug_name": "Imfinzi/Durvalumab + Imjudo/Tremelimumab-Actl + Enfortumab Vedotin (MEDI4736) (Immunotherapy ADC)",
+  "indications": [
+   {
+    "id": 2208,
+    "title": "Muscle-invasive bladder cancer",
+    "nickname": "MIBC"
+   }
+  ],
+  "indications_text": "Muscle-Invasive Bladder Cancer (Cisplatin-Ineligible Or Declined)",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "05/14/26:- VOLGA Ph3 interim analysis improved EFS; OS trending positive. Data will be presented at meeting. 05/28/26:- VOLGA planned interim analysis: overall survival not statistically significant; will be reassessed at later analysis. 09/25/26:- US Priority Review granted for perioperative Imfinzi plus enfortumab vedotin; PDUFA anticipated Q4 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260925810700/en/Perioperative-IMFINZI-durvalumab-plus-neoadjuvant-enfortumab-vedotin-granted-Priority-Review-in-the-US-for-patients-with-muscle-invasive-bladder-cancer",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
  },
  {
   "id": 20519,
@@ -18184,7 +18099,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "86.87",
+   "last_price": "85.85",
    "market_cap": 5824418304,
    "website": "https://www.mirumpharma.com"
   },
@@ -24294,7 +24209,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "86.87",
+   "last_price": "85.85",
    "market_cap": 5824418304,
    "website": "https://www.mirumpharma.com"
   },
@@ -24844,7 +24759,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "57.06",
+   "last_price": "58.74",
    "market_cap": 1948199168,
    "website": "https://www.nektar.com"
   },
@@ -24959,7 +24874,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "116.10",
+   "last_price": "115.74",
    "market_cap": 12550223872,
    "website": "https://www.corcept.com"
   },
@@ -24994,7 +24909,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "116.10",
+   "last_price": "115.74",
    "market_cap": 12550223872,
    "website": "https://www.corcept.com"
   },
@@ -25029,7 +24944,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "116.10",
+   "last_price": "115.74",
    "market_cap": 12550223872,
    "website": "https://www.corcept.com"
   },
@@ -25064,7 +24979,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "116.10",
+   "last_price": "115.74",
    "market_cap": 12550223872,
    "website": "https://www.corcept.com"
   },
@@ -25099,7 +25014,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "116.10",
+   "last_price": "115.74",
    "market_cap": 12550223872,
    "website": "https://www.corcept.com"
   },
@@ -26784,7 +26699,7 @@
   "company": {
    "ticker": "NKTR",
    "name": "Nektar Therapeutics",
-   "last_price": "57.06",
+   "last_price": "58.74",
    "market_cap": 1948199168,
    "website": "https://www.nektar.com"
   },
@@ -27598,7 +27513,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "11.67",
+   "last_price": "11.44",
    "market_cap": 2344589568,
    "website": "https://sellaslifesciences.com"
   },
@@ -27942,6 +27857,46 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340196/0/en/alx-oncology-reports-second-quarter-2026-financial-results-and-provides-corporate-update.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 16136,
+  "company": {
+   "ticker": "MNOV",
+   "name": "MediciNova",
+   "last_price": "2.58",
+   "market_cap": 126990816,
+   "website": "https://medicinova.com"
+  },
+  "ticker": "MNOV",
+  "drug_name": "MN-001 (tipelukast)",
+  "indications": [
+   {
+    "id": 1191,
+    "title": "Liver disease",
+    "nickname": ""
+   },
+   {
+    "id": 797,
+    "title": "Non-alcoholic steatohepatitis",
+    "nickname": "NASH"
+   }
+  ],
+  "indications_text": "Hypertriglyceridemia and non-alcoholic fatty liver disease (NAFLD) due to Type 2 diabetes (T2DM)",
+  "stage_event": {
+   "id": 137,
+   "label": "Phase 2 Update",
+   "stage_label": "Phase 2",
+   "event_label": "Update"
+  },
+  "note": "MN-001-NATG-202 trial. 7/26/22- Initiated Ph2 trial in NAFLD with T2DM and hypertriglyceridemia. 11/4/25- Patient enrollment completed. Top-line data by summer 2026 05/26/26:- LPLV completed; topline data expected in Q3 2026. 09/28/26:- NATG-202 Ph2 topline results reported; TG and HDL improved; generally safe.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/28/3369686/7767/en/medicinova-announces-topline-results-from-mn-001-natg-202-clinical-trial-of-mn-001-tipelukast.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28758,7 +28713,7 @@
   "company": {
    "ticker": "MNKD",
    "name": "MannKind Corporation",
-   "last_price": "3.34",
+   "last_price": "3.33",
    "market_cap": 1073958528,
    "website": "https://mannkindcorp.com"
   },
@@ -28919,6 +28874,46 @@
   "is_high_mgmt_interest": false
  },
  {
+  "id": 18201,
+  "company": {
+   "ticker": "KOD",
+   "name": "Kodiak Sciences Inc.",
+   "last_price": "83.88",
+   "market_cap": 2033179776,
+   "website": "https://kodiak.com"
+  },
+  "ticker": "KOD",
+  "drug_name": "KSI-501 (anti-VEGF & IL-6)",
+  "indications": [
+   {
+    "id": 993,
+    "title": "Eye disease ",
+    "nickname": ""
+   },
+   {
+    "id": 1322,
+    "title": "Wet age-related macular degeneration ",
+    "nickname": "wAMD"
+   }
+  ],
+  "indications_text": "Eye disease , Wet age-related macular degeneration ",
+  "stage_event": {
+   "id": 80,
+   "label": "Phase 3 Update",
+   "stage_label": "Phase 3",
+   "event_label": "Update"
+  },
+  "note": "DAYBREAK study: Ph3 study use an enhanced formulation of KSI-501. Initiate in mid-2024. 8/14/24- Enrollment ongoing. 3/27/25- Announce topline data in Q2 2026 11/13/25:- DAYBREAK enrollment completed. Last visit Aug 2026; KSI-501 wet AMD Ph3 topline data expected Q3 2026. 03/26/26:- DAYBREAK topline wet AMD data expected Q3 2026; potential BLA submission after readout. 03/31/26:- DAYBREAK wet AMD enrolled ~690 patients; topline remains expected in Q3 2026 (September 2026). 05/07/26:- DAYBREAK Phase 3 fully enrolled; September 2026 one-year topline wet AMD data still expected. 08/13/26:- DAYBREAK one-year Phase 3 topline data for KSI-501 will be reported in September 2026. 09/28/26:- Tabirafusp-ted met DAYBREAK Ph3 endpoints in wAMD; post-hoc analyses planned.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/n62016398/zenkuda-and-tabirafusp-ted-meet-primary-endpoints-pivotal-daybreak-trial-wamd-zenkuda-demonstrating-",
+  "is_big_mover": true,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true
+ },
+ {
   "id": 18268,
   "company": {
    "ticker": "IDYA",
@@ -28997,6 +28992,46 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340675/24180/en/celldex-reports-second-quarter-financial-results-and-provides-corporate-update.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false
+ },
+ {
+  "id": 18514,
+  "company": {
+   "ticker": "MRK",
+   "name": "Merck & Co",
+   "last_price": "148.78",
+   "market_cap": 367065792512,
+   "website": "https://www.merck.com"
+  },
+  "ticker": "MRK",
+  "drug_name": "Ifinatamab Deruxtecan (I-DXd)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1158,
+    "title": "Small cell lung cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Small cell lung cancer, Cancer",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "IDeate-Lung01 trial. 9/7/24 Promising Ph2 data at WCLC2024. 8/18/25- Granted Breakthrough Therapy Designation. 04/13/26:- BLA accepted; Priority Review with PDUFA October 10, 2026 for ES-SCLC post-platinum. 09/25/26:- BLA for ES-SCLC accelerated approval withdrawn; IDeate-Lung02 Ph3 enrollment near completion.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b62007908/ifinatamab-deruxtecan-biologics-license-application-certain-patients-previously-treated-extensive-st",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -29498,7 +29533,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "12.70",
+   "last_price": "13.06",
    "market_cap": 4115401472,
    "website": "https://www.abcellera.com"
   },

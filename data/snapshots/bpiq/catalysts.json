@@ -479,7 +479,7 @@
   "company": {
    "ticker": "QTTB",
    "name": "Q32 Bio ",
-   "last_price": "9.29",
+   "last_price": "9.41",
    "market_cap": 274772160,
    "website": "https://www.q32bio.com"
   },
@@ -2170,7 +2170,7 @@
   "company": {
    "ticker": "PALI",
    "name": "Palisade Bio",
-   "last_price": "1.45",
+   "last_price": "1.44",
    "market_cap": 261405840,
    "website": "https://www.palisadebio.com"
   },
@@ -5679,7 +5679,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "25.55",
+   "last_price": "24.91",
    "market_cap": 2265868544,
    "website": "https://mineralystx.com"
   },
@@ -6646,7 +6646,7 @@
   "company": {
    "ticker": "GSK",
    "name": "GSK",
-   "last_price": "49.70",
+   "last_price": "49.12",
    "market_cap": 99539443712,
    "website": "https://www.gsk.com"
   },
@@ -7003,7 +7003,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "522.09",
+   "last_price": "525.69",
    "market_cap": 133743722496,
    "website": "https://www.vrtx.com"
   },
@@ -7236,7 +7236,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.80",
+   "last_price": "25.96",
    "market_cap": 2884119296,
    "website": "https://www.zailaboratory.com"
   },
@@ -7779,7 +7779,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "25.55",
+   "last_price": "24.91",
    "market_cap": 2265868544,
    "website": "https://mineralystx.com"
   },
@@ -8850,63 +8850,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 14932,
-  "company": {
-   "ticker": "KOD",
-   "name": "Kodiak Sciences Inc.",
-   "last_price": "87.24",
-   "market_cap": 5651422720,
-   "website": "https://kodiak.com"
-  },
-  "ticker": "KOD",
-  "drug_name": "Tarcocimab (KSI-301)",
-  "indications": [
-   {
-    "id": 1322,
-    "title": "Wet age-related macular degeneration ",
-    "nickname": "wAMD"
-   }
-  ],
-  "indications_text": "Wet age-related macular degeneration ",
-  "stage_event": {
-   "id": 92,
-   "label": "BLA Submission",
-   "stage_label": "BLA",
-   "event_label": "Submission"
-  },
-  "note": "DAZZLE & DAYLIGHT study: 2/23/22- Topline data, did not meet primary endpoint. 7/24/23- Ph3 study met primary endpoints. Decided to discontinue the program. Presentation at The Retina Society '23. 03/31/26:- Zenkuda wet AMD now BLA-ready; DAYLIGHT successful; DAYBREAK Phase 3 topline one-year data expected in Q3 2026. 05/07/26:- Zenkuda wet AMD remains BLA-ready; DAYBREAK Phase 3 topline one-year data still expected in third quarter 2026. 08/13/26:- DAYBREAK one-year Phase 3 topline data for Zenkuda will be reported in September 2026. 09/28/26:- DAYBREAK Ph3 met 1-year endpoint Sept 2026; Zenkuda BLA planned Q4 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/zenkuda-and-tabirafusp-ted-meet-primary-endpoints-in-pivotal-daybreak-trial-in-wamd-with-zenkuda-demonstrating-a-potential-new-standard-of-care-profile-with-strong-immediacy-and-sustained-clinical-effect-with-majority-of-patients-302891194.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -10999,7 +10942,7 @@
   "company": {
    "ticker": "CRBU",
    "name": "Caribou Biosciences",
-   "last_price": "1.25",
+   "last_price": "1.24",
    "market_cap": 131865240,
    "website": "https://cariboubio.com"
   },
@@ -16744,6 +16687,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 18444,
+  "company": {
+   "ticker": "TEVA",
+   "name": "Teva Pharmaceutical Industries Ltd",
+   "last_price": "38.84",
+   "market_cap": 45345456128,
+   "website": "https://www.tevapharm.com"
+  },
+  "ticker": "TEVA",
+  "drug_name": "Emrusolmin / TEV-\u2019286",
+  "indications": [
+   {
+    "id": 945,
+    "title": "Multiple System Atrophy",
+    "nickname": "MSA"
+   }
+  ],
+  "indications_text": "Multiple System Atrophy",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Collab. w/ MODAG, ready to start Ph2 in H2 '24 04/29/26:- Management expects meaningful emrusolmin MSA data updates during 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/04/29/3283605/0/en/teva-delivers-strong-q1-2026-results-driven-by-innovative-portfolio-growth-and-disciplined-execution.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 18460,
   "company": {
    "ticker": "ANAB",
@@ -20264,7 +20264,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.80",
+   "last_price": "25.96",
    "market_cap": 2884119296,
    "website": "https://www.zailaboratory.com"
   },
@@ -20497,7 +20497,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.80",
+   "last_price": "25.96",
    "market_cap": 2884119296,
    "website": "https://www.zailaboratory.com"
   },
@@ -26123,7 +26123,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "32.25",
+   "last_price": "32.11",
    "market_cap": 2342058496,
    "website": "https://veratx.com"
   },
@@ -26185,7 +26185,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "32.25",
+   "last_price": "32.11",
    "market_cap": 2342058496,
    "website": "https://veratx.com"
   },
@@ -26532,7 +26532,7 @@
   "company": {
    "ticker": "GMAB",
    "name": "Genmab",
-   "last_price": "35.25",
+   "last_price": "35.41",
    "market_cap": 21742954496,
    "website": "https://www.genmab.com"
   },
@@ -31763,7 +31763,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "23.32",
+   "last_price": "23.80",
    "market_cap": 2712920576,
    "website": "https://www.uniqure.com"
   },
@@ -34490,7 +34490,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.80",
+   "last_price": "25.96",
    "market_cap": 2884119296,
    "website": "https://www.zailaboratory.com"
   },
@@ -44644,7 +44644,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "23.32",
+   "last_price": "23.80",
    "market_cap": 2712920576,
    "website": "https://www.uniqure.com"
   },
@@ -45368,7 +45368,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "87.24",
+   "last_price": "89.33",
    "market_cap": 5651422720,
    "website": "https://kodiak.com"
   },
@@ -46097,7 +46097,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "25.55",
+   "last_price": "24.91",
    "market_cap": 2265868544,
    "website": "https://mineralystx.com"
   },
@@ -46806,7 +46806,7 @@
   "company": {
    "ticker": "GMAB",
    "name": "Genmab",
-   "last_price": "35.25",
+   "last_price": "35.41",
    "market_cap": 21742954496,
    "website": "https://www.genmab.com"
   },
@@ -47286,7 +47286,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "25.80",
+   "last_price": "25.96",
    "market_cap": 2884119296,
    "website": "https://www.zailaboratory.com"
   },

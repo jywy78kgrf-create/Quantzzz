@@ -1,838 +1,5 @@
 [
  {
-  "id": 15204,
-  "company": {
-   "ticker": "CNSY",
-   "name": "Cerenome, Inc.",
-   "last_price": "1.82",
-   "market_cap": 14192599,
-   "website": "https://cerenome.com"
-  },
-  "ticker": "CNSY",
-  "drug_name": "REYOBIQ (Rhenium Re186 Obisbemeda)",
-  "indications": [
-   {
-    "id": 947,
-    "title": "Breast cancer",
-    "nickname": ""
-   },
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Leptomeningeal Metastases (LM)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/15/26:- SpectronRx added. ReSPECT-LM Ph2 dose optimization continues. Data expected Q3 2026. 07/28/26:- ReSPECT-LMM repeated-dosing emerging data in LM to be presented Aug 13, 2026. 08/14/26:- ReSPECT-LM multiple-dose enrollment reached about one-third. Ph2 data is expected Q3 2026; optimal dosing will be defined by year-end.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345619/0/en/cerenome-reports-second-quarter-2026-financial-results-and-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 16489,
-  "company": {
-   "ticker": "ALZN",
-   "name": "Alzamend Neuro ",
-   "last_price": "1.56",
-   "market_cap": 8348501,
-   "website": "https://www.alzamend.com"
-  },
-  "ticker": "ALZN",
-  "drug_name": "AL001",
-  "indications": [
-   {
-    "id": 941,
-    "title": "Bipolar disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Bipolar disease",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "10/2/23- Study may proceed issued by FDA. 3/3/25 Partners w/Massachusetts General Hospital. 7/23/25- Initiate Ph2 trial in early 2026. 03/16/26:- Initiated Ph2 BD type 1 head-to-head crossover study. Topline data expected Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/alzamend-neuro-initiates-phase-ii-clinical-trial-of-al001-lithium-in-brain-study-in-patients-with-bipolar-disorder-in-collaboration-with-massachusetts-general-hospital-302714440.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 17573,
-  "company": {
-   "ticker": "NVCT",
-   "name": "Nuvectis Pharma",
-   "last_price": "20.79",
-   "market_cap": 689442688,
-   "website": "https://www.nuvectis.com"
-  },
-  "ticker": "NVCT",
-  "drug_name": "NXP900",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   },
-   {
-    "id": 2140,
-    "title": "Squamous cancers",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "YES1-amplified Non-small cell lung cancer",
-  "stage_event": {
-   "id": 122,
-   "label": "Phase 1b Data readout",
-   "stage_label": "Phase 1b",
-   "event_label": "Data readout"
-  },
-  "note": "9/12/23- Presentation at AACR '23. 10/24/24- Presentation at AACR '24. 4/29/25- Poster presentations at AACR '25. 7/8/25- Topline DDI study results. 8/13/25- Ph1b trial initiated. Presentations at AACR-NCI-EORTC'25. 11/04/25:- Ph1b monotherapy underway; combo part initiation expected by Year-End 2025. Ph1a and DDI studies completed. 12/17/25:- Ph1b combo with osimertinib initiated in EGFRmut+ NSCLC. Multiple Ph1b data readouts expected in 2026. 02/11/26:- Ph1b mono and osimertinib combo enrolling; lorlatinib combo pending start. Multiple Ph1b data readouts expected 2026. 03/31/26:- AACR 2026 posters scheduled Apr 21-22, 2026 on NSCLC and cholangiocarcinoma models. 05/05/26:- Ph1b mono and combos enrolling at US sites; prelim Ph1b data readout expected Summer 2026. 08/04/26:- Ph1b data expected Summer 2026; osimertinib update by Year-End 2026. Lorlatinib starts Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/29/3319274/0/en/nuvectis-pharma-announces-proposed-public-offering-of-common-stock.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 17593,
-  "company": {
-   "ticker": "OCGN",
-   "name": "Ocugen",
-   "last_price": "1.04",
-   "market_cap": 349283712,
-   "website": "https://www.ocugen.com"
-  },
-  "ticker": "OCGN",
-  "drug_name": "OCU410ST",
-  "indications": [
-   {
-    "id": 1126,
-    "title": "Rare genetic disease",
-    "nickname": ""
-   },
-   {
-    "id": 2007,
-    "title": "Stargardt disease",
-    "nickname": "STGD1"
-   }
-  ],
-  "indications_text": "Stargardt disease, Rare genetic disease",
-  "stage_event": {
-   "id": 152,
-   "label": "Phase 2/3 Data readout",
-   "stage_label": "Phase 2/3",
-   "event_label": "Data readout"
-  },
-  "note": "GARDian trial. 10/22/24- DSMB approval of Ph2 initiation. 11/20/24- EMA granted orphan medicinal product designation. 2/27/25- FDA alignment to move forward with Ph2/3 pivotal confirmatory clinical trial. 5/27/25- Granted Rare Pediatric Disease Designation. 6/16/25- Received IND clearance. 7/18/25- Dosed first patient. 11/05/25:- GARDian3 50% enrolled; interim data mid-2026; targeting BLA filing in H1 2027. 03/04/26:- GARDian3 enrollment to complete Q1 2026; interim data Q3 2026; Ph2/3 topline Q2 2027; BLA filing 2027. 04/01/26:- GARDian3 dosing complete (N=63). Interim analysis Q3 2026; topline Q2 2027; BLA mid-2027. No serious AEs. 05/05/26:- Confirms GARDian3 enrollment/dosing complete (N=63); interim analysis Q3 2026; topline Q2 2027; BLA mid-2027. 08/06/26:- GARDian3 topline remains expected Q2 2027; BLA submission to follow mid-2027.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340127/0/en/ocugen-provides-business-update-with-second-quarter-2026-financial-results.html",
-  "is_big_mover": true,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18014,
-  "company": {
-   "ticker": "RNTX",
-   "name": "Rein Therapeutics",
-   "last_price": "0.80",
-   "market_cap": 69358696,
-   "website": "https://www.reintx.com"
-  },
-  "ticker": "RNTX",
-  "drug_name": "LTI-03",
-  "indications": [
-   {
-    "id": 1294,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "RENEW trial. 5/1/24- Positive Cohort 1 Ph1b data. 9/23/24 Cohort 2 enrollment complete. 11/13/24- Topline data reported. 5/12/25- Initiated Ph2. 5/27/25- First patient dosed. 11/3/25- Clinical hold lifted. Restart enrollment in late 2025 or early 2026. Initial topline data in Q3 2026. 01/20/26:- EMA granted orphan drug designation for IPF, supporting LTI-03 development alongside ongoing Ph2 trial. 03/03/26:- First patient dosed in Ph2 after FDA clearance. Interim data anticipated in H2 2026. Enrollment expected through Mid-2027. 04/29/26:- RENEW Ph2 enrolled 8 patients; enrollment began March 2026; more sites opening soon. 05/18/26:- Financing closed; expects to fund RENEW Ph2 through completion; cash runway into Q1 2028. 06/11/26:- RENEW Ph2 enrolled 16 patients; first patient randomized in the U.K. 07/21/26:- RENEW Ph2 enrolling in five countries; initial topline data expected in H2 2026. 08/14/26:- RENEW Ph2 surpassed 25% enrollment. Interim data will be reported in H2 2026. 08/20/26:- FDA granted Fast Track for IPF. RENEW Ph2 interim data still expected in H2 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/20/3348293/28652/en/rein-therapeutics-receives-u-s-fda-fast-track-designation-for-lti-03-in-idiopathic-pulmonary-fibrosis.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18148,
-  "company": {
-   "ticker": "SCYX",
-   "name": "SCYNEXIS",
-   "last_price": "4.94",
-   "market_cap": 49151068,
-   "website": "https://www.scynexis.com"
-  },
-  "ticker": "SCYX",
-  "drug_name": "SCY-247",
-  "indications": [
-   {
-    "id": 1351,
-    "title": "Fungal infections",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Fungal infections",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "12/18/24- Initiated dosing. 9/30/25- Ph1 positive results from SAD & MAD reported. 11/05/25:- After positive Ph1 SAD/MAD, Q1 2026 IV Ph1 start; Ph2 proof-of-concept data expected 2026. 01/21/26:- Received FDA QIDP and Fast Track for SCY-247. Still plans 2026 IV Ph1, oral Ph2, IC proof-of-concept data. 01/28/26:- IMARI 2026 oral and poster presentations planned on SCY-247 antifungal activity and early clinical profile. 02/26/26:- First participants dosed in IV Ph1 SAD/MAD; trial results expected in 2026. 03/04/26:- Expanded access program planned H1 2026; IV Ph1 topline data H2 2026; IC Ph2 proof-of-concept planned 2026. 05/11/26:- IV Ph1 topline data now expected Q3 2026; oral SCY-247 expanded access program now accepting requests. 08/10/26:- IV Ph1 dosing completed. Topline data remain expected in Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18578,
-  "company": {
-   "ticker": "VALN",
-   "name": "Valneva SE",
-   "last_price": "6.19",
-   "market_cap": 586483072,
-   "website": "https://valneva.com"
-  },
-  "ticker": "VALN",
-  "drug_name": "Shigella4V2 (S4V2) ",
-  "indications": [
-   {
-    "id": 2292,
-    "title": "Nasolabial fold lines",
-    "nickname": ""
-   },
-   {
-    "id": 2290,
-    "title": "Shigella",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Prevention of shigellosis",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Partnership w/ LimmaTech. 11/13/24- First patient dosed. Conduct a Ph2 pediatric study in Low- and Middle-Income Countries expected to begin before the end of 2024. 4/9/25- First vaccination in Ph2 Infant Study. Topline data in H2 2025. 11/20/25:- Two Ph2 trials ongoing (infant and Ph2b CHIM); further development contingent on positive results. 02/19/26:- First Ph2 S4V2 data to guide program; development decision anticipated in H2 2026. 03/18/26:- Two Ph2 trials ongoing; first Ph2 results expected Mid-2026 with development decision in H2 2026. 05/13/26:- Two Ph2 S4V2 trials ongoing; first Ph2 results still expected Mid-2026; Valneva to assume development if positive. 08/13/26:- Phase 2 infant and Phase 2b CHIM trial results are expected in Q3 2026. Development next steps will follow results.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344207/0/en/valneva-reports-half-year-2026-financial-results-and-provides-corporate-updates.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18768,
-  "company": {
-   "ticker": "GHRS",
-   "name": "GH Research",
-   "last_price": "23.79",
-   "market_cap": 1611720832,
-   "website": "https://www.ghres.com"
-  },
-  "ticker": "GHRS",
-  "drug_name": "GH001 (inhalable mebufotenin) (5-MeO-DMT) ",
-  "indications": [
-   {
-    "id": 865,
-    "title": "Bipolar depression",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Bipolar depression",
-  "stage_event": {
-   "id": 134,
-   "label": "Phase 2a Data readout",
-   "stage_label": "Phase 2a",
-   "event_label": "Data readout"
-  },
-  "note": "08/06/26:- Posters accepted for ISBD September 2026 and ECNP October 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/06/04/3306645/0/en/gh-research-announces-publication-of-phase-2a-postpartum-depression-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18841,
-  "company": {
-   "ticker": "BOLT",
-   "name": "Bolt Biotherapeutics ",
-   "last_price": "3.68",
-   "market_cap": 7088949,
-   "website": "https://www.boltbio.com"
-  },
-  "ticker": "BOLT",
-  "drug_name": "BDC-4182",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1300,
-    "title": "Gastric cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Cancer, Gastric cancer",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "5/12/25- Initiated participant enrollment. 8/14/25- Trial ongoing, to expand in multiple countries in H2 2025. 10/1/25- Initial data adjusted to Q3 2026. 11/12/25:- Trial actively enrolling gastric and gastroesophageal cancer patients. Protocol amended for step-up dosing after strong immune responses at initial dose levels. Initial Ph1 data still expected in Q3 2026. 03/12/26:- Ph1 gastric and gastroesophageal cancer trial ongoing; initial data still expected in Q3 2026. 05/12/26:- Ph1/2 gastric cancer trial ongoing; initial data reaffirmed for Q3 2026; cash runway funds dose escalation completion. 08/11/26:- Cohort 4 ongoing. Well tolerated with activity. Initial Ph1/2 data expected in Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/11/3343148/0/en/bolt-biotherapeutics-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 19292,
-  "company": {
-   "ticker": "AARD",
-   "name": "Aardvark Therapeutics",
-   "last_price": "5.22",
-   "market_cap": 115333136,
-   "website": "https://aardvarktherapeutics.com"
-  },
-  "ticker": "AARD",
-  "drug_name": "ARD-101",
-  "indications": [
-   {
-    "id": 763,
-    "title": "Prader-Willi syndrome",
-    "nickname": "PWS"
-   }
-  ],
-  "indications_text": "Prader-Willi Syndrome",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "HERO Ph3 Trial. 10/7/25- Announces FDA alignment on protocol amendment to expand trial. Topline data readout in Q3 2026. 12/10/25:- First patient dosed in Australia; Canada/UK cleared; enrollment strong; still targeting HERO topline in Q3 2026. 02/10/26:- IRB okays protocol lowering age to seven; enrollment steady. HERO toplline on track Q3 2026. 02/27/26:- HERO Ph3 enrollment and dosing paused for cardiac findings; no longer expect topline Q3 2026; guidance Q2 2026. 03/23/26:- Details QRS prolongation findings; HERO/OLE remain voluntarily paused; still guiding to Q2 2026 program update. 05/07/26:- HERO Ph3 and OLE in PWS remain paused; ARD-101 program guidance still expected Q2 2026. 05/14/26:- FDA placed full clinical hold on ARD-101 HERO and OLE Ph3 studies; unblinding planned. 08/11/26:- HERO and OLE trials were terminated in June. Unblinded Phase 3 data will be assessed in Q3 2026; FDA hold discussions continue.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/11/3343202/0/en/aardvark-therapeutics-reports-second-quarter-2026-financial-results-and-provides-business-updates.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 19293,
-  "company": {
-   "ticker": "BMEA",
-   "name": "Biomea Fusion",
-   "last_price": "1.32",
-   "market_cap": 96158256,
-   "website": "https://biomeafusion.com"
-  },
-  "ticker": "BMEA",
-  "drug_name": "BMF-650 (GLP-1 RA)",
-  "indications": [
-   {
-    "id": 1027,
-    "title": "Obesity",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Obese, otherwise healthy volunteers",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "GLP-131 trial. 10/27/25- First patient dosed. 11/4/25- IND accepted. 11/5/25- Enrollment ongoing. 28-day weight loss data in H1 2026. 01/12/26:- SAD/MAD cohorts and final 28-day weight-loss data expected Q2 2026. 03/24/26:- GLP-131 Phase I enrollment ongoing; initial 28-day weight reduction data expected in Q2 2026. 05/11/26:- GLP-131 Ph1 obesity trial ongoing and on track; initial 28-day weight-loss data expected Q2 2026. 06/05/26:- GLP-131 added rapid titration MAD cohort; initial 28-day weight-loss data now expected Q3 2026. 08/05/26:- GLP-131 Ph1 remains on track; 28-day weight-loss data expected Q3 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/en/search/industry/biotechnology,pharmaceuticals,pharmaceuticals%20&%20biotechnology,health%20care,health%20care%20equipment%20&%20services/load/before?page=1&pageSize=50&_gl=1*1ncr9vj*_up*MQ..*_ga*MTU2NTE5NTI4MS4xNzg1OTY4OTI3*_ga_B6167QB2TF*czE3ODU5Njg4ODkkbzEkZzAkdDE3ODU5Njg5MjYkajIzJGwwJGgxNTM1NDI5NTgz*_ga_ERWPGTJ5X8*czE3ODU5Njg5MjYkbzEkZzAkdDE3ODU5Njg5MjYkajYwJGwwJGgw",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 19707,
-  "company": {
-   "ticker": "BMY",
-   "name": "Bristol-Myers Squibb",
-   "last_price": "61.58",
-   "market_cap": 127465398272,
-   "website": "https://www.bms.com"
-  },
-  "ticker": "BMY",
-  "drug_name": "Camzyos/Mavacamten (MYK-461) (Myosin Inhibitor)",
-  "indications": [
-   {
-    "id": 1079,
-    "title": "Hypertrophic cardiomyopathies ",
-    "nickname": "HCM"
-   }
-  ],
-  "indications_text": "Adolescent Obstructive Hypertrophic Cardiomyopathy",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "01/11/26:- SCOUT-HCM Ph3 in adolescent oHCM met primary endpoint; full results at future congress, regulatory discussions planned. 03/20/26:- Full Phase 3 SCOUT-HCM results at ACC 2026 on March 29, 2026. 05/29/26:- FDA accepted priority sNDA for adolescent oHCM; PDUFA set for September 30, 2026.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260529154810/en/U.S.-Food-and-Drug-Administration-Accepts-for-Priority-Review-Bristol-Myers-Squibbs-Supplemental-New-Drug-Application-for-Camzyos-mavacamten-to-Treat-Adolescents-with-Symptomatic-Obstructive-Hypertrophic-Cardiomyopathy-oHCM",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20122,
-  "company": {
-   "ticker": "LLY",
-   "name": "Eli Lilly & Company",
-   "last_price": "1152.25",
-   "market_cap": 965262180352,
-   "website": "https://www.lilly.com"
-  },
-  "ticker": "LLY",
-  "drug_name": "Retatrutide (Triple Receptor Agonist)",
-  "indications": [
-   {
-    "id": 1391,
-    "title": "Type 2 diabetes",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Type 2 Diabetes",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "03/19/26:- TRANSCEND-T2D-1 Ph3 topline positive; detailed results to be presented at ADA June 2026. 05/28/26:- TRANSCEND-T2D-1 Ph3 results presented at ADA June 6, 2026. 09/15/26:- TRIUMPH-2 Ph3 showed 20.8% weight loss, 1.6% A1C drop. Data at EASD Sep 30, 2026. 09/29/26:- TRIUMPH-2 detailed results published; 20.8% weight loss and A1C reductions through 80 weeks.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/n62068229/lilly-s-triple-agonist-retatrutide-delivered-substantial-weight-loss-and-a1c-reduction-underscoring-",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20230,
-  "company": {
-   "ticker": "SCYX",
-   "name": "SCYNEXIS",
-   "last_price": "4.94",
-   "market_cap": 49151068,
-   "website": "https://www.scynexis.com"
-  },
-  "ticker": "SCYX",
-  "drug_name": "SCY-770 (AMPK Activator)",
-  "indications": [
-   {
-    "id": 853,
-    "title": "Autosomal Dominant Polycystic Kidney Disease",
-    "nickname": "ADPKD"
-   }
-  ],
-  "indications_text": "Autosomal Dominant Polycystic Kidney Disease",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "03/31/26:- Acquired PXL770 renamed SCY-770; plan Ph2 ADPKD start Q4 2026; efficacy review H2 2027. 05/11/26:- Reiterated plan for Ph2 ADPKD start Q4 2026 and early efficacy readout in H2 2027. 06/30/26:- Initiated Ph1 food-effect study; topline data expected Q3 2026; Ph2 ADPKD initiation on track Q4 2026. 08/10/26:- Reiterated Ph1 topline data in Q3 2026, Ph2 start in Q4 2026, efficacy readout H2 2027.",
-  "catalyst_date": "2026-09-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/en/news/heathcare",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 17164,
   "company": {
    "ticker": "AGEN",
@@ -1037,6 +204,63 @@
   "catalyst_date": "2026-10-06",
   "has_catalyst": true,
   "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 16578,
+  "company": {
+   "ticker": "VRCA",
+   "name": "Verrica Pharmaceuticals",
+   "last_price": "4.80",
+   "market_cap": 82372288,
+   "website": "https://www.verrica.com"
+  },
+  "ticker": "VRCA",
+  "drug_name": "VP-315",
+  "indications": [
+   {
+    "id": 846,
+    "title": "Basal cell carcinoma",
+    "nickname": "BCC"
+   }
+  ],
+  "indications_text": "Basal cell carcinoma",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "8/14/24- Part 2 topline results reported. 1/21/25- Prelim topline data reported at Winter Dermatology Conf '25. 11/10/25- New data presented at SITC'25. 03/11/26:- New Ph2 abscopal data; FDA aligned on two ~100-patient Ph3 BCC studies starting in 2026. 04/09/26:- Late-breaking Ph2 VP-315 BCC exploratory data to be presented at SID May 15, 2026. 05/05/26:- Phase 2 BCC abscopal-like data to be presented at SID May 15, 2026. 05/12/26:- Upcoming late-breaking Ph2 VP-315 BCC abscopal data oral presentation at SID 2026 remains planned. 08/06/26:- SID 2026 Ph2 data showed treated-lesion impact and abscopal effect; Ph3 readiness continues. 09/30/26:- Encore Ph2 VP-315 BCC abscopal poster to be shown Oct 9, 2026.",
+  "catalyst_date": "2026-10-09",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/30/3371812/0/en/verrica-pharmaceuticals-to-present-new-ycanth-data-analysis-at-two-upcoming-dermatology-conferences.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -2605,7 +1829,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.21",
+   "last_price": "38.49",
    "market_cap": 3707126016,
    "website": "https://www.ideayabio.com"
   },
@@ -2729,7 +1953,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.21",
+   "last_price": "38.49",
    "market_cap": 3707126016,
    "website": "https://www.ideayabio.com"
   },
@@ -2920,7 +2144,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "3.79",
+   "last_price": "3.73",
    "market_cap": 245882720,
    "website": "https://www.macrogenics.com"
   },
@@ -3054,7 +2278,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.21",
+   "last_price": "38.49",
    "market_cap": 3707126016,
    "website": "https://www.ideayabio.com"
   },
@@ -3126,7 +2350,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.21",
+   "last_price": "38.49",
    "market_cap": 3707126016,
    "website": "https://www.ideayabio.com"
   },
@@ -3193,7 +2417,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "13.13",
+   "last_price": "13.30",
    "market_cap": 2016434432,
    "website": "https://www.biohaven.com"
   },
@@ -3798,7 +3022,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "18.02",
+   "last_price": "17.98",
    "market_cap": 58089820160,
    "website": "https://www.takeda.com"
   },
@@ -3932,7 +3156,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "192.57",
+   "last_price": "192.51",
    "market_cap": 76880863232,
    "website": "https://www.modernatx.com"
   },
@@ -4294,7 +3518,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "192.57",
+   "last_price": "192.51",
    "market_cap": 76880863232,
    "website": "https://www.modernatx.com"
   },
@@ -4351,7 +3575,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "192.57",
+   "last_price": "192.51",
    "market_cap": 76880863232,
    "website": "https://www.modernatx.com"
   },
@@ -4408,7 +3632,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "45.38",
+   "last_price": "44.53",
    "market_cap": 7420130304,
    "website": "https://www.ionis.com"
   },
@@ -6171,7 +5395,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "19.67",
+   "last_price": "19.87",
    "market_cap": 3471956224,
    "website": "https://acadia.com"
   },
@@ -6818,7 +6042,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "522.81",
+   "last_price": "510.62",
    "market_cap": 132511907840,
    "website": "https://www.vrtx.com"
   },
@@ -7312,53 +6536,6 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-21",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -8028,7 +7205,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.70",
+   "last_price": "23.67",
    "market_cap": 2460663552,
    "website": "https://www.nurixtx.com"
   },
@@ -8170,6 +7347,53 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-21",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -8420,7 +7644,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.70",
+   "last_price": "23.67",
    "market_cap": 2460663552,
    "website": "https://www.nurixtx.com"
   },
@@ -8976,7 +8200,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "192.57",
+   "last_price": "192.51",
    "market_cap": 76880863232,
    "website": "https://www.modernatx.com"
   },
@@ -9162,7 +8386,7 @@
   "company": {
    "ticker": "NVS",
    "name": "Novartis ",
-   "last_price": "141.78",
+   "last_price": "142.57",
    "market_cap": 270984937472,
    "website": "https://www.novartis.com"
   },
@@ -13890,7 +13114,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "192.57",
+   "last_price": "192.51",
    "market_cap": 76880863232,
    "website": "https://www.modernatx.com"
   },
@@ -15286,7 +14510,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "98.61",
+   "last_price": "97.66",
    "market_cap": 5958128640,
    "website": "https://kodiak.com"
   },
@@ -15586,7 +14810,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "13.13",
+   "last_price": "13.30",
    "market_cap": 2016434432,
    "website": "https://www.biohaven.com"
   },
@@ -15863,68 +15087,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18318,
-  "company": {
-   "ticker": "QTTB",
-   "name": "Q32 Bio ",
-   "last_price": "8.16",
-   "market_cap": 246193504,
-   "website": "https://www.q32bio.com"
-  },
-  "ticker": "QTTB",
-  "drug_name": "Bempikibart (ADX-914) ",
-  "indications": [
-   {
-    "id": 902,
-    "title": "Alopecia areata",
-    "nickname": ""
-   },
-   {
-    "id": 1037,
-    "title": "Skin disease/disorder",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Alopecia areata",
-  "stage_event": {
-   "id": 93,
-   "label": "BLA FDA meeting",
-   "stage_label": "BLA",
-   "event_label": "FDA meeting"
-  },
-  "note": "SIGNAL-AA trial. 5/9/24- Enrollment completed. 12/10/24- Topline data reported. 8/6/25- Dosed the 1st patients in Part B & OLE. 10/21/25\u2013 Enrollment completed. Topline data in mid-2026. 11/13/25:- Part B enrollment confirmed at 33 patients with emerging activity; Part A open-label extension dosing ongoing; mid-2026 topline. 03/10/26:- SIGNAL-AA Part B enrollment reiterated; 36-week topline mid-2026; Part A OLE ongoing; emerging activity described. 05/05/26:- 36-week Part B topline on track mid-2026. First Part B OLE patient dosed; Part A OLE completed. 07/13/26:- Positive 36-week Part B topline reported. Registration-directed program planned in H1 2027. 08/05/26:- Meeting data in H2 2026. Ph3 starts H1 2027. OLE data H2 2027. 09/21/26:- Additional 36-week and 16-week off-drug findings to be presented at EADV Sep 30, 2026. 09/30/26:- EADV Part B results presented. Regulatory discussions H2 2026; registrational program H1 2027; OLE data H2 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/n62078375/q32-bio-presents-results-part-b-signal-aa-clinical-trial-bempikibart-alopecia-areata-late-breaker-eu",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -16625,7 +15787,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "45.38",
+   "last_price": "44.53",
    "market_cap": 7420130304,
    "website": "https://www.ionis.com"
   },
@@ -17101,7 +16263,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "192.57",
+   "last_price": "192.51",
    "market_cap": 76880863232,
    "website": "https://www.modernatx.com"
   },
@@ -17344,7 +16506,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.70",
+   "last_price": "23.67",
    "market_cap": 2460663552,
    "website": "https://www.nurixtx.com"
   },
@@ -17788,7 +16950,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "13.13",
+   "last_price": "13.30",
    "market_cap": 2016434432,
    "website": "https://www.biohaven.com"
   },
@@ -18682,7 +17844,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.26",
+   "last_price": "4.89",
    "market_cap": 774266240,
    "website": "https://www.aclaristx.com"
   },
@@ -18739,7 +17901,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "5.26",
+   "last_price": "4.89",
    "market_cap": 774266240,
    "website": "https://www.aclaristx.com"
   },
@@ -18801,7 +17963,7 @@
   "company": {
    "ticker": "RZLT",
    "name": "Rezolute Bio",
-   "last_price": "4.14",
+   "last_price": "4.10",
    "market_cap": 400430464,
    "website": "https://www.rezolutebio.com"
   },
@@ -18977,7 +18139,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "1.94",
+   "last_price": "1.88",
    "market_cap": 325527232,
    "website": "https://www.cabalettabio.com"
   },
@@ -19091,7 +18253,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.39",
+   "last_price": "1.32",
    "market_cap": 192205024,
    "website": "https://www.alxoncology.com"
   },
@@ -19210,7 +18372,7 @@
   "company": {
    "ticker": "ALMS",
    "name": "Alumis",
-   "last_price": "7.39",
+   "last_price": "7.29",
    "market_cap": 956526400,
    "website": "https://www.alumis.com"
   },
@@ -19267,7 +18429,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.70",
+   "last_price": "23.67",
    "market_cap": 2460663552,
    "website": "https://www.nurixtx.com"
   },
@@ -20370,63 +19532,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 19046,
-  "company": {
-   "ticker": "RFL",
-   "name": "Rafael Holdings Inc",
-   "last_price": "1.44",
-   "market_cap": 68640000,
-   "website": "https://www.rafaelholdings.com"
-  },
-  "ticker": "RFL",
-  "drug_name": "Trappsol\u00ae Cyclo\u2122 (hydroxypropyl-beta-cyclodextrin)",
-  "indications": [
-   {
-    "id": 1164,
-    "title": "Niemann Pick Disease Type C",
-    "nickname": "NPC"
-   }
-  ],
-  "indications_text": "Niemann-Pick Disease Type C1 (NPC1)",
-  "stage_event": {
-   "id": 84,
-   "label": "NDA Submission",
-   "stage_label": "NDA",
-   "event_label": "Submission"
-  },
-  "note": "06/11/26:- TransportNPC pre-NDA meeting completed. NDA submission expected H2 2026; Ph3 topline data expected Q3 2026. 09/30/26:- TransportNPC Ph3 topline missed primary endpoint; subgroup significant. NDA submission still planned Q4 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/30/3371740/0/en/rafael-holdings-announces-topline-results-from-the-pivotal-phase-3-transportnpc-study-of-trappsol-cyclo-in-niemann-pick-disease-type-c-npc.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 19079,
   "company": {
    "ticker": "UTHR",
@@ -20830,7 +19935,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.29",
+   "last_price": "84.08",
    "market_cap": 5514606080,
    "website": "https://orukatx.com"
   },
@@ -21985,7 +21090,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "192.57",
+   "last_price": "192.51",
    "market_cap": 76880863232,
    "website": "https://www.modernatx.com"
   },
@@ -22223,7 +21328,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.70",
+   "last_price": "23.67",
    "market_cap": 2460663552,
    "website": "https://www.nurixtx.com"
   },
@@ -22337,7 +21442,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "3.79",
+   "last_price": "3.73",
    "market_cap": 245882720,
    "website": "https://www.macrogenics.com"
   },
@@ -22569,7 +21674,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.21",
+   "last_price": "38.49",
    "market_cap": 3707126016,
    "website": "https://www.ideayabio.com"
   },
@@ -23412,7 +22517,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.29",
+   "last_price": "84.08",
    "market_cap": 5514606080,
    "website": "https://orukatx.com"
   },
@@ -23816,7 +22921,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "23.70",
+   "last_price": "23.67",
    "market_cap": 2460663552,
    "website": "https://www.nurixtx.com"
   },
@@ -24183,7 +23288,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "17.23",
+   "last_price": "16.87",
    "market_cap": 1056443456,
    "website": "https://www.januxrx.com"
   },
@@ -24654,7 +23759,7 @@
   "company": {
    "ticker": "ONC",
    "name": "BeOne Medicines",
-   "last_price": "368.42",
+   "last_price": "362.18",
    "market_cap": 41395924992,
    "website": "https://beonemedicines.com"
   },
@@ -24711,7 +23816,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "21.51",
+   "last_price": "20.85",
    "market_cap": 2443054848,
    "website": "https://immunome.com"
   },
@@ -25120,7 +24225,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.21",
+   "last_price": "38.49",
    "market_cap": 3707126016,
    "website": "https://www.ideayabio.com"
   },
@@ -25177,7 +24282,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.21",
+   "last_price": "38.49",
    "market_cap": 3707126016,
    "website": "https://www.ideayabio.com"
   },
@@ -25772,7 +24877,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "161.47",
+   "last_price": "158.69",
    "market_cap": 250423164928,
    "website": "https://www.astrazeneca.com"
   },
@@ -26523,7 +25628,7 @@
   "company": {
    "ticker": "JSPR",
    "name": "Jasper Therapeutics",
-   "last_price": "0.58",
+   "last_price": "0.60",
    "market_cap": 19299244,
    "website": "https://jaspertx.com"
   },
@@ -26642,7 +25747,7 @@
   "company": {
    "ticker": "ATTO",
    "name": "Attovia Therapeutics",
-   "last_price": "17.14",
+   "last_price": "17.76",
    "market_cap": 782462656,
    "website": "https://www.attovia.com"
   },
@@ -27408,7 +26513,7 @@
   "company": {
    "ticker": "APMD",
    "name": "Apnimed",
-   "last_price": "23.66",
+   "last_price": "23.49",
    "market_cap": 912130368,
    "website": "https://apnimed.com"
   },
@@ -28841,7 +27946,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.29",
+   "last_price": "84.08",
    "market_cap": 5514606080,
    "website": "https://orukatx.com"
   },
@@ -29126,7 +28231,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.29",
+   "last_price": "84.08",
    "market_cap": 5514606080,
    "website": "https://orukatx.com"
   },
@@ -29354,7 +28459,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "161.47",
+   "last_price": "158.69",
    "market_cap": 250423164928,
    "website": "https://www.astrazeneca.com"
   },
@@ -29674,7 +28779,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "18.02",
+   "last_price": "17.98",
    "market_cap": 58089820160,
    "website": "https://www.takeda.com"
   },
@@ -29855,7 +28960,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "21.51",
+   "last_price": "20.85",
    "market_cap": 2443054848,
    "website": "https://immunome.com"
   },
@@ -31117,7 +30222,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "17.23",
+   "last_price": "16.87",
    "market_cap": 1056443456,
    "website": "https://www.januxrx.com"
   },
@@ -31479,7 +30584,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "24.16",
+   "last_price": "24.49",
    "market_cap": 1675892608,
    "website": "https://www.uniqure.com"
   },
@@ -32399,7 +31504,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "3.79",
+   "last_price": "3.73",
    "market_cap": 245882720,
    "website": "https://www.macrogenics.com"
   },
@@ -32984,7 +32089,7 @@
   "company": {
    "ticker": "KLRS",
    "name": "Kalaris Therapeutics",
-   "last_price": "2.89",
+   "last_price": "2.80",
    "market_cap": 68796392,
    "website": "https://kalaristx.com"
   },
@@ -33336,7 +32441,7 @@
   "company": {
    "ticker": "JUNS",
    "name": "Jupiter Neurosciences",
-   "last_price": "2.57",
+   "last_price": "2.35",
    "market_cap": 3217191,
    "website": "https://jupiterneurosciences.com"
   },
@@ -34035,7 +33140,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "14.94",
+   "last_price": "14.78",
    "market_cap": 1379179520,
    "website": "https://www.kardigan.bio"
   },
@@ -34092,7 +33197,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "14.94",
+   "last_price": "14.78",
    "market_cap": 1379179520,
    "website": "https://www.kardigan.bio"
   },
@@ -34149,7 +33254,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "14.94",
+   "last_price": "14.78",
    "market_cap": 1379179520,
    "website": "https://www.kardigan.bio"
   },
@@ -34439,7 +33544,7 @@
   "company": {
    "ticker": "SCTX",
    "name": "Scribe Therapeutics",
-   "last_price": "18.86",
+   "last_price": "17.25",
    "market_cap": 348437568,
    "website": "https://www.scribetx.com"
   },
@@ -35002,7 +34107,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "1.94",
+   "last_price": "1.88",
    "market_cap": 325527232,
    "website": "https://www.cabalettabio.com"
   },
@@ -35074,7 +34179,7 @@
   "company": {
    "ticker": "TNXP",
    "name": "Tonix Pharmaceuticals",
-   "last_price": "9.74",
+   "last_price": "9.47",
    "market_cap": 167050976,
    "website": "https://www.tonixpharma.com"
   },
@@ -35493,7 +34598,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.39",
+   "last_price": "1.32",
    "market_cap": 192205024,
    "website": "https://www.alxoncology.com"
   },
@@ -37273,7 +36378,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "45.38",
+   "last_price": "44.53",
    "market_cap": 7420130304,
    "website": "https://www.ionis.com"
   },
@@ -38210,7 +37315,7 @@
   "company": {
    "ticker": "JBIO",
    "name": "Jade Biosciences",
-   "last_price": "14.05",
+   "last_price": "13.95",
    "market_cap": 893543296,
    "website": "https://jadebiosciences.com"
   },
@@ -40461,7 +39566,7 @@
   "company": {
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
-   "last_price": "11.42",
+   "last_price": "10.77",
    "market_cap": 1480530816,
    "website": "https://www.kailera.com"
   },
@@ -40518,7 +39623,7 @@
   "company": {
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
-   "last_price": "11.42",
+   "last_price": "10.77",
    "market_cap": 1480530816,
    "website": "https://www.kailera.com"
   },
@@ -41217,7 +40322,7 @@
   "company": {
    "ticker": "LTGO",
    "name": "Latigo Biotherapeutics",
-   "last_price": "16.84",
+   "last_price": "17.41",
    "market_cap": 1107199104,
    "website": "https://latigobio.com"
   },
@@ -43073,7 +42178,7 @@
   "company": {
    "ticker": "GLSI",
    "name": "Greenwich LifeSciences",
-   "last_price": "18.05",
+   "last_price": "17.28",
    "market_cap": 264941648,
    "website": "https://greenwichlifesciences.com"
   },
@@ -43373,7 +42478,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "45.38",
+   "last_price": "44.53",
    "market_cap": 7420130304,
    "website": "https://www.ionis.com"
   },
@@ -43430,7 +42535,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.39",
+   "last_price": "1.32",
    "market_cap": 192205024,
    "website": "https://www.alxoncology.com"
   },
@@ -43678,7 +42783,7 @@
   "company": {
    "ticker": "CABA",
    "name": "Cabaletta Bio",
-   "last_price": "1.94",
+   "last_price": "1.88",
    "market_cap": 325527232,
    "website": "https://www.cabalettabio.com"
   },
@@ -43831,68 +42936,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/14/3360699/0/en/nanobiotix-announces-complete-full-cohort-phase-1-results-for-jnj-1900-nbtxr3-in-inoperable-recurrent-non-small-cell-lung-cancer.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 17247,
-  "company": {
-   "ticker": "RHHBY",
-   "name": "Roche Holding",
-   "last_price": "51.88",
-   "market_cap": 330689708032,
-   "website": "https://www.roche.com"
-  },
-  "ticker": "RHHBY",
-  "drug_name": "Fenebrutinib",
-  "indications": [
-   {
-    "id": 1272,
-    "title": "Autoimmune disease",
-    "nickname": ""
-   },
-   {
-    "id": 722,
-    "title": "Multiple sclerosis",
-    "nickname": "MS"
-   }
-  ],
-  "indications_text": "Multiple sclerosis, Autoimmune disease",
-  "stage_event": {
-   "id": 86,
-   "label": "NDA Acceptance for review",
-   "stage_label": "NDA",
-   "event_label": "Acceptance for review"
-  },
-  "note": "03/02/26:- FENhance 1 met endpoint; submissions planned; full data at AAN 2026. 04/21/26:- FENhance 1/2 Ph3 met endpoints; regulatory submissions planned for RMS and PPMS. 05/06/26:- FENhance 1/2 and FENtrepid Ph3 confirmed fenebrutinib reduced relapses up to ~59% and slowed disability progression. 07/23/26:- FENhance 1/2 Phase 3 relapse and brain-lesion benefit was reiterated; regulatory timing was not provided. 09/29/26:- FDA accepted priority NDA for fenebrutinib in RMS and PPMS; no PDUFA date.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/09/b62069762/genentech-s-fenebrutinib-first-btk-inhibitor-receive-u-s-fda-filing-acceptance-both-relapsing-and-pr",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -44350,7 +43393,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "24.16",
+   "last_price": "24.49",
    "market_cap": 1675892608,
    "website": "https://www.uniqure.com"
   },
@@ -45074,7 +44117,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "98.54",
+   "last_price": "97.66",
    "market_cap": 5958128640,
    "website": "https://kodiak.com"
   },
@@ -45136,7 +44179,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.21",
+   "last_price": "38.49",
    "market_cap": 3707126016,
    "website": "https://www.ideayabio.com"
   },
@@ -45622,7 +44665,7 @@
   "company": {
    "ticker": "JSPR",
    "name": "Jasper Therapeutics",
-   "last_price": "0.58",
+   "last_price": "0.60",
    "market_cap": 19299244,
    "website": "https://jaspertx.com"
   },
@@ -46622,73 +45665,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 19822,
-  "company": {
-   "ticker": "BMY",
-   "name": "Bristol-Myers Squibb",
-   "last_price": "61.58",
-   "market_cap": 127465398272,
-   "website": "https://www.bms.com"
-  },
-  "ticker": "BMY",
-  "drug_name": "Izalontamab Brengitecan (BL-B01D1) (EGFR/HER3 Bispecific ADC)",
-  "indications": [
-   {
-    "id": 947,
-    "title": "Breast cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1357,
-    "title": "Metastatic breast cancer",
-    "nickname": ""
-   },
-   {
-    "id": 995,
-    "title": "Triple-negative breast cancer ",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Unresectable Locally Advanced Or Metastatic Triple-Negative Breast Cancer",
-  "stage_event": {
-   "id": 80,
-   "label": "Phase 3 Update",
-   "stage_label": "Phase 3",
-   "event_label": "Update"
-  },
-  "note": "02/25/26:- Ph3 BL-B01D1-307 TNBC interim analysis met dual PFS/OS endpoints; data presentation timing TBA. 05/21/26:- PANKU-Breast02 BL-B01D1-307 Ph3 data to be presented June 2, 2026. 05/31/26:- PANKU-Breast02 interim OS/PFS positive at ASCO 2026; no new safety signals.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260531541836/en/Izalontamab-Brengitecan-Iza-Bren-Demonstrates-Statistically-Significant-and-Clinically-Meaningful-Improvements-in-Overall-Survival-and-Progression-Free-Survival-in-Patients-with-Triple-Negative-Breast-Cancer-and-Esophageal-Squamous-Cell-Carcinoma",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 20071,
   "company": {
    "ticker": "EVMN",
@@ -47045,63 +46021,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 20669,
-  "company": {
-   "ticker": "VNDA",
-   "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "4.91",
-   "market_cap": 296871776,
-   "website": "https://www.vandapharma.com"
-  },
-  "ticker": "VNDA",
-  "drug_name": "Hetlioz/Tasimelteon (Melatonin Receptor Agonist)",
-  "indications": [
-   {
-    "id": 1011,
-    "title": "Sleep-wake disorder",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Delayed Sleep Phase Disorder",
-  "stage_event": {
-   "id": 88,
-   "label": "sNDA Submission",
-   "stage_label": "sNDA",
-   "event_label": "Submission"
-  },
-  "note": "08/05/26:- Ph3 DSPD results expected by end of 2026. 09/29/26:- Ph3 VP-VEC-162-3502 met endpoint. Company plans sNDA filing for DSWPD; timing not disclosed.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-positive-phase-iii-results-for-hetlioztasimelteon-in-delayed-sleep-wake-phase-disorder-302893544.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 20688,
   "company": {
    "ticker": "ZLAB",
@@ -47163,7 +46082,7 @@
   "company": {
    "ticker": "BLSM",
    "name": "BlossomHill Therapeutics",
-   "last_price": "18.64",
+   "last_price": "19.47",
    "market_cap": 592470656,
    "website": "https://bhtherapeutics.com"
   },

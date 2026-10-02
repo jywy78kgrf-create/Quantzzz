@@ -356,7 +356,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "143.19",
+   "last_price": "143.52",
    "market_cap": 354803941376,
    "website": "https://www.merck.com"
   },
@@ -490,7 +490,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "65.35",
+   "last_price": "64.40",
    "market_cap": 9151877120,
    "website": "https://arrowheadpharma.com"
   },
@@ -1043,7 +1043,7 @@
   "company": {
    "ticker": "PALI",
    "name": "Palisade Bio",
-   "last_price": "1.43",
+   "last_price": "1.46",
    "market_cap": 249206896,
    "website": "https://www.palisadebio.com"
   },
@@ -1162,7 +1162,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "4.54",
+   "last_price": "4.23",
    "market_cap": 33453476,
    "website": "https://www.immutep.com"
   },
@@ -2025,7 +2025,7 @@
   "company": {
    "ticker": "ELTX",
    "name": "Elicio Therapeutics",
-   "last_price": "1.92",
+   "last_price": "1.90",
    "market_cap": 50461212,
    "website": "https://elicio.com"
   },
@@ -3124,10 +3124,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "04/17/26:- New Ph2 immune-response data to be presented at AACR Apr 22, 2026. Three-year clinical data expected H2 2026. 05/07/26:- Ph2 AACR data showed 86% target response; one-year extension completed; three-year data expected H2 2026. 07/17/26:- Ph2 three-year efficacy data to be presented at ESMO on Oct 24, 2026. 08/20/26:- Three-year Ph2 efficacy data will be presented at ESMO on October 24, 2026.",
+  "note": "10/02/26:- Ph2 immune data at SITC Nov 6-7, 2026. Three-year data at ESMO Oct 24, 2026.",
   "catalyst_date": "2026-10-24",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/20/3348249/0/en/evaxion-announces-business-update-and-second-quarter-2026-financial-results.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/02/3373815/0/en/evaxion-will-present-new-immune-data-for-personalized-cancer-vaccine-evx-01-at-the-sitc-2026-annual-meeting.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -3161,7 +3161,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "189.48",
+   "last_price": "187.51",
    "market_cap": 75431632896,
    "website": "https://www.modernatx.com"
   },
@@ -3285,7 +3285,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.86",
    "market_cap": 635819328,
    "website": "https://climbbio.com"
   },
@@ -3319,6 +3319,63 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": true,
   "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20528,
+  "company": {
+   "ticker": "VERA",
+   "name": "Vera Therapeutics",
+   "last_price": "29.94",
+   "market_cap": 2233242880,
+   "website": "https://veratx.com"
+  },
+  "ticker": "VERA",
+  "drug_name": "Atacicept",
+  "indications": [
+   {
+    "id": 2169,
+    "title": "Primary Membranous Nephropathy",
+    "nickname": "PMN"
+   }
+  ],
+  "indications_text": "Primary Membranous Nephropathy (Anti-PLA2R Positive)",
+  "stage_event": {
+   "id": 134,
+   "label": "Phase 2a Data readout",
+   "stage_label": "Phase 2a",
+   "event_label": "Data readout"
+  },
+  "note": "08/10/26:- PIONEER enrollment complete. Additional clinical results expected Q4 2026. 10/02/26:- Interim PIONEER adult IgAN and pMN cohort results to be presented at ASN Oct 24, 2026.",
+  "catalyst_date": "2026-10-24",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/02/3373841/0/en/vera-therapeutics-announces-origin-3-final-efficacy-analysis-of-trutakna-atacicept-vymj-in-iga-nephropathy-will-be-a-featured-late-breaking-oral-presentation-at-the-opening-plenary.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -3585,7 +3642,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "189.48",
+   "last_price": "187.51",
    "market_cap": 75431632896,
    "website": "https://www.modernatx.com"
   },
@@ -3642,7 +3699,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "189.48",
+   "last_price": "187.51",
    "market_cap": 75431632896,
    "website": "https://www.modernatx.com"
   },
@@ -4237,7 +4294,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "12.74",
+   "last_price": "12.30",
    "market_cap": 1297731328,
    "website": "https://www.oricpharma.com"
   },
@@ -4909,7 +4966,7 @@
   "company": {
    "ticker": "ARTV",
    "name": "Artiva Biotherapeutics",
-   "last_price": "6.87",
+   "last_price": "6.82",
    "market_cap": 331963904,
    "website": "https://www.artivabio.com"
   },
@@ -4966,7 +5023,7 @@
   "company": {
    "ticker": "ARTV",
    "name": "Artiva Biotherapeutics",
-   "last_price": "6.87",
+   "last_price": "6.82",
    "market_cap": 331963904,
    "website": "https://www.artivabio.com"
   },
@@ -6280,7 +6337,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "736.67",
+   "last_price": "736.78",
    "market_cap": 75652358144,
    "website": "https://www.regeneron.com"
   },
@@ -7248,6 +7305,53 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-22",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 13472,
   "company": {
    "ticker": "APVO",
@@ -7312,53 +7416,6 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-22",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -7644,7 +7701,7 @@
   "company": {
    "ticker": "ABOS",
    "name": "Acumen Pharmaceuticals",
-   "last_price": "2.06",
+   "last_price": "2.03",
    "market_cap": 149696784,
    "website": "https://acumenpharm.com"
   },
@@ -8381,7 +8438,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "189.48",
+   "last_price": "187.51",
    "market_cap": 75431632896,
    "website": "https://www.modernatx.com"
   },
@@ -8510,7 +8567,7 @@
   "company": {
    "ticker": "ACIU",
    "name": "AC Immune SA",
-   "last_price": "2.81",
+   "last_price": "2.74",
    "market_cap": 279389664,
    "website": "https://www.acimmune.com"
   },
@@ -9728,7 +9785,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "12.74",
+   "last_price": "12.30",
    "market_cap": 1297731328,
    "website": "https://www.oricpharma.com"
   },
@@ -10172,7 +10229,7 @@
   "company": {
    "ticker": "OVID",
    "name": "Ovid Therapeutics",
-   "last_price": "2.43",
+   "last_price": "2.36",
    "market_cap": 474573792,
    "website": "https://www.ovidrx.com"
   },
@@ -11251,7 +11308,7 @@
   "company": {
    "ticker": "CADL",
    "name": "Candel Therapeutics",
-   "last_price": "10.21",
+   "last_price": "10.15",
    "market_cap": 777428608,
    "website": "https://www.candeltx.com"
   },
@@ -12387,7 +12444,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.65",
+   "last_price": "10.66",
    "market_cap": 947430528,
    "website": "https://kuraoncology.com"
   },
@@ -12454,7 +12511,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.65",
+   "last_price": "10.66",
    "market_cap": 947430528,
    "website": "https://kuraoncology.com"
   },
@@ -12965,7 +13022,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1141.10",
+   "last_price": "1142.21",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -13286,11 +13343,68 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 17875,
+  "company": {
+   "ticker": "WVE",
+   "name": "Wave Life Sciences",
+   "last_price": "3.81",
+   "market_cap": 764546944,
+   "website": "https://wavelifesciences.com"
+  },
+  "ticker": "WVE",
+  "drug_name": "WVE-006",
+  "indications": [
+   {
+    "id": 2183,
+    "title": "Alpha-1 Antitrypsin Deficiency",
+    "nickname": "AATD"
+   }
+  ],
+  "indications_text": "Alpha-1 Antitrypsin Deficiency",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "07/30/26:- FDA meeting set for end of summer 2026; 600mg multidose data expected H2 2026. 10/01/26:- FDA aligned on registrational plan. RestorAATion-2 600 mg multidose data expected Q4 2026.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/01/3372774/0/en/wave-life-sciences-announces-fda-feedback-supports-registrational-pathway-for-wve-006-rna-editing-in-aatd.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 17888,
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "189.48",
+   "last_price": "187.51",
    "market_cap": 75431632896,
    "website": "https://www.modernatx.com"
   },
@@ -13905,7 +14019,7 @@
   "company": {
    "ticker": "OGEN",
    "name": "Oragenics, Inc.",
-   "last_price": "0.48",
+   "last_price": "0.50",
    "market_cap": 2165739,
    "website": "https://www.oragenics.com"
   },
@@ -14686,7 +14800,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "4.54",
+   "last_price": "4.23",
    "market_cap": 33453476,
    "website": "https://www.immutep.com"
   },
@@ -15663,7 +15777,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.65",
+   "last_price": "10.66",
    "market_cap": 947430528,
    "website": "https://kuraoncology.com"
   },
@@ -16191,7 +16305,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "65.35",
+   "last_price": "64.40",
    "market_cap": 9151877120,
    "website": "https://arrowheadpharma.com"
   },
@@ -16377,7 +16491,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "189.48",
+   "last_price": "187.51",
    "market_cap": 75431632896,
    "website": "https://www.modernatx.com"
   },
@@ -16496,7 +16610,7 @@
   "company": {
    "ticker": "OKUR",
    "name": "OnKure Therapeutics, Inc.",
-   "last_price": "2.54",
+   "last_price": "2.56",
    "market_cap": 102860624,
    "website": "https://onkuretherapeutics.com"
   },
@@ -16888,7 +17002,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "65.35",
+   "last_price": "64.40",
    "market_cap": 9151877120,
    "website": "https://arrowheadpharma.com"
   },
@@ -17189,63 +17303,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18679,
-  "company": {
-   "ticker": "GLUE",
-   "name": "Monte Rosa Therapeutics",
-   "last_price": "11.14",
-   "market_cap": 960628928,
-   "website": "https://www.monterosatx.com"
-  },
-  "ticker": "GLUE",
-  "drug_name": "MRT-8102",
-  "indications": [
-   {
-    "id": 1174,
-    "title": "Inflammatory disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Inflammatory disease",
-  "stage_event": {
-   "id": 135,
-   "label": "Phase 2 Initiation",
-   "stage_label": "Phase 2",
-   "event_label": "Initiation"
-  },
-  "note": "3/20/25- IND submission in H1 2025. 6/10/25- Announces FDA clearance of IND application. 7/21/25- First patient dosed. 11/6/25- Initial data from CVD-risk cohort in H1 2026. 12/16/25:- Present interim Ph1 data in early 2026. Dosing initiated in Part 3 CVD-risk cohort. 01/06/26:- Webcast Jan 7, 2026 to present interim Ph1 MRT-8102 data, including Part 3 CRP CVD-risk cohort. 03/17/26:- Positive interim Ph1 GFORCE-1 data and favorable safety. Expanded GFORCE-1 readout and multiple Ph2 initiations from H2 2026. 05/07/26:- H2 2026 GFORCE-1 readout reiterated. Plan Ph2 GFORCE-2, gout, and hidradenitis suppurativa studies through H1 2027. 08/06/26:- GFORCE-1 dosing complete; readout H2 2026. GFORCE-2 H2 2026, GEMINI-1 Q4 2026/Q1 2027, GALAXY-1 H1 2027. 10/01/26:- Positive Ph1 GFORCE-1 data. Plan Ph2 GEMINI-1 Q4 2026; GFORCE-2 and GALAXY-1 H1 2027. Initial GEMINI-1 data H2 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/01/3372740/0/en/monte-rosa-therapeutics-announces-positive-results-for-mrt-8102-in-gforce-1-phase-1-study-showing-normalization-of-key-pathogenic-drivers-of-ascvd-in-subjects-with-elevated-cvd-ris.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 18685,
   "company": {
    "ticker": "ALKS",
@@ -17483,7 +17540,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.65",
+   "last_price": "10.66",
    "market_cap": 947430528,
    "website": "https://kuraoncology.com"
   },
@@ -18719,7 +18776,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "12.74",
+   "last_price": "12.30",
    "market_cap": 1297731328,
    "website": "https://www.oricpharma.com"
   },
@@ -19184,7 +19241,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "13.91",
+   "last_price": "13.76",
    "market_cap": 4507498496,
    "website": "https://www.abcellera.com"
   },
@@ -19987,7 +20044,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.42",
+   "last_price": "83.60",
    "market_cap": 5523212800,
    "website": "https://orukatx.com"
   },
@@ -20857,7 +20914,7 @@
   "company": {
    "ticker": "ABSI",
    "name": "Absci",
-   "last_price": "10.75",
+   "last_price": "11.03",
    "market_cap": 1844850688,
    "website": "https://www.absci.com"
   },
@@ -20914,7 +20971,7 @@
   "company": {
    "ticker": "ACET",
    "name": "Adicet Bio",
-   "last_price": "6.64",
+   "last_price": "6.61",
    "market_cap": 62160292,
    "website": "https://www.adicetbio.com"
   },
@@ -21142,7 +21199,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "189.48",
+   "last_price": "187.51",
    "market_cap": 75431632896,
    "website": "https://www.modernatx.com"
   },
@@ -22217,7 +22274,7 @@
   "company": {
    "ticker": "ACIU",
    "name": "AC Immune SA",
-   "last_price": "2.81",
+   "last_price": "2.74",
    "market_cap": 279389664,
    "website": "https://www.acimmune.com"
   },
@@ -22569,7 +22626,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.42",
+   "last_price": "83.60",
    "market_cap": 5523212800,
    "website": "https://orukatx.com"
   },
@@ -23164,7 +23221,7 @@
   "company": {
    "ticker": "ONCY",
    "name": "Oncolytics Biotech",
-   "last_price": "0.64",
+   "last_price": "0.63",
    "market_cap": 81759736,
    "website": "https://oncolyticsbiotech.com"
   },
@@ -23573,7 +23630,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "259.93",
+   "last_price": "262.16",
    "market_cap": 459326783488,
    "website": "https://www.abbvie.com"
   },
@@ -23811,7 +23868,7 @@
   "company": {
    "ticker": "ONC",
    "name": "BeOne Medicines",
-   "last_price": "351.17",
+   "last_price": "352.87",
    "market_cap": 40584835072,
    "website": "https://beonemedicines.com"
   },
@@ -24701,7 +24758,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.86",
    "market_cap": 635819328,
    "website": "https://climbbio.com"
   },
@@ -24758,7 +24815,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.86",
    "market_cap": 635819328,
    "website": "https://climbbio.com"
   },
@@ -24929,7 +24986,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "30.99",
+   "last_price": "29.94",
    "market_cap": 2233242880,
    "website": "https://veratx.com"
   },
@@ -24948,63 +25005,6 @@
    }
   ],
   "indications_text": "Focal Segmental Glomerulosclerosis And Minimal Change Disease (Anti-Nephrin Positive)",
-  "stage_event": {
-   "id": 134,
-   "label": "Phase 2a Data readout",
-   "stage_label": "Phase 2a",
-   "event_label": "Data readout"
-  },
-  "note": "08/10/26:- PIONEER enrollment complete. Additional clinical results expected Q4 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/10/3342203/0/en/vera-therapeutics-provides-business-update-and-reports-second-quarter-2026-financial-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20528,
-  "company": {
-   "ticker": "VERA",
-   "name": "Vera Therapeutics",
-   "last_price": "30.99",
-   "market_cap": 2233242880,
-   "website": "https://veratx.com"
-  },
-  "ticker": "VERA",
-  "drug_name": "Atacicept",
-  "indications": [
-   {
-    "id": 2169,
-    "title": "Primary Membranous Nephropathy",
-    "nickname": "PMN"
-   }
-  ],
-  "indications_text": "Primary Membranous Nephropathy (Anti-PLA2R Positive)",
   "stage_event": {
    "id": 134,
    "label": "Phase 2a Data readout",
@@ -26451,7 +26451,7 @@
   "company": {
    "ticker": "APMD",
    "name": "Apnimed",
-   "last_price": "21.60",
+   "last_price": "21.57",
    "market_cap": 938357824,
    "website": "https://apnimed.com"
   },
@@ -26704,7 +26704,7 @@
   "company": {
    "ticker": "OLMA",
    "name": "Olema Pharmaceuticals",
-   "last_price": "8.27",
+   "last_price": "8.16",
    "market_cap": 723605248,
    "website": "https://olema.com"
   },
@@ -27884,7 +27884,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.42",
+   "last_price": "83.60",
    "market_cap": 5523212800,
    "website": "https://orukatx.com"
   },
@@ -28169,7 +28169,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "83.42",
+   "last_price": "83.60",
    "market_cap": 5523212800,
    "website": "https://orukatx.com"
   },
@@ -30957,6 +30957,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 18221,
+  "company": {
+   "ticker": "HRMY",
+   "name": "Harmony Biosciences Holdings Inc",
+   "last_price": "39.57",
+   "market_cap": 2304413952,
+   "website": "https://www.harmonybiosciences.com"
+  },
+  "ticker": "HRMY",
+  "drug_name": "EPX-100 (clemizole hydrochloride)",
+  "indications": [
+   {
+    "id": 713,
+    "title": "Dravet syndrome",
+    "nickname": "DS"
+   }
+  ],
+  "indications_text": "Dravet syndrome",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "ARGUS Ph3 trial. 4/30/24 Asset from Epygenix Therapeutics acquisition. 8/5/25- Enrollment ongoing. Topline data in 2026. 12/2/25\u2013 Present new OLE data via poster at AES\u201925 on December 8,2025. 11/04/25:- ARGUS Phase 3 Dravet enrollment ongoing; topline data expected 2026; open-label extension data planned for December 2025 AES. 12/08/25:- ARGUS OLE shows ~50% median seizure reduction; EPX-100 well tolerated; topline Ph3 data expected 2026. 01/12/26:- ARGUS Ph3 Dravet enrollment ongoing; topline data now anticipated in H1 2027 after OLE presentation at AES 2025. 02/24/26:- ARGUS Ph3 Dravet enrollment ongoing; topline data anticipated H1 2027; OLE seizure reduction data previously presented December 2025. 04/16/26:- ARGUS OLE encore data to be presented at AAN 2026 on April 22, 2026. 05/07/26:- ARGUS Ph3 Dravet enrollment ongoing; OLE encore AAN April 2026 showed meaningful seizure reduction; topline H1 2027; PDUFA 2028.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20260507035953/en/Harmony-Biosciences-Reports-Q1-Financial-Results-and-Confirms-2026-Net-Revenue-Guidance-of-Over-%241-Billion-Reinforces-2026-Strategic-Priorities",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 18283,
   "company": {
    "ticker": "ANL",
@@ -31799,7 +31856,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "15.77",
+   "last_price": "14.88",
    "market_cap": 264801312,
    "website": "https://www.sutrobio.com"
   },
@@ -32964,7 +33021,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.86",
    "market_cap": 635819328,
    "website": "https://climbbio.com"
   },
@@ -33673,7 +33730,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "65.35",
+   "last_price": "64.40",
    "market_cap": 9151877120,
    "website": "https://arrowheadpharma.com"
   },
@@ -34422,7 +34479,7 @@
   "company": {
    "ticker": "ABVX",
    "name": "Abivax",
-   "last_price": "95.10",
+   "last_price": "93.20",
    "market_cap": 8299522048,
    "website": "https://www.abivax.com"
   },
@@ -38190,7 +38247,7 @@
   "company": {
    "ticker": "ARDX",
    "name": "Ardelyx Inc.",
-   "last_price": "3.37",
+   "last_price": "3.35",
    "market_cap": 872673984,
    "website": "https://www.ardelyx.com"
   },
@@ -40032,7 +40089,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.86",
    "market_cap": 635819328,
    "website": "https://climbbio.com"
   },
@@ -40374,7 +40431,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1141.10",
+   "last_price": "1142.21",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -41068,7 +41125,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.65",
+   "last_price": "10.66",
    "market_cap": 947430528,
    "website": "https://kuraoncology.com"
   },
@@ -41135,7 +41192,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.65",
+   "last_price": "10.66",
    "market_cap": 947430528,
    "website": "https://kuraoncology.com"
   },
@@ -44189,7 +44246,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "143.19",
+   "last_price": "143.52",
    "market_cap": 354803941376,
    "website": "https://www.merck.com"
   },
@@ -45022,7 +45079,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "13.91",
+   "last_price": "13.76",
    "market_cap": 4507498496,
    "website": "https://www.abcellera.com"
   },
@@ -45312,7 +45369,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1141.10",
+   "last_price": "1142.21",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -45612,7 +45669,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "2.93",
+   "last_price": "2.90",
    "market_cap": 196730000,
    "website": "https://www.adagene.com"
   },
@@ -45674,7 +45731,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "2.93",
+   "last_price": "2.90",
    "market_cap": 196730000,
    "website": "https://www.adagene.com"
   },

@@ -181,6 +181,68 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 19704,
+  "company": {
+   "ticker": "LLY",
+   "name": "Eli Lilly & Company",
+   "last_price": "1155.19",
+   "market_cap": 965262180352,
+   "website": "https://www.lilly.com"
+  },
+  "ticker": "LLY",
+  "drug_name": "Taltz + Zepbound (Combination Therapy)",
+  "indications": [
+   {
+    "id": 1027,
+    "title": "Obesity",
+    "nickname": ""
+   },
+   {
+    "id": 1023,
+    "title": "Psoriasis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Plaque Psoriasis With Obesity Or Overweight",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "01/08/26:- TOGETHER-PsO Ph3b trial in psoriasis with obesity; topline results in H1 2026. 02/18/26:- TOGETHER-PsO Ph3b 36-week topline met primary and key secondary endpoints; detailed results to follow. 08/31/26:- TOGETHER-PsO Ph3b 52-week results reported; benefits maintained vs Taltz alone. 10/05/26:- TOGETHER-PsO biomarker analyses to be presented at Fall Clinical Derm October 8-11, 2026.",
+  "catalyst_date": "2026-10-08",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/lilly-to-present-new-data-across-its-dermatology-portfolio-with-21-presentations-at-fall-clinical-2026-in-pursuit-of-advancing-care-for-chronic-skin-conditions-302897832.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 16578,
   "company": {
    "ticker": "VRCA",
@@ -3285,7 +3347,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "197.21",
+   "last_price": "200.95",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -3709,7 +3771,7 @@
   "company": {
    "ticker": "AGEN",
    "name": "Agenus Inc.",
-   "last_price": "8.36",
+   "last_price": "8.43",
    "market_cap": 377553600,
    "website": "https://www.agenusbio.com"
   },
@@ -3766,7 +3828,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "197.21",
+   "last_price": "200.95",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -3823,7 +3885,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "197.21",
+   "last_price": "200.95",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -3937,7 +3999,7 @@
   "company": {
    "ticker": "AGEN",
    "name": "Agenus Inc.",
-   "last_price": "8.36",
+   "last_price": "8.43",
    "market_cap": 377553600,
    "website": "https://www.agenusbio.com"
   },
@@ -4114,6 +4176,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 18088,
+  "company": {
+   "ticker": "BNTC",
+   "name": "Benitec Biopharma",
+   "last_price": "8.98",
+   "market_cap": 313246880,
+   "website": "https://benitec.com"
+  },
+  "ticker": "BNTC",
+  "drug_name": "BB-301",
+  "indications": [
+   {
+    "id": 701,
+    "title": "Oculopharyngeal Muscular Dystrophy",
+    "nickname": "OPMD"
+   }
+  ],
+  "indications_text": "Oculopharyngeal Muscular Dystrophy",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "05/14/26:- Cohort 2 patients treated. ASGCT data May 15. Cohort 1/2 update H2 2026. FDA meeting mid-year. 10/05/26:- ESGCT late-breaking poster Oct 27-30, 2026. Pivotal design Q1 2027; enrollment mid-2027.",
+  "catalyst_date": "2026-10-27",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374506/0/en/benitec-biopharma-announces-regulatory-update-following-type-c-meeting-with-fda-for-bb-301-pivotal-study.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 16243,
   "company": {
    "ticker": "INO",
@@ -4242,7 +4361,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.12",
+   "last_price": "1.14",
    "market_cap": 179221104,
    "website": "https://www.coherus.com"
   },
@@ -4480,7 +4599,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.12",
+   "last_price": "1.14",
    "market_cap": 179221104,
    "website": "https://www.coherus.com"
   },
@@ -4557,7 +4676,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "31.11",
+   "last_price": "31.12",
    "market_cap": 1898519680,
    "website": "https://www.agios.com"
   },
@@ -4648,6 +4767,63 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 19229,
+  "company": {
+   "ticker": "CATX",
+   "name": "Perspective Therapeutics",
+   "last_price": "2.76",
+   "market_cap": 315058592,
+   "website": "https://www.perspectivetherapeutics.com"
+  },
+  "ticker": "CATX",
+  "drug_name": "[212Pb]VMT01 3.0 mCi +/- nivolumab",
+  "indications": [
+   {
+    "id": 2335,
+    "title": "MC1R-Positive Metastatic Melanoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "MC1R-Positive Metastatic Melanoma",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "07/31/26:- PR No update. 10/02/26:- NCT05655312 SITC abstract Nov 3; poster Nov 6, 2026. ASCO May interim data reiterated.",
+  "catalyst_date": "2026-11-03",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/02/3373912/0/en/perspective-therapeutics-announces-acceptance-of-212pb-vmt01-data-for-presentation-at-sitc-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -5000,6 +5176,140 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 18762,
+  "company": {
+   "ticker": "ASMB",
+   "name": "Assembly Biosciences",
+   "last_price": "22.51",
+   "market_cap": 458927840,
+   "website": "https://www.assemblybio.com"
+  },
+  "ticker": "ASMB",
+  "drug_name": "ABI-6250",
+  "indications": [
+   {
+    "id": 712,
+    "title": "Hepatitis D",
+    "nickname": "HDV "
+   },
+   {
+    "id": 1097,
+    "title": "Hepatitis Delta Virus",
+    "nickname": "HDV"
+   },
+   {
+    "id": 1191,
+    "title": "Liver disease",
+    "nickname": ""
+   },
+   {
+    "id": 803,
+    "title": "Liver infection",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Chronic hepatitis delta virus (HDV) ",
+  "stage_event": {
+   "id": 110,
+   "label": "Phase 1a Data readout",
+   "stage_label": "Phase 1a",
+   "event_label": "Data readout"
+  },
+  "note": "ABI-6250-101 trial. 2/26/25- First patient dosed. 8/6/25- Interim Ph1a data reported. 11/10/25- Preparing for Ph2 study. 03/19/26:- Phase 1a data poster at EASL May 27\u201330, 2026; Phase 2 initiation planned by End-2026. 05/07/26:- Chronic toxicology completed supporting Phase 2 dosing; Phase 2 initiation in chronic HDV expected Q4 2026. 05/22/26:- Held pre-IND FDA meeting; plans Ph2 HDV Q4 2026 and Ph2 PBC/PSC Q1 2027. 08/13/26:- Topline Ph1a data presented at EASL 2026. Ph2 chronic HDV study will initiate by Year-End 2026. 10/05/26:- AASLD 2026 poster presents new Ph1a data Nov 7, 2026. Ph2 HDV planned Q4 2026.",
+  "catalyst_date": "2026-11-07",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374725/16259/en/assembly-biosciences-to-present-positive-phase-1a-safety-tolerability-and-target-engagement-data-for-abi-6250-at-aasld-the-liver-meeting-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20447,
+  "company": {
+   "ticker": "ASMB",
+   "name": "Assembly Biosciences",
+   "last_price": "22.51",
+   "market_cap": 458927840,
+   "website": "https://www.assemblybio.com"
+  },
+  "ticker": "ASMB",
+  "drug_name": "ABI-6250 (NTCP Inhibitor)",
+  "indications": [
+   {
+    "id": 999,
+    "title": "Primary biliary cholangitis",
+    "nickname": ""
+   },
+   {
+    "id": 787,
+    "title": "Primary sclerosing cholangitis",
+    "nickname": "PSC"
+   }
+  ],
+  "indications_text": "Primary Biliary Cholangitis And Primary Sclerosing Cholangitis",
+  "stage_event": {
+   "id": 110,
+   "label": "Phase 1a Data readout",
+   "stage_label": "Phase 1a",
+   "event_label": "Data readout"
+  },
+  "note": "05/22/26:- Plans Phase 2 basket study in PBC/PSC expected to start in Q1 2027. 08/13/26:- ABI-6250 expanded into PBC and PSC. Phase 2 study is expected to initiate in Q1 2027. 10/05/26:- AASLD 2026 poster presents new Ph1a data Nov 7, 2026. Ph2 PBC/PSC planned Q1 2027.",
+  "catalyst_date": "2026-11-07",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374725/16259/en/assembly-biosciences-to-present-positive-phase-1a-safety-tolerability-and-target-engagement-data-for-abi-6250-at-aasld-the-liver-meeting-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -5653,7 +5963,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "63.68",
+   "last_price": "63.71",
    "market_cap": 9119936512,
    "website": "https://www.cytokinetics.com"
   },
@@ -5953,7 +6263,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "19.68",
+   "last_price": "19.75",
    "market_cap": 3437495296,
    "website": "https://acadia.com"
   },
@@ -6129,7 +6439,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "4.81",
+   "last_price": "4.84",
    "market_cap": 988262656,
    "website": "https://www.savarapharma.com"
   },
@@ -6357,7 +6667,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "30.66",
+   "last_price": "30.93",
    "market_cap": 5382745088,
    "website": "https://www.cogentbio.com"
   },
@@ -6600,7 +6910,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "501.69",
+   "last_price": "504.56",
    "market_cap": 127929335808,
    "website": "https://www.vrtx.com"
   },
@@ -6657,7 +6967,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "725.16",
+   "last_price": "735.20",
    "market_cap": 75692515328,
    "website": "https://www.regeneron.com"
   },
@@ -7040,6 +7350,53 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-25",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 16625,
   "company": {
    "ticker": "N/A",
@@ -7325,53 +7682,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16762,
   "company": {
    "ticker": "ACLX",
@@ -7552,7 +7862,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "30.66",
+   "last_price": "30.93",
    "market_cap": 5382745088,
    "website": "https://www.cogentbio.com"
   },
@@ -8289,7 +8599,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "58.87",
+   "last_price": "58.90",
    "market_cap": 124912001024,
    "website": "https://www.bms.com"
   },
@@ -8758,7 +9068,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "197.21",
+   "last_price": "200.95",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -10301,7 +10611,7 @@
   "company": {
    "ticker": "RIGL",
    "name": "Rigel Pharmaceuticals",
-   "last_price": "47.90",
+   "last_price": "48.17",
    "market_cap": 880755648,
    "website": "https://www.rigel.com"
   },
@@ -13094,7 +13404,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1149.05",
+   "last_price": "1155.19",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -13414,7 +13724,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "197.21",
+   "last_price": "200.95",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -13972,7 +14282,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "24.84",
+   "last_price": "25.61",
    "market_cap": 1846938496,
    "website": "https://www.xencor.com"
   },
@@ -14924,7 +15234,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "31.11",
+   "last_price": "31.12",
    "market_cap": 1898519680,
    "website": "https://www.agios.com"
   },
@@ -16201,7 +16511,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "24.84",
+   "last_price": "25.61",
    "market_cap": 1846938496,
    "website": "https://www.xencor.com"
   },
@@ -16501,7 +16811,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "197.21",
+   "last_price": "200.95",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -19075,7 +19385,7 @@
   "company": {
    "ticker": "FBIO",
    "name": "Fortress Biotech",
-   "last_price": "2.08",
+   "last_price": "2.13",
    "market_cap": 67702512,
    "website": "https://www.fortressbiotech.com"
   },
@@ -21152,7 +21462,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "197.21",
+   "last_price": "200.95",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -23174,7 +23484,7 @@
   "company": {
    "ticker": "ONCY",
    "name": "Oncolytics Biotech",
-   "last_price": "0.61",
+   "last_price": "0.59",
    "market_cap": 80459128,
    "website": "https://oncolyticsbiotech.com"
   },
@@ -23583,7 +23893,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "260.87",
+   "last_price": "263.82",
    "market_cap": 464433774592,
    "website": "https://www.abbvie.com"
   },
@@ -25695,7 +26005,7 @@
   "company": {
    "ticker": "AMGN",
    "name": "Amgen",
-   "last_price": "401.15",
+   "last_price": "402.36",
    "market_cap": 217896321024,
    "website": "https://www.amgen.com"
   },
@@ -26228,7 +26538,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "22.54",
+   "last_price": "22.75",
    "market_cap": 440642720,
    "website": "https://tectonictx.com"
   },
@@ -28236,7 +28546,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.87",
+   "last_price": "0.89",
    "market_cap": 239696896,
    "website": "https://www.akebia.com"
   },
@@ -28578,7 +28888,7 @@
   "company": {
    "ticker": "AKTS",
    "name": "Aktis Oncology",
-   "last_price": "18.52",
+   "last_price": "18.39",
    "market_cap": 1030073152,
    "website": "https://www.aktisoncology.com"
   },
@@ -29084,7 +29394,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "58.87",
+   "last_price": "58.90",
    "market_cap": 124912001024,
    "website": "https://www.bms.com"
   },
@@ -29999,7 +30309,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "13.67",
+   "last_price": "12.96",
    "market_cap": 755188352,
    "website": "https://www.4dmoleculartherapeutics.com"
   },
@@ -30413,7 +30723,7 @@
   "company": {
    "ticker": "PCVX",
    "name": "Vaxcyte",
-   "last_price": "74.28",
+   "last_price": "73.73",
    "market_cap": 8404521984,
    "website": "https://vaxcyte.com"
   },
@@ -31157,7 +31467,7 @@
   "company": {
    "ticker": "PCVX",
    "name": "Vaxcyte",
-   "last_price": "74.28",
+   "last_price": "73.73",
    "market_cap": 8404521984,
    "website": "https://vaxcyte.com"
   },
@@ -32632,7 +32942,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "24.84",
+   "last_price": "25.61",
    "market_cap": 1846938496,
    "website": "https://www.xencor.com"
   },
@@ -34065,7 +34375,7 @@
   "company": {
    "ticker": "ELOX",
    "name": "Eloxx Pharmaceuticals",
-   "last_price": "15.93",
+   "last_price": "16.23",
    "market_cap": 62605480,
    "website": "https://www.eloxxpharma.com"
   },
@@ -34737,7 +35047,7 @@
   "company": {
    "ticker": "ALGS",
    "name": "Aligos Therapeutics Inc.",
-   "last_price": "5.54",
+   "last_price": "5.51",
    "market_cap": 34594852,
    "website": "https://www.aligos.com"
   },
@@ -35989,10 +36299,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "EPPIK trial. Presentation at ASN 11/4/23. 10/30/25:- PR No update. 02/19/26:- SPARX Study of FILSPARI in post-transplant recurrent IgAN or FSGS is actively enrolling; additional evidence generation planned in 2026. 05/04/26:- SPARX study on track to complete enrollment in Q2 2026; real-world FILSPARI combo data at NKF. 08/04/26:- SPARX enrollment completed. Data presentations anticipated in 2027.",
+  "note": "EPPIK trial. Presentation at ASN 11/4/23. 10/30/25:- PR No update. 02/19/26:- SPARX Study of FILSPARI in post-transplant recurrent IgAN or FSGS is actively enrolling; additional evidence generation planned in 2026. 05/04/26:- SPARX study on track to complete enrollment in Q2 2026; real-world FILSPARI combo data at NKF. 08/04/26:- SPARX enrollment completed. Data presentations anticipated in 2027. 10/01/26:- Multiple sparsentan glomerular-disease mechanistic analyses scheduled for ASN 2026, Oct 21-25.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260804067885/en/Travere-Therapeutics-Reports-Second-Quarter-2026-Financial-Results",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62134612/travere-present-new-data-supporting-filspari-sparsentan-foundational-treatment-iga-nephropathy-and-f",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -37807,6 +38117,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 19447,
+  "company": {
+   "ticker": "PRME",
+   "name": "Prime Medicine",
+   "last_price": "2.92",
+   "market_cap": 540503040,
+   "website": "https://primemedicine.com"
+  },
+  "ticker": "PRME",
+  "drug_name": "PM577 (Prime Editing Therapy)",
+  "indications": [
+   {
+    "id": 1038,
+    "title": "Wilson's disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Wilson's Disease",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "11/07/25:- New preclinical WD data for PM577 to be presented at AASLD. Company expects IND/CTA filing for WD program in H1 2026 and initial clinical data from the first trial in 2027. 03/03/26:- Company reiterates plan to submit WD IND/CTA in H1 2026 with initial clinical data expected in 2027. 05/07/26:- PM577 WD IND/CTA on track for H1 2026; new preclinical data at ASGCT 2026. 06/18/26:- NZ Medsafe cleared CTA for PM577a. Ph1/2 trial initiation expected in H2 2026. Initial clinical data expected in 2027. 07/23/26:- FDA cleared IND for PM577a. Ph1/2 trial initiation expected in H2 2026; initial clinical data 2027. 08/06/26:- Global Ph1/2 study startup underway; initiation expected H2 2026, with initial data in 2027. 10/05/26:- First patient dosed in global Ph1/2 trial; initial clinical data expected 2027. RPD granted.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374466/0/en/prime-medicine-announces-first-patient-dosed-in-global-phase-1-2-clinical-trial-of-pm577a-for-h1069q-mutated-wilson-disease.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 19456,
   "company": {
    "ticker": "IRON",
@@ -38386,7 +38753,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.87",
+   "last_price": "0.89",
    "market_cap": 239696896,
    "website": "https://www.akebia.com"
   },
@@ -38453,7 +38820,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.87",
+   "last_price": "0.89",
    "market_cap": 239696896,
    "website": "https://www.akebia.com"
   },
@@ -38872,7 +39239,7 @@
   "company": {
    "ticker": "PCVX",
    "name": "Vaxcyte",
-   "last_price": "74.28",
+   "last_price": "73.73",
    "market_cap": 8404521984,
    "website": "https://vaxcyte.com"
   },
@@ -39435,10 +39802,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "05/06/26:- Open-label IgA nephropathy studies expected to begin generating clinical data in 2027. 08/06/26:- IgAN open-label proof-of-concept data remain expected in 2027.",
+  "note": "05/06/26:- Open-label IgA nephropathy studies expected to begin generating clinical data in 2027. 08/06/26:- IgAN open-label proof-of-concept data remain expected in 2027. 10/02/26:- Kidney Week 2026 poster on Oct 22 presents izicopan kidney disease model data.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340145/0/en/inflarx-reports-second-quarter-2026-results-and-highlights-key-achievements-and-expected-milestones.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62129700/inflarx-present-late-breaking-pre-clinical-data-izicopan-kidney-week-2026",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -39824,7 +40191,7 @@
   "company": {
    "ticker": "AKTS",
    "name": "Aktis Oncology",
-   "last_price": "18.52",
+   "last_price": "18.39",
    "market_cap": 1030073152,
    "website": "https://www.aktisoncology.com"
   },
@@ -40248,10 +40615,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "08/06/26:- aHUS open-label proof-of-concept data expected in 2027.",
+  "note": "08/06/26:- aHUS open-label proof-of-concept data expected in 2027. 10/02/26:- Kidney Week 2026 poster on Oct 22 presents izicopan kidney disease model data.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3335945/0/en/inflarx-to-report-second-quarter-2026-results-on-august-6-2026.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62129700/inflarx-present-late-breaking-pre-clinical-data-izicopan-kidney-week-2026",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -40305,10 +40672,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "08/06/26:- C3G open-label proof-of-concept data expected in 2027.",
+  "note": "08/06/26:- C3G open-label proof-of-concept data expected in 2027. 10/02/26:- Kidney Week 2026 poster on Oct 22 presents izicopan kidney disease model data.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3335945/0/en/inflarx-to-report-second-quarter-2026-results-on-august-6-2026.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62129700/inflarx-present-late-breaking-pre-clinical-data-izicopan-kidney-week-2026",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -40513,7 +40880,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1149.05",
+   "last_price": "1155.19",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -41883,7 +42250,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "22.54",
+   "last_price": "22.75",
    "market_cap": 440642720,
    "website": "https://tectonictx.com"
   },
@@ -45418,68 +45785,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/05/01/3285832/0/en/maplight-therapeutics-announces-completion-of-enrollment-in-zephyr-phase-2-trial-and-updates-expected-timing-of-topline-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 19704,
-  "company": {
-   "ticker": "LLY",
-   "name": "Eli Lilly & Company",
-   "last_price": "1149.05",
-   "market_cap": 965262180352,
-   "website": "https://www.lilly.com"
-  },
-  "ticker": "LLY",
-  "drug_name": "Taltz + Zepbound (Combination Therapy)",
-  "indications": [
-   {
-    "id": 1027,
-    "title": "Obesity",
-    "nickname": ""
-   },
-   {
-    "id": 1023,
-    "title": "Psoriasis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Plaque Psoriasis With Obesity Or Overweight",
-  "stage_event": {
-   "id": 80,
-   "label": "Phase 3 Update",
-   "stage_label": "Phase 3",
-   "event_label": "Update"
-  },
-  "note": "01/08/26:- TOGETHER-PsO Ph3b trial in psoriasis with obesity; topline results in H1 2026. 02/18/26:- TOGETHER-PsO Ph3b 36-week topline met primary and key secondary endpoints; detailed results to follow. 08/31/26:- TOGETHER-PsO Ph3b 52-week results reported; benefits maintained vs Taltz alone.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/new-phase-3b-data-on-lillys-taltz-ixekizumab-and-zepbound-tirzepatide-used-together-showed-improved-and-durable-efficacy-at-one-year-in-adults-with-psoriatic-disease-and-obesity-302864391.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

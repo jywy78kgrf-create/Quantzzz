@@ -4,7 +4,7 @@
   "company": {
    "ticker": "SXTP",
    "name": "60 Degree Pharmaceuticals ",
-   "last_price": "1.49",
+   "last_price": "1.46",
    "market_cap": 4888613,
    "website": "https://www.60degreespharma.com"
   },
@@ -61,7 +61,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.32",
+   "last_price": "7.36",
    "market_cap": 478102080,
    "website": "https://www.arvinas.com"
   },
@@ -123,7 +123,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "23.63",
+   "last_price": "23.19",
    "market_cap": 2089054720,
    "website": "https://mineralystx.com"
   },
@@ -185,7 +185,7 @@
   "company": {
    "ticker": "VRCA",
    "name": "Verrica Pharmaceuticals",
-   "last_price": "4.41",
+   "last_price": "4.31",
    "market_cap": 75243096,
    "website": "https://www.verrica.com"
   },
@@ -299,7 +299,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "144.30",
+   "last_price": "139.70",
    "market_cap": 356012851200,
    "website": "https://www.merck.com"
   },
@@ -433,7 +433,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "62.82",
+   "last_price": "62.67",
    "market_cap": 9067124736,
    "website": "https://arrowheadpharma.com"
   },
@@ -1773,6 +1773,68 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 17441,
+  "company": {
+   "ticker": "MLYS",
+   "name": "Mineralys Therapeutics",
+   "last_price": "23.19",
+   "market_cap": 2089054720,
+   "website": "https://mineralystx.com"
+  },
+  "ticker": "MLYS",
+  "drug_name": "Lorundrostat",
+  "indications": [
+   {
+    "id": 1057,
+    "title": "Chronic kidney disease",
+    "nickname": ""
+   },
+   {
+    "id": 2188,
+    "title": "Hypertension",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Hypertension and comorbid chronic kidney disease (CKD)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "11/10/25:- Positive topline Phase 2 Explore-CKD data reiterated; supports lorundrostat opportunity in chronic kidney disease comorbid hypertension. 03/12/26:- Lorundrostat development in CKD comorbid hypertension reiterated; no new CKD-specific clinical milestones disclosed. 05/06/26:- CKD comorbid hypertension focus reiterated; no new lorundrostat CKD clinical data or trial milestones disclosed. 05/18/26:- Launch-HTN (NCT06153693) Phase 3 CKD results presented at ESH 2026 on May 30, 2026. 05/30/26:- Post hoc Launch-HTN CKD analysis showed significant SBP and UACR reductions; safety favorable. 08/11/26:- CKD comorbidity focus reiterated; no CKD-specific clinical milestone disclosed. 09/23/26:- Transform-HTN extension includes Explore-CKD completers; long-term data presentation at AHA 2026 on November 8, 2026. 10/02/26:- Launch-HTN CKD stages 1-3 data to be presented at ASN Kidney Week Oct 21-25, 2026.",
+  "catalyst_date": "2026-10-21",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62148308/mineralys-therapeutics-announces-presentation-new-lorundrostat-data-american-society-nephrology-asn-",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 13613,
   "company": {
    "ticker": "IDYA",
@@ -2537,6 +2599,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 19097,
+  "company": {
+   "ticker": "CELC",
+   "name": "Celcuity",
+   "last_price": "72.10",
+   "market_cap": 3527990528,
+   "website": "https://www.celcuity.com"
+  },
+  "ticker": "CELC",
+  "drug_name": "Gedatolisib + darolutamide (Nubeqa\u00ae)",
+  "indications": [
+   {
+    "id": 1128,
+    "title": "Castration-resistant prostate cancer",
+    "nickname": "CRPC"
+   }
+  ],
+  "indications_text": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+  "stage_event": {
+   "id": 122,
+   "label": "Phase 1b Data readout",
+   "stage_label": "Phase 1b",
+   "event_label": "Data readout"
+  },
+  "note": "05/14/26:- PR No update. 08/13/26:- Ph1b 240 mg evaluation completed; 300 mg evaluation is ongoing. Updated data and strategy will be provided in Q4 2026. 10/05/26:- CELC-G-201 Ph1/2 geda+darolutamide subgroup poster at ESMO 2026 on October 23, 2026.",
+  "catalyst_date": "2026-10-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374475/0/en/celcuity-announces-multiple-presentations-at-the-european-society-for-medical-oncology-esmo-congress-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 19825,
   "company": {
    "ticker": "IOVA",
@@ -3166,7 +3285,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "194.62",
+   "last_price": "197.21",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -3647,7 +3766,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "194.62",
+   "last_price": "197.21",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -3704,7 +3823,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "194.62",
+   "last_price": "197.21",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -4671,7 +4790,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "15.09",
+   "last_price": "14.58",
    "market_cap": 971764864,
    "website": "https://www.adlainortye.com"
   },
@@ -4843,44 +4962,44 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 17441,
+  "id": 16019,
   "company": {
-   "ticker": "MLYS",
-   "name": "Mineralys Therapeutics",
-   "last_price": "23.63",
-   "market_cap": 2089054720,
-   "website": "https://mineralystx.com"
+   "ticker": "MDNAF",
+   "name": "Medicenna Therapeutics",
+   "last_price": "0.27",
+   "market_cap": 25013354,
+   "website": "https://www.medicenna.com"
   },
-  "ticker": "MLYS",
-  "drug_name": "Lorundrostat",
+  "ticker": "MDNAF",
+  "drug_name": "MDNA11 (IL-2)",
   "indications": [
    {
-    "id": 1057,
-    "title": "Chronic kidney disease",
+    "id": 911,
+    "title": "Cancer",
     "nickname": ""
    },
    {
-    "id": 2188,
-    "title": "Hypertension",
+    "id": 1044,
+    "title": "Cold tumors",
     "nickname": ""
    }
   ],
-  "indications_text": "Hypertension and comorbid chronic kidney disease (CKD)",
+  "indications_text": "Cold tumors",
   "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "11/10/25:- Positive topline Phase 2 Explore-CKD data reiterated; supports lorundrostat opportunity in chronic kidney disease comorbid hypertension. 03/12/26:- Lorundrostat development in CKD comorbid hypertension reiterated; no new CKD-specific clinical milestones disclosed. 05/06/26:- CKD comorbid hypertension focus reiterated; no new lorundrostat CKD clinical data or trial milestones disclosed. 05/18/26:- Launch-HTN (NCT06153693) Phase 3 CKD results presented at ESH 2026 on May 30, 2026. 05/30/26:- Post hoc Launch-HTN CKD analysis showed significant SBP and UACR reductions; safety favorable. 08/11/26:- CKD comorbidity focus reiterated; no CKD-specific clinical milestone disclosed. 09/23/26:- Transform-HTN extension includes Explore-CKD completers; long-term data presentation at AHA 2026 on November 8, 2026.",
-  "catalyst_date": "2026-11-08",
+  "note": "06/26/26:- ABILITY-1 enrollment completes Q3 2026. ABILITY-1 and NEO-CYT data expected H2 2026. 08/14/26:- ABILITY-1 enrollment is expected to complete in Q3 2026. Updated ABILITY-1 data will be presented at an upcoming conference. NEO-CYT preliminary data is expected in Q4 2026. 10/05/26:- ABILITY-1 topline data slated for SITC oral talk on November 7, 2026.",
+  "catalyst_date": "2026-11-07",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/23/3367839/0/en/mineralys-therapeutics-transform-htn-open-label-extension-trial-data-selected-for-late-breaking-presentation-at-american-heart-association-scientific-sessions-2026.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62160685/medicenna-announces-oral-presentation-topline-data-phase-1-2-ability-1-study-mdna11-sitc-2026",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
+  "is_high_mgmt_interest": true,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -5277,6 +5396,68 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 17800,
+  "company": {
+   "ticker": "AUTL",
+   "name": "Autolus Therapeutics",
+   "last_price": "1.75",
+   "market_cap": 473769312,
+   "website": "https://www.autolus.com"
+  },
+  "ticker": "AUTL",
+  "drug_name": "obe-cel  (AUTO1) (CD19) ",
+  "indications": [
+   {
+    "id": 1272,
+    "title": "Autoimmune disease",
+    "nickname": ""
+   },
+   {
+    "id": 1376,
+    "title": "Systemic lupus erythematosus",
+    "nickname": "SLE, Lupus"
+   }
+  ],
+  "indications_text": "Systemic lupus erythematosus",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "05/14/26:- CARLYSLE supported 50M-cell Phase 2 dose; longer-term SLE data expected by YE 2026. 08/11/26:- CARLYSLE SLE data submitted for ACR Q4 2026; longer follow-up expected by YE 2026. 09/09/26:- FDA granted RMAT designation for obe-cel in SLE and LN. 10/05/26:- Updated Ph1 CARLYSLE poster at ACR Convergence Nov 10, 2026.",
+  "catalyst_date": "2026-11-10",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62159667/autolus-therapeutics-present-longer-term-follow-data-carlysle-trial-american-college-rheumatology-co",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 19231,
   "company": {
    "ticker": "KTTA",
@@ -5472,7 +5653,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "65.60",
+   "last_price": "63.68",
    "market_cap": 9119936512,
    "website": "https://www.cytokinetics.com"
   },
@@ -5591,7 +5772,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "4.09",
+   "last_price": "4.20",
    "market_cap": 794336576,
    "website": "https://www.annexonbio.com"
   },
@@ -5829,7 +6010,7 @@
   "company": {
    "ticker": "APRE",
    "name": "Aprea Therapeutics",
-   "last_price": "0.66",
+   "last_price": "0.67",
    "market_cap": 8750839,
    "website": "https://aprea.com"
   },
@@ -5911,10 +6092,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "HOPE-2/HOPE-3 trials. 3/4/25- BLA accepted & priority review. PDUFA date August 31, 2025. 7/11/25- CRL received. 9/9/25- Responded to FDA CRL posting. 9/25/25- HOPE-3 trial completed. 12/3/25\u2013 HOPE-3 met primary and key cardiac endpoints. 01/20/26:- FDA requested HOPE-3 CSR; company plans BLA resubmission in February 2026 to enable new PDUFA. 02/24/26:- HOPE-3 CSR submitted; FDA BLA review ongoing. Detailed HOPE-3 results to be presented at MDA on March 11, 2026. 03/10/26:- FDA resumed BLA review; Class 2 resubmission. PDUFA action date set for August 22, 2026. 03/12/26:- HOPE-3 late-breaking MDA 2026 data show significant functional and cardiac benefits; BLA review ongoing, PDUFA August 22, 2026. 04/22/26:- HOPE-3 Phase 3 data presented at AAN 2026. PDUFA action date remains August 22, 2026. 05/12/26:- PDUFA August 22, 2026 confirmed; labeling talks expected soon; HOPE-3 data strengthened cardiac and functional outcomes. 06/26/26:- Five-year HOPE-2 OLE data presented at PPMD June 27. PDUFA action date remains August 22, 2026. 07/27/26:- FDA Adcomm upcoming for Deramiocel BLA; company defends HOPE-3 analysis. PDUFA Aug 22, 2026. 07/30/26:- Adcomm voted 9-3 against cardiomyopathy effectiveness; PDUFA remains August 22, 2026. 08/13/26:- HOPE-3 results were published; BLA remains under FDA review. PDUFA decision will occur August 22, 2026. 08/24/26:- PDUFA action date updated to November 22, 2026 after additional Phase 3 HOPE-3 analyses. 09/17/26:- HOPE-3 OLE delayed-start and natural history analyses to be presented at WMS 2026 Sep 29-Oct 3.",
+  "note": "HOPE-2/HOPE-3 trials. 3/4/25- BLA accepted & priority review. PDUFA date August 31, 2025. 7/11/25- CRL received. 9/9/25- Responded to FDA CRL posting. 9/25/25- HOPE-3 trial completed. 12/3/25\u2013 HOPE-3 met primary and key cardiac endpoints. 01/20/26:- FDA requested HOPE-3 CSR; company plans BLA resubmission in February 2026 to enable new PDUFA. 02/24/26:- HOPE-3 CSR submitted; FDA BLA review ongoing. Detailed HOPE-3 results to be presented at MDA on March 11, 2026. 03/10/26:- FDA resumed BLA review; Class 2 resubmission. PDUFA action date set for August 22, 2026. 03/12/26:- HOPE-3 late-breaking MDA 2026 data show significant functional and cardiac benefits; BLA review ongoing, PDUFA August 22, 2026. 04/22/26:- HOPE-3 Phase 3 data presented at AAN 2026. PDUFA action date remains August 22, 2026. 05/12/26:- PDUFA August 22, 2026 confirmed; labeling talks expected soon; HOPE-3 data strengthened cardiac and functional outcomes. 06/26/26:- Five-year HOPE-2 OLE data presented at PPMD June 27. PDUFA action date remains August 22, 2026. 07/27/26:- FDA Adcomm upcoming for Deramiocel BLA; company defends HOPE-3 analysis. PDUFA Aug 22, 2026. 07/30/26:- Adcomm voted 9-3 against cardiomyopathy effectiveness; PDUFA remains August 22, 2026. 08/13/26:- HOPE-3 results were published; BLA remains under FDA review. PDUFA decision will occur August 22, 2026. 08/24/26:- PDUFA action date updated to November 22, 2026 after additional Phase 3 HOPE-3 analyses. 09/17/26:- HOPE-3 OLE delayed-start and natural history analyses to be presented at WMS 2026 Sep 29-Oct 3. 10/05/26:- 24-mo HOPE-3 OLE PUL 2.0 data positive; PDUFA target remains November 22, 2026.",
   "catalyst_date": "2026-11-22",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/17/3363985/0/en/capricor-therapeutics-to-present-hope-3-and-hope-3-open-label-extension-data-at-2026-world-muscle-society-congress.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374601/0/en/capricor-therapeutics-presents-positive-hope-3-open-label-extension-data-on-upper-limb-function-in-duchenne-muscular-dystrophy-at-2026-world-muscle-society-congress.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -6025,10 +6206,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "03/30/26:- NDA submitted; FORTIFY Phase 3 interim met endpoints; U.S. launch expected late 2026/early 2027. 05/27/26:- NDA accepted for Priority Review; PDUFA set for November 27, 2026.",
+  "note": "03/30/26:- NDA submitted; FORTIFY Phase 3 interim met endpoints; U.S. launch expected late 2026/early 2027. 05/27/26:- NDA accepted for Priority Review; PDUFA set for November 27, 2026. 10/05/26:- Exploratory FORTIFY Month 12 cardiac data presented; PDUFA November 27, 2026 reiterated.",
   "catalyst_date": "2026-11-27",
   "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/05/g52802425/bridgebio-announces-fda-acceptance-and-priority-review-of-nda-for-bbp-418-for-lgmd2ir9",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62158031/bbp-418-demonstrates-potential-be-disease-modifying-therapy-restoring-cardiac-and-disease-markers-un",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -6419,7 +6600,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "498.56",
+   "last_price": "501.69",
    "market_cap": 127929335808,
    "website": "https://www.vrtx.com"
   },
@@ -7091,7 +7272,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "23.63",
+   "last_price": "23.19",
    "market_cap": 2089054720,
    "website": "https://mineralystx.com"
   },
@@ -7111,10 +7292,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "11/10/25:- Planning NDA submission for lorundrostat in hypertension in late 2025, with possible window into Q1 2026. 03/09/26:- FDA accepted NDA; PDUFA action date set for December 22, 2026. 03/12/26:- NDA acceptance and December 22, 2026 PDUFA date reiterated; Transform-HTN open-label extension trial ongoing. 05/06/26:- NDA acceptance and December 22, 2026 PDUFA date reiterated; Transform-HTN OLE and pre-commercial launch activities ongoing. 05/30/26:- ESH 2026 presented Launch-HTN CKD subgroup efficacy and safety; PDUFA date reiterated for December 22, 2026. 06/08/26:- Late-breaking ENDO 2026 poster June 14 shows post hoc proteomic biomarkers from Launch-HTN and Advance-HTN. 06/14/26:- ENDO 2026 proteomic analysis showed HF biomarker reductions; PDUFA remains December 22, 2026. 08/11/26:- FDA review continues; PDUFA decision remains December 22, 2026. Transform-HTN OLE continues; sales organization will be established before PDUFA. 09/23/26:- Long-term Transform-HTN extension efficacy and safety data presented at AHA 2026 on November 8, 2026. 10/01/26:- Launch-HTN BP responder poster at AHA Hypertension Sessions on Oct 9, 2026.",
+  "note": "11/10/25:- Planning NDA submission for lorundrostat in hypertension in late 2025, with possible window into Q1 2026. 03/09/26:- FDA accepted NDA; PDUFA action date set for December 22, 2026. 03/12/26:- NDA acceptance and December 22, 2026 PDUFA date reiterated; Transform-HTN open-label extension trial ongoing. 05/06/26:- NDA acceptance and December 22, 2026 PDUFA date reiterated; Transform-HTN OLE and pre-commercial launch activities ongoing. 05/30/26:- ESH 2026 presented Launch-HTN CKD subgroup efficacy and safety; PDUFA date reiterated for December 22, 2026. 06/08/26:- Late-breaking ENDO 2026 poster June 14 shows post hoc proteomic biomarkers from Launch-HTN and Advance-HTN. 06/14/26:- ENDO 2026 proteomic analysis showed HF biomarker reductions; PDUFA remains December 22, 2026. 08/11/26:- FDA review continues; PDUFA decision remains December 22, 2026. Transform-HTN OLE continues; sales organization will be established before PDUFA. 09/23/26:- Long-term Transform-HTN extension efficacy and safety data presented at AHA 2026 on November 8, 2026. 10/01/26:- Launch-HTN BP responder poster at AHA Hypertension Sessions on Oct 9, 2026. 10/02/26:- Additional Launch-HTN data will be presented at ASN Kidney Week Oct 21-25, 2026.",
   "catalyst_date": "2026-12-22",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/01/3373386/0/en/mineralys-therapeutics-announces-presentation-of-lorundrostat-data-at-american-heart-association-hypertension-scientific-sessions-2026.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62148308/mineralys-therapeutics-announces-presentation-new-lorundrostat-data-american-society-nephrology-asn-",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -7141,6 +7322,53 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-25",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -7320,53 +7548,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16002,
   "company": {
    "ticker": "COGT",
@@ -7495,7 +7676,7 @@
   "company": {
    "ticker": "APVO",
    "name": "Aptevo Therapeutics",
-   "last_price": "1.77",
+   "last_price": "1.78",
    "market_cap": 3185978,
    "website": "https://aptevotherapeutics.com"
   },
@@ -7897,7 +8078,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "4.09",
+   "last_price": "4.20",
    "market_cap": 794336576,
    "website": "https://www.annexonbio.com"
   },
@@ -8108,7 +8289,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "58.36",
+   "last_price": "58.87",
    "market_cap": 124912001024,
    "website": "https://www.bms.com"
   },
@@ -8577,7 +8758,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "194.62",
+   "last_price": "197.21",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -8911,68 +9092,6 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260729465503/en/Corcept-Therapeutics-Announces-Second-Quarter-Financial-Results-and-Provides-Corporate-Update",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 16019,
-  "company": {
-   "ticker": "MDNAF",
-   "name": "Medicenna Therapeutics",
-   "last_price": "0.27",
-   "market_cap": 25013354,
-   "website": "https://www.medicenna.com"
-  },
-  "ticker": "MDNAF",
-  "drug_name": "MDNA11 (IL-2)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1044,
-    "title": "Cold tumors",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Cold tumors",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "06/26/26:- ABILITY-1 enrollment completes Q3 2026. ABILITY-1 and NEO-CYT data expected H2 2026. 08/14/26:- ABILITY-1 enrollment is expected to complete in Q3 2026. Updated ABILITY-1 data will be presented at an upcoming conference. NEO-CYT preliminary data is expected in Q4 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345226/0/en/medicenna-therapeutics-reports-first-quarter-fiscal-2027-financial-results-and-announces-oral-presentations-at-upcoming-conferences.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -9428,7 +9547,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "7.89",
+   "last_price": "7.96",
    "market_cap": 108609960,
    "website": "https://imux.com"
   },
@@ -9457,68 +9576,6 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/immunic-inc-reports-second-quarter-2026-financial-results-and-provides-corporate-update-302847353.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 16222,
-  "company": {
-   "ticker": "VTVT",
-   "name": "vTv Therapeutics",
-   "last_price": "30.57",
-   "market_cap": 120871576,
-   "website": "https://vtvtherapeutics.com"
-  },
-  "ticker": "VTVT",
-  "drug_name": "Cadisegliatin (TTP399) ",
-  "indications": [
-   {
-    "id": 790,
-    "title": "Diabetes",
-    "nickname": ""
-   },
-   {
-    "id": 752,
-    "title": "Type 1 diabetes",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Type 1 diabetes, Diabetes",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "CATT1 (Two Ph3 trials). Collab w/ CinRx Pharma & G42 Investments. 7/29/24- Put on clinical hold. 3/17/25- FDA lifted clinical hold. 8/12/25- Topline data in H2 2026. 11/06/25:- Ph3 CATT1 randomization; reiterated topline data H2 2026. 03/10/26:- Expect CATT1 Ph3 enrollment completion in Q3 2026; runway extends beyond anticipated topline readout. 05/13/26:- CATT1 Ph3 enrollment on track to complete Q3 2026; cash runway through anticipated topline readout. 08/06/26:- CATT1 enrollment Q3 2026; topline H2 2026; Hybrid CATT1 initiation and KOL event before year end 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340194/0/en/vtv-therapeutics-reports-second-quarter-2026-financial-results-and-provides-corporate-update.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -10936,7 +10993,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "11.54",
+   "last_price": "11.47",
    "market_cap": 2370842624,
    "website": "https://sellaslifesciences.com"
   },
@@ -11553,73 +11610,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 17280,
-  "company": {
-   "ticker": "PCVX",
-   "name": "Vaxcyte",
-   "last_price": "79.50",
-   "market_cap": 8404521984,
-   "website": "https://vaxcyte.com"
-  },
-  "ticker": "PCVX",
-  "drug_name": "VAX-31",
-  "indications": [
-   {
-    "id": 937,
-    "title": "Infectious disease",
-    "nickname": ""
-   },
-   {
-    "id": 1387,
-    "title": "Invasive pneumococcal disease",
-    "nickname": "IPD"
-   },
-   {
-    "id": 1238,
-    "title": "Vaccine",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Infectious disease, Invasive pneumococcal disease, Vaccine",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "Adult indication. 10/19/23- IND cleared. 1/5/24- First patient dosed in Ph 2 portion. 9/3/24- Topline Ph1/2 data reported. Met primary endpoints. 8/6/25- Initiate Ph3 non-inferiority study by Q4 2025, topline data in 2026. 11/04/25:- Plan to initiate adult pivotal Ph3 non-inferiority study in December 2025; topline data expected 2026. 12/08/25:- First adults dosed in OPUS Ph3. OPUS topline data Q4 2026; additional Ph3 data 2027. 01/22/26:- OPUS-2 enrolling; OPUS-3 starts Q1 2026; OPUS-1 topline Q4 2026; OPUS-2/3 data H1 2027. 02/11/26:- OPUS-3 Ph3 in previously vaccinated adults now enrolling; OPUS-1 topline Q4 2026, OPUS-2/3 data H1 2027. 02/24/26:- Adult OPUS-1/2/3 Ph3 trials underway with FDA-aligned design; OPUS-1 topline Q4 2026, OPUS-2/3 H1 2027. 03/23/26:- OPUS-1/2 fully enrolled. OPUS-1 topline Q4 2026; OPUS-2/3 results H1 2027. 05/06/26:- All adult OPUS-1/2/3 Ph3 trials fully enrolled; OPUS-1 topline Q4 2026, OPUS-2/3 data H1 2027. 08/05/26:- OPUS trials enrolled with 6,191 adults. OPUS-1 data Q4 2026, OPUS-2/3 H1 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/05/3339693/0/en/vaxcyte-reports-second-quarter-2026-financial-results-and-provides-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -13104,7 +13094,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1145.05",
+   "last_price": "1149.05",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -13363,68 +13353,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 17800,
-  "company": {
-   "ticker": "AUTL",
-   "name": "Autolus Therapeutics",
-   "last_price": "1.75",
-   "market_cap": 473769312,
-   "website": "https://www.autolus.com"
-  },
-  "ticker": "AUTL",
-  "drug_name": "obe-cel  (AUTO1) (CD19) ",
-  "indications": [
-   {
-    "id": 1272,
-    "title": "Autoimmune disease",
-    "nickname": ""
-   },
-   {
-    "id": 1376,
-    "title": "Systemic lupus erythematosus",
-    "nickname": "SLE, Lupus"
-   }
-  ],
-  "indications_text": "Systemic lupus erythematosus",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "05/14/26:- CARLYSLE supported 50M-cell Phase 2 dose; longer-term SLE data expected by YE 2026. 08/11/26:- CARLYSLE SLE data submitted for ACR Q4 2026; longer follow-up expected by YE 2026. 09/09/26:- FDA granted RMAT designation for obe-cel in SLE and LN.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358486/0/en/autolus-therapeutics-announces-fda-rmat-designation-granted-to-obe-cel-for-the-treatment-of-systemic-lupus-erythematosus-and-lupus-nephritis.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 17875,
   "company": {
    "ticker": "WVE",
@@ -13486,7 +13414,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "194.62",
+   "last_price": "197.21",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -15596,7 +15524,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.32",
+   "last_price": "7.36",
    "market_cap": 478102080,
    "website": "https://www.arvinas.com"
   },
@@ -16387,7 +16315,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "62.82",
+   "last_price": "62.67",
    "market_cap": 9067124736,
    "website": "https://arrowheadpharma.com"
   },
@@ -16573,7 +16501,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "194.62",
+   "last_price": "197.21",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -17084,7 +17012,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "62.82",
+   "last_price": "62.67",
    "market_cap": 9067124736,
    "website": "https://arrowheadpharma.com"
   },
@@ -17916,7 +17844,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "33.62",
+   "last_price": "33.12",
    "market_cap": 6944301056,
    "website": "https://immunovant.com"
   },
@@ -18179,10 +18107,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "upLIFT trial. 5/5/25- Breakthrough Therapy Designation. 9/2/25- Alignment with FDA. Study initiated & enrolling patients in U.S. and Europe. Topline data in H2 2026. 01/07/26:- EAP tumor HI data show 75% discontinuing IV dextrose/TPN; upLIFT topline results still expected H2 2026. 02/12/26:- upLIFT Ph3 enrolling; topline results still expected in H2 2026. 05/12/26:- upLIFT Ph3 enrollment continues; topline tumor HI results still expected H2 2026. 06/02/26:- upLIFT 50% enrolled; 6/8 responders; topline still expected H2 2026. 06/04/26:- ENDO Jun 13 poster presents compassionate-use tumor HI case series. Topline upLIFT results still expected H2 2026. 06/17/26:- ENDO poster showed tumor HI EAP case series; interim upLIFT observations discussed; topline still expected H2 2026. 09/09/26:- upLIFT Ph3 enrollment ongoing; topline tumor HI results expected by end of 2026.",
+  "note": "upLIFT trial. 5/5/25- Breakthrough Therapy Designation. 9/2/25- Alignment with FDA. Study initiated & enrolling patients in U.S. and Europe. Topline data in H2 2026. 01/07/26:- EAP tumor HI data show 75% discontinuing IV dextrose/TPN; upLIFT topline results still expected H2 2026. 02/12/26:- upLIFT Ph3 enrolling; topline results still expected in H2 2026. 05/12/26:- upLIFT Ph3 enrollment continues; topline tumor HI results still expected H2 2026. 06/02/26:- upLIFT 50% enrolled; 6/8 responders; topline still expected H2 2026. 06/04/26:- ENDO Jun 13 poster presents compassionate-use tumor HI case series. Topline upLIFT results still expected H2 2026. 06/17/26:- ENDO poster showed tumor HI EAP case series; interim upLIFT observations discussed; topline still expected H2 2026. 09/09/26:- upLIFT Ph3 enrollment ongoing; topline tumor HI results expected by end of 2026. 10/05/26:- upLIFT Phase 3 topline results on track for Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/09/3358488/0/en/rezolute-provides-update-on-fda-review-of-its-phase-3-sunrize-study-results-in-congenital-hyperinsulinism.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374399/0/en/rezolute-announces-fda-recommendation-to-hold-a-pre-bla-meeting-as-a-precursor-to-submitting-a-biologics-license-application-bla-for-congenital-hyperinsulinism.html",
   "is_big_mover": true,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -18563,7 +18491,7 @@
   "company": {
    "ticker": "ALMS",
    "name": "Alumis",
-   "last_price": "6.85",
+   "last_price": "6.90",
    "market_cap": 886631360,
    "website": "https://www.alumis.com"
   },
@@ -19951,63 +19879,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 19097,
-  "company": {
-   "ticker": "CELC",
-   "name": "Celcuity",
-   "last_price": "72.10",
-   "market_cap": 3527990528,
-   "website": "https://www.celcuity.com"
-  },
-  "ticker": "CELC",
-  "drug_name": "Gedatolisib + darolutamide (Nubeqa\u00ae)",
-  "indications": [
-   {
-    "id": 1128,
-    "title": "Castration-resistant prostate cancer",
-    "nickname": "CRPC"
-   }
-  ],
-  "indications_text": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
-  "stage_event": {
-   "id": 122,
-   "label": "Phase 1b Data readout",
-   "stage_label": "Phase 1b",
-   "event_label": "Data readout"
-  },
-  "note": "05/14/26:- PR No update. 08/13/26:- Ph1b 240 mg evaluation completed; 300 mg evaluation is ongoing. Updated data and strategy will be provided in Q4 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344947/0/en/celcuity-inc-reports-release-of-second-quarter-2026-financial-results-and-provides-corporate-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 19110,
   "company": {
    "ticker": "KRYS",
@@ -21110,7 +20981,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.32",
+   "last_price": "7.36",
    "market_cap": 478102080,
    "website": "https://www.arvinas.com"
   },
@@ -21281,7 +21152,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "194.62",
+   "last_price": "197.21",
    "market_cap": 75858812928,
    "website": "https://www.modernatx.com"
   },
@@ -22227,7 +22098,7 @@
   "company": {
    "ticker": "ENTX",
    "name": "Entera Bio Ltd",
-   "last_price": "2.86",
+   "last_price": "2.71",
    "market_cap": 497165984,
    "website": "https://enterabio.com"
   },
@@ -26533,7 +26404,7 @@
   "company": {
    "ticker": "APMD",
    "name": "Apnimed",
-   "last_price": "21.51",
+   "last_price": "21.40",
    "market_cap": 895478080,
    "website": "https://apnimed.com"
   },
@@ -26967,7 +26838,7 @@
   "company": {
    "ticker": "ANVS",
    "name": "Annovis Bio",
-   "last_price": "1.16",
+   "last_price": "1.14",
    "market_cap": 50361288,
    "website": "https://www.annovisbio.com"
   },
@@ -28023,7 +27894,7 @@
   "company": {
    "ticker": "ATYR",
    "name": "aTyr Pharma, Inc",
-   "last_price": "0.28",
+   "last_price": "0.29",
    "market_cap": 28170708,
    "website": "https://atyrpharma.com"
   },
@@ -28214,10 +28085,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "07/30/26:- ASCEND PoC Q1 2027; chemo and sac-TMT combo data Mid-2027; sac-TMT Ph2 underway.",
+  "note": "07/30/26:- ASCEND PoC Q1 2027; chemo and sac-TMT combo data Mid-2027; sac-TMT Ph2 underway. 10/05/26:- Combination evaluation with CR-002 planned; no timing provided.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/07/30/3335951/0/en/crescent-biopharma-reports-second-quarter-2026-financial-results-and-recent-business-highlights.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62158023/crescent-biopharma-announces-fda-clearance-ind-application-cr-002-pd-l1-targeted-topoisomerase-inhib",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -29213,7 +29084,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "58.36",
+   "last_price": "58.87",
    "market_cap": 124912001024,
    "website": "https://www.bms.com"
   },
@@ -29290,10 +29161,10 @@
    "stage_label": "Phase 2/3",
    "event_label": "Data readout"
   },
-  "note": "ALSTARS Trial. 3/19/24- FDA requested additional non-clinical toxicology/pharmacology data before trial initiation. 9/22/25- Trial initiated. 11/12/25- First patient dosed. Topline data readout before H2 2027. 12/09/25:- Dosing of ALS patients commenced in ALSTARS Ph2 trial. 03/16/26:- ALSTARS Ph2 enrolling across ~25 US/Canada sites; ALS biomarker publication 1H 2026; full enrollment targeted H2 2026. 05/12/26:- FDA granted Fast Track for COYA 302 in ALS; ALSTARS Ph2 ongoing (NCT07161999). Topline ALSTARS Ph2 readout guided for Q1 2027; protocol amended to broaden eligibility and increase recruitment; full enrollment and ALS IIT proteomics data expected H2 2026; ALS conference presentations planned June 2026. 06/08/26:- Blinded extension phase initiated in ALSTARS Ph2; placebo patients re-randomized; up to 48 weeks total data. 06/18/26:- ALSTARS Ph2 trial design overview to be presented at ENCALS 2026 on June 24, 2026. 09/15/26:- 100th patient enrolled; full enrollment in coming weeks; topline data expected in Early Q2 2027.",
+  "note": "ALSTARS Trial. 3/19/24- FDA requested additional non-clinical toxicology/pharmacology data before trial initiation. 9/22/25- Trial initiated. 11/12/25- First patient dosed. Topline data readout before H2 2027. 12/09/25:- Dosing of ALS patients commenced in ALSTARS Ph2 trial. 03/16/26:- ALSTARS Ph2 enrolling across ~25 US/Canada sites; ALS biomarker publication 1H 2026; full enrollment targeted H2 2026. 05/12/26:- FDA granted Fast Track for COYA 302 in ALS; ALSTARS Ph2 ongoing (NCT07161999). Topline ALSTARS Ph2 readout guided for Q1 2027; protocol amended to broaden eligibility and increase recruitment; full enrollment and ALS IIT proteomics data expected H2 2026; ALS conference presentations planned June 2026. 06/08/26:- Blinded extension phase initiated in ALSTARS Ph2; placebo patients re-randomized; up to 48 weeks total data. 06/18/26:- ALSTARS Ph2 trial design overview to be presented at ENCALS 2026 on June 24, 2026. 09/15/26:- 100th patient enrolled; full enrollment in coming weeks; topline data expected in Early Q2 2027. 10/05/26:- ALSTARS reached 120 planned enrollment. Topline Week 24 double-blind data still expected Early Q2 2027.",
   "catalyst_date": "2027-05-15",
   "has_catalyst": true,
-  "catalyst_source": "https://edge.prnewswire.com/c/link/?t=0&l=en&o=4519974-1&h=2172710374&u=https%3A%2F%2Fwww.coyatherapeutics.com&a=www.coyatherapeutics.com",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62158737/coya-therapeutics-announces-completion-full-enrollment-phase-2-3-alstars-trial-coya-302-treatment-al",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -30538,6 +30409,73 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 17280,
+  "company": {
+   "ticker": "PCVX",
+   "name": "Vaxcyte",
+   "last_price": "74.28",
+   "market_cap": 8404521984,
+   "website": "https://vaxcyte.com"
+  },
+  "ticker": "PCVX",
+  "drug_name": "VAX-31",
+  "indications": [
+   {
+    "id": 937,
+    "title": "Infectious disease",
+    "nickname": ""
+   },
+   {
+    "id": 1387,
+    "title": "Invasive pneumococcal disease",
+    "nickname": "IPD"
+   },
+   {
+    "id": 1238,
+    "title": "Vaccine",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Infectious disease, Invasive pneumococcal disease, Vaccine",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "Adult indication. 10/19/23- IND cleared. 1/5/24- First patient dosed in Ph 2 portion. 9/3/24- Topline Ph1/2 data reported. Met primary endpoints. 8/6/25- Initiate Ph3 non-inferiority study by Q4 2025, topline data in 2026. 11/04/25:- Plan to initiate adult pivotal Ph3 non-inferiority study in December 2025; topline data expected 2026. 12/08/25:- First adults dosed in OPUS Ph3. OPUS topline data Q4 2026; additional Ph3 data 2027. 01/22/26:- OPUS-2 enrolling; OPUS-3 starts Q1 2026; OPUS-1 topline Q4 2026; OPUS-2/3 data H1 2027. 02/11/26:- OPUS-3 Ph3 in previously vaccinated adults now enrolling; OPUS-1 topline Q4 2026, OPUS-2/3 data H1 2027. 02/24/26:- Adult OPUS-1/2/3 Ph3 trials underway with FDA-aligned design; OPUS-1 topline Q4 2026, OPUS-2/3 H1 2027. 03/23/26:- OPUS-1/2 fully enrolled. OPUS-1 topline Q4 2026; OPUS-2/3 results H1 2027. 05/06/26:- All adult OPUS-1/2/3 Ph3 trials fully enrolled; OPUS-1 topline Q4 2026, OPUS-2/3 data H1 2027. 08/05/26:- OPUS trials enrolled with 6,191 adults. OPUS-1 data Q4 2026, OPUS-2/3 H1 2027. 10/05/26:- OPUS-1 Phase 3 topline positive. OPUS-2/3 results expected H1 2027; BLA submission planned H1 2028.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374299/0/en/vaxcyte-reports-positive-topline-data-from-opus-1-the-pivotal-adult-phase-3-trial-of-vax-31-the-company-s-31-valent-pneumococcal-conjugate-vaccine-candidate.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 17536,
   "company": {
    "ticker": "KROS",
@@ -31100,7 +31038,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "15.09",
+   "last_price": "14.58",
    "market_cap": 971764864,
    "website": "https://www.adlainortye.com"
   },
@@ -31162,7 +31100,7 @@
   "company": {
    "ticker": "ANRO",
    "name": "Alto Neuroscience",
-   "last_price": "24.67",
+   "last_price": "24.16",
    "market_cap": 973204160,
    "website": "https://www.altoneuroscience.com"
   },
@@ -31219,7 +31157,7 @@
   "company": {
    "ticker": "PCVX",
    "name": "Vaxcyte",
-   "last_price": "79.50",
+   "last_price": "74.28",
    "market_cap": 8404521984,
    "website": "https://vaxcyte.com"
   },
@@ -32575,7 +32513,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.32",
+   "last_price": "7.36",
    "market_cap": 478102080,
    "website": "https://www.arvinas.com"
   },
@@ -32865,7 +32803,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "15.09",
+   "last_price": "14.58",
    "market_cap": 971764864,
    "website": "https://www.adlainortye.com"
   },
@@ -33812,7 +33750,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "62.82",
+   "last_price": "62.67",
    "market_cap": 9067124736,
    "website": "https://arrowheadpharma.com"
   },
@@ -33874,7 +33812,7 @@
   "company": {
    "ticker": "VRCA",
    "name": "Verrica Pharmaceuticals",
-   "last_price": "4.41",
+   "last_price": "4.31",
    "market_cap": 75243096,
    "website": "https://www.verrica.com"
   },
@@ -34037,6 +33975,68 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 16222,
+  "company": {
+   "ticker": "VTVT",
+   "name": "vTv Therapeutics",
+   "last_price": "30.57",
+   "market_cap": 120871576,
+   "website": "https://vtvtherapeutics.com"
+  },
+  "ticker": "VTVT",
+  "drug_name": "Cadisegliatin (TTP399) ",
+  "indications": [
+   {
+    "id": 790,
+    "title": "Diabetes",
+    "nickname": ""
+   },
+   {
+    "id": 752,
+    "title": "Type 1 diabetes",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Type 1 diabetes, Diabetes",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "CATT1 (Two Ph3 trials). Collab w/ CinRx Pharma & G42 Investments. 7/29/24- Put on clinical hold. 3/17/25- FDA lifted clinical hold. 8/12/25- Topline data in H2 2026. 11/06/25:- Ph3 CATT1 randomization; reiterated topline data H2 2026. 03/10/26:- Expect CATT1 Ph3 enrollment completion in Q3 2026; runway extends beyond anticipated topline readout. 05/13/26:- CATT1 Ph3 enrollment on track to complete Q3 2026; cash runway through anticipated topline readout. 08/06/26:- CATT1 enrollment Q3 2026; topline H2 2026; Hybrid CATT1 initiation and KOL event before year end 2026. 10/05/26:- Completed CATT1 enrollment. Topline Ph3 results now expected Mid-2027.",
+  "catalyst_date": "2027-08-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374468/0/en/vtv-therapeutics-announces-completion-of-enrollment-in-phase-3-catt1-study-of-cadisegliatin-in-type-1-diabetes-t1d.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -34504,7 +34504,7 @@
   "company": {
    "ticker": "ANRO",
    "name": "Alto Neuroscience",
-   "last_price": "24.67",
+   "last_price": "24.16",
    "market_cap": 973204160,
    "website": "https://www.altoneuroscience.com"
   },
@@ -34590,63 +34590,6 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 19140,
-  "company": {
-   "ticker": "BIIB",
-   "name": "Biogen",
-   "last_price": "220.66",
-   "market_cap": 32488151040,
-   "website": "https://www.biogen.com"
-  },
-  "ticker": "BIIB",
-  "drug_name": "Zorevunersen",
-  "indications": [
-   {
-    "id": 713,
-    "title": "Dravet syndrome",
-    "nickname": "DS"
-   }
-  ],
-  "indications_text": "Dravet Syndrome",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "EMPEROR Study. Partnership w/ Stoke Therapeutics. 8/11/25- First patient dosed. 9/2/25- Presented data at the 36th IEC. 10/9/25- New data presented at CNS'25. 01/11/26:- EMPEROR Ph3 enrollment completion now expected Q2 2026; data readout Mid-2027; rolling NDA planned H1 2027. 09/01/26:- Four-year Ph1/2a OLE data support potential disease-modifying effects. 09/04/26:- Four-year Ph1/2a OLE data showed durable seizure reductions and improved cognition and behavior.",
-  "catalyst_date": "2027-08-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/03/3356336/0/en/stoke-therapeutics-and-biogen-present-long-term-clinical-data-that-support-the-disease-modifying-potential-of-zorevunersen-an-investigational-medicine-for-the-treatment-of-dravet-s.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -34818,6 +34761,63 @@
   "catalyst_date": "2027-09-30",
   "has_catalyst": true,
   "catalyst_source": "https://investor.aligos.com/news-releases/news-release-details/aligos-therapeutics-reports-recent-business-progress-and-7",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 19140,
+  "company": {
+   "ticker": "BIIB",
+   "name": "Biogen",
+   "last_price": "220.66",
+   "market_cap": 32488151040,
+   "website": "https://www.biogen.com"
+  },
+  "ticker": "BIIB",
+  "drug_name": "Zorevunersen",
+  "indications": [
+   {
+    "id": 713,
+    "title": "Dravet syndrome",
+    "nickname": "DS"
+   }
+  ],
+  "indications_text": "Dravet Syndrome",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "EMPEROR Study. Partnership w/ Stoke Therapeutics. 8/11/25- First patient dosed. 9/2/25- Presented data at the 36th IEC. 10/9/25- New data presented at CNS'25. 01/11/26:- EMPEROR Ph3 enrollment completion now expected Q2 2026; data readout Mid-2027; rolling NDA planned H1 2027. 09/01/26:- Four-year Ph1/2a OLE data support potential disease-modifying effects. 09/04/26:- Four-year Ph1/2a OLE data showed durable seizure reductions and improved cognition and behavior. 10/05/26:- EMPEROR Ph3 readout expected Q3 2027; China enrollment completes H2 2026; U.S. NDA planned H2 2027.",
+  "catalyst_date": "2027-09-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62157060/stoke-therapeutics-announces-completion-successful-meeting-fda-align-planned-u-s-nda-zorevunersen-in",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -36693,7 +36693,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "33.62",
+   "last_price": "33.12",
    "market_cap": 6944301056,
    "website": "https://immunovant.com"
   },
@@ -37221,7 +37221,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "33.62",
+   "last_price": "33.12",
    "market_cap": 6944301056,
    "website": "https://immunovant.com"
   },
@@ -37449,7 +37449,7 @@
   "company": {
    "ticker": "ANRO",
    "name": "Alto Neuroscience",
-   "last_price": "24.67",
+   "last_price": "24.16",
    "market_cap": 973204160,
    "website": "https://www.altoneuroscience.com"
   },
@@ -38272,7 +38272,7 @@
   "company": {
    "ticker": "ANTX",
    "name": "AN2 Therapeutics",
-   "last_price": "5.61",
+   "last_price": "5.55",
    "market_cap": 215473904,
    "website": "https://www.an2therapeutics.com"
   },
@@ -38329,7 +38329,7 @@
   "company": {
    "ticker": "ARDX",
    "name": "Ardelyx Inc.",
-   "last_price": "3.35",
+   "last_price": "3.36",
    "market_cap": 862346432,
    "website": "https://www.ardelyx.com"
   },
@@ -38872,7 +38872,7 @@
   "company": {
    "ticker": "PCVX",
    "name": "Vaxcyte",
-   "last_price": "79.50",
+   "last_price": "74.28",
    "market_cap": 8404521984,
    "website": "https://vaxcyte.com"
   },
@@ -40513,7 +40513,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1145.05",
+   "last_price": "1149.05",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -41398,7 +41398,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "33.62",
+   "last_price": "33.12",
    "market_cap": 6944301056,
    "website": "https://immunovant.com"
   },
@@ -41801,7 +41801,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "33.62",
+   "last_price": "33.12",
    "market_cap": 6944301056,
    "website": "https://immunovant.com"
   },
@@ -42121,7 +42121,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "11.54",
+   "last_price": "11.47",
    "market_cap": 2370842624,
    "website": "https://sellaslifesciences.com"
   },
@@ -44328,7 +44328,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "144.30",
+   "last_price": "139.70",
    "market_cap": 356012851200,
    "website": "https://www.merck.com"
   },
@@ -45451,7 +45451,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1145.05",
+   "last_price": "1149.05",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },

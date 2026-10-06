@@ -4,7 +4,7 @@
   "company": {
    "ticker": "SXTP",
    "name": "60 Degree Pharmaceuticals ",
-   "last_price": "1.44",
+   "last_price": "1.14",
    "market_cap": 5064463,
    "website": "https://www.60degreespharma.com"
   },
@@ -61,7 +61,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.45",
+   "last_price": "7.43",
    "market_cap": 481328160,
    "website": "https://www.arvinas.com"
   },
@@ -123,7 +123,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "22.55",
+   "last_price": "22.84",
    "market_cap": 2059880448,
    "website": "https://mineralystx.com"
   },
@@ -185,7 +185,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1168.26",
+   "last_price": "1164.02",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -211,6 +211,63 @@
    "event_label": "Data readout"
   },
   "note": "01/08/26:- TOGETHER-PsO Ph3b trial in psoriasis with obesity; topline results in H1 2026. 02/18/26:- TOGETHER-PsO Ph3b 36-week topline met primary and key secondary endpoints; detailed results to follow. 08/31/26:- TOGETHER-PsO Ph3b 52-week results reported; benefits maintained vs Taltz alone. 10/05/26:- TOGETHER-PsO biomarker analyses to be presented at Fall Clinical Derm October 8-11, 2026.",
+  "catalyst_date": "2026-10-08",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/lilly-to-present-new-data-across-its-dermatology-portfolio-with-21-presentations-at-fall-clinical-2026-in-pursuit-of-advancing-care-for-chronic-skin-conditions-302897832.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20900,
+  "company": {
+   "ticker": "LLY",
+   "name": "Eli Lilly & Company",
+   "last_price": "1164.02",
+   "market_cap": 965262180352,
+   "website": "https://www.lilly.com"
+  },
+  "ticker": "LLY",
+  "drug_name": "Ebglyss/Lebrikizumab (Lebrikizumab-Lbkz) (IL-13 Antibody)",
+  "indications": [
+   {
+    "id": 1395,
+    "title": "Atopic dermatitis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Pediatric Atopic Dermatitis (6 Months And Older)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "10/05/26:- Phase 3 ADorable-1 Week 16 pediatric atopic dermatitis results to be presented October 8-11, 2026.",
   "catalyst_date": "2026-10-08",
   "has_catalyst": true,
   "catalyst_source": "https://www.prnewswire.com/news-releases/lilly-to-present-new-data-across-its-dermatology-portfolio-with-21-presentations-at-fall-clinical-2026-in-pursuit-of-advancing-care-for-chronic-skin-conditions-302897832.html",
@@ -1839,7 +1896,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "22.55",
+   "last_price": "22.84",
    "market_cap": 2059880448,
    "website": "https://mineralystx.com"
   },
@@ -1901,7 +1958,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.06",
+   "last_price": "37.23",
    "market_cap": 3672390144,
    "website": "https://www.ideayabio.com"
   },
@@ -2025,7 +2082,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.06",
+   "last_price": "37.23",
    "market_cap": 3672390144,
    "website": "https://www.ideayabio.com"
   },
@@ -2412,7 +2469,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.06",
+   "last_price": "37.23",
    "market_cap": 3672390144,
    "website": "https://www.ideayabio.com"
   },
@@ -2484,7 +2541,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.06",
+   "last_price": "37.23",
    "market_cap": 3672390144,
    "website": "https://www.ideayabio.com"
   },
@@ -2551,7 +2608,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "12.81",
+   "last_price": "12.53",
    "market_cap": 1959037824,
    "website": "https://www.biohaven.com"
   },
@@ -6496,7 +6553,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "66.79",
+   "last_price": "67.92",
    "market_cap": 12929906688,
    "website": "https://bridgebio.com"
   },
@@ -7268,6 +7325,53 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-26",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 15169,
   "company": {
    "ticker": "ANAB",
@@ -7347,53 +7451,6 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-26",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -7629,7 +7686,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "22.55",
+   "last_price": "22.84",
    "market_cap": 2059880448,
    "website": "https://mineralystx.com"
   },
@@ -9125,7 +9182,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.01",
+   "last_price": "3.90",
    "market_cap": 280671424,
    "website": "https://www.bicycletherapeutics.com"
   },
@@ -12826,7 +12883,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.62",
+   "last_price": "10.80",
    "market_cap": 944761728,
    "website": "https://kuraoncology.com"
   },
@@ -12893,7 +12950,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.62",
+   "last_price": "10.80",
    "market_cap": 944761728,
    "website": "https://kuraoncology.com"
   },
@@ -13171,10 +13228,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "SOLSTICE & ECLIPSE trials. 6/5/24- Reported prelim 12-wk & 24-wk data. 3/13/25- Initiated trial. Presented 24-wk subgroup analysis at EASL'25. 8/4/25- Initiated ECLIPSE 2 trial. 11/3/25- Enrollment completed in ECLIPSE 1. Last patient primary completion in Q1 2026 & topline data in Q1 2027. 11/9/25- SOLSTICE wk 48 endpoint data presented at AASLD'25. 11/05/25:- ECLIPSE 1 enrollment finished about two months early with primary completion now expected in Q4 2026. Topline data for ECLIPSE 1\u20133 are anticipated in Q1 2027 and SOLSTICE Week 48 results are planned for oral presentation at AASLD 2025 on November 9, 2025. 01/12/26:- SOLSTICE Ph2 72/96-week data positive. ECLIPSE1 topline Q4 2026; ECLIPSE2/3 topline Q1 2027. 02/23/26:- Norgine licensed CHD combo ex-US; SOLSTICE Ph2 Week 96 showed 88% HDV RNA TND. 05/06/26:- SOLSTICE Ph2 Week 96 data to be presented at EASL Congress May 27-30, 2026; ECLIPSE timelines reiterated. 05/18/26:- SOLSTICE Week 96 oral and Week 48 subgroup data present May 29, 2026 at EASL. 08/05/26:- SOLSTICE Week 96 positive; ECLIPSE 2 enrolled; ECLIPSE 1 topline Q4 2026; ECLIPSE 2/3 Q1 2027.",
+  "note": "SOLSTICE & ECLIPSE trials. 6/5/24- Reported prelim 12-wk & 24-wk data. 3/13/25- Initiated trial. Presented 24-wk subgroup analysis at EASL'25. 8/4/25- Initiated ECLIPSE 2 trial. 11/3/25- Enrollment completed in ECLIPSE 1. Last patient primary completion in Q1 2026 & topline data in Q1 2027. 11/9/25- SOLSTICE wk 48 endpoint data presented at AASLD'25. 11/05/25:- ECLIPSE 1 enrollment finished about two months early with primary completion now expected in Q4 2026. Topline data for ECLIPSE 1\u20133 are anticipated in Q1 2027 and SOLSTICE Week 48 results are planned for oral presentation at AASLD 2025 on November 9, 2025. 01/12/26:- SOLSTICE Ph2 72/96-week data positive. ECLIPSE1 topline Q4 2026; ECLIPSE2/3 topline Q1 2027. 02/23/26:- Norgine licensed CHD combo ex-US; SOLSTICE Ph2 Week 96 showed 88% HDV RNA TND. 05/06/26:- SOLSTICE Ph2 Week 96 data to be presented at EASL Congress May 27-30, 2026; ECLIPSE timelines reiterated. 05/18/26:- SOLSTICE Week 96 oral and Week 48 subgroup data present May 29, 2026 at EASL. 08/05/26:- SOLSTICE Week 96 positive; ECLIPSE 2 enrolled; ECLIPSE 1 topline Q4 2026; ECLIPSE 2/3 Q1 2027. 10/05/26:- SOLSTICE Week 96 data and translational sub-study present at AASLD 2026 on Nov 8.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260805596908/en/Vir-Biotechnology-Provides-Corporate-Update-and-Reports-Second-Quarter-2026-Financial-Results",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62176383/vir-biotechnology-present-expanded-phase-2-solstice-results-elebsiran-and-tobevibart-hepatitis-delta",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -13404,7 +13461,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1168.26",
+   "last_price": "1164.02",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -14743,7 +14800,7 @@
   "company": {
    "ticker": "VYGR",
    "name": "Voyager Therapeutics",
-   "last_price": "2.46",
+   "last_price": "2.49",
    "market_cap": 151580160,
    "website": "https://www.voyagertherapeutics.com"
   },
@@ -15358,7 +15415,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "12.81",
+   "last_price": "12.53",
    "market_cap": 1959037824,
    "website": "https://www.biohaven.com"
   },
@@ -15834,7 +15891,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.45",
+   "last_price": "7.43",
    "market_cap": 481328160,
    "website": "https://www.arvinas.com"
   },
@@ -16097,7 +16154,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.62",
+   "last_price": "10.80",
    "market_cap": 944761728,
    "website": "https://kuraoncology.com"
   },
@@ -16159,7 +16216,7 @@
   "company": {
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
-   "last_price": "26.56",
+   "last_price": "25.78",
    "market_cap": 2651394304,
    "website": "https://beamtx.com"
   },
@@ -16873,7 +16930,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "8.10",
+   "last_price": "8.07",
    "market_cap": 2069834496,
    "website": "https://www.biocryst.com"
   },
@@ -17436,7 +17493,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "12.81",
+   "last_price": "12.53",
    "market_cap": 1959037824,
    "website": "https://www.biohaven.com"
   },
@@ -17860,7 +17917,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.62",
+   "last_price": "10.80",
    "market_cap": 944761728,
    "website": "https://kuraoncology.com"
   },
@@ -19158,7 +19215,7 @@
   "company": {
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
-   "last_price": "17.29",
+   "last_price": "16.70",
    "market_cap": 1144130176,
    "website": "https://www.bicara.com"
   },
@@ -19504,7 +19561,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "6.36",
+   "last_price": "6.31",
    "market_cap": 291904352,
    "website": "https://bioagelabs.com"
   },
@@ -20716,7 +20773,7 @@
   "company": {
    "ticker": "BINV",
    "name": "BioInvent International AB",
-   "last_price": "43.02",
+   "last_price": "43.25",
    "market_cap": null,
    "website": ""
   },
@@ -21291,7 +21348,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.45",
+   "last_price": "7.43",
    "market_cap": 481328160,
    "website": "https://www.arvinas.com"
   },
@@ -22046,7 +22103,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.06",
+   "last_price": "37.23",
    "market_cap": 3672390144,
    "website": "https://www.ideayabio.com"
   },
@@ -24597,7 +24654,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.06",
+   "last_price": "37.23",
    "market_cap": 3672390144,
    "website": "https://www.ideayabio.com"
   },
@@ -24654,7 +24711,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.06",
+   "last_price": "37.23",
    "market_cap": 3672390144,
    "website": "https://www.ideayabio.com"
   },
@@ -26714,7 +26771,7 @@
   "company": {
    "ticker": "APMD",
    "name": "Apnimed",
-   "last_price": "21.75",
+   "last_price": "20.19",
    "market_cap": 905469440,
    "website": "https://apnimed.com"
   },
@@ -26771,7 +26828,7 @@
   "company": {
    "ticker": "NTLA",
    "name": "Intellia Therapeutics",
-   "last_price": "12.75",
+   "last_price": "12.44",
    "market_cap": 1786615296,
    "website": "https://www.intelliatx.com"
   },
@@ -29337,7 +29394,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "66.79",
+   "last_price": "67.92",
    "market_cap": 12929906688,
    "website": "https://bridgebio.com"
   },
@@ -32823,7 +32880,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.45",
+   "last_price": "7.43",
    "market_cap": 481328160,
    "website": "https://www.arvinas.com"
   },
@@ -33056,7 +33113,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "225.21",
+   "last_price": "223.23",
    "market_cap": 33036316672,
    "website": "https://www.biogen.com"
   },
@@ -34752,7 +34809,7 @@
   "company": {
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
-   "last_price": "17.29",
+   "last_price": "16.70",
    "market_cap": 1144130176,
    "website": "https://www.bicara.com"
   },
@@ -35104,7 +35161,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "225.21",
+   "last_price": "223.23",
    "market_cap": 33036316672,
    "website": "https://www.biogen.com"
   },
@@ -35218,7 +35275,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "8.10",
+   "last_price": "8.07",
    "market_cap": 2069834496,
    "website": "https://www.biocryst.com"
   },
@@ -38887,7 +38944,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "6.36",
+   "last_price": "6.31",
    "market_cap": 291904352,
    "website": "https://bioagelabs.com"
   },
@@ -40880,7 +40937,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1168.26",
+   "last_price": "1164.02",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -41574,7 +41631,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.62",
+   "last_price": "10.80",
    "market_cap": 944761728,
    "website": "https://kuraoncology.com"
   },
@@ -41641,7 +41698,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.62",
+   "last_price": "10.80",
    "market_cap": 944761728,
    "website": "https://kuraoncology.com"
   },
@@ -43103,7 +43160,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.01",
+   "last_price": "3.90",
    "market_cap": 280671424,
    "website": "https://www.bicycletherapeutics.com"
   },
@@ -43475,7 +43532,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.44",
+   "last_price": "1.50",
    "market_cap": 12503103,
    "website": "https://bioviepharma.com"
   },
@@ -44194,7 +44251,7 @@
   "company": {
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
-   "last_price": "26.56",
+   "last_price": "25.78",
    "market_cap": 2651394304,
    "website": "https://beamtx.com"
   },
@@ -44566,7 +44623,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "38.06",
+   "last_price": "37.23",
    "market_cap": 3672390144,
    "website": "https://www.ideayabio.com"
   },
@@ -45347,7 +45404,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.44",
+   "last_price": "1.50",
    "market_cap": 12503103,
    "website": "https://bioviepharma.com"
   },

@@ -1,62 +1,5 @@
 [
  {
-  "id": 17696,
-  "company": {
-   "ticker": "SXTP",
-   "name": "60 Degree Pharmaceuticals ",
-   "last_price": "1.15",
-   "market_cap": 5064463,
-   "website": "https://www.60degreespharma.com"
-  },
-  "ticker": "SXTP",
-  "drug_name": "Arakoda (Tafenoquine)",
-  "indications": [
-   {
-    "id": 2162,
-    "title": "Babesiosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Babesiosis",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/15/26:- PR No update. 05/26/26:- NCT06207370 enrolled first patient; minimum interim-analysis enrollment expected Early July 2026. Interim analyses date to follow. 07/29/26:- NCT06207370 minimum 24 patients enrolled; interim analysis results due by October 6, 2026. FDA meeting planned after interim. 08/14/26:- PR No update.",
-  "catalyst_date": "2026-10-06",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "12.000000",
-  "probability_clean_plus_max": "22.000000",
-  "probability_mixed_min": "38.000000",
-  "probability_mixed_max": "50.000000",
-  "probability_clean_minus_min": "33.000000",
-  "probability_clean_minus_max": "45.000000",
-  "magnitude_clean_plus_min": "35.000000",
-  "magnitude_clean_plus_max": "100.000000",
-  "magnitude_mixed_min": "-30.000000",
-  "magnitude_mixed_max": "10.000000",
-  "magnitude_clean_minus_min": "-75.000000",
-  "magnitude_clean_minus_max": "-40.000000",
-  "up_suspected_big_mover": true,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is a new randomized efficacy interim analysis, not follow-up to an already-positive hospital trial. At least 24 patients triggered the analysis; tafenoquine plus standard antibiotics is compared with placebo plus standard antibiotics. The primary endpoint is time to sustained symptom resolution through 90 days, with parasite clearance a secondary endpoint. Possible outcomes include statistical success, futility, or additional enrollment. The small sample and symptom-based endpoint make convincing superiority difficult. Prior uncontrolled cures in relapsing patients support biological activity but do not establish faster recovery in this population. Financing is urgent: company guidance places cash runway in early October 2026. ([60degreespharma.gcs-web.com](https://60degreespharma.gcs-web.com/news-releases/news-release-details/60-degrees-pharmaceuticals-announces-minimum-enrollment-achieved?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 6 release is a high-importance test of whether tafenoquine adds meaningful benefit to standard treatment. Historical infectious-disease Phase 2 programs advanced to Phase 3 about 38.4% of the time, but that is not the probability of an unequivocally favorable stock-market outcome. Although the company also describes this study as Phase II/III, its small interim dataset warrants an early-efficacy benchmark rather than the confidence normally associated with a large confirmatory trial. ([globenewswire.com](https://www.globenewswire.com/de/news-release/2026/10/01/3372857/0/en/60-degrees-pharmaceuticals-announces-date-for-hospitalized-babesiosis-study-interim-data-release-and-key-opinion-leader-webinar.html))\n\nThe strongest supporting evidence is the reported cure of three expanded-access patients and encouraging published case-series experience. Those patients had persistent or relapsing disease and received combination treatment without a randomized control. The hospital study asks a different question: does adding tafenoquine accelerate sustained symptom recovery? Standard antibiotics can already produce improvement, and lingering fatigue or other symptoms can obscure an antiparasitic benefit. A parasite-clearance signal without convincing symptom improvement, or a recommendation to enroll more patients, belongs in Mixed rather than automatic success. These considerations support probabilities of 12\u201322% favorable, 38\u201350% mixed, and 33\u201345% unfavorable. ([investors.60degreespharma.com](https://investors.60degreespharma.com/news-releases/news-release-details/60-degrees-pharmaceuticals-announces-all-patients-cured?utm_source=openai))\n\nAt the supplied $4.7 million market capitalization, SXTP is a severely distressed microcap. BPIQ reports zero specialist hedge-fund holders; that does not prove failure, but it argues against assuming an overlooked, low-risk opportunity. Cash was approximately $1 million on June 30. July financing added about $0.74 million net, yet management still projected runway only through early October. Pre-funded warrants, common warrants and convertible preferred shares add dilution exposure; this financing does not transform the company into a well-capitalized business. ([investors.60degreespharma.com](https://investors.60degreespharma.com/node/8136/html))\n\nConvincing clinical superiority with acceptable safety could materially improve financing prospects and justify a 35\u2013100% gain from this tiny valuation. Ambiguous results could produce a 30% decline to a 10% gain, while futility or clinically inadequate efficacy could drive a 40\u201375% decline. Existing malaria sales provide limited protection: second-quarter revenue was only about $208,000. Future royalties and a $10 million payment triggered by an Arakoda sale or change of control also constrain shareholder economics. ([60degreespharma.gcs-web.com](https://60degreespharma.gcs-web.com/news-releases/news-release-details/60-degrees-pharmaceuticals-announces-second-quarter-2026-results))\n\nOptions are not meaningful for this setup because SXTP has no listed options. Accordingly, the fundamental estimates support suspected large moves in both directions, but neither direction receives options-confirmed big-mover status.",
-  "catalyst_event_details": "Arakoda (tafenoquine) Phase 2 interim results from NCT06207370 in hospitalized babesiosis patients will be released October 6, 2026. ([globenewswire.com](https://www.globenewswire.com/de/news-release/2026/10/01/3372857/0/en/60-degrees-pharmaceuticals-announces-date-for-hospitalized-babesiosis-study-interim-data-release-and-key-opinion-leader-webinar.html))",
-  "move_analysis_created_datetime": "2026-10-01T21:33:26Z"
- },
- {
   "id": 18021,
   "company": {
    "ticker": "ARVN",
@@ -185,7 +128,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1160.26",
+   "last_price": "1157.44",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -247,7 +190,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1160.26",
+   "last_price": "1157.44",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -552,7 +495,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "62.02",
+   "last_price": "61.97",
    "market_cap": 8807215104,
    "website": "https://arrowheadpharma.com"
   },
@@ -1224,7 +1167,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "4.27",
+   "last_price": "4.36",
    "market_cap": 31463952,
    "website": "https://www.immutep.com"
   },
@@ -4537,7 +4480,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "32.19",
+   "last_price": "30.60",
    "market_cap": 1544420992,
    "website": "https://www.rapportrx.com"
   },
@@ -4795,7 +4738,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.53",
+   "last_price": "4.54",
    "market_cap": 2563375872,
    "website": "https://www.recursion.com"
   },
@@ -5023,7 +4966,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "14.92",
+   "last_price": "14.54",
    "market_cap": 968544960,
    "website": "https://www.adlainortye.com"
   },
@@ -6139,7 +6082,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "4.16",
+   "last_price": "4.07",
    "market_cap": 796232320,
    "website": "https://www.annexonbio.com"
   },
@@ -7325,58 +7268,11 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-26",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 15169,
   "company": {
    "ticker": "ANAB",
    "name": "AnaptyBio Inc",
-   "last_price": "49.20",
+   "last_price": "48.05",
    "market_cap": 1470846080,
    "website": "https://www.anaptysbio.com"
   },
@@ -7451,6 +7347,53 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-26",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -8445,7 +8388,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "4.16",
+   "last_price": "4.07",
    "market_cap": 796232320,
    "website": "https://www.annexonbio.com"
   },
@@ -10539,7 +10482,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "19.03",
+   "last_price": "18.25",
    "market_cap": 4249156096,
    "website": "https://www.relaytx.com"
   },
@@ -10725,7 +10668,7 @@
   "company": {
    "ticker": "CRBU",
    "name": "Caribou Biosciences",
-   "last_price": "1.19",
+   "last_price": "1.16",
    "market_cap": 127576944,
    "website": "https://cariboubio.com"
   },
@@ -11871,7 +11814,7 @@
   "company": {
    "ticker": "CADL",
    "name": "Candel Therapeutics",
-   "last_price": "10.15",
+   "last_price": "9.98",
    "market_cap": 782784896,
    "website": "https://www.candeltx.com"
   },
@@ -13461,7 +13404,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1160.26",
+   "last_price": "1157.44",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -15177,7 +15120,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "4.27",
+   "last_price": "4.36",
    "market_cap": 31463952,
    "website": "https://www.immutep.com"
   },
@@ -15958,7 +15901,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.53",
+   "last_price": "4.54",
    "market_cap": 2563375872,
    "website": "https://www.recursion.com"
   },
@@ -16335,7 +16278,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptyBio Inc",
-   "last_price": "49.20",
+   "last_price": "48.05",
    "market_cap": 1470846080,
    "website": "https://www.anaptysbio.com"
   },
@@ -16682,7 +16625,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "62.02",
+   "last_price": "61.97",
    "market_cap": 8807215104,
    "website": "https://arrowheadpharma.com"
   },
@@ -16806,7 +16749,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "13.11",
+   "last_price": "13.25",
    "market_cap": 1238988160,
    "website": "https://www.replimune.com"
   },
@@ -17379,7 +17322,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "62.02",
+   "last_price": "61.97",
    "market_cap": 8807215104,
    "website": "https://arrowheadpharma.com"
   },
@@ -18568,7 +18511,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "19.03",
+   "last_price": "18.25",
    "market_cap": 4249156096,
    "website": "https://www.relaytx.com"
   },
@@ -18682,7 +18625,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "32.19",
+   "last_price": "30.60",
    "market_cap": 1544420992,
    "website": "https://www.rapportrx.com"
   },
@@ -20303,63 +20246,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 19119,
-  "company": {
-   "ticker": "AVBP",
-   "name": "ArriVent",
-   "last_price": "15.32",
-   "market_cap": 1403297920,
-   "website": "https://arrivent.com"
-  },
-  "ticker": "AVBP",
-  "drug_name": "Firmonertinib",
-  "indications": [
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "1L Non-small Cell Lung Cancer (NSCLC) w/ EGFR exon 20 insertion mutations",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "FURVENT Ph3 Trial. 7/21/25- Breakthrough Therapy Designation. Topline Ph3 data expected in Early 2026 12/22/25:- FURVENT Ph3 trial enrolled 398 patients; no interim analysis planned; topline data still expected Early 2026. 03/05/26:- FURVENT Ph3 topline firmonertinib monotherapy data in 1L EGFR exon 20 NSCLC expected Mid-2026. 03/17/26:- AACR 2026 firmonertinib crystal-structure poster scheduled Apr 21, 2026. 05/11/26:- FURVENT Ph3 frontline EGFR exon 20 NSCLC topline monotherapy data still projected for Mid-2026. 08/12/26:- FURVENT Phase 3 topline data in first-line EGFR exon 20 insertion NSCLC is expected in H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344035/0/en/arrivent-biopharma-reports-second-quarter-2026-financial-results.html",
-  "is_big_mover": true,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 19124,
   "company": {
    "ticker": "ORKA",
@@ -20835,7 +20721,7 @@
   "company": {
    "ticker": "SKYE",
    "name": "Skye Bioscience",
-   "last_price": "1.73",
+   "last_price": "1.65",
    "market_cap": 7659879,
    "website": "https://skyebioscience.com"
   },
@@ -21234,7 +21120,7 @@
   "company": {
    "ticker": "ABSI",
    "name": "Absci",
-   "last_price": "11.53",
+   "last_price": "10.51",
    "market_cap": 1978709504,
    "website": "https://www.absci.com"
   },
@@ -22827,7 +22713,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptyBio Inc",
-   "last_price": "49.20",
+   "last_price": "48.05",
    "market_cap": 1470846080,
    "website": "https://www.anaptysbio.com"
   },
@@ -22884,7 +22770,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptyBio Inc",
-   "last_price": "49.20",
+   "last_price": "48.05",
    "market_cap": 1470846080,
    "website": "https://www.anaptysbio.com"
   },
@@ -25597,63 +25483,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 20637,
-  "company": {
-   "ticker": "GMAB",
-   "name": "Genmab",
-   "last_price": "38.44",
-   "market_cap": 24013772800,
-   "website": "https://www.genmab.com"
-  },
-  "ticker": "GMAB",
-  "drug_name": "Epkinly/Epcoritamab (GEN3013) (CD3-CD20 Bispecific) + R-CHOP",
-  "indications": [
-   {
-    "id": 1362,
-    "title": "Diffuse large B cell lymphoma",
-    "nickname": "DLBCL"
-   }
-  ],
-  "indications_text": "Newly Diagnosed Diffuse Large B-Cell Lymphoma",
-  "stage_event": {
-   "id": 152,
-   "label": "Phase 2/3 Data readout",
-   "stage_label": "Phase 2/3",
-   "event_label": "Data readout"
-  },
-  "note": "07/23/26:- EPCORE DLBCL-2 epcoritamab plus R-CHOP data in newly diagnosed DLBCL anticipated in 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/07/b60654249/genmab-and-abbvie-provide-clarification-phase-3-epcore-dlbcl-1-trial-evaluating-epcoritamab-duobody-",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 20666,
   "company": {
    "ticker": "KRYS",
@@ -26341,6 +26170,63 @@
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
   "move_analysis_created_datetime": null
+ },
+ {
+  "id": 17696,
+  "company": {
+   "ticker": "SXTP",
+   "name": "60 Degree Pharmaceuticals ",
+   "last_price": "1.17",
+   "market_cap": 5064463,
+   "website": "https://www.60degreespharma.com"
+  },
+  "ticker": "SXTP",
+  "drug_name": "Arakoda (Tafenoquine)",
+  "indications": [
+   {
+    "id": 2162,
+    "title": "Babesiosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Babesiosis",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/15/26:- PR No update. 05/26/26:- NCT06207370 enrolled first patient; minimum interim-analysis enrollment expected Early July 2026. Interim analyses date to follow. 07/29/26:- NCT06207370 minimum 24 patients enrolled; interim analysis results due by October 6, 2026. FDA meeting planned after interim. 08/14/26:- PR No update. 10/06/26:- NCT06207370 enrollment ends at 30; unblinded primary/secondary results expected January 2027; pre-sNDA FDA meeting request January 2027.",
+  "catalyst_date": "2027-01-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62186900/60-degrees-pharmaceuticals-plans-january-2027-hospitalized-babesiosis-data-readout-will-seek-pre-snd",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": "12.000000",
+  "probability_clean_plus_max": "22.000000",
+  "probability_mixed_min": "38.000000",
+  "probability_mixed_max": "50.000000",
+  "probability_clean_minus_min": "33.000000",
+  "probability_clean_minus_max": "45.000000",
+  "magnitude_clean_plus_min": "35.000000",
+  "magnitude_clean_plus_max": "100.000000",
+  "magnitude_mixed_min": "-30.000000",
+  "magnitude_mixed_max": "10.000000",
+  "magnitude_clean_minus_min": "-75.000000",
+  "magnitude_clean_minus_max": "-40.000000",
+  "up_suspected_big_mover": true,
+  "up_big_mover": false,
+  "down_suspected_big_mover": true,
+  "down_big_mover": false,
+  "key_readout_comment": "This is a new randomized efficacy interim analysis, not follow-up to an already-positive hospital trial. At least 24 patients triggered the analysis; tafenoquine plus standard antibiotics is compared with placebo plus standard antibiotics. The primary endpoint is time to sustained symptom resolution through 90 days, with parasite clearance a secondary endpoint. Possible outcomes include statistical success, futility, or additional enrollment. The small sample and symptom-based endpoint make convincing superiority difficult. Prior uncontrolled cures in relapsing patients support biological activity but do not establish faster recovery in this population. Financing is urgent: company guidance places cash runway in early October 2026. ([60degreespharma.gcs-web.com](https://60degreespharma.gcs-web.com/news-releases/news-release-details/60-degrees-pharmaceuticals-announces-minimum-enrollment-achieved?utm_source=openai))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "The October 6 release is a high-importance test of whether tafenoquine adds meaningful benefit to standard treatment. Historical infectious-disease Phase 2 programs advanced to Phase 3 about 38.4% of the time, but that is not the probability of an unequivocally favorable stock-market outcome. Although the company also describes this study as Phase II/III, its small interim dataset warrants an early-efficacy benchmark rather than the confidence normally associated with a large confirmatory trial. ([globenewswire.com](https://www.globenewswire.com/de/news-release/2026/10/01/3372857/0/en/60-degrees-pharmaceuticals-announces-date-for-hospitalized-babesiosis-study-interim-data-release-and-key-opinion-leader-webinar.html))\n\nThe strongest supporting evidence is the reported cure of three expanded-access patients and encouraging published case-series experience. Those patients had persistent or relapsing disease and received combination treatment without a randomized control. The hospital study asks a different question: does adding tafenoquine accelerate sustained symptom recovery? Standard antibiotics can already produce improvement, and lingering fatigue or other symptoms can obscure an antiparasitic benefit. A parasite-clearance signal without convincing symptom improvement, or a recommendation to enroll more patients, belongs in Mixed rather than automatic success. These considerations support probabilities of 12\u201322% favorable, 38\u201350% mixed, and 33\u201345% unfavorable. ([investors.60degreespharma.com](https://investors.60degreespharma.com/news-releases/news-release-details/60-degrees-pharmaceuticals-announces-all-patients-cured?utm_source=openai))\n\nAt the supplied $4.7 million market capitalization, SXTP is a severely distressed microcap. BPIQ reports zero specialist hedge-fund holders; that does not prove failure, but it argues against assuming an overlooked, low-risk opportunity. Cash was approximately $1 million on June 30. July financing added about $0.74 million net, yet management still projected runway only through early October. Pre-funded warrants, common warrants and convertible preferred shares add dilution exposure; this financing does not transform the company into a well-capitalized business. ([investors.60degreespharma.com](https://investors.60degreespharma.com/node/8136/html))\n\nConvincing clinical superiority with acceptable safety could materially improve financing prospects and justify a 35\u2013100% gain from this tiny valuation. Ambiguous results could produce a 30% decline to a 10% gain, while futility or clinically inadequate efficacy could drive a 40\u201375% decline. Existing malaria sales provide limited protection: second-quarter revenue was only about $208,000. Future royalties and a $10 million payment triggered by an Arakoda sale or change of control also constrain shareholder economics. ([60degreespharma.gcs-web.com](https://60degreespharma.gcs-web.com/news-releases/news-release-details/60-degrees-pharmaceuticals-announces-second-quarter-2026-results))\n\nOptions are not meaningful for this setup because SXTP has no listed options. Accordingly, the fundamental estimates support suspected large moves in both directions, but neither direction receives options-confirmed big-mover status.",
+  "catalyst_event_details": "Arakoda (tafenoquine) Phase 2 interim results from NCT06207370 in hospitalized babesiosis patients will be released October 6, 2026. ([globenewswire.com](https://www.globenewswire.com/de/news-release/2026/10/01/3372857/0/en/60-degrees-pharmaceuticals-announces-date-for-hospitalized-babesiosis-study-interim-data-release-and-key-opinion-leader-webinar.html))",
+  "move_analysis_created_datetime": "2026-10-01T21:33:26Z"
  },
  {
   "id": 17934,
@@ -27205,7 +27091,7 @@
   "company": {
    "ticker": "ANVS",
    "name": "Annovis Bio",
-   "last_price": "1.23",
+   "last_price": "1.17",
    "market_cap": 51214876,
    "website": "https://www.annovisbio.com"
   },
@@ -27262,7 +27148,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "1.04",
+   "last_price": "1.05",
    "market_cap": 352674816,
    "website": "https://www.ocugen.com"
   },
@@ -27671,7 +27557,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "13.11",
+   "last_price": "13.25",
    "market_cap": 1238988160,
    "website": "https://www.replimune.com"
   },
@@ -29741,7 +29627,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.53",
+   "last_price": "4.54",
    "market_cap": 2563375872,
    "website": "https://www.recursion.com"
   },
@@ -30743,10 +30629,10 @@
    "stage_label": "Phase 1",
    "event_label": "Data readout"
   },
-  "note": "OSPREY study. 8/12/25- Trial now underway. 10/20/25- Presented two-year data from FALCON study at AAO'25. 11/4/25- Activate EU sites in early 2026. 08/03/26:- OSPREY cohort 1 dosing complete; cohort 2 starts August 2026, Ph1 data H1 2027.",
+  "note": "OSPREY study. 8/12/25- Trial now underway. 10/20/25- Presented two-year data from FALCON study at AAO'25. 11/4/25- Activate EU sites in early 2026. 08/03/26:- OSPREY cohort 1 dosing complete; cohort 2 starts August 2026, Ph1 data H1 2027. 10/01/26:- OSPREY cohorts 1-2 dosing complete; cohort 3 completes by YE 2026. Initial safety/efficacy data H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260803082079/en/Stoke-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Provides-Business-Updates",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62186295/stoke-therapeutics-announces-presentations-stk-002-investigational-medicine-treatment-autosomal-domi",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -31090,7 +30976,7 @@
   "company": {
    "ticker": "ZNTL",
    "name": "Zentalis Pharmaceuticals",
-   "last_price": "2.69",
+   "last_price": "2.68",
    "market_cap": 272778912,
    "website": "https://zentalis.com"
   },
@@ -31405,7 +31291,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "14.92",
+   "last_price": "14.54",
    "market_cap": 968544960,
    "website": "https://www.adlainortye.com"
   },
@@ -31467,7 +31353,7 @@
   "company": {
    "ticker": "ANRO",
    "name": "Alto Neuroscience",
-   "last_price": "24.05",
+   "last_price": "23.84",
    "market_cap": 942202944,
    "website": "https://www.altoneuroscience.com"
   },
@@ -31638,7 +31524,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.53",
+   "last_price": "4.54",
    "market_cap": 2563375872,
    "website": "https://www.recursion.com"
   },
@@ -31948,7 +31834,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.53",
+   "last_price": "4.54",
    "market_cap": 2563375872,
    "website": "https://www.recursion.com"
   },
@@ -32642,7 +32528,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "3.70",
+   "last_price": "3.64",
    "market_cap": 210933328,
    "website": "https://ir.whitehawktx.com"
   },
@@ -32937,7 +32823,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "3.70",
+   "last_price": "3.64",
    "market_cap": 210933328,
    "website": "https://ir.whitehawktx.com"
   },
@@ -33170,7 +33056,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "14.92",
+   "last_price": "14.54",
    "market_cap": 968544960,
    "website": "https://www.adlainortye.com"
   },
@@ -34117,7 +34003,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "62.02",
+   "last_price": "61.97",
    "market_cap": 8807215104,
    "website": "https://arrowheadpharma.com"
   },
@@ -34871,7 +34757,7 @@
   "company": {
    "ticker": "ANRO",
    "name": "Alto Neuroscience",
-   "last_price": "24.05",
+   "last_price": "23.84",
    "market_cap": 942202944,
    "website": "https://www.altoneuroscience.com"
   },
@@ -35595,10 +35481,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "07/29/26:- VANQUISH trials advancing. Phase 3 readout expected in 2027. Maintenance data expected Q3 2026. 09/22/26:- VK2735-102 topline: up to 97% weight loss maintained QOW, 90% monthly. Phase 3 readout expected 2027.",
+  "note": "07/29/26:- VANQUISH trials advancing. Phase 3 readout expected in 2027. Maintenance data expected Q3 2026. 09/22/26:- VK2735-102 topline: up to 97% weight loss maintained QOW, 90% monthly. Phase 3 readout expected 2027. 10/06/26:- VANQUISH-1 and -2 fully enrolled. Maintenance Part 2 initiated; results expected 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/viking-therapeutics-announces-positive-topline-results-from-maintenance-study-of-glp-1gip-agonist-vk2735-demonstrating-the-promise-of-multiple-maintenance-dosing-regimens-302885584.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/viking-therapeutics-announces-initiation-of-vk2735-oral-maintenance-dosing-clinical-trial-in-patients-with-obesity-302899168.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -36879,7 +36765,7 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "4.90",
+   "last_price": "4.78",
    "market_cap": 1738059904,
    "website": "https://www.nuvationbio.com"
   },
@@ -37117,7 +37003,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.53",
+   "last_price": "4.54",
    "market_cap": 2563375872,
    "website": "https://www.recursion.com"
   },
@@ -37816,7 +37702,7 @@
   "company": {
    "ticker": "ANRO",
    "name": "Alto Neuroscience",
-   "last_price": "24.05",
+   "last_price": "23.84",
    "market_cap": 942202944,
    "website": "https://www.altoneuroscience.com"
   },
@@ -38696,7 +38582,7 @@
   "company": {
    "ticker": "ANTX",
    "name": "AN2 Therapeutics",
-   "last_price": "5.29",
+   "last_price": "5.06",
    "market_cap": 211700288,
    "website": "https://www.an2therapeutics.com"
   },
@@ -38840,10 +38726,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "08/05/26:- Ebribafusp Ph2 basket trial ongoing; up to 30 patients; initial 2027 data. 09/14/26:- First patient dosed in Ph2 basket trial; initial data expected in 2027.",
+  "note": "08/05/26:- Ebribafusp Ph2 basket trial ongoing; up to 30 patients; initial 2027 data. 09/14/26:- First patient dosed in Ph2 basket trial; initial data expected in 2027. 10/06/26:- Ebribafusp alfa Ph2 basket trial poster at ASN Kidney Week on Oct 24, 2026.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/14/3361045/37519/en/akebia-therapeutics-announces-first-patient-dosed-in-phase-2-basket-trial-of-ebribafusp-in-rare-complement-mediated-kidney-diseases.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/06/3375435/37519/en/akebia-therapeutics-announces-late-breaking-voice-trial-presentation-and-posters-on-akebia-s-rare-kidney-pipeline-at-asn-kidney-week-2026.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -38907,10 +38793,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "08/05/26:- Ebribafusp Ph2 basket trial ongoing; up to 30 patients; initial 2027 data. 09/14/26:- First patient dosed in Ph2 basket trial; initial data expected in 2027.",
+  "note": "08/05/26:- Ebribafusp Ph2 basket trial ongoing; up to 30 patients; initial 2027 data. 09/14/26:- First patient dosed in Ph2 basket trial; initial data expected in 2027. 10/06/26:- Ebribafusp alfa Ph2 basket trial poster at ASN Kidney Week on Oct 24, 2026.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/14/3361045/37519/en/akebia-therapeutics-announces-first-patient-dosed-in-phase-2-basket-trial-of-ebribafusp-in-rare-complement-mediated-kidney-diseases.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/06/3375435/37519/en/akebia-therapeutics-announces-late-breaking-voice-trial-presentation-and-posters-on-akebia-s-rare-kidney-pipeline-at-asn-kidney-week-2026.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -39358,7 +39244,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "6.52",
+   "last_price": "6.19",
    "market_cap": 241342544,
    "website": "https://www.evommune.com"
   },
@@ -39896,7 +39782,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "32.19",
+   "last_price": "30.60",
    "market_cap": 1544420992,
    "website": "https://www.rapportrx.com"
   },
@@ -40937,7 +40823,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1160.26",
+   "last_price": "1157.44",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -41987,7 +41873,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptyBio Inc",
-   "last_price": "49.20",
+   "last_price": "48.05",
    "market_cap": 1470846080,
    "website": "https://www.anaptysbio.com"
   },
@@ -42044,7 +41930,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptyBio Inc",
-   "last_price": "49.20",
+   "last_price": "48.05",
    "market_cap": 1470846080,
    "website": "https://www.anaptysbio.com"
   },
@@ -43713,7 +43599,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.30",
+   "last_price": "2.23",
    "market_cap": 218812768,
    "website": "https://cgen.com"
   },
@@ -44075,7 +43961,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "19.03",
+   "last_price": "18.25",
    "market_cap": 4249156096,
    "website": "https://www.relaytx.com"
   },
@@ -45581,6 +45467,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 19119,
+  "company": {
+   "ticker": "AVBP",
+   "name": "ArriVent",
+   "last_price": "15.32",
+   "market_cap": 1403297920,
+   "website": "https://arrivent.com"
+  },
+  "ticker": "AVBP",
+  "drug_name": "Firmonertinib",
+  "indications": [
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   }
+  ],
+  "indications_text": "1L Non-small Cell Lung Cancer (NSCLC) w/ EGFR exon 20 insertion mutations",
+  "stage_event": {
+   "id": 80,
+   "label": "Phase 3 Update",
+   "stage_label": "Phase 3",
+   "event_label": "Update"
+  },
+  "note": "FURVENT Ph3 Trial. 7/21/25- Breakthrough Therapy Designation. Topline Ph3 data expected in Early 2026 12/22/25:- FURVENT Ph3 trial enrolled 398 patients; no interim analysis planned; topline data still expected Early 2026. 03/05/26:- FURVENT Ph3 topline firmonertinib monotherapy data in 1L EGFR exon 20 NSCLC expected Mid-2026. 03/17/26:- AACR 2026 firmonertinib crystal-structure poster scheduled Apr 21, 2026. 05/11/26:- FURVENT Ph3 frontline EGFR exon 20 NSCLC topline monotherapy data still projected for Mid-2026. 08/12/26:- FURVENT Phase 3 topline data in first-line EGFR exon 20 insertion NSCLC is expected in H2 2026. 10/06/26:- FURVENT Ph3 missed primary PFS by BICR; secondary benefit observed; safety consistent; next plans TBA.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/06/3375447/0/en/arrivent-announces-program-update-from-the-phase-3-furvent-trial-of-firmonertinib-in-first-line-egfr-exon-20-insertion-mutant-nsclc.html",
+  "is_big_mover": true,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 19139,
   "company": {
    "ticker": "ABCL",
@@ -45699,7 +45642,7 @@
   "company": {
    "ticker": "MCRB",
    "name": "Seres Therapeutics",
-   "last_price": "2.85",
+   "last_price": "2.80",
    "market_cap": 28627624,
    "website": "https://www.serestherapeutics.com"
   },
@@ -45989,7 +45932,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "6.52",
+   "last_price": "6.19",
    "market_cap": 241342544,
    "website": "https://www.evommune.com"
   },
@@ -46312,6 +46255,63 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260909055068/en/Seaport-Therapeutics-Reports-Positive-Topline-Results-from-Phase-1-Driving-Simulation-Trial-of-GlyphAllo%E2%84%A2-in-Healthy-Volunteers/",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20637,
+  "company": {
+   "ticker": "GMAB",
+   "name": "Genmab",
+   "last_price": "38.44",
+   "market_cap": 24013772800,
+   "website": "https://www.genmab.com"
+  },
+  "ticker": "GMAB",
+  "drug_name": "Epkinly/Epcoritamab (GEN3013) (CD3-CD20 Bispecific) + R-CHOP",
+  "indications": [
+   {
+    "id": 1362,
+    "title": "Diffuse large B cell lymphoma",
+    "nickname": "DLBCL"
+   }
+  ],
+  "indications_text": "Newly Diagnosed Diffuse Large B-Cell Lymphoma",
+  "stage_event": {
+   "id": 80,
+   "label": "Phase 3 Update",
+   "stage_label": "Phase 3",
+   "event_label": "Update"
+  },
+  "note": "07/23/26:- EPCORE DLBCL-2 epcoritamab plus R-CHOP data in newly diagnosed DLBCL anticipated in 2026. 10/05/26:- Ph3 EPCORE DLBCL-2 (NCT05578976) topline positive; PFS improved. Filing and presentation timing not disclosed.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374942/0/en/genmab-and-abbvie-announce-epcoritamab-in-combination-with-r-chop-demonstrates-statistically-significant-improvement-in-progression-free-survival-in-patients-with-newly-diagnosed-d.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

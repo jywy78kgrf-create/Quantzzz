@@ -4,7 +4,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "91.37",
+   "last_price": "90.68",
    "market_cap": 5724328448,
    "website": "https://kodiak.com"
   },
@@ -66,7 +66,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "21.75",
+   "last_price": "21.81",
    "market_cap": 1952908160,
    "website": "https://mineralystx.com"
   },
@@ -128,7 +128,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1149.00",
+   "last_price": "1142.87",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -190,7 +190,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1149.00",
+   "last_price": "1142.87",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -862,7 +862,7 @@
   "company": {
    "ticker": "PDSB",
    "name": "PDS Biotech",
-   "last_price": "1.07",
+   "last_price": "1.02",
    "market_cap": 77185032,
    "website": "https://www.pdsbiotech.com"
   },
@@ -2077,7 +2077,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "21.75",
+   "last_price": "21.81",
    "market_cap": 1952908160,
    "website": "https://mineralystx.com"
   },
@@ -2160,6 +2160,63 @@
    "event_label": "Data readout"
   },
   "note": "MoonStone trial. 11/12/24- Trial initiated. 10/27/25- Positive results reported, trial met primary endpoint. Report 24-wk data in Q1 2026. Initiate global Ph3 trial in SPMS in Q1 2026. 11/12/25:- MoonStone Ph2 RMS trial positive 12-week results; 24-week data expected Q1 2026. 02/09/26:- MoonStone Ph2 RMS trial 12- and 24-week data showed ~95% reduction in new GdE T1 lesions; safety consistent. 03/16/26:- PR No update. 05/13/26:- PR No update. 08/13/26:- PR No update. 10/07/26:- MoonStone Ph2 relapsing MS 24-week and biomarker results will be presented Oct 22, 2026.",
+  "catalyst_date": "2026-10-22",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/07/3376353/0/en/zenas-biopharma-announces-upcoming-presentations-of-orelabrutinib-data-in-relapsing-remitting-multiple-sclerosis-clinical-trial-designs-in-progressive-multiple-sclerosis-and-other-.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20744,
+  "company": {
+   "ticker": "ZBIO",
+   "name": "Zenas BioPharma",
+   "last_price": "26.71",
+   "market_cap": 1836680064,
+   "website": "https://zenasbio.com"
+  },
+  "ticker": "ZBIO",
+  "drug_name": "Orelabrutinib (BTK Inhibitor)",
+  "indications": [
+   {
+    "id": 722,
+    "title": "Multiple sclerosis",
+    "nickname": "MS"
+   }
+  ],
+  "indications_text": "Relapsing-Remitting Multiple Sclerosis",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "08/13/26:- Orelabrutinib Ph2 relapsing-remitting MS 24-week data will be presented at MSToronto 2026. 10/07/26:- Ph2 RRMS orelabrutinib 24-week results will be presented Oct 22, 2026 at MSToronto2026.",
   "catalyst_date": "2026-10-22",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/07/3376353/0/en/zenas-biopharma-announces-upcoming-presentations-of-orelabrutinib-data-in-relapsing-remitting-multiple-sclerosis-clinical-trial-designs-in-progressive-multiple-sclerosis-and-other-.html",
@@ -3699,7 +3756,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "196.49",
+   "last_price": "197.45",
    "market_cap": 78441865216,
    "website": "https://www.modernatx.com"
   },
@@ -4237,7 +4294,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "196.49",
+   "last_price": "197.45",
    "market_cap": 78441865216,
    "website": "https://www.modernatx.com"
   },
@@ -4294,7 +4351,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "196.49",
+   "last_price": "197.45",
    "market_cap": 78441865216,
    "website": "https://www.modernatx.com"
   },
@@ -5375,7 +5432,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "14.61",
+   "last_price": "14.48",
    "market_cap": 904791040,
    "website": "https://www.adlainortye.com"
   },
@@ -5871,7 +5928,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "52.35",
+   "last_price": "51.75",
    "market_cap": 5061860352,
    "website": "https://www.crisprtx.com"
   },
@@ -6434,7 +6491,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "60.11",
+   "last_price": "60.66",
    "market_cap": 8497111552,
    "website": "https://www.cytokinetics.com"
   },
@@ -7256,63 +7313,6 @@
   "move_analysis_ai_reasoning": "Late November 2026 is the company's confirmed timing. Treatment and follow-up are complete, but treatment assignments remained blinded at the September announcement. This is a genuinely new pivotal efficacy result with very high importance to Sol-Gel's value. ([ir.sol-gel.com](https://ir.sol-gel.com/news-releases/news-release-details/sol-gel-technologies-announces-last-patient-last-visit-pivotal))\n\nHistorical Phase 3 development success is about 60% in the broad category containing dermatology and 47.7% in oncology. These are development-transition rates, not probabilities of an unequivocally favorable stock-market outcome. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) Oral hedgehog inhibitors have demonstrated strong prevention of new tumors in Gorlin syndrome, validating the biological target, but frequent systemic side effects limit prolonged treatment. Topical patidegib must establish its own efficacy rather than inherit those results. ([nejm.org](https://www.nejm.org/doi/full/10.1056/NEJMoa1113538?utm_source=openai))\n\nThe strongest support is prior randomized evidence in patients resembling those selected for this trial. However, that evidence comes from a subgroup identified after an unsuccessful trial, which can exaggerate a treatment effect. Requiring the PTCH1 mutation and substantial existing tumor burden gives the new study a credible rationale. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1684693/000117891326001552/zk2634571.htm)) Randomization, central photographic review and 12 months of treatment strengthen the design. Nevertheless, differences in how quickly patients develop tumors, baseline imbalances and the handling of incomplete observations can affect the statistical result. A favorable trend could still miss the primary test or fail to show fewer lesions needing surgery. That supports 45\u201355% Clean+, 15\u201325% Mixed and 25\u201335% Clean\u2013 probabilities. ([clinicaltrials.gov](https://clinicaltrials.gov/study/NCT06050122?rank=1&term=patidegib&viewType=Table&utm_source=openai))\n\nBPIQ reports two specialist hedge-fund holders, with ownership dollars concentrated in Opaleye and lower position values at both holders in the latest quarter. This warrants caution rather than assuming broad specialist conviction; position-value declines do not necessarily mean shares were sold. The March offering nevertheless attracted several healthcare investors and raised $33.1 million gross. ([ir.sol-gel.com](https://ir.sol-gel.com/news-releases/news-release-details/sol-gel-reports-first-quarter-2026-financial-results-and?utm_source=openai)) At the supplied $258.5 million market capitalization, this is not a distressed microcap. Company-reported June liquidity was $49.3 million, with funding expected into Q1 2028, reducing immediate financing pressure. Future commercialization spending and another offering could still constrain sustained gains. ([ir.sol-gel.com](https://ir.sol-gel.com/node/9411))\n\nOur conditional upside of 30\u201365% reflects the potential to establish a preventive treatment and substantially strengthen the approval case. Sol-Gel retains U.S. commercial rights, although acquisition royalties and milestones remain payable. Its sold U.S. rights to TWYNEO and EPSOLAY provide less ongoing diversification than ownership of those commercial franchises would. ([ir.sol-gel.com](https://ir.sol-gel.com/node/9411)) A modest or statistically fragile result could therefore fall 10\u201330%, while clear failure could erase 45\u201370% of equity value; remaining liquidity and international product economics provide some residual value. The October study-enrollment milestones do not independently establish efficacy before November. ([ir.sol-gel.com](https://ir.sol-gel.com/node/9411)) Options provide no meaningful event-implied move for this setup, so both directions qualify as fundamentally suspected big movers, not options-confirmed big movers.",
   "catalyst_event_details": "Sol-Gel expects pivotal Phase 3 results for SGT-610 (patidegib gel, 2%) in Gorlin syndrome in late November 2026. ([ir.sol-gel.com](https://ir.sol-gel.com/news-releases/news-release-details/sol-gel-technologies-announces-last-patient-last-visit-pivotal))",
   "move_analysis_created_datetime": "2026-10-06T14:53:42Z"
- },
- {
-  "id": 17501,
-  "company": {
-   "ticker": "PEPG",
-   "name": "PepGen",
-   "last_price": "2.29",
-   "market_cap": 166006128,
-   "website": "https://www.pepgen.com"
-  },
-  "ticker": "PEPG",
-  "drug_name": "PGN-EDODM1",
-  "indications": [
-   {
-    "id": 1262,
-    "title": "Myotonic Dystrophy Type 1",
-    "nickname": "DM1"
-   }
-  ],
-  "indications_text": "Myotonic Dystrophy Type 1 (DM1)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "FREEDOM-DM1 study. 12/18/23- First patient dosed. 2/24/25- Reported initial results. 8/7/25- Completed dosing in 15mg/kg cohort. 9/24/25- Topline data reported 15 mg/kg dose cohort. Ph2 FREEDOM2 (MAD) trial data in Q1 2026. Presentation at WMS'25 on October 7-12, 2025. 11/12/25:- 5mg/kg cohort fully enrolled; Q1 2026 data, Q1 2026 10mg/kg dosing start, H2 2026 10mg/kg data. 03/04/26:- FREEDOM2 5mg Q1 2026 and 10mg H2 2026 data expected; MDA 2026 FREEDOM-DM1 results; US partial hold. Partial U.S. clinical hold; ex-U.S. sites cleared; 10 mg/kg dosing continues; data remains Q1 2026 and H2 2026. 03/31/26:- Reported Ph2 FREEDOM2 5mg MAD cohort data. 10mg MAD cohort results expected H2 2026. 05/12/26:- 10mg cohort fully enrolled; H2 2026 data; 12.5mg MAD data in 2027; OLE enrolling internationally. 05/21/26:- Present SAD and initial MAD data May 26, 2026. IDMC-15 mis-splicing analyses May 27-28, 2026. 08/06/26:- Reiterated 10mg data in November 2026, 12.5mg results H1 2027, OLE update Early January.",
-  "catalyst_date": "2026-11-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260512245445/en/PepGen-Reports-First-Quarter-2026-Financial-Results-and-Recent-Corporate-Highlights",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": "30.000000",
-  "probability_clean_plus_max": "40.000000",
-  "probability_mixed_min": "35.000000",
-  "probability_mixed_max": "45.000000",
-  "probability_clean_minus_min": "20.000000",
-  "probability_clean_minus_max": "30.000000",
-  "magnitude_clean_plus_min": "40.000000",
-  "magnitude_clean_plus_max": "85.000000",
-  "magnitude_mixed_min": "-30.000000",
-  "magnitude_mixed_max": "10.000000",
-  "magnitude_clean_minus_min": "-60.000000",
-  "magnitude_clean_minus_max": "-35.000000",
-  "up_suspected_big_mover": true,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is a new higher-dose proof-of-concept readout, not simply follow-up of previously positive efficacy. Eight participants are randomized 3:1 to drug or placebo for four infusions over 12 weeks. Safety is the primary focus; RNA-processing correction and functional measures provide exploratory evidence of benefit. The 5 mg/kg cohort showed 7.3% mean splicing correction versus 6.8% with placebo; excluding one patient increased the drug result to 22.9%. Clear improvement across patients, encouraging function and acceptable repeat-dose safety matter more than an outlier-excluded average. The U.S. partial clinical hold remains a separate development risk. ([investors.pepgen.com](https://investors.pepgen.com/static-files/bf72ac74-dd3b-438b-8f66-70840a116145?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "November's readout is highly important because PGN-EDODM1 is PepGen's remaining clinical-stage asset. It supplies genuinely new evidence about higher-dose repeat treatment, although the safety board has already supported further dose escalation. That recommendation is reassuring about observed safety, but does not establish efficacy. ([investors.pepgen.com](https://investors.pepgen.com/news-releases/news-release-details/pepgen-reports-second-quarter-2026-financial-results-and-recent?utm_source=openai))\n\nHistorically, approximately 26.8% of Phase 2 neurology programs advanced to Phase 3; that is a development benchmark, not the probability of a favorable stock reaction. PepGen has stronger biological evidence than a typical early program: its single-dose 15 mg/kg cohort achieved 53.7% mean correction of abnormal RNA processing. However, the lower repeat-dose cohort barely separated from placebo when every treated patient was included, and walking and grip strength did not meaningfully improve. These competing signals support a 30\u201340% probability of clearly favorable results, with an ambiguous outcome more likely. ([bio.org](https://www.bio.org/clinical-development-success-rates-and-contributing-factors-2011-2020?utm_source=openai))\n\nWith only six treated participants and two placebo participants, one unusual biopsy result can dominate the average. Multiple exploratory measurements and short follow-up also make it possible to show biological activity without convincing clinical benefit. A clearly favorable result should show consistent correction across patients without relying on exclusions, alongside encouraging muscle-relaxation or strength findings. Dyne's reported longer-term functional improvements illustrate why investors will look beyond a biomarker headline, although different assays and treatment schedules prevent straightforward numerical comparisons. The FDA's partial hold concerns preclinical pharmacology and toxicology, so favorable November data would not automatically resolve it. ([investors.pepgen.com](https://investors.pepgen.com/static-files/bf72ac74-dd3b-438b-8f66-70840a116145?utm_source=openai))\n\nThe supplied market snapshot values PepGen at $163.2 million. Five specialist hedge funds hold it, including RA Capital, but the decline from 14 funds a year earlier argues against treating specialist ownership as broad conviction. Cash of $117.2 million at June 30 supports company-guided operations into Q4 2027, reducing immediate financing pressure. Nevertheless, larger trials require capital; PepGen has a $100 million share-sale facility and raised equity after its September 2025 data. A strong result could create another financing opportunity that limits sustained gains. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1835597/000119312526336754/pepg-20260630.htm))\n\nWe estimate 40\u201385% upside for unequivocally strong results because success would materially restore confidence in the company's main asset. Mixed results could produce a 30% decline to a 10% gain: biological activity alone may keep development alive without establishing competitiveness. Clearly unfavorable efficacy or important toxicity could cause a 35\u201360% decline. Cash offers some support, but continuing spending and asset concentration make it an imperfect floor. These are conditional estimates, not price targets.\n\nOptions do not provide a reliable event-specific comparison. November timing does not guarantee that results precede the November 20 expiration; its quoted roughly 148% straddle also has extremely wide spreads. February and May expirations extend beyond November but lack usable two-sided quotes and overlap later planned updates. Consequently, neither direction receives options-confirmed big-mover status, despite the substantial fundamental move estimates.",
-  "catalyst_event_details": "PepGen expects November 2026 results from the 10 mg/kg repeat-dose cohort of its Phase 2 FREEDOM2-DM1 trial of PGN-EDODM1 for myotonic dystrophy type 1. ([investors.pepgen.com](https://investors.pepgen.com/news-releases/news-release-details/pepgen-reports-second-quarter-2026-financial-results-and-recent?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T14:52:23Z"
  },
  {
   "id": 236,
@@ -8157,7 +8157,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "21.75",
+   "last_price": "21.81",
    "market_cap": 1952908160,
    "website": "https://mineralystx.com"
   },
@@ -8447,7 +8447,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "928.44",
+   "last_price": "795.00",
    "market_cap": 52939825152,
    "website": "https://argenx.com"
   },
@@ -9596,7 +9596,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "196.49",
+   "last_price": "197.45",
    "market_cap": 78441865216,
    "website": "https://www.modernatx.com"
   },
@@ -10035,7 +10035,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "9.99",
+   "last_price": "9.97",
    "market_cap": 875699008,
    "website": "https://www.corvuspharma.com"
   },
@@ -10179,7 +10179,7 @@
   "company": {
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
-   "last_price": "3.32",
+   "last_price": "3.38",
    "market_cap": 278353088,
    "website": "https://eyepoint.bio"
   },
@@ -10886,7 +10886,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "928.44",
+   "last_price": "795.00",
    "market_cap": 52939825152,
    "website": "https://argenx.com"
   },
@@ -11072,7 +11072,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "7.60",
+   "last_price": "7.67",
    "market_cap": 501370176,
    "website": "https://www.regenxbio.com"
   },
@@ -11583,7 +11583,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "20.39",
+   "last_price": "19.87",
    "market_cap": 1401933440,
    "website": "https://tyra.bio"
   },
@@ -11831,7 +11831,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "10.86",
+   "last_price": "10.87",
    "market_cap": 2284006144,
    "website": "https://sellaslifesciences.com"
   },
@@ -13354,7 +13354,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.24",
    "market_cap": 949209792,
    "website": "https://kuraoncology.com"
   },
@@ -13421,7 +13421,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.24",
    "market_cap": 949209792,
    "website": "https://kuraoncology.com"
   },
@@ -13674,7 +13674,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "11.22",
+   "last_price": "10.79",
    "market_cap": 1949367808,
    "website": "https://www.vir.bio"
   },
@@ -13860,7 +13860,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "52.35",
+   "last_price": "51.75",
    "market_cap": 5061860352,
    "website": "https://www.crisprtx.com"
   },
@@ -13932,7 +13932,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1149.00",
+   "last_price": "1142.87",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -14252,7 +14252,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "196.49",
+   "last_price": "197.45",
    "market_cap": 78441865216,
    "website": "https://www.modernatx.com"
   },
@@ -14696,7 +14696,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "52.35",
+   "last_price": "51.75",
    "market_cap": 5061860352,
    "website": "https://www.crisprtx.com"
   },
@@ -15038,7 +15038,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "8.25",
+   "last_price": "7.81",
    "market_cap": 748506880,
    "website": "https://www.verastem.com"
   },
@@ -15095,7 +15095,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "9.99",
+   "last_price": "9.97",
    "market_cap": 875699008,
    "website": "https://www.corvuspharma.com"
   },
@@ -15586,7 +15586,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "91.37",
+   "last_price": "90.68",
    "market_cap": 5724328448,
    "website": "https://kodiak.com"
   },
@@ -16625,7 +16625,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.24",
    "market_cap": 949209792,
    "website": "https://kuraoncology.com"
   },
@@ -16863,7 +16863,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.30",
+   "last_price": "43.58",
    "market_cap": 7338699776,
    "website": "https://www.ionis.com"
   },
@@ -17339,7 +17339,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "196.49",
+   "last_price": "197.45",
    "market_cap": 78441865216,
    "website": "https://www.modernatx.com"
   },
@@ -17711,7 +17711,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "11.22",
+   "last_price": "10.79",
    "market_cap": 1949367808,
    "website": "https://www.vir.bio"
   },
@@ -18036,7 +18036,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "52.35",
+   "last_price": "51.75",
    "market_cap": 5061860352,
    "website": "https://www.crisprtx.com"
   },
@@ -18388,7 +18388,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.24",
    "market_cap": 949209792,
    "website": "https://kuraoncology.com"
   },
@@ -21363,7 +21363,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "52.35",
+   "last_price": "51.75",
    "market_cap": 5061860352,
    "website": "https://www.crisprtx.com"
   },
@@ -21876,7 +21876,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "196.49",
+   "last_price": "197.45",
    "market_cap": 78441865216,
    "website": "https://www.modernatx.com"
   },
@@ -22708,7 +22708,7 @@
   "company": {
    "ticker": "CRIS",
    "name": "Curis",
-   "last_price": "0.74",
+   "last_price": "0.70",
    "market_cap": 1786312,
    "website": "https://www.curis.com"
   },
@@ -27252,7 +27252,7 @@
   "company": {
    "ticker": "MBRX",
    "name": "Moleculin Biotech",
-   "last_price": "0.44",
+   "last_price": "0.42",
    "market_cap": 8947319,
    "website": "https://moleculin.com"
   },
@@ -27795,7 +27795,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "20.39",
+   "last_price": "19.87",
    "market_cap": 1401933440,
    "website": "https://tyra.bio"
   },
@@ -28960,7 +28960,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.86",
+   "last_price": "0.84",
    "market_cap": 242024576,
    "website": "https://www.akebia.com"
   },
@@ -30594,7 +30594,7 @@
   "company": {
    "ticker": "CRIS",
    "name": "Curis",
-   "last_price": "0.74",
+   "last_price": "0.70",
    "market_cap": 1786312,
    "website": "https://www.curis.com"
   },
@@ -31762,7 +31762,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "14.61",
+   "last_price": "14.48",
    "market_cap": 904791040,
    "website": "https://www.adlainortye.com"
   },
@@ -31938,7 +31938,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "18.41",
+   "last_price": "18.53",
    "market_cap": 3062676224,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -33527,7 +33527,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "14.61",
+   "last_price": "14.48",
    "market_cap": 904791040,
    "website": "https://www.adlainortye.com"
   },
@@ -33589,7 +33589,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "18.41",
+   "last_price": "18.53",
    "market_cap": 3062676224,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -34107,7 +34107,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "12.97",
+   "last_price": "12.96",
    "market_cap": 5850125824,
    "website": "https://www.iovance.com"
   },
@@ -34164,7 +34164,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "12.97",
+   "last_price": "12.96",
    "market_cap": 5850125824,
    "website": "https://www.iovance.com"
   },
@@ -34851,7 +34851,7 @@
   "company": {
    "ticker": "CRDL",
    "name": "Cardiol Therapeutics",
-   "last_price": "1.33",
+   "last_price": "1.31",
    "market_cap": 160397088,
    "website": "https://www.cardiolrx.com"
   },
@@ -35756,7 +35756,7 @@
   "company": {
    "ticker": "DARE",
    "name": "Dar\u00e9 Bioscience, Inc.",
-   "last_price": "0.76",
+   "last_price": "0.78",
    "market_cap": 15538577,
    "website": "https://darebioscience.com"
   },
@@ -36046,7 +36046,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "18.41",
+   "last_price": "18.53",
    "market_cap": 3062676224,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -36341,7 +36341,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "928.44",
+   "last_price": "795.00",
    "market_cap": 52939825152,
    "website": "https://argenx.com"
   },
@@ -36812,7 +36812,7 @@
   "company": {
    "ticker": "EYPT",
    "name": "EyePoint pharmaceuticals",
-   "last_price": "3.32",
+   "last_price": "3.38",
    "market_cap": 278353088,
    "website": "https://eyepoint.bio"
   },
@@ -37179,7 +37179,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.30",
+   "last_price": "43.58",
    "market_cap": 7338699776,
    "website": "https://www.ionis.com"
   },
@@ -37298,7 +37298,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "34.19",
+   "last_price": "33.67",
    "market_cap": 4714936320,
    "website": "https://definiumtx.com"
   },
@@ -37536,7 +37536,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "928.44",
+   "last_price": "795.00",
    "market_cap": 52939825152,
    "website": "https://argenx.com"
   },
@@ -38411,7 +38411,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "20.39",
+   "last_price": "19.87",
    "market_cap": 1401933440,
    "website": "https://tyra.bio"
   },
@@ -39224,7 +39224,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.86",
+   "last_price": "0.84",
    "market_cap": 242024576,
    "website": "https://www.akebia.com"
   },
@@ -39291,7 +39291,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.86",
+   "last_price": "0.84",
    "market_cap": 242024576,
    "website": "https://www.akebia.com"
   },
@@ -39415,7 +39415,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "18.41",
+   "last_price": "18.53",
    "market_cap": 3062676224,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -39596,7 +39596,7 @@
   "company": {
    "ticker": "DARE",
    "name": "Dar\u00e9 Bioscience, Inc.",
-   "last_price": "0.76",
+   "last_price": "0.78",
    "market_cap": 15538577,
    "website": "https://darebioscience.com"
   },
@@ -39653,7 +39653,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "18.41",
+   "last_price": "18.53",
    "market_cap": 3062676224,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -41351,7 +41351,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1149.00",
+   "last_price": "1142.87",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -41936,7 +41936,7 @@
   "company": {
    "ticker": "DCTH",
    "name": "Delcath Systems Inc",
-   "last_price": "14.63",
+   "last_price": "14.62",
    "market_cap": 533667488,
    "website": "https://www.delcath.com"
   },
@@ -42169,7 +42169,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.24",
    "market_cap": 949209792,
    "website": "https://kuraoncology.com"
   },
@@ -42236,7 +42236,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.36",
+   "last_price": "10.24",
    "market_cap": 949209792,
    "website": "https://kuraoncology.com"
   },
@@ -43083,7 +43083,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "10.86",
+   "last_price": "10.87",
    "market_cap": 2284006144,
    "website": "https://sellaslifesciences.com"
   },
@@ -43150,7 +43150,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "7.60",
+   "last_price": "7.67",
    "market_cap": 501370176,
    "website": "https://www.regenxbio.com"
   },
@@ -43517,7 +43517,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.30",
+   "last_price": "43.58",
    "market_cap": 7338699776,
    "website": "https://www.ionis.com"
   },
@@ -44618,7 +44618,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "34.19",
+   "last_price": "33.67",
    "market_cap": 4714936320,
    "website": "https://definiumtx.com"
   },
@@ -45089,7 +45089,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "928.44",
+   "last_price": "795.00",
    "market_cap": 52939825152,
    "website": "https://argenx.com"
   },
@@ -45652,7 +45652,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "20.39",
+   "last_price": "19.87",
    "market_cap": 1401933440,
    "website": "https://tyra.bio"
   },

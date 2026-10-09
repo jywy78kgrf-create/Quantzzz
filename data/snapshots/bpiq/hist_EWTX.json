@@ -1,5 +1,29 @@
 [
  {
+  "id": 8853,
+  "company": {
+   "id": 386,
+   "ticker": "EWTX",
+   "name": "Edgewise Therapeutics",
+   "website": "https://edgewisetx.com"
+  },
+  "created_at": "2026-10-09T13:07:59.944655Z",
+  "updated_at": "2026-10-09T13:07:59.944692Z",
+  "ticker": "EWTX",
+  "drug_name": "EDG-15400",
+  "drug_indication": "Heart Failure with Preserved Ejection Fraction",
+  "airtable_id": 9124,
+  "stage": "Phase 2",
+  "catalyst_date": "2026-10-08",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/edgewise-therapeutics-doses-first-patient-in-phase-2-equinox-hfpef-trial-of-edg-15400-302901913.html",
+  "catalyst_text": "Dosed first patient in Phase 2 HFpEF trial",
+  "detailed_catalyst_text": "The company announced first patient dosing in EQUINOX-HFpEF, a Phase 2 randomized, double-blind, placebo-controlled study in adults with symptomatic HFpEF and LVEF of at least 50%. The trial evaluates safety, tolerability, pharmacokinetics and pharmacodynamics over up to 12 weeks. This milestone advances the program into mid-stage clinical testing for HFpEF.",
+  "catalyst_text_evidence": "Edgewise Therapeutics, Inc. (Nasdaq: EWTX) ... today announced the dosing of the first patient in EQUINOX-HFpEF, a Phase 2 clinical trial evaluating EDG-15400 in adults with symptomatic heart failure with preserved ejection fraction (HFpEF) who have a left ventricular ejection fraction (LVEF) of at least 50%.",
+  "news_published_at": "2026-10-09T00:00:00Z",
+  "open_price_gap_percent": "-0.03614",
+  "intra_day_price_change_percent": "0.02858"
+ },
+ {
   "id": 7912,
   "company": {
    "id": 386,
@@ -8,7 +32,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2026-06-17T13:02:55.813761Z",
-  "updated_at": "2026-10-08T13:03:21.406045Z",
+  "updated_at": "2026-10-09T13:03:26.218897Z",
   "ticker": "EWTX",
   "drug_name": "EDG-7500",
   "drug_indication": "Obstructive Hypertrophic Cardiomyopathy, Nonobstructive Hypertrophic Cardiomyopathy",
@@ -32,7 +56,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2026-03-11T13:04:29.767199Z",
-  "updated_at": "2026-10-08T13:06:39.697804Z",
+  "updated_at": "2026-10-09T13:07:06.152667Z",
   "ticker": "EWTX",
   "drug_name": "Sevasemten",
   "drug_indication": "Becker Muscular Dystrophy",
@@ -56,7 +80,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2025-04-03T13:01:47.321338Z",
-  "updated_at": "2026-10-08T13:03:28.089060Z",
+  "updated_at": "2026-10-09T13:03:33.001358Z",
   "ticker": "EWTX",
   "drug_name": "EDG-7500  ",
   "drug_indication": "hypertrophic cardiomyopathy (HCM)  ",
@@ -80,7 +104,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2025-03-28T13:03:39.260216Z",
-  "updated_at": "2026-10-08T13:06:17.892332Z",
+  "updated_at": "2026-10-09T13:06:38.445730Z",
   "ticker": "EWTX",
   "drug_name": "EDG-7500",
   "drug_indication": "Hypertrophic cardiomyopathies ",
@@ -104,7 +128,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2025-02-21T20:48:11.997655Z",
-  "updated_at": "2026-10-08T13:05:50.493854Z",
+  "updated_at": "2026-10-09T13:06:07.535330Z",
   "ticker": "EWTX",
   "drug_name": "EDG-5506 - (CANYON)",
   "drug_indication": "Becker Muscular Dystrophy (BMD)",
@@ -128,7 +152,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2025-02-21T20:45:43.790841Z",
-  "updated_at": "2026-10-08T13:00:54.081838Z",
+  "updated_at": "2026-10-09T13:00:52.847587Z",
   "ticker": "EWTX",
   "drug_name": "EDG-7500 - (CIRRUS-HCM)",
   "drug_indication": "Hypertrophic Cardiomyopathy (HCM)",
@@ -152,7 +176,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2025-02-21T20:06:15.518349Z",
-  "updated_at": "2026-10-08T13:01:54.082948Z",
+  "updated_at": "2026-10-09T13:01:49.409948Z",
   "ticker": "EWTX",
   "drug_name": "EDG-5506 - (DUNE)",
   "drug_indication": "Becker muscular dystrophy (BMD)",
@@ -176,7 +200,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2025-02-21T20:47:36.346600Z",
-  "updated_at": "2026-10-08T13:04:37.547072Z",
+  "updated_at": "2026-10-09T13:04:46.622731Z",
   "ticker": "EWTX",
   "drug_name": "sevasemten (EDG-5506) - (ARCH)",
   "drug_indication": "Becker muscular dystrophy (BMD)",
@@ -200,7 +224,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2025-02-21T20:07:51.450499Z",
-  "updated_at": "2026-10-08T13:04:14.716104Z",
+  "updated_at": "2026-10-09T13:04:21.663706Z",
   "ticker": "EWTX",
   "drug_name": "EDG-5506 - (FOX)",
   "drug_indication": "Dystrophinopathies including Duchenne Muscular Dystrophy in children and adolescent boys",
@@ -224,7 +248,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2025-02-21T20:08:12.359412Z",
-  "updated_at": "2026-10-08T13:04:44.487135Z",
+  "updated_at": "2026-10-09T13:04:53.993031Z",
   "ticker": "EWTX",
   "drug_name": "EDG-5506 - (LYNX)",
   "drug_indication": "Duchenne Muscular Dystrophy (DMD)",
@@ -248,7 +272,7 @@
    "website": "https://edgewisetx.com"
   },
   "created_at": "2025-02-21T20:13:43.114575Z",
-  "updated_at": "2026-10-08T13:06:33.257906Z",
+  "updated_at": "2026-10-09T13:06:54.672021Z",
   "ticker": "EWTX",
   "drug_name": "AGAMREE (vamorolone)",
   "drug_indication": "Duchenne Muscular Dystrophy (DMD)",

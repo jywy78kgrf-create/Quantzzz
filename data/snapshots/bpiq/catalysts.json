@@ -62,78 +62,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 17588,
-  "company": {
-   "ticker": "N/A",
-   "name": "Biomedical Meetings",
-   "last_price": null,
-   "market_cap": null,
-   "website": ""
-  },
-  "ticker": "Meeting",
-  "drug_name": "International Cytokine and Interferons Society (Cytokines 2026) ",
-  "indications": [
-   {
-    "id": 702,
-    "title": "Allergy",
-    "nickname": ""
-   },
-   {
-    "id": 1272,
-    "title": "Autoimmune disease",
-    "nickname": ""
-   },
-   {
-    "id": 1285,
-    "title": "Immune Disorders",
-    "nickname": ""
-   },
-   {
-    "id": 1174,
-    "title": "Inflammatory disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Allergy, Inflammatory disease, Immune Disorders, Autoimmune disease",
-  "stage_event": {
-   "id": 154,
-   "label": "Biomedical Meeting Abstract Release",
-   "stage_label": "Biomedical Meeting",
-   "event_label": "Abstract Release"
-  },
-  "note": "International Cytokine and Interferons Society (Cytokines 2026): Accepted abstracts will be available on the Cytokines 2026 mobile app one week before the start of the meeting (approx. Oct 11, 2026).",
-  "catalyst_date": "2026-10-11",
-  "has_catalyst": true,
-  "catalyst_source": "https://2026.cytokinesociety.org/call-for-abstracts/",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 19220,
   "company": {
    "ticker": "ARWR",
@@ -1451,6 +1379,63 @@
   "catalyst_source": "https://www.businesswire.com/news/home/20260922009299/en/Arcus-Biosciences-to-Host-Investor-Event-Featuring-New-Data-for-Casdatifan-as-a-Treatment-for-Kidney-Cancer-Across-Multiple-Lines-of-Therapy",
   "is_big_mover": false,
   "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20552,
+  "company": {
+   "ticker": "AGMB",
+   "name": "Agomab",
+   "last_price": "9.08",
+   "market_cap": 447171616,
+   "website": "https://www.agomab.com"
+  },
+  "ticker": "AGMB",
+  "drug_name": "Ontunisertib (AGMB-129)",
+  "indications": [
+   {
+    "id": 858,
+    "title": "Crohns disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Fibrostenosing Crohn's Disease (FSCD)",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "4/23/26:- STENOVA Ph2a OLE ongoing in FSCD; topline OLE data and Ph2b initiation expected in H2 2026. 06/23/26:- NOV-ERA Ph2b design aligned with FDA; first participants dosing expected in H2 2026. 08/06/26:- NOV-ERA regulatory progress reported; OLE topline data and first dosing expected in H2 2026. 10/01/26:- Positive 48-week STENOVA OLE data. NOV-ERA global Ph2b study initiation planned in coming months (Q4 2026). 10/08/26:- STENOVA OLE data to be presented at UEG Week on Oct 20, 2026. NOV-ERA Ph2b initiation reiterated.",
+  "catalyst_date": "2026-10-20",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/08/3377670/0/en/agomab-to-present-stenova-open-label-extension-data-of-ontunisertib-at-ueg-week-2026-and-host-scientific-symposium-on-fibro-inflammation.html",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
@@ -3876,6 +3861,73 @@
   "move_analysis_created_datetime": "2026-10-06T14:47:08Z"
  },
  {
+  "id": 18439,
+  "company": {
+   "ticker": "CYDY",
+   "name": "CytoDyn Inc",
+   "last_price": "0.20",
+   "market_cap": 293903616,
+   "website": "https://www.cytodyn.com"
+  },
+  "ticker": "CYDY",
+  "drug_name": "Leronlimab in comb w/trifluridine+ tipiracil (TAS-102)+ bevacizumab",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1364,
+    "title": "Metastatic colorectal cancer",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Metastatic colorectal cancer",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "10/4/2024- Protocol submitted to FDA in September 2024. 11/4/24- FDA clearance for Ph2 study. 6/24/25- First patient dosed in Ph2. 7/1/25- Present encouraging survival data at ESMO. 04/14/26:- AACR poster presents preliminary Ph2 mCRC combo results April 21, 2026. 04/21/26:- CLOVER Ph2 mCRC combo trial (NCT06699836) completed enrollment; topline data expected as available. 10/08/26:- Updated Ph2 CLOVER data presented at ESMO October 25, 2026.",
+  "catalyst_date": "2026-10-25",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/08/3377264/19782/en/cytodyn-to-present-updated-data-from-phase-2-clover-clinical-study-at-esmo-congress-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 20095,
   "company": {
    "ticker": "AGEN",
@@ -5476,6 +5528,73 @@
   "catalyst_date": "2026-11-07",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374725/16259/en/assembly-biosciences-to-present-positive-phase-1a-safety-tolerability-and-target-engagement-data-for-abi-6250-at-aasld-the-liver-meeting-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 18544,
+  "company": {
+   "ticker": "DTIL",
+   "name": "Precision BioSciences",
+   "last_price": "6.72",
+   "market_cap": 185482432,
+   "website": "https://precisionbiosciences.com"
+  },
+  "ticker": "DTIL",
+  "drug_name": "PBGENE-HBV",
+  "indications": [
+   {
+    "id": 1093,
+    "title": "Chronic hepatitis B",
+    "nickname": ""
+   },
+   {
+    "id": 1191,
+    "title": "Liver disease",
+    "nickname": ""
+   },
+   {
+    "id": 1051,
+    "title": "Viral infection",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Chronic hepatitis B",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "04/22/26:- ELIMINATE-B Ph1 biopsy data on cccDNA elimination to be presented at EASL 2026 May 27. 05/05/26:- Treated 16 patients across five ELIMINATE-B cohorts; France/Romania CTAs approved; late-breaking EASL 2026 poster confirmed. 05/21/26:- Investor webcast May 27, 2026 to discuss new ELIMINATE-B biopsy and clinical data; news release after embargo. 05/27/26:- New ELIMINATE-B biopsy and pgRNA data shown. Additional ELIMINATE-B updates expected by End Of 2026. 08/06/26:- ELIMINATE-B showed cccDNA reduction and durable pgRNA loss; next update expected Year-End 2026. 10/08/26:- Late-breaking ELIMINATE-B oral at AASLD on November 8, 2026.",
+  "catalyst_date": "2026-11-08",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20261008153055/en/Precision-BioSciences-Announces-Late-Breaking-Oral-Presentation-for-PBGENE-HBV-at-AASLD-The-Liver-Meeting-2026",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -7191,6 +7310,53 @@
   "move_analysis_created_datetime": "2026-10-06T13:11:10Z"
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-31",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 19186,
   "company": {
    "ticker": "REGN",
@@ -7303,53 +7469,6 @@
   "move_analysis_ai_reasoning": "We assign an 88\u201394% probability of commercially usable approval because this is an established medicine with a substantial remission benefit in a randomized, active-controlled Phase 3 trial. That is a stronger setup than an early-stage or uncontrolled kidney-disease filing. The kidney-function secondary endpoint did not show a significant benefit. This limits claims about preventing kidney failure, but does not erase the successful primary remission endpoint. The modest, open-label study leaves room for label restrictions or additional requirements. ([nejm.org](https://www.nejm.org/doi/10.1056/NEJMoa2602678?utm_source=openai)) Priority Review and Breakthrough Therapy designation are supportive, but the efficacy results and prior product approvals carry more weight. ([gene.com](https://www.gene.com/media/press-releases/15121/2026-07-14/fda-grants-priority-review-to-genentechs?utm_source=openai))\n\nManufacturing is substantially supported by years of commercial use, Roche\u2019s operating experience and recent approvals of the same product in kidney diseases. This is not a first commercial launch or a novel delivery device. Historical FDA manufacturing findings are reassuring without guaranteeing the outcome of the present review. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/125486Orig1s000MicroR.pdf?utm_source=openai))\n\nThe supplied company figures show a $334.7 billion market capitalization, $380.9 billion enterprise value and $9.7 billion cash. This indication represents only a small part of Roche\u2019s value, and a favorable decision is likely substantially anticipated. U.S. profit sharing with Biogen further limits Roche\u2019s retained economics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/875045/000087504524000032/biib-20240930.htm)) We therefore estimate only 0.10\u20130.70% upside on clean approval, -0.50% to +0.10% for a commercially inferior approval, and -1.50% to -0.40% for rejection. These are event-specific estimates, not forecasts of the whole day\u2019s trading. The supplied historical reactions to Gazyva\u2019s trial results and review acceptance were modest, consistent with this indication not driving Roche\u2019s overall valuation.\n\nThe supplied BPIQ ownership snapshot shows zero specialist funds and $0 represented holdings across the supplied quarters. That carries little regulatory significance for a diversified global pharmaceutical company. Financing is not a central risk for this decision. Roche\u2019s substantial commercial operations provide support beyond its cash balance. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-07-23?utm_source=openai)) More important baseline-setting events include Tecentriq\u2019s October 9 decision, Enspryng\u2019s October 15 decision and Roche\u2019s October 22 sales update. Our conditional moves apply to the stock immediately before the Gazyva decision. ([gene.com](https://www.gene.com/media/press-releases/15116/2026-06-10/fda-grants-priority-review-for-genentech))\n\nNovember timing places the decision approximately 26\u201355 days after October 6, rather than establishing an exact November 30 deadline. Neither direction meets the 20% fundamental-move threshold for a big-mover classification. ([gene.com](https://www.gene.com/media/press-releases/15121/2026-07-14/fda-grants-priority-review-to-genentechs?utm_source=openai))",
   "catalyst_event_details": "The FDA is expected to decide on Gazyva\u2019s supplemental application for adults with primary membranous nephropathy in November 2026. ([gene.com](https://www.gene.com/media/press-releases/15121/2026-07-14/fda-grants-priority-review-to-genentechs?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T13:08:54Z"
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-31",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
  },
  {
   "id": 19823,
@@ -18966,63 +19085,6 @@
   "move_analysis_ai_reasoning": "BELLA Part A results are expected by year-end 2026. The 95-patient study tests whether adding bevacizumab can strengthen relacorilant plus nab-paclitaxel in platinum-resistant ovarian cancer. The two-drug regimen already has FDA approval, so this readout concerns an expansion opportunity rather than first validation of Corcept's oncology business. ([ir.corcept.com](https://ir.corcept.com/news-releases/news-release-details/corcept-therapeutics-announces-second-quarter-financial-4?utm_source=openai))\n\nHistorically, 24.6% of oncology programs advanced from Phase 2 to Phase 3. That benchmark describes development progression, not the probability of an attractive stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) BELLA has stronger support than a typical early oncology study because ROSELLA demonstrated benefit in the same disease. Still, the earlier randomized Phase 2 trial missed its primary endpoint after accounting for multiple comparisons, and neither earlier trial establishes the benefit of the concurrent three-drug combination. ([ascopubs.org](https://ascopubs.org/doi/full/10.1200/JCO.22.02624?utm_source=openai)) We assign a 40\u201355% probability of clearly favorable results, 30\u201345% for mixed results and 10\u201320% for clear disappointment.\n\nThe main risk is interpretation. BELLA has no randomized comparison group, and its primary endpoint is assessed by investigators who know the treatment. Strong-looking results must therefore be convincing enough to overcome differences in patient selection, prior therapy and assessment practices. A promising response rate accompanied by short durability or troublesome toxicity could still disappoint investors. These features make mixed results a substantial possibility rather than a nearly risk-free middle outcome. ([corcept.com](https://corcept.com/wp-content/uploads/ESMO2025-2.pdf))\n\nThe supplied BPIQ snapshot shows four specialist hedge funds holding CORT, down from five the prior quarter. That provides some external confidence, but higher reported position values do not necessarily mean more shares were purchased. At a $13.2 billion market capitalization and $11.9 billion enterprise value, Corcept already carries substantial growth expectations. The snapshot's $308.2 million cash balance covers approximately nine quarters at its stated $33.5 million quarterly burn rate. Its profitable commercial operations and company-reported $544.6 million of cash and investments further support funding beyond this readout. ([ir.corcept.com](https://ir.corcept.com/news-releases/news-release-details/corcept-therapeutics-announces-second-quarter-financial-4))\n\nOur BELLA-specific share-price ranges are a 3\u20138% gain for compelling results, -5% to +1% for mixed results, and a 4\u201310% decline for clear disappointment. The supplied historical reactions show that incremental clinical updates have usually had much smaller effects than the transformative 2025 ROSELLA pivotal result. A particularly poor safety finding could weigh on broader oncology expectations, but failure to improve the triplet would not by itself erase the approved regimen or the Cushing's business. These move ranges are analyst estimates of BELLA's incremental effect, measured against the valuation immediately before its announcement.\n\nThe supplied January options imply a 27.3% total move, with 21.7% attributed to the intervening event window by the supplied variance calculation. That window also includes the December 17 Cushing's FDA decision and year-end MONARCH results. Those company-guided events can change valuation before BELLA reports. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm)) The options therefore describe a broader multi-catalyst period, whereas our smaller ranges describe BELLA alone; they do not establish a BELLA-specific 20% move.",
   "catalyst_event_details": "Relacorilant plus nab-paclitaxel and bevacizumab\u2019s Phase 2 BELLA Part A readout in platinum-resistant ovarian cancer is expected by year-end 2026. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T15:27:41Z"
- },
- {
-  "id": 18877,
-  "company": {
-   "ticker": "ALMS",
-   "name": "Alumis",
-   "last_price": "7.16",
-   "market_cap": 926756288,
-   "website": "https://www.alumis.com"
-  },
-  "ticker": "ALMS",
-  "drug_name": "ESK-001",
-  "indications": [
-   {
-    "id": 1023,
-    "title": "Psoriasis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Moderate-to-severe plaque psoriasis",
-  "stage_event": {
-   "id": 84,
-   "label": "NDA Submission",
-   "stage_label": "NDA",
-   "event_label": "Submission"
-  },
-  "note": "05/14/26:- Ph3 ONWARD1/2 AAD data reported. ONWARD3/safety data H2 2026. NDA submission Q4 2026. 08/10/26:- ONWARD3 48-week PASI 100 was 54%. Remains on track for NDA submission in Q4 2026. 08/13/26:- ONWARD3 reported 54% PASI 100 at 48 weeks. Two-year safety data is expected in H2 2026. NDA submission will occur in Q4 2026. 10/09/26:- Fall Clinical Dermatology Conference data showed scalp and itch improvements; NDA submission remains on track for Q4 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/09/3377840/0/en/alumis-announces-new-phase-3-data-demonstrating-envudeucitinib-rapidly-and-durably-improved-psoriasis-burden-across-scalp-itch-and-quality-of-life-measures.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "65.000000",
-  "probability_clean_plus_max": "75.000000",
-  "probability_mixed_min": "18.000000",
-  "probability_mixed_max": "28.000000",
-  "probability_clean_minus_min": "4.000000",
-  "probability_clean_minus_max": "10.000000",
-  "magnitude_clean_plus_min": "3.000000",
-  "magnitude_clean_plus_max": "12.000000",
-  "magnitude_mixed_min": "-15.000000",
-  "magnitude_mixed_max": "2.000000",
-  "magnitude_clean_minus_min": "-55.000000",
-  "magnitude_clean_minus_max": "-30.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an incremental long-term safety update from the Phase 2 STRIDE open-label extension, not a fresh efficacy test. STRIDE randomized 228 patients; 165 entered the extension and 164 were initially treated. The important measures are adverse events, treatment discontinuations and cumulative exposure, rather than another placebo-controlled skin-clearance comparison. Patient dropout and the small long-term cohort limit conclusions about uncommon risks. ([alumis.com](https://www.alumis.com/file.cfm/18/docs/eadv_late_breaker_presentation_final.pdf)) Both pivotal psoriasis trials have already succeeded, and ONWARD3's 48-week results were announced on August 10, 2026. Its 54% complete-clearance result concerned extension participants; the broader analysis including patients who did not enter the extension showed 47%. The upcoming update needs to preserve a reassuring safety profile ahead of the planned Q4 2026 NDA submission. ([investors.alumis.com](https://investors.alumis.com/news-releases/news-release-details/alumis-envudeucitinib-delivers-leading-skin-clearance-among-next?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The remaining H2 2026 catalyst is the Phase 2 two-year safety update. We consider its incremental importance moderate: it can strengthen confidence in chronic treatment, but it does not establish psoriasis efficacy for the first time. Earlier one-year STRIDE extension findings and the successful Phase 3 program provide substantial reassurance. ([investors.alumis.com](https://investors.alumis.com/news-releases/news-release-details/alumis-reports-first-quarter-2026-financial-results-and))\n\nFor context, historical Phase 2 advancement rates were 38.6% in the category containing dermatology and 31.4% in autoimmune disease. Those are development-transition rates, not probabilities of a favorable stock reaction. This follow-up warrants a much higher favorable-outcome probability because the same drug has already demonstrated efficacy and consistent tolerability in psoriasis. Our 65\u201375% Clean+ range reflects that evidence, while allowing for ambiguous safety findings or a meaningful new concern. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) The extension has no continuing placebo comparison, and patients remaining on treatment may be more tolerant of the drug. Longer exposure helps assess safety, but a modest cohort cannot reliably rule out rare events. ([alumis.com](https://www.alumis.com/file.cfm/18/docs/eadv_late_breaker_presentation_final.pdf))\n\nUsing the supplied market snapshot, Alumis is valued at approximately $885 million and has eight BPIQ specialist hedge-fund holders, versus six at year-end 2025. That ownership supports confidence in the company's investability, not a guarantee of favorable data. Alumis reported $502.3 million in cash, equivalents and marketable securities at June 30, with operating runway into Q4 2027. Its January offering supplied $324.4 million in net proceeds. Near-term financing pressure is therefore limited, although later development and commercialization can require additional capital. ([investors.alumis.com](https://investors.alumis.com/news-releases/news-release-details/alumis-reports-second-quarter-2026-financial-results-and?utm_source=openai))\n\nWe expect only 3\u201312% upside from clearly reassuring data because much of the psoriasis evidence is already public. The supplied historical reactions also show that subsequent positive psoriasis updates were far less powerful than the initial pivotal result. Conversely, a serious drug-related safety finding could threaten the principal near-term asset, supporting 30\u201355% downside despite the liquidity cushion. Mixed findings could produce a 15% decline to a 2% gain. The September 1 lupus failure is already part of this setup; it does not erase the replicated psoriasis results, but it reinforces the importance of psoriasis to the investment case. ([investors.alumis.com](https://investors.alumis.com/node/8476/html))\n\nThe supplied January options straddle prices roughly 43.5% movement, with a calculated event component near 48.7%. That is much larger than our favorable-update estimate. These contracts span the planned NDA submission as well as broadly timed safety news, and their very wide spreads prevent a reliable event-specific interpretation. Neither direction therefore receives options-confirmed big-mover status.",
-  "catalyst_event_details": "ESK-001 (envudeucitinib) Phase 2 extension two-year safety data in moderate-to-severe plaque psoriasis are expected in H2 2026. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1847367/000184736726000009/alms-20260514xex99d1.htm?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T15:04:26Z"
  },
  {
   "id": 18885,
@@ -43833,63 +43895,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 17510,
-  "company": {
-   "ticker": "ARGX",
-   "name": "Argenx",
-   "last_price": "825.03",
-   "market_cap": 52939825152,
-   "website": "https://argenx.com"
-  },
-  "ticker": "ARGX",
-  "drug_name": "Efgartigimod  ",
-  "indications": [
-   {
-    "id": 2017,
-    "title": "Sj\u00f6gren-Larsson Syndrome",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Sj\u00f6gren-Larsson Syndrome",
-  "stage_event": {
-   "id": 77,
-   "label": "Failed Discontinued",
-   "stage_label": "Failed",
-   "event_label": "Discontinued"
-  },
-  "note": "RHO Ph2 & UNITY trials. 3/27/24 Top-line Ph2 data. 6/11/25- Presented new Ph2 data at EULAR '25. Ph3 trial ongoing. 01/12/26:- UNITY topline data in H2 2027. 06/03/26:- RHO+ Week 72 OLE data presented at EULAR 2026. UNITY Ph3 topline results expected H2 2027. 10/08/26:- UNITY Ph3 Sj\u00f6gren's disease study discontinued for futility after interim analysis.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/08/3376934/0/en/argenx-provides-update-on-phase-3-unity-study-of-efgartigimod-sc-in-sj%C3%B6gren-s-disease.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 17555,
   "company": {
    "ticker": "CGEN",
@@ -46452,63 +46457,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344075/0/en/biocardia-reports-second-quarter-2026-business-highlights-and-financial-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20420,
-  "company": {
-   "ticker": "RHHBY",
-   "name": "Roche Holding",
-   "last_price": "54.09",
-   "market_cap": 344776540160,
-   "website": "https://www.roche.com"
-  },
-  "ticker": "RHHBY",
-  "drug_name": "Tecentriq/Atezolizumab (PD-L1 Antibody)",
-  "indications": [
-   {
-    "id": 748,
-    "title": "Colorectal cancer ",
-    "nickname": "Colon and Rectal Cancer"
-   }
-  ],
-  "indications_text": "Stage III dMMR Colon Cancer (Adjuvant)",
-  "stage_event": {
-   "id": 99,
-   "label": "Approved Update",
-   "stage_label": "Approved",
-   "event_label": "Update"
-  },
-  "note": "05/18/26:- ATOMIC Phase 3 HRQOL poster at ASCO May 30, 2026. 06/11/26:- FDA accepted sBLA for adjuvant Tecentriq+FOLFOX6 in stage III dMMR colon cancer; decision October 9, 2026. 07/23/26:- ATOMIC Phase 3 priority review was reiterated; FDA decision will occur October 9, 2026. 10/09/26:- FDA approved Tecentriq plus mFOLFOX6 for adjuvant stage III dMMR colon cancer.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/09/3377811/0/en/fda-approves-roche-s-tecentriq-in-combination-with-a-fluoropyrimidine-and-oxaliplatin-for-the-adjuvant-treatment-of-a-certain-type-of-stage-iii-colon-cancer.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

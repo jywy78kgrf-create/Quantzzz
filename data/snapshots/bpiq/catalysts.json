@@ -62,63 +62,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 16578,
-  "company": {
-   "ticker": "VRCA",
-   "name": "Verrica Pharmaceuticals",
-   "last_price": "4.11",
-   "market_cap": 70604824,
-   "website": "https://www.verrica.com"
-  },
-  "ticker": "VRCA",
-  "drug_name": "VP-315",
-  "indications": [
-   {
-    "id": 846,
-    "title": "Basal cell carcinoma",
-    "nickname": "BCC"
-   }
-  ],
-  "indications_text": "Basal cell carcinoma",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "8/14/24- Part 2 topline results reported. 1/21/25- Prelim topline data reported at Winter Dermatology Conf '25. 11/10/25- New data presented at SITC'25. 03/11/26:- New Ph2 abscopal data; FDA aligned on two ~100-patient Ph3 BCC studies starting in 2026. 04/09/26:- Late-breaking Ph2 VP-315 BCC exploratory data to be presented at SID May 15, 2026. 05/05/26:- Phase 2 BCC abscopal-like data to be presented at SID May 15, 2026. 05/12/26:- Upcoming late-breaking Ph2 VP-315 BCC abscopal data oral presentation at SID 2026 remains planned. 08/06/26:- SID 2026 Ph2 data showed treated-lesion impact and abscopal effect; Ph3 readiness continues. 09/30/26:- Encore Ph2 VP-315 BCC abscopal poster to be shown Oct 9, 2026.",
-  "catalyst_date": "2026-10-09",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/30/3371812/0/en/verrica-pharmaceuticals-to-present-new-ycanth-data-analysis-at-two-upcoming-dermatology-conferences.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 17588,
   "company": {
    "ticker": "N/A",
@@ -189,63 +132,6 @@
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
   "move_analysis_created_datetime": null
- },
- {
-  "id": 18081,
-  "company": {
-   "ticker": "ASND",
-   "name": "Ascendis Pharma ",
-   "last_price": "229.23",
-   "market_cap": 15084168192,
-   "website": "https://ascendispharma.com"
-  },
-  "ticker": "ASND",
-  "drug_name": "TransCon hGH/TransCon CNP combination",
-  "indications": [
-   {
-    "id": 817,
-    "title": "Achondroplasia",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Achondroplasia",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "COACH Trial. 9/3/24 Complete enrollment in Q3 '24. 6/9/25- Announced topline 26-wk data \u2014 demonstrated boosted treatment benefits. 8/7/25- Reported Week 52 data & initiate Ph3 trial in Q4 2025. 01/09/26:- Week 52 COACH Ph2 topline results announced; Week 78 data update anticipated in Q2 2026. 04/08/26:- Week 52 COACH Ph2 combo data showed arm span, spinal canal, and leg alignment improvements. 06/08/26:- Phase 2 COACH 52-week combo results to be presented at ENDO 2026 on June 15, 2026. 06/25/26:- ICCBH 2026 late-breaker presents COACH Week 52 results June 29, 2026. 08/06/26:- COACH Ph2 Week 78 topline showed durable proportional growth. More Week 78 data will be presented. 10/06/26:- ASBMR 2026 late-breaker presents COACH 78-week results on Oct 11.",
-  "catalyst_date": "2026-10-11",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/06/3375624/0/en/ascendis-to-share-latest-advances-in-hypoparathyroidism-and-achondroplasia-programs-at-asbmr-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "65.000000",
-  "probability_clean_plus_max": "79.000000",
-  "probability_mixed_min": "17.000000",
-  "probability_mixed_max": "29.000000",
-  "probability_clean_minus_min": "3.000000",
-  "probability_clean_minus_max": "7.000000",
-  "magnitude_clean_plus_min": "1.000000",
-  "magnitude_clean_plus_max": "4.000000",
-  "magnitude_mixed_min": "-3.000000",
-  "magnitude_mixed_max": "1.000000",
-  "magnitude_clean_minus_min": "-6.000000",
-  "magnitude_clean_minus_max": "-3.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an incremental conference update, not a fresh primary efficacy test. COACH enrolled 21 children in an open-label study without a randomized concurrent control. Its primary endpoint was annualized growth velocity at Week 52; comparisons with separate monotherapy studies cannot establish the combination's added benefit as reliably as randomization. ([investors.ascendispharma.com](https://investors.ascendispharma.com/static-files/88031543-baa4-4346-9856-20ba3482d5c0?utm_source=openai)) August 6 Week 78 topline results already reported growth of 7.73 and 7.67 cm/year in the two cohorts, improved body proportions, consistent tolerability and complete retention. The expectation bar is convincing additional evidence of sustained, proportional growth without skeletal or safety trade-offs\u2014not another positive growth headline. The small sample cannot establish uncommon risks or definitive long-term functional benefits. ([investors.ascendispharma.com](https://investors.ascendispharma.com/news-releases/news-release-details/ascendis-announces-coach-week-78-results-and-provides-update?utm_source=openai)) Ascendis's commercial products cushion valuation risk, while BioMarin royalties on navepegritide sales reduce, but do not eliminate, the combination's retained economics. ([ascendispharma.gcs-web.com](https://ascendispharma.gcs-web.com/news-releases/news-release-details/ascendis-pharma-reports-second-quarter-2026-financial-results))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 11 presentation adds detail to favorable Week 78 results released on August 6. We assign a 65\u201379% probability of clearly supportive additional findings because growth, body proportions, retention and tolerability in these same children have already been reported positively. This is not a new efficacy test with an unknown outcome. ([ascendispharma.gcs-web.com](https://ascendispharma.gcs-web.com/news-releases/news-release-details/ascendis-share-latest-advances-hypoparathyroidism-and?utm_source=openai))\n\nHistorically, endocrine programs progressed from Phase 2 to Phase 3 about 26.6% of the time in the BIO 2011\u20132020 study. That development benchmark is not the probability of a favorable follow-up presentation. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) COACH's 21-child, open-label design still leaves uncertainty about comparative benefit and uncommon risks. The primary endpoint was growth velocity at Week 52, and additional skeletal measurements do not substitute for a randomized comparison or proven long-term functional benefit. These limitations support a 17\u201329% chance of mixed detail and a 3\u20137% chance of clearly adverse findings despite the encouraging topline. ([investors.ascendispharma.com](https://investors.ascendispharma.com/static-files/88031543-baa4-4346-9856-20ba3482d5c0?utm_source=openai))\n\nBPIQ reports seven specialist hedge funds holding Ascendis, unchanged across four quarters. That suggests sustained specialist interest, not a guarantee of success. At approximately $15 billion in market capitalization and $14.3 billion in enterprise value, the company has substantial value outside this combination. Recent BPIQ-tracked combination updates produced modest reactions: August 6 showed a 0.2% opening gain and 2.1% intraday gain, while the April update showed a 5.4% intraday gain. These are whole-stock reactions, not isolated measurements of this asset's contribution.\n\nAscendis reported \u20ac812 million in June cash and \u20ac315 million in quarterly product revenue. First-half operating cash inflow was \u20ac274 million, including support from a \u20ac158 million voucher sale. Commercial cash generation and liquidity provide development funding beyond this presentation rather than making financing depend on its outcome. ([ascendispharma.gcs-web.com](https://ascendispharma.gcs-web.com/news-releases/news-release-details/ascendis-pharma-reports-second-quarter-2026-financial-results)) Ascendis retains meaningful commercial economics, although BioMarin receives royalties of 20% on U.S. YUVIWEL net sales and 18% in the EU, Brazil and South Korea through May 2030; the license also covers combination use. ([investors.biomarin.com](https://investors.biomarin.com/news/news-details/2026/BioMarin-Announces-Global-Settlement-with-Ascendis-Pharma-AS-Ascendis-Will-Pay-Royalties-to-BioMarin-on-Yuviwel-Sales-in-U-S--EU-Brazil-and-South-Korea/))\n\nOur expected reactions are +1\u20134% for clearly supportive additional evidence, -3% to +1% for mixed detail, and -6% to -3% for genuinely adverse findings. The downside reflects damage to the combination's development case; its larger end would require concern extending toward the broader achondroplasia franchise. Already-public reassuring results and commercial diversification make a routine double-digit decline difficult to justify. ([investors.ascendispharma.com](https://investors.ascendispharma.com/news-releases/news-release-details/ascendis-announces-coach-week-78-results-and-provides-update?utm_source=openai)) The supplied October 16 straddle prices approximately 4.8% through expiration, broadly consistent with a modest event. Wide spreads and ordinary market volatility make it an imprecise measure of this presentation alone; November's 11.2% spans a much longer period. Neither supports a 20% event-specific move, and neither direction qualifies as a big mover.",
-  "catalyst_event_details": "TransCon CNP plus TransCon hGH Phase 2 COACH Week 78 data in children with achondroplasia will be presented at ASBMR on October 11, 2026. ([ascendispharma.gcs-web.com](https://ascendispharma.gcs-web.com/news-releases/news-release-details/ascendis-share-latest-advances-hypoparathyroidism-and?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-08T15:57:26Z"
  },
  {
   "id": 19220,
@@ -7305,53 +7191,6 @@
   "move_analysis_created_datetime": "2026-10-06T13:11:10Z"
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-31",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 19186,
   "company": {
    "ticker": "REGN",
@@ -7464,6 +7303,53 @@
   "move_analysis_ai_reasoning": "We assign an 88\u201394% probability of commercially usable approval because this is an established medicine with a substantial remission benefit in a randomized, active-controlled Phase 3 trial. That is a stronger setup than an early-stage or uncontrolled kidney-disease filing. The kidney-function secondary endpoint did not show a significant benefit. This limits claims about preventing kidney failure, but does not erase the successful primary remission endpoint. The modest, open-label study leaves room for label restrictions or additional requirements. ([nejm.org](https://www.nejm.org/doi/10.1056/NEJMoa2602678?utm_source=openai)) Priority Review and Breakthrough Therapy designation are supportive, but the efficacy results and prior product approvals carry more weight. ([gene.com](https://www.gene.com/media/press-releases/15121/2026-07-14/fda-grants-priority-review-to-genentechs?utm_source=openai))\n\nManufacturing is substantially supported by years of commercial use, Roche\u2019s operating experience and recent approvals of the same product in kidney diseases. This is not a first commercial launch or a novel delivery device. Historical FDA manufacturing findings are reassuring without guaranteeing the outcome of the present review. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/125486Orig1s000MicroR.pdf?utm_source=openai))\n\nThe supplied company figures show a $334.7 billion market capitalization, $380.9 billion enterprise value and $9.7 billion cash. This indication represents only a small part of Roche\u2019s value, and a favorable decision is likely substantially anticipated. U.S. profit sharing with Biogen further limits Roche\u2019s retained economics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/875045/000087504524000032/biib-20240930.htm)) We therefore estimate only 0.10\u20130.70% upside on clean approval, -0.50% to +0.10% for a commercially inferior approval, and -1.50% to -0.40% for rejection. These are event-specific estimates, not forecasts of the whole day\u2019s trading. The supplied historical reactions to Gazyva\u2019s trial results and review acceptance were modest, consistent with this indication not driving Roche\u2019s overall valuation.\n\nThe supplied BPIQ ownership snapshot shows zero specialist funds and $0 represented holdings across the supplied quarters. That carries little regulatory significance for a diversified global pharmaceutical company. Financing is not a central risk for this decision. Roche\u2019s substantial commercial operations provide support beyond its cash balance. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-07-23?utm_source=openai)) More important baseline-setting events include Tecentriq\u2019s October 9 decision, Enspryng\u2019s October 15 decision and Roche\u2019s October 22 sales update. Our conditional moves apply to the stock immediately before the Gazyva decision. ([gene.com](https://www.gene.com/media/press-releases/15116/2026-06-10/fda-grants-priority-review-for-genentech))\n\nNovember timing places the decision approximately 26\u201355 days after October 6, rather than establishing an exact November 30 deadline. Neither direction meets the 20% fundamental-move threshold for a big-mover classification. ([gene.com](https://www.gene.com/media/press-releases/15121/2026-07-14/fda-grants-priority-review-to-genentechs?utm_source=openai))",
   "catalyst_event_details": "The FDA is expected to decide on Gazyva\u2019s supplemental application for adults with primary membranous nephropathy in November 2026. ([gene.com](https://www.gene.com/media/press-releases/15121/2026-07-14/fda-grants-priority-review-to-genentechs?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T13:08:54Z"
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-31",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
  },
  {
   "id": 19823,

@@ -62,63 +62,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 20900,
-  "company": {
-   "ticker": "LLY",
-   "name": "Eli Lilly & Company",
-   "last_price": "1179.27",
-   "market_cap": 965262180352,
-   "website": "https://www.lilly.com"
-  },
-  "ticker": "LLY",
-  "drug_name": "Ebglyss/Lebrikizumab (Lebrikizumab-Lbkz) (IL-13 Antibody)",
-  "indications": [
-   {
-    "id": 1395,
-    "title": "Atopic dermatitis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Pediatric Atopic Dermatitis (6 Months And Older)",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "10/05/26:- Phase 3 ADorable-1 Week 16 pediatric atopic dermatitis results to be presented October 8-11, 2026.",
-  "catalyst_date": "2026-10-08",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/lilly-to-present-new-data-across-its-dermatology-portfolio-with-21-presentations-at-fall-clinical-2026-in-pursuit-of-advancing-care-for-chronic-skin-conditions-302897832.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16578,
   "company": {
    "ticker": "VRCA",
@@ -174,68 +117,6 @@
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
   "move_analysis_created_datetime": null
- },
- {
-  "id": 18504,
-  "company": {
-   "ticker": "MRK",
-   "name": "Merck & Co",
-   "last_price": "145.60",
-   "market_cap": 359220183040,
-   "website": "https://www.merck.com"
-  },
-  "ticker": "MRK",
-  "drug_name": "Restoret (MK-3000, formerly EYE103)",
-  "indications": [
-   {
-    "id": 1133,
-    "title": "Diabetic macular edema",
-    "nickname": "DME"
-   },
-   {
-    "id": 993,
-    "title": "Eye disease ",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Eye disease , Diabetic macular edema",
-  "stage_event": {
-   "id": 152,
-   "label": "Phase 2/3 Data readout",
-   "stage_label": "Phase 2/3",
-   "event_label": "Data readout"
-  },
-  "note": "BRUNELLO trial : 9/4/24 Initiate Phase 2b/3. 09/24/26:- BRUNELLO topline showed non-inferior BCVA vs ranibizumab. Year 1 results presented at AAO Oct 10, 2026.",
-  "catalyst_date": "2026-10-10",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260924103567/en/Mercks-Remigromig-a-Tri-specific-Agonist-of-the-Wingless-related-Integration-Site-Wnt-Pathway-Met-Primary-Endpoint-in-the-Pivotal-Phase-2b3-BRUNELLO-Study-of-Adults-with-Diabetic-Macular-Edema",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "15.000000",
-  "probability_clean_plus_max": "25.000000",
-  "probability_mixed_min": "55.000000",
-  "probability_mixed_max": "65.000000",
-  "probability_clean_minus_min": "15.000000",
-  "probability_clean_minus_max": "25.000000",
-  "magnitude_clean_plus_min": "0.100000",
-  "magnitude_clean_plus_max": "0.750000",
-  "magnitude_mixed_min": "-0.300000",
-  "magnitude_mixed_max": "0.200000",
-  "magnitude_clean_minus_min": "-1.000000",
-  "magnitude_clean_minus_max": "-0.250000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "BRUNELLO randomized 984 participants to two remigromig doses or ranibizumab, with masked treatment and monthly injections in year one. Both doses met the week-52 vision noninferiority endpoint, but retinal disease progression, vitreous bleeding and treatment discontinuations were more frequent. The presentation must clarify those risks and clinical differentiation; year-one dosing does not demonstrate fewer injections. ([merck.com](https://www.merck.com/news/mercks-remigromig-a-tri-specific-agonist-of-the-wingless-related-integration-site-wnt-pathway-met-primary-endpoint-in-the-pivotal-phase-2b-3-brunello-study-of-adults-with-diabetic-macular/?utm_source=openai)) Noninferiority means preserving the comparator's benefit within an allowed margin, not proving superiority. Earlier AMARONE evidence was open-label. ([merck.com](https://www.merck.com/news/merck-to-acquire-eyebio/?utm_source=openai)) Merck owns EyeBio, with contingent acquisition milestones payable to former shareholders. ([sec.gov](https://www.sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm?utm_source=openai)) With topline already known, additional detail should have limited stock impact.",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 10 presentation is about interpreting additional detail, not another chance to pass the primary endpoint. Efficacy success and safety imbalances are already public. ([merck.com](https://www.merck.com/news/mercks-remigromig-a-tri-specific-agonist-of-the-wingless-related-integration-site-wnt-pathway-met-primary-endpoint-in-the-pivotal-phase-2b-3-brunello-study-of-adults-with-diabetic-macular/?utm_source=openai)) That makes Mixed the most likely outcome at 55\u201365%. Clean+ at 15\u201325% requires reassuring safety context and persuasive differentiation; Clean\u2013 at 15\u201325% captures materially worse safety or benefit-risk findings.\n\nHistorically, 51.2% of ophthalmology Phase 3 programs advanced to a regulatory application in BIO's 2011\u20132020 study. That is a development benchmark, not the chance of a favorable conference reaction after topline. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) The large, masked active-control study provides stronger evidence than the earlier open-label trial. ([merck.com](https://www.merck.com/news/mercks-remigromig-a-tri-specific-agonist-of-the-wingless-related-integration-site-wnt-pathway-met-primary-endpoint-in-the-pivotal-phase-2b-3-brunello-study-of-adults-with-diabetic-macular/?utm_source=openai)) Investors should focus on the size and consistency of vision effects, statistical uncertainty, discontinuations and safety across doses. Meeting an efficacy endpoint does not by itself establish a favorable overall treatment profile.\n\nBPIQ reports two specialist hedge funds, with holdings dominated by OrbiMed and no recent exits. This is limited specialist participation, but Merck's broad business makes it less informative than for a single-asset biotech. At the supplied $344.3 billion market capitalization, BRUNELLO represents only one part of the investment case. The supplied September 24 topline reaction was approximately flat. We therefore expect 0.10\u20130.75% upside for clearly reassuring detail, -0.30% to +0.20% for mixed findings, and -1.00% to -0.25% for a serious disappointment. These are estimates of the presentation's contribution, not limits on total daily stock movement.\n\nThe supplied cash balance is approximately $7.1 billion. Merck generated $9.3 billion of operating cash flow in the first half of 2026, supporting ongoing operations without a clinical-stage biotech's cash-depletion deadline. Debt of approximately $53.9 billion remains relevant, but this presentation is unlikely to determine financing needs. ([sec.gov](https://www.sec.gov/Archives/edgar/data/310158/000031015826000212/mrk-20260630.htm)) Merck retains the program's economics through its EyeBio acquisition, although development, regulatory and sales milestones can create future payments. ([sec.gov](https://www.sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm?utm_source=openai))\n\nThe supplied October 16 options straddle prices about 3.8% movement, with a 2.9% residual estimate after subtracting pre-event volatility. These figures cover Merck-wide and market risks, including another supplied October 10 data event, rather than BRUNELLO alone. Our smaller event-specific ranges reflect the already-public topline and Merck's diversification. Neither direction qualifies as a big mover.",
-  "catalyst_event_details": "Remigromig (Restoret/MK-3000) Phase 2b/3 BRUNELLO year-one results in diabetic macular edema will be presented at AAO on October 10, 2026.",
-  "move_analysis_created_datetime": "2026-10-06T12:54:18Z"
  },
  {
   "id": 17588,
@@ -7305,53 +7186,6 @@
   "move_analysis_created_datetime": "2026-10-06T14:52:23Z"
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-10-31",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 18554,
   "company": {
    "ticker": "DWTX",
@@ -7469,6 +7303,53 @@
   "move_analysis_ai_reasoning": "We favor commercially usable approval because the application has persuasive randomized Phase 3 evidence: a prespecified interim analysis showed a large proteinuria benefit and both controlled secondary endpoints succeeded. That is stronger than an uncontrolled early-stage filing, although long-term kidney protection remains to be confirmed. Our central probabilities are 82% favorable approval, 9% commercially limited or delayed outcomes, and 9% rejection or major delay, within ranges of 76\u201388%, 6\u201312% and 6\u201316%. These are judgment-based estimates, not measured historical frequencies. ([investors.vrtx.com](https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-positive-week-36-interim-analysis-results))\n\nThe remaining uncertainty includes manufacturing and the accelerated-approval pathway, which permits approval using an earlier marker of likely clinical benefit. Atacicept's July approval provides relevant precedent, but sibeprenlimab's newly reported two-year kidney-function results strengthen the competing treatment landscape. It also has four-week dosing. FDA must assess meaningful benefit against available treatments; competitor results are not themselves proof that povetacicept cannot qualify. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761486Orig1s000IntegratedR.pdf)) Vertex's quality experience is helpful, while biologic production and autoinjector performance remain product-specific requirements. ([investors.vrtx.com](https://investors.vrtx.com/static-files/ee741e5e-ad45-499b-9e61-e239f34ec3b7))\n\nAt the supplied $127.6 billion market capitalization and $125.0 billion enterprise value, we expect only 0.5\u20132% upside on a favorable decision. The supplied history shows modest reactions to povetacicept's positive interim results and application acceptance, and its established businesses remain the main valuation support. A rejection could produce a 2\u20134.5% decline through lost nephrology value and uncertainty about other povetacicept indications, without threatening corporate survival. A commercially restricted approval or manageable delay could move shares between -2% and +0.5%.\n\nThe supplied cash figure is $7.9 billion; Vertex reported $13.6 billion including marketable securities at June 30, before completing the approximately $10 billion Crinetics acquisition on September 1. Operating cash generation and acquisition financing matter more than a clinical-stage cash-burn runway. ([investors.vrtx.com](https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2026-financial-results)) BPIQ's current specialist-fund count is zero; the latest listed historical quarter shows one holder with $6.7 million, versus three with $117.1 million previously. This provides limited asset-specific endorsement, but low specialist ownership alone is not a reason to discount a diversified pharmaceutical sponsor's approval prospects.\n\nThird-quarter financial reporting, acquisition integration and commercial performance could reset the baseline before the decision. These move ranges describe the FDA announcement from the immediately preceding share price. At 55 days, the supplied options estimate of 6.3% event-isolated expected movement, or 7.9% on a one-standard-deviation basis, exceeds our fundamental ranges. The December straddle's 11.3% includes additional volatility. Options price movement rather than FDA approval probability, and the estimate need not equal any one conditional outcome. Neither direction qualifies as a 20% big mover.",
   "catalyst_event_details": "FDA\u2019s accelerated-approval decision on povetacicept\u2019s BLA for adults with IgA nephropathy is targeted for November 30, 2026. ([investors.vrtx.com](https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-acceptance-biologics-license-application?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T13:11:10Z"
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-10-31",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
  },
  {
   "id": 19186,

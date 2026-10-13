@@ -4,7 +4,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "58.60",
+   "last_price": "58.75",
    "market_cap": 8578383360,
    "website": "https://arrowheadpharma.com"
   },
@@ -247,7 +247,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "1.47",
+   "last_price": "1.41",
    "market_cap": 13516514,
    "website": "https://www.cellectar.com"
   },
@@ -1405,7 +1405,7 @@
   "company": {
    "ticker": "ODTX",
    "name": "Odyssey Therapeutics",
-   "last_price": "17.81",
+   "last_price": "17.48",
    "market_cap": 877548736,
    "website": "https://odysseytx.com"
   },
@@ -2129,7 +2129,7 @@
   "company": {
    "ticker": "PROK",
    "name": "ProKidney",
-   "last_price": "1.59",
+   "last_price": "1.54",
    "market_cap": 666634880,
    "website": "https://prokidney.com"
   },
@@ -2455,6 +2455,68 @@
   "move_analysis_created_datetime": "2026-10-06T14:44:03Z"
  },
  {
+  "id": 18514,
+  "company": {
+   "ticker": "MRK",
+   "name": "Merck & Co",
+   "last_price": "142.59",
+   "market_cap": 358850101248,
+   "website": "https://www.merck.com"
+  },
+  "ticker": "MRK",
+  "drug_name": "Ifinatamab Deruxtecan (I-DXd)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1158,
+    "title": "Small cell lung cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Small cell lung cancer, Cancer",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "IDeate-Lung01 trial. 9/7/24 Promising Ph2 data at WCLC2024. 8/18/25- Granted Breakthrough Therapy Designation. 04/13/26:- BLA accepted; Priority Review with PDUFA October 10, 2026 for ES-SCLC post-platinum. 09/25/26:- BLA for ES-SCLC accelerated approval withdrawn; IDeate-Lung02 Ph3 enrollment near completion. 10/13/26:- IDeate-Lung01 updated results to be presented at ESMO 2026.",
+  "catalyst_date": "2026-10-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20261013301331/en/Merck-Showcases-First-Time-Pivotal-Phase-3-Results-From-Oncology-Pipeline-and-Continued-Innovative-Potential-of-Existing-Portfolio-at-ESMO-2026",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 18674,
   "company": {
    "ticker": "IDYA",
@@ -2754,7 +2816,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "14.68",
+   "last_price": "14.71",
    "market_cap": 6595264000,
    "website": "https://www.iovance.com"
   },
@@ -3188,7 +3250,7 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "18.62",
+   "last_price": "19.69",
    "market_cap": 642761664,
    "website": "https://www.nuvectis.com"
   },
@@ -3379,7 +3441,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "214.54",
+   "last_price": "215.85",
    "market_cap": 85332680704,
    "website": "https://www.modernatx.com"
   },
@@ -3503,7 +3565,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.30",
    "market_cap": 622034624,
    "website": "https://climbbio.com"
   },
@@ -3798,7 +3860,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.89",
+   "last_price": "15.65",
    "market_cap": 13665451008,
    "website": "https://www.smmttx.com"
   },
@@ -3984,7 +4046,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "214.54",
+   "last_price": "215.85",
    "market_cap": 85332680704,
    "website": "https://www.modernatx.com"
   },
@@ -4041,7 +4103,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "214.54",
+   "last_price": "215.85",
    "market_cap": 85332680704,
    "website": "https://www.modernatx.com"
   },
@@ -4098,7 +4160,7 @@
   "company": {
    "ticker": "GSK",
    "name": "GSK",
-   "last_price": "46.56",
+   "last_price": "46.27",
    "market_cap": 94004928512,
    "website": "https://www.gsk.com"
   },
@@ -4360,6 +4422,68 @@
   "catalyst_date": "2026-10-27",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374506/0/en/benitec-biopharma-announces-regulatory-update-following-type-c-meeting-with-fda-for-bb-301-pivotal-study.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 18441,
+  "company": {
+   "ticker": "BEAM",
+   "name": "Beam Therapeutics Inc",
+   "last_price": "24.35",
+   "market_cap": 2595618816,
+   "website": "https://beamtx.com"
+  },
+  "ticker": "BEAM",
+  "drug_name": "BEAM-301",
+  "indications": [
+   {
+    "id": 2225,
+    "title": "Gene & Cell therapies",
+    "nickname": "CGT"
+   },
+   {
+    "id": 2058,
+    "title": "Glycogen Storage Disease Type Ia ",
+    "nickname": "(GSDIa)"
+   }
+  ],
+  "indications_text": "Glycogen Storage Disease Type Ia , Gene & Cell therapies",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "8/6/24 - IND cleared. 5/6/25- First patient dosed. 8/5/25- Continue dosing in 2025. 11/4/25- Continue dosing of patients. 02/24/26:- Ph1/2 BEAM-301 GSDIa trial enrolling second cohort; initial clinical data expected in 2026. 05/07/26:- Open-label Ph1/2 dose-exploration BEAM-301 GSDIa trial ongoing; initial clinical data still expected in 2026. 08/04/26:- Initial Ph1/2 GSDIa clinical data still expected in 2026. 10/13/26:- Initial Ph1/2 data to be presented at ESGCT on Oct 28, 2026.",
+  "catalyst_date": "2026-10-28",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/13/3379540/0/en/beam-therapeutics-to-present-initial-data-from-phase-1-2-trial-of-beam-301-in-glycogen-storage-disease-type-ia-gsdia-at-the-esgct-33rd-annual-congress.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -5685,7 +5809,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "50.31",
+   "last_price": "49.93",
    "market_cap": 4984506368,
    "website": "https://www.crisprtx.com"
   },
@@ -5747,7 +5871,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "50.31",
+   "last_price": "49.93",
    "market_cap": 4984506368,
    "website": "https://www.crisprtx.com"
   },
@@ -6362,7 +6486,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.89",
+   "last_price": "15.65",
    "market_cap": 13665451008,
    "website": "https://www.smmttx.com"
   },
@@ -6605,7 +6729,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "18.66",
+   "last_price": "18.51",
    "market_cap": 3344450048,
    "website": "https://acadia.com"
   },
@@ -6801,10 +6925,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "08/12/26:- PDUFA remains November 22, 2026. ATS data improved lung function. U.K. decision is Q4 2026; EMA is Q1 2027. 08/25/26:- ERS Congress Sep 5-9, 2026 will feature Ph3 IMPALA-2 molgramostim data.",
+  "note": "08/12/26:- PDUFA remains November 22, 2026. ATS data improved lung function. U.K. decision is Q4 2026; EMA is Q1 2027. 08/25/26:- ERS Congress Sep 5-9, 2026 will feature Ph3 IMPALA-2 molgramostim data. 10/12/26:- CHEST 2026 Oct 20-21 features IMPALA-2 open-label results and IMPALA Ph2/3 poster.",
   "catalyst_date": "2026-11-22",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260824428528/en/Savara-Announces-Encore-Presentations-of-Results-from-the-Phase-3-Clinical-Trial-of-Molgramostim-Inhalation-Solution-Molgramostim-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-APAP-at-the-European-Respiratory-Society-ERS-Congress-2026/",
+  "catalyst_source": "https://www.businesswire.com/news/home/20261012229402/en/Savara-to-Present-New-Analysis-from-the-IMPALA-Clinical-Trial-and-Deliver-Encore-Presentation-of-Long-Term-Data-on-Molgramostim-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-aPAP-at-CHEST-2026",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": true,
@@ -6895,7 +7019,7 @@
   "company": {
    "ticker": "GSK",
    "name": "GSK",
-   "last_price": "46.56",
+   "last_price": "46.27",
    "market_cap": 94004928512,
    "website": "https://www.gsk.com"
   },
@@ -7186,6 +7310,53 @@
   "move_analysis_created_datetime": "2026-10-06T14:52:23Z"
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-02",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 18554,
   "company": {
    "ticker": "DWTX",
@@ -7303,53 +7474,6 @@
   "move_analysis_ai_reasoning": "We favor commercially usable approval because the application has persuasive randomized Phase 3 evidence: a prespecified interim analysis showed a large proteinuria benefit and both controlled secondary endpoints succeeded. That is stronger than an uncontrolled early-stage filing, although long-term kidney protection remains to be confirmed. Our central probabilities are 82% favorable approval, 9% commercially limited or delayed outcomes, and 9% rejection or major delay, within ranges of 76\u201388%, 6\u201312% and 6\u201316%. These are judgment-based estimates, not measured historical frequencies. ([investors.vrtx.com](https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-positive-week-36-interim-analysis-results))\n\nThe remaining uncertainty includes manufacturing and the accelerated-approval pathway, which permits approval using an earlier marker of likely clinical benefit. Atacicept's July approval provides relevant precedent, but sibeprenlimab's newly reported two-year kidney-function results strengthen the competing treatment landscape. It also has four-week dosing. FDA must assess meaningful benefit against available treatments; competitor results are not themselves proof that povetacicept cannot qualify. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/761486Orig1s000IntegratedR.pdf)) Vertex's quality experience is helpful, while biologic production and autoinjector performance remain product-specific requirements. ([investors.vrtx.com](https://investors.vrtx.com/static-files/ee741e5e-ad45-499b-9e61-e239f34ec3b7))\n\nAt the supplied $127.6 billion market capitalization and $125.0 billion enterprise value, we expect only 0.5\u20132% upside on a favorable decision. The supplied history shows modest reactions to povetacicept's positive interim results and application acceptance, and its established businesses remain the main valuation support. A rejection could produce a 2\u20134.5% decline through lost nephrology value and uncertainty about other povetacicept indications, without threatening corporate survival. A commercially restricted approval or manageable delay could move shares between -2% and +0.5%.\n\nThe supplied cash figure is $7.9 billion; Vertex reported $13.6 billion including marketable securities at June 30, before completing the approximately $10 billion Crinetics acquisition on September 1. Operating cash generation and acquisition financing matter more than a clinical-stage cash-burn runway. ([investors.vrtx.com](https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2026-financial-results)) BPIQ's current specialist-fund count is zero; the latest listed historical quarter shows one holder with $6.7 million, versus three with $117.1 million previously. This provides limited asset-specific endorsement, but low specialist ownership alone is not a reason to discount a diversified pharmaceutical sponsor's approval prospects.\n\nThird-quarter financial reporting, acquisition integration and commercial performance could reset the baseline before the decision. These move ranges describe the FDA announcement from the immediately preceding share price. At 55 days, the supplied options estimate of 6.3% event-isolated expected movement, or 7.9% on a one-standard-deviation basis, exceeds our fundamental ranges. The December straddle's 11.3% includes additional volatility. Options price movement rather than FDA approval probability, and the estimate need not equal any one conditional outcome. Neither direction qualifies as a 20% big mover.",
   "catalyst_event_details": "FDA\u2019s accelerated-approval decision on povetacicept\u2019s BLA for adults with IgA nephropathy is targeted for November 30, 2026. ([investors.vrtx.com](https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-acceptance-biologics-license-application?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T13:11:10Z"
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-02",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
  },
  {
   "id": 19186,
@@ -8941,7 +9065,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "56.90",
+   "last_price": "56.60",
    "market_cap": 117619515392,
    "website": "https://www.bms.com"
   },
@@ -9147,7 +9271,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "14.68",
+   "last_price": "14.71",
    "market_cap": 6595264000,
    "website": "https://www.iovance.com"
   },
@@ -9410,7 +9534,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "214.54",
+   "last_price": "215.85",
    "market_cap": 85332680704,
    "website": "https://www.modernatx.com"
   },
@@ -9596,7 +9720,7 @@
   "company": {
    "ticker": "NVS",
    "name": "Novartis ",
-   "last_price": "143.25",
+   "last_price": "142.62",
    "market_cap": 273398824960,
    "website": "https://www.novartis.com"
   },
@@ -11397,7 +11521,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "19.60",
+   "last_price": "18.82",
    "market_cap": 1347616384,
    "website": "https://tyra.bio"
   },
@@ -11526,7 +11650,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "14.33",
+   "last_price": "14.39",
    "market_cap": 1714082816,
    "website": "https://www.novocure.com"
   },
@@ -11645,7 +11769,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "12.39",
+   "last_price": "12.44",
    "market_cap": 2409212416,
    "website": "https://sellaslifesciences.com"
   },
@@ -11903,7 +12027,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "57.22",
+   "last_price": "56.98",
    "market_cap": 2321999104,
    "website": "https://www.discmedicine.com"
   },
@@ -11965,7 +12089,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "57.22",
+   "last_price": "56.98",
    "market_cap": 2321999104,
    "website": "https://www.discmedicine.com"
   },
@@ -12413,63 +12537,6 @@
   "move_analysis_ai_reasoning": "Syndax expects this Phase 2 readout in Q4 2026. It is an important earlier-treatment opportunity, but not a company-defining binary: Niktimvo already has an approved later-line use, and Syndax also has its Revuforj business. ([ir.syndax.com](https://ir.syndax.com/node/14646?utm_source=openai))\n\nHistorically, about 31% of Phase 2 autoimmune programs advanced to Phase 3. That is a broad development benchmark, not a direct forecast for this trial or its stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) Both drugs already have clinical support: axatilimab showed substantial activity in previously treated chronic GVHD, and ruxolitinib demonstrated randomized efficacy after inadequate steroid treatment. Those findings support the combination's rationale, but do not prove that adding axatilimab improves outcomes in newly diagnosed patients. ([investor.incyte.com](https://investor.incyte.com/node/24671/pdf?utm_source=openai))\n\nOur 40\u201350% clearly favorable probability requires convincing added benefit over ruxolitinib alone, with supportive symptoms, durability, and safety. Roughly 40 patients per group means a few responses or withdrawals can affect the comparison. Patients and investigators know the assigned treatment, which can influence assessments and decisions to add another therapy. A high combination response rate could still be inconclusive if ruxolitinib alone performs similarly. That supports a substantial 30\u201340% mixed-outcome range and a 15\u201325% clearly unfavorable range. ([incytemi.com](https://www.incytemi.com/pipeline/resource/NCT06388564))\n\nBPIQ tracks five specialist hedge funds holding approximately $265 million, versus seven funds a year earlier. That indicates meaningful specialist interest, not clinical certainty. At approximately $1.6 billion in market value, with $554 million in the supplied cash measure, Syndax has substantial financial support. The company expects its cash resources and commercial revenues to fund operations through profitability. ([ir.syndax.com](https://ir.syndax.com/node/14646))\n\nThe expansion economics remain meaningful, but Syndax does not retain the full product value. It shares U.S. commercial profits equally with Incyte, receives double-digit ex-U.S. royalties, and funds 45% of shared development costs. ([sec.gov](https://www.sec.gov/Archives/edgar/data/879169/000087916926000056/R15.htm?utm_source=openai)) Royalty Pharma's additional participation in U.S. sales also absorbs part of the cash generated by growth. ([ir.syndax.com](https://ir.syndax.com/node/14656/html)) We therefore estimate a 5\u201315% gain on clearly strong results and a 7\u201315% decline on clearly unfavorable results. The supplied historical reactions generally show modest moves for early-stage presentations, with larger moves around approvals. This new randomized comparison deserves more attention than a routine update, but existing businesses cushion a failure confined to this combination. Mixed results could fall 10% or gain up to 3%.\n\nJanuary options imply approximately 35% total movement, with a variance-based event component near 22%. Those figures cover several company developments, including the separate Q4 MAXPIRe lung-fibrosis readout. ([ir.syndax.com](https://ir.syndax.com/node/14646?utm_source=openai)) They therefore describe a broader risk window than this trial alone. Our smaller conditional ranges represent this GVHD readout's standalone contribution; an earlier MAXPIRe result could affect axatilimab sentiment and the starting share price.",
   "catalyst_event_details": "Axatilimab plus ruxolitinib Phase 2 topline results in newly diagnosed chronic graft-versus-host disease are expected in Q4 2026.",
   "move_analysis_created_datetime": "2026-10-06T15:44:28Z"
- },
- {
-  "id": 17306,
-  "company": {
-   "ticker": "SNDX",
-   "name": "Syndax Pharmaceuticals",
-   "last_price": "13.79",
-   "market_cap": 1477866752,
-   "website": "https://syndax.com"
-  },
-  "ticker": "SNDX",
-  "drug_name": "Axatilimab (SNDX-6352) ",
-  "indications": [
-   {
-    "id": 1294,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "MAXPIRe trial. Initiate trial in YE 2023. 3/25/24- Enrollment ongoing. 1/13/25- Enrollment completion in 2025 w/ topline data in 2026. 11/03/25:- MAXPIRe Ph2 IPF trial enrollment expected complete by end 2025; topline data anticipated in H2 2026. 02/26/26:- MAXPIRe Ph2 IPF trial completed enrollment in Q1 2026; topline data expected in Q4 2026. 04/30/26:- MAXPIRe Ph2 IPF topline axatilimab data remains expected in Q4 2026 after Q1 2026 enrollment completion. 08/04/26:- MAXPIRe Ph2 IPF topline data reiterated for Q4 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/de/news-release/2026/08/04/3338782/0/en/Syndax-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": true,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": "30.000000",
-  "probability_clean_plus_max": "40.000000",
-  "probability_mixed_min": "25.000000",
-  "probability_mixed_max": "35.000000",
-  "probability_clean_minus_min": "30.000000",
-  "probability_clean_minus_max": "40.000000",
-  "magnitude_clean_plus_min": "20.000000",
-  "magnitude_clean_plus_max": "40.000000",
-  "magnitude_mixed_min": "-12.000000",
-  "magnitude_mixed_max": "5.000000",
-  "magnitude_clean_minus_min": "-18.000000",
-  "magnitude_clean_minus_max": "-8.000000",
-  "up_suspected_big_mover": true,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "MAXPIRe is a new efficacy readout, not follow-up data. The planned approximately 135-patient study randomizes patients 2:1 to axatilimab or placebo for 26 weeks, with stable background antifibrotic treatment allowed. The primary endpoint measures annualized decline in forced vital capacity, a lung-function measure. Approximately 45 placebo patients and the relatively short observation period make the treatment difference sensitive to control-group decline and patient variability. Prior lung responses in chronic GVHD support the rationale but do not establish efficacy in IPF. A convincing result needs meaningful lung-function preservation and acceptable safety, not merely encouraging subgroup findings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1395937/000119312526197124/sndx-ex99_2.htm))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The Q4 2026 MAXPIRe results could establish a substantial new opportunity for axatilimab, but this remains a Phase 2 proof-of-concept study rather than a registration-ready result. Syndax also expects axatilimab-plus-ruxolitinib results in chronic GVHD during the same quarter. Our estimates describe the incremental IPF reaction; an earlier GVHD result could change the starting valuation and expectations. ([ir.syndax.com](https://ir.syndax.com/node/14646?utm_source=openai))\n\nHistorically, only 21.9% of respiratory Phase 2 programs advanced to Phase 3 in the BIO/Informa/QLS study. That is a development benchmark, not the probability of a favorable stock reaction. Axatilimab's established activity in chronic GVHD, including reported lung responses, supports a somewhat better outlook, but the biology and patient population differ from IPF. This balance supports a 30\u201340% probability of unequivocally favorable results rather than treating success as likely. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai))\n\nRandomization and blinding strengthen the evidence. However, measuring lung-function decline over 26 weeks with a relatively small placebo group leaves room for favorable biological activity without a persuasive primary-endpoint result. Background treatment, patient-to-patient variability and withdrawals can influence that comparison. We therefore assign substantial probability to both mixed results and failure. Successful nerandomilast trials also mean investors can compare axatilimab against demonstrated lung-function preservation; every-two-week infusions need worthwhile additional benefit and acceptable tolerability. Enzyme elevations, infections and infusion reactions deserve attention. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1395937/000119312526197124/sndx-ex99_2.htm))\n\nThe supplied BPIQ figures show five specialist hedge funds holding approximately $265 million, versus six funds in the previous quarter. That supports institutional interest without proving confidence in this particular trial. At approximately $1.6 billion in market value, strong IPF efficacy could justify a 20\u201340% gain by opening a new indication. Conversely, Revuforj and the existing Niktimvo business provide diversification, supporting an estimated 8\u201318% decline on an IPF-specific failure. Partner sharing and royalty obligations limit the economics Syndax retains. ([ir.syndax.com](https://ir.syndax.com/node/14646?utm_source=openai))\n\nSyndax reported $575.1 million in cash and investments at June 30, including longer-term investments, and used $80.6 million in operating cash during the first half. A simple unchanged-spending calculation suggests roughly three years of funding after royalty payments, comfortably beyond this readout. The $250 million convertible financing and $157.9 million remaining equity-sale capacity reduce immediate funding pressure, although debt, potential dilution and royalty payments remain relevant. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1395937/000119312526332750/sndx-20260630.htm))\n\nThe supplied January options imply approximately 35% total movement and a calculated 22.3% event-related move. That broadly supports meaningful volatility, but the expiration spans both Q4 axatilimab readouts and commercial updates. It cannot attribute that movement specifically to MAXPIRe, so it does not independently confirm an IPF-only big-mover designation. Mixed results could preserve development prospects while disappointing investors, consistent with our \u221212% to +5% range.",
-  "catalyst_event_details": "Syndax expects Q4 2026 topline results from MAXPIRe, its Phase 2 trial of axatilimab in idiopathic pulmonary fibrosis. ([ir.syndax.com](https://ir.syndax.com/node/14646?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T15:24:08Z"
  },
  {
   "id": 17326,
@@ -13674,7 +13741,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "50.31",
+   "last_price": "49.93",
    "market_cap": 4984506368,
    "website": "https://www.crisprtx.com"
   },
@@ -14066,7 +14133,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "214.54",
+   "last_price": "215.85",
    "market_cap": 85332680704,
    "website": "https://www.modernatx.com"
   },
@@ -14185,7 +14252,7 @@
   "company": {
    "ticker": "NXTC",
    "name": "NextCure Inc",
-   "last_price": "6.64",
+   "last_price": "6.27",
    "market_cap": 30393664,
    "website": "https://www.nextcure.com"
   },
@@ -14624,7 +14691,7 @@
   "company": {
    "ticker": "OGEN",
    "name": "Oragenics, Inc.",
-   "last_price": "0.45",
+   "last_price": "0.44",
    "market_cap": 2019552,
    "website": "https://www.oragenics.com"
   },
@@ -15214,7 +15281,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.89",
+   "last_price": "15.65",
    "market_cap": 13665451008,
    "website": "https://www.smmttx.com"
   },
@@ -15343,7 +15410,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "97.97",
+   "last_price": "94.41",
    "market_cap": 6238437376,
    "website": "https://kodiak.com"
   },
@@ -16440,68 +16507,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18441,
-  "company": {
-   "ticker": "BEAM",
-   "name": "Beam Therapeutics Inc",
-   "last_price": "24.35",
-   "market_cap": 2595618816,
-   "website": "https://beamtx.com"
-  },
-  "ticker": "BEAM",
-  "drug_name": "BEAM-301",
-  "indications": [
-   {
-    "id": 2225,
-    "title": "Gene & Cell therapies",
-    "nickname": "CGT"
-   },
-   {
-    "id": 2058,
-    "title": "Glycogen Storage Disease Type Ia ",
-    "nickname": "(GSDIa)"
-   }
-  ],
-  "indications_text": "Glycogen Storage Disease Type Ia , Gene & Cell therapies",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "8/6/24 - IND cleared. 5/6/25- First patient dosed. 8/5/25- Continue dosing in 2025. 11/4/25- Continue dosing of patients. 02/24/26:- Ph1/2 BEAM-301 GSDIa trial enrolling second cohort; initial clinical data expected in 2026. 05/07/26:- Open-label Ph1/2 dose-exploration BEAM-301 GSDIa trial ongoing; initial clinical data still expected in 2026. 08/04/26:- Initial Ph1/2 GSDIa clinical data still expected in 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/04/3338130/0/en/beam-therapeutics-reports-second-quarter-2026-financial-results-and-announces-first-patient-dosed-in-global-pivotal-cohort-of-beam-302-trial-in-alpha-1-antitrypsin-deficiency-aatd.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 18444,
   "company": {
    "ticker": "TEVA",
@@ -16853,7 +16858,7 @@
   "company": {
    "ticker": "LXEO",
    "name": "Lexeo Therapeutics",
-   "last_price": "3.04",
+   "last_price": "2.77",
    "market_cap": 249547984,
    "website": "https://www.lexeotx.com"
   },
@@ -16910,7 +16915,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "58.60",
+   "last_price": "58.75",
    "market_cap": 8578383360,
    "website": "https://arrowheadpharma.com"
   },
@@ -17096,7 +17101,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "214.54",
+   "last_price": "215.85",
    "market_cap": 85332680704,
    "website": "https://www.modernatx.com"
   },
@@ -17215,7 +17220,7 @@
   "company": {
    "ticker": "OKUR",
    "name": "OnKure Therapeutics, Inc.",
-   "last_price": "2.42",
+   "last_price": "2.35",
    "market_cap": 98001072,
    "website": "https://onkuretherapeutics.com"
   },
@@ -17607,7 +17612,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "58.60",
+   "last_price": "58.75",
    "market_cap": 8578383360,
    "website": "https://arrowheadpharma.com"
   },
@@ -17793,7 +17798,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "50.31",
+   "last_price": "49.93",
    "market_cap": 4984506368,
    "website": "https://www.crisprtx.com"
   },
@@ -18212,7 +18217,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "18.13",
+   "last_price": "18.11",
    "market_cap": 2073248512,
    "website": "https://www.viridiantherapeutics.com"
   },
@@ -20949,7 +20954,7 @@
   "company": {
    "ticker": "SKYE",
    "name": "Skye Bioscience",
-   "last_price": "1.58",
+   "last_price": "1.51",
    "market_cap": 6995728,
    "website": "https://skyebioscience.com"
   },
@@ -21063,7 +21068,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "50.31",
+   "last_price": "49.93",
    "market_cap": 4984506368,
    "website": "https://www.crisprtx.com"
   },
@@ -21576,7 +21581,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "214.54",
+   "last_price": "215.85",
    "market_cap": 85332680704,
    "website": "https://www.modernatx.com"
   },
@@ -22827,7 +22832,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "57.22",
+   "last_price": "56.98",
    "market_cap": 2321999104,
    "website": "https://www.discmedicine.com"
   },
@@ -24778,7 +24783,7 @@
   "company": {
    "ticker": "PTHS",
    "name": "Pelthos Therapeutics",
-   "last_price": "20.30",
+   "last_price": "20.09",
    "market_cap": 74731720,
    "website": "https://pelthos.com"
   },
@@ -25021,7 +25026,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.30",
    "market_cap": 622034624,
    "website": "https://climbbio.com"
   },
@@ -25078,7 +25083,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.30",
    "market_cap": 622034624,
    "website": "https://climbbio.com"
   },
@@ -26657,7 +26662,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "56.90",
+   "last_price": "56.60",
    "market_cap": 117619515392,
    "website": "https://www.bms.com"
   },
@@ -27319,7 +27324,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "0.95",
+   "last_price": "0.90",
    "market_cap": 321205376,
    "website": "https://www.ocugen.com"
   },
@@ -27495,7 +27500,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "19.60",
+   "last_price": "18.82",
    "market_cap": 1347616384,
    "website": "https://tyra.bio"
   },
@@ -27966,7 +27971,7 @@
   "company": {
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
-   "last_price": "1.62",
+   "last_price": "1.61",
    "market_cap": 734177280,
    "website": "https://www.lexpharma.com"
   },
@@ -28085,7 +28090,7 @@
   "company": {
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
-   "last_price": "1.62",
+   "last_price": "1.61",
    "market_cap": 734177280,
    "website": "https://www.lexpharma.com"
   },
@@ -29357,10 +29362,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "TETON 1 & TETON 2 Study. 7/10/24- TETON 2 full enrollment. 9/2/25- TETON-2 study met its primary efficacy endpoint. Data from TETON-1 in H1 2026. 9/28/25- Presented data at ERS'25. 03/11/26:- TETON-2 full results published in NEJM; sNDA planned H2 2026 after TETON-1 data. 03/30/26:- TETON-1 met endpoint. sNDA submission planned Q3 2026. ATS May 2026 presentation. 05/11/26:- ATS 2026 presents TETON-1 and integrated TETON-1/2 efficacy and safety results May 18-19. 08/17/26:- sNDA submitted June 2026; priority review sought for IPF indication. 09/02/26:- FDA accepted Tyvaso sNDA for IPF; action expected Late April 2027.",
+  "note": "TETON 1 & TETON 2 Study. 7/10/24- TETON 2 full enrollment. 9/2/25- TETON-2 study met its primary efficacy endpoint. Data from TETON-1 in H1 2026. 9/28/25- Presented data at ERS'25. 03/11/26:- TETON-2 full results published in NEJM; sNDA planned H2 2026 after TETON-1 data. 03/30/26:- TETON-1 met endpoint. sNDA submission planned Q3 2026. ATS May 2026 presentation. 05/11/26:- ATS 2026 presents TETON-1 and integrated TETON-1/2 efficacy and safety results May 18-19. 08/17/26:- sNDA submitted June 2026; priority review sought for IPF indication. 09/02/26:- FDA accepted Tyvaso sNDA for IPF; action expected Late April 2027. 10/13/26:- CHEST 2026 presents TETON-IPF post-hoc IPF analyses Oct 20, 2026. sNDA acceptance reiterated.",
   "catalyst_date": "2027-04-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260902138059/en/United-Therapeutics-Corporation-Announces-FDA-Acceptance-of-Supplemental-New-Drug-Application-for-Nebulized-Tyvaso%C2%AE-to-Treat-Idiopathic-Pulmonary-Fibrosis/",
+  "catalyst_source": "https://www.businesswire.com/news/home/20261013239954/en/United-Therapeutics-Presents-New-Data-at-the-CHEST-2026-Annual-Meeting",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -29508,7 +29513,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "56.90",
+   "last_price": "56.60",
    "market_cap": 117619515392,
    "website": "https://www.bms.com"
   },
@@ -29699,10 +29704,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "ADVANCE OUTCOMES trial. 10/30/24- Enrollment ongoing. 5/19/25- Presented interim long-term data at ATS'25. 6/23/25- Enrollment completed. Accrue clinical worsening events through the end of 2025 and report further data in 2026 03/02/26:- Ph3 ADVANCE OUTCOMES met primary endpoint. NDA submission planned in H2 2026. 05/11/26:- ADVANCE OUTCOMES Ph3 results to be presented at ATS May 20, 2026. 05/17/26:- Full ADVANCE OUTCOMES results presented at ATS. NDA submission still planned in H2 2026. 08/24/26:- NDA accepted; PDUFA action date set for June 24, 2027.",
+  "note": "ADVANCE OUTCOMES trial. 10/30/24- Enrollment ongoing. 5/19/25- Presented interim long-term data at ATS'25. 6/23/25- Enrollment completed. Accrue clinical worsening events through the end of 2025 and report further data in 2026 03/02/26:- Ph3 ADVANCE OUTCOMES met primary endpoint. NDA submission planned in H2 2026. 05/11/26:- ADVANCE OUTCOMES Ph3 results to be presented at ATS May 20, 2026. 05/17/26:- Full ADVANCE OUTCOMES results presented at ATS. NDA submission still planned in H2 2026. 08/24/26:- NDA accepted; PDUFA action date set for June 24, 2027. 10/13/26:- CHEST 2026 poster shows ADVANCE OUTCOMES low-risk subgroup results Oct 20, 2026. NDA acceptance reiterated.",
   "catalyst_date": "2027-06-24",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260824016096/en/United-Therapeutics-Corporation-Announces-FDA-Filing-Acceptance-of-New-Drug-Application-for-Ralinepag-to-Treat-Pulmonary-Arterial-Hypertension/",
+  "catalyst_source": "https://www.businesswire.com/news/home/20261013239954/en/United-Therapeutics-Presents-New-Data-at-the-CHEST-2026-Annual-Meeting",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -30361,7 +30366,7 @@
   "company": {
    "ticker": "PROK",
    "name": "ProKidney",
-   "last_price": "1.59",
+   "last_price": "1.54",
    "market_cap": 666634880,
    "website": "https://prokidney.com"
   },
@@ -30423,7 +30428,7 @@
   "company": {
    "ticker": "FDMT",
    "name": "4D Molecular Therapeutics",
-   "last_price": "13.00",
+   "last_price": "12.48",
    "market_cap": 718174784,
    "website": "https://www.4dmoleculartherapeutics.com"
   },
@@ -32699,7 +32704,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "3.27",
+   "last_price": "3.08",
    "market_cap": 192690448,
    "website": "https://ir.whitehawktx.com"
   },
@@ -32994,7 +32999,7 @@
   "company": {
    "ticker": "WHWK",
    "name": "Whitehawk Therapeutics",
-   "last_price": "3.27",
+   "last_price": "3.08",
    "market_cap": 192690448,
    "website": "https://ir.whitehawktx.com"
   },
@@ -33465,7 +33470,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.30",
    "market_cap": 622034624,
    "website": "https://climbbio.com"
   },
@@ -33807,7 +33812,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "14.68",
+   "last_price": "14.71",
    "market_cap": 6595264000,
    "website": "https://www.iovance.com"
   },
@@ -33864,7 +33869,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "14.68",
+   "last_price": "14.71",
    "market_cap": 6595264000,
    "website": "https://www.iovance.com"
   },
@@ -34231,7 +34236,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "58.60",
+   "last_price": "58.75",
    "market_cap": 8578383360,
    "website": "https://arrowheadpharma.com"
   },
@@ -36755,7 +36760,7 @@
   "company": {
    "ticker": "LXEO",
    "name": "Lexeo Therapeutics",
-   "last_price": "3.04",
+   "last_price": "2.77",
    "market_cap": 249547984,
    "website": "https://www.lexeotx.com"
   },
@@ -38111,7 +38116,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "19.60",
+   "last_price": "18.82",
    "market_cap": 1347616384,
    "website": "https://tyra.bio"
   },
@@ -38349,7 +38354,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "57.22",
+   "last_price": "56.98",
    "market_cap": 2321999104,
    "website": "https://www.discmedicine.com"
   },
@@ -39472,7 +39477,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "5.86",
+   "last_price": "5.96",
    "market_cap": 219567280,
    "website": "https://www.evommune.com"
   },
@@ -40709,7 +40714,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.83",
+   "last_price": "10.30",
    "market_cap": 622034624,
    "website": "https://climbbio.com"
   },
@@ -42783,7 +42788,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "12.39",
+   "last_price": "12.44",
    "market_cap": 2409212416,
    "website": "https://sellaslifesciences.com"
   },
@@ -43704,6 +43709,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 17306,
+  "company": {
+   "ticker": "SNDX",
+   "name": "Syndax Pharmaceuticals",
+   "last_price": "13.79",
+   "market_cap": 1477866752,
+   "website": "https://syndax.com"
+  },
+  "ticker": "SNDX",
+  "drug_name": "Axatilimab (SNDX-6352) ",
+  "indications": [
+   {
+    "id": 1294,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 77,
+   "label": "Failed Discontinued",
+   "stage_label": "Failed",
+   "event_label": "Discontinued"
+  },
+  "note": "MAXPIRe trial. Initiate trial in YE 2023. 3/25/24- Enrollment ongoing. 1/13/25- Enrollment completion in 2025 w/ topline data in 2026. 11/03/25:- MAXPIRe Ph2 IPF trial enrollment expected complete by end 2025; topline data anticipated in H2 2026. 02/26/26:- MAXPIRe Ph2 IPF trial completed enrollment in Q1 2026; topline data expected in Q4 2026. 04/30/26:- MAXPIRe Ph2 IPF topline axatilimab data remains expected in Q4 2026 after Q1 2026 enrollment completion. 08/04/26:- MAXPIRe Ph2 IPF topline data reiterated for Q4 2026. 10/12/26:- MAXPIRe Ph2 IPF missed primary endpoint; development discontinued. No new safety signals.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/12/3379220/0/en/syndax-announces-topline-results-from-maxpire-phase-2-trial-of-axatilimab-in-idiopathic-pulmonary-fibrosis.html",
+  "is_big_mover": false,
+  "is_suspected_mover": true,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": "30.000000",
+  "probability_clean_plus_max": "40.000000",
+  "probability_mixed_min": "25.000000",
+  "probability_mixed_max": "35.000000",
+  "probability_clean_minus_min": "30.000000",
+  "probability_clean_minus_max": "40.000000",
+  "magnitude_clean_plus_min": "20.000000",
+  "magnitude_clean_plus_max": "40.000000",
+  "magnitude_mixed_min": "-12.000000",
+  "magnitude_mixed_max": "5.000000",
+  "magnitude_clean_minus_min": "-18.000000",
+  "magnitude_clean_minus_max": "-8.000000",
+  "up_suspected_big_mover": true,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "MAXPIRe is a new efficacy readout, not follow-up data. The planned approximately 135-patient study randomizes patients 2:1 to axatilimab or placebo for 26 weeks, with stable background antifibrotic treatment allowed. The primary endpoint measures annualized decline in forced vital capacity, a lung-function measure. Approximately 45 placebo patients and the relatively short observation period make the treatment difference sensitive to control-group decline and patient variability. Prior lung responses in chronic GVHD support the rationale but do not establish efficacy in IPF. A convincing result needs meaningful lung-function preservation and acceptable safety, not merely encouraging subgroup findings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1395937/000119312526197124/sndx-ex99_2.htm))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "The Q4 2026 MAXPIRe results could establish a substantial new opportunity for axatilimab, but this remains a Phase 2 proof-of-concept study rather than a registration-ready result. Syndax also expects axatilimab-plus-ruxolitinib results in chronic GVHD during the same quarter. Our estimates describe the incremental IPF reaction; an earlier GVHD result could change the starting valuation and expectations. ([ir.syndax.com](https://ir.syndax.com/node/14646?utm_source=openai))\n\nHistorically, only 21.9% of respiratory Phase 2 programs advanced to Phase 3 in the BIO/Informa/QLS study. That is a development benchmark, not the probability of a favorable stock reaction. Axatilimab's established activity in chronic GVHD, including reported lung responses, supports a somewhat better outlook, but the biology and patient population differ from IPF. This balance supports a 30\u201340% probability of unequivocally favorable results rather than treating success as likely. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai))\n\nRandomization and blinding strengthen the evidence. However, measuring lung-function decline over 26 weeks with a relatively small placebo group leaves room for favorable biological activity without a persuasive primary-endpoint result. Background treatment, patient-to-patient variability and withdrawals can influence that comparison. We therefore assign substantial probability to both mixed results and failure. Successful nerandomilast trials also mean investors can compare axatilimab against demonstrated lung-function preservation; every-two-week infusions need worthwhile additional benefit and acceptable tolerability. Enzyme elevations, infections and infusion reactions deserve attention. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1395937/000119312526197124/sndx-ex99_2.htm))\n\nThe supplied BPIQ figures show five specialist hedge funds holding approximately $265 million, versus six funds in the previous quarter. That supports institutional interest without proving confidence in this particular trial. At approximately $1.6 billion in market value, strong IPF efficacy could justify a 20\u201340% gain by opening a new indication. Conversely, Revuforj and the existing Niktimvo business provide diversification, supporting an estimated 8\u201318% decline on an IPF-specific failure. Partner sharing and royalty obligations limit the economics Syndax retains. ([ir.syndax.com](https://ir.syndax.com/node/14646?utm_source=openai))\n\nSyndax reported $575.1 million in cash and investments at June 30, including longer-term investments, and used $80.6 million in operating cash during the first half. A simple unchanged-spending calculation suggests roughly three years of funding after royalty payments, comfortably beyond this readout. The $250 million convertible financing and $157.9 million remaining equity-sale capacity reduce immediate funding pressure, although debt, potential dilution and royalty payments remain relevant. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1395937/000119312526332750/sndx-20260630.htm))\n\nThe supplied January options imply approximately 35% total movement and a calculated 22.3% event-related move. That broadly supports meaningful volatility, but the expiration spans both Q4 axatilimab readouts and commercial updates. It cannot attribute that movement specifically to MAXPIRe, so it does not independently confirm an IPF-only big-mover designation. Mixed results could preserve development prospects while disappointing investors, consistent with our \u221212% to +5% range.",
+  "catalyst_event_details": "Syndax expects Q4 2026 topline results from MAXPIRe, its Phase 2 trial of axatilimab in idiopathic pulmonary fibrosis. ([ir.syndax.com](https://ir.syndax.com/node/14646?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-10-06T15:24:08Z"
+ },
+ {
   "id": 17369,
   "company": {
    "ticker": "BCAB",
@@ -43951,7 +44013,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.07",
+   "last_price": "2.06",
    "market_cap": 196078976,
    "website": "https://cgen.com"
   },
@@ -44256,7 +44318,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "14.33",
+   "last_price": "14.39",
    "market_cap": 1714082816,
    "website": "https://www.novocure.com"
   },
@@ -44986,68 +45048,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18514,
-  "company": {
-   "ticker": "MRK",
-   "name": "Merck & Co",
-   "last_price": "142.88",
-   "market_cap": 358850101248,
-   "website": "https://www.merck.com"
-  },
-  "ticker": "MRK",
-  "drug_name": "Ifinatamab Deruxtecan (I-DXd)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1158,
-    "title": "Small cell lung cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Small cell lung cancer, Cancer",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "IDeate-Lung01 trial. 9/7/24 Promising Ph2 data at WCLC2024. 8/18/25- Granted Breakthrough Therapy Designation. 04/13/26:- BLA accepted; Priority Review with PDUFA October 10, 2026 for ES-SCLC post-platinum. 09/25/26:- BLA for ES-SCLC accelerated approval withdrawn; IDeate-Lung02 Ph3 enrollment near completion.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260925284187/en/Ifinatamab-Deruxtecan-Biologics-License-Application-for-Certain-Patients-with-Previously-Treated-Extensive-Stage-Small-Cell-Lung-Cancer-Voluntarily-Withdrawn",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 18519,
   "company": {
    "ticker": "ROIV",
@@ -45228,7 +45228,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "14.33",
+   "last_price": "14.39",
    "market_cap": 1714082816,
    "website": "https://www.novocure.com"
   },
@@ -45352,7 +45352,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "19.60",
+   "last_price": "18.82",
    "market_cap": 1347616384,
    "website": "https://tyra.bio"
   },
@@ -45828,7 +45828,7 @@
   "company": {
    "ticker": "NXTC",
    "name": "NextCure Inc",
-   "last_price": "6.64",
+   "last_price": "6.27",
    "market_cap": 30393664,
    "website": "https://www.nextcure.com"
   },
@@ -45885,7 +45885,7 @@
   "company": {
    "ticker": "MCRB",
    "name": "Seres Therapeutics",
-   "last_price": "2.68",
+   "last_price": "2.56",
    "market_cap": 26920014,
    "website": "https://www.serestherapeutics.com"
   },
@@ -46237,7 +46237,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "5.86",
+   "last_price": "5.96",
    "market_cap": 219567280,
    "website": "https://www.evommune.com"
   },

@@ -1,186 +1,5 @@
 [
  {
-  "id": 19220,
-  "company": {
-   "ticker": "ARWR",
-   "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "58.66",
-   "market_cap": 8211122176,
-   "website": "https://arrowheadpharma.com"
-  },
-  "ticker": "ARWR",
-  "drug_name": "ARO-MAPT",
-  "indications": [
-   {
-    "id": 1311,
-    "title": "Alzheimer's disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Tauopathies including Alzheimer\u2019s disease",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "9/10/25\u2013 Regulatory clearance requested to initiate Ph1/2a. 12/08/25\u2013 First subjects dosed. Initial data expected H2 2026. 09/29/26:- Interim AROMAPT-SC-1001 (NCT07221344) Ph1/2a results to be presented Oct 14, 2026.",
-  "catalyst_date": "2026-10-14",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260929257404/en/Arrowhead-Pharmaceuticals-to-Host-a-Webinar-with-Interim-Clinical-Data-from-a-Phase-12a-Study-of-ARO-MAPT-for-the-Treatment-of-Alzheimers-Disease-and-Other-Tauopathies",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20366,
-  "company": {
-   "ticker": "VSTM",
-   "name": "Verastem Oncology",
-   "last_price": "8.86",
-   "market_cap": 674697600,
-   "website": "https://www.verastem.com"
-  },
-  "ticker": "VSTM",
-  "drug_name": "VS-7375 (KRAS G12D Inhibitor)",
-  "indications": [
-   {
-    "id": 859,
-    "title": "Pancreatic cancer",
-    "nickname": ""
-   },
-   {
-    "id": 2226,
-    "title": "Pancreatic ductal adenocarcinoma ",
-    "nickname": "PDAC"
-   }
-  ],
-  "indications_text": "KRAS G12D-Mutated Pancreatic Ductal Carcinoma (PDAC)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/07/26:- TARGET-D 201 Phase 2 PDAC trial initiated; first patient dosing announcement expected Mid-2026. 06/03/26:- TARGET-D 201 Phase 2 registration-directed trial reiterated. Pancreatic cancer Fast Track designation reiterated. 06/16/26:- First patient dosed in TARGET-D 201 Ph2 mPDAC trial (NCT07644559) with cetuximab arms. 06/23/26:- Phase 2 PDAC trial continues; enroll all TARGET-D Ph2 trials end 2026; Phase 3 start H1 2027. 08/06/26:- VS-7375 data expected October 2026. Ph2 enrollment ends 2026. FDA meeting 2026. Ph3 starts H1 2027. 09/08/26:- Investor event Oct 14, 2026 presents initial efficacy and updated safety/tolerability data.",
-  "catalyst_date": "2026-10-14",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260908273196/en/Verastem-Oncology-to-Unveil-New-Clinical-Data-Highlighting-the-Best-in-Class-Potential-of-VS-7375-an-Oral-KRAS-G12D-ONOFF-Inhibitor-Across-Pancreatic-Lung-and-Colorectal-Cancers/",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "40.000000",
-  "probability_clean_plus_max": "50.000000",
-  "probability_mixed_min": "30.000000",
-  "probability_mixed_max": "40.000000",
-  "probability_clean_minus_min": "15.000000",
-  "probability_clean_minus_max": "25.000000",
-  "magnitude_clean_plus_min": "20.000000",
-  "magnitude_clean_plus_max": "40.000000",
-  "magnitude_mixed_min": "-20.000000",
-  "magnitude_mixed_max": "5.000000",
-  "magnitude_clean_minus_min": "-40.000000",
-  "magnitude_clean_minus_max": "-25.000000",
-  "up_suspected_big_mover": true,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is a broader initial efficacy assessment building on June's preliminary TARGET-D results, rather than an announced final Phase 2 primary-endpoint readout. TARGET-D 201 is open-label and evaluates 900 mg daily alone or with cetuximab. Earlier TARGET-D 101 pancreatic cohorts targeted more than 20 patients per monotherapy dose; follow-up at 900 mg was initially short. Confirmed tumor responses, their duration, and treatment discontinuations matter more than tumor-marker declines alone. Concurrent lung and colorectal results will also influence the stock reaction. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 14, 2026 presentation should show whether VS-7375's early activity translates into a convincing broader clinical profile. It builds on preliminary TARGET-D evidence rather than announcing a final registration-trial result. Pancreatic, lung and colorectal findings will be presented together, so investors should expect the stock reaction to reflect the overall package. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best))\n\nHistorically, 24.6% of oncology Phase 2 programs advanced to Phase 3. That is a development benchmark, not the probability of an encouraging interim update or a favorable stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) VS-7375 has meaningful same-drug support: a September publication on GFH375, its name in China, reported confirmed responses in 13 of 37 evaluable pancreatic patients and median response duration of 5.6 months. Across all 74 patients, 36.5% experienced grade 3 or higher treatment-related side effects, meaning severe or worse toxicity. These findings support genuine activity while keeping tolerability and durability central. ([nature.com](https://www.nature.com/articles/s41591-026-04559-4?utm_source=openai))\n\nWe assign 40\u201350% to clearly favorable findings, 30\u201340% to mixed findings and 15\u201325% to materially disappointing results. June's US update included substantial tumor-marker declines in 13 of 14 evaluable pancreatic patients, but marker declines are not the same as confirmed tumor responses. ([investor.verastem.com](https://investor.verastem.com/news-releases/news-release-details/vs-7375-demonstrates-clinical-activity-favorable-safety-and)) Small, open-label cohorts leave room for differences in patient selection, response confirmation and follow-up to affect interpretation. Earlier pancreatic cohorts targeted more than 20 patients per dose, with particularly short follow-up at 900 mg. ([investor.verastem.com](https://investor.verastem.com/static-files/f918c8ee-6c61-43b5-a710-3e0008125ceb)) Competition also raises the bar: FDA approved daraxonrasib for previously treated metastatic pancreatic cancer on August 26, 2026. Our favorable case therefore requires compelling clinical differentiation, not activity alone. ([fda.gov](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma?utm_source=openai))\n\nBPIQ's supplied snapshot shows eight specialist hedge funds, a $724.5 million market capitalization and $688.3 million enterprise value. Stable fund participation provides external support, although aggregate holdings value declined between March and June; that decline does not by itself prove investors sold shares. June cash was $136.4 million against quarterly burn of $43.9 million. Management describes $201.4 million of pro forma cash and runway into H2 2027, supported by royalty financing, a milestone payment, expected product revenue and access to another financing tranche. Those assumptions matter as clinical spending expands. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1526119/000110465926092058/tm2622452d2_ex99-1.htm)) Verastem retains VS-7375 rights outside Greater China, paying GenFleet mid-to-high-single-digit royalties rather than surrendering most commercial economics. The collaboration also carries development and sales milestones across up to three programs. This leaves substantial potential value, but future costs and financing obligations still matter. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1526119/000110465926092007/vstm-20260630x10q.htm))\n\nOur conditional share-price ranges are +20\u201340% for clearly favorable data, -20% to +5% for mixed findings and -40% to -25% for materially disappointing results. The supplied historical June update produced little immediate movement, so the upside case requires a substantially more persuasive response-and-durability package. Commercial ovarian-cancer revenue offers some diversification, but a major VS-7375 disappointment could damage expectations across the broader program. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1526119/000110465926092058/tm2622452d2_ex99-1.htm)) The supplied October 16 options straddle indicates a 36.2% absolute move through expiry, broadly consistent with substantial event risk. Its very wide spreads and exposure to all three cancer updates make it an indicative volatility signal, not confirmation of a pancreatic-only or directional move. Neither directional big-mover designation is therefore options-confirmed.",
-  "catalyst_event_details": "Verastem will present VS-7375 TARGET-D clinical efficacy and safety data in KRAS G12D-mutated pancreatic cancer on October 14, 2026. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best))",
-  "move_analysis_created_datetime": "2026-10-06T14:39:33Z"
- },
- {
-  "id": 20367,
-  "company": {
-   "ticker": "VSTM",
-   "name": "Verastem Oncology",
-   "last_price": "8.86",
-   "market_cap": 674697600,
-   "website": "https://www.verastem.com"
-  },
-  "ticker": "VSTM",
-  "drug_name": "VS-7375 (KRAS G12D Inhibitor)",
-  "indications": [
-   {
-    "id": 1320,
-    "title": "Lung cancer",
-    "nickname": ""
-   },
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "KRAS G12D-Mutated Advanced Non-Small Cell Lung Cancer (NSCLC)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/07/26:- TARGET-D 202 Phase 2 NSCLC trial initiated; first patient dosing announcement expected Mid-2026. 06/03/26:- FDA granted Fast Track for 2L/3L NSCLC. TARGET-D 202 Phase 2 initiated. 06/23/26:- TARGET-D 202 first-patient-dosed announcement reiterated for Mid-2026; Phase 3 start H1 2027; enrollment end 2026. 07/22/26:- First patient dosed in TARGET-D 202 Ph2 NSCLC trial (NCT07659782). Includes brain metastases cohort. 08/06/26:- VS-7375 data expected October 2026. Ph2 enrollment ends 2026. FDA meeting 2026. Ph3 starts H1 2027. 09/08/26:- Investor event Oct 14, 2026 presents initial efficacy and updated safety/tolerability data.",
-  "catalyst_date": "2026-10-14",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260908273196/en/Verastem-Oncology-to-Unveil-New-Clinical-Data-Highlighting-the-Best-in-Class-Potential-of-VS-7375-an-Oral-KRAS-G12D-ONOFF-Inhibitor-Across-Pancreatic-Lung-and-Colorectal-Cancers/",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "45.000000",
-  "probability_clean_plus_max": "55.000000",
-  "probability_mixed_min": "25.000000",
-  "probability_mixed_max": "35.000000",
-  "probability_clean_minus_min": "15.000000",
-  "probability_clean_minus_max": "25.000000",
-  "magnitude_clean_plus_min": "15.000000",
-  "magnitude_clean_plus_max": "35.000000",
-  "magnitude_mixed_min": "-18.000000",
-  "magnitude_mixed_max": "5.000000",
-  "magnitude_clean_minus_min": "-35.000000",
-  "magnitude_clean_minus_max": "-20.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an early efficacy assessment building on June\u2019s TARGET-D update, rather than a completed registration-directed Phase 2 topline. Its investment importance is high because broader response and durability results can establish VS-7375\u2019s competitive position. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best)) TARGET-D 202 is an open-label monotherapy study at 900 mg daily, with planned cohorts of 20 patients for dose confirmation, 60 for expansion, and 25 with untreated asymptomatic brain metastases. The main endpoint is tumor response assessed by independent reviewers; response duration is a secondary endpoint. These planned totals are not the October presentation\u2019s sample size. ([investor.verastem.com](https://investor.verastem.com/static-files/def839e5-6572-4a55-8777-210e1d4aa0cd)) Prior Chinese results showed responses in 11 of 16 NSCLC patients at 600 mg, including unconfirmed responses. June\u2019s U.S. cohort had more than 20 patients, but only one had six months of follow-up. Response confirmation, durability, dose-related tolerability, and activity in brain metastases remain important tests. ([investor.verastem.com](https://investor.verastem.com/node/15271/pdf))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 14 presentation offers meaningful new efficacy information, but it is not a final approval-enabling result. It builds on earlier evidence of tumor shrinkage and manageable safety. That supports a better outlook than an entirely untested oncology program, without making a clearly favorable market reaction highly predictable. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best?utm_source=openai)) Historically, only 24.6% of Phase 2 oncology programs advanced to Phase 3; that is a development benchmark, not a direct probability for this update. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) Same-drug human activity in China and preliminary U.S. activity justify our 45\u201355% favorable-outcome range. However, small uncontrolled cohorts, different doses, response confirmation and short follow-up leave substantial room for mixed results. ([investor.verastem.com](https://investor.verastem.com/static-files/def839e5-6572-4a55-8777-210e1d4aa0cd))\n\nThe competitive bar is demanding. Zoldonrasib reported a 52% confirmed response rate in 27 selected, previously treated NSCLC patients, with median progression-free survival of 11.1 months. Cross-trial comparisons are imperfect, but tumor shrinkage alone may not establish differentiation. ([ir.revmed.com](https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-present-updated-phase-1-clinical-data/?utm_source=openai)) Our favorable scenario requires convincing confirmed responses, encouraging durability and tolerability that supports continued dosing. Interesting activity with weak durability or frequent dose reductions would fit the mixed scenario; clearly inadequate efficacy or a material safety concern would fit the negative scenario.\n\nThe supplied BPIQ snapshot shows eight specialist hedge funds, a $724.5 million market capitalization and $688.3 million enterprise value\u2014the market value of the business after accounting for cash and debt. Stable fund participation supports investor engagement, although aggregate holding value declined from $147.8 million in December to $78.8 million in June; dollar-value changes alone do not establish selling. Verastem reported $136.4 million of June cash and $201.4 million pro forma after royalty financing and a received milestone payment. Management projects runway into H2 2027, dependent on product revenue and access to a conditional financing tranche. Its ovarian-cancer franchise generated $25.1 million of second-quarter revenue, providing diversification, but expanding clinical development still creates funding demands. ([investor.verastem.com](https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-reports-second-quarter-2026-financial-results?utm_source=openai)) Verastem retains VS-7375 development and commercialization rights outside Greater China, paying GenFleet mid-to-high-single-digit sales royalties and milestone payments. Those rights leave meaningful potential value with Verastem rather than limiting it to a small royalty stream. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1526119/000110465926023444/vstm-20251231x10k.htm?utm_source=openai))\n\nWe estimate +15\u201335% for clearly strong lung-cancer data, \u221218% to +5% for mixed results, and \u221235% to \u221220% for a material setback. The supplied historical reactions were modest around June's preliminary VS-7375 update and the October 2025 update, while other major Verastem clinical and approval events produced roughly 20\u201323% intraday moves. The upper favorable range therefore requires unusually convincing differentiation, not simply another report of activity. Commercial diversification limits single-indication exposure, while disappointing efficacy or serious safety findings could weaken confidence in the broader VS-7375 program. Pancreatic and colorectal data arrive at the same event, so their reactions cannot be added independently to this estimate. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best?utm_source=openai))\n\nThe supplied October 16 options straddle indicates approximately 37.4% movement through expiry, including ordinary market volatility and all three tumor updates. That exceeds our favorable NSCLC range, but very wide bid-ask spreads and the overlapping presentations make it a rough indicator of program-level uncertainty, not a reliable forecast for lung-cancer data alone. Our stock-move ranges are based on the clinical and valuation setup rather than treating that options quote as confirmation.",
-  "catalyst_event_details": "Verastem will present VS-7375 efficacy and updated safety data from the TARGET-D program in KRAS G12D-mutated advanced NSCLC on October 14, 2026. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best))",
-  "move_analysis_created_datetime": "2026-10-06T14:41:02Z"
- },
- {
   "id": 20370,
   "company": {
    "ticker": "VSTM",
@@ -314,7 +133,7 @@
   "company": {
    "ticker": "PDSB",
    "name": "PDS Biotech",
-   "last_price": "1.57",
+   "last_price": "1.46",
    "market_cap": 115958736,
    "website": "https://www.pdsbiotech.com"
   },
@@ -485,7 +304,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.57",
+   "last_price": "17.80",
    "market_cap": 19813191680,
    "website": "https://www.viatris.com"
   },
@@ -581,6 +400,63 @@
   "catalyst_date": "2026-10-18",
   "has_catalyst": true,
   "catalyst_source": "https://2026.cytokinesociety.org/",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 18942,
+  "company": {
+   "ticker": "BIVI",
+   "name": "BioVie",
+   "last_price": "1.18",
+   "market_cap": 10419252,
+   "website": "https://bioviepharma.com"
+  },
+  "ticker": "BIVI",
+  "drug_name": "Bezisterim (NE3107)",
+  "indications": [
+   {
+    "id": 1366,
+    "title": "COVID-19",
+    "nickname": "Coronavirus Disease 2019"
+   }
+  ],
+  "indications_text": "Neurological symptoms associated with long COVID",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "08/31/26:- Last on-treatment visit completed. Topline Phase 2 ADDRESS-LC data still expected Late Summer 2026. 09/15/26:- ADDRESS-LC subgroup benefits reported. 10/14/26:- ADDRESS-LC Ph2 results poster at ANA2026 on October 18, 2026.",
+  "catalyst_date": "2026-10-18",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62349701/biovie-present-new-bezisterim-findings-parkinson-s-disease-and-long-covid-2026-american-neurological",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -733,7 +609,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "3.39",
+   "last_price": "3.44",
    "market_cap": 26305926,
    "website": "https://www.immutep.com"
   },
@@ -1147,7 +1023,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "22.83",
+   "last_price": "22.40",
    "market_cap": 2831153920,
    "website": "https://arcusbio.com"
   },
@@ -1271,7 +1147,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "22.83",
+   "last_price": "22.40",
    "market_cap": 2831153920,
    "website": "https://arcusbio.com"
   },
@@ -1338,7 +1214,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "22.83",
+   "last_price": "22.40",
    "market_cap": 2831153920,
    "website": "https://arcusbio.com"
   },
@@ -1425,10 +1301,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "4/23/26:- STENOVA Ph2a OLE ongoing in FSCD; topline OLE data and Ph2b initiation expected in H2 2026. 06/23/26:- NOV-ERA Ph2b design aligned with FDA; first participants dosing expected in H2 2026. 08/06/26:- NOV-ERA regulatory progress reported; OLE topline data and first dosing expected in H2 2026. 10/01/26:- Positive 48-week STENOVA OLE data. NOV-ERA global Ph2b study initiation planned in coming months (Q4 2026). 10/08/26:- STENOVA OLE data to be presented at UEG Week on Oct 20, 2026. NOV-ERA Ph2b initiation reiterated.",
+  "note": "4/23/26:- STENOVA Ph2a OLE ongoing in FSCD; topline OLE data and Ph2b initiation expected in H2 2026. 06/23/26:- NOV-ERA Ph2b design aligned with FDA; first participants dosing expected in H2 2026. 08/06/26:- NOV-ERA regulatory progress reported; OLE topline data and first dosing expected in H2 2026. 10/01/26:- Positive 48-week STENOVA OLE data. NOV-ERA global Ph2b study initiation planned in coming months (Q4 2026). 10/08/26:- STENOVA OLE data to be presented at UEG Week on Oct 20, 2026. NOV-ERA Ph2b initiation reiterated. 10/13/26:- First patient dosed in NOV-ERA global Ph2b study in symptomatic FSCD.",
   "catalyst_date": "2026-10-20",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/08/3377670/0/en/agomab-to-present-stenova-open-label-extension-data-of-ontunisertib-at-ueg-week-2026-and-host-scientific-symposium-on-fibro-inflammation.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62339792/agomab-announces-first-patient-dosed-global-nov-era-phase-2b-study-ontunisertib-fibrostenosing-crohn",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -2558,7 +2434,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "3.21",
+   "last_price": "3.26",
    "market_cap": 217854640,
    "website": "https://www.macrogenics.com"
   },
@@ -3523,10 +3399,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "03/11/26:- FDA ODD granted to zolucatetide in desmoid tumors, following prior FTD; program progressing toward registrational trial. 08/13/26:- Phase 1/2 desmoid data will be presented at ESMO on October 23, 2026. More mature data and an FDA meeting are expected in Q4 2026; Phase 3 initiation is expected in H1 2027.",
+  "note": "03/11/26:- FDA ODD granted to zolucatetide in desmoid tumors, following prior FTD; program progressing toward registrational trial. 08/13/26:- Phase 1/2 desmoid data will be presented at ESMO on October 23, 2026. More mature data and an FDA meeting are expected in Q4 2026; Phase 3 initiation is expected in H1 2027. 10/14/26:- Additional Ph1/2 data from FAP with concomitant desmoid tumors expected in Q1 2027.",
   "catalyst_date": "2026-10-23",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344336/0/en/parabilis-medicines-reports-second-quarter-2026-financial-results-and-provides-business-updates.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/14/3380591/0/en/parabilis-medicines-initiates-dose-ranging-clinical-study-of-zolucatetide-in-familial-adenomatous-polyposis.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -4502,7 +4378,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "219.19",
+   "last_price": "222.65",
    "market_cap": 86334767104,
    "website": "https://www.modernatx.com"
   },
@@ -5107,7 +4983,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "219.19",
+   "last_price": "222.65",
    "market_cap": 86334767104,
    "website": "https://www.modernatx.com"
   },
@@ -5164,7 +5040,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "219.19",
+   "last_price": "222.65",
    "market_cap": 86334767104,
    "website": "https://www.modernatx.com"
   },
@@ -5821,7 +5697,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "28.49",
+   "last_price": "28.15",
    "market_cap": 1390890496,
    "website": "https://www.rapportrx.com"
   },
@@ -6364,7 +6240,7 @@
   "company": {
    "ticker": "GALT",
    "name": "Galectin Therapeutics ",
-   "last_price": "3.78",
+   "last_price": "3.75",
    "market_cap": 372135200,
    "website": "https://galectintherapeutics.com"
   },
@@ -7295,53 +7171,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-03",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 19231,
   "company": {
    "ticker": "KTTA",
@@ -7396,6 +7225,110 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 19031,
+  "company": {
+   "ticker": "ZLAB",
+   "name": "Zai Lab",
+   "last_price": "22.76",
+   "market_cap": 2593349888,
+   "website": "https://www.zailaboratory.com"
+  },
+  "ticker": "ZLAB",
+  "drug_name": "ZL-1503",
+  "indications": [
+   {
+    "id": 1395,
+    "title": "Atopic dermatitis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Moderate-to-severe atopic dermatitis",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "6/13/25- Preclinical data presented at EAACI'25. File IND by YE 2025. 12/08/25:- Dosed first participant in global Ph1/1b AD trial; trial evaluates safety, PK, efficacy. 02/26/26:- Global Ph1/1b AD study ongoing; first-in-human data expected in H2 2026. 05/07/26:- Preclinical IMMUNOLOGY2026 data show durable IL-13/IL-31R\u03b1 pathway suppression; first-in-human Ph1 data still expected H2 2026. 08/06/26:- SAD enrolled; first-human data H2 2026; MAD atopic dermatitis data H1 2027. 10/14/26:- Ph1/1b healthy-volunteer data to be presented at ACAAI Nov 13, 2026.",
+  "catalyst_date": "2026-11-13",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62348296/zai-lab-present-data-first-clinical-trial-evaluating-zl-1503-il-13-il-31r-bispecific-antibody-atopic",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-03",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -8541,7 +8474,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "765.38",
+   "last_price": "772.74",
    "market_cap": 77537460224,
    "website": "https://www.regeneron.com"
   },
@@ -9332,7 +9265,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "17.57",
+   "last_price": "17.80",
    "market_cap": 19813191680,
    "website": "https://www.viatris.com"
   },
@@ -10595,7 +10528,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "219.19",
+   "last_price": "222.65",
    "market_cap": 86334767104,
    "website": "https://www.modernatx.com"
   },
@@ -10652,7 +10585,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "3.63",
+   "last_price": "3.55",
    "market_cap": 254074128,
    "website": "https://www.bicycletherapeutics.com"
   },
@@ -10962,7 +10895,7 @@
   "company": {
    "ticker": "ADCT",
    "name": "ADC Therapeutics",
-   "last_price": "1.52",
+   "last_price": "1.50",
    "market_cap": 217035088,
    "website": "https://www.adctherapeutics.com"
   },
@@ -12902,7 +12835,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.97",
+   "last_price": "14.80",
    "market_cap": 1470945920,
    "website": "https://www.ultragenyx.com"
   },
@@ -13341,7 +13274,7 @@
   "company": {
    "ticker": "CADL",
    "name": "Candel Therapeutics",
-   "last_price": "9.23",
+   "last_price": "9.15",
    "market_cap": 709327168,
    "website": "https://www.candeltx.com"
   },
@@ -13604,7 +13537,7 @@
   "company": {
    "ticker": "ADCT",
    "name": "ADC Therapeutics",
-   "last_price": "1.52",
+   "last_price": "1.50",
    "market_cap": 217035088,
    "website": "https://www.adctherapeutics.com"
   },
@@ -14559,7 +14492,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "160.66",
+   "last_price": "160.64",
    "market_cap": 8188169728,
    "website": "https://www.axsome.com"
   },
@@ -14874,7 +14807,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1207.08",
+   "last_price": "1213.43",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -15008,7 +14941,7 @@
   "company": {
    "ticker": "ADCT",
    "name": "ADC Therapeutics",
-   "last_price": "1.52",
+   "last_price": "1.50",
    "market_cap": 217035088,
    "website": "https://www.adctherapeutics.com"
   },
@@ -15194,7 +15127,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "219.19",
+   "last_price": "222.65",
    "market_cap": 86334767104,
    "website": "https://www.modernatx.com"
   },
@@ -15943,10 +15876,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "VS-7375-101 trial. Collab w/ GenFleet Therapeutics (China). 7/12/24- First patient dosed in China. 4/23/25- US IND cleared. 6/24/25- First patient dosed in US trial. 10/23/25\u2013 Reported preliminary data w/ tumor reduction. Interim update planned H1\u20172026. 11/04/25:- 400/600mg doses cleared without DLTs; 4/5 patients showed tumor reductions. Interim update and RP2D expansions planned H1 2026. 12/29/25:- Program prioritized; Ph1/2 VS-7375 showed 69% ORR in KRAS G12D NSCLC; interim update planned H1 2026. 03/04/26:- VS-7375-101 cleared 900 mg; early data and CRC combo RP2D/expansion expected 1H 2026; further enrollments mid-2026. 03/18/26:- VS-7375 has FDA Fast Track for KRAS G12D PDAC; AACR 2026 preclinical data Apr 20-22. 05/07/26:- TARGET-D 101 early data expected H1 2026; mature data update planned H2 2026; multiple Phase 2 trials initiating mid-2026. 06/03/26:- TARGET-D 101 now testing 1200 mg and cetuximab combo. Early data H1 2026; mature data H2 2026. 06/16/26:- Investor call June 23, 2026 to present updated preliminary TARGET-D 101 data. TARGET-D 101 evaluating 1200 mg monotherapy and combos incl cetuximab, gem/nab-paclitaxel, or chemo-immunotherapy. 06/23/26:- TARGET-D 101 prelim data positive; enroll end Jun 2026; update H2 2026; Ph3 start H1 2027. 08/06/26:- TARGET-D 101 complete; 1200mg cleared. Data October 2026. Ph2 ends 2026. Ph3 H1 2027.",
+  "note": "VS-7375-101 trial. Collab w/ GenFleet Therapeutics (China). 7/12/24- First patient dosed in China. 4/23/25- US IND cleared. 6/24/25- First patient dosed in US trial. 10/23/25\u2013 Reported preliminary data w/ tumor reduction. Interim update planned H1\u20172026. 11/04/25:- 400/600mg doses cleared without DLTs; 4/5 patients showed tumor reductions. Interim update and RP2D expansions planned H1 2026. 12/29/25:- Program prioritized; Ph1/2 VS-7375 showed 69% ORR in KRAS G12D NSCLC; interim update planned H1 2026. 03/04/26:- VS-7375-101 cleared 900 mg; early data and CRC combo RP2D/expansion expected 1H 2026; further enrollments mid-2026. 03/18/26:- VS-7375 has FDA Fast Track for KRAS G12D PDAC; AACR 2026 preclinical data Apr 20-22. 05/07/26:- TARGET-D 101 early data expected H1 2026; mature data update planned H2 2026; multiple Phase 2 trials initiating mid-2026. 06/03/26:- TARGET-D 101 now testing 1200 mg and cetuximab combo. Early data H1 2026; mature data H2 2026. 06/16/26:- Investor call June 23, 2026 to present updated preliminary TARGET-D 101 data. TARGET-D 101 evaluating 1200 mg monotherapy and combos incl cetuximab, gem/nab-paclitaxel, or chemo-immunotherapy. 06/23/26:- TARGET-D 101 prelim data positive; enroll end Jun 2026; update H2 2026; Ph3 start H1 2027. 08/06/26:- TARGET-D 101 complete; 1200mg cleared. Data October 2026. Ph2 ends 2026. Ph3 H1 2027. 10/14/26:- TARGET-D 101 mature CRC cohort data and PDAC cetuximab combo data expected Year-End 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260806434497/en/Verastem-Oncology-Reports-Second-Quarter-2026-Financial-Results-and-Highlights-Recent-Business-Updates",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62346766/vs-7375-demonstrates-robust-anti-tumor-activity-across-advanced-kras-g12d-mutant-cancers-highlighted",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -16471,7 +16404,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "87.60",
+   "last_price": "84.11",
    "market_cap": 5758895616,
    "website": "https://kodiak.com"
   },
@@ -16533,7 +16466,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "3.39",
+   "last_price": "3.44",
    "market_cap": 26305926,
    "website": "https://www.immutep.com"
   },
@@ -16704,7 +16637,7 @@
   "company": {
    "ticker": "ADCT",
    "name": "ADC Therapeutics",
-   "last_price": "1.52",
+   "last_price": "1.50",
    "market_cap": 217035088,
    "website": "https://www.adctherapeutics.com"
   },
@@ -17019,7 +16952,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "41.44",
+   "last_price": "41.64",
    "market_cap": 48109572096,
    "website": "https://www.tevapharm.com"
   },
@@ -17572,7 +17505,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "41.44",
+   "last_price": "41.64",
    "market_cap": 48109572096,
    "website": "https://www.tevapharm.com"
   },
@@ -17976,7 +17909,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "58.66",
+   "last_price": "57.55",
    "market_cap": 8211122176,
    "website": "https://arrowheadpharma.com"
   },
@@ -18100,7 +18033,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "12.11",
+   "last_price": "11.77",
    "market_cap": 1140999680,
    "website": "https://www.replimune.com"
   },
@@ -18162,7 +18095,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "219.19",
+   "last_price": "222.65",
    "market_cap": 86334767104,
    "website": "https://www.modernatx.com"
   },
@@ -18673,7 +18606,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "58.66",
+   "last_price": "57.55",
    "market_cap": 8211122176,
    "website": "https://arrowheadpharma.com"
   },
@@ -19149,7 +19082,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "1.85",
+   "last_price": "1.84",
    "market_cap": 220993536,
    "website": "https://www.pyxisoncology.com"
   },
@@ -19976,7 +19909,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "28.49",
+   "last_price": "28.15",
    "market_cap": 1390890496,
    "website": "https://www.rapportrx.com"
   },
@@ -21112,63 +21045,6 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344335/0/en/proqr-announces-second-quarter-2026-operating-and-financial-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 19031,
-  "company": {
-   "ticker": "ZLAB",
-   "name": "Zai Lab",
-   "last_price": "22.76",
-   "market_cap": 2593349888,
-   "website": "https://www.zailaboratory.com"
-  },
-  "ticker": "ZLAB",
-  "drug_name": "ZL-1503",
-  "indications": [
-   {
-    "id": 1395,
-    "title": "Atopic dermatitis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Moderate-to-severe atopic dermatitis",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "6/13/25- Preclinical data presented at EAACI'25. File IND by YE 2025. 12/08/25:- Dosed first participant in global Ph1/1b AD trial; trial evaluates safety, PK, efficacy. 02/26/26:- Global Ph1/1b AD study ongoing; first-in-human data expected in H2 2026. 05/07/26:- Preclinical IMMUNOLOGY2026 data show durable IL-13/IL-31R\u03b1 pathway suppression; first-in-human Ph1 data still expected H2 2026. 08/06/26:- SAD enrolled; first-human data H2 2026; MAD atopic dermatitis data H1 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260806560438/en/Zai-Lab-Announces-Second-Quarter-2026-Financial-Results-and-Recent-Corporate-Updates",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -22642,7 +22518,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "219.19",
+   "last_price": "222.65",
    "market_cap": 86334767104,
    "website": "https://www.modernatx.com"
   },
@@ -22994,7 +22870,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "3.21",
+   "last_price": "3.26",
    "market_cap": 217854640,
    "website": "https://www.macrogenics.com"
   },
@@ -24783,7 +24659,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "17.18",
+   "last_price": "17.03",
    "market_cap": 1050329792,
    "website": "https://www.januxrx.com"
   },
@@ -25016,7 +24892,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "283.10",
+   "last_price": "283.84",
    "market_cap": 484826284032,
    "website": "https://www.abbvie.com"
   },
@@ -25036,10 +24912,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "03/02/26:- AFFIRM Ph3 (NCT06063967) topline positive; SC induction superior vs placebo at Week 12. Full results later. 04/27/26:- FDA filing for SC induction; AbbVie anticipates approval later in 2026. 05/05/26:- DDW posters show ASPIRE-CD year 1 symptom and QoL gains; US claims show low switching. 08/27/26:- EMA application submitted for SC Skyrizi induction in adult Crohn's disease; AFFIRM Ph3 supported. 10/11/26:- AFFIRM Ph3 SC CD results presented at ACG Oct 13. FORTIFY OLE posters Oct 11.",
+  "note": "03/02/26:- AFFIRM Ph3 (NCT06063967) topline positive; SC induction superior vs placebo at Week 12. Full results later. 04/27/26:- FDA filing for SC induction; AbbVie anticipates approval later in 2026. 05/05/26:- DDW posters show ASPIRE-CD year 1 symptom and QoL gains; US claims show low switching. 08/27/26:- EMA application submitted for SC Skyrizi induction in adult Crohn's disease; AFFIRM Ph3 supported. 10/11/26:- AFFIRM Ph3 SC CD results presented at ACG Oct 13. FORTIFY OLE posters Oct 11. 10/13/26:- AFFIRM Ph3 ACG 2026 showed Week 24 endoscopic remission 35.8%; SC induction under FDA review.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/new-skyrizi-risankizumab-rzaa-and-rinvoq-upadacitinib-data-demonstrate-disease-control-for-patients-living-with-inflammatory-bowel-disease-302903888.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/n62338349/abbvie-presents-new-phase-3-affirm-data-showing-clinical-and-endoscopic-outcomes-subcutaneous-skyriz",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -28737,7 +28613,7 @@
   "company": {
    "ticker": "SPRY",
    "name": "ARS Pharmaceuticals",
-   "last_price": "3.99",
+   "last_price": "3.95",
    "market_cap": 402761760,
    "website": "https://ars-pharma.com"
   },
@@ -28794,7 +28670,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "12.11",
+   "last_price": "11.77",
    "market_cap": 1140999680,
    "website": "https://www.replimune.com"
   },
@@ -29032,7 +28908,7 @@
   "company": {
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
-   "last_price": "1.61",
+   "last_price": "1.60",
    "market_cap": 716379072,
    "website": "https://www.lexpharma.com"
   },
@@ -29151,7 +29027,7 @@
   "company": {
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
-   "last_price": "1.61",
+   "last_price": "1.60",
    "market_cap": 716379072,
    "website": "https://www.lexpharma.com"
   },
@@ -29897,7 +29773,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "41.44",
+   "last_price": "41.64",
    "market_cap": 48109572096,
    "website": "https://www.tevapharm.com"
   },
@@ -30460,7 +30336,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "160.66",
+   "last_price": "160.64",
    "market_cap": 8188169728,
    "website": "https://www.axsome.com"
   },
@@ -31546,7 +31422,7 @@
   "company": {
    "ticker": "MGTX",
    "name": "MeiraGTx",
-   "last_price": "9.94",
+   "last_price": "9.71",
    "market_cap": 954667328,
    "website": "https://www.meiragtx.com"
   },
@@ -31603,7 +31479,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "17.18",
+   "last_price": "17.03",
    "market_cap": 1050329792,
    "website": "https://www.januxrx.com"
   },
@@ -31784,7 +31660,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "14.97",
+   "last_price": "14.80",
    "market_cap": 1470945920,
    "website": "https://www.ultragenyx.com"
   },
@@ -32032,7 +31908,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "21.28",
+   "last_price": "20.51",
    "market_cap": 1476117376,
    "website": "https://www.uniqure.com"
   },
@@ -32952,7 +32828,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "3.21",
+   "last_price": "3.26",
    "market_cap": 217854640,
    "website": "https://www.macrogenics.com"
   },
@@ -33185,7 +33061,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "22.83",
+   "last_price": "22.40",
    "market_cap": 2831153920,
    "website": "https://arcusbio.com"
   },
@@ -33889,7 +33765,7 @@
   "company": {
    "ticker": "JUNS",
    "name": "Jupiter Neurosciences",
-   "last_price": "3.32",
+   "last_price": "3.45",
    "market_cap": 4430230,
    "website": "https://jupiterneurosciences.com"
   },
@@ -34463,6 +34339,68 @@
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
   "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20366,
+  "company": {
+   "ticker": "VSTM",
+   "name": "Verastem Oncology",
+   "last_price": "8.86",
+   "market_cap": 674697600,
+   "website": "https://www.verastem.com"
+  },
+  "ticker": "VSTM",
+  "drug_name": "VS-7375 (KRAS G12D Inhibitor)",
+  "indications": [
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   },
+   {
+    "id": 2226,
+    "title": "Pancreatic ductal adenocarcinoma ",
+    "nickname": "PDAC"
+   }
+  ],
+  "indications_text": "KRAS G12D-Mutated Pancreatic Ductal Carcinoma (PDAC)",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/07/26:- TARGET-D 201 Phase 2 PDAC trial initiated; first patient dosing announcement expected Mid-2026. 06/03/26:- TARGET-D 201 Phase 2 registration-directed trial reiterated. Pancreatic cancer Fast Track designation reiterated. 06/16/26:- First patient dosed in TARGET-D 201 Ph2 mPDAC trial (NCT07644559) with cetuximab arms. 06/23/26:- Phase 2 PDAC trial continues; enroll all TARGET-D Ph2 trials end 2026; Phase 3 start H1 2027. 08/06/26:- VS-7375 data expected October 2026. Ph2 enrollment ends 2026. FDA meeting 2026. Ph3 starts H1 2027. 09/08/26:- Investor event Oct 14, 2026 presents initial efficacy and updated safety/tolerability data. 10/14/26:- TARGET-D 101 PDAC data cut Oct 7, 2026; TARGET-D 201 Ph2 initial data Q2 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62346766/vs-7375-demonstrates-robust-anti-tumor-activity-across-advanced-kras-g12d-mutant-cancers-highlighted",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": "40.000000",
+  "probability_clean_plus_max": "50.000000",
+  "probability_mixed_min": "30.000000",
+  "probability_mixed_max": "40.000000",
+  "probability_clean_minus_min": "15.000000",
+  "probability_clean_minus_max": "25.000000",
+  "magnitude_clean_plus_min": "20.000000",
+  "magnitude_clean_plus_max": "40.000000",
+  "magnitude_mixed_min": "-20.000000",
+  "magnitude_mixed_max": "5.000000",
+  "magnitude_clean_minus_min": "-40.000000",
+  "magnitude_clean_minus_max": "-25.000000",
+  "up_suspected_big_mover": true,
+  "up_big_mover": false,
+  "down_suspected_big_mover": true,
+  "down_big_mover": false,
+  "key_readout_comment": "This is a broader initial efficacy assessment building on June's preliminary TARGET-D results, rather than an announced final Phase 2 primary-endpoint readout. TARGET-D 201 is open-label and evaluates 900 mg daily alone or with cetuximab. Earlier TARGET-D 101 pancreatic cohorts targeted more than 20 patients per monotherapy dose; follow-up at 900 mg was initially short. Confirmed tumor responses, their duration, and treatment discontinuations matter more than tumor-marker declines alone. Concurrent lung and colorectal results will also influence the stock reaction. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "The October 14, 2026 presentation should show whether VS-7375's early activity translates into a convincing broader clinical profile. It builds on preliminary TARGET-D evidence rather than announcing a final registration-trial result. Pancreatic, lung and colorectal findings will be presented together, so investors should expect the stock reaction to reflect the overall package. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best))\n\nHistorically, 24.6% of oncology Phase 2 programs advanced to Phase 3. That is a development benchmark, not the probability of an encouraging interim update or a favorable stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) VS-7375 has meaningful same-drug support: a September publication on GFH375, its name in China, reported confirmed responses in 13 of 37 evaluable pancreatic patients and median response duration of 5.6 months. Across all 74 patients, 36.5% experienced grade 3 or higher treatment-related side effects, meaning severe or worse toxicity. These findings support genuine activity while keeping tolerability and durability central. ([nature.com](https://www.nature.com/articles/s41591-026-04559-4?utm_source=openai))\n\nWe assign 40\u201350% to clearly favorable findings, 30\u201340% to mixed findings and 15\u201325% to materially disappointing results. June's US update included substantial tumor-marker declines in 13 of 14 evaluable pancreatic patients, but marker declines are not the same as confirmed tumor responses. ([investor.verastem.com](https://investor.verastem.com/news-releases/news-release-details/vs-7375-demonstrates-clinical-activity-favorable-safety-and)) Small, open-label cohorts leave room for differences in patient selection, response confirmation and follow-up to affect interpretation. Earlier pancreatic cohorts targeted more than 20 patients per dose, with particularly short follow-up at 900 mg. ([investor.verastem.com](https://investor.verastem.com/static-files/f918c8ee-6c61-43b5-a710-3e0008125ceb)) Competition also raises the bar: FDA approved daraxonrasib for previously treated metastatic pancreatic cancer on August 26, 2026. Our favorable case therefore requires compelling clinical differentiation, not activity alone. ([fda.gov](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma?utm_source=openai))\n\nBPIQ's supplied snapshot shows eight specialist hedge funds, a $724.5 million market capitalization and $688.3 million enterprise value. Stable fund participation provides external support, although aggregate holdings value declined between March and June; that decline does not by itself prove investors sold shares. June cash was $136.4 million against quarterly burn of $43.9 million. Management describes $201.4 million of pro forma cash and runway into H2 2027, supported by royalty financing, a milestone payment, expected product revenue and access to another financing tranche. Those assumptions matter as clinical spending expands. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1526119/000110465926092058/tm2622452d2_ex99-1.htm)) Verastem retains VS-7375 rights outside Greater China, paying GenFleet mid-to-high-single-digit royalties rather than surrendering most commercial economics. The collaboration also carries development and sales milestones across up to three programs. This leaves substantial potential value, but future costs and financing obligations still matter. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1526119/000110465926092007/vstm-20260630x10q.htm))\n\nOur conditional share-price ranges are +20\u201340% for clearly favorable data, -20% to +5% for mixed findings and -40% to -25% for materially disappointing results. The supplied historical June update produced little immediate movement, so the upside case requires a substantially more persuasive response-and-durability package. Commercial ovarian-cancer revenue offers some diversification, but a major VS-7375 disappointment could damage expectations across the broader program. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1526119/000110465926092058/tm2622452d2_ex99-1.htm)) The supplied October 16 options straddle indicates a 36.2% absolute move through expiry, broadly consistent with substantial event risk. Its very wide spreads and exposure to all three cancer updates make it an indicative volatility signal, not confirmation of a pancreatic-only or directional move. Neither directional big-mover designation is therefore options-confirmed.",
+  "catalyst_event_details": "Verastem will present VS-7375 TARGET-D clinical efficacy and safety data in KRAS G12D-mutated pancreatic cancer on October 14, 2026. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best))",
+  "move_analysis_created_datetime": "2026-10-06T14:39:33Z"
  },
  {
   "id": 20376,
@@ -35297,7 +35235,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "58.66",
+   "last_price": "57.55",
    "market_cap": 8211122176,
    "website": "https://arrowheadpharma.com"
   },
@@ -37102,7 +37040,7 @@
   "company": {
    "ticker": "PLRX",
    "name": "Pliant Therapeutics ",
-   "last_price": "0.98",
+   "last_price": "0.92",
    "market_cap": 59940396,
    "website": "https://pliantrx.com"
   },
@@ -37164,7 +37102,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "160.66",
+   "last_price": "160.64",
    "market_cap": 8188169728,
    "website": "https://www.axsome.com"
   },
@@ -38878,6 +38816,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 19220,
+  "company": {
+   "ticker": "ARWR",
+   "name": "Arrowhead Pharmaceuticals ",
+   "last_price": "57.55",
+   "market_cap": 8211122176,
+   "website": "https://arrowheadpharma.com"
+  },
+  "ticker": "ARWR",
+  "drug_name": "ARO-MAPT",
+  "indications": [
+   {
+    "id": 1311,
+    "title": "Alzheimer's disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Tauopathies including Alzheimer\u2019s disease",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "9/10/25\u2013 Regulatory clearance requested to initiate Ph1/2a. 12/08/25\u2013 First subjects dosed. Initial data expected H2 2026. 09/29/26:- Interim AROMAPT-SC-1001 (NCT07221344) Ph1/2a results to be presented Oct 14, 2026. 10/14/26:- Interim NHV CSF total tau reductions up to 73%; further Ph1/2a updates expected in 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62349000/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-1-2a-clinical-data-demonstrating-deep-and",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 19281,
   "company": {
    "ticker": "PVLA",
@@ -38939,7 +38934,7 @@
   "company": {
    "ticker": "JBIO",
    "name": "Jade Biosciences",
-   "last_price": "13.52",
+   "last_price": "13.13",
    "market_cap": 853476928,
    "website": "https://jadebiosciences.com"
   },
@@ -41076,7 +41071,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "28.49",
+   "last_price": "28.15",
    "market_cap": 1390890496,
    "website": "https://www.rapportrx.com"
   },
@@ -41127,6 +41122,68 @@
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
   "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20367,
+  "company": {
+   "ticker": "VSTM",
+   "name": "Verastem Oncology",
+   "last_price": "8.86",
+   "market_cap": 674697600,
+   "website": "https://www.verastem.com"
+  },
+  "ticker": "VSTM",
+  "drug_name": "VS-7375 (KRAS G12D Inhibitor)",
+  "indications": [
+   {
+    "id": 1320,
+    "title": "Lung cancer",
+    "nickname": ""
+   },
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   }
+  ],
+  "indications_text": "KRAS G12D-Mutated Advanced Non-Small Cell Lung Cancer (NSCLC)",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/07/26:- TARGET-D 202 Phase 2 NSCLC trial initiated; first patient dosing announcement expected Mid-2026. 06/03/26:- FDA granted Fast Track for 2L/3L NSCLC. TARGET-D 202 Phase 2 initiated. 06/23/26:- TARGET-D 202 first-patient-dosed announcement reiterated for Mid-2026; Phase 3 start H1 2027; enrollment end 2026. 07/22/26:- First patient dosed in TARGET-D 202 Ph2 NSCLC trial (NCT07659782). Includes brain metastases cohort. 08/06/26:- VS-7375 data expected October 2026. Ph2 enrollment ends 2026. FDA meeting 2026. Ph3 starts H1 2027. 09/08/26:- Investor event Oct 14, 2026 presents initial efficacy and updated safety/tolerability data. 10/14/26:- TARGET-D 101 NSCLC data cut Oct 7, 2026; TARGET-D 202 Ph2 initial data H2 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62346766/vs-7375-demonstrates-robust-anti-tumor-activity-across-advanced-kras-g12d-mutant-cancers-highlighted",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": "45.000000",
+  "probability_clean_plus_max": "55.000000",
+  "probability_mixed_min": "25.000000",
+  "probability_mixed_max": "35.000000",
+  "probability_clean_minus_min": "15.000000",
+  "probability_clean_minus_max": "25.000000",
+  "magnitude_clean_plus_min": "15.000000",
+  "magnitude_clean_plus_max": "35.000000",
+  "magnitude_mixed_min": "-18.000000",
+  "magnitude_mixed_max": "5.000000",
+  "magnitude_clean_minus_min": "-35.000000",
+  "magnitude_clean_minus_max": "-20.000000",
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": true,
+  "down_big_mover": false,
+  "key_readout_comment": "This is an early efficacy assessment building on June\u2019s TARGET-D update, rather than a completed registration-directed Phase 2 topline. Its investment importance is high because broader response and durability results can establish VS-7375\u2019s competitive position. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best)) TARGET-D 202 is an open-label monotherapy study at 900 mg daily, with planned cohorts of 20 patients for dose confirmation, 60 for expansion, and 25 with untreated asymptomatic brain metastases. The main endpoint is tumor response assessed by independent reviewers; response duration is a secondary endpoint. These planned totals are not the October presentation\u2019s sample size. ([investor.verastem.com](https://investor.verastem.com/static-files/def839e5-6572-4a55-8777-210e1d4aa0cd)) Prior Chinese results showed responses in 11 of 16 NSCLC patients at 600 mg, including unconfirmed responses. June\u2019s U.S. cohort had more than 20 patients, but only one had six months of follow-up. Response confirmation, durability, dose-related tolerability, and activity in brain metastases remain important tests. ([investor.verastem.com](https://investor.verastem.com/node/15271/pdf))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "The October 14 presentation offers meaningful new efficacy information, but it is not a final approval-enabling result. It builds on earlier evidence of tumor shrinkage and manageable safety. That supports a better outlook than an entirely untested oncology program, without making a clearly favorable market reaction highly predictable. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best?utm_source=openai)) Historically, only 24.6% of Phase 2 oncology programs advanced to Phase 3; that is a development benchmark, not a direct probability for this update. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) Same-drug human activity in China and preliminary U.S. activity justify our 45\u201355% favorable-outcome range. However, small uncontrolled cohorts, different doses, response confirmation and short follow-up leave substantial room for mixed results. ([investor.verastem.com](https://investor.verastem.com/static-files/def839e5-6572-4a55-8777-210e1d4aa0cd))\n\nThe competitive bar is demanding. Zoldonrasib reported a 52% confirmed response rate in 27 selected, previously treated NSCLC patients, with median progression-free survival of 11.1 months. Cross-trial comparisons are imperfect, but tumor shrinkage alone may not establish differentiation. ([ir.revmed.com](https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-present-updated-phase-1-clinical-data/?utm_source=openai)) Our favorable scenario requires convincing confirmed responses, encouraging durability and tolerability that supports continued dosing. Interesting activity with weak durability or frequent dose reductions would fit the mixed scenario; clearly inadequate efficacy or a material safety concern would fit the negative scenario.\n\nThe supplied BPIQ snapshot shows eight specialist hedge funds, a $724.5 million market capitalization and $688.3 million enterprise value\u2014the market value of the business after accounting for cash and debt. Stable fund participation supports investor engagement, although aggregate holding value declined from $147.8 million in December to $78.8 million in June; dollar-value changes alone do not establish selling. Verastem reported $136.4 million of June cash and $201.4 million pro forma after royalty financing and a received milestone payment. Management projects runway into H2 2027, dependent on product revenue and access to a conditional financing tranche. Its ovarian-cancer franchise generated $25.1 million of second-quarter revenue, providing diversification, but expanding clinical development still creates funding demands. ([investor.verastem.com](https://investor.verastem.com/news-releases/news-release-details/verastem-oncology-reports-second-quarter-2026-financial-results?utm_source=openai)) Verastem retains VS-7375 development and commercialization rights outside Greater China, paying GenFleet mid-to-high-single-digit sales royalties and milestone payments. Those rights leave meaningful potential value with Verastem rather than limiting it to a small royalty stream. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1526119/000110465926023444/vstm-20251231x10k.htm?utm_source=openai))\n\nWe estimate +15\u201335% for clearly strong lung-cancer data, \u221218% to +5% for mixed results, and \u221235% to \u221220% for a material setback. The supplied historical reactions were modest around June's preliminary VS-7375 update and the October 2025 update, while other major Verastem clinical and approval events produced roughly 20\u201323% intraday moves. The upper favorable range therefore requires unusually convincing differentiation, not simply another report of activity. Commercial diversification limits single-indication exposure, while disappointing efficacy or serious safety findings could weaken confidence in the broader VS-7375 program. Pancreatic and colorectal data arrive at the same event, so their reactions cannot be added independently to this estimate. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best?utm_source=openai))\n\nThe supplied October 16 options straddle indicates approximately 37.4% movement through expiry, including ordinary market volatility and all three tumor updates. That exceeds our favorable NSCLC range, but very wide bid-ask spreads and the overlapping presentations make it a rough indicator of program-level uncertainty, not a reliable forecast for lung-cancer data alone. Our stock-move ranges are based on the clinical and valuation setup rather than treating that options quote as confirmation.",
+  "catalyst_event_details": "Verastem will present VS-7375 efficacy and updated safety data from the TARGET-D program in KRAS G12D-mutated advanced NSCLC on October 14, 2026. ([verastem.gcs-web.com](https://verastem.gcs-web.com/news-releases/news-release-details/verastem-oncology-unveil-new-clinical-data-highlighting-best))",
+  "move_analysis_created_datetime": "2026-10-06T14:41:02Z"
  },
  {
   "id": 20400,
@@ -42117,7 +42174,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1207.08",
+   "last_price": "1213.43",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -42640,7 +42697,7 @@
   "company": {
    "ticker": "RCKT",
    "name": "Rocket Pharmaceuticals",
-   "last_price": "2.29",
+   "last_price": "2.19",
    "market_cap": 252481568,
    "website": "https://www.rocketpharma.com"
   },
@@ -44464,7 +44521,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "3.63",
+   "last_price": "3.55",
    "market_cap": 254074128,
    "website": "https://www.bicycletherapeutics.com"
   },
@@ -44836,7 +44893,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.20",
+   "last_price": "1.18",
    "market_cap": 10419252,
    "website": "https://bioviepharma.com"
   },
@@ -45017,7 +45074,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "1.98",
+   "last_price": "1.97",
    "market_cap": 187553808,
    "website": "https://cgen.com"
   },
@@ -45141,7 +45198,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "21.28",
+   "last_price": "20.51",
    "market_cap": 1476117376,
    "website": "https://www.uniqure.com"
   },
@@ -46647,63 +46704,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18942,
-  "company": {
-   "ticker": "BIVI",
-   "name": "BioVie",
-   "last_price": "1.20",
-   "market_cap": 10419252,
-   "website": "https://bioviepharma.com"
-  },
-  "ticker": "BIVI",
-  "drug_name": "Bezisterim (NE3107)",
-  "indications": [
-   {
-    "id": 1366,
-    "title": "COVID-19",
-    "nickname": "Coronavirus Disease 2019"
-   }
-  ],
-  "indications_text": "Neurological symptoms associated with long COVID",
-  "stage_event": {
-   "id": 137,
-   "label": "Phase 2 Update",
-   "stage_label": "Phase 2",
-   "event_label": "Update"
-  },
-  "note": "08/31/26:- Last on-treatment visit completed. Topline Phase 2 ADDRESS-LC data still expected Late Summer 2026. 09/15/26:- ADDRESS-LC subgroup benefits reported.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/15/3361943/0/en/biovie-announces-topline-results-from-phase-2-address-lc-trial-evaluating-bezisterim-for-the-treatment-of-neurological-symptoms-associated-with-long-covid.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 19043,
   "company": {
    "ticker": "SYRE",
@@ -47065,7 +47065,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1207.08",
+   "last_price": "1213.43",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },

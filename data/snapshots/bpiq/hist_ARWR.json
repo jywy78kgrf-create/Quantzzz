@@ -1,5 +1,29 @@
 [
  {
+  "id": 8905,
+  "company": {
+   "id": 149,
+   "ticker": "ARWR",
+   "name": "Arrowhead Pharmaceuticals ",
+   "website": "https://arrowheadpharma.com"
+  },
+  "created_at": "2026-10-15T13:01:39.347106Z",
+  "updated_at": "2026-10-15T13:01:39.347132Z",
+  "ticker": "ARWR",
+  "drug_name": "ARO-MAPT",
+  "drug_indication": "Alzheimer\u2019s Disease",
+  "airtable_id": 9203,
+  "stage": "Phase 1/2",
+  "catalyst_date": "2026-10-14",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62349000/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-1-2a-clinical-data-demonstrating-deep-and",
+  "catalyst_text": "Announced positive interim biomarker results in Alzheimer\u2019s",
+  "detailed_catalyst_text": "The company reported interim results from an ongoing Phase 1/2a study showing deep and durable reductions in cerebrospinal fluid total tau after subcutaneous dosing in healthy volunteers. Mean reduction reached up to 73% with a maximum of 85%, supporting the potential for quarterly dosing in programs targeting Alzheimer\u2019s disease and other tauopathies. The findings also provide clinical validation for CNS delivery using its siRNA platform.",
+  "catalyst_text_evidence": "\"Arrowhead Pharmaceuticals, Inc. (NASDAQ:ARWR) today announced interim results from an ongoing Phase 1/2a study of ARO-MAPT, the company\u2019s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for Alzheimer\u2019s disease and other tauopathies.\" \"In healthy volunteers, subcutaneous administration of ARO-MAPT achieved deep and durable reductions in cerebrospinal fluid (CSF) total tau, with a mean reduction of up to 73% at Day 105 and a maximum reduction of 85%.\" \"These results represent the first successful clinical validation of a platform to deliver siRNA across the blood-brain barrier and achieve substantial target gene knockdown in the brain.\" \"ARO-MAPT administered at 12.8 mg/kg on Days 1 and 15 achieved a mean reduction of 73% at Day 105 with a maximum reduction of 85%.\"",
+  "news_published_at": "2026-10-15T00:00:00Z",
+  "open_price_gap_percent": "0.00602",
+  "intra_day_price_change_percent": "-0.00188"
+ },
+ {
   "id": 8838,
   "company": {
    "id": 149,
@@ -8,7 +32,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-10-08T13:06:54.414139Z",
-  "updated_at": "2026-10-14T13:06:56.511852Z",
+  "updated_at": "2026-10-15T13:06:44.186823Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran",
   "drug_indication": "Severe Hypertriglyceridemia",
@@ -32,7 +56,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-09-16T13:02:59.092280Z",
-  "updated_at": "2026-10-14T13:02:48.079851Z",
+  "updated_at": "2026-10-15T13:02:28.404289Z",
   "ticker": "ARWR",
   "drug_name": "ARO-DIMER-PA",
   "drug_indication": "Atherosclerotic Cardiovascular Disease",
@@ -56,7 +80,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-09-01T13:03:17.835895Z",
-  "updated_at": "2026-10-14T13:03:35.591569Z",
+  "updated_at": "2026-10-15T13:03:16.626683Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran",
   "drug_indication": "Severe Hypertriglyceridemia",
@@ -80,7 +104,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-07-28T13:03:42.015389Z",
-  "updated_at": "2026-10-14T13:04:20.921311Z",
+  "updated_at": "2026-10-15T13:04:02.520119Z",
   "ticker": "ARWR",
   "drug_name": "Zodasiran",
   "drug_indication": "Homozygous Familial Hypercholesterolemia",
@@ -104,7 +128,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-07-23T13:05:30.121387Z",
-  "updated_at": "2026-10-14T13:06:33.368245Z",
+  "updated_at": "2026-10-15T13:06:20.825227Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran",
   "drug_indication": "Severe Hypertriglyceridemia",
@@ -128,7 +152,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-06-24T13:03:20.638420Z",
-  "updated_at": "2026-10-14T13:02:59.824311Z",
+  "updated_at": "2026-10-15T13:02:39.773192Z",
   "ticker": "ARWR",
   "drug_name": "REDEMPLO (plozasiran)",
   "drug_indication": "Familial Chylomicronemia Syndrome",
@@ -152,7 +176,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-05-28T13:04:08.006955Z",
-  "updated_at": "2026-10-14T13:05:26.488338Z",
+  "updated_at": "2026-10-15T13:05:10.257608Z",
   "ticker": "ARWR",
   "drug_name": "ARO-INHBE",
   "drug_indication": "MASH, Obesity",
@@ -176,7 +200,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-05-27T13:01:44.717660Z",
-  "updated_at": "2026-10-14T13:02:07.919654Z",
+  "updated_at": "2026-10-15T13:01:47.965158Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran",
   "drug_indication": "Renal Impairment, Hepatic Impairment",
@@ -200,7 +224,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-05-27T13:02:42.546040Z",
-  "updated_at": "2026-10-14T13:03:18.406911Z",
+  "updated_at": "2026-10-15T13:02:57.436112Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran",
   "drug_indication": "Familial Chylomicronemia Syndrome",
@@ -224,7 +248,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-05-02T13:01:31.761049Z",
-  "updated_at": "2026-10-14T13:01:47.956584Z",
+  "updated_at": "2026-10-15T13:01:28.805404Z",
   "ticker": "ARWR",
   "drug_name": "REDEMPLO (plozasiran)",
   "drug_indication": "Familial Chylomicronemia Syndrome",
@@ -248,7 +272,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-04-25T13:00:30.922519Z",
-  "updated_at": "2026-10-14T13:00:54.474856Z",
+  "updated_at": "2026-10-15T13:00:38.001200Z",
   "ticker": "ARWR",
   "drug_name": "REDEMPLO (plozasiran)",
   "drug_indication": "Familial Chylomicronemia Syndrome",
@@ -272,7 +296,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-03-31T13:04:44.460741Z",
-  "updated_at": "2026-10-14T13:06:48.328949Z",
+  "updated_at": "2026-10-15T13:06:36.506329Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran",
   "drug_indication": "Hypertriglyceridemia, Severe Hypertriglyceridemia",
@@ -296,7 +320,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-01-07T13:02:04.346480Z",
-  "updated_at": "2026-10-14T13:02:25.683968Z",
+  "updated_at": "2026-10-15T13:02:06.118756Z",
   "ticker": "ARWR",
   "drug_name": "ARO-INHBE",
   "drug_indication": "Obesity, Type 2 Diabetes",
@@ -320,7 +344,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2026-01-07T13:03:19.320037Z",
-  "updated_at": "2026-10-14T13:04:15.983856Z",
+  "updated_at": "2026-10-15T13:03:57.047955Z",
   "ticker": "ARWR",
   "drug_name": "ARO-ALK7",
   "drug_indication": "Obesity",
@@ -344,7 +368,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-12-12T13:04:42.771739Z",
-  "updated_at": "2026-10-14T13:07:16.382380Z",
+  "updated_at": "2026-10-15T13:07:02.397553Z",
   "ticker": "ARWR",
   "drug_name": "ARO-MAPT",
   "drug_indication": "Alzheimer's Disease",
@@ -368,7 +392,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-12-05T13:04:45.002272Z",
-  "updated_at": "2026-10-14T13:08:01.141291Z",
+  "updated_at": "2026-10-15T13:07:48.850396Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran",
   "drug_indication": "Severe Hypertriglyceridemia",
@@ -392,7 +416,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-11-21T13:01:44.215818Z",
-  "updated_at": "2026-10-14T13:02:55.550821Z",
+  "updated_at": "2026-10-15T13:02:36.285470Z",
   "ticker": "ARWR",
   "drug_name": "REDEMPLO (plozasiran)",
   "drug_indication": "Familial Chylomicronemia Syndrome",
@@ -416,7 +440,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-07-09T13:02:20.712006Z",
-  "updated_at": "2026-10-14T13:03:31.775941Z",
+  "updated_at": "2026-10-15T13:03:12.672149Z",
   "ticker": "ARWR",
   "drug_name": "Zodasiran (ARO-ANG3)",
   "drug_indication": "Homozygous Familial Hypercholesterolemia",
@@ -440,7 +464,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-06-24T13:00:48.871773Z",
-  "updated_at": "2026-10-14T13:01:23.603423Z",
+  "updated_at": "2026-10-15T13:01:05.665586Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran",
   "drug_indication": "Severe hypertriglyceridemia  ",
@@ -464,7 +488,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-03-11T13:03:45.617065Z",
-  "updated_at": "2026-10-14T13:07:31.465413Z",
+  "updated_at": "2026-10-15T13:07:18.013665Z",
   "ticker": "ARWR",
   "drug_name": "ARO-C3",
   "drug_indication": "IgA Nephropathy",
@@ -488,7 +512,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-26T13:03:12.927045Z",
-  "updated_at": "2026-10-14T13:06:03.569719Z",
+  "updated_at": "2026-10-15T13:05:51.051733Z",
   "ticker": "ARWR",
   "drug_name": "ARO-ALK7",
   "drug_indication": "Obesity",
@@ -512,7 +536,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-26T20:10:47.472051Z",
-  "updated_at": "2026-10-14T13:06:51.592436Z",
+  "updated_at": "2026-10-15T13:06:39.779432Z",
   "ticker": "ARWR",
   "drug_name": "ARO-ALK7",
   "drug_indication": "Obesity",
@@ -536,7 +560,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:07:26.072899Z",
-  "updated_at": "2026-10-14T13:03:40.159312Z",
+  "updated_at": "2026-10-15T13:03:20.765591Z",
   "ticker": "ARWR",
   "drug_name": "ARO-INHBE",
   "drug_indication": "Obesity",
@@ -560,7 +584,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:07:56.325550Z",
-  "updated_at": "2026-10-14T13:04:22.780283Z",
+  "updated_at": "2026-10-15T13:04:05.001033Z",
   "ticker": "ARWR",
   "drug_name": "ARO-CFB",
   "drug_indication": "Complement Mediated Kidney Disease",
@@ -584,7 +608,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:05:42.688855Z",
-  "updated_at": "2026-10-14T13:01:02.233724Z",
+  "updated_at": "2026-10-15T13:00:44.697851Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran (ARO-APOC3-3001) - (PALISADE)",
   "drug_indication": "Familial chylomicronemia syndrome (FCS), Hypertriglyceridemia",
@@ -608,7 +632,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:09:09.004377Z",
-  "updated_at": "2026-10-14T13:06:16.218168Z",
+  "updated_at": "2026-10-15T13:06:04.228498Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran  (ARO-APOC3-2001) - (SHASTA-2)",
   "drug_indication": "Hypertriglyceridemia",
@@ -632,7 +656,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:08:14.138392Z",
-  "updated_at": "2026-10-14T13:04:47.678529Z",
+  "updated_at": "2026-10-15T13:04:29.364422Z",
   "ticker": "ARWR",
   "drug_name": "Zodasiran  (AROANG3-2001) - (ARCHES-2)",
   "drug_indication": "Dyslipidemia",
@@ -656,7 +680,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:09:03.714502Z",
-  "updated_at": "2026-10-14T13:06:08.284678Z",
+  "updated_at": "2026-10-15T13:05:55.377676Z",
   "ticker": "ARWR",
   "drug_name": "ARO-RAGE-1001",
   "drug_indication": "Asthma",
@@ -680,7 +704,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:09:14.578451Z",
-  "updated_at": "2026-10-14T13:06:24.656800Z",
+  "updated_at": "2026-10-15T13:06:12.945477Z",
   "ticker": "ARWR",
   "drug_name": "Plozasiran (ARO-APOC3) - (CAPITAN)",
   "drug_indication": "Mixed hyperlipidemia",
@@ -704,7 +728,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:07:52.773010Z",
-  "updated_at": "2026-10-14T13:04:17.824527Z",
+  "updated_at": "2026-10-15T13:03:58.920721Z",
   "ticker": "ARWR",
   "drug_name": "ARORAGE-1001",
   "drug_indication": "Healthy volunteers and Asthma",
@@ -728,7 +752,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:06:12.925681Z",
-  "updated_at": "2026-10-14T13:01:50.588496Z",
+  "updated_at": "2026-10-15T13:01:31.444266Z",
   "ticker": "ARWR",
   "drug_name": "Olpasiran (AMG 890) - (OCEAN(a)-DOSE)",
   "drug_indication": "Cardiovascular disease / Elevated Lipoprotein",
@@ -752,7 +776,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:08:23.933114Z",
-  "updated_at": "2026-10-14T13:05:03.175310Z",
+  "updated_at": "2026-10-15T13:04:46.112441Z",
   "ticker": "ARWR",
   "drug_name": "Fazirsiran (ARO-AAT) - (SEQUOIA)",
   "drug_indication": "Alpha-1 Liver Disease",
@@ -776,7 +800,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:14:15.109321Z",
-  "updated_at": "2026-10-14T13:07:27.188566Z",
+  "updated_at": "2026-10-15T13:07:13.849732Z",
   "ticker": "ARWR",
   "drug_name": "ARO-ANG3-2003 - (GATEWAY)",
   "drug_indication": "Homozygous Familial Hypercholesterolemia (HoFH)",
@@ -800,7 +824,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:06:37.136412Z",
-  "updated_at": "2026-10-14T13:02:25.150946Z",
+  "updated_at": "2026-10-15T13:02:05.559426Z",
   "ticker": "ARWR",
   "drug_name": "ARO-AAT-2002",
   "drug_indication": "AATD-associated liver disease",
@@ -824,7 +848,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:09:02.243314Z",
-  "updated_at": "2026-10-14T13:06:06.231697Z",
+  "updated_at": "2026-10-15T13:05:53.427119Z",
   "ticker": "ARWR",
   "drug_name": "JNJ-3989 and/or JNJ-6379 - (REEF-1)",
   "drug_indication": "Hepatitis B (HBV)",
@@ -848,7 +872,7 @@
    "website": "https://arrowheadpharma.com"
   },
   "created_at": "2025-02-21T20:08:45.804815Z",
-  "updated_at": "2026-10-14T13:05:41.445620Z",
+  "updated_at": "2026-10-15T13:05:25.575521Z",
   "ticker": "ARWR",
   "drug_name": "ARO-ENaC - (AROENaC1001)",
   "drug_indication": "Cystic Fibrosis",

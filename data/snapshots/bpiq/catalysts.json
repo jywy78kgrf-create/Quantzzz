@@ -4,7 +4,7 @@
   "company": {
    "ticker": "PDSB",
    "name": "PDS Biotech",
-   "last_price": "1.29",
+   "last_price": "1.30",
    "market_cap": 102188632,
    "website": "https://www.pdsbiotech.com"
   },
@@ -118,7 +118,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "18.08",
+   "last_price": "18.11",
    "market_cap": 20031424512,
    "website": "https://www.viatris.com"
   },
@@ -395,6 +395,63 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 17384,
+  "company": {
+   "ticker": "BIVI",
+   "name": "BioVie",
+   "last_price": "1.16",
+   "market_cap": 10071943,
+   "website": "https://bioviepharma.com"
+  },
+  "ticker": "BIVI",
+  "drug_name": "Bezisterim (NE3107) ",
+  "indications": [
+   {
+    "id": 1386,
+    "title": "Parkinson's disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Early Parkinson's disease",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "SUNRISE-PD trial. 4/16/25- Initiated Ph2b trial, patient enrollment ongoing. Topline data in late 2025 or early 2026. 6/24/25- Presents trial overview at ATMRD.01/08/26:- SUNRISE-PD completed enrollment of 60 early Parkinson\u2019s patients; topline Phase 2b results expected in H1 2026.\n02/12/26:- SUNRISE-PD enrollment of 60 early Parkinson\u2019s patients confirmed; topline Ph2b results now expected Mid-2026.\n03/12/26:- AD/PD 2026 poster on SUNRISE-PD baseline characteristics. Topline Phase 2b results expected Mid-2026.\n04/14/26:- AAN 2026 poster Apr 20 on SUNRISE-PD baseline demographics. Topline Phase 2b results expected Mid-2026.\n05/18/26:- SUNRISE-PD last patient visit completed; topline Phase 2b results expected Q3 2026.\n08/06/26:- SUNRISE-PD topline Ph2b results reported; met endpoints. Conference call Aug 12, 2026.\n09/08/26:- FDA end-of-Ph2 correspondence to align on Ph3 design in early Parkinson\u2019s disease. 10/14/26:- SUNRISE-PD Ph2 initial results poster at ANA2026 on October 19, 2026.",
+  "catalyst_date": "2026-10-19",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62349701/biovie-present-new-bezisterim-findings-parkinson-s-disease-and-long-covid-2026-american-neurological",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -1333,7 +1390,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "21.66",
+   "last_price": "21.64",
    "market_cap": 1835326976,
    "website": "https://mineralystx.com"
   },
@@ -2062,7 +2119,7 @@
   "company": {
    "ticker": "PROK",
    "name": "ProKidney",
-   "last_price": "1.47",
+   "last_price": "1.45",
    "market_cap": 586798400,
    "website": "https://prokidney.com"
   },
@@ -2868,7 +2925,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "14.45",
+   "last_price": "14.35",
    "market_cap": 6436723712,
    "website": "https://www.iovance.com"
   },
@@ -4611,7 +4668,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.49",
+   "last_price": "15.44",
    "market_cap": 12069952512,
    "website": "https://www.smmttx.com"
   },
@@ -4911,7 +4968,7 @@
   "company": {
    "ticker": "GSK",
    "name": "GSK",
-   "last_price": "47.87",
+   "last_price": "49.53",
    "market_cap": 95908274176,
    "website": "https://www.gsk.com"
   },
@@ -5345,7 +5402,7 @@
   "company": {
    "ticker": "INO",
    "name": "Inovio Pharmaceuticals",
-   "last_price": "1.05",
+   "last_price": "1.04",
    "market_cap": 101949952,
    "website": "https://www.inovio.com"
   },
@@ -5707,7 +5764,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "30.97",
+   "last_price": "31.76",
    "market_cap": 1848967168,
    "website": "https://www.agios.com"
   },
@@ -5769,7 +5826,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.40",
+   "last_price": "4.38",
    "market_cap": 2005653760,
    "website": "https://www.recursion.com"
   },
@@ -7233,11 +7290,58 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-04",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 18688,
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "63.43",
+   "last_price": "64.11",
    "market_cap": 8818255872,
    "website": "https://www.cytokinetics.com"
   },
@@ -7290,58 +7394,11 @@
   "move_analysis_created_datetime": "2026-10-06T13:05:21Z"
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-04",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 18895,
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.49",
+   "last_price": "15.44",
    "market_cap": 12069952512,
    "website": "https://www.smmttx.com"
   },
@@ -7703,7 +7760,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "6.80",
+   "last_price": "7.10",
    "market_cap": 383135936,
    "website": "https://www.capricor.com"
   },
@@ -7760,7 +7817,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "4.82",
+   "last_price": "4.78",
    "market_cap": 977989696,
    "website": "https://www.savarapharma.com"
   },
@@ -7817,7 +7874,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "67.23",
+   "last_price": "67.18",
    "market_cap": 12695315456,
    "website": "https://bridgebio.com"
   },
@@ -7874,7 +7931,7 @@
   "company": {
    "ticker": "GSK",
    "name": "GSK",
-   "last_price": "47.87",
+   "last_price": "49.53",
    "market_cap": 95908274176,
    "website": "https://www.gsk.com"
   },
@@ -7988,7 +8045,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "29.21",
+   "last_price": "29.16",
    "market_cap": 4884727808,
    "website": "https://www.cogentbio.com"
   },
@@ -8231,7 +8288,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "510.92",
+   "last_price": "510.74",
    "market_cap": 126350270464,
    "website": "https://www.vrtx.com"
   },
@@ -8345,7 +8402,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "806.40",
+   "last_price": "805.82",
    "market_cap": 80136044544,
    "website": "https://www.regeneron.com"
   },
@@ -8521,7 +8578,7 @@
   "company": {
    "ticker": "EXEL",
    "name": "Exelixis Inc",
-   "last_price": "62.71",
+   "last_price": "62.73",
    "market_cap": 15112206336,
    "website": "https://www.exelixis.com"
   },
@@ -8650,7 +8707,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "46.67",
+   "last_price": "47.27",
    "market_cap": 1395211008,
    "website": "https://www.anaptysbio.com"
   },
@@ -8789,7 +8846,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "4.23",
+   "last_price": "4.27",
    "market_cap": 255152528,
    "website": "https://www.vandapharma.com"
   },
@@ -8908,7 +8965,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "113.56",
+   "last_price": "113.62",
    "market_cap": 12564277248,
    "website": "https://www.corcept.com"
   },
@@ -9022,7 +9079,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "21.66",
+   "last_price": "21.64",
    "market_cap": 1835326976,
    "website": "https://mineralystx.com"
   },
@@ -9141,7 +9198,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "248.33",
+   "last_price": "247.63",
    "market_cap": 6673435648,
    "website": "https://praxismedicines.com"
   },
@@ -9198,7 +9255,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "18.08",
+   "last_price": "18.11",
    "market_cap": 20031424512,
    "website": "https://www.viatris.com"
   },
@@ -9255,7 +9312,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "29.21",
+   "last_price": "29.16",
    "market_cap": 4884727808,
    "website": "https://www.cogentbio.com"
   },
@@ -10260,7 +10317,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "14.45",
+   "last_price": "14.35",
    "market_cap": 6436723712,
    "website": "https://www.iovance.com"
   },
@@ -10414,15 +10471,15 @@
   ],
   "indications_text": "Intestinal failure associated liver disease, Long-term parenteral support",
   "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "THRIVE-3 trial. 11/10/25- Dose first patient by YE 2025.\n01/07/26:- THRIVE-3 dosing underway; Phase 2b/3 interim analysis expected in H2 2026. 01/12/26:- First patient dosed in THRIVE-3 registrational trial. Interim Phase 2b/3 analysis remains expected in H2 2026. 03/10/26:- THRIVE-3 registrational trial ongoing; interim Phase 2b/3 results remain expected in 2H 2026. 05/13/26:- THRIVE-3 Phase 3 trial ongoing; interim Phase 2b/3 results still expected in H2 2026. 08/11/26:- THRIVE-3 Phase 3 interim results expected Q4 2026.",
+  "note": "THRIVE-3 trial. 11/10/25- Dose first patient by YE 2025.\n01/07/26:- THRIVE-3 dosing underway; Phase 2b/3 interim analysis expected in H2 2026. 01/12/26:- First patient dosed in THRIVE-3 registrational trial. Interim Phase 2b/3 analysis remains expected in H2 2026. 03/10/26:- THRIVE-3 registrational trial ongoing; interim Phase 2b/3 results remain expected in 2H 2026. 05/13/26:- THRIVE-3 Phase 3 trial ongoing; interim Phase 2b/3 results still expected in H2 2026. 08/11/26:- THRIVE-3 Phase 3 interim results expected Q4 2026. 10/15/26:- THRIVE-3 Phase 2b dose-confirmation enrollment completed (24 patients). Interim Phase 2b results remain expected Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://ir.protaratx.com/press-releases",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/15/3381589/0/en/protara-therapeutics-completes-enrollment-of-the-phase-2b-open-label-dose-confirmation-phase-of-the-thrive-3-registrational-trial-of-iv-choline-chloride-in-patients-on-parenteral-s.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -10833,7 +10890,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "113.56",
+   "last_price": "113.62",
    "market_cap": 12564277248,
    "website": "https://www.corcept.com"
   },
@@ -12582,7 +12639,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "13.84",
+   "last_price": "14.05",
    "market_cap": 1611610496,
    "website": "https://www.novocure.com"
   },
@@ -13919,7 +13976,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "334.44",
+   "last_price": "334.63",
    "market_cap": 9788039168,
    "website": "https://www.krystalbio.com"
   },
@@ -13976,7 +14033,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "111.57",
+   "last_price": "113.84",
    "market_cap": 22614986752,
    "website": "https://www.incyte.com"
   },
@@ -14027,78 +14084,6 @@
   "move_analysis_ai_reasoning": "Povorcitinib's two pivotal prurigo nodularis studies are expected to report in Q4 2026. They could establish another use for the drug, but this indication is only one part of Incyte's commercial and development portfolio. ([investor.incyte.com](https://investor.incyte.com/node/26996/pdf?utm_source=openai))\n\nHistorical Phase 3 progression to filing was approximately 60% in the broad disease category that includes dermatology\u2014not specifically PN and not a measure of stock-market success. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) Here, the randomized Phase 2 study provides encouraging direct evidence: itch response reached 54.1% at the highest dose versus 8.1% with placebo. However, the combined itch-and-skin response was 35.1% versus 2.5%, and came from a small treatment group. ([investor.incyte.com](https://investor.incyte.com/news-releases/news-release-details/incyte-presents-new-late-breaking-data-phase-2-study-evaluating?_sp=74b82ba8-818c-43ab-be1c-68b8128d852f&utm_source=openai)) Positive studies in other povorcitinib indications add confidence in the drug's activity without proving PN efficacy. ([investor.incyte.com](https://investor.incyte.com/static-files/a226a06c-5d7f-4ef3-896a-1d872e78e9bb?utm_source=openai)) Together, these support a 55\u201365% chance of clearly favorable results, 22\u201332% for mixed results and 8\u201318% for clearly unfavorable results.\n\nThe tougher test is achieving itch relief and skin clearance in the same patient. Approximately 110 patients per group gives these studies more evidence than Phase 2, but both trials must deliver convincing results. Placebo response, discontinuations and differences between doses could still matter. ([incytemi.com](https://www.incytemi.com/pipeline/resource/NCT06516965)) Approved nemolizumab also sets a competitive benchmark for itch relief and skin improvement; cross-trial comparisons cannot establish superiority. ([galderma.com](https://www.galderma.com/us/sites/default/files/2024-08/Nemluvio_PI%26eIFU_USA_08_2024.pdf?utm_source=openai)) A statistical win with modest differentiation, inconsistent studies or safety concerns could therefore disappoint investors.\n\nBPIQ reports one specialist hedge fund holding INCY: Baker Bros., with a $3.5 billion position. The decline from three funds to one warrants caution, but the substantial remaining holding is meaningful external support\u2014not a guarantee of success. At the supplied $23.1 billion market capitalization and $21.2 billion enterprise value, PN does not dominate valuation. June liquidity was $4.5 billion, before a $1.25 billion July acquisition; commercial revenue supports funding beyond the readout. ([investor.incyte.com](https://investor.incyte.com/news-releases/news-release-details/incyte-reports-second-quarter-2026-financial-results-and)) These factors favor modest indication-specific moves rather than a small-biotech-style binary reaction.\n\nBPIQ-AI expects 1\u20134% upside for clearly strong results, -3% to +1% for mixed results and -6% to -2% for failure. The supplied historical PN Phase 2 reaction was +0.2% at the open and +2.4% intraday, while the broader HS pivotal event had a much larger opening decline. Those examples favor restrained ordinary ranges while recognizing that a safety finding threatening other indications could cause a larger loss.\n\nThe supplied January options straddle implies roughly 17.1% movement through expiration. That spans other Incyte developments as well as PN. Its calculated 8.3% event component depends on treating December expiration as pre-readout, although Q4 guidance allows an earlier announcement. The broad options figure is therefore not a standalone PN forecast; our indication-specific ranges remain below it and below the 20% big-mover threshold.",
   "catalyst_event_details": "Povorcitinib\u2019s Phase 3 STOP-PN1 and STOP-PN2 readouts in moderate-to-severe prurigo nodularis are expected in Q4 2026. ([incytecorp.gcs-web.com](https://incytecorp.gcs-web.com/news-releases/news-release-details/incyte-reports-second-quarter-2026-financial-results-and?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T15:05:47Z"
- },
- {
-  "id": 17448,
-  "company": {
-   "ticker": "KRYS",
-   "name": "Krystal Biotech",
-   "last_price": "334.44",
-   "market_cap": 9788039168,
-   "website": "https://www.krystalbio.com"
-  },
-  "ticker": "KRYS",
-  "drug_name": "KB707 (IL-2 and IL-12)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 2048,
-    "title": "Gorlin Syndrome",
-    "nickname": ""
-   },
-   {
-    "id": 878,
-    "title": "Multiple tumors",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Gorlin syndrome",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "OPAL-1 study. 10/2023- First patient dosed. 5/6/25- Enrollment ongoing. 8/21/25- Paused further development and focus on the inhaled version. 11/03/25:- OPAL-1 enrollment paused; patients followed; future intratumoral KB707 development plans under evaluation. 02/17/26:- OPAL-1 patients continue in follow-up; future intratumoral KB707 plans depend on accumulating data. 05/04/26:- OPAL-1 patients remain in follow-up; intratumoral KB707 development plans await additional safety and efficacy data. 08/03/26:- OPAL-1 enrolled three Gorlin patients; interim update and development plans due H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/03/3337358/0/en/krystal-biotech-announces-second-quarter-2026-financial-and-operating-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
  },
  {
   "id": 17481,
@@ -14745,7 +14730,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1260.69",
+   "last_price": "1272.42",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -15323,7 +15308,7 @@
   "company": {
    "ticker": "CTMX",
    "name": "CytomX Therapeutics",
-   "last_price": "2.38",
+   "last_price": "2.39",
    "market_cap": 485915392,
    "website": "https://www.cytomx.com"
   },
@@ -15970,7 +15955,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "334.44",
+   "last_price": "334.63",
    "market_cap": 9788039168,
    "website": "https://www.krystalbio.com"
   },
@@ -16213,7 +16198,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.49",
+   "last_price": "15.44",
    "market_cap": 12069952512,
    "website": "https://www.smmttx.com"
   },
@@ -16518,7 +16503,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "30.97",
+   "last_price": "31.76",
    "market_cap": 1848967168,
    "website": "https://www.agios.com"
   },
@@ -16833,7 +16818,7 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "40.56",
+   "last_price": "40.94",
    "market_cap": 4822696960,
    "website": "https://www.scholarrock.com"
   },
@@ -17185,7 +17170,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.40",
+   "last_price": "4.38",
    "market_cap": 2005653760,
    "website": "https://www.recursion.com"
   },
@@ -18420,7 +18405,7 @@
   "company": {
    "ticker": "PBYI",
    "name": "Puma Biotechnology",
-   "last_price": "10.57",
+   "last_price": "10.67",
    "market_cap": 526524640,
    "website": "https://www.pumabiotechnology.com"
   },
@@ -19847,7 +19832,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "113.56",
+   "last_price": "113.62",
    "market_cap": 12564277248,
    "website": "https://www.corcept.com"
   },
@@ -21182,7 +21167,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "334.44",
+   "last_price": "334.63",
    "market_cap": 9788039168,
    "website": "https://www.krystalbio.com"
   },
@@ -21410,7 +21395,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "111.57",
+   "last_price": "113.84",
    "market_cap": 22614986752,
    "website": "https://www.incyte.com"
   },
@@ -22394,7 +22379,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "4.23",
+   "last_price": "4.27",
    "market_cap": 255152528,
    "website": "https://www.vandapharma.com"
   },
@@ -23645,7 +23630,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "46.67",
+   "last_price": "47.27",
    "market_cap": 1395211008,
    "website": "https://www.anaptysbio.com"
   },
@@ -23702,7 +23687,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "46.67",
+   "last_price": "47.27",
    "market_cap": 1395211008,
    "website": "https://www.anaptysbio.com"
   },
@@ -23935,7 +23920,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "334.44",
+   "last_price": "334.63",
    "market_cap": 9788039168,
    "website": "https://www.krystalbio.com"
   },
@@ -24535,7 +24520,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "111.57",
+   "last_price": "113.84",
    "market_cap": 22614986752,
    "website": "https://www.incyte.com"
   },
@@ -24711,7 +24696,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "289.49",
+   "last_price": "288.61",
    "market_cap": 484826284000,
    "website": "https://www.abbvie.com"
   },
@@ -25182,7 +25167,7 @@
   "company": {
    "ticker": "PFE",
    "name": "Pfizer",
-   "last_price": "29.21",
+   "last_price": "29.72",
    "market_cap": 166487457792,
    "website": "https://www.pfizer.com"
   },
@@ -25953,7 +25938,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "162.03",
+   "last_price": "168.53",
    "market_cap": 251293253632,
    "website": "https://www.astrazeneca.com"
   },
@@ -26244,63 +26229,6 @@
   "move_analysis_created_datetime": "2026-10-06T15:39:11Z"
  },
  {
-  "id": 20666,
-  "company": {
-   "ticker": "KRYS",
-   "name": "Krystal Biotech",
-   "last_price": "334.44",
-   "market_cap": 9788039168,
-   "website": "https://www.krystalbio.com"
-  },
-  "ticker": "KRYS",
-  "drug_name": "Intratumoral KB707 (Cytokine Gene Therapy)",
-  "indications": [
-   {
-    "id": 2048,
-    "title": "Gorlin Syndrome",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Gorlin Syndrome",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "08/03/26:- OPAL-1 enrolled three Gorlin patients; interim update and plans expected H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/03/3337358/0/en/krystal-biotech-announces-second-quarter-2026-financial-and-operating-results.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 20714,
   "company": {
    "ticker": "DNTH",
@@ -26501,10 +26429,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "08/14/26:- Phase 2 basket trial Stage 1 interim data will be reported in Q4 2026.",
+  "note": "08/14/26:- Phase 2 basket trial Stage 1 interim data will be reported in Q4 2026. 10/15/26:- IgAN cohort fully enrolled. Interim IgAN data expected Q4 2026; FSGS cohort first dose expected Q1 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345490/0/en/jasper-therapeutics-reports-second-quarter-2026-financial-results-and-provides-corporate-update.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/15/3381578/0/en/jasper-therapeutics-announces-completion-of-enrollment-in-first-cohort-of-phase-2-renal-basket-study-evaluating-vensobafusp-alfa-kp104-in-iga-nephropathy.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -26880,7 +26808,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "248.33",
+   "last_price": "247.63",
    "market_cap": 6673435648,
    "website": "https://praxismedicines.com"
   },
@@ -26994,7 +26922,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "67.23",
+   "last_price": "67.18",
    "market_cap": 12695315456,
    "website": "https://bridgebio.com"
   },
@@ -27920,73 +27848,6 @@
   "move_analysis_created_datetime": "2026-10-06T15:50:45Z"
  },
  {
-  "id": 15374,
-  "company": {
-   "ticker": "CLRB",
-   "name": "Cellectar Biosciences",
-   "last_price": "1.16",
-   "market_cap": 11153487,
-   "website": "https://www.cellectar.com"
-  },
-  "ticker": "CLRB",
-  "drug_name": "Iopofosine (CLR 131)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1219,
-    "title": "Lymphoma",
-    "nickname": ""
-   },
-   {
-    "id": 1121,
-    "title": "Waldenstrom macroglobulinemia",
-    "nickname": "WM"
-   }
-  ],
-  "indications_text": "Waldenstrom macroglobulinemia",
-  "stage_event": {
-   "id": 78,
-   "label": "Phase 3 Initiation",
-   "stage_label": "Phase 3",
-   "event_label": "Initiation"
-  },
-  "note": "05/14/26:- CLOVER-WaM data positive; ASCO poster June 1. Phase 3 and FDA filing plans advancing. 06/01/26:- ASCO poster showed 79.2% MRR post-BTKi. Phase 3 confirmatory trial planned Q4 2026. 08/13/26:- CLOVER-WaM results were presented. Phase 3 first patient dosing is expected in Early 2027. NDA submission will occur Mid-2027. 09/29/26:- IWWM poster Oct 15, 2026. Ph3 dosing Early 2027; NDA H1 2027; potential approval End-2027. 10/15/26:- IWWM subgroup ORR 87.5%. Ph3 first dosing expected Q1 2027; NDA for accelerated approval anticipated H1 2027.",
-  "catalyst_date": "2027-03-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/15/3381487/29076/en/cellectar-biosciences-presents-compelling-efficacy-data-from-phase-2b-clover-wam-subset-analysis-of-iopofosine-i-131-in-patients-relapsed-refractory-to-btk-inhibitor-therapy-at-the.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "20.000000",
-  "probability_clean_plus_max": "30.000000",
-  "probability_mixed_min": "60.000000",
-  "probability_mixed_max": "72.000000",
-  "probability_clean_minus_min": "5.000000",
-  "probability_clean_minus_max": "13.000000",
-  "magnitude_clean_plus_min": "3.000000",
-  "magnitude_clean_plus_max": "12.000000",
-  "magnitude_mixed_min": "-6.000000",
-  "magnitude_mixed_max": "2.000000",
-  "magnitude_clean_minus_min": "-18.000000",
-  "magnitude_clean_minus_max": "-8.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is a conference presentation of previously disclosed subgroup results, not a new primary efficacy binary. The 24-patient post-BTK-inhibitor subgroup showed a 79.2% major response rate, meaning partial response or better, an 87.5% overall response rate, and median response duration of 16 months. These findings were presented at ASCO on June 1. The uncontrolled analysis includes patients receiving a minimum cumulative dose, so selection and small-sample uncertainty limit comparisons with other treatments. Low blood-cell counts remain an important safety consideration. A meaningful positive stock reaction would likely require additional evidence beyond the published response rates. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/06/01/3304338/29076/en/cellectar-biosciences-to-highlight-compelling-new-efficacy-data-from-phase-2b-clover-wam-study-of-iopofosine-i-131-in-r-r-waldenstr%C3%B6m-macroglobulinemia-at-the-american-society-of-c.html?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 15 presentation has moderate-to-low importance as a standalone catalyst: iopofosine is central to Cellectar\u2019s investment case, but the headline subgroup results are already public. Favorable clinical findings therefore need not produce an unequivocally favorable market reaction. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/09/29/3370710/0/en/cellectar-biosciences-to-present-compelling-efficacy-data-from-phase-2-clover-wam-subset-analysis-of-iopofosine-i-131-in-patients-refractory-resistant-to-btk-inhibitor-therapy-at-i.html?utm_source=openai)) We assign a 20\u201330% chance of a clearly favorable outcome, 60\u201372% for a mixed outcome and 5\u201313% for a clearly adverse outcome. Mixed is most likely because the poster may mainly reinforce existing evidence rather than materially change expectations.\n\nHistorically, 24.6% of Phase 2 oncology programs advanced to Phase 3 in BIO\u2019s 2011\u20132020 study; Waldenstr\u00f6m macroglobulinemia is a blood cancer, so oncology is the relevant broad comparison. That development rate is not a probability of stock-market success. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) Here, the original single-arm trial already cleared its major-response endpoint against a 20% historical threshold. The upcoming subgroup presentation does not introduce a fresh randomized statistical test. ([cellectar.com](https://www.cellectar.com/investors/sec-filings/all-sec-filings/content/0001104659-26-023167/0001104659-26-023167.pdf)) Its main limitations are the small sample, lack of a concurrent control, and inclusion based on cumulative dose received. Strong responses are encouraging, but they do not establish superiority over competing treatments or guarantee accelerated approval. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/06/01/3304338/29076/en/cellectar-biosciences-to-highlight-compelling-new-efficacy-data-from-phase-2b-clover-wam-study-of-iopofosine-i-131-in-r-r-waldenstr%C3%B6m-macroglobulinemia-at-the-american-society-of-c.html?utm_source=openai))\n\nBPIQ reports one hedge-fund holder and a $15.8 million common-stock market capitalization, warranting substantial caution about financing and sustainable investor demand. However, the May financing attracted several healthcare investors, including Nantahala, so the reported common-share holder count does not capture every source of specialist backing. Pre-funded warrants also represent substantial additional economic ownership. Even allowing for those securities, this remains a severely distressed microcap rather than a straightforward cash-value opportunity. Additional milestone financing is conditional, and warrants create dilution risk. ([cellectar.com](https://www.cellectar.com/investors/news-events/press-releases/detail/389/cellectar-biosciences-announces-oversubscribed-financing-up-to-140-million)) The company reported $34.0 million cash at June 30 and guided funding into Q2 2027. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/08/13/3344389/29076/en/cellectar-biosciences-reports-second-quarter-2026-financial-results-and-provides-corporate-updates.html))\n\nWe estimate a 3\u201312% gain if additional detail meaningfully strengthens confidence in durability or clinical usefulness. A genuinely adverse safety or durability finding could produce an 8\u201318% decline, but this presentation alone is unlikely to erase the broader existing dataset. A mixed outcome could produce a 6% decline to a 2% gain. The supplied June ASCO reaction was modestly negative, supporting restrained upside assumptions for another subgroup presentation. The larger valuation milestones lie ahead: confirmatory Phase 3 dosing is planned for early 2027 and an accelerated-approval application for H1 2027; neither is an October efficacy decision. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/09/29/3370710/0/en/cellectar-biosciences-to-present-compelling-efficacy-data-from-phase-2-clover-wam-subset-analysis-of-iopofosine-i-131-in-patients-refractory-resistant-to-btk-inhibitor-therapy-at-i.html?utm_source=openai))\n\nThese move ranges reflect the clinical and valuation setup rather than an options-implied forecast. Neither direction receives options-confirmed big-mover status, and the fundamental ranges fall below the 20% suspected-big-mover threshold.",
-  "catalyst_event_details": "Iopofosine I-131\u2019s Phase 2b CLOVER-WaM subgroup results in Waldenstr\u00f6m macroglobulinemia will be presented at IWWM on October 15, 2026.",
-  "move_analysis_created_datetime": "2026-10-06T14:40:25Z"
- },
- {
   "id": 15992,
   "company": {
    "ticker": "DMAC",
@@ -28167,7 +28028,7 @@
   "company": {
    "ticker": "OCGN",
    "name": "Ocugen",
-   "last_price": "0.84",
+   "last_price": "0.81",
    "market_cap": 285259680,
    "website": "https://www.ocugen.com"
   },
@@ -28519,7 +28380,7 @@
   "company": {
    "ticker": "SPRY",
    "name": "ARS Pharmaceuticals",
-   "last_price": "3.93",
+   "last_price": "4.04",
    "market_cap": 390828064,
    "website": "https://ars-pharma.com"
   },
@@ -29223,7 +29084,7 @@
   "company": {
    "ticker": "ATYR",
    "name": "aTyr Pharma, Inc",
-   "last_price": "0.18",
+   "last_price": "0.19",
    "market_cap": 17979426,
    "website": "https://atyrpharma.com"
   },
@@ -29679,7 +29540,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "162.03",
+   "last_price": "168.53",
    "market_cap": 251293253632,
    "website": "https://www.astrazeneca.com"
   },
@@ -30413,7 +30274,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "67.23",
+   "last_price": "67.18",
    "market_cap": 12695315456,
    "website": "https://bridgebio.com"
   },
@@ -30760,7 +30621,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.40",
+   "last_price": "4.38",
    "market_cap": 2005653760,
    "website": "https://www.recursion.com"
   },
@@ -31323,7 +31184,7 @@
   "company": {
    "ticker": "PROK",
    "name": "ProKidney",
-   "last_price": "1.47",
+   "last_price": "1.45",
    "market_cap": 586798400,
    "website": "https://prokidney.com"
   },
@@ -31737,7 +31598,7 @@
   "company": {
    "ticker": "STOK",
    "name": "Stoke Therapeutics",
-   "last_price": "23.75",
+   "last_price": "24.16",
    "market_cap": 1500880384,
    "website": "https://www.stoketherapeutics.com"
   },
@@ -32238,7 +32099,7 @@
   "company": {
    "ticker": "CTMX",
    "name": "CytomX Therapeutics",
-   "last_price": "2.38",
+   "last_price": "2.39",
    "market_cap": 485915392,
    "website": "https://www.cytomx.com"
   },
@@ -32305,7 +32166,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "334.44",
+   "last_price": "334.63",
    "market_cap": 9788039168,
    "website": "https://www.krystalbio.com"
   },
@@ -32719,7 +32580,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.40",
+   "last_price": "4.38",
    "market_cap": 2005653760,
    "website": "https://www.recursion.com"
   },
@@ -33029,7 +32890,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.40",
+   "last_price": "4.38",
    "market_cap": 2005653760,
    "website": "https://www.recursion.com"
   },
@@ -33205,7 +33066,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "4.23",
+   "last_price": "4.27",
    "market_cap": 255152528,
    "website": "https://www.vandapharma.com"
   },
@@ -33324,7 +33185,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "10.80",
+   "last_price": "11.37",
    "market_cap": 174433920,
    "website": "https://www.sutrobio.com"
   },
@@ -34608,7 +34469,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "16.78",
+   "last_price": "17.78",
    "market_cap": 892889600,
    "website": "https://www.seaporttx.com"
   },
@@ -34893,7 +34754,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "14.45",
+   "last_price": "14.35",
    "market_cap": 6436723712,
    "website": "https://www.iovance.com"
   },
@@ -34950,7 +34811,7 @@
   "company": {
    "ticker": "IOVA",
    "name": "Iovance Biotherapeutics",
-   "last_price": "14.45",
+   "last_price": "14.35",
    "market_cap": 6436723712,
    "website": "https://www.iovance.com"
   },
@@ -37355,7 +37216,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "248.33",
+   "last_price": "247.63",
    "market_cap": 6673435648,
    "website": "https://praxismedicines.com"
   },
@@ -37474,7 +37335,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "334.44",
+   "last_price": "334.63",
    "market_cap": 9788039168,
    "website": "https://www.krystalbio.com"
   },
@@ -38317,7 +38178,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "4.40",
+   "last_price": "4.38",
    "market_cap": 2005653760,
    "website": "https://www.recursion.com"
   },
@@ -39668,7 +39529,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "113.56",
+   "last_price": "113.62",
    "market_cap": 12564277248,
    "website": "https://www.corcept.com"
   },
@@ -39725,7 +39586,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "113.56",
+   "last_price": "113.62",
    "market_cap": 12564277248,
    "website": "https://www.corcept.com"
   },
@@ -39782,7 +39643,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "113.56",
+   "last_price": "113.62",
    "market_cap": 12564277248,
    "website": "https://www.corcept.com"
   },
@@ -39839,7 +39700,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "113.56",
+   "last_price": "113.62",
    "market_cap": 12564277248,
    "website": "https://www.corcept.com"
   },
@@ -39896,7 +39757,7 @@
   "company": {
    "ticker": "CORT",
    "name": "Corcept Therapeutics",
-   "last_price": "113.56",
+   "last_price": "113.62",
    "market_cap": 12564277248,
    "website": "https://www.corcept.com"
   },
@@ -42375,7 +42236,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1260.69",
+   "last_price": "1272.42",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -42489,7 +42350,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "16.78",
+   "last_price": "17.78",
    "market_cap": 892889600,
    "website": "https://www.seaporttx.com"
   },
@@ -42779,7 +42640,7 @@
   "company": {
    "ticker": "STTK",
    "name": "Shattuck Labs Inc",
-   "last_price": "5.40",
+   "last_price": "5.48",
    "market_cap": 534936160,
    "website": "https://www.shattucklabs.com"
   },
@@ -43136,7 +42997,7 @@
   "company": {
    "ticker": "ALNY",
    "name": "Alnylam Pharmaceuticals",
-   "last_price": "233.13",
+   "last_price": "233.36",
    "market_cap": 30036133888,
    "website": "https://www.alnylam.com"
   },
@@ -43549,7 +43410,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "46.67",
+   "last_price": "47.27",
    "market_cap": 1395211008,
    "website": "https://www.anaptysbio.com"
   },
@@ -43606,7 +43467,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "46.67",
+   "last_price": "47.27",
    "market_cap": 1395211008,
    "website": "https://www.anaptysbio.com"
   },
@@ -44784,7 +44645,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "4.23",
+   "last_price": "4.27",
    "market_cap": 255152528,
    "website": "https://www.vandapharma.com"
   },
@@ -44841,7 +44702,7 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "86.71",
+   "last_price": "88.39",
    "market_cap": 5970163712,
    "website": "https://rhythmtx.com"
   },
@@ -45147,34 +45008,49 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 17384,
+  "id": 17448,
   "company": {
-   "ticker": "BIVI",
-   "name": "BioVie",
-   "last_price": "1.16",
-   "market_cap": 10071943,
-   "website": "https://bioviepharma.com"
+   "ticker": "KRYS",
+   "name": "Krystal Biotech",
+   "last_price": "334.63",
+   "market_cap": 9788039168,
+   "website": "https://www.krystalbio.com"
   },
-  "ticker": "BIVI",
-  "drug_name": "Bezisterim (NE3107) ",
+  "ticker": "KRYS",
+  "drug_name": "KB707 (IL-2 and IL-12)",
   "indications": [
    {
-    "id": 1386,
-    "title": "Parkinson's disease",
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 2048,
+    "title": "Gorlin Syndrome",
+    "nickname": ""
+   },
+   {
+    "id": 878,
+    "title": "Multiple tumors",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
     "nickname": ""
    }
   ],
-  "indications_text": "Early Parkinson's disease",
+  "indications_text": "Gorlin syndrome",
   "stage_event": {
-   "id": 80,
-   "label": "Phase 3 Update",
-   "stage_label": "Phase 3",
+   "id": 125,
+   "label": "Phase 1/2 Update",
+   "stage_label": "Phase 1/2",
    "event_label": "Update"
   },
-  "note": "SUNRISE-PD trial. 4/16/25- Initiated Ph2b trial, patient enrollment ongoing. Topline data in late 2025 or early 2026. 6/24/25- Presents trial overview at ATMRD.01/08/26:- SUNRISE-PD completed enrollment of 60 early Parkinson\u2019s patients; topline Phase 2b results expected in H1 2026.\n02/12/26:- SUNRISE-PD enrollment of 60 early Parkinson\u2019s patients confirmed; topline Ph2b results now expected Mid-2026.\n03/12/26:- AD/PD 2026 poster on SUNRISE-PD baseline characteristics. Topline Phase 2b results expected Mid-2026.\n04/14/26:- AAN 2026 poster Apr 20 on SUNRISE-PD baseline demographics. Topline Phase 2b results expected Mid-2026.\n05/18/26:- SUNRISE-PD last patient visit completed; topline Phase 2b results expected Q3 2026.\n08/06/26:- SUNRISE-PD topline Ph2b results reported; met endpoints. Conference call Aug 12, 2026.\n09/08/26:- FDA end-of-Ph2 correspondence to align on Ph3 design in early Parkinson\u2019s disease.",
+  "note": "OPAL-1 study. 10/2023- First patient dosed. 5/6/25- Enrollment ongoing. 8/21/25- Paused further development and focus on the inhaled version. 11/03/25:- OPAL-1 enrollment paused; patients followed; future intratumoral KB707 development plans under evaluation. 02/17/26:- OPAL-1 patients continue in follow-up; future intratumoral KB707 plans depend on accumulating data. 05/04/26:- OPAL-1 patients remain in follow-up; intratumoral KB707 development plans await additional safety and efficacy data. 08/03/26:- OPAL-1 enrolled three Gorlin patients; interim update and development plans due H2 2026. 10/15/26:- Pilot study: >80% BCC lesions regressed in 3 patients; FDA discussions started; PeDRA poster Oct 15\u201317, 2026.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/08/3357528/0/en/biovie-announces-update-to-parkinson-s-phase-3-development-program.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/15/3381506/0/en/krystal-biotech-announces-positive-clinical-data-for-new-dermatology-program-kb113-demonstrating-broad-basal-cell-carcinoma-regression-in-patients-with-gorlin-syndrome.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -45518,7 +45394,7 @@
   "company": {
    "ticker": "RYTM",
    "name": "Rhythm Pharmaceuticals",
-   "last_price": "86.71",
+   "last_price": "88.39",
    "market_cap": 5970163712,
    "website": "https://rhythmtx.com"
   },
@@ -45637,7 +45513,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "13.84",
+   "last_price": "14.05",
    "market_cap": 1611610496,
    "website": "https://www.novocure.com"
   },
@@ -46547,7 +46423,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "13.84",
+   "last_price": "14.05",
    "market_cap": 1611610496,
    "website": "https://www.novocure.com"
   },
@@ -46790,7 +46666,7 @@
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "21.66",
+   "last_price": "21.64",
    "market_cap": 1835326976,
    "website": "https://mineralystx.com"
   },
@@ -47323,7 +47199,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1260.69",
+   "last_price": "1272.42",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -47804,7 +47680,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "16.78",
+   "last_price": "17.78",
    "market_cap": 892889600,
    "website": "https://www.seaporttx.com"
   },

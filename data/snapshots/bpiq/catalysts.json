@@ -33,28 +33,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "25.000000",
-  "probability_clean_plus_max": "40.000000",
-  "probability_mixed_min": "45.000000",
-  "probability_mixed_max": "60.000000",
-  "probability_clean_minus_min": "10.000000",
-  "probability_clean_minus_max": "20.000000",
-  "magnitude_clean_plus_min": "8.000000",
-  "magnitude_clean_plus_max": "18.000000",
-  "magnitude_mixed_min": "-15.000000",
-  "magnitude_mixed_max": "3.000000",
-  "magnitude_clean_minus_min": "-35.000000",
-  "magnitude_clean_minus_max": "-20.000000",
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "up_suspected_big_mover": false,
   "up_big_mover": false,
-  "down_suspected_big_mover": true,
+  "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "This presentation discusses previously disclosed efficacy rather than a fresh primary-endpoint result. The nonrandomized study combines PDS0301 with liver-directed floxuridine and systemic chemotherapy. Published Stage 1 response and safety results included responses in 7/9 patients at six months versus 7/20 in an earlier comparison study. Hepatic progression-free survival did not significantly differ. Severe adverse events occurred in 7/9 patients, with one attributed to PDS0301. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC13047916/?utm_source=openai)) A later company presentation reported a 71.4% response rate and approximately 80% survival at 24 months. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1472091/000114036126037234/ef20082538_ex99-1.htm)) Persuasive durability, safety and development context\u2014not repetition of those headlines\u2014is the key expectation bar. The small sample and active chemotherapy leave PDS0301's independent contribution uncertain.",
+  "key_readout_comment": "",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 15 expert presentation offers an opportunity to explain encouraging colorectal cancer results, but the headline efficacy is already public. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/10/06/3375413/0/en/pds-biotech-to-host-key-opinion-leader-event-on-pds0301-for-the-treatment-of-advanced-colorectal-cancer-with-liver-metastases.html)) BPIQ-AI assigns a 25\u201340% chance of a clearly favorable incremental outcome, 45\u201360% for a mixed outcome, and 10\u201320% for a clearly unfavorable outcome. A largely repetitive presentation belongs in the mixed group, even if the clinical observations remain encouraging. A favorable reaction needs persuasive context that strengthens confidence in durability, safety or the next development step.\n\nHistorically, only about 24.6% of oncology programs advanced from Phase 2 to Phase 3; that measures development progress, not the chance of a favorable presentation reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) This study's two-stage design screens for activity and safety rather than proving superiority over chemotherapy. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11231869/?utm_source=openai)) The published analysis was small and nonrandomized, so patient selection and chemotherapy activity complicate interpretation. Response results are promising, but the absence of a significant liver progression-free-survival difference makes the durability discussion important. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC13047916/?utm_source=openai))\n\nBPIQ reports zero specialist hedge funds holding PDSB. That does not establish clinical failure, but it offers little specialist endorsement of the investment case. The supplied market cap is $77.2 million and EV is $58.5 million. PDS0301 is now the lead program, while internal investment in the former lead program has stopped. ([pdsbiotech.com](https://www.pdsbiotech.com/index.php/investors/news-center/press-releases/press-releases1/134-2026-news/1040-pds-biotech-announces-strategic-refocus-prioritizing-pds03012026-08-11-075038)) PDS holds global PDS0301 rights subject to a 10% sales royalty and milestone obligations, so meaningful commercial value remains with the company if development succeeds. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1472091/000114036126026577/ny20075675x4_ars.pdf)) September's roughly 23.5 million pre-funded warrants also represent economic dilution beyond common shares. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1472091/000114036126036489/ef20081956_8k.htm))\n\nThe supplied June cash balance was $5.6 million, with a modeled runway into December 2026. September financing supplied $11.3 million gross, but approximately $4.6 million went toward debt repayment; another $11 million depends on a development milestone and closing conditions. This provides breathing room without fully funding late-stage development. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1472091/000114036126036489/ef20081956_8k.htm)) Our conditional share-price ranges are +8\u201318% for a clearly favorable presentation, -15% to +3% for mixed information, and -35% to -20% if substantive disclosures damage confidence in the lead program. These moves fit the double-digit reactions in PDSB's supplied history, although August's sharp decline also accompanied discontinuation of the former lead trial. ([pdsbiotech.com](https://www.pdsbiotech.com/index.php/investors/news-center/press-releases/press-releases1/134-2026-news/1040-pds-biotech-announces-strategic-refocus-prioritizing-pds03012026-08-11-075038)) The supplied October 16 options indicate a 29.4% total move, or approximately 20.6% after separating ordinary volatility. Their 66.7% bid\u2013ask spread makes this a rough volatility signal rather than reliable confirmation. That signal exceeds our favorable-case estimate, while substantial downside remains plausible if the discussion undermines the company's main development opportunity.",
-  "catalyst_event_details": "PDS0301 Phase 2 outcomes in metastatic colorectal cancer with liver metastases will be presented at an expert event on October 15, 2026. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/10/06/3375413/0/en/pds-biotech-to-host-key-opinion-leader-event-on-pds0301-for-the-treatment-of-advanced-colorectal-cancer-with-liver-metastases.html))",
-  "move_analysis_created_datetime": "2026-10-08T15:57:28Z"
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 19104,
@@ -423,7 +423,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "3.25",
+   "last_price": "3.20",
    "market_cap": 23653228,
    "website": "https://www.immutep.com"
   },
@@ -609,7 +609,7 @@
   "company": {
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
-   "last_price": "22.61",
+   "last_price": "22.04",
    "market_cap": 3827455488,
    "website": "https://www.tangotx.com"
   },
@@ -1467,7 +1467,7 @@
   "company": {
    "ticker": "ENTA",
    "name": "Enanta Pharmaceuticals",
-   "last_price": "11.29",
+   "last_price": "11.17",
    "market_cap": 334068384,
    "website": "https://www.enanta.com"
   },
@@ -3493,7 +3493,7 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "18.93",
+   "last_price": "18.58",
    "market_cap": 617952192,
    "website": "https://www.nuvectis.com"
   },
@@ -5484,7 +5484,7 @@
   "company": {
    "ticker": "TLSA",
    "name": "Tiziana Life Sciences",
-   "last_price": "1.05",
+   "last_price": "1.06",
    "market_cap": 133622080,
    "website": "https://www.tizianalifesciences.com"
   },
@@ -5841,7 +5841,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.79",
+   "last_price": "3.54",
    "market_cap": 2230887680,
    "website": "https://www.recursion.com"
   },
@@ -6632,7 +6632,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.37",
+   "last_price": "49.50",
    "market_cap": 4981605888,
    "website": "https://www.crisprtx.com"
   },
@@ -6694,7 +6694,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.37",
+   "last_price": "49.50",
    "market_cap": 4981605888,
    "website": "https://www.crisprtx.com"
   },
@@ -7090,28 +7090,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
+  "probability_clean_plus_min": "76.000000",
+  "probability_clean_plus_max": "84.000000",
+  "probability_mixed_min": "8.000000",
+  "probability_mixed_max": "14.000000",
+  "probability_clean_minus_min": "8.000000",
+  "probability_clean_minus_max": "14.000000",
+  "magnitude_clean_plus_min": "20.000000",
+  "magnitude_clean_plus_max": "45.000000",
+  "magnitude_mixed_min": "-20.000000",
+  "magnitude_mixed_max": "5.000000",
+  "magnitude_clean_minus_min": "-50.000000",
+  "magnitude_clean_minus_max": "-30.000000",
+  "up_suspected_big_mover": true,
   "up_big_mover": false,
-  "down_suspected_big_mover": false,
+  "down_suspected_big_mover": true,
   "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
+  "key_readout_comment": "This generic application relies on equivalence to KETALAR and its established anesthesia evidence, rather than a new depression efficacy trial. The company reports that FDA's preliminary review identified no bioequivalence deficiencies, subject to final supervisory review. Depression response and remission findings support the separate NRX-100 program, not this decision. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1719406/000143774926009418/nrxp20251231_10k.htm?utm_source=openai)) Expected ketamine risks include increased blood pressure, recovery-related confusion, and respiratory depression. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/016812s057lbl.pdf?utm_source=openai))",
+  "cmc_regulatory_risk": "Moderate: first pharmaceutical launch; third-party sterile manufacturing at Nephron; prior vial-connection deficiency; final process-validation runs remain underway. ([ir.nrxpharma.com](https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-and-nephron-pharmaceuticals-announce-joint?utm_source=openai)) The sponsor reports VAI inspection status, meaning voluntary corrective action was indicated, rather than a clean NAI classification. ([nrxpharma.com](https://www.nrxpharma.com/management-answers-to-shareholder-questions/)) FDA closed Nephron SC's 2022 manufacturing warning letter in May 2026. ([fda.gov](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/nephron-sc-llc-634647-05082026?utm_source=openai))",
+  "key_pdufa_comment": "November 10, 2026 is the confirmed GDUFA goal date for an ANDA, the generic-drug approval pathway, not a suicidal-depression NDA or Accelerated Approval decision. The initial application received a Refuse-to-Receive letter over an inactive-ingredient concentration; NRx reformulated and refiled. ([ir.nrxpharma.com](https://ir.nrxpharma.com/node/11341/ixbrl-viewer?utm_source=openai)) The subsequent review identified potential deformation of the vial's twist-off tip during use, prompting a manufacturer-certification request; FDA reclassified the amendment from major to minor in September. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1719406/000143774926026428/nrxp20260806_8k.htm?utm_source=openai)) October's labeling requests were also minor, but manufacturing validation remains underway. ([ir.nrxpharma.com](https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-announces-receipt-fda-labeling-review-letter?utm_source=openai)) Nephron provides manufacturing, while NRx is preparing its first pharmaceutical launch. Approval would support entry into the existing ketamine market; it would not authorize a depression indication or guarantee premium psychiatric pricing. ([ir.nrxpharma.com](https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-and-nephron-pharmaceuticals-announce-joint?utm_source=openai))",
+  "move_analysis_ai_reasoning": "A clean approval is the most likely outcome. This is an established anesthetic using the generic pathway, so depression-trial success rates are not the right benchmark. The central assessment is 80% clean approval, 10% mixed, and 10% nonapproval or a substantial delay. Clean approval means the expected anesthesia label without unexpected restrictions that materially limit supply or launch. Sponsor-reported favorable preliminary bioequivalence findings and the minor amendment classification support that view, but neither is final approval. ([ir.nrxpharma.com](https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-nasdaqnrxp-announces-fda-bioequivalence?utm_source=openai))\n\nManufacturing is the main remaining concern. NRx is preparing its first pharmaceutical launch, with Nephron responsible for production. Registration batches, stability evidence, and commercial experience with the vial system provide meaningful support. ([ir.nrxpharma.com](https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-nasdaqnrxp-announces-initiation-commercial?utm_source=openai)) FDA's May 2026 closeout of Nephron SC's warning letter is affirmative remediation evidence, not product-specific approval. Nevertheless, final process validation was still underway on October 15, and the vial issue previously delayed review. That combination supports a favorable probability without treating execution risk as negligible. ([fda.gov](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/nephron-sc-llc-634647-05082026?utm_source=openai))\n\nAt the supplied $117.3 million market capitalization and $111.4 million enterprise value, a first approved drug could materially strengthen the business, supporting estimated upside of 20\u201345%. Most supplied historical milestones produced much smaller reactions, but an actual first approval is a more consequential event. This remains entry into a competitive generic market, not approval of a differentiated depression treatment. The estimate reflects manufacturing and commercialization costs, not ownership of the entire ketamine market. Existing clinic operations and other pipeline assets provide some diversification. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1719406/000143774926028111/ex_1005774.htm?utm_source=openai))\n\nThe supplied $26.7 million June cash balance provides a near-term cushion, but launch spending and continued development leave dilution relevant. Management's funding outlook includes potential use of its at-the-market share-selling facility. A rejection could postpone revenue and create concern about the related ketamine supply chain, supporting an estimated 30\u201350% decline. A short delay or approval with a meaningful supply limitation could produce a mixed reaction of -20% to +5%. These are conditional estimates, not guaranteed price responses. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1719406/000143774926028027/nrxp20260630_10q.htm))\n\nBPIQ specialist ownership is zero funds and $0 in reported holdings, with no positions across the four supplied quarters. That warrants caution about commercial expectations, but does not outweigh the regulatory evidence. During the 25 days to the goal date, financing, manufacturing updates, and progress toward the separate NRX-100 filing could reset the share-price baseline. These move estimates apply immediately before the FDA event; the depression application is separate from this generic-drug decision. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1719406/000143774926028027/nrxp20260630_10q.htm))\n\nThe supplied November options show a 93.5% straddle-to-share-price ratio, considerably above the fundamental conditional ranges. However, wide spreads, poor near-the-money strike coverage, and volatility extending beyond the decision prevent that figure from serving as a reliable isolated event move. Both directions therefore qualify as suspected big movers, but neither receives confirmed big-mover status.",
+  "catalyst_event_details": "KETAFREE preservative-free intravenous ketamine has an FDA generic-drug approval goal date of November 10, 2026, for existing anesthesia indications. ([ir.nrxpharma.com](https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-announces-receipt-fda-labeling-review-letter?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-10-16T16:34:50Z"
  },
  {
   "id": 19231,
@@ -9446,7 +9446,7 @@
   "company": {
    "ticker": "APVO",
    "name": "Aptevo Therapeutics",
-   "last_price": "1.66",
+   "last_price": "1.61",
    "market_cap": 3077365,
    "website": "https://aptevotherapeutics.com"
   },
@@ -12463,7 +12463,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.40",
+   "last_price": "0.38",
    "market_cap": 91575536,
    "website": "https://www.tenayatherapeutics.com"
   },
@@ -13217,7 +13217,7 @@
   "company": {
    "ticker": "CADL",
    "name": "Candel Therapeutics",
-   "last_price": "8.28",
+   "last_price": "8.24",
    "market_cap": 681780416,
    "website": "https://www.candeltx.com"
   },
@@ -14234,7 +14234,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.40",
+   "last_price": "0.38",
    "market_cap": 91575536,
    "website": "https://www.tenayatherapeutics.com"
   },
@@ -14606,7 +14606,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.37",
+   "last_price": "49.50",
    "market_cap": 4981605888,
    "website": "https://www.crisprtx.com"
   },
@@ -16337,7 +16337,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "3.25",
+   "last_price": "3.20",
    "market_cap": 23653228,
    "website": "https://www.immutep.com"
   },
@@ -16751,7 +16751,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "41.07",
+   "last_price": "41.29",
    "market_cap": 47946289152,
    "website": "https://www.tevapharm.com"
   },
@@ -17046,7 +17046,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.79",
+   "last_price": "3.54",
    "market_cap": 2230887680,
    "website": "https://www.recursion.com"
   },
@@ -17304,7 +17304,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "41.07",
+   "last_price": "41.29",
    "market_cap": 47946289152,
    "website": "https://www.tevapharm.com"
   },
@@ -18142,7 +18142,7 @@
   "company": {
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
-   "last_price": "22.61",
+   "last_price": "22.04",
    "market_cap": 3827455488,
    "website": "https://www.tangotx.com"
   },
@@ -18534,7 +18534,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.37",
+   "last_price": "49.50",
    "market_cap": 4981605888,
    "website": "https://www.crisprtx.com"
   },
@@ -18710,7 +18710,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "56.00",
+   "last_price": "53.98",
    "market_cap": 8572680704,
    "website": "https://www.tgtherapeutics.com"
   },
@@ -19299,7 +19299,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "3.38",
+   "last_price": "3.30",
    "market_cap": 513724160,
    "website": "https://www.aclaristx.com"
   },
@@ -19356,7 +19356,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "3.38",
+   "last_price": "3.30",
    "market_cap": 513724160,
    "website": "https://www.aclaristx.com"
   },
@@ -20929,7 +20929,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "56.00",
+   "last_price": "53.98",
    "market_cap": 8572680704,
    "website": "https://www.tgtherapeutics.com"
   },
@@ -21685,7 +21685,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.37",
+   "last_price": "49.50",
    "market_cap": 4981605888,
    "website": "https://www.crisprtx.com"
   },
@@ -22973,7 +22973,7 @@
   "company": {
    "ticker": "ENTA",
    "name": "Enanta Pharmaceuticals",
-   "last_price": "11.29",
+   "last_price": "11.17",
    "market_cap": 334068384,
    "website": "https://www.enanta.com"
   },
@@ -27489,28 +27489,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
+  "probability_clean_plus_min": "65.000000",
+  "probability_clean_plus_max": "75.000000",
+  "probability_mixed_min": "8.000000",
+  "probability_mixed_max": "15.000000",
+  "probability_clean_minus_min": "15.000000",
+  "probability_clean_minus_max": "25.000000",
+  "magnitude_clean_plus_min": "30.000000",
+  "magnitude_clean_plus_max": "55.000000",
+  "magnitude_mixed_min": "-25.000000",
+  "magnitude_mixed_max": "10.000000",
+  "magnitude_clean_minus_min": "-60.000000",
+  "magnitude_clean_minus_max": "-40.000000",
+  "up_suspected_big_mover": true,
   "up_big_mover": false,
-  "down_suspected_big_mover": false,
+  "down_suspected_big_mover": true,
   "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
+  "key_readout_comment": "The pivotal randomized, open-label crossover study enrolled 64 healthy adults in its single-dose portion and met predefined primary and secondary blood-exposure endpoints. Median time to peak concentration was 12 minutes versus 20 minutes for EpiPen. This supports comparable drug delivery, not demonstrated superiority during anaphylaxis. ([investors.aquestive.com](https://investors.aquestive.com/news-releases/news-release-details/aquestive-therapeutics-announces-pivotal-study-anaphylmtm)) The new 105-person usability study recorded two incorrect placements. Confirmatory testing showed comparable self- and clinician-administered exposure, with no serious adverse events; deliberate incorrect placement produced lower, slower exposure despite supportive blood-pressure responses. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/08/10/3341693/0/en/aquestive-therapeutics-announces-positive-topline-human-factors-and-pharmacokinetic-study-results-for-anaphylm-dibutepinephrine-sublingual-film.html?utm_source=openai))",
+  "cmc_regulatory_risk": "Moderate: revised pouch opening and administration instructions must satisfy FDA concerns from the prior rejection. Aquestive has established commercial oral-film manufacturing but relies on third-party active ingredients. It has two foil suppliers generally, while expecting only one initially FDA-qualified supplier for a product candidate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000018/aqst-20251231.htm)) Its January 2025 Portage inspection documented complaint-investigation and supply-chain-verification observations; those observations alone do not establish an approval-blocking manufacturing deficiency. The Anaphylm CRL identified no CMC deficiencies. ([static.propublica.org](https://static.propublica.org/fda-inspection-documents/483s/May%202025%20483s%20and%20EIRs%2F483s%2FNoRedactionsAquestiveTherapeutics3004395604FDA48301-30-2025NM.pdf))",
+  "key_pdufa_comment": "FDA accepted the Class 2 NDA resubmission and set March 16, 2027 as the decision date. Acceptance starts substantive review; it does not establish that the prior deficiencies are resolved. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000058/a2026-10x19aquestivepduf.htm?utm_source=openai)) Anaphylm uses the traditional 505(b)(2) pathway, which can rely partly on established drug evidence, rather than Accelerated Approval. FDA previously decided against an advisory committee meeting. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000042/aqst-20260630.htm))\n\nThe January 30, 2026 CRL addressed packaging, administration, local tolerability and drug exposure after misuse\u2014not simply pouch opening. FDA requested assessment of chewing, incorrect placement and self-administration, and reserved final labeling comments. ([download.open.fda.gov](https://download.open.fda.gov/crl/CRL_NDA219870_20260130.pdf)) At the subsequent Type A meeting, Aquestive reported alignment with FDA on addressing potential chewing through labeling rather than additional clinical data. ([aquestive.gcs-web.com](https://aquestive.gcs-web.com/static-files/9d8f9577-af66-4108-8e72-58b94730e069)) Revised packaging shortened median opening time from 17 to three seconds, but FDA must judge the remaining placement errors and emergency-use reliability. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/08/10/3341693/0/en/aquestive-therapeutics-announces-positive-topline-human-factors-and-pharmacokinetic-study-results-for-anaphylm-dibutepinephrine-sublingual-film.html?utm_source=openai))\n\nAquestive is an experienced commercial manufacturer, not a first-product sponsor, and the CRL identified no manufacturing deficiencies. ([aquestive.gcs-web.com](https://aquestive.gcs-web.com/news-releases/news-release-details/aquestive-therapeutics-reports-second-quarter-2026-financial)) Anaphylm launch execution remains Aquestive\u2019s responsibility. RTW financing carries a tiered U.S. sales share; the Eton agreement concerns Libervant, not Anaphylm. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000042/aqst-20260630.htm)) Pending litigation alleges Anaphylm regulatory-disclosure failures; there has been no adjudicated finding of liability. These allegations are not evidence that FDA will reject the application. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000042/aqst-20260630.htm))",
+  "move_analysis_ai_reasoning": "We favor clean approval, but the prior rejection keeps this from being a near-certain outcome. Our central assessment is 70% clean positive, 11% mixed and 19% clean negative. Clean approval means the expected population and dosing without an unexpected boxed warning, restrictive safety program or major commercial limitation. The healthy-volunteer exposure comparisons support this type of delivery-system application, but do not prove rescue superiority during anaphylaxis. A broad Phase 3 success-rate average is less informative than the specific FDA concerns here. ([investors.aquestive.com](https://investors.aquestive.com/news-releases/news-release-details/aquestive-therapeutics-announces-pivotal-study-anaphylmtm))\n\nThe remaining question is whether people can reliably tolerate and administer the film during an emergency. FDA specifically raised local tolerability and misuse-related exposure concerns. ([download.open.fda.gov](https://download.open.fda.gov/crl/CRL_NDA219870_20260130.pdf)) The revised usability study showed substantial improvement, although two incorrect placements remained. Deliberate top-of-tongue placement delayed peak exposure to 35 minutes, versus 12 minutes with correct self-administration. Blood-pressure responses are supportive, but do not establish equivalent rescue performance during severe anaphylaxis. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/08/10/3341693/0/en/aquestive-therapeutics-announces-positive-topline-human-factors-and-pharmacokinetic-study-results-for-anaphylm-dibutepinephrine-sublingual-film.html?utm_source=openai)) Sponsor-reported FDA alignment on handling chewing through labeling is encouraging, without guaranteeing final acceptance. ([aquestive.gcs-web.com](https://aquestive.gcs-web.com/static-files/9d8f9577-af66-4108-8e72-58b94730e069))\n\nManufacturing experience is a genuine advantage: Aquestive produced approximately 48 million commercial doses in the second quarter of 2026, and the Anaphylm CRL identified no CMC deficiencies. ([aquestive.gcs-web.com](https://aquestive.gcs-web.com/news-releases/news-release-details/aquestive-therapeutics-reports-second-quarter-2026-financial)) The Portage inspection observations warrant attention, but should not be treated as proof of an unresolved approval block. Supplier qualification and continued quality compliance remain relevant. ([static.propublica.org](https://static.propublica.org/fda-inspection-documents/483s/May%202025%20483s%20and%20EIRs%2F483s%2FNoRedactionsAquestiveTherapeutics3004395604FDA48301-30-2025NM.pdf))\n\nAt the supplied $509.6 million market capitalization and $550.4 million enterprise value, we view Anaphylm as the principal growth driver. That supports estimated clean-approval upside of 30\u201355%. Another rejection could remove 40\u201360%, reflecting lost launch value and financing consequences. A commercially restricted approval or a delay with a credible near-term path could produce a 25% decline to a 10% gain. Existing manufacturing operations provide some support, but do not replace Anaphylm\u2019s growth potential. ([aquestive.gcs-web.com](https://aquestive.gcs-web.com/news-releases/news-release-details/aquestive-therapeutics-reports-second-quarter-2026-financial)) These are conditional estimates from the price immediately before the decision, not price targets.\n\nJune cash was $98.5 million. Approval could unlock $75 million from RTW and a $20 million debt tranche, subject to conditions and June 30, 2027 approval deadlines. RTW\u2019s sales share reduces retained economics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000042/aqst-20260630.htm)) The separate Libervant licensing agreement brought a $10 million upfront payment from Eton. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000056/aqst-20261013.htm?utm_source=openai)) The supplied specialist holdings\u2014three funds owning $44 million, versus six funds owning $88 million in September 2025\u2014offer modest validation, not assurance of approval.\n\nCanadian filing plans for Q4 2026, earnings and cash updates, and Libervant\u2019s potential eligibility for full approval after January 10, 2027 could reset the stock baseline. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000058/a2026-10x19aquestivepduf.htm?utm_source=openai)) With 151 days remaining, options are not used to assess this event\u2019s move or confirm big-mover status. Both directions qualify as suspected big movers, not confirmed big movers.",
+  "catalyst_event_details": "The FDA\u2019s decision on the resubmitted Anaphylm (dibutepinephrine) sublingual film NDA for anaphylaxis is scheduled for March 16, 2027. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000058/a2026-10x19aquestivepduf.htm?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-10-16T16:36:26Z"
  },
  {
   "id": 13916,
@@ -27847,7 +27847,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "10.48",
+   "last_price": "10.37",
    "market_cap": 655855680,
    "website": "https://www.designtx.com"
   },
@@ -28313,7 +28313,7 @@
   "company": {
    "ticker": "TLSA",
    "name": "Tiziana Life Sciences",
-   "last_price": "1.05",
+   "last_price": "1.06",
    "market_cap": 133622080,
    "website": "https://www.tizianalifesciences.com"
   },
@@ -28347,28 +28347,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "25.000000",
-  "probability_clean_plus_max": "35.000000",
-  "probability_mixed_min": "40.000000",
-  "probability_mixed_max": "50.000000",
-  "probability_clean_minus_min": "20.000000",
-  "probability_clean_minus_max": "30.000000",
-  "magnitude_clean_plus_min": "20.000000",
-  "magnitude_clean_plus_max": "45.000000",
-  "magnitude_mixed_min": "-18.000000",
+  "probability_clean_plus_min": "20.000000",
+  "probability_clean_plus_max": "30.000000",
+  "probability_mixed_min": "35.000000",
+  "probability_mixed_max": "45.000000",
+  "probability_clean_minus_min": "30.000000",
+  "probability_clean_minus_max": "40.000000",
+  "magnitude_clean_plus_min": "25.000000",
+  "magnitude_clean_plus_max": "60.000000",
+  "magnitude_mixed_min": "-20.000000",
   "magnitude_mixed_max": "5.000000",
-  "magnitude_clean_minus_min": "-40.000000",
-  "magnitude_clean_minus_max": "-20.000000",
+  "magnitude_clean_minus_min": "-45.000000",
+  "magnitude_clean_minus_max": "-25.000000",
   "up_suspected_big_mover": true,
   "up_big_mover": false,
   "down_suspected_big_mover": true,
   "down_big_mover": false,
-  "key_readout_comment": "This is an early randomized proof-of-concept readout, not a registration-enabling trial or confirmation of established efficacy. The July 2026 company presentation describes 32 planned participants: 12 at each active dose and eight receiving placebo, with assessment after 12 weeks. Brain-inflammation PET imaging, cognition and other biomarkers are evaluated. The small placebo group and short duration make convincing cognitive benefit difficult to establish. Earlier Alzheimer\u2019s evidence consists of an uncontrolled patient\u2019s PET improvement, which supports biological activity but does not establish clinical benefit. A clearly favorable result needs a credible placebo-separated effect, acceptable safety and supportive clinical findings\u2014not simply improved scans. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/07/Tiziana-Neuro-Presentation-July-2026-Non-Confidential.pdf))",
+  "key_readout_comment": "This is a new randomized proof-of-concept readout, not follow-up from the previously treated Alzheimer\u2019s patient. The company\u2019s published design describes 32 participants: 12 at each of two doses and eight receiving placebo. Brain-inflammation imaging, cognition, safety, and amyloid/tau biomarkers are central assessments. The key question is whether reduced inflammation accompanies a convincing clinical signal; imaging improvement alone would not establish slower disease progression. Small treatment groups and monotherapy/combination settings complicate interpretation. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/05/Tiziana-Neuro-Presentation-May-2026-Non-Confidential.pdf))",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The company anticipates interim results during 2026, without specifying an exact announcement date. We view this as the first meaningful controlled Alzheimer\u2019s test of the approach, with moderate importance: it can strengthen the investment case, but remains an early study. Historical neurology programs advanced from Phase 2 to Phase 3 about 26.8% of the time; that is a development benchmark, not the probability of a favorable stock reaction. Randomization helps, but the limited prior Alzheimer\u2019s evidence supports keeping an unequivocally favorable outcome at 25\u201335%. ([tizianalifesciences.com](https://www.tizianalifesciences.com/tiziana-life-sciences-doses-first-patient-in-phase-2-alzheimers-clinical-trial/?utm_source=openai))\n\nMixed results are the most likely outcome at 40\u201350%. Reduced brain inflammation could be encouraging without convincing evidence that memory or daily functioning improves. With only eight planned placebo participants, individual differences, incomplete assessments and testing two doses across several measures can make interpretation fragile. Twelve weeks is also a short period for demonstrating sustained benefit. Our favorable scenario requires consistent evidence rather than an isolated positive measurement. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/07/Tiziana-Neuro-Presentation-July-2026-Non-Confidential.pdf))\n\nThe supplied snapshot values TLSA at approximately $136.2 million and shows zero BPIQ specialist hedge-fund holders across the supplied four-quarter history. That does not predict failure, but offers little specialist endorsement. Funding is a substantial consideration: reported cash was $4.01 million at December 31, 2025, versus $12.85 million of annual operating cash use. January 2026 financing added approximately $8.6 million net. Multiple ongoing trials, the annual report\u2019s going-concern warning and an equity-sale facility make additional fundraising\u2014and dilution\u2014a material risk. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1723069/000121390026051015/ea0287936-20f_tiziana.htm))\n\nOur conditional moves are +20\u201345% for clearly favorable results, \u221218% to +5% for mixed findings and \u221240% to \u221220% for clearly unfavorable results. Strong controlled Alzheimer\u2019s evidence could expand foralumab\u2019s perceived opportunity, while weak results could damage confidence in the broader platform. Other indications provide some cushion. These estimates assume no major intervening repricing; the earlier INFORM-MS readout could alter both valuation and expectations, although success in MS would not establish Alzheimer\u2019s efficacy. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/07/Tiziana-Neuro-Presentation-July-2026-Non-Confidential.pdf))\n\nThe supplied March 2027 options imply approximately 173% total movement through expiration, far above our event-specific fundamental ranges. However, wide spreads, a strike well above the share price, broad timing and exposure to other catalysts prevent that figure from isolating the Alzheimer\u2019s event. It therefore does not confirm either big-mover designation.",
-  "catalyst_event_details": "Interim Phase 2 data for intranasal foralumab in early Alzheimer\u2019s disease are anticipated in 2026. ([tizianalifesciences.com](https://www.tizianalifesciences.com/tiziana-life-sciences-doses-first-patient-in-phase-2-alzheimers-clinical-trial/?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T14:56:27Z"
+  "move_analysis_ai_reasoning": "The Q1 2027 readout is an important first controlled Alzheimer\u2019s test of foralumab, rather than a registrational trial. Historical Phase 2-to-Phase 3 success in neurology is approximately 26.8%; that is a development benchmark, not the probability of an unequivocally favorable stock-market outcome. We assign a 20\u201330% probability to a clearly favorable result because randomized evidence helps, but the Alzheimer\u2019s efficacy case remains preliminary. ([ir.tizianalifesciences.com](https://ir.tizianalifesciences.com/news-releases/news-release-details/tiziana-doses-last-patient-phase-2-trial-intranasal-foralumab?utm_source=openai))\n\nThe supporting Alzheimer\u2019s evidence includes reduced brain-inflammation imaging in one expanded-access patient, alongside biological evidence from other diseases. That supports testing the hypothesis, but does not establish cognitive benefit. With only eight placebo participants in the company\u2019s published design, individual differences, dropouts, and scan variability can materially affect comparisons. Two doses and several outcome measures also create opportunities for inconsistent findings. A persuasive result should show a credible placebo-adjusted imaging effect, acceptable safety, and supportive cognitive findings\u2014not simply a favorable scan or an isolated positive comparison. This makes Mixed the largest outcome category at 35\u201345%. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/05/Tiziana-Neuro-Presentation-May-2026-Non-Confidential.pdf))\n\nBPIQ reports zero specialist hedge-fund holders across the supplied four-quarter history. That is not evidence of failure, but it argues against assuming the mechanism already has specialist endorsement. At the supplied $133.6 million market capitalization, convincing controlled Alzheimer\u2019s activity could justify a substantial gain. Our +25\u201360% favorable-case range nevertheless recognizes that this small trial would still require larger, longer studies. The supplied history of mostly modest reactions to favorable biomarker announcements also argues against treating imaging improvement alone as transformative.\n\nFinancing is a material constraint. The reported $4.0 million cash balance was at December 31, 2025, rather than October 2026; January\u2019s offering subsequently added approximately $8.6 million net. The annual report nevertheless projected cash exhaustion during H2 2026 without further funding. Additional capital could dilute shareholders and limit sustained gains after positive data. We estimate -20% to +5% for mixed findings and -45% to -25% for a clear failure, with other foralumab indications preserving some value unless safety or mechanism concerns extend across the pipeline. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001723069/000121390026051015/ea0287936-20f_tiziana.htm))\n\nThese ranges are conditional on the earlier INFORM-MS result and intervening financing. The October 2026 MS readout could change the share price, confidence in the same drug\u2019s anti-inflammatory activity, and the expectation bar before Alzheimer\u2019s results arrive. Success in MS would not establish Alzheimer\u2019s efficacy. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1723069/000121390026101635/ea030608701ex99-1.htm?utm_source=openai)) The supplied options quotes do not establish a reliable event-specific implied move: March 19 falls within, rather than beyond, the Q1 guidance window, while June covers the window but offers no executable two-sided comparison. Consequently, options do not confirm either fundamental big-move designation.",
+  "catalyst_event_details": "Tiziana expects Q1 2027 topline results from its randomized Phase 2 trial of intranasal foralumab in early/mild Alzheimer\u2019s disease. ([ir.tizianalifesciences.com](https://ir.tizianalifesciences.com/news-releases/news-release-details/tiziana-doses-last-patient-phase-2-trial-intranasal-foralumab?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-10-16T16:32:10Z"
  },
  {
   "id": 17500,
@@ -28942,28 +28942,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": "35.000000",
-  "probability_clean_plus_max": "45.000000",
-  "probability_mixed_min": "27.000000",
-  "probability_mixed_max": "37.000000",
-  "probability_clean_minus_min": "23.000000",
-  "probability_clean_minus_max": "33.000000",
-  "magnitude_clean_plus_min": "40.000000",
-  "magnitude_clean_plus_max": "85.000000",
-  "magnitude_mixed_min": "-40.000000",
-  "magnitude_mixed_max": "-15.000000",
-  "magnitude_clean_minus_min": "-80.000000",
-  "magnitude_clean_minus_max": "-55.000000",
-  "up_suspected_big_mover": true,
+  "probability_clean_plus_min": "45.000000",
+  "probability_clean_plus_max": "55.000000",
+  "probability_mixed_min": "30.000000",
+  "probability_mixed_max": "40.000000",
+  "probability_clean_minus_min": "10.000000",
+  "probability_clean_minus_max": "20.000000",
+  "magnitude_clean_plus_min": "15.000000",
+  "magnitude_clean_plus_max": "35.000000",
+  "magnitude_mixed_min": "-25.000000",
+  "magnitude_mixed_max": "-5.000000",
+  "magnitude_clean_minus_min": "-65.000000",
+  "magnitude_clean_minus_max": "-40.000000",
+  "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": true,
   "down_big_mover": false,
-  "key_readout_comment": "This is a new registrational efficacy readout, not another pilot follow-up. Approximately 315 participants were assigned 2:1 to Revita or a sham procedure, with patients and assessors blinded. The six-month endpoint compares weight regain after stopping tirzepatide; a separate one-year co-primary endpoint follows in Q1 2027. Participants have obesity without type 2 diabetes. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1572616/000119312526303948/guts-ex99_2.htm)) Earlier randomized evidence supports activity, but the broad six-month pilot population showed 4.5% versus 7.5% regain, with a one-sided p-value of 0.07. The strongest subsequent results came from small groups receiving more complete treatment. Clear benefit across the main pivotal population\u2014not subgroup success alone\u2014is the key expectation. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/01/29/3228413/0/en/fractyl-health-announces-compelling-6-month-randomized-remain-1-midpoint-data-showing-durable-weight-maintenance-with-revita-after-glp-1-discontinuation.html)) Cash supports the anticipated readout, but further financing will be needed to sustain development and commercialization. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/node/8926/html))",
+  "key_readout_comment": "The 308-participant, randomized, double-blind, sham-controlled pivotal device study has met its six-month co-primary endpoint. Q1 2027 brings the second co-primary endpoint: the proportion maintaining at least 5% weight loss from their pre-tirzepatide weight, assessed against a performance goal greater than 50%, rather than against sham. Passing this test and demonstrating persuasive benefit over sham are different hurdles. Key secondary endpoints await the twelve-month testing sequence. Participants do not have type 2 diabetes. ([ir.fractyl.com](https://ir.fractyl.com/news-releases/news-release-details/fractyl-healths-revita-meets-six-month-co-primary-endpoint))",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "Revita\u2019s pivotal six-month REMAIN-1 results are expected in early Q4 2026. Revita is an endoscopic device procedure, making this a pivotal-study setup rather than a fresh exploratory Phase 2 experiment. Historical metabolic-drug programs advanced from Phase 3 to an application 63.6% of the time. That benchmark describes drug development, not device success or the chance of an unequivocally favorable stock reaction. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/news-releases/news-release-details/fractyl-health-host-virtual-commercial-strategy-day-tuesday?utm_source=openai))\n\nThe approximately 315-patient, blinded, sham-controlled study gives the program a stronger test than the small pilot. Fractyl reports complete treatment of the targeted intestinal lining in the pivotal cohort, addressing a limitation associated with weaker pilot outcomes. Nevertheless, the earlier broad-population six-month result showed 4.5% versus 7.5% weight regain, with a one-sided p-value of 0.07\u2014not conventional statistical significance. The strongest longer-term results came from small selected groups. Our 35\u201345% favorable-outcome probability requires convincing benefit across the main pivotal population, not just an encouraging subgroup. Control-arm weight regain, initial tirzepatide weight loss and treatment execution remain important. Six-month success would still leave the separate twelve-month responder endpoint to establish. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1572616/000119312526303948/guts-ex99_2.htm))\n\nAt the supplied $4.56 price, the disclosed share count adjusted for the October 2 one-for-twelve reverse split implies approximately $60.5 million of common-equity value. Cash was $47.1 million at June 30, and debt was carried at approximately $30.4 million. Management expects funding into early 2027 but identifies a need for additional capital beyond that runway. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/node/8926/html)) BPIQ reports two specialist hedge funds, down from three a year earlier, with approximately $1.7 million collectively invested. That is some specialist participation, but not broad external conviction; it does not independently establish clinical success.\n\nRevita carries much of the near-term investment case, while Rejuva remains early in development. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/news-releases/news-release-details/fractyl-health-reports-second-quarter-2026-financial-results-and)) At this small valuation, strong pivotal evidence could plausibly produce a 40\u201385% gain. Failure could sharply reduce the lead program\u2019s value and financing appeal, supporting a 55\u201380% decline. A statistically positive but modest benefit, subgroup-dependent result or safety concern could disappoint investors enough to produce a 15\u201340% decline. The supplied historical reactions reinforce this distinction: January\u2019s sponsor-described positive midpoint results coincided with a 63.3% opening decline, while July\u2019s positive follow-up produced only a 5.0% opening gain. The pivotal result is more consequential than those follow-ups, but reimbursement, adoption and funding still matter. These are fundamental move estimates rather than options-confirmed forecasts; neither direction receives an options-confirmed big-mover designation.",
-  "catalyst_event_details": "Revita\u2019s REMAIN-1 pivotal six-month readout for obesity weight maintenance after GLP-1 discontinuation is expected in early Q4 2026. ([ir.fractyl.com](https://ir.fractyl.com/static-files/58daed73-8de9-442d-8a77-8c435c11c70c))",
-  "move_analysis_created_datetime": "2026-10-06T14:52:20Z"
+  "move_analysis_ai_reasoning": "The Q1 2027 readout follows positive six-month pivotal results announced October 16, 2026. That supports the clinical outlook, but does not settle durability or commercial appeal. Six-month weight regain was 5.1% with Revita versus 8.2% with sham. The remaining responder endpoint could pass without establishing compelling differentiation for an endoscopic procedure. ([ir.fractyl.com](https://ir.fractyl.com/news-releases/news-release-details/fractyl-healths-revita-meets-six-month-co-primary-endpoint))\n\nHistorical metabolic drug programs advanced from Phase 3 to a regulatory application approximately 63.6% of the time in BIO\u2019s 2011\u20132020 analysis. That is a broad reference point, not a device-specific forecast or the probability of a favorable stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) More directly relevant, the earlier randomized Midpoint Cohort reported a 73% one-year responder rate. However, only 29 participants received Revita within that 45-person study, and it was not designed to establish formal statistical significance. The strongest subgroup findings involved even smaller groups. ([ir.fractyl.com](https://ir.fractyl.com/news-releases/news-release-details/fractyl-health-reports-positive-randomized-data-remain-1))\n\nOur 45\u201355% Clean+ probability requires convincing durability, meaningful overall benefit and reassuring safety\u2014not simply a statistical pass. Mixed outcomes, assigned 30\u201340%, include passing the responder endpoint while showing disappointing benefit over sham or unpersuasive secondary results. Missing the durability endpoint or a material safety finding falls within the 10\u201320% Clean\u2013 range. Formal testing of key secondary endpoints follows assessment of the twelve-month co-primary endpoint. ([ir.fractyl.com](https://ir.fractyl.com/news-releases/news-release-details/fractyl-healths-revita-meets-six-month-co-primary-endpoint))\n\nAt the supplied $55.2 million market capitalization, funding is central to the investment case. June cash was $47.1 million, and management expects it to fund operations into early 2027, close to this readout and before potential commercialization. An equity offering could limit sustained gains even after favorable data. ([ir.fractyl.com](https://ir.fractyl.com/news-releases/news-release-details/fractyl-health-reports-second-quarter-2026-financial-results-and)) BPIQ reports two specialist hedge funds holding approximately $1.7 million, versus three funds in September 2025. That is limited specialist commitment, not proof that the clinical thesis is wrong.\n\nThe 15\u201335% upside range recognizes that six-month success is already known. Supplied July and June reactions were modest, while the January update carried a reported 63.3% opening decline despite a positive headline. That history supports distinguishing statistical success from investor satisfaction. Mixed data could lose 5\u201325%; failed durability or important safety concerns could cost 40\u201365% because Revita remains central to the investment case. The move ranges reflect the clinical, valuation and financing setup rather than an options-implied forecast, and assume no transformative corporate development before the readout.",
+  "catalyst_event_details": "Revita\u2019s REMAIN-1 pivotal twelve-month readout for weight maintenance after GLP-1 discontinuation in adults with obesity is expected in Q1 2027. ([ir.fractyl.com](https://ir.fractyl.com/news-releases/news-release-details/fractyl-healths-revita-meets-six-month-co-primary-endpoint))",
+  "move_analysis_created_datetime": "2026-10-16T16:33:04Z"
  },
  {
   "id": 18704,
@@ -29654,7 +29654,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "41.07",
+   "last_price": "41.29",
    "market_cap": 47946289152,
    "website": "https://www.tevapharm.com"
   },
@@ -30678,7 +30678,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.79",
+   "last_price": "3.54",
    "market_cap": 2230887680,
    "website": "https://www.recursion.com"
   },
@@ -32637,7 +32637,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.79",
+   "last_price": "3.54",
    "market_cap": 2230887680,
    "website": "https://www.recursion.com"
   },
@@ -32947,7 +32947,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.79",
+   "last_price": "3.54",
    "market_cap": 2230887680,
    "website": "https://www.recursion.com"
   },
@@ -35741,7 +35741,7 @@
   "company": {
    "ticker": "TNXP",
    "name": "Tonix Pharmaceuticals",
-   "last_price": "6.34",
+   "last_price": "6.19",
    "market_cap": 110109576,
    "website": "https://www.tonixpharma.com"
   },
@@ -37754,7 +37754,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "10.48",
+   "last_price": "10.37",
    "market_cap": 655855680,
    "website": "https://www.designtx.com"
   },
@@ -38235,7 +38235,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.79",
+   "last_price": "3.54",
    "market_cap": 2230887680,
    "website": "https://www.recursion.com"
   },
@@ -38587,7 +38587,7 @@
   "company": {
    "ticker": "KAPA",
    "name": "Kairos Pharma",
-   "last_price": "0.66",
+   "last_price": "0.63",
    "market_cap": 2270237,
    "website": "https://kairospharma.com"
   },
@@ -39529,7 +39529,7 @@
   "company": {
    "ticker": "DSGN",
    "name": "Design Therapeutics",
-   "last_price": "10.48",
+   "last_price": "10.37",
    "market_cap": 655855680,
    "website": "https://www.designtx.com"
   },
@@ -39985,7 +39985,7 @@
   "company": {
    "ticker": "ARDX",
    "name": "Ardelyx Inc.",
-   "last_price": "3.19",
+   "last_price": "3.11",
    "market_cap": 844273344,
    "website": "https://www.ardelyx.com"
   },
@@ -42236,7 +42236,7 @@
   "company": {
    "ticker": "VOGX",
    "name": "Vogenx",
-   "last_price": "14.55",
+   "last_price": "14.60",
    "market_cap": 238424128,
    "website": "https://vogenx.com"
   },
@@ -43844,7 +43844,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "21.03",
+   "last_price": "21.16",
    "market_cap": 416401472,
    "website": "https://tectonictx.com"
   },
@@ -47874,28 +47874,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "55.000000",
-  "probability_clean_plus_max": "65.000000",
-  "probability_mixed_min": "15.000000",
-  "probability_mixed_max": "25.000000",
-  "probability_clean_minus_min": "15.000000",
-  "probability_clean_minus_max": "25.000000",
-  "magnitude_clean_plus_min": "0.100000",
-  "magnitude_clean_plus_max": "0.600000",
-  "magnitude_mixed_min": "-0.400000",
-  "magnitude_mixed_max": "0.150000",
-  "magnitude_clean_minus_min": "-1.000000",
-  "magnitude_clean_minus_max": "-0.200000",
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "The two randomized, double-masked, placebo-controlled Phase 3 trials enrolled 258 adults. The primary endpoint was at least a 2-mm reduction in eye bulging at week 24 in active disease. SatraGO-2 succeeded: 52.9% responded versus 23.4% with placebo, p=0.0011. SatraGO-1 missed statistical significance: 49.0% versus 31.2%, p=0.0715. Its secondary results therefore remain supportive rather than formally confirmatory under the testing sequence. Double-vision improvement was statistically significant only in SatraGO-2. Serious adverse events and discontinuations were uncommon, with no serious infections in treated participants. ([aaojournal.org](https://www.aaojournal.org/article/S0161-6420%2826%2900673-1/fulltext?utm_source=openai))",
-  "cmc_regulatory_risk": "Low\u2013Moderate: established commercial antibody and prefilled-syringe supply chain involving Chugai manufacturing and Roche assembly. The original FDA review classified both Chugai manufacturing sites as VAI, meaning voluntary corrective action was indicated; FDA explicitly found the inspection observations adequately addressed and recommended approval. These historical findings do not establish the outcome of any subsequent inspection. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000ChemR.pdf))",
-  "key_pdufa_comment": "This is a Priority Review sBLA for an additional indication of an already marketed medicine, with an FDA decision expected by October 15, 2026, nine days after October 6. The evidence supports a traditional approval assessment based on clinical improvement, rather than reliance on a surrogate endpoint for Accelerated Approval. The central question is whether one successful pivotal trial plus supportive evidence from the other establishes sufficient efficacy, and how broadly the label can cover active and inactive disease. Clean approval means a commercially useful TED population and the expected at-home dosing, without an unexpected boxed warning, restricted-access program or manufacturing restriction; a materially restrictive label would be a mixed outcome. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-06-30?utm_source=openai)) Enspryng received its original U.S. approval on August 14, 2020; FDA did not require an advisory committee for that application. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000Approv.pdf)) This is not a first-commercial-product launch. Chugai supplies the medicine, while Roche holds U.S. development and marketing rights under a license involving milestones and royalties to Chugai. ([chugai-pharm.co.jp](https://www.chugai-pharm.co.jp/news/cont_file_dl.php?f=160601eSA237licenseout.pdf&rep=130%2C133&src=%5B%250%5D%2C%5B%251%5D)) Manufacturing uses an established commercial supply chain; FDA accepted remediation of the original inspection observations, which is not a guarantee about subsequent inspections. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000ChemR.pdf)) Competition includes Tepezza and Lumvoa, which FDA approved on June 26, 2026, for TED regardless of activity or duration. At-home dosing offers differentiation, but the expanding treatment landscape makes commercial uptake important even after approval. Because this is a traditional-approval assessment, Lumvoa does not create an Accelerated Approval eligibility gate. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761143s031lbl.pdf?utm_source=openai))",
-  "move_analysis_ai_reasoning": "We estimate a 55\u201365% chance of clean approval, with central probabilities of 60% clean positive, 20% mixed and 20% clean negative. Randomized Phase 3 evidence and an established medicine support approval, but this is not the stronger setup of two independently successful pivotal trials. The unsuccessful SatraGO-1 primary endpoint leaves a meaningful possibility that FDA requests additional evidence. A narrower population or commercially burdensome requirement could instead produce a mixed outcome. Priority Review supports the importance of the application, not certainty of approval. ([gene.com](https://www.gene.com/media/press-releases/15118/2026-06-29/fda-grants-priority-review-to-genentechs))\n\nManufacturing is substantially better established than at a first-launch biotech. FDA\u2019s original quality review identified Chugai drug-substance production in Tokyo, drug-product production in Utsunomiya and syringe assembly at Roche\u2019s Kaiseraugst site. FDA documented that the original inspection observations were adequately addressed. Commercial use across approximately 90 countries provides additional reassurance, while routine sterile-biologic and syringe-supply risks remain. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000ChemR.pdf))\n\nUsing the supplied company figures, Roche\u2019s $334.7 billion market capitalization, $380.9 billion enterprise value and $9.7 billion cash balance make this indication a small part of the overall valuation. Financing is not dependent on this decision. The supplied BPIQ ownership figures show zero specialist funds and no reported aggregate holdings; that carries little negative significance for a diversified global pharmaceutical company. Roche participates in U.S. commercialization rather than receiving only an outside royalty, although the Chugai license includes milestone and royalty obligations. ([chugai-pharm.co.jp](https://www.chugai-pharm.co.jp/english/news/detail/20160601150001_133.html))\n\nOur event-specific move estimates are consequently modest: +0.10% to +0.60% for clean approval, -0.40% to +0.15% for a mixed outcome and -1.00% to -0.20% for nonapproval. At-home administration offers differentiation, but approval would enter a market with Tepezza and newly approved Lumvoa. FDA approved Lumvoa on June 26, 2026, regardless of TED activity or duration. More competition limits the commercial value of approval alone, while Enspryng's different mechanism and home dosing could still attract patients. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761143s031lbl.pdf?utm_source=openai)) Tecentriq\u2019s October 9 colon-cancer decision falls before this event and could reset Roche\u2019s share-price baseline; these ranges apply to the price immediately before the Enspryng decision. ([assets.roche.com](https://assets.roche.com/f/176343/521f597dff/01-mediainvestor-release-fda-grants-priority-review-for-tecentriq-english.pdf)) Roche\u2019s October 22 sales update falls afterward. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-09-22b?utm_source=openai)) Neither direction approaches the 20% threshold for a big-mover classification.",
-  "catalyst_event_details": "The FDA is expected to decide on Enspryng\u2019s supplemental application for thyroid eye disease by October 15, 2026. ([gene.com](https://www.gene.com/media/press-releases/15118/2026-06-29/fda-grants-priority-review-to-genentechs))",
-  "move_analysis_created_datetime": "2026-10-06T12:59:47Z"
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 20637,

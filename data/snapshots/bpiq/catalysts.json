@@ -57,63 +57,6 @@
   "move_analysis_created_datetime": "2026-10-08T15:57:28Z"
  },
  {
-  "id": 20601,
-  "company": {
-   "ticker": "RHHBY",
-   "name": "Roche Holding",
-   "last_price": "56.78",
-   "market_cap": 361922920448,
-   "website": "https://www.roche.com"
-  },
-  "ticker": "RHHBY",
-  "drug_name": "Enspryng/Satralizumab (IL-6 Receptor Inhibitor)",
-  "indications": [
-   {
-    "id": 997,
-    "title": "Thyroid Eye Disease ",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Thyroid Eye Disease",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "06/30/26:- FDA accepted priority sBLA for TED; decision expected October 15, 2026. 07/23/26:- Priority review for thyroid eye disease was reiterated; FDA decision will occur October 15, 2026.",
-  "catalyst_date": "2026-10-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/7/23/3331865/0/en/ad-hoc-announcement-pursuant-to-art-53-lr-roche-s-strong-momentum-continues-in-the-first-half-of-2026-delivering-6-sales-growth-at-constant-exchange-rates-2-in-chf-due-to-the-signi.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "55.000000",
-  "probability_clean_plus_max": "65.000000",
-  "probability_mixed_min": "15.000000",
-  "probability_mixed_max": "25.000000",
-  "probability_clean_minus_min": "15.000000",
-  "probability_clean_minus_max": "25.000000",
-  "magnitude_clean_plus_min": "0.100000",
-  "magnitude_clean_plus_max": "0.600000",
-  "magnitude_mixed_min": "-0.400000",
-  "magnitude_mixed_max": "0.150000",
-  "magnitude_clean_minus_min": "-1.000000",
-  "magnitude_clean_minus_max": "-0.200000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "The two randomized, double-masked, placebo-controlled Phase 3 trials enrolled 258 adults. The primary endpoint was at least a 2-mm reduction in eye bulging at week 24 in active disease. SatraGO-2 succeeded: 52.9% responded versus 23.4% with placebo, p=0.0011. SatraGO-1 missed statistical significance: 49.0% versus 31.2%, p=0.0715. Its secondary results therefore remain supportive rather than formally confirmatory under the testing sequence. Double-vision improvement was statistically significant only in SatraGO-2. Serious adverse events and discontinuations were uncommon, with no serious infections in treated participants. ([aaojournal.org](https://www.aaojournal.org/article/S0161-6420%2826%2900673-1/fulltext?utm_source=openai))",
-  "cmc_regulatory_risk": "Low\u2013Moderate: established commercial antibody and prefilled-syringe supply chain involving Chugai manufacturing and Roche assembly. The original FDA review classified both Chugai manufacturing sites as VAI, meaning voluntary corrective action was indicated; FDA explicitly found the inspection observations adequately addressed and recommended approval. These historical findings do not establish the outcome of any subsequent inspection. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000ChemR.pdf))",
-  "key_pdufa_comment": "This is a Priority Review sBLA for an additional indication of an already marketed medicine, with an FDA decision expected by October 15, 2026, nine days after October 6. The evidence supports a traditional approval assessment based on clinical improvement, rather than reliance on a surrogate endpoint for Accelerated Approval. The central question is whether one successful pivotal trial plus supportive evidence from the other establishes sufficient efficacy, and how broadly the label can cover active and inactive disease. Clean approval means a commercially useful TED population and the expected at-home dosing, without an unexpected boxed warning, restricted-access program or manufacturing restriction; a materially restrictive label would be a mixed outcome. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-06-30?utm_source=openai)) Enspryng received its original U.S. approval on August 14, 2020; FDA did not require an advisory committee for that application. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000Approv.pdf)) This is not a first-commercial-product launch. Chugai supplies the medicine, while Roche holds U.S. development and marketing rights under a license involving milestones and royalties to Chugai. ([chugai-pharm.co.jp](https://www.chugai-pharm.co.jp/news/cont_file_dl.php?f=160601eSA237licenseout.pdf&rep=130%2C133&src=%5B%250%5D%2C%5B%251%5D)) Manufacturing uses an established commercial supply chain; FDA accepted remediation of the original inspection observations, which is not a guarantee about subsequent inspections. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000ChemR.pdf)) Competition includes Tepezza and Lumvoa, which FDA approved on June 26, 2026, for TED regardless of activity or duration. At-home dosing offers differentiation, but the expanding treatment landscape makes commercial uptake important even after approval. Because this is a traditional-approval assessment, Lumvoa does not create an Accelerated Approval eligibility gate. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761143s031lbl.pdf?utm_source=openai))",
-  "move_analysis_ai_reasoning": "We estimate a 55\u201365% chance of clean approval, with central probabilities of 60% clean positive, 20% mixed and 20% clean negative. Randomized Phase 3 evidence and an established medicine support approval, but this is not the stronger setup of two independently successful pivotal trials. The unsuccessful SatraGO-1 primary endpoint leaves a meaningful possibility that FDA requests additional evidence. A narrower population or commercially burdensome requirement could instead produce a mixed outcome. Priority Review supports the importance of the application, not certainty of approval. ([gene.com](https://www.gene.com/media/press-releases/15118/2026-06-29/fda-grants-priority-review-to-genentechs))\n\nManufacturing is substantially better established than at a first-launch biotech. FDA\u2019s original quality review identified Chugai drug-substance production in Tokyo, drug-product production in Utsunomiya and syringe assembly at Roche\u2019s Kaiseraugst site. FDA documented that the original inspection observations were adequately addressed. Commercial use across approximately 90 countries provides additional reassurance, while routine sterile-biologic and syringe-supply risks remain. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000ChemR.pdf))\n\nUsing the supplied company figures, Roche\u2019s $334.7 billion market capitalization, $380.9 billion enterprise value and $9.7 billion cash balance make this indication a small part of the overall valuation. Financing is not dependent on this decision. The supplied BPIQ ownership figures show zero specialist funds and no reported aggregate holdings; that carries little negative significance for a diversified global pharmaceutical company. Roche participates in U.S. commercialization rather than receiving only an outside royalty, although the Chugai license includes milestone and royalty obligations. ([chugai-pharm.co.jp](https://www.chugai-pharm.co.jp/english/news/detail/20160601150001_133.html))\n\nOur event-specific move estimates are consequently modest: +0.10% to +0.60% for clean approval, -0.40% to +0.15% for a mixed outcome and -1.00% to -0.20% for nonapproval. At-home administration offers differentiation, but approval would enter a market with Tepezza and newly approved Lumvoa. FDA approved Lumvoa on June 26, 2026, regardless of TED activity or duration. More competition limits the commercial value of approval alone, while Enspryng's different mechanism and home dosing could still attract patients. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761143s031lbl.pdf?utm_source=openai)) Tecentriq\u2019s October 9 colon-cancer decision falls before this event and could reset Roche\u2019s share-price baseline; these ranges apply to the price immediately before the Enspryng decision. ([assets.roche.com](https://assets.roche.com/f/176343/521f597dff/01-mediainvestor-release-fda-grants-priority-review-for-tecentriq-english.pdf)) Roche\u2019s October 22 sales update falls afterward. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-09-22b?utm_source=openai)) Neither direction approaches the 20% threshold for a big-mover classification.",
-  "catalyst_event_details": "The FDA is expected to decide on Enspryng\u2019s supplemental application for thyroid eye disease by October 15, 2026. ([gene.com](https://www.gene.com/media/press-releases/15118/2026-06-29/fda-grants-priority-review-to-genentechs))",
-  "move_analysis_created_datetime": "2026-10-06T12:59:47Z"
- },
- {
   "id": 19104,
   "company": {
    "ticker": "VTRS",
@@ -304,7 +247,7 @@
   "company": {
    "ticker": "PALI",
    "name": "Palisade Bio",
-   "last_price": "1.54",
+   "last_price": "1.48",
    "market_cap": 268376656,
    "website": "https://www.palisadebio.com"
   },
@@ -662,6 +605,78 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 18288,
+  "company": {
+   "ticker": "TNGX",
+   "name": "Tango Therapeutics",
+   "last_price": "22.61",
+   "market_cap": 3827455488,
+   "website": "https://www.tangotx.com"
+  },
+  "ticker": "TNGX",
+  "drug_name": "Vopimetostat (TNG462)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1320,
+    "title": "Lung cancer",
+    "nickname": ""
+   },
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Pancreatic, lung, MTAP-deleted cancers",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "10/16/26:- Updated Ph1/2 combo data at ESMO 2026; abstract Oct 19, webcast Oct 23, poster Oct 25.",
+  "catalyst_date": "2026-10-19",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/16/3382493/0/en/tango-therapeutics-to-present-updated-vopimetostat-ras-on-combination-data-at-european-society-for-medical-oncology-esmo-congress-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 20268,
   "company": {
    "ticker": "IMTX",
@@ -894,7 +909,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "22.82",
+   "last_price": "21.98",
    "market_cap": 2870143488,
    "website": "https://arcusbio.com"
   },
@@ -1018,7 +1033,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "22.82",
+   "last_price": "21.98",
    "market_cap": 2870143488,
    "website": "https://arcusbio.com"
   },
@@ -1085,7 +1100,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "22.82",
+   "last_price": "21.98",
    "market_cap": 2870143488,
    "website": "https://arcusbio.com"
   },
@@ -1209,7 +1224,7 @@
   "company": {
    "ticker": "ODTX",
    "name": "Odyssey Therapeutics",
-   "last_price": "17.57",
+   "last_price": "17.25",
    "market_cap": 844388352,
    "website": "https://odysseytx.com"
   },
@@ -1633,7 +1648,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "12.68",
+   "last_price": "11.96",
    "market_cap": 4108920576,
    "website": "https://www.abcellera.com"
   },
@@ -1938,7 +1953,7 @@
   "company": {
    "ticker": "ELTX",
    "name": "Elicio Therapeutics",
-   "last_price": "1.76",
+   "last_price": "1.72",
    "market_cap": 48222312,
    "website": "https://elicio.com"
   },
@@ -2119,7 +2134,7 @@
   "company": {
    "ticker": "PROK",
    "name": "ProKidney",
-   "last_price": "1.46",
+   "last_price": "1.35",
    "market_cap": 580810624,
    "website": "https://prokidney.com"
   },
@@ -3059,7 +3074,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "7.54",
+   "last_price": "7.40",
    "market_cap": 408404352,
    "website": "https://eikontx.com"
   },
@@ -3121,7 +3136,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "7.54",
+   "last_price": "7.40",
    "market_cap": 408404352,
    "website": "https://eikontx.com"
   },
@@ -3183,7 +3198,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "7.54",
+   "last_price": "7.40",
    "market_cap": 408404352,
    "website": "https://eikontx.com"
   },
@@ -3421,7 +3436,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "7.54",
+   "last_price": "7.40",
    "market_cap": 408404352,
    "website": "https://eikontx.com"
   },
@@ -4668,7 +4683,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.37",
+   "last_price": "14.99",
    "market_cap": 12261411840,
    "website": "https://www.smmttx.com"
   },
@@ -4797,7 +4812,7 @@
   "company": {
    "ticker": "AGEN",
    "name": "Agenus Inc.",
-   "last_price": "6.47",
+   "last_price": "6.36",
    "market_cap": 301681600,
    "website": "https://www.agenusbio.com"
   },
@@ -5025,7 +5040,7 @@
   "company": {
    "ticker": "AGEN",
    "name": "Agenus Inc.",
-   "last_price": "6.47",
+   "last_price": "6.36",
    "market_cap": 301681600,
    "website": "https://www.agenusbio.com"
   },
@@ -5144,7 +5159,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "7.54",
+   "last_price": "7.40",
    "market_cap": 408404352,
    "website": "https://eikontx.com"
   },
@@ -5588,7 +5603,7 @@
   "company": {
    "ticker": "IVVD",
    "name": "INVIVYD",
-   "last_price": "0.67",
+   "last_price": "0.62",
    "market_cap": 197134656,
    "website": "https://www.invivyd.com"
   },
@@ -5645,7 +5660,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "29.57",
+   "last_price": "27.79",
    "market_cap": 1418717952,
    "website": "https://www.rapportrx.com"
   },
@@ -5702,7 +5717,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "12.77",
+   "last_price": "12.20",
    "market_cap": 1323644416,
    "website": "https://www.oricpharma.com"
   },
@@ -7042,6 +7057,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 18391,
+  "company": {
+   "ticker": "NRXP",
+   "name": "NRX Pharmaceuticals",
+   "last_price": "2.71",
+   "market_cap": 117331536,
+   "website": "https://www.nrxpharma.com"
+  },
+  "ticker": "NRXP",
+  "drug_name": "KETAFREE\u2122 (NRX-100) (preservative-free IV ketamine)",
+  "indications": [
+   {
+    "id": 2270,
+    "title": "Suicidal Depression",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Suicidal Depression",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "05/18/26:- NRX-100 NDA expected Q2 2026; ANDA product review targeted Summer 2026. 06/05/26:- Real world evidence showed higher remission and response with IV ketamine versus esketamine. 08/17/26:- FDA ANDA review completed with vial attestation submitted. ANDA approval and commercialization are aimed for 2026; NDA approval is aimed for 2027. 09/15/26:- FDA reclassified ANDA amendment from major to minor; review continues. 10/15/26:- FDA requested minor label changes; ANDA GDUFA goal date remains November 10, 2026.",
+  "catalyst_date": "2026-11-10",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62378688/nrx-pharmaceuticals-announces-receipt-fda-labeling-review-letter-preservative-free-ketamine",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 19231,
   "company": {
    "ticker": "KTTA",
@@ -7233,6 +7305,53 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-05",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 16997,
   "company": {
    "ticker": "N/A",
@@ -7287,53 +7406,6 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-05",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -7398,7 +7470,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.37",
+   "last_price": "14.99",
    "market_cap": 12261411840,
    "website": "https://www.smmttx.com"
   },
@@ -7518,68 +7590,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18598,
-  "company": {
-   "ticker": "GUTS",
-   "name": "Fractyl Health",
-   "last_price": "4.16",
-   "market_cap": 55182344,
-   "website": "https://fractyl.com"
-  },
-  "ticker": "GUTS",
-  "drug_name": "Revita",
-  "indications": [
-   {
-    "id": 1027,
-    "title": "Obesity",
-    "nickname": ""
-   },
-   {
-    "id": 1391,
-    "title": "Type 2 diabetes",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Obesity, Type 2 diabetes",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "REMAIN-1, REVEAL-1 trials. 4/1/25- REVEAL-1 prelim data reported. 6/23/25- 3mth REVEAL-1 cohort data reported. 9/26/25- REMAIN-1 Midpoint cohort 3mth data announced; met key efficacy endpoint. 6mth primary endpoint data in Q1 2026. REMAIN-1 Pivotal cohort 6mth endpoint data in H2 2026. 11/12/25:- Revita randomized REMAIN-1 data positive; Germany registry 2-year outcomes favorable; multiple cohort data catalysts Q4 2025\u2013H2 2026. 01/29/26:- 6m Midpoint data positive. 1y REVEAL-1 Q2 2026, 1y Midpoint Q3 2026, pivotal 6m and FDA filing H2 2026. 02/26/26:- REMAIN-1 Pivotal randomization completed; De Novo feedback Q2 2026; pivotal 6m data early Q4 2026; filing late Q4 2026. 03/24/26:- New Midpoint post-hoc data; pivotal randomization complete; Q2\u2013Q4 2026 REVEAL-1, Midpoint, pivotal 6m and De Novo milestones. 05/12/26:- Revita Q2\u2013Q4 2026 REVEAL-1, Midpoint, pivotal 6m data and late Q4 2026 De Novo submission timelines reaffirmed. 06/04/26:- REVEAL-1 1y weight maintenance positive. Next REMAIN-1 Midpoint 1y data Q3 2026; Pivotal 6m topline Early Q4 2026. 07/15/26:- REMAIN-1 Midpoint Cohort 1y results positive. Pivotal 6m topline Early Q4 2026; De Novo filing Late Q4 2026. 08/10/26:- One-year data were detailed. Pivotal 6m expected Early Q4 2026, De Novo Late Q4, 1y Q1 2027.",
-  "catalyst_date": "2026-11-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://ir.fractyl.com/news-events/news-releases/",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": "35.000000",
-  "probability_clean_plus_max": "45.000000",
-  "probability_mixed_min": "27.000000",
-  "probability_mixed_max": "37.000000",
-  "probability_clean_minus_min": "23.000000",
-  "probability_clean_minus_max": "33.000000",
-  "magnitude_clean_plus_min": "40.000000",
-  "magnitude_clean_plus_max": "85.000000",
-  "magnitude_mixed_min": "-40.000000",
-  "magnitude_mixed_max": "-15.000000",
-  "magnitude_clean_minus_min": "-80.000000",
-  "magnitude_clean_minus_max": "-55.000000",
-  "up_suspected_big_mover": true,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is a new registrational efficacy readout, not another pilot follow-up. Approximately 315 participants were assigned 2:1 to Revita or a sham procedure, with patients and assessors blinded. The six-month endpoint compares weight regain after stopping tirzepatide; a separate one-year co-primary endpoint follows in Q1 2027. Participants have obesity without type 2 diabetes. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1572616/000119312526303948/guts-ex99_2.htm)) Earlier randomized evidence supports activity, but the broad six-month pilot population showed 4.5% versus 7.5% regain, with a one-sided p-value of 0.07. The strongest subsequent results came from small groups receiving more complete treatment. Clear benefit across the main pivotal population\u2014not subgroup success alone\u2014is the key expectation. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/01/29/3228413/0/en/fractyl-health-announces-compelling-6-month-randomized-remain-1-midpoint-data-showing-durable-weight-maintenance-with-revita-after-glp-1-discontinuation.html)) Cash supports the anticipated readout, but further financing will be needed to sustain development and commercialization. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/node/8926/html))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "Revita\u2019s pivotal six-month REMAIN-1 results are expected in early Q4 2026. Revita is an endoscopic device procedure, making this a pivotal-study setup rather than a fresh exploratory Phase 2 experiment. Historical metabolic-drug programs advanced from Phase 3 to an application 63.6% of the time. That benchmark describes drug development, not device success or the chance of an unequivocally favorable stock reaction. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/news-releases/news-release-details/fractyl-health-host-virtual-commercial-strategy-day-tuesday?utm_source=openai))\n\nThe approximately 315-patient, blinded, sham-controlled study gives the program a stronger test than the small pilot. Fractyl reports complete treatment of the targeted intestinal lining in the pivotal cohort, addressing a limitation associated with weaker pilot outcomes. Nevertheless, the earlier broad-population six-month result showed 4.5% versus 7.5% weight regain, with a one-sided p-value of 0.07\u2014not conventional statistical significance. The strongest longer-term results came from small selected groups. Our 35\u201345% favorable-outcome probability requires convincing benefit across the main pivotal population, not just an encouraging subgroup. Control-arm weight regain, initial tirzepatide weight loss and treatment execution remain important. Six-month success would still leave the separate twelve-month responder endpoint to establish. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1572616/000119312526303948/guts-ex99_2.htm))\n\nAt the supplied $4.56 price, the disclosed share count adjusted for the October 2 one-for-twelve reverse split implies approximately $60.5 million of common-equity value. Cash was $47.1 million at June 30, and debt was carried at approximately $30.4 million. Management expects funding into early 2027 but identifies a need for additional capital beyond that runway. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/node/8926/html)) BPIQ reports two specialist hedge funds, down from three a year earlier, with approximately $1.7 million collectively invested. That is some specialist participation, but not broad external conviction; it does not independently establish clinical success.\n\nRevita carries much of the near-term investment case, while Rejuva remains early in development. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/news-releases/news-release-details/fractyl-health-reports-second-quarter-2026-financial-results-and)) At this small valuation, strong pivotal evidence could plausibly produce a 40\u201385% gain. Failure could sharply reduce the lead program\u2019s value and financing appeal, supporting a 55\u201380% decline. A statistically positive but modest benefit, subgroup-dependent result or safety concern could disappoint investors enough to produce a 15\u201340% decline. The supplied historical reactions reinforce this distinction: January\u2019s sponsor-described positive midpoint results coincided with a 63.3% opening decline, while July\u2019s positive follow-up produced only a 5.0% opening gain. The pivotal result is more consequential than those follow-ups, but reimbursement, adoption and funding still matter. These are fundamental move estimates rather than options-confirmed forecasts; neither direction receives an options-confirmed big-mover designation.",
-  "catalyst_event_details": "Revita\u2019s REMAIN-1 pivotal six-month readout for obesity weight maintenance after GLP-1 discontinuation is expected in early Q4 2026. ([ir.fractyl.com](https://ir.fractyl.com/static-files/58daed73-8de9-442d-8a77-8c435c11c70c))",
-  "move_analysis_created_datetime": "2026-10-06T14:52:20Z"
- },
- {
   "id": 16626,
   "company": {
    "ticker": "N/A",
@@ -7641,7 +7651,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "19.31",
+   "last_price": "19.34",
    "market_cap": 3396141568,
    "website": "https://acadia.com"
   },
@@ -7698,7 +7708,7 @@
   "company": {
    "ticker": "APRE",
    "name": "Aprea Therapeutics",
-   "last_price": "0.65",
+   "last_price": "0.62",
    "market_cap": 7776286,
    "website": "https://aprea.com"
   },
@@ -8288,7 +8298,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "508.75",
+   "last_price": "504.67",
    "market_cap": 128948248576,
    "website": "https://www.vrtx.com"
   },
@@ -8707,7 +8717,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.57",
+   "last_price": "47.59",
    "market_cap": 1456197248,
    "website": "https://www.anaptysbio.com"
   },
@@ -9436,7 +9446,7 @@
   "company": {
    "ticker": "APVO",
    "name": "Aptevo Therapeutics",
-   "last_price": "1.70",
+   "last_price": "1.69",
    "market_cap": 3077365,
    "website": "https://aptevotherapeutics.com"
   },
@@ -9781,7 +9791,7 @@
   "company": {
    "ticker": "ABOS",
    "name": "Acumen Pharmaceuticals",
-   "last_price": "1.63",
+   "last_price": "1.66",
    "market_cap": 120769864,
    "website": "https://acumenpharm.com"
   },
@@ -11746,7 +11756,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "12.77",
+   "last_price": "12.20",
    "market_cap": 1323644416,
    "website": "https://www.oricpharma.com"
   },
@@ -11937,7 +11947,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "16.84",
+   "last_price": "16.72",
    "market_cap": 3791150080,
    "website": "https://www.relaytx.com"
   },
@@ -12692,68 +12702,6 @@
   "move_analysis_created_datetime": "2026-10-06T13:20:04Z"
  },
  {
-  "id": 17171,
-  "company": {
-   "ticker": "TLSA",
-   "name": "Tiziana Life Sciences",
-   "last_price": "1.05",
-   "market_cap": 133622080,
-   "website": "https://www.tizianalifesciences.com"
-  },
-  "ticker": "TLSA",
-  "drug_name": "Intranasal Foralumab ",
-  "indications": [
-   {
-    "id": 1311,
-    "title": "Alzheimer's disease",
-    "nickname": ""
-   },
-   {
-    "id": 1239,
-    "title": "Neurodegenerative disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Alzheimer's disease",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "IND cleared in Q3 2023. Present at AD/PD 2024. 12/17/24- First patient dosed. 5/9/25- New PET scan data reported. 12/17/25:- First patient dosed; interim Phase 2 data in 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2025/12/17/3206982/0/en/Tiziana-Life-Sciences-Doses-First-Patient-in-Phase-2-Alzheimer-s-Clinical-Trial.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "25.000000",
-  "probability_clean_plus_max": "35.000000",
-  "probability_mixed_min": "40.000000",
-  "probability_mixed_max": "50.000000",
-  "probability_clean_minus_min": "20.000000",
-  "probability_clean_minus_max": "30.000000",
-  "magnitude_clean_plus_min": "20.000000",
-  "magnitude_clean_plus_max": "45.000000",
-  "magnitude_mixed_min": "-18.000000",
-  "magnitude_mixed_max": "5.000000",
-  "magnitude_clean_minus_min": "-40.000000",
-  "magnitude_clean_minus_max": "-20.000000",
-  "up_suspected_big_mover": true,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an early randomized proof-of-concept readout, not a registration-enabling trial or confirmation of established efficacy. The July 2026 company presentation describes 32 planned participants: 12 at each active dose and eight receiving placebo, with assessment after 12 weeks. Brain-inflammation PET imaging, cognition and other biomarkers are evaluated. The small placebo group and short duration make convincing cognitive benefit difficult to establish. Earlier Alzheimer\u2019s evidence consists of an uncontrolled patient\u2019s PET improvement, which supports biological activity but does not establish clinical benefit. A clearly favorable result needs a credible placebo-separated effect, acceptable safety and supportive clinical findings\u2014not simply improved scans. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/07/Tiziana-Neuro-Presentation-July-2026-Non-Confidential.pdf))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The company anticipates interim results during 2026, without specifying an exact announcement date. We view this as the first meaningful controlled Alzheimer\u2019s test of the approach, with moderate importance: it can strengthen the investment case, but remains an early study. Historical neurology programs advanced from Phase 2 to Phase 3 about 26.8% of the time; that is a development benchmark, not the probability of a favorable stock reaction. Randomization helps, but the limited prior Alzheimer\u2019s evidence supports keeping an unequivocally favorable outcome at 25\u201335%. ([tizianalifesciences.com](https://www.tizianalifesciences.com/tiziana-life-sciences-doses-first-patient-in-phase-2-alzheimers-clinical-trial/?utm_source=openai))\n\nMixed results are the most likely outcome at 40\u201350%. Reduced brain inflammation could be encouraging without convincing evidence that memory or daily functioning improves. With only eight planned placebo participants, individual differences, incomplete assessments and testing two doses across several measures can make interpretation fragile. Twelve weeks is also a short period for demonstrating sustained benefit. Our favorable scenario requires consistent evidence rather than an isolated positive measurement. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/07/Tiziana-Neuro-Presentation-July-2026-Non-Confidential.pdf))\n\nThe supplied snapshot values TLSA at approximately $136.2 million and shows zero BPIQ specialist hedge-fund holders across the supplied four-quarter history. That does not predict failure, but offers little specialist endorsement. Funding is a substantial consideration: reported cash was $4.01 million at December 31, 2025, versus $12.85 million of annual operating cash use. January 2026 financing added approximately $8.6 million net. Multiple ongoing trials, the annual report\u2019s going-concern warning and an equity-sale facility make additional fundraising\u2014and dilution\u2014a material risk. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1723069/000121390026051015/ea0287936-20f_tiziana.htm))\n\nOur conditional moves are +20\u201345% for clearly favorable results, \u221218% to +5% for mixed findings and \u221240% to \u221220% for clearly unfavorable results. Strong controlled Alzheimer\u2019s evidence could expand foralumab\u2019s perceived opportunity, while weak results could damage confidence in the broader platform. Other indications provide some cushion. These estimates assume no major intervening repricing; the earlier INFORM-MS readout could alter both valuation and expectations, although success in MS would not establish Alzheimer\u2019s efficacy. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/07/Tiziana-Neuro-Presentation-July-2026-Non-Confidential.pdf))\n\nThe supplied March 2027 options imply approximately 173% total movement through expiration, far above our event-specific fundamental ranges. However, wide spreads, a strike well above the share price, broad timing and exposure to other catalysts prevent that figure from isolating the Alzheimer\u2019s event. It therefore does not confirm either big-mover designation.",
-  "catalyst_event_details": "Interim Phase 2 data for intranasal foralumab in early Alzheimer\u2019s disease are anticipated in 2026. ([tizianalifesciences.com](https://www.tizianalifesciences.com/tiziana-life-sciences-doses-first-patient-in-phase-2-alzheimers-clinical-trial/?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T14:56:27Z"
- },
- {
   "id": 17173,
   "company": {
    "ticker": "SLS",
@@ -13016,7 +12964,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "56.54",
+   "last_price": "56.49",
    "market_cap": 2174954752,
    "website": "https://www.discmedicine.com"
   },
@@ -13078,7 +13026,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "56.54",
+   "last_price": "56.49",
    "market_cap": 2174954752,
    "website": "https://www.discmedicine.com"
   },
@@ -13269,7 +13217,7 @@
   "company": {
    "ticker": "CADL",
    "name": "Candel Therapeutics",
-   "last_price": "8.91",
+   "last_price": "8.57",
    "market_cap": 681780416,
    "website": "https://www.candeltx.com"
   },
@@ -16198,7 +16146,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "15.37",
+   "last_price": "14.99",
    "market_cap": 12261411840,
    "website": "https://www.smmttx.com"
   },
@@ -16740,78 +16688,6 @@
   "move_analysis_ai_reasoning": "The additional single-cell proteomics data, which examine proteins within individual cells, are expected in H2 2026. Favorable safety and immune findings are already public, so this is supporting evidence rather than a new test of cognitive efficacy. Our 45\u201360% favorable-outcome probability reflects that narrower task; the 5\u201315% unfavorable probability captures biology that materially contradicts the treatment rationale. ([ir.coyatherapeutics.com](https://ir.coyatherapeutics.com/news/news-details/2026/Coya-Therapeutics-Reports-Second-Quarter-2026-Financial-Results-and-Provides-a-Corporate-Update/default.aspx?utm_source=openai))\n\nHistorically, 26.8% of neurology Phase 2 programs advanced to Phase 3, but that benchmark is not the success probability for this follow-up analysis. The published study had only nine patients receiving monthly dosing, ten receiving biweekly dosing and 19 receiving placebo. The cognitive difference did not reach conventional statistical significance, and testing many measurements without correcting for multiple comparisons increases the chance of apparently positive findings. Interesting biomarkers may therefore add little investment value, supporting a substantial 30\u201345% mixed-outcome probability. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf))\n\nBPIQ reports one specialist hedge-fund holder with approximately $239,000 invested. The fund count was unchanged; the higher position value does not by itself establish share purchases. This limited specialist participation encourages caution, not an automatic scientific downgrade. BPIQ\u2019s $113.8 million market capitalization and $75.5 million enterprise value leave room for meaningful reactions. Coya\u2019s $43.2 million cash balance at June 30 and company-guided runway into H2 2027 reduce immediate financing pressure, although later development can require additional equity funding. ([ir.coyatherapeutics.com](https://ir.coyatherapeutics.com/news/news-details/2026/Coya-Therapeutics-Reports-Second-Quarter-2026-Financial-Results-and-Provides-a-Corporate-Update/default.aspx?utm_source=openai))\n\nWe estimate +4\u201312% for convincing supporting biology, \u22125% to +2% for ambiguous or unsurprising findings, and \u221215% to \u22127% for clearly contradictory results. BPIQ\u2019s historical record shows a +8.7% opening gap and +9.4% intraday reaction to the February 2025 Alzheimer\u2019s biomarker announcement; those measures should not be added together. This follow-up has a higher expectation bar because encouraging biology is already known. Other programs also support value: the larger ALS readout is expected in early Q2 2027, and Coya retains milestone and royalty participation in partnered COYA 302 ALS rather than full commercial economics. ([ir.coyatherapeutics.com](https://ir.coyatherapeutics.com/news/news-details/2025/Coya-Therapeutics-Reports-Statistically-Significant-Improvement-of-Inflammatory-Blood-Markers-in-Patients-with-Alzheimers-Disease-Following-Monthly-Dosing-with-Low-Dose-IL-2-Further-Supporting-Clinical-Development/default.aspx?utm_source=openai))\n\nOptions pricing does not independently substantiate an event-specific percentage or a 20% move in either direction. Our modest ranges therefore reflect the clinical and valuation setup, assuming no simultaneous major announcement.",
   "catalyst_event_details": "COYA 301\u2019s completed exploratory Phase 2 Alzheimer\u2019s disease trial is expected to yield additional single-cell proteomics data in H2 2026. ([ir.coyatherapeutics.com](https://ir.coyatherapeutics.com/news/news-details/2026/Coya-Therapeutics-Reports-Second-Quarter-2026-Financial-Results-and-Provides-a-Corporate-Update/default.aspx?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T15:37:59Z"
- },
- {
-  "id": 18288,
-  "company": {
-   "ticker": "TNGX",
-   "name": "Tango Therapeutics",
-   "last_price": "22.70",
-   "market_cap": 3827455488,
-   "website": "https://www.tangotx.com"
-  },
-  "ticker": "TNGX",
-  "drug_name": "Vopimetostat (TNG462)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1320,
-    "title": "Lung cancer",
-    "nickname": ""
-   },
-   {
-    "id": 859,
-    "title": "Pancreatic cancer",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Pancreatic, lung, MTAP-deleted cancers",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "11/6/24- Positive Ph1/2 data. 6/27/25- First patient dosed. 10/23/25- Positive data reported. Combination studies ongoing with add'l data in 2026. 11/04/25:- Updated Ph1/2 data show strong efficacy, favorable safety. Combo and lung updates, pivotal 2L pancreatic trial expected 2026. 03/05/26:- 2026 initial combo Ph1/2 data, lung monotherapy update, and 2L pancreatic pivotal study start expected. 05/13/26:- 2026 Ph1/2 combo data, lung monotherapy update reiterated; ERAS-0015 combo trial initiation planned for H2 2026. 06/08/26:- Initial Ph1/2 combo data positive. Phase 3 trial design, lung mono, and additional combo data planned H2 2026. 08/11/26:- Positive combo data; ESMO October 2026; Ph3 design, lung data, ERAS combo start H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/11/3342532/0/en/tango-therapeutics-reports-second-quarter-2026-financial-results-and-provides-business-highlights.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
  },
  {
   "id": 18290,
@@ -17485,7 +17361,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.72",
+   "last_price": "43.05",
    "market_cap": 7332051968,
    "website": "https://www.ionis.com"
   },
@@ -18266,7 +18142,7 @@
   "company": {
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
-   "last_price": "22.70",
+   "last_price": "22.61",
    "market_cap": 3827455488,
    "website": "https://www.tangotx.com"
   },
@@ -19077,7 +18953,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "19.56",
+   "last_price": "19.36",
    "market_cap": 2215996672,
    "website": "https://www.viridiantherapeutics.com"
   },
@@ -19599,7 +19475,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "16.84",
+   "last_price": "16.72",
    "market_cap": 3791150080,
    "website": "https://www.relaytx.com"
   },
@@ -19713,7 +19589,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "29.57",
+   "last_price": "27.79",
    "market_cap": 1418717952,
    "website": "https://www.rapportrx.com"
   },
@@ -20127,7 +20003,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "12.77",
+   "last_price": "12.20",
    "market_cap": 1323644416,
    "website": "https://www.oricpharma.com"
   },
@@ -20592,7 +20468,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "12.68",
+   "last_price": "11.96",
    "market_cap": 4108920576,
    "website": "https://www.abcellera.com"
   },
@@ -22037,7 +21913,7 @@
   "company": {
    "ticker": "ABSI",
    "name": "Absci",
-   "last_price": "8.88",
+   "last_price": "8.37",
    "market_cap": 1523932544,
    "website": "https://www.absci.com"
   },
@@ -23573,7 +23449,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "56.54",
+   "last_price": "56.49",
    "market_cap": 2174954752,
    "website": "https://www.discmedicine.com"
   },
@@ -23630,7 +23506,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.57",
+   "last_price": "47.59",
    "market_cap": 1456197248,
    "website": "https://www.anaptysbio.com"
   },
@@ -23687,7 +23563,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.57",
+   "last_price": "47.59",
    "market_cap": 1456197248,
    "website": "https://www.anaptysbio.com"
   },
@@ -23982,7 +23858,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "25.69",
+   "last_price": "25.57",
    "market_cap": 1847562496,
    "website": "https://www.zymeworks.com"
   },
@@ -24577,7 +24453,7 @@
   "company": {
    "ticker": "OPK",
    "name": "OPKO Health",
-   "last_price": "1.73",
+   "last_price": "1.60",
    "market_cap": 1201588480,
    "website": "https://www.opko.com"
   },
@@ -24696,7 +24572,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "283.15",
+   "last_price": "285.36",
    "market_cap": 500801044480,
    "website": "https://www.abbvie.com"
   },
@@ -26057,7 +25933,7 @@
   "company": {
    "ticker": "EIKN",
    "name": "Eikon Therapeutics",
-   "last_price": "7.54",
+   "last_price": "7.40",
    "market_cap": 408404352,
    "website": "https://eikontx.com"
   },
@@ -27227,7 +27103,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "21.30",
+   "last_price": "21.03",
    "market_cap": 416401472,
    "website": "https://tectonictx.com"
   },
@@ -27578,6 +27454,63 @@
   "move_analysis_ai_reasoning": "The clinical case favors approval: HAELO was randomized and blinded, showed a large reduction in attacks, and succeeded across its key endpoints. Earlier follow-up supports lasting benefit. That is stronger evidence than an uncontrolled rare-disease filing. Nevertheless, a first in vivo gene-editing approval deserves more caution than an established biologic, particularly with only 52 actively treated pivotal patients. Our central assessment is approximately 70% clean approval, 15% commercially inferior or delayed approval, and 15% nonapproval. ([ir.intelliatx.com](https://ir.intelliatx.com/node/12626/html?utm_source=openai))\n\nManufacturing is a separate consideration from efficacy. Intellia is pursuing its first launch using a complex formulation and third-party supply arrangements. FDA's manufacturing-readiness pilot provides useful regulatory engagement, but commercial consistency and facility clearance remain consequential. Expected long-term follow-up alone would not make approval mixed; unexpectedly restrictive eligibility, monitoring, supply conditions or a meaningful delay could. ([ir.intelliatx.com](https://ir.intelliatx.com/node/12511/html))\n\nAt the supplied approximately $1.8 billion market capitalization, a wholly owned first commercial asset can materially affect valuation. We estimate 25\u201345% upside for a commercially usable approval, while established HAE treatments and adoption challenges limit the upside assumption. A mixed decision could produce anything from a 20% decline to a 10% gain. Nonapproval could cost 40\u201360%, reflecting loss of near-term revenue and possible concerns extending to the broader platform. Lonvo-z's ownership makes this more consequential than a royalty-only asset. ([ir.intelliatx.com](https://ir.intelliatx.com/node/12511/html))\n\nFour BPIQ specialist funds hold approximately $102.6 million, including RA Capital and Baker Bros.; this offers modest external validation, not proof of FDA success. Financial resources provide a meaningful cushion: Intellia reported $628.4 million in cash, equivalents and marketable securities at June 30, with operations funded at least into 2028. A September debt facility added $75 million upfront, with further funding tied to milestones; contingent borrowing is not equivalent to unrestricted cash. ([ir.intelliatx.com](https://ir.intelliatx.com/node/12826))\n\nBefore the decision, MAGNITUDE-2 enrollment completion targeted for the second half of 2026, nex-z safety developments, financial results and launch spending could reset the share-price baseline. The conditional moves apply to the price immediately before FDA's decision, not necessarily today's price. March 10 is 155 days away, so options do not determine the directional classifications: both directions qualify as suspected big movers, but neither receives a confirmed big-mover designation at this horizon. ([ir.intelliatx.com](https://ir.intelliatx.com/node/12831/html?utm_source=openai))",
   "catalyst_event_details": "FDA's decision on lonvoguran ziclumeran's BLA for hereditary angioedema is scheduled for March 10, 2027. ([ir.intelliatx.com](https://ir.intelliatx.com/node/12886?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T13:28:48Z"
+ },
+ {
+  "id": 14990,
+  "company": {
+   "ticker": "AQST",
+   "name": "Aquestive Therapeutics",
+   "last_price": "3.88",
+   "market_cap": 509577280,
+   "website": "https://www.aquestive.com"
+  },
+  "ticker": "AQST",
+  "drug_name": "Anaphylm\u2122 (dibutepinephrine) sublingual film",
+  "indications": [
+   {
+    "id": 833,
+    "title": "Anaphylaxis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Anaphylaxis",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "09/17/26:- NDA resubmitted for Anaphylm; FDA to determine resubmission class and review timeline. 10/15/26:- FDA accepted NDA resubmission; PDUFA goal date March 16, 2027.",
+  "catalyst_date": "2027-03-16",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/15/3381477/0/en/aquestive-therapeutics-announces-fda-acceptance-of-anaphylm-nda-resubmission-and-pdufa-goal-date-of-march-16-2027.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 13916,
@@ -27971,7 +27904,7 @@
   "company": {
    "ticker": "ANVS",
    "name": "Annovis Bio",
-   "last_price": "1.03",
+   "last_price": "1.02",
    "market_cap": 44813012,
    "website": "https://www.annovisbio.com"
   },
@@ -28376,6 +28309,68 @@
   "move_analysis_created_datetime": "2026-10-06T15:50:11Z"
  },
  {
+  "id": 17171,
+  "company": {
+   "ticker": "TLSA",
+   "name": "Tiziana Life Sciences",
+   "last_price": "1.05",
+   "market_cap": 133622080,
+   "website": "https://www.tizianalifesciences.com"
+  },
+  "ticker": "TLSA",
+  "drug_name": "Intranasal Foralumab ",
+  "indications": [
+   {
+    "id": 1311,
+    "title": "Alzheimer's disease",
+    "nickname": ""
+   },
+   {
+    "id": 1239,
+    "title": "Neurodegenerative disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alzheimer's disease",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "IND cleared in Q3 2023. Present at AD/PD 2024. 12/17/24- First patient dosed. 5/9/25- New PET scan data reported. 12/17/25:- First patient dosed; interim Phase 2 data in 2026. 10/16/26:- Last patient began dosing; enrollment completed. Topline Phase 2 data expected Q1 2027.",
+  "catalyst_date": "2027-03-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/16/3382503/0/en/tiziana-doses-last-patient-in-phase-2-trial-of-intranasal-foralumab-for-mild-alzheimer-s-disease.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": "25.000000",
+  "probability_clean_plus_max": "35.000000",
+  "probability_mixed_min": "40.000000",
+  "probability_mixed_max": "50.000000",
+  "probability_clean_minus_min": "20.000000",
+  "probability_clean_minus_max": "30.000000",
+  "magnitude_clean_plus_min": "20.000000",
+  "magnitude_clean_plus_max": "45.000000",
+  "magnitude_mixed_min": "-18.000000",
+  "magnitude_mixed_max": "5.000000",
+  "magnitude_clean_minus_min": "-40.000000",
+  "magnitude_clean_minus_max": "-20.000000",
+  "up_suspected_big_mover": true,
+  "up_big_mover": false,
+  "down_suspected_big_mover": true,
+  "down_big_mover": false,
+  "key_readout_comment": "This is an early randomized proof-of-concept readout, not a registration-enabling trial or confirmation of established efficacy. The July 2026 company presentation describes 32 planned participants: 12 at each active dose and eight receiving placebo, with assessment after 12 weeks. Brain-inflammation PET imaging, cognition and other biomarkers are evaluated. The small placebo group and short duration make convincing cognitive benefit difficult to establish. Earlier Alzheimer\u2019s evidence consists of an uncontrolled patient\u2019s PET improvement, which supports biological activity but does not establish clinical benefit. A clearly favorable result needs a credible placebo-separated effect, acceptable safety and supportive clinical findings\u2014not simply improved scans. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/07/Tiziana-Neuro-Presentation-July-2026-Non-Confidential.pdf))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "The company anticipates interim results during 2026, without specifying an exact announcement date. We view this as the first meaningful controlled Alzheimer\u2019s test of the approach, with moderate importance: it can strengthen the investment case, but remains an early study. Historical neurology programs advanced from Phase 2 to Phase 3 about 26.8% of the time; that is a development benchmark, not the probability of a favorable stock reaction. Randomization helps, but the limited prior Alzheimer\u2019s evidence supports keeping an unequivocally favorable outcome at 25\u201335%. ([tizianalifesciences.com](https://www.tizianalifesciences.com/tiziana-life-sciences-doses-first-patient-in-phase-2-alzheimers-clinical-trial/?utm_source=openai))\n\nMixed results are the most likely outcome at 40\u201350%. Reduced brain inflammation could be encouraging without convincing evidence that memory or daily functioning improves. With only eight planned placebo participants, individual differences, incomplete assessments and testing two doses across several measures can make interpretation fragile. Twelve weeks is also a short period for demonstrating sustained benefit. Our favorable scenario requires consistent evidence rather than an isolated positive measurement. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/07/Tiziana-Neuro-Presentation-July-2026-Non-Confidential.pdf))\n\nThe supplied snapshot values TLSA at approximately $136.2 million and shows zero BPIQ specialist hedge-fund holders across the supplied four-quarter history. That does not predict failure, but offers little specialist endorsement. Funding is a substantial consideration: reported cash was $4.01 million at December 31, 2025, versus $12.85 million of annual operating cash use. January 2026 financing added approximately $8.6 million net. Multiple ongoing trials, the annual report\u2019s going-concern warning and an equity-sale facility make additional fundraising\u2014and dilution\u2014a material risk. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1723069/000121390026051015/ea0287936-20f_tiziana.htm))\n\nOur conditional moves are +20\u201345% for clearly favorable results, \u221218% to +5% for mixed findings and \u221240% to \u221220% for clearly unfavorable results. Strong controlled Alzheimer\u2019s evidence could expand foralumab\u2019s perceived opportunity, while weak results could damage confidence in the broader platform. Other indications provide some cushion. These estimates assume no major intervening repricing; the earlier INFORM-MS readout could alter both valuation and expectations, although success in MS would not establish Alzheimer\u2019s efficacy. ([tizianalifesciences.com](https://www.tizianalifesciences.com/wp-content/uploads/2026/07/Tiziana-Neuro-Presentation-July-2026-Non-Confidential.pdf))\n\nThe supplied March 2027 options imply approximately 173% total movement through expiration, far above our event-specific fundamental ranges. However, wide spreads, a strike well above the share price, broad timing and exposure to other catalysts prevent that figure from isolating the Alzheimer\u2019s event. It therefore does not confirm either big-mover designation.",
+  "catalyst_event_details": "Interim Phase 2 data for intranasal foralumab in early Alzheimer\u2019s disease are anticipated in 2026. ([tizianalifesciences.com](https://www.tizianalifesciences.com/tiziana-life-sciences-doses-first-patient-in-phase-2-alzheimers-clinical-trial/?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-10-06T14:56:27Z"
+ },
+ {
   "id": 17500,
   "company": {
    "ticker": "SPRY",
@@ -28675,7 +28670,7 @@
   "company": {
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
-   "last_price": "1.65",
+   "last_price": "1.59",
    "market_cap": 734177280,
    "website": "https://www.lexpharma.com"
   },
@@ -28851,7 +28846,7 @@
   "company": {
    "ticker": "LXRX",
    "name": "Lexicon Pharmaceuticals Inc",
-   "last_price": "1.65",
+   "last_price": "1.59",
    "market_cap": 734177280,
    "website": "https://www.lexpharma.com"
   },
@@ -28907,6 +28902,68 @@
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
   "move_analysis_created_datetime": null
+ },
+ {
+  "id": 18598,
+  "company": {
+   "ticker": "GUTS",
+   "name": "Fractyl Health",
+   "last_price": "4.16",
+   "market_cap": 55182344,
+   "website": "https://fractyl.com"
+  },
+  "ticker": "GUTS",
+  "drug_name": "Revita",
+  "indications": [
+   {
+    "id": 1027,
+    "title": "Obesity",
+    "nickname": ""
+   },
+   {
+    "id": 1391,
+    "title": "Type 2 diabetes",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Obesity, Type 2 diabetes",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "REMAIN-1, REVEAL-1 trials. 4/1/25- REVEAL-1 prelim data reported. 6/23/25- 3mth REVEAL-1 cohort data reported. 9/26/25- REMAIN-1 Midpoint cohort 3mth data announced; met key efficacy endpoint. 6mth primary endpoint data in Q1 2026. REMAIN-1 Pivotal cohort 6mth endpoint data in H2 2026. 11/12/25:- Revita randomized REMAIN-1 data positive; Germany registry 2-year outcomes favorable; multiple cohort data catalysts Q4 2025\u2013H2 2026. 01/29/26:- 6m Midpoint data positive. 1y REVEAL-1 Q2 2026, 1y Midpoint Q3 2026, pivotal 6m and FDA filing H2 2026. 02/26/26:- REMAIN-1 Pivotal randomization completed; De Novo feedback Q2 2026; pivotal 6m data early Q4 2026; filing late Q4 2026. 03/24/26:- New Midpoint post-hoc data; pivotal randomization complete; Q2\u2013Q4 2026 REVEAL-1, Midpoint, pivotal 6m and De Novo milestones. 05/12/26:- Revita Q2\u2013Q4 2026 REVEAL-1, Midpoint, pivotal 6m data and late Q4 2026 De Novo submission timelines reaffirmed. 06/04/26:- REVEAL-1 1y weight maintenance positive. Next REMAIN-1 Midpoint 1y data Q3 2026; Pivotal 6m topline Early Q4 2026. 07/15/26:- REMAIN-1 Midpoint Cohort 1y results positive. Pivotal 6m topline Early Q4 2026; De Novo filing Late Q4 2026. 08/10/26:- One-year data were detailed. Pivotal 6m expected Early Q4 2026, De Novo Late Q4, 1y Q1 2027. 10/16/26:- REMAIN-1 pivotal 6m topline positive. De Novo Late Q4 2026; CPT 1/1/27; FDA decision Late 2027; launch Early 2028.",
+  "catalyst_date": "2027-03-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/16/3382499/0/en/fractyl-health-s-revita-meets-six-month-co-primary-endpoint-in-ongoing-remain-1-pivotal-study-with-highly-statistically-significant-reduction-in-weight-regain-after-glp-1-discontin.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": "35.000000",
+  "probability_clean_plus_max": "45.000000",
+  "probability_mixed_min": "27.000000",
+  "probability_mixed_max": "37.000000",
+  "probability_clean_minus_min": "23.000000",
+  "probability_clean_minus_max": "33.000000",
+  "magnitude_clean_plus_min": "40.000000",
+  "magnitude_clean_plus_max": "85.000000",
+  "magnitude_mixed_min": "-40.000000",
+  "magnitude_mixed_max": "-15.000000",
+  "magnitude_clean_minus_min": "-80.000000",
+  "magnitude_clean_minus_max": "-55.000000",
+  "up_suspected_big_mover": true,
+  "up_big_mover": false,
+  "down_suspected_big_mover": true,
+  "down_big_mover": false,
+  "key_readout_comment": "This is a new registrational efficacy readout, not another pilot follow-up. Approximately 315 participants were assigned 2:1 to Revita or a sham procedure, with patients and assessors blinded. The six-month endpoint compares weight regain after stopping tirzepatide; a separate one-year co-primary endpoint follows in Q1 2027. Participants have obesity without type 2 diabetes. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1572616/000119312526303948/guts-ex99_2.htm)) Earlier randomized evidence supports activity, but the broad six-month pilot population showed 4.5% versus 7.5% regain, with a one-sided p-value of 0.07. The strongest subsequent results came from small groups receiving more complete treatment. Clear benefit across the main pivotal population\u2014not subgroup success alone\u2014is the key expectation. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/01/29/3228413/0/en/fractyl-health-announces-compelling-6-month-randomized-remain-1-midpoint-data-showing-durable-weight-maintenance-with-revita-after-glp-1-discontinuation.html)) Cash supports the anticipated readout, but further financing will be needed to sustain development and commercialization. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/node/8926/html))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "Revita\u2019s pivotal six-month REMAIN-1 results are expected in early Q4 2026. Revita is an endoscopic device procedure, making this a pivotal-study setup rather than a fresh exploratory Phase 2 experiment. Historical metabolic-drug programs advanced from Phase 3 to an application 63.6% of the time. That benchmark describes drug development, not device success or the chance of an unequivocally favorable stock reaction. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/news-releases/news-release-details/fractyl-health-host-virtual-commercial-strategy-day-tuesday?utm_source=openai))\n\nThe approximately 315-patient, blinded, sham-controlled study gives the program a stronger test than the small pilot. Fractyl reports complete treatment of the targeted intestinal lining in the pivotal cohort, addressing a limitation associated with weaker pilot outcomes. Nevertheless, the earlier broad-population six-month result showed 4.5% versus 7.5% weight regain, with a one-sided p-value of 0.07\u2014not conventional statistical significance. The strongest longer-term results came from small selected groups. Our 35\u201345% favorable-outcome probability requires convincing benefit across the main pivotal population, not just an encouraging subgroup. Control-arm weight regain, initial tirzepatide weight loss and treatment execution remain important. Six-month success would still leave the separate twelve-month responder endpoint to establish. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1572616/000119312526303948/guts-ex99_2.htm))\n\nAt the supplied $4.56 price, the disclosed share count adjusted for the October 2 one-for-twelve reverse split implies approximately $60.5 million of common-equity value. Cash was $47.1 million at June 30, and debt was carried at approximately $30.4 million. Management expects funding into early 2027 but identifies a need for additional capital beyond that runway. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/node/8926/html)) BPIQ reports two specialist hedge funds, down from three a year earlier, with approximately $1.7 million collectively invested. That is some specialist participation, but not broad external conviction; it does not independently establish clinical success.\n\nRevita carries much of the near-term investment case, while Rejuva remains early in development. ([fractyl.gcs-web.com](https://fractyl.gcs-web.com/news-releases/news-release-details/fractyl-health-reports-second-quarter-2026-financial-results-and)) At this small valuation, strong pivotal evidence could plausibly produce a 40\u201385% gain. Failure could sharply reduce the lead program\u2019s value and financing appeal, supporting a 55\u201380% decline. A statistically positive but modest benefit, subgroup-dependent result or safety concern could disappoint investors enough to produce a 15\u201340% decline. The supplied historical reactions reinforce this distinction: January\u2019s sponsor-described positive midpoint results coincided with a 63.3% opening decline, while July\u2019s positive follow-up produced only a 5.0% opening gain. The pivotal result is more consequential than those follow-ups, but reimbursement, adoption and funding still matter. These are fundamental move estimates rather than options-confirmed forecasts; neither direction receives an options-confirmed big-mover designation.",
+  "catalyst_event_details": "Revita\u2019s REMAIN-1 pivotal six-month readout for obesity weight maintenance after GLP-1 discontinuation is expected in early Q4 2026. ([ir.fractyl.com](https://ir.fractyl.com/static-files/58daed73-8de9-442d-8a77-8c435c11c70c))",
+  "move_analysis_created_datetime": "2026-10-06T14:52:20Z"
  },
  {
   "id": 18704,
@@ -29275,10 +29332,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "07/30/26:- ASCEND PoC Q1 2027; chemo and sac-TMT combo data Mid-2027; sac-TMT Ph2 underway. 10/05/26:- Combination evaluation with CR-002 planned; no timing provided.",
+  "note": "07/30/26:- ASCEND PoC Q1 2027; chemo and sac-TMT combo data Mid-2027; sac-TMT Ph2 underway. 10/05/26:- Combination evaluation with CR-002 planned; no timing provided. 10/15/26:- ASCEND dose escalation complete. Initial monotherapy data Q1 2027; chemo-combo and sac-TMT combo data Mid-2027; Ph3 early 2028.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374436/0/en/crescent-biopharma-announces-fda-clearance-of-ind-application-for-cr-002-a-pd-l1-targeted-topoisomerase-inhibitor-adc-for-the-treatment-of-solid-tumors.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/15/3382144/0/en/crescent-biopharma-announces-clinical-pipeline-momentum-including-enrolling-patients-in-standard-of-care-chemotherapy-combination-cohorts-of-global-phase-1-2-ascend-trial-of-cr-001.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -30998,7 +31055,7 @@
   "company": {
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
-   "last_price": "70.66",
+   "last_price": "69.09",
    "market_cap": 3321741824,
    "website": "https://tarsusrx.com"
   },
@@ -31184,7 +31241,7 @@
   "company": {
    "ticker": "PROK",
    "name": "ProKidney",
-   "last_price": "1.46",
+   "last_price": "1.35",
    "market_cap": 580810624,
    "website": "https://prokidney.com"
   },
@@ -32347,7 +32404,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "11.62",
+   "last_price": "11.43",
    "market_cap": 778571072,
    "website": "https://www.adlainortye.com"
   },
@@ -32409,7 +32466,7 @@
   "company": {
    "ticker": "ANRO",
    "name": "Alto Neuroscience",
-   "last_price": "22.06",
+   "last_price": "22.23",
    "market_cap": 887656448,
    "website": "https://www.altoneuroscience.com"
   },
@@ -32947,7 +33004,7 @@
   "company": {
    "ticker": "TARS",
    "name": "Tarsus Pharmaceuticals",
-   "last_price": "70.66",
+   "last_price": "69.09",
    "market_cap": 3321741824,
    "website": "https://tarsusrx.com"
   },
@@ -33004,7 +33061,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "22.82",
+   "last_price": "21.98",
    "market_cap": 2870143488,
    "website": "https://arcusbio.com"
   },
@@ -33185,7 +33242,7 @@
   "company": {
    "ticker": "STRO",
    "name": "Sutro Biopharma",
-   "last_price": "11.24",
+   "last_price": "11.15",
    "market_cap": 190020224,
    "website": "https://www.sutrobio.com"
   },
@@ -33651,7 +33708,7 @@
   "company": {
    "ticker": "OPK",
    "name": "OPKO Health",
-   "last_price": "1.73",
+   "last_price": "1.60",
    "market_cap": 1201588480,
    "website": "https://www.opko.com"
   },
@@ -34112,7 +34169,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "11.62",
+   "last_price": "11.43",
    "market_cap": 778571072,
    "website": "https://www.adlainortye.com"
   },
@@ -34469,7 +34526,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "17.78",
+   "last_price": "17.50",
    "market_cap": 942137728,
    "website": "https://www.seaporttx.com"
   },
@@ -35240,7 +35297,7 @@
   "company": {
    "ticker": "VRCA",
    "name": "Verrica Pharmaceuticals",
-   "last_price": "3.81",
+   "last_price": "3.79",
    "market_cap": 64935820,
    "website": "https://www.verrica.com"
   },
@@ -35932,7 +35989,7 @@
   "company": {
    "ticker": "ANRO",
    "name": "Alto Neuroscience",
-   "last_price": "22.06",
+   "last_price": "22.23",
    "market_cap": 887656448,
    "website": "https://www.altoneuroscience.com"
   },
@@ -36108,7 +36165,7 @@
   "company": {
    "ticker": "IVVD",
    "name": "INVIVYD",
-   "last_price": "0.67",
+   "last_price": "0.62",
    "market_cap": 197134656,
    "website": "https://www.invivyd.com"
   },
@@ -36688,7 +36745,7 @@
   "company": {
    "ticker": "VKTX",
    "name": "Viking Therapeutics",
-   "last_price": "26.61",
+   "last_price": "26.11",
    "market_cap": 3480513024,
    "website": "https://www.vikingtherapeutics.com"
   },
@@ -37883,7 +37940,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.72",
+   "last_price": "43.05",
    "market_cap": 7332051968,
    "website": "https://www.ionis.com"
   },
@@ -38002,7 +38059,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "33.51",
+   "last_price": "32.75",
    "market_cap": 4603411456,
    "website": "https://definiumtx.com"
   },
@@ -38991,7 +39048,7 @@
   "company": {
    "ticker": "ANRO",
    "name": "Alto Neuroscience",
-   "last_price": "22.06",
+   "last_price": "22.23",
    "market_cap": 887656448,
    "website": "https://www.altoneuroscience.com"
   },
@@ -39410,7 +39467,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "56.54",
+   "last_price": "56.49",
    "market_cap": 2174954752,
    "website": "https://www.discmedicine.com"
   },
@@ -40643,6 +40700,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 20210,
+  "company": {
+   "ticker": "EDSA",
+   "name": "Edesa Biotech",
+   "last_price": "2.71",
+   "market_cap": 36075788,
+   "website": "https://www.edesabiotech.com"
+  },
+  "ticker": "EDSA",
+  "drug_name": "EB06 (CXCL10 Antibody)",
+  "indications": [
+   {
+    "id": 1361,
+    "title": "Vitiligo",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Moderate-To-Severe Nonsegmental Vitiligo",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/14/26:- CRO contracted; site activations and recruitment still expected Mid-2026. 08/13/26:- Phase 2 preparations completed; first sites are activating. Recruitment is expected in coming weeks in Canada. 10/15/26:- FDA cleared IND for Ph2 vitiligo; U.S. sites enroll next quarter. Topline data expected Q4 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/15/3381747/0/en/edesa-biotech-announces-fda-ind-clearance-for-phase-2-vitiligo-study.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 20227,
   "company": {
    "ticker": "SNSE",
@@ -41071,7 +41185,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "29.57",
+   "last_price": "27.79",
    "market_cap": 1418717952,
    "website": "https://www.rapportrx.com"
   },
@@ -42350,7 +42464,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "17.78",
+   "last_price": "17.50",
    "market_cap": 942137728,
    "website": "https://www.seaporttx.com"
   },
@@ -43410,7 +43524,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.57",
+   "last_price": "47.59",
    "market_cap": 1456197248,
    "website": "https://www.anaptysbio.com"
   },
@@ -43467,7 +43581,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.57",
+   "last_price": "47.59",
    "market_cap": 1456197248,
    "website": "https://www.anaptysbio.com"
   },
@@ -43730,7 +43844,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "21.30",
+   "last_price": "21.03",
    "market_cap": 416401472,
    "website": "https://tectonictx.com"
   },
@@ -44402,7 +44516,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "43.72",
+   "last_price": "43.05",
    "market_cap": 7332051968,
    "website": "https://www.ionis.com"
   },
@@ -45575,7 +45689,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "33.51",
+   "last_price": "32.75",
    "market_cap": 4603411456,
    "website": "https://definiumtx.com"
   },
@@ -45632,7 +45746,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "16.84",
+   "last_price": "16.72",
    "market_cap": 3791150080,
    "website": "https://www.relaytx.com"
   },
@@ -47680,7 +47794,7 @@
   "company": {
    "ticker": "SPTX",
    "name": "Seaport Therapeutics",
-   "last_price": "17.78",
+   "last_price": "17.50",
    "market_cap": 942137728,
    "website": "https://www.seaporttx.com"
   },
@@ -47725,6 +47839,63 @@
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
   "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20601,
+  "company": {
+   "ticker": "RHHBY",
+   "name": "Roche Holding",
+   "last_price": "56.78",
+   "market_cap": 361922920448,
+   "website": "https://www.roche.com"
+  },
+  "ticker": "RHHBY",
+  "drug_name": "Enspryng/Satralizumab (IL-6 Receptor Inhibitor)",
+  "indications": [
+   {
+    "id": 997,
+    "title": "Thyroid Eye Disease ",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Thyroid Eye Disease",
+  "stage_event": {
+   "id": 99,
+   "label": "Approved Update",
+   "stage_label": "Approved",
+   "event_label": "Update"
+  },
+  "note": "06/30/26:- FDA accepted priority sBLA for TED; decision expected October 15, 2026. 07/23/26:- Priority review for thyroid eye disease was reiterated; FDA decision will occur October 15, 2026. 10/16/26:- FDA approved Enspryng for thyroid eye disease; first at-home SC option.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62403076/fda-approves-roche-s-enspryng-first-class-il-6r-inhibitor-first-and-only-home-subcutaneous-treatment",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": "55.000000",
+  "probability_clean_plus_max": "65.000000",
+  "probability_mixed_min": "15.000000",
+  "probability_mixed_max": "25.000000",
+  "probability_clean_minus_min": "15.000000",
+  "probability_clean_minus_max": "25.000000",
+  "magnitude_clean_plus_min": "0.100000",
+  "magnitude_clean_plus_max": "0.600000",
+  "magnitude_mixed_min": "-0.400000",
+  "magnitude_mixed_max": "0.150000",
+  "magnitude_clean_minus_min": "-1.000000",
+  "magnitude_clean_minus_max": "-0.200000",
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "The two randomized, double-masked, placebo-controlled Phase 3 trials enrolled 258 adults. The primary endpoint was at least a 2-mm reduction in eye bulging at week 24 in active disease. SatraGO-2 succeeded: 52.9% responded versus 23.4% with placebo, p=0.0011. SatraGO-1 missed statistical significance: 49.0% versus 31.2%, p=0.0715. Its secondary results therefore remain supportive rather than formally confirmatory under the testing sequence. Double-vision improvement was statistically significant only in SatraGO-2. Serious adverse events and discontinuations were uncommon, with no serious infections in treated participants. ([aaojournal.org](https://www.aaojournal.org/article/S0161-6420%2826%2900673-1/fulltext?utm_source=openai))",
+  "cmc_regulatory_risk": "Low\u2013Moderate: established commercial antibody and prefilled-syringe supply chain involving Chugai manufacturing and Roche assembly. The original FDA review classified both Chugai manufacturing sites as VAI, meaning voluntary corrective action was indicated; FDA explicitly found the inspection observations adequately addressed and recommended approval. These historical findings do not establish the outcome of any subsequent inspection. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000ChemR.pdf))",
+  "key_pdufa_comment": "This is a Priority Review sBLA for an additional indication of an already marketed medicine, with an FDA decision expected by October 15, 2026, nine days after October 6. The evidence supports a traditional approval assessment based on clinical improvement, rather than reliance on a surrogate endpoint for Accelerated Approval. The central question is whether one successful pivotal trial plus supportive evidence from the other establishes sufficient efficacy, and how broadly the label can cover active and inactive disease. Clean approval means a commercially useful TED population and the expected at-home dosing, without an unexpected boxed warning, restricted-access program or manufacturing restriction; a materially restrictive label would be a mixed outcome. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-06-30?utm_source=openai)) Enspryng received its original U.S. approval on August 14, 2020; FDA did not require an advisory committee for that application. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000Approv.pdf)) This is not a first-commercial-product launch. Chugai supplies the medicine, while Roche holds U.S. development and marketing rights under a license involving milestones and royalties to Chugai. ([chugai-pharm.co.jp](https://www.chugai-pharm.co.jp/news/cont_file_dl.php?f=160601eSA237licenseout.pdf&rep=130%2C133&src=%5B%250%5D%2C%5B%251%5D)) Manufacturing uses an established commercial supply chain; FDA accepted remediation of the original inspection observations, which is not a guarantee about subsequent inspections. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000ChemR.pdf)) Competition includes Tepezza and Lumvoa, which FDA approved on June 26, 2026, for TED regardless of activity or duration. At-home dosing offers differentiation, but the expanding treatment landscape makes commercial uptake important even after approval. Because this is a traditional-approval assessment, Lumvoa does not create an Accelerated Approval eligibility gate. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761143s031lbl.pdf?utm_source=openai))",
+  "move_analysis_ai_reasoning": "We estimate a 55\u201365% chance of clean approval, with central probabilities of 60% clean positive, 20% mixed and 20% clean negative. Randomized Phase 3 evidence and an established medicine support approval, but this is not the stronger setup of two independently successful pivotal trials. The unsuccessful SatraGO-1 primary endpoint leaves a meaningful possibility that FDA requests additional evidence. A narrower population or commercially burdensome requirement could instead produce a mixed outcome. Priority Review supports the importance of the application, not certainty of approval. ([gene.com](https://www.gene.com/media/press-releases/15118/2026-06-29/fda-grants-priority-review-to-genentechs))\n\nManufacturing is substantially better established than at a first-launch biotech. FDA\u2019s original quality review identified Chugai drug-substance production in Tokyo, drug-product production in Utsunomiya and syringe assembly at Roche\u2019s Kaiseraugst site. FDA documented that the original inspection observations were adequately addressed. Commercial use across approximately 90 countries provides additional reassurance, while routine sterile-biologic and syringe-supply risks remain. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/761149Orig1s000ChemR.pdf))\n\nUsing the supplied company figures, Roche\u2019s $334.7 billion market capitalization, $380.9 billion enterprise value and $9.7 billion cash balance make this indication a small part of the overall valuation. Financing is not dependent on this decision. The supplied BPIQ ownership figures show zero specialist funds and no reported aggregate holdings; that carries little negative significance for a diversified global pharmaceutical company. Roche participates in U.S. commercialization rather than receiving only an outside royalty, although the Chugai license includes milestone and royalty obligations. ([chugai-pharm.co.jp](https://www.chugai-pharm.co.jp/english/news/detail/20160601150001_133.html))\n\nOur event-specific move estimates are consequently modest: +0.10% to +0.60% for clean approval, -0.40% to +0.15% for a mixed outcome and -1.00% to -0.20% for nonapproval. At-home administration offers differentiation, but approval would enter a market with Tepezza and newly approved Lumvoa. FDA approved Lumvoa on June 26, 2026, regardless of TED activity or duration. More competition limits the commercial value of approval alone, while Enspryng's different mechanism and home dosing could still attract patients. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761143s031lbl.pdf?utm_source=openai)) Tecentriq\u2019s October 9 colon-cancer decision falls before this event and could reset Roche\u2019s share-price baseline; these ranges apply to the price immediately before the Enspryng decision. ([assets.roche.com](https://assets.roche.com/f/176343/521f597dff/01-mediainvestor-release-fda-grants-priority-review-for-tecentriq-english.pdf)) Roche\u2019s October 22 sales update falls afterward. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-09-22b?utm_source=openai)) Neither direction approaches the 20% threshold for a big-mover classification.",
+  "catalyst_event_details": "The FDA is expected to decide on Enspryng\u2019s supplemental application for thyroid eye disease by October 15, 2026. ([gene.com](https://www.gene.com/media/press-releases/15118/2026-06-29/fda-grants-priority-review-to-genentechs))",
+  "move_analysis_created_datetime": "2026-10-06T12:59:47Z"
  },
  {
   "id": 20637,

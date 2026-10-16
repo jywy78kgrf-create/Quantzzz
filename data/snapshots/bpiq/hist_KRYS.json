@@ -1,5 +1,29 @@
 [
  {
+  "id": 8938,
+  "company": {
+   "id": 130,
+   "ticker": "KRYS",
+   "name": "Krystal Biotech",
+   "website": "https://www.krystalbio.com"
+  },
+  "created_at": "2026-10-16T13:07:40.332747Z",
+  "updated_at": "2026-10-16T13:07:40.332777Z",
+  "ticker": "KRYS",
+  "drug_name": "KB113",
+  "drug_indication": "Gorlin Syndrome",
+  "airtable_id": 9218,
+  "stage": "Phase 1",
+  "catalyst_date": "2026-10-15",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/15/3381506/0/en/krystal-biotech-announces-positive-clinical-data-for-new-dermatology-program-kb113-demonstrating-broad-basal-cell-carcinoma-regression-in-patients-with-gorlin-syndrome.html",
+  "catalyst_text": "Reported positive pilot study results in Gorlin syndrome",
+  "detailed_catalyst_text": "The company reported initial proof-of-concept clinical results from a pilot study of an intratumoral immunotherapy in patients with Gorlin syndrome. Over 80% of assessed basal cell carcinoma lesions regressed, responses occurred in injected and non-injected lesions, and one injected lesion per patient achieved histologically confirmed complete clearance. These results suggest early efficacy and systemic immune activity in a high-need population and support continued development.",
+  "catalyst_text_evidence": "PITTSBURGH, 2026-10-15 (GLOBE NEWSWIRE) -- Krystal Biotech, Inc. (the \u201cCompany\u201d) (NASDAQ: KRYS) announced today a positive clinical update supporting initial proof of concept for KB113, an intratumoral immunotherapy designed to drive sustained, localized expression of interleukin-2 (IL-2) and interleukin-12 (IL-12) in the tumor microenvironment and promote systemic immune-mediated tumor clearance, in the treatment of basal cell carcinomas (BCCs) in patients with Gorlin syndrome: Broad antitumor responses were detected in all three Gorlin syndrome patients treated with KB113, with over 80% of assessed BCC lesions reducing in size; Responses were observed in both injected and non-injected lesions, including substantial regression in lesions that were not directly injected with KB113, consistent with an abscopal effect; and Complete clearance of an injected lesion was also confirmed histologically for each of the three patients treated with KB113.",
+  "news_published_at": "2026-10-16T00:00:00Z",
+  "open_price_gap_percent": "0.00693",
+  "intra_day_price_change_percent": "-0.00895"
+ },
+ {
   "id": 6564,
   "company": {
    "id": 130,
@@ -8,7 +32,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2026-02-10T13:00:30.835198Z",
-  "updated_at": "2026-10-15T13:00:42.444405Z",
+  "updated_at": "2026-10-16T13:01:08.682179Z",
   "ticker": "KRYS",
   "drug_name": "KB707",
   "drug_indication": "Advanced or metastatic non-small cell lung cancer",
@@ -32,7 +56,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2026-01-10T13:03:43.858021Z",
-  "updated_at": "2026-10-15T13:05:54.940064Z",
+  "updated_at": "2026-10-16T13:06:32.080919Z",
   "ticker": "KRYS",
   "drug_name": "KB407",
   "drug_indication": "Cystic Fibrosis",
@@ -56,7 +80,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2025-07-28T13:03:28.575874Z",
-  "updated_at": "2026-10-15T13:04:55.121484Z",
+  "updated_at": "2026-10-16T13:05:33.365658Z",
   "ticker": "KRYS",
   "drug_name": "KB304",
   "drug_indication": "Wrinkles",
@@ -80,7 +104,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2025-06-26T13:04:03.813501Z",
-  "updated_at": "2026-10-15T13:05:12.456368Z",
+  "updated_at": "2026-10-16T13:05:49.478321Z",
   "ticker": "KRYS",
   "drug_name": "KB803",
   "drug_indication": "Corneal abrasions in dystrophic epidermolysis bullosa (DEB)  ",
@@ -104,7 +128,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2025-02-21T20:06:57.978858Z",
-  "updated_at": "2026-10-15T13:02:37.036466Z",
+  "updated_at": "2026-10-16T13:03:14.703265Z",
   "ticker": "KRYS",
   "drug_name": "KB707 - (KYANITE-1)",
   "drug_indication": "Solid Tumors",
@@ -128,7 +152,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2025-02-21T20:07:47.660819Z",
-  "updated_at": "2026-10-15T13:03:51.618671Z",
+  "updated_at": "2026-10-16T13:04:29.604985Z",
   "ticker": "KRYS",
   "drug_name": "KB408 - (SERPENTINE-1)",
   "drug_indication": "Alpha-1 antitrypsin deficiency (AATD)",
@@ -152,7 +176,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2025-02-21T20:08:33.864818Z",
-  "updated_at": "2026-10-15T13:05:05.824870Z",
+  "updated_at": "2026-10-16T13:05:42.898615Z",
   "ticker": "KRYS",
   "drug_name": "KB407 - (CORAL-1)",
   "drug_indication": "Cystic Fibrosis",
@@ -176,7 +200,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2025-02-21T20:06:27.815774Z",
-  "updated_at": "2026-10-15T13:01:51.770691Z",
+  "updated_at": "2026-10-16T13:02:28.106360Z",
   "ticker": "KRYS",
   "drug_name": "KB301 - (PEARL-1)",
   "drug_indication": "Wrinkles and acne scars",
@@ -200,7 +224,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2025-02-21T20:09:01.923032Z",
-  "updated_at": "2026-10-15T13:05:52.969674Z",
+  "updated_at": "2026-10-16T13:06:29.946668Z",
   "ticker": "KRYS",
   "drug_name": "VYJUVEK (beremagene geperpavec-svdt)",
   "drug_indication": "Epidermolysis Bullosa",
@@ -224,7 +248,7 @@
    "website": "https://www.krystalbio.com"
   },
   "created_at": "2025-02-21T20:08:11.836453Z",
-  "updated_at": "2026-10-15T13:04:26.868226Z",
+  "updated_at": "2026-10-16T13:05:08.949107Z",
   "ticker": "KRYS",
   "drug_name": "KB105 - (JADE-1)",
   "drug_indication": "Transglutaminase-1 Deficient Autosomal Recessive Congenital Ichthyosis (ARCI)",

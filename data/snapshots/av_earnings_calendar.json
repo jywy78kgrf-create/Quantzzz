@@ -8,7 +8,7 @@
  {
   "ticker": "GE",
   "reportDate": "2026-10-20",
-  "estimate": "2.01",
+  "estimate": "2.02",
   "time": "pre-market"
  },
  {
@@ -24,9 +24,15 @@
   "time": "pre-market"
  },
  {
+  "ticker": "META",
+  "reportDate": "2026-10-21",
+  "estimate": "6.67",
+  "time": "post-market"
+ },
+ {
   "ticker": "T",
   "reportDate": "2026-10-21",
-  "estimate": "0.59",
+  "estimate": "0.61",
   "time": "pre-market"
  },
  {
@@ -62,13 +68,13 @@
  {
   "ticker": "UNP",
   "reportDate": "2026-10-22",
-  "estimate": "3.44",
+  "estimate": "3.47",
   "time": "pre-market"
  },
  {
   "ticker": "AXP",
   "reportDate": "2026-10-23",
-  "estimate": "4.5",
+  "estimate": "4.47",
   "time": "pre-market"
  },
  {
@@ -86,7 +92,7 @@
  {
   "ticker": "VZ",
   "reportDate": "2026-10-26",
-  "estimate": "1.28",
+  "estimate": "1.27",
   "time": "pre-market"
  },
  {
@@ -104,7 +110,7 @@
  {
   "ticker": "BA",
   "reportDate": "2026-10-27",
-  "estimate": "-0.15",
+  "estimate": "-0.17",
   "time": "pre-market"
  },
  {
@@ -114,16 +120,16 @@
   "time": "pre-market"
  },
  {
-  "ticker": "NBIX",
+  "ticker": "RCUS",
   "reportDate": "2026-10-27",
-  "estimate": "1.99",
+  "estimate": "-0.93",
   "time": ""
  },
  {
   "ticker": "V",
   "reportDate": "2026-10-27",
   "estimate": "3.43",
-  "time": ""
+  "time": "post-market"
  },
  {
   "ticker": "BIIB",
@@ -134,7 +140,7 @@
  {
   "ticker": "GOOGL",
   "reportDate": "2026-10-28",
-  "estimate": "2.95",
+  "estimate": "2.94",
   "time": "post-market"
  },
  {
@@ -159,7 +165,7 @@
   "ticker": "ALNY",
   "reportDate": "2026-10-29",
   "estimate": "1.68",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "AMZN",
@@ -170,7 +176,13 @@
  {
   "ticker": "BMY",
   "reportDate": "2026-10-29",
-  "estimate": "1.62",
+  "estimate": "1.28",
+  "time": "pre-market"
+ },
+ {
+  "ticker": "CAT",
+  "reportDate": "2026-10-29",
+  "estimate": "6.95",
   "time": "pre-market"
  },
  {
@@ -182,26 +194,32 @@
  {
   "ticker": "INTC",
   "reportDate": "2026-10-29",
-  "estimate": "0.27",
+  "estimate": "0.28",
   "time": "post-market"
  },
  {
   "ticker": "LLY",
   "reportDate": "2026-10-29",
-  "estimate": "9.83",
+  "estimate": "5.38",
   "time": "pre-market"
  },
  {
   "ticker": "MA",
   "reportDate": "2026-10-29",
   "estimate": "5.13",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "MRK",
   "reportDate": "2026-10-29",
-  "estimate": "2.14",
+  "estimate": "2.12",
   "time": "pre-market"
+ },
+ {
+  "ticker": "SBUX",
+  "reportDate": "2026-10-29",
+  "estimate": "0.72",
+  "time": "post-market"
  },
  {
   "ticker": "TVTX",
@@ -212,43 +230,49 @@
  {
   "ticker": "ABBV",
   "reportDate": "2026-10-30",
-  "estimate": "3.77",
+  "estimate": "3.76",
   "time": "pre-market"
  },
  {
   "ticker": "CVX",
   "reportDate": "2026-10-30",
-  "estimate": "4.89",
+  "estimate": "4.74",
   "time": "pre-market"
  },
  {
   "ticker": "XOM",
   "reportDate": "2026-10-30",
-  "estimate": "3.93",
+  "estimate": "3.92",
   "time": ""
  },
  {
   "ticker": "AAPL",
   "reportDate": "2026-11-02",
-  "estimate": "1.98",
+  "estimate": "1.99",
   "time": "post-market"
  },
  {
   "ticker": "AXSM",
   "reportDate": "2026-11-02",
-  "estimate": "-0.59",
+  "estimate": "-0.65",
   "time": "pre-market"
  },
  {
   "ticker": "KRYS",
   "reportDate": "2026-11-02",
-  "estimate": "1.91",
+  "estimate": "1.88",
   "time": ""
+ },
+ {
+  "ticker": "NBIX",
+  "reportDate": "2026-11-02",
+  "estimate": "1.98",
+  "time": "post-market"
  },
  {
   "ticker": "TGTX",
   "reportDate": "2026-11-02",
-  "estimate": "0.36",
+  "estimate": "0.37",
   "time": ""
  },
  {
@@ -266,8 +290,8 @@
  {
   "ticker": "AMGN",
   "reportDate": "2026-11-03",
-  "estimate": "5.7",
-  "time": ""
+  "estimate": "5.72",
+  "time": "post-market"
  },
  {
   "ticker": "CORT",
@@ -284,13 +308,13 @@
  {
   "ticker": "IDYA",
   "reportDate": "2026-11-03",
-  "estimate": "-1.28",
+  "estimate": "-1.26",
   "time": ""
  },
  {
   "ticker": "KYMR",
   "reportDate": "2026-11-03",
-  "estimate": "-1.25",
+  "estimate": "-1.26",
   "time": ""
  },
  {
@@ -302,7 +326,7 @@
  {
   "ticker": "MIRM",
   "reportDate": "2026-11-03",
-  "estimate": "-0.53",
+  "estimate": "-0.54",
   "time": ""
  },
  {
@@ -314,7 +338,7 @@
  {
   "ticker": "PFE",
   "reportDate": "2026-11-03",
-  "estimate": "0.75",
+  "estimate": "0.72",
   "time": "pre-market"
  },
  {
@@ -338,7 +362,7 @@
  {
   "ticker": "TARS",
   "reportDate": "2026-11-03",
-  "estimate": "-1.49",
+  "estimate": "-1.43",
   "time": ""
  },
  {
@@ -362,13 +386,7 @@
  {
   "ticker": "BBIO",
   "reportDate": "2026-11-04",
-  "estimate": "-0.67",
-  "time": ""
- },
- {
-  "ticker": "CAT",
-  "reportDate": "2026-11-04",
-  "estimate": "6.95",
+  "estimate": "-0.63",
   "time": ""
  },
  {
@@ -396,12 +414,6 @@
   "time": ""
  },
  {
-  "ticker": "META",
-  "reportDate": "2026-11-04",
-  "estimate": "6.39",
-  "time": ""
- },
- {
   "ticker": "PRAX",
   "reportDate": "2026-11-04",
   "estimate": "-3.66",
@@ -410,37 +422,31 @@
  {
   "ticker": "QCOM",
   "reportDate": "2026-11-04",
-  "estimate": "1.47",
-  "time": ""
- },
- {
-  "ticker": "SBUX",
-  "reportDate": "2026-11-04",
-  "estimate": "0.72",
+  "estimate": "1.46",
   "time": ""
  },
  {
   "ticker": "UBER",
   "reportDate": "2026-11-04",
-  "estimate": "1.03",
+  "estimate": "0.94",
   "time": "pre-market"
  },
  {
   "ticker": "UTHR",
   "reportDate": "2026-11-04",
-  "estimate": "6.38",
+  "estimate": "6.25",
   "time": ""
  },
  {
   "ticker": "COP",
   "reportDate": "2026-11-05",
-  "estimate": "2.69",
+  "estimate": "2.86",
   "time": "pre-market"
  },
  {
   "ticker": "DFTX",
   "reportDate": "2026-11-05",
-  "estimate": "-0.54",
+  "estimate": "-0.55",
   "time": ""
  },
  {
@@ -476,7 +482,7 @@
  {
   "ticker": "VTRS",
   "reportDate": "2026-11-05",
-  "estimate": "0.65",
+  "estimate": "0.64",
   "time": "pre-market"
  },
  {
@@ -500,7 +506,7 @@
  {
   "ticker": "CRSP",
   "reportDate": "2026-11-09",
-  "estimate": "-1.06",
+  "estimate": "-1.07",
   "time": ""
  },
  {
@@ -522,12 +528,6 @@
   "time": ""
  },
  {
-  "ticker": "CELC",
-  "reportDate": "2026-11-11",
-  "estimate": "-1.45",
-  "time": ""
- },
- {
   "ticker": "ERAS",
   "reportDate": "2026-11-11",
   "estimate": "-0.14",
@@ -537,12 +537,6 @@
   "ticker": "ORKA",
   "reportDate": "2026-11-11",
   "estimate": "-0.68",
-  "time": ""
- },
- {
-  "ticker": "DIS",
-  "reportDate": "2026-11-12",
-  "estimate": "1.68",
   "time": ""
  },
  {
@@ -570,6 +564,12 @@
   "time": ""
  },
  {
+  "ticker": "DIS",
+  "reportDate": "2026-11-17",
+  "estimate": "1.68",
+  "time": "pre-market"
+ },
+ {
   "ticker": "HD",
   "reportDate": "2026-11-17",
   "estimate": "3.86",
@@ -578,7 +578,7 @@
  {
   "ticker": "NVDA",
   "reportDate": "2026-11-18",
-  "estimate": "2.47",
+  "estimate": "2.48",
   "time": ""
  },
  {
@@ -602,7 +602,7 @@
  {
   "ticker": "DE",
   "reportDate": "2026-11-25",
-  "estimate": "4.08",
+  "estimate": "4.07",
   "time": "pre-market"
  },
  {

@@ -1,119 +1,5 @@
 [
  {
-  "id": 19113,
-  "company": {
-   "ticker": "PDSB",
-   "name": "PDS Biotech",
-   "last_price": "1.13",
-   "market_cap": 81895856,
-   "website": "https://www.pdsbiotech.com"
-  },
-  "ticker": "PDSB",
-  "drug_name": "PDS01ADC + floxuridine (FUDR) via HAIP",
-  "indications": [
-   {
-    "id": 1364,
-    "title": "Metastatic colorectal cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": " Metastatic colorectal cancer",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "7/10/25- Patient recruitment completed for Stage 1 & advancing to Stage 2. Patient recruitment completion by Q4 2025. 11/13/25:- Stage1 mCRC cohort met ORR bar, expanded. 03/30/26:- PR No update. 05/13/26:- Enrollment completed in NCI-led mCRC HAIP PDS01ADC trial; Stage 1 JCO paper reports high ORR and survival. 08/11/26:- Phase 2 mCRC data showed 71% ORR at 6 months and 80% 24-month survival. 08/13/26:- Stage 1 NCI-led mCRC data were published; ORR was 77.8% at six months and 24-month survival was about 80%. 10/06/26:- KOL event Oct 15, 2026 to discuss Ph2 PDS0301 outcomes in mCRC liver metastases.",
-  "catalyst_date": "2026-10-15",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/06/3375413/37149/en/pds-biotech-to-host-key-opinion-leader-event-on-pds0301-for-the-treatment-of-advanced-colorectal-cancer-with-liver-metastases.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 19104,
-  "company": {
-   "ticker": "VTRS",
-   "name": "Viatris Inc",
-   "last_price": "18.66",
-   "market_cap": 21426962432,
-   "website": "https://www.viatris.com"
-  },
-  "ticker": "VTRS",
-  "drug_name": "MR-141 (phentolamine ophthalmic solution 0.75%) ",
-  "indications": [
-   {
-    "id": 2285,
-    "title": "Presbyopia",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Presbyopia",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "VEGA-3 Trial. 6/26/25- Announced positive top-line results. Targeting application to FDA in H2 2025. 02/25/26:- sNDA accepted for MR-141 in presbyopia; PDUFA decision October 17, 2026; VEGA-3 data at ASCRS/ARVO 2026. 02/26/26:- sNDA and October 17, 2026 PDUFA date reiterated in 2025 results.\n04/10/26:- Full VEGA-3 Ph3 results presented at ASCRS Apr 11, 2026. PDUFA Oct 17, 2026.\n05/07/26:- Q1 2026 update reiterates VEGA-3 full results at ASCRS April 2026; PDUFA Oct 17, 2026. 08/06/26:- PR No update.",
-  "catalyst_date": "2026-10-17",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/viatris-reports-first-quarter-2026-financial-results-302765461.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "86.000000",
-  "probability_clean_plus_max": "92.000000",
-  "probability_mixed_min": "4.000000",
-  "probability_mixed_max": "8.000000",
-  "probability_clean_minus_min": "4.000000",
-  "probability_clean_minus_max": "8.000000",
-  "magnitude_clean_plus_min": "0.250000",
-  "magnitude_clean_plus_max": "1.500000",
-  "magnitude_mixed_min": "-1.000000",
-  "magnitude_mixed_max": "0.250000",
-  "magnitude_clean_minus_min": "-2.500000",
-  "magnitude_clean_minus_max": "-0.750000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "Two randomized, double-masked, placebo-controlled Phase 3 trials support the application. VEGA-2 randomized 333 participants; VEGA-3 enrolled over 500. VEGA-3\u2019s primary endpoint required a three-line near-vision improvement without meaningful distance-vision loss: 27.2% responded versus 11.5% with placebo at 12 hours after dosing on Day 8 (p<0.0001). Key secondary endpoints were positive. Common adverse effects were mainly mild redness, irritation and altered taste; no treatment-related serious adverse events were reported. Benefit persisted over six weeks without evidence of diminishing effect. The remaining regulatory questions center on daily-use safety and the final label. ([ir.opusgtx.com](https://ir.opusgtx.com/sec-filings/all-sec-filings/content/0001140361-26-009247/0001140361-26-009247.pdf?utm_source=openai))",
-  "cmc_regulatory_risk": "Low\u2013Moderate: the same-strength ophthalmic product is already commercially supplied as RYZUMVI, and Viatris holds its commercial manufacturing responsibilities. Sterile production, stability and supplier qualification remain relevant for the expanded indication. FDA approved a separate storage-related supplement in March 2026; that does not establish inspection clearance for the presbyopia application. ([investor.viatris.com](https://investor.viatris.com/news-releases/news-release-details/viatris-announces-launch-ryzumvltm-phentolamine-ophthalmic/?utm_source=openai))",
-  "key_pdufa_comment": "The October 17, 2026 decision is a traditional-approval sNDA expanding an already-approved product, not an Accelerated Approval application. Two positive controlled pivotal trials and existing commercial supply support the setup. The disclosed regulatory history does not identify a product-specific CRL, refusal-to-file, clinical hold, review extension or adverse advisory-committee vote for this application. This is not Viatris\u2019s first commercial launch. Its Indore warning letter concerns an oral finished-dose facility and should not be treated as an established MR-141 manufacturing defect. Viatris owns exclusive U.S. commercialization rights and broad rights outside certain Asian territories, with royalties and milestones payable to Opus. Final labeling, daily-use safety and commercial differentiation remain the principal uncertainties. ([investor.viatris.com](https://investor.viatris.com/news-releases/news-release-details/fda-accepts-viatris-supplemental-new-drug-application-mr-141?utm_source=openai))",
-  "move_analysis_ai_reasoning": "We estimate an 86\u201392% probability of commercially usable approval, with 4\u20138% each for a restricted or delayed outcome and outright nonapproval. Replicated controlled Phase 3 success, objective vision measurements and an already-commercialized formulation make this stronger than a first-product filing based on uncontrolled evidence. Existing approvals in presbyopia also establish regulatory precedent for the vision endpoint. The remaining allowance for unfavorable outcomes reflects the FDA\u2019s assessment of daily-use safety, labeling and manufacturing requirements\u2014not simply whether the filing was accepted. ([investor.viatris.com](https://investor.viatris.com/news-releases/news-release-details/fda-accepts-viatris-supplemental-new-drug-application-mr-141?utm_source=openai))\n\nManufacturing is substantially supported by actual commercial supply and Viatris\u2019s responsibilities, rather than a distribution-only partnership. FDA\u2019s March 2026 approval of a separate storage-related supplement provides additional product-quality reassurance, but is not a presbyopia approval or a blanket inspection clearance. Supplier qualification for additional indications remains relevant. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1228627/000114036126009247/ef20060643_10k.htm?utm_source=openai))\n\nThe supplied market snapshot puts Viatris at a $20.2 billion market capitalization and $31.8 billion enterprise value. June 30 cash was $886.5 million, while management guides to $1.9\u20132.1 billion of operating cash generation in 2026. This is an operating pharmaceutical company, not a cash-burning single-asset biotech dependent on approval to finance itself. The current BPIQ specialist count is zero; the supplied historical snapshot shows one fund holding $1.3 million. That limited specialist presence carries little negative regulatory significance for a diversified company of this size. ([ir.viatris.com](https://ir.viatris.com/news-releases/news-release-details/viatris-reports-second-quarter-2026-financial-results?utm_source=openai))\n\nWe expect only 0.25\u20131.50% upside on clean approval, -1.00% to +0.25% for a commercially inferior outcome, and a 0.75\u20132.50% decline on nonapproval. These are event-specific estimates relative to the stock immediately before the decision. MR-141 represents incremental growth rather than most of Viatris\u2019s value, and approval appears to be the expected outcome. Viatris retains meaningful commercial economics, but pays Opus U.S. royalties ranging from low double digits to the low twenties, plus applicable milestones. Competition from approved VIZZ limits the case for a large approval-day valuation gain. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1228627/000162828026054381/ird-20260630.htm))\n\nThe confirmed decision is 11 days away. No scheduled major company event is identified before it; third-quarter earnings are November 5, and the meloxicam decision is December 27. The supplied November 20 options cover MR-141 but also those November earnings. Their approximately 9.0% estimated event move and 10.2% total straddle move are much larger than our MR-141-only estimates. Wide spreads and overlapping earnings make that pricing a broad volatility cross-check, not proof that this approval alone should move Viatris sharply. Neither direction qualifies as a suspected or options-confirmed big mover. ([viatris.gcs-web.com](https://viatris.gcs-web.com/news-releases/news-release-details/viatris-report-third-quarter-2026-financial-results-november-5?utm_source=openai))",
-  "catalyst_event_details": "FDA\u2019s decision on MR-141 (phentolamine ophthalmic solution 0.75%) for presbyopia has a confirmed October 17, 2026 PDUFA goal date. ([investor.viatris.com](https://investor.viatris.com/news-releases/news-release-details/fda-accepts-viatris-supplemental-new-drug-application-mr-141?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T13:00:34Z"
- },
- {
   "id": 17440,
   "company": {
    "ticker": "N/A",
@@ -7305,53 +7191,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-07",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16997,
   "company": {
    "ticker": "N/A",
@@ -7464,6 +7303,53 @@
   "move_analysis_ai_reasoning": "We assign an 86\u201392% chance of clean approval because this is a supplement to an established approval, supported by a blinded, randomized comparison against metoprolol. That is a stronger setup than an initial filing based on uncontrolled evidence. The remaining uncertainty mainly concerns the exact label language and whether FDA considers the relatively small, 24-week trial sufficient for the requested claims. Our central outlook is 89% clean positive, 8% mixed and 3% negative. Approval with the existing monitoring requirements counts as clean; unexpectedly limited claims or additional burdens count as mixed. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1061983/000095017025112564/cytk-ex99_1.htm))\n\nThe stock opportunity is incremental rather than an all-or-nothing launch decision. MYQORZO is already marketed, so successful incorporation of MAPLE-HCM could strengthen its positioning without creating an entirely new business. We estimate 3\u20138% upside. A commercially disappointing label could produce a move between -8% and +2%. Rejection could cost 10\u201318% through lost positioning and concern about subsequent applications, but would not automatically remove the existing approval. These are conditional estimates relative to the stock price immediately before the decision. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1061983/000119312526338217/cytk-20260630.htm))\n\nThe supplied company figures show an $8.7 billion market value, approximately $1.2 billion cash and 10 specialist funds holding $913.3 million. That ownership provides substantial external validation, not a substitute for FDA evidence. Cash cushions immediate financing pressure, although the reported burn remains substantial. Retained U.S. economics matter, while regional licenses and Royalty Pharma\u2019s 4.5% royalty on worldwide annual sales up to $5 billion limit the share of sales accruing to Cytokinetics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1061983/000119312526338217/cytk-20260630.htm))\n\nThird-quarter launch results could reset expectations before the decision. The separate non-obstructive HCM submission is guided for Q4 2026 and could also influence the baseline if announced beforehand. ([ir.cytokinetics.com](https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx)) With 39 days to this decision, the supplied options summary suggests roughly 13.2% event-isolated expected movement, but the November contracts have wide spreads. January pricing covers a much longer period and cannot isolate this decision. Neither fundamental direction meets the 20% threshold, so neither qualifies as a suspected or confirmed big mover.",
   "catalyst_event_details": "FDA will decide on aficamten\u2019s MAPLE-HCM supplemental application for obstructive hypertrophic cardiomyopathy by November 14, 2026. ([ir.cytokinetics.com](https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T13:05:21Z"
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-07",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
  },
  {
   "id": 18895,
@@ -47812,63 +47698,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260909055068/en/Seaport-Therapeutics-Reports-Positive-Topline-Results-from-Phase-1-Driving-Simulation-Trial-of-GlyphAllo%E2%84%A2-in-Healthy-Volunteers/",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20601,
-  "company": {
-   "ticker": "RHHBY",
-   "name": "Roche Holding",
-   "last_price": "57.14",
-   "market_cap": 364217630720,
-   "website": "https://www.roche.com"
-  },
-  "ticker": "RHHBY",
-  "drug_name": "Enspryng/Satralizumab (IL-6 Receptor Inhibitor)",
-  "indications": [
-   {
-    "id": 997,
-    "title": "Thyroid Eye Disease ",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Thyroid Eye Disease",
-  "stage_event": {
-   "id": 99,
-   "label": "Approved Update",
-   "stage_label": "Approved",
-   "event_label": "Update"
-  },
-  "note": "06/30/26:- FDA accepted priority sBLA for TED; decision expected October 15, 2026. 07/23/26:- Priority review for thyroid eye disease was reiterated; FDA decision will occur October 15, 2026. 10/16/26:- FDA approved Enspryng for thyroid eye disease; first at-home SC option.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/16/3382249/0/en/fda-approves-roche-s-enspryng-a-first-in-class-il-6r-inhibitor-as-the-first-and-only-at-home-subcutaneous-treatment-option-for-thyroid-eye-disease-ted.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

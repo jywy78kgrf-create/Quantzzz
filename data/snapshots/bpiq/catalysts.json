@@ -57,68 +57,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 16646,
-  "company": {
-   "ticker": "IMUX",
-   "name": "Immunic",
-   "last_price": "7.50",
-   "market_cap": 102060616,
-   "website": "https://www.imux.com"
-  },
-  "ticker": "IMUX",
-  "drug_name": "Vidofludimus calcium (IMU-838) ",
-  "indications": [
-   {
-    "id": 1272,
-    "title": "Autoimmune disease",
-    "nickname": ""
-   },
-   {
-    "id": 722,
-    "title": "Multiple sclerosis",
-    "nickname": "MS"
-   }
-  ],
-  "indications_text": "Multiple sclerosis, Autoimmune disease",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "CALLIPER & EMPhASIS trials. 4/30/25- Topline data reported. 6/5/25- Additional Ph2 data reported. 6/24/25 - Present new long-term OLE data. 9/25/25- Presented data at ECTRIMS '25. 11/13/25:- CALLIPER Ph2 PMS data show significant 24w disability improvement; EMPhASIS OLE confirms long-term efficacy and safety. 02/04/26:- Additional CALLIPER Ph2 PMS data at ACTRIMS 2026 showed significant MRI lesion reductions and decreased EBV-specific TCR matches. 02/26/26:- Additional CALLIPER Ph2 progressive MS data at ACTRIMS 2026 reinforced EBV and MRI biomarker effects. 05/13/26:- February 2026 CALLIPER PMS ACTRIMS data reiterated, highlighting EBV-linked immune effects and MRI inflammation markers. 05/28/26:- CALLIPER Ph2 PMS post-hoc disability analyses and PRO/safety posters presented at CMSC 2026. 08/11/26:- CALLIPER CMSC data reiterated favorable safety, patient-reported, disability, and exploratory efficacy findings. 10/07/26:- New CALLIPER OLE week 48 disability data to be presented at MSToronto2026 on Oct 21, 2026.",
-  "catalyst_date": "2026-10-21",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/immunic-to-present-new-clinical-biomarker-and-preclinical-data-on-vidofludimus-calcium-at-mstoronto2026--the-10th-joint-actrims-ectrims-meeting-302901094.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "30.000000",
-  "probability_clean_plus_max": "40.000000",
-  "probability_mixed_min": "50.000000",
-  "probability_mixed_max": "60.000000",
-  "probability_clean_minus_min": "5.000000",
-  "probability_clean_minus_max": "15.000000",
-  "magnitude_clean_plus_min": "3.000000",
-  "magnitude_clean_plus_max": "12.000000",
-  "magnitude_mixed_min": "-6.000000",
-  "magnitude_mixed_max": "2.000000",
-  "magnitude_clean_minus_min": "-18.000000",
-  "magnitude_clean_minus_max": "-8.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an incremental, 48-week open-label extension presentation, not a new randomized efficacy binary. The original CALLIPER study randomized 467 patients to treatment or placebo for up to 120 weeks; its primary brain-volume endpoint was not met. Disability-worsening analyses were encouraging but not statistically conclusive: the overall time-to-event analysis had p=0.249. ([ir.imux.com](https://ir.imux.com/2025-04-30-Immunic-Announces-Vidofludimus-Calcium-Reduced-Risk-of-Disability-Worsening-by-30-in-Primary-Progressive-Multiple-Sclerosis-Patients-from-Phase-2-CALLIPER-Trial?utm_source=openai)) The extension compares continuous treatment with patients switching from placebo, rather than maintaining a placebo control. Patient selection, treatment awareness and exploratory analyses limit firm conclusions. Favorable extension trends and low discontinuation were already summarized on October 7, so a meaningful positive reaction requires convincing detail beyond those headlines. ([ir.imux.com](https://ir.imux.com/2026-10-07-Immunic-to-Present-New-Clinical%2C-Biomarker-and-Preclinical-Data-on-Vidofludimus-Calcium-at-MSToronto2026-the-10th-Joint-ACTRIMS-ECTRIMS-Meeting?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 21 presentation is a supporting milestone, rather than a company-defining trial result. Immunic has already described maintained disability trends through extension week 48. Favorable commentary is therefore relatively predictable, but a clearly positive market outcome requires convincing detail beyond those headlines. Our 30\u201340% Clean+ probability and 50\u201360% Mixed probability reflect that distinction. The 5\u201315% Clean\u2013 probability reflects the encouraging preview, not a low risk of eventual clinical failure. ([ir.imux.com](https://ir.imux.com/2026-10-07-Immunic-to-Present-New-Clinical%2C-Biomarker-and-Preclinical-Data-on-Vidofludimus-Calcium-at-MSToronto2026-the-10th-Joint-ACTRIMS-ECTRIMS-Meeting?utm_source=openai))\n\nHistorically, approximately 26.8% of Phase 2 neurology programs advanced to Phase 3. That is a development benchmark, not the probability of a positive stock reaction to follow-up data. ([bio.org](https://www.bio.org/bio-news/good-day-bio-why-we-need-more-investment-neurodegenerative-diseases?utm_source=openai)) CALLIPER's disability-worsening analysis had p=0.249, meaning it did not establish a statistically convincing benefit. An extension in which everyone receives treatment cannot independently establish efficacy against placebo. These limitations favor a Mixed interpretation even if the presentation is encouraging. ([imux.com](https://imux.com/wp-content/uploads/2025/08/20250807-Immunic-Company-Overview-August-2025.pdf))\n\nBPIQ reports two specialist hedge-fund holders, down from three the preceding quarter, with BVF dominating reported exposure. That suggests selective rather than broad specialist support. The supplied common-stock market capitalization is $104.1 million. Nearly 28.9 million pre-funded warrants\u2014rights to shares already substantially paid for\u2014represent additional economic ownership. Including them at the supplied $7.39 share price implies approximately $317.6 million of equity value, rather than a simple below-cash valuation. Additional warrants and a 5% sales royalty constrain shareholder economics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1280776/000128077626000018/vtl-20260630.htm)) Cash was $155.1 million, and management expects funding into late 2027, providing time to reach the larger clinical milestones while leaving longer-term financing needs. ([ir.imux.com](https://ir.imux.com/2026-08-11-Immunic%2C-Inc-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Corporate-Update))\n\nWe estimate presentation-specific upside of 3\u201312%, a Mixed reaction of \u22126% to +2%, and downside of 8\u201318%. Much of Immunic's clinical value rests on this asset, but the larger valuation test is the separate ENSURE Phase 3 readout expected by year-end 2026. ([ir.imux.com](https://ir.imux.com/2026-08-11-Immunic%2C-Inc-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Corporate-Update)) BPIQ's supplied February follow-up reaction\u2014little opening upside followed by an intraday decline\u2014also argues against assuming supportive conference data automatically produce a large gain. These ranges assume ENSURE results have not been announced before this presentation.\n\nThe supplied November options straddle prices approximately 36.2% movement through expiration, substantially above our estimate for this presentation alone. That price covers the entire period through November 20, not just October 21. Wide spreads and the month-long post-presentation window limit its event-specific interpretation. January pricing also includes the expected ENSURE readout. Neither expiration supports a confirmed big-mover designation for the October presentation.",
-  "catalyst_event_details": "Vidofludimus calcium\u2019s Phase 2 CALLIPER extension disability results in progressive multiple sclerosis will be presented at MSToronto2026 on October 21, 2026. ([ir.imux.com](https://ir.imux.com/2026-10-07-Immunic-to-Present-New-Clinical%2C-Biomarker-and-Preclinical-Data-on-Vidofludimus-Calcium-at-MSToronto2026-the-10th-Joint-ACTRIMS-ECTRIMS-Meeting?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-08T15:58:27Z"
- },
- {
   "id": 17441,
   "company": {
    "ticker": "MLYS",
@@ -914,7 +852,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -1105,7 +1043,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -1420,7 +1358,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -1968,7 +1906,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2273,7 +2211,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2387,7 +2325,7 @@
   "company": {
    "ticker": "NVCT",
    "name": "Nuvectis Pharma",
-   "last_price": "20.71",
+   "last_price": "21.22",
    "market_cap": 675732160,
    "website": "https://www.nuvectis.com"
   },
@@ -2444,7 +2382,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2568,7 +2506,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2625,7 +2563,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2687,7 +2625,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2744,7 +2682,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2801,7 +2739,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2858,7 +2796,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2915,7 +2853,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2972,7 +2910,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -3029,7 +2967,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "152.74",
+   "last_price": "152.24",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -3339,7 +3277,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "227.42",
+   "last_price": "221.39",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -3602,7 +3540,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.87",
+   "last_price": "10.71",
    "market_cap": 624332096,
    "website": "https://climbbio.com"
   },
@@ -3664,7 +3602,7 @@
   "company": {
    "ticker": "MAZE",
    "name": "Maze Therapeutics",
-   "last_price": "32.78",
+   "last_price": "32.23",
    "market_cap": 1809792000,
    "website": "https://www.mazetx.com"
   },
@@ -4316,7 +4254,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "227.42",
+   "last_price": "221.39",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -4373,7 +4311,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "227.42",
+   "last_price": "221.39",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -4397,6 +4335,63 @@
   "catalyst_date": "2026-10-25",
   "has_catalyst": true,
   "catalyst_source": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-announces-late-breaking-data-to-be-presented-at-esmo-congress-1224628",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 20963,
+  "company": {
+   "ticker": "PSNL",
+   "name": "Personalis",
+   "last_price": "15.87",
+   "market_cap": 1698117888,
+   "website": "https://www.personalis.com"
+  },
+  "ticker": "PSNL",
+  "drug_name": "NeXT Personal (MRD Detection Assay)",
+  "indications": [
+   {
+    "id": 979,
+    "title": "Cutaneous squamous cell carcinoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "High-Risk Cutaneous Squamous Cell Carcinoma Adjuvant Therapy Monitoring",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "10/19/26:- C-POST Ph3 high-risk CSCC ctDNA analysis to be presented at ESMO 2026 on Oct 25.",
+  "catalyst_date": "2026-10-25",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62488291/personalis-next-personal-data-showcasing-ultrasensitive-mrd-be-presented-esmo-2026",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -7139,6 +7134,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 18597,
+  "company": {
+   "ticker": "CRBP",
+   "name": "Corbus Pharmaceuticals",
+   "last_price": "4.29",
+   "market_cap": 82877432,
+   "website": "https://www.corbuspharma.com"
+  },
+  "ticker": "CRBP",
+  "drug_name": "CRB-913",
+  "indications": [
+   {
+    "id": 1027,
+    "title": "Obesity",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Obesity",
+  "stage_event": {
+   "id": 122,
+   "label": "Phase 1b Data readout",
+   "stage_label": "Phase 1b",
+   "event_label": "Data readout"
+  },
+  "note": "3/28/25- First patient dosed. 6/30/25- Initiated MAD portion. 8/5/25- SAD portion completed. SAD/MAD data later in 2025. 11/12/25:- On track to complete SAD/MAD and start Ph1b obesity dose-ranging study by end 2025. 12/10/25:- Plan to release Ph1a SAD/MAD results on December 11, 2025; webcast and call scheduled. 03/09/26:- Ph1a SAD/MAD completed; 2.9% 14-day weight loss with favorable GI safety. CANYON-1 Ph1b obesity study completion expected summer 2026. 04/14/26:- CANYON-1 Ph1b obesity trial reached LPFV; completion and data readout expected Summer 2026. 05/12/26:- Enrollment completed in 240-patient CANYON-1 Ph1b obesity trial; 16-week topline data expected Summer 2026. 08/06/26:- CANYON-1 last visit reiterated; topline data expected September 2026. 09/14/26:- Topline Ph1b CANYON-1 showed 5% weight loss at 12 weeks. Late-breaking ObesityWeek 2026 presentation planned. 10/22/26:- Late-breaking CANYON-1 Ph1b poster at Obesity Week 2026 on November 15, 2026.",
+  "catalyst_date": "2026-11-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62522383/corbus-pharmaceuticals-present-late-breaking-crb-913-data-canyon-1-study-obesity-week-2026",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 16626,
   "company": {
    "ticker": "N/A",
@@ -7253,6 +7305,53 @@
   "move_analysis_created_datetime": "2026-10-06T14:52:21Z"
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-11",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 18061,
   "company": {
    "ticker": "APRE",
@@ -7312,53 +7411,6 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-11",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -7443,10 +7495,10 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "08/12/26:- PDUFA remains November 22, 2026. ATS data improved lung function. U.K. decision is Q4 2026; EMA is Q1 2027. 08/25/26:- ERS Congress Sep 5-9, 2026 will feature Ph3 IMPALA-2 molgramostim data. 10/12/26:- CHEST 2026 Oct 20-21 features IMPALA-2 open-label results and IMPALA Ph2/3 poster.",
+  "note": "08/12/26:- PDUFA remains November 22, 2026. ATS data improved lung function. U.K. decision is Q4 2026; EMA is Q1 2027. 08/25/26:- ERS Congress Sep 5-9, 2026 will feature Ph3 IMPALA-2 molgramostim data. 10/12/26:- CHEST 2026 Oct 20-21 features IMPALA-2 open-label results and IMPALA Ph2/3 poster. 10/21/26:- CHEST 2026 poster reported post-hoc IMPALA analysis showing improved gas transfer and imaging outcomes.",
   "catalyst_date": "2026-11-22",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261012229402/en/Savara-to-Present-New-Analysis-from-the-IMPALA-Clinical-Trial-and-Deliver-Encore-Presentation-of-Long-Term-Data-on-Molgramostim-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-aPAP-at-CHEST-2026",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62505018/savara-presented-new-data-showing-molgramostim-inhalation-solution-molgramostim-treatment-effects-au",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": true,
@@ -8178,6 +8230,63 @@
   "move_analysis_ai_reasoning": "We favor clean approval at 86\u201392% because lidERA provides a large randomized comparison and a convincing reduction in invasive recurrence or death. That is substantially stronger evidence than a small, uncontrolled oncology filing. Supportive distant-recurrence findings strengthen the application, while immature overall survival and the final population and safety language leave room for a mixed outcome or nonapproval. Priority Review speeds the review; it does not guarantee approval. ([roche.com](https://www.roche.com/investors/updates/inv-update-2025-12-10?utm_source=openai))\n\nManufacturing risk is relatively contained for an oral small molecule developed by an experienced commercial group. The published process is encouraging, but process development does not establish FDA acceptance of commercial batches or facility compliance. Historical failures in acelERA and persevERA involved different advanced-disease settings; they temper expectations for the wider program without negating the successful adjuvant study. ([pubs.acs.org](https://pubs.acs.org/doi/abs/10.1021/acs.oprd.1c00263?utm_source=openai))\n\nThe supplied $334.7 billion market capitalization, $380.9 billion enterprise value and $9.7 billion cash position make this a growth opportunity rather than a company-survival event. Roche/Genentech leads the program, giving it more direct economic exposure than a royalty-only holder, but Roche's broad commercial business limits the stock impact of one decision. Strong efficacy is already public. We estimate +0.25\u20131.50% for clean approval, -1.00\u2013+0.25% for a restrictive approval, and -3.00\u2013-1.00% for rejection. The downside includes potential concern about the separate December 18 advanced-disease application, without assuming that one rejection automatically determines the other. ([roche.com](https://www.roche.com/?utm_source=openai))\n\nThe supplied BPIQ history mostly shows modest daily reactions. The larger opening decline around persevERA was followed by substantial intraday recovery, so it does not establish a lasting 5% loss from an FDA decision. BPIQ specialist ownership is zero funds and $0 aggregate holdings across the supplied quarters. That matters little for a diversified multinational and does not weaken the randomized evidence. The stock is within its supplied 52-week range, rather than at a clear extreme.\n\nBefore November 30, the supplied Tecentriq October 9 and Enspryng October 15 decisions could affect sentiment, while Roche's October 22 sales report could reset the valuation baseline. Our ranges describe the incremental reaction from immediately before the giredestrant decision, not the cumulative return from today. Roche confirms the October 22 reporting date. Neither direction reaches the 20% threshold for big-mover classification. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-09-22b?utm_source=openai))",
   "catalyst_event_details": "The FDA decision on giredestrant\u2019s NDA for adjuvant ER-positive/HER2-negative early breast cancer is due November 30, 2026. ([roche.com](https://www.roche.com/media/releases/med-cor-2026-10-01?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T13:09:13Z"
+ },
+ {
+  "id": 20739,
+  "company": {
+   "ticker": "IBRX",
+   "name": "ImmunityBio ",
+   "last_price": "8.41",
+   "market_cap": 9156985856,
+   "website": "https://immunitybio.com"
+  },
+  "ticker": "IBRX",
+  "drug_name": "Anktiva/Nogapendekin Alfa Inbakicept (N-803) (IL-15 Agonist)",
+  "indications": [
+   {
+    "id": 1153,
+    "title": "Non-muscle invasive bladder cancer",
+    "nickname": "NMIBC"
+   }
+  ],
+  "indications_text": "BCG-Na\u00efve Non-Muscle Invasive Bladder Cancer With Carcinoma In Situ",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "08/04/26:- Phase 2B QUILT-2.005 sBLA submission for BCG-na\u00efve NMIBC with CIS is planned in 2026. 10/21/26:- QUILT-2.005 Cohort A database lock completed. Topline results expected November 2026; sBLA submission on track Q4 2026.",
+  "catalyst_date": "2026-11-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62490784/immunitybio-announces-database-lock-registrational-trial-locally-delivered-chemotherapy-free-anktiva",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 18466,
@@ -9345,10 +9454,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "INTERCEPT-AD & ALTITUDE-AD trials. 5/8/24- First patient dosed. Presented at AD/PD & AAN'25. 3/26/25- Completed enrollment ahead of schedule. 8/12/25- Topline data in late 2026. 11/17/25- First patient dosed in Ph2 OLE study. 03/03/26:- New ALTITUDE-AD biomarker and brain-delivery data to be presented at AD/PD March 17-21, 2026. 03/17/26:- ALTITUDE-AD enrolled 542; topline results expected Late 2026 (NCT06335173). 03/26/26:- AD/PD and CTAD 2025 presentations showed sabirnetug biomarker responses and recruitment analyses; ALTITUDE-AD topline remains expected Late 2026. 05/12/26:- ALTITUDE-AD topline results for early AD remain expected in Late 2026. 07/07/26:- ALTITUDE-AD patient-perspective findings to be presented at AAIC July 14, 2026; topline still Late 2026. 07/15/26:- AAIC 2026 posters shared ALTITUDE-AD patient-experience data; topline still expected Late 2026. 08/12/26:- ALTITUDE-AD readout preparations continue. Topline results for the Phase 2 trial will be reported in Late 2026.",
+  "note": "INTERCEPT-AD & ALTITUDE-AD trials. 5/8/24- First patient dosed. Presented at AD/PD & AAN'25. 3/26/25- Completed enrollment ahead of schedule. 8/12/25- Topline data in late 2026. 11/17/25- First patient dosed in Ph2 OLE study. 03/03/26:- New ALTITUDE-AD biomarker and brain-delivery data to be presented at AD/PD March 17-21, 2026. 03/17/26:- ALTITUDE-AD enrolled 542; topline results expected Late 2026 (NCT06335173). 03/26/26:- AD/PD and CTAD 2025 presentations showed sabirnetug biomarker responses and recruitment analyses; ALTITUDE-AD topline remains expected Late 2026. 05/12/26:- ALTITUDE-AD topline results for early AD remain expected in Late 2026. 07/07/26:- ALTITUDE-AD patient-perspective findings to be presented at AAIC July 14, 2026; topline still Late 2026. 07/15/26:- AAIC 2026 posters shared ALTITUDE-AD patient-experience data; topline still expected Late 2026. 08/12/26:- ALTITUDE-AD readout preparations continue. Topline results for the Phase 2 trial will be reported in Late 2026. 10/22/26:- CTAD 2026 posters on ALTITUDE-AD baseline and caregiver narratives; topline results still expected Late 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3343497/0/en/acumen-pharmaceuticals-reports-second-quarter-2026-financial-results-and-business-highlights.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62521571/acumen-pharmaceuticals-present-preliminary-baseline-characteristics-and-data-care-experiences-and-pa",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -9568,7 +9677,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "62.56",
+   "last_price": "62.72",
    "market_cap": 124850716672,
    "website": "https://www.bms.com"
   },
@@ -10037,7 +10146,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "227.42",
+   "last_price": "221.39",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -11022,7 +11131,7 @@
   "company": {
    "ticker": "EWTX",
    "name": "Edgewise Therapeutics",
-   "last_price": "39.65",
+   "last_price": "40.07",
    "market_cap": 4306153984,
    "website": "https://edgewisetx.com"
   },
@@ -12091,7 +12200,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.11",
+   "last_price": "21.83",
    "market_cap": 2512266496,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -12153,7 +12262,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.11",
+   "last_price": "21.83",
    "market_cap": 2512266496,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -14187,7 +14296,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "227.42",
+   "last_price": "221.39",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -15407,7 +15516,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "87.72",
+   "last_price": "86.21",
    "market_cap": 5513154560,
    "website": "https://kodiak.com"
   },
@@ -16436,7 +16545,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "44.93",
+   "last_price": "43.79",
    "market_cap": 7356979712,
    "website": "https://www.ionis.com"
   },
@@ -16912,7 +17021,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "227.42",
+   "last_price": "221.39",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -20403,7 +20512,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.11",
+   "last_price": "21.83",
    "market_cap": 2512266496,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -20465,7 +20574,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.11",
+   "last_price": "21.83",
    "market_cap": 2512266496,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -21216,7 +21325,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "227.42",
+   "last_price": "221.39",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -24532,7 +24641,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.87",
+   "last_price": "10.71",
    "market_cap": 624332096,
    "website": "https://climbbio.com"
   },
@@ -24589,7 +24698,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.87",
+   "last_price": "10.71",
    "market_cap": 624332096,
    "website": "https://climbbio.com"
   },
@@ -26054,7 +26163,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "62.56",
+   "last_price": "62.72",
    "market_cap": 124850716672,
    "website": "https://www.bms.com"
   },
@@ -26402,6 +26511,68 @@
   "move_analysis_created_datetime": "2026-10-19T18:02:43Z"
  },
  {
+  "id": 18501,
+  "company": {
+   "ticker": "UNCY",
+   "name": "Unicycive Therapeutics",
+   "last_price": "3.87",
+   "market_cap": 106011016,
+   "website": "https://unicycive.com"
+  },
+  "ticker": "UNCY",
+  "drug_name": "Oxylanthanum Carbonate (OLC)",
+  "indications": [
+   {
+    "id": 1057,
+    "title": "Chronic kidney disease",
+    "nickname": ""
+   },
+   {
+    "id": 962,
+    "title": "Hyperphosphatemia",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Hyperphosphatemia, Chronic kidney disease",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "9/3/24- Submitted NDA. 11/11/24- FDA accepted NDA with PDUFA date of June 28, 2025. 6/10/25- FDA identified deficiencies in cGMP compliance at 3rd-party mfg vendor. 6/30/25- Received CRL. 10/28/25- Provided update from FDA meeting & timing of NDA resubmission. 11/12/25:- Remain on track to resubmit the NDA for OLC by year-end 2025, with potential for a new PDUFA date in H1 2026. Presented new ASN Kidney Week 2025 analysis showing markedly reduced pill burden versus current phosphate binders. 12/29/25:- Resubmitted OLC NDA. Expect FDA acceptance decision within 30 days and 6-month review timeline per guidelines. 01/29/26:- FDA accepted resubmitted NDA; Class II review with PDUFA action date June 27, 2026. 03/30/26:- PDUFA date updated to June 29, 2026; commercial readiness and potential Q3 2026 launch preparations ongoing. 05/12/26:- Remain on track for June 29, 2026 PDUFA action date; commercial launch preparations and reimbursement planning continue. 06/30/26:- Received CRL; issues at third-party mfg, inspection pending; labeling ongoing; plans to resubmit NDA. 08/12/26:- FDA assigned third-party vendor facility inspection. NDA will be resubmitted after successful inspection; timing is TBA. 09/29/26:- Resubmitted OLC NDA with new vendor CMC; expects FDA acceptance within 30 days; PDUFA about 6 months. 10/21/26:- FDA accepted OLC NDA resubmission; set PDUFA target action date March 25, 2027.",
+  "catalyst_date": "2027-03-25",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/21/3385397/0/en/unicycive-therapeutics-announces-fda-acceptance-of-oxylanthanum-carbonate-new-drug-application-resubmission-and-pdufa-date-of-march-25-2027.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 13916,
   "company": {
    "ticker": "MBRX",
@@ -26694,15 +26865,15 @@
   ],
   "indications_text": "Heart disease, Ischemic stroke",
   "stage_event": {
-   "id": 152,
-   "label": "Phase 2/3 Data readout",
+   "id": 150,
+   "label": "Phase 2/3 DSMB review",
    "stage_label": "Phase 2/3",
-   "event_label": "Data readout"
+   "event_label": "DSMB review"
   },
-  "note": "ReMEDy2 trial. 6/21/23- Lifted clinical hold. 4/17/24- First patient dosed. 11/13/24- To submit amended SAP to FDA. 11/12/25- Enrollment near 50% of 200 patients. Interim analysis in H2 2026. 03/31/26:- ReMEDy2 enrollment near 70% for interim; interim analysis timing reaffirmed for H2 2026. 05/07/26:- Enrollment surpassed 70%; interim analysis still planned for Q4 2026 completion. 05/20/26:- ReMEDy2 reached 75% enrollment needed to trigger DSMB interim analysis; completion still expected before year-end 2026. 08/10/26:- ReMEDy2 enrollment surpassed 85%; interim analysis expected Q1 2027.",
+  "note": "ReMEDy2 trial. 6/21/23- Lifted clinical hold. 4/17/24- First patient dosed. 11/13/24- To submit amended SAP to FDA. 11/12/25- Enrollment near 50% of 200 patients. Interim analysis in H2 2026. 03/31/26:- ReMEDy2 enrollment near 70% for interim; interim analysis timing reaffirmed for H2 2026. 05/07/26:- Enrollment surpassed 70%; interim analysis still planned for Q4 2026 completion. 05/20/26:- ReMEDy2 reached 75% enrollment needed to trigger DSMB interim analysis; completion still expected before year-end 2026. 08/10/26:- ReMEDy2 enrollment surpassed 85%; interim analysis expected Q1 2027. 10/22/26:- ReMEDy2 enrolled 200th patient; DSMB interim analysis expected in Q1 2027.",
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260810989621/en/DiaMedica-Therapeutics-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Highlights",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62522385/diamedica-therapeutics-announces-enrollment-200th-patient-remedy2-phase-2-3-acute-ischemic-stroke-tr",
   "is_big_mover": false,
   "is_suspected_mover": true,
   "is_hedge_fund_pick": false,
@@ -27497,7 +27668,7 @@
   "company": {
    "ticker": "PMN",
    "name": "ProMIS Neurosciences",
-   "last_price": "9.13",
+   "last_price": "9.25",
    "market_cap": 81875040,
    "website": "https://www.promisneurosciences.com"
   },
@@ -28144,7 +28315,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "22.11",
+   "last_price": "21.83",
    "market_cap": 2512266496,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -29334,7 +29505,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "62.56",
+   "last_price": "62.72",
    "market_cap": 124850716672,
    "website": "https://www.bms.com"
   },
@@ -33348,7 +33519,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.87",
+   "last_price": "10.71",
    "market_cap": 624332096,
    "website": "https://climbbio.com"
   },
@@ -36933,7 +37104,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "44.93",
+   "last_price": "43.79",
    "market_cap": 7356979712,
    "website": "https://www.ionis.com"
   },
@@ -39702,7 +39873,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "8.16",
+   "last_price": "8.22",
    "market_cap": 453497856,
    "website": "https://www.maplightrx.com"
   },
@@ -40126,7 +40297,7 @@
   "company": {
    "ticker": "NBIX",
    "name": "Neurocrine Biosciences",
-   "last_price": "141.31",
+   "last_price": "141.44",
    "market_cap": 14364046336,
    "website": "https://www.neurocrine.com"
   },
@@ -41130,7 +41301,7 @@
   "company": {
    "ticker": "CLYM",
    "name": "Climb Bio",
-   "last_price": "10.87",
+   "last_price": "10.71",
    "market_cap": 624332096,
    "website": "https://climbbio.com"
   },
@@ -42827,7 +42998,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "8.16",
+   "last_price": "8.22",
    "market_cap": 453497856,
    "website": "https://www.maplightrx.com"
   },
@@ -43700,7 +43871,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "44.93",
+   "last_price": "43.79",
    "market_cap": 7356979712,
    "website": "https://www.ionis.com"
   },
@@ -45774,63 +45945,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18597,
-  "company": {
-   "ticker": "CRBP",
-   "name": "Corbus Pharmaceuticals",
-   "last_price": "4.29",
-   "market_cap": 82877432,
-   "website": "https://www.corbuspharma.com"
-  },
-  "ticker": "CRBP",
-  "drug_name": "CRB-913",
-  "indications": [
-   {
-    "id": 1027,
-    "title": "Obesity",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Obesity",
-  "stage_event": {
-   "id": 119,
-   "label": "Phase 1b Update",
-   "stage_label": "Phase 1b",
-   "event_label": "Update"
-  },
-  "note": "3/28/25- First patient dosed. 6/30/25- Initiated MAD portion. 8/5/25- SAD portion completed. SAD/MAD data later in 2025. 11/12/25:- On track to complete SAD/MAD and start Ph1b obesity dose-ranging study by end 2025. 12/10/25:- Plan to release Ph1a SAD/MAD results on December 11, 2025; webcast and call scheduled. 03/09/26:- Ph1a SAD/MAD completed; 2.9% 14-day weight loss with favorable GI safety. CANYON-1 Ph1b obesity study completion expected summer 2026. 04/14/26:- CANYON-1 Ph1b obesity trial reached LPFV; completion and data readout expected Summer 2026. 05/12/26:- Enrollment completed in 240-patient CANYON-1 Ph1b obesity trial; 16-week topline data expected Summer 2026. 08/06/26:- CANYON-1 last visit reiterated; topline data expected September 2026. 09/14/26:- Topline Ph1b CANYON-1 showed 5% weight loss at 12 weeks. Late-breaking ObesityWeek 2026 presentation planned.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/14/3360951/0/en/corbus-pharmaceuticals-announces-positive-topline-data-from-canyon-1-study-of-daily-oral-crb-913-for-the-treatment-of-obesity.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 18605,
   "company": {
    "ticker": "NVCR",
@@ -46631,7 +46745,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "8.16",
+   "last_price": "8.22",
    "market_cap": 453497856,
    "website": "https://www.maplightrx.com"
   },

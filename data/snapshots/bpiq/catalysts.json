@@ -95,28 +95,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "65.000000",
-  "probability_clean_plus_max": "75.000000",
-  "probability_mixed_min": "20.000000",
-  "probability_mixed_max": "30.000000",
-  "probability_clean_minus_min": "3.000000",
-  "probability_clean_minus_max": "7.000000",
-  "magnitude_clean_plus_min": "2.000000",
-  "magnitude_clean_plus_max": "8.000000",
-  "magnitude_mixed_min": "-5.000000",
-  "magnitude_mixed_max": "1.000000",
-  "magnitude_clean_minus_min": "-15.000000",
-  "magnitude_clean_minus_max": "-7.000000",
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "This is an incremental CKD subgroup presentation, not a new pivotal efficacy test. Launch-HTN randomized 1,083 participants and already met its primary endpoint: placebo-adjusted systolic blood-pressure reduction at six weeks. ([ir.mineralystx.com](https://ir.mineralystx.com/sec-filings/all-sec-filings/content/0001933414-25-000058/0001933414-25-000058.pdf?utm_source=openai)) Earlier CKD analyses included 192 participants, showing a 9.6 mmHg placebo-adjusted reduction at 12 weeks; 84 participants with albuminuria showed a 52.2% reduction in urine albumin, a marker of kidney injury. Confirmed high potassium occurred in 2.4% of CKD participants. ([ir.mineralystx.com](https://ir.mineralystx.com/news-events/press-releases/detail/103/mineralys-therapeutics-presents-new-data-from-the-phase-3)) The key questions are consistency across CKD stages and the balance between benefit and kidney-related safety. Small, post hoc subgroups and short follow-up cannot establish prevention of kidney failure. Strong results are already expected, limiting the presentation\u2019s standalone valuation impact.",
+  "key_readout_comment": "",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 21\u201325 presentation is a follow-up to an already-successful trial, so favorable findings are substantially more likely than for a fresh Phase 3 binary. ([ir.mineralystx.com](https://ir.mineralystx.com/news-events/press-releases/detail/120/mineralys-therapeutics-announces-presentation-of-new?utm_source=openai)) Historically, about 55.2% of cardiovascular Phase 3 programs advanced to an application for approval; that is a development benchmark, not a stock-market success rate. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) Here, prior randomized evidence\u2014including the 59-participant Explore-CKD study\u2014supports blood-pressure and albuminuria benefits. That justifies a 65\u201375% favorable-outcome probability, while leaving room for less convincing stage-specific findings or safety trade-offs. ([asn-online.org](https://www.asn-online.org/education/kidneyweek/2025/program-abstract.aspx?controlId=4400735&utm_source=openai))\n\nThe main uncertainty is interpretation rather than whether the original primary endpoint succeeds. Splitting patients into smaller CKD-stage groups increases sensitivity to baseline differences, missing observations and multiple comparisons. Albuminuria improvement is encouraging but is not proof of durable kidney protection. Competitor baxdrostat also demonstrated roughly 9\u201310 mmHg placebo-adjusted blood-pressure reductions, so efficacy alone does not establish clear commercial superiority. ([nejm.org](https://www.nejm.org/doi/full/10.1056/NEJMoa2507109?_sp=e2209516-46b7-49e6-acf4-3468bfd6ec8a&utm_source=openai))\n\nAt the supplied approximately $2.1 billion market capitalization, much of lorundrostat\u2019s established hypertension benefit is already reflected in value. Six BPIQ specialist hedge funds hold shares, versus five in the preceding quarter, suggesting meaningful specialist interest without guaranteeing success. The supplied historical reactions show that follow-up presentations generally moved shares far less than the original pivotal results. We therefore expect only 2\u20138% upside for clearly favorable findings, \u22125% to +1% for mixed findings, and \u221215% to \u22127% for a materially adverse update.\n\nCash and investments totaled $661.4 million at June 30, and management guides funding into 2028, including launch preparations. The royalty buyout improves future economics, although $100 million of secured borrowing and remaining commercial milestones create obligations. This presentation does not appear necessary to secure immediate financing. ([ir.mineralystx.com](https://ir.mineralystx.com/news-events/press-releases/detail/111/mineralys-therapeutics-reports-second-quarter-2026))\n\nThese estimates assume the October 8 sleep-apnea presentation does not introduce a material new safety concern; such a finding could affect both valuation and expectations before ASN. ([ir.mineralystx.com](https://ir.mineralystx.com/news-events/press-releases/detail/119/mineralys-therapeutics-announces-presentation-of)) The November options straddle prices approximately 20% movement, but wide spreads and the November 8 long-term extension presentation prevent attributing that movement specifically to the CKD update. The supplied variance-based expected-move estimate is 17.8%, also above our standalone fundamental forecast. Neither direction qualifies as a big mover for this event. ([ir.mineralystx.com](https://ir.mineralystx.com/news-events/press-releases/detail/116/mineralys-therapeutics-transform-htn-open-label))",
-  "catalyst_event_details": "Lorundrostat\u2019s Phase 3 Launch-HTN analyses in hypertension with chronic kidney disease stages 1\u20133 will be presented at ASN Kidney Week, October 21\u201325, 2026. ([ir.mineralystx.com](https://ir.mineralystx.com/news-events/press-releases/detail/120/mineralys-therapeutics-announces-presentation-of-new?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T14:42:07Z"
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 13698,
@@ -304,7 +304,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "12.15",
+   "last_price": "11.37",
    "market_cap": 3966339584,
    "website": "https://www.abcellera.com"
   },
@@ -852,7 +852,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -1043,7 +1043,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -1105,7 +1105,7 @@
   "company": {
    "ticker": "KTTA",
    "name": "Pasithea Therapeutics",
-   "last_price": "0.49",
+   "last_price": "0.45",
    "market_cap": 16299568,
    "website": "https://www.pasithea.com"
   },
@@ -1358,7 +1358,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -1487,7 +1487,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.78",
+   "last_price": "14.83",
    "market_cap": 1774764416,
    "website": "https://www.biohaven.com"
   },
@@ -1601,7 +1601,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "53.20",
+   "last_price": "52.98",
    "market_cap": 8144046592,
    "website": "https://www.tgtherapeutics.com"
   },
@@ -1777,7 +1777,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "5.99",
+   "last_price": "5.71",
    "market_cap": 361165728,
    "website": "https://kyvernatx.com"
   },
@@ -1906,7 +1906,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2211,7 +2211,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2382,7 +2382,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2439,7 +2439,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "20.20",
+   "last_price": "20.35",
    "market_cap": 63667826688,
    "website": "https://www.takeda.com"
   },
@@ -2506,7 +2506,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2563,7 +2563,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2625,7 +2625,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2682,7 +2682,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2739,7 +2739,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2796,7 +2796,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2853,7 +2853,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2910,7 +2910,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -2967,7 +2967,7 @@
   "company": {
    "ticker": "MRK",
    "name": "Merck & Co",
-   "last_price": "147.26",
+   "last_price": "147.53",
    "market_cap": 369779703808,
    "website": "https://www.merck.com"
   },
@@ -3277,7 +3277,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.04",
+   "last_price": "191.05",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -4254,7 +4254,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.04",
+   "last_price": "191.05",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -4311,7 +4311,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.04",
+   "last_price": "191.05",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -5360,7 +5360,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.64",
+   "last_price": "3.53",
    "market_cap": 1952026752,
    "website": "https://www.recursion.com"
   },
@@ -6709,7 +6709,7 @@
   "company": {
    "ticker": "KTTA",
    "name": "Pasithea Therapeutics",
-   "last_price": "0.49",
+   "last_price": "0.45",
    "market_cap": 16299568,
    "website": "https://www.pasithea.com"
   },
@@ -6957,7 +6957,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "63.75",
+   "last_price": "62.55",
    "market_cap": 8739012608,
    "website": "https://www.cytokinetics.com"
   },
@@ -7252,7 +7252,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "20.45",
+   "last_price": "20.30",
    "market_cap": 3478848512,
    "website": "https://acadia.com"
   },
@@ -9434,7 +9434,7 @@
   "company": {
    "ticker": "ABOS",
    "name": "Acumen Pharmaceuticals",
-   "last_price": "2.11",
+   "last_price": "2.08",
    "market_cap": 146804096,
    "website": "https://acumenpharm.com"
   },
@@ -9615,7 +9615,7 @@
   "company": {
    "ticker": "MNOV",
    "name": "MediciNova",
-   "last_price": "1.40",
+   "last_price": "1.38",
    "market_cap": 69401960,
    "website": "https://medicinova.com"
   },
@@ -9744,7 +9744,7 @@
   "company": {
    "ticker": "MNOV",
    "name": "MediciNova",
-   "last_price": "1.40",
+   "last_price": "1.38",
    "market_cap": 69401960,
    "website": "https://medicinova.com"
   },
@@ -10146,7 +10146,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.04",
+   "last_price": "191.05",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -11947,7 +11947,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "20.60",
+   "last_price": "20.92",
    "market_cap": 1416372352,
    "website": "https://tyra.bio"
   },
@@ -13155,7 +13155,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.07",
+   "last_price": "2.02",
    "market_cap": 93657840,
    "website": "https://www.genelux.com"
   },
@@ -13222,7 +13222,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "318.34",
+   "last_price": "318.89",
    "market_cap": 9535857664,
    "website": "https://www.krystalbio.com"
   },
@@ -13398,7 +13398,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "9.83",
+   "last_price": "9.92",
    "market_cap": 878930880,
    "website": "https://www.kuraoncology.com"
   },
@@ -13465,7 +13465,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "9.83",
+   "last_price": "9.92",
    "market_cap": 878930880,
    "website": "https://www.kuraoncology.com"
   },
@@ -13780,7 +13780,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.07",
+   "last_price": "2.02",
    "market_cap": 93657840,
    "website": "https://www.genelux.com"
   },
@@ -14296,7 +14296,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.04",
+   "last_price": "191.05",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -14358,7 +14358,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "0.42",
+   "last_price": "0.54",
    "market_cap": 9626012,
    "website": "https://www.karyopharm.com"
   },
@@ -14492,7 +14492,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "0.40",
+   "last_price": "0.39",
    "market_cap": 78164696,
    "website": "https://www.neumoratx.com"
   },
@@ -15144,7 +15144,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "318.34",
+   "last_price": "318.89",
    "market_cap": 9535857664,
    "website": "https://www.krystalbio.com"
   },
@@ -15263,7 +15263,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.07",
+   "last_price": "2.02",
    "market_cap": 93657840,
    "website": "https://www.genelux.com"
   },
@@ -15325,7 +15325,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "0.42",
+   "last_price": "0.54",
    "market_cap": 9626012,
    "website": "https://www.karyopharm.com"
   },
@@ -15516,7 +15516,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "86.21",
+   "last_price": "86.45",
    "market_cap": 5513154560,
    "website": "https://kodiak.com"
   },
@@ -15578,7 +15578,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "5.99",
+   "last_price": "5.71",
    "market_cap": 361165728,
    "website": "https://kyvernatx.com"
   },
@@ -15759,7 +15759,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.78",
+   "last_price": "14.83",
    "market_cap": 1774764416,
    "website": "https://www.biohaven.com"
   },
@@ -15816,7 +15816,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "4.14",
+   "last_price": "4.13",
    "market_cap": 97115488,
    "website": "https://www.coyatherapeutics.com"
   },
@@ -16049,7 +16049,7 @@
   "company": {
    "ticker": "HCWB",
    "name": "HCW Biologics",
-   "last_price": "1.16",
+   "last_price": "1.10",
    "market_cap": 2594135,
    "website": "https://www.hcwbiologics.com"
   },
@@ -16163,7 +16163,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.56",
+   "last_price": "7.69",
    "market_cap": 487457664,
    "website": "https://www.arvinas.com"
   },
@@ -16230,7 +16230,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.64",
+   "last_price": "3.53",
    "market_cap": 1952026752,
    "website": "https://www.recursion.com"
   },
@@ -16426,7 +16426,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "9.83",
+   "last_price": "9.92",
    "market_cap": 878930880,
    "website": "https://www.kuraoncology.com"
   },
@@ -17021,7 +17021,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.04",
+   "last_price": "191.05",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -17646,7 +17646,7 @@
   "company": {
    "ticker": "BHVN",
    "name": "Biohaven Pharmaceutical Holding Company",
-   "last_price": "14.78",
+   "last_price": "14.83",
    "market_cap": 1774764416,
    "website": "https://www.biohaven.com"
   },
@@ -17894,7 +17894,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "53.20",
+   "last_price": "52.98",
    "market_cap": 8144046592,
    "website": "https://www.tgtherapeutics.com"
   },
@@ -17951,7 +17951,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "5.05",
+   "last_price": "4.81",
    "market_cap": 1830471424,
    "website": "https://www.alvotech.com"
   },
@@ -18008,7 +18008,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "1.79",
+   "last_price": "1.71",
    "market_cap": 210242496,
    "website": "https://www.pyxisoncology.com"
   },
@@ -18070,7 +18070,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "9.83",
+   "last_price": "9.92",
    "market_cap": 878930880,
    "website": "https://www.kuraoncology.com"
   },
@@ -18137,7 +18137,7 @@
   "company": {
    "ticker": "VRDN",
    "name": "Viridian Therapeutics",
-   "last_price": "23.43",
+   "last_price": "23.04",
    "market_cap": 2606855168,
    "website": "https://www.viridiantherapeutics.com"
   },
@@ -18245,7 +18245,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "5.05",
+   "last_price": "4.81",
    "market_cap": 1830471424,
    "website": "https://www.alvotech.com"
   },
@@ -18302,7 +18302,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "2.23",
+   "last_price": "2.45",
    "market_cap": 161815472,
    "website": "https://www.adagene.com"
   },
@@ -18364,7 +18364,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "28.38",
+   "last_price": "28.75",
    "market_cap": 5861965312,
    "website": "https://immunovant.com"
   },
@@ -19130,7 +19130,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "112.63",
+   "last_price": "111.89",
    "market_cap": 9264671744,
    "website": "https://www.kymeratx.com"
   },
@@ -19652,7 +19652,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "12.15",
+   "last_price": "11.37",
    "market_cap": 3966339584,
    "website": "https://www.abcellera.com"
   },
@@ -20170,7 +20170,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "318.34",
+   "last_price": "318.89",
    "market_cap": 9535857664,
    "website": "https://www.krystalbio.com"
   },
@@ -21154,7 +21154,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.56",
+   "last_price": "7.69",
    "market_cap": 487457664,
    "website": "https://www.arvinas.com"
   },
@@ -21211,7 +21211,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "5.99",
+   "last_price": "5.71",
    "market_cap": 361165728,
    "website": "https://kyvernatx.com"
   },
@@ -21268,7 +21268,7 @@
   "company": {
    "ticker": "NMRA",
    "name": "Neumora Therapeutics",
-   "last_price": "0.40",
+   "last_price": "0.39",
    "market_cap": 78164696,
    "website": "https://www.neumoratx.com"
   },
@@ -21325,7 +21325,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "187.04",
+   "last_price": "191.05",
    "market_cap": 98136178688,
    "website": "https://www.modernatx.com"
   },
@@ -21506,7 +21506,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "112.63",
+   "last_price": "111.89",
    "market_cap": 9264671744,
    "website": "https://www.kymeratx.com"
   },
@@ -22866,7 +22866,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "318.34",
+   "last_price": "318.89",
    "market_cap": 9535857664,
    "website": "https://www.krystalbio.com"
   },
@@ -26721,7 +26721,7 @@
   "company": {
    "ticker": "CNSY",
    "name": "Cerenome, Inc.",
-   "last_price": "1.73",
+   "last_price": "1.74",
    "market_cap": 13130051,
    "website": "https://cerenome.com"
   },
@@ -27197,7 +27197,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "20.60",
+   "last_price": "20.92",
    "market_cap": 1416372352,
    "website": "https://tyra.bio"
   },
@@ -28258,7 +28258,7 @@
   "company": {
    "ticker": "KZIA",
    "name": "Kazia Therapeutics ",
-   "last_price": "8.05",
+   "last_price": "8.01",
    "market_cap": 93472040,
    "website": "https://www.kaziatherapeutics.com"
   },
@@ -29091,7 +29091,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "20.20",
+   "last_price": "20.35",
    "market_cap": 63667826688,
    "website": "https://www.takeda.com"
   },
@@ -29562,7 +29562,7 @@
   "company": {
    "ticker": "COYA",
    "name": "Coya Therapeutics",
-   "last_price": "4.14",
+   "last_price": "4.13",
    "market_cap": 97115488,
    "website": "https://www.coyatherapeutics.com"
   },
@@ -29857,7 +29857,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.64",
+   "last_price": "3.53",
    "market_cap": 1952026752,
    "website": "https://www.recursion.com"
   },
@@ -30167,7 +30167,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "2.23",
+   "last_price": "2.45",
    "market_cap": 161815472,
    "website": "https://www.adagene.com"
   },
@@ -30963,7 +30963,7 @@
   "company": {
    "ticker": "KROS",
    "name": "Keros Therapeutics",
-   "last_price": "11.08",
+   "last_price": "11.32",
    "market_cap": 221667968,
    "website": "https://www.kerostx.com"
   },
@@ -31273,7 +31273,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "318.34",
+   "last_price": "318.89",
    "market_cap": 9535857664,
    "website": "https://www.krystalbio.com"
   },
@@ -31687,7 +31687,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.64",
+   "last_price": "3.53",
    "market_cap": 1952026752,
    "website": "https://www.recursion.com"
   },
@@ -31997,7 +31997,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.64",
+   "last_price": "3.53",
    "market_cap": 1952026752,
    "website": "https://www.recursion.com"
   },
@@ -32463,7 +32463,7 @@
   "company": {
    "ticker": "KLRS",
    "name": "Kalaris Therapeutics",
-   "last_price": "2.00",
+   "last_price": "1.98",
    "market_cap": 48086060,
    "website": "https://kalaristx.com"
   },
@@ -32815,7 +32815,7 @@
   "company": {
    "ticker": "JUNS",
    "name": "Jupiter Neurosciences",
-   "last_price": "2.77",
+   "last_price": "2.55",
    "market_cap": 3665488,
    "website": "https://jupiterneurosciences.com"
   },
@@ -32929,7 +32929,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.56",
+   "last_price": "7.69",
    "market_cap": 487457664,
    "website": "https://www.arvinas.com"
   },
@@ -36499,7 +36499,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "318.34",
+   "last_price": "318.89",
    "market_cap": 9535857664,
    "website": "https://www.krystalbio.com"
   },
@@ -37342,7 +37342,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "28.38",
+   "last_price": "28.75",
    "market_cap": 5861965312,
    "website": "https://immunovant.com"
   },
@@ -37399,7 +37399,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.64",
+   "last_price": "3.53",
    "market_cap": 1952026752,
    "website": "https://www.recursion.com"
   },
@@ -37575,7 +37575,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "112.63",
+   "last_price": "111.89",
    "market_cap": 9264671744,
    "website": "https://www.kymeratx.com"
   },
@@ -37927,7 +37927,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "28.38",
+   "last_price": "28.75",
    "market_cap": 5861965312,
    "website": "https://immunovant.com"
   },
@@ -38393,7 +38393,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "20.60",
+   "last_price": "20.92",
    "market_cap": 1416372352,
    "website": "https://tyra.bio"
   },
@@ -40592,7 +40592,7 @@
   "company": {
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
-   "last_price": "12.92",
+   "last_price": "13.13",
    "market_cap": 1674996352,
    "website": "https://www.kailera.com"
   },
@@ -40649,7 +40649,7 @@
   "company": {
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
-   "last_price": "12.92",
+   "last_price": "13.13",
    "market_cap": 1674996352,
    "website": "https://www.kailera.com"
   },
@@ -42461,7 +42461,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "9.83",
+   "last_price": "9.92",
    "market_cap": 878930880,
    "website": "https://www.kuraoncology.com"
   },
@@ -42528,7 +42528,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "9.83",
+   "last_price": "9.92",
    "market_cap": 878930880,
    "website": "https://www.kuraoncology.com"
   },
@@ -42652,7 +42652,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "28.38",
+   "last_price": "28.75",
    "market_cap": 5861965312,
    "website": "https://immunovant.com"
   },
@@ -43055,7 +43055,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "28.38",
+   "last_price": "28.75",
    "market_cap": 5861965312,
    "website": "https://immunovant.com"
   },
@@ -43628,7 +43628,7 @@
   "company": {
    "ticker": "LGVN",
    "name": "Longeveron Inc",
-   "last_price": "1.43",
+   "last_price": "1.46",
    "market_cap": 4559123,
    "website": "https://longeveron.com"
   },
@@ -44052,7 +44052,7 @@
   "company": {
    "ticker": "MNOV",
    "name": "MediciNova",
-   "last_price": "1.40",
+   "last_price": "1.38",
    "market_cap": 69401960,
    "website": "https://medicinova.com"
   },
@@ -44667,7 +44667,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "318.34",
+   "last_price": "318.89",
    "market_cap": 9535857664,
    "website": "https://www.krystalbio.com"
   },
@@ -44739,7 +44739,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "0.42",
+   "last_price": "0.54",
    "market_cap": 9626012,
    "website": "https://www.karyopharm.com"
   },
@@ -45106,7 +45106,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "7.56",
+   "last_price": "7.69",
    "market_cap": 487457664,
    "website": "https://www.arvinas.com"
   },
@@ -46073,7 +46073,7 @@
   "company": {
    "ticker": "TYRA",
    "name": "Tyra Biosciences",
-   "last_price": "20.60",
+   "last_price": "20.92",
    "market_cap": 1416372352,
    "website": "https://tyra.bio"
   },
@@ -47174,7 +47174,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "2.23",
+   "last_price": "2.45",
    "market_cap": 161815472,
    "website": "https://www.adagene.com"
   },
@@ -47236,7 +47236,7 @@
   "company": {
    "ticker": "ADAG",
    "name": "Adagene Inc",
-   "last_price": "2.23",
+   "last_price": "2.45",
    "market_cap": 161815472,
    "website": "https://www.adagene.com"
   },

@@ -1,29 +1,5 @@
 [
  {
-  "ticker": "CMCSA",
-  "reportDate": "2026-10-22",
-  "estimate": "0.98",
-  "time": "pre-market"
- },
- {
-  "ticker": "HON",
-  "reportDate": "2026-10-22",
-  "estimate": "2.17",
-  "time": "pre-market"
- },
- {
-  "ticker": "PG",
-  "reportDate": "2026-10-22",
-  "estimate": "1.89",
-  "time": "pre-market"
- },
- {
-  "ticker": "UNP",
-  "reportDate": "2026-10-22",
-  "estimate": "3.47",
-  "time": "pre-market"
- },
- {
   "ticker": "AXP",
   "reportDate": "2026-10-23",
   "estimate": "4.47",
@@ -38,7 +14,13 @@
  {
   "ticker": "BMRN",
   "reportDate": "2026-10-26",
-  "estimate": "0.97",
+  "estimate": "0.92",
+  "time": ""
+ },
+ {
+  "ticker": "SMMT",
+  "reportDate": "2026-10-26",
+  "estimate": "-0.28",
   "time": ""
  },
  {
@@ -46,18 +28,6 @@
   "reportDate": "2026-10-26",
   "estimate": "1.27",
   "time": "pre-market"
- },
- {
-  "ticker": "ALKS",
-  "reportDate": "2026-10-27",
-  "estimate": "-0.08",
-  "time": ""
- },
- {
-  "ticker": "ARQT",
-  "reportDate": "2026-10-27",
-  "estimate": "0.17",
-  "time": ""
  },
  {
   "ticker": "BA",
@@ -105,7 +75,7 @@
   "ticker": "VKTX",
   "reportDate": "2026-10-28",
   "estimate": "1.0",
-  "time": ""
+  "time": "post-market"
  },
  {
   "ticker": "ALNY",
@@ -116,7 +86,7 @@
  {
   "ticker": "AMZN",
   "reportDate": "2026-10-29",
-  "estimate": "2.02",
+  "estimate": "2.01",
   "time": "post-market"
  },
  {
@@ -140,7 +110,7 @@
  {
   "ticker": "INCY",
   "reportDate": "2026-10-29",
-  "estimate": "-3.87",
+  "estimate": "-3.78",
   "time": "pre-market"
  },
  {
@@ -194,7 +164,7 @@
  {
   "ticker": "XOM",
   "reportDate": "2026-10-30",
-  "estimate": "3.93",
+  "estimate": "3.96",
   "time": "pre-market"
  },
  {
@@ -234,6 +204,12 @@
   "time": ""
  },
  {
+  "ticker": "ALKS",
+  "reportDate": "2026-11-03",
+  "estimate": "-0.08",
+  "time": "pre-market"
+ },
+ {
   "ticker": "AMD",
   "reportDate": "2026-11-03",
   "estimate": "1.68",
@@ -266,7 +242,7 @@
  {
   "ticker": "KYMR",
   "reportDate": "2026-11-03",
-  "estimate": "-1.26",
+  "estimate": "-1.27",
   "time": ""
  },
  {
@@ -297,7 +273,7 @@
   "ticker": "RYTM",
   "reportDate": "2026-11-03",
   "estimate": "-0.68",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "SHOP",
@@ -336,6 +312,12 @@
   "time": ""
  },
  {
+  "ticker": "ARQT",
+  "reportDate": "2026-11-04",
+  "estimate": "0.16",
+  "time": "post-market"
+ },
+ {
   "ticker": "BBIO",
   "reportDate": "2026-11-04",
   "estimate": "-0.6",
@@ -344,7 +326,7 @@
  {
   "ticker": "CYTK",
   "reportDate": "2026-11-04",
-  "estimate": "-1.51",
+  "estimate": "-1.5",
   "time": ""
  },
  {
@@ -356,7 +338,7 @@
  {
   "ticker": "IONS",
   "reportDate": "2026-11-04",
-  "estimate": "-1.2",
+  "estimate": "-1.22",
   "time": ""
  },
  {
@@ -386,8 +368,8 @@
  {
   "ticker": "UTHR",
   "reportDate": "2026-11-04",
-  "estimate": "6.25",
-  "time": ""
+  "estimate": "5.85",
+  "time": "pre-market"
  },
  {
   "ticker": "COP",
@@ -410,7 +392,7 @@
  {
   "ticker": "GMAB",
   "reportDate": "2026-11-05",
-  "estimate": "0.38",
+  "estimate": "0.37",
   "time": "pre-market"
  },
  {
@@ -465,13 +447,13 @@
   "ticker": "IMVT",
   "reportDate": "2026-11-09",
   "estimate": "-0.73",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "ROIV",
   "reportDate": "2026-11-09",
   "estimate": "-0.52",
-  "time": ""
+  "time": "pre-market"
  },
  {
   "ticker": "MANE",

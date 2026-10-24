@@ -1,5 +1,29 @@
 [
  {
+  "id": 9050,
+  "company": {
+   "id": 474,
+   "ticker": "IOVA",
+   "name": "Iovance Biotherapeutics",
+   "website": "https://www.iovance.com"
+  },
+  "created_at": "2026-10-24T13:05:20.357221Z",
+  "updated_at": "2026-10-24T13:05:20.357241Z",
+  "ticker": "IOVA",
+  "drug_name": "Lifileucel plus pembrolizumab",
+  "drug_indication": "Frontline Advanced Melanoma",
+  "airtable_id": 9317,
+  "stage": "Phase 2",
+  "catalyst_date": "2026-10-23",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62560852/iovance-presents-new-data-esmo-2026-demonstrating-deep-durable-responses-lifileucel-til-cell-therapy",
+  "catalyst_text": "Reported positive final Phase 2 results at ESMO",
+  "detailed_catalyst_text": "Final Phase 2 results from Cohort 1A of IOV-COM-202 showed a 62.5% ORR and 29.2% CR for the combination in frontline advanced melanoma, with median overall survival not reached at 50.9 months of follow-up. The data were presented in a Proffered Paper oral session at ESMO 2026, highlighting strong efficacy signals and supporting advancement in this setting.",
+  "catalyst_text_evidence": "Iovance Biotherapeutics, Inc. (NASDAQ:IOVA), a commercial biotechnology company focused on innovating, developing, and delivering novel polyclonal tumor infiltrating lymphocyte (TIL) therapies for patients with cancer, today announced that one-time lifileucel combined with pembrolizumab demonstrated a 62.5% ORR and a 29.2% CR rate, with median OS not reached at 50.9 months of median study follow-up in the final Phase 2 analysis in frontline advanced melanoma. The Phase 2 results were presented on 2026-10-23 in a Proffered Paper oral session at the ESMO Congress 2026 in Madrid, Spain.",
+  "news_published_at": "2026-10-24T00:00:00Z",
+  "open_price_gap_percent": "0.00318",
+  "intra_day_price_change_percent": "-0.00670"
+ },
+ {
   "id": 7687,
   "company": {
    "id": 474,
@@ -8,7 +32,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2026-06-02T13:04:41.516342Z",
-  "updated_at": "2026-10-23T13:06:13.229739Z",
+  "updated_at": "2026-10-24T13:05:59.171390Z",
   "ticker": "IOVA",
   "drug_name": "IOV-5001",
   "drug_indication": "Advanced Colorectal Cancer, Triple-Negative Breast Cancer, Estrogen Receptor-Low Breast Cancer, Solid Tumors",
@@ -32,7 +56,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2026-02-25T13:01:07.730472Z",
-  "updated_at": "2026-10-23T13:01:42.089235Z",
+  "updated_at": "2026-10-24T13:01:35.802080Z",
   "ticker": "IOVA",
   "drug_name": "Lifileucel",
   "drug_indication": "Undifferentiated Pleomorphic Sarcoma, Dedifferentiated Liposarcoma",
@@ -56,7 +80,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-11-08T13:04:09.016430Z",
-  "updated_at": "2026-10-23T13:06:02.876196Z",
+  "updated_at": "2026-10-24T13:05:49.474169Z",
   "ticker": "IOVA",
   "drug_name": "Iovance TIL (LN-145)",
   "drug_indication": "Non-small cell lung carcinoma (NSCLC)",
@@ -80,7 +104,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-11-08T13:04:13.713120Z",
-  "updated_at": "2026-10-23T13:06:10.706308Z",
+  "updated_at": "2026-10-24T13:05:56.766453Z",
   "ticker": "IOVA",
   "drug_name": "Iovance TIL (LN-145) or lifileucel + pembrolizumab + chemotherapy",
   "drug_indication": "Cancer, 1L advanced non-small cell lung carcinoma",
@@ -104,7 +128,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:07:28.908429Z",
-  "updated_at": "2026-10-23T13:03:33.640948Z",
+  "updated_at": "2026-10-24T13:03:24.835446Z",
   "ticker": "IOVA",
   "drug_name": "LN-145 and KEYTRUDA (pembrolizumab) - (IOV-COM-202)",
   "drug_indication": "Solid Tumors",
@@ -128,7 +152,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:05:53.768319Z",
-  "updated_at": "2026-10-23T13:01:10.966158Z",
+  "updated_at": "2026-10-24T13:01:06.067910Z",
   "ticker": "IOVA",
   "drug_name": "LN-145 - (IOV-COM-202)",
   "drug_indication": "Non-small cell lung cancer (NSCLC)",
@@ -152,7 +176,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:06:40.424952Z",
-  "updated_at": "2026-10-23T13:02:22.893564Z",
+  "updated_at": "2026-10-24T13:02:13.749702Z",
   "ticker": "IOVA",
   "drug_name": "AMTAGVI (Lifileucel (LN-144)) - (TILVANCE-301)",
   "drug_indication": "Refractory metastatic melanoma",
@@ -176,7 +200,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:07:47.368567Z",
-  "updated_at": "2026-10-23T13:03:58.911568Z",
+  "updated_at": "2026-10-24T13:03:49.907547Z",
   "ticker": "IOVA",
   "drug_name": "LN-145 -  (IOV-LUN-202)",
   "drug_indication": "Anti-PD-1 therapy for advanced (unresectable or metastatic) Non-small Cell Lung Cancer (NSCLC)",
@@ -200,7 +224,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:07:33.748781Z",
-  "updated_at": "2026-10-23T13:03:39.636379Z",
+  "updated_at": "2026-10-24T13:03:30.885609Z",
   "ticker": "IOVA",
   "drug_name": "LN-145-04",
   "drug_indication": "Cervical cancer",

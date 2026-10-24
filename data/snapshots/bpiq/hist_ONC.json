@@ -1,5 +1,53 @@
 [
  {
+  "id": 9031,
+  "company": {
+   "id": 682,
+   "ticker": "ONC",
+   "name": "BeOne Medicines",
+   "website": "https://beonemedicines.com"
+  },
+  "created_at": "2026-10-24T13:02:40.248178Z",
+  "updated_at": "2026-10-24T13:02:40.248199Z",
+  "ticker": "ONC",
+  "drug_name": "Tislelizumab plus zanidatamab",
+  "drug_indication": "HER2-positive gastroesophageal adenocarcinoma",
+  "airtable_id": 9334,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-10-23",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62560851/beone-medicines-reports-sustained-survival-benefit-tevimbra-ziihera-combination-first-line-her2-gast",
+  "catalyst_text": "Announced positive survival results from Phase 3 study",
+  "detailed_catalyst_text": "Reported updated Phase 3 HERIZON-GEA-01 results in first-line HER2-positive gastroesophageal adenocarcinoma. The triplet with chemotherapy achieved median OS of 27.0 months versus trastuzumab plus chemotherapy (HR 0.65) and 36-month OS of 39.8%; adding the PD-1 to zanidatamab plus chemotherapy showed a four-month OS improvement but was not statistically significant versus the doublet.",
+  "catalyst_text_evidence": "BeOne Medicines Ltd. ... announced new survival results from the planned second interim analysis (IA2) and final formal analysis of the Phase 3 HERIZON-GEA-01 trial, further confirming the benefit of TEVIMBRA ... plus ZIIHERA ... and chemotherapy as first-line treatment for patients with HER2-positive locally advanced or metastatic gastroesophageal adenocarcinoma (GEA). TEVIMBRA plus ZIIHERA and chemotherapy demonstrated sustained long-term survival versus trastuzumab plus chemotherapy. Median OS was 27.0 months, with an OS hazard ratio (HR) of 0.65 (95% CI: 0.52-0.80), improved from 0.72 at the first interim analysis. Long-term survival was highest with the TEVIMBRA-containing regimen. Estimated 36-month OS was 39.8% with TEVIMBRA plus ZIIHERA and chemotherapy, 31.5% with ZIIHERA plus chemotherapy and 22.9% with trastuzumab plus chemotherapy. Adding TEVIMBRA to ZIIHERA plus chemotherapy was associated with a four-month longer median OS at 27.0 months compared with ZIIHERA plus chemotherapy with 22.9 months (HR 0.81; 95% CI: 0.65-1.00).",
+  "news_published_at": "2026-10-24T00:00:00Z",
+  "open_price_gap_percent": "0.00557",
+  "intra_day_price_change_percent": "-0.01761"
+ },
+ {
+  "id": 9044,
+  "company": {
+   "id": 682,
+   "ticker": "ONC",
+   "name": "BeOne Medicines",
+   "website": "https://beonemedicines.com"
+  },
+  "created_at": "2026-10-24T13:04:09.493445Z",
+  "updated_at": "2026-10-24T13:04:09.493465Z",
+  "ticker": "ONC",
+  "drug_name": "Zanidatamab",
+  "drug_indication": "HER2-positive gastroesophageal adenocarcinoma",
+  "airtable_id": 9335,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-10-23",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62560851/beone-medicines-reports-sustained-survival-benefit-tevimbra-ziihera-combination-first-line-her2-gast",
+  "catalyst_text": "Trial met primary endpoint with significant survival benefit",
+  "detailed_catalyst_text": "Phase 3 HERIZON-GEA-01 showed the doublet of zanidatamab plus chemotherapy significantly improved overall survival versus trastuzumab plus chemotherapy in first-line HER2-positive gastroesophageal adenocarcinoma. Median OS was 22.9 months versus 19.6 months (HR 0.76; P=0.0088), meeting the remaining primary endpoint.",
+  "catalyst_text_evidence": "ZIIHERA plus chemotherapy significantly improved OS versus trastuzumab plus chemotherapy. Median OS was 22.9 months versus 19.6 months, respectively (HR 0.76; 95% CI: 0.62-0.93; P=0.0088), meeting the remaining primary endpoint of the study.",
+  "news_published_at": "2026-10-24T00:00:00Z",
+  "open_price_gap_percent": "0.00557",
+  "intra_day_price_change_percent": "-0.01761"
+ },
+ {
   "id": 8472,
   "company": {
    "id": 682,
@@ -8,7 +56,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-09-01T13:02:47.578470Z",
-  "updated_at": "2026-10-23T13:02:48.971805Z",
+  "updated_at": "2026-10-24T13:02:39.241279Z",
   "ticker": "ONC",
   "drug_name": "Zanidatamab",
   "drug_indication": "HER2-positive locally advanced or metastatic gastroesophageal adenocarcinoma",
@@ -32,7 +80,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-08-27T13:03:53.604402Z",
-  "updated_at": "2026-10-23T13:03:31.261685Z",
+  "updated_at": "2026-10-24T13:03:22.523445Z",
   "ticker": "ONC",
   "drug_name": "Tevimbra (tislelizumab)",
   "drug_indication": "HER2-Positive Gastric or Gastroesophageal Junction Cancer",
@@ -56,7 +104,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-07-01T13:03:54.745198Z",
-  "updated_at": "2026-10-23T13:04:54.861314Z",
+  "updated_at": "2026-10-24T13:04:44.927255Z",
   "ticker": "ONC",
   "drug_name": "BRUKINSA (zanubrutinib)",
   "drug_indication": "Mantle Cell Lymphoma",
@@ -80,7 +128,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-06-12T13:05:56.735227Z",
-  "updated_at": "2026-10-23T13:07:34.822315Z",
+  "updated_at": "2026-10-24T13:07:17.296634Z",
   "ticker": "ONC",
   "drug_name": "BRUKINSA",
   "drug_indication": "Chronic Lymphocytic Leukemia",
@@ -104,7 +152,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-05-30T13:01:18.492374Z",
-  "updated_at": "2026-10-23T13:01:26.184438Z",
+  "updated_at": "2026-10-24T13:01:20.971936Z",
   "ticker": "ONC",
   "drug_name": "Zanubrutinib",
   "drug_indication": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma",
@@ -128,7 +176,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-05-30T13:03:00.754897Z",
-  "updated_at": "2026-10-23T13:03:32.431601Z",
+  "updated_at": "2026-10-24T13:03:23.664555Z",
   "ticker": "ONC",
   "drug_name": "Sonrotoclax",
   "drug_indication": "Mantle Cell Lymphoma",
@@ -152,7 +200,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-05-30T13:05:48.046912Z",
-  "updated_at": "2026-10-23T13:07:08.616459Z",
+  "updated_at": "2026-10-24T13:06:50.660815Z",
   "ticker": "ONC",
   "drug_name": "Zanubrutinib + Sonrotoclax",
   "drug_indication": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma",
@@ -176,7 +224,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-05-15T13:01:04.283670Z",
-  "updated_at": "2026-10-23T13:00:57.197012Z",
+  "updated_at": "2026-10-24T13:00:51.531411Z",
   "ticker": "ONC",
   "drug_name": "BEQALZI (sonrotoclax)",
   "drug_indication": "Relapsed or Refractory Mantle Cell Lymphoma",
@@ -200,7 +248,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-04-30T13:04:24.535096Z",
-  "updated_at": "2026-10-23T13:05:52.413592Z",
+  "updated_at": "2026-10-24T13:05:40.185158Z",
   "ticker": "ONC",
   "drug_name": "Tislelizumab plus zanidatamab",
   "drug_indication": "First-line HER2-positive gastroesophageal adenocarcinoma",
@@ -224,7 +272,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2025-12-19T13:00:42.844967Z",
-  "updated_at": "2026-10-23T13:01:14.435030Z",
+  "updated_at": "2026-10-24T13:01:09.763744Z",
   "ticker": "ONC",
   "drug_name": "BGB-B2033",
   "drug_indication": "Hepatocellular Carcinoma",
@@ -248,7 +296,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2025-08-30T13:02:25.855047Z",
-  "updated_at": "2026-10-23T13:03:32.527870Z",
+  "updated_at": "2026-10-24T13:03:23.749543Z",
   "ticker": "ONC",
   "drug_name": "Sonrotoclax / BGB-11417",
   "drug_indication": "Relapsed or Refractory Mantle Cell Lymphoma (MCL)",
@@ -272,7 +320,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2025-04-04T13:02:01.257799Z",
-  "updated_at": "2026-10-23T13:03:40.060181Z",
+  "updated_at": "2026-10-24T13:03:31.302807Z",
   "ticker": "ONC",
   "drug_name": "Ociperlimab (BGB-A1217)  ",
   "drug_indication": "lung cancer ",
@@ -296,7 +344,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2025-11-07T13:01:53.893094Z",
-  "updated_at": "2026-10-23T13:02:51.739033Z",
+  "updated_at": "2026-10-24T13:02:42.134467Z",
   "ticker": "ONC",
   "drug_name": "TEVIMBRA (tislelizumab)",
   "drug_indication": "Cancer, Esophageal Squamous Cell Carcinoma",
@@ -320,7 +368,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2025-11-07T13:01:24.384318Z",
-  "updated_at": "2026-10-23T13:02:06.279173Z",
+  "updated_at": "2026-10-24T13:01:57.506219Z",
   "ticker": "ONC",
   "drug_name": "TEVIMBRA (tislelizumab) ",
   "drug_indication": "Cancer, Esophageal Squamous Cell Carcinoma",
@@ -344,7 +392,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2025-11-07T13:02:14.543015Z",
-  "updated_at": "2026-10-23T13:03:24.512751Z",
+  "updated_at": "2026-10-24T13:03:16.040825Z",
   "ticker": "ONC",
   "drug_name": "Tislelizumab",
   "drug_indication": "Cancer, Non-small cell lung carcinoma",

@@ -1,5 +1,29 @@
 [
  {
+  "id": 9037,
+  "company": {
+   "id": 632,
+   "ticker": "ALNY",
+   "name": "Alnylam Pharmaceuticals",
+   "website": "https://www.alnylam.com"
+  },
+  "created_at": "2026-10-24T13:03:27.244222Z",
+  "updated_at": "2026-10-24T13:03:27.244242Z",
+  "ticker": "ALNY",
+  "drug_name": "Brezosiran",
+  "drug_indication": "Huntington\u2019s Disease",
+  "airtable_id": 9328,
+  "stage": "Phase 1b",
+  "catalyst_date": "2026-10-23",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62551877/alnylam-announces-positive-initial-phase-1b-data-brezosiran-aln-htt02-demonstrating-deep-and-durable",
+  "catalyst_text": "Presented positive initial Phase 1b data at conference",
+  "detailed_catalyst_text": "Initial Phase 1b results in adults with Huntington\u2019s disease showed robust CSF mutant huntingtin reductions, with 60\u201364% mean lowering at month 3 at the highest dose and up to 83% in an individual, alongside encouraging safety. The data were presented at the EHDN 2026 congress, supporting the program\u2019s progress and potential for an infrequent dosing regimen.",
+  "catalyst_text_evidence": "Alnylam Pharmaceuticals, Inc. (NASDAQ:ALNY), the leading RNAi therapeutics company, today reported positive initial Phase 1b clinical trial results for ALN-HTT02, an investigational RNAi therapeutic in development for the treatment of Huntington\u2019s disease, which will be developed under the International Nonproprietary Name (INN) brezosiran (bre-ZOH-sir-an). The data were presented in oral and poster presentations at the European Huntington\u2019s Disease Network (EHDN) Clinical Research Congress 2026 in Krakow, Poland. In the ongoing Phase 1b study, participants on single ascending intrathecal doses of brezosiran experienced robust, dose-dependent reductions of mutant huntingtin protein (mHTT) in cerebrospinal fluid (CSF), with target engagement demonstrated using two independent assays. Across the first five cohorts, dose-dependent reductions of CSF mHTT were observed, with a mean reduction from baseline of 60-64% at month 3 in the highest dose group evaluated to date, with a maximum individual reduction of 83%. The initial data include individuals followed for up to 12 months, during which an encouraging safety and tolerability profile has been observed with no dose-dependent increases in CSF inflammatory markers, CSF neurofilament light chain (NfL) or brain ventricular volume.",
+  "news_published_at": "2026-10-24T00:00:00Z",
+  "open_price_gap_percent": "0.00000",
+  "intra_day_price_change_percent": "-0.01430"
+ },
+ {
   "id": 8476,
   "company": {
    "id": 632,
@@ -8,7 +32,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-09-01T13:04:22.438910Z",
-  "updated_at": "2026-10-23T13:04:42.250242Z",
+  "updated_at": "2026-10-24T13:04:32.098768Z",
   "ticker": "ALNY",
   "drug_name": "Vutrisiran",
   "drug_indication": "Transthyretin Amyloidosis",
@@ -32,7 +56,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-07-16T13:01:36.395186Z",
-  "updated_at": "2026-10-23T13:01:20.356520Z",
+  "updated_at": "2026-10-24T13:01:15.383103Z",
   "ticker": "ALNY",
   "drug_name": "Mivelsiran",
   "drug_indication": "Down Syndrome\u2013Associated Alzheimer\u2019s Disease",
@@ -56,7 +80,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-07-16T13:02:15.417199Z",
-  "updated_at": "2026-10-23T13:01:59.090407Z",
+  "updated_at": "2026-10-24T13:01:50.870934Z",
   "ticker": "ALNY",
   "drug_name": "Mivelsiran",
   "drug_indication": "Early-Onset Alzheimer\u2019s Disease",
@@ -80,7 +104,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-07-16T13:02:57.371179Z",
-  "updated_at": "2026-10-23T13:02:38.685957Z",
+  "updated_at": "2026-10-24T13:02:28.730453Z",
   "ticker": "ALNY",
   "drug_name": "Mivelsiran",
   "drug_indication": "Cerebral Amyloid Angiopathy",
@@ -104,7 +128,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-07-16T13:05:55.324367Z",
-  "updated_at": "2026-10-23T13:05:39.810319Z",
+  "updated_at": "2026-10-24T13:05:28.214709Z",
   "ticker": "ALNY",
   "drug_name": "ALN-5288",
   "drug_indication": "Alzheimer\u2019s Disease",
@@ -128,7 +152,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-05-13T13:01:48.258846Z",
-  "updated_at": "2026-10-23T13:02:14.225839Z",
+  "updated_at": "2026-10-24T13:02:05.402243Z",
   "ticker": "ALNY",
   "drug_name": "Patisiran",
   "drug_indication": "ATTR amyloidosis",
@@ -152,7 +176,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-05-13T13:02:57.396220Z",
-  "updated_at": "2026-10-23T13:03:39.681537Z",
+  "updated_at": "2026-10-24T13:03:30.929452Z",
   "ticker": "ALNY",
   "drug_name": "Vutrisiran",
   "drug_indication": "ATTR amyloidosis",
@@ -176,7 +200,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-05-13T13:03:00.073429Z",
-  "updated_at": "2026-10-23T13:03:43.023881Z",
+  "updated_at": "2026-10-24T13:03:34.300626Z",
   "ticker": "ALNY",
   "drug_name": "Vutrisiran",
   "drug_indication": "ATTR-CM",
@@ -200,7 +224,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-04-01T13:03:30.718488Z",
-  "updated_at": "2026-10-23T13:04:50.251406Z",
+  "updated_at": "2026-10-24T13:04:40.276078Z",
   "ticker": "ALNY",
   "drug_name": "Zilebesiran",
   "drug_indication": "Hypertension",
@@ -224,7 +248,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2026-04-01T13:05:35.636326Z",
-  "updated_at": "2026-10-23T13:07:50.590464Z",
+  "updated_at": "2026-10-24T13:07:33.688359Z",
   "ticker": "ALNY",
   "drug_name": "Vutrisiran",
   "drug_indication": "ATTR Cardiomyopathy",
@@ -248,7 +272,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-03-27T13:02:30.428249Z",
-  "updated_at": "2026-10-23T13:04:38.961419Z",
+  "updated_at": "2026-10-24T13:04:28.704723Z",
   "ticker": "ALNY",
   "drug_name": "AMVUTTRA (Vutrisiran)",
   "drug_indication": "cardiomyopathy of wild-type or hereditary transthyretin-mediated amyloidosis (ATTR-CM)",
@@ -272,7 +296,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:13:44.796376Z",
-  "updated_at": "2026-10-23T13:06:22.382543Z",
+  "updated_at": "2026-10-24T13:06:08.615840Z",
   "ticker": "ALNY",
   "drug_name": "Elebsiran (VIR-2218) and tobevibart (VIR-3434) - (SOLSTICE)",
   "drug_indication": "Hepatitis Delta Virus (HDV)",
@@ -296,7 +320,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:14:13.673586Z",
-  "updated_at": "2026-10-23T13:07:09.978773Z",
+  "updated_at": "2026-10-24T13:06:51.930659Z",
   "ticker": "ALNY",
   "drug_name": "Nucresiran (ALN-TTRsc04)",
   "drug_indication": "ATTR amyloidosis",
@@ -320,7 +344,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:49:00.716986Z",
-  "updated_at": "2026-10-23T13:07:18.601965Z",
+  "updated_at": "2026-10-24T13:06:59.855964Z",
   "ticker": "ALNY",
   "drug_name": "ALN-HBV02 (VIR-2218) and VIR-3434 - (MARCH)",
   "drug_indication": "Hepatitis B",
@@ -344,7 +368,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:14:04.240680Z",
-  "updated_at": "2026-10-23T13:06:54.035323Z",
+  "updated_at": "2026-10-24T13:06:38.404789Z",
   "ticker": "ALNY",
   "drug_name": "AMVUTTRA  (Vutrisiran) - (HELIOS-B)",
   "drug_indication": "ATTR amyloidosis with cardiomyopathy",
@@ -368,7 +392,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:05:45.340923Z",
-  "updated_at": "2026-10-23T13:00:58.058060Z",
+  "updated_at": "2026-10-24T13:00:52.308195Z",
   "ticker": "ALNY",
   "drug_name": "Zilebesiran - (KARDIA-2)",
   "drug_indication": "Hypertension",
@@ -392,7 +416,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:13:50.084578Z",
-  "updated_at": "2026-10-23T13:06:31.130150Z",
+  "updated_at": "2026-10-24T13:06:16.894426Z",
   "ticker": "ALNY",
   "drug_name": "ALN-KHK",
   "drug_indication": "Type 2 Diabetes",
@@ -416,7 +440,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:14:33.764875Z",
-  "updated_at": "2026-10-23T13:07:40.344544Z",
+  "updated_at": "2026-10-24T13:07:23.190014Z",
   "ticker": "ALNY",
   "drug_name": "Zilebesiran (ALN-AGT) - (KARDIA-1)",
   "drug_indication": "Hypertension",
@@ -440,7 +464,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:06:23.766033Z",
-  "updated_at": "2026-10-23T13:01:57.860439Z",
+  "updated_at": "2026-10-24T13:01:49.747551Z",
   "ticker": "ALNY",
   "drug_name": "Mivelsiran",
   "drug_indication": "Alzheimer's Disease and Cerebral Amyloid Angiopathy",
@@ -464,7 +488,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:08:59.468791Z",
-  "updated_at": "2026-10-23T13:05:46.313771Z",
+  "updated_at": "2026-10-24T13:05:34.291866Z",
   "ticker": "ALNY",
   "drug_name": "ONPATTRO (patisiran) - (APOLLO-B)",
   "drug_indication": "Wild-type ATTR amyloidosis patients with cardiomyopathy",
@@ -488,7 +512,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:48:19.942886Z",
-  "updated_at": "2026-10-23T13:05:53.911714Z",
+  "updated_at": "2026-10-24T13:05:41.587740Z",
   "ticker": "ALNY",
   "drug_name": "VIR-2218 and  PEG-IFN\u03b1",
   "drug_indication": "Hepatitis B (HBV)",
@@ -512,7 +536,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:09:02.886460Z",
-  "updated_at": "2026-10-23T13:05:50.863669Z",
+  "updated_at": "2026-10-24T13:05:38.707772Z",
   "ticker": "ALNY",
   "drug_name": "ALN-XDH",
   "drug_indication": "Gout",
@@ -536,7 +560,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:06:21.332304Z",
-  "updated_at": "2026-10-23T13:01:54.298416Z",
+  "updated_at": "2026-10-24T13:01:46.601949Z",
   "ticker": "ALNY",
   "drug_name": "Cemdisiran",
   "drug_indication": "IgA nephropathy",
@@ -560,7 +584,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:14:18.379829Z",
-  "updated_at": "2026-10-23T13:07:18.029525Z",
+  "updated_at": "2026-10-24T13:06:59.371802Z",
   "ticker": "ALNY",
   "drug_name": "AMVUTTRA (vutrisiran)",
   "drug_indication": "Hereditary transthyretin-mediated (hATTR) amyloidosis",
@@ -584,7 +608,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:08:29.407908Z",
-  "updated_at": "2026-10-23T13:04:57.810253Z",
+  "updated_at": "2026-10-24T13:04:47.555372Z",
   "ticker": "ALNY",
   "drug_name": "Vutrisiran - (HELIOS-A)",
   "drug_indication": "ATTR Amyloidosis",
@@ -608,7 +632,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:06:15.054531Z",
-  "updated_at": "2026-10-23T13:01:45.007538Z",
+  "updated_at": "2026-10-24T13:01:38.391763Z",
   "ticker": "ALNY",
   "drug_name": "Leqvio (inclisiran)",
   "drug_indication": "Hypercholesterolemia",
@@ -632,7 +656,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:07:45.969869Z",
-  "updated_at": "2026-10-23T13:03:56.514585Z",
+  "updated_at": "2026-10-24T13:03:47.787012Z",
   "ticker": "ALNY",
   "drug_name": "OXLUMO (lumasiran)",
   "drug_indication": "Primary hyperoxaluria type 1 (PH1)",
@@ -656,7 +680,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:07:57.785699Z",
-  "updated_at": "2026-10-23T13:04:14.773202Z",
+  "updated_at": "2026-10-24T13:04:04.461933Z",
   "ticker": "ALNY",
   "drug_name": "OXLUMO (lumasiran)",
   "drug_indication": "Primary Hyperoxaluria Type 1 (PH1)",
@@ -680,7 +704,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:06:04.394889Z",
-  "updated_at": "2026-10-23T13:01:27.782487Z",
+  "updated_at": "2026-10-24T13:01:22.711008Z",
   "ticker": "ALNY",
   "drug_name": "OXLUMO (lumasiran) - ILLUMINATE-B",
   "drug_indication": "Primary Hyperoxaluria Type 1",
@@ -704,7 +728,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:08:50.065567Z",
-  "updated_at": "2026-10-23T13:05:31.401035Z",
+  "updated_at": "2026-10-24T13:05:19.930244Z",
   "ticker": "ALNY",
   "drug_name": "GIVLAARI (givosiran)",
   "drug_indication": "Acute hepatic porphyrias",
@@ -728,7 +752,7 @@
    "website": "https://www.alnylam.com"
   },
   "created_at": "2025-02-21T20:07:38.269811Z",
-  "updated_at": "2026-10-23T13:03:46.604122Z",
+  "updated_at": "2026-10-24T13:03:37.923150Z",
   "ticker": "ALNY",
   "drug_name": "ONPATTRO (patisiran)",
   "drug_indication": "Familial Amyloidotic Polyneuropathy (FAP) in Patients with ATTR",

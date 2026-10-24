@@ -1,5 +1,53 @@
 [
  {
+  "id": 9038,
+  "company": {
+   "id": 695,
+   "ticker": "TNGX",
+   "name": "Tango Therapeutics",
+   "website": "https://www.tangotx.com"
+  },
+  "created_at": "2026-10-24T13:03:36.168795Z",
+  "updated_at": "2026-10-24T13:03:36.168815Z",
+  "ticker": "TNGX",
+  "drug_name": "Vopimetostat plus daraxonrasib",
+  "drug_indication": "Pancreatic Ductal Adenocarcinoma, Non-Small Cell Lung Cancer",
+  "airtable_id": 9329,
+  "stage": "Phase 1/2",
+  "catalyst_date": "2026-10-23",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62553547/tango-presents-promising-results-phase-1-2-study-vopimetostat-and-daraxonrasib-pancreatic-cancer-and",
+  "catalyst_text": "Announced positive Phase 1/2 results in PDAC NSCLC",
+  "detailed_catalyst_text": "Reported updated Phase 1/2 combination data in MTAP-deleted and RAS-mutant pancreatic ductal adenocarcinoma and non-small cell lung cancer. In PDAC, efficacy-evaluable patients had 82% ORR, median PFS not reached, and 88% 9\u2011month PFS; in NSCLC, dose level 1 showed 80% ORR in five patients. Results were presented at ESMO 2026 and the regimen was generally well tolerated at dose level 1.",
+  "catalyst_text_evidence": "BOSTON, 2026-10-23 (GLOBE NEWSWIRE) -- Tango Therapeutics, Inc. ... today announced promising results from its ongoing Phase 1/2 study of vopimetostat ... in combination with Revolution Medicines\u2019 RAS(ON) inhibitors in patients with MTAP-deleted and RAS-mutant metastatic pancreatic ductal adenocarcinoma (PDAC) and non-small cell lung cancer (NSCLC). The results are being presented at the European Society for Medical Oncology (ESMO) 2026 Congress being held in Madrid, Spain on 2026-10-23 to 2026-10-27. As of the data cutoff date of 2026-08-20, updated data from the ongoing Phase 1/2 study demonstrated an 82% objective response rate (ORR), median PFS not yet reached, and a 9-month PFS rate of 88%, in 22 patients with 2L/3L MTAP-deleted/RAS-mutant PDAC who were efficacy-evaluable. The combination was generally well-tolerated in the 30 PDAC and NSCLC patients who received dose level 1. NSCLC  Clinical activity, dose level 1: 80% ORR (4/5 cPRs)100% DCR.",
+  "news_published_at": "2026-10-24T00:00:00Z",
+  "open_price_gap_percent": "-0.08557",
+  "intra_day_price_change_percent": "-0.08614"
+ },
+ {
+  "id": 9049,
+  "company": {
+   "id": 695,
+   "ticker": "TNGX",
+   "name": "Tango Therapeutics",
+   "website": "https://www.tangotx.com"
+  },
+  "created_at": "2026-10-24T13:04:54.779436Z",
+  "updated_at": "2026-10-24T13:04:54.779456Z",
+  "ticker": "TNGX",
+  "drug_name": "Vopimetostat plus zoldonrasib",
+  "drug_indication": "Pancreatic Ductal Adenocarcinoma",
+  "airtable_id": 9330,
+  "stage": "Phase 1/2",
+  "catalyst_date": "2026-10-23",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62553547/tango-presents-promising-results-phase-1-2-study-vopimetostat-and-daraxonrasib-pancreatic-cancer-and",
+  "catalyst_text": "Announced positive Phase 1/2 results in PDAC",
+  "detailed_catalyst_text": "Reported updated Phase 1/2 combination data in MTAP-deleted KRAS G12D pancreatic ductal adenocarcinoma. Across dose levels, 54% ORR including one confirmed complete response, 61% 9\u2011month PFS, and 97% disease control; safety was generally well tolerated. Data included 35 efficacy-evaluable and 39 safety-evaluable patients.",
+  "catalyst_text_evidence": "Vopimetostat plus zoldonrasib combination (PDAC with MTAP deletion and KRAS G12D mutation) ... As of the data cutoff date of 2026-08-20, 35 patients were efficacy-evaluable... 39 patients were safety-evaluable... Clinical activity, all dose levels:  54% ORR (19/35; 18 cPRs,1 confirmed complete response)61% 9-month PFS97% DCR. Safety and tolerability, all dose levels: Vopimetostat plus zoldonrasib was generally well-tolerated across dose levels: There were no DLTs... There were no withdrawals due to TRAEs... There were no Grade 5 TRAEs and there was one Grade 4 TRAE (3%)... The rate of Grade 3 TRAEs was 28% (11/39).",
+  "news_published_at": "2026-10-24T00:00:00Z",
+  "open_price_gap_percent": "-0.08557",
+  "intra_day_price_change_percent": "-0.08614"
+ },
+ {
   "id": 7785,
   "company": {
    "id": 695,
@@ -8,7 +56,7 @@
    "website": "https://www.tangotx.com"
   },
   "created_at": "2026-06-09T13:01:10.214309Z",
-  "updated_at": "2026-10-23T13:01:21.266010Z",
+  "updated_at": "2026-10-24T13:01:16.228742Z",
   "ticker": "TNGX",
   "drug_name": "Vopimetostat + Daraxonrasib",
   "drug_indication": "Pancreatic Ductal Adenocarcinoma, Non-Small Cell Lung Cancer",
@@ -32,7 +80,7 @@
    "website": "https://www.tangotx.com"
   },
   "created_at": "2026-06-09T13:01:34.071136Z",
-  "updated_at": "2026-10-23T13:01:56.949881Z",
+  "updated_at": "2026-10-24T13:01:48.953808Z",
   "ticker": "TNGX",
   "drug_name": "Vopimetostat + Zoldonrasib",
   "drug_indication": "Pancreatic Ductal Adenocarcinoma",
@@ -56,7 +104,7 @@
    "website": "https://www.tangotx.com"
   },
   "created_at": "2025-11-05T13:01:31.604775Z",
-  "updated_at": "2026-10-23T13:01:59.346429Z",
+  "updated_at": "2026-10-24T13:01:51.097127Z",
   "ticker": "TNGX",
   "drug_name": "Vopimetostat (TNG462)",
   "drug_indication": "Pancreatic, lung, MTAP-deleted cancers",
@@ -80,7 +128,7 @@
    "website": "https://www.tangotx.com"
   },
   "created_at": "2025-06-28T13:02:58.448488Z",
-  "updated_at": "2026-10-23T13:04:25.445775Z",
+  "updated_at": "2026-10-24T13:04:15.201396Z",
   "ticker": "TNGX",
   "drug_name": "TNG462",
   "drug_indication": "Pancreatic and lung cancer",
@@ -104,7 +152,7 @@
    "website": "https://www.tangotx.com"
   },
   "created_at": "2025-05-22T13:02:05.788737Z",
-  "updated_at": "2026-10-23T13:03:31.367577Z",
+  "updated_at": "2026-10-24T13:03:22.618166Z",
   "ticker": "TNGX",
   "drug_name": "TNG456",
   "drug_indication": "MTAP-deleted solid tumors, glioblastoma  ",
@@ -128,7 +176,7 @@
    "website": "https://www.tangotx.com"
   },
   "created_at": "2025-02-21T20:07:30.192991Z",
-  "updated_at": "2026-10-23T13:03:35.011336Z",
+  "updated_at": "2026-10-24T13:03:26.140930Z",
   "ticker": "TNGX",
   "drug_name": "TNG908",
   "drug_indication": "MTAP-deleted tumors",
@@ -152,7 +200,7 @@
    "website": "https://www.tangotx.com"
   },
   "created_at": "2025-02-21T20:08:32.573767Z",
-  "updated_at": "2026-10-23T13:05:02.558309Z",
+  "updated_at": "2026-10-24T13:04:52.024909Z",
   "ticker": "TNGX",
   "drug_name": "TNG462",
   "drug_indication": "Solid Tumors",
@@ -176,7 +224,7 @@
    "website": "https://www.tangotx.com"
   },
   "created_at": "2025-02-21T20:06:01.518317Z",
-  "updated_at": "2026-10-23T13:01:24.151864Z",
+  "updated_at": "2026-10-24T13:01:18.809799Z",
   "ticker": "TNGX",
   "drug_name": "TNG348",
   "drug_indication": "BRCA1/2-Mutant and Other HRD+ Cancers, Solid Tumors",
@@ -200,7 +248,7 @@
    "website": "https://www.tangotx.com"
   },
   "created_at": "2025-02-21T20:06:50.200296Z",
-  "updated_at": "2026-10-23T13:02:37.533321Z",
+  "updated_at": "2026-10-24T13:02:27.650854Z",
   "ticker": "TNGX",
   "drug_name": "TNG260",
   "drug_indication": "Solid Tumors",

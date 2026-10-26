@@ -57,73 +57,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 20076,
-  "company": {
-   "ticker": "AVBP",
-   "name": "ArriVent",
-   "last_price": "15.36",
-   "market_cap": 1035462272,
-   "website": "https://arrivent.com"
-  },
-  "ticker": "AVBP",
-  "drug_name": "ARR-217/MRG007 (CDH17-Targeted ADC)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1066,
-    "title": "Digestive tract",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Gastrointestinal Malignancies",
-  "stage_event": {
-   "id": 122,
-   "label": "Phase 1b Data readout",
-   "stage_label": "Phase 1b",
-   "event_label": "Data readout"
-  },
-  "note": "03/05/26:- ARR-217 CDH17-targeted ADC Phase 1 dose escalation ongoing in gastrointestinal malignancies; complete escalation and start optimization H2 2026. 05/11/26:- ARR-217 IND cleared; first patient dosed March 2026; Phase 1 GI malignancy dose escalation ongoing. 08/12/26:- ARR-217 entered Phase 1b dose optimization in gastrointestinal malignancies. Initial Phase 1 data will be presented at a future medical conference. 10/23/26:- Initial Phase 1 NCT07066657 data to be presented at ESMO 2026 on October 25, 2026.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/23/3387598/0/en/arrivent-to-present-initial-phase-1-data-for-cdh17-targeted-adc-arr-217-in-patients-with-gastrointestinal-cancers-at-the-esmo-congress-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16751,
   "company": {
    "ticker": "ORIC",
@@ -2065,7 +1998,7 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "05/13/26:- ELPIS II topline results remain expected in August 2026. 08/12/26:- ELPIS II Ph2b topline results are expected in September 2026; final DMC review found no safety concerns. 09/16/26:- ELPIS II Ph2b topline missed primary endpoint; exploratory endpoints under analysis; FDA discussion planned. 10/26/26:- Additional ELPIS II analysis showed significant MACE benefit. AHA 2026 presentation scheduled Nov 8, 2026.",
+  "note": "05/13/26:- ELPIS II topline results remain expected in August 2026. 08/12/26:- ELPIS II Ph2b topline results are expected in September 2026; final DMC review found no safety concerns. 09/16/26:- ELPIS II Ph2b topline missed primary endpoint; exploratory endpoints under analysis; FDA discussion planned. 10/26/26:- ELPIS II Ph2b major adverse cardiac events favored laromestrocel; AHA podium November 8, 2026.",
   "catalyst_date": "2026-11-08",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/26/3388178/0/en/longeveron-announces-updated-results-from-elpis-ii-phase-2b-clinical-trial-evaluating-laromestrocel-as-a-potential-treatment-for-hypoplastic-left-heart-syndrome-hlhs.html",
@@ -2536,7 +2469,7 @@
   "company": {
    "ticker": "LSTA",
    "name": "Lisata Therapeutics",
-   "last_price": "0.96",
+   "last_price": "1.06",
    "market_cap": 10759769,
    "website": "https://www.lisata.com"
   },
@@ -3451,7 +3384,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "5.89",
+   "last_price": "5.74",
    "market_cap": 344764192,
    "website": "https://www.capricor.com"
   },
@@ -3508,7 +3441,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "4.24",
+   "last_price": "4.52",
    "market_cap": 867041216,
    "website": "https://www.savarapharma.com"
   },
@@ -5214,7 +5147,7 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "RAINIER trial. 8/13/24- Initiated Ph1b/2 dose optimization trial. 6/18/25- New data in frontline AML. 9/16/25- 100% remission rate in Cohort 3 reported. Cohort 4 enrolling. Presentation at major medical conference in Q4 2025. 11/06/25:- Across two trials, 89% remission in frontline AML; no CRS observed so far. 12/09/25:- RAINIER Ph1b/2 ASH 2025 poster showed 93% ORR, 87% CR/CRi, no CRS; enrollment ongoing. 03/26/26:- Updated interim RAINIER data: 86% benefit, 79% CR/CRi, 61% CR, 55% MRD-negative; no CRS; four transplants. 05/06/26:- New RAINIER Cohort 5 data: 81% CR/CRi. Complete Ph1b dose optimization and select RP2D in 2026. 05/13/26:- RAINIER on track for completion and Ph2 dose selection by year-end 2026. Updated Cohort 5: 81% CR/CRi, no CRS. Added RAINIER data: 87% clinical benefit, 81% CR/CRi, 65% CR, 52% MRD-negative, no CRS. 08/14/26:- Updated RAINIER data showed 87% clinical benefit and 81% remission. Final dose optimization will complete and RP2D will be selected by year-end 2026. Phase 2 regulatory interaction is expected in Q1 2027. 09/03/26:- Reported 93% clinical benefit in TP53-mutated frontline AML with triplet regimen. 10/26/26:- 10/47 patients proceeded to stem cell transplant. RAINIER dose optimization ends Year-End 2026; Ph2 start, FDA talk H1 2027.",
+  "note": "RAINIER trial. 8/13/24- Initiated Ph1b/2 dose optimization trial. 6/18/25- New data in frontline AML. 9/16/25- 100% remission rate in Cohort 3 reported. Cohort 4 enrolling. Presentation at major medical conference in Q4 2025. 11/06/25:- Across two trials, 89% remission in frontline AML; no CRS observed so far. 12/09/25:- RAINIER Ph1b/2 ASH 2025 poster showed 93% ORR, 87% CR/CRi, no CRS; enrollment ongoing. 03/26/26:- Updated interim RAINIER data: 86% benefit, 79% CR/CRi, 61% CR, 55% MRD-negative; no CRS; four transplants. 05/06/26:- New RAINIER Cohort 5 data: 81% CR/CRi. Complete Ph1b dose optimization and select RP2D in 2026. 05/13/26:- RAINIER on track for completion and Ph2 dose selection by year-end 2026. Updated Cohort 5: 81% CR/CRi, no CRS. Added RAINIER data: 87% clinical benefit, 81% CR/CRi, 65% CR, 52% MRD-negative, no CRS. 08/14/26:- Updated RAINIER data showed 87% clinical benefit and 81% remission. Final dose optimization will complete and RP2D will be selected by year-end 2026. Phase 2 regulatory interaction is expected in Q1 2027. 09/03/26:- Reported 93% clinical benefit in TP53-mutated frontline AML with triplet regimen. 10/26/26:- 21% (10/47) reached allo transplant. Dose optimization ends 2026; FDA meeting and Ph2 start expected H1 2027.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/ac62586320/aptevo-reports-mipletamig-combination-therapy-enabled-21-frontline-aml-patients-advance-potentially-",
@@ -6618,7 +6551,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "10.56",
+   "last_price": "10.45",
    "market_cap": 885793536,
    "website": "https://www.corvuspharma.com"
   },
@@ -7460,53 +7393,6 @@
   "move_analysis_created_datetime": "2026-10-19T17:51:10Z"
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-15",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 17056,
   "company": {
    "ticker": "RIGL",
@@ -7561,6 +7447,53 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-15",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -8208,7 +8141,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.52",
+   "last_price": "19.53",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -8270,7 +8203,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.52",
+   "last_price": "19.53",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -9850,7 +9783,7 @@
   "company": {
    "ticker": "LSTA",
    "name": "Lisata Therapeutics",
-   "last_price": "0.96",
+   "last_price": "1.06",
    "market_cap": 10759769,
    "website": "https://www.lisata.com"
   },
@@ -10624,7 +10557,7 @@
   "company": {
    "ticker": "CGON",
    "name": "CG Oncology",
-   "last_price": "62.11",
+   "last_price": "61.56",
    "market_cap": 5469997568,
    "website": "https://cgoncology.com"
   },
@@ -10686,7 +10619,7 @@
   "company": {
    "ticker": "CGON",
    "name": "CG Oncology",
-   "last_price": "62.11",
+   "last_price": "61.56",
    "market_cap": 5469997568,
    "website": "https://cgoncology.com"
   },
@@ -11033,7 +10966,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "10.56",
+   "last_price": "10.45",
    "market_cap": 885793536,
    "website": "https://www.corvuspharma.com"
   },
@@ -12553,7 +12486,7 @@
   "company": {
    "ticker": "ALLO",
    "name": "Allogene Therapeutics",
-   "last_price": "1.26",
+   "last_price": "1.21",
    "market_cap": 431863616,
    "website": "https://allogene.com"
   },
@@ -13210,7 +13143,7 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "9.31",
+   "last_price": "9.39",
    "market_cap": 230103280,
    "website": "https://www.lyell.com"
   },
@@ -16406,7 +16339,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.52",
+   "last_price": "19.53",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -16468,7 +16401,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.52",
+   "last_price": "19.53",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -18051,7 +17984,7 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "9.31",
+   "last_price": "9.39",
    "market_cap": 230103280,
    "website": "https://www.lyell.com"
   },
@@ -20612,7 +20545,7 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "05/14/26:- VOLGA Ph3 interim analysis improved EFS; OS trending positive. Data will be presented at meeting. 05/28/26:- VOLGA planned interim analysis: overall survival not statistically significant; will be reassessed at later analysis. 09/25/26:- US Priority Review granted for perioperative Imfinzi plus enfortumab vedotin; PDUFA anticipated Q4 2026. 10/26/26:- VOLGA interim showed EFS and OS benefit for periop Imfinzi+EV. FDA Priority Review; PDUFA Q4 2026.",
+  "note": "05/14/26:- VOLGA Ph3 interim analysis improved EFS; OS trending positive. Data will be presented at meeting. 05/28/26:- VOLGA planned interim analysis: overall survival not statistically significant; will be reassessed at later analysis. 09/25/26:- US Priority Review granted for perioperative Imfinzi plus enfortumab vedotin; PDUFA anticipated Q4 2026. 10/24/26:- VOLGA interim showed EFS and OS benefit for periop Imfinzi+enfortumab vedotin; PDUFA Q4 2026.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62577803/perioperative-imfinzi-durvalumab-plus-neoadjuvant-enfortumab-vedotin-reduced-risk-recurrence-49-and-",
@@ -20773,7 +20706,7 @@
   "company": {
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
-   "last_price": "36.07",
+   "last_price": "36.02",
    "market_cap": 1606896896,
    "website": "https://www.hemab.com"
   },
@@ -20830,7 +20763,7 @@
   "company": {
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
-   "last_price": "36.07",
+   "last_price": "36.02",
    "market_cap": 1606896896,
    "website": "https://www.hemab.com"
   },
@@ -21767,7 +21700,7 @@
   "company": {
    "ticker": "BLTE",
    "name": "Belite Bio",
-   "last_price": "142.91",
+   "last_price": "143.35",
    "market_cap": 5933295104,
    "website": "https://www.belitebio.com"
   },
@@ -23153,7 +23086,7 @@
   "company": {
    "ticker": "SPRY",
    "name": "ARS Pharmaceuticals",
-   "last_price": "4.03",
+   "last_price": "3.92",
    "market_cap": 400772832,
    "website": "https://ars-pharma.com"
   },
@@ -24033,7 +23966,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.52",
+   "last_price": "19.53",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -25067,7 +25000,7 @@
    "stage_label": "PDUFA",
    "event_label": "Approval decision"
   },
-  "note": "08/11/26:- NDA acceptance and PDUFA April 28, 2027 reiterated. EU MAA planned by end of 2026. 10/26/26:- New week-48 PRO and safety analyses from Ph3 RINGSIDE presented at ESMO 2026; PDUFA April 28, 2027 reiterated.",
+  "note": "08/11/26:- NDA acceptance and PDUFA April 28, 2027 reiterated. EU MAA planned by end of 2026. 10/26/26:- ESMO 2026 presented RINGSIDE PRO and safety analyses; PDUFA Apr 28, 2027 reiterated.",
   "catalyst_date": "2027-04-28",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62584652/immunome-presents-additional-clinical-data-varegacestat-desmoid-tumors-esmo-2026",
@@ -25746,7 +25679,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "7.14",
+   "last_price": "7.15",
    "market_cap": 1112765312,
    "website": "https://www.immatics.com"
   },
@@ -26066,7 +25999,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.04",
+   "last_price": "18.33",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -26862,7 +26795,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.04",
+   "last_price": "18.33",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -27678,7 +27611,7 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "LINNET study. 3/20/25- To initiate LINNET Ph2 study. 5/13/25- First patient dosed. 11/12/25:- Enrollment continues in the LINNET Phase 2 monotherapy study in platinum-resistant ovarian or clear cell gynecologic cancers, and a clinical update on the first part of the trial is expected by Mid-2026. 02/23/26:- FDA placed a partial clinical hold on LINNET; enrollment paused due to Grade 4-5 safety events. 03/09/26:- LINNET partial hold ongoing; company working with FDA; clinical update still expected Mid-2026. 04/08/26:- FDA lifted LINNET partial hold; enrollment to resume. Mid-year 2026 clinical update expected. 05/13/26:- LINNET Ph2 shows 25% ORR in CCGC; PROC cohort discontinued; updated results expected H1 2027. 07/23/26:- LINNET Phase 2 study poster scheduled for ESMO 2026 on October 26, 2026. 08/13/26:- LINNET Ph2 interim data will be presented at ESMO 2026 on October 26, 2026. Updated CCGC results are expected in H1 2027. 10/26/26:- Ph2 LINNET interim data: CCGC ORR 25%. Updated results expected H1 2027.",
+  "note": "LINNET study. 3/20/25- To initiate LINNET Ph2 study. 5/13/25- First patient dosed. 11/12/25:- Enrollment continues in the LINNET Phase 2 monotherapy study in platinum-resistant ovarian or clear cell gynecologic cancers, and a clinical update on the first part of the trial is expected by Mid-2026. 02/23/26:- FDA placed a partial clinical hold on LINNET; enrollment paused due to Grade 4-5 safety events. 03/09/26:- LINNET partial hold ongoing; company working with FDA; clinical update still expected Mid-2026. 04/08/26:- FDA lifted LINNET partial hold; enrollment to resume. Mid-year 2026 clinical update expected. 05/13/26:- LINNET Ph2 shows 25% ORR in CCGC; PROC cohort discontinued; updated results expected H1 2027. 07/23/26:- LINNET Phase 2 study poster scheduled for ESMO 2026 on October 26, 2026. 08/13/26:- LINNET Ph2 interim data will be presented at ESMO 2026 on October 26, 2026. Updated CCGC results are expected in H1 2027. 10/26/26:- Clear Cell Gynecologic Cancer response rate 25% and disease control rate 44%; 3 mg/kg cohort enrolling; updated results H1 2027.",
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62584853/macrogenics-announces-positive-interim-phase-2-linnet-results-lorigerlimab-advanced-clear-cell-gynec",
@@ -27715,7 +27648,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.04",
+   "last_price": "18.33",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -28124,7 +28057,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.04",
+   "last_price": "18.33",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -28295,7 +28228,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.04",
+   "last_price": "18.33",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -28698,63 +28631,6 @@
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
   "move_analysis_created_datetime": null
- },
- {
-  "id": 19487,
-  "company": {
-   "ticker": "ORKA",
-   "name": "Oruka Pharmaceuticals",
-   "last_price": "89.72",
-   "market_cap": 5306707456,
-   "website": "https://orukatx.com"
-  },
-  "ticker": "ORKA",
-  "drug_name": "ORKA-001 (IL-23p19 Antibody)",
-  "indications": [
-   {
-    "id": 1023,
-    "title": "Psoriasis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Psoriasis",
-  "stage_event": {
-   "id": 78,
-   "label": "Phase 3 Initiation",
-   "stage_label": "Phase 3",
-   "event_label": "Initiation"
-  },
-  "note": "11/12/25:- EVERLAST-B Ph2b psoriasis trial planned to initiate H1 2026, evaluating three dose levels versus placebo. 01/12/26:- EVERLAST-B Ph2b first patients dosed December 2025; enrollment ongoing with PASI 100 Week16 primary endpoint and data in 2027. 03/12/26:- EVERLAST-B enrollment ongoing; multiple induction regimens, PASI 100 Week16; data in 2027 to support Ph3. 05/13/26:- EVERLAST-B Ph2b progressing with NA/EU sites active; initial Week16 data expected 2027 to support Ph3. 08/10/26:- EVERLAST-B fully enrolled. Week16 data expected Q4 2026. Phase3 starts H1 2027. 10/26/26:- EVERLAST-B Phase 2b Week16 met primary endpoint (61% high dose). Phase 3 planned H1 2027.",
-  "catalyst_date": "2027-06-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/26/3387972/0/en/oruka-therapeutics-announces-positive-week-16-results-for-orka-001-from-the-ongoing-everlast-b-trial-in-moderate-to-severe-psoriasis.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": "55.000000",
-  "probability_clean_plus_max": "65.000000",
-  "probability_mixed_min": "25.000000",
-  "probability_mixed_max": "35.000000",
-  "probability_clean_minus_min": "5.000000",
-  "probability_clean_minus_max": "15.000000",
-  "magnitude_clean_plus_min": "15.000000",
-  "magnitude_clean_plus_max": "20.000000",
-  "magnitude_mixed_min": "-20.000000",
-  "magnitude_mixed_max": "-5.000000",
-  "magnitude_clean_minus_min": "-50.000000",
-  "magnitude_clean_minus_max": "-30.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "EVERLAST-B enrolled 187 patients to compare three ORKA-001 dosing regimens with placebo; its primary endpoint is PASI 100, meaning complete skin clearance, at Week 16. This is a new randomized efficacy readout supporting Phase 3 dose selection, not simply longer follow-up. ([sec.gov](https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm)) Prior EVERLAST-A results provide substantial support: 63.5% achieved complete clearance at Week 16, increasing to 71.4% at Week 28 without dosing after Week 4. The investment hurdle is convincing replication with a useful dose-response pattern and reassuring safety\u2014not merely beating placebo. Week 16 results cannot establish annual dosing durability. ([ir.orukatx.com](https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-positive-week-28-data-orka-001?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "EVERLAST-B\u2019s Week 16 results are expected in Q4 2026. The strongest support is earlier randomized evidence with the same drug in psoriasis: 40 of 63 ORKA-001 patients achieved complete skin clearance at Week 16. That makes this a replication and dose-selection test rather than the first demonstration that the drug works. ([ir.orukatx.com](https://ir.orukatx.com/node/17281/html)) Historical Phase 2-to-Phase 3 transition rates were 38.6% in BIO\u2019s broad category that includes dermatology and 31.4% in autoimmune diseases. Those measure development progress, not stock-market success; ORKA-001\u2019s existing controlled evidence supports better prospects than those broad averages. Our 55\u201365% Clean+ range reflects that advantage without treating an investor-pleasing result as certain. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai))\n\nThe study compares three dosing regimens with placebo in 187 patients, using complete skin clearance as its primary endpoint. This is a demanding efficacy measure, and dividing the sample among four groups makes individual response percentages sensitive to relatively few patients. Strong higher-dose efficacy and reassuring safety matter more than every dose performing equally well. Even convincing Week 16 results cannot establish yearly dosing durability, which requires longer follow-up. ([sec.gov](https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm))\n\nAt BPIQ\u2019s supplied approximately $4.8 billion market capitalization, substantial efficacy is already expected. The stock\u2019s own history illustrates the distinction between a first proof of efficacy and confirmation: April\u2019s initial Phase 2a announcement produced a 30.4% opening gain, while September\u2019s favorable follow-up brought a slightly negative opening gap and a 4.4% intraday decline. We therefore estimate 15\u201320% upside for convincing replication, rather than assuming another discovery-sized gain. Positive but underwhelming results could still produce a 5\u201320% decline. A clear higher-dose failure or important safety finding could cause a 30\u201350% decline because it would challenge the lead program.\n\nBPIQ reports 10 specialist hedge funds holding ORKA, up from eight a year earlier. That is meaningful institutional engagement, not a guarantee of success. Supplied cash is $873.6 million against approximately $33.1 million of quarterly burn; including marketable securities, the company reported approximately $1.1 billion and expects funding through an ORKA-001 marketing-application filing. Financing is therefore a relative strength, although spending will grow as development advances. ([ir.orukatx.com](https://ir.orukatx.com/node/17281/html))\n\nORKA-002 provides some diversification, but ORKA-001 remains central to the investment case. December\u2019s EVERLAST-A durability results could also influence expectations before or alongside EVERLAST-B; these move ranges assume no major intervening surprise. ([ir.orukatx.com](https://ir.orukatx.com/node/17281/html)) With the analyzed timing more than 60 days away, options pricing is not used to set these event-specific ranges or confirm a big-mover designation.",
-  "catalyst_event_details": "ORKA-001\u2019s EVERLAST-B Phase 2b Week 16 psoriasis readout is expected in Q4 2026. ([ir.orukatx.com](https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-positive-week-28-data-orka-001?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-19T18:21:18Z"
  },
  {
   "id": 19663,
@@ -30752,7 +30628,7 @@
   "company": {
    "ticker": "ALLO",
    "name": "Allogene Therapeutics",
-   "last_price": "1.26",
+   "last_price": "1.21",
    "market_cap": 431863616,
    "website": "https://allogene.com"
   },
@@ -33665,7 +33541,7 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "07/29/26:- BELLA Part A results remain expected by Q4 2026. 10/26/26:- Positive BELLA Part A primary analysis; complete results to be presented at a medical conference in 2027.",
+  "note": "07/29/26:- BELLA Part A results remain expected by Q4 2026. 10/26/26:- BELLA Part A primary analysis positive; complete results to be presented in 2027.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62586041/corcept-reports-positive-results-phase-2-bella-trial-lifyorli-combined-nab-paclitaxel-and-bevacizuma",
@@ -34702,6 +34578,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 19487,
+  "company": {
+   "ticker": "ORKA",
+   "name": "Oruka Pharmaceuticals",
+   "last_price": "89.72",
+   "market_cap": 5306707456,
+   "website": "https://orukatx.com"
+  },
+  "ticker": "ORKA",
+  "drug_name": "ORKA-001 (IL-23p19 Antibody)",
+  "indications": [
+   {
+    "id": 1023,
+    "title": "Psoriasis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Psoriasis",
+  "stage_event": {
+   "id": 146,
+   "label": "Phase 2b Data readout",
+   "stage_label": "Phase 2b",
+   "event_label": "Data readout"
+  },
+  "note": "11/12/25:- EVERLAST-B Ph2b psoriasis trial planned to initiate H1 2026, evaluating three dose levels versus placebo. 01/12/26:- EVERLAST-B Ph2b first patients dosed December 2025; enrollment ongoing with PASI 100 Week16 primary endpoint and data in 2027. 03/12/26:- EVERLAST-B enrollment ongoing; multiple induction regimens, PASI 100 Week16; data in 2027 to support Ph3. 05/13/26:- EVERLAST-B Ph2b progressing with NA/EU sites active; initial Week16 data expected 2027 to support Ph3. 08/10/26:- EVERLAST-B fully enrolled. Week16 data expected Q4 2026. Phase3 starts H1 2027. 10/26/26:- EVERLAST-B Ph2b Week16 met PASI100 61%. 52-week results expected H2 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/26/3387972/0/en/oruka-therapeutics-announces-positive-week-16-results-for-orka-001-from-the-ongoing-everlast-b-trial-in-moderate-to-severe-psoriasis.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": "55.000000",
+  "probability_clean_plus_max": "65.000000",
+  "probability_mixed_min": "25.000000",
+  "probability_mixed_max": "35.000000",
+  "probability_clean_minus_min": "5.000000",
+  "probability_clean_minus_max": "15.000000",
+  "magnitude_clean_plus_min": "15.000000",
+  "magnitude_clean_plus_max": "20.000000",
+  "magnitude_mixed_min": "-20.000000",
+  "magnitude_mixed_max": "-5.000000",
+  "magnitude_clean_minus_min": "-50.000000",
+  "magnitude_clean_minus_max": "-30.000000",
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": true,
+  "down_big_mover": false,
+  "key_readout_comment": "EVERLAST-B enrolled 187 patients to compare three ORKA-001 dosing regimens with placebo; its primary endpoint is PASI 100, meaning complete skin clearance, at Week 16. This is a new randomized efficacy readout supporting Phase 3 dose selection, not simply longer follow-up. ([sec.gov](https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm)) Prior EVERLAST-A results provide substantial support: 63.5% achieved complete clearance at Week 16, increasing to 71.4% at Week 28 without dosing after Week 4. The investment hurdle is convincing replication with a useful dose-response pattern and reassuring safety\u2014not merely beating placebo. Week 16 results cannot establish annual dosing durability. ([ir.orukatx.com](https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-positive-week-28-data-orka-001?utm_source=openai))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "EVERLAST-B\u2019s Week 16 results are expected in Q4 2026. The strongest support is earlier randomized evidence with the same drug in psoriasis: 40 of 63 ORKA-001 patients achieved complete skin clearance at Week 16. That makes this a replication and dose-selection test rather than the first demonstration that the drug works. ([ir.orukatx.com](https://ir.orukatx.com/node/17281/html)) Historical Phase 2-to-Phase 3 transition rates were 38.6% in BIO\u2019s broad category that includes dermatology and 31.4% in autoimmune diseases. Those measure development progress, not stock-market success; ORKA-001\u2019s existing controlled evidence supports better prospects than those broad averages. Our 55\u201365% Clean+ range reflects that advantage without treating an investor-pleasing result as certain. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai))\n\nThe study compares three dosing regimens with placebo in 187 patients, using complete skin clearance as its primary endpoint. This is a demanding efficacy measure, and dividing the sample among four groups makes individual response percentages sensitive to relatively few patients. Strong higher-dose efficacy and reassuring safety matter more than every dose performing equally well. Even convincing Week 16 results cannot establish yearly dosing durability, which requires longer follow-up. ([sec.gov](https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm))\n\nAt BPIQ\u2019s supplied approximately $4.8 billion market capitalization, substantial efficacy is already expected. The stock\u2019s own history illustrates the distinction between a first proof of efficacy and confirmation: April\u2019s initial Phase 2a announcement produced a 30.4% opening gain, while September\u2019s favorable follow-up brought a slightly negative opening gap and a 4.4% intraday decline. We therefore estimate 15\u201320% upside for convincing replication, rather than assuming another discovery-sized gain. Positive but underwhelming results could still produce a 5\u201320% decline. A clear higher-dose failure or important safety finding could cause a 30\u201350% decline because it would challenge the lead program.\n\nBPIQ reports 10 specialist hedge funds holding ORKA, up from eight a year earlier. That is meaningful institutional engagement, not a guarantee of success. Supplied cash is $873.6 million against approximately $33.1 million of quarterly burn; including marketable securities, the company reported approximately $1.1 billion and expects funding through an ORKA-001 marketing-application filing. Financing is therefore a relative strength, although spending will grow as development advances. ([ir.orukatx.com](https://ir.orukatx.com/node/17281/html))\n\nORKA-002 provides some diversification, but ORKA-001 remains central to the investment case. December\u2019s EVERLAST-A durability results could also influence expectations before or alongside EVERLAST-B; these move ranges assume no major intervening surprise. ([ir.orukatx.com](https://ir.orukatx.com/node/17281/html)) With the analyzed timing more than 60 days away, options pricing is not used to set these event-specific ranges or confirm a big-mover designation.",
+  "catalyst_event_details": "ORKA-001\u2019s EVERLAST-B Phase 2b Week 16 psoriasis readout is expected in Q4 2026. ([ir.orukatx.com](https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-positive-week-28-data-orka-001?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-10-19T18:21:18Z"
+ },
+ {
   "id": 19489,
   "company": {
    "ticker": "CORT",
@@ -35706,6 +35639,73 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 20076,
+  "company": {
+   "ticker": "AVBP",
+   "name": "ArriVent",
+   "last_price": "15.36",
+   "market_cap": 1035462272,
+   "website": "https://arrivent.com"
+  },
+  "ticker": "AVBP",
+  "drug_name": "ARR-217/MRG007 (CDH17-Targeted ADC)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1066,
+    "title": "Digestive tract",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Gastrointestinal Malignancies",
+  "stage_event": {
+   "id": 122,
+   "label": "Phase 1b Data readout",
+   "stage_label": "Phase 1b",
+   "event_label": "Data readout"
+  },
+  "note": "03/05/26:- ARR-217 CDH17-targeted ADC Phase 1 dose escalation ongoing in gastrointestinal malignancies; complete escalation and start optimization H2 2026. 05/11/26:- ARR-217 IND cleared; first patient dosed March 2026; Phase 1 GI malignancy dose escalation ongoing. 08/12/26:- ARR-217 entered Phase 1b dose optimization in gastrointestinal malignancies. Initial Phase 1 data will be presented at a future medical conference. 10/25/26:- Initial Ph1 NCT07066657 results at ESMO 2026; Ph1b dose optimization data expected in 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/25/3387735/0/en/arrivent-announces-initial-phase-1-data-for-cdh17-targeted-adc-arr-217-in-patients-with-gastrointestinal-cancers-at-esmo-congress-2026.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 20081,
   "company": {
    "ticker": "EVMN",
@@ -36657,7 +36657,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "7.14",
+   "last_price": "7.15",
    "market_cap": 1112765312,
    "website": "https://www.immatics.com"
   },
@@ -38556,7 +38556,7 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "05/15/26:- MAPKeeper 301 is recruiting. First patient dosing remains on track for Mid-2026. 05/21/26:- MAPKeeper 301 (NCT07562152) recruiting; first patient dosing still expected Mid-2026. 06/01/26:- MAPKeeper 301 recruiting; first patient dosing still expected Mid-2026. Topline Phase 3 readout expected Mid-2028. 06/11/26:- First patient dosed in MAPKeeper 301 Ph3. Topline OS data expected Mid-2028. 08/05/26:- MAPKeeper 301 is underway with over 30 sites posted. Topline data expected Mid-2028. 10/26/26:- ESMO 2026 trial-in-progress poster presented; MAPKeeper 301 recruiting. Topline OS readout remains expected Mid-2028.",
+  "note": "05/15/26:- MAPKeeper 301 is recruiting. First patient dosing remains on track for Mid-2026. 05/21/26:- MAPKeeper 301 (NCT07562152) recruiting; first patient dosing still expected Mid-2026. 06/01/26:- MAPKeeper 301 recruiting; first patient dosing still expected Mid-2026. Topline Phase 3 readout expected Mid-2028. 06/11/26:- First patient dosed in MAPKeeper 301 Ph3. Topline OS data expected Mid-2028. 08/05/26:- MAPKeeper 301 is underway with over 30 sites posted. Topline data expected Mid-2028. 10/26/26:- MAPKeeper 301 design presented at ESMO Oct 25, 2026; trial recruiting after June 2026 dosing.",
   "catalyst_date": "2028-08-15",
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62585386/immuneering-presents-design-and-methodology-ongoing-phase-3-mapkeeper-301-trial-esmo-congress-2026",
@@ -40286,7 +40286,7 @@
    "stage_label": "Phase 1",
    "event_label": "Update"
   },
-  "note": "06/02/26:- PR No update. 10/24/26:- Study 1100 melanoma Ph1 results presented at ESMO 2026; ORR 41.7%, median OS 17.8 months.",
+  "note": "06/02/26:- PR No update. 10/24/26:- Study 1100 Phase 1 melanoma cohort update: ORR 41.7%, OS 17.8 months; no new safety signals.",
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/24/3387671/0/en/nanobiotix-announces-final-data-from-phase-1-study-evaluating-jnj-1900-nbtxr3-with-immune-checkpoint-inhibitors-as-a-2l-therapy-in-anti-pd-1-resistant-primary-cutaneous-melanoma.html",
@@ -40294,7 +40294,7 @@
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
+  "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -42059,12 +42059,12 @@
   ],
   "indications_text": "IgA nephropathy",
   "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
+   "id": 80,
+   "label": "Phase 3 Update",
    "stage_label": "Phase 3",
-   "event_label": "Data readout"
+   "event_label": "Update"
   },
-  "note": "Partnered w/Roche, advanced to Ph3 stage. 01/11/26:- IMAGINATION Ph3 sefaxersen IgAN study results in 2026 among partnered readouts. 09/22/26:- Positive prespecified Ph3 interim UPCR results at Week 37; interim data to be presented at upcoming congress. 10/22/26:- IMAgINATION Ph3 Week 37 UPCR endpoint met; Week 105 eGFR data pending.",
+  "note": "Partnered w/Roche, advanced to Ph3 stage. 01/11/26:- IMAGINATION Ph3 sefaxersen IgAN study results in 2026 among partnered readouts. 09/22/26:- Positive prespecified Ph3 interim UPCR results at Week 37; interim data to be presented at upcoming congress. 10/22/26:- Phase 3 IMAgINATION Week 37 UPCR met; 43.1% proteinuria reduction. Study continues blinded to Week 105 eGFR.",
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62569571/ionis-partner-roche-announces-new-phase-3-data-showing-sefaxersen-significantly-reduced-proteinuria-",
@@ -42763,7 +42763,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.04",
+   "last_price": "18.33",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -43470,7 +43470,7 @@
    "stage_label": "Phase 2",
    "event_label": "Update"
   },
-  "note": "02/24/26:- Pilot UPS/DDLPS trial shows 50% ORR. Single-arm registrational trial starts Q2 2026. Present data at 2026 conference. 05/07/26:- IOV-SAR-201 registrational trial underway; site activation and enrollment expected Q3 2026; expedited approval discussions ongoing. 08/06/26:- SARATOGA FTD granted; 50% ORR; ESMO data expected October 23-27, 2026. 10/23/26:- First lifileucel soft tissue sarcoma clinical data presented Oct 26, 2026. 10/26/26:- Pilot trial ESMO 2026 oral update: 50% confirmed ORR; SARATOGA (IOV-SAR-201) enrolling.",
+  "note": "02/24/26:- Pilot UPS/DDLPS trial shows 50% ORR. Single-arm registrational trial starts Q2 2026. Present data at 2026 conference. 05/07/26:- IOV-SAR-201 registrational trial underway; site activation and enrollment expected Q3 2026; expedited approval discussions ongoing. 08/06/26:- SARATOGA FTD granted; 50% ORR; ESMO data expected October 23-27, 2026. 10/23/26:- First lifileucel soft tissue sarcoma clinical data presented Oct 26, 2026. 10/26/26:- Pilot trial 50% confirmed ORR; responses ongoing. SARATOGA (IOV-SAR-201; NCT07741877) enrolling.",
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/26/3387958/0/en/iovance-announces-data-showing-durable-responses-with-lifileucel-til-cell-therapy-in-advanced-soft-tissue-sarcomas-at-esmo-2026.html",
@@ -43527,7 +43527,7 @@
    "stage_label": "Approved",
    "event_label": "Update"
   },
-  "note": "03/02/26:- AFFIRM Ph3 (NCT06063967) topline positive; SC induction superior vs placebo at Week 12. Full results later. 04/27/26:- FDA filing for SC induction; AbbVie anticipates approval later in 2026. 05/05/26:- DDW posters show ASPIRE-CD year 1 symptom and QoL gains; US claims show low switching. 08/27/26:- EMA application submitted for SC Skyrizi induction in adult Crohn's disease; AFFIRM Ph3 supported. 10/11/26:- AFFIRM Ph3 SC CD results presented at ACG Oct 13. FORTIFY OLE posters Oct 11. 10/13/26:- AFFIRM Ph3 ACG 2026 showed Week 24 endoscopic remission 35.8%; SC induction under FDA review. 10/19/26:- TARGET-CD Ph2a showed risankizumab monotherapy endoscopic remission 21.3% Week 12; 22.4% Week 24. 10/23/26:- FDA approved SC SKYRIZI induction in adult Crohn's disease; AFFIRM Week 12 endpoints beat placebo.",
+  "note": "03/02/26:- AFFIRM Ph3 (NCT06063967) topline positive; SC induction superior vs placebo at Week 12. Full results later. 04/27/26:- FDA filing for SC induction; AbbVie anticipates approval later in 2026. 05/05/26:- DDW posters show ASPIRE-CD year 1 symptom and QoL gains; US claims show low switching. 08/27/26:- EMA application submitted for SC Skyrizi induction in adult Crohn's disease; AFFIRM Ph3 supported. 10/11/26:- AFFIRM Ph3 SC CD results presented at ACG Oct 13. FORTIFY OLE posters Oct 11. 10/13/26:- AFFIRM Ph3 ACG 2026 showed Week 24 endoscopic remission 35.8%; SC induction under FDA review. 10/19/26:- TARGET-CD Ph2a showed risankizumab monotherapy endoscopic remission 21.3% Week 12; 22.4% Week 24. 10/23/26:- FDA approved SC induction for adult Crohn's disease; TB evaluation label updated across indications.",
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/n62573319/u-s-fda-approves-subcutaneous-induction-regimen-abbvie-s-skyrizi-risankizumab-rzaa-adults-moderately",
@@ -44111,12 +44111,12 @@
   ],
   "indications_text": "Soft Tissue Sarcomas",
   "stage_event": {
-   "id": 125,
-   "label": "Phase 1/2 Update",
-   "stage_label": "Phase 1/2",
-   "event_label": "Update"
+   "id": 135,
+   "label": "Phase 2 Initiation",
+   "stage_label": "Phase 2",
+   "event_label": "Initiation"
   },
-  "note": "10/23/26:- First lifileucel soft tissue sarcoma clinical data to be presented October 26, 2026. 10/26/26:- Pilot UPS/DDLPS trial showed 50% ORR at ESMO 2026. SARATOGA Ph2 registrational trial enrolling.",
+  "note": "10/23/26:- First lifileucel soft tissue sarcoma clinical data to be presented October 26, 2026. 10/26/26:- Pilot trial showed 50% confirmed response in UPS and DDLPS; SARATOGA registrational Ph2 enrolling.",
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/26/3387958/0/en/iovance-announces-data-showing-durable-responses-with-lifileucel-til-cell-therapy-in-advanced-soft-tissue-sarcomas-at-esmo-2026.html",

@@ -57,710 +57,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 16125,
-  "company": {
-   "ticker": "HCM",
-   "name": "HUTCHMED (China) Limited",
-   "last_price": "14.29",
-   "market_cap": 2495971584,
-   "website": "https://www.hutch-med.com"
-  },
-  "ticker": "HCM",
-  "drug_name": "ORPATHYS (Savolitinib) + TAGRISSO",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "Non-small cell lung carcinoma",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "SAFFRON, SAVANNAH trials. 1/2/25- NDA accepted in China. 6/2/25- Presented SAVANNAH results at ASCO'25. 03/05/26:- SAFFRON enrollment complete; topline results expected H2 2026. 05/22/26:- Osimertinib plus savolitinib Phase 2 study in resistant NSCLC will be published for ASCO 2026. 07/30/26:- SAFFRON and SANOVO topline results remain expected in H2 2026. 08/17/26:- SAFFRON Ph3 high-level PFS and OS results were positive. Full results to be presented at a medical meeting. 09/23/26:- SAFFRON and SANOVO Ph3 primary results present at ESMO Oct 25-26, 2026; SANOVO high-level results positive. 09/28/26:- US FDA NDA submitted for savolitinib plus osimertinib. SAFFRON results to be presented at ESMO 2026.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/09/29/3370345/0/en/hutchmed-announces-submission-of-us-nda-for-orpathys-plus-tagrisso-in-met-driven-egfr-mutated-lung-cancer.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "65.000000",
-  "probability_clean_plus_max": "75.000000",
-  "probability_mixed_min": "20.000000",
-  "probability_mixed_max": "30.000000",
-  "probability_clean_minus_min": "3.000000",
-  "probability_clean_minus_max": "7.000000",
-  "magnitude_clean_plus_min": "3.000000",
-  "magnitude_clean_plus_max": "9.000000",
-  "magnitude_mixed_min": "-8.000000",
-  "magnitude_mixed_max": "1.000000",
-  "magnitude_clean_minus_min": "-16.000000",
-  "magnitude_clean_minus_max": "-8.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is a detailed presentation after positive topline results, not a fresh efficacy binary. SAFFRON randomized 338 patients whose cancer progressed on osimertinib to savolitinib plus osimertinib or platinum-based chemotherapy. The primary endpoint measures time before cancer progression or death; overall survival is a key secondary endpoint. Both benefits were announced as statistically significant, with no new safety findings. Investors will assess the size of those benefits, consistency across patient groups, and treatment discontinuations. ([astrazeneca-us.com](https://www.astrazeneca-us.com/content/az-us/media/press-releases/2026/TAGRISSO-osimert-nib-plus-savolitinib-demonstrated-statistically-significant-and-clinically-meaningful-improvements-in-progression-free-and-overall-survival-in-MET-driven-EGFR-mutated-lung-cancer-after-progression-on-TAGRISSO.html?utm_source=openai)) Prior SAVANNAH results showed a 56% response rate and median progression-free survival of 7.4 months, supporting the selection of patients with high MET levels. ([hutch-med.com](https://www.hutch-med.com/wp-content/uploads/2026/03/a250305_FY25.pdf?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 25 presentation is an incremental clinical update of moderate importance to HCM\u2019s valuation. The central efficacy questions were substantially answered by the August 17 announcement, and AstraZeneca subsequently submitted the US approval application. The presentation can still strengthen the commercial case, but investors already expect convincing results. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1648257/000164825726000059/hcm-20260924xex99d1.htm?utm_source=openai))\n\nHistorically, approximately 47.7% of oncology Phase 3 programs advanced to an approval application; that is a development benchmark, not a stock-market success rate. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) This event deserves a substantially higher favorable-outcome probability because significant progression-free and overall survival benefits are already established. The randomized chemotherapy comparison and prospectively selected high-MET population strengthen the evidence. The open-label design means patients and doctors knew the treatment assignment, while subgroup results and detailed tolerability could still make an otherwise positive presentation less compelling. Our 65\u201375% favorable, 20\u201330% mixed, and 3\u20137% unfavorable ranges reflect those remaining questions. ([astrazeneca-us.com](https://www.astrazeneca-us.com/content/az-us/media/press-releases/2026/TAGRISSO-osimert-nib-plus-savolitinib-demonstrated-statistically-significant-and-clinically-meaningful-improvements-in-progression-free-and-overall-survival-in-MET-driven-EGFR-mutated-lung-cancer-after-progression-on-TAGRISSO.html?utm_source=openai))\n\nAt the supplied market capitalization of approximately $2.5 billion, this is not a company-survival binary. HUTCHMED reported $1.375 billion in cash and short-term investments, $94.5 million in bank borrowings, and positive adjusted cash generation before financing in the first half of 2026. That supports substantial financial flexibility rather than dependence on an immediate equity offering. Existing products and partnership income also diversify the business, while AstraZeneca\u2019s commercialization rights mean HUTCHMED receives shared economics rather than the combination\u2019s entire sales value. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1648257/000110465926088458/hcm-20260730xex99d1.htm))\n\nBPIQ\u2019s supplied specialist hedge-fund count is zero, with no positions across the four reported quarters. That offers no specialist-ownership endorsement, but it does not outweigh the randomized evidence and announced survival benefits. The supplied historical reactions to SAFFRON topline results and the US filing were modest. We therefore expect only 3\u20139% upside from clearly compelling details, versus \u22128% to +1% for a mixed presentation and \u221216% to \u22128% for details that materially weaken the commercial case. These estimates concern SAFFRON; nearby pancreatic-cancer data and SANOVO\u2019s October 26 presentation could also influence the conference-period stock reaction. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1648257/000164825726000059/hcm-20260924xex99d1.htm?utm_source=openai))\n\nThe supplied February options straddle prices approximately 35.1% movement through expiration, not movement from this presentation alone. Its expiration is 117 days after SAFFRON, and its wide spreads and overlapping company events prevent a meaningful isolated-event estimate. It therefore does not support a 20%-plus move designation in either direction.",
-  "catalyst_event_details": "ORPATHYS (savolitinib) plus TAGRISSO\u2019s Phase 3 SAFFRON results in MET-driven, EGFR-mutated non-small cell lung cancer will be presented at ESMO on October 25, 2026. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1648257/000164825726000059/hcm-20260924xex99d1.htm?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T14:47:24Z"
- },
- {
-  "id": 17715,
-  "company": {
-   "ticker": "IMAB",
-   "name": "I-Mab",
-   "last_price": "4.63",
-   "market_cap": 533681856,
-   "website": "https://www.i-mabbiopharma.com"
-  },
-  "ticker": "NBP",
-  "drug_name": "Givastomig (TJ-CD4B/ABL111) combo w/ nivolumab + chemo",
-  "indications": [
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": " 1L Gastric Cancers",
-  "stage_event": {
-   "id": 122,
-   "label": "Phase 1b Data readout",
-   "stage_label": "Phase 1b",
-   "event_label": "Data readout"
-  },
-  "note": "04/07/26:- Ph1b meeting data and possible Ph3 start expected in Q4 2026. 06/16/26:- FDA Fast Track granted. Detailed Ph1b data expected at major conference in H2 2026. Ph3 may start Q4 2026. 08/20/26:- Positive Ph1b data reiterated. ESMO 2026 data presentation will occur October 25, 2026. Registrational Ph3 initiation is expected as early as YE 2026. Ph3 interim data readout is planned in 2028. 10/08/26:- ESMO 2026 expanded safety and efficacy poster on October 25, 2026. Global Ph2 ongoing (NCT07432295).",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/08/3377674/0/en/novabridge-biosciences-announces-expanded-givastomig-safety-and-efficacy-data-to-be-presented-at-the-european-society-for-medical-oncology-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18043,
-  "company": {
-   "ticker": "XNCR",
-   "name": "Xencor Inc",
-   "last_price": "30.11",
-   "market_cap": 1872218624,
-   "website": "https://www.xencor.com"
-  },
-  "ticker": "XNCR",
-  "drug_name": "XmAb819 (ENPP3 x CD3)",
-  "indications": [
-   {
-    "id": 874,
-    "title": "Renal cell carcinoma",
-    "nickname": "RCC"
-   }
-  ],
-  "indications_text": "Clear cell renal cell carcinoma (ccRCC)",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "9/9/24- Encouraging clinical activity in Ph1. 10/24/25- Presented dose-escalation results AACR-NCI-EORTC'25. 11/05/25:- Ph1 dose-escalation and first expansion cohort ongoing; plan Phase 3 dose selection in 2026, pivotal study 2027. 01/08/26:- Ph1 showed 25% PR rate, 70% disease control; new RP3D-supporting data planned in H2 2026. 02/26/26:- Dose expansion in CRC, NSCLC and pRCC enrolling; plan Ph1 data supporting RP3D in H2 2026. 05/06/26:- Expansion cohort data in ccRCC to be presented 2H26; TKI-naive ccRCC sub-study initiation planned 3Q26. 08/05/26:- ESMO 2026 oral data planned; new sub-studies are enrolling or planned. 10/19/26:- Ph1 XmAb819 results at ESMO Oct 25, 2026; webcast Oct 26. Registration-enabling study planned 2027.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261019387869/en/Xencor-to-Host-Webcast-to-Discuss-Results-From-the-Phase-1-Study-of-XmAb819-in-Advanced-Clear-Cell-Renal-Cell-Carcinoma",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18330,
-  "company": {
-   "ticker": "SMMT",
-   "name": "Summit Therapeutics",
-   "last_price": "14.61",
-   "market_cap": 12341186560,
-   "website": "https://www.smmttx.com"
-  },
-  "ticker": "SMMT",
-  "drug_name": "Ivonescimab (SMT112) +Chemotherapy",
-  "indications": [
-   {
-    "id": 1114,
-    "title": "Biliary Tract Cancer",
-    "nickname": "BTC"
-   },
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Biliary Tract Cancer",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "HARMONi-GI1. 6/1/24- Data at ASCO '24 for Ivonescimab + chemotherapy. 01/12/26:- Akeso is conducting Phase 3 ivonescimab studies in biliary tract cancer; future Summit-related milestones remain unspecified. 08/26/26:- HARMONi-GI1 Ph3 topline positive for ivonescimab plus chemo in advanced BTC. 09/22/26:- HARMONi-GI1 Ph3 OS-superiority topline noted; detailed data to be presented at ESMO 2026 Oct 25. 10/22/26:- ESMO Oct 25 LBA OS data. EA2251 Ph2/3 sites activate Q4 2026.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261022076516/en/Ivonescimab-Data-Sets-across-Multiple-Tumor-Types-to-Be-Featured-at-ESMO-2026",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "60.000000",
-  "probability_clean_plus_max": "75.000000",
-  "probability_mixed_min": "20.000000",
-  "probability_mixed_max": "32.000000",
-  "probability_clean_minus_min": "5.000000",
-  "probability_clean_minus_max": "8.000000",
-  "magnitude_clean_plus_min": "4.000000",
-  "magnitude_clean_plus_max": "12.000000",
-  "magnitude_mixed_min": "-7.000000",
-  "magnitude_mixed_max": "1.000000",
-  "magnitude_clean_minus_min": "-18.000000",
-  "magnitude_clean_minus_max": "-10.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an incremental presentation after positive topline results, not a fresh efficacy binary. The randomized, blinded, China-only study enrolled 682 patients and compared ivonescimab plus gemcitabine/cisplatin with durvalumab plus the same chemotherapy. Overall survival was the primary endpoint; survival, progression-free survival and response endpoints reportedly succeeded at a prespecified interim analysis. Investors will judge the size and consistency of the survival advantage, follow-up maturity, treatment discontinuations and serious toxicity. Statistical success alone may not clear expectations, and applicability to Summit\u2019s Western markets remains important. ([clinicaltrials.gov](https://clinicaltrials.gov/study/NCT06591520))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 25 presentation should provide meaningful new detail, but the main clinical success is already public. Akeso announced superiority over durvalumab plus chemotherapy on August 25, including success on the main survival endpoint and key secondary endpoints. This is therefore a confirmation event rather than a company-defining first readout. Investors will focus on the size of the survival benefit, consistency across cancer subtypes, follow-up maturity and serious side effects. ([smmttx.com](https://www.smmttx.com/news/press-releases/news-details/2026/HARMONi-GI1-a-Phase-III-Trial-Featuring-Ivonescimab-Plus-Chemotherapy-Compared-to-Durvalumab-Plus-Chemotherapy-in-First-Line-Treatment-of-Patients-with-Advanced-Biliary-Tract-Cancer-from-China-to-Be-Showcased-in-Presidential-Symposium-at-ESMO-2026/default.aspx))\n\nHistorically, about 47.7% of oncology Phase 3 programs advanced to a regulatory submission. That is a development benchmark, not a stock-market success rate, and this study has already reported statistical success. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) The initial biliary-cancer conference evidence involved 22 patients; the published Phase 2 study includes 30 patients, with a 66.7% response rate and median survival of 16.8 months. Without a randomized comparison, those earlier results could not establish superiority. ([ascopubs.org](https://ascopubs.org/doi/10.1200/JCO.2024.42.16_suppl.4095?utm_source=openai)) The reported randomized result supports a 60\u201375% probability of clearly favorable details, while a 20\u201332% mixed probability allows for a modest benefit, uneven subgroup results or tolerability trade-offs. Clearly unfavorable details receive 5\u20138% because the main efficacy tests have reportedly succeeded, although a serious safety concern could still undermine the investment case. These are presentation-outcome estimates, not approval probabilities.\n\nAt the supplied $13.8 billion market capitalization, much of Summit\u2019s value rests on ivonescimab, particularly its lung-cancer opportunities. Strong biliary data would broaden confidence in the drug but would not immediately establish approval in Summit\u2019s territories. Summit retains development and commercial rights in its licensed markets, excluding China, and owes Akeso low-double-digit royalties plus potential regulatory and commercial milestones. ([smmttx.com](https://www.smmttx.com/news/press-releases/news-details/2026/HARMONi-GI1-a-Phase-III-Trial-Featuring-Ivonescimab-Plus-Chemotherapy-Compared-to-Durvalumab-Plus-Chemotherapy-in-First-Line-Treatment-of-Patients-with-Advanced-Biliary-Tract-Cancer-from-China-to-Be-Showcased-in-Presidential-Symposium-at-ESMO-2026/default.aspx)) Those substantial retained rights support meaningful upside, but the already-positive announcement limits the expected favorable move to 4\u201312%. The upper end requires data that strengthen confidence beyond biliary cancer. A modest benefit or tolerability trade-off could produce -7% to +1%; a serious concern affecting the broader ivonescimab franchise could cause a 10\u201318% decline. The supplied recent conference reactions support restrained expectations for ordinary follow-up information.\n\nBPIQ shows five specialist hedge funds, up from two in the previous quarter, with ownership heavily concentrated in Baker Bros. Broader participation supports informed interest, although aggregate position value fell and does not demonstrate increasing overall capital commitment. June 30 cash and investments were $690.7 million, and the supplied operating snapshot estimated runway into September 2027. ([smmttx.com](https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Reports-Financial-Results-and-Operational-Progress-for-the-Second-Quarter-and-Six-Months-Ended-June-30-2026/default.aspx)) AstraZeneca\u2019s $2 billion equity investment closed on October 5, providing substantial additional funding and strategic validation. It materially strengthens support for development beyond that earlier runway estimate, although expanded trials and milestone obligations will continue to consume cash. The equity issuance also adds dilution. ([smmttx.com](https://smmttx.com/news/press-releases/news-details/2026/AstraZeneca-Completes-2-Billion-Equity-Investment-in-Summit-Therapeutics/default.aspx))\n\nThe supplied October 30 options straddle prices approximately 16.8% total movement through expiration; its event-specific calculation suggests about 9.9%. Wide bid/ask spreads mean these prices deserve limited weight rather than being treated as a precise forecast. BPIQ-AI\u2019s 4\u201312% favorable range sits below the total straddle estimate because this presentation follows clinical success. The estimates assume no intervening major HARMONi-3 result or regulatory announcement changes valuation before October 25. The November 14 FDA decision is a separate catalyst. ([smmttx.com](https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Reports-Financial-Results-and-Operational-Progress-for-the-Second-Quarter-and-Six-Months-Ended-June-30-2026/default.aspx)) Neither direction qualifies as a fundamental big mover.",
-  "catalyst_event_details": "Ivonescimab plus chemotherapy\u2019s detailed Phase 3 HARMONi-GI1 results in advanced biliary tract cancer will be presented at ESMO on October 25, 2026.",
-  "move_analysis_created_datetime": "2026-10-06T14:47:08Z"
- },
- {
-  "id": 18439,
-  "company": {
-   "ticker": "CYDY",
-   "name": "CytoDyn Inc",
-   "last_price": "0.26",
-   "market_cap": 382074688,
-   "website": "https://www.cytodyn.com"
-  },
-  "ticker": "CYDY",
-  "drug_name": "Leronlimab in comb w/trifluridine+ tipiracil (TAS-102)+ bevacizumab",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1364,
-    "title": "Metastatic colorectal cancer",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Metastatic colorectal cancer",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "10/4/2024- Protocol submitted to FDA in September 2024. 11/4/24- FDA clearance for Ph2 study. 6/24/25- First patient dosed in Ph2. 7/1/25- Present encouraging survival data at ESMO. 04/14/26:- AACR poster presents preliminary Ph2 mCRC combo results April 21, 2026. 04/21/26:- CLOVER Ph2 mCRC combo trial (NCT06699836) completed enrollment; topline data expected as available. 10/08/26:- Updated Ph2 CLOVER data presented at ESMO October 25, 2026.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/08/3377264/19782/en/cytodyn-to-present-updated-data-from-phase-2-clover-clinical-study-at-esmo-congress-2026.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "25.000000",
-  "probability_clean_plus_max": "35.000000",
-  "probability_mixed_min": "45.000000",
-  "probability_mixed_max": "55.000000",
-  "probability_clean_minus_min": "15.000000",
-  "probability_clean_minus_max": "25.000000",
-  "magnitude_clean_plus_min": "12.000000",
-  "magnitude_clean_plus_max": "30.000000",
-  "magnitude_mixed_min": "-15.000000",
-  "magnitude_mixed_max": "5.000000",
-  "magnitude_clean_minus_min": "-40.000000",
-  "magnitude_clean_minus_max": "-20.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an incremental clinical and biomarker update, not a confirmed final efficacy topline. CLOVER enrolled 66 patients into two leronlimab dose groups; both receive chemotherapy and bevacizumab, so there is no group testing the established regimen without leronlimab. The primary efficacy endpoint is objective response rate\u2014the proportion with meaningful tumor shrinkage. Earlier results showed encouraging reductions in tumor DNA in blood, but these do not establish leronlimab\u2019s added benefit. A favorable market outcome needs convincing, durable tumor responses rather than biomarker improvement alone. ([cytodyn.com](https://www.cytodyn.com/investors/news-events/press-releases/detail/669/cytodyn-to-present-updated-data-from-phase-2-clover?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 25 ESMO poster is a moderately important follow-up disclosure from an ongoing study. It can strengthen or weaken the colorectal cancer investment case, but it is not a pivotal approval-enabling result. Our 25\u201335% favorable, 45\u201355% mixed and 15\u201325% unfavorable probabilities reflect the distinction between encouraging scientific findings and evidence strong enough to clearly impress investors. ([cytodyn.com](https://www.cytodyn.com/investors/news-events/press-releases/detail/669/cytodyn-to-present-updated-data-from-phase-2-clover?utm_source=openai))\n\nHistorically, about 24.6% of Phase 2 oncology programs advanced to Phase 3. That is a development benchmark, not the probability of a positive stock reaction. CLOVER already has preliminary human evidence: the April poster showed roughly 70% median reductions in tumor DNA in blood and no leronlimab-related dose-limiting toxicity. However, the biomarker analysis was small, and disease stabilization is not the same as an objective response. Those findings support continued investigation without making clear clinical success highly predictable. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai))\n\nThe biggest challenge is proving added benefit. Both dose groups receive an active treatment backbone, which produced median survival of 10.8 months in SUNLIGHT. Historical comparisons cannot fully account for differences in patients or follow-up. With only 66 patients split between doses, a few responses, unequal patient characteristics or incomplete assessments can materially affect the apparent result. Favorable biomarkers could therefore coexist with an unconvincing tumor-response result, making Mixed the most likely outcome. ([clinicaltrials.gov](https://clinicaltrials.gov/study/NCT06699836?cond=CRC%2C+Colorectal+Cancer&intr=leronlimab&utm_source=openai))\n\nBPIQ reports 0 specialist hedge-fund holders across the last four quarters. That warrants caution, although OTC trading and institutional investment restrictions can also limit ownership. At the supplied approximately $293.9 million market capitalization, CytoDyn already carries meaningful expectations for leronlimab. Reported cash was $11.9 million on May 31, 2026; a subsequent $16.5 million gross financing supports management\u2019s stated runway into the second half of 2027. Convertible debt, substantial liabilities and share warrants still create financing and dilution risk. ([cytodyn.com](https://www.cytodyn.com/investors/sec-filings/all-sec-filings/content/0001175680-26-000014/ck0001175680-20260531.htm))\n\nWe estimate a 12\u201330% gain for convincingly favorable data: enough to recognize stronger clinical evidence, but restrained by the follow-up nature of the poster and dilution exposure. Mixed results could produce a 15% decline to a 5% gain, while clearly inadequate activity or important safety concerns could cause a 20\u201340% decline. The supplied prior company reactions show that favorable conference headlines have not consistently generated lasting enthusiasm. CYDY does not trade listed options, so these are fundamental estimates rather than options-confirmed moves.",
-  "catalyst_event_details": "Updated Phase 2 CLOVER data for leronlimab plus trifluridine/tipiracil and bevacizumab in metastatic colorectal cancer will be presented at ESMO on October 25, 2026. ([cytodyn.com](https://www.cytodyn.com/investors/news-events/press-releases/detail/669/cytodyn-to-present-updated-data-from-phase-2-clover?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-11T20:32:40Z"
- },
- {
-  "id": 20095,
-  "company": {
-   "ticker": "AGEN",
-   "name": "Agenus Inc.",
-   "last_price": "6.22",
-   "market_cap": 285874912,
-   "website": "https://www.agenusbio.com"
-  },
-  "ticker": "AGEN",
-  "drug_name": "Botensilimab/Balstilimab (AGEN1181/AGEN2034) (CTLA-4/PD-1 Blockade)",
-  "indications": [
-   {
-    "id": 748,
-    "title": "Colorectal cancer ",
-    "nickname": "Colon and Rectal Cancer"
-   }
-  ],
-  "indications_text": "Colorectal Cancer, Neoadjuvant",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "03/16/26:- Phase 2 neoadjuvant colorectal cancer trial updates expected in 2026. 05/11/26:- PR No update. 07/17/26:- NEOASIS dMMR neoadjuvant CRC data poster at ESMO on October 25, 2026. 08/06/26:- NEST and UNICORN follow-up manuscripts expected H2 2026; ROBBIN dosing expected Q1 2027.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/08/b60989071/agenus-reports-second-quarter-2026-results-and-advances-phase-3-robbin-trial-bot-bal-neoadjuvant-mss",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "45.000000",
-  "probability_clean_plus_max": "60.000000",
-  "probability_mixed_min": "25.000000",
-  "probability_mixed_max": "40.000000",
-  "probability_clean_minus_min": "10.000000",
-  "probability_clean_minus_max": "20.000000",
-  "magnitude_clean_plus_min": "4.000000",
-  "magnitude_clean_plus_max": "12.000000",
-  "magnitude_mixed_min": "-7.000000",
-  "magnitude_mixed_max": "2.000000",
-  "magnitude_clean_minus_min": "-18.000000",
-  "magnitude_clean_minus_max": "-8.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an incremental update from an uncontrolled Phase 2 study, not a pivotal efficacy binary. Previously reported NEOASIS results included 10 mismatch repair-deficient patients, nine with colorectal cancer: 80% achieved major tumor clearance and 70% complete clearance, without dose-limiting toxicity or surgical delays. These percentages describe the combined 10-patient cohort. The update must establish consistent responses and acceptable safety against strong competing immunotherapy results. It does not directly test the harder-to-treat MSS population targeted by ROBBIN. ([s202.q4cdn.com](https://s202.q4cdn.com/949764554/files/doc_news/Agenus-BOTBAL-Neoadjuvant-Pan-Cancer-Data-from-the-NEOASIS-Study-Presented-in-an-Oral-Session-at-AACR-2025.pdf))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 25, 2026 NEOASIS presentation is an incremental update in mismatch repair-deficient colorectal cancer, a subgroup that is particularly sensitive to immunotherapy. It is biologically different from the MSS population targeted by ROBBIN. Our 45\u201360% Clean+ probability reflects encouraging prior activity without assuming that another positive poster creates substantial new value. ([agenusbio.com](https://www.agenusbio.com/press/agenus-announces-three-bot-bal-presentations-spanning-neoadjuvant-and-late-line-colorectal-cancer-and-advanced-sarcomas-at-esmo-2026)) Historically, about 24.6% of oncology Phase 2 programs advanced to Phase 3; that measures development progress, not the probability of a favorable follow-up presentation or stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai))\n\nThe prior NEOASIS safety run-in included 10 dMMR patients, nine with colorectal cancer. Safety was its primary objective; tumor clearance at surgery was a secondary measure. Major pathological response means no more than 10% living tumor remains. Small, uncontrolled cohorts make response percentages sensitive to individual patients and patient selection, and tumor clearance alone does not establish longer survival. ([aacrjournals.org](https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT130/761762/Abstract-CT130-Neoadjuvant-botensilimab-plus?utm_source=openai)) The competitive bar is high: NICHE-2 reported 95% major and 68% complete pathological responses with nivolumab plus ipilimumab. This is context, not a head-to-head comparison. Encouraging activity without clear differentiation, or with safety or surgical concerns, fits our 25\u201340% Mixed range; materially disappointing findings fit the 10\u201320% Clean\u2013 range. ([nejm.org](https://www.nejm.org/doi/full/10.1056/NEJMoa2400634?utm_source=openai))\n\nAt BPIQ's approximately $394 million market capitalization and $401 million enterprise value, BOT+BAL is central to the investment case. However, this dMMR poster does not directly resolve the larger MSS registrational opportunity. ([agenusbio.com](https://www.agenusbio.com/press/agenus-announces-three-bot-bal-presentations-spanning-neoadjuvant-and-late-line-colorectal-cancer-and-advanced-sarcomas-at-esmo-2026)) BPIQ's recent Agenus follow-up history generally shows modest reactions. That supports +4\u201312% for clearly favorable results and -7% to +2% for ambiguity. The -18% to -8% disappointing-result range allows for safety concerns that could affect confidence beyond this cohort. These are estimates of this poster's contribution, assuming no major intervening surprise.\n\nBPIQ's specialist hedge-fund count is 0, warranting caution rather than an automatic clinical penalty. Separately, Commodore Capital, RA Capital and TCGX participated in July's financing, providing tangible specialist backing. ([agenusbio.com](https://www.agenusbio.com/press/agenus-announces-oversubscribed-private-placement-of-up-to-340-million-to-advance-registrational-robbin-trial-of-neoadjuvant-bot-bal-in-mss-colon-cancer?utm_source=openai)) Agenus reported $18.7 million cash at June 30 and subsequently received approximately $85 million gross proceeds. The company expects the upfront financing to support operations through Q3 2027. Funding through year-end 2031 assumes full exercise of additional warrants; that capital is conditional and dilutive. The larger Phase 3 funding plan matters more economically than this individual poster. ([agenusbio.com](https://www.agenusbio.com/press/agenus-reports-second-quarter-2026-results-and-advances-phase-3-robbin-trial-of-bot-bal-in-neoadjuvant-mss-colon-cancer))\n\nThe supplied November options indicate a 26.7% total move and a calculated event component near 24.6%, above our standalone estimates. Wide spreads and multiple nearby catalysts mean that pricing represents broader Agenus risk, not a dependable NEOASIS-only forecast. ESMO includes additional BOT+BAL presentations. ([agenusbio.com](https://www.agenusbio.com/press/agenus-announces-three-bot-bal-presentations-spanning-neoadjuvant-and-late-line-colorectal-cancer-and-advanced-sarcomas-at-esmo-2026)) Neither direction qualifies as an options-confirmed big mover.",
-  "catalyst_event_details": "Botensilimab plus balstilimab Phase 2 NEOASIS results in neoadjuvant mismatch repair-deficient colorectal cancer will be presented at ESMO on October 25, 2026. ([agenusbio.com](https://www.agenusbio.com/press/agenus-announces-three-bot-bal-presentations-spanning-neoadjuvant-and-late-line-colorectal-cancer-and-advanced-sarcomas-at-esmo-2026))",
-  "move_analysis_created_datetime": "2026-10-06T14:48:27Z"
- },
- {
-  "id": 20426,
-  "company": {
-   "ticker": "RHHBY",
-   "name": "Roche Holding",
-   "last_price": "61.17",
-   "market_cap": 389905350656,
-   "website": "https://www.roche.com"
-  },
-  "ticker": "RHHBY",
-  "drug_name": "Divarasib (KRAS G12C Inhibitor)",
-  "indications": [
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "KRAS G12C-Positive Advanced Non-Small Cell Lung Cancer",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "05/18/26:- Krascendo-170 Phase 1b/2 results presented at ASCO May 30, 2026. 07/01/26:- Krascendo 1 Ph3 met PFS and OS endpoints; data to be submitted and presented at a meeting. 07/23/26:- Krascendo 1 Phase 3 confirmed PFS and OS superiority; no future presentation date was provided. 10/18/26:- Krascendo 1 Ph3 LBA at ESMO Oct 25, 2026; divarasib vs sotorasib or adagrasib.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261018339341/en/Genentech-to-Present-Pivotal-Data-at-ESMO-2026-Showcasing-Advances-Across-Its-Lung-and-Breast-Cancer-Late-Stage-Portfolio",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "65.000000",
-  "probability_clean_plus_max": "75.000000",
-  "probability_mixed_min": "20.000000",
-  "probability_mixed_max": "30.000000",
-  "probability_clean_minus_min": "0.000000",
-  "probability_clean_minus_max": "10.000000",
-  "magnitude_clean_plus_min": "0.500000",
-  "magnitude_clean_plus_max": "2.000000",
-  "magnitude_mixed_min": "-1.000000",
-  "magnitude_mixed_max": "0.250000",
-  "magnitude_clean_minus_min": "-3.000000",
-  "magnitude_clean_minus_max": "-1.500000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is a detailed presentation after positive topline results, not a fresh efficacy binary. Krascendo 1 randomized 338 patients to divarasib or sotorasib/adagrasib; its primary endpoint was independently reviewed progression-free survival, meaning time without cancer worsening or death. Roche has already announced significant progression-free and overall survival benefits without new safety findings. The remaining investment questions concern benefit size, survival maturity, subgroup consistency and treatment discontinuations. Importance is moderate/low for Roche shares despite substantial clinical relevance. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-07-02?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 25 presentation should mainly show how convincing an already-announced success looks in detail. Roche confirmed the presentation date and reiterated superiority over approved KRAS inhibitors before ESMO. That supports a 65\u201375% probability of an unequivocally favorable presentation, but much less upside than a first announcement of success. ([roche.com](https://www.roche.com/media/releases/med-cor-2026-10-19?utm_source=openai))\n\nThe historical Phase 3 oncology development-success anchor is 47.7%; that measures progression toward a regulatory filing, not the chance of a favorable stock reaction. This event deserves a higher probability because the randomized trial has already demonstrated its principal benefits. Earlier single-agent evidence also supported activity: the Phase 1 lung-cancer cohort showed a 53.4% confirmed response rate and 13.1-month median progression-free survival, although uncontrolled results cannot establish superiority. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai))\n\nIndependent scan review reduces the risk of bias in this open-label study. Nevertheless, the market will scrutinize the size and precision of the benefit, whether results are consistent against both comparator drugs, and whether survival follow-up supports broad adoption. A statistically positive result can still disappoint these expectations. These considerations support a meaningful Mixed probability, while a seriously unfavorable interpretation is less likely after the announced survival benefit and reassuring safety summary. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-07-02?utm_source=openai))\n\nThe supplied figures put Roche at $376.8 billion in market capitalization with $9.7 billion in cash. Divarasib represents only part of a diversified pharmaceutical and diagnostics business, so neither success nor disappointment should transform group value. Roche's established cash-generating operations make a development-stage cash-runway countdown inappropriate; an event-driven equity financing is not central to this setup. ([assets.roche.com](https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf?utm_source=openai)) BPIQ reports 0 specialist hedge funds. For a Swiss issuer's OTC ADR, that count is not proof that specialists reject the science; it also offers no positive ownership confirmation. The supplied July divarasib reaction was larger than typical recent Roche updates, but the upcoming presentation follows that initial announcement. Accordingly, estimated gains are only 0.50\u20132.00%, versus a 1.50\u20133.00% decline for a materially disappointing interpretation.\n\nOther Roche presentations during ESMO may influence the same trading window, so these ranges describe divarasib's incremental contribution rather than the entire conference reaction. ([gene.com](https://www.gene.com/media/press-releases/15138/2026-10-18/genentech-to-present-pivotal-data-at-esm?utm_source=openai)) RHHBY has no listed options, so no options-implied event move applies. Neither direction meets the fundamental 20% suspected-big-mover threshold.",
-  "catalyst_event_details": "Divarasib\u2019s Phase 3 Krascendo 1 results in previously treated advanced KRAS G12C-mutated non-small cell lung cancer will be presented October 25, 2026, at ESMO. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-10-19?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-22T11:32:58Z"
- },
- {
-  "id": 20844,
-  "company": {
-   "ticker": "RHHBY",
-   "name": "Roche Holding",
-   "last_price": "61.17",
-   "market_cap": 389905350656,
-   "website": "https://www.roche.com"
-  },
-  "ticker": "RHHBY",
-  "drug_name": "Tam-Peli/Tambotatug Pelitecan (YL201) (B7-H3 ADC)",
-  "indications": [
-   {
-    "id": 1284,
-    "title": "Nasopharyngeal carcinoma",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Nasopharyngeal Carcinoma",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "09/13/26:- TAISHAN-301 Phase 3 positive in nasopharyngeal carcinoma was reiterated; no timing provided. 10/18/26:- TAISHAN-301 Ph3 interim R/M NPC results presented at ESMO Oct 25, 2026.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261018339341/en/Genentech-to-Present-Pivotal-Data-at-ESMO-2026-Showcasing-Advances-Across-Its-Lung-and-Breast-Cancer-Late-Stage-Portfolio",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "65.000000",
-  "probability_clean_plus_max": "75.000000",
-  "probability_mixed_min": "20.000000",
-  "probability_mixed_max": "30.000000",
-  "probability_clean_minus_min": "0.000000",
-  "probability_clean_minus_max": "10.000000",
-  "magnitude_clean_plus_min": "0.100000",
-  "magnitude_clean_plus_max": "0.750000",
-  "magnitude_mixed_min": "-0.510000",
-  "magnitude_mixed_max": "0.100000",
-  "magnitude_clean_minus_min": "-2.000000",
-  "magnitude_clean_minus_max": "-0.510000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is a detailed interim presentation after previously announced success, not a fresh efficacy binary. The randomized, open-label trial targets approximately 400 patients and compares Tam-Peli with physician-selected chemotherapy after prior immunotherapy and at least two chemotherapy lines. Its main measures are independently reviewed tumor response and overall survival. Response-rate success was announced in May 2026; the presentation must establish the size and durability of benefit and its safety trade-off. Tumor shrinkage alone does not establish longer survival. Roche\u2019s rights exclude mainland China, Hong Kong and Macau, limiting its direct economics in an important NPC market. ([clinicaltrials.gov](https://clinicaltrials.gov/study/NCT06629597))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 25 presentation adds detail after a positive Phase 3 announcement. Historically, about 48% of oncology Phase 3 programs advanced to a regulatory filing, but that benchmark describes development success\u2014not the chance of a favorable stock reaction. Our 65\u201375% favorable-outcome range reflects the fact that TAISHAN-301 has already met its independently assessed tumor-response endpoint. Separate randomized survival benefits in small-cell lung cancer strengthen confidence in Tam-Peli, but do not prove a survival benefit in nasopharyngeal carcinoma. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-10-19))\n\nA favorable presentation needs convincing benefit beyond the positive headline. Independent scan review helps limit bias in this open-label trial, where patients and doctors know the treatment assignment. Response duration, survival follow-up and treatment tolerability can still produce mixed details. Lung inflammation occurred in 4.9% of Tam-Peli patients in the separate lung-cancer trial. The October 23 lung-safety presentation also helps shape expectations before the NPC results. ([medilinkthera.com](https://www.medilinkthera.com/news-details/58?utm_source=openai))\n\nThe supplied company figures show a $376.8 billion market capitalization, $380.9 billion enterprise value and $9.7 billion cash. Roche's substantial commercial business makes a clinical-stage cash-runway calculation inappropriate: it reported CHF 30.4 billion in first-half sales and CHF 9.7 billion in operating profit. This presentation is not a financing-dependent survival event. BPIQ's specialist hedge-fund count is 0; for this Swiss multinational's OTC security, that is a limited ownership signal rather than evidence against the drug. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-07-23))\n\nWe estimate only 0.10\u20130.75% upside because response-rate success is already public and this indication represents a small part of Roche's overall value. Roche also excludes mainland China, Hong Kong and Macau from its licensed territory and owes MediLink milestones and royalties. Mixed details could produce a \u22120.51% to +0.10% move. The \u22122.00% to \u22120.50% downside range allows for a serious disappointment with implications for the broader Tam-Peli program, rather than immature survival data alone. These are event-attributable estimates; other ESMO presentations can affect the observed share price. ([medilinkthera.com](https://www.medilinkthera.com/news-details/58?utm_source=openai))\n\nThe supplied historical Roche reactions support modest moves rather than clinical-stage biotech-style swings. Options are N/M, so the estimates rest on the clinical and valuation setup rather than an options-implied move. Neither direction qualifies as a big mover.",
-  "catalyst_event_details": "Tam-Peli\u2019s Phase 3 TAISHAN-301 interim results in recurrent or metastatic nasopharyngeal carcinoma will be presented at ESMO on October 25, 2026. ([roche.com](https://www.roche.com/investors/updates/inv-update-2026-10-19))",
-  "move_analysis_created_datetime": "2026-10-22T11:33:01Z"
- },
- {
-  "id": 20856,
-  "company": {
-   "ticker": "MRNA",
-   "name": "Moderna",
-   "last_price": "195.95",
-   "market_cap": 79887106048,
-   "website": "https://www.modernatx.com"
-  },
-  "ticker": "MRNA",
-  "drug_name": "Intismeran Autogene (mRNA-4157/V940) (Neoantigen Vaccine)",
-  "indications": [
-   {
-    "id": 2226,
-    "title": "Pancreatic ductal adenocarcinoma ",
-    "nickname": "PDAC"
-   }
-  ],
-  "indications_text": "Resectable Pancreatic Ductal Adenocarcinoma",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "09/21/26:- Phase 1 resectable pancreatic ductal adenocarcinoma results with intismeran plus FOLFIRINOX at ESMO Oct 25, 2026.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-announces-late-breaking-data-to-be-presented-at-esmo-congress-1224628",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20864,
-  "company": {
-   "ticker": "MRNA",
-   "name": "Moderna",
-   "last_price": "195.95",
-   "market_cap": 79887106048,
-   "website": "https://www.modernatx.com"
-  },
-  "ticker": "MRNA",
-  "drug_name": "Intismeran Autogene (mRNA-4157/V940) (Neoantigen Vaccine)",
-  "indications": [
-   {
-    "id": 2226,
-    "title": "Pancreatic ductal adenocarcinoma ",
-    "nickname": "PDAC"
-   }
-  ],
-  "indications_text": "Resectable Pancreatic Ductal Adenocarcinoma",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "09/21/26:- Phase 1 pancreatic ductal adenocarcinoma results presentation at ESMO 2026 on Oct 25, 2026.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-announces-late-breaking-data-to-be-presented-at-esmo-congress-1224628",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20963,
-  "company": {
-   "ticker": "PSNL",
-   "name": "Personalis",
-   "last_price": "15.87",
-   "market_cap": 1692777984,
-   "website": "https://www.personalis.com"
-  },
-  "ticker": "PSNL",
-  "drug_name": "NeXT Personal (MRD Detection Assay)",
-  "indications": [
-   {
-    "id": 979,
-    "title": "Cutaneous squamous cell carcinoma",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "High-Risk Cutaneous Squamous Cell Carcinoma Adjuvant Therapy Monitoring",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "10/19/26:- C-POST Ph3 high-risk CSCC ctDNA analysis to be presented at ESMO 2026 on Oct 25.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261019479647/en/Personalis-NeXT-Personal-Data-Showcasing-Ultrasensitive-MRD-to-be-Presented-at-ESMO-2026",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "50.000000",
-  "probability_clean_plus_max": "60.000000",
-  "probability_mixed_min": "25.000000",
-  "probability_mixed_max": "35.000000",
-  "probability_clean_minus_min": "10.000000",
-  "probability_clean_minus_max": "20.000000",
-  "magnitude_clean_plus_min": "0.500000",
-  "magnitude_clean_plus_max": "2.500000",
-  "magnitude_mixed_min": "-1.500000",
-  "magnitude_mixed_max": "0.250000",
-  "magnitude_clean_minus_min": "-6.000000",
-  "magnitude_clean_minus_max": "-2.500000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an incremental biomarker analysis within an already-successful trial, not a new pivotal test of NeXT Personal. C-POST randomized 415 patients to cemiplimab or placebo after surgery and radiation; its primary endpoint was disease-free survival, and cemiplimab already received FDA approval. The investor question is whether blood-based tumor DNA meaningfully identifies recurrence risk and treatment outcomes. Randomization of treatment does not establish that using the assay to guide care improves survival. Sample selection, the number of recurrences within biomarker groups, and consistency across sampling times matter more than the overall trial size. The pending Tempus acquisition substantially limits the standalone stock-price impact. ([fda.gov](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-cemiplimab-rwlc-adjuvant-treatment-cutaneous-squamous-cell-carcinoma?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The October 25 presentation is a follow-up analysis with modest incremental importance for PSNL shareholders. It examines NeXT Personal within C-POST, whose treatment benefit is already established. Historical oncology Phase 3 development success rates provide background, but they do not directly measure the likelihood of a useful diagnostic analysis. We assign a 50\u201360% chance of clearly favorable information, rather than treating this as another pivotal treatment trial. ([investors.personalis.com](https://investors.personalis.com/news-releases/news-release-details/personalis-next-personalr-data-showcasing-ultrasensitive-mrd-be))\n\nA clearly favorable result needs convincing links between tumor DNA measurements and patient outcomes, not simply another positive treatment-survival update. C-POST randomized 415 patients and measured disease-free survival\u2014time without recurrence or death\u2014but treatment randomization does not prove that using the assay to guide care improves outcomes. Small biomarker groups, sample selection and multiple comparisons can leave encouraging findings short of persuasive clinical usefulness. Those risks support a 25\u201335% mixed-result probability and a 10\u201320% unfavorable-result probability. ([fda.gov](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-cemiplimab-rwlc-adjuvant-treatment-cutaneous-squamous-cell-carcinoma?utm_source=openai))\n\nThe dominant valuation consideration is the pending Tempus transaction. The agreement targets $16.25 per share through stock consideration, with an option for Tempus to pay up to half in cash. A maximum exchange ratio means the stock component can be worth less if Tempus shares fall sufficiently. Against the supplied $15.85 PSNL price, this structure supports modest catalyst-specific upside rather than a major standalone revaluation. Personalis expects closing in late 2026, subject to remaining conditions. Our +0.50\u20132.50% favorable and \u22122.50\u20136.00% unfavorable reaction ranges assume the merger remains on track; separate deal failure is outside this event estimate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1717115/000119312526427866/d864810d424b3.htm))\n\nBPIQ reports three specialist hedge-fund holders, including Deep Track and Casdin. That provides some institutional validation, although higher position values do not necessarily mean additional shares were purchased. At the supplied $1.7 billion market capitalization, this indication is only one part of the business. Supplied June-end cash was $212.7 million. The trailing annual burn supports a runway projection into 2028, while the faster $25.8 million quarterly burn would shorten that cushion. Neither measure suggests immediate financing depends on this presentation.\n\nThe supplied historical colorectal update produced a roughly 3% opening gain, reinforcing a restrained reaction estimate. Other NeXT Personal presentations at ESMO also provide context, so these ranges describe C-POST's incremental contribution. The supplied January options straddle indicates approximately 18.0% movement through expiration, but illiquid, wide quotes and 82 days beyond the presentation make it a poor measure of this event alone. It does not establish a 20% catalyst move in either direction. ([investors.personalis.com](https://investors.personalis.com/news-releases/news-release-details/personalis-next-personalr-data-showcasing-ultrasensitive-mrd-be))",
-  "catalyst_event_details": "NeXT Personal ctDNA analyses from Phase 3 C-POST in high-risk cutaneous squamous cell carcinoma will be presented at ESMO on October 25, 2026. ([investor.regeneron.com](https://investor.regeneron.com/node/32396/pdf))",
-  "move_analysis_created_datetime": "2026-10-23T11:32:11Z"
- },
- {
-  "id": 20964,
-  "company": {
-   "ticker": "SMMT",
-   "name": "Summit Therapeutics",
-   "last_price": "14.61",
-   "market_cap": 12341186560,
-   "website": "https://www.smmttx.com"
-  },
-  "ticker": "SMMT",
-  "drug_name": "Ivonescimab (AK112) (PD-1/VEGF Bispecific)",
-  "indications": [
-   {
-    "id": 874,
-    "title": "Renal cell carcinoma",
-    "nickname": "RCC"
-   }
-  ],
-  "indications_text": "First-Line IMDC Favorable-Risk Advanced Renal Cell Carcinoma",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "10/22/26:- 1L favorable-risk aRCC Ph1b/2 results scheduled for ESMO 2026 oral session Oct 25.",
-  "catalyst_date": "2026-10-25",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261022076516/en/Ivonescimab-Data-Sets-across-Multiple-Tumor-Types-to-Be-Featured-at-ESMO-2026",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16751,
   "company": {
    "ticker": "ORIC",
@@ -1700,7 +996,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.00",
+   "last_price": "1.02",
    "market_cap": 156045968,
    "website": "https://www.coherus.com"
   },
@@ -1901,7 +1197,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "1.00",
+   "last_price": "1.02",
    "market_cap": 156045968,
    "website": "https://www.coherus.com"
   },
@@ -3002,7 +2298,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.34",
+   "last_price": "49.20",
    "market_cap": 4775650304,
    "website": "https://www.crisprtx.com"
   },
@@ -3064,7 +2360,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.34",
+   "last_price": "49.20",
    "market_cap": 4775650304,
    "website": "https://www.crisprtx.com"
   },
@@ -3989,7 +3285,7 @@
   "company": {
    "ticker": "CRBP",
    "name": "Corbus Pharmaceuticals",
-   "last_price": "4.05",
+   "last_price": "4.00",
    "market_cap": 78332240,
    "website": "https://www.corbuspharma.com"
   },
@@ -4103,7 +3399,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "19.65",
+   "last_price": "19.71",
    "market_cap": 3399587840,
    "website": "https://acadia.com"
   },
@@ -4507,7 +3803,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "31.03",
+   "last_price": "30.69",
    "market_cap": 5415714304,
    "website": "https://www.cogentbio.com"
   },
@@ -4688,7 +3984,7 @@
   "company": {
    "ticker": "DWTX",
    "name": "Dogwood Therapeutics",
-   "last_price": "1.18",
+   "last_price": "1.12",
    "market_cap": 38071660,
    "website": "https://dwtx.com"
   },
@@ -5226,7 +4522,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.74",
+   "last_price": "49.00",
    "market_cap": 1456795264,
    "website": "https://www.anaptysbio.com"
   },
@@ -5422,7 +4718,7 @@
   "company": {
    "ticker": "RZLT",
    "name": "Rezolute Bio",
-   "last_price": "3.78",
+   "last_price": "3.76",
    "market_cap": 372864608,
    "website": "https://www.rezolutebio.com"
   },
@@ -5831,7 +5127,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "31.03",
+   "last_price": "30.69",
    "market_cap": 5415714304,
    "website": "https://www.cogentbio.com"
   },
@@ -7385,53 +6681,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-15",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16069,
   "company": {
    "ticker": "CRVS",
@@ -8221,6 +7470,53 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-15",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 16917,
   "company": {
    "ticker": "RLAY",
@@ -8287,7 +7583,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "6.70",
+   "last_price": "6.66",
    "market_cap": 440968096,
    "website": "https://www.regenxbio.com"
   },
@@ -8535,7 +7831,7 @@
   "company": {
    "ticker": "INMB",
    "name": "INmune Bio",
-   "last_price": "1.45",
+   "last_price": "1.46",
    "market_cap": 40520532,
    "website": "https://www.inmunebio.com"
   },
@@ -9051,7 +8347,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.47",
+   "last_price": "19.52",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -9113,7 +8409,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.47",
+   "last_price": "19.52",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -10755,7 +10051,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.34",
+   "last_price": "49.20",
    "market_cap": 4775650304,
    "website": "https://www.crisprtx.com"
   },
@@ -11209,7 +10505,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "0.46",
+   "last_price": "0.48",
    "market_cap": 11737655,
    "website": "https://www.karyopharm.com"
   },
@@ -12176,7 +11472,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "0.46",
+   "last_price": "0.48",
    "market_cap": 11737655,
    "website": "https://www.karyopharm.com"
   },
@@ -12429,7 +11725,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "5.34",
+   "last_price": "5.23",
    "market_cap": 333336160,
    "website": "https://kyvernatx.com"
   },
@@ -13810,7 +13106,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "12.19",
+   "last_price": "12.39",
    "market_cap": 1079756928,
    "website": "https://www.replimune.com"
   },
@@ -14110,7 +13406,7 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "9.35",
+   "last_price": "9.28",
    "market_cap": 230103280,
    "website": "https://www.lyell.com"
   },
@@ -14569,7 +13865,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.34",
+   "last_price": "49.20",
    "market_cap": 4775650304,
    "website": "https://www.crisprtx.com"
   },
@@ -14859,7 +14155,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "1.69",
+   "last_price": "1.70",
    "market_cap": 200686016,
    "website": "https://www.pyxisoncology.com"
   },
@@ -15334,7 +14630,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "3.79",
+   "last_price": "3.81",
    "market_cap": 551995840,
    "website": "https://www.aclaristx.com"
   },
@@ -15391,7 +14687,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "3.79",
+   "last_price": "3.81",
    "market_cap": 551995840,
    "website": "https://www.aclaristx.com"
   },
@@ -16503,7 +15799,7 @@
   "company": {
    "ticker": "ABCL",
    "name": "AbCellera",
-   "last_price": "11.95",
+   "last_price": "12.11",
    "market_cap": 3830239744,
    "website": "https://www.abcellera.com"
   },
@@ -16793,7 +16089,7 @@
   "company": {
    "ticker": "MBX",
    "name": "MBX Biosciences",
-   "last_price": "48.61",
+   "last_price": "49.88",
    "market_cap": 2335764736,
    "website": "https://mbxbio.com"
   },
@@ -17078,7 +16374,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "87.74",
+   "last_price": "92.93",
    "market_cap": 5306707456,
    "website": "https://orukatx.com"
   },
@@ -17306,7 +16602,7 @@
   "company": {
    "ticker": "MOLN",
    "name": "Molecular Partners",
-   "last_price": "3.59",
+   "last_price": "3.72",
    "market_cap": 140580224,
    "website": "https://www.molecularpartners.com"
   },
@@ -17363,7 +16659,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.47",
+   "last_price": "19.52",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -17425,7 +16721,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.47",
+   "last_price": "19.52",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -17663,7 +16959,7 @@
   "company": {
    "ticker": "CRSP",
    "name": "CRISPR Therapeutics",
-   "last_price": "49.34",
+   "last_price": "49.20",
    "market_cap": 4775650304,
    "website": "https://www.crisprtx.com"
   },
@@ -18062,7 +17358,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "5.34",
+   "last_price": "5.23",
    "market_cap": 333336160,
    "website": "https://kyvernatx.com"
   },
@@ -18414,7 +17710,7 @@
   "company": {
    "ticker": "ATOS",
    "name": "Atossa Therapeutics",
-   "last_price": "2.53",
+   "last_price": "2.49",
    "market_cap": 25946174,
    "website": "https://www.atossatherapeutics.com"
   },
@@ -18471,7 +17767,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "2.03",
+   "last_price": "2.04",
    "market_cap": 143325424,
    "website": "https://www.macrogenics.com"
   },
@@ -18589,7 +17885,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "6.30",
+   "last_price": "6.22",
    "market_cap": 653340288,
    "website": "https://www.aurabiosciences.com"
   },
@@ -18765,7 +18061,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "6.30",
+   "last_price": "6.22",
    "market_cap": 653340288,
    "website": "https://www.aurabiosciences.com"
   },
@@ -19008,7 +18304,7 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "9.35",
+   "last_price": "9.28",
    "market_cap": 230103280,
    "website": "https://www.lyell.com"
   },
@@ -19127,7 +18423,7 @@
   "company": {
    "ticker": "INTS",
    "name": "Intensity Therapeutics",
-   "last_price": "3.25",
+   "last_price": "3.12",
    "market_cap": 10610857,
    "website": "https://intensitytherapeutics.com"
   },
@@ -19427,7 +18723,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.74",
+   "last_price": "49.00",
    "market_cap": 1456795264,
    "website": "https://www.anaptysbio.com"
   },
@@ -19484,7 +18780,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.74",
+   "last_price": "49.00",
    "market_cap": 1456795264,
    "website": "https://www.anaptysbio.com"
   },
@@ -19546,7 +18842,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "87.74",
+   "last_price": "92.93",
    "market_cap": 5306707456,
    "website": "https://orukatx.com"
   },
@@ -24281,7 +23577,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "12.19",
+   "last_price": "12.39",
    "market_cap": 1079756928,
    "website": "https://www.replimune.com"
   },
@@ -24933,7 +24229,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "87.74",
+   "last_price": "92.93",
    "market_cap": 5306707456,
    "website": "https://orukatx.com"
   },
@@ -25104,7 +24400,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "19.47",
+   "last_price": "19.52",
    "market_cap": 2304177152,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -25275,7 +24571,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "87.74",
+   "last_price": "92.93",
    "market_cap": 5306707456,
    "website": "https://orukatx.com"
   },
@@ -27137,7 +26433,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.26",
+   "last_price": "18.04",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -27266,7 +26562,7 @@
   "company": {
    "ticker": "PROK",
    "name": "ProKidney",
-   "last_price": "1.41",
+   "last_price": "1.40",
    "market_cap": 562847424,
    "website": "https://prokidney.com"
   },
@@ -27933,7 +27229,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.26",
+   "last_price": "18.04",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -28724,7 +28020,7 @@
   "company": {
    "ticker": "MGNX",
    "name": "MacroGenics",
-   "last_price": "2.03",
+   "last_price": "2.04",
    "market_cap": 143325424,
    "website": "https://www.macrogenics.com"
   },
@@ -28786,7 +28082,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.26",
+   "last_price": "18.04",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -29195,7 +28491,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.26",
+   "last_price": "18.04",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -29366,7 +28662,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.26",
+   "last_price": "18.04",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -29480,7 +28776,7 @@
   "company": {
    "ticker": "VOR",
    "name": "Vor Biopharma",
-   "last_price": "18.26",
+   "last_price": "18.04",
    "market_cap": 1080303488,
    "website": "https://www.vorbio.com"
   },
@@ -33055,7 +32351,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "6.30",
+   "last_price": "6.22",
    "market_cap": 653340288,
    "website": "https://www.aurabiosciences.com"
   },
@@ -34892,7 +34188,7 @@
   "company": {
    "ticker": "MOLN",
    "name": "Molecular Partners",
-   "last_price": "3.59",
+   "last_price": "3.72",
    "market_cap": 140580224,
    "website": "https://www.molecularpartners.com"
   },
@@ -35063,7 +34359,7 @@
   "company": {
    "ticker": "JBIO",
    "name": "Jade Biosciences",
-   "last_price": "14.85",
+   "last_price": "14.50",
    "market_cap": 927885888,
    "website": "https://jadebiosciences.com"
   },
@@ -36838,7 +36134,7 @@
   "company": {
    "ticker": "EDSA",
    "name": "Edesa Biotech",
-   "last_price": "2.64",
+   "last_price": "2.70",
    "market_cap": 37426940,
    "website": "https://www.edesabiotech.com"
   },
@@ -40020,7 +39316,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.74",
+   "last_price": "49.00",
    "market_cap": 1456795264,
    "website": "https://www.anaptysbio.com"
   },
@@ -40077,7 +39373,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "48.74",
+   "last_price": "49.00",
    "market_cap": 1456795264,
    "website": "https://www.anaptysbio.com"
   },
@@ -40707,7 +40003,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "6.70",
+   "last_price": "6.66",
    "market_cap": 440968096,
    "website": "https://www.regenxbio.com"
   },
@@ -41503,7 +40799,7 @@
   "company": {
    "ticker": "AURA",
    "name": "Aura Biosciences Inc",
-   "last_price": "6.30",
+   "last_price": "6.22",
    "market_cap": 653340288,
    "website": "https://www.aurabiosciences.com"
   },
@@ -41947,7 +41243,7 @@
   "company": {
    "ticker": "KPTI",
    "name": "Karyopharm Therapeutics",
-   "last_price": "0.46",
+   "last_price": "0.48",
    "market_cap": 11737655,
    "website": "https://www.karyopharm.com"
   },
@@ -42790,7 +42086,7 @@
   "company": {
    "ticker": "SDGR",
    "name": "Schrodinger Inc",
-   "last_price": "23.80",
+   "last_price": "24.76",
    "market_cap": 1780374016,
    "website": "https://www.schrodinger.com"
   },

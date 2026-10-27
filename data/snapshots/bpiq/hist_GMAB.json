@@ -1,5 +1,29 @@
 [
  {
+  "id": 9084,
+  "company": {
+   "id": 1351,
+   "ticker": "GMAB",
+   "name": "Genmab",
+   "website": "https://www.genmab.com"
+  },
+  "created_at": "2026-10-27T13:02:32.573164Z",
+  "updated_at": "2026-10-27T13:02:32.573181Z",
+  "ticker": "GMAB",
+  "drug_name": "Rinatabart Sesutecan (Rina-S)",
+  "drug_indication": "Platinum-Resistant Ovarian Cancer",
+  "airtable_id": 9413,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-10-23",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/23/3387518/0/en/genmab-announces-rinatabart-sesutecan-rina-s-demonstrates-statistically-significant-improvement-in-progression-free-survival-and-overall-survival-in-patients-with-platinum-resistan.html",
+  "catalyst_text": "Announced positive topline results from Phase 3 trial",
+  "detailed_catalyst_text": "Topline results from the Phase 3 RAINFOL-02 study in platinum-resistant ovarian cancer showed statistically significant and clinically meaningful improvements in progression-free survival and overall survival versus chemotherapy. Benefits were observed in both the intent-to-treat and primary analysis populations, with safety consistent with prior experience. These data support potential regulatory discussions for a broad PROC population.",
+  "catalyst_text_evidence": "Genmab A/S (Nasdaq: GMAB) announced today positive topline results from the global Phase 3 RAINFOL-02 trial of rinatabart sesutecan (Rina-S), an investigational folate receptor alpha (FR\u03b1)-targeted, topoisomerase I (TOPO1)-inhibitor antibody-drug conjugate (ADC), in patients with platinum-resistant ovarian cancer (PROC) regardless of FR\u03b1 expression level or prior treatment with mirvetuximab. The trial met its primary endpoint of progression-free survival (PFS), with Rina-S demonstrating a statistically significant and clinically meaningful improvement compared with investigator\u2019s choice chemotherapy in the intent-to-treat (ITT) and in the primary analysis set (PAS) populations. The study also met its key secondary endpoint of overall survival (OS), demonstrating a statically significant and clinically meaningful improvement in the ITT population (HR 0.43; 95% CI, 0.31\u20130.59; p<0.0001) and in the PAS population (HR 0.44; 95% CI, 0.31\u20130.63; p<0.0001). The observed safety profile was consistent with the known profile of Rina-S, with no new safety signals or unexpected safety concerns identified.",
+  "news_published_at": "2026-10-27T00:00:00Z",
+  "open_price_gap_percent": "-0.00400",
+  "intra_day_price_change_percent": "0.09915"
+ },
+ {
   "id": 8805,
   "company": {
    "id": 1351,
@@ -8,7 +32,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2026-10-06T13:02:56.595351Z",
-  "updated_at": "2026-10-26T13:02:26.098736Z",
+  "updated_at": "2026-10-27T13:02:38.578179Z",
   "ticker": "GMAB",
   "drug_name": "Rinatabart sesutecan",
   "drug_indication": "Platinum-resistant Ovarian Cancer",
@@ -56,7 +80,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2026-07-01T13:02:17.185344Z",
-  "updated_at": "2026-10-26T13:02:56.317492Z",
+  "updated_at": "2026-10-27T13:03:08.108510Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "Relapsed/Refractory Diffuse Large B-Cell Lymphoma",
@@ -200,7 +224,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-12-10T13:00:53.015372Z",
-  "updated_at": "2026-10-26T13:01:30.117917Z",
+  "updated_at": "2026-10-27T13:01:44.147876Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab-bysp",
   "drug_indication": "Richter transformation",
@@ -248,7 +272,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-11-05T13:01:34.849100Z",
-  "updated_at": "2026-10-26T13:02:04.277663Z",
+  "updated_at": "2026-10-27T13:02:16.994570Z",
   "ticker": "GMAB",
   "drug_name": "Epkinly (epcoritamab)",
   "drug_indication": "Relapsed or refractory (R/R) diffuse large B-cell lymphoma (DLBCL)",
@@ -296,7 +320,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:46:45.977066Z",
-  "updated_at": "2026-10-26T13:02:55.500192Z",
+  "updated_at": "2026-10-27T13:03:07.584425Z",
   "ticker": "GMAB",
   "drug_name": "EPCORE (Epcoritamab) - (EPCORE  NHL-2)",
   "drug_indication": "Non-Hodgkin lymphoma (NHL)",
@@ -368,7 +392,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:06:55.897701Z",
-  "updated_at": "2026-10-26T13:02:47.194296Z",
+  "updated_at": "2026-10-27T13:02:59.639557Z",
   "ticker": "GMAB",
   "drug_name": "Acasunlimab (GEN1046/BNT311)",
   "drug_indication": "Non-small cell lung cancer (NSCLC)",
@@ -440,7 +464,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:06:33.484916Z",
-  "updated_at": "2026-10-26T13:02:12.216794Z",
+  "updated_at": "2026-10-27T13:02:24.215221Z",
   "ticker": "GMAB",
   "drug_name": "TIVDAK (tisotumab vedotin-tftv)",
   "drug_indication": "Cervical Cancer with disease progression on or after first-line therapy",
@@ -464,7 +488,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:47:14.203207Z",
-  "updated_at": "2026-10-26T13:03:51.911799Z",
+  "updated_at": "2026-10-27T13:04:00.282416Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "B-cell Lymphoma (DLBCL)",
@@ -488,7 +512,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:45:41.773222Z",
-  "updated_at": "2026-10-26T13:00:42.660300Z",
+  "updated_at": "2026-10-27T13:00:57.344978Z",
   "ticker": "GMAB",
   "drug_name": "EPKINLY (epcoritamab-bysp)",
   "drug_indication": "Relapsed or Refractory Diffuse Large B-Cell Lymphoma (DLBCL)",
@@ -560,7 +584,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:05:50.936319Z",
-  "updated_at": "2026-10-26T13:01:06.037706Z",
+  "updated_at": "2026-10-27T13:01:20.774136Z",
   "ticker": "GMAB",
   "drug_name": "EPCORE - (NHL-3)",
   "drug_indication": "Non-Hodgkin Lymphoma (NHL)",
@@ -632,7 +656,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:07:02.757624Z",
-  "updated_at": "2026-10-26T13:02:58.066922Z",
+  "updated_at": "2026-10-27T13:03:09.660591Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) using ENHANZE",
   "drug_indication": "Amyloidosis",
@@ -656,7 +680,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:05:51.968624Z",
-  "updated_at": "2026-10-26T13:01:07.192764Z",
+  "updated_at": "2026-10-27T13:01:21.963319Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) and KYPROLIS (carfilzomib)",
   "drug_indication": "Multiple Myeloma",
@@ -704,7 +728,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:05:39.880614Z",
-  "updated_at": "2026-10-26T13:00:46.836217Z",
+  "updated_at": "2026-10-27T13:01:01.596809Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) using ENHANZE",
   "drug_indication": "Multiple myeloma",
@@ -752,7 +776,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:06:40.249202Z",
-  "updated_at": "2026-10-26T13:02:22.099961Z",
+  "updated_at": "2026-10-27T13:02:33.933031Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab)",
   "drug_indication": "Newly Diagnosed Multiple Myeloma (NDMM)",

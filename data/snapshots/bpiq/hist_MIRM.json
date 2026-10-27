@@ -1,5 +1,29 @@
 [
  {
+  "id": 9102,
+  "company": {
+   "id": 262,
+   "ticker": "MIRM",
+   "name": "Mirum Pharmaceuticals",
+   "website": "https://www.mirumpharma.com"
+  },
+  "created_at": "2026-10-27T13:04:10.924362Z",
+  "updated_at": "2026-10-27T13:04:10.924378Z",
+  "ticker": "MIRM",
+  "drug_name": "Atebrioz (zilurgisertib)",
+  "drug_indication": "Fibrodysplasia Ossificans Progressiva",
+  "airtable_id": 9352,
+  "stage": "Phase 2",
+  "catalyst_date": "2026-10-26",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62586034/mirum-pharmaceuticals-announces-positive-results-cohort-2-pivotal-progress-study-atebrioz-zilurgiser",
+  "catalyst_text": "Announced positive Phase 2 pediatric results in FOP",
+  "detailed_catalyst_text": "Positive Cohort 2 data from the randomized, double-blind, placebo-controlled Phase 2 PROGRESS study in children aged 6 to <12 with fibrodysplasia ossificans progressiva were reported. Zilurgisertib reduced total heterotopic ossification lesion volume versus placebo and improved clinician-assessed joint mobility at Week 24, with no new lesions in treated patients. Safety was consistent with prior findings and no new signals were observed.",
+  "catalyst_text_evidence": "Mirum Pharmaceuticals, Inc. (NASDAQ:MIRM), a leading rare disease company, today announced positive results from Cohort 2 of the pivotal PROGRESS study of ATEBRIOZ\u2122 (zilurgisertib), an oral activin receptor-like kinase 2 (ALK2) inhibitor, in pediatric patients aged 6 to <12 years with fibrodysplasia ossificans progressiva (FOP). At Week 24, zilurgisertib reduced total heterotopic ossification (HO) lesion volume and improved clinician-assessed joint mobility. No zilurgisertib-treated patients developed new HO lesions. Zilurgisertib was generally well tolerated, with a safety profile consistent with that observed in PROGRESS Cohort 1. No new safety signals were identified.",
+  "news_published_at": "2026-10-27T00:00:00Z",
+  "open_price_gap_percent": "0.01704",
+  "intra_day_price_change_percent": "0.01847"
+ },
+ {
   "id": 8870,
   "company": {
    "id": 262,
@@ -8,7 +32,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2026-10-13T13:01:55.585964Z",
-  "updated_at": "2026-10-26T13:01:41.740820Z",
+  "updated_at": "2026-10-27T13:01:54.994575Z",
   "ticker": "MIRM",
   "drug_name": "Maralixibat",
   "drug_indication": "Cholestatic Pruritus in Ultra-rare Cholestatic Liver Diseases",
@@ -32,7 +56,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2026-09-29T13:04:00.395332Z",
-  "updated_at": "2026-10-26T13:02:57.659220Z",
+  "updated_at": "2026-10-27T13:03:09.273848Z",
   "ticker": "MIRM",
   "drug_name": "Brelovitug",
   "drug_indication": "Chronic Hepatitis Delta Virus (HDV)",
@@ -56,7 +80,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2026-09-29T13:04:18.201189Z",
-  "updated_at": "2026-10-26T13:03:12.030388Z",
+  "updated_at": "2026-10-27T13:03:22.736896Z",
   "ticker": "MIRM",
   "drug_name": "Atebrioz (zilurgisertib)",
   "drug_indication": "Fibrodysplasia Ossificans Progressiva",
@@ -80,7 +104,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2026-06-02T13:01:15.092556Z",
-  "updated_at": "2026-10-26T13:01:40.646183Z",
+  "updated_at": "2026-10-27T13:01:53.814958Z",
   "ticker": "MIRM",
   "drug_name": "LIVMARLI (maralixibat)",
   "drug_indication": "Progressive Familial Intrahepatic Cholestasis (PFIC)",
@@ -152,7 +176,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2026-05-22T13:00:51.663464Z",
-  "updated_at": "2026-10-26T13:01:01.177724Z",
+  "updated_at": "2026-10-27T13:01:16.148932Z",
   "ticker": "MIRM",
   "drug_name": "Volixibat",
   "drug_indication": "Primary Sclerosing Cholangitis (PSC)",
@@ -176,7 +200,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2026-05-22T13:02:32.536392Z",
-  "updated_at": "2026-10-26T13:02:56.672858Z",
+  "updated_at": "2026-10-27T13:03:08.438135Z",
   "ticker": "MIRM",
   "drug_name": "Brelovitug",
   "drug_indication": "Chronic Hepatitis Delta Virus (HDV)",
@@ -272,7 +296,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2026-03-06T13:00:39.822386Z",
-  "updated_at": "2026-10-26T13:01:01.689790Z",
+  "updated_at": "2026-10-27T13:01:16.752814Z",
   "ticker": "MIRM",
   "drug_name": "Brelovitug",
   "drug_indication": "Chronic Hepatitis Delta Virus (HDV)",
@@ -296,7 +320,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2026-01-13T13:01:09.837183Z",
-  "updated_at": "2026-10-26T13:01:59.012869Z",
+  "updated_at": "2026-10-27T13:02:12.504384Z",
   "ticker": "MIRM",
   "drug_name": "MRM-3379",
   "drug_indication": "Fragile X Syndrome",
@@ -320,7 +344,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2025-12-02T13:00:42.216875Z",
-  "updated_at": "2026-10-26T13:01:12.527070Z",
+  "updated_at": "2026-10-27T13:01:27.145744Z",
   "ticker": "MIRM",
   "drug_name": "MRM-3379",
   "drug_indication": "Fragile X Syndrome",
@@ -344,7 +368,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2025-05-10T13:02:11.467346Z",
-  "updated_at": "2026-10-26T13:04:14.818076Z",
+  "updated_at": "2026-10-27T13:04:23.756152Z",
   "ticker": "MIRM",
   "drug_name": "Volixibat  ",
   "drug_indication": "Primary biliary cholangitis, Liver disease",
@@ -536,7 +560,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2025-02-21T20:06:57.684755Z",
-  "updated_at": "2026-10-26T13:02:49.626467Z",
+  "updated_at": "2026-10-27T13:03:02.009737Z",
   "ticker": "MIRM",
   "drug_name": "Chenodal (chenodiol) - (RESTORE)",
   "drug_indication": "Cerebrotendinous xanthomatosis (CTX)",
@@ -560,7 +584,7 @@
    "website": "https://www.mirumpharma.com"
   },
   "created_at": "2025-02-21T20:05:43.024088Z",
-  "updated_at": "2026-10-26T13:00:52.010223Z",
+  "updated_at": "2026-10-27T13:01:07.234733Z",
   "ticker": "MIRM",
   "drug_name": "Maralixiba - (RISE)",
   "drug_indication": "Progressive Familial Intrahepatic Cholestasis, Alagille Syndrome",

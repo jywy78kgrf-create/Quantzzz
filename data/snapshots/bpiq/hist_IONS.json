@@ -1,5 +1,29 @@
 [
  {
+  "id": 9093,
+  "company": {
+   "id": 405,
+   "ticker": "IONS",
+   "name": "Ionis Pharmaceuticals",
+   "website": "https://www.ionis.com"
+  },
+  "created_at": "2026-10-27T13:03:21.545297Z",
+  "updated_at": "2026-10-27T13:03:21.545339Z",
+  "ticker": "IONS",
+  "drug_name": "Sefaxersen",
+  "drug_indication": "IgA Nephropathy",
+  "airtable_id": 9363,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-10-22",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62569571/ionis-partner-roche-announces-new-phase-3-data-showing-sefaxersen-significantly-reduced-proteinuria-",
+  "catalyst_text": "Announced positive Phase 3 topline results at conference",
+  "detailed_catalyst_text": "Late-breaking Phase 3 data were presented from the IMAgINATION study in adults with primary IgA nephropathy on optimized standard of care, showing a 43.1% reduction in proteinuria versus placebo at 37 weeks and higher hematuria resolution. The statistically significant and clinically meaningful results support potential disease-modifying benefit and strengthen the program\u2019s path toward regulatory interactions.",
+  "catalyst_text_evidence": "Ionis Pharmaceuticals, Inc. (NASDAQ:IONS) partner Roche announced today late-breaking oral presentation data from the ongoing Phase 3 IMAgINATION study in adults with primary IgA nephropathy (IgAN) receiving optimized standard of care, demonstrating that investigational sefaxersen achieved a statistically significant and clinically meaningful 43.1% reduction in proteinuria (95% confidence interval [CI]: 32.5 - 52.0, P<0.0001), relative to placebo at 37 weeks, as measured by 24-hour urine protein-to-creatinine ratio (UPCR). Results presented at the American Society of Nephrology (ASN) Kidney Week 2026 also showed that, among patients with baseline hematuria (blood in urine), a greater proportion of patients achieved hematuria resolution at Week 37 with sefaxersen versus placebo. Sefaxersen was well tolerated with a safety profile consistent with the previously reported Phase 2 study, exhibiting no new safety signals.",
+  "news_published_at": "2026-10-27T00:00:00Z",
+  "open_price_gap_percent": "-0.00251",
+  "intra_day_price_change_percent": "-0.01986"
+ },
+ {
   "id": 9013,
   "company": {
    "id": 405,
@@ -32,7 +56,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2026-10-17T13:03:58.386866Z",
-  "updated_at": "2026-10-26T13:03:15.094840Z",
+  "updated_at": "2026-10-27T13:03:25.763547Z",
   "ticker": "IONS",
   "drug_name": "TRYNGOLZA (olezarsen)",
   "drug_indication": "Severe Hypertriglyceridemia (\u2265880 mg/dL)",
@@ -128,7 +152,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2026-09-05T13:02:49.124441Z",
-  "updated_at": "2026-10-26T13:03:01.637985Z",
+  "updated_at": "2026-10-27T13:03:12.936833Z",
   "ticker": "IONS",
   "drug_name": "ZANVASTRO (zilganersen)",
   "drug_indication": "Alexander Disease",
@@ -152,7 +176,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2026-07-15T13:02:30.961097Z",
-  "updated_at": "2026-10-26T13:02:46.634561Z",
+  "updated_at": "2026-10-27T13:02:59.155956Z",
   "ticker": "IONS",
   "drug_name": "Diranersen",
   "drug_indication": "Alzheimer\u2019s Disease",
@@ -248,7 +272,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2026-06-26T13:01:31.523968Z",
-  "updated_at": "2026-10-26T13:01:11.461117Z",
+  "updated_at": "2026-10-27T13:01:26.040800Z",
   "ticker": "IONS",
   "drug_name": "TRYNGOLZA (olezarsen)",
   "drug_indication": "Severe Hypertriglyceridemia",
@@ -272,7 +296,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2026-06-05T13:01:37.587831Z",
-  "updated_at": "2026-10-26T13:02:01.286006Z",
+  "updated_at": "2026-10-27T13:02:14.555626Z",
   "ticker": "IONS",
   "drug_name": "Olezarsen",
   "drug_indication": "Severe Hypertriglyceridemia",
@@ -296,7 +320,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2026-05-29T13:01:04.094846Z",
-  "updated_at": "2026-10-26T13:00:52.335688Z",
+  "updated_at": "2026-10-27T13:01:07.580864Z",
   "ticker": "IONS",
   "drug_name": "Bepirovirsen",
   "drug_indication": "Chronic Hepatitis B",
@@ -320,7 +344,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2026-05-15T13:01:47.380394Z",
-  "updated_at": "2026-10-26T13:01:53.337416Z",
+  "updated_at": "2026-10-27T13:02:07.313983Z",
   "ticker": "IONS",
   "drug_name": "Diranersen (IONIS-MAPTRx/BIIB080)",
   "drug_indication": "Alzheimer\u2019s Disease",
@@ -392,7 +416,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2026-03-24T13:02:07.024149Z",
-  "updated_at": "2026-10-26T13:02:36.690139Z",
+  "updated_at": "2026-10-27T13:02:48.307350Z",
   "ticker": "IONS",
   "drug_name": "Zilganersen",
   "drug_indication": "Alexander Disease",
@@ -440,7 +464,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2026-01-08T13:00:57.778816Z",
-  "updated_at": "2026-10-26T13:01:07.096516Z",
+  "updated_at": "2026-10-27T13:01:21.848636Z",
   "ticker": "IONS",
   "drug_name": "Bepirovirsen",
   "drug_indication": "Chronic Hepatitis B",
@@ -512,7 +536,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-09-25T13:01:12.552883Z",
-  "updated_at": "2026-10-26T13:02:01.129566Z",
+  "updated_at": "2026-10-27T13:02:14.414497Z",
   "ticker": "IONS",
   "drug_name": "Zilganersen (ION373)",
   "drug_indication": "Alexander Disease ",
@@ -560,7 +584,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-08-23T13:02:27.568595Z",
-  "updated_at": "2026-10-26T13:03:25.743508Z",
+  "updated_at": "2026-10-27T13:03:35.899846Z",
   "ticker": "IONS",
   "drug_name": "DAWNZERA\u2122 (donidalorsen)",
   "drug_indication": "Hereditary angioedema ",
@@ -584,7 +608,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-06-12T13:01:16.209969Z",
-  "updated_at": "2026-10-26T13:01:08.693940Z",
+  "updated_at": "2026-10-27T13:01:23.433967Z",
   "ticker": "IONS",
   "drug_name": "ION582",
   "drug_indication": "Angelman syndrome  ",
@@ -608,7 +632,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-05-21T13:01:24.677146Z",
-  "updated_at": "2026-10-26T13:02:44.292024Z",
+  "updated_at": "2026-10-27T13:02:56.729267Z",
   "ticker": "IONS",
   "drug_name": "Olezarsen",
   "drug_indication": "Severe hypertriglyceridemia",
@@ -632,7 +656,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:07:32.055222Z",
-  "updated_at": "2026-10-26T13:03:42.773850Z",
+  "updated_at": "2026-10-27T13:03:51.490409Z",
   "ticker": "IONS",
   "drug_name": "SPINRAZA (Nusinersen) - (DEVOTE)",
   "drug_indication": "Spinal muscular atrophy (SMA)",
@@ -680,7 +704,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:06:20.450033Z",
-  "updated_at": "2026-10-26T13:01:50.493478Z",
+  "updated_at": "2026-10-27T13:02:04.665246Z",
   "ticker": "IONS",
   "drug_name": "ION582",
   "drug_indication": "Angelman Syndrome",
@@ -704,7 +728,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:07:16.453047Z",
-  "updated_at": "2026-10-26T13:03:19.461701Z",
+  "updated_at": "2026-10-27T13:03:30.014486Z",
   "ticker": "IONS",
   "drug_name": "Donidalorsen (IONIS-PKK-LRx) - (OASIS-HAE)",
   "drug_indication": "Hereditary Angioedema (HAE)",
@@ -728,7 +752,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:07:48.436178Z",
-  "updated_at": "2026-10-26T13:04:07.876245Z",
+  "updated_at": "2026-10-27T13:04:16.391355Z",
   "ticker": "IONS",
   "drug_name": "Zilganersen (ION373)",
   "drug_indication": "Alexander disease",
@@ -752,7 +776,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:05:43.136278Z",
-  "updated_at": "2026-10-26T13:00:52.228472Z",
+  "updated_at": "2026-10-27T13:01:07.465761Z",
   "ticker": "IONS",
   "drug_name": "IONIS-FB-LRx - (GOLDEN)",
   "drug_indication": "Geographic atrophy due to age-related macular degeneration (AMD)",
@@ -848,7 +872,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:07:05.098868Z",
-  "updated_at": "2026-10-26T13:03:01.700889Z",
+  "updated_at": "2026-10-27T13:03:12.977890Z",
   "ticker": "IONS",
   "drug_name": "WAINUA (eplontersen)",
   "drug_indication": "Hereditary ATTR Amyloidosis (hATTR)",
@@ -872,7 +896,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:07:22.532501Z",
-  "updated_at": "2026-10-26T13:03:27.949719Z",
+  "updated_at": "2026-10-27T13:03:38.002962Z",
   "ticker": "IONS",
   "drug_name": "WAINUA (eplontersen)",
   "drug_indication": "ATTR Amyloidosis",
@@ -944,7 +968,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:07:38.616922Z",
-  "updated_at": "2026-10-26T13:03:53.169658Z",
+  "updated_at": "2026-10-27T13:04:01.569728Z",
   "ticker": "IONS",
   "drug_name": "IONIS-MAPTRx (ISIS 814907; BIIB080) - (CELIA)",
   "drug_indication": "Alzheimer's disease",
@@ -1136,7 +1160,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:07:22.645045Z",
-  "updated_at": "2026-10-26T13:03:28.096424Z",
+  "updated_at": "2026-10-27T13:03:38.130367Z",
   "ticker": "IONS",
   "drug_name": "Tominersen (IONIS-HTT Rx)",
   "drug_indication": "Huntington's Disease",
@@ -1160,7 +1184,7 @@
    "website": "https://www.ionis.com"
   },
   "created_at": "2025-02-21T20:06:17.790484Z",
-  "updated_at": "2026-10-26T13:01:46.793984Z",
+  "updated_at": "2026-10-27T13:02:00.493076Z",
   "ticker": "IONS",
   "drug_name": "TEGSEDI (inotersen)",
   "drug_indication": "NEURO-TTR - familial amyloid polyneuropathy (FAP).",

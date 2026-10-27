@@ -1,6 +1,11 @@
 [
  {
   "date": "2026-10-27",
+  "sentiment": 0.292853,
+  "relevance": 1.0
+ },
+ {
+  "date": "2026-10-27",
   "sentiment": 0.330757,
   "relevance": 1.0
  },
@@ -626,12 +631,12 @@
  },
  {
   "date": "2026-10-06",
-  "sentiment": 0.279244,
+  "sentiment": 0.322368,
   "relevance": 1.0
  },
  {
   "date": "2026-10-06",
-  "sentiment": 0.322368,
+  "sentiment": 0.279244,
   "relevance": 1.0
  },
  {
@@ -646,13 +651,13 @@
  },
  {
   "date": "2026-10-05",
-  "sentiment": 0.006514,
-  "relevance": 0.329267
+  "sentiment": 0.002983,
+  "relevance": 0.312121
  },
  {
   "date": "2026-10-05",
-  "sentiment": 0.002983,
-  "relevance": 0.312121
+  "sentiment": 0.006514,
+  "relevance": 0.329267
  },
  {
   "date": "2026-10-05",
@@ -891,8 +896,8 @@
  },
  {
   "date": "2026-09-26",
-  "sentiment": 0.215664,
-  "relevance": 0.630278
+  "sentiment": 0.339644,
+  "relevance": 0.642891
  },
  {
   "date": "2026-09-26",
@@ -901,23 +906,23 @@
  },
  {
   "date": "2026-09-26",
-  "sentiment": 0.337621,
-  "relevance": 0.608951
- },
- {
-  "date": "2026-09-26",
-  "sentiment": 0.339644,
-  "relevance": 0.642891
- },
- {
-  "date": "2026-09-26",
-  "sentiment": 0.327711,
-  "relevance": 0.621729
+  "sentiment": 0.215664,
+  "relevance": 0.630278
  },
  {
   "date": "2026-09-26",
   "sentiment": 0.337992,
   "relevance": 0.621114
+ },
+ {
+  "date": "2026-09-26",
+  "sentiment": 0.337621,
+  "relevance": 0.608951
+ },
+ {
+  "date": "2026-09-26",
+  "sentiment": 0.327711,
+  "relevance": 0.621729
  },
  {
   "date": "2026-09-26",
@@ -1006,13 +1011,13 @@
  },
  {
   "date": "2026-09-25",
-  "sentiment": 0.116287,
-  "relevance": 0.607922
+  "sentiment": 0.340306,
+  "relevance": 0.606259
  },
  {
   "date": "2026-09-25",
-  "sentiment": 0.340306,
-  "relevance": 0.606259
+  "sentiment": 0.116287,
+  "relevance": 0.607922
  },
  {
   "date": "2026-09-24",
@@ -1046,13 +1051,13 @@
  },
  {
   "date": "2026-09-23",
-  "sentiment": 0.320462,
-  "relevance": 0.634883
+  "sentiment": 0.330093,
+  "relevance": 0.643371
  },
  {
   "date": "2026-09-23",
-  "sentiment": 0.344581,
-  "relevance": 0.644346
+  "sentiment": 0.320462,
+  "relevance": 0.634883
  },
  {
   "date": "2026-09-23",
@@ -1061,18 +1066,18 @@
  },
  {
   "date": "2026-09-23",
-  "sentiment": 0.330093,
-  "relevance": 0.643371
- },
- {
-  "date": "2026-09-23",
-  "sentiment": 0.301642,
-  "relevance": 0.602865
+  "sentiment": 0.344581,
+  "relevance": 0.644346
  },
  {
   "date": "2026-09-23",
   "sentiment": 0.309369,
   "relevance": 0.644929
+ },
+ {
+  "date": "2026-09-23",
+  "sentiment": 0.301642,
+  "relevance": 0.602865
  },
  {
   "date": "2026-09-23",
@@ -1111,6 +1116,16 @@
  },
  {
   "date": "2026-09-22",
+  "sentiment": 0.320993,
+  "relevance": 0.630726
+ },
+ {
+  "date": "2026-09-22",
+  "sentiment": 0.309327,
+  "relevance": 0.731307
+ },
+ {
+  "date": "2026-09-22",
   "sentiment": 0.311549,
   "relevance": 0.610338
  },
@@ -1121,23 +1136,13 @@
  },
  {
   "date": "2026-09-22",
-  "sentiment": 0.329099,
-  "relevance": 0.608598
- },
- {
-  "date": "2026-09-22",
-  "sentiment": 0.309327,
-  "relevance": 0.731307
- },
- {
-  "date": "2026-09-22",
-  "sentiment": 0.320993,
-  "relevance": 0.630726
- },
- {
-  "date": "2026-09-22",
   "sentiment": 0.315947,
   "relevance": 0.636281
+ },
+ {
+  "date": "2026-09-22",
+  "sentiment": 0.329099,
+  "relevance": 0.608598
  },
  {
   "date": "2026-09-22",
@@ -1171,18 +1176,8 @@
  },
  {
   "date": "2026-09-21",
-  "sentiment": 0.344039,
-  "relevance": 0.627587
- },
- {
-  "date": "2026-09-21",
   "sentiment": 0.299339,
   "relevance": 0.841299
- },
- {
-  "date": "2026-09-21",
-  "sentiment": 0.304358,
-  "relevance": 0.729034
  },
  {
   "date": "2026-09-21",
@@ -1191,13 +1186,23 @@
  },
  {
   "date": "2026-09-21",
-  "sentiment": 0.303423,
-  "relevance": 0.613246
+  "sentiment": 0.344039,
+  "relevance": 0.627587
+ },
+ {
+  "date": "2026-09-21",
+  "sentiment": 0.304358,
+  "relevance": 0.729034
  },
  {
   "date": "2026-09-21",
   "sentiment": 0.320727,
   "relevance": 0.716479
+ },
+ {
+  "date": "2026-09-21",
+  "sentiment": 0.303423,
+  "relevance": 0.613246
  },
  {
   "date": "2026-09-20",
@@ -1216,8 +1221,8 @@
  },
  {
   "date": "2026-09-20",
-  "sentiment": 0.329116,
-  "relevance": 0.647771
+  "sentiment": 0.207181,
+  "relevance": 0.627484
  },
  {
   "date": "2026-09-20",
@@ -1231,13 +1236,13 @@
  },
  {
   "date": "2026-09-20",
-  "sentiment": 0.207181,
-  "relevance": 0.627484
+  "sentiment": 0.35971,
+  "relevance": 0.627776
  },
  {
   "date": "2026-09-20",
-  "sentiment": 0.35971,
-  "relevance": 0.627776
+  "sentiment": 0.329116,
+  "relevance": 0.647771
  },
  {
   "date": "2026-09-20",
@@ -1276,8 +1281,8 @@
  },
  {
   "date": "2026-09-19",
-  "sentiment": 0.311436,
-  "relevance": 0.628721
+  "sentiment": 0.311064,
+  "relevance": 0.601089
  },
  {
   "date": "2026-09-19",
@@ -1291,8 +1296,8 @@
  },
  {
   "date": "2026-09-19",
-  "sentiment": 0.311064,
-  "relevance": 0.601089
+  "sentiment": 0.311436,
+  "relevance": 0.628721
  },
  {
   "date": "2026-09-19",
@@ -1511,13 +1516,13 @@
  },
  {
   "date": "2026-09-17",
-  "sentiment": 0.204965,
-  "relevance": 0.619334
+  "sentiment": 0.300746,
+  "relevance": 0.644276
  },
  {
   "date": "2026-09-17",
-  "sentiment": 0.300746,
-  "relevance": 0.644276
+  "sentiment": 0.204965,
+  "relevance": 0.619334
  },
  {
   "date": "2026-09-17",
@@ -1761,12 +1766,12 @@
  },
  {
   "date": "2026-08-28",
-  "sentiment": 0.647954,
+  "sentiment": -0.062548,
   "relevance": 1.0
  },
  {
   "date": "2026-08-28",
-  "sentiment": -0.062548,
+  "sentiment": 0.647954,
   "relevance": 1.0
  },
  {
@@ -2376,13 +2381,13 @@
  },
  {
   "date": "2026-08-08",
-  "sentiment": 0.140372,
-  "relevance": 0.613597
+  "sentiment": 0.122536,
+  "relevance": 0.622301
  },
  {
   "date": "2026-08-08",
-  "sentiment": 0.122536,
-  "relevance": 0.622301
+  "sentiment": 0.140372,
+  "relevance": 0.613597
  },
  {
   "date": "2026-08-08",
@@ -2486,17 +2491,17 @@
  },
  {
   "date": "2026-08-04",
-  "sentiment": 0.029385,
-  "relevance": 1.0
- },
- {
-  "date": "2026-08-04",
   "sentiment": 0.026333,
   "relevance": 1.0
  },
  {
   "date": "2026-08-04",
   "sentiment": 0.277805,
+  "relevance": 1.0
+ },
+ {
+  "date": "2026-08-04",
+  "sentiment": 0.029385,
   "relevance": 1.0
  },
  {
@@ -4993,10 +4998,5 @@
   "date": "2026-05-04",
   "sentiment": 0.252903,
   "relevance": 1.0
- },
- {
-  "date": "2026-05-04",
-  "sentiment": 0.416483,
-  "relevance": 0.983281
  }
 ]

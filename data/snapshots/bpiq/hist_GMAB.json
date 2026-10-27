@@ -1,5 +1,29 @@
 [
  {
+  "id": 9112,
+  "company": {
+   "id": 1351,
+   "ticker": "GMAB",
+   "name": "Genmab",
+   "website": "https://www.genmab.com"
+  },
+  "created_at": "2026-10-27T13:04:56.621636Z",
+  "updated_at": "2026-10-27T13:04:56.621659Z",
+  "ticker": "GMAB",
+  "drug_name": "Petosemtamab",
+  "drug_indication": "Metastatic Colorectal Cancer",
+  "airtable_id": 9381,
+  "stage": "Phase 2",
+  "catalyst_date": "2026-10-25",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/25/3387723/0/en/genmab-announces-updated-follow-up-analyses-from-phase-2-study-of-petosemtamab-demonstrate-meaningful-objective-response-rates-in-patients-with-metastatic-colorectal-cancer.html",
+  "catalyst_text": "Presented positive Phase 2 data in colorectal cancer",
+  "detailed_catalyst_text": "Updated follow-up analyses from a single-arm Phase 2 trial of petosemtamab plus FOLFOX or FOLFIRI in metastatic colorectal cancer were presented at a major oncology congress. Confirmed and unconfirmed objective response rates were 75% in first line and 67% in second line, with 81% among first-line left-sided tumors, and most previously unconfirmed responses later confirmed. The results highlight promising depth and durability of response and support continued late-stage development.",
+  "catalyst_text_evidence": "Genmab A/S today announced updated follow-up analyses from a Phase 2 trial evaluating petosemtamab, an investigational IgG1-bispecific antibody targeting the epidermal growth factor receptor (EGFR) and leucine-rich repeat containing G-protein-coupled receptor 5 (LGR5), in combination with FOLFOX or FOLFIRI in patients with metastatic colorectal cancer (mCRC). The findings were presented at the European Society for Medical Oncology (ESMO) Congress 2026, held in Madrid, Spain. At a median follow-up of 5.9 months in the first-line (1L) setting and 7.1 months in the second-line (2L) setting, confirmed and unconfirmed objective response rates (ORRs) were 75% and 67%, respectively, with an ORR of 81% observed among 1L patients with left-sided tumors. With longer follow-up, most of the previously unconfirmed objective responses were subsequently confirmed, reinforcing the consistency of the clinical activity observed across treatment settings. As of 2026-05-15, 79 patients were treated with the petosemtamab combination, including 45 patients in the 1L setting and 34 patients in the 2L setting.",
+  "news_published_at": "2026-10-27T00:00:00Z",
+  "open_price_gap_percent": "0.02284",
+  "intra_day_price_change_percent": "-0.00234"
+ },
+ {
   "id": 9084,
   "company": {
    "id": 1351,
@@ -22,6 +46,30 @@
   "news_published_at": "2026-10-27T00:00:00Z",
   "open_price_gap_percent": "-0.00400",
   "intra_day_price_change_percent": "0.09915"
+ },
+ {
+  "id": 9126,
+  "company": {
+   "id": 1351,
+   "ticker": "GMAB",
+   "name": "Genmab",
+   "website": "https://www.genmab.com"
+  },
+  "created_at": "2026-10-27T13:06:13.799418Z",
+  "updated_at": "2026-10-27T13:06:13.799436Z",
+  "ticker": "GMAB",
+  "drug_name": "Petosemtamab",
+  "drug_indication": "Recurrent or Metastatic Head and Neck Squamous Cell Carcinoma",
+  "airtable_id": 9394,
+  "stage": "Phase 2",
+  "catalyst_date": "2026-10-23",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62584664/genmab-announces-updated-phase-2-data-demonstrating-more-two-year-median-overall-survival-petosemtam",
+  "catalyst_text": "Announced positive Phase 2 data presented at ESMO",
+  "detailed_catalyst_text": "Updated Phase 2 results from a combination cohort in first-line recurrent or metastatic PD-L1+ head and neck squamous cell carcinoma were presented at a major medical meeting. The regimen showed a median overall survival of 28.2 months, overall response rate of 63%, and median progression-free survival of 9.0 months in efficacy-evaluable patients. These data suggest encouraging activity and durability and support continued development in this setting.",
+  "catalyst_text_evidence": "Genmab A/S (NASDAQ:GMAB) today announced updated results from a Phase 2 trial evaluating petosemtamab, an investigational IgG1-bispecific antibody targeting the epidermal growth factor receptor (EGFR) and leucine-rich repeat containing G-protein-coupled receptor 5 (LGR5), in combination with pembrolizumab for first-line (1L) treatment of recurrent/metastatic PD-L1+ head and neck squamous cell carcinoma (r/m HNSCC). In the 1L combination arm, treatment with petosemtamab plus pembrolizumab achieved a median overall survival (OS) of 28.2 months, associated with an overall response rate (ORR) of 63% and median progression free survival (mPFS) of 9.0 months in efficacy-evaluable patients (n=43), including a complete response (CR) rate of 19%. The findings were presented at the European Society for Medical Oncology (ESMO) Congress 2026, held in Madrid, Spain.",
+  "news_published_at": "2026-10-27T00:00:00Z",
+  "open_price_gap_percent": "0.02284",
+  "intra_day_price_change_percent": "-0.00234"
  },
  {
   "id": 8805,
@@ -56,7 +104,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2026-07-25T13:05:57.556524Z",
-  "updated_at": "2026-10-26T13:07:11.878677Z",
+  "updated_at": "2026-10-27T13:07:11.426901Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "Relapsed or Refractory Diffuse Large B-Cell Lymphoma",
@@ -104,7 +152,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2026-07-01T13:06:00.973632Z",
-  "updated_at": "2026-10-26T13:07:53.818365Z",
+  "updated_at": "2026-10-27T13:07:51.446288Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "Relapsed or Refractory Diffuse Large B-Cell Lymphoma",
@@ -128,7 +176,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2026-07-08T13:05:04.440540Z",
-  "updated_at": "2026-10-26T13:05:29.262216Z",
+  "updated_at": "2026-10-27T13:05:34.482107Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab + Lenalidomide + Rituximab",
   "drug_indication": "Relapsed or Refractory Follicular Lymphoma",
@@ -152,7 +200,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2026-06-12T13:04:29.275044Z",
-  "updated_at": "2026-10-26T13:05:57.403274Z",
+  "updated_at": "2026-10-27T13:05:59.219971Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "Relapsed or Refractory Follicular Lymphoma",
@@ -176,7 +224,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2026-06-16T13:06:29.046423Z",
-  "updated_at": "2026-10-26T13:07:21.593338Z",
+  "updated_at": "2026-10-27T13:07:20.568633Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "Diffuse Large B-Cell Lymphoma",
@@ -200,7 +248,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2026-01-20T13:04:36.465001Z",
-  "updated_at": "2026-10-26T13:06:51.148838Z",
+  "updated_at": "2026-10-27T13:06:50.642067Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab",
   "drug_indication": "Relapsed or Refractory Diffuse Large B-Cell Lymphoma",
@@ -248,7 +296,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-11-05T13:04:59.677434Z",
-  "updated_at": "2026-10-26T13:08:05.920675Z",
+  "updated_at": "2026-10-27T13:08:03.778850Z",
   "ticker": "GMAB",
   "drug_name": "Rinatabart sesutecan (Rina-S; GEN1184)",
   "drug_indication": "Advanced endometrial cancer",
@@ -296,7 +344,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-06-19T13:04:13.155598Z",
-  "updated_at": "2026-10-26T13:07:20.849101Z",
+  "updated_at": "2026-10-27T13:07:19.863338Z",
   "ticker": "GMAB",
   "drug_name": "Epcoritamab  ",
   "drug_indication": "Relapsed/Refractory Diffuse Large B-Cell Lymphoma (R/R DLBCL)  ",
@@ -344,7 +392,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:47:19.632586Z",
-  "updated_at": "2026-10-26T13:04:02.752078Z",
+  "updated_at": "2026-10-27T13:04:11.581928Z",
   "ticker": "GMAB",
   "drug_name": "Rinatabart sesutecan (Rina-S)",
   "drug_indication": "Ovarian cancer, Endometrial Cancers, Solid tumors",
@@ -368,7 +416,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:08:28.224390Z",
-  "updated_at": "2026-10-26T13:05:07.066891Z",
+  "updated_at": "2026-10-27T13:05:13.204396Z",
   "ticker": "GMAB",
   "drug_name": "EPKINLY (epcoritamab-bysp)",
   "drug_indication": "Follicular lymphoma (FL)",
@@ -416,7 +464,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:13:36.946175Z",
-  "updated_at": "2026-10-26T13:06:22.847522Z",
+  "updated_at": "2026-10-27T13:06:23.854413Z",
   "ticker": "GMAB",
   "drug_name": "Tisotumab vedotin - (innovaTV 207)",
   "drug_indication": "Squamous cell carcinoma of the head and neck (SCCHN)",
@@ -440,7 +488,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:14:28.789373Z",
-  "updated_at": "2026-10-26T13:07:45.599942Z",
+  "updated_at": "2026-10-27T13:07:43.548967Z",
   "ticker": "GMAB",
   "drug_name": "Acasunlimab (DuoBody-PD-L1x4-1BB) with pembrolizumab",
   "drug_indication": "Metastatic non-small cell lung cancer (mNSCLC)",
@@ -536,7 +584,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:08:37.670010Z",
-  "updated_at": "2026-10-26T13:05:22.395561Z",
+  "updated_at": "2026-10-27T13:05:28.015475Z",
   "ticker": "GMAB",
   "drug_name": "GEN3014 (HexaBody-CD38)",
   "drug_indication": "Relapsed or Refractory (R/R) Multiple Myeloma (MM).",
@@ -560,7 +608,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:08:32.349059Z",
-  "updated_at": "2026-10-26T13:05:13.142441Z",
+  "updated_at": "2026-10-27T13:05:19.105531Z",
   "ticker": "GMAB",
   "drug_name": "Tisotumab vedotin+ pembrolizumab - (innovaTV 205)",
   "drug_indication": "Metastatic cervical cancer",
@@ -608,7 +656,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:08:13.856709Z",
-  "updated_at": "2026-10-26T13:04:44.333624Z",
+  "updated_at": "2026-10-27T13:04:51.803769Z",
   "ticker": "GMAB",
   "drug_name": "BNT312/GEN1042",
   "drug_indication": "Solid tumors",
@@ -632,7 +680,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:08:26.354100Z",
-  "updated_at": "2026-10-26T13:05:04.234603Z",
+  "updated_at": "2026-10-27T13:05:10.863593Z",
   "ticker": "GMAB",
   "drug_name": "TIVDAK (tisotumab vedotin)",
   "drug_indication": "Cervical Cancer",
@@ -704,7 +752,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:14:05.435167Z",
-  "updated_at": "2026-10-26T13:07:09.122871Z",
+  "updated_at": "2026-10-27T13:07:08.867811Z",
   "ticker": "GMAB",
   "drug_name": "ARZERRA (ofatumumab)",
   "drug_indication": "Relapsing multiple sclerosis",
@@ -752,7 +800,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:08:46.788661Z",
-  "updated_at": "2026-10-26T13:05:36.191723Z",
+  "updated_at": "2026-10-27T13:05:40.901571Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) + bortezomib, thalidomide and dexamethasone (VTd)",
   "drug_indication": "Multiple myeloma - candidates for autologous stem cell transplant (ASCT)",
@@ -800,7 +848,7 @@
    "website": "https://www.genmab.com"
   },
   "created_at": "2025-02-21T20:48:23.394650Z",
-  "updated_at": "2026-10-26T13:06:14.163280Z",
+  "updated_at": "2026-10-27T13:06:15.282574Z",
   "ticker": "GMAB",
   "drug_name": "DARZALEX (Daratumumab) +  pomalidomide and dexamethasone",
   "drug_indication": "Relapsed or refractory multiple myeloma",

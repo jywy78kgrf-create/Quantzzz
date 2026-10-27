@@ -1,5 +1,29 @@
 [
  {
+  "id": 9135,
+  "company": {
+   "id": 223,
+   "ticker": "SMMT",
+   "name": "Summit Therapeutics",
+   "website": "https://www.smmttx.com"
+  },
+  "created_at": "2026-10-27T13:07:07.812084Z",
+  "updated_at": "2026-10-27T13:07:07.812105Z",
+  "ticker": "SMMT",
+  "drug_name": "Ivonescimab",
+  "drug_indication": "Biliary Tract Cancer",
+  "airtable_id": 9399,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-10-25",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62579912/ivonescimab-plus-chemotherapy-demonstrates-overall-survival-superiority-compared-durvalumab-plus-che",
+  "catalyst_text": "Announced positive Phase 3 results in biliary tract cancer",
+  "detailed_catalyst_text": "Positive Phase III results from the HARMONi-GI1 trial in advanced biliary tract cancer were reported, showing overall survival superiority versus durvalumab plus chemotherapy. The data, presented at ESMO 2026, demonstrated a statistically significant OS benefit (HR 0.75) and support the therapy\u2019s potential in this first-line setting.",
+  "catalyst_text_evidence": "Summit Therapeutics Inc. (NASDAQ:SMMT) today noted that its partner Akeso Inc. announced positive results from the Phase III HARMONi-GI1 study evaluating the novel, potential first-in-class investigational bispecific antibody ivonescimab plus chemotherapy compared with durvalumab plus chemotherapy as a first-line treatment for patients with advanced biliary tract cancer (BTC). These data are featured in today\u2019s Presidential Symposium II at the European Society for Medical Oncology 2026 Congress (ESMO 2026) in Madrid, Spain. In the HARMONi-GI1 interim analysis of OS, ivonescimab in combination with chemotherapy demonstrated a statistically significant improvement when compared to durvalumab in combination with chemotherapy, with a hazard ratio (HR) of 0.75 (95% CI: 0.61, 0.92; one-sided p=0.0031).",
+  "news_published_at": "2026-10-27T00:00:00Z",
+  "open_price_gap_percent": "0.00129",
+  "intra_day_price_change_percent": "-0.06391"
+ },
+ {
   "id": 8968,
   "company": {
    "id": 223,
@@ -8,7 +32,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2026-10-20T13:07:09.973143Z",
-  "updated_at": "2026-10-26T13:07:05.472576Z",
+  "updated_at": "2026-10-27T13:07:04.578266Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "Advanced clear cell renal cell carcinoma",
@@ -32,7 +56,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2026-09-16T13:07:45.952915Z",
-  "updated_at": "2026-10-26T13:07:37.044169Z",
+  "updated_at": "2026-10-27T13:07:35.161547Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "Lung Cancer",
@@ -80,7 +104,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2026-09-04T13:04:29.719772Z",
-  "updated_at": "2026-10-26T13:05:02.390639Z",
+  "updated_at": "2026-10-27T13:05:09.323718Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "PD-L1 positive Non-Small Cell Lung Cancer",
@@ -104,7 +128,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2026-08-27T13:06:26.248872Z",
-  "updated_at": "2026-10-26T13:05:51.122713Z",
+  "updated_at": "2026-10-27T13:05:53.660620Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "Biliary Tract Cancer",
@@ -152,7 +176,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2026-08-13T13:07:06.333792Z",
-  "updated_at": "2026-10-26T13:07:00.346909Z",
+  "updated_at": "2026-10-27T13:06:59.541801Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "EGFR-Mutated Non-Squamous Non-Small Cell Lung Cancer",
@@ -272,7 +296,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2026-06-02T13:03:36.295113Z",
-  "updated_at": "2026-10-26T13:04:52.594647Z",
+  "updated_at": "2026-10-27T13:04:59.594134Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "EGFR-mutated Non-Small Cell Lung Cancer",
@@ -320,7 +344,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2026-01-13T13:03:44.663667Z",
-  "updated_at": "2026-10-26T13:06:06.389465Z",
+  "updated_at": "2026-10-27T13:06:07.769042Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab",
   "drug_indication": "EGFR-mutated Non-Small Cell Lung Cancer",
@@ -392,7 +416,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2025-02-21T20:14:10.691062Z",
-  "updated_at": "2026-10-26T13:07:17.952143Z",
+  "updated_at": "2026-10-27T13:07:17.229595Z",
   "ticker": "SMMT",
   "drug_name": "AK117-203",
   "drug_indication": "Triple-negative breast cancer (TNBC)",
@@ -416,7 +440,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2025-02-21T20:14:10.743964Z",
-  "updated_at": "2026-10-26T13:07:18.045510Z",
+  "updated_at": "2026-10-27T13:07:17.317657Z",
   "ticker": "SMMT",
   "drug_name": "AK112-206",
   "drug_indication": "Metastatic microsatellite-stable (MSS) colorectal cancer (CRC)",
@@ -440,7 +464,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2025-02-21T20:47:31.589774Z",
-  "updated_at": "2026-10-26T13:04:26.301214Z",
+  "updated_at": "2026-10-27T13:04:35.539855Z",
   "ticker": "SMMT",
   "drug_name": "Ivonescimab (SMT112) with chemotherapy - (HARMONi-2)",
   "drug_indication": "Epidermal growth factor receptor (EGFR)-mutated, locally advanced or metastatic non-squamous NSCLC",
@@ -512,7 +536,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2025-02-21T20:14:11.341047Z",
-  "updated_at": "2026-10-26T13:07:18.980359Z",
+  "updated_at": "2026-10-27T13:07:18.136508Z",
   "ticker": "SMMT",
   "drug_name": "ivonescimab (AK112-202)",
   "drug_indication": "Patients with Advanced Non-Small Cell Lung Cancer (NSCLC) and Brain Metastases",
@@ -536,7 +560,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2025-02-21T20:08:06.304758Z",
-  "updated_at": "2026-10-26T13:04:33.372139Z",
+  "updated_at": "2026-10-27T13:04:42.095739Z",
   "ticker": "SMMT",
   "drug_name": "Ridinilazole - (Ri-CoDIFy)",
   "drug_indication": "C. difficile infection (CDI)",
@@ -560,7 +584,7 @@
    "website": "https://www.smmttx.com"
   },
   "created_at": "2025-02-21T20:08:12.077877Z",
-  "updated_at": "2026-10-26T13:04:42.288622Z",
+  "updated_at": "2026-10-27T13:04:50.053261Z",
   "ticker": "SMMT",
   "drug_name": "Ezutromid",
   "drug_indication": "Duchenne muscular dystrophy",

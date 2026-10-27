@@ -48,6 +48,54 @@
   "intra_day_price_change_percent": "-0.00874"
  },
  {
+  "id": 9110,
+  "company": {
+   "id": 682,
+   "ticker": "ONC",
+   "name": "BeOne Medicines",
+   "website": "https://beonemedicines.com"
+  },
+  "created_at": "2026-10-27T13:04:44.724337Z",
+  "updated_at": "2026-10-27T13:04:44.724353Z",
+  "ticker": "ONC",
+  "drug_name": "BGB-43395",
+  "drug_indication": "HR+/HER2-negative Breast Cancer",
+  "airtable_id": 9398,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-10-24",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62577395/beone-presents-compelling-data-hard-treat-liver-and-lung-cancers-esmo-2026",
+  "catalyst_text": "Global Phase 3 trial now enrolling patients",
+  "detailed_catalyst_text": "A global Phase 3 trial (KANDELA-302) in first-line HR+/HER2-negative advanced or metastatic breast cancer is enrolling to compare the agent plus letrozole against standard CDK4/6 inhibitors plus letrozole. Enrollment began in 2026-05 across multiple regions. This reflects advancement into a pivotal setting for this selective CDK4 inhibitor.",
+  "catalyst_text_evidence": "Building on previously reported Phase 1 activity and tolerability findings, BeOne is advancing BGB-43395, an investigational selective CDK4 inhibitor, in the global Phase 3 KANDELA-302 study (NCT07492641). Enrollment began in 2026-05, with patients planned across North and South America, Europe, Asia and Australia. The study compares BGB-43395 plus letrozole with investigator\u2019s choice of abemaciclib, palbociclib or ribociclib plus letrozole in first-line HR+/HER2-negative advanced or metastatic breast cancer.",
+  "news_published_at": "2026-10-27T00:00:00Z",
+  "open_price_gap_percent": "-0.00924",
+  "intra_day_price_change_percent": "-0.00874"
+ },
+ {
+  "id": 9129,
+  "company": {
+   "id": 682,
+   "ticker": "ONC",
+   "name": "BeOne Medicines",
+   "website": "https://beonemedicines.com"
+  },
+  "created_at": "2026-10-27T13:06:31.646874Z",
+  "updated_at": "2026-10-27T13:06:31.646893Z",
+  "ticker": "ONC",
+  "drug_name": "BGB-58067",
+  "drug_indication": "Non-Small Cell Lung Cancer",
+  "airtable_id": 9396,
+  "stage": "Phase 1",
+  "catalyst_date": "2026-10-24",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/b62577395/beone-presents-compelling-data-hard-treat-liver-and-lung-cancers-esmo-2026",
+  "catalyst_text": "Reported promising Phase 1 activity in NSCLC",
+  "detailed_catalyst_text": "Initial Phase 1 findings in MTAP-deficient NSCLC showed a confirmed ORR of 25.3% (38.5% in EGFR wild-type) with median PFS of 7.7 months overall and 8.1 months in EGFR wild-type. Intracranial responses were observed in untreated, asymptomatic brain metastases with a 30.8% intracranial ORR, and safety was manageable at 200\u2013400 mg daily. These data indicate systemic and CNS activity in a biomarker-selected population.",
+  "catalyst_text_evidence": "BGB-58067 is a highly potent, brain-penetrant methylthioadenosine (MTA)-cooperative PRMT5 inhibitor designed to exploit the vulnerability created by MTAP deficiency. In this, the largest publicly shared data set in MTAP-deficient solid tumors, initial Phase 1 findings from 182 patients, including 83 with NSCLC, showed: Among 75 efficacy-evaluable patients with MTAP-deficient NSCLC, confirmed ORR was 25.3% and disease control rate (DCR) was 76.0%. In the EGFR wild-type subgroup, confirmed ORR was 38.5% and DCR was 82.1%. Median progression-free survival was 7.7 months in the overall NSCLC cohort and 8.1 months in the EGFR wild-type subgroup. In the NSCLC cohort, an intracranial objective response rate of 30.8% was observed in patients with untreated, asymptomatic brain metastases as well as a low rate of central nervous system (CNS) progression in 2L+ NSCLC. At daily doses of 200\u2013400 mg (n=87), Grade 3 or higher treatment-related adverse events occurred in 27.6%, and treatment-related adverse events led to discontinuation in 5.7%.",
+  "news_published_at": "2026-10-27T00:00:00Z",
+  "open_price_gap_percent": "-0.00924",
+  "intra_day_price_change_percent": "-0.00874"
+ },
+ {
   "id": 9031,
   "company": {
    "id": 682,
@@ -80,7 +128,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-10-24T13:04:09.493445Z",
-  "updated_at": "2026-10-26T13:04:26.833886Z",
+  "updated_at": "2026-10-27T13:04:36.090286Z",
   "ticker": "ONC",
   "drug_name": "Zanidatamab",
   "drug_indication": "HER2-positive gastroesophageal adenocarcinoma",
@@ -152,7 +200,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-07-01T13:03:54.745198Z",
-  "updated_at": "2026-10-26T13:05:05.894010Z",
+  "updated_at": "2026-10-27T13:05:12.214652Z",
   "ticker": "ONC",
   "drug_name": "BRUKINSA (zanubrutinib)",
   "drug_indication": "Mantle Cell Lymphoma",
@@ -176,7 +224,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-06-12T13:05:56.735227Z",
-  "updated_at": "2026-10-26T13:07:46.952164Z",
+  "updated_at": "2026-10-27T13:07:44.849566Z",
   "ticker": "ONC",
   "drug_name": "BRUKINSA",
   "drug_indication": "Chronic Lymphocytic Leukemia",
@@ -248,7 +296,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-05-30T13:05:48.046912Z",
-  "updated_at": "2026-10-26T13:07:21.318583Z",
+  "updated_at": "2026-10-27T13:07:20.317802Z",
   "ticker": "ONC",
   "drug_name": "Zanubrutinib + Sonrotoclax",
   "drug_indication": "Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma",
@@ -296,7 +344,7 @@
    "website": "https://beonemedicines.com"
   },
   "created_at": "2026-04-30T13:04:24.535096Z",
-  "updated_at": "2026-10-26T13:06:05.458432Z",
+  "updated_at": "2026-10-27T13:06:06.849264Z",
   "ticker": "ONC",
   "drug_name": "Tislelizumab plus zanidatamab",
   "drug_indication": "First-line HER2-positive gastroesophageal adenocarcinoma",

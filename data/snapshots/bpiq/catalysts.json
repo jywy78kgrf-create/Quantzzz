@@ -185,7 +185,7 @@
   "company": {
    "ticker": "CHRS",
    "name": "Coherus BioSciences Inc.",
-   "last_price": "0.88",
+   "last_price": "0.87",
    "market_cap": 179221104,
    "website": "https://www.coherus.com"
   },
@@ -376,7 +376,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "37.60",
+   "last_price": "36.91",
    "market_cap": 2275835648,
    "website": "https://www.agios.com"
   },
@@ -552,7 +552,7 @@
   "company": {
    "ticker": "CATX",
    "name": "Perspective Therapeutics",
-   "last_price": "1.20",
+   "last_price": "1.17",
    "market_cap": 142689584,
    "website": "https://www.perspectivetherapeutics.com"
   },
@@ -666,7 +666,7 @@
   "company": {
    "ticker": "CATX",
    "name": "Perspective Therapeutics",
-   "last_price": "1.20",
+   "last_price": "1.17",
    "market_cap": 142689584,
    "website": "https://www.perspectivetherapeutics.com"
   },
@@ -723,7 +723,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "10.20",
+   "last_price": "10.30",
    "market_cap": 656858944,
    "website": "https://www.adlainortye.com"
   },
@@ -780,7 +780,7 @@
   "company": {
    "ticker": "GALT",
    "name": "Galectin Therapeutics ",
-   "last_price": "3.57",
+   "last_price": "3.48",
    "market_cap": 357007744,
    "website": "https://galectintherapeutics.com"
   },
@@ -928,6 +928,63 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": "15.000000",
+  "probability_clean_plus_max": "25.000000",
+  "probability_mixed_min": "60.000000",
+  "probability_mixed_max": "70.000000",
+  "probability_clean_minus_min": "10.000000",
+  "probability_clean_minus_max": "20.000000",
+  "magnitude_clean_plus_min": "5.000000",
+  "magnitude_clean_plus_max": "15.000000",
+  "magnitude_mixed_min": "-8.000000",
+  "magnitude_mixed_max": "2.000000",
+  "magnitude_clean_minus_min": "-20.000000",
+  "magnitude_clean_minus_max": "-10.000000",
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "This is a follow-up presentation, not a fresh efficacy binary. ADDRESS-LC enrolled 203 patients in a randomized, blinded, placebo-controlled study. No overall-population endpoint reached statistical significance; benefits appeared in prespecified higher-symptom subgroups, with safety similar to placebo. The 22 exploratory measures were tested without adjustment for multiple comparisons, increasing the chance of apparently significant findings. These signals can guide a confirmatory trial but do not establish efficacy. ([bioviepharma.com](https://bioviepharma.com/addresslc/?utm_source=openai))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "The November 5 presentation is an incremental update of results disclosed in September and presented in October. Investors already know the central findings. A clearly favorable market outcome would require a more convincing explanation of the subgroup effects and a credible path to confirmation\u2014not simply another positive description of the same results. That makes an inconclusive or modest market response the most likely outcome. ([investors.bioviepharma.com](https://investors.bioviepharma.com/news/news-details/2026/BioVie-Invited-to-Present-Data-on-Bezisterim-in-Long-COVID-at-the-NIHs-RECOVER-TLC-Third-Annual-Workshop/default.aspx?utm_source=openai))\n\nHistorically, about 27% of Phase 2 neurology programs advanced to Phase 3, although that development rate is not a stock-reaction probability. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) Here, the relevant clinical evidence is already visible: encouraging subgroup findings alongside no statistically significant benefit across the overall population. The 203-patient study explored 22 clinical measures without a single designated primary endpoint. Smaller subgroup samples and the exploratory analyses leave substantial uncertainty about whether the benefits will hold up in a confirmatory trial. ([investors.bioviepharma.com](https://investors.bioviepharma.com/news/news-details/2026/BioVie-Announces-Topline-Results-from-Phase-2-ADDRESSLC-Trial-Evaluating-Bezisterim-for-the-Treatment-of-Neurological-Symptoms-Associated-with-Long-COVID/default.aspx?utm_source=openai))\n\nBioVie has an approximately $12.5 million market capitalization and $3.8 million enterprise value, which measures its market value after accounting for cash and debt. June-end cash was $9 million, with estimated runway into January 2027. BPIQ reports zero specialist hedge funds. That warrants caution rather than proving the drug will fail. The small valuation permits meaningful percentage swings, but substantial financing needs can limit sustainable upside. The completed ADDRESS-LC study was grant-funded; a confirmatory trial remains a separate development and funding challenge. ([investors.bioviepharma.com](https://investors.bioviepharma.com/news/news-details/2026/BioVie-Invited-to-Present-Data-on-Bezisterim-in-Long-COVID-at-the-NIHs-RECOVER-TLC-Third-Annual-Workshop/default.aspx?utm_source=openai))\n\nBPIQ's reaction history shows that the September Long COVID announcement opened down 7.3%, while the October announcement opened up 7.5%. These reactions support a 5\u201315% favorable-outcome move rather than a company-defining surge from another presentation. An inconclusive presentation could produce a -8% to +2% move; a materially weaker interpretation could drive a 10\u201320% decline. Other programs retain some value, while financing needs remain important. These estimates concern the workshop presentation alone, not a future pivotal trial. BIVI has no listed options, so an options-implied move does not apply.",
+  "catalyst_event_details": "Bezisterim\u2019s Phase 2 ADDRESS-LC results for neurological long COVID symptoms will be presented at the RECOVER-TLC workshop on November 5, 2026. ([nasdaq.com](https://www.nasdaq.com/press-release/biovie-invited-present-data-bezisterim-long-covid-nihs-recover-tlc-third-annual?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-10-28T11:32:01Z"
+ },
+ {
+  "id": 18994,
+  "company": {
+   "ticker": "CATX",
+   "name": "Perspective Therapeutics",
+   "last_price": "1.17",
+   "market_cap": 142689584,
+   "website": "https://www.perspectivetherapeutics.com"
+  },
+  "ticker": "CATX",
+  "drug_name": "[212Pb]VMT-\u03b1-NET",
+  "indications": [
+   {
+    "id": 1025,
+    "title": "Neuroendocrine tumor",
+    "nickname": "NET"
+   }
+  ],
+  "indications_text": "Unresectable or metastatic SSTR2 expressing neuroendocrine tumors (NETs)",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "10/23/26:- ESMO interim Ph1/2a NCT05636618 data shown; more data at NANETS Nov 5 and ENA Nov 20.",
+  "catalyst_date": "2026-11-05",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/23/3387456/0/en/perspective-s-212pb-bamzireotide-navoxetan-vmt-%CE%B1-net-demonstrates-encouraging-safety-durable-disease-control-and-robust-tumor-response-across-multiple-dose-cohorts-in-phase-1-2a-tr.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -952,34 +1009,116 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18994,
+  "id": 15088,
   "company": {
-   "ticker": "CATX",
-   "name": "Perspective Therapeutics",
-   "last_price": "1.20",
-   "market_cap": 142689584,
-   "website": "https://www.perspectivetherapeutics.com"
+   "ticker": "IMCR",
+   "name": "Immunocore Holdings",
+   "last_price": "31.74",
+   "market_cap": 1679369856,
+   "website": "https://www.immunocore.com"
   },
-  "ticker": "CATX",
-  "drug_name": "[212Pb]VMT-\u03b1-NET",
+  "ticker": "IMCR",
+  "drug_name": "IMC-F106C (Brenetafusp)",
   "indications": [
    {
-    "id": 1025,
-    "title": "Neuroendocrine tumor",
-    "nickname": "NET"
+    "id": 947,
+    "title": "Breast cancer",
+    "nickname": ""
+   },
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1250,
+    "title": "Endometrial cancer",
+    "nickname": ""
+   },
+   {
+    "id": 704,
+    "title": "Ovarian cancer",
+    "nickname": ""
+   },
+   {
+    "id": 740,
+    "title": "Solid tumor/s",
+    "nickname": ""
    }
   ],
-  "indications_text": "Unresectable or metastatic SSTR2 expressing neuroendocrine tumors (NETs)",
+  "indications_text": "Ovarian cancer, Solid tumor/s, Cancer, Breast cancer, Endometrial cancer",
   "stage_event": {
    "id": 128,
    "label": "Phase 1/2 Data readout",
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "10/23/26:- ESMO interim Ph1/2a NCT05636618 data shown; more data at NANETS Nov 5 and ENA Nov 20.",
-  "catalyst_date": "2026-11-05",
+  "note": "9/9/22- Initial Ph1 data presented. 5/8/24- Report data NSCLC in Q4 2024. 9/14/24- Presents Ph1 data from ovarian cancer at ESMO '24. 2/26/25- Trial ongoing. 11/06/25:- Phase 1/2 IMC-F106C-101 trial continues in PROC, PSOC, and NSCLC combination cohorts with chemotherapy and targeted agents. 02/25/26:- IMC-F106C-101 Phase 1/2 ovarian and NSCLC cohorts ongoing; Phase 1/2 data planned for presentation in H2 2026. 05/06/26:- IMC-F106C-101 Phase 1/2 ovarian and NSCLC cohorts enrolling; Phase 1/2 data presentation still planned H2 2026. 08/06/26:- IMC-F106C-101 ovarian and NSCLC cohorts ongoing; Phase 1/2 data expected H2 2026. 10/29/26:- IMC-F106C-101 metastatic uveal melanoma data at SITC 2026 Nov 6-7.",
+  "catalyst_date": "2026-11-06",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/23/3387456/0/en/perspective-s-212pb-bamzireotide-navoxetan-vmt-%CE%B1-net-demonstrates-encouraging-safety-durable-disease-control-and-robust-tumor-response-across-multiple-dose-cohorts-in-phase-1-2a-tr.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391299/0/en/immunocore-will-present-phase-1-data-for-brenetafusp-plus-kimmtrak-tebentafusp-tebn-in-metastatic-uveal-melanoma-during-a-late-breaking-oral-session-at-the-2026-sitc-meeting.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 17680,
+  "company": {
+   "ticker": "ELTX",
+   "name": "Elicio Therapeutics",
+   "last_price": "1.80",
+   "market_cap": 50118700,
+   "website": "https://elicio.com"
+  },
+  "ticker": "ELTX",
+  "drug_name": "ELI-002 7P",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 859,
+    "title": "Pancreatic cancer",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Pancreatic cancer, Cancer",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "AMPLIFY-7P trial. 1/11/24- First patient dosed. 12/3/24- Completed enrollment in Ph2 portion. 8/7/25- Secured alignment w/ FDA on planned Ph3 study. 9/29/25- Initiate Ph1 IIT in H1 2026. 11/7/25\u2013 99% mKRAS-specific T cell responses data presented at SITC\u201925. 11/13/25:- Ph2 AMPLIFY-7P DFS primary analysis expected H1 2026; Ph1 IIT neoadjuvant PDAC trial initiation also anticipated H1 2026. 12/11/25:- Ph2 AMPLIFY-7P subset showed 87% antigen spreading with broad non-mKRAS neoantigen T cell responses. 03/12/26:- DFS primary analysis still expected H1 2026. Oral AMPLIFY-7P updates at WVC and AACR 2026. 05/11/26:- AMPLIFY-7P DFS primary analysis still expected mid-2026. Fewer events observed; remains blinded. EoPh2 FDA meeting planned. 06/15/26:- AMPLIFY-7P Ph2 missed DFS; post-hoc R0 benefit. Ph3 planned, timing TBA. 06/17/26:- 3 post-ELI-002 7P pts had confirmed CRs on nivolumab-based therapy. Plans Ph1 metastatic combo study. 08/10/26:- Ph1 neoadjuvant IIT NCT07671339 opened in resectable/borderline resectable PDAC; enroll 20. 08/13/26:- AMPLIFY-7P Phase 2 subgroup analyses continue to refine the Phase 3 strategy. Neoadjuvant Phase 1 trial has been activated. 09/24/26:- AMPLIFY-7P Phase 2 complete results present at ESMO Oct 23, 2026. 10/23/26:- Ph2 AMPLIFY-7P subgroup DFS favored camupepimut; Nature Medicine published. Plans FDA discussion for Ph3 design. 10/29/26:- Additional Ph2 AMPLIFY-7P results presented at SITC 2026 on Nov 6-7, 2026.",
+  "catalyst_date": "2026-11-06",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391331/0/en/elicio-therapeutics-to-present-phase-2-amplify-7p-results-at-the-sitc-2026-annual-meeting.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1572,11 +1711,68 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 18470,
+  "company": {
+   "ticker": "ALLO",
+   "name": "Allogene Therapeutics",
+   "last_price": "1.30",
+   "market_cap": 449138112,
+   "website": "https://allogene.com"
+  },
+  "ticker": "ALLO",
+  "drug_name": "ALLO-329 [CD19/CD70 Dual CAR]",
+  "indications": [
+   {
+    "id": 1272,
+    "title": "Autoimmune disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Autoimmune disease",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "05/13/26:- RESOLUTION treated nine patients. Early activity seen, with next update expected Q4 2026. 08/12/26:- RESOLUTION enrollment continued briskly. Clinical and translational data will be updated in Q4 2026. 10/29/26:- Phase 1 RESOLUTION preliminary safety and efficacy data to be reviewed and presented Nov 9, 2026 at ACR.",
+  "catalyst_date": "2026-11-09",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62692515/allogene-therapeutics-announces-november-investor-events-highlighting-q3-results-and-initial-allo-32",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 20873,
   "company": {
    "ticker": "LSTA",
    "name": "Lisata Therapeutics",
-   "last_price": "1.06",
+   "last_price": "1.02",
    "market_cap": 11452309,
    "website": "https://www.lisata.com"
   },
@@ -2196,7 +2392,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "16.32",
+   "last_price": "15.98",
    "market_cap": 12580511744,
    "website": "https://www.smmttx.com"
   },
@@ -2258,7 +2454,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "4.00",
+   "last_price": "3.98",
    "market_cap": 765899712,
    "website": "https://www.annexonbio.com"
   },
@@ -2553,7 +2749,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "6.35",
+   "last_price": "6.66",
    "market_cap": 362205888,
    "website": "https://www.capricor.com"
   },
@@ -2610,7 +2806,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "5.02",
+   "last_price": "4.93",
    "market_cap": 1031409280,
    "website": "https://www.savarapharma.com"
   },
@@ -2667,7 +2863,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "72.09",
+   "last_price": "70.84",
    "market_cap": 13844813824,
    "website": "https://bridgebio.com"
   },
@@ -2696,28 +2892,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": "82.000000",
-  "probability_clean_plus_max": "89.000000",
-  "probability_mixed_min": "5.000000",
-  "probability_mixed_max": "10.000000",
-  "probability_clean_minus_min": "5.000000",
-  "probability_clean_minus_max": "11.000000",
-  "magnitude_clean_plus_min": "5.000000",
-  "magnitude_clean_plus_max": "12.000000",
-  "magnitude_mixed_min": "-10.000000",
-  "magnitude_mixed_max": "3.000000",
-  "magnitude_clean_minus_min": "-18.000000",
-  "magnitude_clean_minus_max": "-10.000000",
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "FORTIFY randomized 112 participants in a double-blind, placebo-controlled Phase 3 trial. Its planned interim analysis met the primary muscle-protein biomarker endpoint: glycosylated alpha-dystroglycan increased 1.8-fold at three months. At 12 months, velocity on the 100-meter timed test improved by 0.27 meters/second versus placebo, and lung function improved by approximately five percentage points versus placebo. These functional benefits strengthen the application beyond its biomarker result. ([investor.bridgebio.com](https://investor.bridgebio.com/news/news-details/2025/BridgeBio-Reports-First-Quarter-2025-Financial-Results-and-Business-Updates/default.aspx?utm_source=openai)) Safety was generally comparable to placebo, with Grade 3 or higher treatment-emergent adverse-event rates of 5.4% versus 5.3%. ([investor.bridgebio.com](https://investor.bridgebio.com/news/news-details/2026/BBP-418-Demonstrates-Consistent-Efficacy-and-Favorable-Safety-Profile-in-Phase-3-FORTIFY-Interim-Analysis-in-LGMD2IR9/?utm_source=openai)) October cardiac findings are exploratory, not additional pivotal endpoints. Longer-term durability remains under evaluation. ([rss.globenewswire.com](https://rss.globenewswire.com/news-release/2026/10/05/3374437/0/en/bbp-418-demonstrates-potential-to-be-disease-modifying-therapy-restoring-cardiac-and-disease-markers-to-unaffected-levels.html?utm_source=openai))",
-  "cmc_regulatory_risk": "Moderate: third-party manufacturing leaves product-specific process validation, stability, facility compliance, and commercial supply execution as approval risks. BridgeBio's existing oral-drug commercialization experience provides meaningful reassurance but does not establish readiness of BBP-418's individual manufacturing sites. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1743881/000174388126000009/bbio-20251231.htm))",
-  "key_pdufa_comment": "BBIO's initial NDA seeks traditional approval for oral BBP-418 specifically in FKRP-related LGMD2I/R9, not limb-girdle muscular dystrophy generally. The application has Priority Review, a November 27, 2026 PDUFA date, and no advisory committee currently planned. This is not a resubmission following a BBP-418 rejection. Although development originally contemplated Accelerated Approval, significant walking and lung-function benefits now support the traditional-approval application. BridgeBio already commercializes Attruby, so BBP-418 is not its first commercial product; nevertheless, manufacturing-site compliance and commercial-scale supply remain separate approval considerations. BridgeBio plans global commercialization through its own infrastructure, with underlying intellectual property licensed from Atrium Health. Approval would address a disease without an approved disease-modifying treatment, but the expected label should not be assumed to include younger children or other LGMD subtypes. ([investor.bridgebio.com](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-FDA-Acceptance-and-Priority-Review-of-NDA-for-BBP-418-for-LGMD2IR9/default.aspx?utm_source=openai))",
-  "move_analysis_ai_reasoning": "The clinical package makes a commercially usable approval the most likely outcome. FORTIFY combines randomization, placebo control, a prespecified interim analysis, and consistent benefits in muscle biology, walking, and breathing. That is substantially more persuasive than an uncontrolled rare-disease study. Our central outlook is approximately 86% clean approval, 7% mixed outcome, and 7% nonapproval. Residual uncertainty comes from reliance on one pivotal interim dataset, FDA interpretation of the functional evidence, the final label, and product-specific manufacturing execution. Priority Review supports the timing, not a guarantee of approval. ([investor.bridgebio.com](https://investor.bridgebio.com/news/news-details/2025/BridgeBio-Reports-Positive-Phase-3-Results-for-Small-Molecule-BBP-418-in-LGMD2IR9-FORTIFY-Study/default.aspx))\n\nWe estimate 5\u201312% upside because approval would add a meaningful growth franchise, but BBIO's supplied $12.9 billion market capitalization already includes Attruby and other late-stage assets. BridgeBio intends to commercialize BBP-418 globally rather than participate solely through partner royalties. A restrictive or delayed outcome could produce a -10% to +3% move; outright nonapproval could cost 10\u201318%. These are estimates, reflecting lost BBP-418 value without treating the company as a single-asset biotech. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1743881/000174388126000009/bbio-20251231.htm))\n\nLiquidity limits the immediate financing threat. June 30 cash and marketable securities were $720.2 million, before the $1 billion preferred-equity financing closed July 1. That financing supports launch preparations, although it carries future capital costs. The supplied BPIQ specialist-fund count is six; the latest quarterly holdings show three funds totaling $146.1 million. This provides external validation, but the smaller recent exposure is a reason to examine expectations carefully, not evidence of an FDA problem. ([investor.bridgebio.com](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Second-Quarter-2026-Financial-Results-and-Corporate-Updates/default.aspx))\n\nThe decision is 52 days away. October 8 Commercial Day, third-quarter earnings and Attruby sales, and a possible second-half hypochondroplasia update could reset the pre-decision stock price. Move estimates apply to that eventual baseline. The encaleret decision follows on May 8, 2027. ([investor.bridgebio.com](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Reports-Second-Quarter-2026-Financial-Results-and-Corporate-Updates/default.aspx))\n\nOptions suggest an event-specific expected absolute move near 15.1%, with an 18.9% one-standard-deviation estimate. That broadly fits meaningful two-way risk around our fundamental ranges. Wide spreads and the January expiration, 49 days after the PDUFA, make options a weak confirmation signal. Neither direction meets the 20% fundamental threshold for a big-mover designation.",
-  "catalyst_event_details": "The FDA's decision on BBP-418 for limb-girdle muscular dystrophy type 2I/R9 is targeted for November 27, 2026. ([investor.bridgebio.com](https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-FDA-Acceptance-and-Priority-Review-of-NDA-for-BBP-418-for-LGMD2IR9/default.aspx?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T13:07:30Z"
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 20631,
@@ -2753,35 +2949,35 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "76.000000",
-  "probability_clean_plus_max": "84.000000",
-  "probability_mixed_min": "8.000000",
-  "probability_mixed_max": "14.000000",
-  "probability_clean_minus_min": "7.000000",
-  "probability_clean_minus_max": "13.000000",
-  "magnitude_clean_plus_min": "0.500000",
-  "magnitude_clean_plus_max": "2.000000",
-  "magnitude_mixed_min": "-1.500000",
-  "magnitude_mixed_max": "0.500000",
-  "magnitude_clean_minus_min": "-2.500000",
-  "magnitude_clean_minus_max": "-0.500000",
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "ALKOVE-1 is an open-label, single-arm Phase 1/2 study. Among 253 previously treated patients, independent reviewers reported a 31% tumor response rate, including two unconfirmed responses; estimated response durability was 64% at 12 months. Activity after lorlatinib and against brain metastases supports clinical value, but there is no randomized comparison. In 656 patients receiving the recommended dose, liver-enzyme elevations were common, 17% required dose reductions, and 5% discontinued because of adverse events. ([investors.nuvalent.com](https://investors.nuvalent.com/2025-11-17-Nuvalent-Announces-Positive-Topline-Pivotal-Data-from-ALKOVE-1-Clinical-Trial-of-Neladalkib-for-TKI-Pre-treated-Patients-with-Advanced-ALK-positive-NSCLC))",
-  "cmc_regulatory_risk": "Moderate: conventional immediate-release tablets, but the inherited supply chain relies on single-source contract manufacturers. GSK's commercial experience supports execution, while product-specific manufacturing validation, supply continuity and FDA acceptance remain approval risks. Response-based registration also requires FDA agreement on the appropriate approval pathway. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1861560/000119312526073317/nuvl-20251231.htm))",
-  "key_pdufa_comment": "The initial NDA has Priority Review and a November 27, 2026 target date. The proposed indication is previously treated advanced ALK-positive NSCLC, not first-line treatment. This is not a disclosed CRL resubmission. Durable responses support approval, but ALKOVE-1 is a single-arm Phase 1/2 study rather than a randomized comparison. ([investors.nuvalent.com](https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates%2C-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC?utm_source=openai))\n\nAccelerated Approval, which permits approval before confirmatory clinical benefit is established, is a reasonable expectation rather than a confirmed FDA commitment. The randomized ALKAZAR trial is underway in first-line patients, a different population from the initial application. Existing ALK treatments make the drug's advantage important, especially after lorlatinib. Ensartinib's December 2024 approval addressed patients without prior ALK-inhibitor treatment; it does not directly close that later-line treatment gap. An ordinary confirmatory-trial requirement would not itself make approval commercially disappointing. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_nuvalent/399/Nuvalent_Overview_May_27_2026_vFINAL.pdf?utm_source=openai))\n\nGSK acquired Nuvalent on July 15, 2026, so this is not an independent clinical-stage company's first commercial launch. GSK owns the worldwide program, subject to the inherited 1.5% Royalty Pharma and low-single-digit Deerfield revenue shares. The tablet supply chain uses single-source contractors; GSK's experience does not itself establish FDA acceptance of neladalkib's commercial manufacturing. Jideytro's July approval is encouraging for execution, but does not establish identical manufacturing arrangements or product-specific inspection clearance. ([gsk.com](https://www.gsk.com/en-gb/media/press-releases/gsk-completes-acquisition-of-nuvalent-inc/?utm_source=openai))\n\nA commercially usable approval is favored. Approval with a materially narrower population or unusually restrictive conditions would be Mixed. A clinical or manufacturing requirement that prevents approval at the decision belongs in the negative outcome, even if a later approval remains possible. The financial effect should be modest relative to GSK's diversified business.",
-  "move_analysis_ai_reasoning": "We favor a commercially usable approval because neladalkib shows durable activity in a difficult, previously treated lung-cancer population. The 76\u201384% clean-positive range recognizes meaningful evidence while leaving room for FDA concerns about an uncontrolled study, label breadth, liver monitoring and commercial manufacturing. The central assessment is 80% clean positive, 11% mixed and 9% clean negative. Priority Review and Breakthrough Therapy designation support the setup but do not substitute for clinical evidence. ([investors.nuvalent.com](https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates%2C-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC?utm_source=openai))\n\nA mixed outcome could mean approval for a materially narrower treatment population or unusually restrictive monitoring. Nonapproval includes clinical or manufacturing requirements that prevent approval at the target decision. Response-based approval remains subject to FDA agreement on the pathway and confirmatory evidence. The conventional tablet formulation and GSK's established operations are reassuring, but acquisition alone does not demonstrate acceptance of neladalkib's specific manufacturing arrangements. Jideytro's July approval supports execution without proving that the two medicines share an accepted supply chain. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1861560/000119312526073317/nuvl-20251231.htm))\n\nFor GSK shares, this is a modest catalyst rather than a company-defining decision. With the supplied $93.3 billion market capitalization, $122.3 billion enterprise value and $3.1 billion cash balance, we estimate 0.5\u20132.0% upside on clean approval, \u22121.5% to +0.5% for a mixed outcome, and 0.5\u20132.5% downside on rejection. These are judgment-based ranges. The supplied historical approval reactions generally had opening gaps around 0.4\u20131.9%, including 1.9% for Jideytro. A rejection could disappoint investors in the acquired oncology portfolio, but would not threaten GSK's viability. Its \u00a32.9 billion of Q2 cash generated from operations supports development and launch funding without dependence on an event-driven equity raise. ([gsk.com](https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q2-core-results-performance-and-continued-momentum/?utm_source=openai))\n\nThe supplied current specialist-fund count is zero. The latest listed historical holding is Tang Capital's $14.7 million position, down from $17.3 million the preceding listed quarter. Limited specialist ownership says little about FDA probability for a diversified pharmaceutical company. The share price is nearer the bottom than the top of its supplied 52-week range, but that alone does not show that this particular approval is unpriced.\n\nGSK's October 28 earnings release can reset the share-price baseline before the November 27 decision. These estimates apply to the price immediately before the FDA announcement. ([gsk.com](https://www.gsk.com/en-gb/investors/quarterly-results/?utm_source=openai)) At 52 days to the event, the supplied options summary estimates a 7.4% event-isolated expected move versus an 11.3% full-expiry straddle move. The January expiry extends 49 days beyond the decision, and the comparison also spans earnings and other company news. It is therefore a broad volatility cross-check, not a clean neladalkib-only forecast or an FDA probability signal. Neither fundamental direction reaches the 20% big-mover threshold.",
-  "catalyst_event_details": "The FDA decision on neladalkib for previously treated advanced ALK-positive non-small cell lung cancer is due November 27, 2026. ([investors.nuvalent.com](https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates%2C-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T13:07:24Z"
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 14230,
   "company": {
    "ticker": "PYPD",
    "name": "Polypid",
-   "last_price": "5.78",
+   "last_price": "5.58",
    "market_cap": 117402008,
    "website": "https://www.polypid.com"
   },
@@ -2867,6 +3063,68 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": "30.000000",
+  "probability_clean_plus_max": "40.000000",
+  "probability_mixed_min": "20.000000",
+  "probability_mixed_max": "30.000000",
+  "probability_clean_minus_min": "35.000000",
+  "probability_clean_minus_max": "45.000000",
+  "magnitude_clean_plus_min": "60.000000",
+  "magnitude_clean_plus_max": "100.000000",
+  "magnitude_mixed_min": "-40.000000",
+  "magnitude_mixed_max": "-10.000000",
+  "magnitude_clean_minus_min": "-85.000000",
+  "magnitude_clean_minus_max": "-65.000000",
+  "up_suspected_big_mover": true,
+  "up_big_mover": false,
+  "down_suspected_big_mover": true,
+  "down_big_mover": false,
+  "key_readout_comment": "This is a primary efficacy readout, not an extension update. ALTITUDE-AD randomized 542 participants to two monthly intravenous doses or placebo for 18 months; the primary endpoint is iADRS, a combined thinking-and-daily-function scale. CDR-SB, another clinical scale, and brain-swelling or bleeding safety findings will help establish whether any benefit is convincing. ([investors.acumenpharm.com](https://investors.acumenpharm.com/static-files/9f4935fb-c635-42ae-9298-aff91885deb1?utm_source=openai)) Earlier target engagement and biomarker responses support the rationale but do not establish clinical benefit. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12184067/?utm_source=openai))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "Acumen expects ALTITUDE-AD results in November 2026. The 542-participant trial tests whether sabirnetug slows decline in thinking and daily function over 18 months. Two doses are compared with placebo, with roughly 180 participants per group. A convincing result needs meaningful benefit on the primary iADRS scale, supportive clinical findings and acceptable safety\u2014not simply favorable biomarkers. ([acumenpharm.gcs-web.com](https://acumenpharm.gcs-web.com/news-releases/news-release-details/acumen-pharmaceuticals-reports-third-quarter-2026-financial?utm_source=openai))\n\nHistorically, 26.8% of neurology programs advanced from Phase 2 to Phase 3; that is a development benchmark, not a stock-reaction probability. ([bio.org](https://www.bio.org/bio-news/good-day-bio-why-we-need-more-investment-neurodegenerative-diseases?utm_source=openai)) Our 30\u201340% probability of a clearly favorable result gives credit to the randomized design and evidence that sabirnetug reaches and engages its target. However, the earlier 65-participant INTERCEPT-AD trial did not establish clinical benefit. Brain swelling occurred in 10.4% of treated participants, including one symptomatic case, so longer-term safety also matters. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12184067/)) Our assessment remains cautious because placebo decline, withdrawals and differences between dose groups could leave the clinical result ambiguous.\n\nBPIQ shows three specialist hedge funds holding ABOS, with the fund count stable across four quarters and holdings concentrated in RA Capital. That is meaningful sponsorship, but not broad specialist agreement. At approximately $172.1 million in market capitalization and $111.9 million in enterprise value, Acumen is small enough for validation of its lead clinical asset to have a major impact. Its supplied historical reactions include a 19.4% intraday gain on formulation results and a 12.6% intraday decline around July updates. Those events were not definitive clinical efficacy tests. We therefore see a 60\u2013100% gain as plausible for convincing efficacy with acceptable safety, rather than treating earlier reactions as a ceiling.\n\nThe supplied cash figure is $53.1 million; Acumen reported $78.6 million when marketable securities are included and expects funding to last into early 2027. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1576885/000162828026067129/abos-20261026xexx991.htm?utm_source=openai)) With supplied quarterly burn near $26.7 million, further development likely requires additional financing. This can limit sustained gains after success and amplify losses after failure. An ambiguous result could produce a 10\u201340% decline, while a clear failure could produce a 65\u201385% decline. The earlier-stage brain-delivery program provides potential residual value, but its lead candidate is targeting an initial clinical-trial application in mid-2027. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1576885/000162828026067129/acumen_ncxcorporatexdeck.htm?utm_source=openai))\n\nThe supplied options summary estimates an event-isolated expected move of approximately 98.5%, compared with BPIQ-AI's conditional ranges of +60\u2013100% for clear success and \u221265\u201385% for clear failure. However, the December contracts have bid/ask spreads around 98.1% of their midpoint, making that estimate an imprecise guide. Both directions qualify as suspected large movers on fundamentals, but neither qualifies as options-confirmed.",
+  "catalyst_event_details": "Acumen expects November 2026 topline results from the Phase 2 ALTITUDE-AD trial of sabirnetug in early Alzheimer\u2019s disease. ([investors.acumenpharm.com](https://investors.acumenpharm.com/news-releases/news-release-details/acumen-pharmaceuticals-reports-third-quarter-2026-financial?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-10-28T11:33:09Z"
+ },
+ {
+  "id": 15096,
+  "company": {
+   "ticker": "IOVA",
+   "name": "Iovance Biotherapeutics",
+   "last_price": "9.64",
+   "market_cap": 6708507136,
+   "website": "https://www.iovance.com"
+  },
+  "ticker": "IOVA",
+  "drug_name": "Iovance TIL (LN-145)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 868,
+    "title": "Non-small cell lung carcinoma",
+    "nickname": "NSCLC"
+   }
+  ],
+  "indications_text": "Non-small cell lung carcinoma (NSCLC)",
+  "stage_event": {
+   "id": 135,
+   "label": "Phase 2 Initiation",
+   "stage_label": "Phase 2",
+   "event_label": "Initiation"
+  },
+  "note": "IOV-LUN-202 trial. 12/27/23- Placed on clinical hold on 12/22/23. 3/4/24- Clinical hold lifted. 11/3/25- Interim data reported. Present add'l data at upcoming medical meeting in 2026. 11/06/25:- Interim data show 26% ORR, mDOR not reached; enrollment complete 2026; updated data 2026; sBLA, launch 2027. 02/24/26:- FDA Fast Track in 2L NSQ NSCLC; updated data, enrollment, sBLA, launch timelines reiterated for 2026-2H27. 05/07/26:- IOV-LUN-202 milestones reiterated: 2026 data update and enrollment completion; potential accelerated US approval and 2H 2027 launch. 08/06/26:- IOV-LUN-202 enrollment nearly complete; program updates expected Q4 2026; sBLA planned 2027. 10/29/26:- Cohorts 1/2 updated to 24.6% ORR (n=69); POSITILITY cohort enrolls November 2026. sBLA planned 2027.",
+  "catalyst_date": "2026-11-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391108/0/en/iovance-reports-updated-iov-lun-202-results-and-adds-precision-til-strategy-for-second-line-metastatic-non-small-cell-lung-cancer-mnsclc.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -2895,7 +3153,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "31.95",
+   "last_price": "31.87",
    "market_cap": 5592710144,
    "website": "https://www.cogentbio.com"
   },
@@ -3252,7 +3510,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "813.27",
+   "last_price": "812.37",
    "market_cap": 83730210816,
    "website": "https://www.regeneron.com"
   },
@@ -3671,7 +3929,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "49.67",
+   "last_price": "48.93",
    "market_cap": 1509709824,
    "website": "https://www.anaptysbio.com"
   },
@@ -4276,7 +4534,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "31.95",
+   "last_price": "31.87",
    "market_cap": 5592710144,
    "website": "https://www.cogentbio.com"
   },
@@ -4621,7 +4879,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "10.38",
+   "last_price": "10.00",
    "market_cap": 2096196480,
    "website": "https://sellaslifesciences.com"
   },
@@ -4812,7 +5070,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "4.00",
+   "last_price": "3.98",
    "market_cap": 765899712,
    "website": "https://www.annexonbio.com"
   },
@@ -5059,145 +5317,6 @@
   "move_analysis_ai_reasoning": "COMBAT-ALS results are expected by year-end 2026, following completion of blinded patient visits in September. The trial randomized 234 patients to ibudilast or placebo for 12 months. Its primary endpoint combines survival with physical function, so a convincing result needs to show meaningful patient benefit rather than an isolated favorable subgroup. The open-label extension, in which participants receive ibudilast, is separate from this readout. ([medicinova.gcs-web.com](https://medicinova.gcs-web.com/news-releases/news-release-details/medicinova-announces-completion-last-patient-last-visit-double?utm_source=openai))\n\nHistorical neurology development success rates were 26.8% for Phase 2 advancement and 53.1% for Phase 3 advancement toward filing. Those are broad reference points, not the probability of an unequivocally favorable result here. Ibudilast's earlier randomized ALS study primarily tested safety; its responder and subgroup findings support further investigation but do not establish reliable efficacy. A separate 35-patient open-label study found no significant improvement in inflammation or nerve-injury biomarkers, and 31% discontinued treatment because of intolerance. Together, these findings support a cautious 15\u201325% probability of a clearly favorable outcome, versus 50\u201360% for a clearly unfavorable one. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf))\n\nAt the supplied $69.9 million market capitalization, convincing efficacy in this lead program could substantially transform MediciNova's value, supporting conditional upside of 60\u2013100%. BPIQ reports zero specialist hedge-fund holders across the supplied four-quarter history. That does not establish that the drug will fail, but it provides little specialist endorsement of the investment case. The supplied historical reactions include a 25.2% opening gain on MN-001 news in 2018 and a 14.9% opening gain on COVID-19 trial results in 2022; recent ALS operational updates moved the stock much less. The upside range assumes a more consequential efficacy result than those earlier events, not a routine study update.\n\nA clearly negative result could cause a 40\u201365% decline because ALS is central to the investment case, although cash and other programs retain value. A mixed result could move shares between \u221230% and +5%: encouraging secondary findings or a modest benefit may still leave investors facing uncertain clinical value and further development costs. The earlier studies' exploratory efficacy findings and tolerability issues make that middle outcome a meaningful possibility. ([investors.medicinova.com](https://investors.medicinova.com/news-releases/news-release-details/medicinova-announces-clinical-data-subgroup-analyses-completed?utm_source=openai))\n\nJune cash was $25.4 million, and management guided funding through at least November 2027. That supports reaching the readout, but does not fund every potential development program. The $30 million equity-purchase facility offers financing flexibility while exposing shareholders to dilution. With the year-end event more than 60 days away, these estimates rest on the clinical and valuation case rather than an options-implied move. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1226616/000119312526349323/mnov-20260630.htm))",
   "catalyst_event_details": "MediciNova expects topline results from the Phase 2b/3 COMBAT-ALS trial of MN-166 (ibudilast) in amyotrophic lateral sclerosis by year-end 2026. ([rss.globenewswire.com](https://rss.globenewswire.com/news-release/2026/09/24/3368112/7767/en/medicinova-announces-completion-of-last-patient-last-visit-in-the-double-blind-portion-of-the-phase-2b-3-combat-als-trial-of-mn-166-ibudilast.html?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-19T17:48:54Z"
- },
- {
-  "id": 15088,
-  "company": {
-   "ticker": "IMCR",
-   "name": "Immunocore Holdings",
-   "last_price": "31.74",
-   "market_cap": 1679369856,
-   "website": "https://www.immunocore.com"
-  },
-  "ticker": "IMCR",
-  "drug_name": "IMC-F106C (Brenetafusp)",
-  "indications": [
-   {
-    "id": 947,
-    "title": "Breast cancer",
-    "nickname": ""
-   },
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1250,
-    "title": "Endometrial cancer",
-    "nickname": ""
-   },
-   {
-    "id": 704,
-    "title": "Ovarian cancer",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Ovarian cancer, Solid tumor/s, Cancer, Breast cancer, Endometrial cancer",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "9/9/22- Initial Ph1 data presented. 5/8/24- Report data NSCLC in Q4 2024. 9/14/24- Presents Ph1 data from ovarian cancer at ESMO '24. 2/26/25- Trial ongoing. 11/06/25:- Phase 1/2 IMC-F106C-101 trial continues in PROC, PSOC, and NSCLC combination cohorts with chemotherapy and targeted agents. 02/25/26:- IMC-F106C-101 Phase 1/2 ovarian and NSCLC cohorts ongoing; Phase 1/2 data planned for presentation in H2 2026. 05/06/26:- IMC-F106C-101 Phase 1/2 ovarian and NSCLC cohorts enrolling; Phase 1/2 data presentation still planned H2 2026. 08/06/26:- IMC-F106C-101 ovarian and NSCLC cohorts ongoing; Phase 1/2 data expected H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.immunocore.com/investors/news/press-releases/detail/117/immunocore-reports-second-quarter-financial-results-and-provides-a-business-update",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 15096,
-  "company": {
-   "ticker": "IOVA",
-   "name": "Iovance Biotherapeutics",
-   "last_price": "9.64",
-   "market_cap": 6708507136,
-   "website": "https://www.iovance.com"
-  },
-  "ticker": "IOVA",
-  "drug_name": "Iovance TIL (LN-145)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 868,
-    "title": "Non-small cell lung carcinoma",
-    "nickname": "NSCLC"
-   }
-  ],
-  "indications_text": "Non-small cell lung carcinoma (NSCLC)",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "IOV-LUN-202 trial. 12/27/23- Placed on clinical hold on 12/22/23. 3/4/24- Clinical hold lifted. 11/3/25- Interim data reported. Present add'l data at upcoming medical meeting in 2026. 11/06/25:- Interim data show 26% ORR, mDOR not reached; enrollment complete 2026; updated data 2026; sBLA, launch 2027. 02/24/26:- FDA Fast Track in 2L NSQ NSCLC; updated data, enrollment, sBLA, launch timelines reiterated for 2026-2H27. 05/07/26:- IOV-LUN-202 milestones reiterated: 2026 data update and enrollment completion; potential accelerated US approval and 2H 2027 launch. 08/06/26:- IOV-LUN-202 enrollment nearly complete; program updates expected Q4 2026; sBLA planned 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340124/0/en/iovance-biotherapeutics-reports-record-second-quarter-2026-revenue-of-99m-business-achievements-and-corporate-updates.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "40.000000",
-  "probability_clean_plus_max": "50.000000",
-  "probability_mixed_min": "30.000000",
-  "probability_mixed_max": "40.000000",
-  "probability_clean_minus_min": "15.000000",
-  "probability_clean_minus_max": "25.000000",
-  "magnitude_clean_plus_min": "12.000000",
-  "magnitude_clean_plus_max": "25.000000",
-  "magnitude_mixed_min": "-18.000000",
-  "magnitude_mixed_max": "-5.000000",
-  "magnitude_clean_minus_min": "-30.000000",
-  "magnitude_clean_minus_max": "-20.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an incremental update from an uncontrolled registrational study, not the first efficacy readout. Approximately 80 patients are planned across the pivotal cohorts; the primary endpoint is independently reviewed tumor response. Earlier results showed a 25.6% response rate in 39 evaluable patients, including one response awaiting confirmation, with median response duration not reached after 25.4 months of follow-up. That preliminary rate should not be treated as a fully confirmed response rate. The key questions are whether additional patients sustain the activity and durability, and whether reduced-intensity conditioning preserves efficacy while improving safety. Q4 guidance covers program updates rather than guaranteeing a final pivotal dataset. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1425205/000110465926018899/iova-20251231x10k.htm?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The Q4 2026 lung-cancer update follows encouraging results, so the investment question is whether new evidence meaningfully strengthens the case for a 2027 filing. Historically, about 25% of Phase 2 oncology programs advanced, but that broad benchmark is not the probability of a favorable share-price reaction. Existing activity in this same trial supports better prospects than a completely new Phase 2 experiment. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1425205/000110465926091619/tm2622322d1_ex99-1.htm))\n\nWe assign a 40\u201350% chance of a clearly favorable update. Strong results would sustain the earlier response signal in additional patients, demonstrate lasting benefit, and support acceptable safety with the less intensive preparation regimen. The earlier response count included one response awaiting confirmation. Independent review helps make tumor assessments consistent, but there is no randomized control group, and results among patients who receive treatment do not fully describe the experience of everyone entering the treatment process. These features leave substantial room for an inconclusive update or disappointment. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1425205/000110465926113763/tm2627047d1_ex99-1.htm)) The previous fatal event associated with the preparation regimen, followed by a clinical hold that was subsequently lifted, also makes safety important. ([ir.iovance.com](https://ir.iovance.com/static-files/2ff817ec-3302-4c27-a38d-17fab402e206?utm_source=openai))\n\nBPIQ reports two specialist hedge funds, with participation fluctuating between one and two and holdings concentrated in Palo Alto Investors. That is limited external endorsement, not evidence that the treatment will fail. At the supplied $6.2 billion market capitalization, investors already assign meaningful value to commercial growth and pipeline expansion. Company-reported unrestricted cash and investments were approximately $298 million at June 30, with funding expected into the second half of 2028. This supports continued development, although spending and financing needs still depend on execution. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1425205/000110465926091619/tm2622322d1_ex99-1.htm))\n\nOur conditional share-price ranges are +12\u201325% for clearly strong results, \u221218% to \u22125% for an ambiguous update, and \u221240% to \u221225% for a material setback. The supplied November 2025 lung update produced a +9.6% opening gap and +15.7% intraday move, supporting meaningful but not automatically transformational upside. A large decline would require evidence threatening the lung filing or confidence in the broader treatment platform. The established melanoma business provides support, while the much larger potential lung market keeps this program important. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1425205/000110465926091619/tm2622322d1_ex99-1.htm)) With the analysed year-end date more than 60 days away, options pricing does not anchor these event-specific ranges.",
-  "catalyst_event_details": "Iovance expects a Q4 2026 program update from Phase 2 IOV-LUN-202 evaluating lifileucel in previously treated metastatic nonsquamous NSCLC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1425205/000110465926091619/tm2622322d1_ex99-1.htm))",
-  "move_analysis_created_datetime": "2026-10-19T18:14:30Z"
  },
  {
   "id": 15115,
@@ -5462,7 +5581,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.05",
+   "last_price": "3.74",
    "market_cap": 271572352,
    "website": "https://www.bicycletherapeutics.com"
   },
@@ -5921,7 +6040,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "2.21",
+   "last_price": "2.13",
    "market_cap": 260010528,
    "website": "https://www.fatetherapeutics.com"
   },
@@ -6308,7 +6427,7 @@
   "company": {
    "ticker": "HOWL",
    "name": "Werewolf Therapeutics",
-   "last_price": "1.06",
+   "last_price": "1.08",
    "market_cap": 51517576,
    "website": "https://werewolftx.com"
   },
@@ -6494,7 +6613,7 @@
   "company": {
    "ticker": "HOWL",
    "name": "Werewolf Therapeutics",
-   "last_price": "1.06",
+   "last_price": "1.08",
    "market_cap": 51517576,
    "website": "https://werewolftx.com"
   },
@@ -6814,7 +6933,7 @@
   "company": {
    "ticker": "OVID",
    "name": "Ovid Therapeutics",
-   "last_price": "2.45",
+   "last_price": "2.50",
    "market_cap": 478479744,
    "website": "https://www.ovidrx.com"
   },
@@ -7196,7 +7315,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "13.16",
+   "last_price": "13.36",
    "market_cap": 1650037504,
    "website": "https://www.novocure.com"
   },
@@ -7253,7 +7372,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "10.38",
+   "last_price": "10.00",
    "market_cap": 2096196480,
    "website": "https://sellaslifesciences.com"
   },
@@ -7319,6 +7438,53 @@
   "move_analysis_ai_reasoning": "The Q4 2026 readout is an important test of whether SLS009 can help patients earlier in AML treatment. It provides genuinely new efficacy information, but it is not a pivotal approval trial. The prior relapsed/refractory results offer a useful foundation: meaningful responses were seen after venetoclax-based treatment failed, without dose-limiting toxicities or treatment-related deaths in the reported dataset. Moving into newly diagnosed patients still tests a different treatment setting. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1390478/000139047826000013/sls-202608118xkexhibit991.htm))\n\nHistorically, about 24.6% of Phase 2 oncology programs advanced to Phase 3; the report's blood-cancer subgroup achieved 27.8%. These are development-transition rates, not probabilities of a favorable stock reaction. Prior human activity supports better odds than a typical early oncology program, but not an exceptionally high probability of unequivocal success. Our 35\u201345% Clean+ range requires convincing remission depth, durability, and tolerability\u2014not simply an encouraging overall response rate. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf))\n\nThe two patient groups create different comparison challenges. Molecularly selected patients may still respond to azacitidine/venetoclax alone, while patients already showing resistance have a different outlook. Small cohort sizes, differences in mutations, and incomplete follow-up can produce encouraging biology without a clear clinical conclusion. Broad response measures also include marrow responses without full blood-count recovery. These considerations support a substantial 30\u201340% Mixed probability and a 20\u201330% probability of clearly disappointing results. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/03/12/3254670/0/en/SELLAS-Life-Sciences-Announces-Enrollment-of-First-Patient-in-Newly-Diagnosed-First-Line-AML-Trial-of-SLS009.html))\n\nAt the supplied approximately $2.3 billion market capitalization, substantial optimism is already embedded in SELLAS. BPIQ's specialist hedge-fund count is 0, so specialist sponsorship does not add confidence to this setup. The supplied historical reactions to earlier SLS009 announcements were modest rather than transformative. We estimate +15\u201335% for clearly strong data, \u221220% to +5% for ambiguous results, and \u221235% to \u221220% for a clear disappointment. These are SLS009-specific estimates, assuming no simultaneous REGAL result and broadly similar pre-readout valuation.\n\nCash of $138.3 million provides substantial funding flexibility. At the supplied trailing annual burn of $30.6 million, that represents roughly four and a half years before spending growth. Nevertheless, later-stage development could require more capital. A $150 million share-sale program and approximately 9.7 million outstanding warrants create potential dilution, although financing is not an immediate survival constraint. SELLAS holds SLS009 rights outside Greater China, subject to milestone payments and single-digit royalties. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1390478/000139047826000012/sls-20260630.htm))\n\nThe supplied January 2027 options imply approximately 79% total movement and a mechanically calculated 68% event-related move. That is much larger than our SLS009-only forecast. However, the pending Phase 3 REGAL result can fall within the same options window and materially change SELLAS's valuation and expectations before SLS009 reports. The options therefore price a combined company-risk window, not an isolated SLS009 event, and do not confirm either direction as an options-supported big mover. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1390478/000139047826000013/sls-202608118xkexhibit991.htm))",
   "catalyst_event_details": "SLS009 plus venetoclax and azacitidine Phase 2 topline data in newly diagnosed and early-resistant acute myeloid leukemia are expected in Q4 2026. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1390478/000139047826000013/sls-202608118xkexhibit991.htm))",
   "move_analysis_created_datetime": "2026-10-06T15:13:30Z"
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-18",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
  },
  {
   "id": 17191,
@@ -7387,7 +7553,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "21.07",
+   "last_price": "20.63",
    "market_cap": 2463166720,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -7445,58 +7611,11 @@
   "move_analysis_created_datetime": "2026-10-06T14:57:45Z"
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-18",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 17194,
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "21.07",
+   "last_price": "20.63",
    "market_cap": 2463166720,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -7749,7 +7868,7 @@
   "company": {
    "ticker": "CADL",
    "name": "Candel Therapeutics",
-   "last_price": "8.73",
+   "last_price": "8.57",
    "market_cap": 663416000,
    "website": "https://www.candeltx.com"
   },
@@ -9076,7 +9195,7 @@
   "company": {
    "ticker": "LSTA",
    "name": "Lisata Therapeutics",
-   "last_price": "1.06",
+   "last_price": "1.02",
    "market_cap": 11452309,
    "website": "https://www.lisata.com"
   },
@@ -10088,7 +10207,7 @@
   "company": {
    "ticker": "PHAT",
    "name": "Phathom Pharmaceuticals",
-   "last_price": "6.28",
+   "last_price": "5.79",
    "market_cap": 508057888,
    "website": "https://www.phathompharma.com"
   },
@@ -10165,10 +10284,10 @@
    "stage_label": "Phase 1/2",
    "event_label": "Data readout"
   },
-  "note": "8/22/24- Received IND clearance. 9/18/24- Receives Fast Track Designation. 9/24/24 Presentation at EADV 2024. 4/25/25- Trial presentation at ASCO'25. 8/27/25- First patient dosed. 11/12/25:- Company reiterates first patient dosed in Ph1/2 ATR-04 trial in August 2025. 02/24/26:- MD Anderson added as sixth site for Ph1/2 ATR-04 trial NCT06830863; Cohort 1 enrolling eight patients. 02/27/26:- Company expects topline data from first ATR-04 Ph1/2 cohort around Mid-2026. 05/13/26:- MD Anderson site reiterated. Topline Ph1/2 Cohort 1 data expected H2 2026. 08/12/26:- Cohort 1 enrollment continues at six sites. Topline Ph1/2 data is expected in Q4 2026. 10/01/26:- Cohort 1 completed; safety review cleared trial to proceed to Cohort 2 enrollment and dosing.",
+  "note": "8/22/24- Received IND clearance. 9/18/24- Receives Fast Track Designation. 9/24/24 Presentation at EADV 2024. 4/25/25- Trial presentation at ASCO'25. 8/27/25- First patient dosed. 11/12/25:- Company reiterates first patient dosed in Ph1/2 ATR-04 trial in August 2025. 02/24/26:- MD Anderson added as sixth site for Ph1/2 ATR-04 trial NCT06830863; Cohort 1 enrolling eight patients. 02/27/26:- Company expects topline data from first ATR-04 Ph1/2 cohort around Mid-2026. 05/13/26:- MD Anderson site reiterated. Topline Ph1/2 Cohort 1 data expected H2 2026. 08/12/26:- Cohort 1 enrollment continues at six sites. Topline Ph1/2 data is expected in Q4 2026. 10/01/26:- Cohort 1 completed; safety review cleared trial to proceed to Cohort 2 enrollment and dosing. 10/29/26:- Eligibility expanded to KRAS/MEK inhibitor rash, including NF1; Cohort 2 enrolling ~24 patients.",
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/azitra-inc-advances-atr-04-phase-12-clinical-trial-to-cohort-2-following-safety-review-committee-clearance-302895366.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/n62692701/azitra-inc-expands-eligibility-atr-04-phase-1-2-clinical-trial-include-patients-rashes-due-kras-and-",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -10202,7 +10321,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "9.84",
+   "last_price": "9.56",
    "market_cap": 1194961792,
    "website": "https://www.verastem.com"
   },
@@ -10621,7 +10740,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "16.32",
+   "last_price": "15.98",
    "market_cap": 12580511744,
    "website": "https://www.smmttx.com"
   },
@@ -10750,7 +10869,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "99.76",
+   "last_price": "100.52",
    "market_cap": 6098911232,
    "website": "https://kodiak.com"
   },
@@ -10869,7 +10988,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "37.60",
+   "last_price": "36.91",
    "market_cap": 2275835648,
    "website": "https://www.agios.com"
   },
@@ -11775,63 +11894,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18470,
-  "company": {
-   "ticker": "ALLO",
-   "name": "Allogene Therapeutics",
-   "last_price": "1.30",
-   "market_cap": 449138112,
-   "website": "https://allogene.com"
-  },
-  "ticker": "ALLO",
-  "drug_name": "ALLO-329 [CD19/CD70 Dual CAR]",
-  "indications": [
-   {
-    "id": 1272,
-    "title": "Autoimmune disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Autoimmune disease",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "05/13/26:- RESOLUTION treated nine patients. Early activity seen, with next update expected Q4 2026. 08/12/26:- RESOLUTION enrollment continued briskly. Clinical and translational data will be updated in Q4 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/12/3344049/0/en/allogene-therapeutics-reports-second-quarter-2026-financial-results-and-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 18496,
   "company": {
    "ticker": "IMAB",
@@ -12379,7 +12441,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "27.94",
+   "last_price": "26.87",
    "market_cap": 2978149888,
    "website": "https://www.nurixtx.com"
   },
@@ -13128,7 +13190,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "4.88",
+   "last_price": "4.87",
    "market_cap": 1762676096,
    "website": "https://www.alvotech.com"
   },
@@ -13422,7 +13484,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "4.88",
+   "last_price": "4.87",
    "market_cap": 1762676096,
    "website": "https://www.alvotech.com"
   },
@@ -13660,7 +13722,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "3.96",
+   "last_price": "3.97",
    "market_cap": 582907648,
    "website": "https://www.aclaristx.com"
   },
@@ -13888,7 +13950,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "22.50",
+   "last_price": "24.29",
    "market_cap": 1079511424,
    "website": "https://www.rapportrx.com"
   },
@@ -13945,7 +14007,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.25",
+   "last_price": "1.32",
    "market_cap": 163166848,
    "website": "https://www.alxoncology.com"
   },
@@ -14007,7 +14069,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "27.94",
+   "last_price": "26.87",
    "market_cap": 2978149888,
    "website": "https://www.nurixtx.com"
   },
@@ -14250,7 +14312,7 @@
   "company": {
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
-   "last_price": "9.91",
+   "last_price": "9.80",
    "market_cap": 645847872,
    "website": "https://www.bicara.com"
   },
@@ -14365,119 +14427,11 @@
   "move_analysis_created_datetime": "2026-10-19T17:50:40Z"
  },
  {
-  "id": 18963,
-  "company": {
-   "ticker": "XENE",
-   "name": "Xenon Pharmaceuticals",
-   "last_price": "37.10",
-   "market_cap": 3519181312,
-   "website": "https://www.xenon-pharma.com"
-  },
-  "ticker": "XENE",
-  "drug_name": "XEN1120 (Kv7 channel opener)",
-  "indications": [
-   {
-    "id": 1006,
-    "title": "Pain",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Pain",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "5/12/25- CTA accepted. Ph1 initiation in 2025. 11/03/25:- Phase 1 SAD/MAD study underway in healthy adults. 02/26/26:- XEN1120 Phase 1 SAD/MAD in healthy adults ongoing; completion expected in 2026 to support Phase 2 pain study. 05/07/26:- XEN1120 Phase 1 SAD/MAD pain study ongoing; completion expected in H2 2026 to support Phase 2 proof-of-concept. 08/06/26:- XEN1120 Phase 1 SAD/MAD completion remains expected in H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340663/0/en/xenon-reports-q2-2026-financial-results-and-provides-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18964,
-  "company": {
-   "ticker": "XENE",
-   "name": "Xenon Pharmaceuticals",
-   "last_price": "37.10",
-   "market_cap": 3519181312,
-   "website": "https://www.xenon-pharma.com"
-  },
-  "ticker": "XENE",
-  "drug_name": "XEN1701 (Nav1.7 candidate)",
-  "indications": [],
-  "indications_text": "No defined indication",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "5/12/25- IND filing and Ph1 study start in Q3 2025. 11/03/25:- Phase 1 SAD/MAD study of XEN1701 for pain is underway in healthy volunteers. 02/26/26:- XEN1701 Phase 1 SAD/MAD pain study ongoing; completion expected in 2026 to support Phase 2 proof-of-concept. 05/07/26:- XEN1701 Phase 1 SAD/MAD pain study ongoing; completion expected in H2 2026 to support Phase 2 proof-of-concept. 08/06/26:- XEN1701 Phase 1 SAD/MAD completion remains expected in H2 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340663/33485/en/xenon-reports-q2-2026-financial-results-and-provides-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 18967,
   "company": {
    "ticker": "FBIO",
    "name": "Fortress Biotech",
-   "last_price": "2.03",
+   "last_price": "1.99",
    "market_cap": 65367944,
    "website": "https://www.fortressbiotech.com"
   },
@@ -14596,7 +14550,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "6.10",
+   "last_price": "5.88",
    "market_cap": 272627648,
    "website": "https://bioagelabs.com"
   },
@@ -15456,7 +15410,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "21.07",
+   "last_price": "20.63",
    "market_cap": 2463166720,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -15518,7 +15472,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "21.07",
+   "last_price": "20.63",
    "market_cap": 2463166720,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -15927,7 +15881,7 @@
   "company": {
    "ticker": "CATX",
    "name": "Perspective Therapeutics",
-   "last_price": "1.20",
+   "last_price": "1.17",
    "market_cap": 142689584,
    "website": "https://www.perspectivetherapeutics.com"
   },
@@ -15984,7 +15938,7 @@
   "company": {
    "ticker": "ABSI",
    "name": "Absci",
-   "last_price": "12.31",
+   "last_price": "12.07",
    "market_cap": 2038774528,
    "website": "https://www.absci.com"
   },
@@ -16734,7 +16688,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "33.09",
+   "last_price": "33.16",
    "market_cap": 3276782848,
    "website": "https://www.ideayabio.com"
   },
@@ -16982,7 +16936,7 @@
   "company": {
    "ticker": "CRIS",
    "name": "Curis",
-   "last_price": "0.56",
+   "last_price": "0.51",
    "market_cap": 1100985,
    "website": "https://www.curis.com"
   },
@@ -17158,7 +17112,7 @@
   "company": {
    "ticker": "INTS",
    "name": "Intensity Therapeutics",
-   "last_price": "3.36",
+   "last_price": "3.29",
    "market_cap": 11035291,
    "website": "https://intensitytherapeutics.com"
   },
@@ -17282,7 +17236,7 @@
   "company": {
    "ticker": "IPSC",
    "name": "Century Therapeutics",
-   "last_price": "1.53",
+   "last_price": "1.42",
    "market_cap": 271612992,
    "website": "https://www.centurytx.com"
   },
@@ -17458,7 +17412,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "49.67",
+   "last_price": "48.93",
    "market_cap": 1509709824,
    "website": "https://www.anaptysbio.com"
   },
@@ -17515,7 +17469,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "49.67",
+   "last_price": "48.93",
    "market_cap": 1509709824,
    "website": "https://www.anaptysbio.com"
   },
@@ -17634,7 +17588,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "2.21",
+   "last_price": "2.13",
    "market_cap": 260010528,
    "website": "https://www.fatetherapeutics.com"
   },
@@ -18162,7 +18116,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "18.24",
+   "last_price": "17.87",
    "market_cap": 1103518720,
    "website": "https://www.januxrx.com"
   },
@@ -18928,7 +18882,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "33.09",
+   "last_price": "33.16",
    "market_cap": 3276782848,
    "website": "https://www.ideayabio.com"
   },
@@ -18985,7 +18939,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "33.09",
+   "last_price": "33.16",
    "market_cap": 3276782848,
    "website": "https://www.ideayabio.com"
   },
@@ -19171,7 +19125,7 @@
   "company": {
    "ticker": "MANE",
    "name": "Veradermics",
-   "last_price": "143.83",
+   "last_price": "141.56",
    "market_cap": 6009236992,
    "website": "https://www.veradermics.com"
   },
@@ -20108,7 +20062,7 @@
   "company": {
    "ticker": "AMGN",
    "name": "Amgen",
-   "last_price": "451.83",
+   "last_price": "459.35",
    "market_cap": 244273741824,
    "website": "https://www.amgen.com"
   },
@@ -20507,7 +20461,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "72.09",
+   "last_price": "70.84",
    "market_cap": 13844813824,
    "website": "https://bridgebio.com"
   },
@@ -21483,68 +21437,6 @@
   "move_analysis_ai_reasoning": "We estimate a 40\u201350% chance of approval for the expected population and dosing without unexpected commercially burdensome restrictions, 10\u201320% for a materially restricted or delayed outcome, and 35\u201345% for another rejection or equivalent setback. ALLELE shows meaningful treatment activity: the later 86-patient analysis reported a 47.7% response rate. But additional patients and longer follow-up do not create a randomized comparison or automatically settle FDA\u2019s objections to the evidence. ([pierrefabrepharmaceuticals.com](https://www.pierrefabrepharmaceuticals.com/sites/default/files/press/20251208_PR_ASH_2025_Data.pdf)) This twice-rejected application deserves more caution than an ordinary approval-stage filing. The agreement on a possible historical-control approach provides a credible path, but the submission must demonstrate that the approach works for these patients. ([investors.atarabio.com](https://investors.atarabio.com/news-events/press-releases/detail/385/atara-biotherapeutics-provides-regulatory-update-on?trk=article-ssr-frontend-pulse_little-text-block))\n\nManufacturing has stronger support than an entirely untested first U.S. launch. FDA explicitly accepted remediation of the earlier facility deficiency. ([download.open.fda.gov](https://download.open.fda.gov/crl/CRL_BLA125745_20260109.pdf)) Pierre Fabre has responsibility for manufacturing and supply, and the product already has European commercial experience. Atara\u2019s economics are nevertheless those of a licensing partner: a potential $31 million approval milestone, future royalties and sales milestones, with some European proceeds committed to HCRx and underlying license obligations reducing retained proceeds. ([investors.atarabio.com](https://investors.atarabio.com/sec-filings/all-sec-filings/content/0001193125-26-108361/0001193125-26-108361.pdf?utm_source=openai))\n\nAt the supplied $92.1 million market capitalization and $85.9 million enterprise value, tab-cel dominates the investment case. A clean approval could produce a 50\u2013100% gain, while another rejection could cause a 65\u201390% decline by undermining the main value driver and increasing financing pressure. Mixed outcomes span \u221230% to +20%, depending on commercial access and payment timing. Atara\u2019s supplied historical reactions include opening declines of 49.1% and 58.9% after its two CRLs, versus only a 0.2% opening decline on the latest filing acceptance. Those reactions support a large binary move, not a presumption that approval is the likely outcome. The deepest downside assumes a setback that seriously impairs the remaining investment case. Holding through the decision carries a substantial risk of severe or permanent loss.\n\nThe BPIQ ownership snapshot shows two specialist funds with $22.9 million combined. The count has stayed at two across four quarters: meaningful participation, but a narrow investor base rather than evidence of FDA success. Atara reported $9.9 million of June 30 cash and investments, $3.3 million of quarterly operating cash use, and funding guidance into mid-2027. That provides limited cushioning against an extended setback. ([investors.atarabio.com](https://investors.atarabio.com/news-events/press-releases/detail/388/atara-biotherapeutics-announces-second-quarter-2026)) Earnings, financing or a strategic transaction could reset the share-price baseline before March 31. The move ranges apply immediately around the eventual FDA outcome.\n\nPending litigation alleges manufacturing and regulatory disclosure failures; there has been no adjudicated finding of liability. Those allegations are not proof of misconduct or a separate reason to predict rejection. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1604464/000119312526346885/atra-20260630.htm?utm_source=openai)) The decision is 163 days away, so options pricing is not used. Both directions qualify as suspected big movers based on the conditional share-price ranges, but neither has options-confirmed big-mover status.",
   "catalyst_event_details": "The FDA decision on tabelecleucel\u2019s resubmitted BLA for previously treated EBV-positive post-transplant lymphoproliferative disease is targeted for March 31, 2027. ([pierrefabrepharmaceuticals.com](https://www.pierrefabrepharmaceuticals.com/sites/default/files/press/20261014_PR_Final_BLA_Acceptance_Announcement.pdf))",
   "move_analysis_created_datetime": "2026-10-19T18:02:14Z"
- },
- {
-  "id": 14211,
-  "company": {
-   "ticker": "CNSY",
-   "name": "Cerenome, Inc.",
-   "last_price": "1.84",
-   "market_cap": 13205948,
-   "website": "https://cerenome.com"
-  },
-  "ticker": "CNSY",
-  "drug_name": "REYOBIQ (Rhenium Re186 Obisbemeda)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 767,
-    "title": "Glioblastoma",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Glioblastoma",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "05/15/26:- ReSPECT-GBM Ph2 data expected Q1 2027. Enrollment completion planned in 2026. SpectronRx added as second GMP site. 08/14/26:- ReSPECT-GBM Ph2 enrollment continues and will complete in 2026. Data is expected Q1 2027, followed by an FDA End-of-Phase 2 meeting.",
-  "catalyst_date": "2027-03-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/14/3345619/0/en/cerenome-reports-second-quarter-2026-financial-results-and-business-update.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "15.000000",
-  "probability_clean_plus_max": "25.000000",
-  "probability_mixed_min": "35.000000",
-  "probability_mixed_max": "45.000000",
-  "probability_clean_minus_min": "35.000000",
-  "probability_clean_minus_max": "45.000000",
-  "magnitude_clean_plus_min": "35.000000",
-  "magnitude_clean_plus_max": "90.000000",
-  "magnitude_mixed_min": "-25.000000",
-  "magnitude_mixed_max": "5.000000",
-  "magnitude_clean_minus_min": "-60.000000",
-  "magnitude_clean_minus_max": "-30.000000",
-  "up_suspected_big_mover": true,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is an expanded-cohort efficacy readout after encouraging interim results, not the first evidence of activity. The open-label, single-arm Phase 2 targets approximately 34 patients and measures overall survival. Without a randomized comparison, patient selection and subsequent treatments complicate interpretation. ([clinicaltrials.gov](https://clinicaltrials.gov/study/NCT01906385?utm_source=openai)) The company previously reported median survival of 13 months in 15 Phase 2 patients. The expectation bar is whether that signal remains persuasive with more patients, longer follow-up and acceptable neurological safety; further development or out-licensing remains data-dependent. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1095981/000119312526411259/cnsy-ex99_1.htm)) At the supplied $12.9 million market capitalization, strong results could be material, but financing obligations and potential dilution can limit shareholder gains.",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "REYOBIQ's expanded Phase 2 glioblastoma readout is expected in the first half of 2027. Investors have already seen encouraging interim survival results, so a clearly positive outcome needs to strengthen that evidence rather than simply repeat it. This remains a development-stage readout, not an approval decision. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1095981/000119312526411259/cnsy-ex99_1.htm))\n\nHistorically, about 24.6% of oncology programs advanced from Phase 2 to Phase 3. That is a useful cautionary reference, not a direct prediction of this stock's response. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) REYOBIQ has encouraging human evidence: the published Phase 1 study reported median survival of 11 months overall and 17 months in the higher absorbed-radiation-dose subgroup. However, those dose comparisons were exploratory and not randomized. ([nature.com](https://www.nature.com/articles/s41467-025-57263-1?utm_source=openai)) With approximately 34 Phase 2 patients and no concurrent control group, differences in patient health, tumor characteristics and subsequent care can materially affect the survival result. ([clinicaltrials.gov](https://clinicaltrials.gov/study/NCT01906385?utm_source=openai))\n\nBPIQ reports zero specialist hedge-fund holders across the supplied four quarters. That provides little specialist ownership support, although it does not prove the treatment will fail. The supplied market capitalization is approximately $12.9 million, with enterprise value of $6.3 million. June cash was $8.6 million against approximately $7.1 million of quarterly burn. September's financing announcement forecasts runway into 2028, but that projection includes further facility funding and expected CNSide sales and cash flow\u2014not simply cash already received. ([ir.cerenome.com](https://ir.cerenome.com/news-releases/news-release-details/cerenome-announces-20-million-financing-facility-royalty-based?utm_source=openai))\n\nWe assign a 15\u201325% probability to an unequivocally positive result. A persuasive survival signal with manageable safety could support a 35\u201390% gain from this small valuation. Mixed results have a 35\u201345% probability and a \u221225% to +5% move range: apparent activity may still leave investors unconvinced about the next trial or commercial differentiation. Clearly disappointing results have a 35\u201345% probability and could produce a 30\u201360% decline. These are conditional estimates, not price targets.\n\nCNSide and the leptomeningeal program offer other sources of value, while their earlier milestones can change expectations before the glioblastoma readout. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1095981/000119312526411259/cnsy-ex99_1.htm)) The ranges assume no transformative intervening event. CNSY has no listed options, so there is no options-implied move to compare with these fundamental estimates. Both directions have substantial potential moves, but neither has options confirmation.",
-  "catalyst_event_details": "REYOBIQ\u2019s ReSPECT-GBM Phase 2 readout in recurrent glioblastoma is expected in the first half of 2027. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1095981/000119312526411259/cnsy-ex99_1.htm))",
-  "move_analysis_created_datetime": "2026-10-19T17:55:58Z"
  },
  {
   "id": 15137,
@@ -23021,7 +22913,7 @@
   "company": {
    "ticker": "NAMS",
    "name": "NewAmsterdam Pharma Company NV",
-   "last_price": "21.07",
+   "last_price": "20.63",
    "market_cap": 2463166720,
    "website": "https://www.newamsterdampharma.com"
   },
@@ -24211,7 +24103,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "72.09",
+   "last_price": "70.84",
    "market_cap": 13844813824,
    "website": "https://bridgebio.com"
   },
@@ -25183,7 +25075,7 @@
   "company": {
    "ticker": "CRIS",
    "name": "Curis",
-   "last_price": "0.56",
+   "last_price": "0.51",
    "market_cap": 1100985,
    "website": "https://www.curis.com"
   },
@@ -25426,7 +25318,7 @@
   "company": {
    "ticker": "JANX",
    "name": "Janux Therapeutics",
-   "last_price": "18.24",
+   "last_price": "17.87",
    "market_cap": 1103518720,
    "website": "https://www.januxrx.com"
   },
@@ -26341,7 +26233,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "10.20",
+   "last_price": "10.30",
    "market_cap": 656858944,
    "website": "https://www.adlainortye.com"
   },
@@ -26579,7 +26471,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.34",
+   "last_price": "19.15",
    "market_cap": 3083456768,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -27213,6 +27105,114 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 18963,
+  "company": {
+   "ticker": "XENE",
+   "name": "Xenon Pharmaceuticals",
+   "last_price": "37.10",
+   "market_cap": 3519181312,
+   "website": "https://www.xenon-pharma.com"
+  },
+  "ticker": "XENE",
+  "drug_name": "XEN1120 (Kv7 channel opener)",
+  "indications": [
+   {
+    "id": 1006,
+    "title": "Pain",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Pain",
+  "stage_event": {
+   "id": 135,
+   "label": "Phase 2 Initiation",
+   "stage_label": "Phase 2",
+   "event_label": "Initiation"
+  },
+  "note": "5/12/25- CTA accepted. Ph1 initiation in 2025. 11/03/25:- Phase 1 SAD/MAD study underway in healthy adults. 02/26/26:- XEN1120 Phase 1 SAD/MAD in healthy adults ongoing; completion expected in 2026 to support Phase 2 pain study. 05/07/26:- XEN1120 Phase 1 SAD/MAD pain study ongoing; completion expected in H2 2026 to support Phase 2 proof-of-concept. 08/06/26:- XEN1120 Phase 1 SAD/MAD completion remains expected in H2 2026. 10/29/26:- Positive Phase 1 SAD/MAD results shown. Phase 2 acute pain proof-of-concept study expected to start H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62692508/xenon-announces-positive-phase-1-and-new-preclinical-data-iasp-2026-supporting-advancement-xen1701-a",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 18964,
+  "company": {
+   "ticker": "XENE",
+   "name": "Xenon Pharmaceuticals",
+   "last_price": "37.10",
+   "market_cap": 3519181312,
+   "website": "https://www.xenon-pharma.com"
+  },
+  "ticker": "XENE",
+  "drug_name": "XEN1701 (Nav1.7 candidate)",
+  "indications": [],
+  "indications_text": "No defined indication",
+  "stage_event": {
+   "id": 135,
+   "label": "Phase 2 Initiation",
+   "stage_label": "Phase 2",
+   "event_label": "Initiation"
+  },
+  "note": "5/12/25- IND filing and Ph1 study start in Q3 2025. 11/03/25:- Phase 1 SAD/MAD study of XEN1701 for pain is underway in healthy volunteers. 02/26/26:- XEN1701 Phase 1 SAD/MAD pain study ongoing; completion expected in 2026 to support Phase 2 proof-of-concept. 05/07/26:- XEN1701 Phase 1 SAD/MAD pain study ongoing; completion expected in H2 2026 to support Phase 2 proof-of-concept. 08/06/26:- XEN1701 Phase 1 SAD/MAD completion remains expected in H2 2026. 10/29/26:- Positive Ph1 SAD/MAD results shown. Phase 2 acute pain proof-of-concept studies expected to start H1 2027.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62692508/xenon-announces-positive-phase-1-and-new-preclinical-data-iasp-2026-supporting-advancement-xen1701-a",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -28168,7 +28168,7 @@
   "company": {
    "ticker": "ANL",
    "name": "Adlai Nortye Biopharma",
-   "last_price": "10.20",
+   "last_price": "10.30",
    "market_cap": 656858944,
    "website": "https://www.adlainortye.com"
   },
@@ -28230,7 +28230,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.34",
+   "last_price": "19.15",
    "market_cap": 3083456768,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -28287,7 +28287,7 @@
   "company": {
    "ticker": "MANE",
    "name": "Veradermics",
-   "last_price": "143.83",
+   "last_price": "141.56",
    "market_cap": 6009236992,
    "website": "https://www.veradermics.com"
   },
@@ -28344,7 +28344,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "9.84",
+   "last_price": "9.56",
    "market_cap": 1194961792,
    "website": "https://www.verastem.com"
   },
@@ -28406,7 +28406,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "2.21",
+   "last_price": "2.13",
    "market_cap": 260010528,
    "website": "https://www.fatetherapeutics.com"
   },
@@ -29468,6 +29468,68 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 14211,
+  "company": {
+   "ticker": "CNSY",
+   "name": "Cerenome, Inc.",
+   "last_price": "1.84",
+   "market_cap": 13205948,
+   "website": "https://cerenome.com"
+  },
+  "ticker": "CNSY",
+  "drug_name": "REYOBIQ (Rhenium Re186 Obisbemeda)",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 767,
+    "title": "Glioblastoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Glioblastoma",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "05/15/26:- ReSPECT-GBM Ph2 data expected Q1 2027. Enrollment completion planned in 2026. SpectronRx added as second GMP site. 08/14/26:- ReSPECT-GBM Ph2 enrollment continues and will complete in 2026. Data is expected Q1 2027, followed by an FDA End-of-Phase 2 meeting. 10/29/26:- ReSPECT-GBM enrollment complete; topline Ph2 data expected Mid-2027. FDA End-of-Phase 2 meeting planned after.",
+  "catalyst_date": "2027-08-15",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391148/0/en/cerenome-completes-enrollment-in-phase-2-respect-gbm-trial-of-reyobiq-in-recurrent-glioblastoma.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 14361,
   "company": {
    "ticker": "VRCA",
@@ -29750,10 +29812,10 @@
    "stage_label": "Phase 2b",
    "event_label": "Data readout"
   },
-  "note": "11/13/23- Data presented at ASN Kidney Week '23 on 11/02/23. April 2024- Granted ODD from FDA. Requested pre-IND meeting with FDA regarding further development. 08/12/26:- FDA cleared the Phase 2b NMAS trial. Initiation is expected in Q3 2026; topline data will be available by Mid-2027 and final results by year-end 2027. 09/11/26:- EXACT Ph2b NMAS study dosed first two patients. Topline data expected Mid-2027; final readout End-2027.",
+  "note": "11/13/23- Data presented at ASN Kidney Week '23 on 11/02/23. April 2024- Granted ODD from FDA. Requested pre-IND meeting with FDA regarding further development. 08/12/26:- FDA cleared the Phase 2b NMAS trial. Initiation is expected in Q3 2026; topline data will be available by Mid-2027 and final results by year-end 2027. 09/11/26:- EXACT Ph2b NMAS study dosed first two patients. Topline data expected Mid-2027; final readout End-2027. 10/29/26:- FDA and European Commission granted orphan drug designations for exaluren in Alport syndrome.",
   "catalyst_date": "2027-08-15",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/eloxx-pharmaceuticals-announces-first-patients-dosed-in-phase-2b-exact-study-of-exaluren-in-nonsense-mutation-alport-syndrome-302876003.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/eloxx-pharmaceuticals-announces-fda-clearance-of-investigational-new-drug-application-for-exaluren-in-nonsense-mutation-adpkd-302922973.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -30164,7 +30226,7 @@
   "company": {
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
-   "last_price": "9.91",
+   "last_price": "9.80",
    "market_cap": 645847872,
    "website": "https://www.bicara.com"
   },
@@ -30340,7 +30402,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.25",
+   "last_price": "1.32",
    "market_cap": 163166848,
    "website": "https://www.alxoncology.com"
   },
@@ -30707,10 +30769,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "08/05/26:- ALPHA-ORBIT enrollment completed; top-line navenibart data expected in Q3 2027.",
+  "note": "08/05/26:- ALPHA-ORBIT enrollment completed; top-line navenibart data expected in Q3 2027. 10/29/26:- ALPHA-SOLAR interim navenibart HAE results to be presented at ACAAI 2026 on Nov 15.",
   "catalyst_date": "2027-09-30",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/05/3339185/0/en/biocryst-reports-second-quarter-2026-financial-results.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62687847/biocryst-present-new-data-orladeyo-berotralstat-and-navenibart-2026-american-college-allergy-asthma-",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -30744,7 +30806,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "22.50",
+   "last_price": "24.29",
    "market_cap": 1079511424,
    "website": "https://www.rapportrx.com"
   },
@@ -31225,7 +31287,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.34",
+   "last_price": "19.15",
    "market_cap": 3083456768,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -32378,10 +32440,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "SIGMA/G203 trial. 8/7/25- Updated Ph2 trial design published. 10/23/25- First patient enrolled in Part 2. Provide further updates on progress in earnings call on November 3, 2025. 02/04/26:- Initial data in 2027. 03/02/26:- Phase 2 grade 2 IDH1 glioma data published; ORR 44%, 88% PFS-24mo; SIGMA now pivotal Ph3. 05/04/26:- Acquired Japan rights, now global control. SIGMA pivotal Ph3 data expected 2029; exploratory oligodendroglioma cohort data 2027. 08/06/26:- PR No update. 08/20/26:- FDA granted Fast Track to safusidenib; SIGMA Ph3 enrollment ongoing.",
+  "note": "SIGMA/G203 trial. 8/7/25- Updated Ph2 trial design published. 10/23/25- First patient enrolled in Part 2. Provide further updates on progress in earnings call on November 3, 2025. 02/04/26:- Initial data in 2027. 03/02/26:- Phase 2 grade 2 IDH1 glioma data published; ORR 44%, 88% PFS-24mo; SIGMA now pivotal Ph3. 05/04/26:- Acquired Japan rights, now global control. SIGMA pivotal Ph3 data expected 2029; exploratory oligodendroglioma cohort data 2027. 08/06/26:- PR No update. 08/20/26:- FDA granted Fast Track to safusidenib; SIGMA Ph3 enrollment ongoing. 10/29/26:- SIGMA (G203) Ph3 adds six European countries; enrollment ongoing.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/nuvation-bio-granted-fda-fast-track-designation-for-safusidenib-for-treatment-of-idh1-mutant-glioma-302855678.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/nuvation-bio-to-expand-pivotal-phase-3-sigma-study-of-safusidenib-for-idh1-mutant-glioma-to-six-european-countries-302922445.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -32415,7 +32477,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "38.44",
+   "last_price": "38.07",
    "market_cap": 5119380480,
    "website": "https://definiumtx.com"
   },
@@ -33580,7 +33642,7 @@
   "company": {
    "ticker": "JBIO",
    "name": "Jade Biosciences",
-   "last_price": "14.59",
+   "last_price": "14.21",
    "market_cap": 927885888,
    "website": "https://jadebiosciences.com"
   },
@@ -34827,7 +34889,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "6.10",
+   "last_price": "5.88",
    "market_cap": 272627648,
    "website": "https://bioagelabs.com"
   },
@@ -34884,7 +34946,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.34",
+   "last_price": "19.15",
    "market_cap": 3083456768,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -35122,7 +35184,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.34",
+   "last_price": "19.15",
    "market_cap": 3083456768,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -35960,7 +36022,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "9.84",
+   "last_price": "9.56",
    "market_cap": 1194961792,
    "website": "https://www.verastem.com"
   },
@@ -36022,7 +36084,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "9.84",
+   "last_price": "9.56",
    "market_cap": 1194961792,
    "website": "https://www.verastem.com"
   },
@@ -36860,7 +36922,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "22.50",
+   "last_price": "24.29",
    "market_cap": 1079511424,
    "website": "https://www.rapportrx.com"
   },
@@ -37668,7 +37730,7 @@
   "company": {
    "ticker": "PHAT",
    "name": "Phathom Pharmaceuticals",
-   "last_price": "6.28",
+   "last_price": "5.79",
    "market_cap": 508057888,
    "website": "https://www.phathompharma.com"
   },
@@ -38077,7 +38139,7 @@
   "company": {
    "ticker": "DCTH",
    "name": "Delcath Systems Inc",
-   "last_price": "14.78",
+   "last_price": "14.60",
    "market_cap": 515624096,
    "website": "https://www.delcath.com"
   },
@@ -38666,7 +38728,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "49.67",
+   "last_price": "48.93",
    "market_cap": 1509709824,
    "website": "https://www.anaptysbio.com"
   },
@@ -38723,7 +38785,7 @@
   "company": {
    "ticker": "ANAB",
    "name": "AnaptysBio Inc",
-   "last_price": "49.67",
+   "last_price": "48.93",
    "market_cap": 1509709824,
    "website": "https://www.anaptysbio.com"
   },
@@ -39281,7 +39343,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "27.94",
+   "last_price": "26.87",
    "market_cap": 2978149888,
    "website": "https://www.nurixtx.com"
   },
@@ -39653,7 +39715,7 @@
   "company": {
    "ticker": "ALXO",
    "name": "ALX Oncology Holdings Inc",
-   "last_price": "1.25",
+   "last_price": "1.32",
    "market_cap": 163166848,
    "website": "https://www.alxoncology.com"
   },
@@ -39911,7 +39973,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "4.05",
+   "last_price": "3.74",
    "market_cap": 271572352,
    "website": "https://www.bicycletherapeutics.com"
   },
@@ -40723,68 +40785,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 17680,
-  "company": {
-   "ticker": "ELTX",
-   "name": "Elicio Therapeutics",
-   "last_price": "1.81",
-   "market_cap": 50118700,
-   "website": "https://elicio.com"
-  },
-  "ticker": "ELTX",
-  "drug_name": "ELI-002 7P",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 859,
-    "title": "Pancreatic cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Pancreatic cancer, Cancer",
-  "stage_event": {
-   "id": 137,
-   "label": "Phase 2 Update",
-   "stage_label": "Phase 2",
-   "event_label": "Update"
-  },
-  "note": "AMPLIFY-7P trial. 1/11/24- First patient dosed. 12/3/24- Completed enrollment in Ph2 portion. 8/7/25- Secured alignment w/ FDA on planned Ph3 study. 9/29/25- Initiate Ph1 IIT in H1 2026. 11/7/25\u2013 99% mKRAS-specific T cell responses data presented at SITC\u201925. 11/13/25:- Ph2 AMPLIFY-7P DFS primary analysis expected H1 2026; Ph1 IIT neoadjuvant PDAC trial initiation also anticipated H1 2026. 12/11/25:- Ph2 AMPLIFY-7P subset showed 87% antigen spreading with broad non-mKRAS neoantigen T cell responses. 03/12/26:- DFS primary analysis still expected H1 2026. Oral AMPLIFY-7P updates at WVC and AACR 2026. 05/11/26:- AMPLIFY-7P DFS primary analysis still expected mid-2026. Fewer events observed; remains blinded. EoPh2 FDA meeting planned. 06/15/26:- AMPLIFY-7P Ph2 missed DFS; post-hoc R0 benefit. Ph3 planned, timing TBA. 06/17/26:- 3 post-ELI-002 7P pts had confirmed CRs on nivolumab-based therapy. Plans Ph1 metastatic combo study. 08/10/26:- Ph1 neoadjuvant IIT NCT07671339 opened in resectable/borderline resectable PDAC; enroll 20. 08/13/26:- AMPLIFY-7P Phase 2 subgroup analyses continue to refine the Phase 3 strategy. Neoadjuvant Phase 1 trial has been activated. 09/24/26:- AMPLIFY-7P Phase 2 complete results present at ESMO Oct 23, 2026. 10/23/26:- Ph2 AMPLIFY-7P subgroup DFS favored camupepimut; Nature Medicine published. Plans FDA discussion for Ph3 design.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/23/3387264/0/en/elicio-therapeutics-presents-late-breaking-phase-2-amplify-7p-results-at-esmo-congress-2026-and-announces-simultaneous-publication-in-nature-medicine.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 17685,
   "company": {
    "ticker": "AZTR",
@@ -41027,7 +41027,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "13.16",
+   "last_price": "13.36",
    "market_cap": 1650037504,
    "website": "https://www.novocure.com"
   },
@@ -41089,7 +41089,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "38.44",
+   "last_price": "38.07",
    "market_cap": 5119380480,
    "website": "https://definiumtx.com"
   },
@@ -41503,7 +41503,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "33.09",
+   "last_price": "33.16",
    "market_cap": 3276782848,
    "website": "https://www.ideayabio.com"
   },
@@ -41751,7 +41751,7 @@
   "company": {
    "ticker": "NVCR",
    "name": "NovoCure Limited",
-   "last_price": "13.16",
+   "last_price": "13.36",
    "market_cap": 1650037504,
    "website": "https://www.novocure.com"
   },
@@ -42056,7 +42056,7 @@
   "company": {
    "ticker": "ACRS",
    "name": "Aclaris Therapeutics Inc.",
-   "last_price": "3.96",
+   "last_price": "3.97",
    "market_cap": 582907648,
    "website": "https://www.aclaristx.com"
   },
@@ -42723,7 +42723,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "27.94",
+   "last_price": "26.87",
    "market_cap": 2978149888,
    "website": "https://www.nurixtx.com"
   },

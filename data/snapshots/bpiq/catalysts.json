@@ -894,7 +894,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "30.74",
+   "last_price": "30.60",
    "market_cap": 1610361728,
    "website": "https://www.immunocore.com"
   },
@@ -971,7 +971,7 @@
   "company": {
    "ticker": "ELTX",
    "name": "Elicio Therapeutics",
-   "last_price": "1.71",
+   "last_price": "1.70",
    "market_cap": 47409580,
    "website": "https://elicio.com"
   },
@@ -1348,7 +1348,7 @@
   "company": {
    "ticker": "DTIL",
    "name": "Precision BioSciences",
-   "last_price": "7.44",
+   "last_price": "7.23",
    "market_cap": 205355568,
    "website": "https://precisionbiosciences.com"
   },
@@ -2082,7 +2082,7 @@
   "company": {
    "ticker": "PHVS",
    "name": "Pharvaris B.V. ",
-   "last_price": "33.58",
+   "last_price": "33.34",
    "market_cap": 2357467392,
    "website": "https://pharvaris.com"
   },
@@ -2454,7 +2454,7 @@
   "company": {
    "ticker": "CRBP",
    "name": "Corbus Pharmaceuticals",
-   "last_price": "4.19",
+   "last_price": "4.23",
    "market_cap": 81620248,
    "website": "https://www.corbuspharma.com"
   },
@@ -2621,6 +2621,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 17446,
+  "company": {
+   "ticker": "BIIB",
+   "name": "Biogen",
+   "last_price": "254.37",
+   "market_cap": 36903317504,
+   "website": "https://www.biogen.com"
+  },
+  "ticker": "BIIB",
+  "drug_name": "BIIB080 (tau ASO)",
+  "indications": [
+   {
+    "id": 1311,
+    "title": "Alzheimer's disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alzheimer's disease",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Ph2 CEILA study currently ongoing. New Ph1b data and Ph2 Trial presentation at CTAD '23. 05/14/26:- Ph2 CELIA topline results showed tau reductions and cognitive slowing. Data to be presented at AAIC 2026. 06/29/26:- Present Ph2 CELIA clinical, biomarker, and safety data at AAIC 2026 on July 14, 2026. 07/14/26:- Phase 2 CELIA data at AAIC 2026; primary endpoint missed; plans to advance into Phase 3. 10/29/26:- CTAD Nov 17, 2026 presents CELIA 96-week long-term extension and 76-week biomarker and clinical data.",
+  "catalyst_date": "2026-11-17",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62687783/biogen-present-new-data-across-alzheimer-s-disease-portfolio-ctad-2026",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 18987,
   "company": {
    "ticker": "BHVN",
@@ -2744,7 +2801,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "6.39",
+   "last_price": "6.24",
    "market_cap": 385461504,
    "website": "https://www.capricor.com"
   },
@@ -3029,7 +3086,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "31.64",
+   "last_price": "30.72",
    "market_cap": 5545858048,
    "website": "https://www.cogentbio.com"
   },
@@ -3329,7 +3386,7 @@
   "company": {
    "ticker": "PHAR",
    "name": "Pharming Group",
-   "last_price": "12.13",
+   "last_price": "11.56",
    "market_cap": 858538688,
    "website": "https://www.pharming.com"
   },
@@ -4410,7 +4467,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "31.64",
+   "last_price": "30.72",
    "market_cap": 5545858048,
    "website": "https://www.cogentbio.com"
   },
@@ -7378,6 +7435,53 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-19",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 17193,
   "company": {
    "ticker": "NAMS",
@@ -7438,53 +7542,6 @@
   "move_analysis_ai_reasoning": "Additional BROOKLYN analyses are expected throughout 2026, rather than on a specified December date. The main cholesterol-lowering result is already established. ([ir.newamsterdampharma.com](https://ir.newamsterdampharma.com/news-releases/news-release-details/newamsterdam-pharma-provides-corporate-update-and-reports-7?utm_source=openai)) Historically, 55.2% of cardiovascular Phase 3 programs advanced to a regulatory filing in BIO's 2011\u20132020 study, but that benchmark describes unresolved development programs, not follow-up analyses from a successful trial. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) BROOKLYN's randomized evidence supports confidence in the drug's LDL-C effect and reported tolerability. ([ir.newamsterdampharma.com](https://ir.newamsterdampharma.com/news-releases/news-release-details/newamsterdam-pharma-announces-positive-topline-data-pivotal?utm_source=openai))\n\nWe assign a 45\u201355% probability to clearly useful additional evidence and 40\u201350% to a mixed outcome. Another supportive analysis may add little to what investors already expect. Subgroup findings and exploratory comparisons also need cautious interpretation. A genuinely confidence-damaging result appears less likely, supporting a 3\u20137% adverse-outcome range. These are judgments about the additional evidence and its investment significance, not the probability of repeating the original endpoint success.\n\nNAMS has seven BPIQ-tracked specialist hedge funds, with five reporting holders in the latest supplied quarter versus six previously. Large Frazier and RA Capital positions support specialist engagement, although ownership does not guarantee results. At approximately $2.7 billion in market value and $2.1 billion in enterprise value, NAMS is not a distressed microcap. BPIQ's $633.9 million cash figure and $147.8 million trailing annual burn imply roughly four years of funding at that spending pace. Company-reported cash plus marketable securities totaled $678.3 million at June 30, 2026; commercial expansion could increase spending. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/08/05/3339184/0/en/NewAmsterdam-Pharma-Provides-Corporate-Update-and-Reports-Second-Quarter-Financial-Results.html?utm_source=openai))\n\nObicetrapib is central to company value, but European approval on September 21, 2026 already established an important part of the investment case. Menarini handles European commercialization; NAMS retains low-double-digit to mid-twenties sales royalties and contingent milestones. Those economics remain meaningful, but another BROOKLYN analysis would not create an entirely new commercial opportunity. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1936258/000119312526396716/nams-20260921.htm)) We estimate 2\u20138% upside for useful evidence and -6% to +1% for ambiguous or largely expected findings. The supplied BROOKLYN conference reaction supports modest upside rather than the much larger reaction seen at BROADWAY's original topline. An 8\u201318% decline remains plausible if new findings genuinely undermine confidence in the core drug.\n\nThe supplied January options straddle indicates approximately 34.8% movement through expiration, much greater than our estimate for BROOKLYN alone. Its wide spreads and overlapping RUBENS and PREVAIL risks prevent treating that figure, or the calculated 25.8% event component, as a BROOKLYN-specific forecast. February options indicate 70.6% movement but also span the expected first-quarter 2027 PREVAIL interim result; that analysis may or may not allow the trial to stop early. Neither expiration establishes an options-confirmed big move for this additional-analysis catalyst. ([ir.newamsterdampharma.com](https://ir.newamsterdampharma.com/node/10226/pdf?utm_source=openai))",
   "catalyst_event_details": "Additional Phase 3 BROOKLYN analyses of obicetrapib in heterozygous familial hypercholesterolemia are planned throughout 2026.",
   "move_analysis_created_datetime": "2026-10-06T14:57:45Z"
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-19",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
  },
  {
   "id": 17194,
@@ -8064,7 +8121,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "30.74",
+   "last_price": "30.60",
    "market_cap": 1610361728,
    "website": "https://www.immunocore.com"
   },
@@ -8255,7 +8312,7 @@
   "company": {
    "ticker": "GNPX",
    "name": "Genprex",
-   "last_price": "2.07",
+   "last_price": "2.04",
    "market_cap": 1672206,
    "website": "https://www.genprex.com"
   },
@@ -8384,7 +8441,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.07",
+   "last_price": "2.04",
    "market_cap": 95015200,
    "website": "https://www.genelux.com"
   },
@@ -9009,7 +9066,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.07",
+   "last_price": "2.04",
    "market_cap": 95015200,
    "website": "https://www.genelux.com"
   },
@@ -10492,7 +10549,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.07",
+   "last_price": "2.04",
    "market_cap": 95015200,
    "website": "https://www.genelux.com"
   },
@@ -12833,7 +12890,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "30.74",
+   "last_price": "30.60",
    "market_cap": 1610361728,
    "website": "https://www.immunocore.com"
   },
@@ -12952,7 +13009,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "60.96",
+   "last_price": "61.30",
    "market_cap": 8891095040,
    "website": "https://www.tgtherapeutics.com"
   },
@@ -15058,7 +15115,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "21.70",
+   "last_price": "21.79",
    "market_cap": 1564538240,
    "website": "https://structuretx.com"
   },
@@ -15643,7 +15700,7 @@
   "company": {
    "ticker": "DTIL",
    "name": "Precision BioSciences",
-   "last_price": "7.44",
+   "last_price": "7.23",
    "market_cap": 205355568,
    "website": "https://precisionbiosciences.com"
   },
@@ -16161,7 +16218,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "119.03",
+   "last_price": "124.28",
    "market_cap": 10466533376,
    "website": "https://www.kymeratx.com"
   },
@@ -16755,7 +16812,7 @@
   "company": {
    "ticker": "CRIS",
    "name": "Curis",
-   "last_price": "0.55",
+   "last_price": "0.50",
    "market_cap": 1330155,
    "website": "https://www.curis.com"
   },
@@ -17697,7 +17754,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "85.14",
+   "last_price": "84.83",
    "market_cap": 5609492992,
    "website": "https://www.mirumpharma.com"
   },
@@ -18049,7 +18106,7 @@
   "company": {
    "ticker": "OPK",
    "name": "OPKO Health",
-   "last_price": "1.66",
+   "last_price": "1.65",
    "market_cap": 1238904832,
    "website": "https://www.opko.com"
   },
@@ -19938,7 +19995,7 @@
   "company": {
    "ticker": "CGTX",
    "name": "Cognition Therapeutics",
-   "last_price": "0.70",
+   "last_price": "0.69",
    "market_cap": 70312320,
    "website": "https://www.cogrx.com"
   },
@@ -20937,7 +20994,7 @@
   "company": {
    "ticker": "APMD",
    "name": "Apnimed",
-   "last_price": "17.34",
+   "last_price": "16.46",
    "market_cap": 721877760,
    "website": "https://apnimed.com"
   },
@@ -21671,7 +21728,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "85.14",
+   "last_price": "84.83",
    "market_cap": 5609492992,
    "website": "https://www.mirumpharma.com"
   },
@@ -21790,7 +21847,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "30.74",
+   "last_price": "30.60",
    "market_cap": 1610361728,
    "website": "https://www.immunocore.com"
   },
@@ -22647,63 +22704,6 @@
   "catalyst_date": "2027-03-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/03/3337385/0/en/autolus-therapeutics-reports-preliminary-second-quarter-2026-net-product-revenue-and-announces-credit-facility-of-up-to-250-million-with-perceptive-advisors.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18924,
-  "company": {
-   "ticker": "KYMR",
-   "name": "Kymera Therapeutics",
-   "last_price": "119.03",
-   "market_cap": 10466533376,
-   "website": "https://www.kymeratx.com"
-  },
-  "ticker": "KYMR",
-  "drug_name": "KT-579",
-  "indications": [
-   {
-    "id": 1174,
-    "title": "Inflammatory disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Inflammatory disorders",
-  "stage_event": {
-   "id": 117,
-   "label": "Phase 1b Initiation",
-   "stage_label": "Phase 1b",
-   "event_label": "Initiation"
-  },
-  "note": "5/9/25- Ongoing IND enabling studies w/ Ph1 testing to begin in early 2026. 11/04/25:- Completed IND-enabling studies; KT-579 entering Ph1 in early 2026 with supportive preclinical efficacy data. 02/27/26:- Dosing started in Ph1 healthy volunteer trial; data expected in H2 2026. 04/30/26:- Ph1 healthy volunteer trial ongoing; data H2 2026; lupus and IBD data presentations planned at DDW, EULAR, FOCIS 2026. 05/05/26:- DDW 2026 poster showed preclinical IBD activity. Phase 1 healthy-volunteer data expected H2 2026. 08/05/26:- Ph1 data expected Q4 2026. Lupus Ph1b planned after healthy-volunteer trial. 10/28/26:- Ph1 SAD/MAD results to be reported October 29, 2026. 10/29/26:- Positive Phase 1 SAD/MAD data reported. LUMORA Phase 1b lupus trial will start by Early 2027. Preclinical lupus data will be presented November 6-11, 2026.",
-  "catalyst_date": "2027-03-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391085/0/en/kymera-therapeutics-announces-third-quarter-2026-financial-results-and-reports-positive-results-from-the-kt-579-phase-1-healthy-volunteer-trial.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -23922,7 +23922,7 @@
   "company": {
    "ticker": "PHVS",
    "name": "Pharvaris B.V. ",
-   "last_price": "33.58",
+   "last_price": "33.34",
    "market_cap": 2357467392,
    "website": "https://pharvaris.com"
   },
@@ -24678,7 +24678,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "6.85",
+   "last_price": "6.89",
    "market_cap": 1112765312,
    "website": "https://www.immatics.com"
   },
@@ -25127,7 +25127,7 @@
   "company": {
    "ticker": "CRIS",
    "name": "Curis",
-   "last_price": "0.55",
+   "last_price": "0.50",
    "market_cap": 1330155,
    "website": "https://www.curis.com"
   },
@@ -26590,7 +26590,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.32",
+   "last_price": "18.90",
    "market_cap": 3088251904,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -26709,7 +26709,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "21.70",
+   "last_price": "21.79",
    "market_cap": 1564538240,
    "website": "https://structuretx.com"
   },
@@ -27248,57 +27248,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18964,
-  "company": {
-   "ticker": "XENE",
-   "name": "Xenon Pharmaceuticals",
-   "last_price": "37.54",
-   "market_cap": 3635389952,
-   "website": "https://www.xenon-pharma.com"
-  },
-  "ticker": "XENE",
-  "drug_name": "XEN1701 (Nav1.7 candidate)",
-  "indications": [],
-  "indications_text": "No defined indication",
-  "stage_event": {
-   "id": 135,
-   "label": "Phase 2 Initiation",
-   "stage_label": "Phase 2",
-   "event_label": "Initiation"
-  },
-  "note": "5/12/25- IND filing and Ph1 study start in Q3 2025. 11/03/25:- Phase 1 SAD/MAD study of XEN1701 for pain is underway in healthy volunteers. 02/26/26:- XEN1701 Phase 1 SAD/MAD pain study ongoing; completion expected in 2026 to support Phase 2 proof-of-concept. 05/07/26:- XEN1701 Phase 1 SAD/MAD pain study ongoing; completion expected in H2 2026 to support Phase 2 proof-of-concept. 08/06/26:- XEN1701 Phase 1 SAD/MAD completion remains expected in H2 2026. 10/29/26:- Positive Ph1 SAD/MAD results shown. Phase 2 acute pain proof-of-concept studies expected to start H1 2027.",
-  "catalyst_date": "2027-06-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391282/0/en/xenon-announces-positive-phase-1-and-new-preclinical-data-at-iasp-2026-supporting-advancement-of-xen1701-and-xen1120-to-phase-2-proof-of-concept-studies-in-acute-pain.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 19049,
   "company": {
    "ticker": "STRO",
@@ -27712,7 +27661,7 @@
   "company": {
    "ticker": "OPK",
    "name": "OPKO Health",
-   "last_price": "1.66",
+   "last_price": "1.65",
    "market_cap": 1238904832,
    "website": "https://www.opko.com"
   },
@@ -28173,7 +28122,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "256.87",
+   "last_price": "254.37",
    "market_cap": 36903317504,
    "website": "https://www.biogen.com"
   },
@@ -28292,7 +28241,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.32",
+   "last_price": "18.90",
    "market_cap": 3088251904,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -30697,7 +30646,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "256.87",
+   "last_price": "254.37",
    "market_cap": 36903317504,
    "website": "https://www.biogen.com"
   },
@@ -31349,7 +31298,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.32",
+   "last_price": "18.90",
    "market_cap": 3088251904,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -31459,6 +31408,68 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 17053,
+  "company": {
+   "ticker": "VKTX",
+   "name": "Viking Therapeutics",
+   "last_price": "27.73",
+   "market_cap": 3425246208,
+   "website": "https://www.vikingtherapeutics.com"
+  },
+  "ticker": "VKTX",
+  "drug_name": "VK2735 (Oral formulation)",
+  "indications": [
+   {
+    "id": 1081,
+    "title": "Metabolic disorder",
+    "nickname": ""
+   },
+   {
+    "id": 1027,
+    "title": "Obesity",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Obesity",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "07/29/26:- Oral Phase 3 trial initiation remains expected in Q4 2026. 09/22/26:- Oral maintenance dosing to be explored in upcoming part 2. Oral Phase 3 initiation expected Q4 2026. 10/06/26:- Maintenance Part 2 oral dosing initiated; results expected 2027. Oral Phase 3 initiation expected Q4 2026. 10/14/26:- SUNRISE Phase 3 for oral VK2735 initiated. Maintenance trial includes daily oral and subcutaneous options. 10/28/26:- SUNRISE-1 and SUNRISE-2 Phase 3 trials remain underway. Maintenance Part 2 results will be available in 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/viking-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update-302922632.html",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 17078,
   "company": {
    "ticker": "AURA",
@@ -31525,7 +31536,7 @@
   "company": {
    "ticker": "CGTX",
    "name": "Cognition Therapeutics",
-   "last_price": "0.70",
+   "last_price": "0.69",
    "market_cap": 70312320,
    "website": "https://www.cogrx.com"
   },
@@ -32410,7 +32421,7 @@
   "company": {
    "ticker": "IMCR",
    "name": "Immunocore Holdings",
-   "last_price": "30.74",
+   "last_price": "30.60",
    "market_cap": 1610361728,
    "website": "https://www.immunocore.com"
   },
@@ -33010,7 +33021,7 @@
   "company": {
    "ticker": "MIRM",
    "name": "Mirum Pharmaceuticals",
-   "last_price": "85.14",
+   "last_price": "84.83",
    "market_cap": 5609492992,
    "website": "https://www.mirumpharma.com"
   },
@@ -33067,7 +33078,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "119.03",
+   "last_price": "124.28",
    "market_cap": 10466533376,
    "website": "https://www.kymeratx.com"
   },
@@ -33124,7 +33135,7 @@
   "company": {
    "ticker": "PHAR",
    "name": "Pharming Group",
-   "last_price": "12.13",
+   "last_price": "11.56",
    "market_cap": 858538688,
    "website": "https://www.pharming.com"
   },
@@ -35065,7 +35076,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.32",
+   "last_price": "18.90",
    "market_cap": 3088251904,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -35303,7 +35314,7 @@
   "company": {
    "ticker": "DNLI",
    "name": "Denali Therapeutics",
-   "last_price": "19.32",
+   "last_price": "18.90",
    "market_cap": 3088251904,
    "website": "https://www.denalitherapeutics.com"
   },
@@ -35603,7 +35614,7 @@
   "company": {
    "ticker": "EDSA",
    "name": "Edesa Biotech",
-   "last_price": "2.70",
+   "last_price": "2.63",
    "market_cap": 36481136,
    "website": "https://www.edesabiotech.com"
   },
@@ -36436,7 +36447,7 @@
   "company": {
    "ticker": "IMTX",
    "name": "Immatics ",
-   "last_price": "6.85",
+   "last_price": "6.89",
    "market_cap": 1112765312,
    "website": "https://www.immatics.com"
   },
@@ -38429,7 +38440,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "21.70",
+   "last_price": "21.79",
    "market_cap": 1564538240,
    "website": "https://structuretx.com"
   },
@@ -39644,68 +39655,11 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 14145,
-  "company": {
-   "ticker": "ABOS",
-   "name": "Acumen Pharmaceuticals",
-   "last_price": "0.32",
-   "market_cap": 165629568,
-   "website": "https://acumenpharm.com"
-  },
-  "ticker": "ABOS",
-  "drug_name": "Sabirnetug (ACU193)",
-  "indications": [
-   {
-    "id": 1311,
-    "title": "Alzheimer's disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Alzheimer's disease",
-  "stage_event": {
-   "id": 77,
-   "label": "Failed Discontinued",
-   "stage_label": "Failed",
-   "event_label": "Discontinued"
-  },
-  "note": "INTERCEPT-AD & ALTITUDE-AD trials. 5/8/24- First patient dosed. Presented at AD/PD & AAN'25. 3/26/25- Completed enrollment ahead of schedule. 8/12/25- Topline data in late 2026. 11/17/25- First patient dosed in Ph2 OLE study. 03/03/26:- New ALTITUDE-AD biomarker and brain-delivery data to be presented at AD/PD March 17-21, 2026. 03/17/26:- ALTITUDE-AD enrolled 542; topline results expected Late 2026 (NCT06335173). 03/26/26:- AD/PD and CTAD 2025 presentations showed sabirnetug biomarker responses and recruitment analyses; ALTITUDE-AD topline remains expected Late 2026. 05/12/26:- ALTITUDE-AD topline results for early AD remain expected in Late 2026. 07/07/26:- ALTITUDE-AD patient-perspective findings to be presented at AAIC July 14, 2026; topline still Late 2026. 07/15/26:- AAIC 2026 posters shared ALTITUDE-AD patient-experience data; topline still expected Late 2026. 08/12/26:- ALTITUDE-AD readout preparations continue. Topline results for the Phase 2 trial will be reported in Late 2026. 10/22/26:- CTAD 2026 posters on ALTITUDE-AD baseline and caregiver narratives; topline results still expected Late 2026. 10/26/26:- ALTITUDE-AD Phase 2 topline results will be reported in November 2026. 10/30/26:- ALTITUDE-AD topline failed; company plans to cease sabirnetug development.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/30/3392145/0/en/acumen-pharmaceuticals-announces-topline-results-from-phase-2-altitude-ad-clinical-trial-of-sabirnetug-acu193-for-the-treatment-of-early-alzheimer-s-disease-trial-did-not-meet-prim.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": "30.000000",
-  "probability_clean_plus_max": "40.000000",
-  "probability_mixed_min": "20.000000",
-  "probability_mixed_max": "30.000000",
-  "probability_clean_minus_min": "35.000000",
-  "probability_clean_minus_max": "45.000000",
-  "magnitude_clean_plus_min": "60.000000",
-  "magnitude_clean_plus_max": "100.000000",
-  "magnitude_mixed_min": "-40.000000",
-  "magnitude_mixed_max": "-10.000000",
-  "magnitude_clean_minus_min": "-85.000000",
-  "magnitude_clean_minus_max": "-65.000000",
-  "up_suspected_big_mover": true,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "This is a primary efficacy readout, not an extension update. ALTITUDE-AD randomized 542 participants to two monthly intravenous doses or placebo for 18 months; the primary endpoint is iADRS, a combined thinking-and-daily-function scale. CDR-SB, another clinical scale, and brain-swelling or bleeding safety findings will help establish whether any benefit is convincing. ([investors.acumenpharm.com](https://investors.acumenpharm.com/static-files/9f4935fb-c635-42ae-9298-aff91885deb1?utm_source=openai)) Earlier target engagement and biomarker responses support the rationale but do not establish clinical benefit. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12184067/?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "Acumen expects ALTITUDE-AD results in November 2026. The 542-participant trial tests whether sabirnetug slows decline in thinking and daily function over 18 months. Two doses are compared with placebo, with roughly 180 participants per group. A convincing result needs meaningful benefit on the primary iADRS scale, supportive clinical findings and acceptable safety\u2014not simply favorable biomarkers. ([acumenpharm.gcs-web.com](https://acumenpharm.gcs-web.com/news-releases/news-release-details/acumen-pharmaceuticals-reports-third-quarter-2026-financial?utm_source=openai))\n\nHistorically, 26.8% of neurology programs advanced from Phase 2 to Phase 3; that is a development benchmark, not a stock-reaction probability. ([bio.org](https://www.bio.org/bio-news/good-day-bio-why-we-need-more-investment-neurodegenerative-diseases?utm_source=openai)) Our 30\u201340% probability of a clearly favorable result gives credit to the randomized design and evidence that sabirnetug reaches and engages its target. However, the earlier 65-participant INTERCEPT-AD trial did not establish clinical benefit. Brain swelling occurred in 10.4% of treated participants, including one symptomatic case, so longer-term safety also matters. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12184067/)) Our assessment remains cautious because placebo decline, withdrawals and differences between dose groups could leave the clinical result ambiguous.\n\nBPIQ shows three specialist hedge funds holding ABOS, with the fund count stable across four quarters and holdings concentrated in RA Capital. That is meaningful sponsorship, but not broad specialist agreement. At approximately $172.1 million in market capitalization and $111.9 million in enterprise value, Acumen is small enough for validation of its lead clinical asset to have a major impact. Its supplied historical reactions include a 19.4% intraday gain on formulation results and a 12.6% intraday decline around July updates. Those events were not definitive clinical efficacy tests. We therefore see a 60\u2013100% gain as plausible for convincing efficacy with acceptable safety, rather than treating earlier reactions as a ceiling.\n\nThe supplied cash figure is $53.1 million; Acumen reported $78.6 million when marketable securities are included and expects funding to last into early 2027. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1576885/000162828026067129/abos-20261026xexx991.htm?utm_source=openai)) With supplied quarterly burn near $26.7 million, further development likely requires additional financing. This can limit sustained gains after success and amplify losses after failure. An ambiguous result could produce a 10\u201340% decline, while a clear failure could produce a 65\u201385% decline. The earlier-stage brain-delivery program provides potential residual value, but its lead candidate is targeting an initial clinical-trial application in mid-2027. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1576885/000162828026067129/acumen_ncxcorporatexdeck.htm?utm_source=openai))\n\nThe supplied options summary estimates an event-isolated expected move of approximately 98.5%, compared with BPIQ-AI's conditional ranges of +60\u2013100% for clear success and \u221265\u201385% for clear failure. However, the December contracts have bid/ask spreads around 98.1% of their midpoint, making that estimate an imprecise guide. Both directions qualify as suspected large movers on fundamentals, but neither qualifies as options-confirmed.",
-  "catalyst_event_details": "Acumen expects November 2026 topline results from the Phase 2 ALTITUDE-AD trial of sabirnetug in early Alzheimer\u2019s disease. ([investors.acumenpharm.com](https://investors.acumenpharm.com/news-releases/news-release-details/acumen-pharmaceuticals-reports-third-quarter-2026-financial?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-28T11:33:09Z"
- },
- {
   "id": 14148,
   "company": {
    "ticker": "GLSI",
    "name": "Greenwich LifeSciences",
-   "last_price": "19.00",
+   "last_price": "17.77",
    "market_cap": 278885952,
    "website": "https://greenwichlifesciences.com"
   },
@@ -41617,7 +41571,7 @@
   "company": {
    "ticker": "SDGR",
    "name": "Schrodinger Inc",
-   "last_price": "29.99",
+   "last_price": "26.73",
    "market_cap": 2243420928,
    "website": "https://www.schrodinger.com"
   },
@@ -43147,7 +43101,7 @@
   "company": {
    "ticker": "GMAB",
    "name": "Genmab",
-   "last_price": "56.49",
+   "last_price": "57.41",
    "market_cap": 34735845376,
    "website": "https://www.genmab.com"
   },
@@ -43333,7 +43287,7 @@
   "company": {
    "ticker": "GMAB",
    "name": "Genmab",
-   "last_price": "56.49",
+   "last_price": "57.41",
    "market_cap": 34735845376,
    "website": "https://www.genmab.com"
   },
@@ -43622,7 +43576,7 @@
   "company": {
    "ticker": "GMAB",
    "name": "Genmab",
-   "last_price": "56.49",
+   "last_price": "57.41",
    "market_cap": 34735845376,
    "website": "https://www.genmab.com"
   },
@@ -43865,7 +43819,7 @@
   "company": {
    "ticker": "GMAB",
    "name": "Genmab",
-   "last_price": "56.49",
+   "last_price": "57.41",
    "market_cap": 34735845376,
    "website": "https://www.genmab.com"
   },

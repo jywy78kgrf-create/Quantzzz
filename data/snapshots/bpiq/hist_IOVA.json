@@ -1,5 +1,29 @@
 [
  {
+  "id": 9181,
+  "company": {
+   "id": 474,
+   "ticker": "IOVA",
+   "name": "Iovance Biotherapeutics",
+   "website": "https://www.iovance.com"
+  },
+  "created_at": "2026-10-30T13:01:11.584697Z",
+  "updated_at": "2026-10-30T13:01:11.584725Z",
+  "ticker": "IOVA",
+  "drug_name": "Lifileucel",
+  "drug_indication": "Non-Squamous Metastatic Non-Small Cell Lung Cancer",
+  "airtable_id": 9473,
+  "stage": "Phase 2",
+  "catalyst_date": "2026-10-29",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391108/0/en/iovance-reports-updated-iov-lun-202-results-and-adds-precision-til-strategy-for-second-line-metastatic-non-small-cell-lung-cancer-mnsclc.html",
+  "catalyst_text": "Reported positive updated Phase 2 results in mNSCLC",
+  "detailed_catalyst_text": "Updated Phase 2 IOV-LUN-202 results in previously treated non-squamous mNSCLC reported a 24.6% ORR in 69 patients, consistent with earlier data, and a biomarker-enriched subgroup achieved a 59.1% ORR. A separate frontline cohort analysis (IOV-COM-202 Cohort 3A) showed an 85.7% ORR for the therapy plus pembrolizumab in KRAS wild-type ever-smokers. These clinical findings reinforce activity and support a biomarker-driven development strategy in mNSCLC.",
+  "catalyst_text_evidence": "\u201cAs of the 2026-10-14 data cutoff, 17 of 69 patients responded, representing an ORR of 24.6%, consistent with the 25.6% ORR previously reported in 39 patients.\u201d \u201cA retrospective analysis identified a biomarker-enriched subgroup defined by Kirsten rat sarcoma viral oncogene homolog (KRAS) wild-type status, human epidermal growth factor receptor 2 (HER2) wild-type status, and current or former smoking\u2026with an ORR of 59.1% (13 of 22 patients).\u201d \u201cIn a separate analysis of frontline Cohort 3A of IOV-COM-202, six of seven patients with non-squamous mNSCLC, KRAS wild-type tumors, and a current or former smoking history responded to lifileucel plus pembrolizumab (without chemotherapy), yielding an ORR of 85.7%.\u201d",
+  "news_published_at": "2026-10-30T00:00:00Z",
+  "open_price_gap_percent": "-0.27752",
+  "intra_day_price_change_percent": "-0.10654"
+ },
+ {
   "id": 9104,
   "company": {
    "id": 474,
@@ -8,7 +32,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2026-10-27T13:04:17.703122Z",
-  "updated_at": "2026-10-29T13:03:49.510639Z",
+  "updated_at": "2026-10-30T13:05:01.090827Z",
   "ticker": "IOVA",
   "drug_name": "Lifileucel",
   "drug_indication": "Undifferentiated Pleomorphic Sarcoma, Dedifferentiated Liposarcoma",
@@ -32,7 +56,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2026-10-24T13:05:20.357221Z",
-  "updated_at": "2026-10-29T13:05:22.111520Z",
+  "updated_at": "2026-10-30T13:06:48.669821Z",
   "ticker": "IOVA",
   "drug_name": "Lifileucel plus pembrolizumab",
   "drug_indication": "Frontline Advanced Melanoma",
@@ -80,7 +104,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2026-02-25T13:01:07.730472Z",
-  "updated_at": "2026-10-29T13:01:31.991890Z",
+  "updated_at": "2026-10-30T13:02:09.309262Z",
   "ticker": "IOVA",
   "drug_name": "Lifileucel",
   "drug_indication": "Undifferentiated Pleomorphic Sarcoma, Dedifferentiated Liposarcoma",
@@ -152,7 +176,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:07:28.908429Z",
-  "updated_at": "2026-10-29T13:03:21.902767Z",
+  "updated_at": "2026-10-30T13:04:24.980132Z",
   "ticker": "IOVA",
   "drug_name": "LN-145 and KEYTRUDA (pembrolizumab) - (IOV-COM-202)",
   "drug_indication": "Solid Tumors",
@@ -176,7 +200,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:05:53.768319Z",
-  "updated_at": "2026-10-29T13:01:02.995893Z",
+  "updated_at": "2026-10-30T13:01:32.147478Z",
   "ticker": "IOVA",
   "drug_name": "LN-145 - (IOV-COM-202)",
   "drug_indication": "Non-small cell lung cancer (NSCLC)",
@@ -200,7 +224,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:06:40.424952Z",
-  "updated_at": "2026-10-29T13:02:11.545269Z",
+  "updated_at": "2026-10-30T13:02:55.362709Z",
   "ticker": "IOVA",
   "drug_name": "AMTAGVI (Lifileucel (LN-144)) - (TILVANCE-301)",
   "drug_indication": "Refractory metastatic melanoma",
@@ -224,7 +248,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:07:47.368567Z",
-  "updated_at": "2026-10-29T13:03:46.992115Z",
+  "updated_at": "2026-10-30T13:04:58.002699Z",
   "ticker": "IOVA",
   "drug_name": "LN-145 -  (IOV-LUN-202)",
   "drug_indication": "Anti-PD-1 therapy for advanced (unresectable or metastatic) Non-small Cell Lung Cancer (NSCLC)",
@@ -248,7 +272,7 @@
    "website": "https://www.iovance.com"
   },
   "created_at": "2025-02-21T20:07:33.748781Z",
-  "updated_at": "2026-10-29T13:03:27.860207Z",
+  "updated_at": "2026-10-30T13:04:32.830074Z",
   "ticker": "IOVA",
   "drug_name": "LN-145-04",
   "drug_indication": "Cervical cancer",

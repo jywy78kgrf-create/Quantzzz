@@ -1,72 +1,5 @@
 [
  {
-  "id": 16243,
-  "company": {
-   "ticker": "INO",
-   "name": "Inovio Pharmaceuticals",
-   "last_price": "0.60",
-   "market_cap": 62286668,
-   "website": "https://www.inovio.com"
-  },
-  "ticker": "INO",
-  "drug_name": "INO-3107",
-  "indications": [
-   {
-    "id": 1325,
-    "title": "Lung disease",
-    "nickname": ""
-   },
-   {
-    "id": 1208,
-    "title": "Recurrent respiratory papillomatosis",
-    "nickname": "RRP"
-   },
-   {
-    "id": 807,
-    "title": "Respiratory conditions",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Recurrent respiratory papillomatosis (RRP)",
-  "stage_event": {
-   "id": 97,
-   "label": "PDUFA Approval decision",
-   "stage_label": "PDUFA",
-   "event_label": "Approval decision"
-  },
-  "note": "05/13/26:- Mid-cycle BLA review completed; PDUFA remains October 30, 2026; ASCO presentation planned. 08/12/26:- Late-cycle review and pre-licensure inspections completed. PDUFA approval decision will occur October 30, 2026.",
-  "catalyst_date": "2026-10-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/inovio-reports-second-quarter-2026-financial-results-and-recent-business-highlights-302849959.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 17281,
   "company": {
    "ticker": "RXRX",
@@ -814,6 +747,68 @@
   "catalyst_date": "2026-11-06",
   "has_catalyst": true,
   "catalyst_source": "https://professional.heart.org/en/meetings/scientific-sessions",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 18328,
+  "company": {
+   "ticker": "IMCR",
+   "name": "Immunocore Holdings",
+   "last_price": "30.49",
+   "market_cap": 1570192768,
+   "website": "https://www.immunocore.com"
+  },
+  "ticker": "IMCR",
+  "drug_name": "IMC-F106C (Brenetafusp) +/- Pembrolizumab",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1060,
+    "title": "Melanoma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Cancer, Melanoma",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "5/31/24- Reported update Ph1 data at ASCO 2024. 2/26/25- No recent Q4'24 drug combo update. 11/06/25:- PR No update. 02/25/26:- PR No update. 05/06/26:- Phase 1 brenetafusp advanced melanoma data to be presented at ASCO 2026 on May 31, 2026. 05/31/26:- Updated Phase 1/2 melanoma monotherapy and pembrolizumab-combination data presented at American Society of Clinical Oncology 2026. 08/06/26:- ASCO 2026 brenetafusp melanoma data showed activity; pembrolizumab combo ORR was 33%. 10/29/26:- Phase 1/2 metastatic uveal melanoma brenetafusp data at SITC 2026 Nov 6-7.",
+  "catalyst_date": "2026-11-06",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391299/0/en/immunocore-will-present-phase-1-data-for-brenetafusp-plus-kimmtrak-tebentafusp-tebn-in-metastatic-uveal-melanoma-during-a-late-breaking-oral-session-at-the-2026-sitc-meeting.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,

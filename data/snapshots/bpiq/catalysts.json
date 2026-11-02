@@ -485,10 +485,10 @@
    "stage_label": "Phase 2",
    "event_label": "Data readout"
   },
-  "note": "08/31/26:- Last on-treatment visit completed. Topline Phase 2 ADDRESS-LC data still expected Late Summer 2026. 09/15/26:- ADDRESS-LC subgroup benefits reported. 10/14/26:- ADDRESS-LC Ph2 results poster at ANA2026 on October 18, 2026. 10/19/26:- ADDRESS-LC Ph2 results showed subgroup benefits; biomarkers pending future meeting. 10/20/26:- ADDRESS-LC described as enrolling ~200 patients to assess neurological long COVID symptoms. 10/26/26:- ADDRESS-LC Ph2 results to be presented at RECOVER-TLC workshop on November 5, 2026.",
+  "note": "08/31/26:- Last on-treatment visit completed. Topline Phase 2 ADDRESS-LC data still expected Late Summer 2026. 09/15/26:- ADDRESS-LC subgroup benefits reported. 10/14/26:- ADDRESS-LC Ph2 results poster at ANA2026 on October 18, 2026. 10/19/26:- ADDRESS-LC Ph2 results showed subgroup benefits; biomarkers pending future meeting. 10/20/26:- ADDRESS-LC described as enrolling ~200 patients to assess neurological long COVID symptoms. 10/26/26:- ADDRESS-LC Ph2 results to be presented at RECOVER-TLC workshop on November 5, 2026. 11/02/26:- Late-breaking oral Nov 13, 2026 will present new ADDRESS-LC biomarker data.",
   "catalyst_date": "2026-11-05",
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/26/3388041/0/en/biovie-invited-to-present-data-on-bezisterim-in-long-covid-at-the-nih-s-recover-tlc-third-annual-workshop.html",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/02/3393209/0/en/biovie-selected-for-late-breaking-oral-presentation-of-bezisterim-long-covid-data-at-the-4th-long-covid-international-conference-2026.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -1220,6 +1220,68 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 19713,
+  "company": {
+   "ticker": "MIRM",
+   "name": "Mirum Pharmaceuticals",
+   "last_price": "85.05",
+   "market_cap": 5519237120,
+   "website": "https://www.mirumpharma.com"
+  },
+  "ticker": "MIRM",
+  "drug_name": "Brelovitug (HBsAg Antibody)",
+  "indications": [
+   {
+    "id": 712,
+    "title": "Hepatitis D",
+    "nickname": "HDV "
+   },
+   {
+    "id": 1097,
+    "title": "Hepatitis Delta Virus",
+    "nickname": "HDV"
+   }
+  ],
+  "indications_text": "Chronic Hepatitis Delta Virus (HDV)",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "AZURE-1 trial. 01/12/26:- Interim data in Q2 2026; topline data in H2 2026, subject to acquisition. 02/25/26:- AZURE-1 Phase 3 HDV trial interim data still expected Q2 2026 and topline data H2 2026. 03/05/26:- AZURE-1 enrollment complete; AZURE-4 screening complete. AZURE-1 interim data Q2 2026. 04/27/26:- AZURE-1 Ph2b met endpoint. Full results at EASL May 27-30, 2026. Ph3 topline H2 2026. BLA possible 2027. 05/06/26:- AZURE-1 Ph2b primary endpoint and EASL May 27 poster reiterated; AZURE-1 and AZURE-4 Ph3 enrollment now complete; topline H2 2026. 05/30/26:- AZURE-1 Ph2b Week 24 efficacy/safety presented. Ph3 AZURE-1/4 topline expected H2 2026. 08/05/26:- AZURE-1 Ph3 topline results expected Q3 2026; AZURE-4 expected Q4 2026. 09/28/26:- AZURE-1 Phase 3 topline results and 48-week Phase 2b data on Sept 28, 2026 call. Phase 3 endpoint met; AZURE-4 topline expected Q4 2026; BLA planned H1 2027. 11/02/26:- AASLD 2026 late-breaking AZURE-1 Ph3 results and longer-term data presented Nov 8, 2026.",
+  "catalyst_date": "2026-11-08",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/b62775667/mirum-pharmaceuticals-showcases-momentum-across-rare-liver-disease-portfolio-new-data-aasld-s-liver-",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 20651,
   "company": {
    "ticker": "CRSP",
@@ -1772,7 +1834,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "21.69",
+   "last_price": "21.76",
    "market_cap": 2739882496,
    "website": "https://www.zailaboratory.com"
   },
@@ -2315,7 +2377,7 @@
   "company": {
    "ticker": "ACAD",
    "name": "ACADIA Pharmaceuticals",
-   "last_price": "20.45",
+   "last_price": "20.34",
    "market_cap": 3547770624,
    "website": "https://acadia.com"
   },
@@ -2957,7 +3019,7 @@
   "company": {
    "ticker": "PEPG",
    "name": "PepGen",
-   "last_price": "2.37",
+   "last_price": "2.36",
    "market_cap": 163239344,
    "website": "https://www.pepgen.com"
   },
@@ -4472,7 +4534,7 @@
   "company": {
    "ticker": "INKT",
    "name": "MiNK Therapeutics",
-   "last_price": "10.52",
+   "last_price": "10.48",
    "market_cap": 53734608,
    "website": "https://minktherapeutics.com"
   },
@@ -5003,7 +5065,7 @@
   "company": {
    "ticker": "CLLS",
    "name": "Cellectis",
-   "last_price": "1.12",
+   "last_price": "1.06",
    "market_cap": 108791408,
    "website": "https://www.cellectis.com"
   },
@@ -6360,7 +6422,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "17.92",
+   "last_price": "17.50",
    "market_cap": 4021249024,
    "website": "https://www.relaytx.com"
   },
@@ -6422,7 +6484,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "7.35",
+   "last_price": "7.07",
    "market_cap": 475294976,
    "website": "https://www.regenxbio.com"
   },
@@ -7373,6 +7435,53 @@
   "move_analysis_created_datetime": "2026-10-06T15:39:59Z"
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-22",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 17203,
   "company": {
    "ticker": "NBTX",
@@ -7432,53 +7541,6 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-22",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -7930,7 +7992,7 @@
   "company": {
    "ticker": "BLRX",
    "name": "BioLineRx",
-   "last_price": "1.97",
+   "last_price": "1.95",
    "market_cap": 9906650,
    "website": "https://www.biolinerx.com"
   },
@@ -7997,7 +8059,7 @@
   "company": {
    "ticker": "CLLS",
    "name": "Cellectis",
-   "last_price": "1.12",
+   "last_price": "1.06",
    "market_cap": 108791408,
    "website": "https://www.cellectis.com"
   },
@@ -9587,7 +9649,7 @@
   "company": {
    "ticker": "CTMX",
    "name": "CytomX Therapeutics",
-   "last_price": "2.24",
+   "last_price": "2.19",
    "market_cap": 509884288,
    "website": "https://www.cytomx.com"
   },
@@ -10001,7 +10063,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "9.63",
+   "last_price": "9.69",
    "market_cap": 1184634240,
    "website": "https://www.verastem.com"
   },
@@ -10668,7 +10730,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "30.92",
+   "last_price": "30.85",
    "market_cap": 1823892352,
    "website": "https://www.agios.com"
   },
@@ -10911,7 +10973,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "41.44",
+   "last_price": "41.12",
    "market_cap": 49089257472,
    "website": "https://www.tevapharm.com"
   },
@@ -11401,63 +11463,6 @@
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
   "move_analysis_created_datetime": null
- },
- {
-  "id": 18444,
-  "company": {
-   "ticker": "TEVA",
-   "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "41.44",
-   "market_cap": 49089257472,
-   "website": "https://www.tevapharm.com"
-  },
-  "ticker": "TEVA",
-  "drug_name": "Emrusolmin / TEV-\u2019286",
-  "indications": [
-   {
-    "id": 945,
-    "title": "Multiple System Atrophy",
-    "nickname": "MSA"
-   }
-  ],
-  "indications_text": "Multiple System Atrophy",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Collab. w/ MODAG, ready to start Ph2 in H2 '24 04/29/26:- Management expects meaningful emrusolmin MSA data updates during 2026.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/04/29/3283605/0/en/teva-delivers-strong-q1-2026-results-driven-by-innovative-portfolio-growth-and-disciplined-execution.html",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "15.000000",
-  "probability_clean_plus_max": "25.000000",
-  "probability_mixed_min": "50.000000",
-  "probability_mixed_max": "60.000000",
-  "probability_clean_minus_min": "20.000000",
-  "probability_clean_minus_max": "30.000000",
-  "magnitude_clean_plus_min": "0.250000",
-  "magnitude_clean_plus_max": "1.500000",
-  "magnitude_mixed_min": "-0.500000",
-  "magnitude_mixed_max": "0.250000",
-  "magnitude_clean_minus_min": "-2.000000",
-  "magnitude_clean_minus_max": "-0.250000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "The Q4 milestone is an internal futility analysis\u2014an early check of whether development should continue\u2014not final efficacy topline. TOPAS-MSA is randomized, double-blind and placebo-controlled, with more than 200 patients and 48 weeks of treatment. The non-EU primary endpoint measures daily functioning using modified UMSARS Part I; the EU endpoint combines functioning and motor examination using total UMSARS Parts I and II. Study completion is expected in H2 2027. Continuing the trial would preserve its potential without demonstrating a statistically significant treatment benefit. ([s24.q4cdn.com](https://s24.q4cdn.com/720828402/files/doc_financials/2026/q1/Q1-2026-Earnings-Presentation-vf.pdf?utm_source=openai)) Earlier human studies support tolerability and drug exposure, but do not establish efficacy in MSA. ([quotientsciences.com](https://www.quotientsciences.com/sites/default/files/2024-01/2022_Levin_et_al_Safety_tolerability_and_PK_of_the_oligomer_modulator_anle138b_-_MODAG_Omas0yw.pdf?utm_source=openai)) Teva retains global development and commercialization rights, subject to MODAG milestones and royalties, while its commercial business limits dependence on this program. ([sec.gov](https://www.sec.gov/Archives/edgar/data/818686/000119312526323619/R14.htm?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "Emrusolmin\u2019s Q4 2026 milestone is a checkpoint, not the trial\u2019s final answer. Teva describes an internal futility analysis, which assesses whether continuing development remains worthwhile. Our 15\u201325% favorable probability requires a communicated finding that meaningfully strengthens confidence in the program. Routine continuation without persuasive efficacy evidence belongs in the larger 50\u201360% Mixed range. A decision or finding that substantially weakens the program accounts for the 20\u201330% negative range. These are estimates for the interim milestone, not eventual approval. ([s24.q4cdn.com](https://s24.q4cdn.com/720828402/files/doc_financials/2026/q1/Q1-2026-Earnings-Presentation-vf.pdf?utm_source=openai))\n\nHistorically, only about 27% of Phase 2 neurology programs advanced to Phase 3; that is background context rather than a direct forecast for a futility decision. MSA efficacy remains difficult to demonstrate: the randomized Phase 2 amlenetug study missed its primary endpoint despite encouraging trends. ([medrxiv.org](https://www.medrxiv.org/content/medrxiv/early/2024/03/09/2024.03.07.24303937/DC1/embed/media-1.pdf?download=true&utm_source=openai)) Emrusolmin\u2019s placebo-controlled design and enrollment exceeding 200 patients are strengths. Its functional assessments still face variation in disease progression and patient retention, and the earlier healthy-volunteer study established tolerability and exposure rather than clinical benefit in MSA. Simply continuing TOPAS-MSA should therefore not be interpreted as proof that treatment works. ([s24.q4cdn.com](https://s24.q4cdn.com/720828402/files/doc_financials/2025/q4/Q4-2025-CTA.pdf?utm_source=openai))\n\nBPIQ reports one specialist hedge fund holding TEVA, unchanged across four quarters, with a latest position worth $9.4 million. That is limited specialist validation of this particular program, not evidence that the science is flawed. At the supplied $46.3 billion market capitalization and $60.2 billion enterprise value, this early-stage asset represents only one part of Teva\u2019s investment case. Teva retains global rights subject to MODAG milestones and royalties, so success has meaningful economic potential, but the company does not depend on this single trial. ([sec.gov](https://www.sec.gov/Archives/edgar/data/818686/000119312526323619/R14.htm?utm_source=openai)) We estimate +0.25\u20131.50% for clearly favorable communication, \u22120.50% to +0.25% for routine continuation or ambiguity, and \u22122.00% to \u22120.25% for materially negative findings. Those ranges fit an interim checkpoint better than the exceptional reaction to duvakitug\u2019s definitive Phase 2b efficacy results in the supplied historical record.\n\nTeva had approximately $3.7 billion in cash and $16.6 billion in debt at June 30, 2026. It generated $411 million of operating cash flow in Q2 and maintained annual free-cash-flow guidance of $2.0\u20132.4 billion. This is a cash-generating pharmaceutical company rather than a development-stage business with a countdown to its next equity financing. Debt servicing matters, but this interim milestone alone should not create an immediate funding requirement. ([ir.tevapharm.com](https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Delivers-Strong-Q2-Results-and-Raises-Outlook-for-All-Three-Key-Innovative-Brands-Reflecting-Continued-Execution-of-Its-Pivot-to-Growth-Strategy/default.aspx))\n\nThe supplied January options price a 15.5% total stock move. The calculated 8.3% move between December and January expirations is also much larger than our emrusolmin-only estimate. However, a Q4 analysis could occur before the December expiration, and other Teva milestones overlap the period. These options therefore reflect broader company uncertainty rather than a clean price for this trial checkpoint. Neither direction qualifies as a big mover.",
-  "catalyst_event_details": "Emrusolmin\u2019s Phase 2 TOPAS-MSA interim futility analysis in multiple system atrophy is expected in Q4 2026. ([s24.q4cdn.com](https://s24.q4cdn.com/720828402/files/doc_financials/2026/q1/Q1-2026-Earnings-Presentation-vf.pdf?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-06T14:56:17Z"
  },
  {
   "id": 18465,
@@ -12121,7 +12126,7 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "11.14",
+   "last_price": "10.87",
    "market_cap": 270536736,
    "website": "https://www.lyell.com"
   },
@@ -13459,7 +13464,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "17.92",
+   "last_price": "17.50",
    "market_cap": 4021249024,
    "website": "https://www.relaytx.com"
   },
@@ -13997,7 +14002,7 @@
   "company": {
    "ticker": "ZURA",
    "name": "Zura Bio",
-   "last_price": "4.03",
+   "last_price": "3.94",
    "market_cap": 389154656,
    "website": "https://zurabio.com"
   },
@@ -14463,7 +14468,7 @@
   "company": {
    "ticker": "MBX",
    "name": "MBX Biosciences",
-   "last_price": "55.89",
+   "last_price": "54.81",
    "market_cap": 2690704640,
    "website": "https://mbxbio.com"
   },
@@ -15965,7 +15970,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "127.44",
+   "last_price": "128.78",
    "market_cap": 10810579968,
    "website": "https://www.kymeratx.com"
   },
@@ -16616,7 +16621,7 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "11.14",
+   "last_price": "10.87",
    "market_cap": 270536736,
    "website": "https://www.lyell.com"
   },
@@ -17495,68 +17500,6 @@
   "move_analysis_ai_reasoning": "Arcutis expects vitiligo results and a program-advancement decision in Q4 2026. This is an early test of a new use for ZORYVE, not confirmation of an established vitiligo treatment. The existing business already sells ZORYVE for three other skin diseases, so this readout is important growth optionality rather than the main support for today's valuation. ([arcutis.com](https://www.arcutis.com/arcutis-announces-second-quarter-2026-financial-results-and-provides-business-update/))\n\nThe scientific signal is promising but preliminary. Four children experienced facial repigmentation with roflumilast cream, without a control group. The registered collaborative foam study plans 20 pediatric participants and measures how many achieve at least 50% improvement in facial pigmentation scores after 24 weeks. Everyone receives treatment, so consistent results across patients matter more than a few striking photographs. Its small size and unblinded assessments make it a signal-finding study, not definitive evidence of efficacy. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11741172/?utm_source=openai)) An 80-patient randomized study of another drug in the same broad class, apremilast, found no added benefit over ultraviolet-light treatment. That does not predict roflumilast's result, but it argues against assuming the mechanism will reliably restore pigmentation. ([sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S0022202X20300671?utm_source=openai))\n\nHistorical Phase 2 development-transition rates were 31.4% for autoimmune diseases and 38.6% for the broader category that includes dermatology. These are contextual benchmarks, not success rates for this particular study or probabilities of a favorable stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) We assign a 25\u201335% probability of clearly favorable results, 30\u201340% for mixed findings, and 30\u201340% for disappointment. A development decision supported by modest responses could be mixed rather than clearly positive: investors still need evidence of meaningful benefit, consistency, and a credible reason to pursue larger trials.\n\nBPIQ lists two specialist hedge funds, Frazier and OrbiMed, holding $312.4 million combined. Aggregate holdings increased from $249.9 million in the preceding quarter, with OrbiMed entering and another fund exiting. These sizable positions offer company-level validation, not proof of vitiligo efficacy. At the supplied $3.2 billion market capitalization and approximately $238.6 million of cash and securities, financing is not the central readout risk. Positive second-quarter operating cash flow of $12.6 million supports funding through the event, although continued investment still depends on commercial execution. ([arcutis.com](https://www.arcutis.com/arcutis-announces-second-quarter-2026-financial-results-and-provides-business-update/))\n\nWe estimate a 3\u20138% gain for clearly favorable results, a \u22124% to +2% move for mixed findings, and a 2\u20136% decline for a clear disappointment confined to vitiligo. Excellent data could open a meaningful new market, but further controlled studies and development spending would remain. Conversely, a failed expansion study would not erase existing sales. The supplied historical reactions show generally modest moves around recent positive ZORYVE milestones. The 19.7% short float could amplify a surprise, but does not establish how much trading is tied to this indication.\n\nThe supplied January options indicate approximately 25.4% movement through expiration, spanning commercial updates and other market risks as well as the broadly timed readout. That is broader risk context, not a precise vitiligo-only forecast. Our event-specific ranges are smaller because this preliminary study represents only part of Arcutis's value; neither direction warrants a 20% big-mover designation.",
   "catalyst_event_details": "Arcutis expects Phase 2 topline results and a program-advancement decision for ZORYVE roflumilast foam 0.3% in vitiligo in Q4 2026. ([arcutis.com](https://www.arcutis.com/arcutis-announces-second-quarter-2026-financial-results-and-provides-business-update/?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T15:36:32Z"
- },
- {
-  "id": 19713,
-  "company": {
-   "ticker": "MIRM",
-   "name": "Mirum Pharmaceuticals",
-   "last_price": "85.05",
-   "market_cap": 5519237120,
-   "website": "https://www.mirumpharma.com"
-  },
-  "ticker": "MIRM",
-  "drug_name": "Brelovitug (HBsAg Antibody)",
-  "indications": [
-   {
-    "id": 712,
-    "title": "Hepatitis D",
-    "nickname": "HDV "
-   },
-   {
-    "id": 1097,
-    "title": "Hepatitis Delta Virus",
-    "nickname": "HDV"
-   }
-  ],
-  "indications_text": "Chronic Hepatitis Delta Virus (HDV)",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "AZURE-1 trial. 01/12/26:- Interim data in Q2 2026; topline data in H2 2026, subject to acquisition. 02/25/26:- AZURE-1 Phase 3 HDV trial interim data still expected Q2 2026 and topline data H2 2026. 03/05/26:- AZURE-1 enrollment complete; AZURE-4 screening complete. AZURE-1 interim data Q2 2026. 04/27/26:- AZURE-1 Ph2b met endpoint. Full results at EASL May 27-30, 2026. Ph3 topline H2 2026. BLA possible 2027. 05/06/26:- AZURE-1 Ph2b primary endpoint and EASL May 27 poster reiterated; AZURE-1 and AZURE-4 Ph3 enrollment now complete; topline H2 2026. 05/30/26:- AZURE-1 Ph2b Week 24 efficacy/safety presented. Ph3 AZURE-1/4 topline expected H2 2026. 08/05/26:- AZURE-1 Ph3 topline results expected Q3 2026; AZURE-4 expected Q4 2026. 09/28/26:- AZURE-1 Phase 3 topline results and 48-week Phase 2b data on Sept 28, 2026 call. Phase 3 endpoint met; AZURE-4 topline expected Q4 2026; BLA planned H1 2027.",
-  "catalyst_date": "2026-12-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20260928804552/en/Mirum-Pharmaceuticals-Announces-Primary-Endpoint-Met-in-Phase-3-AZURE-1-Study-of-Brelovitug-in-Chronic-Hepatitis-Delta-Virus",
-  "is_big_mover": false,
-  "is_suspected_mover": false,
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
  },
  {
   "id": 19729,
@@ -20084,7 +20027,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "30.92",
+   "last_price": "30.85",
    "market_cap": 1823892352,
    "website": "https://www.agios.com"
   },
@@ -20451,7 +20394,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "19.05",
+   "last_price": "18.98",
    "market_cap": 386686464,
    "website": "https://tectonictx.com"
   },
@@ -21656,7 +21599,7 @@
   "company": {
    "ticker": "INKT",
    "name": "MiNK Therapeutics",
-   "last_price": "10.52",
+   "last_price": "10.48",
    "market_cap": 53734608,
    "website": "https://minktherapeutics.com"
   },
@@ -23111,7 +23054,7 @@
   "company": {
    "ticker": "TEVA",
    "name": "Teva Pharmaceutical Industries Ltd",
-   "last_price": "41.44",
+   "last_price": "41.12",
    "market_cap": 49089257472,
    "website": "https://www.tevapharm.com"
   },
@@ -25422,7 +25365,7 @@
   "company": {
    "ticker": "STOK",
    "name": "Stoke Therapeutics",
-   "last_price": "26.21",
+   "last_price": "26.46",
    "market_cap": 1703947904,
    "website": "https://www.stoketherapeutics.com"
   },
@@ -25794,7 +25737,7 @@
   "company": {
    "ticker": "CTMX",
    "name": "CytomX Therapeutics",
-   "last_price": "2.24",
+   "last_price": "2.19",
    "market_cap": 509884288,
    "website": "https://www.cytomx.com"
   },
@@ -27812,7 +27755,7 @@
   "company": {
    "ticker": "ZURA",
    "name": "Zura Bio",
-   "last_price": "4.03",
+   "last_price": "3.94",
    "market_cap": 389154656,
    "website": "https://zurabio.com"
   },
@@ -28102,7 +28045,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "9.63",
+   "last_price": "9.69",
    "market_cap": 1184634240,
    "website": "https://www.verastem.com"
   },
@@ -28573,7 +28516,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "21.69",
+   "last_price": "21.76",
    "market_cap": 2739882496,
    "website": "https://www.zailaboratory.com"
   },
@@ -30450,7 +30393,7 @@
   "company": {
    "ticker": "TOVX",
    "name": "Theriva Biologics",
-   "last_price": "0.16",
+   "last_price": "0.17",
    "market_cap": 7824699,
    "website": "https://therivabio.com"
   },
@@ -32317,10 +32260,10 @@
    "stage_label": "Phase 3",
    "event_label": "Data readout"
   },
-  "note": "SIGMA/G203 trial. 8/7/25- Updated Ph2 trial design published. 10/23/25- First patient enrolled in Part 2. Provide further updates on progress in earnings call on November 3, 2025. 02/04/26:- Initial data in 2027. 03/02/26:- Phase 2 grade 2 IDH1 glioma data published; ORR 44%, 88% PFS-24mo; SIGMA now pivotal Ph3. 05/04/26:- Acquired Japan rights, now global control. SIGMA pivotal Ph3 data expected 2029; exploratory oligodendroglioma cohort data 2027. 08/06/26:- PR No update. 08/20/26:- FDA granted Fast Track to safusidenib; SIGMA Ph3 enrollment ongoing. 10/29/26:- SIGMA (G203) Ph3 adds six European countries; enrollment ongoing.",
+  "note": "SIGMA/G203 trial. 8/7/25- Updated Ph2 trial design published. 10/23/25- First patient enrolled in Part 2. Provide further updates on progress in earnings call on November 3, 2025. 02/04/26:- Initial data in 2027. 03/02/26:- Phase 2 grade 2 IDH1 glioma data published; ORR 44%, 88% PFS-24mo; SIGMA now pivotal Ph3. 05/04/26:- Acquired Japan rights, now global control. SIGMA pivotal Ph3 data expected 2029; exploratory oligodendroglioma cohort data 2027. 08/06/26:- PR No update. 08/20/26:- FDA granted Fast Track to safusidenib; SIGMA Ph3 enrollment ongoing. 10/29/26:- SIGMA (G203) Ph3 adds six European countries; enrollment ongoing. 11/02/26:- SIGMA Phase 3 and grade 3 oligodendroglioma cohort posters at SNO Nov 13, 2026.",
   "catalyst_date": "2027-12-31",
   "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/nuvation-bio-to-expand-pivotal-phase-3-sigma-study-of-safusidenib-for-idh1-mutant-glioma-to-six-european-countries-302922445.html",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/nuvation-bio-to-present-additional-updated-phase-2-results-at-2026-society-for-neuro-oncology-annual-meeting-302925119.html",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -32354,7 +32297,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "36.16",
+   "last_price": "33.78",
    "market_cap": 4881551360,
    "website": "https://definiumtx.com"
   },
@@ -32825,7 +32768,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "127.44",
+   "last_price": "128.78",
    "market_cap": 10810579968,
    "website": "https://www.kymeratx.com"
   },
@@ -35899,7 +35842,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "9.63",
+   "last_price": "9.69",
    "market_cap": 1184634240,
    "website": "https://www.verastem.com"
   },
@@ -35961,7 +35904,7 @@
   "company": {
    "ticker": "VSTM",
    "name": "Verastem Oncology",
-   "last_price": "9.63",
+   "last_price": "9.69",
    "market_cap": 1184634240,
    "website": "https://www.verastem.com"
   },
@@ -38982,7 +38925,7 @@
   "company": {
    "ticker": "TECX",
    "name": "Tectonic Therapeutic",
-   "last_price": "19.05",
+   "last_price": "18.98",
    "market_cap": 386686464,
    "website": "https://tectonictx.com"
   },
@@ -39339,7 +39282,7 @@
   "company": {
    "ticker": "RGNX",
    "name": "Regenxbio",
-   "last_price": "7.35",
+   "last_price": "7.07",
    "market_cap": 475294976,
    "website": "https://www.regenxbio.com"
   },
@@ -41023,7 +40966,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "36.16",
+   "last_price": "33.78",
    "market_cap": 4881551360,
    "website": "https://definiumtx.com"
   },
@@ -41080,7 +41023,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "17.92",
+   "last_price": "17.50",
    "market_cap": 4021249024,
    "website": "https://www.relaytx.com"
   },
@@ -41505,6 +41448,63 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 18444,
+  "company": {
+   "ticker": "TEVA",
+   "name": "Teva Pharmaceutical Industries Ltd",
+   "last_price": "41.12",
+   "market_cap": 49089257472,
+   "website": "https://www.tevapharm.com"
+  },
+  "ticker": "TEVA",
+  "drug_name": "Emrusolmin / TEV-\u2019286",
+  "indications": [
+   {
+    "id": 945,
+    "title": "Multiple System Atrophy",
+    "nickname": "MSA"
+   }
+  ],
+  "indications_text": "Multiple System Atrophy",
+  "stage_event": {
+   "id": 77,
+   "label": "Failed Discontinued",
+   "stage_label": "Failed",
+   "event_label": "Discontinued"
+  },
+  "note": "Collab. w/ MODAG, ready to start Ph2 in H2 '24 04/29/26:- Management expects meaningful emrusolmin MSA data updates during 2026. 11/02/26:- Ph2 TOPAS-MSA study discontinued after interim futility; no safety concerns. OLE data analysis planned.",
+  "catalyst_date": null,
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/g62775366/teva-discontinue-phase-2-topas-msa-study-emrusolmin-tev-286-following-interim-futility-analysis",
+  "is_big_mover": false,
+  "is_suspected_mover": false,
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": "15.000000",
+  "probability_clean_plus_max": "25.000000",
+  "probability_mixed_min": "50.000000",
+  "probability_mixed_max": "60.000000",
+  "probability_clean_minus_min": "20.000000",
+  "probability_clean_minus_max": "30.000000",
+  "magnitude_clean_plus_min": "0.250000",
+  "magnitude_clean_plus_max": "1.500000",
+  "magnitude_mixed_min": "-0.500000",
+  "magnitude_mixed_max": "0.250000",
+  "magnitude_clean_minus_min": "-2.000000",
+  "magnitude_clean_minus_max": "-0.250000",
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "The Q4 milestone is an internal futility analysis\u2014an early check of whether development should continue\u2014not final efficacy topline. TOPAS-MSA is randomized, double-blind and placebo-controlled, with more than 200 patients and 48 weeks of treatment. The non-EU primary endpoint measures daily functioning using modified UMSARS Part I; the EU endpoint combines functioning and motor examination using total UMSARS Parts I and II. Study completion is expected in H2 2027. Continuing the trial would preserve its potential without demonstrating a statistically significant treatment benefit. ([s24.q4cdn.com](https://s24.q4cdn.com/720828402/files/doc_financials/2026/q1/Q1-2026-Earnings-Presentation-vf.pdf?utm_source=openai)) Earlier human studies support tolerability and drug exposure, but do not establish efficacy in MSA. ([quotientsciences.com](https://www.quotientsciences.com/sites/default/files/2024-01/2022_Levin_et_al_Safety_tolerability_and_PK_of_the_oligomer_modulator_anle138b_-_MODAG_Omas0yw.pdf?utm_source=openai)) Teva retains global development and commercialization rights, subject to MODAG milestones and royalties, while its commercial business limits dependence on this program. ([sec.gov](https://www.sec.gov/Archives/edgar/data/818686/000119312526323619/R14.htm?utm_source=openai))",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "Emrusolmin\u2019s Q4 2026 milestone is a checkpoint, not the trial\u2019s final answer. Teva describes an internal futility analysis, which assesses whether continuing development remains worthwhile. Our 15\u201325% favorable probability requires a communicated finding that meaningfully strengthens confidence in the program. Routine continuation without persuasive efficacy evidence belongs in the larger 50\u201360% Mixed range. A decision or finding that substantially weakens the program accounts for the 20\u201330% negative range. These are estimates for the interim milestone, not eventual approval. ([s24.q4cdn.com](https://s24.q4cdn.com/720828402/files/doc_financials/2026/q1/Q1-2026-Earnings-Presentation-vf.pdf?utm_source=openai))\n\nHistorically, only about 27% of Phase 2 neurology programs advanced to Phase 3; that is background context rather than a direct forecast for a futility decision. MSA efficacy remains difficult to demonstrate: the randomized Phase 2 amlenetug study missed its primary endpoint despite encouraging trends. ([medrxiv.org](https://www.medrxiv.org/content/medrxiv/early/2024/03/09/2024.03.07.24303937/DC1/embed/media-1.pdf?download=true&utm_source=openai)) Emrusolmin\u2019s placebo-controlled design and enrollment exceeding 200 patients are strengths. Its functional assessments still face variation in disease progression and patient retention, and the earlier healthy-volunteer study established tolerability and exposure rather than clinical benefit in MSA. Simply continuing TOPAS-MSA should therefore not be interpreted as proof that treatment works. ([s24.q4cdn.com](https://s24.q4cdn.com/720828402/files/doc_financials/2025/q4/Q4-2025-CTA.pdf?utm_source=openai))\n\nBPIQ reports one specialist hedge fund holding TEVA, unchanged across four quarters, with a latest position worth $9.4 million. That is limited specialist validation of this particular program, not evidence that the science is flawed. At the supplied $46.3 billion market capitalization and $60.2 billion enterprise value, this early-stage asset represents only one part of Teva\u2019s investment case. Teva retains global rights subject to MODAG milestones and royalties, so success has meaningful economic potential, but the company does not depend on this single trial. ([sec.gov](https://www.sec.gov/Archives/edgar/data/818686/000119312526323619/R14.htm?utm_source=openai)) We estimate +0.25\u20131.50% for clearly favorable communication, \u22120.50% to +0.25% for routine continuation or ambiguity, and \u22122.00% to \u22120.25% for materially negative findings. Those ranges fit an interim checkpoint better than the exceptional reaction to duvakitug\u2019s definitive Phase 2b efficacy results in the supplied historical record.\n\nTeva had approximately $3.7 billion in cash and $16.6 billion in debt at June 30, 2026. It generated $411 million of operating cash flow in Q2 and maintained annual free-cash-flow guidance of $2.0\u20132.4 billion. This is a cash-generating pharmaceutical company rather than a development-stage business with a countdown to its next equity financing. Debt servicing matters, but this interim milestone alone should not create an immediate funding requirement. ([ir.tevapharm.com](https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Delivers-Strong-Q2-Results-and-Raises-Outlook-for-All-Three-Key-Innovative-Brands-Reflecting-Continued-Execution-of-Its-Pivot-to-Growth-Strategy/default.aspx))\n\nThe supplied January options price a 15.5% total stock move. The calculated 8.3% move between December and January expirations is also much larger than our emrusolmin-only estimate. However, a Q4 analysis could occur before the December expiration, and other Teva milestones overlap the period. These options therefore reflect broader company uncertainty rather than a clean price for this trial checkpoint. Neither direction qualifies as a big mover.",
+  "catalyst_event_details": "Emrusolmin\u2019s Phase 2 TOPAS-MSA interim futility analysis in multiple system atrophy is expected in Q4 2026. ([s24.q4cdn.com](https://s24.q4cdn.com/720828402/files/doc_financials/2026/q1/Q1-2026-Earnings-Presentation-vf.pdf?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-10-06T14:56:17Z"
+ },
+ {
   "id": 18478,
   "company": {
    "ticker": "CLDX",
@@ -41648,10 +41648,10 @@
    "stage_label": "Phase 2",
    "event_label": "Update"
   },
-  "note": "BREAKTHROUGH trial. 9/12/24- Initiated Ph2 trial. 12/7/24- Ph1 data presented at AES'24. 11/6/25- Topline data in early January 2026. 01/06/26:- Ph2 BREAKTHROUGH topline positive in Absence and DEE; registrational trial preparations started.",
+  "note": "BREAKTHROUGH trial. 9/12/24- Initiated Ph2 trial. 12/7/24- Ph1 data presented at AES'24. 11/6/25- Topline data in early January 2026. 01/06/26:- Ph2 BREAKTHROUGH topline positive in Absence and DEE; registrational trial preparations started. 11/02/26:- FDA placed U.S. Phase 2 DEE trial on partial clinical hold; letter expected within 30 days.",
   "catalyst_date": null,
   "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/01/06/3213483/0/en/Bright-Minds-Biosciences-Announces-Positive-Topline-Results-from-Phase-2-Clinical-Trial-of-BMB-101-in-Patients-with-Absence-Seizures-and-Developmental-and-Encephalopathic-Epilepsie.html",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/g62774295/bright-minds-biosciences-provides-update-about-planned-study-bmb-101-developmental-and-epileptic-enc",
   "is_big_mover": false,
   "is_suspected_mover": false,
   "is_hedge_fund_pick": false,
@@ -43380,7 +43380,7 @@
   "company": {
    "ticker": "ZLAB",
    "name": "Zai Lab",
-   "last_price": "21.69",
+   "last_price": "21.76",
    "market_cap": 2739882496,
    "website": "https://www.zailaboratory.com"
   },

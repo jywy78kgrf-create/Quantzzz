@@ -890,6 +890,66 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 19721,
+  "company": {
+   "ticker": "ARWR",
+   "name": "Arrowhead Pharmaceuticals ",
+   "last_price": "60.35",
+   "market_cap": 8414528512,
+   "website": "https://arrowheadpharma.com"
+  },
+  "ticker": "ARWR",
+  "drug_name": "ARO-DIMER-PA (RNAi Therapeutic)",
+  "indications": [
+   {
+    "id": 1163,
+    "title": "Atherosclerotic cardiovascular disease ",
+    "nickname": "ASCVD"
+   },
+   {
+    "id": 884,
+    "title": "Dyslipidemia",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Atherosclerotic Cardiovascular Disease Due To Mixed Hyperlipidemia",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "01/27/26:- First subjects dosed in ARO-DIMER-PA-1001 (NCT07223658) Ph1/2a trial in mixed hyperlipidemia; future data timing TBA. 09/15/26:- Interim topline Ph1/2a data reported for ARO-DIMER-PA targeting PCSK9 and APOC3. 11/02/26:- Phase 1/2a ARO-DIMER-PA mixed hyperlipidemia data presented at AHA 2026 on Nov 7, 2026.",
+  "catalyst_date": "2026-11-07",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/b62774298/arrowhead-pharmaceuticals-present-important-clinical-data-american-heart-association-scientific-sess",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 20447,
   "company": {
    "ticker": "ASMB",
@@ -1009,7 +1069,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "170.33",
+   "last_price": "170.49",
    "market_cap": 211266863104,
    "website": "https://www.gilead.com"
   },
@@ -1309,7 +1369,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "170.33",
+   "last_price": "170.49",
    "market_cap": 211266863104,
    "website": "https://www.gilead.com"
   },
@@ -1364,7 +1424,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "170.33",
+   "last_price": "170.49",
    "market_cap": 211266863104,
    "website": "https://www.gilead.com"
   },
@@ -1944,7 +2004,7 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "4.59",
+   "last_price": "4.71",
    "market_cap": 1611655680,
    "website": "https://www.nuvationbio.com"
   },
@@ -2299,7 +2359,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "3.94",
+   "last_price": "4.10",
    "market_cap": 746941824,
    "website": "https://www.annexonbio.com"
   },
@@ -2493,7 +2553,7 @@
   "catalyst_date": "2026-11-16",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260924048898/en/Acadia-Pharmaceuticals-Announces-Phase-3-Enabling-Topline-Results-from-Phase-2-RADIANT-Study-of-Remlifanserin-for-the-Treatment-of-Alzheimers-Disease-Psychosis-ADP",
-  "is_hedge_fund_pick": true,
+  "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
   "probability_clean_plus_min": "20.000000",
@@ -2518,6 +2578,61 @@
   "move_analysis_ai_reasoning": "The November 16\u201319 presentation has moderate-to-low importance as a standalone stock catalyst because the principal efficacy and safety findings are already public. Mixed is our most likely outcome: additional detail may support continued development without resolving whether the modest treatment benefit can succeed in Phase 3. Clean+ requires persuasive evidence that the benefit is consistent and clinically useful; Clean\u2013 would involve details that materially weaken the development case. ([ir.acadia.com](https://ir.acadia.com/news/news-details/2026/Acadia-Pharmaceuticals-Announces-Phase-3-Enabling-Topline-Results-from-Phase-2-RADIANT-Study-of-Remlifanserin-for-the-Treatment-of-Alzheimers-Disease-Psychosis-ADP/default.aspx?utm_source=openai))\n\nHistorically, 26.8% of Phase 2 neurology programs advanced to Phase 3, but that development rate is not the probability of a favorable conference reaction. Related-drug pimavanserin demonstrated Alzheimer\u2019s psychosis benefit at six weeks but failed to separate statistically from placebo at twelve weeks. That history supports the biological approach while highlighting uncertainty about sustained benefit. Here, substantial placebo improvement, clinician-rated symptoms, a six-week treatment period, and the failed primary test limit how much reassurance secondary analyses can provide. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf))\n\nThe supplied BPIQ snapshot shows a $3.5 billion market capitalization and eight specialist hedge funds, versus seven in the preceding quarter. That ownership supports institutional engagement, not proof of efficacy. Acadia has $956.5 million in cash and investments and generated $134.8 million of operating cash in the first half of 2026. Its commercial products provide substantial financial support, so near-term financing pressure is limited and runway is better assessed through ongoing cash generation than a fixed burn countdown. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1070494/000119312526333243/acad-20260630.htm?utm_source=openai))\n\nOur conditional stock ranges are +3\u20138% for clearly reassuring details, \u22124% to +2% for a mixed presentation, and \u221212% to \u22126% for materially discouraging details. These estimates reflect the already-known topline result, commercial diversification, and the supplied approximately 9% intraday decline following September\u2019s announcement. The supplied options snapshot indicates roughly 11\u201312% movement through November 20, including ordinary trading volatility. Its very wide bid\u2013ask spreads make that a weak guide to this conference alone; neither direction supports a confirmed 20% big-mover designation.",
   "catalyst_event_details": "Remlifanserin (ACP-204) RADIANT Phase 2 results in Alzheimer\u2019s disease psychosis will be presented at CTAD, November 16\u201319, 2026. ([ir.acadia.com](https://ir.acadia.com/news/news-details/2026/Acadia-Pharmaceuticals-Announces-Phase-3-Enabling-Topline-Results-from-Phase-2-RADIANT-Study-of-Remlifanserin-for-the-Treatment-of-Alzheimers-Disease-Psychosis-ADP/default.aspx?utm_source=openai))",
   "move_analysis_created_datetime": "2026-10-06T14:52:21Z"
+ },
+ {
+  "id": 18433,
+  "company": {
+   "ticker": "LNTH",
+   "name": "Lantheus Holdings",
+   "last_price": "100.50",
+   "market_cap": 6550230528,
+   "website": "https://www.lantheus.com"
+  },
+  "ticker": "LNTH",
+  "drug_name": "MK-6240 (florquinitau) ",
+  "indications": [
+   {
+    "id": 1311,
+    "title": "Alzheimer's disease",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Alzheimer's disease",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "4/30/25- Successfully met its co-primary endpoints in 2 pivotal studies assessing its sensitivity & specificity. 10/28/25- FDA accepted NDA with PDUFA date set August 13, 2026. 11/06/25:- NDA and PDUFA August 13, 2026 reiterated for tau PET imaging agent. 02/26/26:- 2026 PDUFA August 13 for MK-6240 reiterated; launch readiness emphasized within PET radiodiagnostics strategy. 05/07/26:- MK-6240 referenced as research tool and future commercial product; no new trial or regulatory milestones disclosed. 10/28/25:- FDA accepted NDA; PDUFA date set for August 13, 2026. 11/02/26:- CTAD 2026 Poster P077 presents pivotal Ph3 florquinitau F 18 tau PET performance Nov 16-17, 2026.",
+  "catalyst_date": "2026-11-16",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/g62776837/lantheus-announces-presentation-data-2026-clinical-trials-alzheimer-s-disease-annual-meeting",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 17446,
@@ -2804,7 +2919,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "76.36",
+   "last_price": "75.64",
    "market_cap": 14609085440,
    "website": "https://bridgebio.com"
   },
@@ -3284,7 +3399,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/14/3380337/0/en/pharming-presents-positive-phase-ii-topline-data-for-leniolisib-in-genetic-pids-with-immune-dysregulation-at-esid-2026.html",
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": true,
+  "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
@@ -4639,7 +4754,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "9.00",
+   "last_price": "8.89",
    "market_cap": 1726635904,
    "website": "https://sellaslifesciences.com"
   },
@@ -4824,7 +4939,7 @@
   "company": {
    "ticker": "ANNX",
    "name": "Annexon Inc.",
-   "last_price": "3.94",
+   "last_price": "4.10",
    "market_cap": 746941824,
    "website": "https://www.annexonbio.com"
   },
@@ -5264,7 +5379,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "231.36",
+   "last_price": "231.25",
    "market_cap": 88163262464,
    "website": "https://www.modernatx.com"
   },
@@ -5319,7 +5434,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "3.62",
+   "last_price": "3.66",
    "market_cap": 253739408,
    "website": "https://www.bicycletherapeutics.com"
   },
@@ -7050,11 +7165,56 @@
   "move_analysis_created_datetime": "2026-10-06T13:20:04Z"
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-23",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 17173,
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "9.00",
+   "last_price": "8.89",
    "market_cap": 1726635904,
    "website": "https://sellaslifesciences.com"
   },
@@ -7177,51 +7337,6 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-23",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -8154,7 +8269,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.00",
+   "last_price": "1.95",
    "market_cap": 90490672,
    "website": "https://www.genelux.com"
   },
@@ -8334,7 +8449,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.05",
+   "last_price": "9.86",
    "market_cap": 870924416,
    "website": "https://www.kuraoncology.com"
   },
@@ -8399,7 +8514,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.05",
+   "last_price": "9.86",
    "market_cap": 870924416,
    "website": "https://www.kuraoncology.com"
   },
@@ -8649,7 +8764,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.00",
+   "last_price": "1.95",
    "market_cap": 90490672,
    "website": "https://www.genelux.com"
   },
@@ -9149,7 +9264,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "231.36",
+   "last_price": "231.25",
    "market_cap": 88163262464,
    "website": "https://www.modernatx.com"
   },
@@ -9744,7 +9859,7 @@
   "company": {
    "ticker": "AZTR",
    "name": "Azitra",
-   "last_price": "0.84",
+   "last_price": "0.81",
    "market_cap": 5068291,
    "website": "https://azitrainc.com"
   },
@@ -10084,7 +10199,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.00",
+   "last_price": "1.95",
    "market_cap": 90490672,
    "website": "https://www.genelux.com"
   },
@@ -10993,7 +11108,7 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/06/3340675/24180/en/celldex-reports-second-quarter-financial-results-and-provides-corporate-update.html",
-  "is_hedge_fund_pick": true,
+  "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
   "probability_clean_plus_min": "20.000000",
@@ -11099,7 +11214,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.05",
+   "last_price": "9.86",
    "market_cap": 870924416,
    "website": "https://www.kuraoncology.com"
   },
@@ -11298,7 +11413,7 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260805524130/en/Xencor-Reports-Second-Quarter-2026-Financial-Results",
-  "is_hedge_fund_pick": true,
+  "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
   "probability_clean_plus_min": "20.000000",
@@ -11564,7 +11679,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "231.36",
+   "last_price": "231.25",
    "market_cap": 88163262464,
    "website": "https://www.modernatx.com"
   },
@@ -11624,7 +11739,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "8.32",
+   "last_price": "8.37",
    "market_cap": 2106886912,
    "website": "https://www.biocryst.com"
   },
@@ -11679,7 +11794,7 @@
   "company": {
    "ticker": "OKUR",
    "name": "OnKure Therapeutics, Inc.",
-   "last_price": "2.59",
+   "last_price": "2.49",
    "market_cap": 104885432,
    "website": "https://onkuretherapeutics.com"
   },
@@ -12489,7 +12604,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/19/3347990/0/en/alvotech-announces-financial-results-for-the-first-half-of-2026-and-provides-a-business-update.html",
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
+  "is_hedge_fund_avoid": true,
   "is_high_mgmt_interest": false,
   "probability_clean_plus_min": "80.000000",
   "probability_clean_plus_max": "88.000000",
@@ -12579,7 +12694,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.05",
+   "last_price": "9.86",
    "market_cap": 870924416,
    "website": "https://www.kuraoncology.com"
   },
@@ -12773,7 +12888,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/19/3347990/0/en/alvotech-announces-financial-results-for-the-first-half-of-2026-and-provides-a-business-update.html",
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
+  "is_hedge_fund_avoid": true,
   "is_high_mgmt_interest": false,
   "probability_clean_plus_min": "74.000000",
   "probability_clean_plus_max": "84.000000",
@@ -13548,7 +13663,7 @@
   "company": {
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
-   "last_price": "7.93",
+   "last_price": "9.29",
    "market_cap": 524751360,
    "website": "https://www.bicara.com"
   },
@@ -14412,7 +14527,7 @@
   "catalyst_date": "2026-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/02/26/3246065/0/en/structure-therapeutics-reports-fourth-quarter-and-full-year-2025-financial-results-and-recent-highlights.html",
-  "is_hedge_fund_pick": false,
+  "is_hedge_fund_pick": true,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
   "probability_clean_plus_min": "50.000000",
@@ -15118,7 +15233,7 @@
   "company": {
    "ticker": "ACET",
    "name": "Adicet Bio",
-   "last_price": "3.20",
+   "last_price": "3.33",
    "market_cap": 29956768,
    "website": "https://www.adicetbio.com"
   },
@@ -15338,7 +15453,7 @@
   "company": {
    "ticker": "MRNA",
    "name": "Moderna",
-   "last_price": "231.36",
+   "last_price": "231.25",
    "market_cap": 88163262464,
    "website": "https://www.modernatx.com"
   },
@@ -15453,7 +15568,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "132.20",
+   "last_price": "131.12",
    "market_cap": 10885707776,
    "website": "https://www.kymeratx.com"
   },
@@ -17787,7 +17902,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "31.60",
+   "last_price": "31.73",
    "market_cap": 3052927232,
    "website": "https://www.ideayabio.com"
   },
@@ -17842,7 +17957,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "31.60",
+   "last_price": "31.73",
    "market_cap": 3052927232,
    "website": "https://www.ideayabio.com"
   },
@@ -18307,7 +18422,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "186.58",
+   "last_price": "185.19",
    "market_cap": 289367982080,
    "website": "https://www.astrazeneca.com"
   },
@@ -19372,7 +19487,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "76.36",
+   "last_price": "75.64",
    "market_cap": 14609085440,
    "website": "https://bridgebio.com"
   },
@@ -19972,7 +20087,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/12/3379229/0/en/apnimed-to-present-five-abstracts-including-two-late-breakers-at-chest-2026.html",
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
+  "is_hedge_fund_avoid": true,
   "is_high_mgmt_interest": false,
   "probability_clean_plus_min": "45.000000",
   "probability_clean_plus_max": "55.000000",
@@ -21062,7 +21177,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "136.01",
+   "last_price": "142.16",
    "market_cap": 7124314624,
    "website": "https://www.axsome.com"
   },
@@ -21342,7 +21457,7 @@
   "company": {
    "ticker": "TRAX",
    "name": "First Tracks Biotherapeutics",
-   "last_price": "45.05",
+   "last_price": "46.28",
    "market_cap": 1892906368,
    "website": "https://www.firsttracksbio.com"
   },
@@ -22237,7 +22352,7 @@
   "company": {
    "ticker": "AZN",
    "name": "Astrazeneca",
-   "last_price": "186.58",
+   "last_price": "185.19",
    "market_cap": 289367982080,
    "website": "https://www.astrazeneca.com"
   },
@@ -23002,7 +23117,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "136.01",
+   "last_price": "142.16",
    "market_cap": 7124314624,
    "website": "https://www.axsome.com"
   },
@@ -23117,7 +23232,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "76.36",
+   "last_price": "75.64",
    "market_cap": 14609085440,
    "website": "https://bridgebio.com"
   },
@@ -23512,7 +23627,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.92",
+   "last_price": "3.86",
    "market_cap": 2289616384,
    "website": "https://www.recursion.com"
   },
@@ -24152,7 +24267,7 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/10/3342213/0/en/prokidney-reports-second-quarter-2026-financial-results-and-business-highlights.html",
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": true,
+  "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
@@ -25642,7 +25757,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.92",
+   "last_price": "3.86",
    "market_cap": 2289616384,
    "website": "https://www.recursion.com"
   },
@@ -25942,7 +26057,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.92",
+   "last_price": "3.86",
    "market_cap": 2289616384,
    "website": "https://www.recursion.com"
   },
@@ -29052,7 +29167,7 @@
   "company": {
    "ticker": "BCAX",
    "name": "Bicara Therapeutics",
-   "last_price": "7.93",
+   "last_price": "9.29",
    "market_cap": 524751360,
    "website": "https://www.bicara.com"
   },
@@ -29557,7 +29672,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "8.32",
+   "last_price": "8.37",
    "market_cap": 2106886912,
    "website": "https://www.biocryst.com"
   },
@@ -29879,6 +29994,61 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 15170,
+  "company": {
+   "ticker": "AXSM",
+   "name": "Axsome Therapeutics Inc.",
+   "last_price": "142.16",
+   "market_cap": 7124314624,
+   "website": "https://www.axsome.com"
+  },
+  "ticker": "AXSM",
+  "drug_name": "AXS-05",
+  "indications": [
+   {
+    "id": 729,
+    "title": "Smoking cessation",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Smoking cessation",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "5/5/25- Initiate trial in 2025. 11/30/25:- Plans confirmed to initiate a pivotal Ph2/3 AXS-05 smoking cessation trial in Q4 2025. 02/23/26:- Pivotal Phase 2/3 AXS-05 smoking cessation trial initiation delayed; now planned for Q2 2026. 05/04/26:- On track to initiate pivotal Phase 2/3 AXS-05 smoking cessation trial in the second quarter of 2026. 08/10/26:- Pivotal Ph2/3 smoking cessation trial initiation delayed to Q3 2026. 08/31/26:- First patient dosed in SUMMIT Ph3 smoking cessation trial. 11/02/26:- SUMMIT Ph3 initiated in August; topline results are expected in H2 2027.",
+  "catalyst_date": "2027-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/02/3392981/33090/en/axsome-therapeutics-reports-third-quarter-2026-financial-results-and-provides-business-update.html",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
   "probability_clean_plus_max": null,
   "probability_mixed_min": null,
@@ -30362,7 +30532,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "136.01",
+   "last_price": "142.16",
    "market_cap": 7124314624,
    "website": "https://www.axsome.com"
   },
@@ -31282,7 +31452,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.92",
+   "last_price": "3.86",
    "market_cap": 2289616384,
    "website": "https://www.recursion.com"
   },
@@ -31337,7 +31507,7 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "4.59",
+   "last_price": "4.71",
    "market_cap": 1611655680,
    "website": "https://www.nuvationbio.com"
   },
@@ -31397,7 +31567,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "34.23",
+   "last_price": "34.05",
    "market_cap": 4362894848,
    "website": "https://definiumtx.com"
   },
@@ -31682,7 +31852,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.92",
+   "last_price": "3.86",
    "market_cap": 2289616384,
    "website": "https://www.recursion.com"
   },
@@ -31852,7 +32022,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "132.20",
+   "last_price": "131.12",
    "market_cap": 10885707776,
    "website": "https://www.kymeratx.com"
   },
@@ -32247,7 +32417,7 @@
   "company": {
    "ticker": "AXSM",
    "name": "Axsome Therapeutics Inc.",
-   "last_price": "136.01",
+   "last_price": "142.16",
    "market_cap": 7124314624,
    "website": "https://www.axsome.com"
   },
@@ -32922,7 +33092,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "31.60",
+   "last_price": "31.73",
    "market_cap": 3052927232,
    "website": "https://www.ideayabio.com"
   },
@@ -37231,7 +37401,7 @@
   "catalyst_date": "2028-12-31",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/19/3383889/0/en/structure-therapeutics-announces-multiple-upcoming-presentations-at-obesityweek-2026.html",
-  "is_hedge_fund_pick": true,
+  "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
   "probability_clean_plus_min": null,
@@ -37317,7 +37487,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.05",
+   "last_price": "9.86",
    "market_cap": 870924416,
    "website": "https://www.kuraoncology.com"
   },
@@ -37382,7 +37552,7 @@
   "company": {
    "ticker": "KURA",
    "name": "Kura Oncology ",
-   "last_price": "10.05",
+   "last_price": "9.86",
    "market_cap": 870924416,
    "website": "https://www.kuraoncology.com"
   },
@@ -38866,7 +39036,7 @@
   "company": {
    "ticker": "BCYC",
    "name": "Bicycle Therapeutics plc",
-   "last_price": "3.62",
+   "last_price": "3.66",
    "market_cap": 253739408,
    "website": "https://www.bicycletherapeutics.com"
   },
@@ -39286,7 +39456,7 @@
   "company": {
    "ticker": "BCAB",
    "name": "Bioatla Inc",
-   "last_price": "2.07",
+   "last_price": "2.06",
    "market_cap": 3453300,
    "website": "https://www.bioatla.com"
   },
@@ -39586,7 +39756,7 @@
   "company": {
    "ticker": "AZTR",
    "name": "Azitra",
-   "last_price": "0.84",
+   "last_price": "0.81",
    "market_cap": 5068291,
    "website": "https://azitrainc.com"
   },
@@ -39876,7 +40046,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "34.23",
+   "last_price": "34.05",
    "market_cap": 4362894848,
    "website": "https://definiumtx.com"
   },
@@ -40276,7 +40446,7 @@
   "company": {
    "ticker": "IDYA",
    "name": "IDEAYA Biosciences",
-   "last_price": "31.60",
+   "last_price": "31.73",
    "market_cap": 3052927232,
    "website": "https://www.ideayabio.com"
   },
@@ -40456,7 +40626,7 @@
   "company": {
    "ticker": "DRUG",
    "name": "Bright Minds Biosciences",
-   "last_price": "26.20",
+   "last_price": "24.85",
    "market_cap": 258438400,
    "website": "https://brightmindsbio.com"
   },
@@ -41991,7 +42161,7 @@
   "company": {
    "ticker": "BCDA",
    "name": "BioCardia",
-   "last_price": "0.92",
+   "last_price": "0.94",
    "market_cap": 13653667,
    "website": "https://www.biocardia.com"
   },

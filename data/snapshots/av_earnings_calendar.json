@@ -1,59 +1,5 @@
 [
  {
-  "ticker": "AAPL",
-  "reportDate": "2026-11-02",
-  "estimate": "1.98",
-  "time": "post-market"
- },
- {
-  "ticker": "AXSM",
-  "reportDate": "2026-11-02",
-  "estimate": "-0.68",
-  "time": "pre-market"
- },
- {
-  "ticker": "BMRN",
-  "reportDate": "2026-11-02",
-  "estimate": "-0.3",
-  "time": "post-market"
- },
- {
-  "ticker": "KRYS",
-  "reportDate": "2026-11-02",
-  "estimate": "1.84",
-  "time": "pre-market"
- },
- {
-  "ticker": "NBIX",
-  "reportDate": "2026-11-02",
-  "estimate": "1.99",
-  "time": "post-market"
- },
- {
-  "ticker": "SMMT",
-  "reportDate": "2026-11-02",
-  "estimate": "-0.28",
-  "time": ""
- },
- {
-  "ticker": "TGTX",
-  "reportDate": "2026-11-02",
-  "estimate": "0.37",
-  "time": ""
- },
- {
-  "ticker": "TVTX",
-  "reportDate": "2026-11-02",
-  "estimate": "-0.25",
-  "time": "post-market"
- },
- {
-  "ticker": "XENE",
-  "reportDate": "2026-11-02",
-  "estimate": "-1.17",
-  "time": ""
- },
- {
   "ticker": "ALKS",
   "reportDate": "2026-11-03",
   "estimate": "-0.08",
@@ -129,7 +75,7 @@
   "ticker": "TARS",
   "reportDate": "2026-11-03",
   "estimate": "-1.43",
-  "time": ""
+  "time": "post-market"
  },
  {
   "ticker": "TEVA",
@@ -200,14 +146,8 @@
  {
   "ticker": "COP",
   "reportDate": "2026-11-05",
-  "estimate": "2.97",
+  "estimate": "2.95",
   "time": "pre-market"
- },
- {
-  "ticker": "DFTX",
-  "reportDate": "2026-11-05",
-  "estimate": "-0.55",
-  "time": ""
  },
  {
   "ticker": "EWTX",
@@ -274,6 +214,12 @@
   "reportDate": "2026-11-09",
   "estimate": "-1.06",
   "time": ""
+ },
+ {
+  "ticker": "DFTX",
+  "reportDate": "2026-11-09",
+  "estimate": "-0.55",
+  "time": "post-market"
  },
  {
   "ticker": "IMVT",
@@ -356,7 +302,7 @@
  {
   "ticker": "TGT",
   "reportDate": "2026-11-18",
-  "estimate": "2.08",
+  "estimate": "2.04",
   "time": "pre-market"
  },
  {

@@ -1,5 +1,29 @@
 [
  {
+  "id": 9271,
+  "company": {
+   "id": 14,
+   "ticker": "ARQT",
+   "name": "Arcutis Biotherapeutics",
+   "website": "https://www.arcutis.com"
+  },
+  "created_at": "2026-11-06T13:08:04.125454Z",
+  "updated_at": "2026-11-06T13:08:04.125481Z",
+  "ticker": "ARQT",
+  "drug_name": "ZORYVE cream 0.3%",
+  "drug_indication": "Moderate to Severe Atopic Dermatitis",
+  "airtable_id": 9550,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-11-05",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/05/3396361/0/en/arcutis-begins-enrolling-phase-3-study-evaluating-zoryve-roflumilast-cream-0-3-in-moderate-to-severe-atopic-dermatitis.html",
+  "catalyst_text": "First patient enrolled in Phase 3 atopic dermatitis",
+  "detailed_catalyst_text": "The first participant was enrolled in INTEGUMENT-3, a Phase 3, double-blind, randomized, vehicle-controlled study of once-daily roflumilast cream 0.3% in individuals aged 6 years and older with moderate to severe atopic dermatitis. This marks initiation of late-stage evaluation in a more severe population, advancing development beyond prior mild to moderate studies.",
+  "catalyst_text_evidence": "\u201ctoday announced that the first participant has been enrolled in a Phase 3, double-blind, randomized, vehicle-controlled study, INTEGUMENT-3. The study is designed to evaluate the efficacy, safety, and tolerability of once-daily ZORYVE (roflumilast) cream 0.3% for the treatment of individuals ages 6 and older with moderate to severe atopic dermatitis.\u201d \u201cINTEGUMENT-3 (ARQ-151-323) is a Phase 3, multicenter, randomized, double-blind, vehicle-controlled study evaluating the efficacy, safety, and tolerability of once-daily ZORYVE cream 0.3% in children, adolescents, and adults 6 years of age and older with moderate to severe atopic dermatitis.\u201d",
+  "news_published_at": "2026-11-06T00:00:00Z",
+  "open_price_gap_percent": "-0.14831",
+  "intra_day_price_change_percent": "-0.06897"
+ },
+ {
   "id": 8859,
   "company": {
    "id": 14,
@@ -8,7 +32,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-10-10T13:02:46.818090Z",
-  "updated_at": "2026-11-05T13:03:24.731875Z",
+  "updated_at": "2026-11-06T13:03:27.715937Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE cream 0.3%",
   "drug_indication": "Plaque Psoriasis",
@@ -32,7 +56,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-10-10T13:03:12.067442Z",
-  "updated_at": "2026-11-05T13:03:52.593837Z",
+  "updated_at": "2026-11-06T13:03:53.985924Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE foam 0.3%",
   "drug_indication": "Plaque Psoriasis",
@@ -56,7 +80,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-10-10T13:04:23.452110Z",
-  "updated_at": "2026-11-05T13:05:15.732528Z",
+  "updated_at": "2026-11-06T13:05:15.845830Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE cream 0.05%",
   "drug_indication": "Atopic Dermatitis",
@@ -80,7 +104,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-08-22T13:04:55.297982Z",
-  "updated_at": "2026-11-05T13:05:22.761156Z",
+  "updated_at": "2026-11-06T13:05:22.997345Z",
   "ticker": "ARQT",
   "drug_name": "Roflumilast cream 0.05%",
   "drug_indication": "Atopic Dermatitis",
@@ -104,7 +128,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-07-09T13:04:16.104116Z",
-  "updated_at": "2026-11-05T13:04:23.694383Z",
+  "updated_at": "2026-11-06T13:04:24.917212Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) cream 0.05%",
   "drug_indication": "Atopic Dermatitis (Infants 3-24 months)",
@@ -128,7 +152,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-07-01T13:04:19.598622Z",
-  "updated_at": "2026-11-05T13:05:51.091833Z",
+  "updated_at": "2026-11-06T13:05:51.395336Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE cream 0.3%",
   "drug_indication": "Plaque Psoriasis",
@@ -152,7 +176,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-04-28T13:01:48.686711Z",
-  "updated_at": "2026-11-05T13:02:42.785608Z",
+  "updated_at": "2026-11-06T13:02:44.309979Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE cream 0.05%",
   "drug_indication": "Atopic Dermatitis",
@@ -176,7 +200,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-03-31T13:00:35.794551Z",
-  "updated_at": "2026-11-05T13:00:57.020645Z",
+  "updated_at": "2026-11-06T13:01:00.621594Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) foam 0.3%",
   "drug_indication": "Seborrheic Dermatitis",
@@ -200,7 +224,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-03-31T13:01:14.540174Z",
-  "updated_at": "2026-11-05T13:01:58.177618Z",
+  "updated_at": "2026-11-06T13:01:56.798812Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) cream 0.05%",
   "drug_indication": "Atopic Dermatitis (Ages 2 to 5 years)",
@@ -224,7 +248,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-03-31T13:03:02.762385Z",
-  "updated_at": "2026-11-05T13:04:33.142167Z",
+  "updated_at": "2026-11-06T13:04:34.075559Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) foam 0.3%",
   "drug_indication": "Plaque Psoriasis",
@@ -248,7 +272,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-03-31T13:03:20.749589Z",
-  "updated_at": "2026-11-05T13:04:56.576437Z",
+  "updated_at": "2026-11-06T13:04:57.205176Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) cream 0.3%",
   "drug_indication": "Plaque Psoriasis",
@@ -272,7 +296,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-03-31T13:03:56.993859Z",
-  "updated_at": "2026-11-05T13:05:49.426716Z",
+  "updated_at": "2026-11-06T13:05:49.654154Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) cream 0.05%",
   "drug_indication": "Atopic Dermatitis (Infants 3 months to <24 months)",
@@ -296,7 +320,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2026-02-03T13:04:53.534136Z",
-  "updated_at": "2026-11-05T13:07:41.775617Z",
+  "updated_at": "2026-11-06T13:07:42.157494Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) cream 0.05%",
   "drug_indication": "Atopic Dermatitis",
@@ -320,7 +344,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-11-05T13:03:29.853420Z",
-  "updated_at": "2026-11-05T13:05:38.781881Z",
+  "updated_at": "2026-11-06T13:05:39.115167Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE\u00ae (ARQ-151) topical roflumilast cream 0.05%",
   "drug_indication": "Atopic dermatitis",
@@ -344,7 +368,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-05-28T13:02:37.108534Z",
-  "updated_at": "2026-11-05T13:04:29.829874Z",
+  "updated_at": "2026-11-06T13:04:30.893444Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE\u00ae (roflumilast) Topical Foam 0.3%",
   "drug_indication": "Plaque Psoriasis",
@@ -368,7 +392,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-27T13:04:07.324695Z",
-  "updated_at": "2026-11-05T13:07:49.346644Z",
+  "updated_at": "2026-11-06T13:07:49.893422Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE",
   "drug_indication": "Atopic Dermatitis (2 -5 yrs)",
@@ -392,7 +416,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:06:55.493508Z",
-  "updated_at": "2026-11-05T13:02:58.091482Z",
+  "updated_at": "2026-11-06T13:03:01.563628Z",
   "ticker": "ARQT",
   "drug_name": "Roflumilast Cream (ARQ-151) - (INTEGUMENT-PED)",
   "drug_indication": "Atopic Dermatitis - ages of 2-5 years old",
@@ -416,7 +440,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:08:23.186920Z",
-  "updated_at": "2026-11-05T13:05:13.185734Z",
+  "updated_at": "2026-11-06T13:05:13.665913Z",
   "ticker": "ARQT",
   "drug_name": "ARQ-255",
   "drug_indication": "Alopecia Areata",
@@ -440,7 +464,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:48:27.218884Z",
-  "updated_at": "2026-11-05T13:06:35.361068Z",
+  "updated_at": "2026-11-06T13:06:34.455230Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) foam 0.3% - (ARRECTOR)",
   "drug_indication": "Scalp psoriasis",
@@ -464,7 +488,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:08:37.784922Z",
-  "updated_at": "2026-11-05T13:05:36.001987Z",
+  "updated_at": "2026-11-06T13:05:36.323538Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) cream, 0.15%",
   "drug_indication": "Atopic dermatitis",
@@ -488,7 +512,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:13:43.007963Z",
-  "updated_at": "2026-11-05T13:06:45.878993Z",
+  "updated_at": "2026-11-06T13:06:44.521311Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) cream, 0.15%",
   "drug_indication": "Atopic dermatitis",
@@ -512,7 +536,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:07:12.608491Z",
-  "updated_at": "2026-11-05T13:03:25.276746Z",
+  "updated_at": "2026-11-06T13:03:28.263445Z",
   "ticker": "ARQT",
   "drug_name": "Roflumilast Cream (ARQ-151) - (DERMIS-1)",
   "drug_indication": "Plaque psoriasis",
@@ -536,7 +560,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:06:43.969136Z",
-  "updated_at": "2026-11-05T13:02:39.818308Z",
+  "updated_at": "2026-11-06T13:02:41.453368Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast)",
   "drug_indication": "Seborrheic dermatitis",
@@ -560,7 +584,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:14:12.129618Z",
-  "updated_at": "2026-11-05T13:07:34.668549Z",
+  "updated_at": "2026-11-06T13:07:35.025492Z",
   "ticker": "ARQT",
   "drug_name": "ZORYVE (roflumilast) cream",
   "drug_indication": "Plaque psoriasis in children",
@@ -584,7 +608,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:08:45.468615Z",
-  "updated_at": "2026-11-05T13:05:47.509602Z",
+  "updated_at": "2026-11-06T13:05:47.845721Z",
   "ticker": "ARQT",
   "drug_name": "Roflumilast Cream (ARQ-151) - (DERMIS-2)",
   "drug_indication": "Plaque psoriasis",
@@ -608,7 +632,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:07:07.160901Z",
-  "updated_at": "2026-11-05T13:03:16.452418Z",
+  "updated_at": "2026-11-06T13:03:19.429485Z",
   "ticker": "ARQT",
   "drug_name": "ARQ-252",
   "drug_indication": "Vitiligo",
@@ -632,7 +656,7 @@
    "website": "https://www.arcutis.com"
   },
   "created_at": "2025-02-21T20:08:02.060811Z",
-  "updated_at": "2026-11-05T13:04:41.208311Z",
+  "updated_at": "2026-11-06T13:04:42.223289Z",
   "ticker": "ARQT",
   "drug_name": "ARQ-252",
   "drug_indication": "Chronic Hand Eczema",

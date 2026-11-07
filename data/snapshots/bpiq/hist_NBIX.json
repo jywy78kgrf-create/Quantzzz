@@ -1,5 +1,29 @@
 [
  {
+  "id": 9291,
+  "company": {
+   "id": 100,
+   "ticker": "NBIX",
+   "name": "Neurocrine Biosciences",
+   "website": "https://www.neurocrine.com"
+  },
+  "created_at": "2026-11-07T13:07:15.665880Z",
+  "updated_at": "2026-11-07T13:07:15.665903Z",
+  "ticker": "NBIX",
+  "drug_name": "INGREZZA",
+  "drug_indication": "Tardive Dyskinesia",
+  "airtable_id": 9572,
+  "stage": "",
+  "catalyst_date": "2026-11-05",
+  "catalyst_source": "https://www.prnewswire.com/news-releases/neurocrine-biosciences-presents-new-tardive-dyskinesia-survey-results-showing-fewer-work-and-school-disruptions-with-ingrezza-valbenazine-capsules-302930000.html",
+  "catalyst_text": "Reported positive real-world and post hoc analysis results",
+  "detailed_catalyst_text": "Announced survey findings and a post\u2011hoc Phase 4 KINECT\u2011PRO analysis showing patient\u2011reported functional and quality\u2011of\u2011life improvements in adults with tardive dyskinesia treated with the therapy. Outcomes included reduced work and school disruptions, fewer missed days, and clinically meaningful improvements on TDIS scores at Week 24, supporting benefits beyond movement reduction.",
+  "catalyst_text_evidence": "Neurocrine Biosciences, Inc. (Nasdaq: NBIX) today announced the release of findings from a new survey showing that adults with tardive dyskinesia (TD) reported fewer disruptions to work and school after starting treatment with INGREZZA (valbenazine) capsules. A separate post-hoc analysis of the KINECT-PRO Phase 4 open-label study showed robust patient-reported improvement with INGREZZA across all six physical and socio-emotional areas measured by the Tardive Dyskinesia Impact Scale (TDIS) among participants who reported impacts in those areas at baseline. Fewer work and school disruptions: 57% reported disruptions to work or school before treatment, compared with 21% after starting treatment. Fewer missed days: The average number of missed days of school and work reported per month decreased from 5.6 before treatment to 2.0 after starting treatment. Among participants with available data at Week 24 (n=45), 82.2% reported any improvement (\u22651-point reduction) in TDIS total score, while 62.2% reported improvement consistent with the minimal clinically important difference (MCID) threshold for TDIS total score improvement (\u22654-point reduction). Among participants reporting an impact in a given TDIS area at baseline, mean percentage decreases in TDIS scores, indicating improvement, ranged from 40% to 70% across all six areas at Week 24.",
+  "news_published_at": "2026-11-07T00:00:00Z",
+  "open_price_gap_percent": "0.00982",
+  "intra_day_price_change_percent": "-0.04723"
+ },
+ {
   "id": 9118,
   "company": {
    "id": 100,
@@ -8,7 +32,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-10-27T13:05:20.144235Z",
-  "updated_at": "2026-11-06T13:05:28.193109Z",
+  "updated_at": "2026-11-07T13:05:42.476642Z",
   "ticker": "NBIX",
   "drug_name": "Ingrezza (valbenazine)",
   "drug_indication": "Tardive Dyskinesia",
@@ -32,7 +56,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-10-21T13:04:27.176597Z",
-  "updated_at": "2026-11-06T13:04:59.563242Z",
+  "updated_at": "2026-11-07T13:05:13.443967Z",
   "ticker": "NBIX",
   "drug_name": "NBI-1117567",
   "drug_indication": "Alzheimer's Disease",
@@ -56,7 +80,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-08-08T13:05:18.747609Z",
-  "updated_at": "2026-11-06T13:06:29.415913Z",
+  "updated_at": "2026-11-07T13:06:46.788079Z",
   "ticker": "NBIX",
   "drug_name": "NBIP-1968",
   "drug_indication": "Obesity",
@@ -80,7 +104,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-07-03T13:02:56.618881Z",
-  "updated_at": "2026-11-06T13:03:43.986233Z",
+  "updated_at": "2026-11-07T13:03:51.476973Z",
   "ticker": "NBIX",
   "drug_name": "Crinecerfont",
   "drug_indication": "Classic Congenital Adrenal Hyperplasia",
@@ -104,7 +128,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-06-17T13:00:36.517857Z",
-  "updated_at": "2026-11-06T13:00:54.006147Z",
+  "updated_at": "2026-11-07T13:00:44.463183Z",
   "ticker": "NBIX",
   "drug_name": "CRENESSITY (crinecerfont)",
   "drug_indication": "Classic Congenital Adrenal Hyperplasia due to 21\u2011hydroxylase deficiency",
@@ -128,7 +152,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-06-17T13:02:16.961151Z",
-  "updated_at": "2026-11-06T13:02:45.624659Z",
+  "updated_at": "2026-11-07T13:02:51.631766Z",
   "ticker": "NBIX",
   "drug_name": "Crinecerfont",
   "drug_indication": "Classic Congenital Adrenal Hyperplasia",
@@ -152,7 +176,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-06-17T13:02:50.371401Z",
-  "updated_at": "2026-11-06T13:03:24.249083Z",
+  "updated_at": "2026-11-07T13:03:30.567916Z",
   "ticker": "NBIX",
   "drug_name": "CRENESSITY (crinecerfont)",
   "drug_indication": "Classic Congenital Adrenal Hyperplasia due to 11\u03b2-hydroxylase deficiency",
@@ -176,7 +200,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-06-17T13:05:03.810084Z",
-  "updated_at": "2026-11-06T13:05:54.698259Z",
+  "updated_at": "2026-11-07T13:06:11.642408Z",
   "ticker": "NBIX",
   "drug_name": "VYKAT XR",
   "drug_indication": "Prader-Willi syndrome hyperphagia",
@@ -200,7 +224,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-06-17T13:05:25.245230Z",
-  "updated_at": "2026-11-06T13:06:18.874880Z",
+  "updated_at": "2026-11-07T13:06:35.713628Z",
   "ticker": "NBIX",
   "drug_name": "CRENESSITY (crinecerfont)",
   "drug_indication": "Classic Congenital Adrenal Hyperplasia",
@@ -224,7 +248,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-06-09T13:03:01.404622Z",
-  "updated_at": "2026-11-06T13:04:17.437618Z",
+  "updated_at": "2026-11-07T13:04:27.379347Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA (valbenazine)",
   "drug_indication": "Tardive Dyskinesia",
@@ -248,7 +272,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-06-10T13:03:16.888597Z",
-  "updated_at": "2026-11-06T13:04:55.202354Z",
+  "updated_at": "2026-11-07T13:05:09.737721Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA (valbenazine)",
   "drug_indication": "Tardive Dyskinesia",
@@ -272,7 +296,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-05-20T13:05:53.980429Z",
-  "updated_at": "2026-11-06T13:07:10.119754Z",
+  "updated_at": "2026-11-07T13:07:29.353151Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA (valbenazine)",
   "drug_indication": "Tardive Dyskinesia",
@@ -296,7 +320,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-05-05T13:06:11.107920Z",
-  "updated_at": "2026-11-06T13:07:21.665239Z",
+  "updated_at": "2026-11-07T13:07:40.337645Z",
   "ticker": "NBIX",
   "drug_name": "NBIP-'2118",
   "drug_indication": "Obesity",
@@ -320,7 +344,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-05-05T13:02:28.434621Z",
-  "updated_at": "2026-11-06T13:02:56.846175Z",
+  "updated_at": "2026-11-07T13:03:03.501239Z",
   "ticker": "NBIX",
   "drug_name": "CRENESSITY (crinecerfont)",
   "drug_indication": "Classic Congenital Adrenal Hyperplasia",
@@ -344,7 +368,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-04-24T13:03:24.139869Z",
-  "updated_at": "2026-11-06T13:04:41.249066Z",
+  "updated_at": "2026-11-07T13:04:53.023929Z",
   "ticker": "NBIX",
   "drug_name": "Crenessity (crinecerfont)",
   "drug_indication": "Classic Congenital Adrenal Hyperplasia",
@@ -368,7 +392,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-04-15T13:03:37.067950Z",
-  "updated_at": "2026-11-06T13:05:27.187906Z",
+  "updated_at": "2026-11-07T13:05:41.392889Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA",
   "drug_indication": "Tardive Dyskinesia",
@@ -392,7 +416,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-03-27T13:01:00.986707Z",
-  "updated_at": "2026-11-06T13:01:37.372744Z",
+  "updated_at": "2026-11-07T13:01:37.078282Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA (valbenazine)",
   "drug_indication": "Tardive Dyskinesia",
@@ -416,7 +440,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2026-01-27T13:01:08.686157Z",
-  "updated_at": "2026-11-06T13:01:37.135722Z",
+  "updated_at": "2026-11-07T13:01:36.798993Z",
   "ticker": "NBIX",
   "drug_name": "NBI-1065890",
   "drug_indication": "Tardive Dyskinesia",
@@ -440,7 +464,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-12-24T13:04:21.352194Z",
-  "updated_at": "2026-11-06T13:07:32.509450Z",
+  "updated_at": "2026-11-07T13:07:49.778946Z",
   "ticker": "NBIX",
   "drug_name": "Valbenazine",
   "drug_indication": "Dyskinetic Cerebral Palsy",
@@ -464,7 +488,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-09-25T13:03:07.844025Z",
-  "updated_at": "2026-11-06T13:05:45.533642Z",
+  "updated_at": "2026-11-07T13:06:01.333005Z",
   "ticker": "NBIX",
   "drug_name": "Osavampator (NBI-1065845/TAK-653)",
   "drug_indication": "Major depressive disorder",
@@ -488,7 +512,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-07-02T13:04:06.382663Z",
-  "updated_at": "2026-11-06T13:05:56.444368Z",
+  "updated_at": "2026-11-07T13:06:13.315955Z",
   "ticker": "NBIX",
   "drug_name": "NBIP-01435",
   "drug_indication": "Congenital adrenal hyperplasia (CAH)",
@@ -512,7 +536,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-06-28T13:02:40.397964Z",
-  "updated_at": "2026-11-06T13:04:20.546263Z",
+  "updated_at": "2026-11-07T13:04:30.722386Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA (valbenazine)",
   "drug_indication": "Huntington's disease, Chorea",
@@ -536,7 +560,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-05-31T13:02:06.227929Z",
-  "updated_at": "2026-11-06T13:04:08.858366Z",
+  "updated_at": "2026-11-07T13:04:17.821209Z",
   "ticker": "NBIX",
   "drug_name": "NBI-1117568 ",
   "drug_indication": "Schizophrenia",
@@ -560,7 +584,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-05-09T13:02:53.347097Z",
-  "updated_at": "2026-11-06T13:05:21.672610Z",
+  "updated_at": "2026-11-07T13:05:35.828190Z",
   "ticker": "NBIX",
   "drug_name": "CRENESSITY\u2122",
   "drug_indication": "Classic congenital adrenal hyperplasia (CAH)  ",
@@ -584,7 +608,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-03-18T13:02:20.991201Z",
-  "updated_at": "2026-11-06T13:04:45.061909Z",
+  "updated_at": "2026-11-07T13:04:57.370534Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA (valbenazine)",
   "drug_indication": "Chorea",
@@ -608,7 +632,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-03-06T13:02:54.927163Z",
-  "updated_at": "2026-11-06T13:05:56.656849Z",
+  "updated_at": "2026-11-07T13:06:13.518609Z",
   "ticker": "NBIX",
   "drug_name": "NBI-1140675",
   "drug_indication": "Neurological and neuropsychiatric conditions",
@@ -632,7 +656,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-03-01T13:03:32.392496Z",
-  "updated_at": "2026-11-06T13:06:48.329637Z",
+  "updated_at": "2026-11-07T13:07:08.306727Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA\u00ae (valbenazine)",
   "drug_indication": "Tardive Dyskinesia",
@@ -656,7 +680,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:08:32.293594Z",
-  "updated_at": "2026-11-06T13:05:26.947181Z",
+  "updated_at": "2026-11-07T13:05:41.150273Z",
   "ticker": "NBIX",
   "drug_name": "osavampator  (NBI-1065845) - (SAVITRI)",
   "drug_indication": "Major depressive disorder",
@@ -680,7 +704,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:14:09.921458Z",
-  "updated_at": "2026-11-06T13:07:31.602785Z",
+  "updated_at": "2026-11-07T13:07:48.847081Z",
   "ticker": "NBIX",
   "drug_name": "CRENESSITY (Crinecerfont) - (oral solution formulation)",
   "drug_indication": "Classic congenital adrenal hyperplasia (CAH)",
@@ -704,7 +728,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:47:55.576038Z",
-  "updated_at": "2026-11-06T13:05:27.825373Z",
+  "updated_at": "2026-11-07T13:05:42.053874Z",
   "ticker": "NBIX",
   "drug_name": "CRENESSITY  (Crinecerfont) - (CAHtalyst, capsule formulation)",
   "drug_indication": "Congenital Adrenal Hyperplasia (CAH)",
@@ -728,7 +752,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:06:43.624799Z",
-  "updated_at": "2026-11-06T13:02:40.979892Z",
+  "updated_at": "2026-11-07T13:02:46.856399Z",
   "ticker": "NBIX",
   "drug_name": "Luvadaxistat (NBI-1065844)",
   "drug_indication": "Cognitive Impairment Associated with Schizophrenia (CIAS)",
@@ -752,7 +776,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:08:35.917261Z",
-  "updated_at": "2026-11-06T13:05:33.392619Z",
+  "updated_at": "2026-11-07T13:05:47.962953Z",
   "ticker": "NBIX",
   "drug_name": "NBI-1117568 (NBI-'568)",
   "drug_indication": "Schizophrenia",
@@ -776,7 +800,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:08:41.124770Z",
-  "updated_at": "2026-11-06T13:05:41.183551Z",
+  "updated_at": "2026-11-07T13:05:56.318057Z",
   "ticker": "NBIX",
   "drug_name": "TAK-653 / NBI-1065845",
   "drug_indication": "Major Depressive Disorder (MDD)",
@@ -800,7 +824,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:14:20.906974Z",
-  "updated_at": "2026-11-06T13:07:48.874973Z",
+  "updated_at": "2026-11-07T13:08:07.381706Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA SPRINKLE (valbenazine) Capsules",
   "drug_indication": "Tardive dyskinesia (TD)",
@@ -824,7 +848,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:07:26.911144Z",
-  "updated_at": "2026-11-06T13:03:49.972039Z",
+  "updated_at": "2026-11-07T13:03:58.224679Z",
   "ticker": "NBIX",
   "drug_name": "NBI-1065890",
   "drug_indication": "CNS Indications",
@@ -848,7 +872,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:06:16.664450Z",
-  "updated_at": "2026-11-06T13:01:54.595537Z",
+  "updated_at": "2026-11-07T13:01:56.065504Z",
   "ticker": "NBIX",
   "drug_name": "NBI-921352",
   "drug_indication": "SCN8A developmental and epileptic encephalopathy (SCN8A-DEE)",
@@ -872,7 +896,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:07:23.692471Z",
-  "updated_at": "2026-11-06T13:03:44.864233Z",
+  "updated_at": "2026-11-07T13:03:52.417008Z",
   "ticker": "NBIX",
   "drug_name": "NBI-921352",
   "drug_indication": "Focal Onset Seizure in Adults",
@@ -896,7 +920,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:14:25.241477Z",
-  "updated_at": "2026-11-06T13:07:55.614010Z",
+  "updated_at": "2026-11-07T13:08:14.700888Z",
   "ticker": "NBIX",
   "drug_name": "TAK-041 / NBI-1065846",
   "drug_indication": "Anhedonia in depression",
@@ -920,7 +944,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:07:42.832900Z",
-  "updated_at": "2026-11-06T13:04:14.108568Z",
+  "updated_at": "2026-11-07T13:04:23.766109Z",
   "ticker": "NBIX",
   "drug_name": "Crinecerfont - (CAHtalyst Pediatric Study)",
   "drug_indication": "Congenital Adrenal Hyperplasia (CAH) - children",
@@ -944,7 +968,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:07:13.530950Z",
-  "updated_at": "2026-11-06T13:03:29.683652Z",
+  "updated_at": "2026-11-07T13:03:36.334421Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA (valbenazine)",
   "drug_indication": "Huntington's disease",
@@ -968,7 +992,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:07:00.150464Z",
-  "updated_at": "2026-11-06T13:03:08.947478Z",
+  "updated_at": "2026-11-07T13:03:14.402303Z",
   "ticker": "NBIX",
   "drug_name": "NBI-827104",
   "drug_indication": "Essential Tremor",
@@ -992,7 +1016,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:13:53.821900Z",
-  "updated_at": "2026-11-06T13:07:03.057726Z",
+  "updated_at": "2026-11-07T13:07:22.871461Z",
   "ticker": "NBIX",
   "drug_name": "Crinecerfont - (adolescent open-label)",
   "drug_indication": "Classic congenital adrenal hyperplasia (CAH)",
@@ -1016,7 +1040,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:48:44.488007Z",
-  "updated_at": "2026-11-06T13:07:10.027821Z",
+  "updated_at": "2026-11-07T13:07:29.259954Z",
   "ticker": "NBIX",
   "drug_name": "TAK-831 / Luvadaxistat (NBI-1065844)",
   "drug_indication": "Negative symptoms of schizophrenia",
@@ -1040,7 +1064,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:05:37.401944Z",
-  "updated_at": "2026-11-06T13:00:51.935081Z",
+  "updated_at": "2026-11-07T13:00:42.033561Z",
   "ticker": "NBIX",
   "drug_name": "VY-AADC02 - (RESTORE-1)",
   "drug_indication": "Parkinson's Disease",
@@ -1064,7 +1088,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:07:13.932405Z",
-  "updated_at": "2026-11-06T13:03:30.436599Z",
+  "updated_at": "2026-11-07T13:03:37.146417Z",
   "ticker": "NBIX",
   "drug_name": "ORILISSA (Elagolix)",
   "drug_indication": "Uterine Fibroids",
@@ -1088,7 +1112,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:14:07.159722Z",
-  "updated_at": "2026-11-06T13:07:27.163670Z",
+  "updated_at": "2026-11-07T13:07:44.548815Z",
   "ticker": "NBIX",
   "drug_name": "Opicapone",
   "drug_indication": "Parkinson's disease",
@@ -1112,7 +1136,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:08:53.893535Z",
-  "updated_at": "2026-11-06T13:06:02.742824Z",
+  "updated_at": "2026-11-07T13:06:18.742112Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA - (T-Force GOLD)",
   "drug_indication": "Tourette syndrome - juvenile",
@@ -1136,7 +1160,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:13:50.405439Z",
-  "updated_at": "2026-11-06T13:06:56.068540Z",
+  "updated_at": "2026-11-07T13:07:16.620895Z",
   "ticker": "NBIX",
   "drug_name": "ORILISSA (Elagolix)",
   "drug_indication": "Endometriosis",
@@ -1160,7 +1184,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:08:59.865696Z",
-  "updated_at": "2026-11-06T13:06:12.095058Z",
+  "updated_at": "2026-11-07T13:06:28.730051Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA",
   "drug_indication": "Tardive dyskinesia",
@@ -1184,7 +1208,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:14:30.164013Z",
-  "updated_at": "2026-11-06T13:08:02.914736Z",
+  "updated_at": "2026-11-07T13:08:21.406492Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA",
   "drug_indication": "Tardive dyskinesia",
@@ -1208,7 +1232,7 @@
    "website": "https://www.neurocrine.com"
   },
   "created_at": "2025-02-21T20:14:01.102250Z",
-  "updated_at": "2026-11-06T13:07:15.851011Z",
+  "updated_at": "2026-11-07T13:07:34.954360Z",
   "ticker": "NBIX",
   "drug_name": "INGREZZA",
   "drug_indication": "Tourette syndrome - adults",

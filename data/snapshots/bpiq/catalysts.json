@@ -1,60 +1,5 @@
 [
  {
-  "id": 16624,
-  "company": {
-   "ticker": "N/A",
-   "name": "Biomedical Meetings",
-   "last_price": null,
-   "market_cap": null,
-   "website": ""
-  },
-  "ticker": "Meeting",
-  "drug_name": "Society for Immunotherapy of Cancer (SITC)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Cancer",
-  "stage_event": {
-   "id": 153,
-   "label": "Biomedical Meeting Conference",
-   "stage_label": "Biomedical Meeting",
-   "event_label": "Conference"
-  },
-  "note": "SITC meeting dates: November 4-8, 2026. See the full SITC conference page: https://www.sitcancer.org/2026/schedule/sitc-2026-schedule ",
-  "catalyst_date": "2026-11-04",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.sitcancer.org/2026/schedule/sitc-2026-schedule",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16631,
   "company": {
    "ticker": "N/A",
@@ -83,131 +28,6 @@
   "catalyst_date": "2026-11-05",
   "has_catalyst": true,
   "catalyst_source": "https://www.aasld.org/tlm-26/home ",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 16039,
-  "company": {
-   "ticker": "EVAX",
-   "name": "Evaxion Biotech",
-   "last_price": "3.00",
-   "market_cap": 27668044,
-   "website": "https://evaxion.ai"
-  },
-  "ticker": "EVAX",
-  "drug_name": "EVX-01 + pembrolizumab",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1060,
-    "title": "Melanoma",
-    "nickname": ""
-   },
-   {
-    "id": 740,
-    "title": "Solid tumor/s",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Melanoma",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "10/02/26:- Ph2 immune data at SITC Nov 6-7, 2026. Three-year data at ESMO Oct 24, 2026. 10/19/26:- Three-year clinical and immune data presented at ESMO Oct 24, 2026. Webinar held Oct 29, 2026. 10/23/26:- Three-year Ph2 EVX-01 melanoma data show durable responses; ESMO poster Oct 24, 2026. 11/03/26:- New Ph2 biomarker data for EVX-01 plus pembrolizumab to be presented at SITC Nov 6-7, 2026.",
-  "catalyst_date": "2026-11-06",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/03/3394331/0/en/evaxion-to-present-broad-biomarker-data-from-phase-2-trial-with-personalized-cancer-vaccine-evx-01-at-the-sitc-2026-annual-meeting.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 17030,
-  "company": {
-   "ticker": "CABA",
-   "name": "Cabaletta Bio",
-   "last_price": "1.30",
-   "market_cap": 280436480,
-   "website": "https://www.cabalettabio.com"
-  },
-  "ticker": "CABA",
-  "drug_name": "MuSK-CAART",
-  "indications": [
-   {
-    "id": 1272,
-    "title": "Autoimmune disease",
-    "nickname": ""
-   },
-   {
-    "id": 1029,
-    "title": "Myasthenia gravis",
-    "nickname": "MG"
-   }
-  ],
-  "indications_text": "Myasthenia gravis, Autoimmune disease",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "MusCAARTes\u2122 trial. An OLS w/ accelerated DE phase, followed by a cohort expansion phase. Currently dosing patients in the A2 cohort. 3/31/25- Currently evaluating clinical and translational data from A1 and A2 cohorts. 11/10/25:- PR No update. 03/23/26:- PR No update. 05/14/26:- PR No update. 08/13/26:- PR No update. 11/05/26:- PR No update.",
-  "catalyst_date": "2026-11-06",
-  "has_catalyst": true,
-  "catalyst_source": "",
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
@@ -268,431 +88,6 @@
   "catalyst_date": "2026-11-06",
   "has_catalyst": true,
   "catalyst_source": "https://professional.heart.org/en/meetings/scientific-sessions",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18328,
-  "company": {
-   "ticker": "IMCR",
-   "name": "Immunocore Holdings",
-   "last_price": "30.99",
-   "market_cap": 1595942144,
-   "website": "https://www.immunocore.com"
-  },
-  "ticker": "IMCR",
-  "drug_name": "IMC-F106C (Brenetafusp) +/- Pembrolizumab",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1060,
-    "title": "Melanoma",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Cancer, Melanoma",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "5/31/24- Reported update Ph1 data at ASCO 2024. 2/26/25- No recent Q4'24 drug combo update. 11/06/25:- PR No update. 02/25/26:- PR No update. 05/06/26:- Phase 1 brenetafusp advanced melanoma data to be presented at ASCO 2026 on May 31, 2026. 05/31/26:- Updated Phase 1/2 melanoma monotherapy and pembrolizumab-combination data presented at American Society of Clinical Oncology 2026. 08/06/26:- ASCO 2026 brenetafusp melanoma data showed activity; pembrolizumab combo ORR was 33%. 10/29/26:- Phase 1/2 metastatic uveal melanoma brenetafusp data at SITC 2026 Nov 6-7.",
-  "catalyst_date": "2026-11-06",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391299/0/en/immunocore-will-present-phase-1-data-for-brenetafusp-plus-kimmtrak-tebentafusp-tebn-in-metastatic-uveal-melanoma-during-a-late-breaking-oral-session-at-the-2026-sitc-meeting.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 16019,
-  "company": {
-   "ticker": "MDNAF",
-   "name": "Medicenna Therapeutics",
-   "last_price": "0.32",
-   "market_cap": 29536064,
-   "website": "https://www.medicenna.com"
-  },
-  "ticker": "MDNAF",
-  "drug_name": "MDNA11 (IL-2)",
-  "indications": [
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   },
-   {
-    "id": 1044,
-    "title": "Cold tumors",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Cold tumors",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "06/26/26:- ABILITY-1 enrollment completes Q3 2026. ABILITY-1 and NEO-CYT data expected H2 2026. 08/14/26:- ABILITY-1 enrollment is expected to complete in Q3 2026. Updated ABILITY-1 data will be presented at an upcoming conference. NEO-CYT preliminary data is expected in Q4 2026. 10/05/26:- ABILITY-1 topline data slated for SITC oral talk on November 7, 2026. 11/04/26:- ABILITY-1 enrollment completed. Updated data at SITC Nov 7, 2026; KOL webinar Nov 10, 2026.",
-  "catalyst_date": "2026-11-07",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/04/3395147/0/en/medicenna-completes-phase-1-2-ability-1-enrollment-and-announces-webinar-to-discuss-updated-mdna11-results-with-key-opinion-leaders.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18049,
-  "company": {
-   "ticker": "DFTX",
-   "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "33.27",
-   "market_cap": 4470388224,
-   "website": "https://definiumtx.com"
-  },
-  "ticker": "DFTX",
-  "drug_name": "DT120 (formerly MM120; lysergide D-tartrate)",
-  "indications": [
-   {
-    "id": 2043,
-    "title": "Anxiety Disorders",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Anxiety Disorders",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "09/14/26:- Panorama Ph3 GAD topline positive. 10/30/26:- Panorama (MM120-301) and Voyage Ph3 topline and DT120 safety posters scheduled Nov 7, 2026.",
-  "catalyst_date": "2026-11-07",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261030107692/en/Definium-Therapeutics-Presents-Topline-Phase-3-Data-for-DT120-ODT-in-Generalized-Anxiety-Disorder-and-Major-Depressive-Disorder-at-2026-NEI-Fall-Congress",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18762,
-  "company": {
-   "ticker": "ASMB",
-   "name": "Assembly Biosciences",
-   "last_price": "20.42",
-   "market_cap": 415763360,
-   "website": "https://www.assemblybio.com"
-  },
-  "ticker": "ASMB",
-  "drug_name": "ABI-6250",
-  "indications": [
-   {
-    "id": 712,
-    "title": "Hepatitis D",
-    "nickname": "HDV "
-   },
-   {
-    "id": 1097,
-    "title": "Hepatitis Delta Virus",
-    "nickname": "HDV"
-   },
-   {
-    "id": 1191,
-    "title": "Liver disease",
-    "nickname": ""
-   },
-   {
-    "id": 803,
-    "title": "Liver infection",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Chronic hepatitis delta virus (HDV) ",
-  "stage_event": {
-   "id": 110,
-   "label": "Phase 1a Data readout",
-   "stage_label": "Phase 1a",
-   "event_label": "Data readout"
-  },
-  "note": "ABI-6250-101 trial. 2/26/25- First patient dosed. 8/6/25- Interim Ph1a data reported. 11/10/25- Preparing for Ph2 study. 03/19/26:- Phase 1a data poster at EASL May 27\u201330, 2026; Phase 2 initiation planned by End-2026. 05/07/26:- Chronic toxicology completed supporting Phase 2 dosing; Phase 2 initiation in chronic HDV expected Q4 2026. 05/22/26:- Held pre-IND FDA meeting; plans Ph2 HDV Q4 2026 and Ph2 PBC/PSC Q1 2027. 08/13/26:- Topline Ph1a data presented at EASL 2026. Ph2 chronic HDV study will initiate by Year-End 2026. 10/05/26:- AASLD 2026 poster presents new Ph1a data Nov 7, 2026. Ph2 HDV planned Q4 2026. 10/29/26:- Dosed first two in Ph2 ABI-6250-201 (NCT07762027). Initial data expected Q4 2027.",
-  "catalyst_date": "2026-11-07",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/29/3391795/16259/en/assembly-biosciences-doses-first-two-participants-in-phase-2-study-of-oral-ntcp-inhibitor-abi-6250-for-chronic-hepatitis-delta-virus.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 19536,
-  "company": {
-   "ticker": "MCRB",
-   "name": "Seres Therapeutics",
-   "last_price": "1.98",
-   "market_cap": 20186162,
-   "website": "https://www.serestherapeutics.com"
-  },
-  "ticker": "MCRB",
-  "drug_name": "SER-155 (Live Biotherapeutic)",
-  "indications": [
-   {
-    "id": 1298,
-    "title": "Bowel disorder",
-    "nickname": ""
-   },
-   {
-    "id": 899,
-    "title": "Inflammatory bowel disease",
-    "nickname": "IBD"
-   }
-  ],
-  "indications_text": "Immune Checkpoint Related Enterocolitis",
-  "stage_event": {
-   "id": 116,
-   "label": "Phase 1 Data readout",
-   "stage_label": "Phase 1",
-   "event_label": "Data readout"
-  },
-  "note": "Collab w/ MSK. 11/05/25:- IST ongoing; complete enrollment in 2025, clinical readout in early 2026. 02/12/26:- IST fully enrolled; initial SER-155 irEC clinical results, including safety and efficacy, expected early Q2 2026. 03/12/26:- Memorial Sloan Kettering SER-155 irEC IST fully enrolled; 15 patients; Q2 2026 data expected. 05/05/26:- MSK IST in irEC remains fully enrolled; clinical readout of SER-155 data expected in coming weeks (Q2 2026). 06/25/26:- Top-line SER-155 irEC data to be discussed July 8, 2026; MSK IST NCT06801067. 07/08/26:- Topline IST NCT06801067 results: 80% Day 15 response; 33% Day 43 response. Future conference presentation planned. 08/05/26:- IST NCT06801067 data reiterated; safety clean; partners sought for irEC development. 11/04/26:- IST NCT06801067 results will be presented at SITC on November 7, 2026. FDA study-design submission for prevention of irEC will occur in Q1 2027.",
-  "catalyst_date": "2026-11-07",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/04/3395174/0/en/seres-therapeutics-reports-third-quarter-2026-financial-results-and-announces-plans-for-advancing-development-of-ser-155-to-prevent-immune-checkpoint-inhibitor-related-enterocoliti.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 19721,
-  "company": {
-   "ticker": "ARWR",
-   "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "58.16",
-   "market_cap": 8215359488,
-   "website": "https://arrowheadpharma.com"
-  },
-  "ticker": "ARWR",
-  "drug_name": "ARO-DIMER-PA (RNAi Therapeutic)",
-  "indications": [
-   {
-    "id": 1163,
-    "title": "Atherosclerotic cardiovascular disease ",
-    "nickname": "ASCVD"
-   },
-   {
-    "id": 884,
-    "title": "Dyslipidemia",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Atherosclerotic Cardiovascular Disease Due To Mixed Hyperlipidemia",
-  "stage_event": {
-   "id": 128,
-   "label": "Phase 1/2 Data readout",
-   "stage_label": "Phase 1/2",
-   "event_label": "Data readout"
-  },
-  "note": "01/27/26:- First subjects dosed in ARO-DIMER-PA-1001 (NCT07223658) Ph1/2a trial in mixed hyperlipidemia; future data timing TBA. 09/15/26:- Interim topline Ph1/2a data reported for ARO-DIMER-PA targeting PCSK9 and APOC3. 11/02/26:- Phase 1/2a ARO-DIMER-PA mixed hyperlipidemia data presented at AHA 2026 on Nov 7, 2026.",
-  "catalyst_date": "2026-11-07",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261102145649/en/Arrowhead-Pharmaceuticals-to-Present-Important-Clinical-Data-at-the-American-Heart-Association-Scientific-Sessions-2026",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20447,
-  "company": {
-   "ticker": "ASMB",
-   "name": "Assembly Biosciences",
-   "last_price": "20.42",
-   "market_cap": 415763360,
-   "website": "https://www.assemblybio.com"
-  },
-  "ticker": "ASMB",
-  "drug_name": "ABI-6250 (NTCP Inhibitor)",
-  "indications": [
-   {
-    "id": 999,
-    "title": "Primary biliary cholangitis",
-    "nickname": ""
-   },
-   {
-    "id": 787,
-    "title": "Primary sclerosing cholangitis",
-    "nickname": "PSC"
-   }
-  ],
-  "indications_text": "Primary Biliary Cholangitis And Primary Sclerosing Cholangitis",
-  "stage_event": {
-   "id": 110,
-   "label": "Phase 1a Data readout",
-   "stage_label": "Phase 1a",
-   "event_label": "Data readout"
-  },
-  "note": "05/22/26:- Plans Phase 2 basket study in PBC/PSC expected to start in Q1 2027. 08/13/26:- ABI-6250 expanded into PBC and PSC. Phase 2 study is expected to initiate in Q1 2027. 10/05/26:- AASLD 2026 poster presents new Ph1a data Nov 7, 2026. Ph2 PBC/PSC planned Q1 2027.",
-  "catalyst_date": "2026-11-07",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/10/05/3374725/16259/en/assembly-biosciences-to-present-positive-phase-1a-safety-tolerability-and-target-engagement-data-for-abi-6250-at-aasld-the-liver-meeting-2026.html",
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
@@ -1903,6 +1298,66 @@
   "move_analysis_ai_reasoning": "BPIQ-AI estimates a 75\u201385% chance of clean approval, 5\u201315% for a short administrative delay or limited initial launch, and 10\u201320% for nonapproval or a material rejection-like delay. This is a generic-equivalence and manufacturing decision, not a new test of antidepressant efficacy. Reported bioequivalence findings and minor labeling requests are favorable, but the earlier container-closure concern shows why final acceptance still matters. Psychiatric trial success rates are not the right comparison for this application. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1719406/000143774926009418/nrxp20251231_10k.htm?utm_source=openai))\n\nManufacturing has tangible support. FDA closed Nephron's earlier warning letter, and NRx reports completed commercial validation batches, two-year stability and inventory available for release after approval. That supports a high approval probability without treating a first pharmaceutical launch as routine. Nephron's continuing compliance and FDA's final application clearance still matter. ([fda.gov](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/nephron-sc-llc-634647-05082026?utm_source=openai))\n\nAt the supplied $112.6 million market capitalization and $111.4 million enterprise value, approval matters, but the stock also reflects other drug programs and clinic operations. The estimated 5\u201315% clean-approval gain recognizes that favorable review progress is already public and that this approval would cover anesthesia, not depression. Generic competition and manufacturing and launch costs limit the economics. The company's supplied March acceptance/Type C news reaction\u2014about a 4.8% opening gain and 6.7% intraday gain\u2014also argues against assuming an unusually large approval rally. A mixed outcome could move shares \u221220% to +5%; substantive nonapproval could cost 30\u201350% through delayed sales, renewed supply concerns and greater financing pressure. These are conditional estimates, not guaranteed reactions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1719406/000143774926028027/nrxp20260630_10q.htm?utm_source=openai))\n\nBPIQ tracks zero specialist funds and $0 in aggregate holdings, with no positions in the supplied four-quarter history. That provides no specialist endorsement, but it does not establish that FDA will reject the application. Supplied June 30 cash was $26.7 million against approximately $8.9 million in quarterly burn, with indicated runway into March 2027. Launch spending and possible equity issuance therefore remain important. Financing or developments in the separate depression program could reset the share-price baseline before November 10; no separately dated intervening clinical or regulatory decision is identified in the supplied pipeline. NRx's filings describe its continuing financing needs and separate development programs. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1719406/000143774926028027/nrxp20260630_10q.htm?utm_source=openai))\n\nThe decision is 22 days away. The supplied November options straddle indicates approximately 103.9% movement through expiration, but its illiquid, wide-spread quotes do not provide a dependable event forecast. It does not support a larger fundamental upside estimate or options-confirmed big-mover status. Only the downside range qualifies as a suspected big mover.",
   "catalyst_event_details": "KETAFREE, preservative-free IV ketamine for anesthesia, has an FDA generic-drug approval review goal date of November 10, 2026. ([ir.nrxpharma.com](https://ir.nrxpharma.com/news-releases/news-release-details/nrx-pharmaceuticals-announces-receipt-fda-labeling-review-letter))",
   "move_analysis_created_datetime": "2026-10-19T18:26:12Z"
+ },
+ {
+  "id": 17030,
+  "company": {
+   "ticker": "CABA",
+   "name": "Cabaletta Bio",
+   "last_price": "1.30",
+   "market_cap": 280436480,
+   "website": "https://www.cabalettabio.com"
+  },
+  "ticker": "CABA",
+  "drug_name": "MuSK-CAART",
+  "indications": [
+   {
+    "id": 1272,
+    "title": "Autoimmune disease",
+    "nickname": ""
+   },
+   {
+    "id": 1029,
+    "title": "Myasthenia gravis",
+    "nickname": "MG"
+   }
+  ],
+  "indications_text": "Myasthenia gravis, Autoimmune disease",
+  "stage_event": {
+   "id": 116,
+   "label": "Phase 1 Data readout",
+   "stage_label": "Phase 1",
+   "event_label": "Data readout"
+  },
+  "note": "MusCAARTes\u2122 trial. An OLS w/ accelerated DE phase, followed by a cohort expansion phase. Currently dosing patients in the A2 cohort. 3/31/25- Currently evaluating clinical and translational data from A1 and A2 cohorts. 11/10/25:- PR No update. 03/23/26:- PR No update. 05/14/26:- PR No update. 08/13/26:- PR No update. 11/05/26:- PR No update.",
+  "catalyst_date": "2026-11-11",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 17067,
@@ -5600,6 +5055,66 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 17947,
+  "company": {
+   "ticker": "RIGL",
+   "name": "Rigel Pharmaceuticals",
+   "last_price": "39.65",
+   "market_cap": 746608448,
+   "website": "https://www.rigel.com"
+  },
+  "ticker": "RIGL",
+  "drug_name": "REZLIDHIA (Olutasidenib) (FT-2102)+ temozolomide",
+  "indications": [
+   {
+    "id": 911,
+    "title": "Cancer",
+    "nickname": ""
+   },
+   {
+    "id": 1296,
+    "title": "Glioma",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Glioma, Cancer",
+  "stage_event": {
+   "id": 140,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "TarGet-D study. Collab w/ CONNECT. 1/4/24- Ph2 trial to start enrolling in H1 2024. 8/6/25- Enrollment ongoing. \n01/12/26:- First patient enrolled October 2025 in CONNECT Phase 2 TarGeT-D study in IDH1-mutant high-grade glioma.\n03/03/26:- CONNECT Phase 2 TarGeT-D trial NCT06161974 tests olutasidenib plus temozolomide, then maintenance monotherapy in newly-diagnosed IDH1-mutant high-grade glioma.\n05/05/26:- PR No update. 08/04/26:- PR No update. 11/05/26:- PR No update.",
+  "catalyst_date": "2026-12-12",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 18166,
   "company": {
    "ticker": "KPTI",
@@ -7040,51 +6555,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-28",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 21114,
   "company": {
    "ticker": "ADCT",
@@ -7593,6 +7063,51 @@
   "move_analysis_ai_reasoning": "The December 13 ASH presentation is a follow-up rather than a fresh demonstration that zugo-cel works. The public abstract already contains efficacy and safety results, so favorable clinical findings need not translate into a large stock gain. We assign a 40\u201350% chance of clearly favorable incremental news and 3\u20138% upside. More mature follow-up could strengthen the case, but the uncontrolled design cannot establish superiority over other treatments. ([crisprtx.gcs-web.com](https://crisprtx.gcs-web.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugo-cel-large-b-cell))\n\nHistorically, only 24.6% of oncology programs advanced from Phase 2 to Phase 3 in BIO's study. That is a development benchmark, not a forecast for a conference presentation. Earlier same-drug results\u2014responses in 9/10 evaluable patients at the selected dose\u2014support a better chance of an encouraging update here. However, initial tumor shrinkage does not establish durable benefit. Our 35\u201345% Mixed probability captures encouraging activity that falls short of a compelling investment case; that outcome could move shares between \u22127% and flat. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai))\n\nBPIQ reports four specialist hedge funds holding CRSP, up from three. That is useful sponsorship, not protection against clinical disappointment. At approximately $5.0 billion in market value and $3.3 billion in enterprise value, CRSP has meaningful value outside lymphoma. Company-reported cash and marketable securities total $2.28 billion, supporting several years of operations at recent spending levels. Zugo-cel is wholly owned, so its potential economics remain substantial; CASGEVY and other programs help cushion lymphoma-specific disappointment. A serious safety or durability setback could nevertheless affect broader zugo-cel expectations, supporting 9\u201316% downside. ([ir.crisprtx.com](https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-provides-business-update-and-reports-third-7?utm_source=openai))\n\nCRSP's supplied historical reactions include a 7.8% intraday gain around the December 2024 CTX112 event and 4.1% for October 2021 CTX110 data. Those support single-digit upside for this incremental update. The supplied usable December 18 options price a 16.3% total move and approximately 6.4% event-isolated expected move, broadly consistent with our modest upside range. CTX611's separate Phase 2 update may also occur before expiration, so that options pricing is not a pure lymphoma signal. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1674416/000119312526443644/crsp-ex99_1.htm?utm_source=openai))",
   "catalyst_event_details": "CTX112 (zugo-cel) Phase 1/2 trial data in relapsed or refractory large B-cell lymphoma will be presented at ASH on December 13, 2026. ([ir.crisprtx.com](https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugo-cel-large-b-cell))",
   "move_analysis_created_datetime": "2026-11-05T11:34:32Z"
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-28",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
  },
  {
   "id": 17796,
@@ -10063,6 +9578,61 @@
   "catalyst_date": "2026-12-23",
   "has_catalyst": true,
   "catalyst_source": "https://www.businesswire.com/news/home/20260223744889/en/Gilead-Sciences-to-Acquire-Arcellx-to-Maximize-Long-term-Potential-of-Anito-cel",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 18252,
+  "company": {
+   "ticker": "GILD",
+   "name": "Gilead Sciences",
+   "last_price": "166.89",
+   "market_cap": 207000109056,
+   "website": "https://www.gilead.com"
+  },
+  "ticker": "GILD",
+  "drug_name": "Anito-cel",
+  "indications": [
+   {
+    "id": 1360,
+    "title": "Multiple myeloma",
+    "nickname": "MM"
+   }
+  ],
+  "indications_text": "Multiple myeloma",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "Collab w/ ACLX. 5/14/24- Present Ph1 study and Ph3 iMMagine-3 trial design at EHA '24. 11/5/24- Present Ph1 & 2 iMMagine-1 studies data at ASH '24 on Dec 9, 2024. Initiated Ph3 trial in H2 2024. 04/17/26:- Acquisition of Arcellx cleared; CVR pays if anito-cel sales exceed $6B by Dec 31, 2029. 05/20/26:- iMMagine-3 and GEM-AnitoFIRST anito-cel manufacturing experience data to present at ASCO 2026 on May 30. 11/04/26:- Anito-cel BLA under review; PDUFA Dec 23, 2026. Updated iMMagine-1 data at ASH 2026 Dec 12.",
+  "catalyst_date": "2026-12-23",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20261104303376/en/Gilead-and-Kite-Advance-Leadership-With-New-Data-Across-Pipeline-and-Portfolio-at-ASH-2026",
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
@@ -18839,6 +18409,61 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 19195,
+  "company": {
+   "ticker": "SRPT",
+   "name": "Sarepta Therapeutics",
+   "last_price": "17.82",
+   "market_cap": 1910942720,
+   "website": "https://www.sarepta.com"
+  },
+  "ticker": "SRPT",
+  "drug_name": "SRP-1001",
+  "indications": [
+   {
+    "id": 1402,
+    "title": "Facioscapulohumeral muscular dystrophy ",
+    "nickname": "FHSD"
+   }
+  ],
+  "indications_text": "Facioscapulohumeral muscular dystrophy (FSHD)",
+  "stage_event": {
+   "id": 128,
+   "label": "Phase 1/2 Data readout",
+   "stage_label": "Phase 1/2",
+   "event_label": "Data readout"
+  },
+  "note": "8/6/25- Preliminary data in H2 2025. 11/03/25:- SAD enrollment complete, MAD cohort 6 ongoing; Ph1/2 SAD and MAD readouts for FSHD expected in early 2026. 02/25/26:- FSHD siRNA program highlighted among five clinical-stage RNA interference therapies with multiple readouts ahead. 03/25/26:- Early Ph1/2 ascending-dose results to be presented in webcast on March 25, 2026. 05/06/26:- First Ph1/2 SRP-1001 data in FSHD1 show dose-dependent exposure, early biomarker effects, and favorable tolerability. 08/05/26:- FSHD Phase 1/2 MAD cohort readouts remain expected in H2 2026. 09/24/26:- Interim Ph1/2 SRP-1001 safety and exposure findings in FSHD1 to be presented Sept 25, 2026. 11/05/26:- Phase 1/2 MAD data will be reported in Q4 2026. Phase 3 preparation is underway.",
+  "catalyst_date": "2026-12-31",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.businesswire.com/news/home/20261105687672/en/Sarepta-Therapeutics-Announces-Third-Quarter-2026-Financial-Results-and-Recent-Corporate-Developments",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 19198,
   "company": {
    "ticker": "BINV",
@@ -27069,6 +26694,61 @@
   "move_analysis_created_datetime": "2026-10-06T13:37:00Z"
  },
  {
+  "id": 13418,
+  "company": {
+   "ticker": "COGT",
+   "name": "Cogent Biosciences Inc",
+   "last_price": "31.65",
+   "market_cap": 5506054144,
+   "website": "https://www.cogentbio.com"
+  },
+  "ticker": "COGT",
+  "drug_name": "Bezuclastinib (CGT9486) (KIT exon 17 inhibitor)",
+  "indications": [
+   {
+    "id": 1279,
+    "title": "Systemic Mastocytosis",
+    "nickname": "SM"
+   }
+  ],
+  "indications_text": "Advanced systemic mastocytosis (AdvSM)",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "APEX trial. 2/22/24- Additional cohort initiated in Q3 '23. 12/9/24- Presented long term follow-up data from Part 1 at ASH. 2/25/25- Trial enrollment complete. 11/10/25- Topline results in Dec 2025. 12/08/25:- Topline APEX Part 2 results show 57% ORR, strong mast cell reductions. NDA submission planned in H1 2026. 01/12/26:- NDA for advanced systemic mastocytosis still planned in H1 2026; detailed APEX trial data presentations expected at H1 2026 meetings. 02/17/26:- APEX showed 57% ORR and strong mast cell reductions; NDA submission H1 2026 and expanded access for SM patients ongoing. 05/05/26:- APEX NDA submission and detailed pivotal data presentations remain planned for H1 2026. 05/12/26:- European Hematology Association 2026 Apex results presented June 12-13, 2026. 06/12/26:- Updated APEX AdvSM ORR data; APEX NDA submission planned June 2026. 06/30/26:- NDA submitted for AdvSM based on APEX; ORR 65% mIWG, 81% PPR. 08/10/26:- AdvSM NDA submission and APEX 65% ORR reiterated. FDA review timing TBA. 11/05/26:- FDA accepted the APEX NDA. Potential approval is expected on June 29, 2027.",
+  "catalyst_date": "2027-06-29",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/05/3396995/0/en/cogent-biosciences-reports-recent-business-highlights-and-third-quarter-2026-financial-results.html",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 13464,
   "company": {
    "ticker": "NBTX",
@@ -29929,6 +29609,61 @@
   "move_analysis_created_datetime": null
  },
  {
+  "id": 18827,
+  "company": {
+   "ticker": "VOR",
+   "name": "Vor Biopharma",
+   "last_price": "19.88",
+   "market_cap": 1221314688,
+   "website": "https://www.vorbio.com"
+  },
+  "ticker": "VOR",
+  "drug_name": "Trem-cel (VOR33) + VCAR33",
+  "indications": [
+   {
+    "id": 1282,
+    "title": "Acute myeloid leukemia",
+    "nickname": "AML, Cancer"
+   }
+  ],
+  "indications_text": "Acute myeloid leukemia",
+  "stage_event": {
+   "id": 83,
+   "label": "Phase 3 Data readout",
+   "stage_label": "Phase 3",
+   "event_label": "Data readout"
+  },
+  "note": "3/20/25- Initiate trial in H2 2025. 5/8/25- Discontinued all clinical and manufacturing operations, including ongoing clinical trials. 08/11/26:- UPSTREAM MG enrollment ongoing; topline data still anticipated in H1 2027. 10/30/26:- PR No update.",
+  "catalyst_date": "2027-06-30",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 18868,
   "company": {
    "ticker": "RXRX",
@@ -31982,61 +31717,6 @@
   "catalyst_date": "2027-06-30",
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/08/13/3344336/0/en/parabilis-medicines-reports-second-quarter-2026-financial-results-and-provides-business-updates.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 20831,
-  "company": {
-   "ticker": "ATTO",
-   "name": "Attovia Therapeutics",
-   "last_price": "15.27",
-   "market_cap": 697094848,
-   "website": "https://www.attovia.com"
-  },
-  "ticker": "ATTO",
-  "drug_name": "ATTO-1310",
-  "indications": [
-   {
-    "id": 1220,
-    "title": "Chronic pruritus",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Chronic pruritus of unknown origin (CPUO)",
-  "stage_event": {
-   "id": 135,
-   "label": "Phase 2 Initiation",
-   "stage_label": "Phase 2",
-   "event_label": "Initiation"
-  },
-  "note": "09/02/26:- Ph1b dosing completed; preliminary data showed rapid, deep itch relief. Complete data expected Q4 2026. FDA-reviewed global Ph2 protocol submitted; initiation planned H1 2027. 09/28/26:- Interim Ph1b poster at FCD 2026 Oct 8-11; Ph1a posters at EADV Sep 30-Oct 3. 11/05/26:- Positive 12-week Ph1b topline results (NCT06787586). ATTUNE-CPUO Ph2 initiation expected H1 2027.",
-  "catalyst_date": "2027-06-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/05/3397041/0/en/attovia-therapeutics-announces-positive-topline-12-week-results-from-phase-1b-study-of-atto-1310-in-patients-with-chronic-pruritus-and-high-itch-atopic-dermatitis.html",
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
@@ -45296,66 +44976,6 @@
   "catalyst_date": null,
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/04/3395142/0/en/moonlake-reports-third-quarter-2026-financial-results-and-provides-a-business-update.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 18721,
-  "company": {
-   "ticker": "MLYS",
-   "name": "Mineralys Therapeutics",
-   "last_price": "15.33",
-   "market_cap": 1357580288,
-   "website": "https://mineralystx.com"
-  },
-  "ticker": "MLYS",
-  "drug_name": "Lorundrostat",
-  "indications": [
-   {
-    "id": 2188,
-    "title": "Hypertension",
-    "nickname": ""
-   },
-   {
-    "id": 2222,
-    "title": "Obstructive sleep apnea ",
-    "nickname": "OSA"
-   }
-  ],
-  "indications_text": "Obstructive sleep apnea, Hypertension",
-  "stage_event": {
-   "id": 137,
-   "label": "Phase 2 Update",
-   "stage_label": "Phase 2",
-   "event_label": "Update"
-  },
-  "note": "11/10/25:- Completed enrollment reiterated; topline Explore-OSA Phase 2 data expected in Q1 2026. 03/09/26:- Explore-OSA topline results missed AHI endpoint; showed clinically meaningful blood pressure reduction and favorable safety. 03/12/26:- Explore-OSA topline Ph2 data detailed; AHI endpoint missed; blood pressure reduced; safety favorable; further endpoint analyses planned. 05/06/26:- OSA development reiterated in corporate description; no new Explore-OSA or hypertension outcome milestones disclosed. 08/11/26:- OSA comorbidity focus reiterated; no Explore-OSA clinical milestone disclosed. 10/01/26:- Explore-OSA Ph2 oral presentation at AHA Hypertension Sessions on October 8, 2026. 10/09/26:- Final Explore-OSA Ph2 results: morning SBP -11.1 mmHg; AHI unchanged; safety favorable. 11/04/26:- Final Explore-OSA results reiterated; no new obstructive sleep apnea milestone disclosed.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/04/3395833/0/en/mineralys-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,

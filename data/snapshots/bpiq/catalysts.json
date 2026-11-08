@@ -110,61 +110,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 18942,
-  "company": {
-   "ticker": "BIVI",
-   "name": "BioVie",
-   "last_price": "1.33",
-   "market_cap": 11548005,
-   "website": "https://bioviepharma.com"
-  },
-  "ticker": "BIVI",
-  "drug_name": "Bezisterim (NE3107)",
-  "indications": [
-   {
-    "id": 1366,
-    "title": "COVID-19",
-    "nickname": "Coronavirus Disease 2019"
-   }
-  ],
-  "indications_text": "Neurological symptoms associated with long COVID",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "08/31/26:- Last on-treatment visit completed. Topline Phase 2 ADDRESS-LC data still expected Late Summer 2026. 09/15/26:- ADDRESS-LC subgroup benefits reported. 10/14/26:- ADDRESS-LC Ph2 results poster at ANA2026 on October 18, 2026. 10/19/26:- ADDRESS-LC Ph2 results showed subgroup benefits; biomarkers pending future meeting. 10/20/26:- ADDRESS-LC described as enrolling ~200 patients to assess neurological long COVID symptoms. 10/26/26:- ADDRESS-LC Ph2 results to be presented at RECOVER-TLC workshop on November 5, 2026. 11/02/26:- Late-breaking oral Nov 13, 2026 will present new ADDRESS-LC biomarker data.",
-  "catalyst_date": "2026-11-05",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/02/3393209/0/en/biovie-selected-for-late-breaking-oral-presentation-of-bezisterim-long-covid-data-at-the-4th-long-covid-international-conference-2026.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16039,
   "company": {
    "ticker": "EVAX",
@@ -7045,51 +6990,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-11-28",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 21109,
   "company": {
    "ticker": "CTY",
@@ -7142,6 +7042,51 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-11-28",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {

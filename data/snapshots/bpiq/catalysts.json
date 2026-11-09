@@ -584,7 +584,7 @@
   "company": {
    "ticker": "NRXP",
    "name": "NRX Pharmaceuticals",
-   "last_price": "2.36",
+   "last_price": "2.41",
    "market_cap": 103043936,
    "website": "https://www.nrxpharma.com"
   },
@@ -1644,7 +1644,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "17.61",
+   "last_price": "18.01",
    "market_cap": 13060144128,
    "website": "https://www.smmttx.com"
   },
@@ -1984,7 +1984,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "255.62",
+   "last_price": "258.19",
    "market_cap": 36711153664,
    "website": "https://www.biogen.com"
   },
@@ -2039,7 +2039,7 @@
   "company": {
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
-   "last_price": "1.45",
+   "last_price": "1.50",
    "market_cap": 160848496,
    "website": "https://www.innate-pharma.com"
   },
@@ -2099,7 +2099,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "3.71",
+   "last_price": "3.80",
    "market_cap": 24611146,
    "website": "https://www.immutep.com"
   },
@@ -2159,7 +2159,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "1.70",
+   "last_price": "1.78",
    "market_cap": 198549040,
    "website": "https://www.pyxisoncology.com"
   },
@@ -2669,7 +2669,7 @@
   "company": {
    "ticker": "PYPD",
    "name": "Polypid",
-   "last_price": "6.30",
+   "last_price": "6.26",
    "market_cap": 124714240,
    "website": "https://www.polypid.com"
   },
@@ -2899,7 +2899,7 @@
   "company": {
    "ticker": "DWTX",
    "name": "Dogwood Therapeutics",
-   "last_price": "1.19",
+   "last_price": "1.23",
    "market_cap": 48931728,
    "website": "https://dwtx.com"
   },
@@ -2959,7 +2959,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "552.35",
+   "last_price": "552.83",
    "market_cap": 138707943424,
    "website": "https://www.vrtx.com"
   },
@@ -3266,35 +3266,35 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "50.000000",
-  "probability_clean_plus_max": "60.000000",
-  "probability_mixed_min": "25.000000",
-  "probability_mixed_max": "35.000000",
-  "probability_clean_minus_min": "10.000000",
-  "probability_clean_minus_max": "20.000000",
-  "magnitude_clean_plus_min": "15.000000",
-  "magnitude_clean_plus_max": "30.000000",
-  "magnitude_mixed_min": "-25.000000",
-  "magnitude_mixed_max": "-10.000000",
-  "magnitude_clean_minus_min": "-50.000000",
-  "magnitude_clean_minus_max": "-30.000000",
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "up_suspected_big_mover": false,
   "up_big_mover": false,
-  "down_suspected_big_mover": true,
+  "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "This is a high-importance final primary efficacy readout, not merely longer follow-up. The open-label, randomized Phase 2b study assigns 366 patients to ANKTIVA plus BCG or BCG alone; Cohort A\u2019s primary endpoint is complete response at six months, assessed through bladder examinations, urine testing and biopsy when required. ([hra.nhs.uk](https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/intravesical-bcg-alt-803-n-803-in-patients-with-nmibc/?utm_source=openai)) An earlier 43-patient randomized analysis showed encouraging response durability, and a subsequent independent review of 183 evaluable patients supported completing the study without additional enrollment. Neither establishes that the final primary endpoint has succeeded. ([immunitybio.com](https://immunitybio.com/immunitybio-confirms-statistical-power-in-pivotal-randomized-bcg-naive-nmibc-trial-to-detect-clinically-meaningful-differences-between-anktiva-plus-bcg-versus-bcg-alone-supplemental-bla-submiss/)) A clearly favorable market outcome requires a substantial response advantage, convincing durability and acceptable safety\u2014not statistical significance alone. Existing commercial sales provide support, while continued financing needs can limit sustained gains.",
+  "key_readout_comment": "",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "November\u2019s results will provide the decisive comparison in a larger, earlier-treatment population. Although registrational, QUILT-2.005 is Phase 2b rather than Phase 3. Its primary endpoint is complete response at six months. ([immunitybio.com](https://immunitybio.com/immunitybio-announces-database-lock-for-registrational-trial-of-locally-delivered-chemotherapy-free-anktiva-plus-bcg-in-bcg-naive-non-muscle-invasive-bladder-cancer/?utm_source=openai)) A historical BIO study found that approximately 25% of oncology Phase 2 programs advanced; that is a broad development benchmark, not the probability of a favorable stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/Clinical%20Development%20Success%20Rates%202006-2015%20-%20BIO%2C%20Biomedtracker%2C%20Amplion%202016.pdf)) The same drug\u2019s randomized evidence in the same indication supports materially better odds here: the initial analysis reported six-month complete responses of 85% versus 57%, and nine-month responses of 84% versus 52%. However, those observations came from only 43 patients. ([ir.immunitybio.com](https://ir.immunitybio.com/node/11071/pdf))\n\nWe assign a 50\u201360% chance of unequivocally favorable results. The larger randomized design strengthens the evidence, but a stronger BCG control response, missed assessments or a smaller treatment difference could still undermine the primary test. Better response durability would not automatically compensate for failure on six-month complete response. The independent committee\u2019s power assessment is reassuring, not a declaration of efficacy success. ([hra.nhs.uk](https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/intravesical-bcg-alt-803-n-803-in-patients-with-nmibc/?utm_source=openai)) Competition also raises the commercial bar: Imfinzi plus BCG already has FDA approval in BCG-na\u00efve high-risk disease. ANKTIVA\u2019s local bladder delivery could differentiate it, but cross-trial response comparisons cannot establish superiority. ([fda.gov](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-durvalumab-combination-bacillus-calmette-guerin-high-risk-non-muscle-invasive-bladder?utm_source=openai))\n\nBPIQ reports 0 current specialist hedge funds. The historical holdings supplied show only one fund, with Tang Capital\u2019s reported position value declining between September and December 2025. That warrants caution, particularly alongside the $8.8 billion market capitalization and $9.6 billion enterprise value, which includes debt and other financial obligations. Prior company reactions supplied by BPIQ\u2014including weak responses to favorable bladder-cancer updates\u2014suggest that favorable news alone is not enough. Our +15\u201330% favorable-outcome range therefore requires a convincing earlier-treatment expansion result, not simply another encouraging update. That represents roughly $1.3\u20132.6 billion of additional equity value. Mixed results could lose 10\u201325%; failure could erase 30\u201350% if it damages both the earlier-treatment expansion thesis and confidence in ANKTIVA\u2019s broader potential. Existing sales retain value, while the supplied 30.5% short float can amplify volatility in either direction.\n\nJune liquidity was $357.4 million, and BPIQ\u2019s burn-based runway estimate extends to approximately October 2027. Nevertheless, financing remains important: the June filing disclosed $480 million of related-party convertible principal, $349.2 million of remaining share-sale capacity and substantial doubt about continuing without additional funding or support. Management expects financing access and affiliated support to alleviate that concern. Positive results could therefore create another financing opportunity rather than translate entirely into shareholder gains. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1326110/000132611026000079/ibrx-20260630.htm))\n\nThe supplied options summary indicates approximately 28.3% event-isolated movement and a 44.3% December 4 straddle. December 4 covers the full November guidance window, but wide quotes make those estimates unsuitable for confirmation. They suggest substantial volatility, while our fundamental assessment places the larger risk on disappointing results. Downside qualifies as a suspected big mover; neither direction receives options-confirmed big-mover status.",
-  "catalyst_event_details": "ANKTIVA plus BCG\u2019s registrational Phase 2b QUILT-2.005 readout in BCG-na\u00efve non-muscle-invasive bladder cancer with carcinoma in situ is expected in November 2026. ([ir.immunitybio.com](https://ir.immunitybio.com/news-releases/news-release-details/immunitybio-announces-database-lock-registrational-trial-locally?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-23T11:33:38Z"
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 18466,
   "company": {
    "ticker": "EXEL",
    "name": "Exelixis Inc",
-   "last_price": "71.07",
+   "last_price": "72.00",
    "market_cap": 16975838208,
    "website": "https://www.exelixis.com"
   },
@@ -7594,7 +7594,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "19.16",
+   "last_price": "20.14",
    "market_cap": 4109846272,
    "website": "https://www.relaytx.com"
   },
@@ -10009,7 +10009,7 @@
   "company": {
    "ticker": "TARA",
    "name": "Protara Therapeutics",
-   "last_price": "2.48",
+   "last_price": "2.46",
    "market_cap": 141611808,
    "website": "https://www.protaratx.com"
   },
@@ -13724,7 +13724,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "17.61",
+   "last_price": "18.01",
    "market_cap": 13060144128,
    "website": "https://www.smmttx.com"
   },
@@ -13909,7 +13909,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "4.82",
+   "last_price": "5.16",
    "market_cap": 301796000,
    "website": "https://kyvernatx.com"
   },
@@ -14079,7 +14079,7 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "49.22",
+   "last_price": "49.85",
    "market_cap": 5716600832,
    "website": "https://www.scholarrock.com"
   },
@@ -14474,7 +14474,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "28.59",
+   "last_price": "29.87",
    "market_cap": 6550985728,
    "website": "https://www.ionis.com"
   },
@@ -15114,7 +15114,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "12.21",
+   "last_price": "13.81",
    "market_cap": 2091216128,
    "website": "https://www.vir.bio"
   },
@@ -15709,7 +15709,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "1.70",
+   "last_price": "1.78",
    "market_cap": 198549040,
    "website": "https://www.pyxisoncology.com"
   },
@@ -15988,7 +15988,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "30.53",
+   "last_price": "34.00",
    "market_cap": 6306053632,
    "website": "https://immunovant.com"
   },
@@ -16268,7 +16268,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "24.44",
+   "last_price": "25.29",
    "market_cap": 1448794240,
    "website": "https://www.rapportrx.com"
   },
@@ -16443,7 +16443,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "18.63",
+   "last_price": "18.83",
    "market_cap": 2632148480,
    "website": "https://arcusbio.com"
   },
@@ -17018,7 +17018,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "14.41",
+   "last_price": "15.23",
    "market_cap": 5040071168,
    "website": "https://www.erasca.com"
   },
@@ -17298,7 +17298,7 @@
   "company": {
    "ticker": "ENGN",
    "name": "enGene",
-   "last_price": "1.77",
+   "last_price": "1.78",
    "market_cap": 117278552,
    "website": "https://www.engene.com"
   },
@@ -17408,7 +17408,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "102.86",
+   "last_price": "105.24",
    "market_cap": 6810329600,
    "website": "https://orukatx.com"
   },
@@ -18413,7 +18413,7 @@
   "company": {
    "ticker": "KYTX",
    "name": "Kyverna Therapeutics",
-   "last_price": "4.82",
+   "last_price": "5.16",
    "market_cap": 301796000,
    "website": "https://kyvernatx.com"
   },
@@ -22033,7 +22033,7 @@
   "company": {
    "ticker": "PVLA",
    "name": "Palvella Therapeutics",
-   "last_price": "175.92",
+   "last_price": "173.38",
    "market_cap": 2571678976,
    "website": "https://palvellatx.com"
   },
@@ -24098,7 +24098,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "102.86",
+   "last_price": "105.24",
    "market_cap": 6810329600,
    "website": "https://orukatx.com"
   },
@@ -24488,7 +24488,7 @@
   "company": {
    "ticker": "ORKA",
    "name": "Oruka Pharmaceuticals",
-   "last_price": "102.86",
+   "last_price": "105.24",
    "market_cap": 6810329600,
    "website": "https://orukatx.com"
   },
@@ -24653,7 +24653,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.52",
+   "last_price": "0.54",
    "market_cap": 111426512,
    "website": "https://www.akebia.com"
   },
@@ -25693,7 +25693,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "21.31",
+   "last_price": "22.34",
    "market_cap": 1522013440,
    "website": "https://www.uniqure.com"
   },
@@ -26443,7 +26443,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "39.22",
+   "last_price": "40.03",
    "market_cap": 3793239552,
    "website": "https://www.xenon-pharma.com"
   },
@@ -26503,7 +26503,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "18.63",
+   "last_price": "18.83",
    "market_cap": 2632148480,
    "website": "https://arcusbio.com"
   },
@@ -26683,7 +26683,7 @@
   "company": {
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
-   "last_price": "1.45",
+   "last_price": "1.50",
    "market_cap": 160848496,
    "website": "https://www.innate-pharma.com"
   },
@@ -27283,7 +27283,7 @@
   "company": {
    "ticker": "RARE",
    "name": "Ultragenyx Pharmaceutical Inc.",
-   "last_price": "15.50",
+   "last_price": "16.31",
    "market_cap": 1572688384,
    "website": "https://www.ultragenyx.com"
   },
@@ -27638,7 +27638,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "21.31",
+   "last_price": "22.34",
    "market_cap": 1522013440,
    "website": "https://www.uniqure.com"
   },
@@ -27943,7 +27943,7 @@
   "company": {
    "ticker": "QURE",
    "name": "Uniqure NV",
-   "last_price": "21.31",
+   "last_price": "22.34",
    "market_cap": 1522013440,
    "website": "https://www.uniqure.com"
   },
@@ -28303,7 +28303,7 @@
   "company": {
    "ticker": "QNRX",
    "name": "Quoin Pharmaceuticals",
-   "last_price": "3.74",
+   "last_price": "3.81",
    "market_cap": 17535188,
    "website": "https://quoinpharma.com"
   },
@@ -29228,7 +29228,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "14.41",
+   "last_price": "15.23",
    "market_cap": 5040071168,
    "website": "https://www.erasca.com"
   },
@@ -30178,7 +30178,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "255.62",
+   "last_price": "258.19",
    "market_cap": 36711153664,
    "website": "https://www.biogen.com"
   },
@@ -32603,7 +32603,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "255.62",
+   "last_price": "258.19",
    "market_cap": 36711153664,
    "website": "https://www.biogen.com"
   },
@@ -32768,7 +32768,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "24.44",
+   "last_price": "25.29",
    "market_cap": 1448794240,
    "website": "https://www.rapportrx.com"
   },
@@ -33413,7 +33413,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "19.16",
+   "last_price": "20.14",
    "market_cap": 4109846272,
    "website": "https://www.relaytx.com"
   },
@@ -33648,7 +33648,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "18.63",
+   "last_price": "18.83",
    "market_cap": 2632148480,
    "website": "https://arcusbio.com"
   },
@@ -34003,7 +34003,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "39.22",
+   "last_price": "40.03",
    "market_cap": 3793239552,
    "website": "https://www.xenon-pharma.com"
   },
@@ -34703,7 +34703,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "28.59",
+   "last_price": "29.87",
    "market_cap": 6550985728,
    "website": "https://www.ionis.com"
   },
@@ -35103,7 +35103,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "30.53",
+   "last_price": "34.00",
    "market_cap": 6306053632,
    "website": "https://immunovant.com"
   },
@@ -35943,7 +35943,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "30.53",
+   "last_price": "34.00",
    "market_cap": 6306053632,
    "website": "https://immunovant.com"
   },
@@ -36218,7 +36218,7 @@
   "company": {
    "ticker": "PVLA",
    "name": "Palvella Therapeutics",
-   "last_price": "175.92",
+   "last_price": "173.38",
    "market_cap": 2571678976,
    "website": "https://palvellatx.com"
   },
@@ -37298,7 +37298,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "18.63",
+   "last_price": "18.83",
    "market_cap": 2632148480,
    "website": "https://arcusbio.com"
   },
@@ -37528,7 +37528,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.52",
+   "last_price": "0.54",
    "market_cap": 111426512,
    "website": "https://www.akebia.com"
   },
@@ -37593,7 +37593,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.52",
+   "last_price": "0.54",
    "market_cap": 111426512,
    "website": "https://www.akebia.com"
   },
@@ -39678,7 +39678,7 @@
   "company": {
    "ticker": "RAPP",
    "name": "Rapport Therapeutics Inc",
-   "last_price": "24.44",
+   "last_price": "25.29",
    "market_cap": 1448794240,
    "website": "https://www.rapportrx.com"
   },
@@ -40963,7 +40963,7 @@
   "company": {
    "ticker": "RCKT",
    "name": "Rocket Pharmaceuticals",
-   "last_price": "2.36",
+   "last_price": "2.48",
    "market_cap": 261812416,
    "website": "https://www.rocketpharma.com"
   },
@@ -41433,7 +41433,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "30.53",
+   "last_price": "34.00",
    "market_cap": 6306053632,
    "website": "https://immunovant.com"
   },
@@ -41822,7 +41822,7 @@
   "company": {
    "ticker": "IMVT",
    "name": "Immunovant",
-   "last_price": "30.53",
+   "last_price": "34.00",
    "market_cap": 6306053632,
    "website": "https://immunovant.com"
   },
@@ -42432,7 +42432,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "28.59",
+   "last_price": "29.87",
    "market_cap": 6550985728,
    "website": "https://www.ionis.com"
   },
@@ -43577,7 +43577,7 @@
   "company": {
    "ticker": "RLAY",
    "name": "Relay Therapeutics",
-   "last_price": "19.16",
+   "last_price": "20.14",
    "market_cap": 4109846272,
    "website": "https://www.relaytx.com"
   },
@@ -44726,7 +44726,7 @@
   "company": {
    "ticker": "RCUS",
    "name": "Arcus Biosciences ",
-   "last_price": "18.63",
+   "last_price": "18.83",
    "market_cap": 2632148480,
    "website": "https://arcusbio.com"
   },

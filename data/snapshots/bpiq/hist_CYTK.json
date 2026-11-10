@@ -1,5 +1,53 @@
 [
  {
+  "id": 9338,
+  "company": {
+   "id": 448,
+   "ticker": "CYTK",
+   "name": "Cytokinetics Inc",
+   "website": "https://www.cytokinetics.com"
+  },
+  "created_at": "2026-11-10T13:05:37.427883Z",
+  "updated_at": "2026-11-10T13:05:37.427903Z",
+  "ticker": "CYTK",
+  "drug_name": "Aficamten",
+  "drug_indication": "Non-obstructive Hypertrophic Cardiomyopathy",
+  "airtable_id": 9597,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-11-09",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/g63027831/cytokinetics-announces-additional-data-related-aficamten-presented-hypertrophic-cardiomyopathy-medic",
+  "catalyst_text": "Presented favorable Phase 3 data in non-obstructive HCM",
+  "detailed_catalyst_text": "New analyses from a Phase 3 study in non-obstructive hypertrophic cardiomyopathy were presented, including a CMR sub-study showing significant reductions in left ventricular mass index and wall thickness versus placebo after 36 weeks. Additional patient-reported outcomes showed improvements in KCCQ-OSS across symptoms, physical limitations, quality of life, and social function, with effects increasing over time and reversing after withdrawal. These results support favorable cardiac remodeling and meaningful quality-of-life benefits in this population.",
+  "catalyst_text_evidence": "Cytokinetics, Incorporated today announced that new data related to aficamten were presented at the Hypertrophic Cardiomyopathy Medical Society (HCMS) Scientific Sessions held in collaboration with the American Heart Association Scientific Sessions 2026 in Chicago, IL including two late-breaking oral abstracts with additional data from ACACIA-HCM. New data from the pre-specified cardiac magnetic resonance (CMR) imaging sub-study of ACACIA-HCM characterized the effects of aficamten on cardiac structure in patients with non-obstructive hypertrophic cardiomyopathy (nHCM). After 36 weeks of treatment, aficamten was associated with favorable cardiac remodeling in patients with symptomatic nHCM. Patients treated with aficamten experienced statistically significant (p<0.001) reductions in left ventricular mass index (LVMI) and left ventricular wall thickness compared to placebo. New analyses from ACACIA-HCM evaluated the long-term impact of aficamten on patient-reported health status utilizing the Kansas City Cardiomyopathy Questionnaire Overall Summary Score (KCCQ-OSS). At Week 36, patients receiving aficamten showed a 4.0-point greater improvement in KCCQ-OSS relative to placebo... Importantly, following treatment withdrawal, these effects declined within four weeks, with no differences remaining at the end of the study.",
+  "news_published_at": "2026-11-10T00:00:00Z",
+  "open_price_gap_percent": "0.01285",
+  "intra_day_price_change_percent": "0.01398"
+ },
+ {
+  "id": 9345,
+  "company": {
+   "id": 448,
+   "ticker": "CYTK",
+   "name": "Cytokinetics Inc",
+   "website": "https://www.cytokinetics.com"
+  },
+  "created_at": "2026-11-10T13:06:44.974126Z",
+  "updated_at": "2026-11-10T13:06:44.974147Z",
+  "ticker": "CYTK",
+  "drug_name": "Aficamten",
+  "drug_indication": "Obstructive Hypertrophic Cardiomyopathy",
+  "airtable_id": 9598,
+  "stage": "Approved",
+  "catalyst_date": "2026-11-09",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/g63027831/cytokinetics-announces-additional-data-related-aficamten-presented-hypertrophic-cardiomyopathy-medic",
+  "catalyst_text": "Presented favorable long-term safety data in obstructive HCM",
+  "detailed_catalyst_text": "New long-term results from the FOREST-HCM open-label extension in obstructive hypertrophic cardiomyopathy were presented, showing low incidence of transient, asymptomatic LVEF reductions with no cases below 40%. There were no heart failure hospitalizations or deaths, and events resolved with dose adjustment or interruption. These findings reinforce sustained safety and tolerability during extended treatment in this already approved indication.",
+  "catalyst_text_evidence": "Published in Journal of Cardiac Failure, long-term data from FOREST-HCM, the open-label extension study of aficamten, further expands the clinical evidence of the sustained safety and tolerability profile of aficamten in patients with oHCM. This analysis showed that among 410 patients with oHCM, 12 (2.9%) developed a left ventricular ejection fraction (LVEF) <50% and none with LVEF <40%, representing 2.1 events per 100 patient-years. There were no heart failure hospitalizations or deaths associated with systolic dysfunction and the episodes were transient, asymptomatic, and rapidly reversible after dose reduction or temporary interruption. Lastly, the investigators demonstrated that borderline LVEF (\u226550% to <55%) was clinically benign and did not require dose adjustment or intervention.",
+  "news_published_at": "2026-11-10T00:00:00Z",
+  "open_price_gap_percent": "0.01285",
+  "intra_day_price_change_percent": "0.01398"
+ },
+ {
   "id": 8890,
   "company": {
    "id": 448,
@@ -8,7 +56,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2026-10-14T13:03:53.631448Z",
-  "updated_at": "2026-11-09T13:03:51.430753Z",
+  "updated_at": "2026-11-10T13:04:10.365556Z",
   "ticker": "CYTK",
   "drug_name": "Aficamten",
   "drug_indication": "Non-Obstructive Hypertrophic Cardiomyopathy",
@@ -32,7 +80,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2026-10-01T13:04:24.864081Z",
-  "updated_at": "2026-11-09T13:04:18.491670Z",
+  "updated_at": "2026-11-10T13:04:37.405924Z",
   "ticker": "CYTK",
   "drug_name": "MYQORZO (aficamten)",
   "drug_indication": "Obstructive Hypertrophic Cardiomyopathy",
@@ -80,7 +128,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2026-09-01T13:06:21.150256Z",
-  "updated_at": "2026-11-09T13:07:14.273954Z",
+  "updated_at": "2026-11-10T13:07:40.830520Z",
   "ticker": "CYTK",
   "drug_name": "Aficamten",
   "drug_indication": "Obstructive Hypertrophic Cardiomyopathy",
@@ -104,7 +152,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2026-08-29T13:03:16.025472Z",
-  "updated_at": "2026-11-09T13:03:36.458855Z",
+  "updated_at": "2026-11-10T13:03:53.745229Z",
   "ticker": "CYTK",
   "drug_name": "Aficamten",
   "drug_indication": "Non-Obstructive Hypertrophic Cardiomyopathy",
@@ -152,7 +200,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2026-05-12T13:03:29.002714Z",
-  "updated_at": "2026-11-09T13:04:25.326239Z",
+  "updated_at": "2026-11-10T13:04:44.614120Z",
   "ticker": "CYTK",
   "drug_name": "MYQORZO (aficamten)",
   "drug_indication": "Obstructive Hypertrophic Cardiomyopathy",
@@ -296,7 +344,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:14:06.548283Z",
-  "updated_at": "2026-11-09T13:07:10.759053Z",
+  "updated_at": "2026-11-10T13:07:37.267786Z",
   "ticker": "CYTK",
   "drug_name": "Omecamtiv mecarbil - (GALACTIC-HF)",
   "drug_indication": "Heart failure with reduced ejection fraction (HFrEF)",
@@ -320,7 +368,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:07:04.053645Z",
-  "updated_at": "2026-11-09T13:03:04.714672Z",
+  "updated_at": "2026-11-10T13:03:20.732433Z",
   "ticker": "CYTK",
   "drug_name": "Aficamten - (SEQUOIA-HCM)",
   "drug_indication": "Hypertrophic cardiomyopathy (HCM)",
@@ -344,7 +392,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:07:48.080559Z",
-  "updated_at": "2026-11-09T13:04:10.688702Z",
+  "updated_at": "2026-11-10T13:04:28.985018Z",
   "ticker": "CYTK",
   "drug_name": "Aficamten - (FOREST-HCM) (OLE)",
   "drug_indication": "Symptomatic Hypertrophic Cardiomyopathy (HCM)",
@@ -368,7 +416,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:14:43.593528Z",
-  "updated_at": "2026-11-09T13:08:06.771541Z",
+  "updated_at": "2026-11-10T13:08:36.212842Z",
   "ticker": "CYTK",
   "drug_name": "CK-4021586 (CK-586) - (AMBER-HFpEF)",
   "drug_indication": "Heart failure with preserved ejection fraction (HFpEF)",
@@ -392,7 +440,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:07:58.664604Z",
-  "updated_at": "2026-11-09T13:04:25.957482Z",
+  "updated_at": "2026-11-10T13:04:45.238133Z",
   "ticker": "CYTK",
   "drug_name": "Aficamten - (CEDAR-HCM)",
   "drug_indication": "obstructive HCM",
@@ -416,7 +464,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:07:11.124938Z",
-  "updated_at": "2026-11-09T13:03:15.543243Z",
+  "updated_at": "2026-11-10T13:03:31.803055Z",
   "ticker": "CYTK",
   "drug_name": "Reldesemtiv - (COURAGE-ALS)",
   "drug_indication": "Amyotrophic lateral sclerosis (ALS)",
@@ -440,7 +488,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:14:27.089275Z",
-  "updated_at": "2026-11-09T13:07:42.164071Z",
+  "updated_at": "2026-11-10T13:08:09.784495Z",
   "ticker": "CYTK",
   "drug_name": "Reldesemtiv - (COURAGE-ALS OLE)",
   "drug_indication": "Amyotrophic lateral sclerosis (ALS)",
@@ -488,7 +536,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:14:18.975391Z",
-  "updated_at": "2026-11-09T13:07:30.377196Z",
+  "updated_at": "2026-11-10T13:07:57.010815Z",
   "ticker": "CYTK",
   "drug_name": "Aficamten - (REDWOOD-HCM)",
   "drug_indication": "Hypertrophic cardiomyopathy (HCM)",
@@ -512,7 +560,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:08:59.809330Z",
-  "updated_at": "2026-11-09T13:06:01.460621Z",
+  "updated_at": "2026-11-10T13:06:23.880038Z",
   "ticker": "CYTK",
   "drug_name": "Omecamtiv mecarbil",
   "drug_indication": "Heart failure with reduced ejection fraction (HFrEF)",
@@ -536,7 +584,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:08:57.952763Z",
-  "updated_at": "2026-11-09T13:05:58.943758Z",
+  "updated_at": "2026-11-10T13:06:21.247352Z",
   "ticker": "CYTK",
   "drug_name": "Reldesemtiv (CK-2127107) - (FORTITUDE-ALS)",
   "drug_indication": "Amyotrophic lateral sclerosis (ALS)",
@@ -560,7 +608,7 @@
    "website": "https://www.cytokinetics.com"
   },
   "created_at": "2025-02-21T20:13:41.073586Z",
-  "updated_at": "2026-11-09T13:06:30.486001Z",
+  "updated_at": "2026-11-10T13:06:53.852730Z",
   "ticker": "CYTK",
   "drug_name": "Reldesemtiv (CK-2127107)",
   "drug_indication": "Chronic obstructive pulmonary disease (COPD)",

@@ -1,5 +1,53 @@
 [
  {
+  "id": 9294,
+  "company": {
+   "id": 318,
+   "ticker": "CRSP",
+   "name": "CRISPR Therapeutics",
+   "website": "https://www.crisprtx.com"
+  },
+  "created_at": "2026-11-10T13:00:49.276554Z",
+  "updated_at": "2026-11-10T13:00:49.276578Z",
+  "ticker": "CRSP",
+  "drug_name": "CTX310",
+  "drug_indication": "Severe Hypertriglyceridemia",
+  "airtable_id": 9588,
+  "stage": "Phase 1b",
+  "catalyst_date": "2026-11-09",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/g63032427/crispr-therapeutics-presents-phase-1b-data-ctx310-demonstrating-reductions-angptl3-and-triglycerides",
+  "catalyst_text": "Presented positive Phase 1b data and RMAT designation",
+  "detailed_catalyst_text": "Phase 1b clinical data in severe hypertriglyceridemia were presented at AHA, showing mean Day 30 reductions of 65% in ANGPTL3 and 63% in triglycerides with favorable tolerability and no treatment-related serious adverse events. Reductions were maintained through at least 90 days, and the program also received RMAT designation for this indication, supporting potential expedited development.",
+  "catalyst_text_evidence": "CRISPR Therapeutics today presented clinical data from its Phase 1b clinical trial evaluating CTX310\u00ae, an investigational, in vivo CRISPR/Cas9 gene editing therapy targeting angiopoietin-like protein 3 (ANGPTL3), in patients with severe hypertriglyceridemia (sHTG). A single-course treatment with CTX310 produced mean reductions from baseline at Day 30 of 65% in circulating ANGPTL3 and 63% in triglycerides (TG) in participants with a median baseline TG level above 1,000 mg/dL. These data were presented today during a late-breaking session at the AHA Scientific Sessions 2026 and build on the Phase 1a results, including one-year durability data presented at the European Society of Cardiology (ESC) Congress 2026 and published in The New England Journal of Medicine. The U.S. Food and Drug Administration (FDA) recently granted Regenerative Medicine Advanced Therapy (RMAT) designations to CTX310 for the treatment of sHTG and for the treatment of patients with elevated low-density lipoprotein cholesterol (LDL-C).",
+  "news_published_at": "2026-11-10T00:00:00Z",
+  "open_price_gap_percent": "0.00999",
+  "intra_day_price_change_percent": "-0.01048"
+ },
+ {
+  "id": 9317,
+  "company": {
+   "id": 318,
+   "ticker": "CRSP",
+   "name": "CRISPR Therapeutics",
+   "website": "https://www.crisprtx.com"
+  },
+  "created_at": "2026-11-10T13:02:43.707514Z",
+  "updated_at": "2026-11-10T13:02:43.707535Z",
+  "ticker": "CRSP",
+  "drug_name": "Zugocabtagene geleucel",
+  "drug_indication": "Idiopathic Inflammatory Myopathy",
+  "airtable_id": 9592,
+  "stage": "Phase 1",
+  "catalyst_date": "2026-11-08",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/g63020217/crispr-therapeutics-provides-update-zugocabtagene-geleucel-zugo-cel-refractory-rheumatologic-autoimm",
+  "catalyst_text": "Announced positive Phase 1 idiopathic inflammatory myopathy data",
+  "detailed_catalyst_text": "In the Phase 1 rheumatology basket, all nine idiopathic inflammatory myopathy patients achieved a moderate or major Total Improvement Score response. Consistent activity across IMNM, dermatomyositis, and antisynthetase syndrome supports potential broad efficacy in myositis.",
+  "catalyst_text_evidence": "As of 2026-10-15, 21 patients have been dosed in the rheumatology basket: four in the SLE cohort, eight in the SSc cohort and nine in the IIM cohort. All nine patients with IIM, including two with immune-mediated necrotizing myopathy (IMNM), two with dermatomyositis (DM) and five with antisynthetase syndrome (ASyS), achieved a moderate or major Total Improvement Score (TIS) response.",
+  "news_published_at": "2026-11-10T00:00:00Z",
+  "open_price_gap_percent": "0.00999",
+  "intra_day_price_change_percent": "-0.01048"
+ },
+ {
   "id": 1548,
   "company": {
    "id": 318,
@@ -32,7 +80,7 @@
    "website": "https://www.crisprtx.com"
   },
   "created_at": "2025-02-21T20:06:12.290448Z",
-  "updated_at": "2026-11-09T13:01:46.229308Z",
+  "updated_at": "2026-11-10T13:01:52.260937Z",
   "ticker": "CRSP",
   "drug_name": "CASGEVY (exagamglogene autotemcel [exa-cel]",
   "drug_indication": "Beta-thalassemia",

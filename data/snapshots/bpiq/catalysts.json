@@ -124,7 +124,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "1.69",
+   "last_price": "1.65",
    "market_cap": 215176688,
    "website": "https://www.fatetherapeutics.com"
   },
@@ -1334,7 +1334,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "252.19",
+   "last_price": "253.25",
    "market_cap": 37435469824,
    "website": "https://www.biogen.com"
   },
@@ -1509,7 +1509,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "1.63",
+   "last_price": "1.64",
    "market_cap": 194960800,
    "website": "https://www.pyxisoncology.com"
   },
@@ -1854,7 +1854,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "5.09",
+   "last_price": "5.12",
    "market_cap": 1085467648,
    "website": "https://www.savarapharma.com"
   },
@@ -2254,7 +2254,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "539.43",
+   "last_price": "544.99",
    "market_cap": 138910760960,
    "website": "https://www.vrtx.com"
   },
@@ -2309,7 +2309,7 @@
   "company": {
    "ticker": "PHAR",
    "name": "Pharming Group",
-   "last_price": "13.40",
+   "last_price": "13.25",
    "market_cap": 935686848,
    "website": "https://www.pharming.com"
   },
@@ -2599,7 +2599,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "40.95",
+   "last_price": "41.65",
    "market_cap": 4068005120,
    "website": "https://www.xenon-pharma.com"
   },
@@ -3159,7 +3159,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "1.22",
+   "last_price": "1.20",
    "market_cap": 11531572,
    "website": "https://www.cellectar.com"
   },
@@ -3509,7 +3509,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "85.74",
+   "last_price": "86.04",
    "market_cap": 3854576640,
    "website": "https://www.discmedicine.com"
   },
@@ -3851,28 +3851,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
+  "probability_clean_plus_min": "20.000000",
+  "probability_clean_plus_max": "30.000000",
+  "probability_mixed_min": "35.000000",
+  "probability_mixed_max": "45.000000",
+  "probability_clean_minus_min": "30.000000",
+  "probability_clean_minus_max": "40.000000",
+  "magnitude_clean_plus_min": "5.000000",
+  "magnitude_clean_plus_max": "12.000000",
+  "magnitude_mixed_min": "-5.000000",
+  "magnitude_mixed_max": "1.000000",
+  "magnitude_clean_minus_min": "-12.000000",
+  "magnitude_clean_minus_max": "-5.000000",
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "",
+  "key_readout_comment": "TarGeT-D is an open-label, nonrandomized Phase 2 study targeting 60 patients aged 12\u201339. Its main efficacy assessment measures time without progression in grade 3 astrocytoma against molecularly matched historical controls, with follow-up through 24 months. Other cohorts assess grade 4 and selected midline tumors. Historical comparisons, small subgroups and the effects of preceding radiation and temozolomide complicate attribution of benefit to olutasidenib. ([anzctr.org.au](https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=22090&isClinicalTrial=True)) Earlier olutasidenib monotherapy produced responses in 2/25 evaluable recurrent glioma patients and missed its activity endpoint; that population differs from newly diagnosed patients. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9825299/?utm_source=openai))",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
+  "move_analysis_ai_reasoning": "TarGeT-D remains enrolling, and Rigel has not announced an efficacy-readout date. Treatment includes a year of olutasidenib plus temozolomide after radiation, followed by a year of olutasidenib alone. These estimates describe the eventual efficacy release, not a scheduled December trading event. ([rigel.com](https://www.rigel.com/investors/sec-filings/all-sec-filings/content/0001034842-26-000061/rigl-20260930.htm?utm_source=openai))\n\nHistorically, about 24.6% of oncology Phase 2 programs advanced to Phase 3. That is a useful development benchmark, not a direct probability of a favorable stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai)) Olutasidenib reaches the brain, but its earlier recurrent-glioma study produced responses in 2/25 evaluable patients and missed its efficacy endpoint. The newly diagnosed setting offers a different opportunity, without establishing that the combination adds benefit. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9825299/?utm_source=openai)) The historical-control design also makes treatment effects harder to separate from patient selection and preceding therapy. ([anzctr.org.au](https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=22090&isClinicalTrial=True)) That supports a 20\u201330% chance of compelling results, with ambiguous findings more likely than a clear success.\n\nBPIQ's specialist hedge-fund count is 0, versus 1 in the earlier supplied snapshots. That is a cautionary ownership signal, not proof of clinical failure. At the supplied $791.8 million market capitalization and $655.1 million enterprise value, this glioma program is only one part of Rigel's investment case. Rigel has four commercial products and reported $72.3 million in third-quarter net product sales. ([rigel.com](https://www.rigel.com/news-media/press-releases/detail/451/rigel-reports-third-quarter-2026-financial-results?utm_source=openai)) September liquidity was $99.3 million, and management guides to at least 12 months of funding. The CONNECT commitment is capped at $3 million over four years, limiting this study's direct funding burden. ([rigel.com](https://www.rigel.com/investors/sec-filings/all-sec-filings/content/0001034842-26-000061/rigl-20260930.htm))\n\nWe estimate +5\u201312% for convincing results, \u22125% to +1% for ambiguity, and \u221212% to \u22125% for clear failure. Commercial diversification limits the likely impact in either direction. The supplied history includes a \u22122.1% opening gap after positive R289 data in December 2025, illustrating that encouraging early results do not guarantee gains. December options do not cover a confirmed TarGeT-D readout, so their pricing is not a useful comparison for this event. Neither direction meets our 20% suspected-big-mover threshold.",
+  "catalyst_event_details": "Olutasidenib plus temozolomide is being evaluated in Phase 2 TarGeT-D for newly diagnosed IDH1-mutant high-grade glioma; readout timing is unannounced. ([rigel.com](https://www.rigel.com/investors/sec-filings/all-sec-filings/content/0001034842-26-000061/rigl-20260930.htm))",
+  "move_analysis_created_datetime": "2026-11-10T11:32:13Z"
  },
  {
   "id": 18166,
@@ -3939,7 +3939,7 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "17.59",
+   "last_price": "17.11",
    "market_cap": 411808192,
    "website": "https://www.lyell.com"
   },
@@ -4004,7 +4004,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "31.76",
+   "last_price": "32.69",
    "market_cap": 1899554560,
    "website": "https://www.agios.com"
   },
@@ -4169,7 +4169,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "4.09",
+   "last_price": "4.16",
    "market_cap": 246716320,
    "website": "https://www.vandapharma.com"
   },
@@ -4279,7 +4279,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "85.74",
+   "last_price": "86.04",
    "market_cap": 3854576640,
    "website": "https://www.discmedicine.com"
   },
@@ -6604,7 +6604,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "85.74",
+   "last_price": "86.04",
    "market_cap": 3854576640,
    "website": "https://www.discmedicine.com"
   },
@@ -6734,7 +6734,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "6.92",
+   "last_price": "6.88",
    "market_cap": 453156256,
    "website": "https://www.arvinas.com"
   },
@@ -6974,7 +6974,7 @@
   "company": {
    "ticker": "SLN",
    "name": "Silence Therapeutics",
-   "last_price": "19.79",
+   "last_price": "19.77",
    "market_cap": 1230997888,
    "website": "https://www.silence-therapeutics.com"
   },
@@ -8451,28 +8451,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
+  "probability_clean_plus_min": "70.000000",
+  "probability_clean_plus_max": "80.000000",
+  "probability_mixed_min": "5.000000",
+  "probability_mixed_max": "15.000000",
+  "probability_clean_minus_min": "10.000000",
+  "probability_clean_minus_max": "20.000000",
+  "magnitude_clean_plus_min": "0.500000",
+  "magnitude_clean_plus_max": "1.500000",
+  "magnitude_mixed_min": "-1.500000",
+  "magnitude_mixed_max": "-0.250000",
+  "magnitude_clean_minus_min": "-4.000000",
+  "magnitude_clean_minus_max": "-2.000000",
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
+  "key_readout_comment": "The pivotal iMMagine-1 study is open-label and single-arm, with overall response as its FDA-agreed primary endpoint. Among 117 treated patients, independent reviewers found a 96% response rate and 74% complete responses at 15.9 months\u2019 median follow-up; estimated 24-month progression-free survival was 61.7%. Cytokine release syndrome, an inflammatory reaction, occurred in 86%, while neurological toxicity occurred in 8%. Results are compelling, but there is no randomized comparison establishing superiority over existing treatments. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1786205/000119312526076876/aclx-20251231.htm))",
+  "cmc_regulatory_risk": "Moderate: patient-specific cell manufacturing requires consistent potency, release testing and transport. Kite\u2019s completed technology transfer and clinical manufacturing experience reduce execution risk. Its Frederick facility received a November 2024 Form 483 for late adverse-event reporting; that observation is not an anito-cel manufacturing rejection or a final compliance determination. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1786205/000119312526076876/aclx-20251231.htm))",
+  "key_pdufa_comment": "The original BLA seeks fourth-line or later use, with a confirmed December 23, 2026 target date, 42 days away. Response and durability\u2014not randomized survival evidence\u2014support the application. ([investors.gilead.com](https://investors.gilead.com/news/news-details/2026/Gilead-and-Kite-Advance-Leadership-With-New-Data-Across-Pipeline-and-Portfolio-at-ASH-2026/default.aspx?utm_source=openai)) Traditional approval of CARVYKTI from a single-arm study provides relevant precedent; anito-cel\u2019s final approval basis and follow-up obligations remain important. A commercially usable accelerated approval with expected confirmatory requirements would not itself be a negative surprise. ([fda.gov](https://www.fda.gov/media/176986/download?utm_source=openai)) Competition has strengthened: teclistamab gained traditional monotherapy approval and an earlier-line combination approval in March 2026, while an iberdomide combination received accelerated approval in August. If FDA uses accelerated approval for anito-cel, demonstrating a meaningful advantage over available treatment remains important; cross-trial comparisons do not establish superiority. ([fda.gov](https://www.fda.gov/drugs/cancer-approvals/fda-approves-teclistamab-combination-daratumumab-hyaluronidase-fihj-relapsed-or-refractory-multiple?utm_source=openai)) The randomized Phase 3 iMMagine-3 study is underway. The June 2023 partial clinical hold followed a patient death involving protocol deviations and was lifted in August 2023. No subsequent anito-cel CRL, filing refusal, review extension or adverse advisory-committee vote has been announced. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1786205/000119312526076876/aclx-20251231.htm)) Kite controls commercial manufacturing, and Gilead\u2019s completed Arcellx acquisition gives it full asset economics rather than the former profit-sharing arrangement. ([investors.gilead.com](https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Announces-First-Quarter-Financial-Results/default.aspx?utm_source=openai))",
+  "move_analysis_ai_reasoning": "BPIQ-AI assigns a 70\u201380% chance of approval without a material commercial surprise. The unusually high response rate and durable disease control support approval, but a single-arm Phase 2 filing deserves more caution than replicated randomized trials. Restrictive labeling or a manageable delay drives the Mixed range; nonapproval or a major manufacturing delay drives the 10\u201320% negative range. ([investors.gilead.com](https://investors.gilead.com/news/news-details/2025/Kite-Announces-New-Data-for-Pivotal-iMMagine-1-Study-at-ASH-2025-Highlighting-Anito-cels-Opportunity-in-Relapsed-or-Refractory-Multiple-Myeloma/default.aspx)) Historical oncology application success rates are high, but do not directly measure approval on the first decision date without commercial restrictions. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) CARVYKTI\u2019s traditional approval from single-arm evidence is encouraging precedent, while newer myeloma approvals make differentiation more important. ([fda.gov](https://www.fda.gov/media/176986/download?utm_source=openai))\n\nThis is not a first-commercial-product sponsor. Kite already manufactures commercial CAR-T therapies and completed anito-cel technology transfer in 2024. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1786205/000119312526076876/aclx-20251231.htm)) Published manufacturing experience reported an 18-day median turnaround for 101 released lots. That is meaningful operational evidence, but clinical production success does not by itself establish commercial approval readiness. ([ascopubs.org](https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.16_suppl.2550?utm_source=openai))\n\nAt the supplied $210 billion market capitalization, anito-cel is important to oncology growth but represents only part of Gilead\u2019s value. Consequently, the estimated approval gain is 0.50\u20131.50%, versus a 2.00\u20134.00% decline for rejection. The supplied $6.4 billion cash balance and diversified commercial business limit financing pressure. GILD\u2019s supplied historical approval reactions were generally modest, and its share price is near the top of its 52-week range, leaving less room for an expected approval to surprise positively. The supplied two specialist-fund holdings total $43.9 million, up from $9.2 million the previous quarter; that narrow ownership signal matters much less for diversified Gilead than for a single-asset biotech.\n\nDecember ASH presentations can reset expectations before the decision, including updated anito-cel results and separate Phase 2 GEM-AnitoFIRST and Yescarta data. These prevent attributing event-covering options entirely to this FDA decision. ([investors.gilead.com](https://investors.gilead.com/news/news-details/2026/Gilead-and-Kite-Advance-Leadership-With-New-Data-Across-Pipeline-and-Portfolio-at-ASH-2026/default.aspx?utm_source=openai)) The supplied December 24 options imply a 9.1% total move and a 3.7% isolated expected move, but are classified as illiquid/wide. Both exceed the estimated approval reaction; neither supports a 20% directional Big Mover classification.",
+  "catalyst_event_details": "FDA\u2019s decision on anito-cel\u2019s BLA for fourth-line or later relapsed or refractory multiple myeloma is targeted for December 23, 2026. ([investors.gilead.com](https://investors.gilead.com/news/news-details/2026/Gilead-and-Kite-Advance-Leadership-With-New-Data-Across-Pipeline-and-Portfolio-at-ASH-2026/default.aspx?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-11-10T11:34:13Z"
  },
  {
   "id": 16674,
@@ -8859,7 +8859,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "40.95",
+   "last_price": "41.65",
    "market_cap": 4068005120,
    "website": "https://www.xenon-pharma.com"
   },
@@ -9224,7 +9224,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "62.12",
+   "last_price": "62.22",
    "market_cap": 128368590848,
    "website": "https://www.bms.com"
   },
@@ -9979,7 +9979,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "1.69",
+   "last_price": "1.65",
    "market_cap": 215176688,
    "website": "https://www.fatetherapeutics.com"
   },
@@ -10049,7 +10049,7 @@
   "company": {
    "ticker": "IMUX",
    "name": "Immunic",
-   "last_price": "8.19",
+   "last_price": "8.04",
    "market_cap": 109701512,
    "website": "https://www.imux.com"
   },
@@ -10799,7 +10799,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.38",
+   "last_price": "0.37",
    "market_cap": 84470200,
    "website": "https://www.tenayatherapeutics.com"
   },
@@ -11719,7 +11719,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.38",
+   "last_price": "0.37",
    "market_cap": 84470200,
    "website": "https://www.tenayatherapeutics.com"
   },
@@ -12024,7 +12024,7 @@
   "company": {
    "ticker": "WVE",
    "name": "Wave Life Sciences",
-   "last_price": "3.41",
+   "last_price": "3.46",
    "market_cap": 672550784,
    "website": "https://wavelifesciences.com"
   },
@@ -12784,7 +12784,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "306.50",
+   "last_price": "308.23",
    "market_cap": 9082658816,
    "website": "https://www.krystalbio.com"
   },
@@ -13199,7 +13199,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "31.76",
+   "last_price": "32.69",
    "market_cap": 1899554560,
    "website": "https://www.agios.com"
   },
@@ -13879,7 +13879,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "39.39",
+   "last_price": "40.35",
    "market_cap": 2955813376,
    "website": "https://www.xencor.com"
   },
@@ -14224,7 +14224,7 @@
   "company": {
    "ticker": "OKUR",
    "name": "OnKure Therapeutics, Inc.",
-   "last_price": "3.39",
+   "last_price": "3.56",
    "market_cap": 139426864,
    "website": "https://onkuretherapeutics.com"
   },
@@ -14339,7 +14339,7 @@
   "company": {
    "ticker": "TNGX",
    "name": "Tango Therapeutics",
-   "last_price": "24.30",
+   "last_price": "26.07",
    "market_cap": 4117760512,
    "website": "https://www.tangotx.com"
   },
@@ -14889,7 +14889,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "4.88",
+   "last_price": "4.96",
    "market_cap": 1741267072,
    "website": "https://www.alvotech.com"
   },
@@ -14944,7 +14944,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "1.63",
+   "last_price": "1.64",
    "market_cap": 194960800,
    "website": "https://www.pyxisoncology.com"
   },
@@ -15059,7 +15059,7 @@
   "company": {
    "ticker": "ALVO",
    "name": "Alvotech",
-   "last_price": "4.88",
+   "last_price": "4.96",
    "market_cap": 1741267072,
    "website": "https://www.alvotech.com"
   },
@@ -15514,7 +15514,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "1.22",
+   "last_price": "1.20",
    "market_cap": 11531572,
    "website": "https://www.cellectar.com"
   },
@@ -15864,7 +15864,7 @@
   "company": {
    "ticker": "FBIO",
    "name": "Fortress Biotech",
-   "last_price": "1.94",
+   "last_price": "1.97",
    "market_cap": 63700392,
    "website": "https://www.fortressbiotech.com"
   },
@@ -16034,7 +16034,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "16.07",
+   "last_price": "17.23",
    "market_cap": 5414316544,
    "website": "https://www.erasca.com"
   },
@@ -16259,7 +16259,7 @@
   "company": {
    "ticker": "CLRB",
    "name": "Cellectar Biosciences",
-   "last_price": "1.22",
+   "last_price": "1.20",
    "market_cap": 11531572,
    "website": "https://www.cellectar.com"
   },
@@ -16314,7 +16314,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "592.72",
+   "last_price": "596.26",
    "market_cap": 25068150784,
    "website": "https://www.unither.com"
   },
@@ -16929,7 +16929,7 @@
   "company": {
    "ticker": "BINV",
    "name": "BioInvent International AB",
-   "last_price": "45.84",
+   "last_price": "45.85",
    "market_cap": null,
    "website": ""
   },
@@ -17374,7 +17374,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "6.92",
+   "last_price": "6.88",
    "market_cap": 453156256,
    "website": "https://www.arvinas.com"
   },
@@ -17539,7 +17539,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "136.90",
+   "last_price": "135.99",
    "market_cap": 11665147904,
    "website": "https://www.kymeratx.com"
   },
@@ -18239,7 +18239,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "1.69",
+   "last_price": "1.65",
    "market_cap": 215176688,
    "website": "https://www.fatetherapeutics.com"
   },
@@ -18294,7 +18294,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "306.50",
+   "last_price": "308.23",
    "market_cap": 9082658816,
    "website": "https://www.krystalbio.com"
   },
@@ -18634,7 +18634,7 @@
   "company": {
    "ticker": "OPK",
    "name": "OPKO Health",
-   "last_price": "1.71",
+   "last_price": "1.63",
    "market_cap": 1269686144,
    "website": "https://www.opko.com"
   },
@@ -19794,7 +19794,7 @@
   "company": {
    "ticker": "AMGN",
    "name": "Amgen",
-   "last_price": "465.23",
+   "last_price": "463.88",
    "market_cap": 251648262144,
    "website": "https://www.amgen.com"
   },
@@ -20354,7 +20354,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "31.76",
+   "last_price": "32.69",
    "market_cap": 1899554560,
    "website": "https://www.agios.com"
   },
@@ -20769,7 +20769,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "62.12",
+   "last_price": "62.22",
    "market_cap": 128368590848,
    "website": "https://www.bms.com"
   },
@@ -21241,28 +21241,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
+  "probability_clean_plus_min": "75.000000",
+  "probability_clean_plus_max": "85.000000",
+  "probability_mixed_min": "5.000000",
+  "probability_mixed_max": "15.000000",
+  "probability_clean_minus_min": "10.000000",
+  "probability_clean_minus_max": "20.000000",
+  "magnitude_clean_plus_min": "1.000000",
+  "magnitude_clean_plus_max": "4.000000",
+  "magnitude_mixed_min": "-5.000000",
+  "magnitude_mixed_max": "-1.000000",
+  "magnitude_clean_minus_min": "-12.000000",
+  "magnitude_clean_minus_max": "-6.000000",
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
+  "key_readout_comment": "The supporting evidence uses diazepam\u2019s established efficacy plus studies of blood drug levels, rather than a new randomized seizure-control trial. A 24-patient pediatric study found similar absorption during and between seizures. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218623Orig1s000ClinPharmR.pdf)) An open-label safety study included 38 treated pediatric patients; all 94 film insertions in ages 6\u201311 were successful, and no patient discontinued because of a treatment-related adverse event. These findings support administration and tolerability, but do not establish superiority over nasal rescue treatments. Age- and weight-specific dosing remains important. ([aesnet.org](https://aesnet.org/abstractslisting/safety-of-diazepam-buccal-film-in-children-with-epilepsy--subgroup-results-from-a-phase-3--open-label--safety-and-tolerability-study?utm_source=openai))",
+  "cmc_regulatory_risk": "Low\u2013Moderate: established commercial film manufacturer and a 20-year exclusive supply agreement; FDA\u2019s 2024 quality review recommended approval for all associated facilities. Single-supplier concentration and a separate age-expansion review leave residual execution and regulatory risk. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1710340/000143774926032600/eton20261013_8k.htm?utm_source=openai))",
+  "key_pdufa_comment": "The March 29, 2027 decision concerns a Type 9 NDA adding ages 6\u201311 through the traditional approval framework, not Accelerated Approval. Libervant\u2019s established 505(b)(2) approach relies partly on FDA\u2019s findings for diazepam rectal gel. ([ir.etonpharma.com](https://ir.etonpharma.com/news-releases/news-release-details/eton-pharmaceuticals-and-aquestive-therapeutics-announce/?utm_source=openai)) The September 2020 CRL concerned inadequate drug exposure in certain weight groups, not manufacturing; subsequent tentative approval and the 2024 pediatric approval provide meaningful evidence that the earlier deficiencies were addressed. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000162828022005393/aqst-20211231.htm?utm_source=openai)) The pediatric approval was later converted to tentative approval following an orphan-exclusivity court ruling, rather than a new safety or efficacy finding. Valtoco\u2019s exclusivity is scheduled to expire January 10, 2027. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000139873326000074/aqst-20260930.htm)) Eton commercializes in the United States, while Aquestive manufactures and supplies the film. Eton pays mid-teens royalties, a $2.5 million milestone for ages 6\u201311 approval, and separate launch and sales milestones. Neither company is undertaking its first commercial-product launch. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1710340/000143774926032600/eton20261013_8k.htm?utm_source=openai))",
+  "move_analysis_ai_reasoning": "Clean approval is the most likely outcome because this is an established rescue medicine and film formulation with substantial prior FDA review. That makes the setup less uncertain than a first approval relying on an unproven seizure treatment. However, the new pediatric age group still requires acceptable dosing and drug exposure. The earlier exposure-related CRL is a reminder that these details matter. We assign 75\u201385% to clean approval, retain 5\u201315% for a restrictive approval or limited delay, and 10\u201320% for nonapproval or a substantial delay. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1398733/000162828022005393/aqst-20211231.htm?utm_source=openai))\n\nManufacturing is supported by more than filing acceptance. FDA\u2019s 2024 quality review recommended approval across the associated facilities, Aquestive has commercial film-manufacturing experience, and the supply agreement runs for 20 years. Those are meaningful strengths, although dependence on one supplier remains a risk. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/218623Orig1s000ChemR.pdf))\n\nThe modest stock-move estimates reflect Eton\u2019s approximately $1.9 billion market capitalization in the supplied snapshot and its diversified commercial portfolio. This decision adds ages 6\u201311; it does not determine the entire Libervant opportunity. Eton reported $55.6 million in September cash and $49.9 million of operating cash generation over nine months, supporting launch spending without making this approval essential to corporate survival. Royalties and milestones also reduce retained economics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1710340/000171034026000009/eton-20260930.htm)) The supplied ownership figures show two specialist funds holding $182.2 million combined: concentrated but substantial financial interest, not broad specialist validation or proof of approval. The supplied historical reactions to DESMODA and KHINDIVI approvals also support restrained upside expectations.\n\nA separate Libervant decision for ages 12 and older is scheduled for March 23, 2027, six days earlier. It could materially reset expectations before this pediatric decision, so the move ranges apply from the stock price immediately before March 29, rather than today\u2019s price. ([aquestive.gcs-web.com](https://aquestive.gcs-web.com/news-releases/news-release-details/aquestive-therapeutics-reports-third-quarter-2026-financial?utm_source=openai)) KHINDIVI\u2019s separate decision is scheduled for May 28, after the first covering options expiration. ([etonpharma.gcs-web.com](https://etonpharma.gcs-web.com/news-releases/news-release-details/eton-pharmaceuticals-reports-third-quarter-2026-financial/)) March 29 is 138 days away, so options do not determine the mover classification at this horizon. Neither conditional direction meets the 20% threshold.",
+  "catalyst_event_details": "FDA\u2019s decision on Libervant diazepam buccal film for seizure clusters in children ages 6\u201311 is scheduled for March 29, 2027. ([ir.etonpharma.com](https://ir.etonpharma.com/news-releases/news-release-details/eton-pharmaceuticals-and-aquestive-therapeutics-announce/?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-11-10T11:35:42Z"
  },
  {
   "id": 13916,
@@ -21946,28 +21946,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "35.000000",
-  "probability_clean_plus_max": "45.000000",
-  "probability_mixed_min": "30.000000",
-  "probability_mixed_max": "40.000000",
-  "probability_clean_minus_min": "20.000000",
-  "probability_clean_minus_max": "30.000000",
-  "magnitude_clean_plus_min": "20.000000",
-  "magnitude_clean_plus_max": "40.000000",
-  "magnitude_mixed_min": "-18.000000",
-  "magnitude_mixed_max": "3.000000",
-  "magnitude_clean_minus_min": "-40.000000",
-  "magnitude_clean_minus_max": "-25.000000",
-  "up_suspected_big_mover": true,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
   "up_big_mover": false,
-  "down_suspected_big_mover": true,
+  "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "This is a patient proof-of-mechanism readout, not the randomized focal-onset seizure trial expected to complete in H2 2027. Ovid plans to test 5, 7 and 9 mg near year-end 2026. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1636651/000162828026056497/ovidexhibit9912026-q2.htm)) The open-label photosensitivity study targets 12 participants. Its primary measure compares the range of flashing-light frequencies triggering abnormal electrical brain activity after treatment with a placebo baseline day. Consistency across participants, doses and measurement days matters more than an isolated favorable comparison. ([ctis.eu](https://www.ctis.eu/trial/2026-527114-23-00)) Prior healthy-volunteer findings support brain activity and short-term tolerability, but do not establish patient seizure reduction. ([investors.ovidrx.com](https://investors.ovidrx.com/news/news-details/2025/Ovid-announces-positive-topline-results-for-the-next-generation-GABA-aminotransferase-inhibitor-OV329-that-demonstrate-strong-inhibitory-activity-and-a-potential-best-in-category-safety-profile/default.aspx?utm_source=openai)) Compelling suppression could strengthen the program; partial suppression or inconsistent responses could leave investors unconvinced. Even strong results would not establish durable seizure control or long-term eye safety.",
+  "key_readout_comment": "",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "OV329's photosensitivity results are expected near year-end 2026. This study asks whether the drug suppresses abnormal electrical responses to flashing lights in people with epilepsy. It is an important bridge from healthy-volunteer findings to patient evidence, but the randomized seizure-reduction trial remains the more decisive test. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1636651/000162828026056497/ovidexhibit9912026-q2.htm))\n\nHistorically, approximately 27% of Phase 2 neurology programs advanced to Phase 3. That is a development benchmark, not the probability of a favorable stock reaction. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) OV329 has advantages for this narrower biological test: its mechanism is established, and earlier human results demonstrated brain inhibition with encouraging short-term tolerability. Those results did not demonstrate seizure reduction in patients. ([investors.ovidrx.com](https://investors.ovidrx.com/news/news-details/2025/Ovid-announces-positive-topline-results-for-the-next-generation-GABA-aminotransferase-inhibitor-OV329-that-demonstrate-strong-inhibitory-activity-and-a-potential-best-in-category-safety-profile/default.aspx?utm_source=openai)) We assign a 35\u201345% probability to an unequivocally favorable outcome, 30\u201340% to mixed results and 20\u201330% to a clearly unfavorable outcome.\n\nWith only about 12 participants and a placebo baseline rather than a randomized concurrent control, inconsistent responses can complicate interpretation. Multiple doses and measurement days also make a single favorable finding less persuasive. ([ctis.eu](https://www.ctis.eu/trial/2026-527114-23-00)) Our expectation is that investors will want substantial, reproducible suppression with good tolerability. Encouraging but incomplete evidence could still disappoint because the earlier healthy-volunteer findings have already established a positive expectation.\n\nBPIQ reports five specialist hedge-fund holders, up from two in September 2025. That suggests growing professional interest, not clinical certainty. At approximately $420 million in market value, Ovid can move substantially on OV329 news. Its October 2025 OV329 results produced a 21.9% opening gain, supporting the plausibility of 20\u201340% upside for compelling patient data. We estimate an 18% decline to a 3% gain for mixed results and 25\u201340% downside for clear failure. Cash and OV4071 provide support, but neither eliminates the risk of losing substantial OV329 value.\n\nOvid reported $169.8 million in cash and marketable securities at June 30, 2026, with expected runway into 2029. ([investors.ovidrx.com](https://investors.ovidrx.com/financials/quarterly-results/default.aspx?utm_source=openai)) That reduces immediate financing pressure, although warrants and its share-sale program create dilution exposure. Ovid retains worldwide OV329 rights, subject to Northwestern milestones and low- to mid-single-digit royalties, so successful development could retain substantial value for shareholders. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1636651/000162828026056498/ovid-20260630.htm)) With the guided readout more than 60 days away, our ranges reflect the clinical evidence and valuation rather than an options-based event forecast. These estimates assume no intervening transformative OV4071 result.",
-  "catalyst_event_details": "OV329\u2019s exploratory Phase 2 photosensitivity study in adults with epilepsy is expected to report results near year-end 2026. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1636651/000162828026056497/ovidexhibit9912026-q2.htm?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-19T18:15:49Z"
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 17099,
@@ -24939,7 +24939,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "592.72",
+   "last_price": "596.26",
    "market_cap": 25068150784,
    "website": "https://www.unither.com"
   },
@@ -25169,7 +25169,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "62.12",
+   "last_price": "62.22",
    "market_cap": 128368590848,
    "website": "https://www.bms.com"
   },
@@ -25394,7 +25394,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "592.72",
+   "last_price": "596.26",
    "market_cap": 25068150784,
    "website": "https://www.unither.com"
   },
@@ -25531,28 +25531,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
+  "probability_clean_plus_min": "75.000000",
+  "probability_clean_plus_max": "85.000000",
+  "probability_mixed_min": "5.000000",
+  "probability_mixed_max": "15.000000",
+  "probability_clean_minus_min": "10.000000",
+  "probability_clean_minus_max": "20.000000",
+  "magnitude_clean_plus_min": "3.000000",
+  "magnitude_clean_plus_max": "8.000000",
+  "magnitude_mixed_min": "-12.000000",
+  "magnitude_mixed_max": "-3.000000",
+  "magnitude_clean_minus_min": "-30.000000",
+  "magnitude_clean_minus_max": "-12.000000",
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
+  "key_readout_comment": "APEX is an open-label, single-arm Phase 2 study. Part 2 treated 81 patients; the primary response assessment in 68 evaluable patients showed 65% responding, including clinical improvement, while 57% achieved complete or partial responses. A separate pathology-based assessment showed 81% responding. Twelve-month progression-free survival was 79%, but longer-term survival remains immature. Blood-count reductions and liver-enzyme elevations are important safety considerations. The different response definitions should not be treated as interchangeable. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1622229/000119312526342393/cogt-20260630.htm?utm_source=openai))",
+  "cmc_regulatory_risk": "Moderate: Cogent is preparing its first commercial launch and relies on outside manufacturing. Its five-year Hovione agreement covers spray-dried dispersion and tablets, providing meaningful supply preparation; commercial process validation, facility compliance and supply concentration remain execution considerations. ([investors.cogentbio.com](https://investors.cogentbio.com/static-files/f6e6978b-727b-43c0-abaf-efe64b87693e))",
+  "key_pdufa_comment": "The AdvSM NDA has a confirmed June 29, 2027 PDUFA date. At acceptance, FDA communicated no planned advisory committee and no identified potential review issues. This is an initial application, not a disclosed CRL resubmission. Traditional approval is the analytical expectation, supported by the precedent for response-based approval in AdvSM, rather than an assumed Accelerated Approval pathway. APEX provides substantial disease-response evidence, although its uncontrolled design leaves more uncertainty than replicated randomized trials. Cogent's Hovione supply agreement supports launch preparation but does not itself establish successful validation or an acceptable FDA inspection outcome. Cogent holds worldwide development and commercial rights, subject to Plexxikon milestones and single-digit royalties. ([investors.cogentbio.com](https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-1?utm_source=openai))",
+  "move_analysis_ai_reasoning": "A clean approval is the most likely outcome, but not a certainty. Clean approval means the intended AdvSM population and dosing, without an unexpected boxed warning, special restricted-access program or manufacturing restriction that materially limits commercial use. Historical hematologic-oncology applications had roughly 90% eventual approval success; that is not the same as clean approval on a particular decision date. Meaningful responses are encouraging, but the single-arm evidence, final label review and first-launch manufacturing execution support a 75\u201385% clean-positive probability, with separate allowances for a commercially restricted approval or nonapproval. Avapritinib's approval from single-arm AdvSM studies provides relevant precedent, not proof that bezuclastinib will receive the same outcome. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf))\n\nAt the supplied $5.8 billion market capitalization, bezuclastinib already carries substantial expectations across three indications. The supplied specialist ownership\u201415 funds holding approximately $1.1 billion\u2014signals unusually strong investor engagement, but does not substitute for FDA evidence. Cogent reported $791.1 million in cash, equivalents and securities at September 30, 2026, with funding expected into late 2028, supporting regulatory and launch execution without an immediate financing deadline. ([investors.cogentbio.com](https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-reports-recent-business-highlights-and-12?utm_source=openai))\n\nThe earlier GIST and nonadvanced systemic mastocytosis decisions, scheduled for November 30 and December 30, 2026, can materially reset the share price and manufacturing outlook before this decision. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1622229/000119312526449926/cogt-ex99_1.htm?utm_source=openai)) Our moves are measured from the likely price immediately before the AdvSM action, not today's price. Assuming the other indications remain commercially viable, an expected AdvSM approval adds incremental value, supporting 3\u20138% upside. A narrower label or delay could produce a 3\u201312% decline. Nonapproval supports a 12\u201330% decline: an AdvSM-specific objection is less damaging than a manufacturing or safety finding affecting the same drug across indications.\n\nThe decision is 230 days away, so options are not used to confirm Big Mover status. Neither direction qualifies on fundamentals because the smaller conditional move is below 20%. The earlier FDA decisions also prevent attributing the covering options entirely to AdvSM.",
+  "catalyst_event_details": "The FDA's target decision date for bezuclastinib's NDA in advanced systemic mastocytosis is June 29, 2027. ([investors.cogentbio.com](https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-1?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-11-10T11:35:41Z"
  },
  {
   "id": 13464,
@@ -26879,7 +26879,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "306.50",
+   "last_price": "308.23",
    "market_cap": 9082658816,
    "website": "https://www.krystalbio.com"
   },
@@ -27484,7 +27484,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "39.39",
+   "last_price": "40.35",
    "market_cap": 2955813376,
    "website": "https://www.xencor.com"
   },
@@ -27539,7 +27539,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "306.50",
+   "last_price": "308.23",
    "market_cap": 9082658816,
    "website": "https://www.krystalbio.com"
   },
@@ -27944,7 +27944,7 @@
   "company": {
    "ticker": "OPK",
    "name": "OPKO Health",
-   "last_price": "1.71",
+   "last_price": "1.63",
    "market_cap": 1269686144,
    "website": "https://www.opko.com"
   },
@@ -28634,7 +28634,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "4.09",
+   "last_price": "4.16",
    "market_cap": 246716320,
    "website": "https://www.vandapharma.com"
   },
@@ -28694,7 +28694,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "16.07",
+   "last_price": "17.23",
    "market_cap": 5414316544,
    "website": "https://www.erasca.com"
   },
@@ -29144,7 +29144,7 @@
   "company": {
    "ticker": "OPK",
    "name": "OPKO Health",
-   "last_price": "1.71",
+   "last_price": "1.63",
    "market_cap": 1269686144,
    "website": "https://www.opko.com"
   },
@@ -29364,7 +29364,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "6.92",
+   "last_price": "6.88",
    "market_cap": 453156256,
    "website": "https://www.arvinas.com"
   },
@@ -29534,7 +29534,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "39.39",
+   "last_price": "40.35",
    "market_cap": 2955813376,
    "website": "https://www.xencor.com"
   },
@@ -29644,7 +29644,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "252.19",
+   "last_price": "253.25",
    "market_cap": 37435469824,
    "website": "https://www.biogen.com"
   },
@@ -30049,7 +30049,7 @@
   "company": {
    "ticker": "FATE",
    "name": "Fate Therapeutics",
-   "last_price": "1.69",
+   "last_price": "1.65",
    "market_cap": 215176688,
    "website": "https://www.fatetherapeutics.com"
   },
@@ -32019,7 +32019,7 @@
   "company": {
    "ticker": "CALC",
    "name": "CalciMedica",
-   "last_price": "1.50",
+   "last_price": "1.28",
    "market_cap": 9354760,
    "website": "https://calcimedica.com"
   },
@@ -32244,7 +32244,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "252.19",
+   "last_price": "253.25",
    "market_cap": 37435469824,
    "website": "https://www.biogen.com"
   },
@@ -33659,7 +33659,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "592.72",
+   "last_price": "596.26",
    "market_cap": 25068150784,
    "website": "https://www.unither.com"
   },
@@ -33769,7 +33769,7 @@
   "company": {
    "ticker": "XENE",
    "name": "Xenon Pharmaceuticals",
-   "last_price": "40.95",
+   "last_price": "41.65",
    "market_cap": 4068005120,
    "website": "https://www.xenon-pharma.com"
   },
@@ -33829,7 +33829,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "306.50",
+   "last_price": "308.23",
    "market_cap": 9082658816,
    "website": "https://www.krystalbio.com"
   },
@@ -35209,7 +35209,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "136.90",
+   "last_price": "135.99",
    "market_cap": 11665147904,
    "website": "https://www.kymeratx.com"
   },
@@ -35264,7 +35264,7 @@
   "company": {
    "ticker": "PHAR",
    "name": "Pharming Group",
-   "last_price": "13.40",
+   "last_price": "13.25",
    "market_cap": 935686848,
    "website": "https://www.pharming.com"
   },
@@ -35769,7 +35769,7 @@
   "company": {
    "ticker": "KRYS",
    "name": "Krystal Biotech",
-   "last_price": "306.50",
+   "last_price": "308.23",
    "market_cap": 9082658816,
    "website": "https://www.krystalbio.com"
   },
@@ -36674,7 +36674,7 @@
   "company": {
    "ticker": "LYEL",
    "name": "Lyell Immunopharma",
-   "last_price": "17.59",
+   "last_price": "17.11",
    "market_cap": 411808192,
    "website": "https://www.lyell.com"
   },
@@ -36844,7 +36844,7 @@
   "company": {
    "ticker": "IRON",
    "name": "Disc Medicine Inc",
-   "last_price": "85.74",
+   "last_price": "86.04",
    "market_cap": 3854576640,
    "website": "https://www.discmedicine.com"
   },
@@ -42793,7 +42793,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "4.09",
+   "last_price": "4.16",
    "market_cap": 246716320,
    "website": "https://www.vandapharma.com"
   },
@@ -43758,7 +43758,7 @@
   "company": {
    "ticker": "ARVN",
    "name": "Arvinas Inc.",
-   "last_price": "6.92",
+   "last_price": "6.88",
    "market_cap": 453156256,
    "website": "https://www.arvinas.com"
   },
@@ -44533,7 +44533,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "39.39",
+   "last_price": "40.35",
    "market_cap": 2955813376,
    "website": "https://www.xencor.com"
   },
@@ -45829,28 +45829,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "65.000000",
-  "probability_clean_plus_max": "75.000000",
-  "probability_mixed_min": "20.000000",
-  "probability_mixed_max": "30.000000",
-  "probability_clean_minus_min": "0.000000",
-  "probability_clean_minus_max": "10.000000",
-  "magnitude_clean_plus_min": "0.100000",
-  "magnitude_clean_plus_max": "1.000000",
-  "magnitude_mixed_min": "-0.750000",
-  "magnitude_mixed_max": "0.100000",
-  "magnitude_clean_minus_min": "-2.500000",
-  "magnitude_clean_minus_max": "-0.500000",
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "This is a low-importance durability presentation, not a fresh efficacy binary. TOGETHER-PsA randomized 271 adults to Taltz plus Zepbound or Taltz alone; treatment was open-label, with blinded assessors. The primary endpoint combined 50% improvement in arthritis activity with at least 10% weight loss at week 36. At week 52, arthritis response rates of 43.7% versus 15.7% are already public. These week-52 comparisons are exploratory and were not statistically protected against false positives from testing multiple outcomes. The remaining investment question is whether fuller safety, discontinuation and patient-reported results add meaningful support beyond the announced benefit. ([investor.lilly.com](https://investor.lilly.com/news-releases/news-release-details/new-phase-3b-data-lillys-taltz-ixekizumab-and-zepbound))",
+  "key_readout_comment": "",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The November 11 presentation mainly explains an established result. Lilly has already announced favorable one-year efficacy and no new safety concerns. That supports a 65\u201375% chance of a clearly favorable presentation, but only a 0.10\u20131.00% event-specific gain: investors already know the central finding. ([investor.lilly.com](https://investor.lilly.com/news-releases/news-release-details/lilly-showcase-new-retatrutide-taltz-ixekizumab-and-zepbound))\n\nHistorically, 65.3% of autoimmune programs entering Phase 3 advanced to a filing. That is a development benchmark, not a direct forecast for a conference presentation. Here, the strongest evidence is the same trial's successful randomized week-36 comparison. Patients knew their treatment, however, which can influence symptom reports. The week-52 comparisons are exploratory, so fuller results could still leave questions about clinical differentiation or tolerability. We assign Mixed outcomes 20\u201330% probability with moves of -0.75% to +0.10%, and clearly unfavorable outcomes 0\u201310% probability with declines of 0.50\u20132.50%. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf?utm_source=openai))\n\nBPIQ reports one specialist hedge-fund holder, down from three, although OrbiMed's reported position value increased. That is limited specialist participation, not evidence against already reported clinical results. At the supplied approximately $965 billion market capitalization, this presentation represents only a small part of Lilly's value. The supplied August 31 reaction\u2014an opening decline of 0.5% despite favorable one-year results\u2014also supports modest incremental moves. Lilly reported $4.89 billion cash and $27.42 billion operating cash flow for the first nine months of 2026; funding this program does not depend on a favorable presentation, so a development-stage biotech cash runway is not the relevant constraint. ([investor.lilly.com](https://investor.lilly.com/static-files/4413f2f3-6625-42b5-851e-ae9201e3bb95))\n\nThe supplied usable November 13 options imply a 3.9% total move through expiration. That is broader stock volatility, not a pure estimate of this presentation's impact, and exceeds our event-specific ranges. Other late-2026 clinical results could overlap the window: Lilly lists November primary completion for TRIUMPH-5, although completion is not a confirmed announcement date. The nearby retatrutide conference presentations expand on already disclosed findings rather than representing separate fresh efficacy results. Neither direction qualifies as a fundamental big mover. ([investor.lilly.com](https://investor.lilly.com/static-files/4580c401-611c-406b-8964-88cb8d887bd4))",
-  "catalyst_event_details": "Taltz plus Zepbound\u2019s Phase 3b TOGETHER-PsA 52-week results in psoriatic arthritis with obesity or overweight will be presented November 11, 2026. ([investor.lilly.com](https://investor.lilly.com/news-releases/news-release-details/lilly-showcase-new-retatrutide-taltz-ixekizumab-and-zepbound))",
-  "move_analysis_created_datetime": "2026-11-06T21:55:29Z"
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 19706,

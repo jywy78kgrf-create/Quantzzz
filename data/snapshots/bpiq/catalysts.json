@@ -65,116 +65,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 20625,
-  "company": {
-   "ticker": "NUVB",
-   "name": "Nuvation Bio",
-   "last_price": "3.93",
-   "market_cap": 1408540416,
-   "website": "https://www.nuvationbio.com"
-  },
-  "ticker": "NUVB",
-  "drug_name": "Safusidenib (IDH1 Inhibitor)",
-  "indications": [
-   {
-    "id": 1296,
-    "title": "Glioma",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Chemotherapy- And Radiotherapy-Na\u00efve Grade 2 IDH1-Mutant Glioma",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "07/20/26:- Updated Ph2 J201 data: ORR 51.9%; 36-month PFS 79.1% with 38.8-month follow-up. 08/06/26:- J201 Ph2 data reiterated: ORR 51.9%, 36-month PFS 79.1%. 08/20/26:- FDA Fast Track granted. J201 Ph2 follow-up reiterated: ORR 51.9%; 36-mo PFS 79.1%. 11/02/26:- Updated Phase 2 J201 efficacy and safety data at SNO on November 13, 2026. 11/04/26:- Additional updated Ph2 J201 data will be presented at SNO November 12-15, 2026.",
-  "catalyst_date": "2026-11-13",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.prnewswire.com/news-releases/nuvation-bio-reports-third-quarter-2026-financial-results-and-provides-business-update-302929623.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 13480,
-  "company": {
-   "ticker": "PHVS",
-   "name": "Pharvaris B.V. ",
-   "last_price": "33.36",
-   "market_cap": 2361618688,
-   "website": "https://pharvaris.com"
-  },
-  "ticker": "PHVS",
-  "drug_name": "PHVS719 (deucrictibant extended-release tablets)",
-  "indications": [
-   {
-    "id": 978,
-    "title": "Hereditary angioedema ",
-    "nickname": "HAE"
-   }
-  ],
-  "indications_text": "Hereditary angioedema ",
-  "stage_event": {
-   "id": 83,
-   "label": "Phase 3 Data readout",
-   "stage_label": "Phase 3",
-   "event_label": "Data readout"
-  },
-  "note": "CHAPTER-1 OLE, CHAPTER-3 trials. 3/3/25- Presented CHAPTER-1 long-term data at AAAAI/WAO '25. 11/12/25\u2013 CHAPTER-3 enrollment progressing; data in H2 2026. 01/12/26:- CHAPTER-3 topline data now expected Q3 2026; CHAPTER-1 final data to be presented at WSAAI/AAAAI 2026. 02/10/26:- CHAPTER-1 final OLE and PK data and CHAPTER-3 ER exposure results at AAAAI 2026. 03/02/26:- Final CHAPTER-1 OLE showed sustained low attacks; ER tablet Ph1 supports once-daily. CHAPTER-3 topline Q3 2026. 04/02/26:- CHAPTER-3 enrollment completed; topline data expected Q3 2026. CHAPTER-4 long-term safety enrollment progressing. 04/20/26:- CIIC 2026 safety margins support XR+IR combo. CHAPTER-3 topline data still expected Q3 2026. 05/29/26:- EAACI June 13 CHAPTER-1 OLE updates; XR+IR safety poster. CHAPTER-3 topline data still expected Q3 2026. 06/15/26:- EAACI 2026 showed CHAPTER-1 OLE final data. CHAPTER-3 topline still expected Q3 2026. 08/12/26:- CHAPTER-3 topline data remains expected in Q3 2026. CHAPTER-1 Phase 2 results will be presented September 4, 2026. 09/08/26:- CHAPTER-3 topline met all endpoints. Marketing applications planned starting H1 2027. 10/29/26:- CHAPTER-3 Ph3 results at ACAAI Nov 14, 2026. CHAPTER-1 OLE and safety posters Nov 15, 2026. 11/12/26:- CHAPTER-3 analyses will be presented November 14, 2026. XR NDA submission is planned in H1 2027. CHAPTER-3 primary results: 83% attack-rate reduction; no treatment-related serious adverse events.",
-  "catalyst_date": "2026-11-14",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/12/3401883/0/en/pharvaris-presents-clinical-and-real-world-data-at-the-acaai-2026-annual-scientific-meeting.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 16682,
   "company": {
    "ticker": "BTAI",
@@ -364,7 +254,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "12.24",
+   "last_price": "12.05",
    "market_cap": 11316659200,
    "website": "https://www.smmttx.com"
   },
@@ -424,7 +314,7 @@
   "company": {
    "ticker": "CRBP",
    "name": "Corbus Pharmaceuticals",
-   "last_price": "3.39",
+   "last_price": "3.24",
    "market_cap": 69856920,
    "website": "https://www.corbuspharma.com"
   },
@@ -864,7 +754,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "252.83",
+   "last_price": "254.64",
    "market_cap": 37457645568,
    "website": "https://www.biogen.com"
   },
@@ -979,7 +869,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "3.36",
+   "last_price": "3.43",
    "market_cap": 25642752,
    "website": "https://www.immutep.com"
   },
@@ -1274,7 +1164,7 @@
   "company": {
    "ticker": "CATX",
    "name": "Perspective Therapeutics",
-   "last_price": "0.94",
+   "last_price": "0.96",
    "market_cap": 113887640,
    "website": "https://www.perspectivetherapeutics.com"
   },
@@ -1329,7 +1219,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "8.98",
+   "last_price": "8.31",
    "market_cap": 554094336,
    "website": "https://www.capricor.com"
   },
@@ -1384,7 +1274,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "4.59",
+   "last_price": "4.55",
    "market_cap": 1023693056,
    "website": "https://www.savarapharma.com"
   },
@@ -1604,7 +1494,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "7.91",
+   "last_price": "7.78",
    "market_cap": 1602332928,
    "website": "https://sellaslifesciences.com"
   },
@@ -1789,7 +1679,7 @@
   "company": {
    "ticker": "CGON",
    "name": "CG Oncology",
-   "last_price": "84.02",
+   "last_price": "82.86",
    "market_cap": 6645327360,
    "website": "https://cgoncology.com"
   },
@@ -3109,7 +2999,7 @@
   "company": {
    "ticker": "RIGL",
    "name": "Rigel Pharmaceuticals",
-   "last_price": "44.46",
+   "last_price": "45.10",
    "market_cap": 837180544,
    "website": "https://www.rigel.com"
   },
@@ -3474,7 +3364,7 @@
   "company": {
    "ticker": "RIGL",
    "name": "Rigel Pharmaceuticals",
-   "last_price": "44.46",
+   "last_price": "45.10",
    "market_cap": 837180544,
    "website": "https://www.rigel.com"
   },
@@ -3659,7 +3549,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "31.59",
+   "last_price": "31.12",
    "market_cap": 1889386880,
    "website": "https://www.agios.com"
   },
@@ -5854,7 +5744,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "170.26",
+   "last_price": "169.82",
    "market_cap": 208476110848,
    "website": "https://www.gilead.com"
   },
@@ -6924,7 +6814,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "170.26",
+   "last_price": "169.82",
    "market_cap": 208476110848,
    "website": "https://www.gilead.com"
   },
@@ -7100,51 +6990,6 @@
   "move_analysis_created_datetime": "2026-11-05T11:35:23Z"
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-12-06",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 20594,
   "company": {
    "ticker": "INCY",
@@ -7257,6 +7102,51 @@
   "key_pdufa_comment": "",
   "move_analysis_ai_reasoning": "",
   "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-12-06",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "move_analysis_created_datetime": null
  },
  {
@@ -8209,7 +8099,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "170.26",
+   "last_price": "169.82",
    "market_cap": 208476110848,
    "website": "https://www.gilead.com"
   },
@@ -8429,7 +8319,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "960.04",
+   "last_price": "967.46",
    "market_cap": 52939825152,
    "website": "https://argenx.com"
   },
@@ -9319,7 +9209,7 @@
   "company": {
    "ticker": "ACIU",
    "name": "AC Immune SA",
-   "last_price": "2.13",
+   "last_price": "2.08",
    "market_cap": 211779376,
    "website": "https://www.acimmune.com"
   },
@@ -10054,7 +9944,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "960.04",
+   "last_price": "967.46",
    "market_cap": 52939825152,
    "website": "https://argenx.com"
   },
@@ -10489,7 +10379,7 @@
   "company": {
    "ticker": "SLS",
    "name": "SELLAS Life Sciences Group",
-   "last_price": "7.91",
+   "last_price": "7.78",
    "market_cap": 1602332928,
    "website": "https://sellaslifesciences.com"
   },
@@ -10989,7 +10879,7 @@
   "company": {
    "ticker": "GNPX",
    "name": "Genprex",
-   "last_price": "2.08",
+   "last_price": "1.97",
    "market_cap": 1704994,
    "website": "https://www.genprex.com"
   },
@@ -11469,7 +11359,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1468.74",
+   "last_price": "1454.32",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -11769,7 +11659,7 @@
   "company": {
    "ticker": "NXTC",
    "name": "NextCure Inc",
-   "last_price": "6.40",
+   "last_price": "6.42",
    "market_cap": 29305748,
    "website": "https://www.nextcure.com"
   },
@@ -11964,7 +11854,7 @@
   "company": {
    "ticker": "CGON",
    "name": "CG Oncology",
-   "last_price": "84.02",
+   "last_price": "82.86",
    "market_cap": 6645327360,
    "website": "https://cgoncology.com"
   },
@@ -12024,7 +11914,7 @@
   "company": {
    "ticker": "PTN",
    "name": "Palatin Technologies",
-   "last_price": "6.23",
+   "last_price": "6.18",
    "market_cap": 11095250,
    "website": "https://palatin.com"
   },
@@ -12419,7 +12309,7 @@
   "company": {
    "ticker": "SMMT",
    "name": "Summit Therapeutics",
-   "last_price": "12.24",
+   "last_price": "12.05",
    "market_cap": 11316659200,
    "website": "https://www.smmttx.com"
   },
@@ -12659,7 +12549,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "31.59",
+   "last_price": "31.12",
    "market_cap": 1889386880,
    "website": "https://www.agios.com"
   },
@@ -13339,7 +13229,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "37.09",
+   "last_price": "36.05",
    "market_cap": 2783222016,
    "website": "https://www.xencor.com"
   },
@@ -13509,7 +13399,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "21.89",
+   "last_price": "21.87",
    "market_cap": 2075180672,
    "website": "https://www.replimune.com"
   },
@@ -19629,7 +19519,7 @@
   "company": {
    "ticker": "AGIO",
    "name": "Agios Pharmaceuticals Inc.",
-   "last_price": "31.59",
+   "last_price": "31.12",
    "market_cap": 1889386880,
    "website": "https://www.agios.com"
   },
@@ -21479,7 +21369,7 @@
   "company": {
    "ticker": "CRBP",
    "name": "Corbus Pharmaceuticals",
-   "last_price": "3.39",
+   "last_price": "3.24",
    "market_cap": 69856920,
    "website": "https://www.corbuspharma.com"
   },
@@ -21599,7 +21489,7 @@
   "company": {
    "ticker": "REPL",
    "name": "Replimune Group Inc",
-   "last_price": "21.89",
+   "last_price": "21.87",
    "market_cap": 2075180672,
    "website": "https://www.replimune.com"
   },
@@ -22955,61 +22845,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 19486,
-  "company": {
-   "ticker": "ORKA",
-   "name": "Oruka Pharmaceuticals",
-   "last_price": "105.35",
-   "market_cap": 7145085440,
-   "website": "https://orukatx.com"
-  },
-  "ticker": "ORKA",
-  "drug_name": "ORKA-002 (IL-17A/F Antibody)",
-  "indications": [
-   {
-    "id": 1023,
-    "title": "Psoriasis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Psoriasis",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "08/10/26:- ORCA-SURGE Week 16 data accelerated to Q1 2027. 11/09/26:- ORCA-SURGE Ph2 enrollment completed; Week 16 psoriasis data is expected in Q1 2027.",
-  "catalyst_date": "2027-03-31",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/09/3398930/0/en/oruka-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": "45.000000",
-  "probability_clean_plus_max": "55.000000",
-  "probability_mixed_min": "25.000000",
-  "probability_mixed_max": "35.000000",
-  "probability_clean_minus_min": "15.000000",
-  "probability_clean_minus_max": "25.000000",
-  "magnitude_clean_plus_min": "15.000000",
-  "magnitude_clean_plus_max": "30.000000",
-  "magnitude_mixed_min": "-18.000000",
-  "magnitude_mixed_max": "5.000000",
-  "magnitude_clean_minus_min": "-35.000000",
-  "magnitude_clean_minus_max": "-20.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": true,
-  "down_big_mover": false,
-  "key_readout_comment": "ORCA-SURGE is a randomized, double-blind, placebo-controlled Phase 2 trial targeting approximately 160 patients across three doses and placebo. Its primary endpoint is PASI 100, meaning complete skin clearance, at Week 16. This is a primary efficacy readout, not follow-up to established patient efficacy. Approximately 40 patients per arm limit precision when comparing doses or judging competitiveness. The lowest dose is intentionally expected to be suboptimal. Week 16 efficacy will not, by itself, establish twice-yearly maintenance. ([ir.orukatx.com](https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-positive-interim-phase-1-data-orka?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "ORKA-002\u2019s Q1 2027 readout is an important first test of efficacy in psoriasis patients. Our 45\u201355% probability of a clearly favorable outcome balances a proven treatment mechanism against the challenge of delivering competitive complete skin clearance with fewer injections. The company guides to the quarter, rather than a specific March date. ([ir.orukatx.com](https://ir.orukatx.com/node/17281/html?utm_source=openai))\n\nHistorically, 31.4% of autoimmune programs advanced from Phase 2 to Phase 3. That measures development progression, not the chance of a positive stock reaction. ORKA-002 has a stronger scientific foundation than an unproven mechanism: bimekizumab, which also blocks IL-17A and IL-17F, achieved complete skin clearance in 68.2% of patients at Week 16 in BE READY, versus 1.2% on placebo. That is a useful competitive reference, not a head-to-head comparison. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf))\n\nORKA-002\u2019s 24-person healthy-volunteer study showed a 75\u201380-day half-life\u2014the time for drug levels to fall by half\u2014and sustained pathway inhibition. Those findings support less-frequent dosing but do not establish patient efficacy. ORCA-SURGE has about 40 patients per arm, so a handful of responses can materially affect the headline result. Beating placebo could still leave questions about competitiveness, safety or durability. Week 16 results alone cannot establish twice-yearly maintenance. These risks support 25\u201335% mixed-outcome and 15\u201325% clearly unfavorable-outcome probabilities. ([ir.orukatx.com](https://ir.orukatx.com/news-releases/news-release-details/oruka-therapeutics-announces-positive-interim-phase-1-data-orka))\n\nTen specialist hedge funds hold Oruka in the BPIQ snapshot, up from eight three quarters earlier. That suggests meaningful institutional conviction, but the roughly $4.8 billion market capitalization also signals substantial expectations. The company reported approximately $1.1 billion in cash and securities at June 30, with funding expected through an ORKA-001 approval-application filing. Near-term financing pressure is therefore limited, although future development and commercialization will require significant spending. ([orukatx.gcs-web.com](https://orukatx.gcs-web.com/news-releases/news-release-details/oruka-therapeutics-reports-second-quarter-2026-financial-results?utm_source=openai))\n\nOur conditional share-price ranges are +15\u201330% for compelling results, \u221218% to +5% for mixed results and \u221235% to \u221220% for clear disappointment. Oruka retains worldwide rights to ORKA-002 under a license carrying a low-single-digit royalty, so successful development could create meaningful value. ORKA-001 provides another major source of value, making this less than an all-or-nothing event. ([ir.orukatx.com](https://ir.orukatx.com/node/17291/html)) The BPIQ history shows a +30.4% opening gap on April ORKA-001 efficacy data, but a slightly negative gap and a \u22124.4% intraday reaction to September follow-up. That contrast illustrates why positive data must also exceed expectations. Earlier ORKA-001 readouts can change the valuation before this event; these ranges assume that program remains broadly intact. ([ir.orukatx.com](https://ir.orukatx.com/node/17281/html?utm_source=openai))\n\nWith the readout more than 60 days away, options pricing does not determine these event-specific move estimates. The ranges instead reflect the clinical evidence, competitive expectations and the value of Oruka\u2019s other programs.",
-  "catalyst_event_details": "ORKA-002\u2019s Phase 2 ORCA-SURGE Week 16 readout in moderate-to-severe plaque psoriasis is expected in Q1 2027.",
-  "move_analysis_created_datetime": "2026-10-19T18:22:12Z"
- },
- {
   "id": 19501,
   "company": {
    "ticker": "CBIO",
@@ -23179,7 +23014,7 @@
   "company": {
    "ticker": "IBIO",
    "name": "iBio Inc.",
-   "last_price": "0.73",
+   "last_price": "0.70",
    "market_cap": 51552516,
    "website": "https://ibioinc.com"
   },
@@ -24954,7 +24789,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.07",
+   "last_price": "2.95",
    "market_cap": 1985426688,
    "website": "https://www.recursion.com"
   },
@@ -26709,7 +26544,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "37.09",
+   "last_price": "36.05",
    "market_cap": 2783222016,
    "website": "https://www.xencor.com"
   },
@@ -26939,7 +26774,7 @@
   "company": {
    "ticker": "IMMP",
    "name": "Immutep",
-   "last_price": "3.36",
+   "last_price": "3.43",
    "market_cap": 25642752,
    "website": "https://www.immutep.com"
   },
@@ -27109,7 +26944,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1468.74",
+   "last_price": "1454.32",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -27394,7 +27229,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.07",
+   "last_price": "2.95",
    "market_cap": 1985426688,
    "website": "https://www.recursion.com"
   },
@@ -27699,7 +27534,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.07",
+   "last_price": "2.95",
    "market_cap": 1985426688,
    "website": "https://www.recursion.com"
   },
@@ -28539,7 +28374,7 @@
   "company": {
    "ticker": "ACIU",
    "name": "AC Immune SA",
-   "last_price": "2.13",
+   "last_price": "2.08",
    "market_cap": 211779376,
    "website": "https://www.acimmune.com"
   },
@@ -28654,7 +28489,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "37.09",
+   "last_price": "36.05",
    "market_cap": 2783222016,
    "website": "https://www.xencor.com"
   },
@@ -28764,7 +28599,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "252.83",
+   "last_price": "254.64",
    "market_cap": 37457645568,
    "website": "https://www.biogen.com"
   },
@@ -29849,7 +29684,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1468.74",
+   "last_price": "1454.32",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -29904,7 +29739,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1468.74",
+   "last_price": "1454.32",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -32044,7 +31879,7 @@
   "company": {
    "ticker": "ADRX",
    "name": "ADARx Pharmaceuticals",
-   "last_price": "14.66",
+   "last_price": "13.97",
    "market_cap": 1572491264,
    "website": "https://www.adarx.com"
   },
@@ -32154,7 +31989,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "252.83",
+   "last_price": "254.64",
    "market_cap": 37457645568,
    "website": "https://www.biogen.com"
   },
@@ -34624,7 +34459,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.07",
+   "last_price": "2.95",
    "market_cap": 1985426688,
    "website": "https://www.recursion.com"
   },
@@ -35024,7 +34859,7 @@
   "company": {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals",
-   "last_price": "3.07",
+   "last_price": "2.95",
    "market_cap": 1985426688,
    "website": "https://www.recursion.com"
   },
@@ -35209,7 +35044,7 @@
   "company": {
    "ticker": "ARGX",
    "name": "Argenx",
-   "last_price": "960.04",
+   "last_price": "967.46",
    "market_cap": 52939825152,
    "website": "https://argenx.com"
   },
@@ -36259,7 +36094,7 @@
   "company": {
    "ticker": "CATX",
    "name": "Perspective Therapeutics",
-   "last_price": "0.94",
+   "last_price": "0.96",
    "market_cap": 113887640,
    "website": "https://www.perspectivetherapeutics.com"
   },
@@ -40604,7 +40439,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1468.74",
+   "last_price": "1454.32",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -40824,7 +40659,7 @@
   "company": {
    "ticker": "ADRX",
    "name": "ADARx Pharmaceuticals",
-   "last_price": "14.66",
+   "last_price": "13.97",
    "market_cap": 1572491264,
    "website": "https://www.adarx.com"
   },
@@ -40879,7 +40714,7 @@
   "company": {
    "ticker": "ADRX",
    "name": "ADARx Pharmaceuticals",
-   "last_price": "14.66",
+   "last_price": "13.97",
    "market_cap": 1572491264,
    "website": "https://www.adarx.com"
   },
@@ -40934,7 +40769,7 @@
   "company": {
    "ticker": "ADRX",
    "name": "ADARx Pharmaceuticals",
-   "last_price": "14.66",
+   "last_price": "13.97",
    "market_cap": 1572491264,
    "website": "https://www.adarx.com"
   },
@@ -41669,7 +41504,7 @@
   "company": {
    "ticker": "ALNY",
    "name": "Alnylam Pharmaceuticals",
-   "last_price": "160.78",
+   "last_price": "161.70",
    "market_cap": 22105057280,
    "website": "https://www.alnylam.com"
   },
@@ -44853,7 +44688,7 @@
   "company": {
    "ticker": "XNCR",
    "name": "Xencor Inc",
-   "last_price": "37.09",
+   "last_price": "36.05",
    "market_cap": 2783222016,
    "website": "https://www.xencor.com"
   },
@@ -45598,7 +45433,7 @@
   "company": {
    "ticker": "NXTC",
    "name": "NextCure Inc",
-   "last_price": "6.40",
+   "last_price": "6.42",
    "market_cap": 29305748,
    "website": "https://www.nextcure.com"
   },
@@ -46002,7 +45837,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1468.74",
+   "last_price": "1454.32",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -46062,7 +45897,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1468.74",
+   "last_price": "1454.32",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },

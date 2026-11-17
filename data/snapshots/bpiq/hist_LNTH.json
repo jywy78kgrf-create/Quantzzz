@@ -1,5 +1,29 @@
 [
  {
+  "id": 9444,
+  "company": {
+   "id": 426,
+   "ticker": "LNTH",
+   "name": "Lantheus Holdings",
+   "website": "https://www.lantheus.com"
+  },
+  "created_at": "2026-11-17T13:08:02.499604Z",
+  "updated_at": "2026-11-17T13:08:02.499626Z",
+  "ticker": "LNTH",
+  "drug_name": "TAUKLARIFY (florquinitau F 18)",
+  "drug_indication": "Alzheimer\u2019s Disease",
+  "airtable_id": 9712,
+  "stage": "Phase 3",
+  "catalyst_date": "2026-11-16",
+  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/16/3403601/0/en/lantheus-presents-data-from-two-pivotal-phase-3-studies-of-tauklarify-florquinitau-f-18-injection-pet-imaging-in-early-alzheimer-s-disease.html",
+  "catalyst_text": "Presented positive Phase 3 results at CTAD 2026",
+  "detailed_catalyst_text": "Two pivotal Phase 3 studies of a tau-targeted PET imaging agent in adults with cognitive impairment being evaluated for Alzheimer\u2019s disease met prespecified co-primary endpoints of sensitivity and specificity. The results, presented at CTAD 2026, showed consistent diagnostic performance and high inter-reader agreement, indicating strong accuracy for identifying tau pathology in earlier symptomatic stages.",
+  "catalyst_text_evidence": "today announced results from two pivotal Phase 3 studies evaluating the diagnostic performance of the TAUKLARIFY (florquinitau F 18 injection) PET imaging, also referred to as MK-6240, which supported FDA use in adults with cognitive impairment being evaluated for Alzheimer's disease to identify patients with neurofibrillary tangle (NFT) pathology. Results were presented today at the Clinical Trials on Alzheimer\u2019s Disease (CTAD) 2026 meeting in Boston, Massachusetts. In both studies, which included individuals with early symptomatic disease, all five independent readers met the prespecified co-primary endpoints of sensitivity and specificity, demonstrating consistent diagnostic performance and high inter-reader agreement. In Study CE-20-01, sensitivity across readers ranged from 79.9% to 88.5% and specificity ranged from 97.9% to 99.3%. In Study CE-23-01, sensitivity across readers ranged from 68.2% to 82.4% and specificity ranged from 93.5% to 99.4%.",
+  "news_published_at": "2026-11-17T00:00:00Z",
+  "open_price_gap_percent": "0.00108",
+  "intra_day_price_change_percent": "0.00020"
+ },
+ {
   "id": 8698,
   "company": {
    "id": 426,
@@ -8,7 +32,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2026-09-29T13:03:03.276817Z",
-  "updated_at": "2026-11-16T13:02:22.283471Z",
+  "updated_at": "2026-11-17T13:02:16.674481Z",
   "ticker": "LNTH",
   "drug_name": "LNTH-2401",
   "drug_indication": "Prostate Cancer",
@@ -32,7 +56,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2026-09-23T13:06:04.548340Z",
-  "updated_at": "2026-11-16T13:06:59.388612Z",
+  "updated_at": "2026-11-17T13:06:46.337665Z",
   "ticker": "LNTH",
   "drug_name": "BRAVNETSA",
   "drug_indication": "Gastroenteropancreatic Neuroendocrine Tumors",
@@ -56,7 +80,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2026-06-30T13:01:41.543962Z",
-  "updated_at": "2026-11-16T13:01:08.414312Z",
+  "updated_at": "2026-11-17T13:01:10.878760Z",
   "ticker": "LNTH",
   "drug_name": "LNTH-2501 (Ga 68 edotreotide)",
   "drug_indication": "Somatostatin receptor-positive neuroendocrine tumors",
@@ -80,7 +104,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2026-03-19T13:03:23.596966Z",
-  "updated_at": "2026-11-16T13:05:20.880000Z",
+  "updated_at": "2026-11-17T13:05:07.394300Z",
   "ticker": "LNTH",
   "drug_name": "LNTH-2501 (Ga 68 edotreotide)",
   "drug_indication": "Somatostatin receptor-positive Neuroendocrine Tumors",
@@ -104,7 +128,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2026-03-10T13:01:55.991144Z",
-  "updated_at": "2026-11-16T13:03:07.367012Z",
+  "updated_at": "2026-11-17T13:02:56.777919Z",
   "ticker": "LNTH",
   "drug_name": "PYLARIFY TruVu",
   "drug_indication": "Prostate Cancer",
@@ -128,7 +152,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2026-03-03T13:05:09.436320Z",
-  "updated_at": "2026-11-16T13:08:55.342415Z",
+  "updated_at": "2026-11-17T13:08:37.453542Z",
   "ticker": "LNTH",
   "drug_name": "Lutetium Lu 177 Dotatate (PNT2003)",
   "drug_indication": "Gastroenteropancreatic Neuroendocrine Tumors",
@@ -152,7 +176,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-11-05T13:02:26.731150Z",
-  "updated_at": "2026-11-16T13:04:01.679056Z",
+  "updated_at": "2026-11-17T13:03:48.907856Z",
   "ticker": "LNTH",
   "drug_name": "MK-6240 (florquinitau) ",
   "drug_indication": "Alzheimer's disease",
@@ -176,7 +200,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-02-21T20:13:36.497167Z",
-  "updated_at": "2026-11-16T13:06:56.825909Z",
+  "updated_at": "2026-11-17T13:06:44.120526Z",
   "ticker": "LNTH",
   "drug_name": "flurpiridaz F 18",
   "drug_indication": "Coronary artery disease (CAD)",
@@ -200,7 +224,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-02-21T20:09:13.908318Z",
-  "updated_at": "2026-11-16T13:06:54.650773Z",
+  "updated_at": "2026-11-17T13:06:42.405790Z",
   "ticker": "LNTH",
   "drug_name": "177Lu-PNT2002 - (SPLASH)",
   "drug_indication": "Metastatic Castration-Resistant Prostate Cancer",
@@ -224,7 +248,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-02-21T20:07:59.568596Z",
-  "updated_at": "2026-11-16T13:04:51.642958Z",
+  "updated_at": "2026-11-17T13:04:40.274961Z",
   "ticker": "LNTH",
   "drug_name": "DEFINITY (Perflutren Lipid Microsphere)",
   "drug_indication": "Ultrasound enhancing agent for use in pediatric patients with suboptimal echocardiograms",
@@ -248,7 +272,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-02-21T20:13:44.560768Z",
-  "updated_at": "2026-11-16T13:07:12.621370Z",
+  "updated_at": "2026-11-17T13:06:56.032871Z",
   "ticker": "LNTH",
   "drug_name": "PYLARIFY (piflufolastat F 18)",
   "drug_indication": "Prostate cancer",
@@ -272,7 +296,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-02-21T20:08:50.838211Z",
-  "updated_at": "2026-11-16T13:06:15.280110Z",
+  "updated_at": "2026-11-17T13:06:01.681538Z",
   "ticker": "LNTH",
   "drug_name": "DEFINITY (BENEFIT 1)",
   "drug_indication": "Left Ventricular Ejection Fraction",
@@ -296,7 +320,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-02-21T20:14:07.037543Z",
-  "updated_at": "2026-11-16T13:07:51.740387Z",
+  "updated_at": "2026-11-17T13:07:34.796133Z",
   "ticker": "LNTH",
   "drug_name": "1404",
   "drug_indication": "Help visualize prostate cancer by targeting prostate specific membrane antigen (PSMA)",
@@ -320,7 +344,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-02-21T20:06:33.369624Z",
-  "updated_at": "2026-11-16T13:02:24.794259Z",
+  "updated_at": "2026-11-17T13:02:19.566545Z",
   "ticker": "LNTH",
   "drug_name": "AZEDRA (iobenguane I 131)",
   "drug_indication": "Pheochromocytoma",
@@ -344,7 +368,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-02-21T20:07:05.332953Z",
-  "updated_at": "2026-11-16T13:03:24.603179Z",
+  "updated_at": "2026-11-17T13:03:13.308678Z",
   "ticker": "LNTH",
   "drug_name": "Oral RELISTOR",
   "drug_indication": "Chronic pain",
@@ -368,7 +392,7 @@
    "website": "https://www.lantheus.com"
   },
   "created_at": "2025-02-21T20:06:30.151232Z",
-  "updated_at": "2026-11-16T13:02:19.033742Z",
+  "updated_at": "2026-11-17T13:02:13.408113Z",
   "ticker": "LNTH",
   "drug_name": "Subcutaneous RELISTOR",
   "drug_indication": "Chronic pain",

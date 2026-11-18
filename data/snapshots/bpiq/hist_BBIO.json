@@ -1,5 +1,29 @@
 [
  {
+  "id": 9458,
+  "company": {
+   "id": 622,
+   "ticker": "BBIO",
+   "name": "BridgeBio Pharma Inc",
+   "website": "https://bridgebio.com"
+  },
+  "created_at": "2026-11-18T13:07:15.688208Z",
+  "updated_at": "2026-11-18T13:07:15.688236Z",
+  "ticker": "BBIO",
+  "drug_name": "Acoramidis",
+  "drug_indication": "Transthyretin Amyloid Cardiomyopathy",
+  "airtable_id": 9735,
+  "stage": "Approved",
+  "catalyst_date": "2026-11-17",
+  "catalyst_source": "https://www.benzinga.com/pressreleases/26/11/g63335575/acoramidis-was-associated-lower-risk-worsening-heart-failure-versus-tafamidis-real-world-study-and-r",
+  "catalyst_text": "Presented positive Phase 3 analyses and real world evidence",
+  "detailed_catalyst_text": "New Phase 3 ATTRibute-CM analyses and multiple real-world studies in transthyretin amyloid cardiomyopathy were presented at AHA 2026 and ISA 2026. Phase 3 data showed a 45% reduction in first heart failure event versus placebo with early separation and broad reductions in event types, and continuous treatment lowered heart failure mortality through 54 months. Real-world evidence included a Bayer-led German study showing 23% lower risk of oral diuretic intensification versus tafamidis, with supportive U.S. datasets and kidney analyses showing a consistent early eGFR dip without meaningful safety changes.",
+  "catalyst_text_evidence": "BridgeBio Pharma, Inc. announced that new Phase 3 ATTRibute-CM analyses and real-world evidence for acoramidis in transthyretin amyloid cardiomyopathy (ATTR-CM) were presented at the American Heart Association (AHA) Scientific Sessions 2026 in Chicago, Illinois, and the XX International Symposium on Amyloidosis (ISA) 2026 in Montevideo, Uruguay. Acoramidis reduced the risk of a first HF-specific event by 45% versus placebo through Month 30 (HR 0.55; 95% CI 0.44-0.69; p<0.001), with benefit emerging within the first month of treatment. Patients who stayed on acoramidis continuously had a 58% lower risk of HF death through Month 54 than those who started it later, after placebo, in the open-label extension (HR 0.42; 95% CI 0.27-0.65; p<0.001). Acoramidis was associated with a 23% lower risk of oral diuretic intensification (ODI), a well-established early sign that heart failure is worsening, compared with tafamidis (adjusted HR 0.77; 95% CI 0.61\u20130.98; p=0.04). Six analyses of ATTRibute-CM presented at ISA 2026 indicated that the early eGFR dip with acoramidis associated with potentially rapid kidney-protective activity was (i) a consistent pharmacodynamic response ... (ii) not accompanied by clinically meaningful changes in laboratory measures such as electrolytes, hemoglobin, hematocrit, or blood pressure, and (iii) did not lead to clinically meaningful changes in markers of kidney safety in participants with CKD stage 4, whose kidney function remained stable over 30 months.",
+  "news_published_at": "2026-11-18T00:00:00Z",
+  "open_price_gap_percent": "-0.00801",
+  "intra_day_price_change_percent": "0.00078"
+ },
+ {
   "id": 9395,
   "company": {
    "id": 622,
@@ -8,7 +32,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-11-12T13:07:30.935029Z",
-  "updated_at": "2026-11-17T13:08:10.738802Z",
+  "updated_at": "2026-11-18T13:09:51.206384Z",
   "ticker": "BBIO",
   "drug_name": "Acoramidis",
   "drug_indication": "Transthyretin amyloid cardiomyopathy (ATTR-CM)",
@@ -32,7 +56,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-10-13T13:04:45.580943Z",
-  "updated_at": "2026-11-17T13:04:42.480693Z",
+  "updated_at": "2026-11-18T13:05:43.772767Z",
   "ticker": "BBIO",
   "drug_name": "Encaleret",
   "drug_indication": "Chronic Hypoparathyroidism",
@@ -56,7 +80,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-10-13T13:07:36.870792Z",
-  "updated_at": "2026-11-17T13:07:19.964970Z",
+  "updated_at": "2026-11-18T13:08:53.639780Z",
   "ticker": "BBIO",
   "drug_name": "Infigratinib",
   "drug_indication": "Achondroplasia",
@@ -80,7 +104,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-10-13T13:08:46.870819Z",
-  "updated_at": "2026-11-17T13:08:26.942824Z",
+  "updated_at": "2026-11-18T13:10:12.882572Z",
   "ticker": "BBIO",
   "drug_name": "Encaleret",
   "drug_indication": "Autosomal Dominant Hypocalcemia Type 1",
@@ -104,7 +128,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-10-07T13:03:14.644411Z",
-  "updated_at": "2026-11-17T13:03:47.368927Z",
+  "updated_at": "2026-11-18T13:04:36.548303Z",
   "ticker": "BBIO",
   "drug_name": "Infigratinib",
   "drug_indication": "Achondroplasia",
@@ -128,7 +152,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-10-06T13:01:49.298108Z",
-  "updated_at": "2026-11-17T13:01:25.995194Z",
+  "updated_at": "2026-11-18T13:01:47.772032Z",
   "ticker": "BBIO",
   "drug_name": "BBP-418",
   "drug_indication": "Limb-girdle muscular dystrophy type 2I/R9",
@@ -152,7 +176,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-09-24T13:06:32.603581Z",
-  "updated_at": "2026-11-17T13:07:50.897654Z",
+  "updated_at": "2026-11-18T13:09:29.998332Z",
   "ticker": "BBIO",
   "drug_name": "Acoramidis",
   "drug_indication": "Transthyretin amyloid cardiomyopathy (ATTR-CM)",
@@ -176,7 +200,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-09-10T13:05:01.685053Z",
-  "updated_at": "2026-11-17T13:04:19.821786Z",
+  "updated_at": "2026-11-18T13:05:17.598653Z",
   "ticker": "BBIO",
   "drug_name": "Infigratinib",
   "drug_indication": "Achondroplasia",
@@ -200,7 +224,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-09-01T13:05:04.907924Z",
-  "updated_at": "2026-11-17T13:06:01.397850Z",
+  "updated_at": "2026-11-18T13:07:30.541179Z",
   "ticker": "BBIO",
   "drug_name": "Acoramidis",
   "drug_indication": "Transthyretin amyloid cardiomyopathy",
@@ -224,7 +248,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-07-23T13:04:52.579429Z",
-  "updated_at": "2026-11-17T13:06:03.166507Z",
+  "updated_at": "2026-11-18T13:07:32.536056Z",
   "ticker": "BBIO",
   "drug_name": "Encaleret",
   "drug_indication": "Autosomal Dominant Hypocalcemia Type 1",
@@ -248,7 +272,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-07-03T13:02:28.586778Z",
-  "updated_at": "2026-11-17T13:03:05.717718Z",
+  "updated_at": "2026-11-18T13:03:46.892580Z",
   "ticker": "BBIO",
   "drug_name": "Acoramidis",
   "drug_indication": "Transthyretin Amyloid Cardiomyopathy (ATTR-CM)",
@@ -272,7 +296,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-05-28T13:02:46.881178Z",
-  "updated_at": "2026-11-17T13:03:47.964301Z",
+  "updated_at": "2026-11-18T13:04:37.261901Z",
   "ticker": "BBIO",
   "drug_name": "BBP-418",
   "drug_indication": "Limb-Girdle Muscular Dystrophy Type 2I/R9",
@@ -296,7 +320,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-05-13T13:05:52.204566Z",
-  "updated_at": "2026-11-17T13:08:08.671632Z",
+  "updated_at": "2026-11-18T13:09:48.933109Z",
   "ticker": "BBIO",
   "drug_name": "Encaleret",
   "drug_indication": "Autosomal Dominant Hypocalcemia Type 1",
@@ -320,7 +344,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-05-12T13:02:34.919215Z",
-  "updated_at": "2026-11-17T13:03:26.476268Z",
+  "updated_at": "2026-11-18T13:04:12.084432Z",
   "ticker": "BBIO",
   "drug_name": "Acoramidis",
   "drug_indication": "Transthyretin Amyloid Cardiomyopathy (ATTR-CM)",
@@ -344,7 +368,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-05-07T13:06:05.849585Z",
-  "updated_at": "2026-11-17T13:07:32.045619Z",
+  "updated_at": "2026-11-18T13:09:08.861619Z",
   "ticker": "BBIO",
   "drug_name": "Acoramidis",
   "drug_indication": "Transthyretin Amyloid Cardiomyopathy (ATTR-CM)",
@@ -368,7 +392,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-03-31T13:00:49.362025Z",
-  "updated_at": "2026-11-17T13:01:11.449199Z",
+  "updated_at": "2026-11-18T13:01:28.478888Z",
   "ticker": "BBIO",
   "drug_name": "BBP-418",
   "drug_indication": "Limb-Girdle Muscular Dystrophy Type 2I/R9",
@@ -392,7 +416,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-04-01T13:05:35.700364Z",
-  "updated_at": "2026-11-17T13:08:29.413856Z",
+  "updated_at": "2026-11-18T13:10:16.224124Z",
   "ticker": "BBIO",
   "drug_name": "Acoramidis",
   "drug_indication": "Transthyretin Amyloid Cardiomyopathy",
@@ -416,7 +440,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-03-13T13:04:33.011005Z",
-  "updated_at": "2026-11-17T13:06:59.212589Z",
+  "updated_at": "2026-11-18T13:08:33.707132Z",
   "ticker": "BBIO",
   "drug_name": "BBP-418",
   "drug_indication": "Limb-girdle Muscular Dystrophy Type 2I/R9",
@@ -440,7 +464,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-03-05T13:02:33.030664Z",
-  "updated_at": "2026-11-17T13:04:17.301435Z",
+  "updated_at": "2026-11-18T13:05:14.318381Z",
   "ticker": "BBIO",
   "drug_name": "BBP-418",
   "drug_indication": "Limb-girdle muscular dystrophy type 2I/R9",
@@ -464,7 +488,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2026-02-13T13:02:36.696287Z",
-  "updated_at": "2026-11-17T13:04:09.128759Z",
+  "updated_at": "2026-11-18T13:05:01.689957Z",
   "ticker": "BBIO",
   "drug_name": "Infigratinib",
   "drug_indication": "Achondroplasia",
@@ -488,7 +512,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-11-05T13:03:52.764768Z",
-  "updated_at": "2026-11-17T13:06:28.355772Z",
+  "updated_at": "2026-11-18T13:07:59.044753Z",
   "ticker": "BBIO",
   "drug_name": "Encaleret ",
   "drug_indication": "Autosomal Dominant Hypocalcemia Type 1 ",
@@ -512,7 +536,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-11-05T13:04:01.617347Z",
-  "updated_at": "2026-11-17T13:06:45.377304Z",
+  "updated_at": "2026-11-18T13:08:17.943463Z",
   "ticker": "BBIO",
   "drug_name": "BBP-418",
   "drug_indication": "Limb-Girdle Muscular Dystrophy",
@@ -536,7 +560,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-03-28T13:04:22.583756Z",
-  "updated_at": "2026-11-17T13:07:58.705818Z",
+  "updated_at": "2026-11-18T13:09:38.673262Z",
   "ticker": "BBIO",
   "drug_name": "Attruby\u2122 (Acoramidis) (AG10)",
   "drug_indication": "Transthyretin Amyloid Cardiomyopathy",
@@ -560,7 +584,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:05:45.876045Z",
-  "updated_at": "2026-11-17T13:00:56.912075Z",
+  "updated_at": "2026-11-18T13:01:11.681611Z",
   "ticker": "BBIO",
   "drug_name": "Attruby (Acoramidis) - (ATTRibute-CM)",
   "drug_indication": "Amyloid cardiomyopathy (ATTR-CM)",
@@ -584,7 +608,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:48:39.882123Z",
-  "updated_at": "2026-11-17T13:07:10.936728Z",
+  "updated_at": "2026-11-18T13:08:44.565422Z",
   "ticker": "BBIO",
   "drug_name": "BBP-812 - (CANaspire)",
   "drug_indication": "Canavan Disease",
@@ -608,7 +632,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:14:12.073989Z",
-  "updated_at": "2026-11-17T13:07:43.120704Z",
+  "updated_at": "2026-11-18T13:09:21.364289Z",
   "ticker": "BBIO",
   "drug_name": "BBP-631 - (ADventure)",
   "drug_indication": "Congenital adrenal hyperplasia (CAH)",
@@ -632,7 +656,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:13:42.576727Z",
-  "updated_at": "2026-11-17T13:06:52.951267Z",
+  "updated_at": "2026-11-18T13:08:26.792018Z",
   "ticker": "BBIO",
   "drug_name": "Low-dose infigratinib - (PROPEL3)",
   "drug_indication": "Achondroplasia",
@@ -656,7 +680,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:09:03.148329Z",
-  "updated_at": "2026-11-17T13:06:23.045857Z",
+  "updated_at": "2026-11-18T13:07:53.483884Z",
   "ticker": "BBIO",
   "drug_name": "TRUSELTIQ (infigratinib)",
   "drug_indication": "Gastric Cancer / Gastroesophageal junction adenocarcinoma",
@@ -680,7 +704,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:48:56.101485Z",
-  "updated_at": "2026-11-17T13:07:45.087111Z",
+  "updated_at": "2026-11-18T13:09:23.431600Z",
   "ticker": "BBIO",
   "drug_name": "BBP-418 - (FORTIFY)",
   "drug_indication": "Limb Girdle Muscular Dystrophy Type 2i (LGMD2i)",
@@ -704,7 +728,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:07:54.944633Z",
-  "updated_at": "2026-11-17T13:04:32.977017Z",
+  "updated_at": "2026-11-18T13:05:32.597754Z",
   "ticker": "BBIO",
   "drug_name": "Encaleret - (CALIBRATE)",
   "drug_indication": "Autosomal Dominant Hypocalcemia Type 1 (ADH1)",
@@ -728,7 +752,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:06:09.445548Z",
-  "updated_at": "2026-11-17T13:01:39.143304Z",
+  "updated_at": "2026-11-18T13:02:05.662795Z",
   "ticker": "BBIO",
   "drug_name": "BBP-681 (VT30)",
   "drug_indication": "Venous, Lymphatic, and Venolymphatic Malformations",
@@ -752,7 +776,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:06:23.821114Z",
-  "updated_at": "2026-11-17T13:02:02.550391Z",
+  "updated_at": "2026-11-18T13:02:30.989498Z",
   "ticker": "BBIO",
   "drug_name": "Acoramidis (AG10) / BBP-265",
   "drug_indication": "ATTR-PN",
@@ -776,7 +800,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:07:56.270240Z",
-  "updated_at": "2026-11-17T13:04:35.492058Z",
+  "updated_at": "2026-11-18T13:05:35.406950Z",
   "ticker": "BBIO",
   "drug_name": "TRUSELTIQ (Infigratinib)",
   "drug_indication": "Cholangiocarcinoma",
@@ -800,7 +824,7 @@
    "website": "https://bridgebio.com"
   },
   "created_at": "2025-02-21T20:06:28.044871Z",
-  "updated_at": "2026-11-17T13:02:10.089476Z",
+  "updated_at": "2026-11-18T13:02:38.698894Z",
   "ticker": "BBIO",
   "drug_name": "Fosdenopterin (BBP-870/ORGN001)",
   "drug_indication": "Molybdenum cofactor deficiency type A",

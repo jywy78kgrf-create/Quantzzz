@@ -1,120 +1,10 @@
 [
  {
-  "id": 16997,
-  "company": {
-   "ticker": "N/A",
-   "name": "Biomedical Meetings",
-   "last_price": null,
-   "market_cap": null,
-   "website": ""
-  },
-  "ticker": "Meeting",
-  "drug_name": "ObesityWeek",
-  "indications": [
-   {
-    "id": 1027,
-    "title": "Obesity",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Obesity",
-  "stage_event": {
-   "id": 153,
-   "label": "Biomedical Meeting Conference",
-   "stage_label": "Biomedical Meeting",
-   "event_label": "Conference"
-  },
-  "note": "ObesityWeek Meeting dates: November 14-17, 2026.",
-  "catalyst_date": "2026-11-17",
-  "has_catalyst": true,
-  "catalyst_source": "https://obesityweek.org/",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
-  "id": 17446,
-  "company": {
-   "ticker": "BIIB",
-   "name": "Biogen",
-   "last_price": "249.55",
-   "market_cap": 37071831040,
-   "website": "https://www.biogen.com"
-  },
-  "ticker": "BIIB",
-  "drug_name": "BIIB080 (tau ASO)",
-  "indications": [
-   {
-    "id": 1311,
-    "title": "Alzheimer's disease",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Alzheimer's disease",
-  "stage_event": {
-   "id": 140,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Ph2 CEILA study currently ongoing. New Ph1b data and Ph2 Trial presentation at CTAD '23. 05/14/26:- Ph2 CELIA topline results showed tau reductions and cognitive slowing. Data to be presented at AAIC 2026. 06/29/26:- Present Ph2 CELIA clinical, biomarker, and safety data at AAIC 2026 on July 14, 2026. 07/14/26:- Phase 2 CELIA data at AAIC 2026; primary endpoint missed; plans to advance into Phase 3. 10/29/26:- CTAD Nov 17, 2026 presents CELIA 96-week long-term extension and 76-week biomarker and clinical data.",
-  "catalyst_date": "2026-11-17",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.benzinga.com/pressreleases/26/10/g62687783/biogen-present-new-data-across-alzheimer-s-disease-portfolio-ctad-2026",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "40.000000",
-  "probability_clean_plus_max": "50.000000",
-  "probability_mixed_min": "35.000000",
-  "probability_mixed_max": "45.000000",
-  "probability_clean_minus_min": "10.000000",
-  "probability_clean_minus_max": "20.000000",
-  "magnitude_clean_plus_min": "2.000000",
-  "magnitude_clean_plus_max": "5.000000",
-  "magnitude_mixed_min": "-3.000000",
-  "magnitude_mixed_max": "0.000000",
-  "magnitude_clean_minus_min": "-8.000000",
-  "magnitude_clean_minus_max": "-4.000000",
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "This is incremental follow-up, not a new primary efficacy binary: CTAD will feature 96-week extension results and additional 76-week analyses. CELIA randomized 416 participants and missed its primary dose-response endpoint. Previously reported low-dose results showed 26% slowing on CDR-SB, a measure of cognition and daily function, alongside substantial tau reductions, but no separation on a separate daily-function scale. Durable clinical benefit and reassuring safety would strengthen the Phase 3 case; exploratory subgroups and biomarkers alone would not resolve the efficacy uncertainty. ([investors.biogen.com](https://investors.biogen.com/news-releases/news-release-details/biogen-present-new-data-across-alzheimers-disease-portfolio-ctad?utm_source=openai))",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The November 17 presentation has moderate-to-low importance for Biogen\u2019s overall valuation because much of the underlying result is already public. Our 40\u201350% favorable-outcome probability reflects the chance that follow-up meaningfully strengthens investor confidence, rather than simply repeats encouraging findings. Historically, 26.8% of neurology Phase 2 programs advanced to Phase 3; that development rate is a useful starting point, not a direct forecast for an incremental presentation. Existing randomized human evidence supports a better outlook than an untested Alzheimer\u2019s program. ([investors.biogen.com](https://investors.biogen.com/news-releases/news-release-details/biogen-present-new-data-across-alzheimers-disease-portfolio-ctad?utm_source=openai))\n\nThe main risk is interpretation. The lowest dose performed best, the prespecified dose-response test failed, and many favorable comparisons had only nominal statistical significance\u2014meaning they were not necessarily protected against false positives from testing many outcomes. Longer follow-up must show that cognitive signals translate into sustained practical benefit. Extension participation, treatment changes and multiple subgroup comparisons can complicate interpretation. Consequently, an encouraging but inconclusive update remains a substantial possibility. ([investors.biogen.com](https://investors.biogen.com/node/30826))\n\nAt the supplied $37.5 billion market capitalization, Biogen\u2019s commercial business and broader pipeline limit how much this single update should move the stock. The supplied historical reactions also favor restraint: CELIA\u2019s May topline and July presentation each coincided with roughly 4% declines, despite favorable sponsor descriptions. These are calibration points, not isolated measures of diranersen\u2019s contribution. A convincing update supports 2\u20135% upside; ambiguous findings could produce a 0\u20133% decline, while materially adverse durability or safety findings could cause a 4\u20138% decline.\n\nBPIQ shows four specialist hedge-fund holders, versus six in the previous quarter. That provides some specialist participation without suggesting overwhelming conviction. Biogen reported $1.3 billion in cash, approximately $7.7 billion in debt and positive quarterly operating cash flow of approximately $641 million. Its funding position is therefore better assessed through operating cash generation and debt obligations than a fixed cash-burn runway. An immediate equity financing is not central to this catalyst, although Phase 3 spending and royalty obligations to Ionis affect eventual economics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/875045/000087504526000094/exhibit991-q32026pressrele.htm?utm_source=openai))\n\nThe supplied November 20 options imply a 6.4% total move, with a calculated event component of 3.3%, broadly consistent with a modest rather than company-defining reaction. However, lecanemab clinical presentations on November 16 and 18 also fall before expiration, so those options cannot cleanly isolate diranersen. The earlier lecanemab update could also influence Alzheimer\u2019s sentiment before CELIA is presented. Neither direction meets our 20% fundamental big-mover threshold. ([investors.biogen.com](https://investors.biogen.com/news-releases/news-release-details/biogen-present-new-data-across-alzheimers-disease-portfolio-ctad?utm_source=openai))",
-  "catalyst_event_details": "Biogen will present diranersen (BIIB080) Phase 2 CELIA extension and additional clinical and biomarker data in early Alzheimer\u2019s disease at CTAD on November 17, 2026. ([investors.biogen.com](https://investors.biogen.com/news-releases/news-release-details/biogen-present-new-data-across-alzheimers-disease-portfolio-ctad?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-10-31T11:32:09Z"
- },
- {
   "id": 18536,
   "company": {
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
-   "last_price": "1.33",
+   "last_price": "1.09",
    "market_cap": 148561456,
    "website": "https://www.innate-pharma.com"
   },
@@ -459,7 +349,7 @@
   "company": {
    "ticker": "PMVP",
    "name": "PMV Pharma",
-   "last_price": "1.22",
+   "last_price": "1.23",
    "market_cap": 92152392,
    "website": "https://www.pmvpharma.com"
   },
@@ -634,7 +524,7 @@
   "company": {
    "ticker": "CAPR",
    "name": "Capricor Therapeutics",
-   "last_price": "8.41",
+   "last_price": "9.40",
    "market_cap": 488975168,
    "website": "https://www.capricor.com"
   },
@@ -689,7 +579,7 @@
   "company": {
    "ticker": "SVRA",
    "name": "Savara",
-   "last_price": "4.48",
+   "last_price": "4.66",
    "market_cap": 988393280,
    "website": "https://www.savarapharma.com"
   },
@@ -744,7 +634,7 @@
   "company": {
    "ticker": "DMAC",
    "name": "DiaMedica Therapeutics",
-   "last_price": "8.38",
+   "last_price": "8.57",
    "market_cap": 452163616,
    "website": "https://www.diamedica.com"
   },
@@ -799,7 +689,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "76.80",
+   "last_price": "77.18",
    "market_cap": 14960700416,
    "website": "https://bridgebio.com"
   },
@@ -909,7 +799,7 @@
   "company": {
    "ticker": "PYPD",
    "name": "Polypid",
-   "last_price": "6.54",
+   "last_price": "6.52",
    "market_cap": 138162096,
    "website": "https://www.polypid.com"
   },
@@ -964,7 +854,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "27.85",
+   "last_price": "28.43",
    "market_cap": 4845745664,
    "website": "https://www.cogentbio.com"
   },
@@ -1144,7 +1034,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "534.20",
+   "last_price": "536.82",
    "market_cap": 135439835136,
    "website": "https://www.vrtx.com"
   },
@@ -1199,7 +1089,7 @@
   "company": {
    "ticker": "PHAR",
    "name": "Pharming Group",
-   "last_price": "12.06",
+   "last_price": "12.45",
    "market_cap": 853584256,
    "website": "https://www.pharming.com"
   },
@@ -1254,7 +1144,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "957.76",
+   "last_price": "963.34",
    "market_cap": 99078217728,
    "website": "https://www.regeneron.com"
   },
@@ -1369,7 +1259,7 @@
   "company": {
    "ticker": "EXEL",
    "name": "Exelixis Inc",
-   "last_price": "68.50",
+   "last_price": "68.69",
    "market_cap": 16714746880,
    "website": "https://www.exelixis.com"
   },
@@ -1614,7 +1504,7 @@
   "company": {
    "ticker": "GLSI",
    "name": "Greenwich LifeSciences",
-   "last_price": "18.70",
+   "last_price": "19.81",
    "market_cap": 274482496,
    "website": "https://greenwichlifesciences.com"
   },
@@ -1904,7 +1794,7 @@
   "company": {
    "ticker": "APVO",
    "name": "Aptevo Therapeutics",
-   "last_price": "0.46",
+   "last_price": "0.45",
    "market_cap": 2254820,
    "website": "https://aptevotherapeutics.com"
   },
@@ -2114,7 +2004,7 @@
   "company": {
    "ticker": "BEAM",
    "name": "Beam Therapeutics Inc",
-   "last_price": "20.65",
+   "last_price": "21.95",
    "market_cap": 2137185152,
    "website": "https://beamtx.com"
   },
@@ -2284,7 +2174,7 @@
   "company": {
    "ticker": "SDGR",
    "name": "Schrodinger Inc",
-   "last_price": "25.66",
+   "last_price": "27.01",
    "market_cap": 1926496128,
    "website": "https://www.schrodinger.com"
   },
@@ -2599,7 +2489,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.09",
+   "last_price": "120.46",
    "market_cap": 24274411520,
    "website": "https://www.incyte.com"
   },
@@ -3059,7 +2949,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "3.81",
+   "last_price": "3.85",
    "market_cap": 230389504,
    "website": "https://www.vandapharma.com"
   },
@@ -3394,7 +3284,7 @@
   "company": {
    "ticker": "CTY",
    "name": "City Therapeutics",
-   "last_price": "17.50",
+   "last_price": "17.58",
    "market_cap": 934287040,
    "website": "https://www.citytx.com"
   },
@@ -3519,7 +3409,7 @@
   "company": {
    "ticker": "CTY",
    "name": "City Therapeutics",
-   "last_price": "17.50",
+   "last_price": "17.58",
    "market_cap": 934287040,
    "website": "https://www.citytx.com"
   },
@@ -3574,7 +3464,7 @@
   "company": {
    "ticker": "CTY",
    "name": "City Therapeutics",
-   "last_price": "17.50",
+   "last_price": "17.58",
    "market_cap": 934287040,
    "website": "https://www.citytx.com"
   },
@@ -3639,7 +3529,7 @@
   "company": {
    "ticker": "CTY",
    "name": "City Therapeutics",
-   "last_price": "17.50",
+   "last_price": "17.58",
    "market_cap": 934287040,
    "website": "https://www.citytx.com"
   },
@@ -3984,7 +3874,7 @@
   "company": {
    "ticker": "CTY",
    "name": "City Therapeutics",
-   "last_price": "17.50",
+   "last_price": "17.58",
    "market_cap": 934287040,
    "website": "https://www.citytx.com"
   },
@@ -4154,7 +4044,7 @@
   "company": {
    "ticker": "CTY",
    "name": "City Therapeutics",
-   "last_price": "17.50",
+   "last_price": "17.58",
    "market_cap": 934287040,
    "website": "https://www.citytx.com"
   },
@@ -4334,7 +4224,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "14.24",
+   "last_price": "14.21",
    "market_cap": 1555717376,
    "website": "https://www.nurixtx.com"
   },
@@ -4394,7 +4284,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "9.28",
+   "last_price": "9.30",
    "market_cap": 602141568,
    "website": "https://cullinantherapeutics.com"
   },
@@ -5089,7 +4979,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "170.26",
+   "last_price": "168.82",
    "market_cap": 211180044288,
    "website": "https://www.gilead.com"
   },
@@ -5884,7 +5774,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "10.17",
+   "last_price": "10.19",
    "market_cap": 857871296,
    "website": "https://www.corvuspharma.com"
   },
@@ -6104,7 +5994,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "17.18",
+   "last_price": "17.51",
    "market_cap": 2028493184,
    "website": "https://immunome.com"
   },
@@ -6159,7 +6049,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "170.26",
+   "last_price": "168.82",
    "market_cap": 211180044288,
    "website": "https://www.gilead.com"
   },
@@ -6284,7 +6174,7 @@
   "company": {
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
-   "last_price": "39.06",
+   "last_price": "39.44",
    "market_cap": 1825297664,
    "website": "https://www.hemab.com"
   },
@@ -6339,7 +6229,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.09",
+   "last_price": "120.46",
    "market_cap": 24274411520,
    "website": "https://www.incyte.com"
   },
@@ -6394,7 +6284,7 @@
   "company": {
    "ticker": "BLSM",
    "name": "BlossomHill Therapeutics",
-   "last_price": "15.13",
+   "last_price": "15.52",
    "market_cap": 480905664,
    "website": "https://bhtherapeutics.com"
   },
@@ -6574,7 +6464,7 @@
   "company": {
    "ticker": "BLSM",
    "name": "BlossomHill Therapeutics",
-   "last_price": "15.13",
+   "last_price": "15.52",
    "market_cap": 480905664,
    "website": "https://bhtherapeutics.com"
   },
@@ -6699,7 +6589,7 @@
   "company": {
    "ticker": "BLSM",
    "name": "BlossomHill Therapeutics",
-   "last_price": "15.13",
+   "last_price": "15.52",
    "market_cap": 480905664,
    "website": "https://bhtherapeutics.com"
   },
@@ -6814,7 +6704,7 @@
   "company": {
    "ticker": "BLSM",
    "name": "BlossomHill Therapeutics",
-   "last_price": "15.13",
+   "last_price": "15.52",
    "market_cap": 480905664,
    "website": "https://bhtherapeutics.com"
   },
@@ -6874,7 +6764,7 @@
   "company": {
    "ticker": "BLSM",
    "name": "BlossomHill Therapeutics",
-   "last_price": "15.13",
+   "last_price": "15.52",
    "market_cap": 480905664,
    "website": "https://bhtherapeutics.com"
   },
@@ -6989,7 +6879,7 @@
   "company": {
    "ticker": "BLSM",
    "name": "BlossomHill Therapeutics",
-   "last_price": "15.13",
+   "last_price": "15.52",
    "market_cap": 480905664,
    "website": "https://bhtherapeutics.com"
   },
@@ -7110,51 +7000,6 @@
   "move_analysis_created_datetime": "2026-11-06T22:02:30Z"
  },
  {
-  "id": 236,
-  "company": {
-   "ticker": "AGT-236",
-   "name": "Agtovimab-236 Therapeutics",
-   "last_price": null,
-   "market_cap": null
-  },
-  "ticker": "AGT-236",
-  "drug_name": "Agtovimab-236",
-  "indications": [
-   {
-    "id": 525,
-    "title": "Idiopathic pulmonary fibrosis",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Idiopathic pulmonary fibrosis",
-  "stage_event": {
-   "id": 33,
-   "label": "Phase 2 Data readout",
-   "stage_label": "Phase 2",
-   "event_label": "Data readout"
-  },
-  "note": "Agtovimab-236 Phase 2 clinical development update.",
-  "catalyst_date": "2026-12-08",
-  "has_catalyst": true,
-  "catalyst_source": "",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "move_analysis_created_datetime": null
- },
- {
   "id": 18824,
   "company": {
    "ticker": "RZLT",
@@ -7270,11 +7115,56 @@
   "move_analysis_created_datetime": "2026-10-06T13:13:04Z"
  },
  {
+  "id": 236,
+  "company": {
+   "ticker": "AGT-236",
+   "name": "Agtovimab-236 Therapeutics",
+   "last_price": null,
+   "market_cap": null
+  },
+  "ticker": "AGT-236",
+  "drug_name": "Agtovimab-236",
+  "indications": [
+   {
+    "id": 525,
+    "title": "Idiopathic pulmonary fibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Idiopathic pulmonary fibrosis",
+  "stage_event": {
+   "id": 33,
+   "label": "Phase 2 Data readout",
+   "stage_label": "Phase 2",
+   "event_label": "Data readout"
+  },
+  "note": "Agtovimab-236 Phase 2 clinical development update.",
+  "catalyst_date": "2026-12-08",
+  "has_catalyst": true,
+  "catalyst_source": "",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 17408,
   "company": {
    "ticker": "MLYS",
    "name": "Mineralys Therapeutics",
-   "last_price": "14.48",
+   "last_price": "14.13",
    "market_cap": 1282306688,
    "website": "https://mineralystx.com"
   },
@@ -7389,7 +7279,7 @@
   "company": {
    "ticker": "GILD",
    "name": "Gilead Sciences",
-   "last_price": "170.26",
+   "last_price": "168.82",
    "market_cap": 211180044288,
    "website": "https://www.gilead.com"
   },
@@ -7444,7 +7334,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "305.06",
+   "last_price": "307.58",
    "market_cap": 8526900224,
    "website": "https://praxismedicines.com"
   },
@@ -7499,7 +7389,7 @@
   "company": {
    "ticker": "VTRS",
    "name": "Viatris Inc",
-   "last_price": "20.45",
+   "last_price": "20.52",
    "market_cap": 23445000192,
    "website": "https://www.viatris.com"
   },
@@ -7554,7 +7444,7 @@
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "27.85",
+   "last_price": "28.43",
    "market_cap": 4845745664,
    "website": "https://www.cogentbio.com"
   },
@@ -7739,7 +7629,7 @@
   "company": {
    "ticker": "INKT",
    "name": "MiNK Therapeutics",
-   "last_price": "9.29",
+   "last_price": "9.60",
    "market_cap": 47665892,
    "website": "https://minktherapeutics.com"
   },
@@ -8124,7 +8014,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.35",
+   "last_price": "60.51",
    "market_cap": 125404667904,
    "website": "https://www.bms.com"
   },
@@ -8609,7 +8499,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "10.17",
+   "last_price": "10.19",
    "market_cap": 857871296,
    "website": "https://www.corvuspharma.com"
   },
@@ -9494,7 +9384,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.32",
+   "last_price": "0.33",
    "market_cap": 73575240,
    "website": "https://www.tenayatherapeutics.com"
   },
@@ -9799,7 +9689,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "27.45",
+   "last_price": "27.35",
    "market_cap": 1398489088,
    "website": "https://www.nanobiotix.com"
   },
@@ -9859,7 +9749,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "27.45",
+   "last_price": "27.35",
    "market_cap": 1398489088,
    "website": "https://www.nanobiotix.com"
   },
@@ -9984,7 +9874,7 @@
   "company": {
    "ticker": "COCP",
    "name": "Cocrystal Pharma",
-   "last_price": "1.01",
+   "last_price": "1.00",
    "market_cap": 19455832,
    "website": "https://www.cocrystalpharma.com"
   },
@@ -10044,7 +9934,7 @@
   "company": {
    "ticker": "BLRX",
    "name": "BioLineRx",
-   "last_price": "1.12",
+   "last_price": "1.14",
    "market_cap": 5575602,
    "website": "https://www.biolinerx.com"
   },
@@ -10294,7 +10184,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.00",
+   "last_price": "2.12",
    "market_cap": 90490672,
    "website": "https://www.genelux.com"
   },
@@ -10359,7 +10249,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.09",
+   "last_price": "120.46",
    "market_cap": 24274411520,
    "website": "https://www.incyte.com"
   },
@@ -10474,7 +10364,7 @@
   "company": {
    "ticker": "TNYA",
    "name": "Tenaya Therapeutics",
-   "last_price": "0.32",
+   "last_price": "0.33",
    "market_cap": 73575240,
    "website": "https://www.tenayatherapeutics.com"
   },
@@ -10529,7 +10419,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.00",
+   "last_price": "2.12",
    "market_cap": 90490672,
    "website": "https://www.genelux.com"
   },
@@ -10649,7 +10539,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1421.40",
+   "last_price": "1402.09",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -11144,7 +11034,7 @@
   "company": {
    "ticker": "PTN",
    "name": "Palatin Technologies",
-   "last_price": "5.36",
+   "last_price": "5.54",
    "market_cap": 9545833,
    "website": "https://palatin.com"
   },
@@ -11199,7 +11089,7 @@
   "company": {
    "ticker": "OGEN",
    "name": "Oragenics, Inc.",
-   "last_price": "0.21",
+   "last_price": "0.20",
    "market_cap": 947510,
    "website": "https://www.oragenics.com"
   },
@@ -11254,7 +11144,7 @@
   "company": {
    "ticker": "PHAT",
    "name": "Phathom Pharmaceuticals",
-   "last_price": "5.50",
+   "last_price": "5.23",
    "market_cap": 447103360,
    "website": "https://www.phathompharma.com"
   },
@@ -11479,7 +11369,7 @@
   "company": {
    "ticker": "GNLX",
    "name": "Genelux Corporation",
-   "last_price": "2.00",
+   "last_price": "2.12",
    "market_cap": 90490672,
    "website": "https://www.genelux.com"
   },
@@ -11604,7 +11494,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "9.28",
+   "last_price": "9.30",
    "market_cap": 602141568,
    "website": "https://cullinantherapeutics.com"
   },
@@ -11664,7 +11554,7 @@
   "company": {
    "ticker": "KOD",
    "name": "Kodiak Sciences Inc.",
-   "last_price": "96.80",
+   "last_price": "99.06",
    "market_cap": 6330289664,
    "website": "https://kodiak.com"
   },
@@ -11894,7 +11784,7 @@
   "company": {
    "ticker": "SRRK",
    "name": "Scholar Rock Holding Corp",
-   "last_price": "45.08",
+   "last_price": "47.27",
    "market_cap": 5499962368,
    "website": "https://www.scholarrock.com"
   },
@@ -12114,7 +12004,7 @@
   "company": {
    "ticker": "RANI",
    "name": "Rani Therapeutics",
-   "last_price": "0.56",
+   "last_price": "0.60",
    "market_cap": 64605420,
    "website": "https://www.ranitherapeutics.com"
   },
@@ -12289,7 +12179,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "26.96",
+   "last_price": "27.09",
    "market_cap": 4490055680,
    "website": "https://www.ionis.com"
   },
@@ -12459,7 +12349,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "42.99",
+   "last_price": "42.93",
    "market_cap": 6077410304,
    "website": "https://arrowheadpharma.com"
   },
@@ -12639,7 +12529,7 @@
   "company": {
    "ticker": "BCRX",
    "name": "BioCryst Pharmaceuticals Inc.",
-   "last_price": "7.50",
+   "last_price": "7.61",
    "market_cap": 1929744512,
    "website": "https://www.biocryst.com"
   },
@@ -12754,7 +12644,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "14.24",
+   "last_price": "14.21",
    "market_cap": 1555717376,
    "website": "https://www.nurixtx.com"
   },
@@ -12809,7 +12699,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "9.25",
+   "last_price": "9.27",
    "market_cap": 1723004544,
    "website": "https://www.vir.bio"
   },
@@ -12944,7 +12834,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "42.99",
+   "last_price": "42.93",
    "market_cap": 6077410304,
    "website": "https://arrowheadpharma.com"
   },
@@ -13184,7 +13074,7 @@
   "company": {
    "ticker": "ALKS",
    "name": "Alkermes plc",
-   "last_price": "45.45",
+   "last_price": "46.33",
    "market_cap": 7637578752,
    "website": "https://www.alkermes.com"
   },
@@ -13239,7 +13129,7 @@
   "company": {
    "ticker": "TGTX",
    "name": "TG Therapeutics",
-   "last_price": "62.71",
+   "last_price": "63.50",
    "market_cap": 9478479872,
    "website": "https://www.tgtherapeutics.com"
   },
@@ -13919,7 +13809,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "14.24",
+   "last_price": "14.21",
    "market_cap": 1555717376,
    "website": "https://www.nurixtx.com"
   },
@@ -14039,7 +13929,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "9.28",
+   "last_price": "9.30",
    "market_cap": 602141568,
    "website": "https://cullinantherapeutics.com"
   },
@@ -14214,7 +14104,7 @@
   "company": {
    "ticker": "FBIO",
    "name": "Fortress Biotech",
-   "last_price": "1.82",
+   "last_price": "1.89",
    "market_cap": 61410980,
    "website": "https://www.fortressbiotech.com"
   },
@@ -14274,7 +14164,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "9.28",
+   "last_price": "9.30",
    "market_cap": 602141568,
    "website": "https://cullinantherapeutics.com"
   },
@@ -14329,7 +14219,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "5.10",
+   "last_price": "5.04",
    "market_cap": 234350496,
    "website": "https://bioagelabs.com"
   },
@@ -14384,7 +14274,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "13.89",
+   "last_price": "13.81",
    "market_cap": 4874784768,
    "website": "https://www.erasca.com"
   },
@@ -14769,7 +14659,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "18.17",
+   "last_price": "18.18",
    "market_cap": 1300796672,
    "website": "https://structuretx.com"
   },
@@ -14824,7 +14714,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.09",
+   "last_price": "120.46",
    "market_cap": 24274411520,
    "website": "https://www.incyte.com"
   },
@@ -15389,7 +15279,7 @@
   "company": {
    "ticker": "DTIL",
    "name": "Precision BioSciences",
-   "last_price": "7.05",
+   "last_price": "7.27",
    "market_cap": 269104128,
    "website": "https://precisionbiosciences.com"
   },
@@ -15719,7 +15609,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "121.52",
+   "last_price": "123.72",
    "market_cap": 10374332416,
    "website": "https://www.kymeratx.com"
   },
@@ -15889,7 +15779,7 @@
   "company": {
    "ticker": "CRIS",
    "name": "Curis",
-   "last_price": "0.54",
+   "last_price": "0.56",
    "market_cap": 5153727,
    "website": "https://www.curis.com"
   },
@@ -16584,7 +16474,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.09",
+   "last_price": "120.46",
    "market_cap": 24274411520,
    "website": "https://www.incyte.com"
   },
@@ -17039,7 +16929,7 @@
   "company": {
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
-   "last_price": "1.15",
+   "last_price": "1.16",
    "market_cap": 169473456,
    "website": "https://www.inflarx.de"
   },
@@ -17094,7 +16984,7 @@
   "company": {
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
-   "last_price": "1.15",
+   "last_price": "1.16",
    "market_cap": 169473456,
    "website": "https://www.inflarx.de"
   },
@@ -17329,7 +17219,7 @@
   "company": {
    "ticker": "PTHS",
    "name": "Pelthos Therapeutics",
-   "last_price": "6.69",
+   "last_price": "6.74",
    "market_cap": 26886050,
    "website": "https://pelthos.com"
   },
@@ -17624,7 +17514,7 @@
   "company": {
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
-   "last_price": "39.06",
+   "last_price": "39.44",
    "market_cap": 1825297664,
    "website": "https://www.hemab.com"
   },
@@ -17794,7 +17684,7 @@
   "company": {
    "ticker": "AMGN",
    "name": "Amgen",
-   "last_price": "457.93",
+   "last_price": "452.72",
    "market_cap": 247699587072,
    "website": "https://www.amgen.com"
   },
@@ -18069,7 +17959,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "305.06",
+   "last_price": "307.58",
    "market_cap": 8526900224,
    "website": "https://praxismedicines.com"
   },
@@ -18479,7 +18369,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "76.80",
+   "last_price": "77.18",
    "market_cap": 14960700416,
    "website": "https://bridgebio.com"
   },
@@ -18664,7 +18554,7 @@
   "company": {
    "ticker": "BLTE",
    "name": "Belite Bio",
-   "last_price": "157.72",
+   "last_price": "158.50",
    "market_cap": 6351722496,
    "website": "https://www.belitebio.com"
   },
@@ -18834,7 +18724,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.35",
+   "last_price": "60.51",
    "market_cap": 125404667904,
    "website": "https://www.bms.com"
   },
@@ -18944,7 +18834,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "9.28",
+   "last_price": "9.30",
    "market_cap": 602141568,
    "website": "https://cullinantherapeutics.com"
   },
@@ -19164,7 +19054,7 @@
   "company": {
    "ticker": "BIVI",
    "name": "BioVie",
-   "last_price": "1.00",
+   "last_price": "0.96",
    "market_cap": 10674318,
    "website": "https://bioviepharma.com"
   },
@@ -19399,7 +19289,7 @@
   "company": {
    "ticker": "MBRX",
    "name": "Moleculin Biotech",
-   "last_price": "6.83",
+   "last_price": "6.97",
    "market_cap": 7250270,
    "website": "https://moleculin.com"
   },
@@ -19464,7 +19354,7 @@
   "company": {
    "ticker": "ATRA",
    "name": "Atara Biotherapeutics",
-   "last_price": "6.50",
+   "last_price": "6.57",
    "market_cap": 66224848,
    "website": "https://www.atarabio.com"
   },
@@ -19714,7 +19604,7 @@
   "company": {
    "ticker": "ANVS",
    "name": "Annovis Bio",
-   "last_price": "0.74",
+   "last_price": "0.76",
    "market_cap": 46095136,
    "website": "https://www.annovisbio.com"
   },
@@ -20904,7 +20794,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "10.17",
+   "last_price": "10.19",
    "market_cap": 857871296,
    "website": "https://www.corvuspharma.com"
   },
@@ -21129,7 +21019,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "0.49",
+   "last_price": "0.48",
    "market_cap": 35466904,
    "website": "https://biomeafusion.com"
   },
@@ -21309,7 +21199,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "51.65",
+   "last_price": "52.46",
    "market_cap": 7195017728,
    "website": "https://www.cytokinetics.com"
   },
@@ -21474,7 +21364,7 @@
   "company": {
    "ticker": "KZIA",
    "name": "Kazia Therapeutics ",
-   "last_price": "5.31",
+   "last_price": "5.39",
    "market_cap": 60676832,
    "website": "https://www.kaziatherapeutics.com"
   },
@@ -22089,7 +21979,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.40",
+   "last_price": "0.41",
    "market_cap": 111176616,
    "website": "https://www.akebia.com"
   },
@@ -22679,7 +22569,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "21.64",
+   "last_price": "21.47",
    "market_cap": 69137588224,
    "website": "https://www.takeda.com"
   },
@@ -23184,7 +23074,7 @@
   "company": {
    "ticker": "IMNM",
    "name": "Immunome",
-   "last_price": "17.18",
+   "last_price": "17.51",
    "market_cap": 2028493184,
    "website": "https://immunome.com"
   },
@@ -23414,7 +23304,7 @@
   "company": {
    "ticker": "BBIO",
    "name": "BridgeBio Pharma Inc",
-   "last_price": "76.80",
+   "last_price": "77.18",
    "market_cap": 14960700416,
    "website": "https://bridgebio.com"
   },
@@ -23469,7 +23359,7 @@
   "company": {
    "ticker": "BMY",
    "name": "Bristol-Myers Squibb",
-   "last_price": "61.35",
+   "last_price": "60.51",
    "market_cap": 125404667904,
    "website": "https://www.bms.com"
   },
@@ -23749,7 +23639,7 @@
   "company": {
    "ticker": "CELC",
    "name": "Celcuity",
-   "last_price": "58.01",
+   "last_price": "57.73",
    "market_cap": 2838539776,
    "website": "https://www.celcuity.com"
   },
@@ -23800,11 +23690,66 @@
   "move_analysis_created_datetime": "2026-11-12T11:36:08Z"
  },
  {
+  "id": 14167,
+  "company": {
+   "ticker": "KPTI",
+   "name": "Karyopharm Therapeutics",
+   "last_price": "0.02",
+   "market_cap": 394657,
+   "website": "https://www.karyopharm.com"
+  },
+  "ticker": "KPTI",
+  "drug_name": "XPOVIO (Selinexor) (XPO1 inhibitor) + ruxolitinib",
+  "indications": [
+   {
+    "id": 872,
+    "title": "Myelofibrosis",
+    "nickname": ""
+   }
+  ],
+  "indications_text": "Myelofibrosis",
+  "stage_event": {
+   "id": 97,
+   "label": "PDUFA Approval decision",
+   "stage_label": "PDUFA",
+   "event_label": "Approval decision"
+  },
+  "note": "05/14/26:- SENTRY ASCO oral presentation set June 2, 2026; FDA sNDA engagement planned. 06/01/26:- Investor call June 2, 2026 2pm ET to discuss Ph3 SENTRY results. 06/02/26:- New post-hoc Ph1 SENTRY analysis presented at EHA June 14, 2026. 07/30/26:- Plans sNDA submission Aug 2026 for selinexor+ruxolitinib in myelofibrosis; will request Priority Review; PDUFA ~6 months. 08/13/26:- August sNDA submission remains on track; FDA acceptance and potential Priority Review will follow. 08/31/26:- sNDA submitted for selinexor+ruxolitinib in myelofibrosis. Priority Review requested. 11/04/26:- Week 48 Ph3 SENTRY data set for ASH 2026 oral Dec 13, 2026. 11/17/26:- FDA accepted selinexor+ruxolitinib sNDA in myelofibrosis. PDUFA action date June 28, 2027.",
+  "catalyst_date": "2027-06-28",
+  "has_catalyst": true,
+  "catalyst_source": "https://www.prnewswire.com/news-releases/karyopharm-announces-fda-acceptance-of-supplemental-new-drug-application-for-xpovio-selinexor-plus-ruxolitinib-for-the-treatment-of-patients-with-myelofibrosis-302941279.html",
+  "is_hedge_fund_pick": false,
+  "is_hedge_fund_avoid": false,
+  "is_high_mgmt_interest": false,
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
+  "up_suspected_big_mover": false,
+  "up_big_mover": false,
+  "down_suspected_big_mover": false,
+  "down_big_mover": false,
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
+ },
+ {
   "id": 13418,
   "company": {
    "ticker": "COGT",
    "name": "Cogent Biosciences Inc",
-   "last_price": "27.85",
+   "last_price": "28.43",
    "market_cap": 4845745664,
    "website": "https://www.cogentbio.com"
   },
@@ -23859,7 +23804,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "27.45",
+   "last_price": "27.35",
    "market_cap": 1398489088,
    "website": "https://www.nanobiotix.com"
   },
@@ -24155,71 +24100,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 13927,
-  "company": {
-   "ticker": "SLS",
-   "name": "SELLAS Life Sciences Group",
-   "last_price": "19.15",
-   "market_cap": 3903902720,
-   "website": "https://sellaslifesciences.com"
-  },
-  "ticker": "SLS",
-  "drug_name": "Galinpepimut-S",
-  "indications": [
-   {
-    "id": 1282,
-    "title": "Acute myeloid leukemia",
-    "nickname": "AML, Cancer"
-   },
-   {
-    "id": 905,
-    "title": "Blood cancer",
-    "nickname": ""
-   },
-   {
-    "id": 911,
-    "title": "Cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "Acute myeloid leukemia (AML)",
-  "stage_event": {
-   "id": 92,
-   "label": "BLA Submission",
-   "stage_label": "BLA",
-   "event_label": "Submission"
-  },
-  "note": "08/11/26:- REGAL Ph3 nearing 80th event. Final analysis follows database lock and unblinding. 10/28/26:- REGAL Ph3 reached 80th event; database lock and unblinding underway. Topline primary endpoint results expected Q4 2026. 11/12/26:- REGAL Ph3 final analysis is underway. Topline primary endpoint results are expected in November 2026. 11/17/26:- REGAL met OS endpoint; BLA submission planned H1 2027. FDA meeting planned.",
-  "catalyst_date": "2027-06-30",
-  "has_catalyst": true,
-  "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/17/3404429/0/en/sellas-life-sciences-announces-positive-pivotal-phase-3-regal-trial-data-showing-immunotherapeutic-cancer-vaccine-galinpepimut-s-gps-demonstrated-a-statistically-significant-and-cl.html",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 14091,
   "company": {
    "ticker": "RCUS",
@@ -24404,7 +24284,7 @@
   "company": {
    "ticker": "IPHA",
    "name": "Innate Pharma SA",
-   "last_price": "1.33",
+   "last_price": "1.09",
    "market_cap": 148561456,
    "website": "https://www.innate-pharma.com"
   },
@@ -24469,7 +24349,7 @@
   "company": {
    "ticker": "CRIS",
    "name": "Curis",
-   "last_price": "0.54",
+   "last_price": "0.56",
    "market_cap": 5153727,
    "website": "https://www.curis.com"
   },
@@ -25434,7 +25314,7 @@
   "company": {
    "ticker": "ENLV",
    "name": "Enlivex Therapeutics",
-   "last_price": "1.15",
+   "last_price": "1.23",
    "market_cap": 1761793,
    "website": "https://www.enlivex.com"
   },
@@ -26139,7 +26019,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1421.40",
+   "last_price": "1402.09",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -26484,7 +26364,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "18.17",
+   "last_price": "18.18",
    "market_cap": 1300796672,
    "website": "https://structuretx.com"
   },
@@ -26839,7 +26719,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "3.81",
+   "last_price": "3.85",
    "market_cap": 230389504,
    "website": "https://www.vandapharma.com"
   },
@@ -26899,7 +26779,7 @@
   "company": {
    "ticker": "ERAS",
    "name": "Erasca ",
-   "last_price": "13.89",
+   "last_price": "13.81",
    "market_cap": 4874784768,
    "website": "https://www.erasca.com"
   },
@@ -27229,7 +27109,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "0.49",
+   "last_price": "0.48",
    "market_cap": 35466904,
    "website": "https://biomeafusion.com"
   },
@@ -27404,7 +27284,7 @@
   "company": {
    "ticker": "JUNS",
    "name": "Jupiter Neurosciences",
-   "last_price": "1.55",
+   "last_price": "1.54",
    "market_cap": 2004151,
    "website": "https://jupiterneurosciences.com"
   },
@@ -27679,7 +27559,7 @@
   "company": {
    "ticker": "BLRX",
    "name": "BioLineRx",
-   "last_price": "1.12",
+   "last_price": "1.14",
    "market_cap": 5575602,
    "website": "https://www.biolinerx.com"
   },
@@ -27909,7 +27789,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "249.55",
+   "last_price": "252.05",
    "market_cap": 37071831040,
    "website": "https://www.biogen.com"
   },
@@ -28144,7 +28024,7 @@
   "company": {
    "ticker": "CRVS",
    "name": "Corvus ",
-   "last_price": "10.17",
+   "last_price": "10.19",
    "market_cap": 857871296,
    "website": "https://www.corvuspharma.com"
   },
@@ -28604,7 +28484,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "13.19",
+   "last_price": "13.28",
    "market_cap": 1234549632,
    "website": "https://www.kardigan.bio"
   },
@@ -28994,7 +28874,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1421.40",
+   "last_price": "1402.09",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -29049,7 +28929,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1421.40",
+   "last_price": "1402.09",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -29324,7 +29204,7 @@
   "company": {
    "ticker": "BOLT",
    "name": "Bolt Biotherapeutics ",
-   "last_price": "5.65",
+   "last_price": "5.45",
    "market_cap": 14732319,
    "website": "https://www.boltbio.com"
   },
@@ -29379,7 +29259,7 @@
   "company": {
    "ticker": "BOLT",
    "name": "Bolt Biotherapeutics ",
-   "last_price": "5.65",
+   "last_price": "5.45",
    "market_cap": 14732319,
    "website": "https://www.boltbio.com"
   },
@@ -29489,7 +29369,7 @@
   "company": {
    "ticker": "BOLT",
    "name": "Bolt Biotherapeutics ",
-   "last_price": "5.65",
+   "last_price": "5.45",
    "market_cap": 14732319,
    "website": "https://www.boltbio.com"
   },
@@ -29544,7 +29424,7 @@
   "company": {
    "ticker": "BOLT",
    "name": "Bolt Biotherapeutics ",
-   "last_price": "5.65",
+   "last_price": "5.45",
    "market_cap": 14732319,
    "website": "https://www.boltbio.com"
   },
@@ -29709,7 +29589,7 @@
   "company": {
    "ticker": "CCCC",
    "name": "C4 Therapuetics",
-   "last_price": "2.53",
+   "last_price": "2.55",
    "market_cap": 332233248,
    "website": "https://www.c4therapeutics.com"
   },
@@ -29784,7 +29664,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "42.99",
+   "last_price": "42.93",
    "market_cap": 6077410304,
    "website": "https://arrowheadpharma.com"
   },
@@ -29844,7 +29724,7 @@
   "company": {
    "ticker": "CNSY",
    "name": "Cerenome, Inc.",
-   "last_price": "0.63",
+   "last_price": "0.64",
    "market_cap": 6162402,
    "website": "https://cerenome.com"
   },
@@ -29904,7 +29784,7 @@
   "company": {
    "ticker": "MESO",
    "name": "Mesoblast",
-   "last_price": "11.91",
+   "last_price": "11.84",
    "market_cap": 1546571648,
    "website": "https://www.mesoblast.com"
   },
@@ -30024,7 +29904,7 @@
   "company": {
    "ticker": "CNSY",
    "name": "Cerenome, Inc.",
-   "last_price": "0.63",
+   "last_price": "0.64",
    "market_cap": 6162402,
    "website": "https://cerenome.com"
   },
@@ -30269,7 +30149,7 @@
   "company": {
    "ticker": "ELOX",
    "name": "Eloxx Pharmaceuticals",
-   "last_price": "11.74",
+   "last_price": "11.42",
    "market_cap": 47977916,
    "website": "https://www.eloxxpharma.com"
   },
@@ -30384,7 +30264,7 @@
   "company": {
    "ticker": "CRDL",
    "name": "Cardiol Therapeutics",
-   "last_price": "0.97",
+   "last_price": "0.95",
    "market_cap": 124087592,
    "website": "https://www.cardiolrx.com"
   },
@@ -30499,7 +30379,7 @@
   "company": {
    "ticker": "ALLO",
    "name": "Allogene Therapeutics",
-   "last_price": "0.74",
+   "last_price": "0.77",
    "market_cap": 257806304,
    "website": "https://allogene.com"
   },
@@ -30794,7 +30674,7 @@
   "company": {
    "ticker": "ABVX",
    "name": "Abivax",
-   "last_price": "82.10",
+   "last_price": "84.02",
    "market_cap": 7187155968,
    "website": "https://www.abivax.com"
   },
@@ -30904,7 +30784,7 @@
   "company": {
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
-   "last_price": "12.20",
+   "last_price": "12.40",
    "market_cap": 1584175872,
    "website": "https://www.kailera.com"
   },
@@ -31014,7 +30894,7 @@
   "company": {
    "ticker": "COAG",
    "name": "Hemab Therapeutics Holdings, Inc.",
-   "last_price": "39.06",
+   "last_price": "39.44",
    "market_cap": 1825297664,
    "website": "https://www.hemab.com"
   },
@@ -31074,7 +30954,7 @@
   "company": {
    "ticker": "CTY",
    "name": "City Therapeutics",
-   "last_price": "17.50",
+   "last_price": "17.58",
    "market_cap": 934287040,
    "website": "https://www.citytx.com"
   },
@@ -31239,7 +31119,7 @@
   "company": {
    "ticker": "BIIB",
    "name": "Biogen",
-   "last_price": "249.55",
+   "last_price": "252.05",
    "market_cap": 37071831040,
    "website": "https://www.biogen.com"
   },
@@ -31689,7 +31569,7 @@
   "company": {
    "ticker": "DARE",
    "name": "Dar\u00e9 Bioscience, Inc.",
-   "last_price": "0.43",
+   "last_price": "0.44",
    "market_cap": 8438037,
    "website": "https://darebioscience.com"
   },
@@ -32654,7 +32534,7 @@
   "company": {
    "ticker": "PLRX",
    "name": "Pliant Therapeutics ",
-   "last_price": "0.66",
+   "last_price": "0.67",
    "market_cap": 40926216,
    "website": "https://pliantrx.com"
   },
@@ -32894,7 +32774,7 @@
   "company": {
    "ticker": "PRAX",
    "name": "Praxis Precision Medicines",
-   "last_price": "305.06",
+   "last_price": "307.58",
    "market_cap": 8526900224,
    "website": "https://praxismedicines.com"
   },
@@ -33124,7 +33004,7 @@
   "company": {
    "ticker": "NGNE",
    "name": "Neurogene Inc",
-   "last_price": "23.10",
+   "last_price": "22.83",
    "market_cap": 478190880,
    "website": "https://www.neurogene.com"
   },
@@ -33184,7 +33064,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.02",
+   "last_price": "2.00",
    "market_cap": 191342768,
    "website": "https://cgen.com"
   },
@@ -33709,7 +33589,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "26.96",
+   "last_price": "27.09",
    "market_cap": 4490055680,
    "website": "https://www.ionis.com"
   },
@@ -33819,7 +33699,7 @@
   "company": {
    "ticker": "NUVB",
    "name": "Nuvation Bio",
-   "last_price": "3.90",
+   "last_price": "3.94",
    "market_cap": 1376768768,
    "website": "https://www.nuvationbio.com"
   },
@@ -33879,7 +33759,7 @@
   "company": {
    "ticker": "DFTX",
    "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed) Inc.)",
-   "last_price": "29.38",
+   "last_price": "29.37",
    "market_cap": 4022119936,
    "website": "https://definiumtx.com"
   },
@@ -34049,7 +33929,7 @@
   "company": {
    "ticker": "MDGL",
    "name": "Madrigal Pharmaceuticals",
-   "last_price": "421.99",
+   "last_price": "421.44",
    "market_cap": 9802641408,
    "website": "https://www.madrigalpharma.com"
   },
@@ -34294,7 +34174,7 @@
   "company": {
    "ticker": "TRVI",
    "name": "Trevi Therapeutics",
-   "last_price": "13.51",
+   "last_price": "13.55",
    "market_cap": 1925977472,
    "website": "https://www.trevitherapeutics.com"
   },
@@ -34459,7 +34339,7 @@
   "company": {
    "ticker": "KYMR",
    "name": "Kymera Therapeutics",
-   "last_price": "121.52",
+   "last_price": "123.72",
    "market_cap": 10374332416,
    "website": "https://www.kymeratx.com"
   },
@@ -34514,7 +34394,7 @@
   "company": {
    "ticker": "KNSA",
    "name": "Kiniksa Pharmaceuticals",
-   "last_price": "95.11",
+   "last_price": "95.79",
    "market_cap": 7472954880,
    "website": "https://www.kiniksa.com"
   },
@@ -34959,7 +34839,7 @@
   "company": {
    "ticker": "UPB",
    "name": "Upstream Bio",
-   "last_price": "2.10",
+   "last_price": "2.12",
    "market_cap": 115103920,
    "website": "https://upstreambio.com"
   },
@@ -35234,7 +35114,7 @@
   "company": {
    "ticker": "ARWR",
    "name": "Arrowhead Pharmaceuticals ",
-   "last_price": "42.99",
+   "last_price": "42.93",
    "market_cap": 6077410304,
    "website": "https://arrowheadpharma.com"
   },
@@ -35509,7 +35389,7 @@
   "company": {
    "ticker": "JBIO",
    "name": "Jade Biosciences",
-   "last_price": "15.40",
+   "last_price": "15.35",
    "market_cap": 1065517504,
    "website": "https://jadebiosciences.com"
   },
@@ -35859,7 +35739,7 @@
   "company": {
    "ticker": "PRME",
    "name": "Prime Medicine",
-   "last_price": "3.84",
+   "last_price": "4.03",
    "market_cap": 856292480,
    "website": "https://primemedicine.com"
   },
@@ -36144,7 +36024,7 @@
   "company": {
    "ticker": "PRME",
    "name": "Prime Medicine",
-   "last_price": "3.84",
+   "last_price": "4.03",
    "market_cap": 856292480,
    "website": "https://primemedicine.com"
   },
@@ -36824,7 +36704,7 @@
   "company": {
    "ticker": "ANTX",
    "name": "AN2 Therapeutics",
-   "last_price": "4.23",
+   "last_price": "5.04",
    "market_cap": 160501632,
    "website": "https://www.an2therapeutics.com"
   },
@@ -36879,7 +36759,7 @@
   "company": {
    "ticker": "ARDX",
    "name": "Ardelyx Inc.",
-   "last_price": "3.18",
+   "last_price": "3.22",
    "market_cap": 799364736,
    "website": "https://www.ardelyx.com"
   },
@@ -36934,7 +36814,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.40",
+   "last_price": "0.41",
    "market_cap": 111176616,
    "website": "https://www.akebia.com"
   },
@@ -36999,7 +36879,7 @@
   "company": {
    "ticker": "AKBA",
    "name": "Akebia",
-   "last_price": "0.40",
+   "last_price": "0.41",
    "market_cap": 111176616,
    "website": "https://www.akebia.com"
   },
@@ -37064,7 +36944,7 @@
   "company": {
    "ticker": "BIOA",
    "name": "BioAge Labs",
-   "last_price": "5.10",
+   "last_price": "5.04",
    "market_cap": 234350496,
    "website": "https://bioagelabs.com"
   },
@@ -37234,7 +37114,7 @@
   "company": {
    "ticker": "DARE",
    "name": "Dar\u00e9 Bioscience, Inc.",
-   "last_price": "0.43",
+   "last_price": "0.44",
    "market_cap": 8438037,
    "website": "https://darebioscience.com"
   },
@@ -37404,7 +37284,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "7.02",
+   "last_price": "6.89",
    "market_cap": 290276032,
    "website": "https://www.evommune.com"
   },
@@ -37459,7 +37339,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "6.57",
+   "last_price": "6.60",
    "market_cap": 365132480,
    "website": "https://www.maplightrx.com"
   },
@@ -37629,7 +37509,7 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "38.71",
+   "last_price": "38.73",
    "market_cap": 28047773696,
    "website": "https://roivant.com"
   },
@@ -37869,7 +37749,7 @@
   "company": {
    "ticker": "SGMT",
    "name": "Sagimet Biosciences",
-   "last_price": "9.85",
+   "last_price": "9.99",
    "market_cap": 708563392,
    "website": "https://www.sagimet.com"
   },
@@ -37924,7 +37804,7 @@
   "company": {
    "ticker": "NBIX",
    "name": "Neurocrine Biosciences",
-   "last_price": "165.92",
+   "last_price": "165.10",
    "market_cap": 16794196992,
    "website": "https://www.neurocrine.com"
   },
@@ -38034,7 +37914,7 @@
   "company": {
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
-   "last_price": "1.15",
+   "last_price": "1.16",
    "market_cap": 169473456,
    "website": "https://www.inflarx.de"
   },
@@ -38264,7 +38144,7 @@
   "company": {
    "ticker": "KLRA",
    "name": "Kailera Therapeutics",
-   "last_price": "12.20",
+   "last_price": "12.40",
    "market_cap": 1584175872,
    "website": "https://www.kailera.com"
   },
@@ -38384,7 +38264,7 @@
   "company": {
    "ticker": "AVLN",
    "name": "Avalyn Pharma",
-   "last_price": "27.92",
+   "last_price": "28.12",
    "market_cap": 1243040128,
    "website": "https://www.avalynpharma.com"
   },
@@ -38439,7 +38319,7 @@
   "company": {
    "ticker": "AVLN",
    "name": "Avalyn Pharma",
-   "last_price": "27.92",
+   "last_price": "28.12",
    "market_cap": 1243040128,
    "website": "https://www.avalynpharma.com"
   },
@@ -38734,7 +38614,7 @@
   "company": {
    "ticker": "ODTX",
    "name": "Odyssey Therapeutics",
-   "last_price": "19.37",
+   "last_price": "18.91",
    "market_cap": 931074816,
    "website": "https://odysseytx.com"
   },
@@ -38794,7 +38674,7 @@
   "company": {
    "ticker": "SGP",
    "name": "SpyGlass Pharma",
-   "last_price": "31.44",
+   "last_price": "30.92",
    "market_cap": 1051860672,
    "website": "https://www.spyglasspharma.com"
   },
@@ -38854,7 +38734,7 @@
   "company": {
    "ticker": "AVLN",
    "name": "Avalyn Pharma",
-   "last_price": "27.92",
+   "last_price": "28.12",
    "market_cap": 1243040128,
    "website": "https://www.avalynpharma.com"
   },
@@ -38909,7 +38789,7 @@
   "company": {
    "ticker": "KARD",
    "name": "Kardigan\u2122",
-   "last_price": "13.19",
+   "last_price": "13.28",
    "market_cap": 1234549632,
    "website": "https://www.kardigan.bio"
   },
@@ -38964,7 +38844,7 @@
   "company": {
    "ticker": "RNA",
    "name": "Atrium Therapeutics",
-   "last_price": "6.48",
+   "last_price": "6.61",
    "market_cap": 139783376,
    "website": "https://atriumtherapeutics.com"
   },
@@ -39194,7 +39074,7 @@
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "0.49",
+   "last_price": "0.48",
    "market_cap": 35466904,
    "website": "https://biomeafusion.com"
   },
@@ -39359,7 +39239,7 @@
   "company": {
    "ticker": "GYRE",
    "name": "Gyre Therapeutics Inc",
-   "last_price": "4.56",
+   "last_price": "4.53",
    "market_cap": 499099136,
    "website": "https://www.gyretx.com"
   },
@@ -39584,7 +39464,7 @@
   "company": {
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
-   "last_price": "1.15",
+   "last_price": "1.16",
    "market_cap": 169473456,
    "website": "https://www.inflarx.de"
   },
@@ -39639,7 +39519,7 @@
   "company": {
    "ticker": "IFRX",
    "name": "InflaRx N.V.",
-   "last_price": "1.15",
+   "last_price": "1.16",
    "market_cap": 169473456,
    "website": "https://www.inflarx.de"
   },
@@ -39694,7 +39574,7 @@
   "company": {
    "ticker": "LTGO",
    "name": "Latigo Biotherapeutics",
-   "last_price": "13.76",
+   "last_price": "13.87",
    "market_cap": 912279040,
    "website": "https://latigobio.com"
   },
@@ -39749,7 +39629,7 @@
   "company": {
    "ticker": "ATTO",
    "name": "Attovia Therapeutics",
-   "last_price": "14.86",
+   "last_price": "15.15",
    "market_cap": 679288256,
    "website": "https://www.attovia.com"
   },
@@ -39804,7 +39684,7 @@
   "company": {
    "ticker": "VOGX",
    "name": "Vogenx",
-   "last_price": "13.48",
+   "last_price": "14.15",
    "market_cap": 200246560,
    "website": "https://vogenx.com"
   },
@@ -39859,7 +39739,7 @@
   "company": {
    "ticker": "ALKS",
    "name": "Alkermes plc",
-   "last_price": "45.45",
+   "last_price": "46.33",
    "market_cap": 7637578752,
    "website": "https://www.alkermes.com"
   },
@@ -39914,7 +39794,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1421.40",
+   "last_price": "1402.09",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -40024,7 +39904,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "292.82",
+   "last_price": "290.26",
    "market_cap": 517593399296,
    "website": "https://www.abbvie.com"
   },
@@ -40414,7 +40294,7 @@
   "company": {
    "ticker": "PHAT",
    "name": "Phathom Pharmaceuticals",
-   "last_price": "5.50",
+   "last_price": "5.23",
    "market_cap": 447103360,
    "website": "https://www.phathompharma.com"
   },
@@ -40689,7 +40569,7 @@
   "company": {
    "ticker": "STTK",
    "name": "Shattuck Labs Inc",
-   "last_price": "4.59",
+   "last_price": "4.64",
    "market_cap": 467457344,
    "website": "https://www.shattucklabs.com"
   },
@@ -40859,7 +40739,7 @@
   "company": {
    "ticker": "RCKT",
    "name": "Rocket Pharmaceuticals",
-   "last_price": "2.11",
+   "last_price": "2.19",
    "market_cap": 235603184,
    "website": "https://www.rocketpharma.com"
   },
@@ -40919,7 +40799,7 @@
   "company": {
    "ticker": "DCTH",
    "name": "Delcath Systems Inc",
-   "last_price": "19.37",
+   "last_price": "19.91",
    "market_cap": 673844928,
    "website": "https://www.delcath.com"
   },
@@ -41029,7 +40909,7 @@
   "company": {
    "ticker": "MIST",
    "name": "Milestone Pharmaceuticals",
-   "last_price": "0.41",
+   "last_price": "0.42",
    "market_cap": 51442860,
    "website": "https://www.milestonepharma.com"
   },
@@ -41084,7 +40964,7 @@
   "company": {
    "ticker": "GPCR",
    "name": "Structure Therapeutics",
-   "last_price": "18.17",
+   "last_price": "18.18",
    "market_cap": 1300796672,
    "website": "https://structuretx.com"
   },
@@ -41144,7 +41024,7 @@
   "company": {
    "ticker": "ALNY",
    "name": "Alnylam Pharmaceuticals",
-   "last_price": "156.50",
+   "last_price": "155.13",
    "market_cap": 20961230848,
    "website": "https://www.alnylam.com"
   },
@@ -41329,7 +41209,7 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "38.71",
+   "last_price": "38.73",
    "market_cap": 28047773696,
    "website": "https://roivant.com"
   },
@@ -41384,7 +41264,7 @@
   "company": {
    "ticker": "PHAR",
    "name": "Pharming Group",
-   "last_price": "12.06",
+   "last_price": "12.45",
    "market_cap": 853584256,
    "website": "https://www.pharming.com"
   },
@@ -41444,7 +41324,7 @@
   "company": {
    "ticker": "BOLD",
    "name": "Boundless Bio Inc",
-   "last_price": "2.41",
+   "last_price": "2.44",
    "market_cap": 56903492,
    "website": "https://boundlessbio.com"
   },
@@ -41723,7 +41603,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "6.57",
+   "last_price": "6.60",
    "market_cap": 365132480,
    "website": "https://www.maplightrx.com"
   },
@@ -41973,7 +41853,7 @@
   "company": {
    "ticker": "INCY",
    "name": "Incyte Corporation",
-   "last_price": "119.09",
+   "last_price": "120.46",
    "market_cap": 24274411520,
    "website": "https://www.incyte.com"
   },
@@ -42283,7 +42163,7 @@
   "company": {
    "ticker": "IONS",
    "name": "Ionis Pharmaceuticals",
-   "last_price": "26.96",
+   "last_price": "27.09",
    "market_cap": 4490055680,
    "website": "https://www.ionis.com"
   },
@@ -42458,7 +42338,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "27.45",
+   "last_price": "27.35",
    "market_cap": 1398489088,
    "website": "https://www.nanobiotix.com"
   },
@@ -42648,7 +42528,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "3.81",
+   "last_price": "3.85",
    "market_cap": 230389504,
    "website": "https://www.vandapharma.com"
   },
@@ -42948,7 +42828,7 @@
   "company": {
    "ticker": "ALLO",
    "name": "Allogene Therapeutics",
-   "last_price": "0.74",
+   "last_price": "0.77",
    "market_cap": 257806304,
    "website": "https://allogene.com"
   },
@@ -43073,7 +42953,7 @@
   "company": {
    "ticker": "NBTX",
    "name": "Nanobiotix ",
-   "last_price": "27.45",
+   "last_price": "27.35",
    "market_cap": 1398489088,
    "website": "https://www.nanobiotix.com"
   },
@@ -43373,7 +43253,7 @@
   "company": {
    "ticker": "CGEN",
    "name": "Compugen",
-   "last_price": "2.02",
+   "last_price": "2.00",
    "market_cap": 191342768,
    "website": "https://cgen.com"
   },
@@ -44018,7 +43898,7 @@
   "company": {
    "ticker": "SDGR",
    "name": "Schrodinger Inc",
-   "last_price": "25.66",
+   "last_price": "27.01",
    "market_cap": 1926496128,
    "website": "https://www.schrodinger.com"
   },
@@ -44333,7 +44213,7 @@
   "company": {
    "ticker": "ALLO",
    "name": "Allogene Therapeutics",
-   "last_price": "0.74",
+   "last_price": "0.77",
    "market_cap": 257806304,
    "website": "https://allogene.com"
   },
@@ -44503,7 +44383,7 @@
   "company": {
    "ticker": "ROIV",
    "name": "Roivant",
-   "last_price": "38.71",
+   "last_price": "38.73",
    "market_cap": 28047773696,
    "website": "https://roivant.com"
   },
@@ -45129,66 +45009,11 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 19275,
-  "company": {
-   "ticker": "RHHBY",
-   "name": "Roche Holding",
-   "last_price": "60.25",
-   "market_cap": 384041156608,
-   "website": "https://www.roche.com"
-  },
-  "ticker": "RHHBY",
-  "drug_name": "Giredestrant",
-  "indications": [
-   {
-    "id": 947,
-    "title": "Breast cancer",
-    "nickname": ""
-   }
-  ],
-  "indications_text": "ER-positive advanced breast cancer",
-  "stage_event": {
-   "id": 99,
-   "label": "Approved Update",
-   "stage_label": "Approved",
-   "event_label": "Update"
-  },
-  "note": "9/22/25- Presented results. Data will be presented at an upcoming medical meeting. 02/07/26:- evERA phase 3 in advanced ER+ breast cancer reported positive results at ESMO 2025. 02/19/26:- FDA accepted NDA for evERA giredestrant+everolimus; PDUFA December 18, 2026; OS follow-up ongoing. 05/06/26:- evERA Ph3 showed 44% and 62% PFS risk reductions versus standard endocrine therapy in ITT and ESR1-mutated groups. 05/18/26:- EvERA post-progression analyses presented at ASCO May 31, 2026. 10/18/26:- EvERA exploratory biomarker analyses to be presented at ESMO Oct 24, 2026. 11/06/26:- FDA approved WILSERDLY (giredestrant)+everolimus for ESR1-mutated ER+/HER2- metastatic breast cancer; evERA improved PFS.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261106913762/en/FDA-Approves-Genentechs-WILSERDLY-Giredestrant-a-Next-Generation-Oral-SERD-for-ER-Positive-ESR1-Mutated-Advanced-Breast-Cancer",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 19293,
   "company": {
    "ticker": "BMEA",
    "name": "Biomea Fusion",
-   "last_price": "0.49",
+   "last_price": "0.48",
    "market_cap": 35466904,
    "website": "https://biomeafusion.com"
   },
@@ -45467,7 +45292,7 @@
   "company": {
    "ticker": "BMRN",
    "name": "Biomarin Pharmaceutical Inc.",
-   "last_price": "58.51",
+   "last_price": "58.74",
    "market_cap": 11333079040,
    "website": "https://www.biomarin.com"
   },
@@ -45522,7 +45347,7 @@
   "company": {
    "ticker": "MPLT",
    "name": "Maplight Therapeutics",
-   "last_price": "6.57",
+   "last_price": "6.60",
    "market_cap": 365132480,
    "website": "https://www.maplightrx.com"
   },
@@ -45577,7 +45402,7 @@
   "company": {
    "ticker": "NRIX",
    "name": "Nurix Therapeutics",
-   "last_price": "14.24",
+   "last_price": "14.21",
    "market_cap": 1555717376,
    "website": "https://www.nurixtx.com"
   },
@@ -45647,7 +45472,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1421.40",
+   "last_price": "1402.09",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -45707,7 +45532,7 @@
   "company": {
    "ticker": "LLY",
    "name": "Eli Lilly & Company",
-   "last_price": "1421.40",
+   "last_price": "1402.09",
    "market_cap": 965262180352,
    "website": "https://www.lilly.com"
   },
@@ -45892,7 +45717,7 @@
   "company": {
    "ticker": "EVMN",
    "name": "Evommune",
-   "last_price": "7.02",
+   "last_price": "6.89",
    "market_cap": 290276032,
    "website": "https://www.evommune.com"
   },
@@ -46228,61 +46053,6 @@
   "move_analysis_created_datetime": null
  },
  {
-  "id": 20398,
-  "company": {
-   "ticker": "AZN",
-   "name": "Astrazeneca",
-   "last_price": "182.27",
-   "market_cap": 282685767680,
-   "website": "https://www.astrazeneca.com"
-  },
-  "ticker": "AZN",
-  "drug_name": "Imfinzi/Durvalumab + Imjudo/Tremelimumab-Actl + Enfortumab Vedotin (MEDI4736) (Immunotherapy ADC)",
-  "indications": [
-   {
-    "id": 2208,
-    "title": "Muscle-invasive bladder cancer",
-    "nickname": "MIBC"
-   }
-  ],
-  "indications_text": "Muscle-Invasive Bladder Cancer (Cisplatin-Ineligible Or Declined)",
-  "stage_event": {
-   "id": 99,
-   "label": "Approved Update",
-   "stage_label": "Approved",
-   "event_label": "Update"
-  },
-  "note": "05/14/26:- VOLGA Ph3 interim analysis improved EFS; OS trending positive. Data will be presented at meeting. 05/28/26:- VOLGA planned interim analysis: overall survival not statistically significant; will be reassessed at later analysis. 09/25/26:- US Priority Review granted for perioperative Imfinzi plus enfortumab vedotin; PDUFA anticipated Q4 2026. 10/26/26:- VOLGA interim showed EFS and OS benefit for perioperative Imfinzi plus enfortumab vedotin. 10/30/26:- Filing acceptances listed for US, EU, and Japan. 11/13/26:- FDA approved perioperative Imfinzi plus enfortumab vedotin for cisplatin-ineligible or refusing MIBC.",
-  "catalyst_date": null,
-  "has_catalyst": true,
-  "catalyst_source": "https://www.businesswire.com/news/home/20261113582858/en/Perioperative-IMFINZI-durvalumab-approved-in-the-US-in-novel-regimen-with-neoadjuvant-enfortumab-vedotin-ejfv-for-patients-with-muscle-invasive-bladder-cancer",
-  "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
-  "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
-  "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
- },
- {
   "id": 20539,
   "company": {
    "ticker": "SPTX",
@@ -46501,7 +46271,7 @@
   "company": {
    "ticker": "TAK",
    "name": "Takeda",
-   "last_price": "21.64",
+   "last_price": "21.47",
    "market_cap": 69137588224,
    "website": "https://www.takeda.com"
   },

@@ -114,7 +114,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "1.38",
+   "last_price": "1.49",
    "market_cap": 168647072,
    "website": "https://www.pyxisoncology.com"
   },
@@ -174,7 +174,7 @@
   "company": {
    "ticker": "PMVP",
    "name": "PMV Pharma",
-   "last_price": "1.22",
+   "last_price": "1.25",
    "market_cap": 92152392,
    "website": "https://www.pmvpharma.com"
   },
@@ -294,7 +294,7 @@
   "company": {
    "ticker": "CATX",
    "name": "Perspective Therapeutics",
-   "last_price": "0.78",
+   "last_price": "0.75",
    "market_cap": 94203952,
    "website": "https://www.perspectivetherapeutics.com"
   },
@@ -804,7 +804,7 @@
   "company": {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "last_price": "524.76",
+   "last_price": "523.34",
    "market_cap": 136010293248,
    "website": "https://www.vrtx.com"
   },
@@ -1299,30 +1299,30 @@
   "has_catalyst": true,
   "catalyst_source": "https://www.globenewswire.com/news-release/2026/11/17/3404382/0/en/greenwich-lifesciences-announces-acceptance-of-abstracts-at-sabcs-2026.html",
   "is_hedge_fund_pick": false,
-  "is_hedge_fund_avoid": false,
+  "is_hedge_fund_avoid": true,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
+  "probability_clean_plus_min": "30.000000",
+  "probability_clean_plus_max": "40.000000",
+  "probability_mixed_min": "45.000000",
+  "probability_mixed_max": "55.000000",
+  "probability_clean_minus_min": "10.000000",
+  "probability_clean_minus_max": "20.000000",
+  "magnitude_clean_plus_min": "8.000000",
+  "magnitude_clean_plus_max": "18.000000",
+  "magnitude_mixed_min": "-12.000000",
+  "magnitude_mixed_max": "2.000000",
+  "magnitude_clean_minus_min": "-35.000000",
+  "magnitude_clean_minus_max": "-20.000000",
   "up_suspected_big_mover": false,
   "up_big_mover": false,
-  "down_suspected_big_mover": false,
+  "down_suspected_big_mover": true,
   "down_big_mover": false,
-  "key_readout_comment": "",
+  "key_readout_comment": "This is an incremental conference update, not a confirmed randomized efficacy readout. The 250-patient open-label cohort previously showed encouraging immune responses and sponsor-reported recurrence reductions versus historical comparisons. The amended randomized trial allows up to 2,000 patients, measures invasive breast cancer-free survival, and schedules analyses after 28, 56 and 133 events. Historical comparisons and analyses excluding early recurrences cannot establish the same benefit as a randomized comparison. Clean+ requires meaningful new evidence beyond the existing claims; repeated immune-response findings alone may disappoint. ([investor.greenwichlifesciences.com](https://investor.greenwichlifesciences.com/news-events/press-releases/detail/134/of-abstracts-at-sabcs-2026))",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
+  "move_analysis_ai_reasoning": "The December 9, 2026 posters are a follow-up milestone, not a promised announcement of the randomized Phase 3 result. We assign a 30\u201340% chance of clearly favorable new evidence that investors reward, a 45\u201355% chance of mixed findings, and a 10\u201320% chance of clearly unfavorable findings. These probabilities concern this presentation, not eventual approval. The announcement establishes the presentation date but does not commit to an unblinded randomized analysis. ([investor.greenwichlifesciences.com](https://investor.greenwichlifesciences.com/news-events/press-releases/detail/134/of-abstracts-at-sabcs-2026))\n\nHistorically, 47.7% of oncology programs entering Phase 3 advanced to a regulatory filing; that provides context rather than a direct success rate for conference updates. ([go.bio.org](https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf)) GP2's earlier randomized study did not significantly improve disease-free survival overall. Its encouraging HER2-positive subgroup provides a rationale for further study, but not replicated proof of efficacy. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1804585/000160706220000206/ex99_4.htm?utm_source=openai)) The current 250-patient open-label cohort can inform safety and immune response, but cannot establish recurrence prevention as reliably as a randomized comparison. Event-driven analyses also depend on enough recurrences occurring, and repeated looks require controlled statistical testing. ([greenwichlifesciences.com](https://greenwichlifesciences.com/clinical-trials/flamingo-01-phase-iii-clinical-trial/))\n\nBPIQ reports 0 specialist hedge-fund holders across the supplied ownership history. That does not establish scientific failure, but offers little external specialist validation. At approximately $274.5 million in market capitalization and $267.7 million in enterprise value, the investment case is concentrated in GLSI-100. The supplied June financial snapshot shows $8.9 million cash and modeled runway into August 2027. The September quarterly filing reports $5.9 million cash and $9.6 million operating cash use over nine months\u2014roughly five to six months of funding from September at that spending rate, before further financing. Share sales can fund development while limiting per-share gains. ([investor.greenwichlifesciences.com](https://investor.greenwichlifesciences.com/sec-filings/content/0001493152-26-052438/form10-q.htm))\n\nAn 8\u201318% gain requires meaningful evidence beyond the sponsor's existing recurrence-reduction claims. Those claims already set a demanding expectation bar. ([investor.greenwichlifesciences.com](https://investor.greenwichlifesciences.com/news-events/press-releases/detail/131/provides-clinical-updates-on-flamingo-01)) The supplied reaction history includes modest gains and reversals after encouraging updates, supporting a -12% to +2% mixed reaction. A 20\u201335% decline remains plausible if new recurrence or safety findings materially weaken confidence in the lead program. GLSI has no listed options, so neither direction has an options-confirmed move; these ranges are fundamental scenario estimates.",
+  "catalyst_event_details": "GLSI-100 FLAMINGO-01 Phase 3 updates for preventing HER2-positive breast cancer recurrence will be presented at SABCS on December 9, 2026. ([investor.greenwichlifesciences.com](https://investor.greenwichlifesciences.com/news-events/press-releases/detail/134/of-abstracts-at-sabcs-2026))",
+  "move_analysis_created_datetime": "2026-11-18T11:32:01Z"
  },
  {
   "id": 18342,
@@ -1389,7 +1389,7 @@
   "company": {
    "ticker": "PRQR",
    "name": "ProQR",
-   "last_price": "1.10",
+   "last_price": "1.04",
    "market_cap": 155462560,
    "website": "https://www.proqr.com"
   },
@@ -2719,7 +2719,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "3.70",
+   "last_price": "3.71",
    "market_cap": 226761328,
    "website": "https://www.vandapharma.com"
   },
@@ -4054,7 +4054,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "8.80",
+   "last_price": "8.94",
    "market_cap": 584937536,
    "website": "https://cullinantherapeutics.com"
   },
@@ -6774,7 +6774,7 @@
   "company": {
    "ticker": "RZLT",
    "name": "Rezolute Bio",
-   "last_price": "4.25",
+   "last_price": "4.19",
    "market_cap": 504772032,
    "website": "https://www.rezolutebio.com"
   },
@@ -6861,28 +6861,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
+  "probability_clean_plus_min": "45.000000",
+  "probability_clean_plus_max": "55.000000",
+  "probability_mixed_min": "20.000000",
+  "probability_mixed_max": "30.000000",
+  "probability_clean_minus_min": "20.000000",
+  "probability_clean_minus_max": "30.000000",
+  "magnitude_clean_plus_min": "15.000000",
+  "magnitude_clean_plus_max": "25.000000",
+  "magnitude_mixed_min": "-15.000000",
+  "magnitude_mixed_max": "-5.000000",
+  "magnitude_clean_minus_min": "-40.000000",
+  "magnitude_clean_minus_max": "-25.000000",
   "up_suspected_big_mover": false,
   "up_big_mover": false,
-  "down_suspected_big_mover": false,
-  "down_big_mover": false,
-  "key_readout_comment": "",
-  "cmc_regulatory_risk": "",
-  "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
+  "down_suspected_big_mover": true,
+  "down_big_mover": true,
+  "key_readout_comment": "GRACE enrolled 152 patients; 62 responders entered randomized withdrawal after 22 weeks of open-label treatment. Continued relacorilant reduced loss of blood-pressure control versus placebo, with an odds ratio of 0.17 and p=0.022. However, selecting responders and substantial discontinuations limit generalization. ([sciencedirect.com](https://www.sciencedirect.com/science/article/abs/pii/S2213858725003626?utm_source=openai)) GRADIENT enrolled 137 patients and missed its primary blood-pressure endpoint. ([ir.corcept.com](https://ir.corcept.com/static-files/cc5f877d-3fec-4d68-96fa-0484bf1a80d1?utm_source=openai)) FDA also identified four probable drug-induced liver-injury cases, making chronic-treatment safety and labeling important uncertainties. ([download.open.fda.gov](https://download.open.fda.gov/crl/CRL_NDA219398_20260128.pdf))",
+  "cmc_regulatory_risk": "Low\u2013Moderate: relacorilant is already commercially supplied as Lifyorli, and FDA\u2019s oncology quality review recommended approval for all associated manufacturing facilities. ([accessdata.fda.gov](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220641Orig1s000ChemR.pdf)) Corcept uses third-party manufacturing; the Cushing\u2019s application remains a separate efficacy review following a clinical rejection. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1088856/000162828026069501/cort-20260930.htm))",
+  "key_pdufa_comment": "The December 17, 2026 decision concerns resubmitted NDA 219398 seeking traditional approval, not Accelerated Approval. FDA\u2019s December 30, 2025 rejection cited insufficient efficacy evidence and liver-injury concerns. ([download.open.fda.gov](https://download.open.fda.gov/crl/CRL_NDA219398_20260128.pdf)) Corcept subsequently reported that FDA requested an analysis combining blood pressure, glucose and weight outcomes; positive results supported its June 17 resubmission. That provides a credible approval route but does not establish that the earlier objections are resolved. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1088856/000162828026069501/cort-20260930.htm?utm_source=openai)) Corcept is an experienced commercial sponsor, and relacorilant\u2019s March 2026 ovarian-cancer approval substantially reduces manufacturing uncertainty without resolving the Cushing\u2019s benefit-risk question. Corcept is the applicant and commercial operator, rather than a royalty-only participant. ([ir.corcept.com](https://ir.corcept.com/static-files/cc5f877d-3fec-4d68-96fa-0484bf1a80d1?utm_source=openai))",
+  "move_analysis_ai_reasoning": "Clean approval is roughly a coin flip because the evidence points in both directions. FDA-requested analyses of existing trial results offer a practical path forward. But this is not a routine resubmission after a manufacturing fix: the earlier rejection challenged whether the trials established effectiveness. One positive randomized-withdrawal endpoint does not fully offset the failed second pivotal endpoint. Those features make ordinary first-review approval success rates a poor guide here. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1088856/000162828026069501/cort-20260930.htm?utm_source=openai))\n\nThe 20\u201330% Mixed range reflects approval with economically important restrictions, such as a narrower population or substantial liver-monitoring requirements. Another rejection or a requirement for a new controlled trial also remains credible. FDA\u2019s prior liver-injury findings matter particularly for long-term endocrine treatment; an oncology approval does not establish the same benefit-risk balance in Cushing\u2019s syndrome. ([download.open.fda.gov](https://download.open.fda.gov/crl/CRL_NDA219398_20260128.pdf))\n\nAt the supplied $7.4 billion market capitalization, this approval would matter, but Corcept is not dependent on it for survival. September 30 cash was $98.7 million, while cash and investments totaled $662.3 million. Third-quarter revenue reached $340.5 million across its existing businesses. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1088856/000162828026069501/cort-20260930.htm)) These support a 15\u201325% clean-approval gain and cushion\u2014but do not eliminate\u2014a 25\u201340% rejection decline. Some relacorilant sales could replace Korlym sales rather than represent entirely new revenue. The supplied history\u2019s roughly 45% opening decline after the original rejection illustrates the asset\u2019s importance. Three BPIQ specialist funds hold $260.1 million collectively: meaningful participation, but not broad specialist validation.\n\nThe decision is 28 days away. BELLA Part A and MONARCH results have already been reported, while other major clinical results are guided for 2027. European oncology approval could still affect the pre-decision share price, but it is not another FDA decision or clinical readout. ([corcept.gcs-web.com](https://corcept.gcs-web.com/news-releases/news-release-details/corcept-therapeutics-announces-third-quarter-financial-results-5?utm_source=openai)) The supplied usable December 18 options imply a 22.9% event-isolated expected move, consistent with substantial uncertainty. That supports the downside Big Mover classification; the fundamental upside range does not meet the 20% minimum threshold. All move estimates are relative to the share price immediately before the FDA decision.",
+  "catalyst_event_details": "FDA will decide on Corcept\u2019s resubmitted relacorilant NDA for Cushing\u2019s syndrome by December 17, 2026. ([ir.corcept.com](https://ir.corcept.com/static-files/21bb2db5-238f-4375-8a6d-45d281162b98?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-11-18T11:34:04Z"
  },
  {
   "id": 17408,
@@ -11319,7 +11319,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "8.80",
+   "last_price": "8.94",
    "market_cap": 584937536,
    "website": "https://cullinantherapeutics.com"
   },
@@ -12524,7 +12524,7 @@
   "company": {
    "ticker": "VIR",
    "name": "Vir Biotechnology",
-   "last_price": "9.15",
+   "last_price": "9.05",
    "market_cap": 1704377472,
    "website": "https://www.vir.bio"
   },
@@ -12714,7 +12714,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "26.18",
+   "last_price": "25.34",
    "market_cap": 1791746048,
    "website": "https://zenasbio.com"
   },
@@ -13064,7 +13064,7 @@
   "company": {
    "ticker": "PYXS",
    "name": "Pyxis Oncology",
-   "last_price": "1.38",
+   "last_price": "1.49",
    "market_cap": 168647072,
    "website": "https://www.pyxisoncology.com"
   },
@@ -13754,7 +13754,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "8.80",
+   "last_price": "8.94",
    "market_cap": 584937536,
    "website": "https://cullinantherapeutics.com"
   },
@@ -13869,7 +13869,7 @@
   "company": {
    "ticker": "ORIC",
    "name": "ORIC Pharmaceuticals",
-   "last_price": "7.65",
+   "last_price": "7.84",
    "market_cap": 795076736,
    "website": "https://www.oricpharma.com"
   },
@@ -13989,7 +13989,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "8.80",
+   "last_price": "8.94",
    "market_cap": 584937536,
    "website": "https://cullinantherapeutics.com"
   },
@@ -14264,7 +14264,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "577.34",
+   "last_price": "563.83",
    "market_cap": 24588177408,
    "website": "https://www.unither.com"
   },
@@ -15159,7 +15159,7 @@
   "company": {
    "ticker": "ABSI",
    "name": "Absci",
-   "last_price": "8.18",
+   "last_price": "8.06",
    "market_cap": 1413060736,
    "website": "https://www.absci.com"
   },
@@ -16639,7 +16639,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "26.18",
+   "last_price": "25.34",
    "market_cap": 1791746048,
    "website": "https://zenasbio.com"
   },
@@ -17224,7 +17224,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "26.22",
+   "last_price": "26.95",
    "market_cap": 1849402496,
    "website": "https://veratx.com"
   },
@@ -17284,7 +17284,7 @@
   "company": {
    "ticker": "VERA",
    "name": "Vera Therapeutics",
-   "last_price": "26.22",
+   "last_price": "26.95",
    "market_cap": 1849402496,
    "website": "https://veratx.com"
   },
@@ -17674,7 +17674,7 @@
   "company": {
    "ticker": "PRQR",
    "name": "ProQR",
-   "last_price": "1.10",
+   "last_price": "1.04",
    "market_cap": 155462560,
    "website": "https://www.proqr.com"
   },
@@ -18659,7 +18659,7 @@
   "company": {
    "ticker": "CGEM",
    "name": "Cullinan Management",
-   "last_price": "8.80",
+   "last_price": "8.94",
    "market_cap": 584937536,
    "website": "https://cullinantherapeutics.com"
   },
@@ -18714,7 +18714,7 @@
   "company": {
    "ticker": "PVLA",
    "name": "Palvella Therapeutics",
-   "last_price": "148.79",
+   "last_price": "148.60",
    "market_cap": 2142773504,
    "website": "https://palvellatx.com"
   },
@@ -18769,7 +18769,7 @@
   "company": {
    "ticker": "APMD",
    "name": "Apnimed",
-   "last_price": "16.84",
+   "last_price": "17.11",
    "market_cap": 726457152,
    "website": "https://apnimed.com"
   },
@@ -18824,7 +18824,7 @@
   "company": {
    "ticker": "AQST",
    "name": "Aquestive Therapeutics",
-   "last_price": "3.77",
+   "last_price": "3.74",
    "market_cap": 475099520,
    "website": "https://www.aquestive.com"
   },
@@ -18934,7 +18934,7 @@
   "company": {
    "ticker": "UNCY",
    "name": "Unicycive Therapeutics",
-   "last_price": "3.60",
+   "last_price": "3.55",
    "market_cap": 104188688,
    "website": "https://unicycive.com"
   },
@@ -18994,7 +18994,7 @@
   "company": {
    "ticker": "ETON",
    "name": "Eton Pharmaceuticals",
-   "last_price": "61.99",
+   "last_price": "62.55",
    "market_cap": 1787928960,
    "website": "https://www.etonpharma.com"
   },
@@ -19086,28 +19086,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": null,
-  "probability_clean_plus_max": null,
-  "probability_mixed_min": null,
-  "probability_mixed_max": null,
-  "probability_clean_minus_min": null,
-  "probability_clean_minus_max": null,
-  "magnitude_clean_plus_min": null,
-  "magnitude_clean_plus_max": null,
-  "magnitude_mixed_min": null,
-  "magnitude_mixed_max": null,
-  "magnitude_clean_minus_min": null,
-  "magnitude_clean_minus_max": null,
-  "up_suspected_big_mover": false,
+  "probability_clean_plus_min": "35.000000",
+  "probability_clean_plus_max": "45.000000",
+  "probability_mixed_min": "30.000000",
+  "probability_mixed_max": "40.000000",
+  "probability_clean_minus_min": "20.000000",
+  "probability_clean_minus_max": "30.000000",
+  "magnitude_clean_plus_min": "25.000000",
+  "magnitude_clean_plus_max": "45.000000",
+  "magnitude_mixed_min": "-20.000000",
+  "magnitude_mixed_max": "-5.000000",
+  "magnitude_clean_minus_min": "-45.000000",
+  "magnitude_clean_minus_max": "-25.000000",
+  "up_suspected_big_mover": true,
   "up_big_mover": false,
-  "down_suspected_big_mover": false,
+  "down_suspected_big_mover": true,
   "down_big_mover": false,
-  "key_readout_comment": "",
+  "key_readout_comment": "LOTUS is a new efficacy readout, not follow-up data. The double-blind, placebo-controlled trial enrolled 150 children receiving seven days of treatment. Its primary endpoint measures time to complete resolution of RSV clinical signs using RESOLVE-P, a caregiver-observed scoring tool. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1177648/000119312526466170/enta-20260930.htm)) Earlier randomized pediatric evidence supports antiviral activity and tolerability, but the reported 1.6-day complete-resolution benefit came from a post hoc analysis\u2014an analysis selected after the original study. The protocol-defined measure of improvement to mild or absent symptoms showed no benefit. ([ir.enanta.com](https://ir.enanta.com/static-files/0b9a9564-339c-4501-8c98-eab636846bf4?utm_source=openai)) Direct RESOLVE-P experience involved only 15 children, making prospective confirmation of meaningful symptom relief the central hurdle. ([ir.enanta.com](https://ir.enanta.com/news-releases/news-release-details/enanta-pharmaceuticals-announces-positive-topline-results-first?utm_source=openai))",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "",
-  "catalyst_event_details": "",
-  "move_analysis_created_datetime": null
+  "move_analysis_ai_reasoning": "LOTUS topline results are expected in Q1 2027, with enrollment complete. This pediatric Phase 2b study is separate from the adult RESOLVE trial and tests whether zelicapavir delivers clear symptom relief, not simply lower viral levels. ([ir.enanta.com](https://ir.enanta.com/news-releases/news-release-details/enanta-pharmaceuticals-reports-financial-results-its-fiscal-49?utm_source=openai))\n\nHistorically, 38.4% of infectious-disease Phase 2 programs advanced to Phase 3. That is a development benchmark, not a direct probability of a favorable stock reaction. ([bio.org](https://www.bio.org/sites/default/files/2022-04/BIO-Antibacterial-Report-2022.pdf)) Zelicapavir has randomized human evidence of antiviral activity, but its earlier pediatric complete-resolution benefit was identified after the study, while the original mild-or-absent symptom measure showed no benefit. ([ir.enanta.com](https://ir.enanta.com/static-files/0b9a9564-339c-4501-8c98-eab636846bf4?utm_source=openai)) Adult RSVHR also missed its original primary endpoint despite encouraging secondary findings. These distinctions support a 35\u201345% chance of an unequivocally favorable outcome rather than treating prior results as confirmation. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1177648/000119312526466170/enta-20260930.htm))\n\nThe expectation bar is convincing symptom relief with acceptable safety. LOTUS enrolled 150 children, but prior experience with its caregiver-scored RESOLVE-P measure involved only 15 children. Caregiver assessments and differences in illness severity can affect the result. Antiviral activity without clear symptom success could therefore produce a 5\u201320% decline rather than a neutral reaction. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1177648/000119312526466170/enta-20260930.htm))\n\nAt the supplied $239.7 million market capitalization, convincing pediatric efficacy could materially increase the program's value, supporting 25\u201345% upside. BPIQ reports three specialist hedge funds, stable over the latest three quarters but down from four: selective support, not broad specialist conviction. The supplied historical pediatric event's approximately 20% intraday gain supports meaningful sensitivity without establishing a repeatable closing return. Cash and marketable securities of $194.5 million, retained royalties and company-guided runway into fiscal 2029 provide financial cushioning. A $75 million share-sale facility creates potential dilution, but immediate financing is not dependent on LOTUS. Failure could still damage confidence in an important program, supporting 25\u201345% downside. ([enanta.gcs-web.com](https://enanta.gcs-web.com/static-files/6fc546d4-0ba0-4ff9-837d-2f521a4c566c?utm_source=openai))\n\nWith the guided quarter-end more than 60 days away, options do not confirm these fundamental move ranges. Adult RESOLVE results are expected during 2027 and could arrive before the April 16 expiration, adding a separate clinical influence on the stock. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1177648/000119312526463508/enta-ex99_1.htm?utm_source=openai))",
+  "catalyst_event_details": "Zelicapavir\u2019s LOTUS Phase 2b trial in children with RSV is expected to report topline results in Q1 2027. ([ir.enanta.com](https://ir.enanta.com/news-releases/news-release-details/enanta-pharmaceuticals-reports-financial-results-its-fiscal-49?utm_source=openai))",
+  "move_analysis_created_datetime": "2026-11-18T11:32:58Z"
  },
  {
   "id": 13916,
@@ -19179,7 +19179,7 @@
   "company": {
    "ticker": "ATRA",
    "name": "Atara Biotherapeutics",
-   "last_price": "6.55",
+   "last_price": "6.51",
    "market_cap": 68975728,
    "website": "https://www.atarabio.com"
   },
@@ -21024,7 +21024,7 @@
   "company": {
    "ticker": "CYTK",
    "name": "Cytokinetics Inc",
-   "last_price": "51.47",
+   "last_price": "51.45",
    "market_cap": 7149047808,
    "website": "https://www.cytokinetics.com"
   },
@@ -21469,7 +21469,7 @@
   "company": {
    "ticker": "PHVS",
    "name": "Pharvaris B.V. ",
-   "last_price": "31.51",
+   "last_price": "31.76",
    "market_cap": 2233485312,
    "website": "https://pharvaris.com"
   },
@@ -22844,7 +22844,7 @@
   "company": {
    "ticker": "PHVS",
    "name": "Pharvaris B.V. ",
-   "last_price": "31.51",
+   "last_price": "31.76",
    "market_cap": 2233485312,
    "website": "https://pharvaris.com"
   },
@@ -22954,7 +22954,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "577.34",
+   "last_price": "563.83",
    "market_cap": 24588177408,
    "website": "https://www.unither.com"
   },
@@ -23294,7 +23294,7 @@
   "company": {
    "ticker": "ZBIO",
    "name": "Zenas BioPharma",
-   "last_price": "26.18",
+   "last_price": "25.34",
    "market_cap": 1791746048,
    "website": "https://zenasbio.com"
   },
@@ -23409,7 +23409,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "577.34",
+   "last_price": "563.83",
    "market_cap": 24588177408,
    "website": "https://www.unither.com"
   },
@@ -26544,7 +26544,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "3.70",
+   "last_price": "3.71",
    "market_cap": 226761328,
    "website": "https://www.vandapharma.com"
   },
@@ -32431,28 +32431,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": false,
-  "probability_clean_plus_min": "20.000000",
-  "probability_clean_plus_max": "30.000000",
-  "probability_mixed_min": "35.000000",
-  "probability_mixed_max": "45.000000",
-  "probability_clean_minus_min": "30.000000",
-  "probability_clean_minus_max": "40.000000",
-  "magnitude_clean_plus_min": "15.000000",
-  "magnitude_clean_plus_max": "40.000000",
-  "magnitude_mixed_min": "-12.000000",
-  "magnitude_mixed_max": "3.000000",
-  "magnitude_clean_minus_min": "-35.000000",
-  "magnitude_clean_minus_max": "-20.000000",
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "up_suspected_big_mover": false,
   "up_big_mover": false,
-  "down_suspected_big_mover": true,
+  "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "This is incremental survival follow-up, not a new primary-endpoint binary. The uncontrolled, single-center trial enrolled 40 patients; 38 evaluable patients previously achieved median tumor fibrosis of 51.5%, exceeding the prespecified 35% threshold. Disease-free survival now tests whether those tissue changes translate into lasting disease control. Small numbers, differing sarcoma subtypes and no randomized comparator limit conclusions about efti's contribution. ([immutep.com](https://www.immutep.com/dw/uploads/2025/11/EFTISARC-NEO-CTOS-final.pdf)) Pembrolizumab plus radiotherapy already has randomized evidence of benefit, so comparison against radiotherapy alone would not establish efti's added value. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11842127/pdf/nihms-2038542.pdf?utm_source=openai))",
+  "key_readout_comment": "",
   "cmc_regulatory_risk": "",
   "key_pdufa_comment": "",
-  "move_analysis_ai_reasoning": "The November 19 presentation adds clinically important follow-up to an already-positive tissue-response result. We view it as a moderately important catalyst rather than a fresh pivotal test. Historically, 24.6% of oncology Phase 2 programs advanced to Phase 3; that is a development benchmark, not a direct probability of a favorable stock reaction. Prior success in this trial supports the biology, but it does not establish a survival benefit. ([immutep.com](https://www.immutep.com/immutep-announces-upcoming-poster-presentations-at-ctos-2026-and-esmo-immuno-oncology-advanced-therapies-congress-2026/?utm_source=openai))\n\nOur 20\u201330% clearly favorable probability requires convincing disease-free survival, adequate follow-up and results that look competitive after accounting for patient risk. With only 40 enrolled patients, a few recurrences or differences in follow-up can materially affect the estimates. There is no randomized comparison isolating efti, and pembrolizumab with radiotherapy has already improved disease-free survival in a separate randomized trial. Encouraging but inconclusive survival results therefore belong in the substantial 35\u201345% Mixed range. ([immutep.com](https://www.immutep.com/dw/uploads/2025/11/EFTISARC-NEO-CTOS-final.pdf))\n\nThe supplied market capitalization is $19.8 million, and BPIQ's specialist hedge-fund count is zero, with no positions across the supplied four-quarter history. This is a severe-microcap setup: liquidity, financing and corporate-survival risks warrant particular caution. The company's failed TACTI-004 lung-cancer study and identified manufacturing-scale differences also make investors likely to demand stronger evidence before assigning substantial value to efti again. Those findings do not prove the sarcoma regimen ineffective, but they create an additional hurdle for future development. ([immutep.com](https://www.immutep.com/immutep-quarterly-activities-report-q1-fy27/))\n\nThe latest company-reported cash and term deposits were A$48.5 million at September 30, with projected runway well into the first half of 2028. That provides breathing room, although future registration-directed studies require resources and could create financing needs. Sarcoma is now one of efti's intended development priorities, alongside selected head-and-neck cancer, while IMP761 provides another source of potential value. ([immutep.com](https://www.immutep.com/immutep-quarterly-activities-report-q1-fy27/))\n\nWe estimate a 15\u201340% gain for unusually persuasive results, versus a 20\u201335% decline if survival materially undermines the program. Cash and other programs provide some support, but cash is not a guaranteed share-price floor. The supplied historical reactions show that routine favorable updates have often produced small moves, supporting restraint on upside; ambiguous results could still fall 12% or gain only 3%. There are no listed options, so neither direction receives options-based big-mover confirmation. The November 10 IMP761 Phase 1 update could affect the starting share price, but it is a separate clinical question.",
-  "catalyst_event_details": "Eftilagimod alfa plus pembrolizumab and radiotherapy Phase 2 EFTISARC-NEO survival follow-up in resectable soft tissue sarcoma will be presented November 19, 2026, at CTOS. ([immutep.com](https://www.immutep.com/immutep-announces-upcoming-poster-presentations-at-ctos-2026-and-esmo-immuno-oncology-advanced-therapies-congress-2026/?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-11-06T21:56:35Z"
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 17478,
@@ -32714,7 +32714,7 @@
   "company": {
    "ticker": "UTHR",
    "name": "United Therapeutics",
-   "last_price": "577.34",
+   "last_price": "563.83",
    "market_cap": 24588177408,
    "website": "https://www.unither.com"
   },
@@ -35274,7 +35274,7 @@
   "company": {
    "ticker": "PVLA",
    "name": "Palvella Therapeutics",
-   "last_price": "148.79",
+   "last_price": "148.60",
    "market_cap": 2142773504,
    "website": "https://palvellatx.com"
   },
@@ -35329,7 +35329,7 @@
   "company": {
    "ticker": "CATX",
    "name": "Perspective Therapeutics",
-   "last_price": "0.78",
+   "last_price": "0.75",
    "market_cap": 94203952,
    "website": "https://www.perspectivetherapeutics.com"
   },
@@ -39899,7 +39899,7 @@
   "company": {
    "ticker": "ABBV",
    "name": "AbbVie",
-   "last_price": "282.55",
+   "last_price": "283.00",
    "market_cap": 505555943424,
    "website": "https://www.abbvie.com"
   },
@@ -42523,7 +42523,7 @@
   "company": {
    "ticker": "VNDA",
    "name": "Vanda Pharmaceuticals Inc.",
-   "last_price": "3.70",
+   "last_price": "3.71",
    "market_cap": 226761328,
    "website": "https://www.vandapharma.com"
   },
@@ -45008,7 +45008,7 @@
   "company": {
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "last_price": "930.86",
+   "last_price": "931.55",
    "market_cap": 97813053440,
    "website": "https://www.regeneron.com"
   },
@@ -45035,28 +45035,28 @@
   "is_hedge_fund_pick": false,
   "is_hedge_fund_avoid": false,
   "is_high_mgmt_interest": true,
-  "probability_clean_plus_min": "75.000000",
-  "probability_clean_plus_max": "85.000000",
-  "probability_mixed_min": "5.000000",
-  "probability_mixed_max": "15.000000",
-  "probability_clean_minus_min": "10.000000",
-  "probability_clean_minus_max": "20.000000",
-  "magnitude_clean_plus_min": "0.300000",
-  "magnitude_clean_plus_max": "1.500000",
-  "magnitude_mixed_min": "-1.500000",
-  "magnitude_mixed_max": "-0.250000",
-  "magnitude_clean_minus_min": "-4.000000",
-  "magnitude_clean_minus_max": "-2.000000",
+  "probability_clean_plus_min": null,
+  "probability_clean_plus_max": null,
+  "probability_mixed_min": null,
+  "probability_mixed_max": null,
+  "probability_clean_minus_min": null,
+  "probability_clean_minus_max": null,
+  "magnitude_clean_plus_min": null,
+  "magnitude_clean_plus_max": null,
+  "magnitude_mixed_min": null,
+  "magnitude_mixed_max": null,
+  "magnitude_clean_minus_min": null,
+  "magnitude_clean_minus_max": null,
   "up_suspected_big_mover": false,
   "up_big_mover": false,
   "down_suspected_big_mover": false,
   "down_big_mover": false,
-  "key_readout_comment": "NIMBLE was a randomized, double-blind, placebo-controlled Phase 3 trial with 284 participants across four groups. The primary analysis compared 64 cemdisiran patients with 59 placebo patients: every-12-week dosing improved the daily-function score by 2.3 points versus placebo at week 24 (p=0.0005). Key secondary endpoints also succeeded, including a 2.8-point placebo-adjusted improvement in measured muscle weakness. No serious or meningococcal infections occurred with cemdisiran during the blinded period. A pneumonia death during extension treatment warrants attention; the investigator and sponsor differed on treatment relatedness. The principal limitations are one pivotal trial, a relatively small monotherapy comparison, and limited exposure for detecting rare infections. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/42030965/?utm_source=openai))",
-  "cmc_regulatory_risk": "Moderate: an RNA-based injectable introduces manufacturing requirements distinct from Regeneron\u2019s established antibody products. Alnylam completed manufacturing technology-transfer obligations in early 2025, with third-party manufacturing used historically; product-specific commercial-scale consistency and facility readiness remain approval considerations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1178670/000162828026007497/alny-20251231.htm))",
-  "key_pdufa_comment": "This is an original NDA seeking traditional approval based on clinical benefit, rather than an Accelerated Approval surrogate endpoint. FDA granted Priority Review following use of a purchased voucher; the review speed is not an independent endorsement of efficacy. Confirmed timing remains November 2026, rather than a specific November 30 deadline. The disclosed review history identifies no cemdisiran-specific prior rejection, filing refusal, clinical hold, advisory committee concern, or review extension. ([investor.regeneron.com](https://investor.regeneron.com/news-releases/news-release-details/cemdisiran-regulatory-submissions-accepted-review-fda-and-ema?utm_source=openai)) Regeneron is an experienced commercial sponsor, but its EYLEA HD and linvoseltamab applications previously encountered third-party manufacturing-related rejections; those histories do not establish a defect in cemdisiran\u2019s supply chain. ([investor.regeneron.com](https://investor.regeneron.com/static-files/614996bd-c8d3-4d2a-b8f9-62dcc4dba2c1?utm_source=openai)) Regeneron controls worldwide development, manufacturing and commercialization, while Alnylam receives approval milestones and tiered double-digit royalties reaching 15% of global sales. ([investor.regeneron.com](https://investor.regeneron.com/news-releases/news-release-details/cemdisiran-regulatory-submissions-accepted-review-fda-and-ema))",
-  "move_analysis_ai_reasoning": "The 75\u201385% clean-positive range reflects convincing randomized evidence on daily function and muscle weakness, rather than filing acceptance alone. This is stronger evidence than a small uncontrolled registration study, but one pivotal trial and limited long-term safety exposure leave meaningful uncertainty. Expected complement-related infection precautions would not themselves constitute a disappointing outcome; unexpectedly burdensome restrictions would. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/42030965/?utm_source=openai))\n\nManufacturing is a separate consideration. Regeneron has extensive launch experience, so this is not a first-commercial-product situation. However, cemdisiran uses a different manufacturing technology from its established antibodies. Completed technology transfer is constructive, but does not by itself establish commercial validation or regulatory clearance of every manufacturing step. These considerations support retaining a 10\u201320% nonapproval range. ([investor.regeneron.com](https://investor.regeneron.com/news-releases/news-release-details/cemdisiran-regulatory-submissions-accepted-review-fda-and-ema))\n\nUsing the supplied financial snapshot, Regeneron\u2019s approximately $93.4 billion market capitalization and $9.3 billion cash balance make cemdisiran a growth opportunity rather than a financing-dependent survival event. Approval appears substantially anticipated, supporting only 0.30\u20131.50% upside. A restrictive outcome could produce a 0.25\u20131.50% decline, while rejection could cost 2\u20134%, including disappointment about the broader complement program. These estimates are relative to the stock immediately before the decision. The supplied company history also shows generally small reactions to routine approvals. One BPIQ specialist fund holds $13.8 million; that narrow ownership carries little negative significance for a diversified company of this size.\n\nOther results could influence the stock before the decision. Phase 3 results in PNH, a rare blood disorder, are expected in Q4 2026, while geographic-atrophy eye-disease results are expected in Q1 2027. November Phase 2 results in POTS, a condition affecting heart rate on standing, and a pending EYLEA HD prefilled-syringe FDA decision could also overlap the options window. ([investor.regeneron.com](https://investor.regeneron.com/static-files/b2ed1583-79e3-4b97-a52c-33cd61710185)) The supplied December 4 options are usable and imply a 7.7% total move, with a 4.2% estimated event-isolated move. Both exceed the expected cemdisiran-only reaction, but overlapping company events mean this pricing cannot be attributed to cemdisiran alone. Neither direction qualifies as a Big Mover.",
-  "catalyst_event_details": "An FDA decision on cemdisiran\u2019s NDA for adults with AChR-antibody-positive generalized myasthenia gravis is expected in November 2026. ([investor.regeneron.com](https://investor.regeneron.com/news-releases/news-release-details/cemdisiran-regulatory-submissions-accepted-review-fda-and-ema?utm_source=openai))",
-  "move_analysis_created_datetime": "2026-11-06T22:08:31Z"
+  "key_readout_comment": "",
+  "cmc_regulatory_risk": "",
+  "key_pdufa_comment": "",
+  "move_analysis_ai_reasoning": "",
+  "catalyst_event_details": "",
+  "move_analysis_created_datetime": null
  },
  {
   "id": 19293,
@@ -45173,7 +45173,7 @@
   "company": {
    "ticker": "ETON",
    "name": "Eton Pharmaceuticals",
-   "last_price": "61.99",
+   "last_price": "62.55",
    "market_cap": 1787928960,
    "website": "https://www.etonpharma.com"
   },
@@ -45287,7 +45287,7 @@
   "company": {
    "ticker": "ZYME",
    "name": "Zymeworks",
-   "last_price": "26.74",
+   "last_price": "27.27",
    "market_cap": 1826043008,
    "website": "https://www.zymeworks.com"
   },
